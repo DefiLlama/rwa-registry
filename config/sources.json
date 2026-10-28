@@ -1,0 +1,227 @@
+{
+  "sources": {
+    "http": {
+      "timeoutMs": 30000,
+      "connectTimeoutMs": 30000
+    }
+  },
+  "venues": {
+    "binance": {
+      "urls": {
+        "api": "https://fapi.binance.com/fapi/v1"
+      }
+    },
+    "bybit": {
+      "urls": {
+        "api": "https://api.bybit.com/v5/market"
+      }
+    },
+    "okx": {
+      "urls": {
+        "api": "https://www.okx.com/api/v5"
+      }
+    },
+    "gate": {
+      "urls": {
+        "api": "https://api.gateio.ws/api/v4/futures/usdt"
+      }
+    }
+  },
+  "discover": {
+    "retries": 2,
+    "retryDelayMs": 2000,
+    "sources": {
+      "etherscan": {
+        "baseUrl": "https://api.etherscan.io/v2/api",
+        "concurrency": 3,
+        "minIntervalMs": 250,
+        "timeoutMs": 30000,
+        "apiKey": "<ETHERSCAN_API_KEY>",
+        "batchSize": 5,
+        "chainIds": {
+          "ethereum": 1,
+          "arbitrum": 42161,
+          "bsc": 56,
+          "monad": 143,
+          "mantle": 5000,
+          "optimism": 10,
+          "hyperevm": 999,
+          "robinhood": 4663,
+          "base": 8453,
+          "polygon": 137,
+          "avax": 43114,
+          "gnosis": 100,
+          "xdai": 100,
+          "fraxtal": 252,
+          "linea": 59144,
+          "sonic": 146,
+          "plasma": 9745,
+          "celo": 42220,
+          "unichain": 130,
+          "xdc": 50,
+          "berachain": 80094,
+          "sei": 1329,
+          "stable": 988,
+          "megaeth": 4326,
+          "arbitrum-nova": 42170,
+          "katana": 747474,
+          "taiko": 167000,
+          "abstract": 2741,
+          "wc": 480,
+          "bittorrent": 199,
+          "arc": 5042
+        }
+      },
+      "evmCode": {
+        "concurrency": 8,
+        "minIntervalMs": 50,
+        "timeoutMs": 15000,
+        "maxSteps": 40,
+        "firstBlocks": {
+          "arbitrum": 22207817
+        }
+      },
+      "alchemy": {
+        "baseUrl": "https://{subdomain}.g.alchemy.com/v2",
+        "apiKey": "<ALCHEMY_KEY>",
+        "concurrency": 4,
+        "minIntervalMs": 100,
+        "timeoutMs": 30000,
+        "subdomains": {
+          "ethereum": "eth-mainnet",
+          "arbitrum": "arb-mainnet",
+          "optimism": "opt-mainnet",
+          "bsc": "bnb-mainnet",
+          "base": "base-mainnet",
+          "polygon": "polygon-mainnet",
+          "mantle": "mantle-mainnet",
+          "monad": "monad-mainnet",
+          "ink": "ink-mainnet",
+          "hyperevm": "hyperliquid-mainnet",
+          "robinhood": "robinhood-mainnet",
+          "xlayer": "xlayer-mainnet",
+          "solana": "solana-mainnet",
+          "avax": "avax-mainnet",
+          "gnosis": "gnosis-mainnet",
+          "xdai": "gnosis-mainnet",
+          "fantom": "fantom-mainnet",
+          "linea": "linea-mainnet",
+          "sonic": "sonic-mainnet",
+          "celo": "celo-mainnet",
+          "scroll": "scroll-mainnet",
+          "unichain": "unichain-mainnet",
+          "blast": "blast-mainnet",
+          "sei": "sei-mainnet",
+          "zksync": "zksync-mainnet",
+          "era": "zksync-mainnet",
+          "berachain": "berachain-mainnet",
+          "polygon-zkevm": "polygonzkevm-mainnet",
+          "zora": "zora-mainnet",
+          "wc": "worldchain-mainnet",
+          "soneium": "soneium-mainnet",
+          "abstract": "abstract-mainnet",
+          "ronin": "ronin-mainnet",
+          "metis": "metis-mainnet",
+          "astar": "astar-mainnet",
+          "fraxtal": "frax-mainnet",
+          "arbitrum-nova": "arbnova-mainnet",
+          "opbnb": "opbnb-mainnet"
+        }
+      },
+      "blockscout": {
+        "concurrency": 1,
+        "minIntervalMs": 500,
+        "timeoutMs": 30000,
+        "batchSize": 5,
+        "explorers": {
+          "robinhood": "https://robinhoodchain.blockscout.com"
+        }
+      },
+      "solana": {
+        "concurrency": 4,
+        "minIntervalMs": 1500,
+        "timeoutMs": 60000,
+        "pageSize": 1000,
+        "pagesPerRun": 20
+      },
+      "solscan": {
+        "baseUrl": "https://pro-api.solscan.io/v2.0",
+        "apiKey": "<SOLSCAN_API_KEY>",
+        "concurrency": 1,
+        "minIntervalMs": 1000,
+        "timeoutMs": 30000
+      },
+      "history": {
+        "baseUrl": "https://pro-api.llama.fi/{key}/rwa",
+        "apiKey": "<PRO_API_KEY>",
+        "concurrency": 2,
+        "minIntervalMs": 500,
+        "timeoutMs": 60000,
+        "chartKeys": {
+          "gnosis": ["xdai"],
+          "avalanche": ["avax"],
+          "exsat": ["xsat"],
+          "kaia": ["klaytn"],
+          "etherlink": ["etlk"],
+          "story": ["sty"],
+          "xrpl": ["ripple"],
+          "bitlayer": ["btr"],
+          "plume": ["plume_mainnet"]
+        }
+      },
+      "horizon": {
+        "baseUrl": "https://horizon.stellar.org",
+        "concurrency": 2,
+        "minIntervalMs": 200,
+        "timeoutMs": 30000,
+        "pageSize": 200,
+        "maxPages": 5
+      },
+      "stellarExpert": {
+        "baseUrl": "https://api.stellar.expert/explorer/public",
+        "concurrency": 1,
+        "minIntervalMs": 1000,
+        "timeoutMs": 30000
+      },
+      "xrpl": {
+        "baseUrl": "https://xrplcluster.com",
+        "concurrency": 2,
+        "minIntervalMs": 200,
+        "timeoutMs": 30000,
+        "pageSize": 200,
+        "maxPages": 10
+      },
+      "tronscan": {
+        "baseUrl": "https://apilist.tronscanapi.com/api",
+        "concurrency": 1,
+        "minIntervalMs": 1000,
+        "timeoutMs": 30000
+      },
+      "aptos": {
+        "baseUrl": "https://api.mainnet.aptoslabs.com/v1/graphql",
+        "concurrency": 2,
+        "minIntervalMs": 200,
+        "timeoutMs": 30000
+      },
+      "sui": {
+        "baseUrl": "https://fullnode.mainnet.sui.io",
+        "concurrency": 2,
+        "minIntervalMs": 200,
+        "timeoutMs": 30000
+      },
+      "toncenter": {
+        "baseUrl": "https://toncenter.com/api/v3",
+        "apiKey": "<TONCENTER_API_KEY>",
+        "concurrency": 1,
+        "minIntervalMs": 1100,
+        "timeoutMs": 30000,
+        "pageSize": 10
+      },
+      "listings": {
+        "concurrency": 2,
+        "minIntervalMs": 200,
+        "timeoutMs": 30000
+      }
+    }
+  }
+}

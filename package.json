@@ -1,0 +1,37 @@
+{
+  "name": "@defillama/rwa-registry",
+  "version": "0.1.0",
+  "private": true,
+  "description": "The RWA registry of DefiLlama: assets, platforms and perps markets as JSON files, with their schemas, checks, CLI and release.",
+  "engines": {
+    "node": ">=22"
+  },
+  "packageManager": "pnpm@10.33.2",
+  "bin": {
+    "defillama-rwa": "dist/cli/index.js"
+  },
+  "scripts": {
+    "rwa": "tsx src/cli/index.ts",
+    "compile": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "schema": "tsx src/cli/index.ts schema",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "dependencies": {
+    "@defillama/sdk": "5.0.242",
+    "@inquirer/prompts": "7.10.1",
+    "commander": "14.0.1",
+    "csv-parse": "6.1.0",
+    "undici": "6.29.1",
+    "zod": "4.1.12"
+  },
+  "devDependencies": {
+    "@types/node": "22.18.8",
+    "prettier": "3.6.2",
+    "tsx": "4.20.6",
+    "typescript": "5.9.3",
+    "vitest": "3.2.4"
+  }
+}
