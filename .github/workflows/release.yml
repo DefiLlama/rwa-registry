@@ -1,0 +1,54 @@
+name: release
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        if: github.event.before != '0000000000000000000000000000000000000000'
+        with:
+          ref: ${{ github.event.before }}
+          path: base
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - name: validate
+        run: |
+          # A base with no registry file is the empty repository before the migrate stages, so nothing in it is new.
+          if [ -n "$(find base/registry -name '*.json' 2>/dev/null | head -1)" ]; then pnpm rwa validate --base base/registry; else pnpm rwa validate; fi
+      - run: pnpm typecheck
+      - run: pnpm test
+      - run: pnpm format:check
+      - name: build
+        run: pnpm rwa build --out dist --commit ${{ github.sha }}
+      - name: publish registry.json as latest
+        uses: ncipollo/release-action@v1
+        with:
+          tag: latest
+          name: Latest registry
+          commit: ${{ github.sha }}
+          artifacts: dist/registry.json
+          allowUpdates: true
+          replacesArtifacts: true
+      - name: Discord line on failure
+        if: failure()
+        env:
+          WEBHOOK: ${{ secrets.RWA_REGISTRY_DISCORD_WEBHOOK }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          if [ -n "$WEBHOOK" ]; then
+            curl -sS -H 'Content-Type: application/json' -d "{\"content\":\"rwa-registry release failed on ${GITHUB_SHA::7}: $RUN_URL\"}" "$WEBHOOK"
+          else
+            echo "RWA_REGISTRY_DISCORD_WEBHOOK is not set: the failure sends no Discord line"
+          fi

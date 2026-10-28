@@ -1,0 +1,26 @@
+name: pr
+
+on: pull_request
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.base_ref }}
+          path: base
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - name: validate
+        run: |
+          # A base with no registry file is the empty repository before the migrate stages, so nothing in it is new.
+          if [ -n "$(find base/registry -name '*.json' 2>/dev/null | head -1)" ]; then pnpm rwa validate --base base/registry; else pnpm rwa validate; fi
+      - run: pnpm typecheck
+      - run: pnpm test
+      - run: pnpm format:check
