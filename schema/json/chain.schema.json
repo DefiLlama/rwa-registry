@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "label": {
+      "type": "string"
+    },
+    "aliases": {
+      "anyOf": [
+        {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "addressFamily": {
+      "type": "string",
+      "enum": [
+        "evm",
+        "solana",
+        "tron",
+        "ton",
+        "stellar",
+        "xrpl",
+        "aptos",
+        "sui",
+        "starknet",
+        "cosmos",
+        "icp",
+        "hedera",
+        "algorand"
+      ]
+    },
+    "caip2": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "sdkKey": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "burnAddresses": {
+      "anyOf": [
+        {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        {
+          "type": "null"
+        }
+      ]
+    }
+  },
+  "required": [
+    "slug",
+    "label",
+    "addressFamily"
+  ],
+  "additionalProperties": false
+}

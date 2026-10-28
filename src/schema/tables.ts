@@ -1,0 +1,37 @@
+/**
+ * tables: every registry table's definition, registered below one line each.
+ * @dev review: src/schema/index.ts
+ */
+import { ack } from './ack';
+import { addressLabel } from './addressLabel';
+import { asset } from './asset';
+import { categoryRule } from './categoryRule';
+import { chain } from './chain';
+import type { AnyTableDefinition } from './defineTable';
+import type { TableName } from './enums';
+import { deployment } from './deployment';
+import { event } from './event';
+import { instrument } from './instrument';
+import { organization } from './organization';
+import { perpMarket } from './perpMarket';
+import { role } from './role';
+import { underlying } from './underlying';
+import { venue } from './venue';
+import { vocabulary } from './vocabulary';
+
+export const tables = {
+  chain,
+  vocabulary,
+  category_rule: categoryRule,
+  organization,
+  underlying,
+  instrument,
+  venue,
+  asset,
+  deployment,
+  perp_market: perpMarket,
+  role,
+  event,
+  address_label: addressLabel,
+  ack,
+} satisfies Record<TableName, AnyTableDefinition>;
