@@ -1,0 +1,67 @@
+import { describe, expect, it } from 'vitest';
+import { assetFile, baseTree, load } from '../fixtures/tree';
+
+describe('loadRegistry', () => {
+  it('reads an asset file into asset, deployment, label and role rows, and a market venue from its folder', () => {
+    const { registry, problems } = load(baseTree());
+
+    expect(problems).toEqual([]);
+    expect(registry.asset).toEqual([expect.objectContaining({ platform: 'xstocks', slug: 'tslax' })]);
+    expect(registry.deployment.map((row) => [row.asset, row.chain, row.primary ?? null])).toEqual([
+      ['tslax', 'solana', true],
+      ['tslax', 'ethereum', null],
+    ]);
+    expect(registry.address_label).toEqual([
+      expect.objectContaining({ deployment: 'solana:XsDoVfqeBukxuZHWhdvWHBhgEHjGNst4MLodqsJHzoB' }),
+    ]);
+    expect(registry.role).toEqual([expect.objectContaining({ target: { table: 'asset', key: 'tslax' } })]);
+    expect(registry.perp_market).toEqual([expect.objectContaining({ venue: 'xyz', symbol: 'TSLA' })]);
+  });
+
+  it("takes an underlying's class from its folder, and fails a folder that is no class", () => {
+    const { registry, problems } = load({
+      ...baseTree(),
+      'reference/underlyings/stocks/apple-inc.json': { slug: 'apple-inc', name: 'Apple Inc.', exposure: 'public-equities' },
+    });
+
+    expect(registry.underlying.map((row) => [row.slug, row.class])).toEqual([
+      ['tesla-inc', 'equity'],
+      ['apple-inc', 'stocks'],
+    ]);
+    expect(problems).toEqual([
+      expect.objectContaining({ file: 'reference/underlyings/stocks/apple-inc.json', error: 'UnderlyingClassError' }),
+    ]);
+  });
+
+  it('reads the acks from acks/ beside the registry, and refuses an ack inside it', () => {
+    const ack = { slug: 'tslax-flows', guard: 'flows-hidden', asset: 'tslax', from: '2026-01-01', reason: 'r', resolve: 'r' };
+    const { registry, problems } = load({ ...baseTree(), '../acks/tslax-flows.json': ack, 'acks/old-flows.json': ack });
+
+    expect(registry.ack).toEqual([expect.objectContaining({ slug: 'tslax-flows' })]);
+    expect(problems).toEqual([expect.objectContaining({ file: 'acks/old-flows.json', error: 'UnknownPathError' })]);
+  });
+
+  it("takes an organization's kind from its home: a kind folder, an asset folder or a venue folder", () => {
+    const { registry } = load(baseTree());
+
+    expect(registry.organization.map((row) => [row.slug, row.kind])).toEqual([
+      ['xstocks', 'platform'],
+      ['trade-xyz', 'venue-operator'],
+      ['backed-assets-je-limited', 'issuer'],
+    ]);
+  });
+
+  it('needs a platform.json of kind platform in every asset folder, in one home only', () => {
+    const { problems } = load({
+      ...baseTree(),
+      'assets/foo/foo-token.json': assetFile('foo-token', 9001),
+      'reference/organizations/issuer/xstocks.json': { identity: { slug: 'xstocks', name: 'xStocks' } },
+    });
+
+    expect(problems.map((problem) => problem.error).sort()).toEqual([
+      'DuplicateKeyError',
+      'PlatformFolderError',
+      'PlatformFolderError',
+    ]);
+  });
+});
