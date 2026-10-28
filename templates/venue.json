@@ -1,0 +1,22 @@
+{
+  "slug": "hibachi",
+  "organization": "hibachi",
+  "parent": null,
+  "venueType": "dex",
+  "chain": "arbitrum",
+  "adapter": "hibachi",
+  "published": false,
+  "makerFeeBps": null,
+  "takerFeeBps": null,
+  "deployerFeeShare": null,
+  "fundingRetentionPct": null,
+  "oracleProvider": null,
+  "accessModel": "permissionless",
+  "rwaClassification": "programmable-finance",
+  "conventionNote": null,
+  "website": null,
+  "issuer": null,
+  "marginAsset": null,
+  "roles": [],
+  "events": []
+}

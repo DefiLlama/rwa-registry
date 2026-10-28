@@ -1,0 +1,34 @@
+# Templates
+
+Each file here is one row an `add` command writes, laid out as its file: the same blocks, every field in schema order. Copy the file, fill it, and pass the copy with `--from`:
+
+```
+cp templates/asset.json ionqx.json
+pnpm rwa add asset --from ionqx.json --dry-run
+pnpm rwa add asset --from ionqx.json
+```
+
+The command runs the same checks as the flag form on a copy of the registry. On an error it prints `file: message`, writes nothing and exits 1; `--dry-run` prints the file it would write.
+
+## Filling one
+
+- Replace every example value. A field that holds `null` is optional, and a list you do not need stays `[]`.
+- Leave `slug`, `legacyId` and `legacyPid` null where the template has them null: the command makes the slug from the name, label or canonical market id, gives a new asset the next legacy id, and gives a new market or organization none.
+- A vocabulary field takes a slug from `registry/reference/vocabularies/`. A value that is not there is refused, and the message names the nearest one.
+- A row a field names must exist first: the platform before its assets, the underlying before an asset or market that tracks it, the venue before its markets, the organization before a role or venue names it, and the category rule for an asset's structure and exposure (`add rule`).
+- An identifier needs `scheme`, `value` and the `source` URL it was read from; the command then marks it verified. One without a source is written unverified, and `validate --base` fails it on a new row.
+- A key the schema does not know is refused.
+
+## The files
+
+| Template                | Command            | Writes                                       | Notes                                                                                                                                                                                                                                                                                                                                                              |
+| ----------------------- | ------------------ | -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `asset.json`            | `add asset`        | `assets/<platform>/<slug>.json`              | `platform` names the folder and is left out of the file. A deployment without `deployedAt` is dated from the chain; `--no-discover` refuses it instead. The deployment marked `primary` names the primary chain. `roles` needs one issuer, which the published issuer name and its `protocolIds` come from; the other roles, the label and the event are examples. |
+| `platform.json`         | `add platform`     | `assets/<slug>/platform.json`                | An asset folder needs it before its first asset.                                                                                                                                                                                                                                                                                                                   |
+| `organization.json`     | `add organization` | `reference/organizations/<kind>/<slug>.json` | `kind` names the folder. A platform goes through `platform.json`, a venue operator through `add venue`.                                                                                                                                                                                                                                                            |
+| `venue.json`            | `add venue`        | `perps/<slug>/venue.json`                    | Its organization must exist. `published` stays false until the server's adapter is merged.                                                                                                                                                                                                                                                                         |
+| `market.json`           | `add market`       | `perps/<venue>/<lowercase symbol>.json`      | `venue` names the folder. Fill `tracks.underlying` or `tracks.asset`, not both. A market has no roles; `oracleProvider` holds only a market whose oracle differs from the venue's. Leave `events` empty, and the command asks the venue for the listing date.                                                                                                      |
+| `chain.json`            | `add chain`        | `reference/chains/<slug>.json`               | `burnAddresses` left null takes the burn addresses of the address family.                                                                                                                                                                                                                                                                                          |
+| `underlying.json`       | `add underlying`   | `reference/underlyings/<class>/<slug>.json`  | `class` names the folder and is left out of the file; `exposure` is the asset group it is.                                                                                                                                                                                                                                                                         |
+| `vocabulary-value.json` | `add value`        | `reference/vocabularies/<vocabulary>.json`   | Added in slug order.                                                                                                                                                                                                                                                                                                                                               |
+| `category-rule.json`    | `add rule`         | `reference/vocabularies/category-rules.json` | Kept sorted by structure, then exposure.                                                                                                                                                                                                                                                                                                                           |

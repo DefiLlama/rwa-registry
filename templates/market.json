@@ -1,0 +1,33 @@
+{
+  "venue": "xyz",
+  "identity": {
+    "symbol": "IONQ",
+    "name": null,
+    "legacyId": null,
+    "aliases": null
+  },
+  "tracks": {
+    "underlying": "ionq-inc",
+    "asset": null,
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": null,
+    "marginAsset": null,
+    "pair": "IONQ-USDC",
+    "makerFeeBps": null,
+    "takerFeeBps": null,
+    "session": null
+  },
+  "sources": {
+    "oracleProvider": "Pyth equity feed"
+  },
+  "about": {
+    "description": null,
+    "logo": null,
+    "refLinks": null,
+    "website": null,
+    "issuer": null
+  },
+  "events": []
+}

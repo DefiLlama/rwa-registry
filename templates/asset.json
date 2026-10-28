@@ -1,0 +1,137 @@
+{
+  "platform": "xstocks",
+  "identity": {
+    "slug": null,
+    "symbol": "IONQx",
+    "name": "IonQ xStock",
+    "legacyId": null,
+    "canonicalMarketId": "IONQx"
+  },
+  "exposure": {
+    "underlying": "ionq-inc",
+    "instrument": null,
+    "wraps": null
+  },
+  "class": {
+    "structure": "stock-backed",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "stablecoin": null,
+    "governance": null,
+    "flagReason": null
+  },
+  "terms": {
+    "redeemable": null,
+    "cexListed": null,
+    "kycForMintRedeem": null,
+    "kycToTransferHold": null,
+    "transferable": null,
+    "selfCustody": null,
+    "yieldBearing": null,
+    "minimumInvestment": null,
+    "currency": null,
+    "redemptionFrequency": null,
+    "valueModel": null,
+    "accessRegime": null,
+    "attestationFrequency": null
+  },
+  "sources": {
+    "coingeckoId": null,
+    "protocolIds": null,
+    "identifiers": null,
+    "isinNote": null,
+    "llamaAttestationProof": null
+  },
+  "about": {
+    "description": null,
+    "logo": null,
+    "registryInfo": null,
+    "links": {
+      "website": null,
+      "twitter": null,
+      "docs": null,
+      "linkedin": null,
+      "discord": null,
+      "telegram": null,
+      "github": null,
+      "refLinks": null
+    }
+  },
+  "review": {
+    "activeAumReviewed": false,
+    "suspicious": null,
+    "delisted": null,
+    "llamaGradeAttestation": null
+  },
+  "deployments": [
+    {
+      "chain": "solana",
+      "address": "XsExampLeMint11111111111111111111111111111",
+      "aliases": null,
+      "deployedAt": "2026-10-20",
+      "primary": true,
+      "standard": null,
+      "bridgedFrom": null,
+      "bridgeMethod": null,
+      "labels": [
+        {
+          "address": "ExampLeHo1der111111111111111111111111111",
+          "kind": "excluded-holder",
+          "from": null,
+          "to": null,
+          "note": null
+        }
+      ],
+      "events": []
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x1234567890abcdef1234567890abcdef12345678",
+      "aliases": null,
+      "deployedAt": "2026-10-20",
+      "primary": null,
+      "standard": null,
+      "bridgedFrom": null,
+      "bridgeMethod": null,
+      "labels": [],
+      "events": []
+    }
+  ],
+  "roles": [
+    {
+      "organization": "backed-assets-je-limited",
+      "kind": "issuer",
+      "from": null,
+      "to": null,
+      "sourceLinks": ["https://assets.backed.fi/products/ionq-xstock"],
+      "protocolIds": null
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle",
+      "from": null,
+      "to": null,
+      "sourceLinks": null,
+      "protocolIds": null
+    },
+    {
+      "organization": "the-network-firm",
+      "kind": "auditor",
+      "from": null,
+      "to": null,
+      "sourceLinks": null,
+      "protocolIds": null
+    }
+  ],
+  "events": [
+    {
+      "kind": "listing",
+      "date": "2026-10-20",
+      "successor": null,
+      "outcome": null,
+      "reason": null,
+      "links": ["https://xstocks.fi/"],
+      "note": null
+    }
+  ]
+}

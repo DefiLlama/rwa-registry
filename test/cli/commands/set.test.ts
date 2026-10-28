@@ -1,0 +1,145 @@
+import { existsSync, readFileSync, writeFileSync } from 'node:fs';
+import { dirname, join } from 'node:path';
+import { describe, expect, it } from 'vitest';
+import { baseTree, tslaxWith, writeTree } from '../../fixtures/tree';
+import { readJson, runCli } from '../runCli';
+
+const TSLAX = 'assets/xstocks/tslax.json';
+const source = ['--source', 'https://assets.backed.fi/products/tesla-xstock'];
+const set = (root: string, ...rest: string[]) => runCli(['set', ...rest, '--registry', root, ...source]);
+const patchFile = (root: string) => join(dirname(root), 'patches', `${new Date().toISOString().slice(0, 10)}.csv`);
+
+describe('set', () => {
+  it('writes a number parsed through the schema and its source row in the patch csv', async () => {
+    const root = writeTree({ ...baseTree(), [TSLAX]: tslaxWith({ minimumInvestment: 5000 }) });
+
+    const { code } = await set(root, TSLAX, 'terms.minimumInvestment', '1000', '--reason', 'new terms');
+
+    expect(code).toBe(0);
+    expect(readJson(root, TSLAX).terms.minimumInvestment).toBe(1000);
+    expect(readFileSync(patchFile(root), 'utf8').split('\n')[1]).toBe(
+      `${TSLAX},terms.minimumInvestment,5000,1000,https://assets.backed.fi/products/tesla-xstock; new terms,${new Date().toISOString().slice(0, 10)},cli set,`,
+    );
+  });
+
+  it('refuses a value that is not of the field type', async () => {
+    const root = writeTree(baseTree());
+
+    const { code, lines } = await set(root, TSLAX, 'terms.minimumInvestment', 'five');
+
+    expect(code).toBe(1);
+    expect(lines.join('\n')).toMatch(/terms\.minimumInvestment: five is not a number/);
+  });
+
+  it.each([
+    ['terms.redeemable', 'false', false],
+    ['terms.redeemable', 'unknown', null],
+    ['about.links.website', 'https://xstocks.fi/,https://backed.fi/', ['https://xstocks.fi/', 'https://backed.fi/']],
+  ])('parses %s from %s by the field type', async (path, text, value) => {
+    const root = writeTree(baseTree());
+
+    const { code } = await set(root, TSLAX, path, text);
+
+    expect(code).toBe(0);
+    expect(path.split('.').reduce((at, key) => at[key], readJson(root, TSLAX))).toEqual(value);
+  });
+
+  it('sets a nested field by its path and records that path', async () => {
+    const root = writeTree(baseTree());
+
+    const { code } = await set(root, TSLAX, 'deployments[0].deployedAt', '2025-06-29');
+
+    expect(code).toBe(0);
+    expect(readJson(root, TSLAX).deployments[0].deployedAt).toBe('2025-06-29');
+    expect(readFileSync(patchFile(root), 'utf8')).toMatch(
+      /^assets\/xstocks\/tslax\.json,deployments\[0\]\.deployedAt,/m,
+    );
+  });
+
+  it('refuses a field the table does not have, and names the block of a field given without it', async () => {
+    const root = writeTree(baseTree());
+
+    const unknown = await set(root, TSLAX, 'issuer', 'backed');
+    const bare = await set(root, TSLAX, 'redeemable', 'true');
+
+    expect(unknown.code).toBe(1);
+    expect(unknown.lines.join('\n')).toMatch(/issuer is not a field of asset/);
+    expect(bare.lines.join('\n')).toMatch(/redeemable is at terms\.redeemable in an asset file/);
+  });
+
+  it('--file replaces the whole file through the same checks, one source row per changed value', async () => {
+    const root = writeTree(baseTree());
+    const next = join(dirname(root), 'tslax.json');
+    const before = readJson(root, TSLAX);
+    writeFileSync(
+      next,
+      JSON.stringify({
+        ...before,
+        identity: { ...before.identity, name: 'Tesla xStock (TSLAx)' },
+        terms: { cexListed: false },
+      }),
+    );
+
+    const { code } = await set(root, TSLAX, '--file', next);
+
+    expect(code).toBe(0);
+    expect(readJson(root, TSLAX)).toMatchObject({
+      identity: { name: 'Tesla xStock (TSLAx)' },
+      terms: { cexListed: false },
+    });
+    expect(readFileSync(patchFile(root), 'utf8').trim().split('\n')).toHaveLength(3);
+  });
+
+  it('adds a category rule as the next item of the rules file', async () => {
+    const root = writeTree(baseTree());
+    const RULES = 'reference/vocabularies/category-rules.json';
+    const next = String(readJson(root, RULES).length);
+    const rule = { structure: 'stock-perp', exposure: 'public-equities', category: ['rwa-perps'] };
+
+    const { code } = await set(root, RULES, `[${next}]`, JSON.stringify(rule));
+
+    expect(code).toBe(0);
+    expect(readJson(root, RULES).at(-1)).toEqual(rule);
+  });
+
+  it('writes a list of rows given as JSON as rows, so a roles cell lands whole', async () => {
+    const root = writeTree(baseTree());
+    const roles = [{ organization: 'backed-assets-je-limited', kind: 'issuer', protocolIds: [6378] }];
+
+    const { code } = await set(root, TSLAX, 'roles', JSON.stringify(roles));
+
+    expect(code).toBe(0);
+    expect(readJson(root, TSLAX).roles).toEqual(roles);
+  });
+
+  it('writes a field the file lacks where the schema puts it, not after the nested rows', async () => {
+    const root = writeTree(baseTree());
+
+    const { code } = await set(root, TSLAX, 'deployments[0].aliases', 'XsDoVfqeBukxuZHWhdvWHBhgEHjGNst4MLodqsJHzoB');
+
+    expect(code).toBe(0);
+    expect(Object.keys(readJson(root, TSLAX).deployments[0])).toEqual([
+      'chain',
+      'address',
+      'aliases',
+      'deployedAt',
+      'primary',
+      'labels',
+    ]);
+  });
+
+  it('moves an organization to the folder of the kind it is set to, and logs the kind as one source row', async () => {
+    const root = writeTree(baseTree());
+    const from = 'reference/organizations/issuer/backed-assets-je-limited.json';
+    const file = readJson(root, from);
+
+    const { code } = await set(root, from, 'kind', 'oracle');
+
+    expect(code).toBe(0);
+    expect(existsSync(join(root, from))).toBe(false);
+    expect(readJson(root, 'reference/organizations/oracle/backed-assets-je-limited.json')).toEqual(file);
+    expect(readFileSync(patchFile(root), 'utf8').trim().split('\n').slice(1)).toEqual([
+      expect.stringMatching(/^reference\/organizations\/oracle\/backed-assets-je-limited\.json,kind,issuer,oracle,/),
+    ]);
+  });
+});
