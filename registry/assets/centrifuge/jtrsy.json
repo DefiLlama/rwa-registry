@@ -1,0 +1,158 @@
+{
+  "identity": {
+    "slug": "jtrsy",
+    "symbol": "JTRSY",
+    "name": "Janus Henderson Anemoy Treasury Fund",
+    "legacyId": 166,
+    "canonicalMarketId": "JTRSY"
+  },
+  "exposure": {
+    "underlying": "janus-henderson-anemoy-treasury-fund"
+  },
+  "class": {
+    "structure": "t-bills",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "bond-mmf-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Monthly factsheet + real-time NAV (MHA Cayman audit)"
+  },
+  "sources": {
+    "coingeckoId": "janus-henderson-anemoy-treasury-fund"
+  },
+  "about": {
+    "description": "JTRSY represents tokenized fund units of the Janus Henderson Anemoy Treasury Fund, a professional fund structure designed for non-U.S. professional investors seeking short-dated U.S. Treasury bill exposure with daily liquidity conventions. The strategy concentrates in very short maturities to minimize duration risk while targeting money-market style returns, and it is distributed through a tokenized format that supports onchain settlement and integrations.",
+    "logo": "https://icons.llamao.fi/icons/rwa/jtrsy.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.anemoy.io/funds/jtrsy",
+        "https://app.centrifuge.io/pool/281474976710662"
+      ],
+      "twitter": "https://x.com/anemoycapital",
+      "docs": "https://docs.centrifuge.io/",
+      "linkedin": "https://www.linkedin.com/company/centrifuge-io",
+      "discord": "https://discord.com/invite/yEzyUq5gxF",
+      "telegram": "https://t.me/centrifuge_chat",
+      "github": "https://github.com/centrifuge"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x8c213ee79581ff4984583c6a801e5263418c4b86",
+      "deployedAt": "2024-08-05",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x2923c1b5313f7375fdaee80b7745106debc1b53e",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x0000000005f458fd6ba9eeb5f365d83b7da913dd",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x523dc886302932a469cd804cb18292d7d5c30512",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x8c213ee79581ff4984583c6a801e5263418c4b86",
+      "deployedAt": "2024-08-05"
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0x8c213ee79581ff4984583c6a801e5263418c4b86",
+      "deployedAt": "2024-11-12"
+    },
+    {
+      "chain": "avax",
+      "address": "0xa5d465251fbcc907f5dd6bb2145488dfc6a2627b",
+      "deployedAt": "2025-07-22",
+      "labels": [
+        {
+          "address": "0xa5d465251fbcc907f5dd6bb2145488dfc6a2627b",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x30d3bbae8623d0e9c0db5c27b82dcda39de40997",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xa1d871eb727eaf5408faf927c3f80b3d8325b1ac",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x9b2a3b92b1d86938d3ed37b0519952c227ba6d09",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x43d51be0b6de2199a2396ba604114d24383f91e9",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "plume_mainnet",
+      "address": "0xa5d465251fbcc907f5dd6bb2145488dfc6a2627b",
+      "deployedAt": "2025-09-18"
+    },
+    {
+      "chain": "bsc",
+      "address": "0xa5d465251fbcc907f5dd6bb2145488dfc6a2627b",
+      "deployedAt": "2025-10-22"
+    },
+    {
+      "chain": "solana",
+      "address": "JTRu97Z4oduVwfVBWdf1fSAz8h7CBBPqEo4Jco9fZPj",
+      "deployedAt": "2025-11-21",
+      "labels": [
+        {
+          "address": "5niDGBSTCUub5tUTWhL6mGfUwqFKDWNB5Jp5eUsgUoHz",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "monad",
+      "address": "0xc18e6f730896971a79d748e8dea61067a9bc6040",
+      "deployedAt": "2026-03-20"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "anemoy-capital-spc-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.lei-lookup.com/record/2549009CBJ86SM12V633"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "date": "2026-04-30",
+      "links": [
+        "https://app.centrifuge.io/pool/281474976710662",
+        "https://www.spglobal.com/ratings/en/regulatory/article/-/view/type/HTML/id/3335998"
+      ]
+    }
+  ]
+}

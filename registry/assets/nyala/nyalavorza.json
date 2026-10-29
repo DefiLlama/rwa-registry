@@ -1,0 +1,70 @@
+{
+  "identity": {
+    "slug": "nyalavorza",
+    "symbol": "NYALAVorzA",
+    "name": "NYALA Digital Asset AG Namens-Vorzugsaktien",
+    "legacyId": 4056,
+    "canonicalMarketId": "NYALAVorzA"
+  },
+  "exposure": {
+    "underlying": "nyala-digital-asset-ag"
+  },
+  "class": {
+    "structure": "pe-venture",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "yieldBearing": false
+  },
+  "sources": {
+    "identifiers": [
+      {
+        "scheme": "isin",
+        "value": "DE000A3EX2W9",
+        "source": null,
+        "verified": false
+      }
+    ]
+  },
+  "about": {
+    "description": "NYALAVorzA represents Series A registered preferred shares of NYALA Digital Asset AG, a Berlin-based securities-tokenization platform, issued natively on Polygon as electronic crypto securities under Germany's eWpG (ISIN DE000A3EX2W9). The on-chain token constitutes the legal share register, maintained by NYALA's BaFin-supervised subsidiary Smart Registry GmbH. Shares are held by a small closed group of investors with no public trading venue.",
+    "logo": "https://icons.llamao.fi/icons/rwa/nyalavorza.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.nyala.de/en"
+      ],
+      "docs": "https://www.nyala.de/en/electronic-securities",
+      "linkedin": "https://www.linkedin.com/company/nyalade"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "polygon",
+      "address": "0x00b0228303b502db635968a1f68178bdee3beb1b",
+      "deployedAt": "2024-01-26",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "nyala-digital-asset-ag-registrar-smart-registry-gmbh-bafin-supervised",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.nyala.de/en/blog/nyala-digital-asset-ag-pioneering-tokenized-stocks-in-germany"
+      ]
+    }
+  ]
+}

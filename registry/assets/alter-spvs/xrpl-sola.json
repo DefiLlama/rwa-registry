@@ -1,0 +1,68 @@
+{
+  "identity": {
+    "slug": "xrpl-sola",
+    "symbol": "SOLA",
+    "name": "Solarisia Energi",
+    "legacyId": 4485,
+    "canonicalMarketId": "xrpl:SOLA"
+  },
+  "exposure": {
+    "underlying": "pt-solarisia-energi-indonesia"
+  },
+  "class": {
+    "structure": "pe-venture",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "about": {
+    "description": "SOLA is an XRPL-issued token representing a beneficial interest in an Alter SPV Investments structure that holds an approximate 1% non-dilutive minority equity stake in PT Solarisia Energi Indonesia. PT Solarisia Energi Indonesia is an Indonesian photovoltaic technology manufacturer producing solar modules and energy infrastructure for commercial, industrial, utility-scale, agricultural, and remote-power applications. SOLA holders do not acquire direct legal ownership of Solarisia shares, and all token-related matters are administered by Alter SPV Investments.",
+    "logo": "https://alterspv.com/spv/sola.png",
+    "links": {
+      "website": [
+        "https://solarisia.id/"
+      ],
+      "docs": "https://solarisia.id/digital-asset-disclosure/"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ripple",
+      "address": "SOLA:r4oSu6mvnBnCU66bJ2oPogSzwVVWLrvqoV",
+      "deployedAt": "2026-06-22",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "alter-spv-investments",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://solarisia.id/digital-asset-disclosure/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://solarisia.id/digital-asset-disclosure/"
+      ],
+      "note": "no date in the export"
+    }
+  ]
+}

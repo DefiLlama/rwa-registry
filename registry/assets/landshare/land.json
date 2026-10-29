@@ -1,0 +1,74 @@
+{
+  "identity": {
+    "slug": "land",
+    "symbol": "LAND",
+    "name": "Landshare",
+    "legacyId": 120,
+    "canonicalMarketId": "LAND"
+  },
+  "exposure": {
+    "underlying": "landshare"
+  },
+  "class": {
+    "structure": "governance-token",
+    "type": "asset",
+    "rwaClassification": "non-rwa-gov-utility",
+    "category": [
+      "governance-tokens",
+      "real-estate"
+    ]
+  },
+  "terms": {
+    "cexListed": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "sources": {
+    "coingeckoId": "landshare"
+  },
+  "about": {
+    "description": "LAND is the ecosystem token for Landshare, a tokenized real estate platform that offers exposure to income-producing properties through property-linked units and managed real estate operations. The platform combines property acquisition and management with an investor interface designed to make due diligence and reporting more accessible, while LAND coordinates governance and incentives across the broader ecosystem.",
+    "logo": "https://icons.llamao.fi/icons/rwa/landshare.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://landshare.io"
+      ],
+      "twitter": "https://x.com/Landshareio",
+      "docs": "https://docs.landshare.io/",
+      "linkedin": "https://www.linkedin.com/company/landshare-io",
+      "discord": "https://discord.com/invite/aQDZgDjc2m",
+      "telegram": "https://t.me/landshare",
+      "github": "https://github.com/Landshare-io"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "bsc",
+      "address": "0xa73164db271931cf952cbaeff9e8f5817b42fa5c",
+      "deployedAt": "2023-03-12",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x1e2d333fd58d6fc35ebb8d6b287b7820a4f1b4e2",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "landshare-holdings-llc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.landshare.io/landshare-platform/landshare-holdings-llc-and-legal-structure"
+      ]
+    }
+  ]
+}

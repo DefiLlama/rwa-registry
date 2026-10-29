@@ -1,0 +1,62 @@
+{
+  "identity": {
+    "slug": "gldy",
+    "symbol": "GLDY",
+    "name": "Streamex Gold Yield Token",
+    "legacyId": 4080,
+    "canonicalMarketId": "GLDY"
+  },
+  "exposure": {
+    "underlying": "gold"
+  },
+  "class": {
+    "structure": "gold",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "gold-commodities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "GLDY is a Reg D 506(c) gold-backed tokenized security on Base from Streamex (NASDAQ: STEX), offering exposure to vaulted physical gold (~1 oz per token) plus approximately 3.5% APY paid monthly in additional GLDY from institutional gold leasing via Monetary Metals. Tokens are minted directly to verified accredited investors with no unsold-inventory treasury wallet.",
+    "logo": "https://icons.llamao.fi/icons/rwa/gldy.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.streamex.com"
+      ],
+      "twitter": "https://x.com/streamex",
+      "docs": "https://app.streamex.com"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "base",
+      "address": "0x632db1aaace73401a5dc8cde6e9062b8ec0fd819",
+      "deployedAt": "2025-11-03",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "streamex-corp-nasdaq-stex",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.stocktitan.net/news/STEX/streamex-corp-announces-gldy-is-now-live-and-available-for-rkog3anrrm9j.html"
+      ]
+    }
+  ]
+}

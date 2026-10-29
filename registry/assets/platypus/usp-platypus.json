@@ -1,0 +1,62 @@
+{
+  "identity": {
+    "slug": "usp-platypus",
+    "symbol": "USP",
+    "name": "Platypus USD",
+    "legacyId": 615,
+    "canonicalMarketId": "USP-PLATYPUS"
+  },
+  "exposure": {
+    "underlying": "us-dollar"
+  },
+  "class": {
+    "structure": "crypto-stable",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "non-rwa-stablecoins"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "about": {
+    "description": "USP was the overcollateralized stablecoin of the Platypus stableswap ecosystem on Avalanche. It was designed to be minted against protocol collateral positions and redeemed through Platypus liquidity, relying on collateralization and swap incentives to support its peg. Following the Platypus exploit and subsequent wind-down, USP has been deprecated. any remaining liquidity/redemption paths depend on protocol status and carry elevated depeg and smart-contract risk.",
+    "logo": "https://icons.llamao.fi/icons/rwa/platypus-usd.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://platypus.finance/"
+      ],
+      "twitter": "https://x.com/PlatypusDefi",
+      "docs": "https://platypus.finance/",
+      "telegram": "https://t.me/Platypusdefi",
+      "github": "https://github.com/platypus-finance"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "avax",
+      "address": "0xdacde03d7ab4d81feddc3a20faa89abac9072ce2",
+      "deployedAt": "2022-12-06",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "platypus-finance",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://platypus.finance/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "identity": {
+    "slug": "reusde",
+    "symbol": "reUSDe",
+    "name": "Re Protocol reUSDe",
+    "legacyId": 562,
+    "canonicalMarketId": "reUSDe"
+  },
+  "exposure": {
+    "underlying": "re-protocol-reusde"
+  },
+  "class": {
+    "structure": "reinsurance-pool",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "private-credit"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Daily"
+  },
+  "sources": {
+    "coingeckoId": "re-protocol-reusde"
+  },
+  "about": {
+    "description": "reUSDe is Re Protocol’s “insurance alpha” performance token. It absorbs first‑loss risk across the reinsurance portfolio in exchange for underwriting profit participation (docs cite ~16-25% historical net annual returns). Price compounds daily based on a quarterly refreshed target NAV (tNAV), redemptions are processed quarterly on a pro‑rata basis, subject to actuarial release of surplus capital. Current protocol docs further describe reUSDe as the junior “Insurance Alpha” sleeve, sitting below reUSD in the capital stack and deployed via the same §114 trust structure as stop-gap or first-loss capital. Docs say target NAV (tNAV) is refreshed quarterly via public API / Chainlink while token price updates daily at 00:00 UTC, that idle undeployed balances can earn the sUSDe rate, and that custody reporting includes daily trust-bank statements hashed and posted onchain.",
+    "logo": "https://icons.llamao.fi/icons/rwa/reusde.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://re.xyz/"
+      ],
+      "twitter": "https://x.com/re",
+      "docs": "https://docs.re/",
+      "linkedin": "https://www.linkedin.com/company/re-protocol",
+      "discord": "https://discord.gg/reprotocol",
+      "telegram": "https://t.me/re_protocol",
+      "refLinks": [
+        "https://app.re.xyz/?ref=nuu0c"
+      ]
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xddc0f880ff6e4e22e4b74632fbb43ce4df6ccc5a",
+      "deployedAt": "2025-03-31",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xd4374008c88321eb2e59abd311156c44b25831e9",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x9ea38e09f41a9de53972a68268ba0dcc6d2fadf8",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x5c454f5526e41fbe917b63475cd8ca7e4631b147",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xe1886be2ba8b2496c2044a77516f63a734193082",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x4691c475be804fa85f91c2d6d0adf03114de3093",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x295f67fdb21255a3db82964445628a706fbe689e",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "resilience-bvi-ltd",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://re.xyz/disclosure",
+        "https://re.xyz/terms"
+      ],
+      "protocolIds": [
+        7182
+      ]
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    },
+    {
+      "organization": "the-network-firm",
+      "kind": "auditor"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://app.re.xyz/transparency",
+        "https://docs.re.xyz/insurance-capital-layers/what-is-reusde",
+        "https://docs.re.xyz/security-and-audits",
+        "https://docs.re.xyz/protocol/how-the-re-protocol-works",
+        "https://snowtrace.io/address/0xc79a363a3f849d8b3F6A1932f748eA9d4fB2f607/contract/43114/readContract?chainid=43114#F8"
+      ],
+      "note": "Not publicly disclosed"
+    }
+  ]
+}

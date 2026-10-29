@@ -1,0 +1,76 @@
+{
+  "identity": {
+    "slug": "iuspc",
+    "symbol": "iUSPC",
+    "name": "Coinshift USPC",
+    "legacyId": 3891,
+    "canonicalMarketId": "iUSPC"
+  },
+  "exposure": {
+    "underlying": "usd-private-credit"
+  },
+  "class": {
+    "structure": "credit-pool",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "private-credit"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "Coinshift USPC (USD Private Credit) is an institutional NAV-based credit fund. Users deposit USDC into the IUSPCHub, receive iUSPC representing fund shares priced at NAV via a Chainlink feed, and can wrap into USPC (ERC-4626) for DeFi composability.",
+    "logo": "https://icons.llamao.fi/icons/rwa/iuspc.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.coinshift.xyz/"
+      ],
+      "twitter": "https://x.com/0xCoinshift",
+      "docs": "https://docs.coinshift.xyz/",
+      "discord": "https://discord.com/invite/coinshift"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xdc807c3a618b6b1248481783def7ed76700b9ec6",
+      "deployedAt": "2026-02-03",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "coinshift-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.coinshift.xyz/terms-of-use"
+      ]
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://coinshift.accountable.capital/"
+      ],
+      "note": "no date in the export"
+    }
+  ]
+}

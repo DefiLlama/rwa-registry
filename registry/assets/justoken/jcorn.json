@@ -1,0 +1,67 @@
+{
+  "identity": {
+    "slug": "jcorn",
+    "symbol": "JCORN",
+    "name": "Justoken Corn (JCORN)",
+    "legacyId": 4078,
+    "canonicalMarketId": "JCORN"
+  },
+  "exposure": {
+    "underlying": "corn"
+  },
+  "class": {
+    "structure": "other-commodity",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "gold-commodities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "about": {
+    "description": "JCORN is an ERC-1155 token by Justoken (formerly Agrotoken) on Polygon where each token represents one metric ton of corn, used as collateral and a means of exchange within Justoken's agricultural ecosystem across Brazil and Argentina. ~98% of supply in one platform custody wallet. On-chain distribution to third parties is minimal.",
+    "logo": "https://icons.llamao.fi/icons/rwa/jcorn.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.justoken.com"
+      ],
+      "twitter": "https://x.com/justokenglobal",
+      "docs": "https://www.justoken.com"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "polygon",
+      "address": "0xe72236094bf44d22bb59389648afac584871cd6d",
+      "deployedAt": "2025-05-16",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x46238f90fd3925b7277849501ee5f63d5eb2b1f8",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "justoken-formerly-agrotoken",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.justoken.com"
+      ]
+    }
+  ]
+}

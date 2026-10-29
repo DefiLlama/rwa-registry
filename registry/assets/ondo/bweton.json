@@ -1,0 +1,103 @@
+{
+  "identity": {
+    "slug": "bweton",
+    "symbol": "BWETon",
+    "name": "Breakwave Tanker Shipping ETF (Ondo Tokenized ETF)",
+    "legacyId": 4223,
+    "canonicalMarketId": "BWETon"
+  },
+  "exposure": {
+    "underlying": "breakwave-tanker-shipping-etf"
+  },
+  "class": {
+    "structure": "etf-backed",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "etfs"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Daily"
+  },
+  "sources": {
+    "identifiers": [
+      {
+        "scheme": "isin",
+        "value": "US03210A2069",
+        "source": null,
+        "verified": false
+      }
+    ]
+  },
+  "about": {
+    "description": "BWETon is an Ondo Global Markets tokenized ETF exposure designed to provide economic exposure to Breakwave Tanker Shipping ETF in an onchain format. The token is designed to be fully backed by the underlying publicly traded ETF, together with cash in transit, held with regulated custodial broker-dealers. Holdings attestations and ongoing reporting are surfaced through Ondo trust and transparency materials and the product asset page.",
+    "logo": "https://icons.llamao.fi/icons/rwa/bwet.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://app.ondo.finance/assets/bweton"
+      ],
+      "twitter": "https://x.com/ondofinance",
+      "docs": "https://docs.ondo.finance/",
+      "linkedin": "https://www.linkedin.com/company/ondofinance",
+      "discord": "https://discord.com/invite/ondofinance",
+      "telegram": "https://t.me/ondofinance",
+      "github": "https://github.com/ondoprotocol"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xeca55ac71f83931b7e074228aebc9104f13d8c02",
+      "deployedAt": "2026-05-30",
+      "primary": true
+    },
+    {
+      "chain": "bsc",
+      "address": "0x472f46c5d7409c82234701eff7d4dda4c28b5a93",
+      "deployedAt": "2026-05-30"
+    },
+    {
+      "chain": "solana",
+      "address": "m7mWfvhyPikY3esNwTk8U1JRbcBijmzHgqiqx3xondo",
+      "deployedAt": "2026-05-29"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "ondo-global-markets-bvi-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.ondo.finance/ondo-global-markets/legal-and-regulatory"
+      ],
+      "protocolIds": [
+        2542,
+        6650
+      ]
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://app.ondo.finance/assets/bweton"
+      ],
+      "note": "Daily (ongoing)"
+    }
+  ]
+}

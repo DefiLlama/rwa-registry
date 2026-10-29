@@ -1,0 +1,66 @@
+{
+  "identity": {
+    "slug": "xai",
+    "symbol": "XAI",
+    "name": "xAI PreStocks",
+    "legacyId": 410,
+    "canonicalMarketId": "XAI"
+  },
+  "exposure": {
+    "underlying": "space-exploration-technologies-corp"
+  },
+  "class": {
+    "structure": "pe-venture",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "sources": {
+    "coingeckoId": "xai-prestocks-2"
+  },
+  "about": {
+    "description": "XAI is a PreStocks token that tracks the implied valuation of xAI, a private AI company associated with the Grok chatbot and the X platform. PreStocks tokens are priced in terms of valuation, and are designed to give 24/7 tradable market exposure to pre-IPO companies through an SPV-backed structure. xAI positions itself around real-time, context-aware AI experiences that can draw on social data for timely conversations and insights. XAI provides economic exposure only and does not represent ownership of xAI shares or grant voting, dividend, or information rights. Note: xAI has been sold to SpaceX. As a result, each XAI PreStocks token is redeemable for 0.1433 SPACEX PreStocks token.",
+    "logo": "https://icons.llamao.fi/icons/rwa/xai.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://prestocks.com/xai"
+      ],
+      "twitter": "https://x.com/prestocks",
+      "docs": "https://prestocks.com/",
+      "linkedin": "https://www.linkedin.com/company/prestocks"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "solana",
+      "address": "PreC1KtJ1sBPPqaeeqL6Qb15GTLCYVvyYEwxhdfTwfx",
+      "deployedAt": "2025-09-25",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "prestocks",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://prestocks.com/faq"
+      ]
+    }
+  ]
+}

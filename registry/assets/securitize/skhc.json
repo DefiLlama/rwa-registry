@@ -1,0 +1,64 @@
+{
+  "identity": {
+    "slug": "skhc",
+    "symbol": "SKHC",
+    "name": "KKR Healthcare Strategic Growth Fund II token",
+    "legacyId": 138,
+    "canonicalMarketId": "SKHC"
+  },
+  "exposure": {
+    "underlying": "kkr-healthcare-strategic-growth-fund-ii"
+  },
+  "class": {
+    "structure": "pe-venture",
+    "type": "asset",
+    "rwaClassification": "programmable-finance",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "about": {
+    "description": "SKHC is a tokenized fund interest designed to provide eligible investors exposure to KKR’s Health Care Strategic Growth Fund II through a digitized fund structure. It is positioned as a bridge between institutional alternative fund access and a more streamlined digital subscription experience, with offering documentation and regulatory filings available through official disclosure channels.",
+    "logo": "https://icons.llamao.fi/icons/rwa/skhc.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.kkr.com"
+      ],
+      "twitter": "https://x.com/kkr_co",
+      "docs": "https://docs.securitize.io",
+      "linkedin": "https://www.linkedin.com/company/securitize",
+      "telegram": "https://t.me/securitize",
+      "github": "https://github.com/securitize-io"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "avax",
+      "address": "0x0b84f124596dac26010a9f79b7d8feade4ebbdbf",
+      "deployedAt": "2022-10-18",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "securitize-kkr-health-care-growth-ii-tokenized-fund-sp-of-securitize-kkr-platform-spc-ltd",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001939498"
+      ]
+    }
+  ]
+}

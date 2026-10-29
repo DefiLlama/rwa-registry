@@ -1,0 +1,65 @@
+{
+  "identity": {
+    "slug": "xpta",
+    "symbol": "XPTa",
+    "name": "Assetiko Platinum",
+    "legacyId": 4652,
+    "canonicalMarketId": "XPTa"
+  },
+  "exposure": {
+    "underlying": "physical-platinum-assetiko-claimed-custodian-and-vault-not-publicly-named"
+  },
+  "class": {
+    "structure": "platinum",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "gold-commodities"
+    ]
+  },
+  "terms": {
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "about": {
+    "description": "XPTa is Assetiko Platinum, a tokenized platinum product on the XRP Ledger issued by Assetiko Commodities Ltd. under the Assetiko group. One XPTa is designed to reference one troy ounce of platinum with reserves that Assetiko describes as one hundred percent physical platinum at claimed coverage of approximately one hundred and one point four five percent. Assetiko discloses issuer identity, custodian, vault operator, insurance carrier, and independent auditor only as \"Restricted Records\" available upon identity-verified request. No public proof of reserves attestation, no named auditor, and no financial regulator or licence are identified as of this review. The token trades against Valtorum USD (USDV) via an XRP Ledger automated market maker. The XPTa issuer wallet was activated on the XRP Ledger approximately two days before this review with only a handful of trustline holders and a single automated market maker liquidity provider, and the row is flagged Suspicious pending publication of independent reserves verification.",
+    "logo": "https://icons.llamao.fi/icons/rwa/xpta.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://assetiko.com/"
+      ],
+      "docs": "https://developers.assetiko.com/"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false
+  },
+  "deployments": [
+    {
+      "chain": "ripple",
+      "address": "XPTa:rGE4oF6VCDPj48ghZYb9uEQwGQ1beqoTJo",
+      "deployedAt": "2026-07-18",
+      "primary": true,
+      "labels": [
+        {
+          "address": "ravTdRivyuerQzaq8hL9yTk6nqiFxcyucX",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "assetiko-commodities-ltd",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://assetiko.com/legal-notices"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "identity": {
+    "slug": "usdy",
+    "symbol": "USDY",
+    "name": "Ondo US Dollar Yield",
+    "legacyId": 89,
+    "canonicalMarketId": "USDY"
+  },
+  "exposure": {
+    "underlying": "ondo-us-dollar-yield"
+  },
+  "class": {
+    "structure": "mmf",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "bond-mmf-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Daily"
+  },
+  "sources": {
+    "coingeckoId": "ondo-us-dollar-yield"
+  },
+  "about": {
+    "description": "USDY is a yield-bearing dollar token designed to provide Treasury-linked returns while maintaining a dollar-denominated unit of account. It is positioned as a cash-management asset where yield accrues through product mechanics tied to a reserve portfolio of short-duration, high-quality liquid assets, supported by a reporting framework intended to make reserve coverage and composition verifiable over time.",
+    "logo": "https://icons.llamao.fi/icons/rwa/usdy.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://ondo.finance/usdy"
+      ],
+      "twitter": "https://x.com/OndoFinance",
+      "docs": "https://docs.ondo.finance/",
+      "linkedin": "https://www.linkedin.com/company/ondofinance",
+      "discord": "https://discord.com/invite/ondofinance",
+      "telegram": "https://t.me/ondofinance",
+      "github": "https://github.com/ondoprotocol"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x96f6ef951840721adbf46ac996b59e0235cb985c",
+      "deployedAt": "2023-07-11",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xa5b614026dcb1ef6e0e39aa53351b4f4bd225302",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x04f8866ef39ea8b98e772e77de5fade8e25c4523",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x661b5e00424b56ba6e369e0c2f21e31b6fb8ee1a",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xaf37c1167910ebc994e266949387d2c7c326b879",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "mantle",
+      "address": "0x5be26527e817998a7206475496fde1e68957c5a6",
+      "deployedAt": "2023-10-24"
+    },
+    {
+      "chain": "solana",
+      "address": "A1KLoBrKBde8Ty9qtNQUtq3C2ortoC3u7twggz7sEto6",
+      "deployedAt": "2023-12-14"
+    },
+    {
+      "chain": "sui",
+      "address": "0x960b531667636f39e85867775f52f6b1f220a058c4de786905bdf761e06a56bb::usdy::USDY",
+      "deployedAt": "2024-05-22"
+    },
+    {
+      "chain": "aptos",
+      "address": "0xcfea864b32833f157f042618bd845145256b1bf4c0da34a7013b76e42daa53cc::usdy::USDY",
+      "deployedAt": "2024-05-22"
+    },
+    {
+      "chain": "noble",
+      "address": "ausdy",
+      "deployedAt": "2024-08-29"
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0x35e050d3c0ec2d29d269a8ecea763a183bdf9a9d",
+      "deployedAt": "2024-08-07"
+    },
+    {
+      "chain": "stellar",
+      "address": "USDY-GAJMPX5NBOG6TQFPQGRABJEEB2YE7RFRLUKJDZAZGAD5GFX4J7TADAZ6",
+      "deployedAt": "2025-08-28"
+    },
+    {
+      "chain": "plume_mainnet",
+      "address": "0xd2b65e851be3d80d3c2ce795eb2e78f16cb088b2",
+      "deployedAt": "2025-12-29"
+    },
+    {
+      "chain": "sei",
+      "address": "0x54cd901491aef397084453f4372b93c33260e2a6",
+      "deployedAt": "2025-12-29"
+    },
+    {
+      "chain": "osmosis",
+      "address": "ibc/23104D411A6EB6031FA92FB75F227422B84989969E91DCAD56A535DD7FF0A373",
+      "deployedAt": "2024-09-15"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x608593d17a2decbbc4399e4185be4922f97ed32e",
+      "deployedAt": "2026-06-23"
+    },
+    {
+      "chain": "tempo",
+      "address": "0x20c000000000000000000000d479b9f6ec0ceff9",
+      "deployedAt": "2026-08-18"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "ondo-usdy-llc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.ondo.finance/usdy/trust-and-security"
+      ],
+      "protocolIds": [
+        2542,
+        6650
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://docs.ondo.finance/general-access-products/usdy/faq/trust-and-transparency",
+        "https://www.dropbox.com/scl/fo/375wdvar3rbc7o23nxsgp/AOFY8jhpENaNx9WAw-WPnbY?dl=0&rlkey=4icqn1z9bez725wywr30fx52a&st=bsxeh8j5",
+        "https://www.dropbox.com/scl/fo/fk5t99zyihshuak3u1u9v/AMYiYSUwvoL6osa2FX_G_M8?dl=0&rlkey=0ttmb4ifhdg4ebvhbh8aa3juc&st=fyoof4cu"
+      ],
+      "note": "Daily (ongoing)"
+    }
+  ]
+}

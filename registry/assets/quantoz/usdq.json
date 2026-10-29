@@ -1,0 +1,70 @@
+{
+  "identity": {
+    "slug": "usdq",
+    "symbol": "USDQ",
+    "name": "Quantoz USDQ",
+    "legacyId": 599,
+    "canonicalMarketId": "USDQ"
+  },
+  "exposure": {
+    "underlying": "us-dollar"
+  },
+  "class": {
+    "structure": "usd-stable",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "fiat-stablecoins"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "sources": {
+    "coingeckoId": "quantoz-usdq"
+  },
+  "about": {
+    "description": "Regulated USD electronic money token issued by Quantoz Payments B. V. (DNB-supervised EMI). Distributed via authorized participants and redeemable to KYC/whitelisted bank accounts. reserves are stated to be held with systemically important banks and invested in liquid T-bills.",
+    "logo": "https://icons.llamao.fi/icons/rwa/usdq.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://quantoz.com/"
+      ],
+      "twitter": "https://x.com/Quantoz",
+      "docs": "https://docs.quantoz.com/",
+      "linkedin": "https://www.linkedin.com/company/quantoz"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xc83e27f270cce0a3a3a29521173a83f402c1768b",
+      "deployedAt": "2024-11-13",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "quantoz-payments-b-v",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://quantoz.com/",
+        "https://quantoz.com/resources",
+        "https://www.dnb.nl/openbaar-register/registers-toezichtgegevens/details/?registerCode=emi&entityName=Quantoz",
+        "Payments",
+        "B.V."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "identity": {
+    "slug": "fdit",
+    "symbol": "FDIT",
+    "name": "Fidelity Digital Interest Token",
+    "legacyId": 84,
+    "canonicalMarketId": "FDIT"
+  },
+  "exposure": {
+    "underlying": "fidelity-digital-interest-fund"
+  },
+  "class": {
+    "structure": "mmf",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "bond-mmf-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Monthly (N-MFP3) + Annual (N-CSR)"
+  },
+  "sources": {
+    "coingeckoId": "fidelity-digital-interest-token",
+    "identifiers": [
+      {
+        "scheme": "isin",
+        "value": "US31617H8135",
+        "source": null,
+        "verified": false
+      }
+    ]
+  },
+  "about": {
+    "description": "FDIT represents a tokenized share exposure tied to Fidelity’s Treasury-focused digital fund share class, designed to provide current income consistent with liquidity and principal preservation. It is structured as a NAV-based cash-management instrument where performance is driven by short-duration U.S. government and cash-equivalent holdings rather than crypto market beta.",
+    "logo": "https://icons.llamao.fi/icons/rwa/fdit.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://institutional.fidelity.com/app/funds-and-products/9053/fidelity-treasury-digital-fund-onchain-class-fyoxx.html"
+      ],
+      "twitter": "https://x.com/digitalassets",
+      "docs": "https://www.fidelity.com/",
+      "linkedin": "https://www.linkedin.com/company/fidelity-investments"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x48ab4e39ac59f4e88974804b04a991b3a402717f",
+      "deployedAt": "2025-05-29",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x627a42797a007939c750df07d57520f405b52a9c",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "fidelity-hereford-street-trust-fidelity-treasury-digital-fund",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.sec.gov/Archives/edgar/data/917286/000113322824009138/0001133228-24-009138-index.htm"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "date": "2026-06-22",
+      "links": [
+        "https://institutional.fidelity.com/app/funds-and-products/9053/fidelity-treasury-digital-fund-onchain-class-fyoxx.html",
+        "https://www.sec.gov/Archives/edgar/data/917286/000113322825002995/ftdf-efp15119_485apos.htm"
+      ]
+    }
+  ]
+}

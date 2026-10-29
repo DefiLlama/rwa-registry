@@ -1,0 +1,117 @@
+{
+  "identity": {
+    "slug": "usdai",
+    "symbol": "USDai",
+    "name": "USDai",
+    "legacyId": 188,
+    "canonicalMarketId": "USDai"
+  },
+  "exposure": {
+    "underlying": "us-dollar"
+  },
+  "class": {
+    "structure": "rwa-fiat-stable",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "rwa-stablecoins",
+      "other-rwas"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "sources": {
+    "coingeckoId": "usdai"
+  },
+  "about": {
+    "description": "USDai is a synthetic dollar asset designed to target price stability through a crypto-collateral and issuance framework rather than through a cash-and-T-bills reserve portfolio. It is primarily used as a DeFi-native settlement asset inside the USD.ai ecosystem, with stability dynamics driven by protocol risk controls and market conditions.",
+    "logo": "https://icons.llamao.fi/icons/rwa/usdai.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://usd.ai/"
+      ],
+      "twitter": "https://x.com/USDai_Official",
+      "docs": "https://docs.usd.ai/",
+      "linkedin": "https://www.linkedin.com/company/usd-ai"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "arbitrum",
+      "address": "0x0a1a1a107e45b7ced86833863f482bc5f4ed82ef",
+      "deployedAt": "2025-05-13",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x0b2b2b2076d95dda7817e785989fe353fe955ef9",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "plasma",
+      "address": "0x0a1a1a107e45b7ced86833863f482bc5f4ed82ef",
+      "deployedAt": "2025-09-11",
+      "labels": [
+        {
+          "address": "0x0b2b2b2076d95dda7817e785989fe353fe955ef9",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x0a1a1a107e45b7ced86833863f482bc5f4ed82ef",
+      "deployedAt": "2025-05-23",
+      "labels": [
+        {
+          "address": "0x0b2b2b2076d95dda7817e785989fe353fe955ef9",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x0a1a1a107e45b7ced86833863f482bc5f4ed82ef",
+      "deployedAt": "2025-11-17",
+      "labels": [
+        {
+          "address": "0x0b2b2b2076d95dda7817e785989fe353fe955ef9",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "permian-labs-usd-ai",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.usd.ai/"
+      ],
+      "protocolIds": [
+        6190
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://docs.usd.ai/app-guide/proof-of-reserves"
+      ],
+      "note": "Not publicly disclosed"
+    }
+  ]
+}

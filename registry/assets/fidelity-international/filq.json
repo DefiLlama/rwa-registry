@@ -1,0 +1,75 @@
+{
+  "identity": {
+    "slug": "filq",
+    "symbol": "FILQ",
+    "name": "Fidelity International USD Digital Liquidity Fund",
+    "legacyId": 4067,
+    "canonicalMarketId": "FILQ"
+  },
+  "exposure": {
+    "underlying": "usd-money-market-fund"
+  },
+  "class": {
+    "structure": "mmf",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "bond-mmf-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "FILQ is Fidelity International's tokenized USD liquidity fund, issued on Ethereum through Sygnum's tokenization platform with NAV published via Chainlink. Rated Aaa-mf by Moody's, it offers institutional investors 24/7 subscriptions and redemptions into a portfolio of high-quality government securities and asset-backed commercial paper, in accumulating (FILQ-A) and distributing (FILQ-D) share classes. Supply is mint-on-subscription with no pre-minted inventory. Holdings sit in custody omnibus wallets.",
+    "logo": "https://icons.llamao.fi/icons/rwa/filq.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.fidelityinternational.com"
+      ],
+      "docs": "https://www.sygnum.com"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x54a4fc78431f9201824643e99bec891bb7462a1d",
+      "deployedAt": "2026-04-27",
+      "primary": true
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xf0db6f529581e7f6ebac7a7f6882923c00fc3a66",
+      "deployedAt": "2026-04-27"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "fidelity-international-fil-ltd",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.theblock.co/post/401196/fidelity-internationals-first-tokenized-fund-receives-top-tier-aaa-mf-rating-from-moodys"
+      ]
+    },
+    {
+      "organization": "tokenization-by-sygnum",
+      "kind": "tokenizer",
+      "sourceLinks": [
+        "https://www.theblock.co/post/401196/fidelity-internationals-first-tokenized-fund-receives-top-tier-aaa-mf-rating-from-moodys"
+      ]
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    }
+  ]
+}

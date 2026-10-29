@@ -1,0 +1,120 @@
+{
+  "identity": {
+    "slug": "eqtyx",
+    "symbol": "EQTYX",
+    "name": "WisdomTree Siegel Global Equity Digital Fund",
+    "legacyId": 155,
+    "canonicalMarketId": "EQTYX"
+  },
+  "exposure": {
+    "underlying": "wisdomtree-siegel-global-equity-digital-fund"
+  },
+  "class": {
+    "structure": "mixed-rwa-fund",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Semi-annual (N-CSRS) + Annual (N-CSR)"
+  },
+  "sources": {
+    "identifiers": [
+      {
+        "scheme": "isin",
+        "value": "US97717K8163",
+        "source": null,
+        "verified": false
+      }
+    ]
+  },
+  "about": {
+    "description": "EQTYX represents digital shares of a global equity allocation fund built with a diversified mix of U.S. and international equity exposures. It is designed to provide broad stock-market participation with systematic tilts that reflect the fund’s portfolio construction approach, while delivering ownership in a tokenized share format for onchain settlement and integration.",
+    "logo": "https://icons.llamao.fi/icons/rwa/eqtyx.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.wisdomtreeconnect.com/digital-funds/asset-allocation/eqtyx"
+      ],
+      "twitter": "https://x.com/WisdomTreePrime",
+      "docs": "https://www.wisdomtree.com/",
+      "linkedin": "https://www.linkedin.com/company/wisdomtree-investments"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xa14669a76b12f94d6ad09304ad15905e900a6e25",
+      "deployedAt": "2025-03-31",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x14009f8f0bd4870ee179d9acd4be5877cf8df3cb",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0xf4a3d6da7e5f8a262b731deee62549c2c05035f5",
+      "deployedAt": "2025-03-17"
+    },
+    {
+      "chain": "avax",
+      "address": "0x8ac0d6b94ae23ad40407bc4dc16d74f09131eb48",
+      "deployedAt": "2025-03-18"
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0x6bb04085922d08d1c7de0cfe95f7626a6f54be95",
+      "deployedAt": "2025-03-31"
+    },
+    {
+      "chain": "optimism",
+      "address": "0x8ac0d6b94ae23ad40407bc4dc16d74f09131eb48",
+      "deployedAt": "2025-03-20"
+    },
+    {
+      "chain": "plume_mainnet",
+      "address": "0xe4b687cf0070d62b9d6d202bfbe410f45db07cff",
+      "deployedAt": "2025-10-21"
+    },
+    {
+      "chain": "stellar",
+      "address": "EQTY-GAKODZFS4MV36JGDTULJACWJKBJCO33CJTVTWSQFSUV7XLZJNXTDH6D6",
+      "deployedAt": "2023-12-06"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "wisdomtree-digital-trust",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.sec.gov/cgi-bin/browse-edgar?CIK=0001859001&owner=include&action=getcompany"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "date": "2026-03-06",
+      "links": [
+        "https://www.wisdomtreeconnect.com/digital-funds/asset-allocation/eqtyx",
+        "https://www.wisdomtreeconnect.com/prospectus-regulatory-reports"
+      ]
+    }
+  ]
+}

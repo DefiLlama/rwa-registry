@@ -1,0 +1,61 @@
+{
+  "identity": {
+    "slug": "hera-i-e",
+    "symbol": "HERA-I-E",
+    "name": "Ctrl Alt Hera I Equity Token",
+    "legacyId": 3895,
+    "canonicalMarketId": "HERA-I-E"
+  },
+  "exposure": {
+    "underlying": "ctrl-alt-pcc-hera-i-litigation-finance-equity"
+  },
+  "class": {
+    "structure": "pe-venture",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "about": {
+    "description": "Hera I Equity Token represents equity in Ctrl Alt PCC Hera I, a Protected Cell Company used for litigation financing. Distributed natively on Solana as a Token-2022 token. NAV approx $2.17M per token, $217M AUM (100 tokens issued). 0% management fee. Inception January 2026.",
+    "logo": "https://icons.llamao.fi/icons/rwa/hera-i-e.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.ctrl-alt.co/"
+      ],
+      "twitter": "https://x.com/CtrlAltCo"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "solana",
+      "address": "6eBh9HXqfTVWNR11fvnmSv8R28qyo9CP4KXiM1uy91nJ",
+      "deployedAt": "2026-01-20",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "ctrl-alt-pcc-hera-i",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.ctrl-alt.co/"
+      ]
+    }
+  ]
+}

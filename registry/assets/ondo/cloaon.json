@@ -1,0 +1,116 @@
+{
+  "identity": {
+    "slug": "cloaon",
+    "symbol": "CLOAon",
+    "name": "iShares AAA CLO Active ETF (Ondo Tokenized)",
+    "legacyId": 694,
+    "canonicalMarketId": "CLOAon"
+  },
+  "exposure": {
+    "underlying": "ishares-aaa-clo-active-etf"
+  },
+  "class": {
+    "structure": "equity-basket",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities",
+      "bond-mmf-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "cexListed": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Daily"
+  },
+  "sources": {
+    "coingeckoId": "ishares-aaa-clo-active-etf-ondo-tokenized-stock",
+    "identifiers": [
+      {
+        "scheme": "isin",
+        "value": "US17253J1060",
+        "source": null,
+        "verified": false
+      }
+    ]
+  },
+  "about": {
+    "description": "CLOAon is an Ondo Global Markets tokenized ETF exposure designed to provide economic exposure to =SUBSTITUTE(A125, \", \") in an onchain format. The token is designed to be fully backed by the underlying publicly traded ETF, together with cash in transit, held with regulated custodial broker-dealers. Holdings attestations and ongoing reporting are surfaced through Ondo trust and transparency materials and the product asset page. Tokenholders are not shareholders of the underlying and do not receive shareholder voting rights. Distributions, where applicable, are reflected through total return mechanics and reinvestment adjustments.",
+    "logo": "https://icons.llamao.fi/icons/rwa/cloa.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://app.ondo.finance/assets/cloaon"
+      ],
+      "twitter": "https://x.com/ondofinance",
+      "docs": "https://docs.ondo.finance/",
+      "linkedin": "https://www.linkedin.com/company/ondofinance",
+      "discord": "https://discord.com/invite/ondofinance",
+      "telegram": "https://t.me/ondofinance",
+      "github": "https://github.com/ondoprotocol"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x8cefd49b703de9c0486d9bf6cb559f0895268ee8",
+      "deployedAt": "2025-12-10",
+      "primary": true
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xa43a5159c877f9d8b3b588e0edd45dda5d21e742",
+      "deployedAt": "2025-12-10"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x4ef383f521e803863a33fca8f3f861e53ef9ef9b",
+      "deployedAt": "2025-12-10"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x0731eb434c8417f7a5359c6dfbb8729d14ff6a49",
+      "deployedAt": "2025-12-10"
+    },
+    {
+      "chain": "solana",
+      "address": "t71FyTYHVkPAb5g48adDHmkVxXYbUuP2eq6jDZLondo",
+      "deployedAt": "2025-12-31"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "ondo-global-markets-bvi-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.ondo.finance/ondo-global-markets/legal-and-regulatory"
+      ],
+      "protocolIds": [
+        2542,
+        6650
+      ]
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://app.ondo.finance/assets/cloaon"
+      ],
+      "note": "Daily (ongoing)"
+    }
+  ]
+}

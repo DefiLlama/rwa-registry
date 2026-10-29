@@ -1,0 +1,66 @@
+{
+  "identity": {
+    "slug": "lvt-1",
+    "symbol": "LVT-1",
+    "name": "REENTAL - LEVANTE 1",
+    "legacyId": 9645,
+    "canonicalMarketId": "LVT-1"
+  },
+  "exposure": {
+    "underlying": "levante-1"
+  },
+  "class": {
+    "structure": "single-property",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "real-estate"
+    ]
+  },
+  "terms": {
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "Reental-LVT-1 is Reental's tokenized interest in Levante 1 (EUR-denominated), issued on Polygon at a fixed 100 EUR per token. The token's AssetOracle publishes that issue price, not a revalued mark: it is 100 EUR converted through Chainlink EUR/USD, so the only variation is FX. No attestation, no redemption price and no secondary market (transfers are whitelist-gated).",
+    "logo": "https://icons.llamao.fi/icons/rwa/lvt-1.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.reental.co/"
+      ],
+      "twitter": "https://x.com/Reental_co",
+      "docs": "https://docs.reental.co/",
+      "linkedin": "https://www.linkedin.com/company/reental"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "polygon",
+      "address": "0x418a55e0dc6fc134e44c7c7da5703c7f1c3c4b74",
+      "deployedAt": "2025-08-11",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "reental",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://app.reental.co"
+      ]
+    },
+    {
+      "organization": "reental",
+      "kind": "oracle"
+    }
+  ]
+}

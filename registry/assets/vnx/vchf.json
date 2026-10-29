@@ -1,0 +1,122 @@
+{
+  "identity": {
+    "slug": "vchf",
+    "symbol": "VCHF",
+    "name": "VNX Swiss Franc",
+    "legacyId": 146,
+    "canonicalMarketId": "VCHF"
+  },
+  "exposure": {
+    "underlying": "swiss-franc"
+  },
+  "class": {
+    "structure": "rwa-fiat-stable",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "rwa-stablecoins",
+      "gold-commodities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "cexListed": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Regular (periodic)"
+  },
+  "sources": {
+    "coingeckoId": "vnx-swiss-franc"
+  },
+  "about": {
+    "description": "VNX Swiss Franc (VCHF) is a fully regulated stablecoin referencing the Swiss franc. The token is issued by VNX Global Ltd., which is licensed to conduct digital asset business activities under a Class M digital assets business licence issued by the Bermuda Monetary Authority. Each VCHF token is designed to be fully backed 1:1 by Swiss francs and redeemable against the underlying Swiss franc reserve",
+    "logo": "https://icons.llamao.fi/icons/pegged/vnx-swiss-franc?w=48&h=48",
+    "links": {
+      "website": [
+        "https://vnx.io/"
+      ],
+      "twitter": "https://x.com/VNX_Global",
+      "docs": "https://vnx.gitbook.io/vnx-global/vnx-global-ltd",
+      "linkedin": "https://www.linkedin.com/company/vnx-global/"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "solana",
+      "address": "AhhdRu5YZdjVkKR3wbnUDaymVQL2ucjMQ63sZ3LFHsch",
+      "deployedAt": "2024-01-26"
+    },
+    {
+      "chain": "avax",
+      "address": "0x228a48df6819ccc2eca01e2192ebafffdad56c19",
+      "deployedAt": "2023-07-28"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x79d4f0232a66c4c91b89c76362016a1707cfbf4f",
+      "deployedAt": "2022-12-02",
+      "primary": true
+    },
+    {
+      "chain": "base",
+      "address": "0x1fca74d9ef54a6ac80ffe7d3b14e76c4330fd5d8",
+      "deployedAt": "2025-06-05",
+      "labels": [
+        {
+          "address": "0xd63052e09af164cef57695d3b96043ea848b051f",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "stellar",
+      "address": "VCHF-GDXLSLCOPPHTWOQXLLKSVN4VN3G67WD2ENU7UMVAROEYVJLSPSEWXIZN",
+      "deployedAt": "2024-02-12",
+      "labels": [
+        {
+          "address": "GDXLSLCOPPHTWOQXLLKSVN4VN3G67WD2ENU7UMVAROEYVJLSPSEWXIZN",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "icp",
+      "address": "ly36x-wiaaa-aaaai-aqj7q-cai",
+      "deployedAt": "2026-10-23"
+    },
+    {
+      "chain": "celo",
+      "address": "0xc5ebea9984c485ec5d58ca5a2d376620d93af871",
+      "deployedAt": "2025-02-04"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "vnx-global-ltd",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://vnx.io/swiss-franc"
+      ],
+      "protocolIds": [
+        4866
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://vnx.io/transparency"
+      ],
+      "note": "August 2026"
+    }
+  ]
+}

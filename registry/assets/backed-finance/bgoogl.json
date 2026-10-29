@@ -1,0 +1,199 @@
+{
+  "identity": {
+    "slug": "bgoogl",
+    "symbol": "bGOOGL",
+    "name": "Backed Alphabet Class A Common Stock",
+    "legacyId": 275,
+    "canonicalMarketId": "bGOOGL"
+  },
+  "exposure": {
+    "underlying": "alphabet-inc"
+  },
+  "class": {
+    "structure": "stock-backed",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "cexListed": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Continuous (real-time Chainlink PoR)"
+  },
+  "sources": {
+    "identifiers": [
+      {
+        "scheme": "isin",
+        "value": "CH1173294351",
+        "source": null,
+        "verified": false
+      }
+    ]
+  },
+  "about": {
+    "description": "Backed Alphabet Class A Common Stock (bGOOGL) is a tokenized equity exposure designed to track Backed Alphabet Class A Common Stock in a format usable across crypto venues. It is intended to be fully backed 1:1 by the referenced underlying held through traditional custody arrangements. Dividends, when applicable, are typically reflected through adjustments over time rather than paid as cash dividends. Holding the token provides economic exposure, but it does not provide shareholder voting rights or shareholder privileges in the underlying company.",
+    "logo": "https://icons.llamao.fi/icons/rwa/goog.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://assets.backed.fi/products/bgoogl"
+      ],
+      "twitter": "https://x.com/backedfi",
+      "docs": "https://docs.backed.fi/",
+      "linkedin": "https://www.linkedin.com/company/backedfi",
+      "github": "https://github.com/backed-fi"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xebee37aaf2905b7bda7e3b928043862e982e8f32",
+      "deployedAt": "2024-06-03",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xceb0482d53f3234e9f3ee396009cd576847eb697",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xa3626c015685c255de387b5287a1e06bce3caeb1",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x8ba52fb2512356867c17da318517669490ec03cb",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x9dd7c34f0918abd183c62dd79dd0f2c9cc457274",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xfdc93a1914ac8df4d9762dad336052658dc55da1",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x17603ddb4a4f8d7a7e1fc45fa0059adc906c8600",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "xdai",
+      "address": "0xebee37aaf2905b7bda7e3b928043862e982e8f32",
+      "deployedAt": "2024-09-18",
+      "labels": [
+        {
+          "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x1f82284c1658ad71c576f7230e6c2dee7901c1fa",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x87eec05aa073e3ce0000d9a30b3dbfb9e3b87244",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "polygon",
+      "address": "0xebee37aaf2905b7bda7e3b928043862e982e8f32",
+      "deployedAt": "2024-09-16",
+      "labels": [
+        {
+          "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0xebee37aaf2905b7bda7e3b928043862e982e8f32",
+      "deployedAt": "2024-10-31",
+      "labels": [
+        {
+          "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "avax",
+      "address": "0xebee37aaf2905b7bda7e3b928043862e982e8f32",
+      "deployedAt": "2024-10-09",
+      "labels": [
+        {
+          "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "fantom",
+      "address": "0xebee37aaf2905b7bda7e3b928043862e982e8f32",
+      "deployedAt": null
+    },
+    {
+      "chain": "bsc",
+      "address": "0xebee37aaf2905b7bda7e3b928043862e982e8f32",
+      "deployedAt": null
+    },
+    {
+      "chain": "base",
+      "address": "0xebee37aaf2905b7bda7e3b928043862e982e8f32",
+      "deployedAt": "2025-02-18",
+      "labels": [
+        {
+          "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "backed-assets-je-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://assets.backed.fi/products/bgoogl"
+      ],
+      "protocolIds": [
+        3467
+      ]
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    },
+    {
+      "organization": "the-network-firm",
+      "kind": "auditor"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://defi.backed.fi/proof-of-reserves",
+        "https://assets.backed.fi/legal-documentation"
+      ],
+      "note": "Continuous (on-chain)"
+    }
+  ]
+}

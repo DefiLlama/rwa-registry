@@ -1,0 +1,115 @@
+{
+  "identity": {
+    "slug": "aneton",
+    "symbol": "ANETon",
+    "name": "Arista Networks (Ondo Tokenized)",
+    "legacyId": 681,
+    "canonicalMarketId": "ANETon"
+  },
+  "exposure": {
+    "underlying": "arista-networks-inc"
+  },
+  "class": {
+    "structure": "stock-backed",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "cexListed": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Daily"
+  },
+  "sources": {
+    "coingeckoId": "arista-networks-ondo-tokenized-stocks",
+    "identifiers": [
+      {
+        "scheme": "isin",
+        "value": "US0404132054",
+        "source": null,
+        "verified": false
+      }
+    ]
+  },
+  "about": {
+    "description": "ANETon is an Ondo Global Markets tokenized stock exposure designed to provide economic exposure to =SUBSTITUTE(A113, \", \") in an onchain format. The token is designed to be fully backed by the underlying publicly traded asset, together with cash in transit, held with regulated custodial broker-dealers. Holdings attestations and ongoing reporting are surfaced through Ondo trust and transparency materials and the product asset page. Tokenholders are not shareholders of the underlying and do not receive shareholder voting rights. Dividend value is reflected through total return mechanics, and where applicable, dividends are reflected through reinvestment adjustments instead of cash dividends.",
+    "logo": "https://icons.llamao.fi/icons/rwa/anet.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://app.ondo.finance/assets/aneton"
+      ],
+      "twitter": "https://x.com/ondofinance",
+      "docs": "https://docs.ondo.finance/",
+      "linkedin": "https://www.linkedin.com/company/ondofinance",
+      "discord": "https://discord.com/invite/ondofinance",
+      "telegram": "https://t.me/ondofinance",
+      "github": "https://github.com/ondoprotocol"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x20e113e9235df6a2a9bfc6f244c2ccc380c8f546",
+      "deployedAt": "2025-12-18",
+      "primary": true
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xcc88e351a87671beed6306a1b8691cbef2eba0fe",
+      "deployedAt": "2025-12-18"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x538e2838f9ebc9b891399df4a8dcc42890d9dc20",
+      "deployedAt": "2025-12-18"
+    },
+    {
+      "chain": "bsc",
+      "address": "0xc4f61f4fa7a843a739bf032b9d5cc49664df552d",
+      "deployedAt": "2025-12-18"
+    },
+    {
+      "chain": "solana",
+      "address": "Cq6QtvHpXbJWtFaiMhUDtHy8YVZ95gcD1oZ1cohondo",
+      "deployedAt": "2025-12-31"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "ondo-global-markets-bvi-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.ondo.finance/ondo-global-markets/legal-and-regulatory"
+      ],
+      "protocolIds": [
+        2542,
+        6650
+      ]
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://app.ondo.finance/assets/aneton"
+      ],
+      "note": "Daily (ongoing)"
+    }
+  ]
+}

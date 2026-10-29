@@ -1,0 +1,73 @@
+{
+  "identity": {
+    "slug": "0xof",
+    "symbol": "0XOF",
+    "name": "Agbo West African CFA Franc",
+    "legacyId": 3697,
+    "canonicalMarketId": "0XOF"
+  },
+  "exposure": {
+    "underlying": "west-african-cfa-franc"
+  },
+  "class": {
+    "structure": "other-fiat-stable",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "fiat-stablecoins"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "about": {
+    "description": "0XOF is the first West African CFA franc (XOF) stablecoin on Base, issued by Volta Equity Partners Limited Company under the Agbo brand. Pegged 1:1 to XOF, the official currency of the eight-country West African Economic and Monetary Union (WAEMU): Bénin, Burkina Faso, Côte d'Ivoire, Guinea-Bissau, Mali, Niger, Sénégal, and Togo. Reserves are backed by liquid WAEMU sovereign bonds. Acquisition channels include on/off-ramps via local agents, mobile money rails (covering the WAEMU mobile money ecosystem), and direct on-ramp conversions. The platform also features a Nǔ loyalty program where 0XOF holders accrue loyalty points (not native yield).",
+    "logo": "https://icons.llamao.fi/icons/rwa/0xof.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://agbo.to/"
+      ],
+      "twitter": "https://x.com/0xAgbo",
+      "docs": "https://docs.agbo.to/"
+    }
+  },
+  "review": {
+    "activeAumReviewed": false,
+    "suspicious": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "base",
+      "address": "0xcfab1a91975d3c54c053e10d14a2423dd6f89652",
+      "deployedAt": "2026-01-31",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x9f7b2b973b28c93e7d1d9340c8e8f840a23a8c2b",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "volta-equity-partners-limited-company",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://agbo.to/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

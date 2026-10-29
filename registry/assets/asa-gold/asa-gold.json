@@ -1,0 +1,70 @@
+{
+  "identity": {
+    "slug": "asa-gold",
+    "symbol": "ASA.Gold",
+    "name": "ASA.Gold",
+    "legacyId": 99,
+    "canonicalMarketId": "ASA.Gold"
+  },
+  "exposure": {
+    "underlying": "gold"
+  },
+  "class": {
+    "structure": "gold",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "gold-commodities"
+    ]
+  },
+  "terms": {
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Annual"
+  },
+  "about": {
+    "description": "ASA.Gold is a tokenized gold product designed around publicly auditable reserves, presenting backing as an itemized inventory of physical gold held in reserve. It targets users who want onchain gold exposure with a verification workflow centered on visible, item-level reserve reporting.",
+    "logo": "https://icons.llamao.fi/icons/rwa/asa.gold.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.asa.gold"
+      ],
+      "twitter": "https://x.com/eAlgonaut/",
+      "docs": "https://www.asa.gold/",
+      "linkedin": "https://www.linkedin.com/company/asa-gold"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "algorand",
+      "address": "1241944285",
+      "deployedAt": null,
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "asa-gold",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.asa.gold/about-asa-gold"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "date": "2024-11-30",
+      "links": [
+        "https://www.asa.gold/proof-of-reserve"
+      ]
+    }
+  ]
+}

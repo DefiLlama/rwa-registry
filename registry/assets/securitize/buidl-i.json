@@ -1,0 +1,99 @@
+{
+  "identity": {
+    "slug": "buidl-i",
+    "symbol": "BUIDL-I",
+    "name": "BlackRock USD Institutional Digital Liquidity Fund - I Class",
+    "legacyId": 202,
+    "canonicalMarketId": "BUIDL-I"
+  },
+  "exposure": {
+    "underlying": "blackrock-usd-institutional-digital-liquidity-fund-i-class"
+  },
+  "class": {
+    "structure": "mmf",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "bond-mmf-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "sources": {
+    "coingeckoId": "blackrock-usd-institutional-digital-liquidity-fund-i-class"
+  },
+  "about": {
+    "description": "BUIDL-I represents the I Class tokenized share of BlackRock’s USD Institutional Digital Liquidity Fund, tokenized by Securitize. Each token targets a $1 NAV and accrues fund income, with subscriptions and redemptions handled through the fund’s transfer and issuance process for qualified investors. The fund invests in cash, U.S. Treasury bills, and repurchase agreements, enabling blockchain-based settlement and collateral workflows.",
+    "logo": "https://icons.llamao.fi/icons/rwa/buidl-i.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.blackrock.com/us/individual/products/buidl-blackrock-usd-institutional-digital-liquidity-fund"
+      ],
+      "twitter": "https://x.com/BlackRock",
+      "docs": "https://docs.securitize.io",
+      "linkedin": "https://www.linkedin.com/company/securitize",
+      "telegram": "https://t.me/securitize",
+      "github": "https://github.com/securitize-io"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x6a9da2d710bb9b700acde7cb81f10f1ff8c89041",
+      "deployedAt": "2024-12-17",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xd69fefe5df62373dcbde3e1f9625cf334a2dae78",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x68a99f89e475a078645f4bac491360afe255dff1",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "blackrock-usd-institutional-digital-liquidity-fund-ltd",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.blackrock.com/us/individual/products/buidl-blackrock-usd-institutional-digital-liquidity-fund"
+      ],
+      "protocolIds": [
+        4853,
+        2269,
+        2272,
+        2286,
+        3075,
+        2274,
+        2352,
+        2314,
+        2275,
+        2293,
+        2270,
+        2273,
+        6469,
+        2276,
+        4859,
+        2369,
+        5342,
+        3577,
+        2724
+      ]
+    }
+  ]
+}

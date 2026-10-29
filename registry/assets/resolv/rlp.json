@@ -1,0 +1,102 @@
+{
+  "identity": {
+    "slug": "rlp",
+    "symbol": "RLP",
+    "name": "Resolv Liquidity Provider Token",
+    "legacyId": 660,
+    "canonicalMarketId": "RLP"
+  },
+  "exposure": {
+    "underlying": "resolv-liquidity-provider-token"
+  },
+  "class": {
+    "structure": "crypto-hedge-fund",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "crypto-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "sources": {
+    "coingeckoId": "resolv-rlp"
+  },
+  "about": {
+    "description": "RLP is Resolv’s liquidity provider token for the collateral pool that backs USR. RLP holders supply the overcollateralization buffer and take first-loss risk ahead of USR holders, earning returns from protocol fees and strategy performance in exchange. The token is a way to obtain exposure to the protocol’s collateral engine and risk premium while supporting USR’s stability through a dedicated, transparently reported collateral pool.",
+    "logo": "https://icons.llamao.fi/icons/rwa/resolv-liquidity-provider-token.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://docs.resolv.xyz/litepaper/overview/rlp"
+      ],
+      "twitter": "https://x.com/ResolvLabs",
+      "docs": "https://docs.resolv.xyz/",
+      "linkedin": "https://www.linkedin.com/company/resolv-labs",
+      "discord": "https://discord.com/invite/HwPhyC4hZt",
+      "telegram": "https://t.me/resolvlabs",
+      "github": "https://github.com/resolv-im",
+      "refLinks": [
+        "https://app.resolv.xyz/ref/defillama"
+      ]
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x4956b52ae2ff65d74ca2d61207523288e4528f96",
+      "deployedAt": "2024-06-02",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x10f4d4ead6bcd4de7849898403d88528e3dfc872",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0xc31389794ffac23331e0d9f611b7953f90aa5fdc",
+      "deployedAt": "2024-11-20"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x35e5db674d8e93a03d814fa0ada70731efe8a4b9",
+      "deployedAt": "2025-04-10"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "resolv",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.resolv.xyz/litepaper/overview/rlp",
+        "https://docs.resolv.xyz/litepaper/for-developers/smart-contracts"
+      ],
+      "protocolIds": [
+        5655
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://app.resolv.xyz/collateral-pool",
+        "https://info.apostro.xyz/resolv-reserves",
+        "https://docs.resolv.xyz/resources/collateral-pool"
+      ],
+      "note": "Not publicly disclosed"
+    }
+  ]
+}

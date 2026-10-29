@@ -1,0 +1,115 @@
+{
+  "identity": {
+    "slug": "jnjon",
+    "symbol": "JNJon",
+    "name": "Johnson & Johnson (Ondo Tokenized)",
+    "legacyId": 718,
+    "canonicalMarketId": "JNJon"
+  },
+  "exposure": {
+    "underlying": "johnson-johnson"
+  },
+  "class": {
+    "structure": "stock-backed",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "cexListed": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Daily"
+  },
+  "sources": {
+    "coingeckoId": "johnson-johnson-ondo-tokenized-stock",
+    "identifiers": [
+      {
+        "scheme": "isin",
+        "value": "US4781601046",
+        "source": null,
+        "verified": false
+      }
+    ]
+  },
+  "about": {
+    "description": "JNJon is an Ondo Global Markets tokenized stock exposure designed to provide economic exposure to =SUBSTITUTE(A149, \", \") in an onchain format. The token is designed to be fully backed by the underlying publicly traded asset, together with cash in transit, held with regulated custodial broker-dealers. Holdings attestations and ongoing reporting are surfaced through Ondo trust and transparency materials and the product asset page. Tokenholders are not shareholders of the underlying and do not receive shareholder voting rights. Dividend value is reflected through total return mechanics, and where applicable, dividends are reflected through reinvestment adjustments instead of cash dividends.",
+    "logo": "https://icons.llamao.fi/icons/rwa/jnj.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://app.ondo.finance/assets/jnjon"
+      ],
+      "twitter": "https://x.com/ondofinance",
+      "docs": "https://docs.ondo.finance/",
+      "linkedin": "https://www.linkedin.com/company/ondofinance",
+      "discord": "https://discord.com/invite/ondofinance",
+      "telegram": "https://t.me/ondofinance",
+      "github": "https://github.com/ondoprotocol"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xdd0e1e6162666a210905ffe8d368661b313c00e9",
+      "deployedAt": "2025-12-18",
+      "primary": true
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xae1510e757dbeee1e09894ba98d29ad677c11f77",
+      "deployedAt": "2025-12-18"
+    },
+    {
+      "chain": "bsc",
+      "address": "0xd1f799cb9f5d0a02951b0755beced6c43882712f",
+      "deployedAt": "2025-12-18"
+    },
+    {
+      "chain": "bsc",
+      "address": "0xb9654f5518484dfe9ec3cb5f455778a381072195",
+      "deployedAt": "2025-12-18"
+    },
+    {
+      "chain": "solana",
+      "address": "KUXt7LzHWSQXp5eyqMZRxWjAP6yM8BUh4LRHwiwondo",
+      "deployedAt": "2025-12-31"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "ondo-global-markets-bvi-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.ondo.finance/ondo-global-markets/legal-and-regulatory"
+      ],
+      "protocolIds": [
+        2542,
+        6650
+      ]
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://app.ondo.finance/assets/jnjon"
+      ],
+      "note": "Daily (ongoing)"
+    }
+  ]
+}

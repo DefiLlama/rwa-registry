@@ -1,0 +1,59 @@
+{
+  "identity": {
+    "slug": "bsfg-kes-1",
+    "symbol": "BSFG-KES-1",
+    "name": "Berkeley Square Kenya Retail Portfolio 1",
+    "legacyId": 9049,
+    "canonicalMarketId": "BSFG-KES-1"
+  },
+  "exposure": {
+    "underlying": "kenya-retail-consumer-credit-kes"
+  },
+  "class": {
+    "structure": "credit-pool",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "private-credit"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "Kenya retail consumer credit portfolio, tokenized on Aptos via the PACT platform. On-chain loan book 'alpha Loan Book' (~653.6k per-loan NFTs), denominated in the zKSH zero-value token. Tokenization type is Represented (not freely transferable).",
+    "logo": "https://icons.llamao.fi/icons/rwa/bsfg-kes-1.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://pact.foundation/"
+      ],
+      "twitter": "https://x.com/pactfinance"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "aptos",
+      "address": "0x5b0976a3a48c17c87419242e0533838d2fc4624cd30434f54020cf6bafa18812",
+      "deployedAt": "2026-09-03",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "berkeley-square-finance-group-via-pact",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://pact.foundation/"
+      ]
+    }
+  ]
+}

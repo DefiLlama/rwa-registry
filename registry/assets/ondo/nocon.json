@@ -1,0 +1,104 @@
+{
+  "identity": {
+    "slug": "nocon",
+    "symbol": "NOCon",
+    "name": "Northrop Grumman (Ondo Tokenized Stock)",
+    "legacyId": 2883,
+    "canonicalMarketId": "NOCon"
+  },
+  "exposure": {
+    "underlying": "northrop-grumman-corporation"
+  },
+  "class": {
+    "structure": "stock-backed",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "cexListed": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Daily"
+  },
+  "sources": {
+    "identifiers": [
+      {
+        "scheme": "isin",
+        "value": "US6668071029",
+        "source": null,
+        "verified": false
+      }
+    ]
+  },
+  "about": {
+    "description": "NOCon is an Ondo Global Markets tokenized stock exposure designed to provide economic exposure to Northrop Grumman in an onchain format. The token is designed to be fully backed by the underlying publicly traded asset, together with cash in transit, held with regulated custodial broker-dealers. Holdings attestations and ongoing reporting are surfaced through Ondo trust and transparency materials and the product asset page. Tokenholders are not shareholders of the underlying and do not receive shareholder voting rights. Dividend value is reflected through total return mechanics.",
+    "logo": "https://icons.llamao.fi/icons/rwa/noc.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://app.ondo.finance/assets/nocon"
+      ],
+      "twitter": "https://x.com/ondofinance",
+      "docs": "https://docs.ondo.finance/",
+      "linkedin": "https://www.linkedin.com/company/ondofinance",
+      "discord": "https://discord.com/invite/ondofinance",
+      "telegram": "https://t.me/ondofinance",
+      "github": "https://github.com/ondoprotocol"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x8ce34f749796f82a6990ffa2d80622ef75ca7ad5",
+      "deployedAt": "2026-03-09",
+      "primary": true
+    },
+    {
+      "chain": "bsc",
+      "address": "0x4d3442d884202584f1729bca20db05472b886b52",
+      "deployedAt": "2026-03-09"
+    },
+    {
+      "chain": "solana",
+      "address": "Dm6FpQ76SsbVmAZ4NvD2mjZP7cxbw1CASr4WwCiondo",
+      "deployedAt": "2026-03-09"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "ondo-global-markets-bvi-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.ondo.finance/ondo-global-markets/legal-and-regulatory"
+      ],
+      "protocolIds": [
+        2542,
+        6650
+      ]
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://app.ondo.finance/assets/nocon"
+      ],
+      "note": "Daily (ongoing)"
+    }
+  ]
+}

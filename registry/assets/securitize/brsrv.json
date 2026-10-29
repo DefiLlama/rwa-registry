@@ -1,0 +1,103 @@
+{
+  "identity": {
+    "slug": "brsrv",
+    "symbol": "BRSRV",
+    "name": "BlackRock Daily Reinvestment Stablecoin Reserve Vehicle",
+    "legacyId": 7551,
+    "canonicalMarketId": "BRSRV"
+  },
+  "exposure": {
+    "underlying": "blackrock-daily-reinvestment-stablecoin-reserve-vehicle-onchain-shares-rsvxx"
+  },
+  "class": {
+    "structure": "mmf",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "bond-mmf-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Semi-annual"
+  },
+  "sources": {
+    "coingeckoId": "blackrock-daily-reinvestment-stablecoin-reserve-vehicle",
+    "identifiers": [
+      {
+        "scheme": "isin",
+        "value": "US09261A8392",
+        "source": null,
+        "verified": false
+      }
+    ],
+    "llamaAttestationProof": false
+  },
+  "about": {
+    "description": "BRSRV is the tokenized OnChain Shares class of the BlackRock Daily Reinvestment Stablecoin Reserve Vehicle, a government money market fund organized as a series of BlackRock Funds and advised by BlackRock Advisors, LLC. The underlying share class trades under the fund ticker RSVXX and carries CUSIP 09261A839, and BRSRV is the on-chain representation of that same class rather than a separate instrument. The fund invests all of its total assets in cash, short-term United States Treasury obligations maturing in 93 days or less, and overnight repurchase agreements collateralized by Treasury securities, and it is managed under Rule 2a-7 with a dollar weighted average maturity of 60 days or less and a dollar weighted average life of 120 days or less. The share class is built to serve as an eligible reserve asset for payment stablecoin issuers under the GENIUS Act framework. Securitize Transfer Agent, LLC maintains the official record of ownership on the Securitize DS Protocol and controls wallet whitelisting, transfer approval, freezes and reissuance, while Zerohash supplies the stablecoin to fiat conversion rails used for subscriptions and redemptions with conversions below five hundred thousand dollars settling immediately. The fund seeks a stable one dollar net asset value per share and reinvests income daily rather than paying cash distributions. Total annual operating expenses are 18 basis points gross and 17 basis points net after a contractual waiver that runs to 30 June 2028. Shares are recorded on Ethereum, Tempo and Solana, and the minimum initial investment is three million United States dollars.",
+    "logo": "https://icons.llamao.fi/icons/rwa/brsrv.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.blackrock.com/cash/en-us/products/351891/blackrock-daily-reinvestment-stablecoin-reserve-vehicle"
+      ],
+      "twitter": "https://x.com/BlackRock",
+      "docs": "https://www.sec.gov/Archives/edgar/data/844779/000119312526329160/d227993d497k.htm",
+      "linkedin": "https://www.linkedin.com/company/blackrock",
+      "telegram": "https://t.me/securitize",
+      "github": "https://github.com/securitize-io",
+      "refLinks": [
+        "https://www.theblock.co/post/410469/blackrock-launches-two-tokenized-money-market-funds-stablecoin-reserves",
+        "https://decrypt.co/374865/blackrock-tokenized-money-market-funds-solana-ethereum",
+        "https://genfinity.io/2026/08/03/zerohash-stablecoin-conversion-rails-blackrock-brsrv/"
+      ]
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x3078bcf707e457d3af2f938a2a478bbeea50a942",
+      "deployedAt": "2026-07-22",
+      "primary": true
+    },
+    {
+      "chain": "tempo",
+      "address": "0xe36e2e79beb1b7f618201eead6106a7d737695e3",
+      "deployedAt": "2026-07-22"
+    },
+    {
+      "chain": "solana",
+      "address": "9rX4yuAirQkm5JC26v3oSfGencsxwjB8kkmgf2dwWe9N",
+      "deployedAt": "2026-07-22"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "blackrock-daily-reinvestment-stablecoin-reserve-vehicle-a-series-of-blackrock-funds",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000844779&type=485BPOS&dateb=&owner=include&count=10"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "date": "2026-08-07",
+      "links": [
+        "https://www.sec.gov/Archives/edgar/data/844779/000119312526339562/d139203dncsr.htm",
+        "https://www.sec.gov/Archives/edgar/data/844779/000119312526293887/d123883dncsrs.htm"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "identity": {
+    "slug": "cspx",
+    "symbol": "CSPX",
+    "name": "Colb SpaceX",
+    "legacyId": 4050,
+    "canonicalMarketId": "CSPX"
+  },
+  "exposure": {
+    "underlying": "space-exploration-technologies-corp"
+  },
+  "class": {
+    "structure": "synthetic-stock",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "about": {
+    "description": "Colb SpaceX (CSPX) is a Swiss-law tracker certificate issued by the BVI-domiciled CPT Trust (manufacturer Colb Asset SA, Geneva) tracking Space Exploration Technologies Corp. (SpaceX), publicly listed on Nasdaq (SPCX) since June 2026.",
+    "logo": "https://icons.llamao.fi/icons/rwa/cspx.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.colb.finance"
+      ],
+      "twitter": "https://x.com/ColbFinance",
+      "docs": "https://docs.colb.finance"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "bsc",
+      "address": "0xdeaa0f353c507a2f0d9b92d20e3ff0ff06f3ace9",
+      "deployedAt": "2026-04-16",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "cpt-trust-trustee-colb-asset-ptc-limited-bvi",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.colb.finance",
+        "https://docs.colb.finance",
+        "https://www.moneyhouse.ch/en/company/colb-asset-sa-6640098491"
+      ]
+    },
+    {
+      "organization": "manufacturer-colb-asset-sa-geneva",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.colb.finance",
+        "https://docs.colb.finance",
+        "https://www.moneyhouse.ch/en/company/colb-asset-sa-6640098491"
+      ]
+    },
+    {
+      "organization": "cpt-trust-trustee-colb-asset-ptc-limited-bvi",
+      "kind": "oracle"
+    }
+  ]
+}

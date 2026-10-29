@@ -1,0 +1,116 @@
+{
+  "identity": {
+    "slug": "paxg",
+    "symbol": "PAXG",
+    "name": "PAX Gold",
+    "legacyId": 112,
+    "canonicalMarketId": "PAXG"
+  },
+  "exposure": {
+    "underlying": "gold"
+  },
+  "class": {
+    "structure": "gold",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "gold-commodities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "cexListed": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Monthly (KPMG LLP, since Feb 2025)"
+  },
+  "sources": {
+    "coingeckoId": "pax-gold"
+  },
+  "about": {
+    "description": "PAX Gold (PAXG) is a tokenized gold product issued by Paxos, designed so each token corresponds to allocated physical gold held in custody. It is built for fractional ownership and transferability while maintaining backing in LBMA-quality bullion, supported by recurring transparency reporting intended to reconcile token supply and underlying gold holdings.",
+    "logo": "https://icons.llamao.fi/icons/rwa/paxg.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.paxos.com/pax-gold"
+      ],
+      "twitter": "https://x.com/Paxos",
+      "docs": "https://docs.paxos.com/",
+      "linkedin": "https://www.linkedin.com/company/paxos",
+      "telegram": "https://t.me/PaxosGlobal",
+      "github": "https://github.com/paxosglobal"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x45804880de22913dafe09f4980848ece6ecbaf78",
+      "deployedAt": "2019-08-26",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x7d766b06e7164be4196ee62e6036c9fcff68107d",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x264bd8291fae1d75db2c5f573b07faa6715997b5",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x2fb074fa59c9294c71246825c1c9a0c7782d41a4",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "paxos-trust-company-llc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.paxos.com/paxgold"
+      ],
+      "protocolIds": [
+        4862,
+        2269,
+        2272,
+        2286,
+        3075,
+        2274,
+        2352,
+        2314,
+        2275,
+        2293,
+        2270,
+        2273,
+        6469,
+        2276,
+        4859,
+        2369,
+        5342,
+        3577
+      ]
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "date": "2026-05-31",
+      "links": [
+        "https://www.paxos.com/paxg-transparency"
+      ]
+    }
+  ]
+}

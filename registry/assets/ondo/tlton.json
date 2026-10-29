@@ -1,0 +1,116 @@
+{
+  "identity": {
+    "slug": "tlton",
+    "symbol": "TLTon",
+    "name": "iShares 20+ Year Treasury Bond ETF (Ondo Tokenized ETF)",
+    "legacyId": 288,
+    "canonicalMarketId": "TLTon"
+  },
+  "exposure": {
+    "underlying": "ishares-20-year-treasury-bond-etf"
+  },
+  "class": {
+    "structure": "equity-basket",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities",
+      "bond-mmf-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "cexListed": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Daily"
+  },
+  "sources": {
+    "coingeckoId": "ishares-20-year-treasury-bond-etf-ondo-tokenized-etf",
+    "identifiers": [
+      {
+        "scheme": "isin",
+        "value": "US4642874329",
+        "source": null,
+        "verified": false
+      }
+    ]
+  },
+  "about": {
+    "description": "TLTon is an Ondo Global Markets tokenized ETF exposure designed to provide economic exposure to iShares 20+ Year Treasury Bond ETF in an onchain format. The token is designed to be fully backed by the underlying publicly traded asset, together with cash in transit, held with regulated custodial broker-dealers. Holdings attestations and ongoing reporting are surfaced through Ondo trust and transparency materials and the product asset page. Tokenholders are not shareholders of the underlying and do not receive shareholder voting rights. Dividend value is reflected through total return mechanics. Ondo Global Markets adjusts the token to account for dividends net of withholding taxes and reinvests that value into additional shares, increasing the shares per token over time instead of paying cash dividends directly to tokenholders.",
+    "logo": "https://icons.llamao.fi/icons/rwa/tlt.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://app.ondo.finance/assets/tlton"
+      ],
+      "twitter": "https://x.com/ondofinance",
+      "docs": "https://docs.ondo.finance/",
+      "linkedin": "https://www.linkedin.com/company/ondofinance",
+      "discord": "https://discord.com/invite/ondofinance",
+      "telegram": "https://t.me/ondofinance",
+      "github": "https://github.com/ondoprotocol"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x992651bfeb9a0dcc4457610e284ba66d86489d4d",
+      "deployedAt": "2025-07-24",
+      "primary": true
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xbe480360078e2bfe1a4d5ab255dd659f9af89fd1",
+      "deployedAt": "2025-12-02"
+    },
+    {
+      "chain": "bsc",
+      "address": "0xf69e40069ac227c11459e3f4e8a446b3401616b6",
+      "deployedAt": "2025-10-09"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x0ed4c0cd7705aaf002c79a1f27f40d671c7a5842",
+      "deployedAt": "2025-12-02"
+    },
+    {
+      "chain": "solana",
+      "address": "KaSLSWByKy6b9FrCYXPEJoHmLpuFZtTCJk1F1Z9ondo",
+      "deployedAt": "2026-02-17"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "ondo-global-markets-bvi-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.ondo.finance/ondo-global-markets/legal-and-regulatory"
+      ],
+      "protocolIds": [
+        2542,
+        6650
+      ]
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://app.ondo.finance/assets/tlton"
+      ],
+      "note": "Daily (ongoing)"
+    }
+  ]
+}

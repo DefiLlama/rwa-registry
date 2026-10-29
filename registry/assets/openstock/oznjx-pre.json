@@ -1,0 +1,80 @@
+{
+  "identity": {
+    "slug": "oznjx-pre",
+    "symbol": "oZNJX-pre",
+    "name": "OpenStock Zhongji Innolight Pre-IPO Vault",
+    "legacyId": 9026,
+    "canonicalMarketId": "oZNJX-pre"
+  },
+  "exposure": {
+    "underlying": "zhongji-innolight-co-ltd"
+  },
+  "class": {
+    "structure": "pe-venture",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "about": {
+    "description": "oZNJX-pre is a capped vault token from OpenStock that gave holders exposure to the Hong Kong share offering of Zhongji Innolight, the Chinese maker of the optical transceivers used to connect servers inside artificial intelligence data centres. The company was already listed in Shenzhen and added a parallel Hong Kong line, and the vault subscribed to that Hong Kong offering through a special purpose vehicle. A holder owns a claim on the vehicle rather than registered shares, with no voting rights and no dividend entitlement. The vault raised about nine point three million dollars, was filled at roughly fifty three percent of the allocation it asked for, and now redeems for stablecoin at a published net redemption value rather than at the market price of the stock. Deposits are closed and the token remains freely transferable.",
+    "links": {
+      "website": [
+        "https://opn.st/s/ZNJX"
+      ],
+      "twitter": "https://x.com/OpenstockInc",
+      "docs": "https://docs.opn.st/"
+    }
+  },
+  "review": {
+    "activeAumReviewed": false,
+    "suspicious": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xdd997c82352ccb4129a6c003fdfd2de1f45748b6",
+      "deployedAt": "2026-07-01",
+      "primary": true
+    },
+    {
+      "chain": "base",
+      "address": "0xbf5790d2caa13eced9151406e0d82e2dc45dcc66",
+      "deployedAt": "2026-07-01"
+    },
+    {
+      "chain": "mantle",
+      "address": "0x41d4c067b82da8357dfc38e3f24f6033368af4bb",
+      "deployedAt": "2026-07-01"
+    },
+    {
+      "chain": "solana",
+      "address": "FJFsDXvNeryyL13zZ7AHJ64bhuXkFsk4dRRy1ZM9gDRo",
+      "deployedAt": "2026-07-01"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "polynomial-research",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.opn.st/legal/structure"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

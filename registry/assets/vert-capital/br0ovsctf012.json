@@ -1,0 +1,64 @@
+{
+  "identity": {
+    "slug": "br0ovsctf012",
+    "symbol": "BR0OVSCTF012",
+    "name": "VERT's FIDC Byx Mozart - Mezzanine",
+    "legacyId": 664,
+    "canonicalMarketId": "BR0OVSCTF012"
+  },
+  "exposure": {
+    "underlying": "vert-byx-mozart-fidc-mezzanine"
+  },
+  "class": {
+    "structure": "other-credit",
+    "type": "asset",
+    "rwaClassification": "programmable-finance",
+    "category": [
+      "private-credit"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "about": {
+    "description": "VERT's BYX Mozart Credit Rights Investment Fund (FIDC) is a structured credit vehicle backed by public-pension receivables (INSS), which are claims on monthly pension payments owed by the federal government to retirees. The fund is bankruptcy-remote and tranche-structured. The Mezzanine tranche sits between senior and junior, absorbing losses only after the junior tranche.",
+    "logo": "https://icons.llamao.fi/icons/rwa/verts-fidc-byx-mozart---mezzanine.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://tokenizacao.vert-capital.app/en"
+      ],
+      "twitter": "https://x.com/anemoycapital",
+      "docs": "https://vertcapital.com.br/",
+      "linkedin": "https://www.linkedin.com/company/vertdigital"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ripple",
+      "address": "MZN.rK3EJYyzoEBniobrnYFnFADhVN4HdyrEed",
+      "deployedAt": "2025-10-24",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "vert-capital",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://tokenizacao.vert-capital.app/en"
+      ]
+    }
+  ]
+}

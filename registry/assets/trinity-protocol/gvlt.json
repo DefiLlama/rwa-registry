@@ -1,0 +1,92 @@
+{
+  "identity": {
+    "slug": "gvlt",
+    "symbol": "GVLT",
+    "name": "Trinity Gold Vault Token",
+    "legacyId": 3290,
+    "canonicalMarketId": "GVLT"
+  },
+  "exposure": {
+    "underlying": "gold"
+  },
+  "class": {
+    "structure": "gold",
+    "type": "asset",
+    "rwaClassification": "programmable-finance",
+    "category": [
+      "gold-commodities"
+    ]
+  },
+  "terms": {
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "On-demand"
+  },
+  "sources": {
+    "llamaAttestationProof": false
+  },
+  "about": {
+    "description": "GVLT is an Arbitrum ERC-20 that represents a claim on allocated gold bullion. The issuer's published metadata record describes 25.5 metric tons of bullion, approximately 819,843 troy ounces, held under central bank custody in Malaysia on a declared-allocated basis with rehypothecation prohibited unless contractually authorised, and leaves fineness, the safekeeping receipt reference and bar serials redacted. Supply is controlled by an administrator key, which is the only account able to call mint and burn on the token contract. There is no holder-facing redemption function. Transfers are unrestricted, with no allowlist, blacklist or transfer hook. A Proof of Reserve contract at 0x9c0bc46a92DD9acdD0c0d1CA8496BDa1f2d34dBF publishes IPFS content identifiers for the issuer's attestation documents and computes a reserve total by summing the issuer's own treasury balances of GVLT and HYDRO at oracle prices together with treasury USDC, so that total measures issuer-held token inventory rather than custodied metal. Gold pricing is taken from an adapter over the Chainlink XAU/USD and USDC/USD feeds on Arbitrum, with staleness and depeg guards. The token is accepted as collateral in a Morpho Blue market against USDC at a 62.5% liquidation loan-to-value.",
+    "logo": "https://icons.llamao.fi/icons/rwa/gvlt.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://graceful-begonia-2b7634.netlify.app/"
+      ],
+      "twitter": "https://x.com/cameron_arc_ai",
+      "linkedin": "https://www.linkedin.com/company/trinityprotocol",
+      "telegram": "https://t.me/cameroncurriden01"
+    }
+  },
+  "review": {
+    "activeAumReviewed": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "arbitrum",
+      "address": "0x57587e47a0af9d1bb93c0d4b3df671b053ab4366",
+      "deployedAt": "2026-03-23",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xa3336bb25f231fa25e66d2dda3a9aa0ed8be09db",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xf9a4d875811682c225db58d9d0216709dcd6ebbb",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "garret-inc",
+      "kind": "issuer",
+      "protocolIds": [
+        7710
+      ]
+    },
+    {
+      "organization": "garret-inc",
+      "kind": "oracle"
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    },
+    {
+      "kind": "review",
+      "outcome": "suspicious",
+      "reason": "The attestations published for this token are self-declarations by the issuer rather than independent third-party attestations. The Proof of Reserve attestation dated 8 April 2026 carries the name of Trinity Protocol's own authorised representative with no independent auditor named and no title given. That name was added to the document as an overlay annotation, the visible signature beside it is drawn artwork within the page itself, and the document's signature field holds no cryptographic signature. The attestation also carries an annotation naming a guardian called NEXUS DAO, an entity that appears in no other material the issuer publishes. The Proof of Reserve contract's attestorName field is empty, and every supporting document referenced in the issuer metadata record, including the custody attestation, the safekeeping receipt, the bar list and the assay evidence, resolves to the placeholder path ipfs://CID-B rather than to a content identifier. That metadata record declares itself to be a metadata record and not a token. The identifier the contract publishes as an issuer LEI is the string TRINITY-PROTOCOL-RWA, which is not a code issued under ISO 17442, and neither the issuer nor the platform appears in the GLEIF registry. The Proof of Reserve contract computes its reserve total from the issuer's own treasury balances of GVLT and HYDRO valued at oracle prices, so that total does not evidence custody of any metal. The attestation document gives the token's contract address only in abbreviated form, and that abbreviation does not match the contract this entry lists. The token is deployed at six separate addresses on Arbitrum, each carrying the same supply."
+    }
+  ]
+}

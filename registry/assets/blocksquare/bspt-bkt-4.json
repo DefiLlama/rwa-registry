@@ -1,0 +1,74 @@
+{
+  "identity": {
+    "slug": "bspt-bkt-4",
+    "symbol": "BSPT-BKT-4",
+    "name": "Social housing, Old Willow Close",
+    "legacyId": 8539,
+    "canonicalMarketId": "BSPT-BKT-4"
+  },
+  "exposure": {
+    "underlying": "old-willow-close-london-e3-4re-united-kingdom"
+  },
+  "class": {
+    "structure": "single-property",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "real-estate"
+    ]
+  },
+  "terms": {
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "sources": {
+    "llamaAttestationProof": false
+  },
+  "about": {
+    "description": "BSPT-BKT-4 is a Blocksquare property token recorded on Ethereum under the name Social housing, Old Willow Close. The on chain property record gives an address of Old Willow Close, London, E3 4RE, United Kingdom together with geographic coordinates. No valuation has been set on either the token or the Blocksquare property registry, so the entry exists as a registered property token without a stated value. A maximum supply is set but no tokens have been issued. Under the Blocksquare framework a property token conveys an economic interest routed through the entity that owns the property rather than direct legal title, holding requires passing the platform's onboarding checks, transfers are limited to approved addresses, yield reaches holders as distributed rental income paid in DAI, and no issuer redemption facility exists. This token was not part of the issuer's own submission and was identified from the Blocksquare marketplace indexer and confirmed on chain.",
+    "logo": "https://icons.llamao.fi/icons/rwa/blocksquare.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://blocksquare.io/"
+      ],
+      "twitter": "https://x.com/blocksquare_io",
+      "docs": "https://docs.blocksquare.io/",
+      "linkedin": "https://www.linkedin.com/company/blocksquare/",
+      "discord": "https://discord.com/invite/blocksquare",
+      "telegram": "https://t.me/blocksquare",
+      "github": "https://github.com/blocksquare"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xbad4c11640230eb942ff3b052f67866c789b45a5",
+      "deployedAt": "2024-01-24",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xc0b0cf277b9be9072184eada4de5786be38a8d5e",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "blocksquare",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.blocksquare.io/"
+      ]
+    }
+  ]
+}

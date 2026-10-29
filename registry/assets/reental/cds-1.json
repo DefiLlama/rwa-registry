@@ -1,0 +1,66 @@
+{
+  "identity": {
+    "slug": "cds-1",
+    "symbol": "CDS-1",
+    "name": "REENTAL - COSTA DEL SOL 1",
+    "legacyId": 9598,
+    "canonicalMarketId": "CDS-1"
+  },
+  "exposure": {
+    "underlying": "costa-del-sol-1"
+  },
+  "class": {
+    "structure": "single-property",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "real-estate"
+    ]
+  },
+  "terms": {
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "Reental-CDS-1 is Reental's tokenized interest in Costa del Sol 1 (EUR-denominated), issued on Polygon at a fixed 100 EUR per token. The token's AssetOracle publishes that issue price, not a revalued mark: it is 100 EUR converted through Chainlink EUR/USD, so the only variation is FX. No attestation, no redemption price and no secondary market (transfers are whitelist-gated).",
+    "logo": "https://icons.llamao.fi/icons/rwa/cds-1.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.reental.co/"
+      ],
+      "twitter": "https://x.com/Reental_co",
+      "docs": "https://docs.reental.co/",
+      "linkedin": "https://www.linkedin.com/company/reental"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "polygon",
+      "address": "0x5ab768c8ca1cc20cb8ec7b90554a3b12524b6c47",
+      "deployedAt": "2024-08-08",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "reental",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://app.reental.co"
+      ]
+    },
+    {
+      "organization": "reental",
+      "kind": "oracle"
+    }
+  ]
+}

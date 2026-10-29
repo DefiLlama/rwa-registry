@@ -1,0 +1,71 @@
+{
+  "identity": {
+    "slug": "cperr",
+    "symbol": "CPERr",
+    "name": "Copper rStock",
+    "legacyId": 637,
+    "canonicalMarketId": "CPERr"
+  },
+  "exposure": {
+    "underlying": "copper"
+  },
+  "class": {
+    "structure": "other-commodity",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "gold-commodities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "sources": {
+    "coingeckoId": "copper-rstock"
+  },
+  "about": {
+    "description": "CPERr is a Remora Markets rToken that provides onchain price exposure to copper. The product is issued against custodied shares, and the token supply is intended to match the custodied share count shown on Remora's products page. Remora Markets is operated by Step Labs LLC (a Step Finance subsidiary) and supports mint and burn flows through its app. Remora's disclosures state rTokens are not stocks or ownership claims, and holders do not receive shareholder rights in the underlying shares.",
+    "logo": "https://icons.llamao.fi/icons/rwa/cperr.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://remoramarkets.xyz/products"
+      ],
+      "twitter": "https://x.com/RemoraMarkets",
+      "docs": "https://docs.remora.markets/",
+      "linkedin": "https://www.linkedin.com/company/remoramarkets",
+      "discord": "https://discord.gg/Pab8wcH5Yt"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "solana",
+      "address": "C3VLBJB2FhEb47s1WEgroyn3BnSYXaezqtBuu5WNmUGw",
+      "deployedAt": "2026-02-11",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "step-labs-llc-remora-markets",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://remoramarkets.xyz/legal-documentation/service-providers"
+      ],
+      "protocolIds": [
+        6669,
+        6760
+      ]
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "identity": {
+    "slug": "rlusd",
+    "symbol": "RLUSD",
+    "name": "Ripple USD",
+    "legacyId": 18,
+    "canonicalMarketId": "RLUSD"
+  },
+  "exposure": {
+    "underlying": "us-dollar"
+  },
+  "class": {
+    "structure": "usd-stable",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "fiat-stablecoins"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Monthly"
+  },
+  "sources": {
+    "coingeckoId": "ripple-usd"
+  },
+  "about": {
+    "description": "RLUSD is Ripple’s USD stablecoin issued across XRP Ledger and Ethereum. Ripple states RLUSD is backed by a segregated reserve of cash and cash equivalents, and its transparency program includes monthly independent CPA attestations covering RLUSD in circulation and reserve composition.",
+    "logo": "https://icons.llamao.fi/icons/rwa/rlusd.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://ripple.com"
+      ],
+      "twitter": "https://x.com/Ripple",
+      "docs": "https://ripple.com/developers/",
+      "linkedin": "https://www.linkedin.com/company/ripple-labs",
+      "discord": "https://discord.com/invite/qgfVERN",
+      "telegram": "https://t.me/Ripple"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ripple",
+      "address": "524C555344000000000000000000000000000000.rMxCKbEDwqr76QuheSUMdEGf4B9xJ8m5De",
+      "deployedAt": "2024-08-21",
+      "primary": true
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x8292bb45bf1ee4d140127049757c2e0ff06317ed",
+      "deployedAt": "2024-08-09",
+      "labels": [
+        {
+          "address": "0x3baf6263ad9c9d0854405b4cfe4310c556a3e6ab",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "standard-custody-trust-company-llc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://ripple.com/solutions/rlusd/",
+        "https://ripple.com/rlusd-transparency/"
+      ],
+      "protocolIds": [
+        2269,
+        2272,
+        2286,
+        3075,
+        2274,
+        2352,
+        2314,
+        2275,
+        2293,
+        2270,
+        2273,
+        6469,
+        2276,
+        4859,
+        2369,
+        5342,
+        3577
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "date": "2025-11-30",
+      "links": [
+        "https://ripple.com/solutions/stablecoin/transparency/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "identity": {
+    "slug": "dnnon",
+    "symbol": "DNNon",
+    "name": "Denison Mines (Ondo Tokenized)",
+    "legacyId": 706,
+    "canonicalMarketId": "DNNon"
+  },
+  "exposure": {
+    "underlying": "denison-mines-corp"
+  },
+  "class": {
+    "structure": "stock-backed",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "cexListed": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Daily"
+  },
+  "sources": {
+    "coingeckoId": "denison-mines-ondo-tokenized-stocks",
+    "identifiers": [
+      {
+        "scheme": "isin",
+        "value": "CA2483561072",
+        "source": null,
+        "verified": false
+      }
+    ]
+  },
+  "about": {
+    "description": "DNNon is an Ondo Global Markets tokenized stock exposure designed to provide economic exposure to =SUBSTITUTE(A137, \", \") in an onchain format. The token is designed to be fully backed by the underlying publicly traded asset, together with cash in transit, held with regulated custodial broker-dealers. Holdings attestations and ongoing reporting are surfaced through Ondo trust and transparency materials and the product asset page. Tokenholders are not shareholders of the underlying and do not receive shareholder voting rights. Dividend value is reflected through total return mechanics, and where applicable, dividends are reflected through reinvestment adjustments instead of cash dividends.",
+    "logo": "https://icons.llamao.fi/icons/rwa/dnn.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://app.ondo.finance/assets/dnnon"
+      ],
+      "twitter": "https://x.com/ondofinance",
+      "docs": "https://docs.ondo.finance/",
+      "linkedin": "https://www.linkedin.com/company/ondofinance",
+      "discord": "https://discord.com/invite/ondofinance",
+      "telegram": "https://t.me/ondofinance",
+      "github": "https://github.com/ondoprotocol"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x7aa59a63d1d0c435a08bc96e11bef2e95ab66c40",
+      "deployedAt": "2025-12-10",
+      "primary": true
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x8049ff34daca2c48385009efc3857b1efaddf70a",
+      "deployedAt": "2025-12-10"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x70bd780076e25d087ed9c35f4e4a540522abe8cf",
+      "deployedAt": "2025-12-10"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x678efc93df6a4d1dcfce72111ad63ba00ceab698",
+      "deployedAt": "2025-12-10"
+    },
+    {
+      "chain": "solana",
+      "address": "12J2LD3tuLfdiVKnWZMHRMrbnXDY9rM4yqVLUa5yondo",
+      "deployedAt": "2025-12-31"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "ondo-global-markets-bvi-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.ondo.finance/ondo-global-markets/legal-and-regulatory"
+      ],
+      "protocolIds": [
+        2542,
+        6650
+      ]
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://app.ondo.finance/assets/dnnon"
+      ],
+      "note": "Daily (ongoing)"
+    }
+  ]
+}

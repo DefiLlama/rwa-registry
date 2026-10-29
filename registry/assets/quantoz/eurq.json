@@ -1,0 +1,88 @@
+{
+  "identity": {
+    "slug": "eurq",
+    "symbol": "EURQ",
+    "name": "Quantoz EURQ",
+    "legacyId": 623,
+    "canonicalMarketId": "EURQ"
+  },
+  "exposure": {
+    "underlying": "euro"
+  },
+  "class": {
+    "structure": "eur-stable",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "fiat-stablecoins"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "about": {
+    "description": "EURQ is a euro-pegged stablecoin issued by Quantoz Payments (a Dutch electronic money institution). Reserves are reported as cash and high-quality liquid assets, with a disclosed reserve ratio. EURQ/USDQ are redeemable 1:1 via institutional redemption partners. Native issuance spans multiple chains (e. g. , Ethereum, Polygon, Algorand and XRPL) for onchain euro settlement and treasury management.",
+    "logo": "https://icons.llamao.fi/icons/rwa/eurq.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://quantoz.com/products/eurq-usdq"
+      ],
+      "twitter": "https://x.com/Quantoz",
+      "docs": "https://docs.quantoz.com/",
+      "linkedin": "https://www.linkedin.com/company/quantoz"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x8df723295214ea6f21026eeeb4382d475f146f9f",
+      "deployedAt": "2024-11-13",
+      "primary": true
+    },
+    {
+      "chain": "polygon",
+      "address": "0xd571edb2ef29df10fcd6200fd6d0ed2389983db3",
+      "deployedAt": "2025-03-21"
+    },
+    {
+      "chain": "algorand",
+      "address": "2768422954",
+      "deployedAt": null
+    },
+    {
+      "chain": "ripple",
+      "address": "rDk1xiGExPkrY8AbVbpS8kYpCLmp9ayVqd",
+      "deployedAt": null
+    }
+  ],
+  "roles": [
+    {
+      "organization": "quantoz-payments-b-v",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://quantoz.com/transparency",
+        "https://quantoz.com/products/eurq-usdq"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://quantoz.com/transparency"
+      ],
+      "note": "Not publicly disclosed"
+    }
+  ]
+}

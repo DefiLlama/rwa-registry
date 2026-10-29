@@ -1,0 +1,92 @@
+{
+  "identity": {
+    "slug": "barh",
+    "symbol": "BA",
+    "name": "The Boeing Co. • Robinhood Token",
+    "legacyId": 957,
+    "canonicalMarketId": "BArh"
+  },
+  "exposure": {
+    "underlying": "the-boeing-co"
+  },
+  "class": {
+    "structure": "synthetic-stock",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "yieldBearing": false
+  },
+  "sources": {
+    "identifiers": [
+      {
+        "scheme": "isin",
+        "value": "US0970231058",
+        "source": null,
+        "verified": false
+      }
+    ]
+  },
+  "about": {
+    "description": "BA is a tokenized tracker certificate issued by Robinhood Markets, Inc. through its European subsidiary Robinhood Europe UAB, deployed as an ERC-20 token on Arbitrum One. It is designed to provide synthetic price exposure to BA rather than direct share ownership, operating under MiFID II regulatory oversight. The token is available to EU/EEA customers with 24/5 commission-free trading, and on-chain pricing is supplied through Chainlink oracle feeds.",
+    "logo": "https://icons.llamao.fi/icons/rwa/ba.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://robinhood.com/stocks"
+      ],
+      "twitter": "https://x.com/RobinhoodApp",
+      "docs": "https://robinhood.com/us/en/support/",
+      "linkedin": "https://www.linkedin.com/company/robinhood-markets",
+      "discord": "https://discord.com/invite/robinhood",
+      "github": "https://github.com/robinhood"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "arbitrum",
+      "address": "0x7639de4f3d46a577963865956e901c81b4a5a3f3",
+      "deployedAt": "2025-06-23",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xcbdf630a858e7d87b5b08d92968ca14ca0f8f556",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xd29aa2b0584856c2b3b097595e9d4b1cd1242e05",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "robinhood",
+      "address": "0x4d21483a44bf67a86b77e3da301411880797d452",
+      "deployedAt": "2026-06-09"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "robinhood-markets-inc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://robinhood.com/eu/en/about/"
+      ]
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    }
+  ]
+}

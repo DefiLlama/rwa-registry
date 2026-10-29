@@ -1,0 +1,61 @@
+{
+  "identity": {
+    "slug": "txag",
+    "symbol": "TXAG",
+    "name": "tSilver",
+    "legacyId": 2720,
+    "canonicalMarketId": "TXAG"
+  },
+  "exposure": {
+    "underlying": "silver"
+  },
+  "class": {
+    "structure": "silver",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "gold-commodities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "about": {
+    "description": "Aurus tSILVER is a physically backed silver token. Each token represents 1 gram of 99.9% silver sourced from LBMA-accredited refineries and stored in insured, audited facilities, and it can be redeemed via Aurus.",
+    "logo": "https://icons.llamao.fi/icons/rwa/txag.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://aurus.org/tsilver"
+      ],
+      "twitter": "https://x.com/AurusOfficial",
+      "docs": "https://docs.aurus.io/",
+      "linkedin": "https://www.linkedin.com/company/aurus-technologies"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x34abce75d2f8f33940c721dca0f562617787bff3",
+      "deployedAt": "2022-10-13",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "aurus",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://aurus.org/tsilver"
+      ]
+    }
+  ]
+}

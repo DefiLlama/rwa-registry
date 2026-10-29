@@ -1,0 +1,79 @@
+{
+  "identity": {
+    "slug": "tbund",
+    "symbol": "TBUND",
+    "name": "Trinity Sovereign Bond Token",
+    "legacyId": 3291,
+    "canonicalMarketId": "TBUND"
+  },
+  "exposure": {
+    "underlying": "german-bunds"
+  },
+  "class": {
+    "structure": "collectibles",
+    "type": "asset",
+    "rwaClassification": "programmable-finance",
+    "category": [
+      "other-rwas"
+    ]
+  },
+  "terms": {
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "sources": {
+    "llamaAttestationProof": false
+  },
+  "about": {
+    "description": "TBUND is an Arbitrum ERC-20 with a fixed supply of ten million tokens. The token contract exposes no mint function, so supply cannot be increased, and burn is the only path that reduces it. There is no holder-facing redemption function. Transfers are unrestricted, with no allowlist, blacklist or transfer hook. The only custody document the issuer has published for this token describes a collection of physical 1924 German bearer bond certificates, batch NC 387001 to 397000, being ten thousand certificates packed in ten boxes and evidenced by photographs with SHA-256 file hashes. Those are historical paper instruments rather than current German federal debt. A price adapter controlled by the issuer returns a fixed value for the token, and a Morpho Blue market accepts TBUND as collateral against USDC at a 62.5% liquidation loan-to-value.",
+    "logo": "https://icons.llamao.fi/icons/rwa/tbund.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://graceful-begonia-2b7634.netlify.app/"
+      ],
+      "twitter": "https://x.com/cameron_arc_ai",
+      "linkedin": "https://www.linkedin.com/company/trinityprotocol",
+      "telegram": "https://t.me/cameroncurriden01"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "arbitrum",
+      "address": "0xc923e4d60e401c10ba4a7199418b3bd22b118400",
+      "deployedAt": "2026-04-11",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xa3336bb25f231fa25e66d2dda3a9aa0ed8be09db",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "garret-inc",
+      "kind": "issuer",
+      "protocolIds": [
+        7710
+      ]
+    },
+    {
+      "organization": "trinity-protocol",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "review",
+      "outcome": "suspicious",
+      "reason": "The only custody document published for this token is a form whose custodian, signatory and notary blocks are left blank. The attestation of custody and provenance dated 10 September 2025 names Charles Garret as the attesting party, which matches the name of the issuing entity Garret INC, and in the field reserved for the custodian it carries a line reading ***FOR APPROVED  ENTITIES ONLLY***, reproduced here with its asterisks, doubled space and misspelling, rather than identifying any custodian at all. Its custodian organisation, address and contact, its printed name and title, and every notary field are left as empty lines, the IPFS directory identifier remains the placeholder cid://, and the signatory date reads 04.09.2026 on a document dated 10 September 2025. Two of the three file hashes it lists are identical to one another. That document describes physical 1924 German bearer bond certificates, while the issuer's website presents the token as AAA rated German sovereign bonds. A second attestation link published for this token resolves to no providers on IPFS. The Proof of Reserve contract that the issuer cites as an attestation source does not reference this token at any address. The price adapter the collateral market relies on returns a value scaled for an eighteen decimal loan asset while that market's loan asset carries six decimals, which overstates the token's collateral value in that market by a factor of one trillion. The identifier the issuer publishes as its LEI is the string TRINITY-PROTOCOL-RWA, which is not a code issued under ISO 17442, and neither the issuer nor the platform appears in the GLEIF registry."
+    }
+  ]
+}

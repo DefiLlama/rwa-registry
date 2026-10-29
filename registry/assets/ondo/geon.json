@@ -1,0 +1,107 @@
+{
+  "identity": {
+    "slug": "geon",
+    "symbol": "GEon",
+    "name": "General Electric (Ondo Tokenized Stock)",
+    "legacyId": 368,
+    "canonicalMarketId": "GEon"
+  },
+  "exposure": {
+    "underlying": "ge-aerospace"
+  },
+  "class": {
+    "structure": "stock-backed",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "cexListed": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Daily"
+  },
+  "sources": {
+    "coingeckoId": "general-electric-ondo-tokenized-stock"
+  },
+  "about": {
+    "description": "GEon is an Ondo Global Markets tokenized stock exposure designed to provide economic exposure to General Electric in an onchain format. The token is designed to be fully backed by the underlying publicly traded asset, together with cash in transit, held with regulated custodial broker-dealers. Holdings attestations and ongoing reporting are surfaced through Ondo trust and transparency materials and the product asset page. Tokenholders are not shareholders of the underlying and do not receive shareholder voting rights. Dividend value is reflected through total return mechanics. Ondo Global Markets adjusts the token to account for dividends net of withholding taxes and reinvests that value into additional shares, increasing the shares per token over time instead of paying cash dividends directly to tokenholders.",
+    "logo": "https://icons.llamao.fi/icons/rwa/ge.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://app.ondo.finance/assets/geon"
+      ],
+      "twitter": "https://x.com/ondofinance",
+      "docs": "https://docs.ondo.finance/",
+      "linkedin": "https://www.linkedin.com/company/ondofinance",
+      "discord": "https://discord.com/invite/ondofinance",
+      "telegram": "https://t.me/ondofinance",
+      "github": "https://github.com/ondoprotocol"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xd904bcf89b7cedf5c89f9df7e829191d695f847e",
+      "deployedAt": "2025-07-23",
+      "primary": true
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xabbc9e3ad92af86769c09312c5fa44db553aa9c5",
+      "deployedAt": "2025-12-02"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x5151a22421ed4277f1e4ca4785a07b035d548a36",
+      "deployedAt": "2025-10-09"
+    },
+    {
+      "chain": "bsc",
+      "address": "0xb53530512b74787bb2b65d3d841aa30810542d4a",
+      "deployedAt": "2025-12-02"
+    },
+    {
+      "chain": "solana",
+      "address": "aTBfDuLRqYHBiG82bHA7DzwjSDTFre2dRtGH3S5ondo",
+      "deployedAt": "2025-12-31"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "ondo-global-markets-bvi-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.ondo.finance/ondo-global-markets/legal-and-regulatory"
+      ],
+      "protocolIds": [
+        2542,
+        6650
+      ]
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://app.ondo.finance/assets/geon"
+      ],
+      "note": "Daily (ongoing)"
+    }
+  ]
+}

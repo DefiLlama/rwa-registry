@@ -1,0 +1,65 @@
+{
+  "identity": {
+    "slug": "efixdi",
+    "symbol": "efixDI",
+    "name": "efixDI+",
+    "legacyId": 2718,
+    "canonicalMarketId": "efixDI"
+  },
+  "exposure": {
+    "underlying": "brazilian-di-fund-shares"
+  },
+  "class": {
+    "structure": "mmf",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "bond-mmf-funds",
+      "rwa-wrappers"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "efixDI is a tokenized share of a Brazilian Treasury-Selic DI fund (BTG Pactual, CNPJ 09.215.250/0001-13). NAV per token is published on-chain and accrues with the CDI rate; the token is not pegged. Redemption at NAV settles same day (D+0) in Brazil. Collateral market: Euler v2 on Base. Contracts: EfixDIToken (Polygon, legacy) audited by OpenZeppelin, March 2026, 15/15 findings resolved (openzeppelin.com/news/efixdi-token-audit)",
+    "logo": "https://icons.llamao.fi/icons/rwa/efixdi.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://efix.finance/"
+      ],
+      "twitter": "https://x.com/efixfinance"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "polygon",
+      "address": "0x04082b283818d9d0dd9ee8742892eee5cc396441",
+      "deployedAt": "2026-01-23"
+    },
+    {
+      "chain": "base",
+      "address": "0xf5ca55f3ea5bcd180aea6df9e05a0e63a66f5608",
+      "deployedAt": "2026-02-04",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "efix",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://efix.finance/"
+      ]
+    }
+  ]
+}

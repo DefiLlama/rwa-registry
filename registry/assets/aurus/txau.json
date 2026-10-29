@@ -1,0 +1,75 @@
+{
+  "identity": {
+    "slug": "txau",
+    "symbol": "TXAU",
+    "name": "Aurus tGOLD",
+    "legacyId": 100,
+    "canonicalMarketId": "TXAU"
+  },
+  "exposure": {
+    "underlying": "gold"
+  },
+  "class": {
+    "structure": "gold",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "gold-commodities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "about": {
+    "description": "tGOLD (TXAU) is Aurus's gold token on Ethereum and Polygon, each backed 1:1 by one gram of LBMA-accredited gold held with independent vault partners, with storage funded via a fee-on-transfer model and physical redemption available through Aurus partners. TXAU is the direct successor of AurusGOLD (AWG) following Aurus's October 2022 network upgrade and token migration. Legacy AWG balances were snapshotted and airdropped to the new contract. The Ethereum-side balance of the Polygon PoS bridge is excluded to avoid double counting.",
+    "logo": "https://icons.llamao.fi/icons/rwa/txau.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://aurus.org"
+      ],
+      "twitter": "https://x.com/AurusOfficial",
+      "docs": "https://aurus.org",
+      "linkedin": "https://www.linkedin.com/company/aurus-technologies",
+      "telegram": "https://t.me/AurusOfficial",
+      "github": "https://github.com/aurus-gold"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xe4a6f23fb9e00fca037aa0ea0a6954de0a6c53bf",
+      "deployedAt": "2022-10-13",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x40ec5b33f54e0e8a33a975908c5ba1c14e5bbbdf",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "polygon",
+      "address": "0xa6da8c8999c094432c77e7d318951d34019af24b",
+      "deployedAt": "2022-10-13"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "aurus-technologies-ltd",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://aurus.org"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "identity": {
+    "slug": "xrpl-taag",
+    "symbol": "TAAG",
+    "name": "Tavor Fertigation",
+    "legacyId": 4486,
+    "canonicalMarketId": "xrpl:TAAG"
+  },
+  "exposure": {
+    "underlying": "tavor-fertigation-ltd"
+  },
+  "class": {
+    "structure": "pe-venture",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "about": {
+    "description": "TAAG is an XRPL-issued token representing an interest in an Alter SPV Capital Partners holding structure that owns a 15% non-dilutive equity stake in Tavor Fertigation Ltd. Tavor Fertigation develops fertigation, irrigation automation, crop nutrition delivery, and precision agriculture infrastructure. Tavor Fertigation does not issue, manage, custody, or administer the token, and all tokenization activities are conducted independently by Alter SPV Capital Partners and its affiliated SPV.",
+    "logo": "https://alterspv.com/asset/tavor.png",
+    "links": {
+      "website": [
+        "https://tavoragro.com/"
+      ],
+      "docs": "https://tavoragro.com/tokenization"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ripple",
+      "address": "TAAG:rUsSxs3aQ1ko3GAPtuhkz5o4fG5x4r1jfS",
+      "deployedAt": "2026-06-17",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "alter-spv-capital-partners",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://tavoragro.com/tokenization"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://tavoragro.com/tokenization"
+      ],
+      "note": "no date in the export"
+    }
+  ]
+}

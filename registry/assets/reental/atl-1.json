@@ -1,0 +1,72 @@
+{
+  "identity": {
+    "slug": "atl-1",
+    "symbol": "ATL-1",
+    "name": "REENTAL - ATLANTA 1",
+    "legacyId": 9656,
+    "canonicalMarketId": "ATL-1"
+  },
+  "exposure": {
+    "underlying": "atlanta-1"
+  },
+  "class": {
+    "structure": "single-property",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "real-estate"
+    ]
+  },
+  "terms": {
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "Reental-ATL-1 is Reental's tokenized interest in Atlanta 1 (USD-denominated), issued on Polygon at a fixed 100 USD per token. The token's AssetOracle publishes that issue price, not a revalued mark: it is pinned at exactly $100 and has never moved. No attestation, no redemption price and no secondary market (transfers are whitelist-gated). 3.0% of supply ($6,750) sits in Reental-side crowdfunding/recipient wallets and is excluded from active marketcap.",
+    "logo": "https://icons.llamao.fi/icons/rwa/atl-1.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.reental.co/"
+      ],
+      "twitter": "https://x.com/Reental_co",
+      "docs": "https://docs.reental.co/",
+      "linkedin": "https://www.linkedin.com/company/reental"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "polygon",
+      "address": "0x68f73061bdf369c2562f4c0ea4e940f362d1a97f",
+      "deployedAt": "2025-02-27",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x696c899ccbafc27657e3d13583e2a836e251b425",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "reental",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://app.reental.co"
+      ]
+    },
+    {
+      "organization": "reental",
+      "kind": "oracle"
+    }
+  ]
+}

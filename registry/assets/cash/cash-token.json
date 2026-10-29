@@ -1,0 +1,65 @@
+{
+  "identity": {
+    "slug": "cash-token",
+    "symbol": "CASH",
+    "name": "CASH",
+    "legacyId": 614,
+    "canonicalMarketId": "CASH-TOKEN"
+  },
+  "exposure": {
+    "underlying": "us-dollar"
+  },
+  "class": {
+    "structure": "usd-stable",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "fiat-stablecoins"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "about": {
+    "description": "CASH is a Solana-native fiat-backed stablecoin issued by Bridge Building Inc. (BBI). It is designed to maintain a $1 peg and is backed by a segregated reserve portfolio that may include cash, U. S. Treasuries, and money market funds (or tokenized equivalents). It is positioned for onchain payments and settlement with an issuer-managed redemption process. key risks are issuer/custodian risk, reserve management and disclosure quality, and redemption access/timing.",
+    "logo": "https://icons.llamao.fi/icons/rwa/usd.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://cashstablecoin.com/"
+      ],
+      "twitter": "https://x.com/useCASH",
+      "docs": "https://docs.dreamcash.xyz/",
+      "linkedin": "https://www.linkedin.com/company/dreamcash"
+    }
+  },
+  "review": {
+    "activeAumReviewed": false,
+    "suspicious": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "bridge-building-inc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://cashstablecoin.com/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    },
+    {
+      "kind": "attestation",
+      "note": "Not publicly disclosed"
+    }
+  ]
+}

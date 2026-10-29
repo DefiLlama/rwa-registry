@@ -1,0 +1,92 @@
+{
+  "identity": {
+    "slug": "stbt",
+    "symbol": "STBT",
+    "name": "Matrixdock Short-term Treasury Bill Token",
+    "legacyId": 149,
+    "canonicalMarketId": "STBT"
+  },
+  "exposure": {
+    "underlying": "matrixdock-short-term-treasury-bill-token"
+  },
+  "class": {
+    "structure": "t-bills",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "bond-mmf-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Biannual"
+  },
+  "about": {
+    "description": "STBT is Matrixdock’s tokenized short-term U.S. Treasury bill product built for conservative onchain cash management. It targets a stable $1.00 NAV experience while distributing Treasury-linked yield through daily accrual mechanics, and it is designed to give investors low-duration exposure that behaves more like cash plus T-bill carry than a price-volatile bond fund. Matrixdock positions STBT for treasury parking, collateral use, and integrations where transparent reserve monitoring is required.",
+    "logo": "https://icons.llamao.fi/icons/rwa/stbt.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.matrixdock.com/stbt"
+      ],
+      "twitter": "https://x.com/matrixdock",
+      "docs": "https://docs.matrixdock.com/",
+      "linkedin": "https://www.linkedin.com/company/matrixport-group",
+      "github": "https://github.com/Matrixdock-STBT"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x530824da86689c9c17cdc2871ff29b058345b44a",
+      "deployedAt": "2023-01-18",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xca241823d4bfe8b29610709db617407fbc9ae02b",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xa01d9bc8343016c7ddd39852e49890a8361b2884",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "bsc",
+      "address": "0x61b7a0bb3986e40ec06f3184da6153c4b3f6233f",
+      "deployedAt": "2021-05-03"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "matrixdock",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://matrixdock.gitbook.io/matrixdock-docs/english/legal/token-terms-and-conditions/stbt-terms-and-conditions"
+      ],
+      "protocolIds": [
+        2807
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "date": "2025-07-01",
+      "links": [
+        "https://stbt.matrixdock.com/transparency"
+      ]
+    }
+  ]
+}

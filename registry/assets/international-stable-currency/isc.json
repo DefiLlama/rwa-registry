@@ -1,0 +1,67 @@
+{
+  "identity": {
+    "slug": "isc",
+    "symbol": "ISC",
+    "name": "International Stable Currency",
+    "legacyId": 15,
+    "canonicalMarketId": "ISC"
+  },
+  "exposure": {
+    "underlying": "international-stable-currency"
+  },
+  "class": {
+    "structure": "multi-asset-rwa-stable",
+    "type": "asset",
+    "rwaClassification": "programmable-finance",
+    "category": [
+      "rwa-stablecoins"
+    ]
+  },
+  "terms": {
+    "cexListed": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "sources": {
+    "coingeckoId": "international-stable-currency"
+  },
+  "about": {
+    "description": "International Stable Currency (ISC) is presented as a basket-referenced stable asset designed to track the value of a diversified set of financial assets instead of a single fiat currency. The design aims to reduce exposure to any one currency’s inflation by referencing multiple asset classes.",
+    "logo": "https://icons.llamao.fi/icons/rwa/international-stable-currency.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://isc.money"
+      ],
+      "twitter": "https://x.com/ISC_money",
+      "docs": "https://docs.iscy.io/",
+      "linkedin": "https://www.linkedin.com/company/iscy"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "solana",
+      "address": "J9BcrQfX4p9D1bvLzRNCbMDv8f44a9LFdeqNE4Yk2WMD",
+      "deployedAt": "2024-04-26",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "international-stable-currency",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://wp.isc.money/how-isc-works/key-entities"
+      ],
+      "protocolIds": [
+        4531
+      ]
+    }
+  ]
+}

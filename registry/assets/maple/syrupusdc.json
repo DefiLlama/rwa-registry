@@ -1,0 +1,96 @@
+{
+  "identity": {
+    "slug": "syrupusdc",
+    "symbol": "syrupUSDC",
+    "name": "Syrup USDC",
+    "legacyId": 644,
+    "canonicalMarketId": "syrupUSDC"
+  },
+  "exposure": {
+    "underlying": "us-dollar"
+  },
+  "class": {
+    "structure": "credit-pool",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "private-credit"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Real-time onchain dashboard (quarterly treasury reports discontinued after Q4 2024)"
+  },
+  "sources": {
+    "coingeckoId": "syrupusdc"
+  },
+  "about": {
+    "description": "syrupUSDC is a yield-bearing receipt token for USDC deposited into Maple’s Syrup lending vaults. The token’s exchange rate increases as interest accrues from overcollateralized lending to institutional borrowers, with withdrawals processed at the smart contract exchange rate.",
+    "logo": "https://icons.llamao.fi/icons/rwa/syrup-usdc.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://maple.finance/"
+      ],
+      "twitter": "https://x.com/maplefinance",
+      "docs": "https://maplefinance.gitbook.io/",
+      "linkedin": "https://www.linkedin.com/company/maplefinance",
+      "discord": "https://discord.gg/fgWRMHCd7d",
+      "telegram": "https://t.me/maplefinance",
+      "github": "https://github.com/maple-labs"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x80ac24aa929eaf5013f6436cda2a7ba190f5cc0b",
+      "deployedAt": "2024-05-21",
+      "primary": true
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0x41ca7586cc1311807b4605fbb748a3b8862b42b5",
+      "deployedAt": "2025-07-23"
+    },
+    {
+      "chain": "base",
+      "address": "0x660975730059246a68521a3e2fbd4740173100f5",
+      "deployedAt": "2025-07-22"
+    },
+    {
+      "chain": "hyperliquid",
+      "address": "0xd31db306e5d79f0018ac92e08492284201493ea1",
+      "deployedAt": "2025-11-05"
+    },
+    {
+      "chain": "solana",
+      "address": "AvZZF1YaZDziPY2RCK4oJrRVrbN3mTD9NL24hPeaZeUj",
+      "deployedAt": "2025-05-17"
+    },
+    {
+      "chain": "monad",
+      "address": "0xab6e5a0c3799d020c790d34f7b2c02639e238af7",
+      "deployedAt": "2026-05-12"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "maple-protocol-pool-operations",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.maple.finance/syrupusdc-usdt-for-lenders/faq"
+      ],
+      "protocolIds": [
+        587
+      ]
+    }
+  ]
+}

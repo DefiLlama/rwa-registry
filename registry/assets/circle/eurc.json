@@ -1,0 +1,128 @@
+{
+  "identity": {
+    "slug": "eurc",
+    "symbol": "EURC",
+    "name": "Circle Euro Coin",
+    "legacyId": 9,
+    "canonicalMarketId": "EURC"
+  },
+  "exposure": {
+    "underlying": "euro"
+  },
+  "class": {
+    "structure": "eur-stable",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "fiat-stablecoins"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Monthly"
+  },
+  "sources": {
+    "coingeckoId": "euro-coin"
+  },
+  "about": {
+    "description": "EURC is Circle’s euro-denominated stablecoin issued on Ethereum, designed for 1:1 redemption for euros under a reserve-backed model. Circle states reserves are held in cash and cash equivalents and provides reserve attestations and disclosures intended to allow independent review of backing quality over time.",
+    "logo": "https://icons.llamao.fi/icons/rwa/eurc.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.circle.com/eurc"
+      ],
+      "twitter": "https://x.com/circle",
+      "docs": "https://developers.circle.com/",
+      "linkedin": "https://www.linkedin.com/company/circle-internet-financial",
+      "discord": "https://discord.gg/buildoncircle",
+      "github": "https://github.com/circlefin"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "avax",
+      "address": "0x183015a9e358578191144ad4771c51db9fd4380b",
+      "deployedAt": "2023-06-04"
+    },
+    {
+      "chain": "base",
+      "address": "0x4300000000000000000000000000000000000003",
+      "deployedAt": "2024-06-19"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x1abaea1f7c830bd89acc67be4afc33185b13ad41",
+      "deployedAt": "2022-06-30",
+      "primary": true
+    },
+    {
+      "chain": "polygon",
+      "address": "0x1abaea1f7c830bd89acc67be4afc33185b13ad41",
+      "deployedAt": "2022-08-01"
+    },
+    {
+      "chain": "solana",
+      "address": "HzwqbKZw8HxMN6bF2yFZNrht3c2iXXzpKcFu7uBEDKtr",
+      "deployedAt": "2023-12-07"
+    },
+    {
+      "chain": "sonic",
+      "address": "0x1abaea1f7c830bd89acc67be4afc33185b13ad41",
+      "deployedAt": "2025-01-29"
+    },
+    {
+      "chain": "wc",
+      "address": "0x1abaea1f7c830bd89acc67be4afc33185b13ad41",
+      "deployedAt": "2026-08-22"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "circle-internet-financial-llc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.circle.com/transparency",
+        "https://www.sec.gov/Archives/edgar/data/1876042/000110465925064761/tm2517648-6_s1a.htm",
+        "https://lei-lookup.info/lei/5493001KJTIIGC8Y1R12"
+      ],
+      "protocolIds": [
+        2269,
+        2272,
+        2286,
+        3075,
+        2274,
+        2352,
+        2314,
+        2275,
+        2293,
+        2270,
+        2273,
+        6469,
+        2276,
+        4859,
+        2369,
+        5342,
+        3577
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "date": "2025-12-31",
+      "links": [
+        "https://www.circle.com/transparency#EURC"
+      ]
+    }
+  ]
+}

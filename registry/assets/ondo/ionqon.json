@@ -1,0 +1,104 @@
+{
+  "identity": {
+    "slug": "ionqon",
+    "symbol": "IONQon",
+    "name": "IonQ (Ondo Tokenized Stock)",
+    "legacyId": 2877,
+    "canonicalMarketId": "IONQon"
+  },
+  "exposure": {
+    "underlying": "ionq-inc"
+  },
+  "class": {
+    "structure": "stock-backed",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "cexListed": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Daily"
+  },
+  "sources": {
+    "identifiers": [
+      {
+        "scheme": "isin",
+        "value": "US46222L1089",
+        "source": null,
+        "verified": false
+      }
+    ]
+  },
+  "about": {
+    "description": "IONQon is an Ondo Global Markets tokenized stock exposure designed to provide economic exposure to IonQ in an onchain format. The token is designed to be fully backed by the underlying publicly traded asset, together with cash in transit, held with regulated custodial broker-dealers. Holdings attestations and ongoing reporting are surfaced through Ondo trust and transparency materials and the product asset page. Tokenholders are not shareholders of the underlying and do not receive shareholder voting rights. Dividend value is reflected through total return mechanics.",
+    "logo": "https://icons.llamao.fi/icons/rwa/ionq.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://app.ondo.finance/assets/ionqon"
+      ],
+      "twitter": "https://x.com/ondofinance",
+      "docs": "https://docs.ondo.finance/",
+      "linkedin": "https://www.linkedin.com/company/ondofinance",
+      "discord": "https://discord.com/invite/ondofinance",
+      "telegram": "https://t.me/ondofinance",
+      "github": "https://github.com/ondoprotocol"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x2f2e4b09b99fbf018f600e031aafd9da6347cc75",
+      "deployedAt": "2026-03-09",
+      "primary": true
+    },
+    {
+      "chain": "bsc",
+      "address": "0x40d8e1fbaf69173c47fa493feb50a84eec6b57ee",
+      "deployedAt": "2026-03-09"
+    },
+    {
+      "chain": "solana",
+      "address": "DDZQijTbaSd3Kas1r1bgCnHPayk8vTP8SfZWp5Tondo",
+      "deployedAt": "2026-03-09"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "ondo-global-markets-bvi-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.ondo.finance/ondo-global-markets/legal-and-regulatory"
+      ],
+      "protocolIds": [
+        2542,
+        6650
+      ]
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://app.ondo.finance/assets/ionqon"
+      ],
+      "note": "Daily (ongoing)"
+    }
+  ]
+}

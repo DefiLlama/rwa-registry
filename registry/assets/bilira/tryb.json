@@ -1,0 +1,70 @@
+{
+  "identity": {
+    "slug": "tryb",
+    "symbol": "TRYB",
+    "name": "BiLira",
+    "legacyId": 626,
+    "canonicalMarketId": "TRYB"
+  },
+  "exposure": {
+    "underlying": "turkish-lira"
+  },
+  "class": {
+    "structure": "other-fiat-stable",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "fiat-stablecoins"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "cexListed": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "sources": {
+    "coingeckoId": "bilira"
+  },
+  "about": {
+    "description": "TRYB is a Turkish lira-pegged stablecoin used for TRY-denominated settlement and exchange liquidity, particularly for on/off-ramps connected to local markets. It is centrally issued and aims to maintain a 1 TRY value through issuer-managed reserves, enabling faster onchain transfers and trading in a TRY unit of account.",
+    "logo": "https://icons.llamao.fi/icons/rwa/tryb.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://bilira.co"
+      ],
+      "twitter": "https://x.com/BiLira_Kripto"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x2c537e5624e4af88a7ae4060c022609376c8d0eb",
+      "deployedAt": "2019-07-19",
+      "primary": true
+    },
+    {
+      "chain": "plasma",
+      "address": "0x90729a45948c3078890bc80f2a4e7870a2ea4c5e",
+      "deployedAt": "2025-10-01"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "bilira",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://bilira.co"
+      ]
+    }
+  ]
+}

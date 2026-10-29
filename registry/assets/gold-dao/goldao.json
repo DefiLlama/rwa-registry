@@ -1,0 +1,75 @@
+{
+  "identity": {
+    "slug": "goldao",
+    "symbol": "GOLDAO",
+    "name": "Gold DAO",
+    "legacyId": 106,
+    "canonicalMarketId": "GOLDAO"
+  },
+  "exposure": {
+    "underlying": "gold-dao"
+  },
+  "class": {
+    "structure": "governance-token",
+    "type": "asset",
+    "rwaClassification": "non-rwa-gov-utility",
+    "category": [
+      "governance-tokens",
+      "gold-commodities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Quarterly"
+  },
+  "sources": {
+    "coingeckoId": "gold-dao"
+  },
+  "about": {
+    "description": "Gold DAO is a tokenized gold ecosystem designed to make vaulted physical gold usable inside onchain markets through fractional units and liquidity tooling. Its design emphasizes transparent vault operations, recurring third-party audits, and a verification workflow intended to give holders visibility into backing and custody conditions as the gold base expands.",
+    "logo": "https://icons.llamao.fi/icons/rwa/gold-dao.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://gldt.org/"
+      ],
+      "twitter": "https://x.com/thegolddao",
+      "docs": "https://docs.gold-dao.org/",
+      "linkedin": "https://www.linkedin.com/company/gold-dao",
+      "github": "https://github.com/GoldDAO"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "icp",
+      "address": "tyyy3-4aaaa-aaaaq-aab7a-cai",
+      "deployedAt": null
+    }
+  ],
+  "roles": [
+    {
+      "organization": "gold-dao",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://gold-dao.org"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "date": "2025-02-01",
+      "links": [
+        "https://docs.gold-dao.org/other/audit-reports"
+      ]
+    }
+  ]
+}

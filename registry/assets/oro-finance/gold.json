@@ -1,0 +1,87 @@
+{
+  "identity": {
+    "slug": "gold",
+    "symbol": "GOLD",
+    "name": "Oro Finance",
+    "legacyId": 59,
+    "canonicalMarketId": "GOLD"
+  },
+  "exposure": {
+    "underlying": "gold"
+  },
+  "class": {
+    "structure": "gold",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "gold-commodities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Monthly"
+  },
+  "about": {
+    "description": "GOLD is Oro Finance’s tokenized gold product, designed to represent fully backed vaulted bullion in a transferable format. The product emphasizes 1:1 physical backing, custody with institutional vault providers, and a reserve verification cadence intended to demonstrate that the circulating supply is covered by audited holdings. It targets users who want gold exposure that can move between wallets and DeFi venues while remaining anchored to physical metal in storage.",
+    "logo": "https://icons.llamao.fi/icons/rwa/gold.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.oro.finance"
+      ],
+      "twitter": "https://x.com/orogoldapp",
+      "docs": "https://docs.oro.finance/",
+      "linkedin": "https://www.linkedin.com/company/oro-finance",
+      "discord": "https://discord.gg/joinoro",
+      "telegram": "https://t.me/official_oro"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "solana",
+      "address": "GoLDppdjB1vDTPSGxyMJFqdnj134yH6Prg9eqsGDiw6A",
+      "deployedAt": "2026-02-11",
+      "primary": true,
+      "labels": [
+        {
+          "address": "3PXBuNCKVDWN8M4MbLgJwuQnEKUnfUTM47QpV2JtBTjH",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "FtBahp1k5pwUjRBZHFRjvSggtXPNtVZnDuM8VaiSvmfs",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "oro-finance",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.oro.finance/"
+      ],
+      "protocolIds": [
+        6856
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://www.oro.finance/transparency"
+      ],
+      "note": "Monthly (ongoing)"
+    }
+  ]
+}

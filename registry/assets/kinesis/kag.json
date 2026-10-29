@@ -1,0 +1,70 @@
+{
+  "identity": {
+    "slug": "kag",
+    "symbol": "KAG",
+    "name": "Kinesis Silver",
+    "legacyId": 108,
+    "canonicalMarketId": "KAG"
+  },
+  "exposure": {
+    "underlying": "silver"
+  },
+  "class": {
+    "structure": "silver",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "gold-commodities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Biannual"
+  },
+  "sources": {
+    "coingeckoId": "kinesis-silver"
+  },
+  "about": {
+    "description": "Kinesis Silver (KAG) is a digital silver unit designed to represent fully allocated physical silver held within the Kinesis monetary system. It targets a transferable, fractional form of bullion exposure and is supported by recurring independent audits intended to verify 1:1 backing across vaulted holdings and outstanding units.",
+    "logo": "https://icons.llamao.fi/icons/rwa/kag.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://kinesis.money/silver/"
+      ],
+      "twitter": "https://x.com/KinesisMonetary",
+      "docs": "https://kinesis.money/",
+      "linkedin": "https://www.linkedin.com/company/kinesismoney",
+      "telegram": "https://t.me/kinesismoney",
+      "github": "https://github.com/KinesisNetwork"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "kinesis-cayman",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://kinesis.money/legal"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "date": "2025-10-17",
+      "links": [
+        "https://kinesis.money/audits/",
+        "https://kinesis.money/silver/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "identity": {
+    "slug": "pc0000031",
+    "symbol": "PC0000031",
+    "name": "Tradable: North America Rent Financing Platform Senior Secured Term Notes",
+    "legacyId": 3896,
+    "canonicalMarketId": "PC0000031"
+  },
+  "exposure": {
+    "underlying": "rent-financing-receivables"
+  },
+  "class": {
+    "structure": "credit-pool",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "private-credit"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "yieldBearing": true
+  },
+  "sources": {
+    "coingeckoId": "tradable-na-rent-financing-platform-sstn"
+  },
+  "about": {
+    "description": "Senior secured term notes backed by a North America rent financing platform, tokenized on ZKsync Era via the Tradable platform. $202.5M total issuance. Tokenization type is Represented (not freely transferable). 0% management fee disclosure.",
+    "logo": "https://icons.llamao.fi/icons/rwa/pc0000031.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.tradable.xyz/"
+      ],
+      "twitter": "https://x.com/tradable_xyz"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "era",
+      "address": "0xac4de1e9a9e83524f24af77972dd39d588de8164",
+      "deployedAt": "2024-11-14",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "tradable-counterparty-undisclosed-north-america-rent-financing-platform",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.tradable.xyz/"
+      ]
+    }
+  ]
+}

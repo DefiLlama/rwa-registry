@@ -1,0 +1,74 @@
+{
+  "identity": {
+    "slug": "u",
+    "symbol": "U",
+    "name": "United Stables",
+    "legacyId": 581,
+    "canonicalMarketId": "U"
+  },
+  "exposure": {
+    "underlying": "us-dollar"
+  },
+  "class": {
+    "structure": "usd-stable",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "fiat-stablecoins"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Monthly attestations + Quarterly independent audits"
+  },
+  "sources": {
+    "coingeckoId": "united-stables"
+  },
+  "about": {
+    "description": "U is a USD stablecoin from United Stables, marketed as a liquidity layer for DeFi markets. Supply is intended to be fully backed by liquid reserve assets held in segregated custody accounts, with published attestation reports. Issuance/redemption is performed through authorized channels while U remains transferable on-chain.",
+    "logo": "https://icons.llamao.fi/icons/rwa/u.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://u.tech/"
+      ],
+      "twitter": "https://x.com/UTechStables"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xce24439f2d9c6a2289f741120fe202248b666666",
+      "deployedAt": "2025-12-17",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "united-stables-united-stables-holding-bvi",
+      "kind": "issuer",
+      "sourceLinks": [
+        "http://u.tech/",
+        "https://u.tech/attestation-reports"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://u.tech/attestation-reports"
+      ],
+      "note": "Not publicly disclosed"
+    }
+  ]
+}

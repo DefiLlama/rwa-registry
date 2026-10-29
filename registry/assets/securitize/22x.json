@@ -1,0 +1,74 @@
+{
+  "identity": {
+    "slug": "22x",
+    "symbol": "22X",
+    "name": "22X Fund",
+    "legacyId": 557,
+    "canonicalMarketId": "22X"
+  },
+  "exposure": {
+    "underlying": "22x-fund"
+  },
+  "class": {
+    "structure": "pe-venture",
+    "type": "asset",
+    "rwaClassification": "programmable-finance",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "about": {
+    "description": "22X is a tokenized venture portfolio designed to give a single security token exposure to equity in up to 30 early‑stage Silicon Valley startups that participated in the 500 Startups Global Seed Accelerator (Batch 22). The structure was created to package a diversified seed‑stage basket into one investable token, simplifying ownership and potential secondary transfers compared with holding dozens of individual startup positions. The 22X token is issued on Ethereum and represents an interest in the underlying portfolio vehicle rather than a claim on onchain collateral. Value is driven by the performance of the startup equity stakes and the timing of liquidity events (acquisitions, secondary sales, IPOs), which can be sporadic and long‑dated in seed investing.",
+    "logo": "https://icons.llamao.fi/icons/rwa/22x.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://22xfund.com/",
+        "https://www.sec.gov/edgar/browse/?CIK=0001729488"
+      ],
+      "twitter": "https://x.com/Securitize",
+      "docs": "https://docs.securitize.io",
+      "linkedin": "https://www.linkedin.com/company/securitize",
+      "telegram": "https://t.me/securitize",
+      "github": "https://github.com/securitize-io"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x0073e5e52e2b4fe218d75d994ee2b3c82f9c87ea",
+      "deployedAt": "2018-10-05",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xb6ffc6f5f6c98dc08348760994fe55522fe61401",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "batch-22x-ltd",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001729488&owner=exclude&count=40"
+      ],
+      "protocolIds": [
+        6712
+      ]
+    }
+  ]
+}

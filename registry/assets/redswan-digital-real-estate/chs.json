@@ -1,0 +1,68 @@
+{
+  "identity": {
+    "slug": "chs",
+    "symbol": "CHS",
+    "name": "Capri Hotel Southampton - Equity Tranche 1 (RedSwan)",
+    "legacyId": 4089,
+    "canonicalMarketId": "CHS"
+  },
+  "exposure": {
+    "underlying": "hotel-equity"
+  },
+  "class": {
+    "structure": "single-property",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "real-estate"
+    ]
+  },
+  "terms": {
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "CHS is RedSwan Digital Real Estate's tokenized equity tranche in the Capri Hotel Southampton, a boutique hotel property in Southampton, NY, issued on Hedera and Stellar for accredited investors.",
+    "logo": "https://icons.llamao.fi/icons/rwa/chs.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://marketplace.redswan.io/properties"
+      ],
+      "twitter": "https://x.com/RedSwanDigital",
+      "docs": "https://marketplace.redswan.io"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "hedera",
+      "address": "0x0000000000000000000000000000000000979607",
+      "deployedAt": null,
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "marquis-hamptons-llc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://marketplace.redswan.io/properties",
+        "https://hedera.com/case-study/redswan/"
+      ]
+    },
+    {
+      "organization": "tokenized-by-redswan-digital-real-estate",
+      "kind": "tokenizer",
+      "sourceLinks": [
+        "https://marketplace.redswan.io/properties",
+        "https://hedera.com/case-study/redswan/"
+      ]
+    }
+  ]
+}

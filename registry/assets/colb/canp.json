@@ -1,0 +1,76 @@
+{
+  "identity": {
+    "slug": "canp",
+    "symbol": "CANP",
+    "name": "Colb Anthropic",
+    "legacyId": 4051,
+    "canonicalMarketId": "CANP"
+  },
+  "exposure": {
+    "underlying": "anthropic"
+  },
+  "class": {
+    "structure": "pe-venture",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "about": {
+    "description": "Colb Anthropic (CANP) is a Swiss-law tracker certificate issued by the BVI-domiciled CPT Trust and manufactured by Geneva-based Colb Asset SA, intended to give qualified investors economic exposure to Anthropic pre-IPO shares held via SPVs. Announced but not yet issued: on-chain supply is zero as of 2026-06-11. Tokens are SSPA-type-1300 tracker certificates (Swiss DLT Act ledger-based securities. No ISIN, unlisted, not FINMA-supervised). Mint and redemption (settled in Colb's USC stablecoin) are KYC-gated to professional investors while transfers are unrestricted. Underlying shares are held on the cap table or via SPVs whose composition is NDA-gated and not publicly attested. Valuations are issuer-set and investors bear issuer credit risk.",
+    "logo": "https://icons.llamao.fi/icons/rwa/canp.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.colb.finance"
+      ],
+      "twitter": "https://x.com/ColbFinance",
+      "docs": "https://docs.colb.finance"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "bsc",
+      "address": "0xdc22f0a9a60eee3697e925414bdb4580d1c35f91",
+      "deployedAt": "2026-04-22",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "cpt-trust-trustee-colb-asset-ptc-limited-bvi",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.colb.finance",
+        "https://docs.colb.finance",
+        "https://www.moneyhouse.ch/en/company/colb-asset-sa-6640098491"
+      ]
+    },
+    {
+      "organization": "manufacturer-colb-asset-sa-geneva",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.colb.finance",
+        "https://docs.colb.finance",
+        "https://www.moneyhouse.ch/en/company/colb-asset-sa-6640098491"
+      ]
+    },
+    {
+      "organization": "cpt-trust-trustee-colb-asset-ptc-limited-bvi",
+      "kind": "oracle"
+    }
+  ]
+}

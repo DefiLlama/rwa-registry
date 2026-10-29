@@ -1,0 +1,70 @@
+{
+  "identity": {
+    "slug": "usdi",
+    "symbol": "USDI",
+    "name": "USDi Coin",
+    "legacyId": 4604,
+    "canonicalMarketId": "USDI"
+  },
+  "exposure": {
+    "underlying": "u-s-consumer-price-index-cpi-reference"
+  },
+  "class": {
+    "structure": "multi-asset-rwa-stable",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "rwa-stablecoins"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Annual audit; monthly admin reports"
+  },
+  "about": {
+    "description": "USDi is an inflation-linked digital dollar designed to preserve purchasing power as prices change by tracking the United States Consumer Price Index. It is non-rebasing: the price per token rises with the CPI adjustment ratio referenced to a base CPI of 315.605 set on March 1 2025. Unlike a purely synthetic CPI tracker, USDi is backed by a hybrid multi-asset managed fund holding US Treasuries, TIPS, foreign exchange positions, commodities futures and options, and cash on an unlevered basis, managed by Enduring Investments and administered by Trident Fund Services. Annual audits are performed by Cherry Bekaert LLC and the smart contract was audited by ConsenSys Diligence in April 2025. Because ongoing on-chain proof of reserve is not yet published continuously (only monthly reports and annual audit), USDi is classified as RWA rather than True RWA until continuous attestation infrastructure is in place.",
+    "logo": "https://icons.llamao.fi/icons/rwa/usdi.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.usdicoin.com/"
+      ],
+      "twitter": "https://x.com/TheRealUSDi",
+      "docs": "https://www.usdicoin.com/",
+      "telegram": "https://t.me/USDi_Coin"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xaf1157149ff040dad186a0142a796d901bef1cf1",
+      "deployedAt": "2025-10-25",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "usdi-partners-llc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.usdicoin.com/"
+      ]
+    },
+    {
+      "organization": "trident-fund-services",
+      "kind": "fund-administrator"
+    },
+    {
+      "organization": "usdi-partners-llc",
+      "kind": "oracle"
+    }
+  ]
+}

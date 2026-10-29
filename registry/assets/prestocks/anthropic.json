@@ -1,0 +1,66 @@
+{
+  "identity": {
+    "slug": "anthropic",
+    "symbol": "ANTHROPIC",
+    "name": "Anthropic PreStocks",
+    "legacyId": 407,
+    "canonicalMarketId": "ANTHROPIC"
+  },
+  "exposure": {
+    "underlying": "anthropic"
+  },
+  "class": {
+    "structure": "pe-venture",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "sources": {
+    "coingeckoId": "anthropic-prestocks-2"
+  },
+  "about": {
+    "description": "ANTHROPIC is a PreStocks token that tracks the implied valuation of Anthropic, a private AI research company behind Claude. PreStocks tokens are priced in terms of valuation, and are designed to give 24/7 tradable market exposure to pre-IPO companies through an SPV-backed structure. Anthropic emphasizes safety-focused model development and interpretability, aiming to combine strong capabilities with guardrails and transparent behavior. ANTHROPIC provides economic exposure only and does not represent ownership of Anthropic shares or grant voting, dividend, or information rights.",
+    "logo": "https://icons.llamao.fi/icons/rwa/anthropic.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://prestocks.com/anthropic"
+      ],
+      "twitter": "https://x.com/prestocks",
+      "docs": "https://prestocks.com/",
+      "linkedin": "https://www.linkedin.com/company/prestocks"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "solana",
+      "address": "Pren1FvFX6J3E4kXhJuCiAD5aDmGEb7qJRncwA8Lkhw",
+      "deployedAt": "2025-09-25",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "prestocks",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://prestocks.com/faq"
+      ]
+    }
+  ]
+}

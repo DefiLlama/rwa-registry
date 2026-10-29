@@ -1,0 +1,64 @@
+{
+  "identity": {
+    "slug": "usdf-astherus",
+    "symbol": "USDF",
+    "name": "Astherus USDF",
+    "legacyId": 592,
+    "canonicalMarketId": "USDF-Astherus"
+  },
+  "exposure": {
+    "underlying": "us-dollar"
+  },
+  "class": {
+    "structure": "synthetic-stable",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "non-rwa-stablecoins"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "sources": {
+    "coingeckoId": "astherus-usdf"
+  },
+  "about": {
+    "description": "Astherus USDF is a stablecoin minted by depositing USDT into AstherusEarn. USDF and USDT are intended to be convertible 1:1. deposited assets are deployed into delta‑neutral strategies, and users can stake USDF to earn yield (asUSDF), with protocol-defined redemption timing.",
+    "logo": "https://icons.llamao.fi/icons/rwa/astherus-usdf.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://astherus.com/"
+      ],
+      "twitter": "https://x.com/Aster_DEX",
+      "docs": "https://astherus.com/"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "bsc",
+      "address": "0x5a110fc00474038f6c02e89c707d638602ea44b5",
+      "deployedAt": "2024-11-14",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "astherus",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://astherus.com/",
+        "https://docs.astherus.com/"
+      ]
+    }
+  ]
+}

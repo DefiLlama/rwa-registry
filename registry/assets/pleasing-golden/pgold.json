@@ -1,0 +1,86 @@
+{
+  "identity": {
+    "slug": "pgold",
+    "symbol": "PGOLD",
+    "name": "Pleasing Gold",
+    "legacyId": 282,
+    "canonicalMarketId": "PGOLD"
+  },
+  "exposure": {
+    "underlying": "gold"
+  },
+  "class": {
+    "structure": "gold",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "gold-commodities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "sources": {
+    "coingeckoId": "pleasing-gold"
+  },
+  "about": {
+    "description": "PGOLD is Pleasing Golden’s tokenized gold asset on Arbitrum. Each PGOLD represents one troy ounce of LBMA-certified physical gold, with onchain ownership and physical redemption for allocated bars through the Pleasing Golden platform.",
+    "logo": "https://icons.llamao.fi/icons/rwa/pgold.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.pleasinggold.com/",
+        "https://pleasing.gitbook.io/docs"
+      ],
+      "twitter": "https://x.com/PleasingGolden",
+      "docs": "https://pleasing-golden.com/",
+      "linkedin": "https://www.linkedin.com/company/pleasing-golden"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "arbitrum",
+      "address": "0x3e76bb02286bfeaa89dd35f11253f2cbce634f91",
+      "deployedAt": "2025-10-14",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x7e5cc9bb562eae2356fae7c59ea04c4677f73986",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "pleasing-international-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://pleasing.gitbook.io/docs"
+      ],
+      "protocolIds": [
+        7144
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://pleasing.gitbook.io/docs/pleasing-gold-pgold/reserve-report",
+        "https://pleasing.gitbook.io/docs/pleasing-gold-pgold/licenses-and-certificates"
+      ],
+      "note": "Not publicly disclosed"
+    }
+  ]
+}

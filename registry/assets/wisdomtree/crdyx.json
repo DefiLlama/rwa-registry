@@ -1,0 +1,111 @@
+{
+  "identity": {
+    "slug": "crdyx",
+    "symbol": "CRDYX",
+    "name": "WisdomTree Private Credit and Alternative Income Digital Fund",
+    "legacyId": 163,
+    "canonicalMarketId": "CRDYX"
+  },
+  "exposure": {
+    "underlying": "wisdomtree-private-credit-and-alternative-income-digital-fund"
+  },
+  "class": {
+    "structure": "credit-pool",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "private-credit",
+      "bond-mmf-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Semi-annual (N-CSRS) + Annual (N-CSR)"
+  },
+  "about": {
+    "description": "CRDYX represents digital shares of a rules-based strategy designed to provide private credit and alternative income style exposure through an index framework. It targets a diversified income profile that can blend multiple credit sleeves, packaged into tokenized fund shares intended for digital distribution and onchain settlement.",
+    "logo": "https://icons.llamao.fi/icons/rwa/wisdomtree-private-credit-and-alternative-income-digital-fund.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.wisdomtreeconnect.com/digital-funds/fixed-income/crdyx"
+      ],
+      "twitter": "https://x.com/WisdomTreePrime",
+      "docs": "https://www.wisdomtree.com/",
+      "linkedin": "https://www.linkedin.com/company/wisdomtree-investments"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x9e5621b5da05435f9931e5ccd01c3c24476155a7",
+      "deployedAt": "2025-09-06",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x14009f8f0bd4870ee179d9acd4be5877cf8df3cb",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "plume_mainnet",
+      "address": "0xccfcf70a7080b9d3cff339b8ca7a7f7cbebe6dac",
+      "deployedAt": "2026-02-04"
+    },
+    {
+      "chain": "optimism",
+      "address": "0x9a64461bb23019e2bf52781eab6e2b556e5ac2e3",
+      "deployedAt": "2025-10-13"
+    },
+    {
+      "chain": "stellar",
+      "address": "CRDT-GBWMQUGPPLSC62YPGD5CEHATOQRQMNLNAV2TMEXJ4ZYOTY4TJD6J2P45",
+      "deployedAt": "2025-09-05"
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0x6116715dc9c7116b01c38485df55c25eedf26bc0",
+      "deployedAt": "2025-10-13"
+    },
+    {
+      "chain": "avax",
+      "address": "0xc6e95b2a2215d496e20d5a97312b2db9abfe20b6",
+      "deployedAt": "2025-10-13"
+    },
+    {
+      "chain": "base",
+      "address": "0x10fe70382576f271caef5c152266fb458efb53fa",
+      "deployedAt": "2025-10-13"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "wisdomtree-digital-trust",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.sec.gov/cgi-bin/browse-edgar?CIK=0001859001&owner=include&action=getcompany"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "date": "2026-03-06",
+      "links": [
+        "https://www.wisdomtreeconnect.com/digital-funds/fixed-income/crdyx",
+        "https://www.wisdomtreeconnect.com/prospectus-regulatory-reports"
+      ]
+    }
+  ]
+}

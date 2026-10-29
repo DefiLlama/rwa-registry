@@ -1,0 +1,139 @@
+{
+  "identity": {
+    "slug": "wvtix",
+    "symbol": "wVTIx",
+    "name": "Wrapped Vanguard xStock",
+    "legacyId": 3505,
+    "canonicalMarketId": "wVTIx"
+  },
+  "exposure": {
+    "underlying": "vanguard-total-stock-market-etf",
+    "wraps": "vtirh"
+  },
+  "class": {
+    "structure": "single-asset-wrapper",
+    "type": "wrapper",
+    "rwaClassification": "programmable-finance",
+    "category": [
+      "rwa-wrappers",
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Continuous (real-time Chainlink PoR)"
+  },
+  "sources": {
+    "identifiers": [
+      {
+        "scheme": "isin",
+        "value": "CH1436219732",
+        "source": null,
+        "verified": false
+      }
+    ]
+  },
+  "about": {
+    "description": "wVTIx is the ERC-4626 wrapped version of VTIx (Vanguard xStock). It wraps VTIx into a standardized vault-share token to enable DeFi composability such as use as collateral in lending markets, automated strategies, and other yield protocols. Each wVTIx represents a share claim on deposited VTIx. Underlying real-world exposure, redemption mechanics, and reference price tracking are inherited from the underlying VTIx xStock issued by Backed. The wrapper does not rebase, so its share-to-underlying ratio grows with the xStocks multiplier, making it a total-return tracker rather than a price-parity tracker.",
+    "logo": "https://icons.llamao.fi/icons/rwa/xstocks-vtix.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://assets.backed.fi/products/vanguard-xstock"
+      ],
+      "twitter": "https://x.com/xstocksfi",
+      "docs": "https://docs.xstocks.com/",
+      "linkedin": "https://www.linkedin.com/company/backedfi",
+      "discord": "https://discord.com/invite/xstocksfi",
+      "github": "https://github.com/backed-fi",
+      "refLinks": [
+        "https://defi.xstocks.fi/points?ref=8QG15V04"
+      ]
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "bsc",
+      "address": "0xe9161f111c55bdd67525c1d4f9bbca07750aaab7",
+      "deployedAt": "2025-07-04",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0xe9161f111c55bdd67525c1d4f9bbca07750aaab7",
+      "deployedAt": "2025-06-04",
+      "labels": [
+        {
+          "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xe9161f111c55bdd67525c1d4f9bbca07750aaab7",
+      "deployedAt": "2025-08-06",
+      "labels": [
+        {
+          "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "mantle",
+      "address": "0xe9161f111c55bdd67525c1d4f9bbca07750aaab7",
+      "deployedAt": "2025-11-28",
+      "labels": [
+        {
+          "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "backed-assets-je-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://assets.backed.fi/products/vanguard-xstock"
+      ],
+      "protocolIds": [
+        6378
+      ]
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    },
+    {
+      "organization": "the-network-firm",
+      "kind": "auditor"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://defi.xstocks.fi/proof-of-reserves",
+        "https://assets.backed.fi/legal-documentation"
+      ],
+      "note": "Continuous (on-chain)"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "identity": {
+    "slug": "slp",
+    "symbol": "SLP",
+    "name": "Sivo Liquidity Provider",
+    "legacyId": 9253,
+    "canonicalMarketId": "SLP"
+  },
+  "exposure": {
+    "underlying": "payment-backed-receivables-private-credit"
+  },
+  "class": {
+    "structure": "trade-finance",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "private-credit"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Continuous (Accountable, 15-minute retrieval interval)"
+  },
+  "about": {
+    "description": "Vault share token for the Sivo protocol. Stablecoin deposits fund diversified pools of payment-backed receivables owed by platforms, marketplaces and payment processors. Priced off the Chainlink SLP/USD exchange-rate feed (0x0e095dD47bdE0d7cdb57a72bB98B6419dfBB505b, 24h heartbeat), not a market price - CoinGecko lists sivo-defi but publishes no price. Backing verified 2026-09-21 via Accountable proof-of-solvency: reserves $13,651,664 vs 13,517,171 SLP supply = 100.99% collateral ratio. Note 80.9% of reserves sit on Sivo's own internal lending platform (issuer-sourced API); CEX and bank legs (Coinbase Prime, Brex, Airwallex) are independently retrieved.",
+    "logo": "https://icons.llamao.fi/icons/rwa/sivo-slp.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://sivo.xyz"
+      ],
+      "twitter": "https://x.com/SivoDefi",
+      "docs": "https://docs.sivo.xyz/",
+      "linkedin": "https://www.linkedin.com/company/headlessfinance/",
+      "discord": "https://discord.com/invite/C9dzJuAsbD",
+      "telegram": "https://t.me/+AMRTMrahJUkwODRh",
+      "github": "https://github.com/holasivo"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xda6a067d9435a28549d75dd459c0016911c26e54",
+      "deployedAt": "2026-08-08",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x56db38470cbe98ade518c3fdf0ad4de647d81b8d",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "sivo-yield-administrator-llc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://sivo.xyz"
+      ]
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://transparency.sivo.xyz"
+      ],
+      "note": "no date in the export"
+    }
+  ]
+}

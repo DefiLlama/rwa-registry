@@ -1,0 +1,120 @@
+{
+  "identity": {
+    "slug": "techx",
+    "symbol": "TECHX",
+    "name": "WisdomTree Technology & Innovation 100 Digital Fund",
+    "legacyId": 158,
+    "canonicalMarketId": "TECHX"
+  },
+  "exposure": {
+    "underlying": "wisdomtree-technology-innovation-100-digital-fund"
+  },
+  "class": {
+    "structure": "equity-basket",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Semi-annual (N-CSRS) + Annual (N-CSR)"
+  },
+  "sources": {
+    "identifiers": [
+      {
+        "scheme": "isin",
+        "value": "US97717K8080",
+        "source": null,
+        "verified": false
+      }
+    ]
+  },
+  "about": {
+    "description": "TECHX represents digital shares of an equity index strategy designed to track U.S.-listed companies that benefit from technological innovation and adoption. It packages concentrated tech and innovation exposure into tokenized fund shares, intended for digital distribution and onchain settlement while keeping performance anchored to the underlying index methodology.",
+    "logo": "https://icons.llamao.fi/icons/rwa/techx.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.wisdomtreeconnect.com/digital-funds/equity/techx"
+      ],
+      "twitter": "https://x.com/WisdomTreePrime",
+      "docs": "https://www.wisdomtree.com/",
+      "linkedin": "https://www.linkedin.com/company/wisdomtree-investments"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x1a17f2bdb023e516f1b32b121f332fa931802a9f",
+      "deployedAt": "2025-03-31",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x14009f8f0bd4870ee179d9acd4be5877cf8df3cb",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0xf21cedceb91979c7877b98d4d60190215a5e6dc7",
+      "deployedAt": "2025-03-17"
+    },
+    {
+      "chain": "avax",
+      "address": "0x7f259541089253a037e1367ac09beed98f1a7974",
+      "deployedAt": "2025-03-18"
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0x5ef799dce2e8272b4a72a62c0d34250ef7e42ac0",
+      "deployedAt": "2025-03-31"
+    },
+    {
+      "chain": "optimism",
+      "address": "0x7f259541089253a037e1367ac09beed98f1a7974",
+      "deployedAt": "2025-03-20"
+    },
+    {
+      "chain": "plume_mainnet",
+      "address": "0xd19f630f950d6289713463ab50faf8a792d8539a",
+      "deployedAt": null
+    },
+    {
+      "chain": "stellar",
+      "address": "TECH-GDSAW27GPR7EWKPTFDPGN2WWZYUHBFKVDBLOUUEKSNKHID4ZWUVOBF5R",
+      "deployedAt": "2023-01-18"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "wisdomtree-digital-trust",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.sec.gov/cgi-bin/browse-edgar?CIK=0001859001&owner=include&action=getcompany"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "date": "2026-03-06",
+      "links": [
+        "https://www.wisdomtreeconnect.com/digital-funds/equity/techx",
+        "https://www.wisdomtreeconnect.com/prospectus-regulatory-reports"
+      ]
+    }
+  ]
+}

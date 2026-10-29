@@ -1,0 +1,61 @@
+{
+  "identity": {
+    "slug": "ttn-iii",
+    "symbol": "TTN-III",
+    "name": "Ctrl Alt Titan III Equity Token",
+    "legacyId": 3894,
+    "canonicalMarketId": "TTN-III"
+  },
+  "exposure": {
+    "underlying": "ctrl-alt-pcc-titan-iii-litigation-finance-equity"
+  },
+  "class": {
+    "structure": "pe-venture",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "about": {
+    "description": "Titan III Equity Token represents equity in Ctrl Alt PCC Titan III, a Protected Cell Company used for litigation financing. Distributed natively on Solana as a Token-2022 token. NAV $15.93 per token, $237M AUM. 0% management fee. Inception January 2026.",
+    "logo": "https://icons.llamao.fi/icons/rwa/ttn-iii.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.ctrl-alt.co/"
+      ],
+      "twitter": "https://x.com/CtrlAltCo"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "solana",
+      "address": "5AfFPVmZNRc6u9Ft9suatMXphexTXREKPBnpvvGpS52o",
+      "deployedAt": "2026-01-20",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "ctrl-alt-pcc-titan-iii",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.ctrl-alt.co/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "identity": {
+    "slug": "sgbenji",
+    "symbol": "sgBENJI",
+    "name": "Franklin OnChain U.S. Dollar Short-Term Money Market Fund (sgBENJI)",
+    "legacyId": 179,
+    "canonicalMarketId": "sgBENJI"
+  },
+  "exposure": {
+    "underlying": "franklin-onchain-u-s-dollar-short-term-money-market-fund"
+  },
+  "class": {
+    "structure": "mmf",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "bond-mmf-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Monthly (N-MFP3) + Annual (N-CSR)"
+  },
+  "sources": {
+    "identifiers": [
+      {
+        "scheme": "isin",
+        "value": "SGXZ71843866",
+        "source": null,
+        "verified": false
+      }
+    ]
+  },
+  "about": {
+    "description": "sgBENJI represents a tokenized share exposure to Franklin Templeton’s short-term money market strategy delivered in an onchain format, designed for cash management with an emphasis on liquidity, conservative duration, and NAV-based fund operations. It targets institutional-style short-duration income while enabling digital settlement and integrations across onchain venues.",
+    "logo": "https://icons.llamao.fi/icons/rwa/sgbenji.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.franklintempleton.com/tools-and-resources/lit-preview/1715/A/franklin-on-chain-u-s-dollar-short-term-money-market-fund"
+      ],
+      "twitter": "https://x.com/FTI_US",
+      "docs": "https://www.franklintempleton.com/",
+      "linkedin": "https://www.linkedin.com/company/franklin-templeton"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "stellar",
+      "address": "sgBENJI-GAGICV3VBJSKKH5H5MQQIUTUP462YVHC23KUHZY6FJERRJFBDIVZBM5C",
+      "deployedAt": "2025-09-15",
+      "primary": true,
+      "labels": [
+        {
+          "address": "GAGICV3VBJSKKH5H5MQQIUTUP462YVHC23KUHZY6FJERRJFBDIVZBM5C",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "GDFOQ77IQR2FAOQNQARNMLKKHCLBHWZC47CSHTALFJHOXYCVF6R3JLTB",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "ripple",
+      "address": "736742454E4A4900000000000000000000000000.rfRAnKTuePqKBpyy1bSwXtqR9skfwjBH5o",
+      "deployedAt": null
+    }
+  ],
+  "roles": [
+    {
+      "organization": "franklin-templeton-trust-franklin-onchain-u-s-government-money-fund",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.sec.gov/Archives/edgar/data/1786958/000102140824003735/0001021408-24-003735-index.htm"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "date": "2026-06-05",
+      "links": [
+        "https://www.sec.gov/edgar/browse/?CIK=1786958"
+      ]
+    }
+  ]
+}

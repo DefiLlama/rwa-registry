@@ -1,0 +1,84 @@
+{
+  "identity": {
+    "slug": "sorcl",
+    "symbol": "sORCL",
+    "name": "StableStock Oracle",
+    "legacyId": 3332,
+    "canonicalMarketId": "sORCL"
+  },
+  "exposure": {
+    "underlying": "oracle-corporation"
+  },
+  "class": {
+    "structure": "stock-backed",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Weekly assurance PDF + real-time reserves dashboard"
+  },
+  "about": {
+    "description": "sORCL is a tokenized claim on Oracle Corporation (NYSE: ORCL), the enterprise database and software giant whose Oracle Cloud Infrastructure (OCI) competes with AWS, Azure and Google Cloud and whose chairman/CTO is Larry Ellison. StableStock issues sORCL as a 1:1 BEP-20 on BNB Chain backed by ORCL shares custodied off-chain via StableBroker (StableStock's licensed broker partner with HabitTrade), with 24/7 on-chain liquidity via Native, KYC-gated mint/redeem. On-chain transfers are permissionless.",
+    "logo": "https://icons.llamao.fi/icons/rwa/orcl.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://stablestock.finance"
+      ],
+      "twitter": "https://x.com/StableStock",
+      "docs": "https://docs.stablestock.com/",
+      "linkedin": "https://www.linkedin.com/company/stablestock",
+      "discord": "https://discord.gg/stablestock",
+      "telegram": "https://t.me/StableStock"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "bsc",
+      "address": "0x69e12ac3a4a6cee868828a9e7fd4b1732eb862b7",
+      "deployedAt": "2025-08-05",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x73a1007a1bbee4a2b019ae21d9f02bfe1ce57208",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "stablebroker-habittrade",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://stablestock.gitbook.io/ss/introduction/trust-and-security"
+      ]
+    },
+    {
+      "organization": "stablebroker-habittrade",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://app.stablestock.finance/h5/transparency"
+      ],
+      "note": "no date in the export"
+    }
+  ]
+}

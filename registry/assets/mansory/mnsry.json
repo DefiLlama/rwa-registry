@@ -1,0 +1,73 @@
+{
+  "identity": {
+    "slug": "mnsry",
+    "symbol": "MNSRY",
+    "name": "Mansory",
+    "legacyId": 50,
+    "canonicalMarketId": "MNSRY"
+  },
+  "exposure": {
+    "underlying": "mansory"
+  },
+  "class": {
+    "structure": "governance-token",
+    "type": "asset",
+    "rwaClassification": "non-rwa-gov-utility",
+    "category": [
+      "governance-tokens",
+      "other-rwas"
+    ]
+  },
+  "terms": {
+    "cexListed": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "about": {
+    "description": "MNSRY is presented as the official ecosystem token associated with the Mansory brand, centered on community access, perks, and participation around a luxury automotive identity. The project frames itself as a bridge between a real-world luxury brand and onchain fan engagement, using the token for gated experiences, rewards, and brand-driven programs rather than representing a direct claim on vehicles or operating cash flows.",
+    "logo": "https://icons.llamao.fi/icons/rwa/mansory.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://mansory.io"
+      ],
+      "twitter": "https://x.com/MANSORYofficial",
+      "docs": "https://www.mansorymotors.com/",
+      "linkedin": "https://www.linkedin.com/company/mansoryusa",
+      "telegram": "https://t.me/MansoryToken"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "solana",
+      "address": "1xdtu7y3LkkrVCAbm5KGKfYzq1qgKhxxk5AaJBqpump",
+      "deployedAt": "2025-02-26",
+      "primary": true
+    },
+    {
+      "chain": "solana",
+      "address": "6E3Xpkmz2CmZvXNMxEAcssisUd9PN8EJJvKyo38rpump",
+      "deployedAt": "2025-02-24"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x0fcfe33b46e5b21e5e96b722d4c85510198f9255",
+      "deployedAt": "2025-04-24"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "mansory-auto-trading-ltd",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://mansory.io"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "identity": {
+    "slug": "pact",
+    "symbol": "PACT",
+    "name": "PACT",
+    "legacyId": 3000,
+    "canonicalMarketId": "PACT"
+  },
+  "exposure": {
+    "underlying": "pact"
+  },
+  "class": {
+    "structure": "governance-token",
+    "type": "asset",
+    "rwaClassification": "non-rwa-gov-utility",
+    "category": [
+      "governance-tokens"
+    ]
+  },
+  "terms": {
+    "cexListed": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "sources": {
+    "coingeckoId": "pact-2"
+  },
+  "about": {
+    "description": "PACT is the governance and incentive token of the PACT ecosystem on Aptos. Official materials describe PACT Foundation as a DAO structure governed by the PACT token, while the broader protocol is a permissioned onchain lending, payment, warehousing, and securitization stack serving licensed lenders and private-credit originators. PACT itself is not a direct claim on offchain loan reserves.",
+    "logo": "https://icons.llamao.fi/icons/rwa/pact.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://pactfoundation.com/"
+      ],
+      "twitter": "https://x.com/pactfinance"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "aptos",
+      "address": "0xc546cc2dd26d9e9a4516b4514288bedf1085259fcb106b84b6469337f527fb92",
+      "deployedAt": "2026-04-15",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x12c782b869f2f2bd5f8fdcbe04aab6dbd1c579804f32738729a47678959d4688",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x36e780c44f6e06c4678957bf3df239e394e42e4b03db01eb7c85ad226a879095",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "pact-foundation",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://pactfoundation.com/whitepaper/mission",
+        "https://pactfoundation.com/whitepaper/the-pact-token",
+        "https://pactfoundation.com/consortium",
+        "https://aptosnetwork.com/ecosystem/directory/pact"
+      ]
+    }
+  ]
+}

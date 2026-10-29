@@ -1,0 +1,82 @@
+{
+  "identity": {
+    "slug": "boss",
+    "symbol": "BOSS",
+    "name": "Boss Info Shares",
+    "legacyId": 2975,
+    "canonicalMarketId": "BOSS"
+  },
+  "exposure": {
+    "underlying": "boss-info"
+  },
+  "class": {
+    "structure": "pe-venture",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "about": {
+    "description": "Tokenized shares of Boss Info AG, a Swiss IT general contractor focused on SME digital infrastructure and services, issued on Ethereum via Aktionariat for direct investment and secondary trading.",
+    "logo": "https://icons.llamao.fi/icons/rwa/boss.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://shares.bossinfo.com/"
+      ],
+      "twitter": "https://x.com/aktionariat",
+      "docs": "https://docs.aktionariat.com/",
+      "linkedin": "https://www.linkedin.com/company/aktionariat-ag"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x2e880962a9609aa3eab4def919fe9e917e99073b",
+      "deployedAt": "2021-06-14",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xe9c1d2c6c128308eabe632c5dc3785e72e2dedc9",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "boss-info-ag",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://shares.bossinfo.com/",
+        "https://www.aktionariat.com/"
+      ]
+    },
+    {
+      "organization": "aktionariat-ag",
+      "kind": "tokenizer",
+      "sourceLinks": [
+        "https://shares.bossinfo.com/",
+        "https://www.aktionariat.com/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "No public attestation date found"
+    }
+  ]
+}

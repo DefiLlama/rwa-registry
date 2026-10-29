@@ -1,0 +1,118 @@
+{
+  "identity": {
+    "slug": "dola",
+    "symbol": "DOLA",
+    "name": "Dola",
+    "legacyId": 590,
+    "canonicalMarketId": "DOLA"
+  },
+  "exposure": {
+    "underlying": "us-dollar"
+  },
+  "class": {
+    "structure": "crypto-stable",
+    "type": "asset",
+    "rwaClassification": "programmable-finance",
+    "category": [
+      "non-rwa-stablecoins"
+    ]
+  },
+  "terms": {
+    "cexListed": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "sources": {
+    "coingeckoId": "dola-usd"
+  },
+  "about": {
+    "description": "DOLA is Inverse Finance’s overcollateralized stablecoin, minted through FiRM/Frontier by depositing accepted collateral to borrow DOLA. When borrowers repay to retrieve collateral, DOLA is burned - making supply primarily credit-driven rather than fiat-issued.",
+    "logo": "https://icons.llamao.fi/icons/rwa/dola.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.inverse.finance/"
+      ],
+      "twitter": "https://x.com/InverseFinance",
+      "docs": "https://docs.inverse.finance/",
+      "discord": "https://discord.com/invite/ESWrBHqC8C",
+      "telegram": "https://t.me/inversefinance",
+      "github": "https://github.com/inversefinance"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "arbitrum",
+      "address": "0x0615dbba33fe61a31c7ed131bda6655ed76748b1",
+      "deployedAt": "2023-05-04"
+    },
+    {
+      "chain": "avax",
+      "address": "0x221743dc9e954be4f86844649bf19b43d6f8366d",
+      "deployedAt": "2023-04-13"
+    },
+    {
+      "chain": "base",
+      "address": "0x4621b7a9c75199271f773ebd9a499dbd165c3191",
+      "deployedAt": "2023-08-08"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x2f29bc0ffaf9bff337b31cbe6cb5fb3bf12e5840",
+      "deployedAt": "2022-12-15"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x4a24b7269459017c999ababa32962b3cdb436250",
+      "deployedAt": "2022-07-21",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x926df14a23be491164dcf93f4c468a50ef659d5b",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "fantom",
+      "address": "0x3129662808bec728a27ab6a6b9afd3cbaca8a43c",
+      "deployedAt": "2021-10-07"
+    },
+    {
+      "chain": "fraxtal",
+      "address": "0x908afaf175021748366a78d73ddb93f9b191211f",
+      "deployedAt": "2024-03-09"
+    },
+    {
+      "chain": "optimism",
+      "address": "0x739ca6d71365a08f584c8fc4e1029045fa8abc4b",
+      "deployedAt": "2022-07-21"
+    },
+    {
+      "chain": "polygon",
+      "address": "0x8eef0c50670e057b083a5f2d84f1da695c73689e",
+      "deployedAt": "2023-05-04"
+    },
+    {
+      "chain": "polygon_zkevm",
+      "address": "0xee65bb53ee40f3de3286cbc0e74dc88385badad8",
+      "deployedAt": "2026-05-20"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "inverse-finance",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.inverse.finance/",
+        "https://docs.inverse.finance/inverse-finance/products/dola"
+      ]
+    }
+  ]
+}

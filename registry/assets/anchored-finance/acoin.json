@@ -1,0 +1,114 @@
+{
+  "identity": {
+    "slug": "acoin",
+    "symbol": "aCOIN",
+    "name": "Coinbase Global aStock",
+    "legacyId": 3789,
+    "canonicalMarketId": "aCOIN"
+  },
+  "exposure": {
+    "underlying": "coinbase-global-inc"
+  },
+  "class": {
+    "structure": "stock-backed",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Daily"
+  },
+  "sources": {
+    "coingeckoId": "coinbase-global-astock",
+    "identifiers": [
+      {
+        "scheme": "isin",
+        "value": "US19260Q1076",
+        "source": null,
+        "verified": false
+      }
+    ]
+  },
+  "about": {
+    "description": "Tokenized Coinbase Global. Each token is backed 1:1 by the underlying share, purchased through a FINRA-registered broker-dealer and held in regulated custody, and is redeemable for stablecoins.",
+    "logo": "https://icons.llamao.fi/icons/rwa/anchored-acoin.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://anchored.finance/stocks"
+      ],
+      "twitter": "https://x.com/AnchoredFi",
+      "docs": "https://docs.anchored.finance/getting-started/anchored-tokens",
+      "linkedin": "https://www.linkedin.com/company/anchored-fi/",
+      "github": "https://github.com/AnchoredLabs"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xd8c1dae1c55b2fa349f78ce34553e075aad6b8a2",
+      "deployedAt": "2026-04-13"
+    },
+    {
+      "chain": "monad",
+      "address": "0xd8c1dae1c55b2fa349f78ce34553e075aad6b8a2",
+      "deployedAt": "2026-04-13",
+      "primary": true
+    },
+    {
+      "chain": "base",
+      "address": "0xd8c1dae1c55b2fa349f78ce34553e075aad6b8a2",
+      "deployedAt": "2026-05-27"
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0xd8c1dae1c55b2fa349f78ce34553e075aad6b8a2",
+      "deployedAt": "2026-08-21"
+    },
+    {
+      "chain": "robinhood",
+      "address": "0xd8c1dae1c55b2fa349f78ce34553e075aad6b8a2",
+      "deployedAt": "2026-09-04"
+    },
+    {
+      "chain": "bsc",
+      "address": "0xd8c1dae1c55b2fa349f78ce34553e075aad6b8a2",
+      "deployedAt": "2026-09-08"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "anchored-capital-ltd",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://anchored.finance/",
+        "https://alpaca.markets/tokenization"
+      ]
+    },
+    {
+      "organization": "anchored-finance",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://accountable.anchored.finance/"
+      ],
+      "note": "No attestation found"
+    }
+  ]
+}

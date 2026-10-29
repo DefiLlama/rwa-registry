@@ -1,0 +1,92 @@
+{
+  "identity": {
+    "slug": "pgngi",
+    "symbol": "PGNGI+",
+    "name": "Asseto PGNGI+",
+    "legacyId": 9577,
+    "canonicalMarketId": "PGNGI+"
+  },
+  "exposure": {
+    "underlying": "partners-group-next-generation-infrastructure-class-pr-usd-acc"
+  },
+  "class": {
+    "structure": "other-exotic",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "other-rwas"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Monthly"
+  },
+  "about": {
+    "description": "PGNGI+ is a 1:1 asset-backed token collateralized by the Partners Group Next Generation Infrastructure Class PR USD ACC, a diversified portfolio of private infrastructure direct and secondary investments. Same issuer and structure as NGI+ (RWA ID 4602), different share class. Priced from the RedStone PGNGI+_FUNDAMENTAL push feed on Ethereum; the BSC, Arc and Pharos legs redirect to the Ethereum coin via tokenMapping.",
+    "logo": "https://icons.llamao.fi/icons/rwa/pgngi.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://reale.finance/"
+      ],
+      "twitter": "https://x.com/AssetoFinance",
+      "docs": "https://reale-assets.gitbook.io/reale/product/tokens/pgngi+",
+      "linkedin": "https://www.linkedin.com/company/asseto-finance",
+      "github": "https://github.com/AssetoFinance"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x0e6fce64d9e32ebf5d7cf3f6ded501415eca374c",
+      "deployedAt": "2026-08-08",
+      "primary": true
+    },
+    {
+      "chain": "bsc",
+      "address": "0x9d54f56e71923ebd0c61336916f91cfb3a3938c3",
+      "deployedAt": "2026-08-08"
+    },
+    {
+      "chain": "arc",
+      "address": "0x0d90a6ee85d5668734bb3a515147f53ebdfe866c",
+      "deployedAt": null
+    },
+    {
+      "chain": "pharos",
+      "address": "0x238bd29bc460f6cb56f80f99b2b39ff2c183ee4d",
+      "deployedAt": "2026-08-08"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "reale-assets-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://reale-assets.gitbook.io/reale/product/tokens/pgngi+/appendix"
+      ]
+    },
+    {
+      "organization": "redstone",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://reale-assets.gitbook.io/reale/product/tokens/pgngi+/appendix"
+      ],
+      "note": "no date in the export"
+    }
+  ]
+}

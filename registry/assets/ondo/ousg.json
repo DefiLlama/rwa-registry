@@ -1,0 +1,113 @@
+{
+  "identity": {
+    "slug": "ousg",
+    "symbol": "OUSG",
+    "name": "Ondo OUSG",
+    "legacyId": 88,
+    "canonicalMarketId": "OUSG"
+  },
+  "exposure": {
+    "underlying": "ondo-ousg"
+  },
+  "class": {
+    "structure": "t-bills",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "bond-mmf-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Daily"
+  },
+  "sources": {
+    "coingeckoId": "ousg"
+  },
+  "about": {
+    "description": "OUSG is Ondo’s tokenized U.S. Treasury exposure designed for eligible users seeking short-duration government yield in an onchain form. It is structured around NAV-based accounting and is commonly used as a conservative yield sleeve for treasury management and collateral workflows where access and transfer are eligibility-gated.",
+    "logo": "https://icons.llamao.fi/icons/rwa/ousg.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://ondo.finance"
+      ],
+      "twitter": "https://x.com/OndoFinance",
+      "docs": "https://docs.ondo.finance/",
+      "linkedin": "https://www.linkedin.com/company/ondofinance",
+      "discord": "https://discord.com/invite/ondofinance",
+      "telegram": "https://t.me/ondofinance",
+      "github": "https://github.com/ondoprotocol"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x1b19c19393e2d034d8ff31ff34c81252fcbbee92",
+      "deployedAt": "2022-12-21",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x46bff4881d96f629d4a73386b0eda7ad6276ebf8",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xc9e397454f5478f4418e45181849c6ea66303d5a",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x5392ecbb807c641fe33900b2441d18807beb5c82",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "polygon",
+      "address": "0xba11c5effa33c4d6f8f593cfa394241cfe925811",
+      "deployedAt": "2023-06-02"
+    },
+    {
+      "chain": "solana",
+      "address": "i7u4r16TcsJTgq1kAG8opmVZyVnAKBwLKu6ZPMwzxNc",
+      "deployedAt": "2023-11-29"
+    },
+    {
+      "chain": "ripple",
+      "address": "4F55534700000000000000000000000000000000.rHuiXXjHLpMP8ZE9sSQU5aADQVWDwv6h5p",
+      "deployedAt": "2025-06-09"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "ondo-i-lp",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://ondo.finance/post/building-on-buidl-ondo-ousg-in-blackrock-s-usd-institutional-digital-liquidity-fund"
+      ],
+      "protocolIds": [
+        2542,
+        6650
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://docs.ondo.finance/qualified-access-products/ousg/trust-and-transparency",
+        "https://drive.google.com/drive/folders/1Ti8IzoXTibM3B2RWxystT38ISrPH-rRP?usp=sharing"
+      ],
+      "note": "Daily (ongoing)"
+    }
+  ]
+}

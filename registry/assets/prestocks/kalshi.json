@@ -1,0 +1,66 @@
+{
+  "identity": {
+    "slug": "kalshi",
+    "symbol": "KALSHI",
+    "name": "Kalshi PreStocks",
+    "legacyId": 2836,
+    "canonicalMarketId": "KALSHI"
+  },
+  "exposure": {
+    "underlying": "kalshi"
+  },
+  "class": {
+    "structure": "pe-venture",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "sources": {
+    "coingeckoId": "kalshi-prestocks"
+  },
+  "about": {
+    "description": "KALSHI is a PreStocks token on Solana that tracks the implied valuation of Kalshi. PreStocks describes its products as 1:1 backed by SPV exposure to underlying private-company shares, while emphasizing that holders receive economic exposure only, not direct ownership, voting, dividend, information, or other legal rights.",
+    "logo": "https://icons.llamao.fi/icons/rwa/kalshi.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://prestocks.com/kalshi"
+      ],
+      "twitter": "https://x.com/prestocks",
+      "docs": "https://prestocks.com/",
+      "linkedin": "https://www.linkedin.com/company/prestocks"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "solana",
+      "address": "PreLWGkkeqG1s4HEfFZSy9moCrJ7btsHuUtfcCeoRua",
+      "deployedAt": "2026-02-25",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "prestocks",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://prestocks.com"
+      ]
+    }
+  ]
+}

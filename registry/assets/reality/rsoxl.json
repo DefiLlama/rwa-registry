@@ -1,0 +1,81 @@
+{
+  "identity": {
+    "slug": "rsoxl",
+    "symbol": "rSOXL",
+    "name": "Direxion Daily Semiconductor Bull 3X Shares (Reality Tokenized)",
+    "legacyId": 4690,
+    "canonicalMarketId": "rSOXL"
+  },
+  "exposure": {
+    "underlying": "direxion-daily-semiconductor-bull-3x-etf"
+  },
+  "class": {
+    "structure": "etf-backed",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "etfs"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Continuous"
+  },
+  "sources": {
+    "llamaAttestationProof": false
+  },
+  "about": {
+    "description": "rSOXL is a tokenized share of the Direxion Daily Semiconductor Bull 3X Shares issued by Reality on Arbitrum, designed to track the economic performance of Direxion Daily Semiconductor Bull 3X Shares (SOXL) at a 1:1 ratio. The underlying ETF provides 3x daily long semiconductor sector exposure and is designed for short-term trading rather than long-term holding due to compounding effects. Each rSOXL is backed by a corresponding ETF share held through Alpaca Securities LLC, a FINRA-registered and SIPC-covered US broker-dealer, with reserves continuously verified by The Network Firm through Reality's Proof of Asset dashboard. Reality is a regulated RWA issuance platform within the Bitget ecosystem.",
+    "logo": "https://icons.llamao.fi/icons/rwa/rsoxl.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://realityfinance.xyz/"
+      ],
+      "twitter": "https://x.com/RealityFi_xyz",
+      "docs": "https://realityfinance.xyz/info/docs/",
+      "refLinks": [
+        "0"
+      ]
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "arbitrum",
+      "address": "0x25501fea0562fa74dab22dc09dd3f994d5558dce",
+      "deployedAt": "2026-06-05",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "reality-bitget-subsidiary",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://realityfinance.xyz/"
+      ]
+    },
+    {
+      "organization": "the-network-firm",
+      "kind": "auditor"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://realityfinance.xyz/por"
+      ],
+      "note": "Continuous (on-chain)"
+    }
+  ]
+}

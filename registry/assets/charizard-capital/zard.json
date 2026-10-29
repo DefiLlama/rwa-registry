@@ -1,0 +1,60 @@
+{
+  "identity": {
+    "slug": "zard",
+    "symbol": "ZARD",
+    "name": "Charizard Capital",
+    "legacyId": 573,
+    "canonicalMarketId": "ZARD"
+  },
+  "exposure": {
+    "underlying": "zard-trading-card-nfts"
+  },
+  "class": {
+    "structure": "revenue-share",
+    "type": "asset",
+    "rwaClassification": "non-rwa-gov-utility",
+    "category": [
+      "governance-tokens",
+      "other-rwas"
+    ]
+  },
+  "terms": {
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "about": {
+    "description": "A community-driven collectibles treasury centered on building the “Strategic Charizard Reserve,” with a public vault view intended to transparently track the reserve’s growth over time. The project has stated that reserve acquisitions are deposited into its Phygitals vault, and it uses Phygitals as the distribution venue for Charizard-themed gacha drops tied to that reserve narrative.",
+    "logo": "https://icons.llamao.fi/icons/rwa/zard.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.charizardcapital.com/"
+      ],
+      "twitter": "https://x.com/CharizardCapital"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "solana",
+      "address": "EebvSxfGbjyHMJ2bu1jhtNidbhVbQJtcg9y561Kipump",
+      "deployedAt": "2025-07-08",
+      "primary": true
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://www.charizardcapital.com/vault"
+      ],
+      "note": "Not publicly disclosed"
+    }
+  ]
+}

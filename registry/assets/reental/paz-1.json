@@ -1,0 +1,66 @@
+{
+  "identity": {
+    "slug": "paz-1",
+    "symbol": "PAZ-1",
+    "name": "REENTAL - LA PAZ 1",
+    "legacyId": 2728,
+    "canonicalMarketId": "PAZ-1"
+  },
+  "exposure": {
+    "underlying": "la-paz-1"
+  },
+  "class": {
+    "structure": "re-credit",
+    "type": "asset",
+    "rwaClassification": "programmable-finance",
+    "category": [
+      "real-estate"
+    ]
+  },
+  "terms": {
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "REENTAL - La Paz 1 is a tokenized real-estate loan investment in La Paz, Baja California Sur, Mexico. It is structured as a pre-development tourism and residential project, with land contributed into a Mexican land trust (fideicomiso) to safeguard project assets.",
+    "logo": "https://icons.llamao.fi/icons/rwa/paz-1.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.reental.co/"
+      ],
+      "twitter": "https://x.com/Reental_co",
+      "docs": "https://docs.reental.co/",
+      "linkedin": "https://www.linkedin.com/company/reental"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "polygon",
+      "address": "0xf8657256c5cd5fdb044e55d1ec39e9b8c969dbf1",
+      "deployedAt": "2024-05-13",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x48141c561c7cbc5700ab50bd1df96f27cca72906",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "reental",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.reental.co/"
+      ]
+    }
+  ]
+}

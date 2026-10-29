@@ -1,0 +1,59 @@
+{
+  "identity": {
+    "slug": "bsfg-em-npa-1",
+    "symbol": "BSFG-EM-NPA-1",
+    "name": "Berkeley Square Emerging Markets NPA Portfolio 1",
+    "legacyId": 9045,
+    "canonicalMarketId": "BSFG-EM-NPA-1"
+  },
+  "exposure": {
+    "underlying": "emerging-markets-non-performing-consumer-loans-india-inr"
+  },
+  "class": {
+    "structure": "credit-pool",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "private-credit"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "Emerging-markets non-performing consumer loan portfolio (India), tokenized on Aptos via the PACT platform. On-chain loan book 'BSFG-EM-NPA-1 Loan Book' (~18.6k per-loan NFTs), denominated in the zINR-NPA zero-value token. Tokenization type is Represented (not freely transferable).",
+    "logo": "https://icons.llamao.fi/icons/rwa/bsfg-em-npa-1.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://pact.foundation/"
+      ],
+      "twitter": "https://x.com/pactfinance"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "aptos",
+      "address": "0x2e9b9ebced3348033f7575ead79fa791c4e9848c3d4f1df4fa36609c0c58ded8",
+      "deployedAt": "2026-09-03",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "berkeley-square-finance-group-via-pact",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://pact.foundation/"
+      ]
+    }
+  ]
+}

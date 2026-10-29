@@ -1,0 +1,68 @@
+{
+  "identity": {
+    "slug": "prespcx",
+    "symbol": "preSPCX",
+    "name": "preSPCX - Powered by Republic for the Bitget Exchange",
+    "legacyId": 4052,
+    "canonicalMarketId": "preSPCX"
+  },
+  "exposure": {
+    "underlying": "space-exploration-technologies-corp"
+  },
+  "class": {
+    "structure": "structured-note",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "cexListed": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "yieldBearing": false
+  },
+  "about": {
+    "description": "preSPCX (formerly preSPAX) is a Contingent Payout Note issued by Republic International Cayman (distributed via Bitget) tied to the per-share performance of SpaceX common stock. Following SpaceX's June 2026 Nasdaq listing, holders are paid out by reference to public-share performance. The note is a debt security and confers no equity, voting, or ownership rights.",
+    "logo": "https://icons.llamao.fi/icons/rwa/prespcx.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://republic.com/prespax"
+      ],
+      "twitter": "https://x.com/joinrepublic",
+      "docs": "https://www.bitget.com/support/articles/12560603882795"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "solana",
+      "address": "4HtfQVWujUfTmZJbtDjSjdJPmqYyri4BpnipjqsD9HLS",
+      "deployedAt": "2026-04-16",
+      "primary": true,
+      "labels": [
+        {
+          "address": "EPxGiguU5j5tKFnMQpzMrzczEQ5NRtLWrpG9fADvtadX",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "republic-international-cayman-distributor-btgt-services-limited-bitget",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://republic.com/prespax",
+        "https://www.bitget.com/support/articles/12560603882368"
+      ]
+    }
+  ]
+}

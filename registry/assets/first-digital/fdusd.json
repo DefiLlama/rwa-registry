@@ -1,0 +1,122 @@
+{
+  "identity": {
+    "slug": "fdusd",
+    "symbol": "FDUSD",
+    "name": "First Digital USD",
+    "legacyId": 12,
+    "canonicalMarketId": "FDUSD"
+  },
+  "exposure": {
+    "underlying": "us-dollar"
+  },
+  "class": {
+    "structure": "usd-stable",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "fiat-stablecoins"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "cexListed": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Monthly"
+  },
+  "sources": {
+    "coingeckoId": "first-digital-usd"
+  },
+  "about": {
+    "description": "FDUSD is a USD stablecoin issued by First Digital Labs. The issuer states FDUSD is redeemable 1:1 for U.S. dollars and backed by cash and cash equivalents, with reserve reporting and independent attestation provided for verification.",
+    "logo": "https://icons.llamao.fi/icons/rwa/fdusd.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.firstdigitallabs.com"
+      ],
+      "twitter": "https://x.com/FDLabsHQ",
+      "docs": "https://firstdigitallabs.com/",
+      "linkedin": "https://www.linkedin.com/company/first-digital-trust"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xc5f0f7b66764f6ec8c8dff7ba683102295e16409",
+      "deployedAt": "2023-04-28",
+      "labels": [
+        {
+          "address": "0x240145d7225a00c490ee1742a8eaf4b79369be44",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "bsc",
+      "address": "0xc5f0f7b66764f6ec8c8dff7ba683102295e16409",
+      "deployedAt": "2023-05-02",
+      "primary": true
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0x93c9932e4afa59201f0b5e63f7d816516f1669fe",
+      "deployedAt": "2025-05-13"
+    },
+    {
+      "chain": "solana",
+      "address": "9zNQRsGLjNKwCUU5Gq5LR8beUCPzQMVMqKAi3SSZh54u",
+      "deployedAt": "2025-01-15"
+    },
+    {
+      "chain": "ton",
+      "address": "EQD0Evpk4timFOHmy4Sv3l_KEUXlM-dN1_KhroTCfB2wkO89",
+      "deployedAt": "2024-12-19"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "first-digital-trust-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.firstdigitallabs.com/fdusd",
+        "https://www.firstdigitallabs.com/fdusd-reserve-reports"
+      ],
+      "protocolIds": [
+        2269,
+        2272,
+        2286,
+        3075,
+        2274,
+        2352,
+        2314,
+        2275,
+        2293,
+        2270,
+        2273,
+        6469,
+        2276,
+        4859,
+        2369,
+        5342,
+        3577
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "date": "2025-12-31",
+      "links": [
+        "https://www.firstdigitallabs.com/transparency"
+      ]
+    }
+  ]
+}

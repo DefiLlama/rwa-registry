@@ -1,0 +1,72 @@
+{
+  "identity": {
+    "slug": "sr-strcusx",
+    "symbol": "SR-strcUSX",
+    "name": "Solstice strcUSX Senior Tranche",
+    "legacyId": 8654,
+    "canonicalMarketId": "SR-strcUSX"
+  },
+  "exposure": {
+    "underlying": "strategy-inc-strc-stretch-preferred-stock"
+  },
+  "class": {
+    "structure": "structured-credit",
+    "type": "asset",
+    "rwaClassification": "programmable-finance",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "SR-strcUSX is the senior tranche of the Solstice strcUSX YieldVault on Solana. Depositors lock USX and receive a non-rebasing vault token whose value accretes toward an indicative target return funded by income linked to Strategy Inc. Variable Rate Series A Perpetual Stretch Preferred Stock. Holders do not own STRC shares and instead hold a claim on the vault that settles back to USX. Junior tranche capital absorbs realised losses on the STRC book before senior principal is affected, outside a liquidation event. Redemption is available at one to one through a fifteen day cooldown queue or immediately for a fee, and the token is transferable across Solana DeFi.",
+    "logo": "https://icons.llamao.fi/icons/rwa/solstice-sr-strcusx.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://solstice.finance/vaults/strcusx"
+      ],
+      "twitter": "https://x.com/solsticefi",
+      "docs": "https://docs.solstice.finance/solstice-for-users/yieldvault/strcusx",
+      "discord": "https://discord.gg/TSmeMaYty2",
+      "telegram": "https://t.me/Solstice_TG"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "solana",
+      "address": "3uZLfBgY9XaLXG7C2DDdVjQWgS9x9kEb9VLpfe4yED4P",
+      "deployedAt": "2026-08-03",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "solstice",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://solstice.finance/",
+        "https://docs.solstice.finance/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://attestation.solstice.finance/"
+      ],
+      "note": "no date in the export"
+    }
+  ]
+}

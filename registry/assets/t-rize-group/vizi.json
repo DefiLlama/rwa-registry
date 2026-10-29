@@ -1,0 +1,68 @@
+{
+  "identity": {
+    "slug": "vizi",
+    "symbol": "VIZI",
+    "name": "Vision 87 by Champfleury (T-RIZE)",
+    "legacyId": 4087,
+    "canonicalMarketId": "VIZI"
+  },
+  "exposure": {
+    "underlying": "quebec-residential-development"
+  },
+  "class": {
+    "structure": "single-property",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "real-estate"
+    ]
+  },
+  "terms": {
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "VIZI represents tokenized investment in Vision 87 by Champfleury, an 87-unit, $23M portion of the ~$300M Project Champfleury residential development in Quebec, tokenized by T-RIZE Group and offered with Republic to accredited investors. Rental-income distributions are planned post-construction. The full token supply currently sits in a platform escrow contract.",
+    "logo": "https://icons.llamao.fi/icons/rwa/vizi.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.t-rize.io"
+      ],
+      "twitter": "https://x.com/trize_io",
+      "docs": "https://docs.t-rize.io"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "base",
+      "address": "0x35b5129e86ebe5fd00b7dbe99aa202be5cf5fa04",
+      "deployedAt": "2025-03-20",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x73a2ed54aa9c13f02b8ebf826642b7a3c13a7ac0",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "t-rize-group-montreal-distributed-with-republic",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.globenewswire.com/news-release/2025/08/27/3139931/0/en/T-RIZE-and-Republic-Launch-Vision-60-to-Expand-Institutional-Access-to-Tokenized-Real-Estate.html"
+      ],
+      "protocolIds": [
+        5983
+      ]
+    }
+  ]
+}

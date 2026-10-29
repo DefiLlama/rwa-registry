@@ -1,0 +1,66 @@
+{
+  "identity": {
+    "slug": "mad-7",
+    "symbol": "MAD-7",
+    "name": "REENTAL - MADRID 7",
+    "legacyId": 9615,
+    "canonicalMarketId": "MAD-7"
+  },
+  "exposure": {
+    "underlying": "madrid-7"
+  },
+  "class": {
+    "structure": "single-property",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "real-estate"
+    ]
+  },
+  "terms": {
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "Reental-MAD-7 is Reental's tokenized interest in Madrid 7 (EUR-denominated), issued on Polygon at a fixed 100 EUR per token. The token's AssetOracle publishes that issue price, not a revalued mark: it is 100 EUR converted through Chainlink EUR/USD, so the only variation is FX. No attestation, no redemption price and no secondary market (transfers are whitelist-gated).",
+    "logo": "https://icons.llamao.fi/icons/rwa/mad-7.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.reental.co/"
+      ],
+      "twitter": "https://x.com/Reental_co",
+      "docs": "https://docs.reental.co/",
+      "linkedin": "https://www.linkedin.com/company/reental"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "polygon",
+      "address": "0xc42fda8cdac8f987b6ef04939f1e0a18898eaa85",
+      "deployedAt": "2026-09-24",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "reental",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://app.reental.co"
+      ]
+    },
+    {
+      "organization": "reental",
+      "kind": "oracle"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "identity": {
+    "slug": "goldstation",
+    "symbol": "GOLDSTATION",
+    "name": "GOLDSTATION RWA",
+    "legacyId": 104,
+    "canonicalMarketId": "GOLDSTATION"
+  },
+  "exposure": {
+    "underlying": "goldstation-rwa"
+  },
+  "class": {
+    "structure": "governance-token",
+    "type": "asset",
+    "rwaClassification": "non-rwa-gov-utility",
+    "category": [
+      "governance-tokens",
+      "gold-commodities"
+    ]
+  },
+  "terms": {
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "about": {
+    "description": "GOLDSTATION is an RWA-themed platform that groups multiple real-world asset verticals under a single product umbrella, including commodities-style exposures. It positions itself around reserve transparency and periodic verification disclosures, aiming to give users a way to review backing and reporting artifacts associated with its asset program.",
+    "logo": "https://icons.llamao.fi/icons/rwa/goldstati.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://goldstation.io"
+      ],
+      "twitter": "https://x.com/goldstation_io",
+      "docs": "https://goldstation.io/",
+      "linkedin": "https://www.linkedin.com/company/goldstation"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "klaytn",
+      "address": "0x27397bfbefd58a437f2636f80a8e70cfc363d4ff",
+      "deployedAt": "2026-08-28",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "goldstation-foundation",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://goldstation.io"
+      ]
+    }
+  ]
+}

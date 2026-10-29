@@ -1,0 +1,73 @@
+{
+  "identity": {
+    "slug": "lisusd",
+    "symbol": "lisUSD",
+    "name": "Lista USD",
+    "legacyId": 596,
+    "canonicalMarketId": "lisUSD"
+  },
+  "exposure": {
+    "underlying": "us-dollar"
+  },
+  "class": {
+    "structure": "crypto-stable",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "non-rwa-stablecoins"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "sources": {
+    "coingeckoId": "helio-protocol-hay"
+  },
+  "about": {
+    "description": "Decentralized, overcollateralized USD-pegged stablecoin on BNB Chain minted by borrowing against onchain collateral via Lista vaults. Peg stability relies on collateralization, liquidations, and market arbitrage within the Lista/BNB DeFi ecosystem.",
+    "logo": "https://icons.llamao.fi/icons/rwa/lista-usd.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://lista.org/"
+      ],
+      "twitter": "https://x.com/lista_dao",
+      "docs": "https://docs.bsc.lista.org/",
+      "linkedin": "https://sg.linkedin.com/company/listadao",
+      "discord": "https://discord.gg/listadao",
+      "telegram": "https://t.me/ListaDAO",
+      "github": "https://github.com/lista-dao"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "bsc",
+      "address": "0x0782b6d8c4551b9760e74c0545a9bcd90bdc41e5",
+      "deployedAt": "2022-08-10",
+      "primary": true
+    },
+    {
+      "chain": "optimism",
+      "address": "0x83250ffec162e084a23e165434a8a110623abe38",
+      "deployedAt": "2023-05-26"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "lista-dao-protocol",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://lista.org/",
+        "https://docs.lista.org/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "identity": {
+    "slug": "ktb",
+    "symbol": "KTB",
+    "name": "Etherfuse Korean Treasury Bonds",
+    "legacyId": 3989,
+    "canonicalMarketId": "KTB"
+  },
+  "exposure": {
+    "underlying": "korean-treasury-bonds-issued-via-shinhan-securities"
+  },
+  "class": {
+    "structure": "sovereign-bond-fund",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "bond-mmf-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "sources": {
+    "coingeckoId": "etherfuse-ktb"
+  },
+  "about": {
+    "description": "Etherfuse KTB tokenizes Korean Treasury Bonds in partnership with Shinhan Securities. First Korean sovereign-debt stablebond brought onchain, yield-bearing. Sub-second settlement on Monad. Underlying carries AA Korea sovereign rating. Deployed on Monad, Stellar, Solana, Base, and Polygon.",
+    "logo": "https://icons.llamao.fi/icons/rwa/ktb.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.etherfuse.com/"
+      ],
+      "twitter": "https://x.com/etherfuse",
+      "docs": "https://www.etherfuse.com/stablebonds",
+      "linkedin": "https://www.linkedin.com/company/etherfuse"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "monad",
+      "address": "0xe9c082921dc3564e10196c5cc15db1250ac7d5c6",
+      "deployedAt": "2026-01-16",
+      "primary": true
+    },
+    {
+      "chain": "stellar",
+      "address": "KTB-GCRYUGD5NVARGXT56XEZI5CIFCQETYHAPQQTHO2O3IQZTHDH4LATMYWC",
+      "deployedAt": "2026-01-16"
+    },
+    {
+      "chain": "solana",
+      "address": "KTBeXe7VMPMLxBsqDQu4KA9PdSajF3Hkw1y9qRsKqfL",
+      "deployedAt": "2026-01-16"
+    },
+    {
+      "chain": "base",
+      "address": "0x0f9b0468391cfa83160dae6b693df87df379bd06",
+      "deployedAt": "2026-01-16"
+    },
+    {
+      "chain": "polygon",
+      "address": "0xe56cee16b76903b3c8eb4af3c06d1d2fab320f95",
+      "deployedAt": "2026-01-16"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "etherfuse",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.etherfuse.com/stablebonds"
+      ],
+      "protocolIds": [
+        6990
+      ]
+    },
+    {
+      "organization": "redstone",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://app.etherfuse.com/legal/stablebonds-overview"
+      ],
+      "note": "no date in the export"
+    }
+  ]
+}

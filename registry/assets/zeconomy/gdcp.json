@@ -1,0 +1,73 @@
+{
+  "identity": {
+    "slug": "gdcp",
+    "symbol": "GDCP",
+    "name": "Guggenheim Treasury Services Digital Commercial Paper",
+    "legacyId": 4066,
+    "canonicalMarketId": "GDCP"
+  },
+  "exposure": {
+    "underlying": "us-treasury-backed-commercial-paper"
+  },
+  "class": {
+    "structure": "t-bills",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "bond-mmf-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "Digital Commercial Paper (GDCP) is Moody's Prime-1-rated, US-Treasury-backed commercial paper issued by Great Bridge Capital Company, a bankruptcy-remote SPV of Guggenheim Treasury Services, and tokenized on the XRP Ledger and Ethereum via Zeconomy's AmpFi.Digital platform. Notes are sold at a discount with custom maturities up to 397 days for institutional investors. XRPL ledger obligations are the cleanest supply source. Ethereum ERC-1155 token-ids include matured-but-unburned issues that should not be counted at face value.",
+    "logo": "https://icons.llamao.fi/icons/rwa/gdcp.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.zeconomy.com"
+      ],
+      "docs": "https://www.zeconomy.com"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ripple",
+      "address": "rnXNUqF8LuXyUdfLdezftTeEUw2UFSLw5i",
+      "deployedAt": null,
+      "primary": true
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xb5710a6fede27d1048c75b157bd3403ba08cdbe0",
+      "deployedAt": "2024-09-17"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "great-bridge-capital-company-llc-guggenheim-treasury-services-spv",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://ripple.com/ripple-press/guggenheim-uses-zeconomy-to-issue-digital-paper-on-xrp-ledger/",
+        "https://www.businesswire.com/news/home/20240926279305/en/"
+      ]
+    },
+    {
+      "organization": "tokenized-via-zeconomy-ampfi-digital",
+      "kind": "tokenizer",
+      "sourceLinks": [
+        "https://ripple.com/ripple-press/guggenheim-uses-zeconomy-to-issue-digital-paper-on-xrp-ledger/",
+        "https://www.businesswire.com/news/home/20240926279305/en/"
+      ]
+    }
+  ]
+}

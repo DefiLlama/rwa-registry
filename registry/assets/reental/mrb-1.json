@@ -1,0 +1,72 @@
+{
+  "identity": {
+    "slug": "mrb-1",
+    "symbol": "MRB-1",
+    "name": "REENTAL - MARBELLA 1",
+    "legacyId": 9603,
+    "canonicalMarketId": "MRB-1"
+  },
+  "exposure": {
+    "underlying": "marbella-1"
+  },
+  "class": {
+    "structure": "single-property",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "real-estate"
+    ]
+  },
+  "terms": {
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "Reental-MRB-1 is Reental's tokenized interest in Marbella 1 (EUR-denominated), issued on Polygon at a fixed 100 EUR per token. The token's AssetOracle publishes that issue price, not a revalued mark: it is 100 EUR converted through Chainlink EUR/USD, so the only variation is FX. No attestation, no redemption price and no secondary market (transfers are whitelist-gated).",
+    "logo": "https://icons.llamao.fi/icons/rwa/mrb-1.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.reental.co/"
+      ],
+      "twitter": "https://x.com/Reental_co",
+      "docs": "https://docs.reental.co/",
+      "linkedin": "https://www.linkedin.com/company/reental"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "polygon",
+      "address": "0x4adaee2dae690cf8f3915f1c1963f16d239c5e11",
+      "deployedAt": "2024-11-07",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xe46b9f2a0ac87632cbfe64f3da228bba4619f9fc",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "reental",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://app.reental.co"
+      ]
+    },
+    {
+      "organization": "reental",
+      "kind": "oracle"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "identity": {
+    "slug": "cumiu",
+    "symbol": "CUMIU",
+    "name": "ChinaAMC USD Digital Money Market Fund Class I USD",
+    "legacyId": 647,
+    "canonicalMarketId": "CUMIU"
+  },
+  "exposure": {
+    "underlying": "chinaamc-usd-digital-money-market-fund-class-i-usd"
+  },
+  "class": {
+    "structure": "mmf",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "bond-mmf-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "sources": {
+    "identifiers": [
+      {
+        "scheme": "isin",
+        "value": "HK0001153516",
+        "source": null,
+        "verified": false
+      }
+    ]
+  },
+  "about": {
+    "description": "CUMIU represents the Class I USD shares of ChinaAMC USD Digital Money Market Fund, a Hong Kong authorized money market fund investing in short-term deposits and high-quality money market instruments. ChinaAMC publishes offering documents and fund reporting, and the tokenized share class is serviced with Standard Chartered as custodian and tokenization agent.",
+    "logo": "https://icons.llamao.fi/icons/rwa/cumiu.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.chinaamc.com.hk"
+      ],
+      "twitter": "https://x.com/ChinaAMC_HK",
+      "docs": "https://libeara.com/",
+      "linkedin": "https://www.linkedin.com/company/libeara",
+      "github": "https://github.com/libeara"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x85d38585c3ac08268f598282a84b7c0ddfc0d04f",
+      "deployedAt": "2025-07-31",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "chinaamc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.chinaamc.com.hk/product/chinaamc-usd-digital-money-market-fund/",
+        "https://www.chinaamc.com.hk/wp-content/uploads/chinaamc/resources/E-%5BClean%5DChinaAMCDigitalOFC-Prospectus-EN%2825Nov2025%29.pdf"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "date": "2025-02-28",
+      "links": [
+        "https://www.chinaamc.com.hk/wp-content/uploads/chinaamc/resources/E-%5BClean%5DChinaAMCDigitalOFC-Prospectus-EN%2825Nov2025%29.pdf",
+        "https://www.chinaamc.com.hk/wp-content/uploads/chinaamc/resources/E-%5BClean%5DKFS_ChinaAMCUSDDigitalMMF%28UnlistedClass%29-EN%2825Nov2025%29.pdf"
+      ]
+    }
+  ]
+}

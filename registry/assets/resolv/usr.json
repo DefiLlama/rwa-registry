@@ -1,0 +1,119 @@
+{
+  "identity": {
+    "slug": "usr",
+    "symbol": "USR",
+    "name": "Resolv USD",
+    "legacyId": 586,
+    "canonicalMarketId": "USR"
+  },
+  "exposure": {
+    "underlying": "us-dollar"
+  },
+  "class": {
+    "structure": "synthetic-stable",
+    "type": "asset",
+    "rwaClassification": "programmable-finance",
+    "category": [
+      "non-rwa-stablecoins"
+    ]
+  },
+  "terms": {
+    "cexListed": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "sources": {
+    "coingeckoId": "resolv-usr"
+  },
+  "about": {
+    "description": "USR is Resolv’s delta‑neutral stablecoin: it is minted against liquid collateral (e.g., ETH) that is hedged with perpetual futures to target USD stability. Protocol risk is buffered by an insurance fund token (RLP), and users can stake into stUSR for yield. Mint/redemption has been operated through allowlisted addresses during early rollout.",
+    "logo": "https://icons.llamao.fi/icons/rwa/resolv-usd.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://resolv.im/"
+      ],
+      "twitter": "https://x.com/ResolvLabs",
+      "docs": "https://docs.resolv.xyz/",
+      "linkedin": "https://www.linkedin.com/company/resolv-labs",
+      "discord": "https://discord.com/invite/HwPhyC4hZt",
+      "telegram": "https://t.me/resolvlabs",
+      "github": "https://github.com/resolv-im",
+      "refLinks": [
+        "https://app.resolv.xyz/ref/defillama"
+      ]
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "arbitrum",
+      "address": "0x2492d0006411af6c8bbb1c8afc1b0197350a79e9",
+      "deployedAt": "2024-11-21"
+    },
+    {
+      "chain": "base",
+      "address": "0x35e5db674d8e93a03d814fa0ada70731efe8a4b9",
+      "deployedAt": "2024-11-20"
+    },
+    {
+      "chain": "berachain",
+      "address": "0x2492d0006411af6c8bbb1c8afc1b0197350a79e9",
+      "deployedAt": "2025-02-23"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x2492d0006411af6c8bbb1c8afc1b0197350a79e9",
+      "deployedAt": "2025-04-10"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x66a1e37c9b0eaddca17d3662d6c05f4decf3e110",
+      "deployedAt": "2024-06-02",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xac85ef29192487e0a109b7f9e40c267a9ea95f2e",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "hyperliquid",
+      "address": "0x0ad339d66bf4aed5ce31c64bc37b3244b6394a77",
+      "deployedAt": "2025-04-24"
+    },
+    {
+      "chain": "plasma",
+      "address": "0xb1b385542b6e80f77b94393ba8342c3af699f15c",
+      "deployedAt": "2025-09-24"
+    },
+    {
+      "chain": "soneium",
+      "address": "0xb1b385542b6e80f77b94393ba8342c3af699f15c",
+      "deployedAt": "2025-06-25"
+    },
+    {
+      "chain": "tac",
+      "address": "0xb1b385542b6e80f77b94393ba8342c3af699f15c",
+      "deployedAt": "2025-07-10"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "resolv",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://resolv.im/",
+        "https://docs.resolv.im/"
+      ]
+    }
+  ]
+}

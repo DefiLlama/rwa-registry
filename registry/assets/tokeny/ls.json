@@ -1,0 +1,65 @@
+{
+  "identity": {
+    "slug": "ls",
+    "symbol": "LS",
+    "name": "Legion Strategies, Ltd.",
+    "legacyId": 651,
+    "canonicalMarketId": "LS"
+  },
+  "exposure": {
+    "underlying": "legion-strategies-ltd"
+  },
+  "class": {
+    "structure": "crypto-hedge-fund",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "crypto-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "LS represents Legion Strategies, Ltd., a Cayman Islands hedge fund managed by SkyBridge Capital that operates as a fund-of-funds. The tokenized format is intended to streamline fund administration and distribution for eligible investors while maintaining diversified exposure across multiple underlying hedge fund strategies.",
+    "logo": "https://icons.llamao.fi/icons/rwa/legion-strategies-ltd..png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://skybridge.com"
+      ],
+      "twitter": "https://x.com/SkyBridge",
+      "docs": "https://docs.tokeny.com/",
+      "linkedin": "https://www.linkedin.com/company/tokeny-solutions",
+      "github": "https://github.com/tokeny"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "avax",
+      "address": "0x6e0ae5a3295d2a886aaa87cf01d4773450d95ab2",
+      "deployedAt": "2025-08-15",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "legion-strategies",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://tokeny.com/skybridge-capital-partners-with-tokeny-to-tokenize-300min-hedge-funds-on-avalanche/",
+        "https://www.skybridge.com/"
+      ]
+    }
+  ]
+}

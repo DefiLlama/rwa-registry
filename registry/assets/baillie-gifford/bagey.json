@@ -1,0 +1,55 @@
+{
+  "identity": {
+    "slug": "bagey",
+    "symbol": "BAGEY",
+    "name": "Baillie Gifford Enhanced Yield Fund",
+    "legacyId": 4551,
+    "canonicalMarketId": "BAGEY"
+  },
+  "exposure": {
+    "underlying": "baillie-gifford-enhanced-yield-fund-short-duration-corporate-bond-portfolio"
+  },
+  "class": {
+    "structure": "corp-bond-fund",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "bond-mmf-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "BAGEY is the tokenized share unit of the Baillie Gifford Enhanced Yield Fund, a UK-regulated OEIC that operates natively on Ethereum and Solana with the blockchain serving as the legal register of record for ownership. The Fund gives eligible professional investors access to an actively managed short duration portfolio of public corporate bonds with an average credit quality of BBB and a target yield of approximately 7 percent. Subscriptions and redemptions settle in USDC directly against the blockchain, with a $100 minimum investment. Baillie Gifford manages the fund and BNY provides tokenisation and wallet infrastructure. NatWest Trustee and Depositary Services Limited acts as Depositary. The fund is open to eligible professional investors in the United Kingdom, Switzerland, and Cayman Islands only. The Financial Conduct Authority approved the fund on June 22 2026. Onchain contract addresses are pending authoritative disclosure from the issuer.",
+    "logo": "https://icons.llamao.fi/icons/rwa/bagey.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.bailliegifford.com/digital-assets"
+      ],
+      "twitter": "https://x.com/BGDA_UK",
+      "docs": "https://www.bailliegifford.com/digital-assets",
+      "linkedin": "https://www.linkedin.com/company/baillie-gifford-&-co"
+    }
+  },
+  "review": {
+    "activeAumReviewed": false,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "baillie-gifford-enhanced-yield-fund-uk-regulated-oeic",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.bailliegifford.com/digital-assets"
+      ]
+    }
+  ]
+}

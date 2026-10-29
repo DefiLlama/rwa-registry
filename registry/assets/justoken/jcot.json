@@ -1,0 +1,67 @@
+{
+  "identity": {
+    "slug": "jcot",
+    "symbol": "JCOT",
+    "name": "Justoken Cotton (JCOT)",
+    "legacyId": 4077,
+    "canonicalMarketId": "JCOT"
+  },
+  "exposure": {
+    "underlying": "cotton"
+  },
+  "class": {
+    "structure": "other-commodity",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "gold-commodities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "about": {
+    "description": "JCOT is an ERC-1155 token by Justoken (formerly Agrotoken) on Polygon where each token represents one metric ton of cotton, used as collateral and a means of exchange within Justoken's agricultural ecosystem across Brazil and Argentina. 100% of supply in one platform custody wallet. On-chain distribution to third parties is minimal.",
+    "logo": "https://icons.llamao.fi/icons/rwa/jcot.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.justoken.com"
+      ],
+      "twitter": "https://x.com/justokenglobal",
+      "docs": "https://www.justoken.com"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "polygon",
+      "address": "0x3f821cbc3426ada25d53501a187d8cf103a8e22e",
+      "deployedAt": "2025-05-16",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xaee1ce297a6627040bdef9bf70de2c8249d1c31e",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "justoken-formerly-agrotoken",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.justoken.com"
+      ]
+    }
+  ]
+}

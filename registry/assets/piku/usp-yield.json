@@ -1,0 +1,80 @@
+{
+  "identity": {
+    "slug": "usp-yield",
+    "symbol": "USP",
+    "name": "USP Yield Optimized Stablecoin",
+    "legacyId": 178,
+    "canonicalMarketId": "USP-YIELD"
+  },
+  "exposure": {
+    "underlying": "us-dollar"
+  },
+  "class": {
+    "structure": "yield-rwa-stable",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "rwa-stablecoins"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "USP is a yield-optimized dollar unit designed to grow in value over time rather than remaining perfectly fixed at $1.00, using a managed strategy framework that targets compounding returns while keeping a stablecoin-like user experience. It is positioned for users who want a single-token cash management style position where yield is embedded directly into the token’s economics.",
+    "logo": "https://icons.llamao.fi/icons/rwa/usp-yield-optimized-stablecoin.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://piku.co/"
+      ],
+      "twitter": "https://x.com/piku_dao",
+      "docs": "https://piku.finance/",
+      "linkedin": "https://www.linkedin.com/company/piku-finance"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x098697ba3fee4ea76294c5d6a466a4e3b3e95fe6",
+      "deployedAt": "2025-08-22",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x9b813bd1cdba42eb853a1ebd6b824631d7443be4",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x2ea5d4a887093276180c91ee362b5286bf03e5a3",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x000000fee13a103a10d593b9ae06b3e05f2e7e1c",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x39b8042963b646136417fa2248ab028b778a0387",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "pikudao",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.piku.co/piku"
+      ]
+    }
+  ]
+}

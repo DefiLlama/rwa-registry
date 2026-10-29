@@ -1,0 +1,86 @@
+{
+  "identity": {
+    "slug": "fusd",
+    "symbol": "FUSD",
+    "name": "FinChain Dollar",
+    "legacyId": 8780,
+    "canonicalMarketId": "FUSD"
+  },
+  "exposure": {
+    "underlying": "us-dollar"
+  },
+  "class": {
+    "structure": "yield-rwa-stable",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "rwa-stablecoins"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "FinChain Dollar (FUSD) is a yield-bearing, USD-pegged stablecoin issued by FinChain Bermuda Limited, a wholly owned subsidiary of Finchain Holdings (Cayman) Limited and the Web3 arm of Fosun Wealth Holdings. Balances rebase daily via a reward multiplier while the unit price stays fixed at $1; yield accrues from a reserve of tokenised T-bill and money-market exposure held against FUSDLP. Minted 1:1 from USDT by KYC-verified wallets ($1,000 minimum, non-US). No allowlist gates holding or transfer, but the token is an upgradeable, pausable proxy, so transferability is revocable by the admin Safe. Reserve treasury coverage measured ~115% on 2026-08-14. No public attestation is obtainable: both proof-of-reserve links resolve to one dead, email-gated DocSend and no financial auditor is named in the issuer's own vendor table. Two CertiK audits (latest 2026-06-29).",
+    "links": {
+      "website": [
+        "https://www.finchain.global/"
+      ],
+      "twitter": "https://x.com/FinChain_CN",
+      "docs": "https://finchain.gitbook.io/finchain-docs/en/fusd/fusd-token"
+    }
+  },
+  "review": {
+    "activeAumReviewed": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x9f6714c302ffe3c3bafaf2ccb44201ff64f6371c",
+      "deployedAt": "2026-01-26",
+      "primary": true
+    },
+    {
+      "chain": "xsat",
+      "address": "0x9f6714c302ffe3c3bafaf2ccb44201ff64f6371c",
+      "deployedAt": null
+    },
+    {
+      "chain": "sonic",
+      "address": "0x9f6714c302ffe3c3bafaf2ccb44201ff64f6371c",
+      "deployedAt": "2026-01-26"
+    },
+    {
+      "chain": "monad",
+      "address": "0x9f6714c302ffe3c3bafaf2ccb44201ff64f6371c",
+      "deployedAt": "2026-04-08"
+    },
+    {
+      "chain": "avax",
+      "address": "0x9f6714c302ffe3c3bafaf2ccb44201ff64f6371c",
+      "deployedAt": null
+    }
+  ],
+  "roles": [
+    {
+      "organization": "finchain-bermuda-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://finchain.gitbook.io/finchain-docs/en/fusd/introduction/structuring"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "review",
+      "outcome": "suspicious",
+      "reason": "Documentation is copied from OpenEden USDO (collateralization page still refers to \"USDO\"). No obtainable proof of reserves; no financial auditor named. Issuer entity in submission was the Cayman holdco, corrected to the Bermuda issuer."
+    }
+  ]
+}

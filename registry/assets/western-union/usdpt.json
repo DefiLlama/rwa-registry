@@ -1,0 +1,62 @@
+{
+  "identity": {
+    "slug": "usdpt",
+    "symbol": "USDPT",
+    "name": "Western Union U.S. Dollar Payment Token",
+    "legacyId": 3695,
+    "canonicalMarketId": "USDPT"
+  },
+  "exposure": {
+    "underlying": "us-dollar"
+  },
+  "class": {
+    "structure": "usd-stable",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "fiat-stablecoins"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "about": {
+    "description": "USDPT (U.S. Dollar Payment Token) is Western Union's USD-pegged payment stablecoin issued by Anchorage Digital Bank, N.A. and launched on Solana on May 4, 2026. USDPT is fully backed 1:1 by US dollars held by Anchorage Digital Bank as reserve custodian, who holds short-duration US dollar instruments to back every USDPT in circulation. The token is the foundation of Western Union's Digital Asset Network, connecting licensed virtual currency exchanges and custodians to Western Union's global payout and liquidity infrastructure across more than 550,000 agent locations in 150+ countries. Initial rollout markets are the Philippines and Bolivia. Use cases include treasury and agent settlement (near-instant 24/7 settlement between Western Union and global agents), global exchange support via licensed virtual currency exchanges, and the consumer-facing Stable by Western Union product launching in 40+ countries in 2026. Reserve composition and attestation cadence not yet publicly disclosed. Custody and tokenization technology powered by Fireblocks.",
+    "logo": "https://icons.llamao.fi/icons/rwa/usdpt.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.westernunion.com/"
+      ],
+      "twitter": "https://x.com/WesternUnion",
+      "docs": "https://www.anchorage.com/insights/anchorage-digital-western-union-partner-launch-usdpt-federally-regulated-stablecoin-solana",
+      "linkedin": "https://www.linkedin.com/company/the-western-union-company"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "solana",
+      "address": "HVWf8JmLoHs99Lw8Psf3fyqAtA4crWxCPkrmSdNjhNH3",
+      "deployedAt": "2025-12-17",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "anchorage-digital-bank-n-a",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.anchorage.com/insights/anchorage-digital-western-union-partner-launch-usdpt-federally-regulated-stablecoin-solana"
+      ]
+    }
+  ]
+}

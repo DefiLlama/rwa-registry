@@ -1,0 +1,82 @@
+{
+  "identity": {
+    "slug": "lends",
+    "symbol": "LENDS",
+    "name": "Switzerlend Shares",
+    "legacyId": 2979,
+    "canonicalMarketId": "LENDS"
+  },
+  "exposure": {
+    "underlying": "switzerlend"
+  },
+  "class": {
+    "structure": "pe-venture",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "about": {
+    "description": "Tokenized shares of Switzerlend AG, a Swiss digital lending platform focused on fairer credit-market access, issued on Ethereum via Aktionariat.",
+    "logo": "https://icons.llamao.fi/icons/rwa/lends.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://shares.lend.ch/"
+      ],
+      "twitter": "https://x.com/aktionariat",
+      "docs": "https://docs.aktionariat.com/",
+      "linkedin": "https://www.linkedin.com/company/aktionariat-ag"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x343324f53cbeee3ee6d171f2a20f005964c98047",
+      "deployedAt": "2023-12-18",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x0af5512165975e76ee9425b0e3f3781bd17cad24",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "switzerlend-ag",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://shares.lend.ch/",
+        "https://www.aktionariat.com/"
+      ]
+    },
+    {
+      "organization": "aktionariat-ag",
+      "kind": "tokenizer",
+      "sourceLinks": [
+        "https://shares.lend.ch/",
+        "https://www.aktionariat.com/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "No public attestation date found"
+    }
+  ]
+}

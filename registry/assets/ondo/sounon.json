@@ -1,0 +1,115 @@
+{
+  "identity": {
+    "slug": "sounon",
+    "symbol": "SOUNon",
+    "name": "SoundHound AI (Ondo Tokenized)",
+    "legacyId": 753,
+    "canonicalMarketId": "SOUNon"
+  },
+  "exposure": {
+    "underlying": "soundhound-ai-inc"
+  },
+  "class": {
+    "structure": "stock-backed",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "cexListed": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Daily"
+  },
+  "sources": {
+    "coingeckoId": "soundhound-ai-ondo-tokenized",
+    "identifiers": [
+      {
+        "scheme": "isin",
+        "value": "US8361001071",
+        "source": null,
+        "verified": false
+      }
+    ]
+  },
+  "about": {
+    "description": "SOUNon is an Ondo Global Markets tokenized stock exposure designed to provide economic exposure to =SUBSTITUTE(A185, \", \") in an onchain format. The token is designed to be fully backed by the underlying publicly traded asset, together with cash in transit, held with regulated custodial broker-dealers. Holdings attestations and ongoing reporting are surfaced through Ondo trust and transparency materials and the product asset page. Tokenholders are not shareholders of the underlying and do not receive shareholder voting rights. Dividend value is reflected through total return mechanics, and where applicable, dividends are reflected through reinvestment adjustments instead of cash dividends.",
+    "logo": "https://icons.llamao.fi/icons/rwa/soun.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://app.ondo.finance/assets/sounon"
+      ],
+      "twitter": "https://x.com/ondofinance",
+      "docs": "https://docs.ondo.finance/",
+      "linkedin": "https://www.linkedin.com/company/ondofinance",
+      "discord": "https://discord.com/invite/ondofinance",
+      "telegram": "https://t.me/ondofinance",
+      "github": "https://github.com/ondoprotocol"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x966db065199a3edea2228c6e5eb6ac49ff251acc",
+      "deployedAt": "2025-12-10",
+      "primary": true
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x971a9eb54e1fb080e70cebf8c3426f08352142cc",
+      "deployedAt": "2025-12-10"
+    },
+    {
+      "chain": "bsc",
+      "address": "0xedcf71b2e2217064038adcb54a3c3a5fc3488ef1",
+      "deployedAt": "2025-12-10"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x63302944d413feda3dc2c1c43351dc03ad84fcc9",
+      "deployedAt": "2025-12-10"
+    },
+    {
+      "chain": "solana",
+      "address": "vE2qArmjto6VfeMngyGAnzp2ipLYeXsxiARDnnXondo",
+      "deployedAt": "2025-12-31"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "ondo-global-markets-bvi-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.ondo.finance/ondo-global-markets/legal-and-regulatory"
+      ],
+      "protocolIds": [
+        2542,
+        6650
+      ]
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://app.ondo.finance/assets/sounon"
+      ],
+      "note": "Daily (ongoing)"
+    }
+  ]
+}

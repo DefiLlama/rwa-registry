@@ -1,0 +1,72 @@
+{
+  "identity": {
+    "slug": "mi4",
+    "symbol": "MI4",
+    "name": "Mantle Index Four Fund",
+    "legacyId": 543,
+    "canonicalMarketId": "MI4"
+  },
+  "exposure": {
+    "underlying": "mantle-index-four-fund"
+  },
+  "class": {
+    "structure": "crypto-index-fund",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "crypto-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "sources": {
+    "coingeckoId": "mantle-index-four-fund"
+  },
+  "about": {
+    "description": "MI4 (Mantle Index Four Fund) is an institutional‑grade tokenized index strategy designed to give diversified crypto beta in a single fund interest, with an emphasis on making the position usable in both traditional and onchain workflows. The fund is associated with Mantle’s ecosystem and was launched with an anchor allocation commitment from the Mantle Treasury, with Securitize providing the tokenization and investor infrastructure. The portfolio tracks the “Index Four” methodology which is a market‑cap‑weighted basket of leading crypto assets (focused on major Layer‑1 / Layer‑2 networks) with periodic rebalancing. In addition to index exposure, the fund is designed to incorporate yield enhancements and operational efficiency from tokenized settlement on Mantle Network.",
+    "logo": "https://icons.llamao.fi/icons/rwa/mi4.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://securitize.io/primary-market/mantle-index-four-fund"
+      ],
+      "twitter": "https://x.com/Securitize",
+      "docs": "https://docs.securitize.io",
+      "linkedin": "https://www.linkedin.com/company/securitize",
+      "telegram": "https://t.me/securitize",
+      "github": "https://github.com/securitize-io"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "mantle",
+      "address": "0x671642ac281c760e34251d51bc9eef27026f3b7a",
+      "deployedAt": "2025-04-22",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "mantle-index-four",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://securitize.io/primary-market/mantle-index-four-fund"
+      ],
+      "protocolIds": [
+        6712,
+        2502
+      ]
+    }
+  ]
+}

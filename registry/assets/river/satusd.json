@@ -1,0 +1,133 @@
+{
+  "identity": {
+    "slug": "satusd",
+    "symbol": "satUSD",
+    "name": "River Stablecoin",
+    "legacyId": 606,
+    "canonicalMarketId": "satUSD"
+  },
+  "exposure": {
+    "underlying": "us-dollar"
+  },
+  "class": {
+    "structure": "crypto-stable",
+    "type": "asset",
+    "rwaClassification": "programmable-finance",
+    "category": [
+      "non-rwa-stablecoins"
+    ]
+  },
+  "terms": {
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "sources": {
+    "coingeckoId": "satoshi-stablecoin"
+  },
+  "about": {
+    "description": "satUSD is River/Satoshi Protocol’s omni-chain CDP stablecoin. Users deposit BTC-based collateral and borrow satUSD (up to ~90. 91% of collateral value, per protocol parameters). the system targets a $1 peg via overcollateralization, liquidations, and redemption mechanics. Primary risks include collateral volatility/liquidations, cross-chain messaging/bridge risk, and smart-contract/oracle risk.",
+    "logo": "https://icons.llamao.fi/icons/rwa/river-stablecoin.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://app.river.inc/"
+      ],
+      "twitter": "https://x.com/RiverdotInc"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "arbitrum",
+      "address": "0xb4818bb69478730ef4e33cc068dd94278e2766cb",
+      "deployedAt": "2025-04-27"
+    },
+    {
+      "chain": "base",
+      "address": "0x70654aad8b7734dc319d0c3608ec7b32e03fa162",
+      "deployedAt": "2025-04-12"
+    },
+    {
+      "chain": "bevm",
+      "address": "0x2031c8848775a5efb7cff2a4edbe3f04c50a1478",
+      "deployedAt": null
+    },
+    {
+      "chain": "bevm",
+      "address": "0xf2692468666e459d87052f68ae474e36c1a34fbb",
+      "deployedAt": null
+    },
+    {
+      "chain": "btr",
+      "address": "0xba50ddac6b2f5482ca064efac621e0c7c0f6a783",
+      "deployedAt": "2024-11-19"
+    },
+    {
+      "chain": "btr",
+      "address": "0xa1e63cb2ce698cfd3c2ac6704813e3b870fedadf",
+      "deployedAt": "2024-11-19"
+    },
+    {
+      "chain": "bob",
+      "address": "0x78fea795cbfcc5ffd6fb5b845a4f53d25c283bdb",
+      "deployedAt": "2024-07-14"
+    },
+    {
+      "chain": "bob",
+      "address": "0xecf21b335b41f9d5a89f6186a99c19a3c467871f",
+      "deployedAt": "2025-02-07"
+    },
+    {
+      "chain": "bsc",
+      "address": "0xb4818bb69478730ef4e33cc068dd94278e2766cb",
+      "deployedAt": "2025-02-21",
+      "primary": true
+    },
+    {
+      "chain": "bsquared",
+      "address": "0x8dd8b12d55c73c08294664a5915475ed1c8b1f6f",
+      "deployedAt": "2024-11-19"
+    },
+    {
+      "chain": "bsquared",
+      "address": "0x62b4b8f5a03e40b9daaf95c7a6214969406e28c3",
+      "deployedAt": "2024-11-19"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x1958853a8be062dc4f401750eb233f5850f0d0d2",
+      "deployedAt": "2025-08-20"
+    },
+    {
+      "chain": "hemi",
+      "address": "0xb4818bb69478730ef4e33cc068dd94278e2766cb",
+      "deployedAt": "2025-02-21"
+    },
+    {
+      "chain": "sonic",
+      "address": "0xb4818bb69478730ef4e33cc068dd94278e2766cb",
+      "deployedAt": "2025-06-10"
+    },
+    {
+      "chain": "xlayer",
+      "address": "0xcef6c74ce218c0e1f48ca2430635d0a65cd3737a",
+      "deployedAt": "2025-08-27"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "river-satoshi-protocol",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://app.river.inc/",
+        "https://satoshiprotocol.org/",
+        "https://www.coingecko.com/en/coins/satoshi-stablecoin"
+      ]
+    }
+  ]
+}

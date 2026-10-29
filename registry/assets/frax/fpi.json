@@ -1,0 +1,239 @@
+{
+  "identity": {
+    "slug": "fpi",
+    "symbol": "FPI",
+    "name": "Frax Price Index",
+    "legacyId": 612,
+    "canonicalMarketId": "FPI"
+  },
+  "exposure": {
+    "underlying": "us-consumer-price-index"
+  },
+  "class": {
+    "structure": "algo-stable",
+    "type": "asset",
+    "rwaClassification": "programmable-finance",
+    "category": [
+      "non-rwa-stablecoins"
+    ]
+  },
+  "terms": {
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "sources": {
+    "coingeckoId": "frax-price-index"
+  },
+  "about": {
+    "description": "FPI is Frax’s onchain price-index token designed to track the U. S. Consumer Price Index (a “CPI-adjusted dollar”) rather than a fixed $1. Peg behavior depends on Frax protocol collateral/AMO liquidity management and governance. key risks include index-peg deviation, DeFi liquidity, and governance/strategy risk.",
+    "logo": "https://icons.llamao.fi/icons/rwa/frax-price-index.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://frax.com/"
+      ],
+      "twitter": "https://x.com/fraxfinance",
+      "docs": "https://docs.frax.finance/",
+      "linkedin": "https://www.linkedin.com/company/frax-finance",
+      "discord": "https://discord.com/invite/fraxfinance",
+      "telegram": "https://t.me/fraxfinance",
+      "github": "https://github.com/FraxFinance"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "abstract",
+      "address": "0x580f2ee1476edf4b1760bd68f6aabad57dec420e",
+      "deployedAt": "2025-03-13"
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0x1b01514a2b3cdef16fd3c680a818a0ab97da8a09",
+      "deployedAt": "2023-02-21"
+    },
+    {
+      "chain": "aurora",
+      "address": "0x90581eca9469d8d7f5d3b60f4715027adfcf7927",
+      "deployedAt": "2025-08-22"
+    },
+    {
+      "chain": "avax",
+      "address": "0x90581eca9469d8d7f5d3b60f4715027adfcf7927",
+      "deployedAt": "2025-01-11"
+    },
+    {
+      "chain": "base",
+      "address": "0x219279953d8d23520b7878447e8a6c266a51de2f",
+      "deployedAt": "2024-01-10"
+    },
+    {
+      "chain": "berachain",
+      "address": "0x90581eca9469d8d7f5d3b60f4715027adfcf7927",
+      "deployedAt": "2025-02-24"
+    },
+    {
+      "chain": "blast",
+      "address": "0x219279953d8d23520b7878447e8a6c266a51de2f",
+      "deployedAt": "2024-03-06"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x2dd1b4d4548accea497050619965f91f78b3b532",
+      "deployedAt": "2023-02-21"
+    },
+    {
+      "chain": "celo",
+      "address": "0x219279953d8d23520b7878447e8a6c266a51de2f",
+      "deployedAt": "2024-01-10"
+    },
+    {
+      "chain": "era",
+      "address": "0x580f2ee1476edf4b1760bd68f6aabad57dec420e",
+      "deployedAt": "2025-03-13"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x5ca135cb8527d76e932f34b5145575f9d8cbe08e",
+      "deployedAt": "2022-03-29",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x6a7efa964cf6d9ab3bc3c47ebddb853a8853c502",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "fantom",
+      "address": "0x78d24b91f0988f79ab9f370d607ffc820d0779b8",
+      "deployedAt": null
+    },
+    {
+      "chain": "filecoin",
+      "address": "0x219279953d8d23520b7878447e8a6c266a51de2f",
+      "deployedAt": null
+    },
+    {
+      "chain": "fraxtal",
+      "address": "0x219279953d8d23520b7878447e8a6c266a51de2f",
+      "deployedAt": "2024-02-29"
+    },
+    {
+      "chain": "ink",
+      "address": "0x90581eca9469d8d7f5d3b60f4715027adfcf7927",
+      "deployedAt": "2024-12-26"
+    },
+    {
+      "chain": "katana",
+      "address": "0x90581eca9469d8d7f5d3b60f4715027adfcf7927",
+      "deployedAt": "2025-07-31"
+    },
+    {
+      "chain": "kava",
+      "address": "0x219279953d8d23520b7878447e8a6c266a51de2f",
+      "deployedAt": null
+    },
+    {
+      "chain": "kujira",
+      "address": "ibc/27987df83b82160e42fa9487986b2bbcfeb9b43c8b321485a8b69502773b62c0",
+      "deployedAt": null
+    },
+    {
+      "chain": "linea",
+      "address": "0x219279953d8d23520b7878447e8a6c266a51de2f",
+      "deployedAt": "2023-12-22"
+    },
+    {
+      "chain": "mantle",
+      "address": "0x219279953d8d23520b7878447e8a6c266a51de2f",
+      "deployedAt": "2023-12-22"
+    },
+    {
+      "chain": "mode",
+      "address": "0x90581eca9469d8d7f5d3b60f4715027adfcf7927",
+      "deployedAt": "2026-05-20"
+    },
+    {
+      "chain": "moonbeam",
+      "address": "0xfa3fd4cdaf85f65849a13a6af9c3e5c20f71ad60",
+      "deployedAt": null
+    },
+    {
+      "chain": "optimism",
+      "address": "0x219279953d8d23520b7878447e8a6c266a51de2f",
+      "deployedAt": "2024-01-10"
+    },
+    {
+      "chain": "osmosis",
+      "address": "ibc/ccf507932c95ac713079be5fa0e5df863434b1dbcc7f77524e3cf168eb266cd7",
+      "deployedAt": null
+    },
+    {
+      "chain": "plume_mainnet",
+      "address": "0x90581eca9469d8d7f5d3b60f4715027adfcf7927",
+      "deployedAt": "2025-07-24"
+    },
+    {
+      "chain": "polygon",
+      "address": "0x72ec87f05cc5ebc4d24fddba84c179d5e216016b",
+      "deployedAt": "2024-01-10"
+    },
+    {
+      "chain": "polygon_zkevm",
+      "address": "0x90581eca9469d8d7f5d3b60f4715027adfcf7927",
+      "deployedAt": "2026-05-20"
+    },
+    {
+      "chain": "scroll",
+      "address": "0x219279953d8d23520b7878447e8a6c266a51de2f",
+      "deployedAt": "2023-12-22"
+    },
+    {
+      "chain": "sei",
+      "address": "0x90581eca9469d8d7f5d3b60f4715027adfcf7927",
+      "deployedAt": "2024-09-04"
+    },
+    {
+      "chain": "sonic",
+      "address": "0x90581eca9469d8d7f5d3b60f4715027adfcf7927",
+      "deployedAt": "2025-01-02"
+    },
+    {
+      "chain": "stable",
+      "address": "0x90581eca9469d8d7f5d3b60f4715027adfcf7927",
+      "deployedAt": "2025-11-14"
+    },
+    {
+      "chain": "unichain",
+      "address": "0x90581eca9469d8d7f5d3b60f4715027adfcf7927",
+      "deployedAt": "2025-06-17"
+    },
+    {
+      "chain": "wc",
+      "address": "0x90581eca9469d8d7f5d3b60f4715027adfcf7927",
+      "deployedAt": "2025-05-21"
+    },
+    {
+      "chain": "xlayer",
+      "address": "0x90581eca9469d8d7f5d3b60f4715027adfcf7927",
+      "deployedAt": "2024-09-04"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "frax-finance",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://frax.com/",
+        "https://docs.frax.com/",
+        "https://www.coingecko.com/en/coins/frax-price-index"
+      ]
+    }
+  ]
+}

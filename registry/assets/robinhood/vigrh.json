@@ -1,0 +1,83 @@
+{
+  "identity": {
+    "slug": "vigrh",
+    "symbol": "VIG",
+    "name": "Vanguard Dividend Appreciation ETF • Robinhood Token",
+    "legacyId": 2548,
+    "canonicalMarketId": "VIGrh"
+  },
+  "exposure": {
+    "underlying": "vanguard-dividend-appreciation-etf"
+  },
+  "class": {
+    "structure": "equity-basket",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "yieldBearing": false
+  },
+  "about": {
+    "description": "VIG is a tokenized tracker certificate issued by Robinhood Markets, Inc. through Robinhood Europe UAB, deployed on Arbitrum One. It is designed to reflect the price of the VIG ETF in a format accessible on-chain, providing synthetic exposure rather than direct fund ownership under MiFID II regulatory oversight. Trading is available 24/5 to EU/EEA customers, and on-chain pricing is supplied through Chainlink oracle feeds.",
+    "logo": "https://icons.llamao.fi/icons/rwa/vig.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://robinhood.com/stocks"
+      ],
+      "twitter": "https://x.com/RobinhoodApp",
+      "docs": "https://robinhood.com/us/en/support/",
+      "linkedin": "https://www.linkedin.com/company/robinhood-markets",
+      "discord": "https://discord.com/invite/robinhood",
+      "github": "https://github.com/robinhood"
+    }
+  },
+  "review": {
+    "activeAumReviewed": false,
+    "suspicious": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "arbitrum",
+      "address": "0x6c93cd3d3945135836881e7fb94364b9f6a8ea1c",
+      "deployedAt": "2025-09-05",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xcbdf630a858e7d87b5b08d92968ca14ca0f8f556",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xd29aa2b0584856c2b3b097595e9d4b1cd1242e05",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "robinhood-markets-inc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://robinhood.com/eu/en/about/"
+      ]
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

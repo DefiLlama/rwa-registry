@@ -1,0 +1,96 @@
+{
+  "identity": {
+    "slug": "eurt",
+    "symbol": "EURT",
+    "name": "Euro Tether",
+    "legacyId": 431,
+    "canonicalMarketId": "EURT"
+  },
+  "exposure": {
+    "underlying": "euro"
+  },
+  "class": {
+    "structure": "eur-stable",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "fiat-stablecoins"
+    ]
+  },
+  "terms": {
+    "cexListed": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Quarterly"
+  },
+  "sources": {
+    "coingeckoId": "tether-eurt"
+  },
+  "about": {
+    "description": "EUR₮ / EURt is Tether’s euro-denominated stablecoin. Note: Tether announced a wind-down and stated EUR₮ redemptions ceased on 2025-11-27 (no new issuance requests, last acquisition request processed in 2022). Token remains transferable on supported chains but is no longer redeemable via Tether.",
+    "logo": "https://icons.llamao.fi/icons/rwa/eurt.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://tether.to/transparency/?tab=eurt"
+      ],
+      "twitter": "https://x.com/Tether_to",
+      "docs": "https://tether.to/en/transparency",
+      "linkedin": "https://www.linkedin.com/company/tether-operations-limited",
+      "telegram": "https://t.me/OfficialTether",
+      "github": "https://github.com/tetherto"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xc581b735a168807d1a7028d27ec2354a7c96fb71",
+      "deployedAt": "2026-06-13",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x5754284f345afc66a98fbb0a0afe71e0f007b949",
+          "kind": "reserve-unreleased"
+        }
+      ]
+    },
+    {
+      "chain": "polygon",
+      "address": "0x7eef5918384ddc5aa2a229230d242743054b5eef",
+      "deployedAt": "2026-06-13"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "tether-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.cftc.gov/media/6646/enftetherholdingsorder101521/download",
+        "https://tether.to/transparency/?tab=eurt",
+        "https://tether.io/news/tether-provides-closing-update-on-eurt-wind-down-as-part-of-its-community-driven-product-strategy/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "date": "2025-12-31",
+      "links": [
+        "https://tether.to/transparency/?tab=reports",
+        "https://tether.to/transparency/?tab=eurt"
+      ]
+    },
+    {
+      "kind": "retirement",
+      "date": null,
+      "reason": "listed in the server's RWA_RETIRED_ZERO_IDS",
+      "note": "date not in the export"
+    }
+  ]
+}

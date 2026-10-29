@@ -1,0 +1,72 @@
+{
+  "identity": {
+    "slug": "jr-strcusx",
+    "symbol": "JR-strcUSX",
+    "name": "Solstice strcUSX Junior Tranche",
+    "legacyId": 8655,
+    "canonicalMarketId": "JR-strcUSX"
+  },
+  "exposure": {
+    "underlying": "strategy-inc-strc-stretch-preferred-stock"
+  },
+  "class": {
+    "structure": "structured-credit",
+    "type": "asset",
+    "rwaClassification": "programmable-finance",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "JR-strcUSX is the junior tranche of the Solstice strcUSX YieldVault on Solana. Depositors lock USX and receive a non-rebasing vault token that earns the residual yield remaining after the senior tranche is paid, funded by income linked to Strategy Inc. Variable Rate Series A Perpetual Stretch Preferred Stock. Holders do not own STRC shares and instead hold a claim on the vault that settles back to USX. Junior capital is first loss and absorbs realised losses on the STRC book ahead of senior, with a maximum loss of the full position. The token is priced on book value rather than the live STRC mark, and primary redemption is limited to monthly withdrawal windows with a cut off eight days before each window.",
+    "logo": "https://icons.llamao.fi/icons/rwa/solstice-jr-strcusx.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://solstice.finance/vaults/strcusx"
+      ],
+      "twitter": "https://x.com/solsticefi",
+      "docs": "https://docs.solstice.finance/solstice-for-users/yieldvault/strcusx",
+      "discord": "https://discord.gg/TSmeMaYty2",
+      "telegram": "https://t.me/Solstice_TG"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "solana",
+      "address": "BQ6LPc68knpko292UsMLbQYfaHhWD7S84sA98632hrzX",
+      "deployedAt": "2026-08-03",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "solstice",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://solstice.finance/",
+        "https://docs.solstice.finance/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://attestation.solstice.finance/"
+      ],
+      "note": "no date in the export"
+    }
+  ]
+}

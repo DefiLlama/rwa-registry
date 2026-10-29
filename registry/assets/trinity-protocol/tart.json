@@ -1,0 +1,83 @@
+{
+  "identity": {
+    "slug": "tart",
+    "symbol": "TART",
+    "name": "Trinity Art Reserve Token",
+    "legacyId": 7813,
+    "canonicalMarketId": "TART"
+  },
+  "exposure": {
+    "underlying": "saint-paul-vi-papal-portrait-oil-on-canvas-1970"
+  },
+  "class": {
+    "structure": "collectibles",
+    "type": "asset",
+    "rwaClassification": "programmable-finance",
+    "category": [
+      "other-rwas"
+    ]
+  },
+  "terms": {
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "sources": {
+    "llamaAttestationProof": false
+  },
+  "about": {
+    "description": "TART is an Arbitrum ERC-20 that the issuer presents as fractionalised exposure to a single fine art work. The token contract carries an on-chain inventory with one entry together with an appraisal reference. Supply is minted against a declared appraised value at a rate of one token per dollar, and the owner key can both raise the declared appraisal through updateAppraisal and mint further supply up to that figure through mintAgainstAppraisal, so supply is bounded only by a number the issuer sets. The work described in the issuer's appraisal document is a papal portrait of Saint Paul VI, oil on canvas, 136 by 207 centimetres, executed in 1970 and attributed to an anonymous French master associated with the Franciscan Missionaries of Mary. The contract's own inventory entry instead records the title as St. Paul IV and the artist as Unknown from the Renaissance era. No pope named Paul IV was ever canonised, so no Saint Paul IV exists. There is no holder-facing redemption function. Transfers are unrestricted, with no allowlist, blacklist or transfer hook. An issuer-controlled adapter returns a fixed price of one dollar per token, and a Morpho Blue market accepts TART as collateral against USDC at a 62.5% liquidation loan-to-value.",
+    "logo": "https://icons.llamao.fi/icons/rwa/tart.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://graceful-begonia-2b7634.netlify.app/"
+      ],
+      "twitter": "https://x.com/cameron_arc_ai",
+      "linkedin": "https://www.linkedin.com/company/trinityprotocol",
+      "telegram": "https://t.me/cameroncurriden01"
+    }
+  },
+  "review": {
+    "activeAumReviewed": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "arbitrum",
+      "address": "0x2b1d0bad12eb981d9d3c304cb623fd211cf84651",
+      "deployedAt": "2026-04-15",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xa3336bb25f231fa25e66d2dda3a9aa0ed8be09db",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "garret-inc",
+      "kind": "issuer",
+      "protocolIds": [
+        7710
+      ]
+    },
+    {
+      "organization": "trinity-protocol",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    },
+    {
+      "kind": "review",
+      "outcome": "suspicious",
+      "reason": "The appraisal on which this token's supply is based states its own expiry. The report by Benja Ballesteros, reference TAS-PVI-2025-001, is dated 30 July 2025 and states that it is valid for three months from issue, so it lapsed in October 2025, which is before the token was deployed in April 2026. The appraiser's own market comparables in the same report place historical papal portraits between 800 thousand and 3.5 million euros and twentieth century religious art between 150 thousand and 1.2 million euros, while its conclusion is a range of 95 to 125 million euros with 110 million recommended, resting instead on a letter attributed to Cardinal Alvaro Leonel Ramazzini Imeri dated 7 January 2025 together with an undocumented purchase offer, both cited at 150 million dollars. Cardinal Ramazzini is Bishop of Huehuetenango in Guatemala and holds no art valuation or museum office. The contract records its appraiser as the string Vatican-recognized authority rather than naming any appraiser. The supply of 120 million tokens is set against the 120 million euro insurance value recommended in the report rather than against its 110 million euro appraised value, while the collateral adapter prices the token in dollars. The token is deployed at six separate addresses on Arbitrum, each carrying the same supply of 120 million and the same appraiser string. The metadata record accompanying the appraisal carries an unreplaced placeholder where the appraisal document identifier should be and a pasted shell command where its hash should be, and the provenance vault address it records has no contract deployed at it on either Arbitrum or Ethereum. The identifier the issuer publishes as its LEI is the string TRINITY-PROTOCOL-RWA, which is not a code issued under ISO 17442, and neither the issuer nor the platform appears in the GLEIF registry."
+    }
+  ]
+}

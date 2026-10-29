@@ -1,0 +1,79 @@
+{
+  "identity": {
+    "slug": "usdf-falcon",
+    "symbol": "USDf",
+    "name": "Falcon USD",
+    "legacyId": 577,
+    "canonicalMarketId": "USDf-Falcon"
+  },
+  "exposure": {
+    "underlying": "us-dollar"
+  },
+  "class": {
+    "structure": "synthetic-stable",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "non-rwa-stablecoins"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "cexListed": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "sources": {
+    "coingeckoId": "falcon-finance"
+  },
+  "about": {
+    "description": "Falcon USD (USDf) is a DeFi-native synthetic dollar from Falcon Finance, minted against crypto collateral with protocol risk parameters and a staking wrapper (sUSDf) for yield distribution. USDf is designed for self-custody settlement across DeFi, with peg management handled by collateral policy and liquidity.",
+    "logo": "https://icons.llamao.fi/icons/rwa/falcon-usd.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://falcon.finance/"
+      ],
+      "twitter": "https://x.com/falconfinance",
+      "docs": "https://docs.falcon.finance/",
+      "linkedin": "https://www.linkedin.com/company/falconstable",
+      "refLinks": [
+        "https://app.falcon.finance/?r=ecf7be7f48d1ce67467fc040bcc1abd5"
+      ]
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "bsc",
+      "address": "0xb3b02e4a9fb2bd28cc2ff97b0ab3f6b3ec1ee9d2",
+      "deployedAt": "2025-06-18"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xfa2b947eec368f42195f24f36d2af29f7c24cec2",
+      "deployedAt": "2025-02-10",
+      "primary": true
+    },
+    {
+      "chain": "xdc",
+      "address": "0x8210c0634ab8f273806e4b7866e9db353773c44b",
+      "deployedAt": "2025-11-04"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "falcon-digital-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://falcon.finance/",
+        "https://docs.falcon.finance/"
+      ]
+    }
+  ]
+}

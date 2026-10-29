@@ -1,0 +1,86 @@
+{
+  "identity": {
+    "slug": "cammr",
+    "symbol": "CAMMR",
+    "name": "ChinaAMC HKD Digital Money Market Fund Class A RMB",
+    "legacyId": 2822,
+    "canonicalMarketId": "CAMMR"
+  },
+  "exposure": {
+    "underlying": "chinaamc-hkd-digital-money-market-fund-class-a-rmb"
+  },
+  "class": {
+    "structure": "mmf",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "bond-mmf-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "sources": {
+    "identifiers": [
+      {
+        "scheme": "isin",
+        "value": "HK0001112827",
+        "source": null,
+        "verified": false
+      }
+    ]
+  },
+  "about": {
+    "description": "CAMMR is the Class A RMB digital share of the ChinaAMC HKD Digital Money Market Fund, accepting RMB for subscription and redemption with underlying HKD money market exposure. Class A carries a 0.15% per annum management fee, launched February 28, 2025. Currency exposure actively hedged between RMB and HKD.",
+    "logo": "https://icons.llamao.fi/icons/rwa/cammr.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.chinaamc.com.hk/en/product/hkd-digital-money-market-fund/"
+      ],
+      "twitter": "https://x.com/ChinaAMC_HK",
+      "docs": "https://libeara.com/",
+      "linkedin": "https://www.linkedin.com/company/libeara",
+      "github": "https://github.com/libeara"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xff40d8a2f9fc662d0b9eee1ccc71ea52f77cf701",
+      "deployedAt": "2025-02-24",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "chinaamc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.chinaamc.com.hk/en/product/hkd-digital-money-market-fund/",
+        "https://www.chinaamc.com.hk/wp-content/uploads/2024/10/ChinaAMC-HKD-Digital-Money-Market-Fund.pdf"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "date": "2025-02-28",
+      "links": [
+        "https://www.chinaamc.com.hk/documents/20142/361853/ChinaAMC+Digital+OFC+Prospectus+Feb+2025.pdf",
+        "https://www.chinaamc.com.hk/documents/20142/350364/ChinaAMC+HKD+Digital+Money+Market+Fund+KFS_20250210.pdf"
+      ]
+    }
+  ]
+}

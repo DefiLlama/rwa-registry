@@ -1,0 +1,159 @@
+{
+  "identity": {
+    "slug": "frax",
+    "symbol": "FRAX",
+    "name": "Legacy Frax Dollar",
+    "legacyId": 13,
+    "canonicalMarketId": "FRAX"
+  },
+  "exposure": {
+    "underlying": "us-dollar"
+  },
+  "class": {
+    "structure": "algo-stable",
+    "type": "asset",
+    "rwaClassification": "programmable-finance",
+    "category": [
+      "non-rwa-stablecoins"
+    ]
+  },
+  "terms": {
+    "cexListed": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Continuous (on-chain)"
+  },
+  "about": {
+    "description": "Legacy Frax Dollar (FRAX) is the original Frax stablecoin token (ERC-20) used across DeFi. It is separate from Frax USD (frxUSD / FRXUSD), which is the newer fiat-redeemable, fully collateralized Frax stablecoin.",
+    "logo": "https://icons.llamao.fi/icons/rwa/legacy-frax-dollar.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://frax.com/"
+      ],
+      "twitter": "https://twitter.com/fraxfinance",
+      "docs": "https://docs.frax.finance/",
+      "linkedin": "https://www.linkedin.com/company/frax-finance",
+      "discord": "https://discord.com/invite/fraxfinance",
+      "telegram": "https://t.me/fraxfinance",
+      "github": "https://github.com/FraxFinance"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "arbitrum",
+      "address": "0x17fc002b466eec40dae837fc4be5c67993ddbd6f",
+      "deployedAt": "2021-09-27"
+    },
+    {
+      "chain": "aurora",
+      "address": "0x17fc002b466eec40dae837fc4be5c67993ddbd6f",
+      "deployedAt": null
+    },
+    {
+      "chain": "avax",
+      "address": "0xd24c2ad96f2ca790270c10375d663f144e13fd5d",
+      "deployedAt": "2026-01-13"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x667088b212ce3d06a1b553a7221e1ad1075f0343",
+      "deployedAt": "2026-01-13"
+    },
+    {
+      "chain": "dogechain",
+      "address": "0x667088b212ce3d06a1b553a7221e1ad1075f0343",
+      "deployedAt": null
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x853d955acef822db058eb8505911ed77f175b99e",
+      "deployedAt": "2020-12-16",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x9aa7db8e488ee3ffcc9cdfd4f2eaecc8abedcb48",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "evmos",
+      "address": "0x17fc002b466eec40dae837fc4be5c67993ddbd6f",
+      "deployedAt": null
+    },
+    {
+      "chain": "fantom",
+      "address": "0xdc301622e62116295ca991880fd13962bd0e144a",
+      "deployedAt": null
+    },
+    {
+      "chain": "fraxtal",
+      "address": "0xf155b8c1a3ae4fd47ad7ac1c87400014799ad883",
+      "deployedAt": "2026-01-13"
+    },
+    {
+      "chain": "harmony",
+      "address": "0xfa7191d292d5633f702b0bd7e3e3bcbc0e63a355",
+      "deployedAt": null
+    },
+    {
+      "chain": "moonbeam",
+      "address": "0x322df7c254190858ca021034c2883b3223382581",
+      "deployedAt": null
+    },
+    {
+      "chain": "moonriver",
+      "address": "0x1a93b23281cc45bd3010b13274646a73bc697180",
+      "deployedAt": null
+    },
+    {
+      "chain": "optimism",
+      "address": "0x2e3d7f64779982f5063f90409a64423ce059634e",
+      "deployedAt": "2026-01-13"
+    },
+    {
+      "chain": "osmosis",
+      "address": "ibc/0E973C6559339235339235339235339235339235339235339235339235339235",
+      "deployedAt": null
+    },
+    {
+      "chain": "polygon",
+      "address": "0x104592a158490a989b165d51c9d8c3d8c03d5c33",
+      "deployedAt": "2026-01-13"
+    },
+    {
+      "chain": "era",
+      "address": "0x853d955acef822db058eb8505911ed77f175b99e",
+      "deployedAt": null
+    }
+  ],
+  "roles": [
+    {
+      "organization": "frax-inc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://frax.com/"
+      ],
+      "protocolIds": [
+        4423,
+        2076,
+        2121,
+        2607,
+        359,
+        6598,
+        5694
+      ]
+    },
+    {
+      "organization": "chaos-labs",
+      "kind": "oracle"
+    }
+  ]
+}

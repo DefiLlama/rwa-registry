@@ -1,0 +1,84 @@
+{
+  "identity": {
+    "slug": "sintc",
+    "symbol": "sINTC",
+    "name": "StableStock Intel",
+    "legacyId": 3327,
+    "canonicalMarketId": "sINTC"
+  },
+  "exposure": {
+    "underlying": "intel-corporation"
+  },
+  "class": {
+    "structure": "stock-backed",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Weekly assurance PDF + real-time reserves dashboard"
+  },
+  "about": {
+    "description": "sINTC tokenizes Intel Corporation (Nasdaq: INTC), the legacy x86 incumbent executing an IDM 2.0 turnaround under CEO Lip-Bu Tan and building foundry capacity on the Intel 18A node. Intel competes with TSMC, Samsung foundry, AMD and NVIDIA. StableStock issues sINTC as a 1:1 BEP-20 on BNB Chain, with shares custodied off-chain through StableBroker. The licensed broker infrastructure StableStock provides in partnership with HabitTrade, and 24/7 on-chain liquidity operated with Native. Mint/redeem is KYC-gated. On-chain the token transfers without a whitelist.",
+    "logo": "https://icons.llamao.fi/icons/rwa/intc.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://stablestock.finance"
+      ],
+      "twitter": "https://x.com/StableStock",
+      "docs": "https://docs.stablestock.com/",
+      "linkedin": "https://www.linkedin.com/company/stablestock",
+      "discord": "https://discord.gg/stablestock",
+      "telegram": "https://t.me/StableStock"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "bsc",
+      "address": "0xeb106122c288cedf07b062139bb4178cf948b0d8",
+      "deployedAt": "2025-09-12",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x73a1007a1bbee4a2b019ae21d9f02bfe1ce57208",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "stablebroker-habittrade",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://stablestock.gitbook.io/ss/introduction/trust-and-security"
+      ]
+    },
+    {
+      "organization": "stablebroker-habittrade",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://app.stablestock.finance/h5/transparency"
+      ],
+      "note": "no date in the export"
+    }
+  ]
+}

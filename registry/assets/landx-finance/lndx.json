@@ -1,0 +1,89 @@
+{
+  "identity": {
+    "slug": "lndx",
+    "symbol": "LNDX",
+    "name": "LandX Finance",
+    "legacyId": 48,
+    "canonicalMarketId": "LNDX"
+  },
+  "exposure": {
+    "underlying": "landx-finance"
+  },
+  "class": {
+    "structure": "governance-token",
+    "type": "asset",
+    "rwaClassification": "non-rwa-gov-utility",
+    "category": [
+      "governance-tokens",
+      "real-estate"
+    ]
+  },
+  "terms": {
+    "cexListed": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "sources": {
+    "coingeckoId": "landx-governance-token"
+  },
+  "about": {
+    "description": "LandX is an agriculture-focused RWA protocol that structures farmland and crop-linked exposures into onchain products designed to generate yield. It emphasizes validated offchain collateral and a framework for ongoing verification of backing, aiming to make farmland-style returns accessible with smaller position sizes. LNDX is the ecosystem token used for governance and incentives around LandX products.",
+    "logo": "https://icons.llamao.fi/icons/rwa/landx-finance.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://landx.fi"
+      ],
+      "twitter": "https://x.com/landxfinance",
+      "docs": "https://docs.landx.fi/",
+      "linkedin": "https://www.linkedin.com/company/landxfinance",
+      "discord": "https://discord.gg/landx",
+      "telegram": "https://t.me/landxfinance",
+      "github": "https://github.com/LandXit"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x08a1c30bbb26425c1031ee9e43fa0b9960742539",
+      "deployedAt": "2023-12-03",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x1a427d8717c16788a8a4a265804f489b9ab1e798",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0xe10d4a4255d2d35c9e23e2c4790e073046fbaf5c",
+      "deployedAt": "2023-12-13"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "landx-labs-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://landx.gitbook.io/landx/landx-terms-and-conditions-of-use"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://landx.fi/proof-of-reserves"
+      ],
+      "note": "Not publicly disclosed"
+    }
+  ]
+}

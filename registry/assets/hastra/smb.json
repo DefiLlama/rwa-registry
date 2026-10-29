@@ -1,0 +1,80 @@
+{
+  "identity": {
+    "slug": "smb",
+    "symbol": "SMB",
+    "name": "Hastra SMB",
+    "legacyId": 9292,
+    "canonicalMarketId": "SMB"
+  },
+  "exposure": {
+    "underlying": "figure-democratized-prime-small-and-medium-business-loan-pools"
+  },
+  "class": {
+    "structure": "credit-pool",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "private-credit"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Real-time proof of reserves"
+  },
+  "sources": {
+    "coingeckoId": "hastra-smb"
+  },
+  "about": {
+    "description": "SMB is Hastra's yield-bearing token built to represent staked exposure to wYLDS, with yield sourced from Figure's Democratized Prime small and medium business lending pools. It is designed to be composable in DeFi while maintaining a reserves-first approach, publishing reserve and supply information through a dedicated proof-of-reserves dashboard. SMB is intended for users who want a single token that packages underlying RWA-linked yield, onchain accounting, and transparent backing data.",
+    "logo": "https://token-icons.llamao.fi/icons/tokens/gecko/hastra-smb?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.hastra.io/smb"
+      ],
+      "twitter": "https://x.com/HastraFi",
+      "docs": "https://help.hastra.io/",
+      "discord": "https://discord.gg/provenance"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xbd49537cc9105e8c1651ed12b94cd9a3d79bf3d9",
+      "deployedAt": "2026-06-18",
+      "primary": true
+    },
+    {
+      "chain": "solana",
+      "address": "Gbnmn7yywbbzmGjWwvwRD2KBWbNxA35CRyaVk3Faou3C",
+      "deployedAt": "2026-06-23"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "signum-ltd",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.hastra.io/smb",
+        "https://help.hastra.io/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://hastra.io/proof-of-reserves"
+      ],
+      "note": "Not publicly disclosed"
+    }
+  ]
+}

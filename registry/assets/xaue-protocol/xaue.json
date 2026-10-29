@@ -1,0 +1,92 @@
+{
+  "identity": {
+    "slug": "xaue",
+    "symbol": "XAUE",
+    "name": "XAUE",
+    "legacyId": 3289,
+    "canonicalMarketId": "XAUE"
+  },
+  "exposure": {
+    "underlying": "gold"
+  },
+  "class": {
+    "structure": "gold",
+    "type": "asset",
+    "rwaClassification": "programmable-finance",
+    "category": [
+      "rwa-wrappers",
+      "gold-commodities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "XAUE is an institutional-grade decentralized asset enhancement protocol built on Ethereum. Serving as the Treasury Layer for Tether Gold (XAUt), it provides institutional holders of non-yielding assets (XAUt/Physical Gold) with a decentralized finance interest-bearing solution. XAUE aims to become a foundational anchor asset for gold and a so-called “qualified margin asset” in a decentralized finance environment",
+    "logo": "https://icons.llamao.fi/icons/rwa/xaue.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://xaue.com/"
+      ],
+      "twitter": "https://x.com/Xaue_Protocol"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xd5d6840ed95f58faf537865dca15d5f99195f87a",
+      "deployedAt": "2026-03-23",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x3db9a4dd1bff3494982d4a4b0191495e32da5d30",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xc86daf84c01c891b21dea66f4ca41cd3799f9e6b",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x07cd80c066e13679a70e125c76f76e796c8bc748",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "aurise-foundation",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://xaue.com/XAUE_WHITEPAPER-AURISE_FOUNDATION.v1.pdf",
+        "https://xaue.com/[Aurise_Foundation]_Website"
+      ],
+      "protocolIds": [
+        7788
+      ]
+    },
+    {
+      "organization": "xaue-protocol",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://etherscan.io/address/0xc86daf84c01c891b21dea66f4ca41cd3799f9e6b"
+      ],
+      "note": "no date in the export"
+    }
+  ]
+}

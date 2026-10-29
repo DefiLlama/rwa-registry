@@ -1,0 +1,139 @@
+{
+  "identity": {
+    "slug": "tbill",
+    "symbol": "TBILL",
+    "name": "OpenEden T-Bills",
+    "legacyId": 90,
+    "canonicalMarketId": "TBILL"
+  },
+  "exposure": {
+    "underlying": "openeden-t-bills"
+  },
+  "class": {
+    "structure": "t-bills",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "bond-mmf-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Daily NAV + monthly administrator statements"
+  },
+  "sources": {
+    "coingeckoId": "openeden-tbill"
+  },
+  "about": {
+    "description": "TBILL is OpenEden’s tokenized Treasury exposure designed to provide short-duration U.S. T-bill yield with NAV-based accounting and onchain settlement. It targets institutional-grade operations and is commonly used for treasury allocation, collateral, and liquidity workflows that prefer conservative duration risk and transparent portfolio reporting.",
+    "logo": "https://icons.llamao.fi/icons/rwa/tbill.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://openeden.com"
+      ],
+      "twitter": "https://x.com/OpenEden_X",
+      "docs": "https://docs.openeden.com/",
+      "linkedin": "https://www.linkedin.com/company/openeden",
+      "discord": "https://discord.gg/FuPtnSJmke",
+      "telegram": "https://t.me/openeden",
+      "github": "https://github.com/OpenEdenHQ",
+      "refLinks": [
+        "https://portal.openeden.com/bills-campaign?refCode=x1z3OOidAS"
+      ]
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xdd50c053c096cb04a3e3362e2b622529ec5f2e8a",
+      "deployedAt": "2023-10-18",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xdd50c053c096cb04a3e3362e2b622529ec5f2e8a",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xce9a6626eb99eaea829d7fa613d5d0a2eae45f40",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x51be497aced1a2c19f6151064301e356b020d947",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0xf84d28a8d28292842dd73d1c5f99476a80b6666a",
+      "deployedAt": "2024-02-13",
+      "labels": [
+        {
+          "address": "0xf84d28a8d28292842dd73d1c5f99476a80b6666a",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xc0952c8ba068c887b675b4182f3a65420d045f46",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x0d7690baa1008c8d3c5dae9d5033ff846738bafb",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "bsc",
+      "address": "0x5b4681f0d7a01b817675f25892d3ad73572fd1d9",
+      "deployedAt": "2026-05-15"
+    },
+    {
+      "chain": "solana",
+      "address": "4MmJVdwYN8LwvbGeCowYjSx7KoEi6BJWg8XXnW4fDDp6",
+      "deployedAt": "2025-04-17"
+    },
+    {
+      "chain": "ripple",
+      "address": "TBL.rJNE2NNz83GJYtWVLwMvchDWEon3huWnFn",
+      "deployedAt": "2024-06-07",
+      "labels": [
+        {
+          "address": "rB56JZWRKvpWNeyqM3QYfZwW4fS9YEyPWM",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "treasury-bills-institutional-liquidity-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.openeden.com/legal/risks"
+      ],
+      "protocolIds": [
+        3057
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://openeden.com/tbill/transparency"
+      ],
+      "note": "Daily (ongoing)"
+    }
+  ]
+}

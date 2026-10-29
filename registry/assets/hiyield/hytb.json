@@ -1,0 +1,83 @@
+{
+  "identity": {
+    "slug": "hytb",
+    "symbol": "HYTB",
+    "name": "HiYield Treasury Bill Vault",
+    "legacyId": 538,
+    "canonicalMarketId": "HYTB"
+  },
+  "exposure": {
+    "underlying": "hiyield-treasury-bill-vault"
+  },
+  "class": {
+    "structure": "t-bills",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "bond-mmf-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "hyTB is HiYield’s ERC-4626 treasury-bill vault deposit token. HiYield documentation describes a permissioned onboarding flow (KYC/KYB) for vault access, users deposit USDC to the vault and receive deposit tokens that accrue via a configurable rate mechanism and can be held or used with approved DeFi integrations. Withdrawals are processed via the vault’s redemption mechanics as described in HiYield docs.",
+    "logo": "https://icons.llamao.fi/icons/rwa/hytb.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://docs.hiyield.xyz/technical/contract-addresses"
+      ],
+      "twitter": "https://x.com/hiyield_xyz",
+      "docs": "https://docs.hiyield.finance/",
+      "linkedin": "https://www.linkedin.com/company/hiyield-finance"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "stellar",
+      "address": "CAAPC4ETIO7HFU5EI6HUHR6V6J5AYQ5NVMM7X2NTI6J7R2STOLOCRU5W",
+      "deployedAt": "2024-07-16"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xaf5baa225765b2ef3eb446aeab87e02dfbcfeac2",
+      "deployedAt": "2024-06-04"
+    },
+    {
+      "chain": "avax",
+      "address": "0x8475509d391e6ee5a8b7133221ce17019d307b3e",
+      "deployedAt": "2024-02-02",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x8475509d391e6ee5a8b7133221ce17019d307b3e",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xce6050625fe3f79bbfc4d236abaabe51ab59e660",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "hiyield-vault-spvs-managed-by-wsfs-bank-execution-via-raymond-james",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.hiyield.xyz/technical/contract-addresses",
+        "https://docs.hiyield.xyz/legal-structure"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "identity": {
+    "slug": "wmton",
+    "symbol": "WMTon",
+    "name": "Walmart (Ondo Tokenized Stock)",
+    "legacyId": 318,
+    "canonicalMarketId": "WMTon"
+  },
+  "exposure": {
+    "underlying": "walmart-inc"
+  },
+  "class": {
+    "structure": "stock-backed",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "cexListed": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Daily"
+  },
+  "sources": {
+    "coingeckoId": "walmart-ondo-tokenized-stock",
+    "identifiers": [
+      {
+        "scheme": "isin",
+        "value": "US9311421039",
+        "source": null,
+        "verified": false
+      }
+    ]
+  },
+  "about": {
+    "description": "WMTon is an Ondo Global Markets tokenized stock exposure designed to provide economic exposure to Walmart in an onchain format. The token is designed to be fully backed by the underlying publicly traded asset, together with cash in transit, held with regulated custodial broker-dealers. Holdings attestations and ongoing reporting are surfaced through Ondo trust and transparency materials and the product asset page. Tokenholders are not shareholders of the underlying and do not receive shareholder voting rights. Dividend value is reflected through total return mechanics. Ondo Global Markets adjusts the token to account for dividends net of withholding taxes and reinvests that value into additional shares, increasing the shares per token over time instead of paying cash dividends directly to tokenholders.",
+    "logo": "https://icons.llamao.fi/icons/rwa/wmt.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://app.ondo.finance/assets/wmton"
+      ],
+      "twitter": "https://x.com/ondofinance",
+      "docs": "https://docs.ondo.finance/",
+      "linkedin": "https://www.linkedin.com/company/ondofinance",
+      "discord": "https://discord.com/invite/ondofinance",
+      "telegram": "https://t.me/ondofinance",
+      "github": "https://github.com/ondoprotocol"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x82106347ddbb23ce44cf4ce4053ef1adf8b9323b",
+      "deployedAt": "2025-07-23",
+      "primary": true
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x1ea03dd78d93160d3bb72ac46d9e6ab907a4db7b",
+      "deployedAt": "2025-12-02"
+    },
+    {
+      "chain": "bsc",
+      "address": "0xa7d1e886acf66ec0656df2decb4b7c893a3bab4c",
+      "deployedAt": "2025-10-09"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x0041ae610919118431f6765b5c22c297cbff1830",
+      "deployedAt": "2025-12-02"
+    },
+    {
+      "chain": "solana",
+      "address": "LZddqAqKqJW9oMZSjTxCUmbmzBRQtv9gMkD9hZ3ondo",
+      "deployedAt": "2025-12-31"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "ondo-global-markets-bvi-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.ondo.finance/ondo-global-markets/legal-and-regulatory"
+      ],
+      "protocolIds": [
+        2542,
+        6650
+      ]
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://app.ondo.finance/assets/wmton"
+      ],
+      "note": "Daily (ongoing)"
+    }
+  ]
+}

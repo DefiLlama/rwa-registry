@@ -1,0 +1,82 @@
+{
+  "identity": {
+    "slug": "pns",
+    "symbol": "PNS",
+    "name": "ParkNSleep Shares",
+    "legacyId": 2987,
+    "canonicalMarketId": "PNS"
+  },
+  "exposure": {
+    "underlying": "parknsleep"
+  },
+  "class": {
+    "structure": "pe-venture",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "about": {
+    "description": "Tokenized shares of parknsleep AG, a Swiss travel-tech platform for finding, booking, and paying for camper and motorhome parking spots, issued on Ethereum via Aktionariat.",
+    "logo": "https://icons.llamao.fi/icons/rwa/pns.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://investors.parknsleep.eu/"
+      ],
+      "twitter": "https://x.com/aktionariat",
+      "docs": "https://docs.aktionariat.com/",
+      "linkedin": "https://www.linkedin.com/company/aktionariat-ag"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xa2d6b59758d307df27d5809426252d91a060cb24",
+      "deployedAt": "2023-07-04",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x856b547372672f546f6f468ff0e4b42e90b81eac",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "parknsleep-ag",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://investors.parknsleep.eu/",
+        "https://www.aktionariat.com/"
+      ]
+    },
+    {
+      "organization": "aktionariat-ag",
+      "kind": "tokenizer",
+      "sourceLinks": [
+        "https://investors.parknsleep.eu/",
+        "https://www.aktionariat.com/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "No public attestation date found"
+    }
+  ]
+}

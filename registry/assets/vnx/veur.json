@@ -1,0 +1,114 @@
+{
+  "identity": {
+    "slug": "veur",
+    "symbol": "VEUR",
+    "name": "VNX Euro",
+    "legacyId": 145,
+    "canonicalMarketId": "VEUR"
+  },
+  "exposure": {
+    "underlying": "euro"
+  },
+  "class": {
+    "structure": "rwa-fiat-stable",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "rwa-stablecoins",
+      "gold-commodities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "cexListed": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Regular (periodic)"
+  },
+  "sources": {
+    "coingeckoId": "vnx-euro"
+  },
+  "about": {
+    "description": "VEUR exchange services provided by VNX Commodities AG were fully discontinued on 22 May 2026. Existing holders were asked to address any arrangements relating to their holdings by that date",
+    "logo": "https://icons.llamao.fi/icons/rwa/vnx-euro.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://vnx.li"
+      ],
+      "twitter": "https://x.com/vnx_platform",
+      "docs": "https://www.vnx.li/",
+      "linkedin": "https://www.linkedin.com/company/vnxinvestment",
+      "discord": "https://discord.com/invite/5jCaPYwr3f",
+      "telegram": "https://t.me/VNX_Exchange"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "solana",
+      "address": "C4Kkr9NZU3VbyedcgutU6LKmi6MKz81sx6gRmk5pX519",
+      "deployedAt": "2024-01-26"
+    },
+    {
+      "chain": "avax",
+      "address": "0x7678e162f38ec9ef2bfd1d0aaf9fd93355e5fa0b",
+      "deployedAt": "2023-06-30"
+    },
+    {
+      "chain": "stellar",
+      "address": "VEUR-GDXLSLCOPPHTWOQXLLKSVN4VN3G67WD2ENU7UMVAROEYVJLSPSEWXIZN",
+      "deployedAt": "2024-02-09",
+      "labels": [
+        {
+          "address": "GDXLSLCOPPHTWOQXLLKSVN4VN3G67WD2ENU7UMVAROEYVJLSPSEWXIZN",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x4ed9df25d38795a47f52614126e47f564d37f347",
+      "deployedAt": "2025-06-05",
+      "labels": [
+        {
+          "address": "0xd63052e09af164cef57695d3b96043ea848b051f",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x6ba75d640bebfe5da1197bb5a2aff3327789b5d3",
+      "deployedAt": "2022-11-18",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "vnx-commodities-ag",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://vnx.li/"
+      ],
+      "protocolIds": [
+        4866
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://vnx.li/transparency/"
+      ],
+      "note": "December 2024"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "identity": {
+    "slug": "bvcirwa",
+    "symbol": "BVCIRWA",
+    "name": "Blockchain Venture Capital Inc. RWA Token",
+    "legacyId": 2712,
+    "canonicalMarketId": "BVCIRWA"
+  },
+  "exposure": {
+    "underlying": "blockchain-venture-capital-inc-rwa"
+  },
+  "class": {
+    "structure": "pe-venture",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "about": {
+    "description": "BVCIRWA is a security token providing tokenized access to Blockchain Venture Capital Inc. (CSE: BVCI), described as Canada's first regulated stablecoin issuer. Token price $1.00 per BVCIRWA (set by issuer). Deployed on Arbitrum via Stobox STV3 Protocol. ZGrowth uses a dual-token architecture: BVCIRWA (security token on Arbitrum) paired with uBVCIRWA (utility token tradable on Uniswap and Raydium DEX). Offering available to non-Canadian accredited and institutional investors subject to KYC/AML. SPV structure domiciled in BVI.",
+    "logo": "https://icons.llamao.fi/icons/rwa/bvcirwa.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://rwa.zgrowthbvi.com/"
+      ],
+      "twitter": "https://x.com/StoboxCompany",
+      "docs": "https://docs.stobox.io/",
+      "linkedin": "https://www.linkedin.com/company/stobox-platform",
+      "discord": "https://dsc.gg/stobox",
+      "telegram": "https://t.me/stobox_community",
+      "github": "https://github.com/StoboxTechnologies"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "arbitrum",
+      "address": "0xa6f0e4b6a7384e9ba0761db4b0157e58d9d6294b",
+      "deployedAt": "2025-10-21",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "zgrowth-bvi-ltd",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://blog.stobox.io/zgrowth-tokenizes-canadas-first-regulated-stablecoin-issuer-on-stobox-4/"
+      ]
+    }
+  ]
+}

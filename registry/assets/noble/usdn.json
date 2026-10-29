@@ -1,0 +1,62 @@
+{
+  "identity": {
+    "slug": "usdn",
+    "symbol": "USDN",
+    "name": "Noble Dollar",
+    "legacyId": 617,
+    "canonicalMarketId": "USDN"
+  },
+  "exposure": {
+    "underlying": "us-dollar"
+  },
+  "class": {
+    "structure": "yield-rwa-stable",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "rwa-stablecoins"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "USDN is Noble’s yield-bearing dollar stablecoin for Cosmos, implemented as a native Noble chain module and built on M^0’s stablecoin infrastructure. Users mint USDN by depositing USDC and can redeem back. yield is intended to accrue via a global index/rewards mechanism that programmatically directs Treasury-derived returns to the Cosmos ecosystem. Key risks include protocol and governance risk, reliance on the underlying yield source and reserve operations, smart-contract/module risk, and redemption/liquidity mechanics across supported routes.",
+    "logo": "https://icons.llamao.fi/icons/rwa/noble-dollar.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://dollar.noble.xyz/"
+      ],
+      "twitter": "https://x.com/noble_xyz",
+      "docs": "https://docs.noble.xyz/",
+      "github": "https://github.com/noble-assets"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "noble",
+      "address": "uusdn",
+      "deployedAt": null,
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "noble",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://dollar.noble.xyz/",
+        "https://github.com/noble-assets/dollar"
+      ]
+    }
+  ]
+}

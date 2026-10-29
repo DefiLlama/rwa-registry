@@ -1,0 +1,114 @@
+{
+  "identity": {
+    "slug": "mrvlon",
+    "symbol": "MRVLon",
+    "name": "Marvell Technology (Ondo Tokenized Stock)",
+    "legacyId": 328,
+    "canonicalMarketId": "MRVLon"
+  },
+  "exposure": {
+    "underlying": "marvell-technology-inc"
+  },
+  "class": {
+    "structure": "stock-backed",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Daily"
+  },
+  "sources": {
+    "coingeckoId": "marvell-technology-ondo-tokenized-stock",
+    "identifiers": [
+      {
+        "scheme": "isin",
+        "value": "US5738741041",
+        "source": null,
+        "verified": false
+      }
+    ]
+  },
+  "about": {
+    "description": "MRVLon is an Ondo Global Markets tokenized stock exposure designed to provide economic exposure to Marvell Technology in an onchain format. The token is designed to be fully backed by the underlying publicly traded asset, together with cash in transit, held with regulated custodial broker-dealers. Holdings attestations and ongoing reporting are surfaced through Ondo trust and transparency materials and the product asset page. Tokenholders are not shareholders of the underlying and do not receive shareholder voting rights. Dividend value is reflected through total return mechanics. Ondo Global Markets adjusts the token to account for dividends net of withholding taxes and reinvests that value into additional shares, increasing the shares per token over time instead of paying cash dividends directly to tokenholders.",
+    "logo": "https://icons.llamao.fi/icons/rwa/mrvl.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://app.ondo.finance/assets/mrvlon"
+      ],
+      "twitter": "https://x.com/ondofinance",
+      "docs": "https://docs.ondo.finance/",
+      "linkedin": "https://www.linkedin.com/company/ondofinance",
+      "discord": "https://discord.com/invite/ondofinance",
+      "telegram": "https://t.me/ondofinance",
+      "github": "https://github.com/ondoprotocol"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xf404e5f887dbd5508e16a1198fcdd5de1a4296b8",
+      "deployedAt": "2025-07-23",
+      "primary": true
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x9172366e5f99218908ebf4cb69e10183d17b3cac",
+      "deployedAt": "2025-12-02"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x1501ec83ffef405b4331cc4f73277a40fb0c627d",
+      "deployedAt": "2025-10-09"
+    },
+    {
+      "chain": "bsc",
+      "address": "0xf9dc5ffe9546923b15e26be5970cdabc6a9cd7ec",
+      "deployedAt": "2025-12-02"
+    },
+    {
+      "chain": "solana",
+      "address": "FovBwhoV5KQjZCdhoM6jgXYwXLX3F8vgAfvmLH7ondo",
+      "deployedAt": "2026-02-17"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "ondo-global-markets-bvi-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.ondo.finance/ondo-global-markets/legal-and-regulatory"
+      ],
+      "protocolIds": [
+        2542,
+        6650
+      ]
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://app.ondo.finance/assets/mrvlon"
+      ],
+      "note": "Daily (ongoing)"
+    }
+  ]
+}

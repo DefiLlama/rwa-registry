@@ -1,0 +1,130 @@
+{
+  "identity": {
+    "slug": "ausd-agora",
+    "symbol": "AUSD",
+    "name": "Agora Dollar",
+    "legacyId": 201,
+    "canonicalMarketId": "AUSD-AGORA"
+  },
+  "exposure": {
+    "underlying": "us-dollar"
+  },
+  "class": {
+    "structure": "usd-stable",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "fiat-stablecoins"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "cexListed": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Monthly (Grant Thornton LLP since Jan 2026, prior management reports)"
+  },
+  "sources": {
+    "coingeckoId": "agora-dollar"
+  },
+  "about": {
+    "description": "AUSD is issued by Agora and backed 1:1 by the Agora Reserve Fund, composed of cash, short-term U.S. Treasury securities, and overnight repurchase and reverse repurchase agreements.",
+    "logo": "https://icons.llamao.fi/icons/rwa/ausd.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.agora.finance/product/ausd"
+      ],
+      "twitter": "https://x.com/withAUSD",
+      "docs": "https://docs.agora.finance/",
+      "linkedin": "https://www.linkedin.com/company/agora-money",
+      "github": "https://github.com/agora-finance"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "bsc",
+      "address": "0x00000000efe302beaa2b3e6e1b18d08d69a9012a",
+      "deployedAt": "2025-05-07",
+      "labels": [
+        {
+          "address": "0xe16a3cdede40b38eeed6e58a4edd5e14e3510595",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xaf024d8e1eb7bb5f150b4f16aece9a56b4fb668e",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x3ef75642e90dc3d77ab07a76ed4e1656ee986c51",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xd4f7eaaf2afea17b421a8acbe5b285046cd0f9e8",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "monad",
+      "address": "0x00000000efe302beaa2b3e6e1b18d08d69a9012a",
+      "deployedAt": "2025-10-09"
+    },
+    {
+      "chain": "base",
+      "address": "0x00000000efe302beaa2b3e6e1b18d08d69a9012a",
+      "deployedAt": "2025-09-19"
+    },
+    {
+      "chain": "avax",
+      "address": "0x00000000efe302beaa2b3e6e1b18d08d69a9012a",
+      "deployedAt": "2024-07-27"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x00000000efe302beaa2b3e6e1b18d08d69a9012a",
+      "deployedAt": "2024-07-07",
+      "primary": true
+    },
+    {
+      "chain": "polygon",
+      "address": "0x00000000efe302beaa2b3e6e1b18d08d69a9012a",
+      "deployedAt": "2024-12-29"
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0x00000000efe302beaa2b3e6e1b18d08d69a9012a",
+      "deployedAt": "2025-05-30"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "agora",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.agora.finance/company"
+      ]
+    },
+    {
+      "organization": "chaos-labs",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "date": "2026-05-31",
+      "links": [
+        "https://docs.agora.finance/developer/attestations",
+        "https://oracles.chaoslabs.xyz/por-feeds/agora/ausd"
+      ]
+    }
+  ]
+}

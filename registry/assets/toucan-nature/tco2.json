@@ -1,0 +1,55 @@
+{
+  "identity": {
+    "slug": "tco2",
+    "symbol": "TCO2",
+    "name": "Toucan Carbon Reference Tokens",
+    "legacyId": 8,
+    "canonicalMarketId": "TCO2"
+  },
+  "exposure": {
+    "underlying": "toucan-carbon-reference-tokens"
+  },
+  "class": {
+    "structure": "carbon-credit",
+    "type": "asset",
+    "rwaClassification": "programmable-finance",
+    "category": [
+      "carbon-environment"
+    ]
+  },
+  "terms": {
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Not publicly disclosed (on-chain carbon credit verification)"
+  },
+  "about": {
+    "description": "TCO2 is Toucan’s project-specific tokenized carbon credit format. Each TCO2 corresponds to a specific carbon credit type with metadata such as project and vintage, enabling exposure to project-specific attributes. TCO2 tokens can be deposited into Toucan pools (such as BCT or NCT) to mint pooled reference tokens, or held directly.",
+    "logo": "https://icons.llamao.fi/icons/rwa/toucan-carbon-reference-tokens.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://toucan.earth"
+      ],
+      "twitter": "https://x.com/ToucanProtocol",
+      "docs": "https://docs.toucan.earth/",
+      "linkedin": "https://www.linkedin.com/company/toucan-protocol",
+      "discord": "https://discord.com/invite/r8DZqeJMFE",
+      "github": "https://github.com/ToucanProtocol"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "toucan-protocol-association",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://toucan.earth/legal/disclaimers"
+      ]
+    }
+  ]
+}

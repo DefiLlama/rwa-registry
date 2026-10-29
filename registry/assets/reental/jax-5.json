@@ -1,0 +1,66 @@
+{
+  "identity": {
+    "slug": "jax-5",
+    "symbol": "JAX-5",
+    "name": "REENTAL - JACKSONVILLE 5",
+    "legacyId": 9663,
+    "canonicalMarketId": "JAX-5"
+  },
+  "exposure": {
+    "underlying": "jacksonville-5"
+  },
+  "class": {
+    "structure": "single-property",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "real-estate"
+    ]
+  },
+  "terms": {
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "Reental-JAX-5 is Reental's tokenized interest in Jacksonville 5 (USD-denominated), issued on Polygon at a fixed 100 USD per token. The token's AssetOracle publishes that issue price, not a revalued mark: it is pinned at exactly $100 and has never moved. No attestation, no redemption price and no secondary market (transfers are whitelist-gated).",
+    "logo": "https://icons.llamao.fi/icons/rwa/jax-5.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.reental.co/"
+      ],
+      "twitter": "https://x.com/Reental_co",
+      "docs": "https://docs.reental.co/",
+      "linkedin": "https://www.linkedin.com/company/reental"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "polygon",
+      "address": "0xd48b1f302c8eb4a0f691fde99deaa9316d67a7db",
+      "deployedAt": "2023-10-16",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "reental",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://app.reental.co"
+      ]
+    },
+    {
+      "organization": "reental",
+      "kind": "oracle"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "identity": {
+    "slug": "usdh",
+    "symbol": "USDH",
+    "name": "USDH Stablecoin",
+    "legacyId": 613,
+    "canonicalMarketId": "USDH"
+  },
+  "exposure": {
+    "underlying": "us-dollar"
+  },
+  "class": {
+    "structure": "usd-stable",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "fiat-stablecoins"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "sources": {
+    "coingeckoId": "usdh-2"
+  },
+  "about": {
+    "description": "USDH is a fiat-backed digital dollar built for Hyperliquid. Issuance and redemptions are routed through regulated on-/off-ramp partners with KYC/KYB. per issuer disclosures, reserves are held in high-quality liquid assets such as short-term U. S. Treasuries and repo, with regular reporting planned. Key risks include issuer/custody, regulatory constraints on mint/redeem, and integration/bridge risk.",
+    "logo": "https://icons.llamao.fi/icons/rwa/usdh.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://nativemarkets.com/usdh"
+      ],
+      "twitter": "https://x.com/nativemarkets",
+      "docs": "https://nativemarkets.com/",
+      "github": "https://github.com/native-markets"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "hyperliquid",
+      "address": "0x111111a1a0667d36bd57c0a9f569b98057111111",
+      "deployedAt": "2025-09-15",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "bridge-building-inc-native-markets",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://nativemarkets.com/usdh",
+        "https://www.coingecko.com/en/coins/usdh-2"
+      ]
+    }
+  ]
+}

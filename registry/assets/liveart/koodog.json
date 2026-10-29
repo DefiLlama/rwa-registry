@@ -1,0 +1,157 @@
+{
+  "identity": {
+    "slug": "koodog",
+    "symbol": "KOODOG",
+    "name": "Jeff Koons Balloon Dog (Blue)",
+    "legacyId": 640,
+    "canonicalMarketId": "KOODOG"
+  },
+  "exposure": {
+    "underlying": "jeff-koons-balloon-dog-blue"
+  },
+  "class": {
+    "structure": "collectibles",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "other-rwas"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "about": {
+    "description": "KOODOG provides fractional exposure to the sculpute by Jeff Koons’ titled Balloon Dog (Blue). LiveArt sources, authenticates, and vaults the piece, then issues fractions that can be traded onchain. The original physical asset is securely stored at a world-class storage facility, ensuring museum-grade protection, climate control, and 24/7 security monitoring. The asset includes a buyout path where a party can acquire the underlying artwork, and fraction holders receive buyout proceeds pro rata.",
+    "logo": "https://icons.llamao.fi/icons/rwa/jeff-koons-balloon-dog-blue.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://liveart.io/defi/trade/KOODOG"
+      ],
+      "twitter": "https://twitter.com/LiveArtX",
+      "docs": "https://liveart.io/",
+      "linkedin": "https://www.linkedin.com/company/liveart-x",
+      "discord": "https://discord.com/invite/liveart",
+      "telegram": "https://t.me/s/LiveArtX"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "base",
+      "address": "0x959cab61a105607a344af2ae1f5621b8bd9b2e30",
+      "deployedAt": "2025-09-25",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x7d40ac593332049a189cd5aef94b049657f14130",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xf9521ae0482fdb271816739a6a6cb6e3c8699dea",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xeb8fef88b43c114fe68af4bcc6d017a72129bc37",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xbe5889f73c09390e1df44f8c69f485fc936e389e",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x61bff66f84f65a022c32b8288eb6b4887d789694",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x19f7805b654b8535819b21c0f76cc323dd6b7ea1",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x4dec3139f4a6c638e26452d32181fe87a7530805",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x4ad4cf7a796bf508daec91cc70b8f43d5264a0dc",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x58c7e7076de940d34a35bf6a7227c6c405030e23",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "bsc",
+      "address": "0x959cab61a105607a344af2ae1f5621b8bd9b2e30",
+      "deployedAt": null,
+      "labels": [
+        {
+          "address": "0x7d40ac593332049a189cd5aef94b049657f14130",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xf9521ae0482fdb271816739a6a6cb6e3c8699dea",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xeb8fef88b43c114fe68af4bcc6d017a72129bc37",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xbe5889f73c09390e1df44f8c69f485fc936e389e",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x61bff66f84f65a022c32b8288eb6b4887d789694",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x19f7805b654b8535819b21c0f76cc323dd6b7ea1",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x4dec3139f4a6c638e26452d32181fe87a7530805",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x4ad4cf7a796bf508daec91cc70b8f43d5264a0dc",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x58c7e7076de940d34a35bf6a7227c6c405030e23",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "liveart-foundation",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.liveart.xyz/liveart/introduction/products/rwas-initial-asset-offering-iao/storage-and-custody",
+        "https://docs.liveart.xyz/liveart/defi-for-cultural-rwas/trade-assets"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://docs.liveart.xyz/liveart/introduction/products/rwas-initial-asset-offering-iao/storage-and-custody",
+        "https://docs.liveart.xyz/liveart/defi-for-cultural-rwas/buyout-assets"
+      ],
+      "note": "Not publicly disclosed"
+    }
+  ]
+}

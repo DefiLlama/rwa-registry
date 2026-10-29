@@ -1,0 +1,104 @@
+{
+  "identity": {
+    "slug": "wdcon",
+    "symbol": "WDCon",
+    "name": "Western Digital (Ondo Tokenized Stock)",
+    "legacyId": 2904,
+    "canonicalMarketId": "WDCon"
+  },
+  "exposure": {
+    "underlying": "western-digital-corporation"
+  },
+  "class": {
+    "structure": "stock-backed",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "cexListed": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Daily"
+  },
+  "sources": {
+    "identifiers": [
+      {
+        "scheme": "isin",
+        "value": "US9581021055",
+        "source": null,
+        "verified": false
+      }
+    ]
+  },
+  "about": {
+    "description": "WDCon is an Ondo Global Markets tokenized stock exposure designed to provide economic exposure to Western Digital in an onchain format. The token is designed to be fully backed by the underlying publicly traded asset, together with cash in transit, held with regulated custodial broker-dealers. Holdings attestations and ongoing reporting are surfaced through Ondo trust and transparency materials and the product asset page. Tokenholders are not shareholders of the underlying and do not receive shareholder voting rights. Dividend value is reflected through total return mechanics.",
+    "logo": "https://icons.llamao.fi/icons/rwa/wdc.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://app.ondo.finance/assets/wdcon"
+      ],
+      "twitter": "https://x.com/ondofinance",
+      "docs": "https://docs.ondo.finance/",
+      "linkedin": "https://www.linkedin.com/company/ondofinance",
+      "discord": "https://discord.com/invite/ondofinance",
+      "telegram": "https://t.me/ondofinance",
+      "github": "https://github.com/ondoprotocol"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x44e89d34601b8d0155e16634d2553ef7f54dbab2",
+      "deployedAt": "2026-03-09",
+      "primary": true
+    },
+    {
+      "chain": "bsc",
+      "address": "0xceb29848d04ad3cb46e1fe8e45b82ffac39d797d",
+      "deployedAt": "2026-03-09"
+    },
+    {
+      "chain": "solana",
+      "address": "FLqH2jB2DZPJP5nnVFAakRKaNTcDZtq71Pnpp6Aondo",
+      "deployedAt": "2026-03-09"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "ondo-global-markets-bvi-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.ondo.finance/ondo-global-markets/legal-and-regulatory"
+      ],
+      "protocolIds": [
+        2542,
+        6650
+      ]
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://app.ondo.finance/assets/wdcon"
+      ],
+      "note": "Daily (ongoing)"
+    }
+  ]
+}

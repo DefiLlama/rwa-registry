@@ -1,0 +1,121 @@
+{
+  "identity": {
+    "slug": "usd1",
+    "symbol": "USD1",
+    "name": "World Liberty Financial USD",
+    "legacyId": 576,
+    "canonicalMarketId": "USD1"
+  },
+  "exposure": {
+    "underlying": "us-dollar"
+  },
+  "class": {
+    "structure": "usd-stable",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "fiat-stablecoins"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "cexListed": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Monthly (intended)"
+  },
+  "sources": {
+    "coingeckoId": "usd1-wlfi"
+  },
+  "about": {
+    "description": "USD1 is a USD‑pegged stablecoin branded by World Liberty Financial. USD1 is designed to be fully backed by U.S. dollars and U.S. government money market funds, with reserve assets held/maintained by BitGo Trust Company. Mint/redemption is via authorized channels, while the token is transferable in self custody on supported networks.",
+    "logo": "https://icons.llamao.fi/icons/rwa/usd1.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://worldlibertyfinancial.com/usd1"
+      ],
+      "twitter": "https://x.com/worldlibertyfi",
+      "docs": "https://worldlibertyfinancial.com/",
+      "discord": "https://discord.com/invite/worldlibertyfinancial",
+      "telegram": "https://t.me/defiant1s",
+      "github": "https://github.com/worldliberty"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "aptos",
+      "address": "0x05fabd1b12e39967a3c24e91b7b8f67719a6dacee74f3c8b9fb7d93e855437d2",
+      "deployedAt": "2026-04-10"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x8d0d000ee44948fc98c9b98a4fa4921476f08b0d",
+      "deployedAt": "2025-01-28"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x8d0d000ee44948fc98c9b98a4fa4921476f08b0d",
+      "deployedAt": "2025-01-28",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x5be9a4959308a0d0c7bc0870e319314d8d957dbb",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "mantle",
+      "address": "0x111111d2bf19e43c34263401e0cad979ed1cdb61",
+      "deployedAt": "2025-09-21"
+    },
+    {
+      "chain": "monad",
+      "address": "0x111111d2bf19e43c34263401e0cad979ed1cdb61",
+      "deployedAt": "2025-11-19"
+    },
+    {
+      "chain": "morph",
+      "address": "0x111111d2bf19e43c34263401e0cad979ed1cdb61",
+      "deployedAt": "2025-09-21"
+    },
+    {
+      "chain": "plume_mainnet",
+      "address": "0x111111d2bf19e43c34263401e0cad979ed1cdb61",
+      "deployedAt": "2025-07-05"
+    },
+    {
+      "chain": "solana",
+      "address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
+      "deployedAt": "2025-07-15"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "world-liberty-financial-inc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://worldlibertyfinancial.com/usd1",
+        "https://www.bitgo.com/usd1/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "date": "2025-07-31",
+      "links": [
+        "https://worldlibertyfinancial.com/usd1",
+        "https://www.bitgo.com/usd1/"
+      ]
+    }
+  ]
+}

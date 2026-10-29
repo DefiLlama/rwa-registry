@@ -1,0 +1,82 @@
+{
+  "identity": {
+    "slug": "vegs",
+    "symbol": "VEGS",
+    "name": "Outlaws Food Shares",
+    "legacyId": 2982,
+    "canonicalMarketId": "VEGS"
+  },
+  "exposure": {
+    "underlying": "outlaws-food"
+  },
+  "class": {
+    "structure": "pe-venture",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "about": {
+    "description": "Tokenized shares of Outlawz Food AG, a Swiss food company producing plant-based meat alternatives with a focus on charcuterie-style products, issued on Ethereum via Aktionariat.",
+    "logo": "https://icons.llamao.fi/icons/rwa/vegs.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://investor.outlawz-food.ch/"
+      ],
+      "twitter": "https://x.com/aktionariat",
+      "docs": "https://docs.aktionariat.com/",
+      "linkedin": "https://www.linkedin.com/company/aktionariat-ag"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x4e8de529fe22dee9266b029cdfc52142b82e0e2f",
+      "deployedAt": "2023-02-07",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xdb84438403d40a4c58bad77604fd4fee86b82488",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "outlawz-food-ag",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://investor.outlawz-food.ch/",
+        "https://www.aktionariat.com/"
+      ]
+    },
+    {
+      "organization": "aktionariat-ag",
+      "kind": "tokenizer",
+      "sourceLinks": [
+        "https://investor.outlawz-food.ch/",
+        "https://www.aktionariat.com/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "No public attestation date found"
+    }
+  ]
+}

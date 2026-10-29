@@ -1,0 +1,82 @@
+{
+  "identity": {
+    "slug": "usdm",
+    "symbol": "USDM",
+    "name": "Mountain Protocol USDM",
+    "legacyId": 87,
+    "canonicalMarketId": "USDM"
+  },
+  "exposure": {
+    "underlying": "us-dollar"
+  },
+  "class": {
+    "structure": "yield-rwa-stable",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "rwa-stablecoins"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Monthly"
+  },
+  "sources": {
+    "coingeckoId": "mountain-protocol-usdm"
+  },
+  "about": {
+    "description": "USDM is a yield-bearing USD stablecoin designed for cash management where holders receive a return sourced from a conservative reserve portfolio. It is positioned as a stable-yield building block for DeFi and treasury use cases, supported by recurring third-party reserve attestations intended to demonstrate reserve coverage and composition.",
+    "logo": "https://icons.llamao.fi/icons/rwa/mountain-protocol-usdm.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://mountainprotocol.com"
+      ],
+      "twitter": "https://x.com/mountainusdm",
+      "docs": "https://docs.mountainprotocol.com/",
+      "linkedin": "https://www.linkedin.com/company/mountain-protocol",
+      "github": "https://github.com/mountainprotocol"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x59d9356e565ab3a36dd77763fc0d87feaf85508c",
+      "deployedAt": "2023-08-25",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xde75370c4ddfe7cbe53bfcf9d94182225923a053",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "mountain-protocol-ltd",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://forum.arbitrum.foundation/t/mountain-protocol-usdm-step-application/23574"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "date": "2025-03-06",
+      "links": [
+        "https://docs.mountainprotocol.com/legacy-docs/usdm-reserves-attestations"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "identity": {
+    "slug": "asteroidx",
+    "symbol": "AsteroidX",
+    "name": "AsteroidX",
+    "legacyId": 2842,
+    "canonicalMarketId": "AsteroidX"
+  },
+  "exposure": {
+    "underlying": "asteroidx"
+  },
+  "class": {
+    "structure": "pe-venture",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "about": {
+    "description": "Asteroid X is a mining-finance and tokenization platform focused on Australian exploration projects. Web3in describes the model around tokenized equity, investor participation, onchain transparency, and secondary-market integration, which fits private-company equity exposure more closely than a direct commodity claim.",
+    "logo": "https://icons.llamao.fi/icons/rwa/asteroidx.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://asteroidx.io"
+      ],
+      "twitter": "https://x.com/Asteroid_AU"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "hsk",
+      "address": "0x5abbcb1e99076ab0093d0ad888cb140d5d5cb556",
+      "deployedAt": "2025-06-20",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "asteroidx",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://web3in.tech/en/about-us"
+      ]
+    },
+    {
+      "organization": "asteroidx",
+      "kind": "oracle"
+    }
+  ]
+}

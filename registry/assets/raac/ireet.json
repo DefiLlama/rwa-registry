@@ -1,0 +1,97 @@
+{
+  "identity": {
+    "slug": "ireet",
+    "symbol": "iREET",
+    "name": "RAAC iREET (Tokenized Real Estate Vault)",
+    "legacyId": 4608,
+    "canonicalMarketId": "iREET"
+  },
+  "exposure": {
+    "underlying": "diversified-pool-of-income-producing-real-estate-properties-custody-via-instruxi"
+  },
+  "class": {
+    "structure": "reit",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "real-estate"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Semi-annual property revaluation; continuous on-chain vault NAV"
+  },
+  "about": {
+    "description": "iREET is an ERC-4626 vault-share token issued by Regnum Aurum Acquisition Corp. (operating as RAAC) that represents a fractional interest in a diversified pool of US single-family residential real estate properties tokenized on-chain as RAAC Property NFTs (RAACNFT). At launch the portfolio held 16 US single-family homes generating approximately 34.5 thousand US dollars per month in rental income, with the current portfolio at 17 properties. The rental strategy focuses on Section 8 Housing Choice Voucher Program tenancies. Property valuations are computed via a RAACHousePriceOracle powered by Chainlink Functions with third-party property verification cited as Roofstock, and re-valuations occur approximately twice yearly. NAV per iREET share is calculated on-chain as the sum of current property valuations divided by circulating supply. Vault shares are freely transferable subject to a ComplianceRegistry blacklist, and access is restricted from US persons via legal terms. Smart contracts have been audited by Pashov Audit Group (August, November, and December 2025 reports), FYEO (October 2024), and Cyfrin CodeHawks (February 2025 competitive audit).",
+    "logo": "https://icons.llamao.fi/icons/rwa/ireet.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://ireet.raac.io/"
+      ],
+      "twitter": "https://x.com/Raacfi",
+      "docs": "https://docs.raac.io/",
+      "linkedin": "https://www.linkedin.com/company/raac-io",
+      "discord": "https://discord.com/invite/raac",
+      "github": "https://github.com/gundam-foundation/audits"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xe6a60d2886b11256c24c128210159133096e5ccf",
+      "deployedAt": "2026-03-09",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x61d54bd44436e26a5313a5f3e0f83706c948ed8e",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x5ad30fca5a031c850b817f6f4de1ee2d713ef850",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "regnum-aurum-acquisition-corp",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.raac.io/",
+        "https://ireet.raac.io/"
+      ]
+    },
+    {
+      "organization": "raac",
+      "kind": "oracle"
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://ireet.raac.io/#transparency",
+        "https://github.com/gundam-foundation/audits",
+        "https://docs.raac.io/whitepaper-q1.pdf",
+        "https://codehawks.cyfrin.io/c/2025-02-raac",
+        "https://i-bvi.com/company/regnum-aurum-acquisition-corp_1552615"
+      ],
+      "note": "Continuous vault NAV; property valuations refreshed approximately twice yearly via Chainlink Functions oracle"
+    }
+  ]
+}

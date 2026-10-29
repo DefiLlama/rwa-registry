@@ -1,0 +1,100 @@
+{
+  "identity": {
+    "slug": "mps",
+    "symbol": "MPS",
+    "name": "Mt Pelerin Shares",
+    "legacyId": 2999,
+    "canonicalMarketId": "MPS"
+  },
+  "exposure": {
+    "underlying": "mt-pelerin-group-sa"
+  },
+  "class": {
+    "structure": "pe-venture",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "sources": {
+    "coingeckoId": "mt-pelerin-shares",
+    "identifiers": [
+      {
+        "scheme": "isin",
+        "value": "CH0539730892",
+        "source": null,
+        "verified": false
+      }
+    ]
+  },
+  "about": {
+    "description": "MPS is the actual tokenized share of Mt Pelerin Group SA. One MPS represents one company share, with one vote and dividend rights under Swiss law once the holder is registered with the company. Mt Pelerin states circulating MPS can be transferred without restrictions on Ethereum and Gnosis, and supports conversion of share-tokens into bankable Swiss ISIN shares.",
+    "logo": "https://icons.llamao.fi/icons/rwa/mt-pelerin-shares.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.mtpelerin.com/shareholders"
+      ],
+      "twitter": "https://x.com/mtpelerin",
+      "docs": "https://www.mtpelerin.com/",
+      "linkedin": "https://www.linkedin.com/company/mt-pelerin",
+      "telegram": "https://t.me/mtpelerin",
+      "github": "https://github.com/MtPelerin/bridge-v1"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x96c645d3d3706f793ef52c19bbace441900ed47d",
+      "deployedAt": "2018-10-16",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x1e85c1d410d62b0b5765f0086b732d4948acf008",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xa343ab9ef834fbc5fb2391db555edeeb5691c871",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xd2c07b5fad4dd093e57404b60565e72b97f39f4b",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "xdai",
+      "address": "0xfa57aa7beed63d03aaf85ffd1753f5f6242588fb",
+      "deployedAt": "2021-10-20",
+      "labels": [
+        {
+          "address": "0x3037ba5e63ce968c1278452b7ae13b793fd4eea9",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "mt-pelerin-group-sa",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.mtpelerin.com/shareholders",
+        "https://www.startup.ch/mt-pelerin-group"
+      ]
+    }
+  ]
+}

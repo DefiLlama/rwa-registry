@@ -1,0 +1,80 @@
+{
+  "identity": {
+    "slug": "gusd-gate",
+    "symbol": "GUSD",
+    "name": "Gate USD",
+    "legacyId": 607,
+    "canonicalMarketId": "GUSD-GATE"
+  },
+  "exposure": {
+    "underlying": "us-dollar"
+  },
+  "class": {
+    "structure": "yield-rwa-stable",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "rwa-stablecoins"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "cexListed": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "Gate USD is an interest-bearing token certificate minted 1:1 with USDT/USDC on Gate and designed to track $1 while accruing yield from Gate-managed sources (including disclosed RWA components such as U.S. Treasury exposure). Primary risks are Gate custodial/counterparty exposure, strategy performance and disclosure risk, and redemption/withdrawal constraints.",
+    "logo": "https://icons.llamao.fi/icons/rwa/gate-usd.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.gate.com/gusd"
+      ],
+      "twitter": "https://x.com/gate_io",
+      "refLinks": [
+        "https://www.gatesite.casa/web3/ref?code=nufLft0L"
+      ]
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "abstract",
+      "address": "0x12d3e796d1f625eb6131aeb670bcd210bbb0f903",
+      "deployedAt": "2025-12-09"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x843a497b06147b2c3b648bd2cace427139e313e2",
+      "deployedAt": "2025-09-25",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xdffc66191baf5047866033d2fe400907af4038a8",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "gatelayer",
+      "address": "0xece3f96198a5e6b9b2278edbea8d548f66050d1c",
+      "deployedAt": "2025-09-25"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "gate",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.gate.com/gusd"
+      ]
+    }
+  ]
+}

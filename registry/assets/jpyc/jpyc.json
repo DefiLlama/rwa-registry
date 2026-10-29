@@ -1,0 +1,72 @@
+{
+  "identity": {
+    "slug": "jpyc",
+    "symbol": "JPYC",
+    "name": "JPYC Prepaid",
+    "legacyId": 627,
+    "canonicalMarketId": "JPYC"
+  },
+  "exposure": {
+    "underlying": "japanese-yen"
+  },
+  "class": {
+    "structure": "other-fiat-stable",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "fiat-stablecoins"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "sources": {
+    "coingeckoId": "jpy-coin"
+  },
+  "about": {
+    "description": "JPYC is a JPY-denominated onchain payment token designed for everyday transfers and web3 payments in a yen unit of account. It is issued under a prepaid payment instrument structure, supporting permissionless transfers on public chains while offchain issuance/redemption and payment integrations are managed by the issuer.",
+    "logo": "https://icons.llamao.fi/icons/rwa/jpyc.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://jpyc.jp"
+      ],
+      "twitter": "https://x.com/jpyc_official",
+      "docs": "https://corporate.jpyc.co.jp/en",
+      "linkedin": "https://www.linkedin.com/company/jpycinc",
+      "github": "https://github.com/jpyc"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x431d5dff03120afa4bdf332c61a6e1766ef37bdb",
+      "deployedAt": "2022-09-19",
+      "primary": true
+    },
+    {
+      "chain": "polygon",
+      "address": "0x431d5dff03120afa4bdf332c61a6e1766ef37bdb",
+      "deployedAt": "2022-05-12"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "jpyc-inc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://jpyc.jp"
+      ]
+    }
+  ]
+}

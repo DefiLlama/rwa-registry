@@ -1,0 +1,74 @@
+{
+  "identity": {
+    "slug": "bspt-bkt-1",
+    "symbol": "BSPT-BKT-1",
+    "name": "One Park Drive, London, UK",
+    "legacyId": 8536,
+    "canonicalMarketId": "BSPT-BKT-1"
+  },
+  "exposure": {
+    "underlying": "one-park-drive-canary-wharf-london-e14-9gg"
+  },
+  "class": {
+    "structure": "single-property",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "real-estate"
+    ]
+  },
+  "terms": {
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "sources": {
+    "llamaAttestationProof": false
+  },
+  "about": {
+    "description": "BSPT-BKT-1 is a Blocksquare property token recorded on Ethereum under the name One Park Drive, London, UK. The on chain property record gives an address of One Park Drive, Canary Wharf, London, E14 9GG together with geographic coordinates. No valuation has been set on either the token or the Blocksquare property registry, so the entry exists as a registered property token without a stated value. No maximum supply has been set and no tokens have been issued. Under the Blocksquare framework a property token conveys an economic interest routed through the entity that owns the property rather than direct legal title, holding requires passing the platform's onboarding checks, transfers are limited to approved addresses, yield reaches holders as distributed rental income paid in DAI, and no issuer redemption facility exists. This token was not part of the issuer's own submission and was identified from the Blocksquare marketplace indexer and confirmed on chain.",
+    "logo": "https://icons.llamao.fi/icons/rwa/blocksquare.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://blocksquare.io/"
+      ],
+      "twitter": "https://x.com/blocksquare_io",
+      "docs": "https://docs.blocksquare.io/",
+      "linkedin": "https://www.linkedin.com/company/blocksquare/",
+      "discord": "https://discord.com/invite/blocksquare",
+      "telegram": "https://t.me/blocksquare",
+      "github": "https://github.com/blocksquare"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x30d546d2a260d766f146915b937011990f5c64c5",
+      "deployedAt": "2022-07-23",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x40e3395ff1841f602d4483edc80c13aa089f622c",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "blocksquare",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.blocksquare.io/"
+      ]
+    }
+  ]
+}

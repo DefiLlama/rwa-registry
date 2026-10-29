@@ -1,0 +1,72 @@
+{
+  "identity": {
+    "slug": "ncloa",
+    "symbol": "NCLOA",
+    "name": "Nest BlackRock iShares AAA CLO Active ETF Vault",
+    "legacyId": 4443,
+    "canonicalMarketId": "NCLOA"
+  },
+  "exposure": {
+    "underlying": "ishares-aaa-clo-active-etf"
+  },
+  "class": {
+    "structure": "structured-credit",
+    "type": "wrapper",
+    "rwaClassification": "programmable-finance",
+    "category": [
+      "rwa-wrappers",
+      "bond-mmf-funds",
+      "private-credit"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "about": {
+    "description": "nCLOA is the receipt token for Nest's vault holding the BlackRock iShares AAA CLO Active ETF (CLOA), an actively managed fund that invests at least 80% of assets in US-dollar AAA-rated collateralized loan obligations (diversified pools of senior secured corporate loans), targeting capital preservation and current income.",
+    "logo": "https://icons.llamao.fi/icons/rwa/ncloa.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://nest.credit"
+      ],
+      "twitter": "https://x.com/nestcredit",
+      "docs": "https://docs.nestcredit.io/",
+      "linkedin": "https://www.linkedin.com/company/nestcredit"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "plume_mainnet",
+      "address": "0x63810d7f1c7b4dbfb60c173ba120a2be98b59e13",
+      "deployedAt": "2026-05-15",
+      "primary": true
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x63810d7f1c7b4dbfb60c173ba120a2be98b59e13",
+      "deployedAt": "2026-05-15"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "nest-dao-llc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.lei-lookup.com/record/254900BB9T1QYAT04892"
+      ],
+      "protocolIds": [
+        5284
+      ]
+    }
+  ]
+}

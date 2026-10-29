@@ -1,0 +1,102 @@
+{
+  "identity": {
+    "slug": "acd",
+    "symbol": "aCD",
+    "name": "Chaince Digital Holdings Inc aStock",
+    "legacyId": 9218,
+    "canonicalMarketId": "aCD"
+  },
+  "exposure": {
+    "underlying": "chaince-digital-holdings-inc"
+  },
+  "class": {
+    "structure": "stock-backed",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Daily"
+  },
+  "about": {
+    "description": "Tokenized Chaince Digital Holdings Inc. Each token is backed 1:1 by the underlying share, purchased through a FINRA-registered broker-dealer and held in regulated custody, and is redeemable for stablecoins.",
+    "logo": "https://img.anchored.finance/logos/CD.svg",
+    "links": {
+      "website": [
+        "https://anchored.finance/stocks"
+      ],
+      "twitter": "https://x.com/AnchoredFi",
+      "docs": "https://docs.anchored.finance/getting-started/anchored-tokens",
+      "linkedin": "https://www.linkedin.com/company/anchored-fi/",
+      "github": "https://github.com/AnchoredLabs"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xa69b48373f8a34a6a53dbe188db3a664a4e6a7fc",
+      "deployedAt": "2026-09-09"
+    },
+    {
+      "chain": "monad",
+      "address": "0xa69b48373f8a34a6a53dbe188db3a664a4e6a7fc",
+      "deployedAt": "2026-09-09",
+      "primary": true
+    },
+    {
+      "chain": "base",
+      "address": "0xa69b48373f8a34a6a53dbe188db3a664a4e6a7fc",
+      "deployedAt": "2026-09-09"
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0xa69b48373f8a34a6a53dbe188db3a664a4e6a7fc",
+      "deployedAt": "2026-09-09"
+    },
+    {
+      "chain": "robinhood",
+      "address": "0xa69b48373f8a34a6a53dbe188db3a664a4e6a7fc",
+      "deployedAt": "2026-09-09"
+    },
+    {
+      "chain": "bsc",
+      "address": "0xa69b48373f8a34a6a53dbe188db3a664a4e6a7fc",
+      "deployedAt": "2026-09-09"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "anchored-capital-ltd",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://anchored.finance/",
+        "https://alpaca.markets/tokenization"
+      ]
+    },
+    {
+      "organization": "anchored-finance",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://accountable.anchored.finance/"
+      ],
+      "note": "no date in the export"
+    }
+  ]
+}

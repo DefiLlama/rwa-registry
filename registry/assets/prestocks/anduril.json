@@ -1,0 +1,66 @@
+{
+  "identity": {
+    "slug": "anduril",
+    "symbol": "ANDURIL",
+    "name": "Anduril PreStocks",
+    "legacyId": 406,
+    "canonicalMarketId": "ANDURIL"
+  },
+  "exposure": {
+    "underlying": "anduril"
+  },
+  "class": {
+    "structure": "pe-venture",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "sources": {
+    "coingeckoId": "anduril-prestocks-2"
+  },
+  "about": {
+    "description": "ANDURIL is a PreStocks token that tracks the implied valuation of Anduril, a private defense technology company. PreStocks tokens are priced in terms of valuation, and are designed to give 24/7 tradable market exposure to pre-IPO companies through an SPV-backed structure. Anduril is known for AI-driven defense systems, including autonomous drones and sensor platforms used for situational awareness in military and border security applications. ANDURIL provides economic exposure only and does not represent ownership of Anduril shares or grant voting, dividend, or information rights.",
+    "logo": "https://icons.llamao.fi/icons/rwa/anduril.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://prestocks.com/anduril"
+      ],
+      "twitter": "https://x.com/prestocks",
+      "docs": "https://prestocks.com/",
+      "linkedin": "https://www.linkedin.com/company/prestocks"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "solana",
+      "address": "PresTj4Yc2bAR197Er7wz4UUKSfqt6FryBEdAriBoQB",
+      "deployedAt": "2025-09-25",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "prestocks",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://prestocks.com/faq"
+      ]
+    }
+  ]
+}

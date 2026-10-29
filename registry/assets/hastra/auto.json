@@ -1,0 +1,80 @@
+{
+  "identity": {
+    "slug": "auto",
+    "symbol": "AUTO",
+    "name": "Hastra AUTO",
+    "legacyId": 4477,
+    "canonicalMarketId": "AUTO"
+  },
+  "exposure": {
+    "underlying": "figure-democratized-prime-consumer-auto-loan-pools"
+  },
+  "class": {
+    "structure": "credit-pool",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "private-credit"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Real-time proof of reserves"
+  },
+  "sources": {
+    "coingeckoId": "hastra-auto"
+  },
+  "about": {
+    "description": "AUTO is Hastra's yield-bearing token built to represent staked exposure to wYLDS, with yield sourced from Figure's Democratized Prime consumer auto loan pools. It is designed to be composable in DeFi while maintaining a reserves-first approach, publishing reserve and supply information through a dedicated proof-of-reserves dashboard. AUTO is intended for users who want a single token that packages underlying RWA-linked yield, onchain accounting, and transparent backing data.",
+    "logo": "https://token-icons.llamao.fi/icons/tokens/gecko/hastra-auto?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.hastra.io/auto"
+      ],
+      "twitter": "https://x.com/HastraFi",
+      "docs": "https://help.hastra.io/",
+      "discord": "https://discord.gg/provenance"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "solana",
+      "address": "GNE6oDS6jHrfaV3GQVVCCp37fDnT7PiPuewMKBj2bqNm",
+      "deployedAt": "2026-07-25",
+      "primary": true
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x997e2efbce91d170b00ea402e35a66c887ee1da9",
+      "deployedAt": "2026-06-16"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "signum-ltd",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.hastra.io/auto",
+        "https://help.hastra.io/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://hastra.io/proof-of-reserves"
+      ],
+      "note": "Not publicly disclosed"
+    }
+  ]
+}

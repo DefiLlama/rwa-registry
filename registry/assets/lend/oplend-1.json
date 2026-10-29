@@ -1,0 +1,115 @@
+{
+  "identity": {
+    "slug": "oplend-1",
+    "symbol": "opLEND-1",
+    "name": "Lend Datacenter Facility - Saint-Herblain",
+    "legacyId": 3966,
+    "canonicalMarketId": "opLEND-1"
+  },
+  "exposure": {
+    "underlying": "datacenter-facility-saint-herblain-france"
+  },
+  "class": {
+    "structure": "re-credit",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "real-estate"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "On audit (Hashlock v2, Dec 2025); monthly investor reporting"
+  },
+  "about": {
+    "description": "Tokenized bond financing a datacenter facility at 2 Impasse Joséphine Baker, Saint-Herblain, France (FR). $581,290 funded at 9% fixed APR with weekly payouts. Funds raised via SPV ownership. Bondholders receive contractual yield on the operation's cashflows. Audited by Hashlock. ERC-20 (opLEND-1) deployed cross-chain via LayerZero with primary supply on Ethereum. Audited by Hashlock (Dec 2025). 1 High severity finding resolved, 1 Medium acknowledged by design for regulatory refund compliance. EU MiCA framework via partner.",
+    "logo": "https://icons.llamao.fi/icons/rwa/oplend-1.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://lend.xyz/"
+      ],
+      "twitter": "https://x.com/lendxyz",
+      "docs": "https://docs.lend.xyz/",
+      "github": "https://github.com/lendxyz",
+      "refLinks": [
+        "https://app.lend.xyz/?ref=3WJ0FUZS"
+      ]
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x8733d688edc07a036c1457fde2d1c7f8351aaf91",
+      "deployedAt": "2026-01-23",
+      "primary": true
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0x678b42a61223bae39b531b3f61d54b7ecbd4ab45",
+      "deployedAt": "2026-01-26"
+    },
+    {
+      "chain": "base",
+      "address": "0xffe1278ba1a6770c8513f296ffd0541edc5f38c2",
+      "deployedAt": "2026-01-26"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x3a83b051eb73651ad2d91f311262e22347d3fb26",
+      "deployedAt": "2026-01-26"
+    },
+    {
+      "chain": "linea",
+      "address": "0x3a83b051eb73651ad2d91f311262e22347d3fb26",
+      "deployedAt": "2026-01-26"
+    },
+    {
+      "chain": "polygon",
+      "address": "0xac3fc66a4bfa086b9f888cdb6e5f46ba7459e517",
+      "deployedAt": "2026-01-26"
+    },
+    {
+      "chain": "sonic",
+      "address": "0xa0dc88318eca43cc2a0c3c2f46a8ff7860fc8d4c",
+      "deployedAt": "2026-01-26"
+    },
+    {
+      "chain": "plume_mainnet",
+      "address": "0xac3fc66a4bfa086b9f888cdb6e5f46ba7459e517",
+      "deployedAt": "2026-01-26"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "lend-sa",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.lend.xyz/"
+      ]
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://hashlock.com/wp-content/uploads/2025/12/Lend-xyz-Smart-Contract-Audit-Report-Final-Report-v2.pdf"
+      ],
+      "note": "2025-12"
+    }
+  ]
+}

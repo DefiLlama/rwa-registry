@@ -1,0 +1,64 @@
+{
+  "identity": {
+    "slug": "jsoy",
+    "symbol": "JSOY",
+    "name": "JSOY",
+    "legacyId": 650,
+    "canonicalMarketId": "JSOY"
+  },
+  "exposure": {
+    "underlying": "soybeans"
+  },
+  "class": {
+    "structure": "other-commodity",
+    "type": "asset",
+    "rwaClassification": "programmable-finance",
+    "category": [
+      "gold-commodities"
+    ]
+  },
+  "terms": {
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "about": {
+    "description": "JSOY is a commodity-backed token where each token represents one metric ton of physical soybeans within Justoken’s issuance framework. It is intended to make inventory usable for settlement and financing workflows in agribusiness, with minting and burning designed to reflect underlying contractual commitments and delivery.",
+    "logo": "https://icons.llamao.fi/icons/rwa/jsoy.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.justoken.com"
+      ],
+      "twitter": "https://x.com/justokenglobal",
+      "docs": "https://justoken.com/",
+      "linkedin": "https://www.linkedin.com/company/justoken"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "polygon",
+      "address": "0xc5aad57002764352d66e10de79ca9a95702064eb",
+      "deployedAt": "2025-05-02",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "justoken",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.justoken.com/",
+        "https://www.coinbase.com/institutional/research-insights/research/market-intelligence/major-trends-in-tokenization"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "identity": {
+    "slug": "ouro90d",
+    "symbol": "ouro90D",
+    "name": "Ouroboros 90D Fixed Term Vault",
+    "legacyId": 4549,
+    "canonicalMarketId": "ouro90D"
+  },
+  "exposure": {
+    "underlying": "multi-strategy-crypto-yield-defi-delta-neutral-arbitrage-basis-trading"
+  },
+  "class": {
+    "structure": "crypto-hedge-fund",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "crypto-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "ouro90D is the ERC-4626 share token of the Ouroboros 90D Fixed Term Vault on Monad. Deposited USDC is deployed by Ouroboros Capital across a suite of yield-oriented crypto strategies including DeFi, delta-neutral arbitrage, and basis trading. Yield accrues to share price through ERC-4626 convertToAssets. The 90D suffix in the ticker denotes a 90-day fixed-term structure.",
+    "logo": "https://icons.llamao.fi/icons/rwa/ouro90d.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://ourocap.io/"
+      ],
+      "twitter": "https://x.com/OuroborosCap8",
+      "docs": "https://ourocap.io/"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "monad",
+      "address": "0x03ef37626bc7c7b3f6cea4bcbfeb7764b51e22fb",
+      "deployedAt": "2026-04-08",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x6385d7571b8ecd7733effb1caf6760a237e29835",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x51e4f7f90490654536b210a129f452e39feda946",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x619c7dd4c8cbf4da1a168649ca71b670d9e95f20",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x4b07aaa370189e5603df56c84f59c5a59181bfb1",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x0e503d4b0d463855e819d7201f6bd2604d423c4c",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "ouroboros-capital",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://ourocap.io/"
+      ],
+      "protocolIds": [
+        7092
+      ]
+    },
+    {
+      "organization": "ouroboros-capital",
+      "kind": "oracle"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "identity": {
+    "slug": "tbt",
+    "symbol": "TBT",
+    "name": "rebasing Trustless Treasury Bill Token",
+    "legacyId": 193,
+    "canonicalMarketId": "TBT"
+  },
+  "exposure": {
+    "underlying": "us-dollar"
+  },
+  "class": {
+    "structure": "yield-rwa-stable",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "rwa-stablecoins",
+      "bond-mmf-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "about": {
+    "description": "TBT is a Treasury-bill oriented token designed to provide short-duration U.S. government yield in a format intended for use across DeFi markets. It targets cash-management and collateral use cases where holders want a conservative return profile anchored to Treasury carry, packaged as a transferable position that can integrate with lending and liquidity venues.",
+    "logo": "https://icons.llamao.fi/icons/rwa/rebasing-trustless-treasury-bill-token.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://tprotocol.io"
+      ],
+      "twitter": "https://x.com/TProtocol_",
+      "docs": "https://docs.tprotocol.io/",
+      "linkedin": "https://www.linkedin.com/company/t-protocol",
+      "github": "https://github.com/tprotocol"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x07ac55797d4f43f57ca92a49e65ca582cc287c27",
+      "deployedAt": "2023-03-14",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x31b8939c6e55a4ddaf0d6479320a0dfd9766ee9d",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "tprotocol",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.tprotocol.io"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "Not publicly disclosed"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "identity": {
+    "slug": "gyen",
+    "symbol": "GYEN",
+    "name": "GYEN",
+    "legacyId": 628,
+    "canonicalMarketId": "GYEN"
+  },
+  "exposure": {
+    "underlying": "japanese-yen"
+  },
+  "class": {
+    "structure": "other-fiat-stable",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "fiat-stablecoins"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "cexListed": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Monthly"
+  },
+  "sources": {
+    "coingeckoId": "gyen"
+  },
+  "about": {
+    "description": "GYEN is a regulated Japanese yen stablecoin issued by GMO Trust. It provides onchain JPY exposure for payments and trading, with issuance/redemption handled through a regulated trust framework while tokens remain freely transferable on supported networks (e.g., Ethereum and Solana).",
+    "logo": "https://icons.llamao.fi/icons/rwa/gyen.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://stablecoin.z.com"
+      ],
+      "twitter": "https://x.com/GMOTrust",
+      "github": "https://github.com/trust-zcom"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xc08512927d12348f6620a698105e1baac6ecd911",
+      "deployedAt": "2019-12-11",
+      "primary": true
+    },
+    {
+      "chain": "solana",
+      "address": "Crn4x1Y2HUKko7ox2EZMT6N2t2ZyH7eKtwkBGVnhEq1g",
+      "deployedAt": "2024-01-22"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "gmo-z-com-trust-company-inc-gmo-trust",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://stablecoin.z.com"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://stablecoin.z.com"
+      ],
+      "note": "Monthly (ongoing)"
+    }
+  ]
+}

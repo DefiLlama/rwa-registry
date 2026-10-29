@@ -1,0 +1,66 @@
+{
+  "identity": {
+    "slug": "txpt",
+    "symbol": "TXPT",
+    "name": "Aurus tPLATINUM",
+    "legacyId": 4065,
+    "canonicalMarketId": "TXPT"
+  },
+  "exposure": {
+    "underlying": "platinum"
+  },
+  "class": {
+    "structure": "platinum",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "gold-commodities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "about": {
+    "description": "tPLATINUM (TXPT) is Aurus's platinum token on Ethereum and Polygon, each backed 1:1 by one gram of vaulted physical platinum held with independent vault partners. Storage costs are funded through a small fee-on-transfer, and tokens are redeemable for physical metal through Aurus's partner network.",
+    "logo": "https://icons.llamao.fi/icons/rwa/txpt.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://aurus.org"
+      ],
+      "twitter": "https://x.com/AurusOfficial",
+      "docs": "https://aurus.org"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x19b22dbadc298c359a1d1b59e35f352a2b40e33c",
+      "deployedAt": "2022-10-13",
+      "primary": true
+    },
+    {
+      "chain": "polygon",
+      "address": "0x2e6978ceea865948f4c5685e35aec72652e3cb88",
+      "deployedAt": "2022-10-13"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "aurus-technologies-ltd",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://aurus.org"
+      ]
+    }
+  ]
+}

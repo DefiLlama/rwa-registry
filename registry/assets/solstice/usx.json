@@ -1,0 +1,68 @@
+{
+  "identity": {
+    "slug": "usx",
+    "symbol": "USX",
+    "name": "Solstice USX",
+    "legacyId": 588,
+    "canonicalMarketId": "USX"
+  },
+  "exposure": {
+    "underlying": "us-dollar"
+  },
+  "class": {
+    "structure": "synthetic-stable",
+    "type": "asset",
+    "rwaClassification": "programmable-finance",
+    "category": [
+      "non-rwa-stablecoins"
+    ]
+  },
+  "terms": {
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "sources": {
+    "coingeckoId": "solstice"
+  },
+  "about": {
+    "description": "Solstice USX (USX) is a Solana-based synthetic stablecoin. Direct mint/redemption is oriented to KYC’d institutional users depositing stablecoins, while non-KYC users typically access USX through Solana DEX liquidity. The protocol pairs stable collateral with hedging/risk controls and offers yield via staking programs.",
+    "logo": "https://icons.llamao.fi/icons/rwa/solstice-usx.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://solstice.finance/"
+      ],
+      "twitter": "https://x.com/solsticefi",
+      "discord": "https://discord.gg/TSmeMaYty2",
+      "telegram": "https://t.me/Solstice_TG"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "solana",
+      "address": "6FrrzDk5mQARGc1TDYoyVnSyRdds1t4PbtohCD6p3tgG",
+      "deployedAt": "2026-02-11",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "solstice",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://solstice.finance/",
+        "https://docs.solstice.finance/"
+      ],
+      "protocolIds": [
+        6789
+      ]
+    }
+  ]
+}

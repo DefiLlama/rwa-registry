@@ -1,0 +1,67 @@
+{
+  "identity": {
+    "slug": "wtgold",
+    "symbol": "WTGOLD",
+    "name": "WisdomTree Gold Token",
+    "legacyId": 2719,
+    "canonicalMarketId": "WTGOLD"
+  },
+  "exposure": {
+    "underlying": "gold"
+  },
+  "class": {
+    "structure": "gold",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "gold-commodities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "about": {
+    "description": "WisdomTree Gold Token is issued by WisdomTree Digital and recorded on Stellar and Ethereum as an electronic document of title to LBMA good-delivery physical gold held with an independent custodian, HSBC, in London. Each token corresponds to a one-troy-ounce portion of an LBMA gold bar.",
+    "logo": "https://icons.llamao.fi/icons/rwa/wtgold.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://wisdomtree.gitbook.io"
+      ],
+      "twitter": "https://x.com/WisdomTreeFunds",
+      "docs": "https://www.wisdomtree.com/",
+      "linkedin": "https://www.linkedin.com/company/wisdomtree-investments"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "stellar",
+      "address": "GOLD-GCK75CK3VX5L4ZLSD7HHNVA4L3LKGIAYWLCZO2IBNGOFTBV3HJBE2MPJ",
+      "deployedAt": "2022-09-22",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "wisdomtree",
+      "kind": "issuer"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://www.wisdomtreeprime.com/attestations/"
+      ],
+      "note": "no date in the export"
+    }
+  ]
+}

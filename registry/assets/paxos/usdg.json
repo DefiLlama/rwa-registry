@@ -1,0 +1,123 @@
+{
+  "identity": {
+    "slug": "usdg",
+    "symbol": "USDG",
+    "name": "Global Dollar",
+    "legacyId": 578,
+    "canonicalMarketId": "USDG"
+  },
+  "exposure": {
+    "underlying": "us-dollar"
+  },
+  "class": {
+    "structure": "usd-stable",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "fiat-stablecoins"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "cexListed": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Monthly (KPMG LLP since Feb 2026, prior Enrome LLP)"
+  },
+  "sources": {
+    "coingeckoId": "global-dollar"
+  },
+  "about": {
+    "description": "Global Dollar (USDG) is a regulated USD stablecoin issued by Paxos (including Paxos Digital Singapore and Paxos Issuance Europe for EU distribution). USDG is positioned as a compliant, institution‑grade settlement token backed by high‑quality USD reserves with periodic attestation reporting and an ecosystem of distribution partners.",
+    "logo": "https://icons.llamao.fi/icons/rwa/usdg.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://globaldollar.com/"
+      ],
+      "twitter": "https://x.com/global_dollar",
+      "docs": "https://docs.paxos.com/",
+      "linkedin": "https://www.linkedin.com/company/paxos",
+      "telegram": "https://t.me/PaxosGlobal",
+      "github": "https://github.com/paxosglobal"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xe343167631d89b6ffc58b88d6b7fb0228795491d",
+      "deployedAt": "2024-10-07",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x137dcd97872de27a4d3bf36a4643c5e18fa40713",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x0644bd0248d5f89e4f6e845a91d15c23591e5d33",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xe343167631d89b6ffc58b88d6b7fb0228795491d",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x2fb074fa59c9294c71246825c1c9a0c7782d41a4",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "solana",
+      "address": "2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH",
+      "deployedAt": "2025-07-12"
+    },
+    {
+      "chain": "xlayer",
+      "address": "0x4ae46a509f6b1d9056937ba4500cb143933d2dc8",
+      "deployedAt": "2025-09-17"
+    },
+    {
+      "chain": "ink",
+      "address": "0xe343167631d89b6ffc58b88d6b7fb0228795491d",
+      "deployedAt": "2025-04-16"
+    },
+    {
+      "chain": "robinhood",
+      "address": "0x5fc5360d0400a0fd4f2af552add042d716f1d168",
+      "deployedAt": "2026-05-05"
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0x004b506865409877c9fa29bfb1eba929984b9bbc",
+      "deployedAt": "2026-02-12"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "paxos-digital-singapore-pte-ltd",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://paxos.com/",
+        "https://globaldollar.com/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "date": "2026-05-31",
+      "links": [
+        "https://paxos.com/usdg-transparency",
+        "https://globaldollar.com/"
+      ]
+    }
+  ]
+}

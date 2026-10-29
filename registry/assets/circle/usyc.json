@@ -1,0 +1,124 @@
+{
+  "identity": {
+    "slug": "usyc",
+    "symbol": "USYC",
+    "name": "US Yield Coin",
+    "legacyId": 81,
+    "canonicalMarketId": "USYC"
+  },
+  "exposure": {
+    "underlying": "usyc-reserve-portfolio"
+  },
+  "class": {
+    "structure": "mmf",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "bond-mmf-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "cexListed": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Daily"
+  },
+  "sources": {
+    "coingeckoId": "hashnote-usyc"
+  },
+  "about": {
+    "description": "USYC is a tokenized money market style fund exposure designed for institutional settlement and collateral use. It targets short-duration, high-quality income through a portfolio oriented around U.S. Treasury bills and repo-style cash equivalents, packaged into a transferable format intended for onchain treasury rails and integration with lending and liquidity venues.",
+    "logo": "https://icons.llamao.fi/icons/rwa/usyc.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.circle.com"
+      ],
+      "twitter": "https://x.com/circle",
+      "docs": "https://developers.circle.com/",
+      "linkedin": "https://www.linkedin.com/company/circle-internet-financial",
+      "discord": "https://discord.gg/buildoncircle",
+      "github": "https://github.com/circlefin"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x136471a34f6ef19fe571effc1ca711fdb8e49f2b",
+      "deployedAt": "2023-05-31",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x5c73e1cfdd85b7f1d608f7f7736fc8c653513b7a",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x5575a88bec5b47ce8d270f6a4f2418865f16afd5",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x470f3b37b9b20e13b0a2a5965df6bd3f9640dfb4",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "bsc",
+      "address": "0x8d0fa28f221eb5735bc71d3a0da67ee5bc821311",
+      "deployedAt": "2025-06-24",
+      "labels": [
+        {
+          "address": "0xf38979e05650be7926ea07bb59c48fb9b1db3d08",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x6b7d54003f73be979cf92bf369432ac534853692",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "solana",
+      "address": "7LWanZteUKtvFjv4MHYgKXXdAuCQYFPJysL9pxxdRQGn",
+      "deployedAt": "2025-09-18",
+      "labels": [
+        {
+          "address": "EMfvuBR8rre2f7sNqdDyPzQW7kgBUsVtxg7nX93YwAdm",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "hashnote-international-short-duration-yield-fund-ltd",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.circle.com/usyc"
+      ],
+      "protocolIds": [
+        2273
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://developers.circle.com/tokenized/usyc/overview",
+        "https://usyc.docs.hashnote.com/",
+        "https://help.circle.com/s/article/Product-Structuring"
+      ],
+      "note": "Daily (ongoing)"
+    }
+  ]
+}

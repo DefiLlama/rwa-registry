@@ -1,0 +1,55 @@
+{
+  "identity": {
+    "slug": "scope",
+    "symbol": "SCOPE",
+    "name": "Hamilton Lane Senior Credit Opportunities Fund access (KAIO)",
+    "legacyId": 2706,
+    "canonicalMarketId": "SCOPE"
+  },
+  "exposure": {
+    "underlying": "hamilton-lane-senior-credit-opportunities-fund"
+  },
+  "class": {
+    "structure": "credit-pool",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "private-credit"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "SCOPE on KAIO provides regulated, tokenized access to Hamilton Lane’s senior private credit strategy (SCOPE), designed for eligible investors with embedded compliance controls. The tokenized position is intended to be usable onchain where permitted, while maintaining institutional fund operations such as subscriptions, redemptions, and reporting.",
+    "logo": "https://icons.llamao.fi/icons/rwa/hamilton-lane-senior-credit-opportunities-fund-access-kaio.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.kaio.xyz/"
+      ],
+      "twitter": "https://x.com/KAIO_xyz",
+      "docs": "https://docs.kaio.finance/",
+      "linkedin": "https://www.linkedin.com/company/kaio-finance"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "kaio-tokenization-provider",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.kaio.xyz/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "identity": {
+    "slug": "wtgxx",
+    "symbol": "WTGXX",
+    "name": "WisdomTree Treasury Money Market Digital Fund",
+    "legacyId": 151,
+    "canonicalMarketId": "WTGXX"
+  },
+  "exposure": {
+    "underlying": "wisdomtree-treasury-money-market-digital-fund"
+  },
+  "class": {
+    "structure": "mmf",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "bond-mmf-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Monthly (N-MFP) + Semi-annual (N-CSRS) + Annual (N-CSR)"
+  },
+  "sources": {
+    "identifiers": [
+      {
+        "scheme": "isin",
+        "value": "US97717K7827",
+        "source": null,
+        "verified": false
+      }
+    ]
+  },
+  "about": {
+    "description": "WTGXX represents digital shares of the WisdomTree Treasury Money Market Digital Fund, a registered money market fund designed for current income, liquidity, and capital preservation with a stable $1.00 NAV objective. The portfolio is built around high-quality short-duration U.S. Treasury and government cash-equivalent exposure, packaged into a tokenized share format distributed through WisdomTree’s digital fund platforms for onchain settlement and integration.",
+    "logo": "https://icons.llamao.fi/icons/rwa/wtgxx.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.wisdomtreeconnect.com/digital-funds/money-market/wtgxx"
+      ],
+      "twitter": "https://x.com/WisdomTreePrime",
+      "docs": "https://www.wisdomtree.com/",
+      "linkedin": "https://www.linkedin.com/company/wisdomtree-investments"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x1fecf3d9d4fee7f2c02917a66028a48c6706c179",
+      "deployedAt": "2024-09-14",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x14009f8f0bd4870ee179d9acd4be5877cf8df3cb",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x0c561ed86ef65dd681500d6266c99e03dec3c541",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x434558cb1ebe9950e8a66f1ef8a15a473dce7d8c",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x5096b85ed11798fddcb8b5cb27c399c04689c435",
+      "deployedAt": "2025-03-17",
+      "labels": [
+        {
+          "address": "0x075aff8071fb03c3cfda10837ad8c2e1bda7d5da",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "avax",
+      "address": "0x870fd36b3bf7f5abeeea2c8d4abdf1dc4e33109d",
+      "deployedAt": "2025-03-18"
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0xfeb26f0943c3885b2cb85a9f933975356c81c33d",
+      "deployedAt": "2025-01-28",
+      "labels": [
+        {
+          "address": "0x14009f8f0bd4870ee179d9acd4be5877cf8df3cb",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "optimism",
+      "address": "0x870fd36b3bf7f5abeeea2c8d4abdf1dc4e33109d",
+      "deployedAt": "2025-03-20"
+    },
+    {
+      "chain": "plume_mainnet",
+      "address": "0xcf7a8813bd3bdaf70a9f46d310ce1ee8d80a4f5a",
+      "deployedAt": "2026-05-21",
+      "labels": [
+        {
+          "address": "0x14009f8f0bd4870ee179d9acd4be5877cf8df3cb",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x329c395d83493ea909ba3ce76b04766e17de4ea8",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "stellar",
+      "address": "WTGX-GDMBNMFJ3TRFLASJ6UGETFME3PJPNKPU24C7KFDBEBPQFG2CI6UC3JG6",
+      "deployedAt": "2023-11-07",
+      "labels": [
+        {
+          "address": "GCCUFOB2AHOB4AKDZ3VA7TF2EXJ65F3DEYXMUIXV4VCTTPA2IVMUZM2A",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "GBIOZAUJQD2NVPCYIIDW4PEKJXHNPRE4FFJXLKXRUHUROWYI6UMD726T",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "GATGJ7D4MKTLN7H4HRMJGADGP5V6TMZRNGZILFZVNZ2UYEAJAGUCP3IW",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "wisdomtree-digital-trust",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.sec.gov/cgi-bin/browse-edgar?CIK=0001859001&owner=include&action=getcompany"
+      ],
+      "protocolIds": [
+        2807
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "date": "2026-03-06",
+      "links": [
+        "https://www.wisdomtreeconnect.com/digital-funds/money-market/wtgxx",
+        "https://www.wisdomtreeconnect.com/prospectus-regulatory-reports",
+        "https://dataspanapi.wisdomtree.com/pdr/documents/WEBSITE_FUND_DETAILS/WDT/US/EN-US/WTGXX_3/"
+      ]
+    }
+  ]
+}

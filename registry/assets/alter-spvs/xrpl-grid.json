@@ -1,0 +1,68 @@
+{
+  "identity": {
+    "slug": "xrpl-grid",
+    "symbol": "GRID",
+    "name": "Wafergrid",
+    "legacyId": 4484,
+    "canonicalMarketId": "xrpl:GRID"
+  },
+  "exposure": {
+    "underlying": "wafergrid-technologies-pte-ltd"
+  },
+  "class": {
+    "structure": "pe-venture",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "about": {
+    "description": "GRID is an XRPL-issued token representing an economic interest in an Alter SPVs investment vehicle that holds an equity position in WaferGrid Technologies Pte Ltd, a Singapore private limited company. WaferGrid develops advanced wafer-level testing, probe solutions, metrology systems, and semiconductor manufacturing enablement technologies. WaferGrid does not issue or administer the token, and all tokenization activities are conducted independently through the Alter SPVs structure.",
+    "logo": "https://wafergrid.com/assets/favicon.png",
+    "links": {
+      "website": [
+        "https://wafergrid.com/"
+      ],
+      "docs": "https://wafergrid.com/digital-asset-disclosure.html"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ripple",
+      "address": "GRID:rBhZ4Gd5zLGEhyK1EngrtSRrRf49xYqdUL",
+      "deployedAt": "2026-06-02",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "alter-spvs",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://wafergrid.com/digital-asset-disclosure.html"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://wafergrid.com/digital-asset-disclosure.html"
+      ],
+      "note": "no date in the export"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "identity": {
+    "slug": "xidr",
+    "symbol": "XIDR",
+    "name": "XIDR",
+    "legacyId": 631,
+    "canonicalMarketId": "XIDR"
+  },
+  "exposure": {
+    "underlying": "indonesian-rupiah"
+  },
+  "class": {
+    "structure": "other-fiat-stable",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "fiat-stablecoins"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Semi-monthly (twice per month)"
+  },
+  "about": {
+    "description": "XIDR is an Indonesian rupiah stablecoin from StraitsX, intended for IDR-denominated transfers and payments with onchain settlement. It follows a centralized issuance model with offchain IDR reserves and supports permissionless transfers on public chains, enabling IDR liquidity for fintech integrations and web3 use cases in Southeast Asia.",
+    "logo": "https://icons.llamao.fi/icons/rwa/xidr.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.straitsx.com/xidr"
+      ],
+      "twitter": "https://x.com/xfers",
+      "docs": "https://docs.straitsx.com/",
+      "linkedin": "https://www.linkedin.com/company/straitsx"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xebf2096e01455108badcbaf86ce30b6e5a72aa52",
+      "deployedAt": "2020-06-29",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "straitsx",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.straitsx.com/xidr"
+      ]
+    }
+  ]
+}

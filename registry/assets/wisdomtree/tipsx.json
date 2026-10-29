@@ -1,0 +1,120 @@
+{
+  "identity": {
+    "slug": "tipsx",
+    "symbol": "TIPSX",
+    "name": "WisdomTree TIPS Digital Fund",
+    "legacyId": 164,
+    "canonicalMarketId": "TIPSX"
+  },
+  "exposure": {
+    "underlying": "wisdomtree-tips-digital-fund"
+  },
+  "class": {
+    "structure": "sovereign-bond-fund",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "bond-mmf-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Semi-annual (N-CSRS) + Annual (N-CSR)"
+  },
+  "sources": {
+    "identifiers": [
+      {
+        "scheme": "isin",
+        "value": "US97717K6001",
+        "source": null,
+        "verified": false
+      }
+    ]
+  },
+  "about": {
+    "description": "TIPSX represents digital shares of an inflation-protected U.S. Treasury strategy designed to track TIPS performance. It targets real-rate exposure and inflation linkage through tokenized shares that support digital distribution and onchain settlement while maintaining the economics of Treasury inflation-protected securities.",
+    "logo": "https://icons.llamao.fi/icons/rwa/tipsx.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.wisdomtreeconnect.com/digital-funds/fixed-income/tipsx"
+      ],
+      "twitter": "https://x.com/WisdomTreePrime",
+      "docs": "https://www.wisdomtree.com/",
+      "linkedin": "https://www.linkedin.com/company/wisdomtree-investments"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xa4964a2fe606f1d445e36006bcb7f7faee580042",
+      "deployedAt": "2025-03-31",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x14009f8f0bd4870ee179d9acd4be5877cf8df3cb",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x534a448ceb99d8ce1bbbb556a5c13c6fe79ca68c",
+      "deployedAt": "2025-03-17"
+    },
+    {
+      "chain": "avax",
+      "address": "0xbe0917f9d9d8a97e5ee0796831e0b05a1edc8437",
+      "deployedAt": "2025-03-18"
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0x4e933c45e1cfdd309eeef439bf0ec481c38849da",
+      "deployedAt": "2025-03-31"
+    },
+    {
+      "chain": "optimism",
+      "address": "0xbe0917f9d9d8a97e5ee0796831e0b05a1edc8437",
+      "deployedAt": "2025-03-20"
+    },
+    {
+      "chain": "plume_mainnet",
+      "address": "0x33b77b6a1d50b0eb225412a7ed20e41d47e6501e",
+      "deployedAt": null
+    },
+    {
+      "chain": "stellar",
+      "address": "TIPS-GAJ4KSYLVBJKQ4UBPKJJXPYWVIRZWVTIYRMHBXTHGCDS4XJXXYEUALVD",
+      "deployedAt": "2023-01-18"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "wisdomtree-digital-trust",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.sec.gov/cgi-bin/browse-edgar?CIK=0001859001&owner=include&action=getcompany"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "date": "2026-03-06",
+      "links": [
+        "https://www.wisdomtreeconnect.com/digital-funds/fixed-income/tipsx",
+        "https://www.wisdomtreeconnect.com/prospectus-regulatory-reports"
+      ]
+    }
+  ]
+}

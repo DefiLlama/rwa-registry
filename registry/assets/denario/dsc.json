@@ -1,0 +1,94 @@
+{
+  "identity": {
+    "slug": "dsc",
+    "symbol": "DSC",
+    "name": "Denario Silver Coin",
+    "legacyId": 38,
+    "canonicalMarketId": "DSC"
+  },
+  "exposure": {
+    "underlying": "silver"
+  },
+  "class": {
+    "structure": "silver",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "gold-commodities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Semi-annual"
+  },
+  "about": {
+    "description": "Denario Silver Coin (DSC) is positioned as a tokenized claim on physical silver granules, with each unit pegged to one ounce of 999.9 fine silver held in Swiss storage. The product is designed for onchain exposure to spot silver without requiring direct handling of bullion, while keeping the unit-of-account tied to a fixed weight of metal. Reserve verification is supported through published inventory audit reporting.",
+    "logo": "https://icons.llamao.fi/icons/rwa/dsc.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.denario.swiss/dsc"
+      ],
+      "twitter": "https://x.com/DenarioSwiss/",
+      "docs": "https://denario.finance/",
+      "linkedin": "https://www.linkedin.com/company/denario-finance",
+      "telegram": "https://t.me/DenarioSwiss"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "polygon",
+      "address": "0x5d4e735784293a0a8d37761ad93c13a0dd35c7e7",
+      "deployedAt": "2024-09-25",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x1d173ac02db93f692d6b9a58bdd66e78ff10b92a",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xb507a787cda02d6086f101d6067e9c35d58f1fc5",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "plume_mainnet",
+      "address": "0xc826b656c1c3c5fb2bdad90e8d794e6192b6762c",
+      "deployedAt": "2025-05-18"
+    },
+    {
+      "chain": "soneium",
+      "address": "0x7e9db61fa915f963e594a9f22c22653e415ff77f",
+      "deployedAt": "2025-05-14"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "denario-ag",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.denario.swiss"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "date": "2025-07-16",
+      "links": [
+        "https://www.denario.swiss/dsc",
+        "https://web.tresorit.com/l/PRH2S#8iOwCqo7Oj9TzNSTJxeCFw"
+      ]
+    }
+  ]
+}

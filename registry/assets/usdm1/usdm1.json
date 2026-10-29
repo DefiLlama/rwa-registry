@@ -1,0 +1,101 @@
+{
+  "identity": {
+    "slug": "usdm1",
+    "symbol": "USDM1",
+    "name": "USDM1",
+    "legacyId": 2992,
+    "canonicalMarketId": "USDM1"
+  },
+  "exposure": {
+    "underlying": "republic-of-the-marshall-islands-usdm1-sovereign-bond"
+  },
+  "class": {
+    "structure": "yield-rwa-stable",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "rwa-stablecoins"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Monthly"
+  },
+  "sources": {
+    "coingeckoId": "usdm1"
+  },
+  "about": {
+    "description": "USDM1 is a digital, fully collateralized, USD-denominated sovereign bond issued natively onchain by the Republic of the Marshall Islands. Each unit represents 1 Marshall Islands bond backed by short-dated U.S. Treasuries, with 100% collateralization maintained through a U.S. trust structure. Interest is paid in additional USDM1, accrues continuously, and capitalizes monthly. Holders can redeem principal plus the past month’s pro-rated accrued interest at par. Secondary transfers are permissionless, while direct minting and redemption require registered-bondholder onboarding and KYC/KYB review by MIFS. Official docs also state that Surus publishes monthly reserve statements and that collateral is limited by policy to very short-duration U.S. Treasuries, with a current maximum maturity of 30 days.",
+    "logo": "https://icons.llamao.fi/icons/rwa/usdm1.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://usdm1.com/"
+      ],
+      "twitter": "https://x.com/USDM1"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "stellar",
+      "address": "CAC743NYRBMS76L2DCPAXZTOEF6EJPKPVEC5OX2SXY7HOWNXISSLUE2C",
+      "deployedAt": "2025-09-29",
+      "primary": true,
+      "labels": [
+        {
+          "address": "CAYDBAJBA6G2HOZF5IH4MVIXG27FABWYV3UDO5Q2CPOCFUKLXSQAL66S",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "solana",
+      "address": "BNgsQdjfWmjoy3cw8T3VXWswHfgCzEMyQzUno8gmzmRC",
+      "deployedAt": "2025-08-21",
+      "labels": [
+        {
+          "address": "6ggkihJ8AwV1b37VMvQ9sHvpcsQ8xGHWcUFQ9p6LaCP2",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x90a1717e0dabe37693f79afe43ae236dc3b65957",
+      "deployedAt": "2025-12-09",
+      "labels": [
+        {
+          "address": "0xcbd3835dc09052cc046f0e647d85b2112de8b7e7",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "republic-of-the-marshall-islands",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://usdm1.com/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://m1x.gitbook.io/m1x-docs/I7OxtHZkKKU8hyv4Kh5H/asset-overview/collateral-transparency"
+      ],
+      "note": "December 2025"
+    }
+  ]
+}

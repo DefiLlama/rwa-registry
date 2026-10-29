@@ -1,0 +1,116 @@
+{
+  "identity": {
+    "slug": "eurspkcc",
+    "symbol": "eurSPKCC",
+    "name": "Spiko Digital Assets Cash & Carry Fund - Euro Share Class",
+    "legacyId": 2993,
+    "canonicalMarketId": "eurSPKCC"
+  },
+  "exposure": {
+    "underlying": "spiko-digital-assets-cash-and-carry-fund"
+  },
+  "class": {
+    "structure": "crypto-hedge-fund",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "crypto-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Quarterly"
+  },
+  "sources": {
+    "coingeckoId": "spiko-digital-assets-cash-carry-fund-euro-share-class",
+    "identifiers": [
+      {
+        "scheme": "isin",
+        "value": "FR0014010ON7",
+        "source": null,
+        "verified": false
+      }
+    ]
+  },
+  "about": {
+    "description": "Euro share class of the Spiko Digital Assets Cash & Carry Fund, a French FPS / AIF that allocates monthly to the most attractive opportunity among BTC CME futures cash-and-carry, ETH CME futures cash-and-carry, or Treasury bills. The EUR share class is hedged, accumulates income, has daily NAV on a D+1 basis, a 100,000 EUR minimum initial subscription, and is restricted to eligible investors / professional clients. The prospectus states that the share register is maintained on public DLTs and that only allowlisted wallet addresses validated by the management company may hold and transfer tokenized shares.",
+    "logo": "https://icons.llamao.fi/icons/rwa/eurspkcc.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.spiko.io/spiko-cash-and-carry"
+      ],
+      "twitter": "https://x.com/Spiko_finance",
+      "docs": "https://docs.spiko.io/",
+      "linkedin": "https://www.linkedin.com/company/spiko-finance",
+      "github": "Not publicly disclosed"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x3868d4e336d14d38031cf680329d31e4712e11cc",
+      "deployedAt": "2025-07-16",
+      "primary": true
+    },
+    {
+      "chain": "polygon",
+      "address": "0x99f70a0e1786402a6796c6b0aa997ef340a5c6da",
+      "deployedAt": "2025-07-16"
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0x0e389c83bc1d16d86412476f6103027555c03265",
+      "deployedAt": "2025-07-16"
+    },
+    {
+      "chain": "base",
+      "address": "0x4f33acf823e6eeb697180d553ce0c710124c8d59",
+      "deployedAt": "2025-07-16"
+    },
+    {
+      "chain": "stellar",
+      "address": "CDWOB6T7SVSMMQN5V3P2OPTBAXOP7DAZHGVW3PYTZIKHVFKN6TBSXR6A",
+      "deployedAt": "2025-10-01"
+    },
+    {
+      "chain": "starknet",
+      "address": "0x06472cabc51a3805975b9c60c7dec63897c9a287f2db173a1d6c589d18dd1e07",
+      "deployedAt": null
+    }
+  ],
+  "roles": [
+    {
+      "organization": "spiko",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.spiko.io/spiko-cash-and-carry",
+        "https://cdn.spiko.finance/legal_docs/EN/Prospectus_SPKCC_EN.pdf",
+        "https://geco.amf-france.org/produit-d-epargne/c79398"
+      ],
+      "protocolIds": [
+        4980
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://cdn.spiko.finance/legal_docs/EN/Prospectus_SPKCC_EN.pdf",
+        "https://cdn.spiko.finance/legal_docs/EN/KID_eurSPKCC_EN.pdf"
+      ],
+      "note": "no date in the export"
+    }
+  ]
+}

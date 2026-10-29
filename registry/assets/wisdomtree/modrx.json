@@ -1,0 +1,120 @@
+{
+  "identity": {
+    "slug": "modrx",
+    "symbol": "MODRX",
+    "name": "WisdomTree Siegel Moderate Digital Fund",
+    "legacyId": 157,
+    "canonicalMarketId": "MODRX"
+  },
+  "exposure": {
+    "underlying": "wisdomtree-siegel-moderate-digital-fund"
+  },
+  "class": {
+    "structure": "equity-basket",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Semi-annual (N-CSRS) + Annual (N-CSR)"
+  },
+  "sources": {
+    "identifiers": [
+      {
+        "scheme": "isin",
+        "value": "US97717K8320",
+        "source": null,
+        "verified": false
+      }
+    ]
+  },
+  "about": {
+    "description": "MODRX represents digital shares of a moderated risk allocation strategy designed to resemble a traditional balanced portfolio profile, typically mixing equity and fixed-income exposures through ETF holdings. It targets long-term capital appreciation with diversified construction while enabling tokenized share ownership for digital settlement and distribution.",
+    "logo": "https://icons.llamao.fi/icons/rwa/modrx.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.wisdomtreeconnect.com/digital-funds/asset-allocation/modrx"
+      ],
+      "twitter": "https://x.com/WisdomTreePrime",
+      "docs": "https://www.wisdomtree.com/",
+      "linkedin": "https://www.linkedin.com/company/wisdomtree-investments"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xfb20015fb2047320a0f1c209f35c6432147770e8",
+      "deployedAt": "2025-03-31",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x14009f8f0bd4870ee179d9acd4be5877cf8df3cb",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x90a5aad303d2170bc846cd1237939ac537f224a1",
+      "deployedAt": "2025-03-17"
+    },
+    {
+      "chain": "avax",
+      "address": "0x06ee92531ff2c8fdb5348b31b41df0f9a3a1ca97",
+      "deployedAt": "2025-03-18"
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0x496d35292d68c988ba37668ca92aafdaf5c35415",
+      "deployedAt": "2025-03-31"
+    },
+    {
+      "chain": "optimism",
+      "address": "0x06ee92531ff2c8fdb5348b31b41df0f9a3a1ca97",
+      "deployedAt": "2025-03-20"
+    },
+    {
+      "chain": "plume_mainnet",
+      "address": "0x3a269f19a624f8a822712393cbf37fc8ba667056",
+      "deployedAt": null
+    },
+    {
+      "chain": "stellar",
+      "address": "MODR-GANULT25TFO6V6BFWSEG4VSCR4QXBNHV5T344R2AFZEPE6B324LVLOOJ",
+      "deployedAt": "2023-12-12"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "wisdomtree-digital-trust",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.sec.gov/cgi-bin/browse-edgar?CIK=0001859001&owner=include&action=getcompany"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "date": "2026-03-06",
+      "links": [
+        "https://www.wisdomtreeconnect.com/digital-funds/asset-allocation/modrx",
+        "https://www.wisdomtreeconnect.com/prospectus-regulatory-reports"
+      ]
+    }
+  ]
+}

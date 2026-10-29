@@ -1,0 +1,82 @@
+{
+  "identity": {
+    "slug": "veda",
+    "symbol": "VEDA",
+    "name": "AyurVeda Shares",
+    "legacyId": 2988,
+    "canonicalMarketId": "VEDA"
+  },
+  "exposure": {
+    "underlying": "ayurveda"
+  },
+  "class": {
+    "structure": "pe-venture",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "about": {
+    "description": "Tokenized shares of AyurVeda AG. The issuer states that each VEDA token corresponds to one AyurVeda AG share and carries associated shareholder rights, including voting and dividends.",
+    "logo": "https://icons.llamao.fi/icons/rwa/veda.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.veda.ch/investors"
+      ],
+      "twitter": "https://x.com/aktionariat",
+      "docs": "https://docs.aktionariat.com/",
+      "linkedin": "https://www.linkedin.com/company/aktionariat-ag"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x2adcbee886d23eff5adecc7767bf102e4a1ce151",
+      "deployedAt": "2021-08-20",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x2c7670bcfa75a378b27891a9b467a90b171899bd",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "ayurveda-ag",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.veda.ch/investors",
+        "https://www.aktionariat.com/"
+      ]
+    },
+    {
+      "organization": "aktionariat-ag",
+      "kind": "tokenizer",
+      "sourceLinks": [
+        "https://www.veda.ch/investors",
+        "https://www.aktionariat.com/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "No public attestation date found"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "identity": {
+    "slug": "usda",
+    "symbol": "USDA",
+    "name": "Avalon USDa",
+    "legacyId": 589,
+    "canonicalMarketId": "USDA"
+  },
+  "exposure": {
+    "underlying": "us-dollar"
+  },
+  "class": {
+    "structure": "crypto-stable",
+    "type": "asset",
+    "rwaClassification": "programmable-finance",
+    "category": [
+      "non-rwa-stablecoins"
+    ]
+  },
+  "terms": {
+    "cexListed": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "about": {
+    "description": "Avalon USDa is a Bitcoin-collateralized stablecoin from Avalon Labs. It is minted via Avalon’s lending/CeDeFi model - users borrow USDa against BTC-derivative collateral (e.g., FBTC) and can also convert between USDa and USDT in-protocol - targeting BTCfi settlement and liquidity use cases.",
+    "logo": "https://icons.llamao.fi/icons/rwa/avalon-usda.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://avalonfinance.xyz/"
+      ],
+      "twitter": "https://x.com/avalonfinance_",
+      "docs": "https://docs.avalonfinance.xyz/",
+      "linkedin": "https://www.linkedin.com/company/avalon-labs"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "arbitrum",
+      "address": "0x0000206329b97db379d5e1bf586bbdb969c63274",
+      "deployedAt": "2024-01-10"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x0000206329b97db379d5e1bf586bbdb969c63274",
+      "deployedAt": "2024-01-10",
+      "primary": true
+    },
+    {
+      "chain": "optimism",
+      "address": "0x0000206329b97db379d5e1bf586bbdb969c63274",
+      "deployedAt": "2024-01-10"
+    },
+    {
+      "chain": "polygon",
+      "address": "0x0000206329b97db379d5e1bf586bbdb969c63274",
+      "deployedAt": "2024-01-10"
+    },
+    {
+      "chain": "xdai",
+      "address": "0x0000206329b97db379d5e1bf586bbdb969c63274",
+      "deployedAt": "2024-01-10"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "avalon-labs",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://avalonfinance.xyz/"
+      ]
+    }
+  ]
+}

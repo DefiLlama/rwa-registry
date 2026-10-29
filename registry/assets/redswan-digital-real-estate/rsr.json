@@ -1,0 +1,52 @@
+{
+  "identity": {
+    "slug": "rsr",
+    "symbol": "RSR",
+    "name": "Sedona Ranch - Equity Tranche 1",
+    "legacyId": 2731,
+    "canonicalMarketId": "RSR"
+  },
+  "exposure": {
+    "underlying": "sedona-ranch"
+  },
+  "class": {
+    "structure": "single-property",
+    "type": "asset",
+    "rwaClassification": "programmable-finance",
+    "category": [
+      "real-estate"
+    ]
+  },
+  "terms": {
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "about": {
+    "description": "Sedona Ranch - Equity Tranche 1 is an offering tied to a 268-unit multifamily property in Odessa, Texas. The tokenized security is offered to U.S. qualified purchasers and accredited investors under Regulation D, and to non-U.S. investors under Regulation S.",
+    "logo": "https://icons.llamao.fi/icons/rwa/rsr.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://redswan.io/"
+      ],
+      "twitter": "https://x.com/RedSwanDigital",
+      "docs": "https://www.redswan.io/",
+      "linkedin": "https://www.linkedin.com/company/redswan-cre"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "olympus-capital-real-estate-llc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://redswan.io/"
+      ]
+    }
+  ]
+}

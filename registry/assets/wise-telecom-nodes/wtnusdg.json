@@ -1,0 +1,88 @@
+{
+  "identity": {
+    "slug": "wtnusdg",
+    "symbol": "wtnUSDG",
+    "name": "Wise Telecom Nodes USDG",
+    "legacyId": 8362,
+    "canonicalMarketId": "wtnUSDG"
+  },
+  "exposure": {
+    "underlying": "world-mobile-airnode-telecom-infrastructure"
+  },
+  "class": {
+    "structure": "yield-rwa-stable",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "rwa-stablecoins"
+    ]
+  },
+  "terms": {
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "wtnUSDG is a deposit vault token issued by WiseSoft LLC under the WISE Token brand and marketed as exposure to World Mobile AirNode telecom infrastructure. World Mobile has publicly confirmed a distribution partnership with Wise Lending, but World Mobile is not the issuer and no public document establishes any World Mobile obligation to token holders. World Mobile documentation states that AirNodes cannot be fractionally operated and require a single registered owner, so holders do not hold title to node hardware. The instrument functions as an unsecured claim on WiseSoft that accrues a fixed rate set by the operator. The contract stores an interest rate of twenty percent annualized, reconfigurable by the admin up to a two hundred percent ceiling, and no contract logic reads node revenue. Interest accrues to a separate ledger rather than to the token balance, so the balance does not rebase and holders claim or compound separately. There is no issuer redemption function and no withdraw selector is registered on the diamond. The only exit is a peer funded sell order queue in which the seller sets a discount and another depositor fills the order. Deposits are forwarded off chain to a third party address rather than retained by the contract. The underlying deposit asset is USDG, the Global Dollar stablecoin, and the vault forwards to a different third party address than the USDC and USDT vaults use. The escrow mechanism is lock and release rather than mint and burn. Placing an order transfers tokens to the contract, leaving the queue returns them to the seller, and filling an order releases them to the buyer, with total supply unchanged throughout.",
+    "logo": "https://icons.llamao.fi/icons/rwa/wtnusdg.jpg?w=48&h=48",
+    "links": {
+      "website": [
+        "https://wisetoken.com/"
+      ],
+      "twitter": "https://x.com/Wise_Token",
+      "docs": "https://wisesoft.gitbook.io/wise",
+      "linkedin": "https://www.linkedin.com/company/wise-defi",
+      "discord": "https://discord.gg/FaAJP3pJu4",
+      "telegram": "https://t.me/WiseTokenCommunity; https://t.me/WiseToken",
+      "github": "https://github.com/wise-foundation"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x7e1e77ede1d3b67ee46d031fc7de9e1379856064",
+      "deployedAt": "2026-07-27",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x7e1e77ede1d3b67ee46d031fc7de9e1379856064",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xae2c0c6ead34b8e9156b146be8b724cdb80ba7e1",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0x7e1e77ede1d3b67ee46d031fc7de9e1379856064",
+      "deployedAt": "2026-07-23",
+      "labels": [
+        {
+          "address": "0x7e1e77ede1d3b67ee46d031fc7de9e1379856064",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xae2c0c6ead34b8e9156b146be8b724cdb80ba7e1",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "wisesoft-llc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.wisetoken.net/wise-token/wise-ethereum/introduction/wisesoft-llc"
+      ]
+    }
+  ]
+}

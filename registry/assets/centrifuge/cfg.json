@@ -1,0 +1,75 @@
+{
+  "identity": {
+    "slug": "cfg",
+    "symbol": "CFG",
+    "name": "Centrifuge",
+    "legacyId": 33,
+    "canonicalMarketId": "CFG"
+  },
+  "exposure": {
+    "underlying": "centrifuge"
+  },
+  "class": {
+    "structure": "governance-token",
+    "type": "asset",
+    "rwaClassification": "non-rwa-gov-utility",
+    "category": [
+      "governance-tokens",
+      "private-credit"
+    ]
+  },
+  "terms": {
+    "cexListed": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Not publicly disclosed (per-pool basis)"
+  },
+  "sources": {
+    "coingeckoId": "centrifuge-2"
+  },
+  "about": {
+    "description": "CFG is the governance and utility token of Centrifuge, an asset management and tokenization platform that supports onchain pools backed by real-world collateral. Centrifuge is commonly used by issuers to structure private credit, treasuries, and other asset-backed products with pool-level reporting and cash flow mechanics. CFG is used for protocol governance and aligns incentives across the Centrifuge ecosystem.",
+    "logo": "https://icons.llamao.fi/icons/rwa/centrifuge.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://centrifuge.io"
+      ],
+      "twitter": "https://x.com/centrifuge",
+      "docs": "https://docs.centrifuge.io/",
+      "linkedin": "https://www.linkedin.com/company/centrifuge-io",
+      "discord": "https://discord.com/invite/yEzyUq5gxF",
+      "telegram": "https://t.me/centrifuge_chat",
+      "github": "https://github.com/centrifuge"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xcccccccccc33d538dbc2ee4feab0a7a1ff4e8a94",
+      "deployedAt": "2025-03-31",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x4d749f2f24c6a0fd2695b76de461a882c837b3bc",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "centrifuge-gmbh",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.northdata.de/Centrifuge+GmbH,+Berlin/Amtsgericht+Charlottenburg+(Berlin)+HRB+194474+B"
+      ]
+    }
+  ]
+}

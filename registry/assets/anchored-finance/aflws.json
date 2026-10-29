@@ -1,0 +1,102 @@
+{
+  "identity": {
+    "slug": "aflws",
+    "symbol": "aFLWS",
+    "name": "1-800-Flowers.Com Inc aStock",
+    "legacyId": 9184,
+    "canonicalMarketId": "aFLWS"
+  },
+  "exposure": {
+    "underlying": "1-800-flowers-com-inc"
+  },
+  "class": {
+    "structure": "stock-backed",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Daily"
+  },
+  "about": {
+    "description": "Tokenized 1-800-Flowers.Com Inc. Each token is backed 1:1 by the underlying share, purchased through a FINRA-registered broker-dealer and held in regulated custody, and is redeemable for stablecoins.",
+    "logo": "https://img.anchored.finance/logos/FLWS.svg",
+    "links": {
+      "website": [
+        "https://anchored.finance/stocks"
+      ],
+      "twitter": "https://x.com/AnchoredFi",
+      "docs": "https://docs.anchored.finance/getting-started/anchored-tokens",
+      "linkedin": "https://www.linkedin.com/company/anchored-fi/",
+      "github": "https://github.com/AnchoredLabs"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x3a013978cbd3ed7b270c92009e6a6d1be8e6ac25",
+      "deployedAt": "2026-09-03"
+    },
+    {
+      "chain": "monad",
+      "address": "0x3a013978cbd3ed7b270c92009e6a6d1be8e6ac25",
+      "deployedAt": "2026-09-03",
+      "primary": true
+    },
+    {
+      "chain": "base",
+      "address": "0x3a013978cbd3ed7b270c92009e6a6d1be8e6ac25",
+      "deployedAt": "2026-09-03"
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0x3a013978cbd3ed7b270c92009e6a6d1be8e6ac25",
+      "deployedAt": "2026-09-03"
+    },
+    {
+      "chain": "robinhood",
+      "address": "0x3a013978cbd3ed7b270c92009e6a6d1be8e6ac25",
+      "deployedAt": "2026-09-04"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x3a013978cbd3ed7b270c92009e6a6d1be8e6ac25",
+      "deployedAt": "2026-09-08"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "anchored-capital-ltd",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://anchored.finance/",
+        "https://alpaca.markets/tokenization"
+      ]
+    },
+    {
+      "organization": "anchored-finance",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://accountable.anchored.finance/"
+      ],
+      "note": "no date in the export"
+    }
+  ]
+}

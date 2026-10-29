@@ -1,0 +1,84 @@
+{
+  "identity": {
+    "slug": "dgc",
+    "symbol": "DGC",
+    "name": "Denario Gold Coin",
+    "legacyId": 144,
+    "canonicalMarketId": "DGC"
+  },
+  "exposure": {
+    "underlying": "gold"
+  },
+  "class": {
+    "structure": "gold",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "gold-commodities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Semi-annual"
+  },
+  "about": {
+    "description": "Denario Gold Coin (DGC) is designed to represent one ounce of physical gold granules held in Swiss storage, offering a way to hold gold exposure in a transferable digital format. The issuer emphasizes custody in Switzerland and provides an attestation workflow that links outstanding supply to custodied inventory through published inventory audit reporting.",
+    "logo": "https://icons.llamao.fi/icons/rwa/dgc.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.denario.swiss"
+      ],
+      "twitter": "https://x.com/DenarioSwiss/",
+      "docs": "https://denario.finance/",
+      "linkedin": "https://www.linkedin.com/company/denario-finance",
+      "telegram": "https://t.me/DenarioSwiss"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "polygon",
+      "address": "0xf7e2d612f1a0ce09ce9fc6fc0b59c7fd5b75042f",
+      "deployedAt": "2024-10-09",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x1d173ac02db93f692d6b9a58bdd66e78ff10b92a",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xb507a787cda02d6086f101d6067e9c35d58f1fc5",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "denario-ag",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.denario.swiss/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "date": "2025-07-16",
+      "links": [
+        "https://www.denario.swiss/dgc",
+        "https://web.tresorit.com/l/PRH2S#8iOwCqo7Oj9TzNSTJxeCFw"
+      ]
+    }
+  ]
+}

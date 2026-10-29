@@ -1,0 +1,120 @@
+{
+  "identity": {
+    "slug": "lngvx",
+    "symbol": "LNGVX",
+    "name": "WisdomTree Siegel Longevity Digital Fund",
+    "legacyId": 156,
+    "canonicalMarketId": "LNGVX"
+  },
+  "exposure": {
+    "underlying": "wisdomtree-siegel-longevity-digital-fund"
+  },
+  "class": {
+    "structure": "mixed-rwa-fund",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Semi-annual (N-CSRS) + Annual (N-CSR)"
+  },
+  "sources": {
+    "identifiers": [
+      {
+        "scheme": "isin",
+        "value": "US97717K8247",
+        "source": null,
+        "verified": false
+      }
+    ]
+  },
+  "about": {
+    "description": "LNGVX represents digital shares of an asset-allocation strategy designed to tilt toward long-term growth themes associated with longevity, using a diversified portfolio primarily implemented via ETFs. The fund is built to behave like a more equity-forward alternative to traditional balanced allocations, delivered as tokenized shares intended for digital distribution and onchain settlement.",
+    "logo": "https://icons.llamao.fi/icons/rwa/lngvx.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.wisdomtreeconnect.com/digital-funds/asset-allocation/lngvx"
+      ],
+      "twitter": "https://x.com/WisdomTreePrime",
+      "docs": "https://www.wisdomtree.com/",
+      "linkedin": "https://www.linkedin.com/company/wisdomtree-investments"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x2ecad4280b7720ba4f3830b47ab8ef2da4763f04",
+      "deployedAt": "2025-03-31",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x14009f8f0bd4870ee179d9acd4be5877cf8df3cb",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0xc290ff6ee86454b83a31c61010cd50dd53a56f24",
+      "deployedAt": "2025-03-17"
+    },
+    {
+      "chain": "avax",
+      "address": "0xf5fe77f469e598ecd2c08e5f874c206f8cfee807",
+      "deployedAt": "2025-03-18"
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0x777a4d310cf66c1d272c7cd17bd054a456a26d34",
+      "deployedAt": "2025-03-31"
+    },
+    {
+      "chain": "optimism",
+      "address": "0xf5fe77f469e598ecd2c08e5f874c206f8cfee807",
+      "deployedAt": "2025-03-20"
+    },
+    {
+      "chain": "plume_mainnet",
+      "address": "0x7008c33b50dcb55fab47aa5b5f0b293cb0d17e54",
+      "deployedAt": "2025-10-21"
+    },
+    {
+      "chain": "stellar",
+      "address": "LNGV-GAHOGWBAWNIKESGNNW7Y7JU5KL54HIEHJGY6Y5QLY6YR3J7WZIDHLC6D",
+      "deployedAt": "2023-12-12"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "wisdomtree-digital-trust",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.sec.gov/cgi-bin/browse-edgar?CIK=0001859001&owner=include&action=getcompany"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "date": "2026-03-06",
+      "links": [
+        "https://www.wisdomtreeconnect.com/digital-funds/asset-allocation/lngvx",
+        "https://www.wisdomtreeconnect.com/prospectus-regulatory-reports"
+      ]
+    }
+  ]
+}

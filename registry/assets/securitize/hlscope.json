@@ -1,0 +1,79 @@
+{
+  "identity": {
+    "slug": "hlscope",
+    "symbol": "HLSCOPE",
+    "name": "Hamilton Lane Senior Credit Opportunities Securitize Fund",
+    "legacyId": 551,
+    "canonicalMarketId": "HLSCOPE"
+  },
+  "exposure": {
+    "underlying": "hamilton-lane-senior-credit-opportunities-fund"
+  },
+  "class": {
+    "structure": "credit-pool",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "private-credit"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "HLSCOPE is the tokenized feeder share class providing access to Hamilton Lane’s Senior Credit Opportunities Fund (SCOPE), an evergreen private credit strategy focused on senior secured loans to established borrowers in North America and Europe. The fund is positioned as a short‑duration, income‑oriented portfolio designed to deliver steady monthly yield while prioritizing capital preservation typical of senior‑secured lending. Through Securitize, HLSCOPE is issued as digital fund shares onchain (with Polygon as the primary issuance rail and additional networks supported). Hamilton Lane has highlighted a fully digital subscription experience and on‑demand redemptions for the tokenized share class, bringing private credit mechanics closer to “cash‑management‑like” usability without changing the underlying credit risk.",
+    "logo": "https://icons.llamao.fi/icons/rwa/hamilton-lane-senior-credit-opportunities-securitize-fund.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://securitize.io/primary-market/hl-scope"
+      ],
+      "twitter": "https://x.com/Securitize",
+      "docs": "https://docs.securitize.io",
+      "linkedin": "https://www.linkedin.com/company/securitize",
+      "telegram": "https://t.me/securitize",
+      "github": "https://github.com/securitize-io"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "polygon",
+      "address": "0x4c5ca366e26409845624e29b62c388a06961a792",
+      "deployedAt": "2024-12-19",
+      "primary": true
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xda2ffa104356688e74d9340519b8c17f00d7752e",
+      "deployedAt": "2025-07-17"
+    },
+    {
+      "chain": "optimism",
+      "address": "0x720f86f4b5b5d5d0ea3e5718ec43071d4d05134b",
+      "deployedAt": "2025-07-16"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "hamilton-lane-scope-securitize-tokenized-feeder-lp",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001976710&owner=exclude&count=40",
+        "https://securitize.io/primary-market/hl-scope"
+      ],
+      "protocolIds": [
+        6712
+      ]
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "identity": {
+    "slug": "hybond",
+    "symbol": "HYBOND",
+    "name": "Tokenized BNY Mellon Global Short-Dated High Yield Bond Fund",
+    "legacyId": 4474,
+    "canonicalMarketId": "HYBOND"
+  },
+  "exposure": {
+    "underlying": "bny-mellon-global-short-dated-high-yield-bond-fund"
+  },
+  "class": {
+    "structure": "corp-bond-fund",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "bond-mmf-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Daily NAV via oracle"
+  },
+  "about": {
+    "description": "HYBOND is a tokenized bond fund providing 1:1 exposure to the BNY Mellon Global Short-Dated High Yield Bond Fund, an actively managed portfolio of short-dated corporate bonds. Each token tracks the fund's daily NAV through an onchain PriceOracle and is deployed as an ERC-20 on Ethereum and BNB Chain. Settlement is T+4 on Luxembourg and US business days, with a 0.05% redemption fee and a 1.00% per annum management fee inclusive of BNY's fees. The token is issued by OpenEden Digital Limited under a Bermuda Monetary Authority DABA license, and underlying fund shares are custodied at BNY. The issuer disclaims any representation of rights or interests in or against BNY Mellon, its affiliates, or the underlying BNY fund directly. The investor relationship is with OpenEden as the digital asset issuer.",
+    "logo": "https://icons.llamao.fi/icons/rwa/hybond.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://openeden.com/hybond"
+      ],
+      "twitter": "https://x.com/OpenEden_X",
+      "docs": "https://docs.openeden.com/hybond/introduction",
+      "linkedin": "https://www.linkedin.com/company/openeden",
+      "telegram": "https://t.me/openeden"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x1204371ac0e5176f4b8c5b2f16c2bec551b6fc1a",
+      "deployedAt": "2026-03-29",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x72bb750da96993b2bda92e41521d4bf7ce814873",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x6dd9a122ef8f935120590cfcac206c0e95fb2634",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x7031a5b0e34aa59355c8bd10958304b24d47fee5",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "bsc",
+      "address": "0xb613ab1be4039a7d799ad968ba9e425b6bff4224",
+      "deployedAt": "2026-05-13",
+      "labels": [
+        {
+          "address": "0x72bb750da96993b2bda92e41521d4bf7ce814873",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x8ba078f1ab457520994380dc5d0b7a826750b508",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x80a34a43a54632d5330412e993bc784c7693a568",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "openeden-digital-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://openeden.com/hybond",
+        "https://docs.openeden.com/hybond/introduction"
+      ]
+    },
+    {
+      "organization": "openeden",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://docs.openeden.com/hybond/smart-contract-audits"
+      ],
+      "note": "no date in the export"
+    }
+  ]
+}

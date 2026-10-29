@@ -1,0 +1,104 @@
+{
+  "identity": {
+    "slug": "gltron",
+    "symbol": "GLTRon",
+    "name": "abrdn Physical Precious Metals Basket Shares ETF (Ondo Tokenized ETF)",
+    "legacyId": 2870,
+    "canonicalMarketId": "GLTRon"
+  },
+  "exposure": {
+    "underlying": "abrdn-precious-metals-basket-etf-trust"
+  },
+  "class": {
+    "structure": "etf-backed",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "etfs"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "cexListed": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Daily"
+  },
+  "sources": {
+    "identifiers": [
+      {
+        "scheme": "isin",
+        "value": "US0032631006",
+        "source": null,
+        "verified": false
+      }
+    ]
+  },
+  "about": {
+    "description": "GLTRon is an Ondo Global Markets tokenized ETF exposure designed to provide economic exposure to abrdn Physical Precious Metals Basket Shares ETF in an onchain format. The token is designed to be fully backed by the underlying publicly traded ETF, together with cash in transit, held with regulated custodial broker-dealers. Holdings attestations and ongoing reporting are surfaced through Ondo trust and transparency materials and the product asset page.",
+    "logo": "https://icons.llamao.fi/icons/rwa/gltr.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://app.ondo.finance/assets/gltron"
+      ],
+      "twitter": "https://x.com/ondofinance",
+      "docs": "https://docs.ondo.finance/",
+      "linkedin": "https://www.linkedin.com/company/ondofinance",
+      "discord": "https://discord.com/invite/ondofinance",
+      "telegram": "https://t.me/ondofinance",
+      "github": "https://github.com/ondoprotocol"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xd0a265a32d0211a7f61f11de014b854f7ce716f8",
+      "deployedAt": "2026-03-09",
+      "primary": true
+    },
+    {
+      "chain": "bsc",
+      "address": "0x15580092796f69825cff4738cac55d05d41eaa42",
+      "deployedAt": "2026-03-09"
+    },
+    {
+      "chain": "solana",
+      "address": "CgnZbDNzBfaLyJqUtd4esKLShRp7RznQuwP4uQaondo",
+      "deployedAt": "2026-03-09"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "ondo-global-markets-bvi-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.ondo.finance/ondo-global-markets/legal-and-regulatory"
+      ],
+      "protocolIds": [
+        2542,
+        6650
+      ]
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://app.ondo.finance/assets/gltron"
+      ],
+      "note": "Daily (ongoing)"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "identity": {
+    "slug": "rcoin",
+    "symbol": "RCOIN",
+    "name": "ArCoin",
+    "legacyId": 76,
+    "canonicalMarketId": "RCOIN"
+  },
+  "exposure": {
+    "underlying": "arca-u-s-treasury-fund"
+  },
+  "class": {
+    "structure": "sovereign-bond-fund",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "bond-mmf-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Semi-annual"
+  },
+  "sources": {
+    "identifiers": [
+      {
+        "scheme": "isin",
+        "value": "US03881A1051",
+        "source": null,
+        "verified": false
+      }
+    ]
+  },
+  "about": {
+    "description": "RCOIN (ArCoin) represents shares of the Arca U.S. Treasury Fund, designed as a tokenized cash-management product with exposure anchored to U.S. Treasury instruments and related cash equivalents. It is intended to track fund NAV through standard fund accounting, providing a conservative return profile oriented around liquidity and capital preservation rather than crypto market volatility.",
+    "logo": "https://icons.llamao.fi/icons/rwa/rcoin.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.arcalabs.com"
+      ],
+      "twitter": "https://x.com/arcalabs",
+      "docs": "https://docs.securitize.io",
+      "linkedin": "https://www.linkedin.com/company/securitize",
+      "telegram": "https://t.me/securitize",
+      "github": "https://github.com/securitize-io"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x252739487c1fa66eaeae7ced41d6358ab2a6bca9",
+      "deployedAt": "2021-08-19",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xd69fefe5df62373dcbde3e1f9625cf334a2dae78",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "arca-u-s-treasury-fund",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001758583&owner=exclude&count=40"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "date": "2026-03-09",
+      "links": [
+        "https://www.sec.gov/Archives/edgar/data/1758583/000158064226001676/arca_n-csr.htm",
+        "https://www.sec.gov/Archives/edgar/data/1758583/000158064225005921/arca_ncsrs.htm"
+      ]
+    }
+  ]
+}

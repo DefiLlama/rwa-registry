@@ -1,0 +1,59 @@
+{
+  "identity": {
+    "slug": "gro",
+    "symbol": "GRO",
+    "name": "GromaCoin",
+    "legacyId": 2727,
+    "canonicalMarketId": "GRO"
+  },
+  "exposure": {
+    "underlying": "groma-nav-reit-inc"
+  },
+  "class": {
+    "structure": "reit",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "real-estate"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "GromaCoin is a tokenized share linked to the Groma Real Estate Trust, giving fractional exposure to a portfolio of income-producing properties. The token is designed to pay dividends and participate in portfolio appreciation, while its onchain format enables use in crypto applications.",
+    "logo": "https://icons.llamao.fi/icons/rwa/gro.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.groma.com/"
+      ],
+      "twitter": "https://x.com/GromaCorp"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "base",
+      "address": "0xdb433b2c714d898fdb81fee9a6ca4a3f1c2a79a5",
+      "deployedAt": "2025-12-09",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "groma",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://whitepaper.groma.com/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "identity": {
+    "slug": "ngi",
+    "symbol": "NGI+",
+    "name": "Asseto NGI+",
+    "legacyId": 4602,
+    "canonicalMarketId": "NGI+"
+  },
+  "exposure": {
+    "underlying": "partners-group-next-generation-infrastructure-class-pc-usd-acc"
+  },
+  "class": {
+    "structure": "other-exotic",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "other-rwas"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Per issuer schedule"
+  },
+  "sources": {
+    "identifiers": [
+      {
+        "scheme": "isin",
+        "value": "LU2710930129",
+        "source": null,
+        "verified": false
+      }
+    ]
+  },
+  "about": {
+    "description": "NGI+ is a 1 to 1 asset-backed token collateralized via a BVI bare trust holding units of the Partners Group Next Generation Infrastructure Class PC USD ACC sub-fund. The underlying is a Luxembourg SICAV Part II fund audited by PwC, managed by Partners Group AG, and invests in a broadly diversified portfolio of private infrastructure direct and secondary investments with a priority on operational assets that offer strong downside protection. Redemption is available for equivalent value in cash or stablecoin. Pricing is sourced from a Redstone push feed referencing the fund fundamental NAV. Reale Assets publishes ongoing appendix documentation covering collateralization and structure, and the tokenization stack is operated by Hong Kong regulated technology partner Asseto Fintech.",
+    "logo": "https://icons.llamao.fi/icons/rwa/ngi.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://asseto.finance/"
+      ],
+      "twitter": "https://x.com/AssetoFinance",
+      "docs": "https://reale-assets.gitbook.io/reale/product/ngi+",
+      "linkedin": "https://www.linkedin.com/company/asseto-finance",
+      "github": "https://github.com/AssetoFinance"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xf252c5bd43907a6cab079e990845a37a7c5730d9",
+      "deployedAt": "2026-04-27",
+      "primary": true
+    },
+    {
+      "chain": "bsc",
+      "address": "0x50bf2924cee59737ead76e881643ed8569bae6e8",
+      "deployedAt": "2026-04-27"
+    },
+    {
+      "chain": "pharos",
+      "address": "0x85f51213a6c3f2566af519d296bb75ad4ec6d234",
+      "deployedAt": "2026-03-19"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "reale-assets-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://reale-assets.gitbook.io/reale/product/ngi+/appendix"
+      ]
+    },
+    {
+      "organization": "redstone",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://reale-assets.gitbook.io/reale/product/ngi+/appendix",
+        "https://app.redstone.finance/push-feeds/NGI%2B_FUNDAMENTAL/ethereumMultiFeed"
+      ],
+      "note": "Ongoing (per appendix disclosures)"
+    }
+  ]
+}

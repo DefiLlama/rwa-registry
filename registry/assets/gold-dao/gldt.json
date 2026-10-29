@@ -1,0 +1,113 @@
+{
+  "identity": {
+    "slug": "gldt",
+    "symbol": "GLDT",
+    "name": "Gold Token",
+    "legacyId": 540,
+    "canonicalMarketId": "GLDT"
+  },
+  "exposure": {
+    "underlying": "gold"
+  },
+  "class": {
+    "structure": "gold",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "gold-commodities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "sources": {
+    "coingeckoId": "gold-token"
+  },
+  "about": {
+    "description": "Gold Token (GLDT) is a fungible token from Gold DAO backed by audited physical gold held in Swiss vaults via GLD NFTs. 1 GLDT represents 0.01 grams of gold (100 GLDT = 1g). GLDT is native to Internet Computer (ledger canister) and is bridged to EVM networks including Ethereum, Arbitrum, and Base for DeFi usage. To redeem physical gold, GLDT is swapped back into a GLD NFT through the GLDT Swap app, then redeemed with Bity under KYC/AML. Vault audit reports (KPMG factual findings) are published periodically to reconcile issued gold certificates with gold stored at Loomis Schweiz AG.",
+    "logo": "https://icons.llamao.fi/icons/rwa/gldt.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://gldt.org/"
+      ],
+      "twitter": "https://x.com/thegolddao",
+      "docs": "https://docs.gold-dao.org/",
+      "linkedin": "https://www.linkedin.com/company/gold-dao",
+      "github": "https://github.com/GoldDAO"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x86856814e74456893cfc8946bedcbb472b5fa856",
+      "deployedAt": "2025-07-09",
+      "labels": [
+        {
+          "address": "0x533fa0db425fe4f12e3f5381edc0593c7c477580",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0x86856814e74456893cfc8946bedcbb472b5fa856",
+      "deployedAt": "2025-07-09"
+    },
+    {
+      "chain": "base",
+      "address": "0x86856814e74456893cfc8946bedcbb472b5fa856",
+      "deployedAt": "2025-07-09",
+      "labels": [
+        {
+          "address": "0x1ed9e8751c37d75c16d13a4c87f8c5c04c9f809f",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xea758cac6115309b325c582fd0782d79e3502177",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x785648669b8e90a75a6a8de682258957f9028462",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "icp",
+      "address": "6c7su-kiaaa-aaaar-qaira-cai",
+      "deployedAt": "2024-10-29",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "bity-tokenisation-sa",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.gold-dao.org/how-to/redeem-physical-gold"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "date": "2025-09-30",
+      "links": [
+        "https://docs.gold-dao.org/other/audit-reports",
+        "https://2669388926-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FhyYilEcr51QGR1f1ZQ8w%2Fuploads%2Fsq2DN60j11A1A0uL3tHX%2FAudit%20Report%2009-2025.pdf?alt=media&token=7a7a500e-1321-4e9d-8046-46ae8199e244",
+        "https://2669388926-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FhyYilEcr51QGR1f1ZQ8w%2Fuploads%2FDvBT6l5RRUM3CNmkt3qb%2FAudit%20Report%2006-2025.pdf?alt=media&token=983e987e-1043-48d9-be9e-11467d658e73",
+        "https://2669388926-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FhyYilEcr51QGR1f1ZQ8w%2Fuploads%2FtV5XDYtDxRlFqbMeI7MD%2FAudit%20report%2003-2025.pdf?alt=media&token=0c07359e-0e0d-4473-b8ef-b345c1f6fcc0"
+      ]
+    }
+  ]
+}

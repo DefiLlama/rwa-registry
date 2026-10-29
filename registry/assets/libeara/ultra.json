@@ -1,0 +1,86 @@
+{
+  "identity": {
+    "slug": "ultra",
+    "symbol": "ULTRA",
+    "name": "ULTRA",
+    "legacyId": 98,
+    "canonicalMarketId": "ULTRA"
+  },
+  "exposure": {
+    "underlying": "libeara-ultra"
+  },
+  "class": {
+    "structure": "t-bills",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "bond-mmf-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "about": {
+    "description": "ULTRA is a tokenized ultra-short Treasury strategy designed to deliver stable yield and high liquidity through regulated fund operations paired with onchain settlement. It is positioned for treasury allocation and collateral use cases where NAV-based accounting and conservative duration risk are preferred, enabling scalable onchain cash management.",
+    "logo": "https://icons.llamao.fi/icons/rwa/ultra.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://libeara.com/ultra/"
+      ],
+      "twitter": "https://x.com/Hashnote_Labs",
+      "docs": "https://libeara.com/",
+      "linkedin": "https://www.linkedin.com/company/libeara",
+      "github": "https://github.com/libeara"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x50293dd8889b931eb3441d2664dce8396640b419",
+      "deployedAt": "2024-12-24",
+      "primary": true
+    },
+    {
+      "chain": "avax",
+      "address": "0x66c5bd0816fdb2d335b9e96432f182b4d8ae38c9",
+      "deployedAt": "2022-01-01"
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0xc26af85ede9cc25d449bcebef866bb85afd5d346",
+      "deployedAt": "2025-07-18"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "delta-master-trust-delta-wellington-ultra-short-treasury-on-chain-fund",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://lei.bloomberg.com/leis/view/254900KXTB54L7HWSM13"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://libeara.com/ultra/",
+        "https://libeara.com/fundbridge-and-libeara-launch-regulated-tokenised-treasury-fund-on-avalanche/",
+        "https://reports.adviserinfo.sec.gov/reports/ADV/333916/PDF/333916.pdf"
+      ],
+      "note": "Not publicly disclosed"
+    }
+  ]
+}

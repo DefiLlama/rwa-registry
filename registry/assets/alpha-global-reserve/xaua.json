@@ -1,0 +1,77 @@
+{
+  "identity": {
+    "slug": "xaua",
+    "symbol": "XAUa",
+    "name": "Alpha Gold",
+    "legacyId": 4603,
+    "canonicalMarketId": "XAUa"
+  },
+  "exposure": {
+    "underlying": "gold"
+  },
+  "class": {
+    "structure": "gold",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "gold-commodities"
+    ]
+  },
+  "terms": {
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "about": {
+    "description": "XAUa is a tokenized gold product issued on Ethereum by Alpha Global Reserve Limited under the Alpha Token brand. One token is designed to represent one gram of 999.9 fine LBMA-certified physical gold with allocated and segregated custody in Hong Kong. The reference standard is LBMA Good Delivery at 99.99 percent purity. Backing verification has significant gaps as of this review. The whitepaper uses non-binding language for material claims, no auditor is publicly named for either reserves or smart contracts, no proof of reserves page is live at alphatoken.com, no Chainlink Proof of Reserves feed exists, and the custodian is not specifically identified. Current on-chain supply is de minimis at approximately 10 tokens (about 10 grams of gold, roughly one thousand two hundred United States dollars notional) held across two addresses including the issuer Gnosis Safe. Redemption for physical bars requires LBMA Good Delivery bar aggregation, and stablecoin redemption remains at the issuer's discretion. The token contract is an EIP-1967 TransparentUpgradeableProxy deployed via CreateX with time-locked privileged operations. United States persons and sanctioned persons are excluded from onboarding.",
+    "logo": "https://icons.llamao.fi/icons/rwa/xaua.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://alphatoken.com/"
+      ],
+      "twitter": "https://x.com/AlphaTokenHQ",
+      "docs": "https://pub-resources.alphatoken.com/resources/docs/en/whitepaper.pdf"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xf7303119e4e58c1f912cfc39d30f0167429a3dc2",
+      "deployedAt": "2026-04-16",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xb2f54b919c93070758d8b6cacdf8cd5df8e3e558",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "sui",
+      "address": "0xbed7eeda3f172e5b106a1d407a42055c6b1083beefb0ab1a7c9a01d45330eb81::xaua::XAUA",
+      "deployedAt": "2026-08-21",
+      "labels": [
+        {
+          "address": "0x9dd583ed48239772736486592cdd4258a52224edc8aa6e37124dcac6a647749e",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "alpha-global-reserve-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://pub-resources.alphatoken.com/resources/docs/en/whitepaper.pdf"
+      ]
+    }
+  ]
+}

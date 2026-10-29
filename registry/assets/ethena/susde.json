@@ -1,0 +1,190 @@
+{
+  "identity": {
+    "slug": "susde",
+    "symbol": "sUSDe",
+    "name": "Ethena Staked USDe",
+    "legacyId": 8818,
+    "canonicalMarketId": "sUSDe"
+  },
+  "exposure": {
+    "underlying": "ethena-usde"
+  },
+  "class": {
+    "structure": "stable-yield-wrapper",
+    "type": "wrapper",
+    "rwaClassification": "programmable-finance",
+    "category": [
+      "rwa-wrappers"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "sources": {
+    "coingeckoId": "ethena-staked-usde"
+  },
+  "about": {
+    "description": "sUSDe is the staked form of Ethena USDe. Depositors stake USDe in an ERC-4626 vault on Ethereum and receive a non-rebasing share token whose redemption value rises as protocol rewards accrue, so the position grows through share price rather than through a rising balance. Unstaking passes through a cooldown enforced by the vault before USDe can be withdrawn. Ethena describes the reward stream as protocol revenue from funding and basis spread on delta-hedged crypto positions, from lending revenue, from real world asset yield, and from liquid stablecoin rewards, so only part of the return is real world asset income and the dominant driver in normal conditions is perpetual funding. The share of backing held in liquid stablecoins and tokenized short-duration government debt rises when funding rates fall below Treasury yields, which is the purpose of the USDtb allocation. Rewards are distributed at the discretion of the protocol and periods of negative revenue are absorbed by the reserve fund rather than passed to holders. The Ethereum contract is the canonical vault and the deployments on other chains are bridged representations that do not themselves hold USDe.",
+    "logo": "https://icons.llamao.fi/icons/rwa/ethena-susde.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.ethena.fi"
+      ],
+      "twitter": "https://x.com/ethena_labs",
+      "docs": "https://docs.ethena.fi/",
+      "linkedin": "https://www.linkedin.com/company/ethena-labs",
+      "telegram": "https://t.me/ethena_labs",
+      "github": "https://github.com/ethena-labs"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x9d39a5de30e57443bff2a8307a4256c8797a3497",
+      "deployedAt": "2023-11-14",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x3b0aaf6e6fcd4a7ceef8c92c32dfea9e64dc1862",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x211cc4dd073734da055fbf44a2b4667d5e5fe5d2",
+      "deployedAt": "2024-06-14"
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0x211cc4dd073734da055fbf44a2b4667d5e5fe5d2",
+      "deployedAt": "2024-03-11"
+    },
+    {
+      "chain": "optimism",
+      "address": "0x211cc4dd073734da055fbf44a2b4667d5e5fe5d2",
+      "deployedAt": "2024-03-11"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x211cc4dd073734da055fbf44a2b4667d5e5fe5d2",
+      "deployedAt": "2024-03-11"
+    },
+    {
+      "chain": "avax",
+      "address": "0x211cc4dd073734da055fbf44a2b4667d5e5fe5d2",
+      "deployedAt": "2025-08-08"
+    },
+    {
+      "chain": "mantle",
+      "address": "0x211cc4dd073734da055fbf44a2b4667d5e5fe5d2",
+      "deployedAt": "2024-03-08"
+    },
+    {
+      "chain": "scroll",
+      "address": "0x211cc4dd073734da055fbf44a2b4667d5e5fe5d2",
+      "deployedAt": "2024-03-11"
+    },
+    {
+      "chain": "linea",
+      "address": "0x211cc4dd073734da055fbf44a2b4667d5e5fe5d2",
+      "deployedAt": "2024-03-20"
+    },
+    {
+      "chain": "blast",
+      "address": "0x211cc4dd073734da055fbf44a2b4667d5e5fe5d2",
+      "deployedAt": "2024-04-20"
+    },
+    {
+      "chain": "mode",
+      "address": "0x211cc4dd073734da055fbf44a2b4667d5e5fe5d2",
+      "deployedAt": "2024-03-12"
+    },
+    {
+      "chain": "berachain",
+      "address": "0x211cc4dd073734da055fbf44a2b4667d5e5fe5d2",
+      "deployedAt": "2025-01-23"
+    },
+    {
+      "chain": "fraxtal",
+      "address": "0x211cc4dd073734da055fbf44a2b4667d5e5fe5d2",
+      "deployedAt": "2024-03-12"
+    },
+    {
+      "chain": "kava",
+      "address": "0x211cc4dd073734da055fbf44a2b4667d5e5fe5d2",
+      "deployedAt": "2026-01-02"
+    },
+    {
+      "chain": "hyperliquid",
+      "address": "0x211cc4dd073734da055fbf44a2b4667d5e5fe5d2",
+      "deployedAt": "2025-04-28"
+    },
+    {
+      "chain": "plasma",
+      "address": "0x211cc4dd073734da055fbf44a2b4667d5e5fe5d2",
+      "deployedAt": "2025-09-10"
+    },
+    {
+      "chain": "zircuit",
+      "address": "0x211cc4dd073734da055fbf44a2b4667d5e5fe5d2",
+      "deployedAt": "2026-01-02"
+    },
+    {
+      "chain": "metis",
+      "address": "0x211cc4dd073734da055fbf44a2b4667d5e5fe5d2",
+      "deployedAt": "2024-03-11"
+    },
+    {
+      "chain": "xlayer",
+      "address": "0x211cc4dd073734da055fbf44a2b4667d5e5fe5d2",
+      "deployedAt": "2024-06-14"
+    },
+    {
+      "chain": "manta",
+      "address": "0x211cc4dd073734da055fbf44a2b4667d5e5fe5d2",
+      "deployedAt": "2024-03-08"
+    },
+    {
+      "chain": "morph",
+      "address": "0x211cc4dd073734da055fbf44a2b4667d5e5fe5d2",
+      "deployedAt": "2024-12-16"
+    },
+    {
+      "chain": "monad",
+      "address": "0x211cc4dd073734da055fbf44a2b4667d5e5fe5d2",
+      "deployedAt": "2026-06-11"
+    },
+    {
+      "chain": "era",
+      "address": "0xad17da2f6ac76746ef261e835c50b2651ce36da8",
+      "deployedAt": "2024-06-14"
+    },
+    {
+      "chain": "solana",
+      "address": "Eh6XEPhSwoLv5wFApukmnaVSHQ6sAnoD9BmgmwQoN2sN",
+      "deployedAt": "2026-08-19"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "ethena-labs-s-a",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.lei-lookup.com/record/894500K29XZNTAWSC539/"
+      ],
+      "protocolIds": [
+        4133
+      ]
+    }
+  ]
+}

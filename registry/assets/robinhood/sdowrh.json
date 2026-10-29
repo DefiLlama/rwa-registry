@@ -1,0 +1,83 @@
+{
+  "identity": {
+    "slug": "sdowrh",
+    "symbol": "SDOW",
+    "name": "ProShares UltraShort Dow Jones Industrial Average • Robinhood Token",
+    "legacyId": 2212,
+    "canonicalMarketId": "SDOWrh"
+  },
+  "exposure": {
+    "underlying": "proshares-ultrashort-dow-jones-industrial-average"
+  },
+  "class": {
+    "structure": "equity-basket",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "yieldBearing": false
+  },
+  "about": {
+    "description": "SDOW is a tokenized tracker certificate issued by Robinhood Markets, Inc. through Robinhood Europe UAB, deployed on Arbitrum One. It is designed to reflect the price of the SDOW ETF in a format accessible on-chain, providing synthetic exposure rather than direct fund ownership under MiFID II regulatory oversight. Trading is available 24/5 to EU/EEA customers, and on-chain pricing is supplied through Chainlink oracle feeds.",
+    "logo": "https://icons.llamao.fi/icons/rwa/dxd.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://robinhood.com/stocks"
+      ],
+      "twitter": "https://x.com/RobinhoodApp",
+      "docs": "https://robinhood.com/us/en/support/",
+      "linkedin": "https://www.linkedin.com/company/robinhood-markets",
+      "discord": "https://discord.com/invite/robinhood",
+      "github": "https://github.com/robinhood"
+    }
+  },
+  "review": {
+    "activeAumReviewed": false,
+    "suspicious": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "arbitrum",
+      "address": "0xa77aec7346a151d4ee6b44c51f28e4669debc70c",
+      "deployedAt": "2025-10-15",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xcbdf630a858e7d87b5b08d92968ca14ca0f8f556",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xd29aa2b0584856c2b3b097595e9d4b1cd1242e05",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "robinhood-markets-inc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://robinhood.com/eu/en/about/"
+      ]
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

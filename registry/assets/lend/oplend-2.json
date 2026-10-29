@@ -1,0 +1,110 @@
+{
+  "identity": {
+    "slug": "oplend-2",
+    "symbol": "opLEND-2",
+    "name": "Lend Vouziers - Commercial Units",
+    "legacyId": 3967,
+    "canonicalMarketId": "opLEND-2"
+  },
+  "exposure": {
+    "underlying": "vouziers-commercial-property-france-la-poste-anchor"
+  },
+  "class": {
+    "structure": "re-credit",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "real-estate"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "On audit (Hashlock v2, Dec 2025); monthly investor reporting"
+  },
+  "about": {
+    "description": "Tokenized bond financing a commercial real estate operation at 32 Rue Chanzy, Vouziers, France (FR). $423,470 funded at 12.5% fixed APR with weekly payouts. Has already distributed 5,382.55 USDC to bondholders. Underlying is a two-building property in central Vouziers anchored by La Poste / La Banque Postale (€45,000/yr rent, 9-year lease renewed Dec 2025). SPV is 51% Lend / 49% property trader. Buy-and-resell strategy without renovation. 12-24 month duration. Audited by Hashlock. ERC-20 (opLEND-2) deployed cross-chain via LayerZero with primary supply on Ethereum. Audited by Hashlock (Dec 2025). 1 High severity finding resolved, 1 Medium acknowledged by design for regulatory refund compliance. EU MiCA framework via partner.",
+    "logo": "https://icons.llamao.fi/icons/rwa/oplend-2.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://lend.xyz/"
+      ],
+      "twitter": "https://x.com/lendxyz",
+      "docs": "https://docs.lend.xyz/",
+      "github": "https://github.com/lendxyz",
+      "refLinks": [
+        "https://app.lend.xyz/?ref=3WJ0FUZS"
+      ]
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x35aa0e6b72a57965eef2dde4025f2bc73fd3d6be",
+      "deployedAt": "2026-04-13",
+      "primary": true
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0xac57590a40995e1a19c20a43d15c9e4dee026c88",
+      "deployedAt": "2026-04-13"
+    },
+    {
+      "chain": "base",
+      "address": "0x8d06d78bd5ec97104ce3c7f10a73516fe1ab4525",
+      "deployedAt": "2026-04-13"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x8d8c97db218999abb4404633b3ef571c8ab6fbae",
+      "deployedAt": "2026-04-13"
+    },
+    {
+      "chain": "linea",
+      "address": "0xa0e66c1e35208f3ae8e761ed6664f4c946464ffa",
+      "deployedAt": "2026-04-13"
+    },
+    {
+      "chain": "polygon",
+      "address": "0x1d46f61a04eb3fec5a9b9a8afab01ff52e6ddbb6",
+      "deployedAt": "2026-04-13"
+    },
+    {
+      "chain": "sonic",
+      "address": "0xf7ba2d7a911300bcc1057ab22a44ca2237ff34ad",
+      "deployedAt": "2026-04-13"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "lend-sa",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.lend.xyz/"
+      ]
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://hashlock.com/wp-content/uploads/2025/12/Lend-xyz-Smart-Contract-Audit-Report-Final-Report-v2.pdf"
+      ],
+      "note": "2025-12"
+    }
+  ]
+}

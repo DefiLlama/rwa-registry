@@ -1,0 +1,70 @@
+{
+  "identity": {
+    "slug": "vrpcq",
+    "symbol": "VRPCQ",
+    "name": "R25 VRPC Quarterly",
+    "legacyId": 3907,
+    "canonicalMarketId": "VRPCQ"
+  },
+  "exposure": {
+    "underlying": "r25-variable-real-private-credit-quarterly"
+  },
+  "class": {
+    "structure": "credit-pool",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "private-credit"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Periodic"
+  },
+  "about": {
+    "description": "VRPC-Quarterly (VRPCQ) is R25's 92-day fixed-term Variable Real Private Credit token on Pharos (Axil Consumer Credit Vault - 3M). Executes RWA-based lending strategies and seeks economic exposure to diversified consumer credit assets across emerging markets.",
+    "logo": "https://icons.llamao.fi/icons/rwa/r25.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.r25.xyz/"
+      ],
+      "twitter": "https://x.com/R25Official",
+      "docs": "https://docs.r25.xyz/"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "pharos",
+      "address": "0x94f7ebc6ae0819a4b4e231ae6ddaaf9bfd2a1a86",
+      "deployedAt": "2026-04-17",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "r25",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.r25.xyz/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://drive.google.com/drive/folders/1gf69cHLkplY1fEgItlQRRvcNukNNWGoU"
+      ],
+      "note": "no date in the export"
+    }
+  ]
+}

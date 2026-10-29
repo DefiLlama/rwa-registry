@@ -1,0 +1,110 @@
+{
+  "identity": {
+    "slug": "usdz",
+    "symbol": "USDz",
+    "name": "Anzen USDz",
+    "legacyId": 195,
+    "canonicalMarketId": "USDz"
+  },
+  "exposure": {
+    "underlying": "us-dollar"
+  },
+  "class": {
+    "structure": "yield-rwa-stable",
+    "type": "asset",
+    "rwaClassification": "programmable-finance",
+    "category": [
+      "rwa-stablecoins",
+      "bond-mmf-funds"
+    ]
+  },
+  "terms": {
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "sources": {
+    "coingeckoId": "anzen-usdz"
+  },
+  "about": {
+    "description": "USDz is Anzen’s yield-bearing dollar stablecoin designed around a diversified collateral base associated with private credit and cash-flowing real-world exposures. It targets a stable unit of account with returns embedded via product mechanics, while keeping transparency and reserve visibility as core design goals for onchain treasury and collateral use cases.",
+    "logo": "https://icons.llamao.fi/icons/rwa/anzen-usdz.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://anzen.finance"
+      ],
+      "twitter": "https://x.com/anzenfinance",
+      "docs": "https://docs.anzen.finance/",
+      "linkedin": "https://www.linkedin.com/company/anzen-finance",
+      "discord": "https://discord.gg/anzen",
+      "telegram": "https://t.me/anzenfinance",
+      "github": "https://github.com/Anzen-Finance"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xa469b7ee9ee773642b3e93e842e5d9b5baa10067",
+      "deployedAt": "2024-05-16",
+      "labels": [
+        {
+          "address": "0x5d74abb95e85cba124fb27df08994ef072b5d49b",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x547213367cfb08ab418e7b54d7883b2c2aa27fd7",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x604e831a23c902f45c33460998bab51e601a3613",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x20b15ee712b3c368af48ea5a59430be93a71eb3b",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x04d5ddf5f3a8939889f11e97f8c4bb48317f1938",
+      "deployedAt": "2024-05-16",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xa87c9808c0ebe20a1427b5c769623c77201f6f4d",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "blast",
+      "address": "0x52056ed29fe015f4ba2e3b079d10c0b87f46e8c6",
+      "deployedAt": "2024-07-01"
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0x5018609ab477cc502e170a5accf5312b86a4b94f",
+      "deployedAt": "2024-08-19"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "anzen-finance",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.anzen.finance/"
+      ],
+      "protocolIds": [
+        4744
+      ]
+    }
+  ]
+}

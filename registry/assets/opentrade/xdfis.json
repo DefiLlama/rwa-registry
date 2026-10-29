@@ -1,0 +1,64 @@
+{
+  "identity": {
+    "slug": "xdfis",
+    "symbol": "XDFIS",
+    "name": "OpenTrade Diversified Fixed Income Strategy Vault",
+    "legacyId": 4076,
+    "canonicalMarketId": "XDFIS"
+  },
+  "exposure": {
+    "underlying": "diversified-fixed-income"
+  },
+  "class": {
+    "structure": "mixed-rwa-fund",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "bond-mmf-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "XDFIS is an OpenTrade yield vault on Avalanche giving an institutional client USDC-denominated exposure to a diversified fixed-income strategy. Shares follow the ERC-4626 vault standard with yield accruing in the share price, and assets are held through OpenTrade's bankruptcy-remote SPV and regulated-custody framework. The vault currently has a single funded holder.",
+    "logo": "https://icons.llamao.fi/icons/rwa/xdfis.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.open-trade.io"
+      ],
+      "twitter": "https://x.com/opentrade_io",
+      "docs": "https://docs.opentrade.io"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "avax",
+      "address": "0xc0fd0afa73b35544cea520138cfdfa723bead848",
+      "deployedAt": "2026-02-27",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "opentrade-bankruptcy-remote-spv-regulated-custody-framework",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.opentrade.io"
+      ]
+    },
+    {
+      "organization": "opentrade-bankruptcy-remote-spv-regulated-custody-framework",
+      "kind": "oracle"
+    }
+  ]
+}

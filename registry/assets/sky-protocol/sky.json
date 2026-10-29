@@ -1,0 +1,76 @@
+{
+  "identity": {
+    "slug": "sky",
+    "symbol": "SKY",
+    "name": "Sky RWA",
+    "legacyId": 64,
+    "canonicalMarketId": "SKY"
+  },
+  "exposure": {
+    "underlying": "sky-protocol"
+  },
+  "class": {
+    "structure": "governance-token",
+    "type": "asset",
+    "rwaClassification": "non-rwa-gov-utility",
+    "category": [
+      "governance-tokens",
+      "rwa-stablecoins"
+    ]
+  },
+  "terms": {
+    "cexListed": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "sources": {
+    "coingeckoId": "sky"
+  },
+  "about": {
+    "description": "SKY is the governance token for the Sky Protocol ecosystem, which includes a decentralized stablecoin stack and savings products supported by diversified collateral. The system’s collateral framework has historically included both crypto collateral and real-world asset exposure through structured allocations, aiming to support scalable stablecoin liquidity with risk-managed backing. SKY governs parameters such as collateral policy, risk limits, and incentive design across the Sky ecosystem.",
+    "logo": "https://icons.llamao.fi/icons/rwa/sky-rwa.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://sky.money"
+      ],
+      "twitter": "https://x.com/SkyEcosystem",
+      "docs": "https://docs.sky.money/",
+      "linkedin": "https://www.linkedin.com/company/skyecosystem",
+      "discord": "https://discord.com/invite/XeZQ8HxSEN",
+      "github": "https://github.com/makerdao"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x56072c95faa701256059aa122697b133aded9279",
+      "deployedAt": "2024-09-02",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xfa21de6f225c25b8f13264f1bff5e1e44a37f96e",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "sky-protocol",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://sky.money"
+      ],
+      "protocolIds": [
+        118
+      ]
+    }
+  ]
+}

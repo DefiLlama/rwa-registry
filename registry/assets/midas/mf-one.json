@@ -1,0 +1,97 @@
+{
+  "identity": {
+    "slug": "mf-one",
+    "symbol": "MF-ONE",
+    "name": "mF-ONE",
+    "legacyId": 172,
+    "canonicalMarketId": "MF-ONE"
+  },
+  "exposure": {
+    "underlying": "one-fasanara-multi-strategy"
+  },
+  "class": {
+    "structure": "credit-pool",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "private-credit",
+      "bond-mmf-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Continuous (Midas Attestation Engine, Chainlink + vlayer)"
+  },
+  "sources": {
+    "coingeckoId": "midas-mf-one"
+  },
+  "about": {
+    "description": "mF-ONE is a tokenized certificate issued by Midas designed to track the performance of Fasanara Capital’s F-ONE strategy, which blends private credit style exposures with additional diversified sleeves as structured by the manager. It is positioned as a way to access institutional credit returns through a transferable token format, with integrations that allow the position to be used as collateral in onchain lending markets.",
+    "logo": "https://icons.llamao.fi/icons/rwa/mf-one.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://midas.app/mfone"
+      ],
+      "twitter": "https://x.com/midasrwa",
+      "docs": "https://docs.midas.app/",
+      "linkedin": "https://www.linkedin.com/company/midas-rwa",
+      "discord": "https://discord.com/invite/WRU5ryX",
+      "telegram": "https://t.me/midasrwa"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x238a700ed6165261cf8b2e544ba797bc11e466ba",
+      "deployedAt": "2025-05-08",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x41438435c20b1c2f1fca702d387889f346a0c3de",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x44b0440e35c596e858cea433d0d82f5a985fd19c",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x44ac1031d245d965fe5f016da9ba643cd79f95f3",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x9db5b0b081e2202fb588cbd541b01b77f45cfe2d",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "midas-software-gmbh",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.midas.app/liquid-yield-token"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "date": "2026-07-03",
+      "links": [
+        "https://midas.app/transparency",
+        "https://docs.midas.app/how-does-it-work/transparency"
+      ]
+    }
+  ]
+}

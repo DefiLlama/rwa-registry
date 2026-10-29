@@ -1,0 +1,65 @@
+{
+  "identity": {
+    "slug": "ariaip",
+    "symbol": "ARIAIP",
+    "name": "Aria Protocol",
+    "legacyId": 30,
+    "canonicalMarketId": "ARIAIP"
+  },
+  "exposure": {
+    "underlying": "aria-protocol"
+  },
+  "class": {
+    "structure": "governance-token",
+    "type": "asset",
+    "rwaClassification": "non-rwa-gov-utility",
+    "category": [
+      "governance-tokens",
+      "other-rwas"
+    ]
+  },
+  "terms": {
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "sources": {
+    "coingeckoId": "aria-2"
+  },
+  "about": {
+    "description": "ARIAIP is the coordination token for Aria Protocol, a platform focused on tokenized intellectual property, starting with music rights and royalty-like cash flows. Aria’s design is aimed at turning historically illiquid IP ownership into onchain, tradable exposures, with ARIAIP used for governance, ecosystem incentives, and liquidity alignment around IP-based RWAs. The protocol is built to interface with the Story ecosystem for IP primitives.",
+    "logo": "https://icons.llamao.fi/icons/rwa/aria-protocol.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://ariaprotocol.xyz"
+      ],
+      "twitter": "https://x.com/Aria_Protocol",
+      "docs": "https://docs.aria.finance/",
+      "linkedin": "https://www.linkedin.com/company/aria-protocol",
+      "discord": "https://discord.com/invite/ariaprotocol"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "sty",
+      "address": "0xc9cbbd8f211300dd0e7a3933b7aeedac6f61dd52",
+      "deployedAt": "2026-07-23",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "aria-protocol-labs-inc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://ariaprotocol.xyz"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "identity": {
+    "slug": "arts",
+    "symbol": "ARTS",
+    "name": "Art Leasing & Invest Shares",
+    "legacyId": 2980,
+    "canonicalMarketId": "ARTS"
+  },
+  "exposure": {
+    "underlying": "art-leasing-invest"
+  },
+  "class": {
+    "structure": "pe-venture",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "about": {
+    "description": "Tokenized shares of Art Leasing & Invest AG, a Swiss art-financing and art-leasing business. The company marketed tokenization of 10% of its equity through Aktionariat.",
+    "logo": "https://icons.llamao.fi/icons/rwa/arts.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.artleasing.com/investors"
+      ],
+      "twitter": "https://x.com/aktionariat",
+      "docs": "https://docs.aktionariat.com/",
+      "linkedin": "https://www.linkedin.com/company/aktionariat-ag"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xc0da2786176dac9eda661c566828950ca571348c",
+      "deployedAt": "2022-10-12",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x3398dc99896c028802c6d95d36ac908d6d8c2e1b",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "art-leasing-invest-ag",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.artleasing.com/investors",
+        "https://www.aktionariat.com/"
+      ]
+    },
+    {
+      "organization": "aktionariat-ag",
+      "kind": "tokenizer",
+      "sourceLinks": [
+        "https://www.artleasing.com/investors",
+        "https://www.aktionariat.com/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "No public attestation date found"
+    }
+  ]
+}

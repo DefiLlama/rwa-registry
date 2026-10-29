@@ -1,0 +1,70 @@
+{
+  "identity": {
+    "slug": "kau",
+    "symbol": "KAU",
+    "name": "Kinesis Gold",
+    "legacyId": 107,
+    "canonicalMarketId": "KAU"
+  },
+  "exposure": {
+    "underlying": "gold"
+  },
+  "class": {
+    "structure": "gold",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "gold-commodities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Biannual"
+  },
+  "sources": {
+    "coingeckoId": "kinesis-gold"
+  },
+  "about": {
+    "description": "Kinesis Gold (KAU) is a digital gold unit designed to represent fully allocated physical gold held within the Kinesis monetary system. It is built for transfer and settlement while maintaining backing in vaulted bullion, and it is supported by recurring independent audits intended to verify 1:1 allocation of underlying metal across the system.",
+    "logo": "https://icons.llamao.fi/icons/rwa/kau.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://kinesis.money/gold"
+      ],
+      "twitter": "https://x.com/KinesisMonetary",
+      "docs": "https://kinesis.money/",
+      "linkedin": "https://www.linkedin.com/company/kinesismoney",
+      "telegram": "https://t.me/kinesismoney",
+      "github": "https://github.com/KinesisNetwork"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "kinesis-cayman",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://kinesis.money/legal"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "date": "2025-10-17",
+      "links": [
+        "https://kinesis.money/gold/",
+        "https://kinesis.money/audits/"
+      ]
+    }
+  ]
+}

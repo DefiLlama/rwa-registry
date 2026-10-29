@@ -1,0 +1,98 @@
+{
+  "identity": {
+    "slug": "aaplcryptocom",
+    "symbol": "AAPL",
+    "name": "Apple Inc. (Crypto.com Tokenized Stock)",
+    "legacyId": 8982,
+    "canonicalMarketId": "AAPLcryptocom"
+  },
+  "exposure": {
+    "underlying": "apple-inc"
+  },
+  "class": {
+    "structure": "synthetic-stock",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "cexListed": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "sources": {
+    "identifiers": [
+      {
+        "scheme": "isin",
+        "value": "US0378331005",
+        "source": null,
+        "verified": false
+      }
+    ]
+  },
+  "about": {
+    "description": "AAPL on Crypto.com is a tokenized stock issued on the Cronos chain that tracks the price of Apple Inc. The token is a ledger based derivative issued by Foris Capital, so a holder takes price exposure without owning the underlying security and without voting or dividend rights. Dividends and corporate actions are applied by the issuer as adjustments to the token balance rather than paid out in cash. Trading runs around the clock inside the Crypto.com app with a minimum order size of one dollar and no commission. Redemption is settled for economic value rather than in shares, and tokens can be withdrawn to the Cronos chain for onchain use.",
+    "logo": "https://icons.llamao.fi/icons/rwa/aapl.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://crypto.com/en/tokenized-stocks"
+      ],
+      "twitter": "https://x.com/cryptocom",
+      "docs": "https://help.crypto.com/en/collections/19630596-tokenized-stocks",
+      "linkedin": "https://www.linkedin.com/company/cryptocom",
+      "discord": "https://discord.com/invite/nsp9JTC",
+      "telegram": "https://t.me/CryptocomOfficial"
+    }
+  },
+  "review": {
+    "activeAumReviewed": false,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "cronos",
+      "address": "0xac0d79e3e50a0c26162c4609fcd3ad1ba35e6e82",
+      "deployedAt": "2026-08-26",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x7aab40e6761e47f00ff47df36847f318aa4d0588",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x587082eda402630bbedde3c477d738df0abf0476",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x48ee13859aa34eea259cf6ccb6a45019753f34b0",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "foris-capital-mu-ltd",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://crypto.com/document/fcmu-tokenised-equities-terms",
+        "https://crypto.com/document/fccy-tokenised-equities-terms"
+      ]
+    },
+    {
+      "organization": "foris-capital-cy-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://crypto.com/document/fcmu-tokenised-equities-terms",
+        "https://crypto.com/document/fccy-tokenised-equities-terms"
+      ]
+    }
+  ]
+}

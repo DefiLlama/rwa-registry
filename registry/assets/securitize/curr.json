@@ -1,0 +1,71 @@
+{
+  "identity": {
+    "slug": "curr",
+    "symbol": "CURR",
+    "name": "Currenc Group Inc. Tokenized Shares",
+    "legacyId": 4092,
+    "canonicalMarketId": "CURR"
+  },
+  "exposure": {
+    "underlying": "currenc-group"
+  },
+  "class": {
+    "structure": "stock-backed",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Annual"
+  },
+  "about": {
+    "description": "CURR tokens are Nasdaq-listed Currenc Group Inc. ordinary shares natively tokenized by Securitize on Solana, giving holders the same ownership and voting rights as traditional shares with 24/7 on-chain transferability between KYC-verified wallets. Shareholders can convert between traditional and tokenized form via Securitize acting as co-transfer agent.",
+    "logo": "https://icons.llamao.fi/icons/rwa/curr.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://currenc.com"
+      ],
+      "docs": "https://securitize.io"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "solana",
+      "address": "Db7QEHL5keqhukiPFXo2zw6LXnkkyvToTBazge4aUZbG",
+      "deployedAt": "2026-04-01",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "currenc-group-inc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://news.bitcoin.com/currenc-group-tokenizes-ordinary-shares-on-ethereum-and-solana-via-securitize/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "date": "2026-04-30",
+      "links": [
+        "https://www.sec.gov/Archives/edgar/data/1862935/000149315226020709/form20-f.htm"
+      ]
+    }
+  ]
+}

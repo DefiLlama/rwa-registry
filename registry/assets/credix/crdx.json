@@ -1,0 +1,62 @@
+{
+  "identity": {
+    "slug": "crdx",
+    "symbol": "CRDX",
+    "name": "Credix",
+    "legacyId": 37,
+    "canonicalMarketId": "CRDX"
+  },
+  "exposure": {
+    "underlying": "credix"
+  },
+  "class": {
+    "structure": "governance-token",
+    "type": "asset",
+    "rwaClassification": "non-rwa-gov-utility",
+    "category": [
+      "governance-tokens",
+      "private-credit"
+    ]
+  },
+  "terms": {
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "about": {
+    "description": "CRDX is the governance token associated with Credix, a private-credit marketplace that originated on Solana with a focus on financing real-economy borrowers via receivables and emerging-market lending partners. The platform connects stablecoin liquidity to credit pools that are underwritten and managed offchain, with onchain units representing investor participation in those pools. CRDX is used for governance and ecosystem incentives.",
+    "logo": "https://icons.llamao.fi/icons/rwa/credix.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://credix.finance"
+      ],
+      "twitter": "https://x.com/Credix_finance",
+      "docs": "https://docs.credix.finance/",
+      "linkedin": "https://www.linkedin.com/company/credix-finance",
+      "github": "https://github.com/credix-finance"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "solana",
+      "address": "CRDx2YkdtYtGZXGHZ59wNv1EwKHQndnRc1gT4p8i2vPX",
+      "deployedAt": "2022-01-12",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "credix-finance-bv",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.credix.finance/other-links-and-resources/privacy-policy"
+      ]
+    }
+  ]
+}

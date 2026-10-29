@@ -1,0 +1,86 @@
+{
+  "identity": {
+    "slug": "itry",
+    "symbol": "iTRY",
+    "name": "Brix iTRY",
+    "legacyId": 3797,
+    "canonicalMarketId": "iTRY"
+  },
+  "exposure": {
+    "underlying": "turkish-lira"
+  },
+  "class": {
+    "structure": "other-fiat-stable",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "fiat-stablecoins"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Continuous (on-chain PoR)"
+  },
+  "sources": {
+    "coingeckoId": "brix-itry"
+  },
+  "about": {
+    "description": "iTRY is a Turkish Lira-pegged stablecoin backed by a BVI-regulated fund investing in Turkish money market instruments. Provides global stablecoin holders with exposure to Turkey's elevated central bank policy rate (~40% annualized historically). Institutional participants mint at NAV. ITRY itself is freely transferable. On-chain Proof of Reserves verification. Deployed on Ethereum + MegaETH via LayerZero. Oracle: RedStone, launched April 20, 2026.",
+    "logo": "https://icons.llamao.fi/icons/rwa/itry.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://brix.money/"
+      ],
+      "twitter": "https://x.com/brix_money",
+      "docs": "https://docs.brix.money/",
+      "linkedin": "https://www.linkedin.com/company/brix-capital/",
+      "telegram": "https://t.me/BrixDotMoney",
+      "github": "https://github.com/InverterNetwork"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xb492b4afd9658093694cf9452d5c272e8230f3b0",
+      "deployedAt": "2026-03-12",
+      "primary": true
+    },
+    {
+      "chain": "megaeth",
+      "address": "0x996ce957408804fec19237d866799d9c7076e48c",
+      "deployedAt": "2026-04-21"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "brix",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://brix.money/itry"
+      ]
+    },
+    {
+      "organization": "redstone",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://accountable.brix.money/"
+      ],
+      "note": "On-chain Proof of Reserves"
+    }
+  ]
+}

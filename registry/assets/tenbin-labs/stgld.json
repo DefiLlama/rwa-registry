@@ -1,0 +1,63 @@
+{
+  "identity": {
+    "slug": "stgld",
+    "symbol": "STGLD",
+    "name": "Staked Tenbin Gold",
+    "legacyId": 4786,
+    "canonicalMarketId": "STGLD"
+  },
+  "exposure": {
+    "underlying": "gold"
+  },
+  "class": {
+    "structure": "gold",
+    "type": "asset",
+    "rwaClassification": "programmable-finance",
+    "category": [
+      "rwa-wrappers",
+      "gold-commodities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "Staked Tenbin Gold is the ERC-4626 staking vault that receives protocol revenue distributions for Tenbin's gold product. Holders deposit tGLD and receive STGLD, whose redemption value per share rises as the protocol mints new asset tokens into the staking pool. Tenbin generates that revenue from yield on the on-chain USDC collateral backing tGLD, deployed to third-party lending vaults, net of the cost of maintaining hedge exposure, together with hedge performance and market adjustment fees. The issuer states that holding the unstaked asset token does not entitle the holder to rewards, so the yield accrues only to this staked wrapper. Accrual is live and measurable on-chain, with redemption value per share standing above the one to one launch baseline. Scale is currently negligible. Total supply is approximately 0.46 tokens across 23 holders, against a tGLD supply of approximately 258 tokens, so under one percent of the asset token supply is staked. Contract identity was verified on Ethereum and matches the address published by the issuer. The on-chain symbol is STGLD. Tenbin documentation refers to the token as stGLD.",
+    "links": {
+      "website": [
+        "https://tenbinlabs.xyz/"
+      ],
+      "twitter": "https://x.com/tenbinlabs",
+      "docs": "https://docs.tenbinlabs.xyz",
+      "telegram": "https://t.me/liquid_and_yield_bearing",
+      "github": "https://github.com/tenbinlabs/tenbin-contracts"
+    }
+  },
+  "review": {
+    "activeAumReviewed": false,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x8d301801d899dc81feabbde69407a53b82bdbf19",
+      "deployedAt": "2026-05-05",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "tenbin-labs",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.tenbinlabs.xyz/solution-overview/core-addresses"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "identity": {
+    "slug": "ahyper",
+    "symbol": "aHYPER",
+    "name": "Hyperithm Delta Neutral Vault",
+    "legacyId": 4548,
+    "canonicalMarketId": "aHYPER"
+  },
+  "exposure": {
+    "underlying": "delta-neutral-crypto-strategies-funding-rate-arbitrage-pendle-pts-leveraged-inte"
+  },
+  "class": {
+    "structure": "crypto-hedge-fund",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "crypto-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Continuous"
+  },
+  "about": {
+    "description": "aHYPER is the ERC-4626 share token of the Hyperithm Delta Neutral Vault on Monad. Deposited USDC is deployed by Hyperithm, a digital asset manager based in Tokyo and Seoul, across delta-neutral crypto strategies including funding-rate arbitrage, Pendle PT positions, leveraged interest-rate arbitrage, and lending / DEX liquidity provision. Yield accrues to share price via ERC-4626 convertToAssets. Reserves are continuously verified through Accountable's Proof of Solvency feed at accountable.hyperithm.com.",
+    "logo": "https://cdn.morpho.org/assets/logos/ahyper.svg",
+    "links": {
+      "website": [
+        "https://www.hyperithm.com/"
+      ],
+      "twitter": "https://x.com/hyperithm",
+      "docs": "https://www.hyperithm.com/"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "monad",
+      "address": "0x7cd231120a60f500887444a9baf5e1bd753a5e59",
+      "deployedAt": "2026-01-09",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xd0943c76ee287793559c1df82e5b2b858dd01ef3",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xef759e3f7fe04ac8c5b63736e5196ded52eaf34e",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x7ffba42c05867ddf4175725946df89d4ce4fce5a",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x4b07aaa370189e5603df56c84f59c5a59181bfb1",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x4de9b4d7b70d1680cd8e3a2c60717cbbe6014991",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "hyperithm-co-ltd",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.hyperithm.com/"
+      ],
+      "protocolIds": [
+        6204,
+        7092
+      ]
+    },
+    {
+      "organization": "hyperithm-co-ltd",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://accountable.hyperithm.com/"
+      ],
+      "note": "Continuous"
+    }
+  ]
+}

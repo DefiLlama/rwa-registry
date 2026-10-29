@@ -1,0 +1,81 @@
+{
+  "identity": {
+    "slug": "rbaba",
+    "symbol": "rBABA",
+    "name": "Alibaba Group Holding Limited (ADR) (Reality Tokenized)",
+    "legacyId": 4682,
+    "canonicalMarketId": "rBABA"
+  },
+  "exposure": {
+    "underlying": "alibaba-group-holding-limited"
+  },
+  "class": {
+    "structure": "stock-backed",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Continuous"
+  },
+  "sources": {
+    "llamaAttestationProof": false
+  },
+  "about": {
+    "description": "rBABA is a tokenized Alibaba Group Holding Limited (ADR) share issued by Reality on Arbitrum, designed to track the economic performance of Alibaba Group Holding Limited (ADR) (BABA) at a 1:1 ratio. Each rBABA is backed by a corresponding share held through Alpaca Securities LLC, a FINRA-registered and SIPC-covered US broker-dealer, with reserves continuously verified by The Network Firm through Reality's Proof of Asset dashboard. Reality is a regulated RWA issuance platform within the Bitget ecosystem.",
+    "logo": "https://icons.llamao.fi/icons/rwa/rbaba.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://realityfinance.xyz/"
+      ],
+      "twitter": "https://x.com/RealityFi_xyz",
+      "docs": "https://realityfinance.xyz/info/docs/",
+      "refLinks": [
+        "0"
+      ]
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "arbitrum",
+      "address": "0x7d310a5f26e8e3184280799b6ac1e2e724cee37c",
+      "deployedAt": "2026-06-02",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "reality-bitget-subsidiary",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://realityfinance.xyz/"
+      ]
+    },
+    {
+      "organization": "the-network-firm",
+      "kind": "auditor"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://realityfinance.xyz/por"
+      ],
+      "note": "Continuous (on-chain)"
+    }
+  ]
+}

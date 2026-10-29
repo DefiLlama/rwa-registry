@@ -1,0 +1,126 @@
+{
+  "identity": {
+    "slug": "safo",
+    "symbol": "SAFO",
+    "name": "Spiko Amundi Overnight Swap Fund (USD)",
+    "legacyId": 2995,
+    "canonicalMarketId": "SAFO"
+  },
+  "exposure": {
+    "underlying": "spiko-amundi-overnight-swap-fund-usd"
+  },
+  "class": {
+    "structure": "mmf",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "bond-mmf-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Quarterly"
+  },
+  "sources": {
+    "coingeckoId": "safo",
+    "identifiers": [
+      {
+        "scheme": "isin",
+        "value": "FR001400ODM9",
+        "source": null,
+        "verified": false
+      }
+    ]
+  },
+  "about": {
+    "description": "USD share class of the Spiko Amundi Overnight Swap Fund (SAFO), a French AMF-authorized UCITS cash-management fund under SPIKO SICAV. SAFO uses fully collateralized total return swaps with Tier 1 banks, starting with BNP Paribas, to deliver overnight liquidity and yields above the EFFR benchmark. The tokenized shares are issued across Ethereum, Polygon, Arbitrum, Base, Etherlink, Stellar, and Starknet, with Chainlink publishing NAV onchain. Holdings and transfers are restricted to allowlisted wallets.",
+    "logo": "https://icons.llamao.fi/icons/rwa/safo.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.spiko.io/spiko-dollar"
+      ],
+      "twitter": "https://x.com/Spiko_finance",
+      "docs": "https://docs.spiko.io/",
+      "linkedin": "https://www.linkedin.com/company/spiko-finance",
+      "telegram": "https://t.me/+VOVTcX2Ax0o5MGE8",
+      "github": "https://github.com/spiko-tech"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xcbade7d9bdee88411cb6cbcbb29952b742036992",
+      "deployedAt": "2026-02-26",
+      "primary": true
+    },
+    {
+      "chain": "polygon",
+      "address": "0x6f64f47f95cf656f21b40e14798f6b49f80b3dc5",
+      "deployedAt": "2026-02-26"
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0x0c709396739b9cfb72bcea6ac691ce0ddf66479c",
+      "deployedAt": "2026-02-26"
+    },
+    {
+      "chain": "base",
+      "address": "0x0bb754d8940e283d9ff6855ab5dafbc14165c059",
+      "deployedAt": "2026-02-26"
+    },
+    {
+      "chain": "stellar",
+      "address": "CDGSC6BA4TCAOVSFQCUEHDMOIIHYYVNYBT6YEARS4MX3ITAHUINVGQHX",
+      "deployedAt": "2026-02-26"
+    },
+    {
+      "chain": "starknet",
+      "address": "0x035bdc17f7a7d09c45d31ab476a576d4f7aad916676b2948fe172c3bcb33725a",
+      "deployedAt": "2026-04-23"
+    },
+    {
+      "chain": "etlk",
+      "address": "0x5677a4dc7484762ffccee13cba20b5c979def446",
+      "deployedAt": "2026-04-24"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "spiko-spiko-sicav-sub-fund",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.spiko.io/spiko-dollar",
+        "https://int.media.amundi.com/article/spiko-and-amundi-introduce-safo",
+        "https://geco.amf-france.org/produit-d-epargne/c79399"
+      ],
+      "protocolIds": [
+        4980
+      ]
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://www.spiko.io/spiko-dollar",
+        "https://geco.amf-france.org/produit-d-epargne/c79399"
+      ],
+      "note": "Not publicly disclosed"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "identity": {
+    "slug": "pc0000015",
+    "symbol": "PC0000015",
+    "name": "Tradable: North America Third Party Online Merchant Senior Secured",
+    "legacyId": 4060,
+    "canonicalMarketId": "PC0000015"
+  },
+  "exposure": {
+    "underlying": "e-commerce-merchant-receivables"
+  },
+  "class": {
+    "structure": "credit-pool",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "private-credit"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "yieldBearing": true
+  },
+  "sources": {
+    "coingeckoId": "tradable-na-third-party-online-merchant-sstn"
+  },
+  "about": {
+    "description": "A senior secured loan to a North American technology platform that acquires and aggregates third-party e-commerce merchant businesses, primarily Amazon Marketplace sellers. Issued through Tradable on ZKsync Era as a compliance-gated ERC-20, with floating cash interest of 14-18% and a minimum target IRR of 14% for US qualified purchasers.",
+    "logo": "https://icons.llamao.fi/icons/rwa/pc0000015.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.tradable.xyz/"
+      ],
+      "twitter": "https://x.com/tradable_xyz",
+      "docs": "https://doc.tradable.xyz/product-docs"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "era",
+      "address": "0xd8916e15d351dc728414e99a4883c72010ee11f8",
+      "deployedAt": "2024-11-14",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "tradable-counterparty-anonymized-by-design",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://doc.tradable.xyz/product-docs/how-it-works"
+      ]
+    },
+    {
+      "organization": "tradable",
+      "kind": "oracle"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "identity": {
+    "slug": "xchf",
+    "symbol": "XCHF",
+    "name": "CryptoFranc",
+    "legacyId": 632,
+    "canonicalMarketId": "XCHF"
+  },
+  "exposure": {
+    "underlying": "swiss-franc"
+  },
+  "class": {
+    "structure": "other-fiat-stable",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "fiat-stablecoins"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "about": {
+    "description": "XCHF (CryptoFranc) is a Swiss franc stablecoin issued by Bitcoin Suisse as an ERC-20 payment token. Each token is intended to represent a claim on CHF against the issuer and is backed via bank-guarantee/issuer arrangements, enabling CHF-denominated settlement and onchain liquidity for the Swiss crypto ecosystem.",
+    "logo": "https://icons.llamao.fi/icons/rwa/xchf.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.bitcoinsuisse.com/cryptofranc"
+      ],
+      "twitter": "https://x.com/BitcoinSuisseAG",
+      "docs": "https://www.bitcoinsuisse.com/",
+      "linkedin": "https://www.linkedin.com/company/bitcoin-suisse-ag"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xb4272071ecadd69d933adcd19ca99fe80664fc08",
+      "deployedAt": "2018-10-30",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "bitcoin-suisse-ag",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.bitcoinsuisse.com/cryptofranc"
+      ]
+    }
+  ]
+}

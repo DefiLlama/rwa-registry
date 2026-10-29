@@ -1,0 +1,61 @@
+{
+  "identity": {
+    "slug": "subunit",
+    "symbol": "SUBUNIT",
+    "name": "Subunit",
+    "legacyId": 92,
+    "canonicalMarketId": "SUBUNIT"
+  },
+  "exposure": {
+    "underlying": "subunit-real-estate-vault"
+  },
+  "class": {
+    "structure": "governance-token",
+    "type": "asset",
+    "rwaClassification": "non-rwa-gov-utility",
+    "category": [
+      "governance-tokens",
+      "real-estate"
+    ]
+  },
+  "terms": {
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "Subunit is a real estate protocol that pools stablecoin capital into a vault-style structure and deploys it into property acquisition and management workflows. Users receive vault shares that reflect participation in the portfolio, with returns intended to come from rental income and realized property value while enabling onchain governance over portfolio actions and capital allocation.",
+    "logo": "https://icons.llamao.fi/icons/rwa/subunit.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.subunit.xyz"
+      ],
+      "twitter": "https://x.com/subunit_xyz",
+      "docs": "https://subunit.finance/",
+      "linkedin": "https://www.linkedin.com/company/subunit-finance"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "base",
+      "address": "0x1b745230a0320470a9af55bb0a67c47c90978a14",
+      "deployedAt": "2025-04-27",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "subunit",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://subunit.gitbook.io/subunit-docs/legal/terms-of-service"
+      ]
+    }
+  ]
+}

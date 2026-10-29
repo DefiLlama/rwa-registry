@@ -1,0 +1,84 @@
+{
+  "identity": {
+    "slug": "susds",
+    "symbol": "sUSDS",
+    "name": "Sky Savings USDS",
+    "legacyId": 8817,
+    "canonicalMarketId": "sUSDS"
+  },
+  "exposure": {
+    "underlying": "sky-dollar"
+  },
+  "class": {
+    "structure": "stable-yield-wrapper",
+    "type": "wrapper",
+    "rwaClassification": "programmable-finance",
+    "category": [
+      "rwa-wrappers"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "sources": {
+    "coingeckoId": "susds"
+  },
+  "about": {
+    "description": "sUSDS is the savings wrapper for USDS, the stablecoin of the Sky Protocol, formerly MakerDAO. Depositors lock USDS in an ERC-4626 vault on Ethereum and receive a non-rebasing share token whose redemption value rises as the Sky Savings Rate accrues, so the position grows through share price rather than through a rising balance. Holders can redeem back to USDS from the vault at any time without permission or a minimum. The Sky Savings Rate is set by Sky governance and is paid out of blended protocol revenue rather than passed through from any single asset, so the return is not a direct claim on a specific real world asset. That revenue comes from Sky Agent allocations through Spark, Grove and other agents into onchain lending and institutional credit, from yield on the USD Coin reserves held in the peg stability module, from borrowing fees on crypto collateral vaults holding ether, wrapped bitcoin and staked ether, and from legacy real world asset vaults. Grove is the largest real world asset channel and launched with a one billion dollar allocation to the tokenized Janus Henderson Anemoy AAA collateralised loan obligation strategy. The deployments on Base, Arbitrum and Optimism are bridged representations of the Ethereum vault and do not themselves hold the underlying USDS.",
+    "logo": "https://icons.llamao.fi/icons/rwa/sky-susds.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://sky.money/susds"
+      ],
+      "twitter": "https://x.com/SkyEcosystem",
+      "docs": "https://docs.sky.money/",
+      "linkedin": "https://www.linkedin.com/company/skyecosystem",
+      "discord": "https://discord.com/invite/XeZQ8HxSEN",
+      "github": "https://github.com/makerdao"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xa3931d71877c0e7a3148cb7eb4463524fec27fbd",
+      "deployedAt": "2024-09-04",
+      "primary": true
+    },
+    {
+      "chain": "base",
+      "address": "0x5875eee11cf8398102fdad704c9e96607675467a",
+      "deployedAt": "2024-10-10"
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0xddb46999f8891663a8f2828d25298f70416d7610",
+      "deployedAt": "2025-01-29"
+    },
+    {
+      "chain": "optimism",
+      "address": "0xb5b2dc7fd34c249f4be7fb1fcea07950784229e0",
+      "deployedAt": "2025-04-30"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "sky-protocol",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://sky.money/susds"
+      ],
+      "protocolIds": [
+        118
+      ]
+    }
+  ]
+}

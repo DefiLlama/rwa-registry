@@ -1,0 +1,127 @@
+{
+  "identity": {
+    "slug": "ustbl",
+    "symbol": "USTBL",
+    "name": "Spiko US T-Bills Money Market Fund",
+    "legacyId": 639,
+    "canonicalMarketId": "USTBL"
+  },
+  "exposure": {
+    "underlying": "spiko-us-t-bills-money-market-fund"
+  },
+  "class": {
+    "structure": "t-bills",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "bond-mmf-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Quarterly (EU UCITS-regulated)"
+  },
+  "sources": {
+    "coingeckoId": "spiko-us-t-bills-money-market-fund",
+    "identifiers": [
+      {
+        "scheme": "isin",
+        "value": "FR001400ODM9",
+        "source": null,
+        "verified": false
+      }
+    ]
+  },
+  "about": {
+    "description": "USTBL represents tokenized shares of Spiko’s U.S. T‑Bills money market fund, a regulated EU-domiciled, French AMF-approved UCITS short‑term VNAV money market fund (Spiko SICAV) managed by Twenty First Capital. Service providers include CACEIS (custodian and fund admin), BNY (sub-custodian for U.S. T-bills), and PwC (fund auditor), and Chainlink publishes the daily token value onchain. The fund invests primarily in U.S. Treasury bills, and Treasury‑secured repurchase agreements, with limited cash, targeting short-term risk-free returns. NAV is calculated on each business day, and shares are designed for cash management with frequent subscriptions and redemptions.",
+    "logo": "https://icons.llamao.fi/icons/rwa/ustbl.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.spiko.io/spiko-dollar"
+      ],
+      "twitter": "https://twitter.com/spiko_finance",
+      "docs": "https://docs.spiko.io/",
+      "linkedin": "https://www.linkedin.com/company/spiko-finance",
+      "github": "https://github.com/spiko-tech"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xe4880249745eac5f1ed9d8f7df844792d560e750",
+      "deployedAt": "2024-04-19",
+      "primary": true
+    },
+    {
+      "chain": "polygon",
+      "address": "0xe4880249745eac5f1ed9d8f7df844792d560e750",
+      "deployedAt": "2024-04-19"
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0x021289588cd81dc1ac87ea91e91607eef68303f5",
+      "deployedAt": "2024-10-25"
+    },
+    {
+      "chain": "base",
+      "address": "0xe4880249745eac5f1ed9d8f7df844792d560e750",
+      "deployedAt": "2025-02-12"
+    },
+    {
+      "chain": "stellar",
+      "address": "CARUUX2FZNPH6DGJOEUFSIUQWYHNL5AVDV7PMVSHWL7OBYIBFC76F4TO",
+      "deployedAt": "2025-10-01"
+    },
+    {
+      "chain": "bsc",
+      "address": "0xe4880249745eac5f1ed9d8f7df844792d560e750",
+      "deployedAt": null
+    },
+    {
+      "chain": "etlk",
+      "address": "0xe4880249745eac5f1ed9d8f7df844792d560e750",
+      "deployedAt": "2026-04-14"
+    },
+    {
+      "chain": "starknet",
+      "address": "0x020ff2f6021ada9edbceaf31b96f9f67b746662a6e6b2bc9d30c0d3e290a71f6",
+      "deployedAt": "2026-04-14"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "spiko-spiko-sicav-sub-fund",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.spiko.io/use-cases/web3"
+      ],
+      "protocolIds": [
+        4980
+      ]
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://www.spiko.io/use-cases/web3"
+      ],
+      "note": "Not publicly disclosed"
+    }
+  ]
+}

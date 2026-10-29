@@ -1,0 +1,205 @@
+{
+  "identity": {
+    "slug": "frxusd",
+    "symbol": "frxUSD",
+    "name": "Frax USD",
+    "legacyId": 584,
+    "canonicalMarketId": "frxUSD"
+  },
+  "exposure": {
+    "underlying": "us-dollar"
+  },
+  "class": {
+    "structure": "usd-stable",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "fiat-stablecoins"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "cexListed": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "sources": {
+    "coingeckoId": "frax-usd"
+  },
+  "about": {
+    "description": "Frax USD (frxUSD) is Frax’s newer fully‑collateralized dollar stablecoin designed to interface with off-chain rails and institutional-grade reserves, with transparency reporting on reserves. frxUSD is the non‑yielding base token. yield is accessed via ecosystem wrappers (e. g. , sfrxUSD) rather than through rebasing frxUSD itself.",
+    "logo": "https://icons.llamao.fi/icons/rwa/frxusd.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://frax.com/frxUSD"
+      ],
+      "twitter": "https://twitter.com/fraxfinance",
+      "docs": "https://docs.frax.finance/",
+      "linkedin": "https://www.linkedin.com/company/frax-finance",
+      "discord": "https://discord.com/invite/fraxfinance",
+      "telegram": "https://t.me/fraxfinance",
+      "github": "https://github.com/FraxFinance"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "abstract",
+      "address": "0xea77c590bb36c43ef7139ce649cfbcfd6163170d",
+      "deployedAt": "2025-03-13"
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0x80eede496655fb9047dd39d9f418d5483ed600df",
+      "deployedAt": "2025-01-06"
+    },
+    {
+      "chain": "aurora",
+      "address": "0x80eede496655fb9047dd39d9f418d5483ed600df",
+      "deployedAt": "2025-08-22"
+    },
+    {
+      "chain": "avax",
+      "address": "0x80eede496655fb9047dd39d9f418d5483ed600df",
+      "deployedAt": "2025-01-11"
+    },
+    {
+      "chain": "base",
+      "address": "0xe5020a6d073a794b6e7f05678707de47986fb0b6",
+      "deployedAt": "2025-02-20"
+    },
+    {
+      "chain": "berachain",
+      "address": "0x80eede496655fb9047dd39d9f418d5483ed600df",
+      "deployedAt": "2025-02-24"
+    },
+    {
+      "chain": "blast",
+      "address": "0x80eede496655fb9047dd39d9f418d5483ed600df",
+      "deployedAt": "2025-02-18"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x80eede496655fb9047dd39d9f418d5483ed600df",
+      "deployedAt": "2025-01-13"
+    },
+    {
+      "chain": "era",
+      "address": "0xea77c590bb36c43ef7139ce649cfbcfd6163170d",
+      "deployedAt": "2025-03-13"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xcacd6fd266af91b8aed52accc382b4e165586e29",
+      "deployedAt": "2025-01-03",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x9aa7db8e488ee3ffcc9cdfd4f2eaecc8abedcb48",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "ink",
+      "address": "0x80eede496655fb9047dd39d9f418d5483ed600df",
+      "deployedAt": "2024-12-26"
+    },
+    {
+      "chain": "linea",
+      "address": "0xc7346783f5e645aa998b106ef9e7f499528673d8",
+      "deployedAt": "2025-03-04"
+    },
+    {
+      "chain": "mode",
+      "address": "0x80eede496655fb9047dd39d9f418d5483ed600df",
+      "deployedAt": "2025-02-27"
+    },
+    {
+      "chain": "optimism",
+      "address": "0x80eede496655fb9047dd39d9f418d5483ed600df",
+      "deployedAt": "2025-01-09"
+    },
+    {
+      "chain": "plume_mainnet",
+      "address": "0x80eede496655fb9047dd39d9f418d5483ed600df",
+      "deployedAt": "2025-10-23"
+    },
+    {
+      "chain": "polygon",
+      "address": "0x80eede496655fb9047dd39d9f418d5483ed600df",
+      "deployedAt": "2025-01-09"
+    },
+    {
+      "chain": "polygon_zkevm",
+      "address": "0x80eede496655fb9047dd39d9f418d5483ed600df",
+      "deployedAt": "2025-03-20"
+    },
+    {
+      "chain": "scroll",
+      "address": "0x397f939c3b91a74c321ea7129396492ba9cdce82",
+      "deployedAt": "2025-08-22"
+    },
+    {
+      "chain": "sei",
+      "address": "0x80eede496655fb9047dd39d9f418d5483ed600df",
+      "deployedAt": "2024-06-18"
+    },
+    {
+      "chain": "solana",
+      "address": "GzX1ireZDU865FiMaKrdVB1H6AE8LAqWYCg6chrMrfBw",
+      "deployedAt": "2025-10-23"
+    },
+    {
+      "chain": "sonic",
+      "address": "0x80eede496655fb9047dd39d9f418d5483ed600df",
+      "deployedAt": "2025-01-02"
+    },
+    {
+      "chain": "stable",
+      "address": "0x80eede496655fb9047dd39d9f418d5483ed600df",
+      "deployedAt": "2025-11-14"
+    },
+    {
+      "chain": "unichain",
+      "address": "0x80eede496655fb9047dd39d9f418d5483ed600df",
+      "deployedAt": "2025-06-17"
+    },
+    {
+      "chain": "xlayer",
+      "address": "0x80eede496655fb9047dd39d9f418d5483ed600df",
+      "deployedAt": "2024-07-16"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "frax-finance-protocol",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://frax.com/frxUSD",
+        "https://docs.frax.com/frxusd"
+      ]
+    },
+    {
+      "organization": "chaos-labs",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://frax.com/transparency"
+      ],
+      "note": "Not publicly disclosed"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "identity": {
+    "slug": "rdo-5",
+    "symbol": "RDO-5",
+    "name": "REENTAL - PUNTA CANA 5",
+    "legacyId": 9652,
+    "canonicalMarketId": "RDO-5"
+  },
+  "exposure": {
+    "underlying": "punta-cana-5"
+  },
+  "class": {
+    "structure": "single-property",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "real-estate"
+    ]
+  },
+  "terms": {
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "Reental-RDO-5 is Reental's tokenized interest in Punta Cana 5 (USD-denominated), issued on Polygon at a fixed 100 USD per token. The token's AssetOracle publishes that issue price, not a revalued mark: it is pinned at exactly $100 and has never moved. No attestation, no redemption price and no secondary market (transfers are whitelist-gated).",
+    "logo": "https://icons.llamao.fi/icons/rwa/rdo-5.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.reental.co/"
+      ],
+      "twitter": "https://x.com/Reental_co",
+      "docs": "https://docs.reental.co/",
+      "linkedin": "https://www.linkedin.com/company/reental"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "polygon",
+      "address": "0xdecfebdaf1131899fb38a53dc63671246220ab7a",
+      "deployedAt": "2024-03-25",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "reental",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://app.reental.co"
+      ]
+    },
+    {
+      "organization": "reental",
+      "kind": "oracle"
+    }
+  ]
+}

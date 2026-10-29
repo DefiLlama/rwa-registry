@@ -1,0 +1,87 @@
+{
+  "identity": {
+    "slug": "deus",
+    "symbol": "DEUS",
+    "name": "XMAQUINA DEUS",
+    "legacyId": 8766,
+    "canonicalMarketId": "DEUS"
+  },
+  "exposure": {
+    "underlying": "xmaquina-dao-humanoid-robotics-treasury"
+  },
+  "class": {
+    "structure": "governance-token",
+    "type": "asset",
+    "rwaClassification": "non-rwa-gov-utility",
+    "category": [
+      "governance-tokens",
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "cexListed": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Per allocation"
+  },
+  "sources": {
+    "coingeckoId": "xmaquina"
+  },
+  "about": {
+    "description": "DEUS is the governance and coordination token of XMAQUINA, a decentralised organisation operating through MachineDAO LLC, a non-profit DAO LLC organised in the Republic of the Marshall Islands. Holders stake DEUS to mint xDEUS governance positions and vote on deployment of a treasury that holds equity stakes in humanoid robotics and embodied AI companies alongside stablecoin and crypto reserves, with allocations to Apptronik, Figure AI, Agility Robotics and 1X Technologies confirmed by independent attestations from Andersen LLP. Governance may direct up to forty percent of value realised from protocol fees or equity exits to active xDEUS holders, though distribution is discretionary and there is no automatic mechanism. Supply is fixed at one billion tokens issued omnichain across Base, Solana and peaq. Governance participation does not constitute equity ownership in MachineDAO LLC and grants no right to profits or dividends unless separately agreed, so the token is recorded as governance over a real-world asset treasury rather than a direct claim on the holdings.",
+    "logo": "https://icons.llamao.fi/icons/rwa/xmaquina-deus.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.xmaquina.io/"
+      ],
+      "twitter": "https://x.com/xmaquina",
+      "docs": "https://docs.xmaquina.io/",
+      "linkedin": "https://www.linkedin.com/company/xmaquina",
+      "discord": "https://discord.gg/xmaquina",
+      "telegram": "https://t.me/xmaquinaofficial"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "base",
+      "address": "0x940a319b75861014a220d9c6c144d108552b089b",
+      "deployedAt": "2025-03-17",
+      "primary": true
+    },
+    {
+      "chain": "solana",
+      "address": "7JoGUTeaXkjcMGa6xJP2idYNYiLreto1WnsACHnpw3Gd",
+      "deployedAt": "2026-08-13"
+    },
+    {
+      "chain": "peaq",
+      "address": "0x940a319b75861014a220d9c6c144d108552b089b",
+      "deployedAt": "2025-03-17"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "machinedao-llc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.xmaquina.io/dao/legal-structure"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://docs.xmaquina.io/dao/attestations"
+      ],
+      "note": "Per allocation (Andersen LLP)"
+    }
+  ]
+}

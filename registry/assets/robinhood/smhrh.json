@@ -1,0 +1,92 @@
+{
+  "identity": {
+    "slug": "smhrh",
+    "symbol": "SMH",
+    "name": "VanEck Semiconductor ETF • Robinhood Token",
+    "legacyId": 2259,
+    "canonicalMarketId": "SMHrh"
+  },
+  "exposure": {
+    "underlying": "vaneck-semiconductor-etf"
+  },
+  "class": {
+    "structure": "equity-basket",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "yieldBearing": false
+  },
+  "sources": {
+    "identifiers": [
+      {
+        "scheme": "isin",
+        "value": "US92189F6768",
+        "source": null,
+        "verified": false
+      }
+    ]
+  },
+  "about": {
+    "description": "SMH is a tokenized tracker certificate issued by Robinhood Markets, Inc. through Robinhood Europe UAB, deployed on Arbitrum One. It is designed to reflect the price of the SMH ETF in a format accessible on-chain, providing synthetic exposure rather than direct fund ownership under MiFID II regulatory oversight. Trading is available 24/5 to EU/EEA customers, and on-chain pricing is supplied through Chainlink oracle feeds.",
+    "logo": "https://icons.llamao.fi/icons/rwa/smh.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://robinhood.com/stocks"
+      ],
+      "twitter": "https://x.com/RobinhoodApp",
+      "docs": "https://robinhood.com/us/en/support/",
+      "linkedin": "https://www.linkedin.com/company/robinhood-markets",
+      "discord": "https://discord.com/invite/robinhood",
+      "github": "https://github.com/robinhood"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "arbitrum",
+      "address": "0x5143ed81acc6dd7f6f0cc0274222a104fb06a910",
+      "deployedAt": "2025-06-23",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xcbdf630a858e7d87b5b08d92968ca14ca0f8f556",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xd29aa2b0584856c2b3b097595e9d4b1cd1242e05",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "robinhood",
+      "address": "0x072f979c2cac8e1391b0162a87fee094bf8744a0",
+      "deployedAt": "2026-07-27"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "robinhood-markets-inc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://robinhood.com/eu/en/about/"
+      ]
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    }
+  ]
+}

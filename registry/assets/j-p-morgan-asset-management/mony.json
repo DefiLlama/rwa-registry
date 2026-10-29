@@ -1,0 +1,77 @@
+{
+  "identity": {
+    "slug": "mony",
+    "symbol": "MONY",
+    "name": "My OnChain Net Yield Fund",
+    "legacyId": 283,
+    "canonicalMarketId": "MONY"
+  },
+  "exposure": {
+    "underlying": "my-onchain-net-yield-fund"
+  },
+  "class": {
+    "structure": "mmf",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "bond-mmf-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "sources": {
+    "coingeckoId": "mony"
+  },
+  "about": {
+    "description": "MONY is J.P. Morgan Asset Management’s tokenized money market fund structured as a Rule 506(c) private placement on Ethereum, designed to provide U.S. dollar yield from a portfolio limited to U.S. Treasury securities and repurchase agreements collateralized by U.S. Treasuries. Subscriptions and redemptions are processed daily, the minimum subscription is $1,000,000. The fund charges a 0.16% management fee and is supported by JPMorgan Chase & Co. for custody and fund administration,",
+    "logo": "https://icons.llamao.fi/icons/rwa/mony.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://am.jpmorgan.com/us/en/asset-management/adv/about-us/media/press-releases/jp-morgan-asset-management-launches-its-first-tokenized-money-market-fund/",
+        "https://am.jpmorgan.com/us/en/asset-management/liq/insights/liquidity-insights/updates/tokenization-of-money-market-funds/",
+        "https://www.morganmoney.io/"
+      ],
+      "twitter": "https://x.com/JPMorganAM",
+      "docs": "https://am.jpmorgan.com/",
+      "linkedin": "https://www.linkedin.com/company/jpmorganchase"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x6a7c6aa2b8b8a6a891de552bdeffa87c3f53bd46",
+      "deployedAt": "2025-11-27",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xf79a32b893b793ff4964134273b9c0ab8e9b4005",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "j-p-morgan-asset-management",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://lei.bloomberg.com/leis/view/254900YOV9QSQRV2RT14",
+        "https://am.jpmorgan.com/us/en/asset-management/adv/about-us/media/press-releases/jp-morgan-asset-management-launches-its-first-tokenized-money-market-fund/",
+        "https://am.jpmorgan.com/us/en/asset-management/liq/insights/liquidity-insights/updates/tokenization-of-money-market-funds/",
+        "https://www.morganmoney.io/"
+      ]
+    }
+  ]
+}

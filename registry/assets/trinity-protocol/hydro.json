@@ -1,0 +1,79 @@
+{
+  "identity": {
+    "slug": "hydro",
+    "symbol": "HYDRO",
+    "name": "Hydro Finance",
+    "legacyId": 3292,
+    "canonicalMarketId": "HYDRO"
+  },
+  "exposure": {
+    "underlying": "45v-clean-hydrogen-production-tax-credits"
+  },
+  "class": {
+    "structure": "other-exotic",
+    "type": "asset",
+    "rwaClassification": "programmable-finance",
+    "category": [
+      "other-rwas"
+    ]
+  },
+  "terms": {
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "sources": {
+    "llamaAttestationProof": false
+  },
+  "about": {
+    "description": "HYDRO is an Arbitrum ERC-20 that the issuer presents as exposure to United States clean hydrogen production tax credits under Internal Revenue Code section 45V. Section 45V is among the credits made transferable by section 6418, but that section permits a credit portion to be transferred only once, only to an unrelated taxpayer and only for cash, and it requires a pre-filing registration number together with a transfer election statement attached to the returns of both parties. The transferee is then treated as the taxpayer and claims the credit against its own federal income tax liability. A section 45V credit is therefore not a bearer instrument and cannot circulate between holders or be redeemed by an arbitrary token holder. The token contract exposes mint and burn to an administrator key, which is the only account able to change supply, and the contract is pausable. Transfers are unrestricted, with no allowlist, blacklist or transfer hook. Collateral pricing comes from an issuer-controlled adapter that returns a fixed four dollars per token, and a Morpho Blue market accepts HYDRO as collateral against USDC at a 62.5% liquidation loan-to-value.",
+    "logo": "https://icons.llamao.fi/icons/rwa/hydro.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://graceful-begonia-2b7634.netlify.app/"
+      ],
+      "twitter": "https://x.com/cameron_arc_ai",
+      "linkedin": "https://www.linkedin.com/company/trinityprotocol",
+      "telegram": "https://t.me/cameroncurriden01"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "arbitrum",
+      "address": "0xd3be2ace01fde553e7eaa42752cf7bb0ee7bd999",
+      "deployedAt": "2026-04-07",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xa3336bb25f231fa25e66d2dda3a9aa0ed8be09db",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "garret-inc",
+      "kind": "issuer",
+      "protocolIds": [
+        7710
+      ]
+    },
+    {
+      "organization": "garret-inc",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "review",
+      "outcome": "suspicious",
+      "reason": "No attestation specific to this token has been published. It appears only as a line item in the Proof of Reserve attestation issued for the issuer's gold token, which lists it against a stated backing of Section 45V tax credits without evidencing them, and which is a self-declaration by the issuer with no independent auditor named. The other document that contract has published describes gold bullion and does not address hydrogen tax credits, and the contract's attestorName field is empty. That contract computes a one billion dollar reserve contribution for this token by multiplying the issuer's own holding of it by a fixed four dollar price returned from an adapter the issuer controls, and the comment in the contract source records that price as fixed rather than observed. The administrator key can mint further supply without limit. The claim that these credits are redeemable one for one against United States federal tax liability does not correspond to Internal Revenue Code section 6418, under which a credit portion may be transferred once, for cash, to an unrelated taxpayer who then claims it on its own return. The identifier the issuer publishes as its LEI is the string TRINITY-PROTOCOL-RWA, which is not a code issued under ISO 17442, and neither the issuer nor the platform appears in the GLEIF registry."
+    }
+  ]
+}

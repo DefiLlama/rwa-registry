@@ -1,0 +1,126 @@
+{
+  "identity": {
+    "slug": "pyusd",
+    "symbol": "PYUSD",
+    "name": "PayPal USD",
+    "legacyId": 17,
+    "canonicalMarketId": "PYUSD"
+  },
+  "exposure": {
+    "underlying": "us-dollar"
+  },
+  "class": {
+    "structure": "usd-stable",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "fiat-stablecoins"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "cexListed": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Monthly"
+  },
+  "sources": {
+    "coingeckoId": "paypal-usd"
+  },
+  "about": {
+    "description": "PYUSD is PayPal USD, issued by Paxos. Issuer disclosures describe PYUSD as a USD-redeemable stablecoin backed by U.S. dollar deposits and cash equivalents, including U.S. Treasury securities, with monthly reserve composition reporting and independent attestation reporting.",
+    "logo": "https://icons.llamao.fi/icons/rwa/pyusd.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.paypal.com/pyusd"
+      ],
+      "twitter": "https://x.com/PayPal",
+      "docs": "https://developer.paypal.com/",
+      "linkedin": "https://www.linkedin.com/company/paypal"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "arbitrum",
+      "address": "0x46850ad61c2b7d64d08c9c754f45254596696984",
+      "deployedAt": "2025-05-06"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x6c3ea9036406852006290770bedfc107f0222185",
+      "deployedAt": "2023-08-08",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x0644bd0248d5f89e4f6e845a91d15c23591e5d33",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xe25a329d385f77df5d4ed56265babe2b99a5436e",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "solana",
+      "address": "2b1kV6DkPAnxd5ixfnxCpjxmKwqjjaYmCZfHsFu24GXo",
+      "deployedAt": "2024-06-27"
+    },
+    {
+      "chain": "berachain",
+      "address": "0x688e72142674041f8f6af4c808a4045ca1d6ac82",
+      "deployedAt": "2025-02-19",
+      "labels": [
+        {
+          "address": "0x02e5f501d658dded33af7a6f6c330a4be21f5a82",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "paxos-trust-company-llc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.paxos.com/"
+      ],
+      "protocolIds": [
+        2269,
+        2272,
+        2286,
+        3075,
+        2274,
+        2352,
+        2314,
+        2275,
+        2293,
+        2270,
+        2273,
+        6469,
+        2276,
+        4859,
+        2369,
+        5342,
+        3577
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "date": "2025-08-29",
+      "links": [
+        "https://www.paxos.com/pyusd-transparency"
+      ]
+    }
+  ]
+}

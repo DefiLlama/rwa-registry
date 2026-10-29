@@ -1,0 +1,81 @@
+{
+  "identity": {
+    "slug": "ybr",
+    "symbol": "YBR",
+    "name": "YieldBricks",
+    "legacyId": 132,
+    "canonicalMarketId": "YBR"
+  },
+  "exposure": {
+    "underlying": "yieldbricks"
+  },
+  "class": {
+    "structure": "governance-token",
+    "type": "asset",
+    "rwaClassification": "non-rwa-gov-utility",
+    "category": [
+      "governance-tokens",
+      "real-estate"
+    ]
+  },
+  "terms": {
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "about": {
+    "description": "YieldBricks is an RWA yield platform that packages real estate opportunities into time-bound pools and investment products, aiming to give users access to deal-driven returns typically associated with private real estate markets. The platform highlights screening, valuation, and audit-oriented diligence as part of how opportunities are selected and structured, and it frames its product suite around shorter-duration commitments compared to traditional property funds.",
+    "logo": "https://icons.llamao.fi/icons/rwa/yieldbricks.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://yieldbricks.com"
+      ],
+      "twitter": "https://x.com/YieldBricks",
+      "docs": "https://docs.yieldbricks.com/",
+      "linkedin": "https://www.linkedin.com/company/yieldbricks",
+      "telegram": "https://t.me/YieldBricks",
+      "github": "https://github.com/yieldbricks"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "arbitrum",
+      "address": "0x11920f139a3121c2836e01551d43f95b3c31159c",
+      "deployedAt": "2024-10-27",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x4b852272098687216ddf52ca0453b39fb5278b58",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x9d9535dae62f5f12ab83f1183dca1ead244b0db3",
+      "deployedAt": "2024-10-27",
+      "labels": [
+        {
+          "address": "0x4b852272098687216ddf52ca0453b39fb5278b58",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "yieldbricks",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://yieldbricks.com"
+      ]
+    }
+  ]
+}

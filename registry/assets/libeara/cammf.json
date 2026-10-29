@@ -1,0 +1,86 @@
+{
+  "identity": {
+    "slug": "cammf",
+    "symbol": "CAMMF",
+    "name": "ChinaAMC HKD Digital Money Market Fund Class A HKD",
+    "legacyId": 658,
+    "canonicalMarketId": "CAMMF"
+  },
+  "exposure": {
+    "underlying": "chinaamc-hkd-digital-money-market-fund-class-a-hkd"
+  },
+  "class": {
+    "structure": "mmf",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "bond-mmf-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "sources": {
+    "identifiers": [
+      {
+        "scheme": "isin",
+        "value": "HK0001112801",
+        "source": null,
+        "verified": false
+      }
+    ]
+  },
+  "about": {
+    "description": "CAMMF is the Class A HKD digital share of the ChinaAMC HKD Digital Money Market Fund, a Hong Kong-domiciled strategy designed for HKD cash management through short-term, high-quality HKD money market instruments. The product packages a traditional money market mandate into a digital fund share format, aiming to improve distribution, settlement, and operational workflow for subscriptions and redemptions. It is positioned as an onchain-accessible HKD liquidity sleeve for eligible investors who want transparent fund documentation and conventional money market exposures.",
+    "logo": "https://icons.llamao.fi/icons/rwa/cammf.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.chinaamc.com.hk/en/product/hkd-digital-money-market-fund/"
+      ],
+      "twitter": "https://x.com/ChinaAMC_HK",
+      "docs": "https://libeara.com/",
+      "linkedin": "https://www.linkedin.com/company/libeara",
+      "github": "https://github.com/libeara"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x2833a5d960c56437c242e9594eec463f58996995",
+      "deployedAt": "2025-02-23",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "chinaamc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.chinaamc.com.hk/en/product/hkd-digital-money-market-fund/",
+        "https://www.chinaamc.com.hk/wp-content/uploads/2024/10/ChinaAMC-HKD-Digital-Money-Market-Fund.pdf"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "date": "2025-02-28",
+      "links": [
+        "https://www.chinaamc.com.hk/documents/20142/361853/ChinaAMC+Digital+OFC+Prospectus+Feb+2025.pdf",
+        "https://www.chinaamc.com.hk/documents/20142/350364/ChinaAMC+HKD+Digital+Money+Market+Fund+KFS_20250210.pdf"
+      ]
+    }
+  ]
+}

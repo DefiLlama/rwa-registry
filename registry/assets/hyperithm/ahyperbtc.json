@@ -1,0 +1,101 @@
+{
+  "identity": {
+    "slug": "ahyperbtc",
+    "symbol": "aHyperBTC",
+    "name": "Hyperithm Delta Neutral cbBTC Vault",
+    "legacyId": 4611,
+    "canonicalMarketId": "AHYPERBTC"
+  },
+  "exposure": {
+    "underlying": "delta-neutral-crypto-strategies-using-cbbtc-collateral-including-funding-rate-ar"
+  },
+  "class": {
+    "structure": "crypto-hedge-fund",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "crypto-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Continuous"
+  },
+  "about": {
+    "description": "aHyperBTC is the ERC-4626 share token of the Hyperithm Delta Neutral cbBTC Vault on Monad. Deposited cbBTC (Coinbase Wrapped BTC, bridged from Base to Monad via Chainlink CCIP) is deployed by Hyperithm across delta-neutral crypto strategies that target continuous zero net delta exposure, including funding-rate arbitrage on Hyperliquid perps, Pendle Principal Token positions on cbBTC and LBTC, leveraged stablecoin looping on Aave, Morpho lending, and DEX liquidity provision. Reserves are continuously attested through the Accountable platform using zero-knowledge proofs and Merkle-sum-tree cryptographic verification rather than periodic traditional audits. Hyperithm is a Japan FSA Article 63 registered fund operator with a Korea Financial Intelligence Unit Virtual Asset Service Provider license.",
+    "logo": "https://cdn.morpho.org/assets/logos/ahyperbtc.svg",
+    "links": {
+      "website": [
+        "https://www.hyperithm.com/"
+      ],
+      "twitter": "https://x.com/hyperithm",
+      "docs": "https://www.hyperithm.com/",
+      "github": "https://accountable.hyperithm.com/"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "monad",
+      "address": "0xc6de1dc0b59682be906e5bca14e385e74ee88168",
+      "deployedAt": "2026-03-16",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x2653137fd4118ad25bcefb31ca748957b8528b01",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xef759e3f7fe04ac8c5b63736e5196ded52eaf34e",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x7ffba42c05867ddf4175725946df89d4ce4fce5a",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x4b07aaa370189e5603df56c84f59c5a59181bfb1",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x0e503d4b0d463855e819d7201f6bd2604d423c4c",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "hyperithm-co-ltd",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.hyperithm.com/"
+      ],
+      "protocolIds": [
+        6204,
+        7092
+      ]
+    },
+    {
+      "organization": "hyperithm-co-ltd",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://accountable.hyperithm.com/"
+      ],
+      "note": "Continuous"
+    }
+  ]
+}

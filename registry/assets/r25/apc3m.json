@@ -1,0 +1,76 @@
+{
+  "identity": {
+    "slug": "apc3m",
+    "symbol": "APC3M",
+    "name": "R25 Axil Prime Credit 3M",
+    "legacyId": 4615,
+    "canonicalMarketId": "APC3M"
+  },
+  "exposure": {
+    "underlying": "diversified-emerging-market-short-duration-consumer-loan-pool-mexico-thailand-ph"
+  },
+  "class": {
+    "structure": "credit-pool",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "private-credit"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Continuous"
+  },
+  "about": {
+    "description": "APC3M is the 3 month USDC vault share token issued through R25 Protocol\n  on Pharos Mainnet and curated by Axil as risk manager. The vault targets\n  approximately 14.3 percent gross annualized yield (approximately 11.3 percent\n  credit return plus 3 percent PROS ecosystem incentives) and is capped at\n  approximately 100 million dollars. Underlying exposure is a diversified pool\n  of short duration emerging market consumer loans across Mexico, Thailand,\n  Philippines, Indonesia, and Pakistan sourced through a regulated private\n  credit fund. Multi-layer protection is described as overcollateralization,\n  pledged bank accounts, and junior capital buffers. Pricing is derived from\n  the internal CoreVault Accountant pricePerShare, and reserves are attested by\n  APEX with smart contract audits by SlowMist.",
+    "logo": "https://icons.llamao.fi/icons/rwa/apc3m.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.r25.xyz/"
+      ],
+      "twitter": "https://x.com/R25Official",
+      "docs": "https://www.r25.xyz/"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "pharos",
+      "address": "0xec47e6f3ef1e7bc8e00f670ac3d5016798fe44d0",
+      "deployedAt": "2026-07-07",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "riftwriter-company-limited-bvi-and-razestaker-company-limited-bvi",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.r25.xyz/",
+        "https://r25-public.oss-cn-hongkong.aliyuncs.com/docs/1.%20Portal%20Terms%20of%20Use.pdf"
+      ]
+    },
+    {
+      "organization": "r25",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://www.r25.xyz/",
+        "https://r25-public.oss-cn-hongkong.aliyuncs.com/docs/1.%20Portal%20Terms%20of%20Use.pdf"
+      ],
+      "note": "Continuous (APEX Proof of Reserves)"
+    }
+  ]
+}

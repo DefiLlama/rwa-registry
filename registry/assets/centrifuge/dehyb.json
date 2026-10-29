@@ -1,0 +1,72 @@
+{
+  "identity": {
+    "slug": "dehyb",
+    "symbol": "deHYB",
+    "name": "HYB deRWA (NYLIM US High Yield Bond Fund wrapper)",
+    "legacyId": 9267,
+    "canonicalMarketId": "deHYB"
+  },
+  "exposure": {
+    "underlying": "nylim-us-high-yield-bond-fund"
+  },
+  "class": {
+    "structure": "single-asset-wrapper",
+    "type": "wrapper",
+    "rwaClassification": "programmable-finance",
+    "category": [
+      "rwa-wrappers",
+      "bond-mmf-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "deHYB is a deRWA token: a freely transferable, fully onchain instrument linked to HYB, the tokenized NYLIM Anemoy High Yield Corporate Bond Fund. It packages the fund exposure into a permissionless format composable across DeFi venues, while the underlying economics stay tied to HYB.",
+    "links": {
+      "website": [
+        "https://app.centrifuge.io/pool/281474976710672"
+      ],
+      "twitter": "https://x.com/anemoycapital",
+      "docs": "https://docs.centrifuge.io/",
+      "linkedin": "https://www.linkedin.com/company/centrifuge-io",
+      "discord": "https://discord.com/invite/yEzyUq5gxF",
+      "telegram": "https://t.me/centrifuge_chat",
+      "github": "https://github.com/centrifuge"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xc5a9f6edb48160ed9d9fb156a23c39d7140457ee",
+      "deployedAt": "2026-07-24",
+      "primary": true
+    },
+    {
+      "chain": "xlayer",
+      "address": "0xc5a9f6edb48160ed9d9fb156a23c39d7140457ee",
+      "deployedAt": "2026-08-12"
+    },
+    {
+      "chain": "optimism",
+      "address": "0xc5a9f6edb48160ed9d9fb156a23c39d7140457ee",
+      "deployedAt": "2026-07-24"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "open-market-factory-limited",
+      "kind": "issuer"
+    }
+  ]
+}

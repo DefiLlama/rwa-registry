@@ -1,0 +1,71 @@
+{
+  "identity": {
+    "slug": "nfalcon",
+    "symbol": "NFALCON",
+    "name": "Nest FalconX CLO",
+    "legacyId": 4441,
+    "canonicalMarketId": "NFALCON"
+  },
+  "exposure": {
+    "underlying": "falconx-credit-pool"
+  },
+  "class": {
+    "structure": "credit-pool",
+    "type": "wrapper",
+    "rwaClassification": "programmable-finance",
+    "category": [
+      "rwa-wrappers",
+      "private-credit"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "about": {
+    "description": "nFALCON is the receipt token for Nest's FalconX CLO vault, giving tokenized exposure to FalconX's institutional structured credit facility. FalconX, a digital-asset prime brokerage, originates institutional loans and packages them into a fixed-rate private credit product from which depositors earn yield.",
+    "logo": "https://icons.llamao.fi/icons/rwa/nfalcon.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://nest.credit"
+      ],
+      "twitter": "https://x.com/nestcredit",
+      "docs": "https://docs.nestcredit.io/",
+      "linkedin": "https://www.linkedin.com/company/nestcredit"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "plume_mainnet",
+      "address": "0x066d10e240999aea6798b2e2ca0bdac2923cbdff",
+      "deployedAt": "2026-03-24",
+      "primary": true
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x066d10e240999aea6798b2e2ca0bdac2923cbdff",
+      "deployedAt": "2026-03-25"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "nest-dao-llc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.lei-lookup.com/record/254900BB9T1QYAT04892"
+      ],
+      "protocolIds": [
+        5284
+      ]
+    }
+  ]
+}

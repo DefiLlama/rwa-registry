@@ -1,0 +1,62 @@
+{
+  "identity": {
+    "slug": "imcgcr1",
+    "symbol": "IMCGCR1",
+    "name": "FIS-FLB1-CRE2025-1 (Intain Commercial Real Estate Pool)",
+    "legacyId": 4057,
+    "canonicalMarketId": "IMCGCR1"
+  },
+  "exposure": {
+    "underlying": "commercial-real-estate-loans"
+  },
+  "class": {
+    "structure": "structured-credit",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "private-credit"
+    ]
+  },
+  "terms": {
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "A pool of commercial real estate loans originated by a US community bank and tokenized on IntainMARKETS' permissioned Avalanche Layer-1 via the FIS-Intain Digital Liquidity Gateway, which mints each underlying loan as an NFT and sells securitized interests to institutional investors. Issuance and holdings are recorded on Intain's private chain and are not publicly viewable.",
+    "logo": "https://icons.llamao.fi/icons/rwa/imcgcr1.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://intainft.com"
+      ],
+      "twitter": "https://x.com/IntainFT",
+      "docs": "https://intainft.com"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "us-community-bank-originator-attributed-to-cogent-bank-unconfirmed-via-fis-intain-digital-liquidity-gateway",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://intainft.com/intain-markets",
+        "https://www.coindesk.com/business/2025/11/10/intain-fis-roll-out-tokenized-loan-marketplace-on-avalanche-for-small-banks"
+      ]
+    },
+    {
+      "organization": "intain",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "review",
+      "outcome": "suspicious",
+      "reason": "Issuance recorded on Intain's permissioned Avalanche Layer-1 with no public explorer, RPC, or contract addresses: supply, holders, and deal terms cannot be independently verified on-chain (platform-reported data only). Issuer attribution to Cogent Bank unconfirmed by any primary source (the bank is real: FDIC cert 34908, Orlando FL, with a blockchain banking practice, but no publication names it as the bank behind these pools). The platform itself is credible (FIS Digital Liquidity Gateway partnership, AvaCloud, Nov 2025 launch). Verified 2026-06-11."
+    }
+  ]
+}

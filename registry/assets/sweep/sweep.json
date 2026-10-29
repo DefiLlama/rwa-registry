@@ -1,0 +1,67 @@
+{
+  "identity": {
+    "slug": "sweep",
+    "symbol": "SWEEP",
+    "name": "Sweep",
+    "legacyId": 21,
+    "canonicalMarketId": "SWEEP"
+  },
+  "exposure": {
+    "underlying": "us-dollar"
+  },
+  "class": {
+    "structure": "yield-rwa-stable",
+    "type": "asset",
+    "rwaClassification": "programmable-finance",
+    "category": [
+      "rwa-stablecoins"
+    ]
+  },
+  "terms": {
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "sources": {
+    "coingeckoId": "sweep-token"
+  },
+  "about": {
+    "description": "SWEEP is a USD-denominated stable asset positioned as a “savings coin.” The design centers on stabilization modules and issuance controls (“stabilizers”) intended to support USD price stability while routing yield through protocol mechanisms.",
+    "logo": "https://icons.llamao.fi/icons/rwa/sweep.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.sweepr.finance"
+      ],
+      "twitter": "https://x.com/SweeprFi",
+      "docs": "https://docs.sweepr.finance/",
+      "linkedin": "https://www.linkedin.com/company/sweep-finance",
+      "discord": "https://discord.gg/PjmRz8vgsx",
+      "github": "https://github.com/SweeprFi"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x09c704c1eb9245af48f058878e72129557a10f04",
+      "deployedAt": "2026-07-31",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "sweep-protocol",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.sweepr.finance",
+        "https://coinmarketcap.com/currencies/sweeptoken/",
+        "https://www.coingecko.com/en/coins/sweep-token"
+      ]
+    }
+  ]
+}

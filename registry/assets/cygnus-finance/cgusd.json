@@ -1,0 +1,63 @@
+{
+  "identity": {
+    "slug": "cgusd",
+    "symbol": "cgUSD",
+    "name": "Cygnus Finance Global USD",
+    "legacyId": 604,
+    "canonicalMarketId": "cgUSD"
+  },
+  "exposure": {
+    "underlying": "us-dollar"
+  },
+  "class": {
+    "structure": "yield-rwa-stable",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "rwa-stablecoins"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "cgUSD is a rebasing, Treasury-backed dollar token issued by Cygnus Finance. Users deposit USDC/USDT and receive cgUSD. reserves are deployed into short-duration U. S. Treasury bills, and yield is reflected through a rising rebasing index rather than a separate yield token. Redemptions target 1 cgUSD ≈ 1 USDC, but withdrawals can be delayed (e. g. , several days) due to underlying Treasury settlement. Key risks include issuer/operational risk, custodial and U. S. Treasury exposure, smart-contract risk on Base, and redemption-liquidity timing risk.",
+    "logo": "https://icons.llamao.fi/icons/rwa/cygnus-finance-global-usd.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.cygnus.finance/"
+      ],
+      "twitter": "https://x.com/CygnusDAO",
+      "docs": "https://docs.cygnus.finance/",
+      "linkedin": "https://www.linkedin.com/company/cygnus-finance",
+      "telegram": "https://t.me/CygnusFinanceBot",
+      "github": "https://github.com/CygnusDAO"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "base",
+      "address": "0xca72827a3d211cfd8f6b00ac98824872b72cab49",
+      "deployedAt": "2024-02-20",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "cygnus-finance",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.cygnus.finance/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "identity": {
+    "slug": "abrn",
+    "symbol": "ABRN",
+    "name": "Altai Brent Oil Token",
+    "legacyId": 186,
+    "canonicalMarketId": "ABRN"
+  },
+  "exposure": {
+    "underlying": "crude-oil-brent"
+  },
+  "class": {
+    "structure": "other-commodity",
+    "type": "asset",
+    "rwaClassification": "programmable-finance",
+    "category": [
+      "gold-commodities"
+    ]
+  },
+  "terms": {
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "about": {
+    "description": "ABRN is Altai’s Brent oil exposure token, designed to represent a commodity-linked position that can be traded and used for settlement within the Altai ecosystem. It targets access to energy-market exposure alongside precious-metals allocations, using a unified onchain venue and pricing workflow.",
+    "logo": "https://icons.llamao.fi/icons/rwa/abrn.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://altai.exchange/"
+      ],
+      "twitter": "https://x.com/altaiexchange",
+      "docs": "https://altai.io/",
+      "linkedin": "https://www.linkedin.com/company/altaicapitalmanagement"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "bsc",
+      "address": "0x2553c055f3502da728ce42b2956605a2f7520f2e",
+      "deployedAt": "2025-10-30",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x63336911f84d0d96f76d087dbaffb6262222c7b9",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xaf024d8e1eb7bb5f150b4f16aece9a56b4fb668e",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xe16a3cdede40b38eeed6e58a4edd5e14e3510595",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "altai",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://altai.exchange/"
+      ]
+    }
+  ]
+}

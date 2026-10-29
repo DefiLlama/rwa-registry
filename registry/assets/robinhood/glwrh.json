@@ -1,0 +1,92 @@
+{
+  "identity": {
+    "slug": "glwrh",
+    "symbol": "GLW",
+    "name": "Corning Incorporated • Robinhood Token",
+    "legacyId": 1461,
+    "canonicalMarketId": "GLWrh"
+  },
+  "exposure": {
+    "underlying": "corning-incorporated"
+  },
+  "class": {
+    "structure": "synthetic-stock",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "yieldBearing": false
+  },
+  "sources": {
+    "identifiers": [
+      {
+        "scheme": "isin",
+        "value": "US2193501051",
+        "source": null,
+        "verified": false
+      }
+    ]
+  },
+  "about": {
+    "description": "GLW is a tokenized tracker certificate issued by Robinhood Markets, Inc. through its European subsidiary Robinhood Europe UAB, deployed as an ERC-20 token on Arbitrum One. It is designed to provide synthetic price exposure to GLW rather than direct share ownership, operating under MiFID II regulatory oversight. The token is available to EU/EEA customers with 24/5 commission-free trading, and on-chain pricing is supplied through Chainlink oracle feeds.",
+    "logo": "https://icons.llamao.fi/icons/rwa/glw.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://robinhood.com/stocks"
+      ],
+      "twitter": "https://x.com/RobinhoodApp",
+      "docs": "https://robinhood.com/us/en/support/",
+      "linkedin": "https://www.linkedin.com/company/robinhood-markets",
+      "discord": "https://discord.com/invite/robinhood",
+      "github": "https://github.com/robinhood"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "arbitrum",
+      "address": "0xbb50c1d166e30e988e4d9014109662a4dd9c59ae",
+      "deployedAt": "2025-11-04",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xcbdf630a858e7d87b5b08d92968ca14ca0f8f556",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xd29aa2b0584856c2b3b097595e9d4b1cd1242e05",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "robinhood",
+      "address": "0x7c04e6a3368f2a1de3874f0e80d2e0a1a9915da6",
+      "deployedAt": "2026-06-10"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "robinhood-markets-inc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://robinhood.com/eu/en/about/"
+      ]
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    }
+  ]
+}

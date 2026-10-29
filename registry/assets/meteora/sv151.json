@@ -1,0 +1,60 @@
+{
+  "identity": {
+    "slug": "sv151",
+    "symbol": "SV151",
+    "name": "Scarlet & Violet 151",
+    "legacyId": 4430,
+    "canonicalMarketId": "SV151"
+  },
+  "exposure": {
+    "underlying": "sealed-pokemon-tcg-scarlet-violet-151-packs"
+  },
+  "class": {
+    "structure": "collectibles",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "other-rwas"
+    ]
+  },
+  "terms": {
+    "redeemable": false,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "about": {
+    "description": "SV151 is the first Dynamic Asset, a Meteora x Sunrise product on Solana giving holders fractional exposure to a reserve of sealed Pokemon TCG: Scarlet & Violet 151 product. The reserve holds loose booster packs, booster bundles and a USDC balance, with sealed inventory marked daily at the 14-day TWAP of median TCGplayer and PriceCharting prices. 60% of the 1% swap fee on the Meteora DAMM v2 pool accrues to the reserve and is recycled into more sealed product. Holders do not own the physical packs and redemption for the underlying is not enabled yet. Issued under the Bedrock Foundation legal framework, with reserve holdings and activity published at dassetsol.xyz.",
+    "logo": "https://icons.llamao.fi/icons/rwa/sv151.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://dassetsol.xyz/",
+        "https://dassetsol.xyz/asset/sv151"
+      ],
+      "twitter": "https://x.com/dassetsol"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "solana",
+      "address": "SV151D5pjygAKA8aJJcKzm4wFnRX5G92Fye94jQJk7g",
+      "deployedAt": "2026-09-10",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "bedrock-foundation",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://bedrockfndn.org/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "identity": {
+    "slug": "brickken",
+    "symbol": "BRICKKEN",
+    "name": "Brickken",
+    "legacyId": 136,
+    "canonicalMarketId": "BRICKKEN"
+  },
+  "exposure": {
+    "underlying": "brickken"
+  },
+  "class": {
+    "structure": "governance-token",
+    "type": "asset",
+    "rwaClassification": "non-rwa-gov-utility",
+    "category": [
+      "governance-tokens",
+      "stocks-equities",
+      "real-estate"
+    ]
+  },
+  "terms": {
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "sources": {
+    "coingeckoId": "brickken"
+  },
+  "about": {
+    "description": "Brickken is tokenization infrastructure designed to help issuers structure, launch, and manage tokenized offerings for real-world assets, covering workflows such as issuance setup, investor onboarding integrations, and ongoing lifecycle administration. BKN is the ecosystem token used across the Brickken suite for fees and participation incentives tied to platform usage.",
+    "logo": "https://icons.llamao.fi/icons/rwa/brickken.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.brickken.com"
+      ],
+      "twitter": "https://x.com/Brickken",
+      "docs": "https://docs.brickken.com/",
+      "linkedin": "https://www.linkedin.com/company/brickken",
+      "telegram": "https://t.me/Brickken",
+      "github": "https://github.com/brickken"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x0a638f07acc6969abf392bb009f216d22adea36d",
+      "deployedAt": "2021-08-25",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x4413140cc8ceb93e80c0cd438ae6321d4e6ac84d",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "bsc",
+      "address": "0x0e28bc9b03971e95acf9ae1326e51ecf9c55b498",
+      "deployedAt": "2023-06-01",
+      "labels": [
+        {
+          "address": "0x4413140cc8ceb93e80c0cd438ae6321d4e6ac84d",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "brickken-solutions-s-l",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.brickken.com/es/aviso-legal"
+      ]
+    }
+  ]
+}

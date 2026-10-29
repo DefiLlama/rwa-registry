@@ -1,0 +1,115 @@
+{
+  "identity": {
+    "slug": "nteson",
+    "symbol": "NTESon",
+    "name": "NetEase (Ondo Tokenized)",
+    "legacyId": 730,
+    "canonicalMarketId": "NTESon"
+  },
+  "exposure": {
+    "underlying": "netease-inc"
+  },
+  "class": {
+    "structure": "stock-backed",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "cexListed": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Daily"
+  },
+  "sources": {
+    "coingeckoId": "netease-ondo-tokenized",
+    "identifiers": [
+      {
+        "scheme": "isin",
+        "value": "US64110W1027",
+        "source": null,
+        "verified": false
+      }
+    ]
+  },
+  "about": {
+    "description": "NTESon is an Ondo Global Markets tokenized stock exposure designed to provide economic exposure to =SUBSTITUTE(A161, \", \") in an onchain format. The token is designed to be fully backed by the underlying publicly traded asset, together with cash in transit, held with regulated custodial broker-dealers. Holdings attestations and ongoing reporting are surfaced through Ondo trust and transparency materials and the product asset page. Tokenholders are not shareholders of the underlying and do not receive shareholder voting rights. Dividend value is reflected through total return mechanics, and where applicable, dividends are reflected through reinvestment adjustments instead of cash dividends.",
+    "logo": "https://icons.llamao.fi/icons/rwa/ntes.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://app.ondo.finance/assets/nteson"
+      ],
+      "twitter": "https://x.com/ondofinance",
+      "docs": "https://docs.ondo.finance/",
+      "linkedin": "https://www.linkedin.com/company/ondofinance",
+      "discord": "https://discord.com/invite/ondofinance",
+      "telegram": "https://t.me/ondofinance",
+      "github": "https://github.com/ondoprotocol"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x3d1cf8692a6f2fc9048a9cc1a06abf77f3465f0a",
+      "deployedAt": "2025-12-10",
+      "primary": true
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x3d6d0440b6c86286bd983a3f8f58c25b781f3230",
+      "deployedAt": "2025-12-10"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x282973969118f9fe39bf2ff3d8dd1efee82ccb11",
+      "deployedAt": "2025-12-10"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x64dfe522e85b74b84db41d98b245a0489f797556",
+      "deployedAt": "2025-12-10"
+    },
+    {
+      "chain": "solana",
+      "address": "YeK2TdPtGLAme3Phg4pb1GBN2YxKgX5UNVyD4asondo",
+      "deployedAt": "2025-12-31"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "ondo-global-markets-bvi-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.ondo.finance/ondo-global-markets/legal-and-regulatory"
+      ],
+      "protocolIds": [
+        2542,
+        6650
+      ]
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://app.ondo.finance/assets/nteson"
+      ],
+      "note": "Daily (ongoing)"
+    }
+  ]
+}

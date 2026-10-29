@@ -1,0 +1,72 @@
+{
+  "identity": {
+    "slug": "aks",
+    "symbol": "AKS",
+    "name": "Aktionariat AG Shares",
+    "legacyId": 134,
+    "canonicalMarketId": "AKS"
+  },
+  "exposure": {
+    "underlying": "aktionariat-ag"
+  },
+  "class": {
+    "structure": "pe-venture",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "sources": {
+    "coingeckoId": "aktionariat-green-consensus-ag-tokenized-shares"
+  },
+  "about": {
+    "description": "AKS is the base ERC-20 share token for Aktionariat AG, the Swiss tokenization provider that operates the Aktionariat platform. Each AKS represents 1:1 ownership in one common share of Aktionariat AG under Swiss law (CHE-453.438.437). AKS is the 'naked' share token in Aktionariat's modular share-token design: it carries minimal on-chain functionality and is typically wrapped into DAKS (Draggable Aktionariat AG Shares) before being placed in active circulation. The DAKS wrapper adds drag-along clauses, voting/transfer features, and shareholder-agreement enforcement consistent with the underlying corporate governance terms.",
+    "logo": "https://icons.llamao.fi/icons/rwa/aks.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://shares.aktionariat.com"
+      ],
+      "twitter": "https://x.com/aktionariat",
+      "docs": "https://docs.aktionariat.com/",
+      "linkedin": "https://www.linkedin.com/company/aktionariat-ag",
+      "telegram": "https://t.me/Aktionariat",
+      "github": "https://github.com/aktionariat"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xcb58ec733ab0d96216b048bf7c3209d6c184d7c3",
+      "deployedAt": "2020-10-24",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "aktionariat-ag",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.aktionariat.com/impressum"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "No attestation found"
+    }
+  ]
+}

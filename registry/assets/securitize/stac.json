@@ -1,0 +1,68 @@
+{
+  "identity": {
+    "slug": "stac",
+    "symbol": "STAC",
+    "name": "Securitize AAA CLO Tokenized Fund, Ltd",
+    "legacyId": 546,
+    "canonicalMarketId": "STAC"
+  },
+  "exposure": {
+    "underlying": "securitize-aaa-clo-tokenized-fund-ltd"
+  },
+  "class": {
+    "structure": "corp-bond-fund",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "bond-mmf-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "STAC is the Securitize Tokenized AAA CLO Fund. It is a tokenized structured‑credit vehicle built to give digital, fractional exposure to U.S. dollar‑denominated collateralized loan obligations (CLOs) at the AAA tranche level. AAA CLO tranches are senior positions in securitized pools of senior secured corporate loans and are typically floating‑rate, making them a common institutional tool for earning yield beyond money market rates with historically low default experience relative to lower‑rated tranches. The fund’s underlying assets are custody‑held (with BNY serving as custodian according to launch disclosures) and the strategy is sub‑advised by BNY Investments. Shares are issued as digital tokens on Ethereum while the fund remains a traditional securities product whose performance follows the AAA CLO portfolio.",
+    "logo": "https://icons.llamao.fi/icons/rwa/stac.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://securitize.io/primary-market/Securitize-BNY-CLO-Fund"
+      ],
+      "twitter": "https://x.com/Securitize",
+      "docs": "https://docs.securitize.io",
+      "linkedin": "https://www.linkedin.com/company/securitize",
+      "telegram": "https://t.me/securitize",
+      "github": "https://github.com/securitize-io"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x51c2d74017390cbbd30550179a16a1c28f7210fc",
+      "deployedAt": "2025-10-29",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "securitize-aaa-clo-tokenized-fund-ltd",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002095325&owner=exclude&count=40"
+      ],
+      "protocolIds": [
+        6712
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "identity": {
+    "slug": "dmf",
+    "symbol": "DMF",
+    "name": "SkyBridge Digital Macro Fund",
+    "legacyId": 4095,
+    "canonicalMarketId": "DMF"
+  },
+  "exposure": {
+    "underlying": "crypto-macro-strategy"
+  },
+  "class": {
+    "structure": "crypto-hedge-fund",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "crypto-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "DMF is the ERC-3643 tokenized representation of SkyBridge Capital's Digital Macro Fund, a crypto-focused macro hedge fund tokenized on Avalanche by Tokeny with Apex Group providing administration and distribution to qualified investors. The on-chain token currently mirrors the off-chain LP register from a single registrar wallet.",
+    "logo": "https://icons.llamao.fi/icons/rwa/dmf.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.skybridge.com"
+      ],
+      "twitter": "https://x.com/SkyBridge",
+      "docs": "https://tokeny.com"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "avax",
+      "address": "0x14556ce468c2cda0e5e172476231ef5ea91c988d",
+      "deployedAt": "2025-08-15",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xe27e930abdbdba9d16c37f55339f9c88d95e4af6",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "skybridge-capital-digital-macro-master-fund-ltd",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://tokeny.com/skybridge-capital-partners-with-tokeny-to-tokenize-300min-hedge-funds-on-avalanche/"
+      ]
+    },
+    {
+      "organization": "tokenized-by-tokeny-with-apex-group",
+      "kind": "tokenizer",
+      "sourceLinks": [
+        "https://tokeny.com/skybridge-capital-partners-with-tokeny-to-tokenize-300min-hedge-funds-on-avalanche/"
+      ]
+    },
+    {
+      "organization": "apex-group",
+      "kind": "fund-administrator"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "identity": {
+    "slug": "props",
+    "symbol": "PROPS",
+    "name": "Propbase",
+    "legacyId": 123,
+    "canonicalMarketId": "PROPS"
+  },
+  "exposure": {
+    "underlying": "propbase"
+  },
+  "class": {
+    "structure": "governance-token",
+    "type": "asset",
+    "rwaClassification": "non-rwa-gov-utility",
+    "category": [
+      "governance-tokens",
+      "real-estate"
+    ]
+  },
+  "terms": {
+    "cexListed": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "sources": {
+    "coingeckoId": "propbase"
+  },
+  "about": {
+    "description": "Propbase is a real estate tokenization platform designed to offer fractional access to specific properties through a marketplace experience. It emphasizes property-level transparency through a dedicated documents section intended to surface the legal and financial materials tied to each listing, supporting investor verification of structure, ownership, and diligence artifacts.",
+    "logo": "https://icons.llamao.fi/icons/rwa/propbase.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.propbase.app"
+      ],
+      "twitter": "https://x.com/PropbaseApp",
+      "docs": "https://docs.propbase.app/",
+      "linkedin": "https://www.linkedin.com/company/propbase-app",
+      "telegram": "https://t.me/Propbase",
+      "github": "https://github.com/Propbase-Application"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "aptos",
+      "address": "0x6dba1728c73363be1bdd4d504844c40fbb893e368ccbeff1d1bd83497dbc756d",
+      "deployedAt": "2026-09-10",
+      "primary": true
+    },
+    {
+      "chain": "base",
+      "address": "0xd6aaf4d477999fa50c5a1aa35f708862113a73cc",
+      "deployedAt": "2024-09-12"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "pb-labs-co-ltd",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.propbase.app/white-paper"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://doc.propbase.app/using-the-marketplace-nexus/property-details"
+      ],
+      "note": "Not publicly disclosed"
+    }
+  ]
+}

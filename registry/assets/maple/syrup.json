@@ -1,0 +1,83 @@
+{
+  "identity": {
+    "slug": "syrup",
+    "symbol": "SYRUP",
+    "name": "Maple Finance",
+    "legacyId": 51,
+    "canonicalMarketId": "SYRUP"
+  },
+  "exposure": {
+    "underlying": "maple-finance"
+  },
+  "class": {
+    "structure": "governance-token",
+    "type": "asset",
+    "rwaClassification": "non-rwa-gov-utility",
+    "category": [
+      "governance-tokens",
+      "private-credit"
+    ]
+  },
+  "terms": {
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "sources": {
+    "coingeckoId": "syrup"
+  },
+  "about": {
+    "description": "SYRUP is the ecosystem token for Maple, an onchain credit and asset-management platform that structures curated lending and yield products. Maple is known for professionally managed pools with defined underwriting and risk frameworks, targeting borrowers and strategies that resemble private credit and structured lending rather than overcollateralized retail DeFi. SYRUP aligns governance and incentive design across the platform’s pools and product suite, including liquidity growth and protocol economics.",
+    "logo": "https://icons.llamao.fi/icons/rwa/maple-finance.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.maple.finance"
+      ],
+      "twitter": "https://x.com/maplefinance",
+      "docs": "https://maplefinance.gitbook.io/",
+      "linkedin": "https://www.linkedin.com/company/maplefinance",
+      "discord": "https://discord.gg/fgWRMHCd7d",
+      "telegram": "https://t.me/maplefinance",
+      "github": "https://github.com/maple-labs"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x643c4e15d7d62ad0abec4a9bd4b001aa3ef52d66",
+      "deployedAt": "2024-09-12",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xd6d4bcde6c816f17889f1dd3000af0261b03a196",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x688aee022aa544f150678b8e5720b6b96a9e9a2f",
+      "deployedAt": "2024-11-12"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "maple-labs-pty-ltd",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://abr.business.gov.au/ABN/View?abn=34635342880"
+      ],
+      "protocolIds": [
+        5853,
+        3103,
+        587
+      ]
+    }
+  ]
+}

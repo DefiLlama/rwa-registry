@@ -1,0 +1,88 @@
+{
+  "identity": {
+    "slug": "usd",
+    "symbol": "USD+",
+    "name": "Dinari USD+",
+    "legacyId": 433,
+    "canonicalMarketId": "USD+"
+  },
+  "exposure": {
+    "underlying": "us-dollar"
+  },
+  "class": {
+    "structure": "yield-rwa-stable",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "rwa-stablecoins"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Random intervals (per whitepaper)"
+  },
+  "sources": {
+    "coingeckoId": "dinari-usd"
+  },
+  "about": {
+    "description": "USD+ is Dinari’s native yield-bearing stablecoin designed to maintain a $1 value and is backed by short-term U.S. Treasuries, cash, and equivalents. Minting/redemption requires a Dinari account (KYC/AML onboarding), secondary-market transfers can remain permissionless.",
+    "logo": "https://icons.llamao.fi/icons/rwa/dinari-usd.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://dinari.com/usdplus"
+      ],
+      "twitter": "https://x.com/DinariGlobal",
+      "docs": "https://docs.dinari.com/",
+      "linkedin": "https://www.linkedin.com/company/dinari",
+      "discord": "https://discord.gg/dinari",
+      "telegram": "https://t.me/dinariglobal",
+      "github": "https://github.com/dinaricrypto"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "arbitrum",
+      "address": "0xfc90518d5136585ba45e34ed5e1d108bd3950cfa",
+      "deployedAt": "2023-12-28"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x98c6616f1cc0d3e938a16200830dd55663dd7dd3",
+      "deployedAt": "2023-11-20",
+      "primary": true
+    },
+    {
+      "chain": "base",
+      "address": "0x98c6616f1cc0d3e938a16200830dd55663dd7dd3",
+      "deployedAt": "2024-06-06"
+    },
+    {
+      "chain": "plume_mainnet",
+      "address": "0x1fa3671df7300df728858b88c7216708f22da3fb",
+      "deployedAt": "2025-04-21"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "dinari-inc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.sec.gov/Archives/edgar/data/1915430/0001915430-23-000003-index.htm",
+        "https://dinari.com/usdplus",
+        "https://dinari.com/terms-conditions-usdplus-stusdplus-tokens",
+        "https://docs.dinari.com/docs/usdplus-evm",
+        "https://docs.dinari.com/docs/what-is-usd"
+      ]
+    }
+  ]
+}

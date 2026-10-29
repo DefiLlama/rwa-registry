@@ -1,0 +1,69 @@
+{
+  "identity": {
+    "slug": "xrpl-hat",
+    "symbol": "HAT",
+    "name": "Hanyu Aerospace",
+    "legacyId": 4476,
+    "canonicalMarketId": "xrpl:HAT"
+  },
+  "exposure": {
+    "underlying": "hanyu-aerospace-technology-co-ltd"
+  },
+  "class": {
+    "structure": "pe-venture",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "about": {
+    "description": "HAT is an XRPL-issued token representing participation in a Zao Yu Ren-managed SPV that holds an equity interest in Hanyu Aerospace Technology Co., Ltd., a private aerospace technology company specializing in avionics, embedded control systems, flight computers, mission processors, navigation modules, data acquisition systems, aerospace networks, and embedded control platforms. Hanyu Aerospace explicitly acknowledges the tokenization arrangement. The token is not redeemable and requires KYC to mint. Pricing is derived onchain from the XRPL AMM at rHqn3M9JT3SFfKXSiGZjQxiQK71k5ZLmCw using the ratio of its token reserves. As of the recent ledger, the issuer had minted 1,620,000 HAT, verified via XRPL gateway_balances.",
+    "logo": "https://hanyuaerospace.com/assets/favicon.png",
+    "links": {
+      "website": [
+        "https://hanyuaerospace.com/"
+      ],
+      "docs": "https://hanyuaerospace.com/tokenization/"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ripple",
+      "address": "HAT:rKVBRCYxHx674PfsnZPbznmNuoJyQk4ALG",
+      "deployedAt": "2026-06-04",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "zyr-hanyu-spv",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://hanyuaerospace.com/tokenization/",
+        "https://hanyu.zaoyuren.com/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://hanyuaerospace.com/tokenization/"
+      ],
+      "note": "no date in the export"
+    }
+  ]
+}

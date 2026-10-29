@@ -1,0 +1,81 @@
+{
+  "identity": {
+    "slug": "copm",
+    "symbol": "COPM",
+    "name": "COPM by Minteo",
+    "legacyId": 646,
+    "canonicalMarketId": "COPM"
+  },
+  "exposure": {
+    "underlying": "colombian-peso"
+  },
+  "class": {
+    "structure": "other-fiat-stable",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "fiat-stablecoins"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Monthly"
+  },
+  "about": {
+    "description": "COPM is Minteo’s digital Colombian peso, designed for treasury operations, payments, and FX settlement. It is fully collateralized with COP-denominated reserves, and is supported by public reserve reporting and periodic audits through Minteo’s transparency portal.",
+    "logo": "https://icons.llamao.fi/icons/rwa/copm.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://minteo.com"
+      ],
+      "twitter": "https://x.com/minteocom"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "polygon",
+      "address": "0x12050c705152931cfee3dd56c52fb09dea816c23",
+      "deployedAt": "2023-09-19",
+      "primary": true
+    },
+    {
+      "chain": "celo",
+      "address": "0xc92e8fc2947e32f2b574cca9f2f12097a71d5606",
+      "deployedAt": "2024-09-11"
+    },
+    {
+      "chain": "solana",
+      "address": "Copm5KwCLXDTWYgXJYmo6ixmMZrxd1wabkujkcuaK47C",
+      "deployedAt": "2024-02-14"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "minteo",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://transparency.minteo.com/",
+        "https://minteo.com/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://transparency.minteo.com/"
+      ],
+      "note": "Monthly (ongoing)"
+    }
+  ]
+}

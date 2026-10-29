@@ -1,0 +1,72 @@
+{
+  "identity": {
+    "slug": "dxb-2",
+    "symbol": "DXB-2",
+    "name": "REENTAL - DUBAI 2",
+    "legacyId": 9619,
+    "canonicalMarketId": "DXB-2"
+  },
+  "exposure": {
+    "underlying": "dubai-2"
+  },
+  "class": {
+    "structure": "single-property",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "real-estate"
+    ]
+  },
+  "terms": {
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "Reental-DXB-2 is Reental's tokenized interest in Dubai 2 (USD-denominated), issued on Polygon at a fixed 100 USD per token. The token's AssetOracle publishes that issue price, not a revalued mark: it is pinned at exactly $100 and has never moved. No attestation, no redemption price and no secondary market (transfers are whitelist-gated).",
+    "logo": "https://icons.llamao.fi/icons/rwa/dxb-2.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.reental.co/"
+      ],
+      "twitter": "https://x.com/Reental_co",
+      "docs": "https://docs.reental.co/",
+      "linkedin": "https://www.linkedin.com/company/reental"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "polygon",
+      "address": "0x46182d6937ed8cf2707e187b61b654e8ca59c7b5",
+      "deployedAt": "2025-11-24",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xb5cbb0949ff2d794a5242a2cdb4cad6631a84a00",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "reental",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://app.reental.co"
+      ]
+    },
+    {
+      "organization": "reental",
+      "kind": "oracle"
+    }
+  ]
+}

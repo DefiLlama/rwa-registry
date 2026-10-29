@@ -1,0 +1,66 @@
+{
+  "identity": {
+    "slug": "usdb",
+    "symbol": "USDB",
+    "name": "USDB",
+    "legacyId": 622,
+    "canonicalMarketId": "USDB"
+  },
+  "exposure": {
+    "underlying": "us-dollar"
+  },
+  "class": {
+    "structure": "crypto-stable",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "non-rwa-stablecoins"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "cexListed": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "sources": {
+    "coingeckoId": "usdb"
+  },
+  "about": {
+    "description": "USDB is Blast’s native dollar stablecoin used for settlement on the Blast L2. It is minted when users bridge supported stablecoins into Blast, creating a chain-native representation intended to remain $1-pegged while enabling protocol-level yield distribution on Blast. Key risks include bridge/issuer and L2 risk, reliance on the underlying backing assets and conversion mechanics, and smart-contract risk in the minting/bridging pipeline.",
+    "logo": "https://icons.llamao.fi/icons/rwa/usdb.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://blast.io/"
+      ],
+      "twitter": "https://x.com/Blast_L2",
+      "docs": "https://docs.blast.io/",
+      "discord": "https://discord.com/invite/blast",
+      "github": "https://github.com/blast-io"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "blast",
+      "address": "0x1a3d9b2fa5c6522c8c071dc07125ce55df90b253",
+      "deployedAt": "2024-04-21",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "blast",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://blast.io/"
+      ]
+    }
+  ]
+}

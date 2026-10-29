@@ -1,0 +1,82 @@
+{
+  "identity": {
+    "slug": "rdfs",
+    "symbol": "RDFS",
+    "name": "Robin des Fermes Shares",
+    "legacyId": 2991,
+    "canonicalMarketId": "RDFS"
+  },
+  "exposure": {
+    "underlying": "robin-des-fermes"
+  },
+  "class": {
+    "structure": "pe-venture",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "about": {
+    "description": "Tokenized shares of Robin des Fermes SA, a Swiss platform connecting local producers and consumers with logistics and e-commerce tools. The issuer states that each token represents one company share and can be transferred via the Aktionariat app.",
+    "logo": "https://icons.llamao.fi/icons/rwa/rdfs.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.robindesfermes.ch/investir"
+      ],
+      "twitter": "https://x.com/aktionariat",
+      "docs": "https://docs.aktionariat.com/",
+      "linkedin": "https://www.linkedin.com/company/aktionariat-ag"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x2ab2dbfdde4566b0da9dba8c87c2e6eab83b87a7",
+      "deployedAt": "2024-10-04",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x9c9dff192d5c2203e8ca89a1a9e87f234813b7de",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "robin-des-fermes-sa",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.robindesfermes.ch/investir",
+        "https://www.aktionariat.com/"
+      ]
+    },
+    {
+      "organization": "aktionariat-ag",
+      "kind": "tokenizer",
+      "sourceLinks": [
+        "https://www.robindesfermes.ch/investir",
+        "https://www.aktionariat.com/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "No public attestation date found"
+    }
+  ]
+}

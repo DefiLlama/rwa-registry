@@ -1,0 +1,52 @@
+{
+  "identity": {
+    "slug": "rsrb",
+    "symbol": "RSRB",
+    "name": "R&B Oak Park - Equity Tranche 1",
+    "legacyId": 2730,
+    "canonicalMarketId": "RSRB"
+  },
+  "exposure": {
+    "underlying": "r-b-oak-park"
+  },
+  "class": {
+    "structure": "single-property",
+    "type": "asset",
+    "rwaClassification": "programmable-finance",
+    "category": [
+      "real-estate"
+    ]
+  },
+  "terms": {
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "about": {
+    "description": "R&B Oak Park - Equity Tranche 1 is an offering tied to a 104-unit multifamily property in suburban Chicago. The tokenized security is offered to U.S. qualified purchasers and accredited investors under Regulation D, and to non-U.S. investors under Regulation S.",
+    "logo": "https://icons.llamao.fi/icons/rwa/rsrb.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://redswan.io/"
+      ],
+      "twitter": "https://x.com/RedSwanDigital",
+      "docs": "https://www.redswan.io/",
+      "linkedin": "https://www.linkedin.com/company/redswan-cre"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "redswan-digital-real-estate",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://redswan.io/"
+      ]
+    }
+  ]
+}

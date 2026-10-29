@@ -1,0 +1,83 @@
+{
+  "identity": {
+    "slug": "blndrh",
+    "symbol": "BLND",
+    "name": "Blend Labs, Inc. • Robinhood Token",
+    "legacyId": 1005,
+    "canonicalMarketId": "BLNDrh"
+  },
+  "exposure": {
+    "underlying": "blend-labs-inc"
+  },
+  "class": {
+    "structure": "synthetic-stock",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "yieldBearing": false
+  },
+  "about": {
+    "description": "BLND is a tokenized tracker certificate issued by Robinhood Markets, Inc. through its European subsidiary Robinhood Europe UAB, deployed as an ERC-20 token on Arbitrum One. It is designed to provide synthetic price exposure to BLND rather than direct share ownership, operating under MiFID II regulatory oversight. The token is available to EU/EEA customers with 24/5 commission-free trading, and on-chain pricing is supplied through Chainlink oracle feeds.",
+    "logo": "https://icons.llamao.fi/icons/rwa/blnd.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://robinhood.com/stocks"
+      ],
+      "twitter": "https://x.com/RobinhoodApp",
+      "docs": "https://robinhood.com/us/en/support/",
+      "linkedin": "https://www.linkedin.com/company/robinhood-markets",
+      "discord": "https://discord.com/invite/robinhood",
+      "github": "https://github.com/robinhood"
+    }
+  },
+  "review": {
+    "activeAumReviewed": false,
+    "suspicious": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "arbitrum",
+      "address": "0xada1740df07189b93390083b0b3eadec91413cc9",
+      "deployedAt": "2025-12-17",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xcbdf630a858e7d87b5b08d92968ca14ca0f8f556",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xd29aa2b0584856c2b3b097595e9d4b1cd1242e05",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "robinhood-markets-inc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://robinhood.com/eu/en/about/"
+      ]
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

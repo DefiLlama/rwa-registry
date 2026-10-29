@@ -1,0 +1,63 @@
+{
+  "identity": {
+    "slug": "jmwh",
+    "symbol": "JMWH",
+    "name": "JMWH",
+    "legacyId": 653,
+    "canonicalMarketId": "JMWH"
+  },
+  "exposure": {
+    "underlying": "electricity"
+  },
+  "class": {
+    "structure": "other-commodity",
+    "type": "asset",
+    "rwaClassification": "programmable-finance",
+    "category": [
+      "gold-commodities"
+    ]
+  },
+  "terms": {
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "about": {
+    "description": "JMWH is an energy-backed token where each token represents one megawatt-hour of electricity commitment associated with participating energy companies. Tokens are assigned under signed energy contracts and are burned upon delivery and consumption, enabling accountability and traceability across the energy lifecycle.",
+    "logo": "https://icons.llamao.fi/icons/rwa/jmwh.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.justoken.com"
+      ],
+      "twitter": "https://x.com/justokenglobal",
+      "docs": "https://justoken.com/",
+      "linkedin": "https://www.linkedin.com/company/justoken"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ripple",
+      "address": "JMWH.r976xbKc6om7WYTFwZHByvxnYFi1y5hJXH",
+      "deployedAt": "2026-01-14",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "justoken",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.justoken.com/"
+      ]
+    }
+  ]
+}

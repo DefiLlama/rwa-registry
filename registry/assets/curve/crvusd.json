@@ -1,0 +1,203 @@
+{
+  "identity": {
+    "slug": "crvusd",
+    "symbol": "crvUSD",
+    "name": "crvUSD",
+    "legacyId": 587,
+    "canonicalMarketId": "crvUSD"
+  },
+  "exposure": {
+    "underlying": "us-dollar"
+  },
+  "class": {
+    "structure": "crypto-stable",
+    "type": "asset",
+    "rwaClassification": "programmable-finance",
+    "category": [
+      "non-rwa-stablecoins"
+    ]
+  },
+  "terms": {
+    "cexListed": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "sources": {
+    "coingeckoId": "crvusd"
+  },
+  "about": {
+    "description": "crvUSD is Curve’s stablecoin minted through Curve Lending/LlamaLend. It uses LLAMMA (Lending‑Liquidating AMM Algorithm) for ‘soft liquidation’ - gradual rebalancing of collateral into crvUSD as prices move - aiming to reduce liquidation shocks and improve peg resiliency compared with cliff liquidations.",
+    "logo": "https://icons.llamao.fi/icons/rwa/crvusd.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://curve.fi/"
+      ],
+      "twitter": "https://x.com/CurveFinance",
+      "docs": "https://docs.curve.fi/",
+      "telegram": "https://t.me/curvefi",
+      "github": "https://github.com/curvefi"
+    }
+  },
+  "review": {
+    "activeAumReviewed": false,
+    "suspicious": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "arbitrum",
+      "address": "0x498bf2b1e120fed3ad3d42ea2165e9b73f99c1e5",
+      "deployedAt": "2023-07-07",
+      "labels": [
+        {
+          "address": "0xd4f94d0aaa640bbb72b5eec2d85f6d114d81a88e",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x417ac0e078398c154edfadd9ef675d30be60af93",
+      "deployedAt": "2023-08-18",
+      "labels": [
+        {
+          "address": "0xe8269b33e47761f552e1a3070119560d5fa8bbd6",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "bsc",
+      "address": "0xe2fb3f127f5450dee44afe054385d74c392bdef4",
+      "deployedAt": "2024-02-19",
+      "labels": [
+        {
+          "address": "0x98b4029cabef7fd525a36b0bf8555ec1d42ec0b6",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "era",
+      "address": "0x43cd37cc4b9ec54833c8ac362dd55e58bfd62b86",
+      "deployedAt": "2023-06-22"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xaa798bf5ec09b6e3bc059ea4d36d4ca53e063ef7",
+      "deployedAt": "2023-07-14",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xecb456ea5365865ebab8a2661b0c503410e9b347",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xa2bcd1a4efbd04b63cd03f5aff2561106ebcce00",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "fantom",
+      "address": "0xaa798bf5ec09b6e3bc059ea4d36d4ca53e063ef7",
+      "deployedAt": "2025-01-01",
+      "labels": [
+        {
+          "address": "0x2b039565b2b7a1a9192d4847fbd33b25b836b950",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "fraxtal",
+      "address": "0xb102f7efa0d5de071a8d37b3548e1c7cb148caf3",
+      "deployedAt": "2024-03-05",
+      "labels": [
+        {
+          "address": "0x8b3efbefa6ed222077455d6f0dcda3bf4f3f57a6",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "mantle",
+      "address": "0x0994206dfe8de6ec6920ff4d779b0d950605fb53",
+      "deployedAt": "2024-05-31",
+      "labels": [
+        {
+          "address": "0xf3a431008396df8a8b2df492c913706bdb0874ef",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "optimism",
+      "address": "0xc52d7f23a2e460248db6ee192cb23dd12bddcbf6",
+      "deployedAt": "2023-07-27",
+      "labels": [
+        {
+          "address": "0xbf7e49483881c76487b0989cd7d9a8239b20ca41",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "polygon",
+      "address": "0xc4ce1d6f5d98d65ee25cf85e9f2e9dcfee6cb5d6",
+      "deployedAt": "2024-01-30",
+      "labels": [
+        {
+          "address": "0x774d1dba98cfbd1f2bc3a1f59c494125e07c48f9",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "sophon",
+      "address": "0x7580d634b8cb1e9b0d9d9880b73207ae33ddcd60",
+      "deployedAt": null
+    },
+    {
+      "chain": "taiko",
+      "address": "0xc8f4518ed4bab9a972808a493107926ce8237068",
+      "deployedAt": "2024-11-19"
+    },
+    {
+      "chain": "xdai",
+      "address": "0xabef652195f98a91e490f047a5006b71c85f058d",
+      "deployedAt": "2023-09-27",
+      "labels": [
+        {
+          "address": "0xb055ebbacc8eefc166c169e9ce2886d0406ab49b",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xbb7404f9965487a9dde721b3a5f0f3ccfa9aa4c5",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "curve-finance",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://curve.fi/",
+        "https://resources.curve.fi/crvusd/"
+      ],
+      "protocolIds": [
+        4321
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

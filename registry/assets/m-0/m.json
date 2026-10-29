@@ -1,0 +1,82 @@
+{
+  "identity": {
+    "slug": "m",
+    "symbol": "M",
+    "name": "M by M^0",
+    "legacyId": 580,
+    "canonicalMarketId": "M"
+  },
+  "exposure": {
+    "underlying": "us-dollar"
+  },
+  "class": {
+    "structure": "usd-stable",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "fiat-stablecoins"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Daily (validator-verified)"
+  },
+  "sources": {
+    "coingeckoId": "wrappedm-by-m0"
+  },
+  "about": {
+    "description": "M is the base stablecoin of the M^0 network, a ‘stablecoin infrastructure’ model where authorized minters issue M against short-dated Treasury/cash-equivalent reserves held with custodians. M can be held and transferred permissionlessly on-chain, while issuance/redemption is conducted by approved institutions - enabling multiple distribution brands to build on the same reserve-backed base.",
+    "logo": "https://icons.llamao.fi/icons/rwa/m.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.m0.org/"
+      ],
+      "twitter": "https://x.com/m0",
+      "docs": "https://docs.m0.org/",
+      "linkedin": "https://www.linkedin.com/company/m-zero-labs",
+      "github": "https://github.com/m0-foundation"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x866a2bf4e572cbcf37d5071a7a58503bfb36be1b",
+      "deployedAt": "2024-05-07",
+      "primary": true
+    },
+    {
+      "chain": "monad",
+      "address": "0x866a2bf4e572cbcf37d5071a7a58503bfb36be1b",
+      "deployedAt": "2026-04-13"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "m-0-federated-minters",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.m0.org/",
+        "https://docs.m0.org/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://docs.m0.org/"
+      ],
+      "note": "Daily (ongoing)"
+    }
+  ]
+}

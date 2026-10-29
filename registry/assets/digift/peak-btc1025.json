@@ -1,0 +1,73 @@
+{
+  "identity": {
+    "slug": "peak-btc1025",
+    "symbol": "pEAK.BTC1025",
+    "name": "DigiFT Peakwater BTC Enhance Fund Series 2025-10 Token",
+    "legacyId": 9288,
+    "canonicalMarketId": "pEAK.BTC1025"
+  },
+  "exposure": {
+    "underlying": "bitcoin-via-ibit-cross-asset-volatility-strategy"
+  },
+  "class": {
+    "structure": "crypto-hedge-fund",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "crypto-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "pEAK.BTC1025 is the lead series of the Peakwater BTC Enhance Fund, launched on DigiFT in October 2025. The fund holds Bitcoin exposure through regulated instruments such as the iShares Bitcoin Trust (IBIT) and overlays the Peakwater Volatility Alpha cross-asset volatility strategy, targeting ~10% annualized excess return over BTC. Managed by MAS-licensed Pilgrim Partners Asia and issued on Ethereum through DigiFT to accredited and institutional investors.",
+    "logo": "https://icons.llamao.fi/icons/rwa/peak.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://peakwatervolatility.com"
+      ],
+      "twitter": "https://x.com/DigiFTTech",
+      "docs": "https://www.digift.io"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xa21519c18a8c97988a6156c8a04e314b4b845b4d",
+      "deployedAt": "2026-01-23",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x3797c46db697c24a983222c335f17ba28e8c5b69",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "peakwater-btc-enhance-fund-manager-pilgrim-partners-asia-mas-cms",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://insights.digift.io/digift-pilgrim-partners-launch-peakwater-btc-focused-volatility-fund/"
+      ]
+    },
+    {
+      "organization": "tokenized-by-digift",
+      "kind": "tokenizer",
+      "sourceLinks": [
+        "https://insights.digift.io/digift-pilgrim-partners-launch-peakwater-btc-focused-volatility-fund/"
+      ]
+    }
+  ]
+}

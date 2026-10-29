@@ -1,0 +1,73 @@
+{
+  "identity": {
+    "slug": "eusd",
+    "symbol": "eUSD",
+    "name": "Evolve eUSD",
+    "legacyId": 3001,
+    "canonicalMarketId": "eUSD"
+  },
+  "exposure": {
+    "underlying": "us-dollar"
+  },
+  "class": {
+    "structure": "yield-rwa-stable",
+    "type": "asset",
+    "rwaClassification": "programmable-finance",
+    "category": [
+      "rwa-stablecoins"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "sources": {
+    "coingeckoId": "evolve-eusd"
+  },
+  "about": {
+    "description": "Evolve eUSD is a yield-bearing stablecoin on Sei. Official docs describe eUSD as earning from a diversified set of onchain and offchain sleeves including RWA yield, AI infrastructure yield, and Sei-native lending yield tokens, with yield reflected through NAV appreciation. Evolve presents eUSD as programmable and composable across DeFi, while noting tokenholder rights are contractual and do not necessarily confer legal ownership of the underlying assets.",
+    "logo": "https://icons.llamao.fi/icons/rwa/evolve-eusd.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://goevolve.xyz/"
+      ],
+      "twitter": "https://x.com/goevolvexyz",
+      "discord": "https://discord.gg/bbDfraXeHc",
+      "telegram": "https://t.me/goEvolveOfficial"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "sei",
+      "address": "0xf2282e641cd3ceeafd4e24663d409fcb68edc1df",
+      "deployedAt": "2026-02-05",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x08fb9833a5a84d5bcecdf5a4a635d33260c5f05c",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "evolve",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.goevolve.xyz/about-evolve",
+        "https://docs.goevolve.xyz/legal-documents/privacy-policy",
+        "https://goevolve.xyz/"
+      ]
+    }
+  ]
+}

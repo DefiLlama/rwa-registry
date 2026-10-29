@@ -1,0 +1,128 @@
+{
+  "identity": {
+    "slug": "aid",
+    "symbol": "AID",
+    "name": "AI Dollar",
+    "legacyId": 2819,
+    "canonicalMarketId": "AID"
+  },
+  "exposure": {
+    "underlying": "us-dollar"
+  },
+  "class": {
+    "structure": "rwa-fiat-stable",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "rwa-stablecoins"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Continuous (on-chain); periodic off-chain reports"
+  },
+  "about": {
+    "description": "AID (AI Dollar) is a USD-pegged stablecoin minted 1:1 from USDC and instantly redeemable 1:1 for USDC 24/7/365 (0% mint fee, 0.1% redemption fee). It serves as the base asset for GAIB's AI infrastructure financing ecosystem: users stake AID into the sAID vault to earn yield from GPU financing deals. AID is deployed across Ethereum, Arbitrum, Base, and BSC via LayerZero OFT bridging. Reserve coverage stands at 113% of circulating AID. Total AID issued: $18.46M, of which $18.25M is staked as sAID and deployed into active GPU financing facilities.",
+    "logo": "https://icons.llamao.fi/icons/rwa/ai-dollar.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://aid.gaib.ai/buy"
+      ],
+      "twitter": "https://x.com/gaib_ai",
+      "docs": "https://docs.gaib.ai/",
+      "linkedin": "https://www.linkedin.com/company/gaibofficial",
+      "telegram": "https://t.me/gaib_ai_official",
+      "refLinks": [
+        "https://aid.gaib.ai/spice?ref=4A3909EB"
+      ]
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x18f52b3fb465118731d9e0d276d4eb3599d57596",
+      "deployedAt": "2025-10-29",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xe2e1424687eb676b3807693cbb439362b8ea908e",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x52323f33551188f170d8de14fe8d8423a839629d",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x1ba86bb13d635290cc77dc8446ca86afe9e41da1",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xb3b3c527ba57cd61648e2ec2f5e006a0b390a9f8",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0x18f52b3fb465118731d9e0d276d4eb3599d57596",
+      "deployedAt": "2025-10-29",
+      "labels": [
+        {
+          "address": "0x04dfa27c7d1ade09ddfccfa233fb3c8490ca2b18",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x18f52b3fb465118731d9e0d276d4eb3599d57596",
+      "deployedAt": "2025-10-29",
+      "labels": [
+        {
+          "address": "0x81c1fba2c7df54ac76de5ebe373e89bcad3b8632",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "bsc",
+      "address": "0x18f52b3fb465118731d9e0d276d4eb3599d57596",
+      "deployedAt": "2025-10-29"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "spiceflow-ai-foundation",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://aid.gaib.ai/transparency"
+      ],
+      "protocolIds": [
+        6535
+      ]
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://aid.gaib.ai/transparency",
+        "https://blog.gaib.ai/aid-and-said-november-21st-upgrade/"
+      ],
+      "note": "Not publicly disclosed"
+    }
+  ]
+}

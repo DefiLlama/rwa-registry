@@ -1,0 +1,76 @@
+{
+  "identity": {
+    "slug": "tngbl",
+    "symbol": "TNGBL",
+    "name": "Tangible RWA",
+    "legacyId": 67,
+    "canonicalMarketId": "TNGBL"
+  },
+  "exposure": {
+    "underlying": "tangible-rwa"
+  },
+  "class": {
+    "structure": "revenue-share",
+    "type": "asset",
+    "rwaClassification": "non-rwa-gov-utility",
+    "category": [
+      "governance-tokens",
+      "real-estate",
+      "other-rwas"
+    ]
+  },
+  "terms": {
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Daily (Chainlink PoR)"
+  },
+  "sources": {
+    "coingeckoId": "tangible"
+  },
+  "about": {
+    "description": "TNGBL is the ecosystem token for Tangible, a platform that tokenizes real-world goods into redeemable asset-backed NFTs, including categories like real estate and physical luxury items depending on the listing. Tangible emphasizes a marketplace workflow where each token represents a specific real-world item held in custody or managed through fulfillment partners, with redemption as a core primitive. TNGBL aligns incentives around fees, liquidity, and governance for how new assets and categories are onboarded.",
+    "logo": "https://icons.llamao.fi/icons/rwa/tngbl.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://tangible.store"
+      ],
+      "twitter": "https://x.com/tangibleDAO",
+      "docs": "https://docs.tangible.store/",
+      "linkedin": "https://www.linkedin.com/company/tangible-store",
+      "discord": "https://discord.com/invite/tMQ9WjVBuS"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "polygon",
+      "address": "0x49e6a20f1bbdfeec2a8222e052000bbb14ee6007",
+      "deployedAt": "2022-05-04",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xaf8a1548fd69a59ce6a2a5f308bcc4698e1db2e5",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "tangible",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://research.llamarisk.com/research/archive-llamarisk-risk-assessment-tangible-usdr"
+      ],
+      "protocolIds": [
+        2231
+      ]
+    }
+  ]
+}

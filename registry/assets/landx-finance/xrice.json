@@ -1,0 +1,85 @@
+{
+  "identity": {
+    "slug": "xrice",
+    "symbol": "xRICE",
+    "name": "LandX xRICE",
+    "legacyId": 3407,
+    "canonicalMarketId": "xRICE"
+  },
+  "exposure": {
+    "underlying": "rice"
+  },
+  "class": {
+    "structure": "other-commodity",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "gold-commodities"
+    ]
+  },
+  "terms": {
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "about": {
+    "description": "xRICE is a LandX perpetual commodity vault tied to rice crop-share. LandX docs state each xToken represents 1 kg per year of the underlying commodity yield, paid daily in cTokens, with farmer obligations backed by crop-share contracts, security deposits, validators, audits, and farmland liens. xRICE holders can stake to receive cRICE yield and trade the token onchain.",
+    "logo": "https://icons.llamao.fi/icons/rwa/xrice.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://landx.fi"
+      ],
+      "twitter": "https://x.com/landxfinance",
+      "docs": "https://docs.landx.fi/",
+      "linkedin": "https://www.linkedin.com/company/landxfinance",
+      "discord": "https://discord.gg/landx",
+      "telegram": "https://t.me/landxfinance",
+      "github": "https://github.com/LandXit/land-x-smart-contracts"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x3356328a3ca51d2664620757bd1c475ca77ffab5",
+      "deployedAt": "2023-12-17",
+      "primary": true
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0x2d8c8888fbfea79f63df39bafff15e70ce4b66c5",
+      "deployedAt": "2023-12-19"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "landx-labs-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://landx.gitbook.io/landx/landx-terms-and-conditions-of-use"
+      ]
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://landx.fi/proof-of-reserves",
+        "https://landx.gitbook.io/landx/whitepaper/introduction",
+        "https://landx.gitbook.io/landx/whitepaper/xtokens-defi-diversification",
+        "https://landx.gitbook.io/landx/whitepaper/ctokens-commodity-collateral"
+      ],
+      "note": "Not publicly disclosed"
+    }
+  ]
+}

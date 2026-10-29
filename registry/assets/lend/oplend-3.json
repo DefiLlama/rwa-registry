@@ -1,0 +1,80 @@
+{
+  "identity": {
+    "slug": "oplend-3",
+    "symbol": "opLEND-3",
+    "name": "Lend Conflans - Residential Redevelopment",
+    "legacyId": 3968,
+    "canonicalMarketId": "opLEND-3"
+  },
+  "exposure": {
+    "underlying": "conflans-residential-property-france"
+  },
+  "class": {
+    "structure": "re-credit",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "real-estate"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "On audit (Hashlock v2, Dec 2025); monthly investor reporting"
+  },
+  "about": {
+    "description": "Tokenized bond financing a residential redevelopment project at Conflans (France). Target raise $866,382 at 10% fixed APR. Funding window launches April 2026. ERC-20 (opLEND-3). Ethereum-only deployment at launch (additional chains expected post-funding via LayerZero, per Lend's standard operation pattern). Audited by Hashlock. Status: Upcoming funding. Audited by Hashlock (Dec 2025). 1 High severity finding resolved, 1 Medium acknowledged by design for regulatory refund compliance. EU MiCA framework via partner.",
+    "logo": "https://icons.llamao.fi/icons/rwa/oplend-3.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://lend.xyz/"
+      ],
+      "twitter": "https://x.com/lendxyz",
+      "docs": "https://docs.lend.xyz/",
+      "github": "https://github.com/lendxyz",
+      "refLinks": [
+        "https://app.lend.xyz/?ref=3WJ0FUZS"
+      ]
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x030d3b11d0264ca487587a6f798057ee0832b420",
+      "deployedAt": "2026-05-25",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "lend-sa",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.lend.xyz/"
+      ]
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://hashlock.com/wp-content/uploads/2025/12/Lend-xyz-Smart-Contract-Audit-Report-Final-Report-v2.pdf"
+      ],
+      "note": "2025-12"
+    }
+  ]
+}

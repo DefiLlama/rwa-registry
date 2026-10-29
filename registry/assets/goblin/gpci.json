@@ -1,0 +1,67 @@
+{
+  "identity": {
+    "slug": "gpci",
+    "symbol": "GPCI",
+    "name": "Ember Goblin Private Credit I",
+    "legacyId": 4614,
+    "canonicalMarketId": "GPCI"
+  },
+  "exposure": {
+    "underlying": "institutional-borrower-private-credit-facility-usdc-denominated-approximately-3"
+  },
+  "class": {
+    "structure": "structured-credit",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "private-credit"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "about": {
+    "description": "GPCI is the vault share token for Goblin\n  Private Credit I, a permissioned USDC yield product on Pharos Mainnet.\n  Depositors mint GPCI in exchange for USDC deposited into a smart-contract\n  vault that funds a single institutional borrower under a private credit\n  facility approximately 3 months in duration. The offering targets\n  institutional-grade yield sourced from vetted private credit positions. Both\n  minting and holding require KYC and allowlisting. Settlement is coordinated\n  through the Ember Protocol tokenization rail, with contracts audited by\n  Movebit and Plainshift.",
+    "logo": "https://icons.llamao.fi/icons/rwa/gpci.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://goblin.fi/"
+      ],
+      "twitter": "https://x.com/the_goblin_fi",
+      "docs": "https://docs.goblin.fi/"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "pharos",
+      "address": "0x8360648fba018ee2676c2a13df2ea5bb9b2bd847",
+      "deployedAt": "2026-06-29",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "goblin-issuer-inc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.goblin.fi/"
+      ]
+    },
+    {
+      "organization": "goblin-issuer-inc",
+      "kind": "oracle"
+    }
+  ]
+}

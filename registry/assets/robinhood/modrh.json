@@ -1,0 +1,92 @@
+{
+  "identity": {
+    "slug": "modrh",
+    "symbol": "MOD",
+    "name": "Modine Manufacturing Co. • Robinhood Token",
+    "legacyId": 1815,
+    "canonicalMarketId": "MODrh"
+  },
+  "exposure": {
+    "underlying": "modine-manufacturing-co"
+  },
+  "class": {
+    "structure": "synthetic-stock",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "yieldBearing": false
+  },
+  "sources": {
+    "identifiers": [
+      {
+        "scheme": "isin",
+        "value": "US6078281002",
+        "source": null,
+        "verified": false
+      }
+    ]
+  },
+  "about": {
+    "description": "MOD is a tokenized tracker certificate issued by Robinhood Markets, Inc. through its European subsidiary Robinhood Europe UAB, deployed as an ERC-20 token on Arbitrum One. It is designed to provide synthetic price exposure to MOD rather than direct share ownership, operating under MiFID II regulatory oversight. The token is available to EU/EEA customers with 24/5 commission-free trading, and on-chain pricing is supplied through Chainlink oracle feeds.",
+    "logo": "https://icons.llamao.fi/icons/rwa/mod.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://robinhood.com/stocks"
+      ],
+      "twitter": "https://x.com/RobinhoodApp",
+      "docs": "https://robinhood.com/us/en/support/",
+      "linkedin": "https://www.linkedin.com/company/robinhood-markets",
+      "discord": "https://discord.com/invite/robinhood",
+      "github": "https://github.com/robinhood"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "arbitrum",
+      "address": "0x30a101c0b21f5ec6faf538234605e5697cc87ad1",
+      "deployedAt": "2025-12-17",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xcbdf630a858e7d87b5b08d92968ca14ca0f8f556",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xd29aa2b0584856c2b3b097595e9d4b1cd1242e05",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "robinhood",
+      "address": "0xc6cbad1016b38b797610c25e1dc7d95988b1f362",
+      "deployedAt": "2026-07-27"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "robinhood-markets-inc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://robinhood.com/eu/en/about/"
+      ]
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "identity": {
+    "slug": "buidl",
+    "symbol": "BUIDL",
+    "name": "BlackRock BUIDL",
+    "legacyId": 79,
+    "canonicalMarketId": "BUIDL"
+  },
+  "exposure": {
+    "underlying": "blackrock-usd-institutional-digital-liquidity-fund"
+  },
+  "class": {
+    "structure": "mmf",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "bond-mmf-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "sources": {
+    "coingeckoId": "blackrock-usd-institutional-digital-liquidity-fund",
+    "identifiers": [
+      {
+        "scheme": "isin",
+        "value": "VGG131351014",
+        "source": null,
+        "verified": false
+      }
+    ]
+  },
+  "about": {
+    "description": "BUIDL is BlackRock’s tokenized digital liquidity fund built for institutional cash management. It is designed to deliver short-duration, high-quality income while maintaining a stable NAV convention, and it is structured to support flexible custody and continuous settlement so shares can be used in modern collateral, treasury, and settlement workflows.",
+    "logo": "https://icons.llamao.fi/icons/rwa/buidl.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.blackrock.com"
+      ],
+      "twitter": "https://x.com/BlackRock",
+      "docs": "https://docs.securitize.io",
+      "linkedin": "https://www.linkedin.com/company/securitize",
+      "telegram": "https://t.me/securitize",
+      "github": "https://github.com/securitize-io"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x7712c34205737192402172409a8f7ccef8aa2aec",
+      "deployedAt": "2024-03-01",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xd69fefe5df62373dcbde3e1f9625cf334a2dae78",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0xa6525ae43edcd03dc08e775774dcabd3bb925872",
+      "deployedAt": "2024-11-04"
+    },
+    {
+      "chain": "avax",
+      "address": "0x53fc82f14f009009b440a706e31c9021e1196a2f",
+      "deployedAt": "2024-11-04"
+    },
+    {
+      "chain": "polygon",
+      "address": "0x2893ef551b6dd69f661ac00f11d93e5dc5dc0e99",
+      "deployedAt": "2024-11-04"
+    },
+    {
+      "chain": "optimism",
+      "address": "0xa1cdab15bba75a80df4089cafba013e376957cf5",
+      "deployedAt": "2024-11-04"
+    },
+    {
+      "chain": "solana",
+      "address": "GyWgeqpy5GueU2YbkE8xqUeVEokCMMCEeUrfbtMw6phr",
+      "deployedAt": "2025-03-21"
+    },
+    {
+      "chain": "aptos",
+      "address": "0x50038be55be5b964cfa32cf128b5cf05f123959f286b4cc02b86cafd48945f89",
+      "deployedAt": "2024-11-13"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x2d5bdc96d9c8aabbdb38c9a27398513e7e5ef84f",
+      "deployedAt": "2025-10-08"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "blackrock-usd-institutional-digital-liquidity-fund-ltd",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.blackrock.com/us/individual/products/buidl-blackrock-usd-institutional-digital-liquidity-fund"
+      ],
+      "protocolIds": [
+        4853,
+        2269,
+        2272,
+        2286,
+        3075,
+        2274,
+        2352,
+        2314,
+        2275,
+        2293,
+        2270,
+        2273,
+        6469,
+        2276,
+        4859,
+        2369,
+        5342,
+        3577
+      ]
+    }
+  ]
+}

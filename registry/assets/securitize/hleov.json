@@ -1,0 +1,74 @@
+{
+  "identity": {
+    "slug": "hleov",
+    "symbol": "HLEOV",
+    "name": "Hamilton Lane Equity Opportunities Securitize Fund V",
+    "legacyId": 554,
+    "canonicalMarketId": "HLEOV"
+  },
+  "exposure": {
+    "underlying": "hamilton-lane-equity-opportunities-securitize-fund-v"
+  },
+  "class": {
+    "structure": "pe-venture",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "about": {
+    "description": "HLEOV is the tokenized feeder share class for Hamilton Lane’s Equity Opportunities Fund V, a direct‑equity co‑investment strategy that invests in market‑leading private businesses alongside established general partners and investment partners. The fund provides a curated, diversified set of private equity deal exposure, focusing on individual transactions rather than broad fund‑of‑funds style exposure. The HLEOV token gives onchain representation of ownership in the feeder vehicle administered through Securitize. Returns are driven by the underlying private company investments and their exit outcomes. NAV is based on Hamilton Lane’s valuation and reporting process rather than onchain collateral.",
+    "logo": "https://icons.llamao.fi/icons/rwa/hleov.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://id.securitize.io/primary-market/opportunities/277"
+      ],
+      "twitter": "https://x.com/Securitize",
+      "docs": "https://docs.securitize.io",
+      "linkedin": "https://www.linkedin.com/company/securitize",
+      "telegram": "https://t.me/securitize",
+      "github": "https://github.com/securitize-io"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "polygon",
+      "address": "0x2ccf3aba74d2544805e4196487e74030e0952349",
+      "deployedAt": "2023-03-08",
+      "primary": true
+    },
+    {
+      "chain": "polygon",
+      "address": "0x2b5802f1492369c93650fb8c7ec1d8573d40cbdb",
+      "deployedAt": "2023-03-08"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "hamilton-lane-equity-opportunity-fund-v-securitize-feeder-us-lp",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.sec.gov/Archives/edgar/data/1965971/000196597123000001/xslFormDX01/primary_doc.xml",
+        "https://securitize.io/primary-market/hl-eov"
+      ],
+      "protocolIds": [
+        6712
+      ]
+    }
+  ]
+}

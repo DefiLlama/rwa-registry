@@ -1,0 +1,64 @@
+{
+  "identity": {
+    "slug": "pc0000029",
+    "symbol": "PC0000029",
+    "name": "Tradable: South American Consumer PoS Lender Senior Secured",
+    "legacyId": 4063,
+    "canonicalMarketId": "PC0000029"
+  },
+  "exposure": {
+    "underlying": "bnpl-consumer-receivables"
+  },
+  "class": {
+    "structure": "credit-pool",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "private-credit"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "A senior secured delayed-draw term loan to a South American consumer lender offering buy-now-pay-later financing at the point of sale, secured by its BNPL loan receivables and refinancing a warehouse facility. Issued through Tradable on ZKsync Era with cash interest in the 13-14.5% range.",
+    "logo": "https://icons.llamao.fi/icons/rwa/pc0000029.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.tradable.xyz/"
+      ],
+      "twitter": "https://x.com/tradable_xyz",
+      "docs": "https://doc.tradable.xyz/product-docs"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "era",
+      "address": "0x272795908e2d66e00e4766f40a4310783039b7b5",
+      "deployedAt": "2025-01-10",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "tradable-counterparty-anonymized-by-design",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://doc.tradable.xyz/product-docs/how-it-works"
+      ]
+    },
+    {
+      "organization": "tradable",
+      "kind": "oracle"
+    }
+  ]
+}

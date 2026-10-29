@@ -1,0 +1,97 @@
+{
+  "identity": {
+    "slug": "syrupusdg",
+    "symbol": "syrupUSDG",
+    "name": "Syrup USDG",
+    "legacyId": 4612,
+    "canonicalMarketId": "syrupUSDG"
+  },
+  "exposure": {
+    "underlying": "usdg-global-dollar-deposits-deployed-into-maple-direct-overcollateralized-instit"
+  },
+  "class": {
+    "structure": "credit-pool",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "private-credit"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Continuous PoR + quarterly treasury reports"
+  },
+  "sources": {
+    "coingeckoId": "syrup-usdg"
+  },
+  "about": {
+    "description": "syrupUSDG is a yield-bearing ERC-4626 receipt token for USDG (Global Dollar) deposited into Maple Finance Syrup lending vaults. The token exchange rate increases as interest accrues from overcollateralized lending to institutional borrowers underwritten by Maple Direct, with the pool advertising an approximately 5 percent base APY. syrupUSDG is issued by Maple International Operations SPC acting on behalf of Maple USDG Segregated Portfolio 1 (Cayman). USDG is issued by Paxos on behalf of the Global Dollar Network founded by Robinhood, Kraken, and Paxos. syrupUSDG launched on July 1 2026 with day-one deployments on Ethereum mainnet and Robinhood Chain, with Chainlink CCIP bridging between them. Reserves and pool performance are attested off-chain by The Network Firm.",
+    "logo": "https://icons.llamao.fi/icons/rwa/syrup-usdg.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://maple.finance/"
+      ],
+      "twitter": "https://x.com/maplefinance",
+      "docs": "https://maplefinance.gitbook.io/",
+      "linkedin": "https://www.linkedin.com/company/maplefinance",
+      "discord": "https://discord.gg/fgWRMHCd7d",
+      "telegram": "https://t.me/maplefinance",
+      "github": "https://github.com/maple-labs; https://docs.maple.finance/technical-resources/security/security"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x87b65c4aaffa76881f9e96f3e7ed945ddfc3cd7a",
+      "deployedAt": "2026-05-25",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x120391e1512287f0eb8036037d464de2da602543",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "robinhood",
+      "address": "0x40858070814a57fdf33a613ae84fe0a8b4a874f7",
+      "deployedAt": "2026-06-04"
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0xe1b0dc5a21b10f1634fbfbe9976fba2ee2e1c762",
+      "deployedAt": "2026-09-09"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "maple-protocol-pool-operations",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://maple.finance/insights/syrupusdg",
+        "https://docs.maple.finance/legal/syrupusdg-product-disclosures-and-disclaimers.md",
+        "https://maple.finance/transparency"
+      ],
+      "protocolIds": [
+        587
+      ]
+    },
+    {
+      "organization": "maple-protocol-pool-operations",
+      "kind": "oracle"
+    },
+    {
+      "organization": "the-network-firm",
+      "kind": "auditor"
+    }
+  ]
+}

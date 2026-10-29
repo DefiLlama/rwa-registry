@@ -1,0 +1,103 @@
+{
+  "identity": {
+    "slug": "dgxxon",
+    "symbol": "DGXXon",
+    "name": "Digi Power X (Ondo Tokenized Stock)",
+    "legacyId": 4213,
+    "canonicalMarketId": "DGXXon"
+  },
+  "exposure": {
+    "underlying": "digi-power-x-inc"
+  },
+  "class": {
+    "structure": "stock-backed",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Daily"
+  },
+  "sources": {
+    "identifiers": [
+      {
+        "scheme": "isin",
+        "value": "CA25380B1022",
+        "source": null,
+        "verified": false
+      }
+    ]
+  },
+  "about": {
+    "description": "DGXXon is an Ondo Global Markets tokenized stock exposure designed to provide economic exposure to Digi Power X in an onchain format. The token is designed to be fully backed by the underlying publicly traded asset, together with cash in transit, held with regulated custodial broker-dealers. Holdings attestations and ongoing reporting are surfaced through Ondo trust and transparency materials and the product asset page. Tokenholders are not shareholders of the underlying and do not receive shareholder voting rights. Dividend value is reflected through total return mechanics. Ondo Global Markets adjusts the token to account for dividends net of withholding taxes and reinvests that value into additional shares, increasing the shares per token over time instead of paying cash dividends directly to tokenholders.",
+    "logo": "https://icons.llamao.fi/icons/rwa/dgxx.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://app.ondo.finance/assets/dgxxon"
+      ],
+      "twitter": "https://x.com/ondofinance",
+      "docs": "https://docs.ondo.finance/",
+      "linkedin": "https://www.linkedin.com/company/ondofinance",
+      "discord": "https://discord.com/invite/ondofinance",
+      "telegram": "https://t.me/ondofinance",
+      "github": "https://github.com/ondoprotocol"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xc76e008965b2f0e37896f52a2feee66ef2926ae8",
+      "deployedAt": "2026-05-30",
+      "primary": true
+    },
+    {
+      "chain": "bsc",
+      "address": "0x09f5a6ee1b46787dd252827e40502c4980a0285d",
+      "deployedAt": "2026-05-30"
+    },
+    {
+      "chain": "solana",
+      "address": "jwCKwGoJfx1p4K5XCwqPrq1xyJU1g26Tmf6UcDcondo",
+      "deployedAt": "2026-05-29"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "ondo-global-markets-bvi-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.ondo.finance/ondo-global-markets/legal-and-regulatory"
+      ],
+      "protocolIds": [
+        2542,
+        6650
+      ]
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://app.ondo.finance/assets/dgxxon"
+      ],
+      "note": "Daily (ongoing)"
+    }
+  ]
+}

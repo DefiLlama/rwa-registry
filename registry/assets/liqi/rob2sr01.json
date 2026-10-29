@@ -1,0 +1,86 @@
+{
+  "identity": {
+    "slug": "rob2sr01",
+    "symbol": "ROB2SR01",
+    "name": "Robbin 02 Senior 01",
+    "legacyId": 3722,
+    "canonicalMarketId": "ROB2SR01"
+  },
+  "exposure": {
+    "underlying": "brazilian-sme-credit-rights-ccb-credit-card-receivables"
+  },
+  "class": {
+    "structure": "structured-credit",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "private-credit"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "Senior tranche 01 of the Robbin 02 emission. A TIDC CR (Token de Investimento em Direitos Creditórios) structured under CVM Resolution 88. Distributed via Liqi's platform on XDC Network, backed by fiduciary assignment of credit rights originated by Robbin Pagamentos (Brazilian B2B-payments fintech): Cédulas de Crédito Bancário (CCBs) and credit-card invoices issued to SMEs through co-branded card programs. Listed return: 21.41% p.a. (target). Issue date: 2025-09-12. Subject to qualified-investor requirements under Brazilian CVM rules.",
+    "logo": "https://icons.llamao.fi/icons/rwa/liqi.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://tokens.liqi.com.br/tokens/ROB2/oferta"
+      ],
+      "twitter": "https://x.com/liqibr",
+      "linkedin": "https://www.linkedin.com/company/liqibr/"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "xdc",
+      "address": "0x9dda04a683ea37b4cdc22cc5908b8dace6730f65",
+      "deployedAt": "2026-04-09",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xdaa3aabd803a96ecf0964989ebb6916d19ac274b",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xe83d5e5970bba9f13c33a08564beab9d3faeed94",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xff1c741579486f49d5b640e8a78424fc79e0c88d",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "liqi-securitizadora-spv-robbin-pagamentos-ltda-originator",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://tokens.liqi.com.br/tokens/ROB2/sobre",
+        "https://www.liqi.com.br/para-empresas/liqi-securitizadora"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://tokens.liqi.com.br/tokens/ROB2/documentos?tranche=ROB2UNQ01"
+      ],
+      "note": "no date in the export"
+    }
+  ]
+}

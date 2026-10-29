@@ -1,0 +1,59 @@
+{
+  "identity": {
+    "slug": "cusd",
+    "symbol": "cUSD",
+    "name": "Cap cUSD",
+    "legacyId": 585,
+    "canonicalMarketId": "cUSD"
+  },
+  "exposure": {
+    "underlying": "us-dollar"
+  },
+  "class": {
+    "structure": "rwa-fiat-stable",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "rwa-stablecoins"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "cexListed": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "sources": {
+    "coingeckoId": "cap-usd"
+  },
+  "about": {
+    "description": "Cap USD (cUSD) is Cap’s fully collateralized on-chain dollar stablecoin. It is minted and redeemed against a transparent reserve of ‘blue‑chip’ dollar assets (stablecoins and tokenized cash equivalents) and can be staked into stcUSD for yield. The protocol uses an operator model and on-chain accounting to support principal protection and verifiable recourse.",
+    "logo": "https://icons.llamao.fi/icons/rwa/cap-cusd.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://cap.app/"
+      ],
+      "twitter": "https://x.com/capmoney_",
+      "discord": "https://discord.gg/XAYrRY6hfB",
+      "github": "https://github.com/cap-labs-dev"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [],
+  "roles": [
+    {
+      "organization": "cap-protocol",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://cap.app/",
+        "https://docs.cap.app/"
+      ]
+    }
+  ]
+}

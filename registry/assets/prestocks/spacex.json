@@ -1,0 +1,66 @@
+{
+  "identity": {
+    "slug": "spacex",
+    "symbol": "SPACEX",
+    "name": "SpaceX PreStocks",
+    "legacyId": 409,
+    "canonicalMarketId": "SPACEX"
+  },
+  "exposure": {
+    "underlying": "space-exploration-technologies-corp"
+  },
+  "class": {
+    "structure": "synthetic-stock",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "sources": {
+    "coingeckoId": "spacex-prestocks-2"
+  },
+  "about": {
+    "description": "SPACEX is a PreStocks token tracking Space Exploration Technologies Corp. (SpaceX). Following SpaceX's June 2026 Nasdaq listing, the token converts into a tokenized public-stock equivalent (split-adjusted for the 5-for-1 split). Holders must complete the swap by March 12, 2027. Underlying shares unlock in tranches over the first six months post-listing.",
+    "logo": "https://icons.llamao.fi/icons/rwa/spacex.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://prestocks.com/spacex"
+      ],
+      "twitter": "https://x.com/prestocks",
+      "docs": "https://prestocks.com/",
+      "linkedin": "https://www.linkedin.com/company/prestocks"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "solana",
+      "address": "PreANxuXjsy2pvisWWMNB6YaJNzr7681wJJr2rHsfTh",
+      "deployedAt": "2025-09-25",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "prestocks",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://prestocks.com/faq"
+      ]
+    }
+  ]
+}

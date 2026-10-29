@@ -1,0 +1,77 @@
+{
+  "identity": {
+    "slug": "bold",
+    "symbol": "BOLD",
+    "name": "Liquity BOLD",
+    "legacyId": 603,
+    "canonicalMarketId": "BOLD"
+  },
+  "exposure": {
+    "underlying": "us-dollar"
+  },
+  "class": {
+    "structure": "crypto-stable",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "non-rwa-stablecoins"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "sources": {
+    "coingeckoId": "bold-2"
+  },
+  "about": {
+    "description": "Liquity V2’s USD-pegged stablecoin minted by borrowing against ETH and liquid-staking collateral. Peg support comes from overcollateralization plus a built-in redemption mechanism that lets users swap BOLD for underlying collateral at face value, incentivizing arbitrage back to $1.",
+    "logo": "https://icons.llamao.fi/icons/rwa/liquity-bold.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.liquity.org/"
+      ],
+      "twitter": "https://x.com/LiquityProtocol",
+      "docs": "https://docs.liquity.org/",
+      "linkedin": "https://www.linkedin.com/company/liquityprotocol",
+      "discord": "https://discord.com/invite/HFKpCdgQm6",
+      "telegram": "https://t.me/liquityprotocol",
+      "github": "https://github.com/liquity"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x6440f144b7e50d6a8439336510312d2f54beb01d",
+      "deployedAt": "2025-05-14",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xf06016d822943c42e3cb7fc3a6a3b1889c1045f8",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "liquity-protocol",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.liquity.org/",
+        "https://docs.liquity.org/v2-documentation/"
+      ],
+      "protocolIds": [
+        5656
+      ]
+    }
+  ]
+}

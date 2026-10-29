@@ -1,0 +1,115 @@
+{
+  "identity": {
+    "slug": "tcomon",
+    "symbol": "TCOMon",
+    "name": "Trip.com Group (Ondo Tokenized)",
+    "legacyId": 756,
+    "canonicalMarketId": "TCOMon"
+  },
+  "exposure": {
+    "underlying": "trip-com-group-limited"
+  },
+  "class": {
+    "structure": "stock-backed",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "cexListed": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Daily"
+  },
+  "sources": {
+    "coingeckoId": "trip-com-group-ondo-tokenized-stock",
+    "identifiers": [
+      {
+        "scheme": "isin",
+        "value": "US00206R1023",
+        "source": null,
+        "verified": false
+      }
+    ]
+  },
+  "about": {
+    "description": "TCOMon is an Ondo Global Markets tokenized stock exposure designed to provide economic exposure to =SUBSTITUTE(A187, \", \") in an onchain format. The token is designed to be fully backed by the underlying publicly traded asset, together with cash in transit, held with regulated custodial broker-dealers. Holdings attestations and ongoing reporting are surfaced through Ondo trust and transparency materials and the product asset page. Tokenholders are not shareholders of the underlying and do not receive shareholder voting rights. Dividend value is reflected through total return mechanics, and where applicable, dividends are reflected through reinvestment adjustments instead of cash dividends.",
+    "logo": "https://icons.llamao.fi/icons/rwa/tcom.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://app.ondo.finance/assets/tcomon"
+      ],
+      "twitter": "https://x.com/ondofinance",
+      "docs": "https://docs.ondo.finance/",
+      "linkedin": "https://www.linkedin.com/company/ondofinance",
+      "discord": "https://discord.com/invite/ondofinance",
+      "telegram": "https://t.me/ondofinance",
+      "github": "https://github.com/ondoprotocol"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x398f7f759380f3d309b9fc0e6cb3d36e0d67818d",
+      "deployedAt": "2025-12-18",
+      "primary": true
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xe63dbf6164c40e9189501f8bc66d701cd0e08ca2",
+      "deployedAt": "2025-12-18"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x6459303f58244ff1e7a42b90aa3782dfb6ca6969",
+      "deployedAt": "2025-12-18"
+    },
+    {
+      "chain": "bsc",
+      "address": "0xc706ec2a585cf9faddceae73ca6b36a518692fa5",
+      "deployedAt": "2025-12-18"
+    },
+    {
+      "chain": "solana",
+      "address": "9PMjLqd8zPdKkJUXarnit5t7tPL3cCscwHzy7ATondo",
+      "deployedAt": "2025-12-31"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "ondo-global-markets-bvi-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.ondo.finance/ondo-global-markets/legal-and-regulatory"
+      ],
+      "protocolIds": [
+        2542,
+        6650
+      ]
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://app.ondo.finance/assets/tcomon"
+      ],
+      "note": "Daily (ongoing)"
+    }
+  ]
+}

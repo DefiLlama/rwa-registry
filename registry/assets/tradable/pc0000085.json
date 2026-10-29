@@ -1,0 +1,67 @@
+{
+  "identity": {
+    "slug": "pc0000085",
+    "symbol": "PC0000085",
+    "name": "Tradable: LatAm Middle-Market Lender Senior Secured Term Loan",
+    "legacyId": 4062,
+    "canonicalMarketId": "PC0000085"
+  },
+  "exposure": {
+    "underlying": "mexican-middle-market-loans"
+  },
+  "class": {
+    "structure": "credit-pool",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "private-credit"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "yieldBearing": true
+  },
+  "sources": {
+    "coingeckoId": "tradable-latam-middle-market-lender-sstl"
+  },
+  "about": {
+    "description": "A senior secured delayed-draw term loan to a cross-border investment company providing structured loans to middle-market businesses in Mexico, used to lever its existing portfolio and finance new loans. Pays 1-month Term SOFR + 5.50% with a 7.75% floor and matures December 2026. Issued through Tradable on ZKsync Era.",
+    "logo": "https://icons.llamao.fi/icons/rwa/pc0000085.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.tradable.xyz/"
+      ],
+      "twitter": "https://x.com/tradable_xyz",
+      "docs": "https://doc.tradable.xyz/product-docs"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "era",
+      "address": "0xfeafde23fb2364896c297c3fa6628f04601a035b",
+      "deployedAt": "2024-11-14",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "tradable-counterparty-anonymized-by-design",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://doc.tradable.xyz/product-docs/how-it-works"
+      ]
+    },
+    {
+      "organization": "tradable",
+      "kind": "oracle"
+    }
+  ]
+}

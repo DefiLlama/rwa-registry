@@ -1,0 +1,60 @@
+{
+  "identity": {
+    "slug": "mnrl",
+    "symbol": "MNRL",
+    "name": "Mineral Vault I Security Token",
+    "legacyId": 2721,
+    "canonicalMarketId": "MNRL"
+  },
+  "exposure": {
+    "underlying": "oil-gas-royalty-interests"
+  },
+  "class": {
+    "structure": "other-commodity",
+    "type": "asset",
+    "rwaClassification": "programmable-finance",
+    "category": [
+      "gold-commodities"
+    ]
+  },
+  "terms": {
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "Mineral Vault I Ltd tokenizes oil and gas property interests across a portfolio of over 2,500 producing wells in the United States. MNRL targets income through monthly stablecoin distributions tied to production, and upside from new drilling and improved well performance.",
+    "logo": "https://icons.llamao.fi/icons/rwa/mnrl.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://mineralvault.io"
+      ],
+      "twitter": "https://x.com/MineralVault_",
+      "docs": "https://www.mineralvault.com/",
+      "linkedin": "https://www.linkedin.com/company/mineral-vault"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "plume_mainnet",
+      "address": "0x5107272921a750a20d492fb41acf0b770b09a624",
+      "deployedAt": "2025-05-22",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "mineral-vault",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://mineralvault.io"
+      ]
+    }
+  ]
+}

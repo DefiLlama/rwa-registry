@@ -1,0 +1,115 @@
+{
+  "identity": {
+    "slug": "openon",
+    "symbol": "OPENon",
+    "name": "Opendoor Technologies (Ondo Tokenized)",
+    "legacyId": 734,
+    "canonicalMarketId": "OPENon"
+  },
+  "exposure": {
+    "underlying": "opendoor-technologies-inc"
+  },
+  "class": {
+    "structure": "stock-backed",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "cexListed": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Daily"
+  },
+  "sources": {
+    "coingeckoId": "opendoor-technologies-ondo-tokenized",
+    "identifiers": [
+      {
+        "scheme": "isin",
+        "value": "US6837121036",
+        "source": null,
+        "verified": false
+      }
+    ]
+  },
+  "about": {
+    "description": "OPENon is an Ondo Global Markets tokenized stock exposure designed to provide economic exposure to =SUBSTITUTE(A165, \", \") in an onchain format. The token is designed to be fully backed by the underlying publicly traded asset, together with cash in transit, held with regulated custodial broker-dealers. Holdings attestations and ongoing reporting are surfaced through Ondo trust and transparency materials and the product asset page. Tokenholders are not shareholders of the underlying and do not receive shareholder voting rights. Dividend value is reflected through total return mechanics, and where applicable, dividends are reflected through reinvestment adjustments instead of cash dividends.",
+    "logo": "https://icons.llamao.fi/icons/rwa/open.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://app.ondo.finance/assets/openon"
+      ],
+      "twitter": "https://x.com/ondofinance",
+      "docs": "https://docs.ondo.finance/",
+      "linkedin": "https://www.linkedin.com/company/ondofinance",
+      "discord": "https://discord.com/invite/ondofinance",
+      "telegram": "https://t.me/ondofinance",
+      "github": "https://github.com/ondoprotocol"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xb22d83e228c4266075ec75c32acc3bc059b6f248",
+      "deployedAt": "2025-12-10",
+      "primary": true
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xc96665969e22b8416bb6328e494c3042b9a07866",
+      "deployedAt": "2025-12-10"
+    },
+    {
+      "chain": "bsc",
+      "address": "0xa09699fc0cbb1f85128450a0ff6a3c4d3a7e7b9b",
+      "deployedAt": "2025-12-10"
+    },
+    {
+      "chain": "bsc",
+      "address": "0xc856ac971007d5929dce449c42477e528c53fbdc",
+      "deployedAt": "2025-12-10"
+    },
+    {
+      "chain": "solana",
+      "address": "ou1uE526v7zmUYP2qCb2LJgfXAyWAtWS9SETtr8ondo",
+      "deployedAt": "2025-12-31"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "ondo-global-markets-bvi-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.ondo.finance/ondo-global-markets/legal-and-regulatory"
+      ],
+      "protocolIds": [
+        2542,
+        6650
+      ]
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://app.ondo.finance/assets/openon"
+      ],
+      "note": "Daily (ongoing)"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "identity": {
+    "slug": "naos",
+    "symbol": "NAOS",
+    "name": "NAOS Finance",
+    "legacyId": 53,
+    "canonicalMarketId": "NAOS"
+  },
+  "exposure": {
+    "underlying": "naos-finance"
+  },
+  "class": {
+    "structure": "governance-token",
+    "type": "asset",
+    "rwaClassification": "non-rwa-gov-utility",
+    "category": [
+      "governance-tokens",
+      "private-credit"
+    ]
+  },
+  "terms": {
+    "cexListed": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "sources": {
+    "coingeckoId": "naos-finance"
+  },
+  "about": {
+    "description": "NAOS is the token for NAOS Finance, a private-credit focused protocol designed to route stablecoin liquidity into real-economy lending opportunities. The platform emphasizes lender yield sourced from borrower repayment and underwriting processes rather than crypto price-driven leverage. NAOS supports governance and incentive alignment around pool creation, risk parameters, and ecosystem growth.",
+    "logo": "https://icons.llamao.fi/icons/rwa/naos-finance.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://naos.finance"
+      ],
+      "twitter": "https://x.com/naos_finance",
+      "docs": "https://docs.naos.finance/",
+      "linkedin": "https://www.linkedin.com/company/naosfinance",
+      "discord": "https://discord.com/invite/rRaPwCVTaA",
+      "telegram": "https://t.me/naos_finance",
+      "github": "https://github.com/NAOS-Finance"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x4a615bb7166210cce20e6642a6f8fb5d4d044496",
+      "deployedAt": "2021-04-27",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x443280f88c82b1d598dc1c7a69c29cc09fa36744",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "bsc",
+      "address": "0x758d08864fb6cce3062667225ca10b8f00496cc2",
+      "deployedAt": "2021-07-02"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "naos-finance",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://naos.finance"
+      ]
+    }
+  ]
+}

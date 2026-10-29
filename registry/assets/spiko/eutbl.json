@@ -1,0 +1,119 @@
+{
+  "identity": {
+    "slug": "eutbl",
+    "symbol": "EUTBL",
+    "name": "Spiko EU T-Bills Money Market Fund",
+    "legacyId": 652,
+    "canonicalMarketId": "EUTBL"
+  },
+  "exposure": {
+    "underlying": "spiko-euro-money-market-fund"
+  },
+  "class": {
+    "structure": "mmf",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "bond-mmf-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Semi-annual"
+  },
+  "sources": {
+    "coingeckoId": "eutbl",
+    "identifiers": [
+      {
+        "scheme": "isin",
+        "value": "FR001400ODL1",
+        "source": null,
+        "verified": false
+      }
+    ]
+  },
+  "about": {
+    "description": "EUTBL is the tokenized share class of Spiko’s Euro money market fund, which invests in Eurozone Treasury bills with a short portfolio maturity profile. The fund is managed under a regulated structure, and Spiko discloses key service providers, including the fund manager, the custodian, and the statutory auditor, in its official documentation.",
+    "logo": "https://icons.llamao.fi/icons/rwa/eutbl.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.spiko.io"
+      ],
+      "twitter": "https://x.com/Spiko_finance",
+      "docs": "https://docs.spiko.io/",
+      "linkedin": "https://www.linkedin.com/company/spiko-finance",
+      "github": "https://github.com/spiko-tech"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xa0769f7a8fc65e47de93797b4e21c073c117fc80",
+      "deployedAt": "2024-04-19",
+      "primary": true
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0xcbeb19549054cc0a6257a77736fc78c367216ce7",
+      "deployedAt": "2024-10-25"
+    },
+    {
+      "chain": "base",
+      "address": "0xa0769f7a8fc65e47de93797b4e21c073c117fc80",
+      "deployedAt": "2025-02-12"
+    },
+    {
+      "chain": "polygon",
+      "address": "0xa0769f7a8fc65e47de93797b4e21c073c117fc80",
+      "deployedAt": "2024-04-19"
+    },
+    {
+      "chain": "starknet",
+      "address": "0x04f5e0de717daa6aa8de63b1bf2e8d7823ec5b21a88461b1519d9dbc956fb7f2",
+      "deployedAt": "2026-04-14"
+    },
+    {
+      "chain": "etlk",
+      "address": "0xa0769f7a8fc65e47de93797b4e21c073c117fc80",
+      "deployedAt": "2026-01-02"
+    },
+    {
+      "chain": "stellar",
+      "address": "CBGV2QFQBBGEQRUKUMCPO3SZOHDDYO6SCP5CH6TW7EALKVHCXTMWDDOF",
+      "deployedAt": "2025-10-01"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "spiko",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.spiko.io/spiko-euro",
+        "https://www.spiko.io/blog/spiko-launches-the-worlds-first-tokenized-money-market-funds"
+      ],
+      "protocolIds": [
+        4980
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "date": "2025-05-01",
+      "links": [
+        "https://www.spiko.io/blog/spiko-launches-the-worlds-first-tokenized-money-market-funds"
+      ]
+    }
+  ]
+}

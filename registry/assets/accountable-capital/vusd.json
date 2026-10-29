@@ -1,0 +1,96 @@
+{
+  "identity": {
+    "slug": "vusd",
+    "symbol": "VUSD",
+    "name": "RWA Backed Lending by Valos",
+    "legacyId": 4489,
+    "canonicalMarketId": "VUSD"
+  },
+  "exposure": {
+    "underlying": "institutional-crypto-industry-private-credit-market-makers-prime-brokers-exchang"
+  },
+  "class": {
+    "structure": "credit-pool",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "private-credit"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "vUSD is the ERC-4626 share token of Valos's RWA-backed lending vault on Monad. AUSD deposits are lent by Valos to established institutional crypto-industry counterparties such as market makers, prime brokers, exchanges, and custodians, with vault positions backed by their loan receivables. The vault NAV is tracked onchain via convertToAssets at approximately 1.0285 AUSD per vUSD, with AUSD pegged 1:1 to USD.",
+    "logo": "https://cdn.morpho.org/assets/logos/vusd.svg",
+    "links": {
+      "website": [
+        "https://valos.io/"
+      ],
+      "twitter": "https://x.com/Valos_io",
+      "docs": "https://valos.io/"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "monad",
+      "address": "0x8d3f9f9eb2f5e8b48efbb4074440d1e2a34bc365",
+      "deployedAt": "2026-02-06",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x8dce15fc6a98484c995fc702cbfbda14a30454af",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xb83986e9f33a6de4624b18da69cb474f6f94fc7c",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x4b07aaa370189e5603df56c84f59c5a59181bfb1",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x0e503d4b0d463855e819d7201f6bd2604d423c4c",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "lumen-digital-oy",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://valos.io/"
+      ],
+      "protocolIds": [
+        7092
+      ]
+    },
+    {
+      "organization": "lumen-digital-oy",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://valos.accountable.capital/"
+      ],
+      "note": "no date in the export"
+    }
+  ]
+}

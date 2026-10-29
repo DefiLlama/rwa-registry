@@ -1,0 +1,115 @@
+{
+  "identity": {
+    "slug": "vrton",
+    "symbol": "VRTon",
+    "name": "Vertiv (Ondo Tokenized)",
+    "legacyId": 765,
+    "canonicalMarketId": "VRTon"
+  },
+  "exposure": {
+    "underlying": "vertiv-holdings-co"
+  },
+  "class": {
+    "structure": "stock-backed",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "cexListed": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Daily"
+  },
+  "sources": {
+    "coingeckoId": "vertiv-ondo-tokenized",
+    "identifiers": [
+      {
+        "scheme": "isin",
+        "value": "US92537N1081",
+        "source": null,
+        "verified": false
+      }
+    ]
+  },
+  "about": {
+    "description": "VRTon is an Ondo Global Markets tokenized stock exposure designed to provide economic exposure to =SUBSTITUTE(A196, \", \") in an onchain format. The token is designed to be fully backed by the underlying publicly traded asset, together with cash in transit, held with regulated custodial broker-dealers. Holdings attestations and ongoing reporting are surfaced through Ondo trust and transparency materials and the product asset page. Tokenholders are not shareholders of the underlying and do not receive shareholder voting rights. Dividend value is reflected through total return mechanics, and where applicable, dividends are reflected through reinvestment adjustments instead of cash dividends.",
+    "logo": "https://icons.llamao.fi/icons/rwa/vrt.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://app.ondo.finance/assets/vrton"
+      ],
+      "twitter": "https://x.com/ondofinance",
+      "docs": "https://docs.ondo.finance/",
+      "linkedin": "https://www.linkedin.com/company/ondofinance",
+      "discord": "https://discord.com/invite/ondofinance",
+      "telegram": "https://t.me/ondofinance",
+      "github": "https://github.com/ondoprotocol"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x0752163d221d3d5d4b6e98bd616b22bd2b453964",
+      "deployedAt": "2025-12-18",
+      "primary": true
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x997e756189c01b62676234357352c1751640d470",
+      "deployedAt": "2025-12-18"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x9cea8a7be1ab0320b709d368ad60d8500f55995f",
+      "deployedAt": "2025-12-18"
+    },
+    {
+      "chain": "bsc",
+      "address": "0xf6a139628a52e51fb13c927bdf86de77f9c0b7fe",
+      "deployedAt": "2025-12-18"
+    },
+    {
+      "chain": "solana",
+      "address": "MkN2TZSYTFBdMRLf9EVcfhstTwnazH8knd9hpepondo",
+      "deployedAt": "2026-02-17"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "ondo-global-markets-bvi-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.ondo.finance/ondo-global-markets/legal-and-regulatory"
+      ],
+      "protocolIds": [
+        2542,
+        6650
+      ]
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://app.ondo.finance/assets/vrton"
+      ],
+      "note": "Daily (ongoing)"
+    }
+  ]
+}

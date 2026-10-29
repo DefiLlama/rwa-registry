@@ -1,0 +1,201 @@
+{
+  "identity": {
+    "slug": "reusd-re",
+    "symbol": "reUSD",
+    "name": "Re Protocol reUSD",
+    "legacyId": 561,
+    "canonicalMarketId": "reUSD-Re"
+  },
+  "exposure": {
+    "underlying": "re-protocol-reusd"
+  },
+  "class": {
+    "structure": "reinsurance-pool",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "private-credit"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Daily"
+  },
+  "sources": {
+    "coingeckoId": "re-protocol-reusd"
+  },
+  "about": {
+    "description": "reUSD is Re Protocol’s principal‑protected, yield‑accruing “stable core” deposit token. It tracks the greater of (i) the risk‑free rate +250 bps or (ii) Ethena basis‑trade yield +250 bps, with daily price compounding (00:00 UTC) via on‑chain/Chainlink feeds. Capital is deployed off‑chain via surplus notes / §114 reinsurance trust, redemptions are subject to actuarial liquidity limits. Additional protocol docs describe reUSD as the senior, low-volatility, USD-denominated “Basis-Plus” or “stable core” sleeve of the Insurance Capital Layer, analogous to a tokenized money-market fund. Current docs specify the risk-free path as the 7-day average SOFR +250 bps, note that backing may include idle onchain liquidity plus delta-neutral basis exposure and/or cash or T-bills in a §114 trust / surplus-note structure, and state that offchain balances are verified daily by The Network Firm and published through Chainlink. Current redemption docs also describe an instant buffer / smooth-buffer path when liquidity is available, with queued or windowed redemptions once the instant buffer is exhausted.",
+    "logo": "https://icons.llamao.fi/icons/rwa/reusd.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://re.xyz/"
+      ],
+      "twitter": "https://x.com/re",
+      "docs": "https://docs.re/",
+      "linkedin": "https://www.linkedin.com/company/re-protocol",
+      "discord": "https://discord.gg/reprotocol",
+      "telegram": "https://t.me/re_protocol",
+      "refLinks": [
+        "https://app.re.xyz/?ref=nuu0c"
+      ]
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x5086bf358635b81d8c47c66d1c8b9e567db70c72",
+      "deployedAt": "2025-01-21",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x6c15b25e9750dccb698c1a4023f34015bfe57649",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x295f67fdb21255a3db82964445628a706fbe689e",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x9ea38e09f41a9de53972a68268ba0dcc6d2fadf8",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x5c454f5526e41fbe917b63475cd8ca7e4631b147",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xe1886be2ba8b2496c2044a77516f63a734193082",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x4691c475be804fa85f91c2d6d0adf03114de3093",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "avax",
+      "address": "0x180af87b47bf272b2df59dccf2d76a6eafa625bf",
+      "deployedAt": "2025-01-21",
+      "labels": [
+        {
+          "address": "0x295f67fdb21255a3db82964445628a706fbe689e",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x4f1ff9b995472b27a6bafec967986f35bf1adae4",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xe13292f97e38da0c64398de5e0bfc95180de9d23",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xb22a8533e6cd81598f82514a42f0b3161745fbe1",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0x76ce01f0ef25aa66cc5f1e546a005e4a63b25609",
+      "deployedAt": "2025-02-12",
+      "labels": [
+        {
+          "address": "0x295f67fdb21255a3db82964445628a706fbe689e",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xfb602cb83c9c15b4cc49340dc9ad7a8c23754bb0",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xfd4016ea13ca8acc04a11a99702df076a4d3b852",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x802edbb1ec20548a4388abc337e4011718eb0291",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x7d214438d0f27afccc23b3d1e1a53906ace5cfea",
+      "deployedAt": "2025-05-27",
+      "labels": [
+        {
+          "address": "0x295f67fdb21255a3db82964445628a706fbe689e",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x19aff1c007397bdb7f82bda18151c28ab4335896",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x9ab62aebabe738ab233c447eedce88d1d0a61fe3",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "katana",
+      "address": "0xe08853433fdbc504240455e295b644e0f44c3b29",
+      "deployedAt": "2026-01-23"
+    },
+    {
+      "chain": "bsc",
+      "address": "0xba9425ec55ee0e72216d18e0ad8bbba2553bfb60",
+      "deployedAt": "2026-01-12"
+    },
+    {
+      "chain": "ink",
+      "address": "0x5bcf6b008bf80b9296238546bace1797657b05d6",
+      "deployedAt": "2025-11-27"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "resilience-bvi-ltd",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://re.xyz/disclosure",
+        "https://re.xyz/terms"
+      ],
+      "protocolIds": [
+        7182
+      ]
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    },
+    {
+      "organization": "the-network-firm",
+      "kind": "auditor"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://data.chain.link/feeds/avalanche/mainnet/re-reserves",
+        "https://app.re.xyz/transparency",
+        "https://docs.re.xyz/insurance-capital-layers/what-is-reusd",
+        "https://docs.re.xyz/security-and-audits"
+      ],
+      "note": "Not publicly disclosed"
+    }
+  ]
+}

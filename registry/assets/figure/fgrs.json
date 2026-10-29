@@ -1,0 +1,96 @@
+{
+  "identity": {
+    "slug": "fgrs",
+    "symbol": "FGRS",
+    "name": "Figure Blockchain-Native Stock (FGRS)",
+    "legacyId": 2717,
+    "canonicalMarketId": "FGRS"
+  },
+  "exposure": {
+    "underlying": "figure-blockchain"
+  },
+  "class": {
+    "structure": "blockchain-native-equity",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "sources": {
+    "coingeckoId": "fgrs-figure-tokenized-stock"
+  },
+  "about": {
+    "description": "FGRS is the SEC-registered blockchain-native common stock of Figure Technology Solutions, Inc. (the Nasdaq listing for the Class A is FIGR). FGRS is the Series A Blockchain Common Stock issued and settled natively on the Provenance blockchain through the On-chain Public Equity Network (OPEN), with no off-chain share registry duplicate. The blockchain is the canonical legal record. Shares are KYC-gated for issuance and transfer whitelisting. FGRS is redeemable for cash or stablecoins based on the Prospectus rather than for an underlying equity, since the blockchain-native shares are themselves the equity. The token is tradable with self-custody on Provenance, with on-chain supply of approximately 809,730 shares as of 2026-06-11.",
+    "logo": "https://icons.llamao.fi/icons/rwa/fgrs.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.figure.com/"
+      ],
+      "twitter": "https://x.com/Figure",
+      "docs": "https://www.sec.gov/Archives/edgar/data/2064124/000162828026008786/figure-blockchain424b4.htm",
+      "linkedin": "https://www.linkedin.com/company/figure-tech"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "provenance",
+      "address": "nfgrd",
+      "deployedAt": "2026-07-23",
+      "primary": true,
+      "labels": [
+        {
+          "address": "pb1qt67v5kr6hdvwlwlenxvnjtzsm56j4msax696p",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "pb10r29n9w7ja6qt7l3dzls32x7alvmc9j9l9q8x79xwusy0fjf372s348dzu",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "pb175zt4hgqn6k47nlvk8jqnestrnu8q6j9845tvf",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "pb16dz8aewkd3r7rtzwn6qugd0hkyaczpcn7qkhq5",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "figure-technology-solutions-inc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://investors.figure.com/news-releases/news-release-details/figure-technology-solutions-announces-pricing-and-upsizing"
+      ],
+      "protocolIds": [
+        6491
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://www.sec.gov/Archives/edgar/data/2064124/000162828026008786/figure-blockchain424b4.htm"
+      ],
+      "note": "no date in the export"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "identity": {
+    "slug": "goldst",
+    "symbol": "GOLDST",
+    "name": "STRATO Gold",
+    "legacyId": 3803,
+    "canonicalMarketId": "GOLDST"
+  },
+  "exposure": {
+    "underlying": "gold"
+  },
+  "class": {
+    "structure": "gold",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "gold-commodities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Monthly vaulting confirmations; periodic independent CPA audit"
+  },
+  "sources": {
+    "coingeckoId": "strato-goldst-tokenized-gold"
+  },
+  "about": {
+    "description": "GOLDST is STRATO's vaulted gold token, with each token designed to represent one troy ounce of physical gold held by BA Gold Enterprises in New York City. STRATO's March 2026 audit materials reported 711 ounces of gold held as collateral for digital tokens, including gold bars and Krugerrand/Maple coins across main and ancillary vaults. The asset is used inside STRATO's precious-metals DeFi stack for borrowing, liquidity, and yield strategies, while physical redemption is handled through the platform's vault process.",
+    "logo": "https://icons.llamao.fi/icons/rwa/goldst.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://strato.nexus/vaults"
+      ],
+      "twitter": "https://x.com/strato_net",
+      "docs": "https://docs.strato.nexus/",
+      "linkedin": "https://www.linkedin.com/company/blockapps",
+      "telegram": "https://t.me/strato_net",
+      "github": "https://github.com/strato-net/strato-platform"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "strato",
+      "address": "0xcdc93d30182125e05eec985b631c7c61b3f63ff0",
+      "deployedAt": "2026-05-27",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "strato-blockapps-inc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://strato.nexus/",
+        "https://blockapps.net/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "date": "2026-03-25",
+      "links": [
+        "https://strato.nexus/vaults",
+        "https://strato.nexus/blog/precious-metals-audit-march-2026"
+      ]
+    }
+  ]
+}

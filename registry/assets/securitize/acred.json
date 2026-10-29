@@ -1,0 +1,102 @@
+{
+  "identity": {
+    "slug": "acred",
+    "symbol": "ACRED",
+    "name": "Apollo Diversified Credit Securitize Fund",
+    "legacyId": 545,
+    "canonicalMarketId": "ACRED"
+  },
+  "exposure": {
+    "underlying": "apollo-diversified-credit-fund"
+  },
+  "class": {
+    "structure": "credit-pool",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "private-credit"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "sources": {
+    "coingeckoId": "apollo-diversified-credit-securitize-fund"
+  },
+  "about": {
+    "description": "ACRED represents tokenized access to the Apollo Diversified Credit Fund through the Securitize platform. The strategy seeks a return comprised of current income and capital appreciation, emphasizing income with low volatility and low correlation to broader public markets by investing across diversified credit exposures sourced from Apollo’s credit platform. ACRED is structured as an onchain fund interest with native subscription/redemption mechanics processed at the fund’s net asset value, including daily NAV redemptions as described by the issuer’s launch materials. The token has been deployed across multiple networks to support different settlement rails while keeping a single, regulated share‑class exposure.",
+    "logo": "https://icons.llamao.fi/icons/rwa/apollo-diversified-credit-securitize-fund.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://securitize.io/primary-market/apollo-diversified-credit-securitize-fund"
+      ],
+      "twitter": "https://x.com/Securitize",
+      "docs": "https://docs.securitize.io",
+      "linkedin": "https://www.linkedin.com/company/securitize",
+      "telegram": "https://t.me/securitize",
+      "github": "https://github.com/securitize-io"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x17418038ecf73ba4026c4f428547bf099706f27b",
+      "deployedAt": "2025-01-29",
+      "primary": true
+    },
+    {
+      "chain": "polygon",
+      "address": "0xfce60bbc52a5705cec5b445501fbaf3274dc43d0",
+      "deployedAt": "2025-01-29"
+    },
+    {
+      "chain": "avax",
+      "address": "0x7c64925002bfa705834b118a923e9911bee32875",
+      "deployedAt": "2025-01-29"
+    },
+    {
+      "chain": "solana",
+      "address": "FubtUcvhSCr3VPXEcxouoQjKQ7NWTCzXyECe76B7L3f8",
+      "deployedAt": "2025-03-20"
+    },
+    {
+      "chain": "ink",
+      "address": "0x53ad50d3b6fcacb8965d3a49cb722917c7dae1f3",
+      "deployedAt": "2025-03-17"
+    },
+    {
+      "chain": "aptos",
+      "address": "0xe528f4df568eb9fff6398adc514bc9585fab397f478972bcbebf1e75dee40a88",
+      "deployedAt": "2026-04-10"
+    },
+    {
+      "chain": "sei",
+      "address": "0xf7fa6725183e603059fc23d95735bf67f72b2d78",
+      "deployedAt": "2025-09-24"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "securitize-tokenized-apollo-diversified-credit-fund-ltd",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002056038&owner=exclude&count=40"
+      ],
+      "protocolIds": [
+        6712,
+        6582
+      ]
+    }
+  ]
+}

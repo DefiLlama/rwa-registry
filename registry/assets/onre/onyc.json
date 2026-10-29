@@ -1,0 +1,131 @@
+{
+  "identity": {
+    "slug": "onyc",
+    "symbol": "ONyc",
+    "name": "OnRe Tokenized Reinsurance",
+    "legacyId": 175,
+    "canonicalMarketId": "ONyc"
+  },
+  "exposure": {
+    "underlying": "onre-tokenized-reinsurance"
+  },
+  "class": {
+    "structure": "reinsurance-pool",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "private-credit"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Monthly (Apex fund administrator)"
+  },
+  "sources": {
+    "coingeckoId": "onyc"
+  },
+  "about": {
+    "description": "ONyc is a liquid, composable, yield‑bearing dollar asset issued by OnRe that provides direct exposure to property and casualty reinsurance yield. ONyc represents a proportional share of a regulated segregated account held in a legally ring‑fenced structure in Bermuda and used exclusively to collateralize reinsurance underwriting. The account earns contractual premium income and is adjusted for claims, and ONyc’s NAV updates to reflect that performance (plus collateral returns). ONyc is designed to be driven by real‑world cash flows rather than market‑cycle-dependent incentive mechanics, and it does not rely on staking, leverage, delta‑neutral strategies, liquidity mining, or funding‑rate dynamics. It is not a stablecoin, corporate credit, or a tokenized hedge fund.",
+    "logo": "https://icons.llamao.fi/icons/rwa/onyc.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://onre.finance/"
+      ],
+      "twitter": "https://x.com/onrefinance",
+      "docs": "https://docs.onre.io/",
+      "linkedin": "https://www.linkedin.com/company/onre-finance",
+      "github": "https://github.com/onre-finance/onre-sol",
+      "refLinks": [
+        "https://app.onre.finance/earn/leaderboard?ref=FDHRTE658"
+      ]
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "solana",
+      "address": "5Y8NV33Vv7WbnLfq3zBcKSdYPrk7g2KoiQoe7M2tcxp5",
+      "deployedAt": "2025-11-29",
+      "primary": true,
+      "labels": [
+        {
+          "address": "45YnzauhsBM8CpUz96Djf8UG5vqq2Dua62wuW9H3jaJ5",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "4FZmk2SY6YpYHCkxW9e7aRDfd1udu4Q7wxjvBwejzyy7",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "C7oFx2Ua9jMTfQQsqWvY6stLZurNdp8h8ztmsKiqTD1y",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "GXmQy1w7bu4BUZW4Aic7GuuLV1zBdSVS9o5sWG5HUd84",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "GDWaMRPCfDHgsN3ZpGXeKNrg5afViWYYfWDJLywCFraY",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "9jmeUxTdkjxdjKxGFLzAxbaDEuELA2ehU3MjirSrqaiT",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "7PrRjV1nLyoMJ8XSFXVAdnMeb6mmz9fr45mNuvnfWA7E",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "PV5tfXh295EpmpiYNHsEEEBymZ9325G14LGnUkkJ2EC",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "8dk5KyDAttJYT4pa9nSQYqLEK85w7ZbcHZdZjBMHoAhz",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "DiNi78eqjYxVdwXiAiran2Fh4sPAbvQA4oDTq2a6mDQe",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "96yg1uazqtxT4R4mTKPDcLSfbp3AAJiXJFMKZj28bsSk",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "69YoSiSLEAJrTbZGy7Ry3p4jvJBjJpwn8g8HKcXcCguJ",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "on-re-sac-ltd",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.onre.finance/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "date": "2026-05-31",
+      "links": [
+        "https://docs.onre.finance/security-and-verification/independent-attestations",
+        "https://drive.google.com/file/d/1oLcbsYJh8NM2YprIBTbDs6QDrVQf0rIO/view",
+        "https://app.onre.finance/transparency"
+      ]
+    }
+  ]
+}

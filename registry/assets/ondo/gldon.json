@@ -1,0 +1,111 @@
+{
+  "identity": {
+    "slug": "gldon",
+    "symbol": "GLDon",
+    "name": "SPDR Gold Shares (Ondo Tokenized)",
+    "legacyId": 711,
+    "canonicalMarketId": "GLDon"
+  },
+  "exposure": {
+    "underlying": "spdr-gold-shares"
+  },
+  "class": {
+    "structure": "equity-basket",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities",
+      "gold-commodities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "cexListed": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Daily"
+  },
+  "sources": {
+    "coingeckoId": "spdr-gold-shares-ondo-tokenized",
+    "identifiers": [
+      {
+        "scheme": "isin",
+        "value": "US78463V1070",
+        "source": null,
+        "verified": false
+      }
+    ]
+  },
+  "about": {
+    "description": "GLDon is an Ondo Global Markets tokenized ETF exposure designed to provide economic exposure to =SUBSTITUTE(A142, \", \") in an onchain format. The token is designed to be fully backed by the underlying publicly traded ETF, together with cash in transit, held with regulated custodial broker-dealers. Holdings attestations and ongoing reporting are surfaced through Ondo trust and transparency materials and the product asset page. Tokenholders are not shareholders of the underlying and do not receive shareholder voting rights. Distributions, where applicable, are reflected through total return mechanics and reinvestment adjustments.",
+    "logo": "https://icons.llamao.fi/icons/rwa/gld.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://app.ondo.finance/assets/gldon"
+      ],
+      "twitter": "https://x.com/ondofinance",
+      "docs": "https://docs.ondo.finance/",
+      "linkedin": "https://www.linkedin.com/company/ondofinance",
+      "discord": "https://discord.com/invite/ondofinance",
+      "telegram": "https://t.me/ondofinance",
+      "github": "https://github.com/ondoprotocol"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x423d42e505e64f99b6e277eb7ed324cc5606f139",
+      "deployedAt": "2025-12-10",
+      "primary": true
+    },
+    {
+      "chain": "bsc",
+      "address": "0xfa9a1e901085e269f6d428f79cd5252d8b919344",
+      "deployedAt": "2025-12-10"
+    },
+    {
+      "chain": "solana",
+      "address": "hWfiw4mcxT8rnNFkk6fsCQSxoxgZ9yVhB6tyeVcondo",
+      "deployedAt": "2026-02-17"
+    },
+    {
+      "chain": "hyperliquid",
+      "address": "0x95febdd6f447b5278c9b98743b4254eb02c6ea1d",
+      "deployedAt": "2026-03-27"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "ondo-global-markets-bvi-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.ondo.finance/ondo-global-markets/legal-and-regulatory"
+      ],
+      "protocolIds": [
+        2542,
+        6650
+      ]
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://app.ondo.finance/assets/gldon"
+      ],
+      "note": "Daily (ongoing)"
+    }
+  ]
+}

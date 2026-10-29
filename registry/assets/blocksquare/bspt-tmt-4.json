@@ -1,0 +1,74 @@
+{
+  "identity": {
+    "slug": "bspt-tmt-4",
+    "symbol": "BSPT-TMT-4",
+    "name": "Snowmass Luxury Rental & Retreat",
+    "legacyId": 8547,
+    "canonicalMarketId": "BSPT-TMT-4"
+  },
+  "exposure": {
+    "underlying": "6889-capitol-creek-rd-snowmass-co-81654"
+  },
+  "class": {
+    "structure": "single-property",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "real-estate"
+    ]
+  },
+  "terms": {
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "sources": {
+    "llamaAttestationProof": false
+  },
+  "about": {
+    "description": "BSPT-TMT-4 is a Blocksquare property token recorded on Ethereum under the name Snowmass Luxury Rental & Retreat. The on chain property record gives an address of 6889 Capitol Creek Rd, Snowmass, CO 81654 together with geographic coordinates. No valuation has been set on either the token or the Blocksquare property registry, so the entry exists as a registered property token without a stated value. No maximum supply has been set and no tokens have been issued. Under the Blocksquare framework a property token conveys an economic interest routed through the entity that owns the property rather than direct legal title, holding requires passing the platform's onboarding checks, transfers are limited to approved addresses, yield reaches holders as distributed rental income paid in DAI, and no issuer redemption facility exists. This token was not part of the issuer's own submission and was identified from the Blocksquare marketplace indexer and confirmed on chain.",
+    "logo": "https://icons.llamao.fi/icons/rwa/blocksquare.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://blocksquare.io/"
+      ],
+      "twitter": "https://x.com/blocksquare_io",
+      "docs": "https://docs.blocksquare.io/",
+      "linkedin": "https://www.linkedin.com/company/blocksquare/",
+      "discord": "https://discord.com/invite/blocksquare",
+      "telegram": "https://t.me/blocksquare",
+      "github": "https://github.com/blocksquare"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x6c7bd567211ade2b9f4c71e71b679007425554cb",
+      "deployedAt": "2021-10-19",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x7e8f1b7655fc05e48462082e5a12e53dbc33464a",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "blocksquare",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.blocksquare.io/"
+      ]
+    }
+  ]
+}

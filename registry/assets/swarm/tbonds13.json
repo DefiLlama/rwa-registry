@@ -1,0 +1,101 @@
+{
+  "identity": {
+    "slug": "tbonds13",
+    "symbol": "TBONDS13",
+    "name": "US Treasury Bond ETF 1-3yrs (SwarmX tokenized bond ETF)",
+    "legacyId": 424,
+    "canonicalMarketId": "TBONDS13"
+  },
+  "exposure": {
+    "underlying": "us-treasury-bond-etf-1-3yrs"
+  },
+  "class": {
+    "structure": "sovereign-bond-fund",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "bond-mmf-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Monthly"
+  },
+  "sources": {
+    "identifiers": [
+      {
+        "scheme": "isin",
+        "value": "CH1237059071",
+        "source": null,
+        "verified": false
+      }
+    ]
+  },
+  "about": {
+    "description": "TBONDS13 is a SwarmX-issued token that provides on-chain exposure to the referenced fund (US Treasury Bond ETF 1-3yrs) under SwarmX’s prospectus-based Stock Certificate Token program. For dividends and other distributions, the Final Terms describe that the custodian receives the payment, forwards it to a conversion service provider to convert into stablecoins (USD stablecoins when available, otherwise EUR stablecoins at the issuer’s discretion), and makes the payout available via a Dividend Smart Contract. Tokenholders must claim distributions, and unclaimed dividends are forfeited once a token is redeemed. Tokenholder rights are contractual and defined in the prospectus and Final Terms, and are not the same as holding the underlying security directly.",
+    "logo": "https://icons.llamao.fi/icons/rwa/tbonds13.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://swarm.com/products/"
+      ],
+      "twitter": "https://x.com/SwarmMarkets",
+      "docs": "https://docs.swarm.com/",
+      "linkedin": "https://www.linkedin.com/company/swarmmarkets",
+      "telegram": "https://t.me/swarmfund",
+      "github": "https://github.com/SwarmMarkets"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "polygon",
+      "address": "0xab5c42e0557cac97f237d3afb662009de4a87a91",
+      "deployedAt": "2025-02-17",
+      "primary": true
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x0adaa676c5e9da685ee31db105794c3fefb40426",
+      "deployedAt": "2025-02-17"
+    },
+    {
+      "chain": "base",
+      "address": "0x13e43724ef085365682964788b230c5a357f0006",
+      "deployedAt": "2025-02-17"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "swarmx-gmbh",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.swarmx.net/tokenized-stocks-and-bonds/tokenized-stocks-and-bonds",
+        "https://swarm.com/products/",
+        "https://registers.esma.europa.eu/publication/searchRegister?core=esma_registers_priii_documents",
+        "https://www.lei-lookup.com/record/984500H93FZ5D50AFE98"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://drive.google.com/file/d/1QTkeF-qy2UhfcgfITSQ1TyElSLwz5zIg/view?usp=drive_fs",
+        "https://ipfs.io/ipfs/QmViUejHAEdmkvybJPEEMwwec5rcNcTJsfe7CHYXNviAqy",
+        "https://3539167878-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FtSsEoa2TjDHDDzFVTsXt%2Fuploads%2FGXvIFvUd1YZnyPuivRk3%2F2024%20SwarmX%20GmbH%20-%20annual%20accounts%20%2B%20audit.pdf?alt=media&token=ddb85d62-8abf-414e-bc6b-81761fe674b7",
+        "https://swarm.com/products/"
+      ],
+      "note": "Monthly (ongoing)"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "identity": {
+    "slug": "aoabtb",
+    "symbol": "AOABTB",
+    "name": "Asseto AoABTb",
+    "legacyId": 9234,
+    "canonicalMarketId": "AOABTB"
+  },
+  "exposure": {
+    "underlying": "asseto-aoabtb"
+  },
+  "class": {
+    "structure": "crypto-hedge-fund",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "crypto-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "about": {
+    "description": "AoABTb is a share class of Asseto's AoABT token series, a market-neutral strategy targeting returns through delta-neutral basis and funding-rate positioning. It carries its own NAV, distinct from the other classes in the series.",
+    "logo": "https://icons.llamao.fi/icons/rwa/asseto-aoabt-token.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://asseto.finance"
+      ],
+      "twitter": "https://x.com/AssetoFinance",
+      "docs": "https://docs.asseto.capital/",
+      "linkedin": "https://www.linkedin.com/company/asseto-capital"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "hsk",
+      "address": "0x34b842d0acf830134d44075dcbce43ba04286c12",
+      "deployedAt": "2025-03-25",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "asseto-finance",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://asseto.finance"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "Not publicly disclosed"
+    }
+  ]
+}

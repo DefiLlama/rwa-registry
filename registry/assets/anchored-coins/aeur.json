@@ -1,0 +1,72 @@
+{
+  "identity": {
+    "slug": "aeur",
+    "symbol": "AEUR",
+    "name": "Anchored Coins AEUR",
+    "legacyId": 597,
+    "canonicalMarketId": "AEUR"
+  },
+  "exposure": {
+    "underlying": "euro"
+  },
+  "class": {
+    "structure": "eur-stable",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "fiat-stablecoins"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "cexListed": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Periodic"
+  },
+  "sources": {
+    "coingeckoId": "anchored-coins-eur"
+  },
+  "about": {
+    "description": "Euro stablecoin intended to be fully backed by EUR held with reserve banking partners. Issuer announced a wind-down and cessation of new issuance. direct redemptions are subject to issuer onboarding/KYC and minimum size requirements.",
+    "logo": "https://icons.llamao.fi/icons/rwa/aeur.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://anchoredcoins.com/"
+      ],
+      "twitter": "https://x.com/AnchoredCoins"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "bsc",
+      "address": "0xa40640458fbc27b6eefedea1e9c9e17d4cee7a21",
+      "deployedAt": "2023-07-19"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xa40640458fbc27b6eefedea1e9c9e17d4cee7a21",
+      "deployedAt": "2023-07-20",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "anchored-coins-ag",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://anchoredcoins.com/",
+        "https://anchoredcoins.com/transparency",
+        "https://anchoredcoins.com/whitepaper"
+      ]
+    }
+  ]
+}

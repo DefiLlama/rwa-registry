@@ -1,0 +1,80 @@
+{
+  "identity": {
+    "slug": "ausd-altai",
+    "symbol": "AUSD",
+    "name": "Altai USD",
+    "legacyId": 181,
+    "canonicalMarketId": "AUSD-ALTAI"
+  },
+  "exposure": {
+    "underlying": "us-dollar"
+  },
+  "class": {
+    "structure": "rwa-fiat-stable",
+    "type": "asset",
+    "rwaClassification": "programmable-finance",
+    "category": [
+      "rwa-stablecoins",
+      "gold-commodities"
+    ]
+  },
+  "terms": {
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "about": {
+    "description": "Altai USD is a dollar-denominated unit used within the Altai Exchange ecosystem as a settlement and quoting asset for tokenized commodity markets. It is positioned as the stable unit that supports faster movement between precious-metals exposures and other listed real-asset products inside the Altai venue.",
+    "logo": "https://icons.llamao.fi/icons/rwa/altai-usd.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://altai.exchange/"
+      ],
+      "twitter": "https://x.com/altaiexchange",
+      "docs": "https://altai.io/",
+      "linkedin": "https://www.linkedin.com/company/altaicapitalmanagement"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "bsc",
+      "address": "0x99ebb9bfa6af26e483fd55f92715321eb4c93aa9",
+      "deployedAt": "2025-10-10",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xaf024d8e1eb7bb5f150b4f16aece9a56b4fb668e",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x3ef75642e90dc3d77ab07a76ed4e1656ee986c51",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xd4f7eaaf2afea17b421a8acbe5b285046cd0f9e8",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xe16a3cdede40b38eeed6e58a4edd5e14e3510595",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "altai",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://altai.exchange/"
+      ]
+    }
+  ]
+}

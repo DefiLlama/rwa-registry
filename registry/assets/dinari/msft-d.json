@@ -1,0 +1,93 @@
+{
+  "identity": {
+    "slug": "msft-d",
+    "symbol": "MSFT.d",
+    "name": "Microsoft Corporation dShare (Dinari)",
+    "legacyId": 451,
+    "canonicalMarketId": "MSFT.d"
+  },
+  "exposure": {
+    "underlying": "microsoft-corporation"
+  },
+  "class": {
+    "structure": "stock-backed",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Random intervals (per whitepaper)"
+  },
+  "sources": {
+    "coingeckoId": "dinari-msft-dshares",
+    "identifiers": [
+      {
+        "scheme": "isin",
+        "value": "US5949181045",
+        "source": null,
+        "verified": false
+      }
+    ]
+  },
+  "about": {
+    "description": "MSFT.d is a Dinari dShare that provides on-chain exposure to the referenced equity (Microsoft Corporation dShare). dShares may only be issued and redeemed from wallets that have completed KYC, and Dinari states it screens wallets holding dShares as part of its AML program. The token includes a transfer blacklist feature for OFAC, AML, and account-security controls. Dinari states dividends and distributions are allocated using an on-chain snapshot and made available to withdraw from a USDC claim contract, and Dinari holds back shareholder voting rights from tokenholders.",
+    "logo": "https://icons.llamao.fi/icons/rwa/msft.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://sbt.dinari.com/tokens/MSFT.d"
+      ],
+      "twitter": "https://x.com/DinariGlobal",
+      "docs": "https://docs.dinari.com/",
+      "linkedin": "https://www.linkedin.com/company/dinari",
+      "discord": "https://discord.gg/dinari",
+      "telegram": "https://t.me/dinariglobal",
+      "github": "https://github.com/dinaricrypto"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "arbitrum",
+      "address": "0x77308f8b63a99b24b262d930e0218ed2f49f8475",
+      "deployedAt": "2023-11-13",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x5c253d333d19c6a64c780d9ad5b5fe97a4a277bc",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x3ae376b2b96914be53e7f1139ef07689e59ab1b8",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x7f54cc057256d26e6985eca88e9230d65e175735",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "dinari-inc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.sec.gov/Archives/edgar/data/1915430/0001915430-23-000003-index.htm",
+        "https://dinari.com/dshares"
+      ]
+    }
+  ]
+}

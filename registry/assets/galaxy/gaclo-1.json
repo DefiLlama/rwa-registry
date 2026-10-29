@@ -1,0 +1,83 @@
+{
+  "identity": {
+    "slug": "gaclo-1",
+    "symbol": "GACLO-1",
+    "name": "Galaxy CLO 2025-1",
+    "legacyId": 4059,
+    "canonicalMarketId": "GACLO-1"
+  },
+  "exposure": {
+    "underlying": "btc-eth-overcollateralized-consumer-loans"
+  },
+  "class": {
+    "structure": "structured-credit",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "private-credit"
+    ]
+  },
+  "terms": {
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "Galaxy CLO 2025-1 is Galaxy Digital's debut collateralized loan obligation, tokenized on Avalanche by INX with an initial $75M close (scalable to $200M). The CLO finances an uncommitted credit facility to Arch Lending backing consumer loans overcollateralized by bitcoin and ether, pays a senior coupon of SOFR + 5.70% monthly with initial maturity December 2026, and uses Anchorage Digital Bank as trustee and custodian with real-time collateral reporting via Accountable. The token tracks $1.00 par with principal changes effected by on-chain mint and burn. Holders are qualified investors with INX ATS listing expected.",
+    "logo": "https://icons.llamao.fi/icons/rwa/gaclo-1.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.galaxy.com"
+      ],
+      "twitter": "https://x.com/galaxyhq",
+      "docs": "https://www.galaxy.com"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "avax",
+      "address": "0x2c0adff8e114f3ca106051144353ac703d24b901",
+      "deployedAt": "2025-07-16",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "galaxy-clo-2025-1-llc-galaxy-asset-management",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.prnewswire.com/news-releases/galaxy-announces-initial-closing-of-debut-tokenized-clo-at-75-million-302662045.html"
+      ]
+    },
+    {
+      "organization": "parent-galaxy-digital-inc-nasdaq-tsx-glxy",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.prnewswire.com/news-releases/galaxy-announces-initial-closing-of-debut-tokenized-clo-at-75-million-302662045.html"
+      ]
+    },
+    {
+      "organization": "nav-consulting-inc",
+      "kind": "fund-administrator"
+    },
+    {
+      "organization": "accountable-capital",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://www.accountable.capital"
+      ],
+      "note": "no date in the export"
+    }
+  ]
+}

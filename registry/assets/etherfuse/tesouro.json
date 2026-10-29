@@ -1,0 +1,101 @@
+{
+  "identity": {
+    "slug": "tesouro",
+    "symbol": "TESOURO",
+    "name": "Etherfuse Brazilian Tesouro",
+    "legacyId": 3988,
+    "canonicalMarketId": "TESOURO"
+  },
+  "exposure": {
+    "underlying": "brazilian-letras-do-tesouro-nacional-ltn"
+  },
+  "class": {
+    "structure": "sovereign-bond-fund",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "bond-mmf-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "sources": {
+    "coingeckoId": "etherfuse-tesouro"
+  },
+  "about": {
+    "description": "Etherfuse TESOURO tokenizes Brazilian Letras do Tesouro Nacional. Brazil short-term sovereign bonds (fixed-rate and inflation-indexed). Custody via B3 SA Brasil Bolsa Balcão. Yield reflects Brazilian rate dynamics and inflation. Deployed on Stellar, Solana, Base, Polygon, and Monad.",
+    "logo": "https://icons.llamao.fi/icons/rwa/tesouro.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.etherfuse.com/"
+      ],
+      "twitter": "https://x.com/etherfuse",
+      "docs": "https://www.etherfuse.com/stablebonds",
+      "linkedin": "https://www.linkedin.com/company/etherfuse"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "stellar",
+      "address": "TESOURO-GCRYUGD5NVARGXT56XEZI5CIFCQETYHAPQQTHO2O3IQZTHDH4LATMYWC",
+      "deployedAt": "2025-04-07",
+      "primary": true
+    },
+    {
+      "chain": "solana",
+      "address": "BRNTNaZeTJANz9PeuD8drNbBHwGgg7ZTjiQYrFgWQ48p",
+      "deployedAt": "2024-12-06"
+    },
+    {
+      "chain": "base",
+      "address": "0x7cee47e7b7cd04cf984e8dd86c42595b5771a9b2",
+      "deployedAt": "2025-10-24"
+    },
+    {
+      "chain": "polygon",
+      "address": "0xd574b191b5a00262ff19953d3ce25543ab7c8098",
+      "deployedAt": "2025-10-24"
+    },
+    {
+      "chain": "monad",
+      "address": "0x7a9990ffe3057edc18558ca4c8804430fe917456",
+      "deployedAt": "2025-12-24"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "etherfuse",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.etherfuse.com/stablebonds"
+      ],
+      "protocolIds": [
+        6990
+      ]
+    },
+    {
+      "organization": "redstone",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://app.etherfuse.com/legal/stablebonds-overview"
+      ],
+      "note": "no date in the export"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "identity": {
+    "slug": "br0ovsctf004",
+    "symbol": "BR0OVSCTF004",
+    "name": "VERT's FIDC Byx Mozart - Senior",
+    "legacyId": 655,
+    "canonicalMarketId": "BR0OVSCTF004"
+  },
+  "exposure": {
+    "underlying": "vert-byx-mozart-fidc-senior"
+  },
+  "class": {
+    "structure": "structured-credit",
+    "type": "asset",
+    "rwaClassification": "programmable-finance",
+    "category": [
+      "private-credit"
+    ]
+  },
+  "terms": {
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "sources": {
+    "identifiers": [
+      {
+        "scheme": "isin",
+        "value": "BR0OVSCTF004",
+        "source": null,
+        "verified": false
+      }
+    ]
+  },
+  "about": {
+    "description": "BR0OVSCTF004 represents the senior tranche of VERT’s BYX Mozart FIDC, a structured credit fund backed by Brazilian public-pension receivables (INSS). The senior class benefits from subordination from mezzanine and junior tranches, aiming for the most protected exposure within the vehicle, with lifecycle events and documents tracked via VERT Tokens infrastructure.",
+    "logo": "https://icons.llamao.fi/icons/rwa/verts-fidc-byx-mozart---senior.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://tokenizacao.vert-capital.app"
+      ],
+      "twitter": "https://x.com/vert_capital",
+      "docs": "https://vertcapital.com.br/",
+      "linkedin": "https://www.linkedin.com/company/vertdigital"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ripple",
+      "address": "SNR.rQhFNz35wesG55eHGDUgbnf6i8kKBA29Nt",
+      "deployedAt": "2025-10-24",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "vert-capital",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.vert-capital.com/institucional/vert-tokens"
+      ]
+    }
+  ]
+}

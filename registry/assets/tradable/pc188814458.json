@@ -1,0 +1,64 @@
+{
+  "identity": {
+    "slug": "pc188814458",
+    "symbol": "PC188814458",
+    "name": "Tradable: North American Fintech Senior Secured Delayed Draw",
+    "legacyId": 4064,
+    "canonicalMarketId": "PC188814458"
+  },
+  "exposure": {
+    "underlying": "smb-charge-card-receivables"
+  },
+  "class": {
+    "structure": "credit-pool",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "private-credit"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "A senior secured delayed-draw term loan financing a North American fintech's corporate charge-card product for small businesses, advancing 85-90% against card receivables. Pays 3-month Term SOFR + 7.00% with a 4% floor and is issued through Tradable on ZKsync Era as a compliance-gated ERC-20.",
+    "logo": "https://icons.llamao.fi/icons/rwa/pc188814458.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.tradable.xyz/"
+      ],
+      "twitter": "https://x.com/tradable_xyz",
+      "docs": "https://doc.tradable.xyz/product-docs"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "era",
+      "address": "0x6bfcbf08b0ef6f64ad090c0cecbcde4ee3e94fa5",
+      "deployedAt": "2025-03-03",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "tradable-counterparty-anonymized-by-design",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://doc.tradable.xyz/product-docs/how-it-works"
+      ]
+    },
+    {
+      "organization": "tradable",
+      "kind": "oracle"
+    }
+  ]
+}

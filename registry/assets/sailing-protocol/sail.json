@@ -1,0 +1,55 @@
+{
+  "identity": {
+    "slug": "sail",
+    "symbol": "SAIL",
+    "name": "Sailing Protocol",
+    "legacyId": 63,
+    "canonicalMarketId": "SAIL"
+  },
+  "exposure": {
+    "underlying": "sailing-protocol"
+  },
+  "class": {
+    "structure": "equity-basket",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "about": {
+    "description": "SAIL is the ecosystem token for Sailing Protocol, a tokenized equities platform designed to make stock-linked tokens usable across DeFi applications. The project positions these assets as fully backed exposures intended for trading, liquidity provisioning, and collateral-style use cases, with compliance controls integrated into issuance and access. SAIL supports governance and ecosystem incentives across market expansion and product integrations.",
+    "logo": "https://icons.llamao.fi/icons/rwa/sail.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://sailing.finance"
+      ],
+      "twitter": "https://x.com/SailingProtocol",
+      "docs": "https://docs.sailing.finance/",
+      "linkedin": "https://www.linkedin.com/company/sailing-protocol"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "sailing-finance",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://sailing.finance"
+      ]
+    }
+  ]
+}

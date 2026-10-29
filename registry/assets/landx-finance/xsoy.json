@@ -1,0 +1,85 @@
+{
+  "identity": {
+    "slug": "xsoy",
+    "symbol": "xSOY",
+    "name": "LandX xSOY",
+    "legacyId": 3406,
+    "canonicalMarketId": "xSOY"
+  },
+  "exposure": {
+    "underlying": "soybeans"
+  },
+  "class": {
+    "structure": "other-commodity",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "gold-commodities"
+    ]
+  },
+  "terms": {
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "about": {
+    "description": "xSOY is a LandX perpetual commodity vault tied to soybean crop-share. LandX docs state each xToken represents 1 kg per year of the underlying commodity yield, paid daily in cTokens, with farmer obligations backed by crop-share contracts, security deposits, validators, audits, and farmland liens. xSOY holders can stake to receive cSOY yield and trade the token onchain.",
+    "logo": "https://icons.llamao.fi/icons/rwa/xsoy.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://landx.fi"
+      ],
+      "twitter": "https://x.com/landxfinance",
+      "docs": "https://docs.landx.fi/",
+      "linkedin": "https://www.linkedin.com/company/landxfinance",
+      "discord": "https://discord.gg/landx",
+      "telegram": "https://t.me/landxfinance",
+      "github": "https://github.com/LandXit/land-x-smart-contracts"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x8a78c1042f24349595f36f1a83091163487f2241",
+      "deployedAt": "2023-12-17",
+      "primary": true
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0xaab1f70478e734e972cdcc108c42a7c8915f5606",
+      "deployedAt": "2023-12-19"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "landx-labs-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://landx.gitbook.io/landx/landx-terms-and-conditions-of-use"
+      ]
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://landx.fi/proof-of-reserves",
+        "https://landx.gitbook.io/landx/whitepaper/introduction",
+        "https://landx.gitbook.io/landx/whitepaper/xtokens-defi-diversification",
+        "https://landx.gitbook.io/landx/whitepaper/ctokens-commodity-collateral"
+      ],
+      "note": "Not publicly disclosed"
+    }
+  ]
+}

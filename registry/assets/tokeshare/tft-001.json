@@ -1,0 +1,85 @@
+{
+  "identity": {
+    "slug": "tft-001",
+    "symbol": "TFT_001",
+    "name": "Tokeshare French Tacos",
+    "legacyId": 9028,
+    "canonicalMarketId": "TFT_001"
+  },
+  "exposure": {
+    "underlying": "french-tacos-lt-srl-equity"
+  },
+  "class": {
+    "structure": "pe-venture",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Monthly"
+  },
+  "about": {
+    "description": "TFT_001 is a tokenized equity interest in French Tacos LT SRL, an operating restaurant in Las Terrenas, Dominican Republic. Tokeshare states that 100% of the business is tokenized into 1,000 shares on Base. Each token represents an equity share of the business and carries rights to monthly profit distributions in USDC. Tokeshare lists the token at $31.25 and a stated net annual yield of 11.76%",
+    "logo": "https://icons.llamao.fi/icons/rwa/tokeshare-french-tacos.jpg?w=48&h=48",
+    "links": {
+      "website": [
+        "https://tokeshare.co/marketplace/other/french-tacos"
+      ],
+      "twitter": "https://x.com/Tokeshare",
+      "docs": "https://tokeshare.co/marketplace/other/french-tacos",
+      "linkedin": "https://www.linkedin.com/company/tokeshare"
+    }
+  },
+  "review": {
+    "activeAumReviewed": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "base",
+      "address": "0xb48f4d5e455a6d67f26fe364a201f51ff71aab26",
+      "deployedAt": "2025-07-22",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xe0f632423a6bf824d7e4463470549b73048c3f4e",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xf61e3f4c4ad8520dae0423b3afc388648c31a446",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "french-tacos-lt-srl",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://tokeshare.co/marketplace/other/french-tacos"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "review",
+      "outcome": "suspicious",
+      "reason": null
+    },
+    {
+      "kind": "attestation",
+      "links": [
+        "https://tokeshare.co/marketplace/other/french-tacos"
+      ],
+      "note": "no date in the export"
+    }
+  ]
+}

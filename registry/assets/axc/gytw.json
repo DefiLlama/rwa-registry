@@ -1,0 +1,76 @@
+{
+  "identity": {
+    "slug": "gytw",
+    "symbol": "GYTW",
+    "name": "AXC Growth Yield Token Whitelisted",
+    "legacyId": 3799,
+    "canonicalMarketId": "GYTW"
+  },
+  "exposure": {
+    "underlying": "grow-heritage-fund-buu815"
+  },
+  "class": {
+    "structure": "mixed-rwa-fund",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "rwa-wrappers"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Per administrator NAV publication cycle"
+  },
+  "about": {
+    "description": "GYTW is AXC's institutional fund-position token for the GROW Heritage Fund (BUU815), a BVI-registered private sub-fund of GROW Global Allocation OFC (BUU813). Used as the base asset inside AXC's RWAfi vault framework to bridge administrator-issued fund documentation into a programmable on-chain vault position. Pricing flows through AXC's DRDS (Distributed Reference Data System): the fund administrator publishes the NAV figure, then designated internal witnesses confirm before the protocol uses it for vault accounting and TVL. The whitelisted variant restricts holding to KYC'd institutional addresses. Pairs with AXC's existing GIFT token (Grow Institutional Fund Token) but is a separate product line targeting heritage-fund exposure.",
+    "logo": "https://icons.llamao.fi/icons/rwa/gytw.png?w=48&h=48",
+    "links": {
+      "website": [
+        "http://www.axc.xyz/"
+      ],
+      "twitter": "https://x.com/AXClabs",
+      "docs": "https://docs.axc.xyz/"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "bsc",
+      "address": "0xfc787d44f3754add0242204533b2b4a7eb9876e1",
+      "deployedAt": "2026-04-22",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "rwafi-dao-llc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.axc.xyz/"
+      ]
+    },
+    {
+      "organization": "axc",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "Attestation report available to investors (private)"
+      ],
+      "note": "Private (investors only)"
+    }
+  ]
+}

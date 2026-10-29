@@ -1,0 +1,88 @@
+{
+  "identity": {
+    "slug": "cpool",
+    "symbol": "CPOOL",
+    "name": "Clearpool",
+    "legacyId": 35,
+    "canonicalMarketId": "CPOOL"
+  },
+  "exposure": {
+    "underlying": "clearpool"
+  },
+  "class": {
+    "structure": "governance-token",
+    "type": "asset",
+    "rwaClassification": "non-rwa-gov-utility",
+    "category": [
+      "governance-tokens",
+      "private-credit"
+    ]
+  },
+  "terms": {
+    "cexListed": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "sources": {
+    "coingeckoId": "clearpool"
+  },
+  "about": {
+    "description": "CPOOL is the governance and utility token for Clearpool, an onchain credit marketplace that connects stablecoin lenders with institutional borrowers and managed yield strategies. The token is used for governance over risk parameters and for staking-based security and incentive alignment across Clearpool products. Clearpool’s broader ecosystem also includes treasury-linked and private-credit offerings that use stablecoins as the primary funding rail.",
+    "logo": "https://icons.llamao.fi/icons/rwa/clearpool.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://clearpool.finance"
+      ],
+      "twitter": "https://x.com/ClearpoolFin",
+      "docs": "https://docs.clearpool.finance/",
+      "linkedin": "https://www.linkedin.com/company/clearpool",
+      "discord": "https://discord.com/invite/YYzxscA4nu",
+      "telegram": "https://t.me/clearpoolofficial",
+      "github": "https://github.com/clearpool-finance"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x66761fa41377003622aee3c7675fc7b5c1c2fac5",
+      "deployedAt": "2021-10-21",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x512a816d43aa3801d04b3f687895d62d9366c15b",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x702997fd3448346d21cede91bf40beb804764ac5",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x046667c768da32ef1e81a5cbbcd49103a207e72c",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "solana",
+      "address": "AeXrLftu8chuY4ctc6oDeG4dUx6Yr4aqeakUMFNvACdg",
+      "deployedAt": "2026-02-11"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "cp-clearpool-investment-inc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://4108300013-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FhkiSI8bK3ThlypJ3jdEC%2Fuploads%2FPUQ2GeLtybR3yZibtait%2FClearpool%20MiCAR%20Whitepaper.pdf"
+      ]
+    }
+  ]
+}

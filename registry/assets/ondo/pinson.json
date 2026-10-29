@@ -1,0 +1,115 @@
+{
+  "identity": {
+    "slug": "pinson",
+    "symbol": "PINSon",
+    "name": "Pinterest (Ondo Tokenized)",
+    "legacyId": 742,
+    "canonicalMarketId": "PINSon"
+  },
+  "exposure": {
+    "underlying": "pinterest-inc"
+  },
+  "class": {
+    "structure": "stock-backed",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "cexListed": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Daily"
+  },
+  "sources": {
+    "coingeckoId": "pinterest-ondo-tokenized",
+    "identifiers": [
+      {
+        "scheme": "isin",
+        "value": "US72352L1061",
+        "source": null,
+        "verified": false
+      }
+    ]
+  },
+  "about": {
+    "description": "PINSon is an Ondo Global Markets tokenized stock exposure designed to provide economic exposure to =SUBSTITUTE(A173, \", \") in an onchain format. The token is designed to be fully backed by the underlying publicly traded asset, together with cash in transit, held with regulated custodial broker-dealers. Holdings attestations and ongoing reporting are surfaced through Ondo trust and transparency materials and the product asset page. Tokenholders are not shareholders of the underlying and do not receive shareholder voting rights. Dividend value is reflected through total return mechanics, and where applicable, dividends are reflected through reinvestment adjustments instead of cash dividends.",
+    "logo": "https://icons.llamao.fi/icons/rwa/pins.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://app.ondo.finance/assets/pinson"
+      ],
+      "twitter": "https://x.com/ondofinance",
+      "docs": "https://docs.ondo.finance/",
+      "linkedin": "https://www.linkedin.com/company/ondofinance",
+      "discord": "https://discord.com/invite/ondofinance",
+      "telegram": "https://t.me/ondofinance",
+      "github": "https://github.com/ondoprotocol"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xc017c622cd05698580e2decd0f97d4a17dab70f9",
+      "deployedAt": "2025-12-18",
+      "primary": true
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x7d9c210bc9b151ac8bc466f92d7a2c11fa8502c0",
+      "deployedAt": "2025-12-18"
+    },
+    {
+      "chain": "bsc",
+      "address": "0xcfd1f0df84300ea1a4e2ba5238043a2fa5a7237c",
+      "deployedAt": "2025-12-18"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x882b7d96ee7527830ef2c1fd2fe2bab1f2f52528",
+      "deployedAt": "2025-12-18"
+    },
+    {
+      "chain": "solana",
+      "address": "sxyg1VTSzy5zYANUK7hntNtmFAWoXGJq95AcHuVondo",
+      "deployedAt": "2025-12-31"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "ondo-global-markets-bvi-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.ondo.finance/ondo-global-markets/legal-and-regulatory"
+      ],
+      "protocolIds": [
+        2542,
+        6650
+      ]
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://app.ondo.finance/assets/pinson"
+      ],
+      "note": "Daily (ongoing)"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "identity": {
+    "slug": "ogy",
+    "symbol": "OGY",
+    "name": "ORIGYN",
+    "legacyId": 56,
+    "canonicalMarketId": "OGY"
+  },
+  "exposure": {
+    "underlying": "origyn"
+  },
+  "class": {
+    "structure": "governance-token",
+    "type": "asset",
+    "rwaClassification": "non-rwa-gov-utility",
+    "category": [
+      "governance-tokens",
+      "other-rwas"
+    ]
+  },
+  "terms": {
+    "cexListed": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "sources": {
+    "coingeckoId": "origyn-foundation"
+  },
+  "about": {
+    "description": "OGY is the utility and governance token of ORIGYN, a provenance and authenticity infrastructure focused on high-value real-world assets such as luxury goods, art, and collectibles. ORIGYN centers on creating tamper-resistant digital certificates that track an item’s identity, history, and ownership, enabling verification and more credible secondary-market trading. OGY is used across the ecosystem for participation, incentives, and governance over how certification and marketplace primitives evolve.",
+    "logo": "https://icons.llamao.fi/icons/rwa/origyn.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://origyn.com"
+      ],
+      "twitter": "https://x.com/origyntech",
+      "docs": "https://docs.origyn.com/",
+      "linkedin": "https://www.linkedin.com/company/origyn-foundation",
+      "telegram": "https://t.me/origynfoundation",
+      "github": "https://github.com/ORIGYN-SA"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "icp",
+      "address": "lkwrt-vyaaa-aaaaq-aadhq-cai",
+      "deployedAt": "2026-07-23",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "origyn-foundation",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.moneyhouse.ch/en/company/origyn-foundation-12182847461"
+      ]
+    }
+  ]
+}

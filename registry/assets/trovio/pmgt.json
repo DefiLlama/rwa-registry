@@ -1,0 +1,68 @@
+{
+  "identity": {
+    "slug": "pmgt",
+    "symbol": "PMGT",
+    "name": "Perth Mint Gold Token",
+    "legacyId": 113,
+    "canonicalMarketId": "PMGT"
+  },
+  "exposure": {
+    "underlying": "gold"
+  },
+  "class": {
+    "structure": "gold",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "gold-commodities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "about": {
+    "description": "Perth Mint Gold Token (PMGT) is a tokenized gold product associated with the Perth Mint brand and marketed around direct exposure to government-guaranteed bullion in custody. It is positioned as a digital form of gold ownership designed for easier transfer and accessibility relative to traditional bullion channels. This token has been deactivated as of October 31, 2023. Perth Mint/Trovio havee shut it down.",
+    "logo": "https://icons.llamao.fi/icons/rwa/pmgt.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://pmgt.io"
+      ],
+      "twitter": "https://x.com/trovio_group",
+      "docs": "https://trovio.io/",
+      "linkedin": "https://www.linkedin.com/company/trovio-group"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xaffcdd96531bcd66faed95fc61e443d08f79efef",
+      "deployedAt": "2019-10-10",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x6fbf5368c813af07ba0be12da838f16653e39562",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "trovio-pty-ltd",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://abr.business.gov.au/ABN/View?abn=53619726608"
+      ]
+    }
+  ]
+}

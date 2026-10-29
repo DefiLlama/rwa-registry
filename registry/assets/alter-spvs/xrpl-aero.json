@@ -1,0 +1,68 @@
+{
+  "identity": {
+    "slug": "xrpl-aero",
+    "symbol": "AERO",
+    "name": "Aeroneura",
+    "legacyId": 4482,
+    "canonicalMarketId": "xrpl:AERO"
+  },
+  "exposure": {
+    "underlying": "aeroneura-ltd"
+  },
+  "class": {
+    "structure": "pe-venture",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "about": {
+    "description": "AERO is an XRPL-issued token representing an economic interest in an Alter SPVs investment vehicle that holds an equity position in AeroNeura Ltd. AeroNeura Ltd is a private aerospace technology company developing advanced control systems, intelligent automation, propulsion testing software, and engineering solutions for the aerospace, automotive, defense, and industrial sectors. AeroNeura Ltd does not issue, manage, or operate the token, and the operating business remains entirely separate from the tokenization activities.",
+    "logo": "https://aeroneura.com/assets/logo.png",
+    "links": {
+      "website": [
+        "https://aeroneura.com/"
+      ],
+      "docs": "https://aeroneura.com/tokenization"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ripple",
+      "address": "AERO:rGXjYgKrqTUZTPF9pMEKPTJEpcHE41wCE7",
+      "deployedAt": "2026-06-02",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "alter-spvs",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://aeroneura.com/tokenization"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://aeroneura.com/tokenization"
+      ],
+      "note": "no date in the export"
+    }
+  ]
+}

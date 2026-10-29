@@ -1,0 +1,90 @@
+{
+  "identity": {
+    "slug": "usd0",
+    "symbol": "USD0",
+    "name": "Usual",
+    "legacyId": 25,
+    "canonicalMarketId": "USD0"
+  },
+  "exposure": {
+    "underlying": "us-dollar"
+  },
+  "class": {
+    "structure": "rwa-fiat-stable",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "rwa-stablecoins"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "sources": {
+    "coingeckoId": "usual-usd"
+  },
+  "about": {
+    "description": "USD0 is the Usual ecosystem’s USD-pegged stablecoin designed as a settlement asset for DeFi. It is positioned as fully collateralized by short-duration, high-quality liquid RWAs, primarily tokenized U.S. Treasury exposure and repo-style cash equivalents, with collateral sourced across multiple institutional providers. USD0 itself is non-yielding, while the ecosystem routes yield and incentives through separate products in the Usual stack.",
+    "logo": "https://icons.llamao.fi/icons/rwa/usual.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://usual.money"
+      ],
+      "twitter": "https://x.com/usualmoney",
+      "docs": "https://docs.usual.money/",
+      "linkedin": "https://www.linkedin.com/company/usual-money",
+      "telegram": "https://t.me/usualmoney",
+      "github": "https://github.com/usual-dao"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x73a15fed60bf67631dc6cd7bc5b6e8da8190acf5",
+      "deployedAt": "2024-05-23",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xdd82875f0840aad58a455a70b88eed9f59cec7c7",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0x35f1c5cb7fb977e669fd244c567da99d8a3a6850",
+      "deployedAt": "2024-10-09"
+    },
+    {
+      "chain": "base",
+      "address": "0x758a3e0b1f842c9306b783f8a4078c6c8c03a270",
+      "deployedAt": "2025-03-13"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x758a3e0b1f842c9306b783f8a4078c6c8c03a270",
+      "deployedAt": "2025-03-13"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "association-de-d-veloppement-de-la-dao-usual-addu",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.usual.money/resources-and-ecosystem/legal-documentation/terms-of-services"
+      ],
+      "protocolIds": [
+        4882
+      ]
+    }
+  ]
+}

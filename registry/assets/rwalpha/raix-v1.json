@@ -1,0 +1,68 @@
+{
+  "identity": {
+    "slug": "raix-v1",
+    "symbol": "rAIX",
+    "name": "RWAlpha rAIX Vault (Superseded Deployment)",
+    "legacyId": 9024,
+    "canonicalMarketId": "rAIX-v1"
+  },
+  "exposure": {
+    "underlying": "yieldmax-nvda-option-income-strategy-etf-neos-nasdaq-100-high-income-etf-roundhi"
+  },
+  "class": {
+    "structure": "rwa-basket-vault",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "rwa-wrappers"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "This is the first RWAlpha rAIX vault contract deployed on the Mantle chain. A replacement rAIX contract was deployed later and this one carries no supply, so it is recorded as superseded rather than as a live product. The product holds a five fund basket built on the rAI option income base with memory, technology and treasury exposure added.",
+    "links": {
+      "website": [
+        "https://www.rwalpha.ai/vault/rAIX?chain=mantle"
+      ],
+      "twitter": "https://x.com/RWAlpha_AI",
+      "docs": "https://www.rwalpha.ai/docs/intro",
+      "linkedin": "https://www.linkedin.com/company/rwalpha",
+      "telegram": "https://t.me/rwalphahelpdesk",
+      "github": "https://github.com/dmzFinance"
+    }
+  },
+  "review": {
+    "activeAumReviewed": false,
+    "suspicious": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "mantle",
+      "address": "0xc1ab1a85e1c88b8f6d4c8adc2218960f6efa863b",
+      "deployedAt": "2026-05-28",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "rwalpha-matrix-spc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.rwalpha.ai/docs/legal"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

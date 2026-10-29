@@ -1,0 +1,115 @@
+{
+  "identity": {
+    "slug": "psqon",
+    "symbol": "PSQon",
+    "name": "ProShares Short QQQ (Ondo Tokenized)",
+    "legacyId": 744,
+    "canonicalMarketId": "PSQon"
+  },
+  "exposure": {
+    "underlying": "proshares-short-qqq"
+  },
+  "class": {
+    "structure": "equity-basket",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "cexListed": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Daily"
+  },
+  "sources": {
+    "coingeckoId": "proshares-short-qqq-ondo-tokenized",
+    "identifiers": [
+      {
+        "scheme": "isin",
+        "value": "US74349Y8378",
+        "source": null,
+        "verified": false
+      }
+    ]
+  },
+  "about": {
+    "description": "PSQon is an Ondo Global Markets tokenized ETF exposure designed to provide economic exposure to =SUBSTITUTE(A175, \", \") in an onchain format. The token is designed to be fully backed by the underlying publicly traded ETF, together with cash in transit, held with regulated custodial broker-dealers. Holdings attestations and ongoing reporting are surfaced through Ondo trust and transparency materials and the product asset page. Tokenholders are not shareholders of the underlying and do not receive shareholder voting rights. Distributions, where applicable, are reflected through total return mechanics and reinvestment adjustments.",
+    "logo": "https://icons.llamao.fi/icons/rwa/qqq.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://app.ondo.finance/assets/psqon"
+      ],
+      "twitter": "https://x.com/ondofinance",
+      "docs": "https://docs.ondo.finance/",
+      "linkedin": "https://www.linkedin.com/company/ondofinance",
+      "discord": "https://discord.com/invite/ondofinance",
+      "telegram": "https://t.me/ondofinance",
+      "github": "https://github.com/ondoprotocol"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x9ebd34d99cc3a45b39cafc14ad7994263fa2be56",
+      "deployedAt": "2025-12-18",
+      "primary": true
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xe2cdf77b23e1583228fde912e35eb7ed781a1bc6",
+      "deployedAt": "2025-12-18"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x3802dc739ef9e226f36421a9c15efa519153bbbe",
+      "deployedAt": "2025-12-18"
+    },
+    {
+      "chain": "bsc",
+      "address": "0xd2d9c907350f63891f829801b0fd9058a3eeb0f5",
+      "deployedAt": "2025-12-18"
+    },
+    {
+      "chain": "solana",
+      "address": "qKtU9A7ij34XmtxaSzYfxCpkgAZzzFsqnUb2kW2ondo",
+      "deployedAt": "2025-12-31"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "ondo-global-markets-bvi-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.ondo.finance/ondo-global-markets/legal-and-regulatory"
+      ],
+      "protocolIds": [
+        2542,
+        6650
+      ]
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://app.ondo.finance/assets/psqon"
+      ],
+      "note": "Daily (ongoing)"
+    }
+  ]
+}

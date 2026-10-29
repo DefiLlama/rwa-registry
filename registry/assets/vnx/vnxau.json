@@ -1,0 +1,120 @@
+{
+  "identity": {
+    "slug": "vnxau",
+    "symbol": "VNXAU",
+    "name": "VNX Gold",
+    "legacyId": 116,
+    "canonicalMarketId": "VNXAU"
+  },
+  "exposure": {
+    "underlying": "gold"
+  },
+  "class": {
+    "structure": "gold",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "gold-commodities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Regular (periodic)"
+  },
+  "sources": {
+    "coingeckoId": "vnx-gold"
+  },
+  "about": {
+    "description": "VNX Gold (VNXAU) is a tokenized gold product representing physical gold held in custody, with on-chain supply reconcilable against vaulted reserves. The token is now deployed on seven chains: Ethereum, Solana, Polygon, Stellar, Base, Tezos, and Etherlink. The issuer publishes a transparency page with circulation data and periodic third-party reserve reports. The most recent \"Gold Reserve Report on VNXAU-Gold Tokens\" is dated December 31, 2025, and a VNX Commodity Token smart contract security audit (v1.0.2) is also published.",
+    "logo": "https://icons.llamao.fi/icons/rwa/vnxau.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://vnx.li"
+      ],
+      "twitter": "https://x.com/vnx_platform",
+      "docs": "https://www.vnx.li/",
+      "linkedin": "https://www.linkedin.com/company/vnxinvestment",
+      "discord": "https://discord.com/invite/5jCaPYwr3f",
+      "telegram": "https://t.me/VNX_Exchange"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x6d57b2e05f26c26b549231c866bdd39779e4a488",
+      "deployedAt": "2021-12-15",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xf10e0ddd9d778f90c3276246caf07779b829e01d",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "polygon",
+      "address": "0xc8bb8eda94931ca2f20ef43ea7dbd58e68400400",
+      "deployedAt": "2023-07-11",
+      "labels": [
+        {
+          "address": "0xf10e0ddd9d778f90c3276246caf07779b829e01d",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "solana",
+      "address": "9TPL8droGJ7jThsq4momaoz6uhTcvX2SeMqipoPmNa8R",
+      "deployedAt": "2023-12-01"
+    },
+    {
+      "chain": "stellar",
+      "address": "VNXAU-GCKIYYQVIFBIFDRN7BNDNHL3UZSFHT5NHDAISG2N3MWCZY3WNXL3LXN3",
+      "deployedAt": "2024-02-13"
+    },
+    {
+      "chain": "base",
+      "address": "0xac3fe22294beaed9d1fd752323a6d06d12ff3098",
+      "deployedAt": "2025-08-14"
+    },
+    {
+      "chain": "etlk",
+      "address": "0x93f5475da60143c50e8be3fed10c143b0cf8b9e9",
+      "deployedAt": "2026-03-20"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "vnx-commodities-ag",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://vnx.li/imprint/"
+      ],
+      "protocolIds": [
+        4866
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://vnx.li/transparency/",
+        "https://vnx.li/wp-content/uploads/2026/03/VNX_Examination_on_Management_Assertions_VNXAU_31_12_2025_signiert.pdf",
+        "https://vnx.li/wp-content/uploads/2026/03/VNX_Commodity_Token_Security_Audit_Report_v1.0.2.pdf",
+        "https://vnx.li/wp-content/uploads/2024/01/VNX-COMMODITIES-AG_Reserve-Report-31.12.2023.pdf"
+      ],
+      "note": "December 2025"
+    }
+  ]
+}

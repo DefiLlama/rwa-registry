@@ -1,0 +1,78 @@
+{
+  "identity": {
+    "slug": "gem",
+    "symbol": "GEM",
+    "name": "Real GEM Token",
+    "legacyId": 105,
+    "canonicalMarketId": "GEM"
+  },
+  "exposure": {
+    "underlying": "gemstones"
+  },
+  "class": {
+    "structure": "other-commodity",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "gold-commodities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "about": {
+    "description": "Real GEM Token (GEM) is a tokenized commodity product focused on gemstones, positioning GEM as a fractionalized way to gain exposure to curated, custodied stones. The product emphasizes portfolio selection, custody and insurance framing, and an investor experience oriented around transparent pricing and reserve verification over time rather than speculative volatility. Redeemable for equivalent in USDC with a 9.75% service fee or a gemstone",
+    "logo": "https://icons.llamao.fi/icons/rwa/gem.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://goldenasset.org",
+        "https://gemswap.org/"
+      ],
+      "twitter": "https://x.com/gldswn",
+      "docs": "https://goldenasset.io/",
+      "linkedin": "https://www.linkedin.com/company/golden-asset"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "sei",
+      "address": "0x372b2dc06478aa2c8182eee0f12ea0e9a15e2913",
+      "deployedAt": "2024-10-03",
+      "primary": true
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x372b2dc06478aa2c8182eee0f12ea0e9a15e2913",
+      "deployedAt": "2026-02-01"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "golden-swan-solutions-pte-ltd",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://companieshouse.sg/golden-swan-solutions-pte-ltd-202418060H"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://www.gemx.ag/transparency"
+      ],
+      "note": "Not publicly disclosed"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "identity": {
+    "slug": "vgbp",
+    "symbol": "VGBP",
+    "name": "VNX British Pound",
+    "legacyId": 147,
+    "canonicalMarketId": "VGBP"
+  },
+  "exposure": {
+    "underlying": "british-pound"
+  },
+  "class": {
+    "structure": "rwa-fiat-stable",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "rwa-stablecoins",
+      "gold-commodities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "cexListed": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Regular (periodic)"
+  },
+  "sources": {
+    "coingeckoId": "vnx-british-pound"
+  },
+  "about": {
+    "description": "VNX British Pound (VGBP) is a GBP-referenced token designed to maintain a 1:1 relationship with underlying pound reserves held in traditional banking rails. It targets GBP-denominated settlement and liquidity use cases while providing reserve audit reporting through the VNX transparency portal.",
+    "logo": "https://icons.llamao.fi/icons/pegged/vnx-british-pound?w=48&h=48",
+    "links": {
+      "website": [
+        "https://vnx.io/british-pound"
+      ],
+      "twitter": "https://x.com/VNX_Global",
+      "docs": "https://vnx.gitbook.io/vnx-global/vnx-global-ltd",
+      "linkedin": "https://www.linkedin.com/company/vnx-global/"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "base",
+      "address": "0xaeb4bb7debd1e5e82266f7c3b5cff56b3a7bf411",
+      "deployedAt": "2025-06-06",
+      "primary": true
+    },
+    {
+      "chain": "solana",
+      "address": "5H4voZhzySsVvwVYDAKku8MZGuYBC7cXaBKDPW4YHWW1",
+      "deployedAt": "2025-07-21"
+    },
+    {
+      "chain": "celo",
+      "address": "0x7ae4265ecfc1f31bc0e112dfcfe3d78e01f4bb7f",
+      "deployedAt": "2025-06-02",
+      "labels": [
+        {
+          "address": "0xd83e515136abdd6e4c6606d9895109f19e78059a",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "vnx-global-ltd",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://vnx.io/british-pound"
+      ],
+      "protocolIds": [
+        4866
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://vnx.io/transparency"
+      ],
+      "note": "August 2026"
+    }
+  ]
+}

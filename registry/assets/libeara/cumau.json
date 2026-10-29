@@ -1,0 +1,76 @@
+{
+  "identity": {
+    "slug": "cumau",
+    "symbol": "CUMAU",
+    "name": "ChinaAMC USD Digital Money Market Fund Class A USD",
+    "legacyId": 2820,
+    "canonicalMarketId": "CUMAU"
+  },
+  "exposure": {
+    "underlying": "chinaamc-usd-digital-money-market-fund-class-a-usd"
+  },
+  "class": {
+    "structure": "mmf",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "bond-mmf-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "about": {
+    "description": "CUMAU is the Class A USD digital share of the ChinaAMC USD Digital Money Market Fund, a Hong Kong-domiciled money market fund investing in short-term deposits and high-quality money market instruments. Class A carries a 0.15% per annum management fee and is listed on HKEX (stock codes 3472/9472). Tokenized via Libeara with Standard Chartered as custodian.",
+    "logo": "https://icons.llamao.fi/icons/rwa/cumau.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.chinaamc.com.hk/product/chinaamc-usd-digital-money-market-fund/"
+      ],
+      "twitter": "https://x.com/ChinaAMC_HK",
+      "docs": "https://libeara.com/",
+      "linkedin": "https://www.linkedin.com/company/libeara",
+      "github": "https://github.com/libeara"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x112089a3da00fcc4e8a825439cbd8165d1ced21a",
+      "deployedAt": "2025-07-31",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "chinaamc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.chinaamc.com.hk/product/chinaamc-usd-digital-money-market-fund/",
+        "https://www.chinaamc.com.hk/wp-content/uploads/chinaamc/resources/E-%5BClean%5DChinaAMCDigitalOFC-Prospectus-EN%2825Nov2025%29.pdf"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "date": "2025-02-28",
+      "links": [
+        "https://www.chinaamc.com.hk/wp-content/uploads/chinaamc/resources/E-%5BClean%5DChinaAMCDigitalOFC-Prospectus-EN%2825Nov2025%29.pdf",
+        "https://www.chinaamc.com.hk/wp-content/uploads/chinaamc/resources/E-%5BClean%5DKFS_ChinaAMCUSDDigitalMMF%28UnlistedClass%29-EN%2825Nov2025%29.pdf"
+      ]
+    }
+  ]
+}

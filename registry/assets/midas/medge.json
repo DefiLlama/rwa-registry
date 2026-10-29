@@ -1,0 +1,94 @@
+{
+  "identity": {
+    "slug": "medge",
+    "symbol": "mEDGE",
+    "name": "Midas mEDGE",
+    "legacyId": 3800,
+    "canonicalMarketId": "mEDGE"
+  },
+  "exposure": {
+    "underlying": "diversified-delta-neutral-defi-strategies-edge-capital"
+  },
+  "class": {
+    "structure": "crypto-hedge-fund",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "crypto-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Continuous"
+  },
+  "about": {
+    "description": "mEDGE is a Midas-issued structured certificate managed by Edge Capital. Issued through Midas Capital Holding LLC (Cayman) under German BaFin Crypto Securities Registrar status (eWpG framework). The strategy deploys capital into market-neutral and delta-neutral DeFi positions across blue-chip protocols. Lending on Aave/Morpho, basis trades on Hyperliquid/Binance, AMM LP positions, funding-rate arbitrage. NAV accrues via the Midas Attestation Engine. Chainlink Proof-of-Reserve verifies backing, with KYC required at mint/redemption. Secondary transfer permissionless. Deployed on Ethereum (canonical), Plume Mainnet, 0G, and Monad.",
+    "logo": "https://icons.llamao.fi/icons/rwa/medge.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://midas.app/"
+      ],
+      "twitter": "https://x.com/midasrwa",
+      "docs": "https://docs.midas.app/tokens/medge",
+      "linkedin": "https://www.linkedin.com/company/midas-rwa"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xbb51e2a15a9158ebe2b0ceb8678511e063ab7a55",
+      "deployedAt": "2025-01-20",
+      "primary": true
+    },
+    {
+      "chain": "plume_mainnet",
+      "address": "0x69020311836d29ba7d38c1d3578736fd3ded03ed",
+      "deployedAt": "2025-07-02"
+    },
+    {
+      "chain": "monad",
+      "address": "0x1c8ee940b654bfced403f2a44c1603d5be0f50fa",
+      "deployedAt": "2025-12-12"
+    },
+    {
+      "chain": "0g",
+      "address": "0xa1027783fc183a150126b094037a5eb2f5db30ba",
+      "deployedAt": "2025-09-15"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "midas",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://midas.app/medge"
+      ],
+      "protocolIds": [
+        6914
+      ]
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://midas.app/medge"
+      ],
+      "note": "Continuous (Midas Attestation Engine)"
+    }
+  ]
+}

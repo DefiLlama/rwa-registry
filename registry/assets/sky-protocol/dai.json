@@ -1,0 +1,248 @@
+{
+  "identity": {
+    "slug": "dai",
+    "symbol": "DAI",
+    "name": "Dai",
+    "legacyId": 10,
+    "canonicalMarketId": "DAI"
+  },
+  "exposure": {
+    "underlying": "us-dollar"
+  },
+  "class": {
+    "structure": "crypto-stable",
+    "type": "asset",
+    "rwaClassification": "programmable-finance",
+    "category": [
+      "non-rwa-stablecoins"
+    ]
+  },
+  "terms": {
+    "cexListed": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "sources": {
+    "coingeckoId": "dai"
+  },
+  "about": {
+    "description": "Dai (DAI) is Sky/MakerDAO’s legacy overcollateralized stablecoin, minted against on-chain collateral in the protocol’s vault system. DAI can be upgraded 1:1 into Sky Dollar (USDS). Both are used for on-chain payments, trading, and DeFi collateral.",
+    "logo": "https://icons.llamao.fi/icons/rwa/dai.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://sky.money/"
+      ],
+      "twitter": "https://twitter.com/SkyEcosystem",
+      "docs": "https://docs.sky.money/",
+      "linkedin": "https://www.linkedin.com/company/skyecosystem",
+      "discord": "https://discord.com/invite/XeZQ8HxSEN",
+      "github": "https://github.com/makerdao"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "aptos",
+      "address": "0x3c1d4a088998f395632f143093f6c6f7169df30303658253a67732d84784c31d",
+      "deployedAt": null
+    },
+    {
+      "chain": "astar",
+      "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+      "deployedAt": "2022-05-12"
+    },
+    {
+      "chain": "avax",
+      "address": "0xd586e6444448c7371102e18d65a53f0693567b14",
+      "deployedAt": "2021-09-04"
+    },
+    {
+      "chain": "bfc",
+      "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+      "deployedAt": null
+    },
+    {
+      "chain": "bsc",
+      "address": "0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3",
+      "deployedAt": "2020-09-09"
+    },
+    {
+      "chain": "celo",
+      "address": "0xe4f05a66e8b29b5c678396f83e7f28bb014791d1",
+      "deployedAt": null
+    },
+    {
+      "chain": "eon",
+      "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+      "deployedAt": null
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+      "deployedAt": "2019-11-13",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xa950524441892a31ebddf91d3ceefa04bf454466",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "europa",
+      "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+      "deployedAt": null
+    },
+    {
+      "chain": "evmos",
+      "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+      "deployedAt": "2022-05-12"
+    },
+    {
+      "chain": "fantom",
+      "address": "0x8d11ec38a3eb5e956b052f67da8bdc99107d6796",
+      "deployedAt": "2021-09-04"
+    },
+    {
+      "chain": "fraxtal",
+      "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+      "deployedAt": null
+    },
+    {
+      "chain": "fuse",
+      "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+      "deployedAt": null
+    },
+    {
+      "chain": "harmony",
+      "address": "0xef977d300a4133c567f811155229095bb17ef792",
+      "deployedAt": "2021-09-04"
+    },
+    {
+      "chain": "hemi",
+      "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+      "deployedAt": "2025-04-26"
+    },
+    {
+      "chain": "iotex",
+      "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+      "deployedAt": null
+    },
+    {
+      "chain": "islm",
+      "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+      "deployedAt": null
+    },
+    {
+      "chain": "klaytn",
+      "address": "0x5c74070fdea071359b86082bd9f9b3deaafbe32b",
+      "deployedAt": "2022-08-21"
+    },
+    {
+      "chain": "linea",
+      "address": "0x4af89766a31c079d52a44bb443624cc2a5407f25",
+      "deployedAt": "2024-07-22"
+    },
+    {
+      "chain": "manta",
+      "address": "0x1c413069493c4d5d2105a96329206c33c9ffbb84",
+      "deployedAt": null
+    },
+    {
+      "chain": "metis",
+      "address": "0x463a17a4a22e473a5ccdfc23f973d524267022d1",
+      "deployedAt": "2022-08-26"
+    },
+    {
+      "chain": "morph",
+      "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+      "deployedAt": "2024-11-08"
+    },
+    {
+      "chain": "polygon",
+      "address": "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063",
+      "deployedAt": "2020-09-11"
+    },
+    {
+      "chain": "polygon_zkevm",
+      "address": "0xc5015b9d9161dca7e18e32f6f25c4ad850731fd4",
+      "deployedAt": "2026-02-01"
+    },
+    {
+      "chain": "q",
+      "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+      "deployedAt": null
+    },
+    {
+      "chain": "scroll",
+      "address": "0xca77eb3fefe3725dc33bccb54edefc3d9f764f97",
+      "deployedAt": "2023-10-10"
+    },
+    {
+      "chain": "silicon_zk",
+      "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+      "deployedAt": null
+    },
+    {
+      "chain": "solana",
+      "address": "EjmyN6qEC1Tf1JxiG1ae7UTJhUxSwk1TCWNWqxWV4J6o",
+      "deployedAt": "2022-05-12"
+    },
+    {
+      "chain": "taiko",
+      "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+      "deployedAt": "2024-07-18"
+    },
+    {
+      "chain": "unichain",
+      "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+      "deployedAt": "2025-02-12"
+    },
+    {
+      "chain": "xdai",
+      "address": "0xe91d153e0b415752920d044a830411a0ace47d6c",
+      "deployedAt": "2021-09-04"
+    },
+    {
+      "chain": "zeta",
+      "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+      "deployedAt": null
+    }
+  ],
+  "roles": [
+    {
+      "organization": "makerdao",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://sky.money/"
+      ],
+      "protocolIds": [
+        118,
+        3665,
+        2269,
+        2272,
+        2286,
+        3075,
+        2274,
+        2352,
+        2314,
+        2275,
+        2293,
+        2270,
+        2273,
+        6469,
+        2276,
+        4859,
+        2369,
+        5342,
+        3577
+      ]
+    }
+  ]
+}

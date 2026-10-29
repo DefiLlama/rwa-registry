@@ -1,0 +1,113 @@
+{
+  "identity": {
+    "slug": "pmusd",
+    "symbol": "pmUSD",
+    "name": "Precious Metals USD",
+    "legacyId": 559,
+    "canonicalMarketId": "pmUSD"
+  },
+  "exposure": {
+    "underlying": "us-dollar"
+  },
+  "class": {
+    "structure": "rwa-fiat-stable",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "rwa-stablecoins",
+      "gold-commodities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Continuous"
+  },
+  "sources": {
+    "coingeckoId": "precious-metals-usd"
+  },
+  "about": {
+    "description": "pmUSD is a USD-pegged stablecoin in the RAAC RWf(x) product suite, issued by Regnum Aurum Acquisition Corp. as an EIP-1967 upgradeable ERC-20 proxy on Ethereum. On-chain circulating supply is approximately 94 million pmUSD. Collateral is ION.au, a gold-backed digital security issued by publicly listed I-ON Digital Corp (OTCQB: IONI), where each ION.au token corresponds to 5 ounces of NI 43-101 verified in-situ gold reserves. RAAC mints 90 dollars of pmUSD for every 100 dollars of ION.au posted as collateral, creating an approximately 111 percent overcollateralization buffer. Reserves and collateral are published via the pmusd.raac.io PoR dashboard and a Chainlink Proof of Reserve feed. This is a fundamentally different collateral model from allocated LBMA vault bullion tokens because the underlying gold is unmined ore rather than refined vault-held bullion.",
+    "logo": "https://icons.llamao.fi/icons/rwa/precious-metal-usd.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://pmusd.raac.io/"
+      ],
+      "twitter": "https://x.com/Raacfi",
+      "docs": "https://docs.raac.io/",
+      "linkedin": "https://www.linkedin.com/company/raac-io"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xc0c17dd08263c16f6b64e772fb9b723bf1344ddf",
+      "deployedAt": "2025-12-09",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x3a673d076aa6c1060386d75f87da28d0955e8497",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x61d54bd44436e26a5313a5f3e0f83706c948ed8e",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x5ad30fca5a031c850b817f6f4de1ee2d713ef850",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x4e8ef157762f0b8a7ad0d9ff45f86b203a0658cc",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x51c4348af0c6066a2fd31bd968bc0c039fe27342",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xd051c326c9aef673428e6f01eb65d2c52de95d30",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "regnum-aurum-acquisition-corp",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://pmusd.raac.io/",
+        "https://raac.io/terms-and-conditions/",
+        "https://iondigitalcorp.com/"
+      ]
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    },
+    {
+      "organization": "raac",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://pmusd.raac.io/collateral",
+        "https://data.chain.link/feeds/ethereum/mainnet/ion-por"
+      ],
+      "note": "Continuous (Chainlink Proof of Reserve on ION.au collateral)"
+    }
+  ]
+}

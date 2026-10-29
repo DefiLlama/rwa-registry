@@ -1,0 +1,86 @@
+{
+  "identity": {
+    "slug": "oals2t",
+    "symbol": "OALS2T",
+    "name": "OpalAccess - LiquidStone 2",
+    "legacyId": 2816,
+    "canonicalMarketId": "OALS2T"
+  },
+  "exposure": {
+    "underlying": "opalaccess-liquidstone-2"
+  },
+  "class": {
+    "structure": "trade-finance",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "private-credit",
+      "rwa-wrappers"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "about": {
+    "description": "OpalAccess - LiquidStone 2 is the BlackOpal fund-share token for a strategy targeting 14%+ net APY through a roughly 50/50 allocation between FX-hedged Brazilian credit card receivables and Superstate's USCC market-neutral strategy. The fund offers daily redemption with typical 1 to 5 business-day settlement, uses Visa/Mastercard repayment rails plus Brazil's C3 registry for receivables control, and implements ERC-7540/ERC-4626 style tokenized vault infrastructure on Plume.",
+    "logo": "https://icons.llamao.fi/icons/rwa/oals2t.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.blackopal.finance/liquidstone"
+      ],
+      "twitter": "https://x.com/blackopal_fi",
+      "github": "https://github.com/enzymefinance/protocol-onyx"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "plume_mainnet",
+      "address": "0x04e5a6f7ee9977d38f57945c31b72178c9cf1c06",
+      "deployedAt": "2025-10-14",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xe33bda5ef29bdb93ca9d841820f2042a22463220",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x747c86ad744b10708735151efc6015952fa5ad43",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xfd1953134930f7550336c6e796cd05805710518e",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x7b45838d3960d7eee333e5b28ce2f565f8c52534",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "blackopal-onchain-private-credit-fund-i-ltd-sac",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.blackopal.finance/about"
+      ]
+    },
+    {
+      "organization": "chronicle",
+      "kind": "oracle"
+    }
+  ]
+}

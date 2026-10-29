@@ -1,0 +1,64 @@
+{
+  "identity": {
+    "slug": "pc0000091",
+    "symbol": "PC0000091",
+    "name": "Tradable: LitFi Firm Post-Settlement Note",
+    "legacyId": 4061,
+    "canonicalMarketId": "PC0000091"
+  },
+  "exposure": {
+    "underlying": "litigation-finance-receivables"
+  },
+  "class": {
+    "structure": "credit-pool",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "private-credit"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "A post-settlement litigation-finance note to a prominent US plaintiffs' law firm specializing in mass tort, class action, and high-value personal injury cases, secured by post-settlement receivables. Tokenized by Tradable on ZKsync Era with interest accruing at a 9.5% floating PIK rate.",
+    "logo": "https://icons.llamao.fi/icons/rwa/pc0000091.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.tradable.xyz/"
+      ],
+      "twitter": "https://x.com/tradable_xyz",
+      "docs": "https://doc.tradable.xyz/product-docs"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "era",
+      "address": "0x464ae5c4fcba8bab8d004c6b5bd0f71d16fb767e",
+      "deployedAt": "2025-04-08",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "tradable-counterparty-anonymized-by-design",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://doc.tradable.xyz/product-docs/how-it-works"
+      ]
+    },
+    {
+      "organization": "tradable",
+      "kind": "oracle"
+    }
+  ]
+}

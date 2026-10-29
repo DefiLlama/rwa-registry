@@ -1,0 +1,139 @@
+{
+  "identity": {
+    "slug": "nvda",
+    "symbol": "NVDA",
+    "name": "NVIDIA (SwarmX tokenized stock)",
+    "legacyId": 421,
+    "canonicalMarketId": "NVDA"
+  },
+  "exposure": {
+    "underlying": "nvidia-corporation"
+  },
+  "class": {
+    "structure": "stock-backed",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Monthly"
+  },
+  "sources": {
+    "identifiers": [
+      {
+        "scheme": "isin",
+        "value": "CH1275377294",
+        "source": null,
+        "verified": false
+      }
+    ]
+  },
+  "about": {
+    "description": "NVDA is a SwarmX-issued token that provides on-chain exposure to the referenced equity (NVIDIA) under SwarmX’s prospectus-based Stock Certificate Token program. For dividends and other distributions, the Final Terms describe that the custodian receives the payment, forwards it to a conversion service provider to convert into stablecoins (USD stablecoins when available, otherwise EUR stablecoins at the issuer’s discretion), and makes the payout available via a Dividend Smart Contract. Tokenholders must claim distributions, and unclaimed dividends are forfeited once a token is redeemed. Tokenholder rights are contractual and defined in the prospectus and Final Terms, and are not the same as holding the underlying security directly.",
+    "logo": "https://icons.llamao.fi/icons/rwa/nvda.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://swarm.com/products/"
+      ],
+      "twitter": "https://x.com/SwarmMarkets",
+      "docs": "https://docs.swarm.com/",
+      "linkedin": "https://www.linkedin.com/company/swarmmarkets",
+      "telegram": "https://t.me/swarmfund",
+      "github": "https://github.com/SwarmMarkets"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "polygon",
+      "address": "0x267fc8b95345916c9740cbc007ed65c71b052395",
+      "deployedAt": "2025-02-17",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x5b3e3b28ec066d15b63c5423e0a32b6c44401824",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x5c573e7ee69926b79be8283e4c421ccca288bc06",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xff16f514683853e1fffaf634708167e250c24b1a",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x1a0fe40cfe6e1694d32178a59a3773d19c5a0c00",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x9fffe8e9af8c872f67a41337bc9784c8ad60b3ea",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xe040c3ca9c46a9bde1b563d11054417ed140e44a",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xbeaee712741c7f99b64b798ca127fe776d491fb4",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x58aff97f329566da8dc988f11492c77a52ae26b8",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x20449b61eb3d4a874389ddfe2d1d78526de7d949",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x936d899ed37f1c9334f9f64813042300e9d07116",
+      "deployedAt": "2025-02-17"
+    },
+    {
+      "chain": "base",
+      "address": "0x3993ab33e5ae1c081df87913ab5c845ee2813b72",
+      "deployedAt": "2025-02-17"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "swarmx-gmbh",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.swarmx.net/tokenized-stocks-and-bonds/tokenized-stocks-and-bonds",
+        "https://swarm.com/products/",
+        "https://registers.esma.europa.eu/publication/searchRegister?core=esma_registers_priii_documents",
+        "https://www.lei-lookup.com/record/984500H93FZ5D50AFE98"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://drive.google.com/file/d/1QT15NJcl0D21fQf5mYxokL6WDyBpv0B1/view?usp=drive_fs",
+        "https://ipfs.io/ipfs/QmXJzKAgGt3WpZpQtQtTLAoAEukHm4gdYhjLiA2MTcbmZp",
+        "https://3539167878-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FtSsEoa2TjDHDDzFVTsXt%2Fuploads%2FGXvIFvUd1YZnyPuivRk3%2F2024%20SwarmX%20GmbH%20-%20annual%20accounts%20%2B%20audit.pdf?alt=media&token=ddb85d62-8abf-414e-bc6b-81761fe674b7",
+        "https://swarm.com/products/"
+      ],
+      "note": "Monthly (ongoing)"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "identity": {
+    "slug": "dqts",
+    "symbol": "DQTS",
+    "name": "ServiceHunter Shares",
+    "legacyId": 2978,
+    "canonicalMarketId": "DQTS"
+  },
+  "exposure": {
+    "underlying": "servicehunter"
+  },
+  "class": {
+    "structure": "pe-venture",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "about": {
+    "description": "Tokenized shares of ServiceHunter AG, operator of quitt, a Swiss household payroll and domestic employment platform. The Ethereum token represents registered equity with secondary transfer support via Aktionariat.",
+    "logo": "https://icons.llamao.fi/icons/rwa/dqts.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://shares.quitt.ch/"
+      ],
+      "twitter": "https://x.com/aktionariat",
+      "docs": "https://docs.aktionariat.com/",
+      "linkedin": "https://www.linkedin.com/company/aktionariat-ag"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x8747a3114ef7f0eebd3eb337f745e31dbf81a952",
+      "deployedAt": "2021-02-28",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x81c36908a73c3117c03fe4a625d890987376e69f",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "servicehunter-ag",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://shares.quitt.ch/",
+        "https://www.aktionariat.com/"
+      ]
+    },
+    {
+      "organization": "aktionariat-ag",
+      "kind": "tokenizer",
+      "sourceLinks": [
+        "https://shares.quitt.ch/",
+        "https://www.aktionariat.com/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "No public attestation date found"
+    }
+  ]
+}

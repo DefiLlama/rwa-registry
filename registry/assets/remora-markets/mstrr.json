@@ -1,0 +1,68 @@
+{
+  "identity": {
+    "slug": "mstrr",
+    "symbol": "MSTRr",
+    "name": "Strategy rStock",
+    "legacyId": 429,
+    "canonicalMarketId": "MSTRr"
+  },
+  "exposure": {
+    "underlying": "strategy-inc"
+  },
+  "class": {
+    "structure": "stock-backed",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "about": {
+    "description": "MSTRr is a Remora Markets rStock that provides on-chain price exposure to Strategy rStock. Remora Markets is operated by Step Labs LLC and is a Step Finance subsidiary. It supports mint and burn flows for tokenized stocks through its app. Remora lists Alpaca Securities LLC as both custodian and broker for the underlying. Remora’s disclaimer states rStocks are not stocks and do not grant ownership or rights to underlying assets, so shareholder voting rights and cash dividends are not provided to tokenholders.",
+    "logo": "https://icons.llamao.fi/icons/rwa/mstr.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://remoramarkets.xyz/products"
+      ],
+      "twitter": "https://x.com/RemoraMarkets",
+      "docs": "https://docs.remora.markets/",
+      "linkedin": "https://www.linkedin.com/company/remoramarkets",
+      "discord": "https://discord.gg/Pab8wcH5Yt"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "solana",
+      "address": "B8GKqTDGYc7F6udTHjYeazZ4dFCRkrwK2mBQNS4igqTv",
+      "deployedAt": "2026-02-11",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "step-labs-llc-remora-markets",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://remoramarkets.xyz/legal-documentation/service-providers"
+      ],
+      "protocolIds": [
+        6669,
+        6760
+      ]
+    }
+  ]
+}

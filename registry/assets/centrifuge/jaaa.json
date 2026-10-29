@@ -1,0 +1,145 @@
+{
+  "identity": {
+    "slug": "jaaa",
+    "symbol": "JAAA",
+    "name": "Janus Henderson Anemoy AAA CLO Fund",
+    "legacyId": 169,
+    "canonicalMarketId": "JAAA"
+  },
+  "exposure": {
+    "underlying": "janus-henderson-aaa-clo-etf"
+  },
+  "class": {
+    "structure": "corp-bond-fund",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "bond-mmf-funds",
+      "private-credit"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Monthly factsheet + real-time NAV (MHA Cayman audit)"
+  },
+  "sources": {
+    "coingeckoId": "janus-henderson-anemoy-aaa-clo-fund"
+  },
+  "about": {
+    "description": "JAAA represents tokenized fund units of the Janus Henderson Anemoy AAA CLO Fund, designed to provide floating-rate income with a high-quality credit profile through AAA-rated CLO exposure. It is positioned as a NAV-based fund product with tokenized delivery and onchain settlement, enabling treasury and collateral workflows that want institutional credit exposure in a programmable format while retaining fund-style reporting and holdings visibility.",
+    "logo": "https://icons.llamao.fi/icons/rwa/jaaa.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.anemoy.io/funds/jaaa",
+        "https://app.centrifuge.io/pool/281474976710663"
+      ],
+      "twitter": "https://x.com/anemoycapital",
+      "docs": "https://docs.centrifuge.io/",
+      "linkedin": "https://www.linkedin.com/company/centrifuge-io",
+      "discord": "https://discord.com/invite/yEzyUq5gxF",
+      "telegram": "https://t.me/centrifuge_chat",
+      "github": "https://github.com/centrifuge"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x5a0f93d040de44e78f251b03c43be9cf317dcf64",
+      "deployedAt": "2025-04-18",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x227942bd9c3e4eca1b76e8199e407e6c52fdacd6",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x0000000005f458fd6ba9eeb5f365d83b7da913dd",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xb3dacc732509ba6b7f25ad149e56ca44fe901ab9",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xcf5c83a12e0bd55a8c02fc7802203bc23e3efb30",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x5a0f93d040de44e78f251b03c43be9cf317dcf64",
+      "deployedAt": "2025-08-05",
+      "labels": [
+        {
+          "address": "0x227942bd9c3e4eca1b76e8199e407e6c52fdacd6",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "avax",
+      "address": "0x58f93d6b1ef2f44ec379cb975657c132cbed3b6b",
+      "deployedAt": "2025-07-22"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x58f93d6b1ef2f44ec379cb975657c132cbed3b6b",
+      "deployedAt": "2025-10-22"
+    },
+    {
+      "chain": "solana",
+      "address": "AAAJXeGjpKu7W3X4QTSU4pm1Wbj4G2LPcdg7A6xJLLyG",
+      "deployedAt": "2025-11-19",
+      "labels": [
+        {
+          "address": "4FaQc6QZ5skFjcDF64mKcXRhtCCsnArZcr1xumPNrbtN",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "BUo4FKP1hSAZ1zcNGzJHTS1V9zcQM8fzUFpYj1NboRK4",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "monad",
+      "address": "0xad48f183e586e92a591a610397ebf534609df797",
+      "deployedAt": "2026-03-20"
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0x58f93d6b1ef2f44ec379cb975657c132cbed3b6b",
+      "deployedAt": "2025-12-05"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "anemoy-capital-spc-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.lei-lookup.com/record/2549009CBJ86SM12V633"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "date": "2026-03-31",
+      "links": [
+        "https://app.centrifuge.io/pool/281474976710663"
+      ]
+    }
+  ]
+}

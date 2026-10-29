@@ -1,0 +1,126 @@
+{
+  "identity": {
+    "slug": "eursafo",
+    "symbol": "eurSAFO",
+    "name": "Spiko Amundi Overnight Swap Fund (EUR)",
+    "legacyId": 2996,
+    "canonicalMarketId": "eurSAFO"
+  },
+  "exposure": {
+    "underlying": "spiko-amundi-overnight-swap-fund-eur"
+  },
+  "class": {
+    "structure": "mmf",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "bond-mmf-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Quarterly"
+  },
+  "sources": {
+    "coingeckoId": "spiko-amundi-overnight-swap-fund-eur",
+    "identifiers": [
+      {
+        "scheme": "isin",
+        "value": "FR001400ODM9",
+        "source": null,
+        "verified": false
+      }
+    ]
+  },
+  "about": {
+    "description": "EUR share class of the Spiko Amundi Overnight Swap Fund (SAFO), a French AMF-authorized UCITS cash-management fund under SPIKO SICAV. SAFO uses fully collateralized total return swaps with Tier 1 banks, starting with BNP Paribas, to deliver overnight liquidity and yields above the €STR benchmark. The tokenized shares are issued across Ethereum, Polygon, Arbitrum, Base, Etherlink, Stellar, and Starknet, with Chainlink publishing NAV onchain. Holdings and transfers are restricted to allowlisted wallets.",
+    "logo": "https://icons.llamao.fi/icons/rwa/eursafo.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.spiko.io/spiko-euro"
+      ],
+      "twitter": "https://x.com/Spiko_finance",
+      "docs": "https://docs.spiko.io/",
+      "linkedin": "https://www.linkedin.com/company/spiko-finance",
+      "telegram": "https://t.me/+VOVTcX2Ax0o5MGE8",
+      "github": "https://github.com/spiko-tech"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x0990b149e915cb08e2143a5c6f669c907eddc8b0",
+      "deployedAt": "2026-02-26",
+      "primary": true
+    },
+    {
+      "chain": "polygon",
+      "address": "0x272ea767712cc4839f4a27ee35eb73116158c8a2",
+      "deployedAt": "2026-02-26"
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0x1412632f2b89e87bfa20c1318a43ced25f1d7b76",
+      "deployedAt": "2026-02-26"
+    },
+    {
+      "chain": "base",
+      "address": "0xd879846cbe20751bde8a9342a3cca00a3e56ca47",
+      "deployedAt": "2026-02-26"
+    },
+    {
+      "chain": "stellar",
+      "address": "CBOOCGZSVRSZFRE4U2NWR2B4RXYVJWRCBTGOUD2JPI2TDJPWMTJX7FZP",
+      "deployedAt": "2026-02-26"
+    },
+    {
+      "chain": "starknet",
+      "address": "0x0128f41ef8017ab56140ffad6439305a3196ed862841ba61ff4d78e380c346a6",
+      "deployedAt": "2026-04-23"
+    },
+    {
+      "chain": "etlk",
+      "address": "0x35dfec1813c43d82e6b87c682f560bbb8ea0c121",
+      "deployedAt": "2026-04-24"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "spiko-spiko-sicav-sub-fund",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.spiko.io/spiko-euro",
+        "https://int.media.amundi.com/article/spiko-and-amundi-introduce-safo",
+        "https://geco.amf-france.org/produit-d-epargne/c79399"
+      ],
+      "protocolIds": [
+        4980
+      ]
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://www.spiko.io/spiko-euro",
+        "https://geco.amf-france.org/produit-d-epargne/c79399"
+      ],
+      "note": "Not publicly disclosed"
+    }
+  ]
+}

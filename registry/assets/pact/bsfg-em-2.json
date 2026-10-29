@@ -1,0 +1,59 @@
+{
+  "identity": {
+    "slug": "bsfg-em-2",
+    "symbol": "BSFG-EM-2",
+    "name": "Berkeley Square Emerging Markets Portfolio 2",
+    "legacyId": 3901,
+    "canonicalMarketId": "BSFG-EM-2"
+  },
+  "exposure": {
+    "underlying": "emerging-markets-consumer-credit-retail-pl-lines-of-credit"
+  },
+  "class": {
+    "structure": "credit-pool",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "private-credit"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "Emerging-markets private credit portfolio (series 2) from Berkeley Square Finance Group, tokenized on Aptos via the PACT platform. $176M AUM. Tokenization type is Represented (not freely transferable). Inception August 2025.",
+    "logo": "https://icons.llamao.fi/icons/rwa/bsfg-em-2.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://pact.foundation/"
+      ],
+      "twitter": "https://x.com/pactfinance"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "aptos",
+      "address": "0xc3f4cfb93b3a5e5afd6f796fd48908a75d1110a2dc575cbfee8136b51bd44600",
+      "deployedAt": "2026-09-03",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "berkeley-square-finance-group-via-pact",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://pact.foundation/"
+      ]
+    }
+  ]
+}

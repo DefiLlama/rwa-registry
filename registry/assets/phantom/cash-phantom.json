@@ -1,0 +1,75 @@
+{
+  "identity": {
+    "slug": "cash-phantom",
+    "symbol": "CASH",
+    "name": "Phantom Cash",
+    "legacyId": 673,
+    "canonicalMarketId": "CASH-PHANTOM"
+  },
+  "exposure": {
+    "underlying": "us-dollar"
+  },
+  "class": {
+    "structure": "usd-stable",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "fiat-stablecoins"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "about": {
+    "description": "CASH is a USD-pegged stablecoin designed by Phantom using Open Issuance by Bridge and Stripe, launching first on Solana. It is used within Phantom Cash accounts, which are self-custodial Solana wallets tied to a Phantom username, and can be sent to any Solana address. KYC is not required to use CASH onchain, but identity verification is required for certain offchain features such as bank deposits and withdrawals, direct deposit, and the Phantom Cash debit card.",
+    "logo": "https://icons.llamao.fi/icons/rwa/usd.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://phantom.com/cash"
+      ],
+      "twitter": "https://x.com/phantom",
+      "docs": "https://phantom.com/",
+      "linkedin": "https://www.linkedin.com/company/phantomwallet"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "solana",
+      "address": "CASHx9KJUStyftLFWGvEVf59SGeG9sh5FfcnZMVPCASH",
+      "deployedAt": "2026-02-11",
+      "primary": true,
+      "labels": [
+        {
+          "address": "8psNvWTrdNTiVRNzAgsou9kETXNJm2SXZyaKuJraVRtf",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "phantom",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://help.phantom.com/hc/en-us/articles/44799497237395-About-Phantom-Cash"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "Not publicly disclosed"
+    }
+  ]
+}

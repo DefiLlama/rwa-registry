@@ -1,0 +1,81 @@
+{
+  "identity": {
+    "slug": "cgo",
+    "symbol": "CGO",
+    "name": "ComTech Gold",
+    "legacyId": 102,
+    "canonicalMarketId": "CGO"
+  },
+  "exposure": {
+    "underlying": "gold"
+  },
+  "class": {
+    "structure": "gold",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "gold-commodities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Periodic"
+  },
+  "sources": {
+    "coingeckoId": "comtech-gold"
+  },
+  "about": {
+    "description": "ComTech Gold (CGO) is a tokenized gold product designed to represent physical gold held with a custody provider, marketed for transfer and settlement while keeping backing tied to vaulted bullion. The issuer provides a transparency section intended to support verification of reserves and related documentation for outstanding supply versus custodied gold.",
+    "logo": "https://icons.llamao.fi/icons/rwa/cgo.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://comtechgold.com"
+      ],
+      "twitter": "https://x.com/ComTechOfficial",
+      "docs": "https://comtechgold.com/",
+      "linkedin": "https://www.linkedin.com/company/comtechgold",
+      "discord": "https://discord.gg/WbSjANXj7A",
+      "telegram": "https://t.me/ComTechGold",
+      "github": "https://github.com/ComTechGold"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "xdc",
+      "address": "0x8f9920283470f52128bf11b0c14e798be704fd15",
+      "deployedAt": "2022-04-27",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "comtech-fzco",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://comtechgold.com/assets/files/ComTech_Gold_Whitepaper_V6.pdf"
+      ],
+      "protocolIds": [
+        5495
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://comtechgold.com/Transparency"
+      ],
+      "note": "Not publicly disclosed"
+    }
+  ]
+}

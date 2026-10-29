@@ -1,0 +1,73 @@
+{
+  "identity": {
+    "slug": "arkvx",
+    "symbol": "ARKVX",
+    "name": "ARK Venture Fund",
+    "legacyId": 9578,
+    "canonicalMarketId": "ARKVX"
+  },
+  "exposure": {
+    "underlying": "ark-venture-fund-class-d"
+  },
+  "class": {
+    "structure": "pe-venture",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Semi-annual (N-CSRS) + Annual (N-CSR)"
+  },
+  "sources": {
+    "coingeckoId": "ark-venture-fund"
+  },
+  "about": {
+    "description": "ARKVX is Class D of the ARK Venture Fund, a registered closed-end interval fund holding private and public companies. The token is an entitlement token representing an investor's interest in the underlying fund shares. Redemption is via the fund's quarterly repurchase offer, generally up to 5% of outstanding shares at NAV, prorated if oversubscribed; it is not a T+0 redemption. Priced from CoinGecko 'ark-venture-fund', which matches the RedStone ARKVX_FUNDAMENTAL feed exactly.",
+    "logo": "https://icons.llamao.fi/icons/rwa/arkvx.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://securitize.io/arkvx"
+      ],
+      "twitter": "https://x.com/securitize",
+      "docs": "https://securitize.io/arkvx",
+      "linkedin": "https://www.linkedin.com/company/securitize",
+      "telegram": "https://t.me/securitize",
+      "github": "https://github.com/securitize-io"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xdf1c8e71cbdf48af50b36f96ad2eb6f5094ba72a",
+      "deployedAt": "2026-09-15",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "ark-venture-fund",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://securitize.io/arkvx"
+      ]
+    },
+    {
+      "organization": "redstone",
+      "kind": "oracle"
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "identity": {
+    "slug": "xaum",
+    "symbol": "XAUM",
+    "name": "Matrixdock XAUm",
+    "legacyId": 109,
+    "canonicalMarketId": "XAUM"
+  },
+  "exposure": {
+    "underlying": "gold"
+  },
+  "class": {
+    "structure": "gold",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "gold-commodities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Biannual"
+  },
+  "sources": {
+    "coingeckoId": "matrixdock-gold"
+  },
+  "about": {
+    "description": "XAUm is a tokenized gold product built for bar-level transparency, designed so holdings map to allocated physical bullion with a lookup workflow that lets holders verify backing at the bar level. It is positioned for institutional-grade gold exposure with an emphasis on reserve visibility, independent physical audits, and custody with established vault providers.",
+    "logo": "https://icons.llamao.fi/icons/rwa/xaum.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.matrixdock.com/xaum"
+      ],
+      "twitter": "https://x.com/matrixdock",
+      "docs": "https://docs.matrixdock.com/",
+      "linkedin": "https://www.linkedin.com/company/matrixport-group",
+      "github": "https://github.com/Matrixdock-STBT"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x2103e845c5e135493bb6c2a4f0b8651956ea8682",
+      "deployedAt": "2024-08-28",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x2598fc49d387e857b7a67de87267ddd4468c4ce6",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "bsc",
+      "address": "0x23ae4fd8e7844cdbc97775496ebd0e8248656028",
+      "deployedAt": "2024-08-29"
+    },
+    {
+      "chain": "tron",
+      "address": "TDfX64Ariz5usffBJjtDbiMuCXVpKiDCEb",
+      "deployedAt": "2025-06-20"
+    },
+    {
+      "chain": "sui",
+      "address": "0x9d297676e7a4b771ab023291377b2adfaa4938fb9080b8d12430e4b108b836a9::xaum::XAUM",
+      "deployedAt": "2025-08-30"
+    },
+    {
+      "chain": "plume_mainnet",
+      "address": "0xa0c4f78a29ead4abf6b7f5b3f0d05c0f3eab8ddf",
+      "deployedAt": "2025-04-24"
+    },
+    {
+      "chain": "hsk",
+      "address": "0x2577217c86ae2e8a5f70abb663b9231e5d47d15a",
+      "deployedAt": null
+    },
+    {
+      "chain": "solana",
+      "address": "5aLhp9VnUEKcsdtkfsf2DUgpJfomx7GmYVny24dHUZoB",
+      "deployedAt": "2026-02-12"
+    },
+    {
+      "chain": "stellar",
+      "address": "CC2RBGYNCFBCVENIDL5BFBWPH4OUZM2UA3OD2K2N54GLMWCC4KWPVAGO",
+      "deployedAt": "2026-06-17"
+    },
+    {
+      "chain": "hyperliquid",
+      "address": "0x14f0dfc32e8af769961b31ba3e89389bd6797652",
+      "deployedAt": "2026-05-15"
+    },
+    {
+      "chain": "polygon",
+      "address": "0xa7e22972a19dd924afeedf3db28033b146801081",
+      "deployedAt": "2025-12-19"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "matrix-infinitus-hong-kong-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.matrixdock.com"
+      ],
+      "protocolIds": [
+        6330
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "date": "2025-07-01",
+      "links": [
+        "https://www.matrixdock.com/xaum",
+        "https://www.matrixdock.com/blog/announcements/matrixdock-publishes-its-second-independent-audit-report-on-xaum-gold"
+      ]
+    }
+  ]
+}

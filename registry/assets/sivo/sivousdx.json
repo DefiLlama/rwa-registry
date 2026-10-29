@@ -1,0 +1,81 @@
+{
+  "identity": {
+    "slug": "sivousdx",
+    "symbol": "sivoUSDX",
+    "name": "Sivo USDX",
+    "legacyId": 4047,
+    "canonicalMarketId": "sivoUSDX"
+  },
+  "exposure": {
+    "underlying": "short-term-payment-receivables"
+  },
+  "class": {
+    "structure": "yield-rwa-stable",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "rwa-stablecoins"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Self-published Dune dashboard only"
+  },
+  "about": {
+    "description": "DELISTED 2026-09-21: fully wound down. On-chain totalSupply is 0 at ethereum:0x35ba0f7c2bebf25869fba6d0c1af6a17998562cc (was 16.03M at the 2026-06-11 review), with zero Transfer events in the preceding ~55 days (400k blocks scanned), so the token is dormant with no holder exposure. Unpriced in the coins API and carrying no supply or mcap on the dashboard. The Suspicious flag was cleared the same day - see Suspicious Reason. Sivo remains an active platform via SLP (Sivo Liquidity Provider, RWA ID 9253), which is a separate contract with live backing.",
+    "logo": "https://icons.llamao.fi/icons/rwa/sivousdx.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://sivo.xyz"
+      ],
+      "twitter": "https://x.com/sivodefi",
+      "docs": "https://intercom.help/sivoxyz/en; https://cdn.sanity.io/files/gbhfv92z/production/aa46e1fabb0752a23fcaa872467b3d8d7776e1a2.pdf",
+      "discord": "https://discord.gg/C9dzJuAsbD"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x35ba0f7c2bebf25869fba6d0c1af6a17998562cc",
+      "deployedAt": "2026-04-17",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x56db38470cbe98ade518c3fdf0ad4de647d81b8d",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "sivo-holdings-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://sivo.xyz",
+        "https://www.ycombinator.com/companies/sivo"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    },
+    {
+      "kind": "review",
+      "date": "2026-09-21",
+      "outcome": "cleared",
+      "reason": "CLEARED 2026-09-21. Flag lifted: the announced Accountable dashboard is now live at https://transparency.sivo.xyz (15-minute retrieval, signed Merkle root), which was the primary open item, and sivoUSDX supply has since gone to 0 on-chain so no external holder is exposed. CoinGecko ID removed: 'sivo-defi' resolves to symbol SLP at ethereum:0xda6a067d9435a28549d75dd459c0016911c26e54, which is the Sivo Liquidity Provider contract (RWA ID 9253), not sivoUSDX (ethereum:0x35ba0f7c2bebf25869fba6d0c1af6a17998562cc) - it was pointing this row at a different token. Prior review 2026-06-11 recorded: 99.99% of the then-16.03M supply issuer-held in a single Safe (external capital under $1k); DEX exit liquidity ~$100; no audit found; no fee schedule disclosed; claimed Base and Solana deployments do not exist (the Base address holds an unrelated zero-supply Sivo test token); APY marketing inconsistent (12/15/16/25%); contract is an owner-mintable upgradeable proxy rather than the ERC-4626 vault described in docs; named issuer entity ambiguous (UK namesake dissolved Feb 2025; active Cayman entity unconfirmed as issuer). Those items other than the attestation were not individually re-tested; supply is now 0."
+    }
+  ]
+}

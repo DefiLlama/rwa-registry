@@ -1,0 +1,82 @@
+{
+  "identity": {
+    "slug": "ehck",
+    "symbol": "EHCK",
+    "name": "EHC Kloten Participation Certificates",
+    "legacyId": 2986,
+    "canonicalMarketId": "EHCK"
+  },
+  "exposure": {
+    "underlying": "ehc-kloten-participation-certificates"
+  },
+  "class": {
+    "structure": "pe-venture",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "about": {
+    "description": "Ethereum-based participation certificates linked to EHC Kloten Sport AG. The certificates carry economic rights similar to shares but generally no voting rights under the terms described on the issuer page.",
+    "logo": "https://icons.llamao.fi/icons/rwa/ehck.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://investor.ehc-kloten.ch"
+      ],
+      "twitter": "https://x.com/aktionariat",
+      "docs": "https://docs.aktionariat.com/",
+      "linkedin": "https://www.linkedin.com/company/aktionariat-ag"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x17f7fea5f87d0f289d9827be78fc96027f8ed724",
+      "deployedAt": "2023-01-12",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xe47dba0fd9afa05b386c21e8be5cf4b0c6e9c4f0",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "ehc-kloten-sport-ag",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://investor.ehc-kloten.ch/",
+        "https://www.aktionariat.com/"
+      ]
+    },
+    {
+      "organization": "aktionariat-ag",
+      "kind": "tokenizer",
+      "sourceLinks": [
+        "https://investor.ehc-kloten.ch/",
+        "https://www.aktionariat.com/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "No public attestation date found"
+    }
+  ]
+}

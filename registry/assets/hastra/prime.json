@@ -1,0 +1,90 @@
+{
+  "identity": {
+    "slug": "prime",
+    "symbol": "PRIME",
+    "name": "Hastra PRIME",
+    "legacyId": 659,
+    "canonicalMarketId": "PRIME"
+  },
+  "exposure": {
+    "underlying": "figure-prime-heloc-pools"
+  },
+  "class": {
+    "structure": "other-credit",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "private-credit"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "sources": {
+    "coingeckoId": "hastra-prime"
+  },
+  "about": {
+    "description": "PRIME is Hastra’s yield-bearing token built to represent staked exposure to wYLDS, with yield sourced from Figure’s Prime home equity line of credit lending pools. It is designed to be composable in DeFi while maintaining a reserves-first approach, publishing reserve and supply information through a dedicated proof-of-reserves dashboard. PRIME is intended for users who want a single token that packages underlying RWA-linked yield, onchain accounting, and transparent backing data.",
+    "logo": "https://icons.llamao.fi/icons/rwa/prime.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://hastra.io/prime"
+      ],
+      "twitter": "https://x.com/HastraFi",
+      "docs": "https://hastra.io/"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "solana",
+      "address": "3b8X44fLF9ooXaUm3hhSgjpmVs6rZZ3pPoGnGahc3Uu7",
+      "deployedAt": "2025-12-07",
+      "primary": true,
+      "labels": [
+        {
+          "address": "AjKrG87tF3rFNvW1U4Ja8pZ8KsQ1LLiDjiF79G9xj3a7",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x19ebb35279a16207ec4ba82799cc64715065f7f6",
+      "deployedAt": "2026-04-17"
+    },
+    {
+      "chain": "tempo",
+      "address": "0x20c00000000000000000000058d0b8b2cfdb358c",
+      "deployedAt": "2026-07-28"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "hastra",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://hastra.io/prime",
+        "https://investors.figure.com/news-releases/news-release-details/figure-and-leading-crypto-partners-launch-rwa-consortium-onchain"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://hastra.io/proof-of-reserves"
+      ],
+      "note": "Not publicly disclosed"
+    }
+  ]
+}

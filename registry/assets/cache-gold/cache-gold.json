@@ -1,0 +1,88 @@
+{
+  "identity": {
+    "slug": "cache-gold",
+    "symbol": "CACHE.Gold",
+    "name": "CACHE.Gold",
+    "legacyId": 101,
+    "canonicalMarketId": "CACHE.Gold"
+  },
+  "exposure": {
+    "underlying": "gold"
+  },
+  "class": {
+    "structure": "gold",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "gold-commodities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Continuous (real-time Chainlink PoR)"
+  },
+  "about": {
+    "description": "CACHE Gold is a tokenized gold product designed to represent fully allocated vaulted gold on a per-gram basis. Its reserve model centers on item-level tracking and public verification, using a dedicated explorer to surface locked-gold inventory data and reserve state. It is positioned for users who want gold exposure with a strong emphasis on observable reserve integrity and auditable backing.",
+    "logo": "https://icons.llamao.fi/icons/rwa/cache.gold.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://cache.gold"
+      ],
+      "docs": "https://docs.cache.gold/",
+      "linkedin": "https://www.linkedin.com/company/cache-gold",
+      "github": "https://github.com/cache-token"
+    }
+  },
+  "review": {
+    "activeAumReviewed": false,
+    "suspicious": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xf5238462e7235c7b62811567e63dd17d12c2eaa0",
+      "deployedAt": "2020-02-17",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x10583948905d768880ba6c5a17847556da49305a",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "cache-private-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://cache.gold/terms-of-service"
+      ]
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    },
+    {
+      "kind": "attestation",
+      "links": [
+        "https://explorer.cache.gold/",
+        "https://cache.gold/assets/docs/AUDIT_20211118_TSH_SIN.pdf",
+        "https://chain.link/case-studies/cache-gold"
+      ],
+      "note": "Continuous (on-chain)"
+    }
+  ]
+}

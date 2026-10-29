@@ -1,0 +1,77 @@
+{
+  "identity": {
+    "slug": "aaif",
+    "symbol": "aAIF",
+    "name": "Anchored AI Strategies Fund",
+    "legacyId": 9191,
+    "canonicalMarketId": "aAIF"
+  },
+  "exposure": {
+    "underlying": "anchored-ai-strategies-fund"
+  },
+  "class": {
+    "structure": "mixed-rwa-fund",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "other-rwas"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Monthly"
+  },
+  "about": {
+    "description": "Anchored AI Strategies Fund (aAIF). A concentrated long/short equity strategy covering AI and semiconductor opportunities. The token represents an interest in the matching segregated portfolio, priced at the net asset value reported for the underlying fund.",
+    "logo": "https://anchored.finance/fund-assets/aAIF.svg",
+    "links": {
+      "website": [
+        "https://anchored.finance/funds"
+      ],
+      "twitter": "https://x.com/AnchoredFi",
+      "docs": "https://docs.anchored.finance/getting-started/quickstart",
+      "linkedin": "https://www.linkedin.com/company/anchored-fi/",
+      "github": "https://github.com/AnchoredLabs"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xb75480e350f82633050f5a38045c03b24b293271",
+      "deployedAt": "2026-05-15",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "anchored-capital-ltd",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://anchored.finance/",
+        "https://alpaca.markets/tokenization"
+      ]
+    },
+    {
+      "organization": "anchored-finance",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://accountable.anchored.finance/"
+      ],
+      "note": "no date in the export"
+    }
+  ]
+}

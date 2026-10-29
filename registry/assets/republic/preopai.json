@@ -1,0 +1,68 @@
+{
+  "identity": {
+    "slug": "preopai",
+    "symbol": "preOPAI",
+    "name": "preOPAI - Powered by Republic for the Bitget Exchange",
+    "legacyId": 4053,
+    "canonicalMarketId": "preOPAI"
+  },
+  "exposure": {
+    "underlying": "openai"
+  },
+  "class": {
+    "structure": "pe-venture",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "cexListed": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "yieldBearing": false
+  },
+  "about": {
+    "description": "preOPAI is a tokenized Contingent Payout Note issued by Republic International Cayman and sold through Bitget IPO Prime on Solana, designed to mirror OpenAI stock performance upon a future IPO or acquisition. Holders own an unsecured debt claim against the issuer rather than OpenAI equity, with no voting or dividend rights. OpenAI is unaffiliated and actively disavows pre-IPO exposure products. Offered to non-US persons under Regulation S at $725/token (29,082 tokens, ~$21M). Trading occurs on the Bitget spot market with on-chain supply held in issuer/exchange omnibus custody.",
+    "logo": "https://icons.llamao.fi/icons/rwa/preopai.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.bitget.com/academy/guide-to-openai-preopai-on-bitget-ipo-prime"
+      ],
+      "twitter": "https://x.com/joinrepublic",
+      "docs": "https://www.bitget.com/support/articles/12560603882795"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "solana",
+      "address": "8jo8yuaQj2t48rKKUy5V7txxVihDo1Ayb2HvuBwSisS3",
+      "deployedAt": "2026-05-07",
+      "primary": true,
+      "labels": [
+        {
+          "address": "8ZPaybdHeNwpoxmU1ALcbLoE3eK443Jq4emk82VCscag",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "republic-international-cayman-distributor-btgt-services-limited-bitget",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://republic.com",
+        "https://img.bgstatic.com/multiLang/events/preOPAI_User_Confirmation_EN.pdf"
+      ]
+    }
+  ]
+}

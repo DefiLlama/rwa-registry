@@ -1,0 +1,66 @@
+{
+  "identity": {
+    "slug": "pusd",
+    "symbol": "PUSD",
+    "name": "Plume USD",
+    "legacyId": 537,
+    "canonicalMarketId": "PUSD"
+  },
+  "exposure": {
+    "underlying": "us-dollar"
+  },
+  "class": {
+    "structure": "usd-stable",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "fiat-stablecoins"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "about": {
+    "description": "Plume USD (pUSD) is a stablecoin designed to be minted and redeemed 1:1 against USDC through Plume’s portal. Plume’s documentation describes pUSD as fully backed by USDC held in a BoringVault managed by Plume, redemptions return USDC, and pUSD is intended for onchain settlement and RWAfi use cases on Plume.",
+    "logo": "https://icons.llamao.fi/icons/rwa/pusd.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://docs.plume.org/category/pusd"
+      ],
+      "twitter": "https://x.com/plumenetwork",
+      "docs": "https://docs.plumenetwork.xyz/",
+      "linkedin": "https://www.linkedin.com/company/plume-network",
+      "discord": "https://discord.com/invite/plume-network",
+      "telegram": "https://t.me/plumenetwork",
+      "github": "https://github.com/plumenetwork"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "plume_mainnet",
+      "address": "0xdddd73f5df1f0dc31373357beac77545dc5a6f3f",
+      "deployedAt": "2025-11-03",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "plume-network",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.plume.org/category/pusd",
+        "https://docs.plume.org/pusd/plume-usd-overview"
+      ]
+    }
+  ]
+}

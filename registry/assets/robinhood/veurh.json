@@ -1,0 +1,83 @@
+{
+  "identity": {
+    "slug": "veurh",
+    "symbol": "VEU",
+    "name": "Vanguard FTSE Emerging Markets ETF • Robinhood Token",
+    "legacyId": 2536,
+    "canonicalMarketId": "VEUrh"
+  },
+  "exposure": {
+    "underlying": "vanguard-ftse-emerging-markets-etf"
+  },
+  "class": {
+    "structure": "equity-basket",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "yieldBearing": false
+  },
+  "about": {
+    "description": "VEU is a tokenized tracker certificate issued by Robinhood Markets, Inc. through Robinhood Europe UAB, deployed on Arbitrum One. It is designed to reflect the price of the VEU ETF in a format accessible on-chain, providing synthetic exposure rather than direct fund ownership under MiFID II regulatory oversight. Trading is available 24/5 to EU/EEA customers, and on-chain pricing is supplied through Chainlink oracle feeds.",
+    "logo": "https://icons.llamao.fi/icons/rwa/vwo.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://robinhood.com/stocks"
+      ],
+      "twitter": "https://x.com/RobinhoodApp",
+      "docs": "https://robinhood.com/us/en/support/",
+      "linkedin": "https://www.linkedin.com/company/robinhood-markets",
+      "discord": "https://discord.com/invite/robinhood",
+      "github": "https://github.com/robinhood"
+    }
+  },
+  "review": {
+    "activeAumReviewed": false,
+    "suspicious": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "arbitrum",
+      "address": "0xdcd1b7cf8b99dc3dc00a734bc71efc9477b7cbfc",
+      "deployedAt": "2025-12-09",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xcbdf630a858e7d87b5b08d92968ca14ca0f8f556",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xd29aa2b0584856c2b3b097595e9d4b1cd1242e05",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "robinhood-markets-inc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://robinhood.com/eu/en/about/"
+      ]
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

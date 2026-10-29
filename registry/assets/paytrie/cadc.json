@@ -1,0 +1,64 @@
+{
+  "identity": {
+    "slug": "cadc",
+    "symbol": "CADC",
+    "name": "CAD Coin",
+    "legacyId": 629,
+    "canonicalMarketId": "CADC"
+  },
+  "exposure": {
+    "underlying": "canadian-dollar"
+  },
+  "class": {
+    "structure": "other-fiat-stable",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "fiat-stablecoins"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "sources": {
+    "coingeckoId": "cad-coin"
+  },
+  "about": {
+    "description": "CADC is a Canadian dollar stablecoin issued by PayTrie for CAD-denominated settlement on public blockchains. It is designed to be fully reserved and redeemable 1:1 for CAD via PayTrie, supporting onchain payments, exchange settlement, and cross-border transfers in a CAD unit of account.",
+    "logo": "https://icons.llamao.fi/icons/rwa/cadc.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://paytrie.com/cadc"
+      ],
+      "twitter": "https://x.com/Paytrie"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xcadc0acd4b445166f12d2c07eac6e2544fbe2eef",
+      "deployedAt": "2021-01-14",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "paytrie-ab-inc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://paytrie.com/cadc"
+      ]
+    }
+  ]
+}

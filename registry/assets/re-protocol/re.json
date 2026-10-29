@@ -1,0 +1,87 @@
+{
+  "identity": {
+    "slug": "re",
+    "symbol": "RE",
+    "name": "Re Member Fund A LP",
+    "legacyId": 549,
+    "canonicalMarketId": "RE"
+  },
+  "exposure": {
+    "underlying": "re-member-fund-a-lp"
+  },
+  "class": {
+    "structure": "reinsurance-pool",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "private-credit"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "about": {
+    "description": "RE is the tokenized interest in Re Member Fund A LP, an insurance‑linked strategy that provides exposure to a diversified book of lower‑volatility reinsurance business. The fund participates by providing senior‑tranche capital through participating quota‑share notes tied to a basket of insurance programs (for example auto, homeowners, and workers’ compensation), aiming to earn premium‑derived yield that is typically less correlated to traditional equity and bond markets. Returns for RE are driven by the performance of the underlying insurance portfolio (premiums, losses, and expense ratios) and the structuring of the quota‑share notes. The onchain token serves as a digital ownership record while the underlying cashflows come from the off‑chain reinsurance positions.",
+    "logo": "https://icons.llamao.fi/icons/rwa/re.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://re.xyz/"
+      ],
+      "twitter": "https://x.com/Securitize",
+      "docs": "https://docs.re/",
+      "linkedin": "https://www.linkedin.com/company/re-protocol",
+      "discord": "https://discord.gg/reprotocol",
+      "telegram": "https://t.me/re_protocol",
+      "refLinks": [
+        "https://app.re.xyz/?ref=nuu0c"
+      ]
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "avax",
+      "address": "0xbc370355963281b150307717520294effe2d9c50",
+      "deployedAt": "2024-12-23",
+      "primary": true
+    },
+    {
+      "chain": "avax",
+      "address": "0x8c21c5f64e17f77a6af671b6f51c2dd14ea6cf4a",
+      "deployedAt": "2024-12-23"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "re-member-fund-a-lp-re-member-fund-b-lp",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002040103&owner=exclude&count=40",
+        "https://securitize.io/primary-market/re-member-fund"
+      ],
+      "protocolIds": [
+        6712
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://www.sec.gov/Archives/edgar/data/2040103/000204010324000001/0002040103-24-000001-index.htm"
+      ],
+      "note": "Not publicly disclosed"
+    }
+  ]
+}

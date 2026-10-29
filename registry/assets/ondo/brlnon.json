@@ -1,0 +1,103 @@
+{
+  "identity": {
+    "slug": "brlnon",
+    "symbol": "BRLNon",
+    "name": "iShares Floating Rate Loan Active ETF (Ondo Tokenized ETF)",
+    "legacyId": 4171,
+    "canonicalMarketId": "BRLNon"
+  },
+  "exposure": {
+    "underlying": "ishares-floating-rate-loan-active-etf"
+  },
+  "class": {
+    "structure": "etf-backed",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "etfs"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Daily"
+  },
+  "sources": {
+    "identifiers": [
+      {
+        "scheme": "isin",
+        "value": "US0925284053",
+        "source": null,
+        "verified": false
+      }
+    ]
+  },
+  "about": {
+    "description": "BRLNon is an Ondo Global Markets tokenized ETF exposure designed to provide economic exposure to iShares Floating Rate Loan Active ETF in an onchain format. The token is designed to be fully backed by the underlying publicly traded asset, together with cash in transit, held with regulated custodial broker-dealers. Holdings attestations and ongoing reporting are surfaced through Ondo trust and transparency materials and the product asset page. Tokenholders are not shareholders of the underlying and do not receive shareholder voting rights. Dividend value is reflected through total return mechanics. Ondo Global Markets adjusts the token to account for dividends net of withholding taxes and reinvests that value into additional shares, increasing the shares per token over time instead of paying cash dividends directly to tokenholders.",
+    "logo": "https://icons.llamao.fi/icons/rwa/brln.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://app.ondo.finance/assets/brlnon"
+      ],
+      "twitter": "https://x.com/ondofinance",
+      "docs": "https://docs.ondo.finance/",
+      "linkedin": "https://www.linkedin.com/company/ondofinance",
+      "discord": "https://discord.com/invite/ondofinance",
+      "telegram": "https://t.me/ondofinance",
+      "github": "https://github.com/ondoprotocol"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xfcba0eebbb946ff933c91d2ddb2991845a400f39",
+      "deployedAt": "2026-05-30",
+      "primary": true
+    },
+    {
+      "chain": "bsc",
+      "address": "0xd41829dec8b51119176ee0a6b73bc8b2718546a9",
+      "deployedAt": "2026-05-30"
+    },
+    {
+      "chain": "solana",
+      "address": "fcfpT8y5fpEBJjqmjKLpscZYzVjxR95ErJsb31jondo",
+      "deployedAt": "2026-05-29"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "ondo-global-markets-bvi-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.ondo.finance/ondo-global-markets/legal-and-regulatory"
+      ],
+      "protocolIds": [
+        2542,
+        6650
+      ]
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://app.ondo.finance/assets/brlnon"
+      ],
+      "note": "Daily (ongoing)"
+    }
+  ]
+}

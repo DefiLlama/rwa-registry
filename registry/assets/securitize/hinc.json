@@ -1,0 +1,87 @@
+{
+  "identity": {
+    "slug": "hinc",
+    "symbol": "HINC",
+    "name": "Neuberger Securitize High Income Tokenized Fund",
+    "legacyId": 8820,
+    "canonicalMarketId": "HINC"
+  },
+  "exposure": {
+    "underlying": "neuberger-securitize-high-income-tokenized-fund"
+  },
+  "class": {
+    "structure": "corp-bond-fund",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "bond-mmf-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "sources": {
+    "coingeckoId": "neuberger-securitize-high-income-tokenized-fund"
+  },
+  "about": {
+    "description": "HINC is a tokenized share of the Neuberger Securitize High Income Tokenized Fund, a British Virgin Islands corporation formed in 2026. The fund seeks high current income by investing the majority of its assets in high yield bonds, with the remainder in collateralised loan obligations, bank loans and other high yielding fixed income instruments, and it does not employ leverage. Securitize Capital LLC is the investment adviser and Neuberger acts as subadviser to the strategy. Fund administration is provided by Securitize Fund Services LLC, transfer agency by Securitize Transfer Agent LLC, and distribution by Securitize Markets LLC, an SEC registered broker dealer and member of FINRA and SIPC. The offering is made under Rule 506(c) and section 3(c)(7), so subscription is limited to accredited investors who are also qualified purchasers and is subject to onboarding, KYC and AML screening and jurisdictional eligibility, with a minimum investment of one hundred thousand dollars. Holders redeem for equivalent value in cash or stablecoin. The token is issued natively on Ethereum, Avalanche, Solana and Sui, and transfer is restricted to allowlisted wallets. The Solana deployment is a Token 2022 mint carrying a transfer hook and a permanent delegate, so the issuer can enforce transfer restrictions and move tokens without a holder signature.",
+    "logo": "https://icons.llamao.fi/icons/rwa/hinc.jpg?w=48&h=48",
+    "links": {
+      "website": [
+        "https://securitize.io/hinc"
+      ],
+      "twitter": "https://x.com/securitize",
+      "docs": "https://docs.securitize.io",
+      "linkedin": "https://www.linkedin.com/company/securitize",
+      "telegram": "https://t.me/securitize",
+      "github": "https://github.com/securitize-io"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x015c477a4e2881c4b3bb8999f59ee4a04e812344",
+      "deployedAt": "2026-08-14",
+      "primary": true
+    },
+    {
+      "chain": "avax",
+      "address": "0xf5fa39a16449b1ee07aa52ae79c6b00567c59f83",
+      "deployedAt": "2026-08-14"
+    },
+    {
+      "chain": "solana",
+      "address": "EuTtCw35R3BJnTmXCREctjCU9XTkZXsQjqnoNg7NwdnZ",
+      "deployedAt": "2026-08-14"
+    },
+    {
+      "chain": "sui",
+      "address": "0xbe8a78c90705d70c57fb4243f72873a303648e25e7b8d76d328fcae368df7b8d::hinc::Hinc",
+      "deployedAt": "2026-09-05"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "neuberger-securitize-high-income-tokenized-fund-ltd",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002149525&owner=exclude&count=40"
+      ]
+    },
+    {
+      "organization": "redstone",
+      "kind": "oracle"
+    }
+  ]
+}

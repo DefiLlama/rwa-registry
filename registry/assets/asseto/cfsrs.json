@@ -1,0 +1,94 @@
+{
+  "identity": {
+    "slug": "cfsrs",
+    "symbol": "CFSRS",
+    "name": "Stable Return SP",
+    "legacyId": 2732,
+    "canonicalMarketId": "CFSRS"
+  },
+  "exposure": {
+    "underlying": "stable-return-sp"
+  },
+  "class": {
+    "structure": "corp-bond-fund",
+    "type": "asset",
+    "rwaClassification": "programmable-finance",
+    "category": [
+      "bond-mmf-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "CFSRS is a 1:1 asset-backed token collateralized by the Cayman Fund: Stable Return SP. The investment objective of the fund is to seek a stable return over a mid-to-long-term investment horizon. The fund will primarily invest in debt securities issued by governments, government and public agencies, financial institutions, supra-nationals and corporate issuers in international fixed income markets. Debt securities include but are not limited to convertible, exchangeable and non-exchangeable and non-convertible debt securities, fixed and floating rate bonds, zero-coupon and discount bonds, credit-linked notes with or without callable/puttable features, commercial papers, certificates of deposits, as well as short-term bills and notes. Redemption process: Holders redeem via https://asseto.finance/product with a $100k minimum.",
+    "logo": "https://icons.llamao.fi/icons/rwa/asseto-cfsrs.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://asseto.finance/product"
+      ],
+      "twitter": "https://x.com/AssetoFinance"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x4867ad1a74b38b0aeff4fff251ed0dadae4f4630",
+      "deployedAt": "2026-02-01",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xdce88de0cdab69d61d0d61c237a80392eebb4bea",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x8b0d8ce4389826942d889fa47d1362932ec60f38",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x3587e96097e23e23974a38b096a2f7dee53a8ee9",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x41345d457a5bea71ca5431050343f833370f218d",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xbc0dc193c59723b9a7c46a1854839075ba425d08",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xf74969b8f3aec6401b0682b76485d7b36107f4a9",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "hsk",
+      "address": "0x2e7a60c1ff23c966d7e644782c8ca03137a00b5f",
+      "deployedAt": null
+    }
+  ],
+  "roles": [
+    {
+      "organization": "changfeng-asset-management-limited",
+      "kind": "issuer"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "no date in the export"
+    }
+  ]
+}

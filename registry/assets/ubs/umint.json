@@ -1,0 +1,60 @@
+{
+  "identity": {
+    "slug": "umint",
+    "symbol": "uMINT",
+    "name": "UBS USD Money Market Investment Fund Token",
+    "legacyId": 4068,
+    "canonicalMarketId": "uMINT"
+  },
+  "exposure": {
+    "underlying": "usd-money-market-fund"
+  },
+  "class": {
+    "structure": "mmf",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "bond-mmf-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "uMINT is UBS Asset Management's tokenized USD money market fund, issued on Ethereum through UBS Tokenize and distributed by authorized partners such as DigiFT and CapBridge in Singapore. The accumulating token gives accredited and institutional investors access to UBS's institutional cash-management strategy backed by high-quality money market instruments, and carries the healthiest holder distribution among bank-issued tokenized MMFs (30 holders).",
+    "logo": "https://icons.llamao.fi/icons/rwa/umint.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.ubs.com"
+      ],
+      "twitter": "https://x.com/UBS",
+      "docs": "https://www.digift.io"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xc06036793272219179f846ef6bfc3b16e820df0b",
+      "deployedAt": "2024-11-01",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "ubs-asset-management-singapore-under-ubs-tokenize",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.ubs.com/global/en/media/display-page-ndp/en-20241101-first-tokenized-investment-fund.html"
+      ]
+    }
+  ]
+}

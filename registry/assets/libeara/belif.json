@@ -1,0 +1,64 @@
+{
+  "identity": {
+    "slug": "belif",
+    "symbol": "BELIF",
+    "name": "Bosera Liquidity Income Fund SP",
+    "legacyId": 662,
+    "canonicalMarketId": "BELIF"
+  },
+  "exposure": {
+    "underlying": "bosera-liquidity-income-fund-sp"
+  },
+  "class": {
+    "structure": "mmf",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "bond-mmf-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "BELIF represents a tokenized share in Bosera Liquidity Income Fund SP, designed to provide USD-denominated income from a portfolio of short-duration, high-quality fixed income and money market instruments. The digital share format is intended to support more programmable subscriptions, redemptions, and potential secondary transfers than conventional fund shares, while preserving a familiar fund wrapper for the underlying exposure. It is positioned as an onchain-accessible cash management and income sleeve backed by Bosera’s regulated asset management platform.",
+    "logo": "https://icons.llamao.fi/icons/rwa/belif.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.bosera.com.hk/"
+      ],
+      "twitter": "https://x.com/Boserafund",
+      "docs": "https://libeara.com/",
+      "linkedin": "https://www.linkedin.com/company/libeara",
+      "github": "https://github.com/libeara"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x237c717df1b60501f8d029d3fe7385fd090df180",
+      "deployedAt": "2025-10-17",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "bosera",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.bosera.com.hk/"
+      ]
+    }
+  ]
+}

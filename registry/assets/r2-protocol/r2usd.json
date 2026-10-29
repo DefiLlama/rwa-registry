@@ -1,0 +1,65 @@
+{
+  "identity": {
+    "slug": "r2usd",
+    "symbol": "R2USD",
+    "name": "R2 Protocol R2USD",
+    "legacyId": 2843,
+    "canonicalMarketId": "R2USD"
+  },
+  "exposure": {
+    "underlying": "us-dollar"
+  },
+  "class": {
+    "structure": "yield-rwa-stable",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "rwa-stablecoins"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "R2USD is R2’s stablecoin entry point into an onchain wealth-management protocol that allocates capital across real-world-yield strategies. Public materials describe R2 Reserve as a lower-risk Treasuries and credit allocation, and R2 Prime as a longer-duration structured strategy.",
+    "logo": "https://icons.llamao.fi/icons/rwa/r2-protocol-r2usd.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.r2.money"
+      ],
+      "twitter": "https://x.com/r2yield",
+      "discord": "https://discord.gg/r2yield"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x878706a8d521298f881a34dc513b3ede7a2490c7",
+      "deployedAt": "2025-09-24",
+      "primary": true
+    },
+    {
+      "chain": "bsc",
+      "address": "0x740269008634785ae4d973db88ab46ba4e1dec55",
+      "deployedAt": "2025-10-10"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "r2-protocol",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://r2money.gitbook.io/r2"
+      ]
+    }
+  ]
+}

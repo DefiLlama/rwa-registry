@@ -1,0 +1,71 @@
+{
+  "identity": {
+    "slug": "prosper",
+    "symbol": "PROSPER",
+    "name": "Prosper",
+    "legacyId": 60,
+    "canonicalMarketId": "PROSPER"
+  },
+  "exposure": {
+    "underlying": "prosper"
+  },
+  "class": {
+    "structure": "governance-token",
+    "type": "asset",
+    "rwaClassification": "non-rwa-gov-utility",
+    "category": [
+      "governance-tokens",
+      "other-rwas"
+    ]
+  },
+  "terms": {
+    "cexListed": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "sources": {
+    "coingeckoId": "prosper"
+  },
+  "about": {
+    "description": "PROSPER is the ecosystem token for a protocol focused on tokenizing institutional-grade Bitcoin mining hashrate and related treasury dynamics. The project aims to turn mining output and infrastructure economics into tokenized exposures that can be staked and used in DeFi, effectively wrapping a real-world productive asset stream into a programmable format. PROSPER coordinates incentives and governance across the hashrate-linked products and ecosystem expansion.",
+    "logo": "https://icons.llamao.fi/icons/rwa/prosper.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://prosper-fi.com"
+      ],
+      "twitter": "https://x.com/prosperfi_BTC",
+      "docs": "https://docs.prosper.fi/",
+      "linkedin": "https://www.linkedin.com/company/prosper-protocol",
+      "telegram": "https://t.me/prosperfi"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "bsc",
+      "address": "0x915424ac489433130d92b04096f3b96c82e92a9d",
+      "deployedAt": "2025-01-08",
+      "primary": true
+    },
+    {
+      "chain": "base",
+      "address": "0x915424ac489433130d92b04096f3b96c82e92a9d",
+      "deployedAt": "2025-03-03"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "prosper",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://prosper-fi.com"
+      ]
+    }
+  ]
+}

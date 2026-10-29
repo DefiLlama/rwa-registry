@@ -1,0 +1,68 @@
+{
+  "identity": {
+    "slug": "flexusd",
+    "symbol": "FLEXUSD",
+    "name": "flexUSD",
+    "legacyId": 593,
+    "canonicalMarketId": "FLEXUSD"
+  },
+  "exposure": {
+    "underlying": "us-dollar"
+  },
+  "class": {
+    "structure": "yield-rwa-stable",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "rwa-stablecoins"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "cexListed": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "flexUSD is a multi-yield bearing stablecoin on Ethereum and smartBCH. It is minted and redeemed 1:1 for USDC through the CoinFLEX app. yield distribution and reserve management are handled by the issuer platform rather than via on-chain collateralized borrowing.",
+    "logo": "https://icons.llamao.fi/icons/rwa/flexusd.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://coinflex.com/"
+      ],
+      "twitter": "https://x.com/CoinFLEXdotcom",
+      "telegram": "https://t.me/coinflex_EN",
+      "github": "https://github.com/coinflex-exchange"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xa774ffb4af6b0a91331c084e1aebae6ad535e6f3",
+      "deployedAt": "2020-11-20",
+      "primary": true
+    },
+    {
+      "chain": "smartbch",
+      "address": "0x7b2b3c5308ab5b2a1d9a94d20d35ccdf61e05b72",
+      "deployedAt": "2021-07-29"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "coinflex",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://coinflex.com/"
+      ]
+    }
+  ]
+}

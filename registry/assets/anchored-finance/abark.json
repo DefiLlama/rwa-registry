@@ -1,0 +1,105 @@
+{
+  "identity": {
+    "slug": "abark",
+    "symbol": "aBARK",
+    "name": "Bark Inc aStock",
+    "legacyId": 9215,
+    "canonicalMarketId": "aBARK"
+  },
+  "exposure": {
+    "underlying": "bark-inc"
+  },
+  "class": {
+    "structure": "stock-backed",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Daily"
+  },
+  "about": {
+    "description": "Tokenized Bark Inc. Each token is backed 1:1 by the underlying share, purchased through a FINRA-registered broker-dealer and held in regulated custody, and is redeemable for stablecoins.",
+    "logo": "https://img.anchored.finance/logos/BARK.svg",
+    "links": {
+      "website": [
+        "https://anchored.finance/stocks"
+      ],
+      "twitter": "https://x.com/AnchoredFi",
+      "docs": "https://docs.anchored.finance/",
+      "linkedin": "https://www.linkedin.com/company/anchored-fi/"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x19a68afe9888d7c308ebda5631201bbc1aea4f04",
+      "deployedAt": "2026-09-01"
+    },
+    {
+      "chain": "monad",
+      "address": "0x19a68afe9888d7c308ebda5631201bbc1aea4f04",
+      "deployedAt": "2026-09-01",
+      "primary": true
+    },
+    {
+      "chain": "base",
+      "address": "0x19a68afe9888d7c308ebda5631201bbc1aea4f04",
+      "deployedAt": "2026-09-01"
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0x19a68afe9888d7c308ebda5631201bbc1aea4f04",
+      "deployedAt": "2026-09-01"
+    },
+    {
+      "chain": "robinhood",
+      "address": "0x19a68afe9888d7c308ebda5631201bbc1aea4f04",
+      "deployedAt": "2026-09-04"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x19a68afe9888d7c308ebda5631201bbc1aea4f04",
+      "deployedAt": "2026-09-08"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "anchored-finance",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://anchored.finance/",
+        "https://alpaca.markets/tokenization"
+      ]
+    },
+    {
+      "organization": "anchored-finance",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    },
+    {
+      "kind": "attestation",
+      "links": [
+        "https://accountable.anchored.finance/"
+      ],
+      "note": "no date in the export"
+    }
+  ]
+}

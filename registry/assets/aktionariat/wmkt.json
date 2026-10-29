@@ -1,0 +1,85 @@
+{
+  "identity": {
+    "slug": "wmkt",
+    "symbol": "WMKT",
+    "name": "WeMakeIt Shares",
+    "legacyId": 2983,
+    "canonicalMarketId": "WMKT"
+  },
+  "exposure": {
+    "underlying": "wemakeit"
+  },
+  "class": {
+    "structure": "pe-venture",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "sources": {
+    "coingeckoId": "aktionariat-wemakeit-ag-tokenized-shares"
+  },
+  "about": {
+    "description": "Tokenized shares of wemakeit AG, a Swiss crowdfunding platform for creative and entrepreneurial projects that describes itself as community-owned since 2022, issued on Ethereum via Aktionariat.",
+    "logo": "https://icons.llamao.fi/icons/rwa/wmkt.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://shares.wemakeit.com/"
+      ],
+      "twitter": "https://x.com/aktionariat",
+      "docs": "https://docs.aktionariat.com/",
+      "linkedin": "https://www.linkedin.com/company/aktionariat-ag"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xc95506540268b0447663efbfffd71b51fe92ea7f",
+      "deployedAt": "2022-08-22",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x6404a242e794afa894804fdbda19217a1fdf2dfe",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "wemakeit-ag",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://shares.wemakeit.com/",
+        "https://www.aktionariat.com/"
+      ]
+    },
+    {
+      "organization": "aktionariat-ag",
+      "kind": "tokenizer",
+      "sourceLinks": [
+        "https://shares.wemakeit.com/",
+        "https://www.aktionariat.com/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "No public attestation date found"
+    }
+  ]
+}

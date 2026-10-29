@@ -1,0 +1,124 @@
+{
+  "identity": {
+    "slug": "wttsx",
+    "symbol": "WTTSX",
+    "name": "WisdomTree 3-7 Year Treasury Digital Fund",
+    "legacyId": 162,
+    "canonicalMarketId": "WTTSX"
+  },
+  "exposure": {
+    "underlying": "wisdomtree-3-7-year-treasury-digital-fund"
+  },
+  "class": {
+    "structure": "sovereign-bond-fund",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "bond-mmf-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Semi-annual (N-CSRS) + Annual (N-CSR)"
+  },
+  "sources": {
+    "identifiers": [
+      {
+        "scheme": "isin",
+        "value": "US97717K2042",
+        "source": null,
+        "verified": false
+      }
+    ]
+  },
+  "about": {
+    "description": "WTTSX represents digital shares of a U.S. Treasury strategy focused on the 3-7 year maturity band, aiming to balance yield and rate sensitivity within the intermediate curve. It is delivered as tokenized fund shares designed for digital distribution and onchain settlement while tracking the targeted Treasury exposure profile.",
+    "logo": "https://icons.llamao.fi/icons/rwa/wttsx.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.wisdomtreeconnect.com/digital-funds/fixed-income/wttsx"
+      ],
+      "twitter": "https://x.com/WisdomTreePrime",
+      "docs": "https://www.wisdomtree.com/",
+      "linkedin": "https://www.linkedin.com/company/wisdomtree-investments"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xe7d2e561b8e3b1a0125f45da596706110f8953be",
+      "deployedAt": "2025-03-31",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x14009f8f0bd4870ee179d9acd4be5877cf8df3cb",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xd9f7e1c8e1c6c3dbe9964e727b2d96b67fd12a85",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x3403292ba55ffbfc5a655c75b757b00fd57ee51c",
+      "deployedAt": "2025-03-17"
+    },
+    {
+      "chain": "avax",
+      "address": "0x401e7e6558507764805a545f61c049361aa7a7cb",
+      "deployedAt": "2025-03-18"
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0xc66bb5e302e6948a5a902cc17f1894250ca82500",
+      "deployedAt": "2025-03-31"
+    },
+    {
+      "chain": "optimism",
+      "address": "0x401e7e6558507764805a545f61c049361aa7a7cb",
+      "deployedAt": "2025-03-20"
+    },
+    {
+      "chain": "plume_mainnet",
+      "address": "0x4000cb3e2105d4b3a28f0ac5b4acc8cd4ec40612",
+      "deployedAt": "2025-10-21"
+    },
+    {
+      "chain": "stellar",
+      "address": "WTTS-GBBV5CF7UPA2PYRPA632URLB55BWML7X4H33ZRCDWMTULOXDGPHJR5VI",
+      "deployedAt": "2023-01-18"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "wisdomtree-digital-trust",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.sec.gov/cgi-bin/browse-edgar?CIK=0001859001&owner=include&action=getcompany"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "date": "2026-03-06",
+      "links": [
+        "https://www.wisdomtreeconnect.com/digital-funds/fixed-income/wttsx",
+        "https://www.wisdomtreeconnect.com/prospectus-regulatory-reports"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "identity": {
+    "slug": "realu",
+    "symbol": "REALU",
+    "name": "RealUnit Shares",
+    "legacyId": 2976,
+    "canonicalMarketId": "REALU"
+  },
+  "exposure": {
+    "underlying": "realunit"
+  },
+  "class": {
+    "structure": "pe-venture",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "sources": {
+    "coingeckoId": "aktionariat-realunit-schweiz-ag-tokenized-shares"
+  },
+  "about": {
+    "description": "Tokenized shares of RealUnit Schweiz AG, a Swiss listed investment company investing in a diversified portfolio of real assets. Ethereum-based registered rights are used for digital holding and transfer.",
+    "logo": "https://icons.llamao.fi/icons/rwa/realu.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://realunit.ch/token-kaufen/"
+      ],
+      "twitter": "https://x.com/aktionariat",
+      "docs": "https://docs.aktionariat.com/",
+      "linkedin": "https://www.linkedin.com/company/aktionariat-ag"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x553c7f9c780316fc1d34b8e14ac2465ab22a090b",
+      "deployedAt": "2022-04-12",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x66e17bb356d4f86da1feae8c449db0ded8ca0cd7",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "realunit-schweiz-ag",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://realunit.ch/token-kaufen/",
+        "https://www.aktionariat.com/"
+      ]
+    },
+    {
+      "organization": "aktionariat-ag",
+      "kind": "tokenizer",
+      "sourceLinks": [
+        "https://realunit.ch/token-kaufen/",
+        "https://www.aktionariat.com/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "No public attestation date found"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "identity": {
+    "slug": "kvcm",
+    "symbol": "kVCM",
+    "name": "Klima Protocol kVCM",
+    "legacyId": 412,
+    "canonicalMarketId": "kVCM"
+  },
+  "exposure": {
+    "underlying": "klima-protocol-kvcm"
+  },
+  "class": {
+    "structure": "carbon-reserve",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "carbon-environment"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "cexListed": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "sources": {
+    "coingeckoId": "klima-dao-old"
+  },
+  "about": {
+    "description": "kVCM is the carbon-backed asset and medium of exchange in Klima Protocol. It is minted as the protocol acquires carbon credits and is burned during retirements, and holders participate in governance over pricing and acquisition strategy across carbon classes.",
+    "logo": "https://icons.llamao.fi/icons/rwa/kvcm.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.klimaprotocol.com/"
+      ],
+      "twitter": "https://x.com/KlimaDAO",
+      "docs": "https://docs.klimadao.finance/",
+      "linkedin": "https://www.linkedin.com/company/klima-dao",
+      "discord": "https://discord.com/invite/klimadao",
+      "telegram": "https://t.me/klimadao_official",
+      "github": "https://github.com/klimadao"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "base",
+      "address": "0x00fbac94fec8d4089d3fe979f39454f48c71a65d",
+      "deployedAt": "2025-10-10",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xeed30589e7fd3035714b75fe8cd737c77c79cc2b",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "klima-foundation",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.lei-lookup.com/record/50670046CKR3ABC11150/"
+      ],
+      "protocolIds": [
+        781
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://docs.klimaprotocol.com/links/contract-addresses",
+        "https://www.klimadao.finance/resources/what-you-need-to-know-about-klima-klimax-and-kusd"
+      ],
+      "note": "N/A (protocol governance token)"
+    }
+  ]
+}

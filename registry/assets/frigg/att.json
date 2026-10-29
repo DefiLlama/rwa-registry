@@ -1,0 +1,86 @@
+{
+  "identity": {
+    "slug": "att",
+    "symbol": "ATT",
+    "name": "AgaTobwe Token bond",
+    "legacyId": 2,
+    "canonicalMarketId": "ATT"
+  },
+  "exposure": {
+    "underlying": "agatobwe-hydropower-green-bond"
+  },
+  "class": {
+    "structure": "structured-credit",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "private-credit",
+      "carbon-environment"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "about": {
+    "description": "ATT is a tokenized green bond linked to the AgaTobwe hydropower project in Rwanda, enabled by Frigg.eco. Public project materials describe a small hydropower plant supplying a local mini-grid. The token represents fractional bond exposure tied to the project’s financing, structured under Swiss ledger-based securities concepts.",
+    "logo": "https://icons.llamao.fi/icons/rwa/agatobwe-token-bond.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.agatobwe.eco/",
+        "https://frigg.eco"
+      ],
+      "twitter": "https://x.com/FriggEco",
+      "docs": "https://www.frigg.eco/",
+      "linkedin": "https://www.linkedin.com/company/frigg-eco"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x90d53b872ce6421122b41a290acdd22a5ed931bd",
+      "deployedAt": "2022-09-21",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xa7db365e49021049ec81d1f5b184f52fe1dd9279",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xed5d581f603799e388a96e243d020d0f498bf71c",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "agatobwe-hydro-power-ltd-via-frigg-eco",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://content.frigg.eco/assets/att-resolution-issuance-signed.pdf"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://www.agatobwe.eco/terms-of-issue",
+        "https://content.frigg.eco/assets/ATT-registration-agreement-signed.pdf"
+      ],
+      "note": "Not publicly disclosed"
+    }
+  ]
+}

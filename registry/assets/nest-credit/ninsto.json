@@ -1,0 +1,79 @@
+{
+  "identity": {
+    "slug": "ninsto",
+    "symbol": "NINSTO",
+    "name": "Nest Institutional Vault",
+    "legacyId": 568,
+    "canonicalMarketId": "NINSTO"
+  },
+  "exposure": {
+    "underlying": "nest-institutional-vault"
+  },
+  "class": {
+    "structure": "mixed-rwa-fund",
+    "type": "wrapper",
+    "rwaClassification": "programmable-finance",
+    "category": [
+      "rwa-wrappers",
+      "bond-mmf-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "sources": {
+    "coingeckoId": "nest-institutional-vault"
+  },
+  "about": {
+    "description": "nINSTO is the receipt token for Nest’s institutional fixed-income vault. Nest discloses a composition across senior secured debt (30%), ETFs (54%), and money market funds (14%), implemented via Invesco iSNR (30%), OpenTrade XHYCB (BlackRock corporate bond ETF, 27%), Blackstone SRLN (27%), and OpenTrade XMMF (Fidelity Institutional Liquidity MMF, 14%). Value accrues through NAV appreciation. Redemptions are subject to the vault’s stated liquidity terms.",
+    "logo": "https://icons.llamao.fi/icons/rwa/ninsto.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://nest.credit"
+      ],
+      "twitter": "https://x.com/nestcredit",
+      "docs": "https://docs.nestcredit.io/",
+      "linkedin": "https://www.linkedin.com/company/nestcredit"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "plume_mainnet",
+      "address": "0xbfc5770631641719cd1cf809d8325b146aed19de",
+      "deployedAt": "2025-04-11",
+      "primary": true
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xbfc5770631641719cd1cf809d8325b146aed19de",
+      "deployedAt": "2025-04-11"
+    },
+    {
+      "chain": "bsc",
+      "address": "0xbfc5770631641719cd1cf809d8325b146aed19de",
+      "deployedAt": "2025-10-14"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "nest-dao-llc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.lei-lookup.com/record/254900BB9T1QYAT04892"
+      ],
+      "protocolIds": [
+        5284
+      ]
+    }
+  ]
+}

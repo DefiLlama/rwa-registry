@@ -1,0 +1,141 @@
+{
+  "identity": {
+    "slug": "ylds",
+    "symbol": "YLDS",
+    "name": "YLDS",
+    "legacyId": 190,
+    "canonicalMarketId": "YLDS"
+  },
+  "exposure": {
+    "underlying": "us-dollar"
+  },
+  "class": {
+    "structure": "yield-rwa-stable",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "rwa-stablecoins"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "SEC reporting schedule"
+  },
+  "sources": {
+    "coingeckoId": "ylds"
+  },
+  "about": {
+    "description": "YLDS is a permissioned, yield-bearing USD-denominated digital instrument issued by Figure Certificate Company (FCC) on the Provenance Blockchain. FCC's S-1/prospectus provides audited financial statements, and YLDS reserve and excess balances are reconciled and published daily on ylds.com with quarterly audits reported in issuer filings. YLDS is redeemable 24/7/365, with withdrawal timing subject to the operating hours and settlement constraints of underlying fiat payment rails and blockchain networks. YLDS can be held in self-custody via a Provenance Blockchain wallet and transferred peer-to-peer to other KYC/KYB-approved Provenance addresses, within the Figure Markets self-custody exchange experience, YLDS can be used to settle trades or lent out.",
+    "logo": "https://icons.llamao.fi/icons/rwa/ylds.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.ylds.com/"
+      ],
+      "twitter": "https://x.com/figure",
+      "docs": "https://figure.com/",
+      "linkedin": "https://www.linkedin.com/company/figure-tech",
+      "discord": "https://discord.com/invite/figuremarkets",
+      "telegram": "https://t.me/+N4gMKd2dZys3NWJh",
+      "github": "https://github.com/FigureTechnologies"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "provenance",
+      "address": "uylds.fcc",
+      "deployedAt": "2025-06-10",
+      "primary": true,
+      "labels": [
+        {
+          "address": "pb17r8ertvjfcmef23yaz7nl8gymyt6yu967jd2tekw8jdfdkxwvlss9nx3cp",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "pb176gpmy5wcyffzef084xygekg59yqm033j00he4yyn7ewfs6q27tslf3jan",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "pb152pyfwsn3r92lldgmggfrz6xlvrtngvs4e7pn93fj444req92y3qxx3f77",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "pb1pr5xuayccw2tj9ursu9ygv0uhe6qr3qjjlyx9cm7mfdwvgw94cusd3ccwg",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "pb1mk9jurdlt50h7zkvq9l3hknz5f3775x4y0sz8r",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "pb1w9ew2yu0w3c72j6j4m85daz7qch5x2w4cfm408js0ku087mq87gq4f9gcj",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "pb1dnt0an2v35w003d0qq4n3xmjsukh5jrywzym9252rhdslmfm0adqa3zn3l",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "pb1qefskl6rjdtdlqa4atzffnrl7n4dyjr4zksgu753gtps6zuu6vfqls8ttj",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "pb1vnmd0ssnwljwtchuyfjusran84xuv532e4sker7546ydywsnez5qlm8tav",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "pb1y7helaz0dfekc0exjdnc23j2kuzjscfplaneldkq5nmx6t35v5vsjuhcjl",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "sui",
+      "address": "0x08b5e9f5caa91bdeb119ce6fb044d44a533fd856bcecaa74fc705852d709f200::ylds::YLDS",
+      "deployedAt": null
+    },
+    {
+      "chain": "stellar",
+      "address": "YLDS-GAC7MOPTQLQUM3KC24AW4GHS3RLF72LPEZO54AH7EZ6TSMGRB5SOAVH3",
+      "deployedAt": "2026-04-17"
+    },
+    {
+      "chain": "tempo",
+      "address": "0x20c0000000000000000000003337951a5a9d94b2",
+      "deployedAt": "2026-09-08"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "figure-certificate-company-fcc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://cdn.figure.com/docs/markets/fcc-prospectus.pdf",
+        "https://www.sec.gov/edgar/browse/?CIK=1974395"
+      ],
+      "protocolIds": [
+        6491
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://www.ylds.com/",
+        "https://www.sec.gov/edgar/browse/?CIK=1974395"
+      ],
+      "note": "Not publicly disclosed"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "identity": {
+    "slug": "wylds",
+    "symbol": "WYLDS",
+    "name": "Wrapped YLDS",
+    "legacyId": 4403,
+    "canonicalMarketId": "WYLDS"
+  },
+  "exposure": {
+    "underlying": "us-dollar"
+  },
+  "class": {
+    "structure": "stable-yield-wrapper",
+    "type": "asset",
+    "rwaClassification": "programmable-finance",
+    "category": [
+      "rwa-wrappers",
+      "rwa-stablecoins"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Real-time proof of reserves"
+  },
+  "sources": {
+    "coingeckoId": "hastra-wrapped-ylds"
+  },
+  "about": {
+    "description": "wYLDS is a token backed 1:1 by YLDS, the first SEC-registered yield-bearing stablecoin combining the liquidity of traditional stablecoins with the earning power of a money market fund.",
+    "logo": "https://icons.llamao.fi/icons/rwa/wylds.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://hastra.io/"
+      ],
+      "twitter": "https://x.com/HastraFi",
+      "docs": "https://help.hastra.io/",
+      "discord": "https://discord.gg/provenance"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x6ad038ca6c04e885630851278ca0a856ad9a66cc",
+      "deployedAt": "2026-04-17"
+    },
+    {
+      "chain": "solana",
+      "address": "8fr7WGTVFszfyNWRMXj6fRjZZAnDwmXwEpCrtzmUkdih",
+      "deployedAt": "2026-06-16",
+      "primary": true,
+      "labels": [
+        {
+          "address": "HLZPCTjbB29DRhucUL8cUeLcf84M6fyQZAkXbWAvTGBp",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "tempo",
+      "address": "0x20c00000000000000000000030fdd4a919e93fcf",
+      "deployedAt": "2026-07-29"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "signum-limited-doing-business-as-hastra",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://hastra.io/wylds"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://hastra.io/proof-of-reserves"
+      ],
+      "note": "no date in the export"
+    }
+  ]
+}

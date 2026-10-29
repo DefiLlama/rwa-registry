@@ -1,0 +1,102 @@
+{
+  "identity": {
+    "slug": "fuidl",
+    "symbol": "FUIDL",
+    "name": "Finloop USD Instant Digital Liquidity Token",
+    "legacyId": 4487,
+    "canonicalMarketId": "FUIDL"
+  },
+  "exposure": {
+    "underlying": "aaa-rated-investment-grade-money-market-portfolio"
+  },
+  "class": {
+    "structure": "mmf",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "bond-mmf-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "FUIDL is a tokenized USD money market product backed by AAA-rated investment-grade reserves managed under Finloop's FinCycle framework. This is the distributing share class, paired with the accumulating FUIDL-AC.",
+    "logo": "https://www.ex.io/drawing/icons/currencies/fuidl.png",
+    "links": {
+      "website": [
+        "https://www.finlooprwa.com/"
+      ],
+      "twitter": "https://x.com/FinloopHK",
+      "docs": "https://www.finlooprwa.com/"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x113458c459c84c02f8fc4609d059126021522231",
+      "deployedAt": "2026-03-05",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x5423687f5ae972b16a46de5b3b888dd7f5002d15",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xf2c6dc0e39d10aaac88c54829bc58622349d0453",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x57707e30b6b18fcb264f40c8249807e96ee70d5e",
+      "deployedAt": "2026-06-09",
+      "labels": [
+        {
+          "address": "0x5423687f5ae972b16a46de5b3b888dd7f5002d15",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xf2c6dc0e39d10aaac88c54829bc58622349d0453",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "solana",
+      "address": "HGnqz8FRb3QtxFFuepbimTufwdwiDLFVisUM9Mfts1oC",
+      "deployedAt": "2026-02-12",
+      "labels": [
+        {
+          "address": "FALhJqwXtfq6q8QFs73TpNyXRDtRg1GbMRP6ypwD3cDm",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "fosun-hani-global-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.finlooprwa.com/"
+      ]
+    },
+    {
+      "organization": "fosun-hani-global-limited",
+      "kind": "oracle"
+    }
+  ]
+}

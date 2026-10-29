@@ -1,0 +1,62 @@
+{
+  "identity": {
+    "slug": "despxa",
+    "symbol": "deSPXA",
+    "name": "SPXA deRWA (Janus Henderson Anemoy S&P500 Fund wrapper)",
+    "legacyId": 9269,
+    "canonicalMarketId": "deSPXA"
+  },
+  "exposure": {
+    "underlying": "janus-henderson-anemoy-s-p500-fund"
+  },
+  "class": {
+    "structure": "single-asset-wrapper",
+    "type": "wrapper",
+    "rwaClassification": "programmable-finance",
+    "category": [
+      "rwa-wrappers",
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "deSPXA is a deRWA token: a freely transferable, fully onchain instrument linked to SPXA, the tokenized Janus Henderson Anemoy S&P500 Fund, whose underlying assets are the equities of the S&P 500 Index. It packages the fund exposure into a permissionless format composable across DeFi venues.",
+    "links": {
+      "website": [
+        "https://app.centrifuge.io/pool/281474976710668"
+      ],
+      "twitter": "https://x.com/anemoycapital",
+      "docs": "https://docs.centrifuge.io/",
+      "linkedin": "https://www.linkedin.com/company/centrifuge-io",
+      "discord": "https://discord.com/invite/yEzyUq5gxF",
+      "telegram": "https://t.me/centrifuge_chat",
+      "github": "https://github.com/centrifuge"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "base",
+      "address": "0x9c5c365e764829876243d0b289733b9d2b729685",
+      "deployedAt": "2026-03-10",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "open-market-factory-limited",
+      "kind": "issuer"
+    }
+  ]
+}

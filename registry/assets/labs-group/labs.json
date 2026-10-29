@@ -1,0 +1,70 @@
+{
+  "identity": {
+    "slug": "labs",
+    "symbol": "LABS",
+    "name": "LABS Group",
+    "legacyId": 119,
+    "canonicalMarketId": "LABS"
+  },
+  "exposure": {
+    "underlying": "labs-group"
+  },
+  "class": {
+    "structure": "governance-token",
+    "type": "asset",
+    "rwaClassification": "non-rwa-gov-utility",
+    "category": [
+      "governance-tokens",
+      "real-estate"
+    ]
+  },
+  "terms": {
+    "cexListed": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "about": {
+    "description": "LABS Group is a real estate investment platform focused on fractional property exposure through tokenized structures. It targets smaller minimums than traditional real estate investing and has emphasized a pipeline approach to onboarding properties, enabling diversified access across regions and property types while packaging ownership economics into transferable units.",
+    "logo": "https://icons.llamao.fi/icons/rwa/labs-group.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://labsgroup.io"
+      ],
+      "twitter": "https://x.com/labsgroupio",
+      "docs": "https://docs.labsgroup.io/",
+      "linkedin": "https://www.linkedin.com/company/labs-group",
+      "discord": "https://discord.gg/3pYb3MTg",
+      "telegram": "https://t.me/labsgroupio"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "bsc",
+      "address": "0x134b372f5543c5cca30be6a796da032c8274bddf",
+      "deployedAt": "2022-02-16",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xfa9da51631268a30ec3ddd1ccbf46c65fad99251",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "labs-group-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.sfc.hk/en/alert-list/suspicious-investment-products/labs-security-token"
+      ]
+    }
+  ]
+}

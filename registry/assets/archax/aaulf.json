@@ -1,0 +1,67 @@
+{
+  "identity": {
+    "slug": "aaulf",
+    "symbol": "AAULF",
+    "name": "Archax: abrdn Liquidity Fund (Lux) - US Dollar Fund (L-1 Inc)",
+    "legacyId": 4069,
+    "canonicalMarketId": "AAULF"
+  },
+  "exposure": {
+    "underlying": "abrdn-liquidity-fund"
+  },
+  "class": {
+    "structure": "mmf",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "bond-mmf-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "A beneficial-ownership token issued by FCA-regulated digital asset exchange and custodian Archax, representing units of the abrdn Liquidity Fund (Lux) - US Dollar Fund (L-1 Inc) held in Archax custody. Tokens are issued on Hedera, are KYC-gated to onboarded professional clients, and track $1 distributing fund units one-to-one.",
+    "logo": "https://icons.llamao.fi/icons/rwa/aaulf.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://archax.com"
+      ],
+      "twitter": "https://x.com/ArchaxEx",
+      "docs": "https://archax.com"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "hedera",
+      "address": "0x00000000000000000000000000000000008f1e6a",
+      "deployedAt": null,
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x00000000000000000000000000000000009a5e16",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "archax-ltd-fca-regulated-beneficial-ownership-of-abrdn-liquidity-fund-units",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://archax.com",
+        "https://www.businesswire.com/news/home/20250224681048/en/"
+      ]
+    }
+  ]
+}

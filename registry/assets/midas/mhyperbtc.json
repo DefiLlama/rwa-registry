@@ -1,0 +1,86 @@
+{
+  "identity": {
+    "slug": "mhyperbtc",
+    "symbol": "mHyperBTC",
+    "name": "Midas mHyperBTC",
+    "legacyId": 3802,
+    "canonicalMarketId": "mHyperBTC"
+  },
+  "exposure": {
+    "underlying": "btc-denominated-market-neutral-strategies-hyperithm"
+  },
+  "class": {
+    "structure": "crypto-hedge-fund",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "crypto-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Continuous"
+  },
+  "about": {
+    "description": "mHyperBTC is a Midas-issued BTC-denominated structured certificate managed by Hyperithm. Issued via Midas under German BaFin Crypto Securities Registrar status. The strategy runs BTC market-neutral positions. Basis trading, funding-rate arbitrage, delta-neutral approaches. With reference asset and backing in BTC. NAV accrues via the Midas Attestation Engine. Chainlink PoR verifies backing. KYC at mint/redemption. Secondary transfer permissionless. Deployed on Ethereum, Monad, and Rootstock.",
+    "logo": "https://icons.llamao.fi/icons/rwa/mhyperbtc.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://midas.app/"
+      ],
+      "twitter": "https://x.com/midasrwa",
+      "docs": "https://docs.midas.app/tokens/mhyperbtc",
+      "linkedin": "https://www.linkedin.com/company/midas-rwa"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xc8495eaff71d3a563b906295fcf2f685b1783085",
+      "deployedAt": "2025-10-14",
+      "primary": true
+    },
+    {
+      "chain": "monad",
+      "address": "0xf7cf282ec810fded974f99c0163e792f432892bc",
+      "deployedAt": "2026-03-16"
+    },
+    {
+      "chain": "rsk",
+      "address": "0x7f71f02ae0945364f658860d67dbc10c86ca3a3c",
+      "deployedAt": "2026-01-07"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "midas",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://midas.app/mhyperbtc"
+      ]
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://midas.app/mhyperbtc"
+      ],
+      "note": "Continuous (Midas Attestation Engine)"
+    }
+  ]
+}

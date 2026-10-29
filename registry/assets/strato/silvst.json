@@ -1,0 +1,78 @@
+{
+  "identity": {
+    "slug": "silvst",
+    "symbol": "SILVST",
+    "name": "STRATO Silver",
+    "legacyId": 3804,
+    "canonicalMarketId": "SILVST"
+  },
+  "exposure": {
+    "underlying": "silver"
+  },
+  "class": {
+    "structure": "silver",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "gold-commodities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Monthly vaulting confirmations; periodic independent CPA audit"
+  },
+  "sources": {
+    "coingeckoId": "strato-silvst-tokenized-silver"
+  },
+  "about": {
+    "description": "SILVST is STRATO's vaulted silver token, with each token designed to represent one troy ounce of physical silver held by BA Gold Enterprises in New York City. STRATO's March 2026 audit materials reported 46,082 ounces of silver bars held as collateral for digital tokens, with larger 1,000 oz bars exchanged into smaller denominations to facilitate redemption. The asset is used inside STRATO's precious-metals DeFi stack for borrowing, liquidity, and yield strategies, while physical redemption is handled through the platform's vault process.",
+    "logo": "https://icons.llamao.fi/icons/rwa/silvst.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://strato.nexus/vaults"
+      ],
+      "twitter": "https://x.com/strato_net",
+      "docs": "https://docs.strato.nexus/",
+      "linkedin": "https://www.linkedin.com/company/blockapps",
+      "telegram": "https://t.me/strato_net",
+      "github": "https://github.com/strato-net/strato-platform"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "strato",
+      "address": "0x2c59ef92d08efde71fe1a1cb5b45f4f6d48fcc94",
+      "deployedAt": "2026-05-27",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "strato-blockapps-inc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://strato.nexus/",
+        "https://blockapps.net/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "date": "2026-03-25",
+      "links": [
+        "https://strato.nexus/vaults",
+        "https://strato.nexus/blog/precious-metals-audit-march-2026"
+      ]
+    }
+  ]
+}

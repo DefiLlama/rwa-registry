@@ -1,0 +1,72 @@
+{
+  "identity": {
+    "slug": "ibenji",
+    "symbol": "iBENJI",
+    "name": "Franklin OnChain Institutional Liquidity Fund (iBENJI)",
+    "legacyId": 3892,
+    "canonicalMarketId": "iBENJI"
+  },
+  "exposure": {
+    "underlying": "u-s-treasuries-government-securities-repos-cash"
+  },
+  "class": {
+    "structure": "mmf",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "bond-mmf-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "iBENJI represents one share of the Franklin OnChain Institutional Liquidity Fund Ltd., a BVI-domiciled money fund backed by U.S. government securities, cash, and repurchase agreements, launched March 2025 by Franklin Templeton. The fund tokenizes institutional class shares with blockchain-integrated technology to process transactions and record share ownership fully onchain. Distributed across Ethereum and BNB Chain.",
+    "logo": "https://icons.llamao.fi/icons/rwa/ibenji.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.franklintempleton.com/"
+      ],
+      "twitter": "https://x.com/FTI_US"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x90276e9d4a023b5229e0c2e9d4b2a83fe3a2b48c",
+      "deployedAt": "2025-03-24",
+      "primary": true
+    },
+    {
+      "chain": "bsc",
+      "address": "0x3d0a2a3a30a43a2c1c4b92033609245e819ae6a6",
+      "deployedAt": "2025-07-29"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "franklin-onchain-institutional-liquidity-fund-ltd",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002068319"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "no date in the export"
+    }
+  ]
+}

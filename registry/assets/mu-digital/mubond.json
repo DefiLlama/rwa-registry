@@ -1,0 +1,81 @@
+{
+  "identity": {
+    "slug": "mubond",
+    "symbol": "muBOND",
+    "name": "Mu Digital muBOND",
+    "legacyId": 199,
+    "canonicalMarketId": "muBOND"
+  },
+  "exposure": {
+    "underlying": "mu-digital-mubond"
+  },
+  "class": {
+    "structure": "structured-credit",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "private-credit"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "sources": {
+    "coingeckoId": "mu-digital-mubond"
+  },
+  "about": {
+    "description": "muBOND is Mu Digital’s junior, first-loss credit tranche that provides insurance to AZND holders. It targets higher returns in exchange for absorbing losses before AZND, with yield reflected through periodic repricing.",
+    "logo": "https://icons.llamao.fi/icons/rwa/mu-digital-mubond.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://docs.mudigital.net/protocol-overview/mubond"
+      ],
+      "twitter": "https://x.com/MuDigitalHQ",
+      "docs": "https://www.mudigital.io/",
+      "linkedin": "https://www.linkedin.com/company/mu-digital",
+      "discord": "https://discord.com/invite/MuDigital",
+      "github": "https://github.com/Mu-Digital"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "monad",
+      "address": "0x336d414754967c6682b5a665c7daf6f1409e63e8",
+      "deployedAt": "2025-11-06",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xf17ee237cb267f7f8311a88e37f823952ea7c1ec",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x09ad9c6dcadcc3ab0b3e107e8e7da69c2eea8599",
+      "deployedAt": "2026-02-27"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "mu-digital-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://find-and-update.company-information.service.gov.uk/company/13130370"
+      ],
+      "protocolIds": [
+        7055
+      ]
+    }
+  ]
+}

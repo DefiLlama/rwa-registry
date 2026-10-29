@@ -1,0 +1,70 @@
+{
+  "identity": {
+    "slug": "mg999",
+    "symbol": "MG999",
+    "name": "MG 999 On-Chain Gold Fund",
+    "legacyId": 4079,
+    "canonicalMarketId": "MG999"
+  },
+  "exposure": {
+    "underlying": "gold"
+  },
+  "class": {
+    "structure": "gold",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "gold-commodities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "MG999 is a tokenized gold-linked private credit fund managed by Singapore's MAS-regulated FundBridge Capital and issued on Libeara, a Standard Chartered-incubated platform. The fund mirrors gold spot performance while earning yield from secured lending to gold retailers, with collateral such as jewellery inventory rather than vaulted bullion.",
+    "logo": "https://icons.llamao.fi/icons/rwa/mg999.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://libeara.com"
+      ],
+      "docs": "https://libeara.com"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xe85819ec5c5c27c336a4452cf323243af7aa3039",
+      "deployedAt": "2025-11-12",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "fundbridge-capital-pte-ltd-singapore-mas-regulated",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.blockhead.co/2025/12/09/singapores-fundbridge-launches-tokenized-gold-linked-private-credit-fund/"
+      ]
+    },
+    {
+      "organization": "tokenized-on-libeara",
+      "kind": "tokenizer",
+      "sourceLinks": [
+        "https://www.blockhead.co/2025/12/09/singapores-fundbridge-launches-tokenized-gold-linked-private-credit-fund/"
+      ]
+    },
+    {
+      "organization": "libeara",
+      "kind": "oracle"
+    }
+  ]
+}

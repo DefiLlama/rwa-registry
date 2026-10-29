@@ -1,0 +1,117 @@
+{
+  "identity": {
+    "slug": "uktbl",
+    "symbol": "UKTBL",
+    "name": "Spiko UK T-Bills Money Market Fund (GBP Share)",
+    "legacyId": 671,
+    "canonicalMarketId": "UKTBL"
+  },
+  "exposure": {
+    "underlying": "spiko-uk-t-bills-money-market-fund"
+  },
+  "class": {
+    "structure": "t-bills",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "bond-mmf-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Quarterly"
+  },
+  "sources": {
+    "identifiers": [
+      {
+        "scheme": "isin",
+        "value": "FR0014012MN7",
+        "source": null,
+        "verified": false
+      }
+    ]
+  },
+  "about": {
+    "description": "Tokenized shares of the Spiko UK T-Bills Money Market Fund, a French AMF-approved money market fund investing exclusively in short-term UK Treasury Bills. Spiko states that investors can custody and transfer fund shares from their own wallet, while Spiko's smart contract architecture restricts holding to allowlisted, KYC-cleared addresses. CACEIS acts as depositary bank and fund administrator, HSBC is the sub-custodian for the Treasury Bills, and PwC is the statutory auditor, with audits performed quarterly. The prospectus provides for daily liquidity and withdrawals.",
+    "logo": "https://icons.llamao.fi/icons/rwa/uktbl.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.spiko.io/"
+      ],
+      "twitter": "https://x.com/Spiko_finance",
+      "docs": "https://docs.spiko.io/",
+      "linkedin": "https://www.linkedin.com/company/spiko-finance",
+      "github": "https://github.com/spiko-tech"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xf695df6c0f3bb45918a7a82e83348fc59517734e",
+      "deployedAt": "2025-07-16",
+      "primary": true
+    },
+    {
+      "chain": "polygon",
+      "address": "0x970e2adc2fdf53aea6b5fa73ca6dc30eafedfe3d",
+      "deployedAt": "2025-07-16"
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0x903d5990119bc799423e9c25c56518ba7dd19474",
+      "deployedAt": "2025-07-16"
+    },
+    {
+      "chain": "starknet",
+      "address": "0x0153d6e0462080bb2842109e9b64f589ef5aa06bb32b26bbdb894aca92674395",
+      "deployedAt": "2026-04-14"
+    },
+    {
+      "chain": "base",
+      "address": "0xa8de1f55aa0e381cb456e1dcc9ff781ea0079068",
+      "deployedAt": "2025-07-16"
+    },
+    {
+      "chain": "etlk",
+      "address": "0x970e2adc2fdf53aea6b5fa73ca6dc30eafedfe3d",
+      "deployedAt": "2026-01-14"
+    },
+    {
+      "chain": "stellar",
+      "address": "CDT3KU6TQZNOHKNOHNAFFDQZDURVC3MSTL4ML7TUTZGNOPBZCLABP4FR",
+      "deployedAt": "2025-10-01"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "spiko-spiko-sicav-sub-fund",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://dokumenty.analizy.pl/pobierz/fzg/SPIK001_A_USD/PE/2025-10-14"
+      ],
+      "protocolIds": [
+        4980
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://dokumenty.analizy.pl/pobierz/fzg/SPIK001_A_USD/PE/2025-10-14"
+      ],
+      "note": "Not publicly disclosed"
+    }
+  ]
+}

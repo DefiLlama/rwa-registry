@@ -1,0 +1,83 @@
+{
+  "identity": {
+    "slug": "solv",
+    "symbol": "SOLV",
+    "name": "Solv Protocol",
+    "legacyId": 65,
+    "canonicalMarketId": "SOLV"
+  },
+  "exposure": {
+    "underlying": "solv-protocol"
+  },
+  "class": {
+    "structure": "governance-token",
+    "type": "asset",
+    "rwaClassification": "non-rwa-gov-utility",
+    "category": [
+      "governance-tokens",
+      "rwa-wrappers",
+      "bond-mmf-funds"
+    ]
+  },
+  "terms": {
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "sources": {
+    "coingeckoId": "solv-protocol"
+  },
+  "about": {
+    "description": "SOLV is the ecosystem token for Solv Protocol, a platform focused on turning Bitcoin into a productive asset through structured yield products and cross-chain liquidity wrappers. Solv’s design often combines BTC exposure with yield sourced from strategies that can include institutional-grade instruments such as treasury-like allocations, alongside DeFi routing. SOLV coordinates governance, incentives, and expansion across Solv’s product suite and integrations.",
+    "logo": "https://icons.llamao.fi/icons/rwa/solv-protocol.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://solv.finance"
+      ],
+      "twitter": "https://x.com/SolvProtocol/",
+      "docs": "https://docs.solv.finance/",
+      "linkedin": "https://www.linkedin.com/company/solv-protocol",
+      "discord": "https://discord.com/invite/solvprotocol",
+      "telegram": "https://t.me/Solv_Protocol",
+      "github": "https://github.com/solv-finance"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x7a56e1c57c7475ccf742a1832b028f0456652f97",
+      "deployedAt": "2024-06-27",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x0c2bc4d2698820e12e6ebe863e7b9e2650cd5b7d",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "bsc",
+      "address": "0xabe8e5cabe24cb36df9540088fd7ce1175b9bc52",
+      "deployedAt": "2024-12-23"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "solv-finance",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://solv.finance"
+      ],
+      "protocolIds": [
+        3573
+      ]
+    }
+  ]
+}

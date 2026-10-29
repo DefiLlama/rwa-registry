@@ -1,0 +1,92 @@
+{
+  "identity": {
+    "slug": "frh",
+    "symbol": "F",
+    "name": "Ford Motor Co. • Robinhood Token",
+    "legacyId": 1420,
+    "canonicalMarketId": "Frh"
+  },
+  "exposure": {
+    "underlying": "ford-motor-co"
+  },
+  "class": {
+    "structure": "equity-basket",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "yieldBearing": false
+  },
+  "sources": {
+    "identifiers": [
+      {
+        "scheme": "isin",
+        "value": "US3453708600",
+        "source": null,
+        "verified": false
+      }
+    ]
+  },
+  "about": {
+    "description": "F is a tokenized tracker certificate issued by Robinhood Markets, Inc. through Robinhood Europe UAB, deployed on Arbitrum One. It is designed to reflect the price of the F ETF in a format accessible on-chain, providing synthetic exposure rather than direct fund ownership under MiFID II regulatory oversight. Trading is available 24/5 to EU/EEA customers, and on-chain pricing is supplied through Chainlink oracle feeds.",
+    "logo": "https://icons.llamao.fi/icons/rwa/f.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://robinhood.com/stocks"
+      ],
+      "twitter": "https://x.com/RobinhoodApp",
+      "docs": "https://robinhood.com/us/en/support/",
+      "linkedin": "https://www.linkedin.com/company/robinhood-markets",
+      "discord": "https://discord.com/invite/robinhood",
+      "github": "https://github.com/robinhood"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "arbitrum",
+      "address": "0x3922ecf4e5d62564ec19fb333d69f1c162f0c085",
+      "deployedAt": "2025-06-23",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xcbdf630a858e7d87b5b08d92968ca14ca0f8f556",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xd29aa2b0584856c2b3b097595e9d4b1cd1242e05",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "robinhood",
+      "address": "0x25c288e6d899b9bc30160965ad9644c67e73be0c",
+      "deployedAt": "2026-06-10"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "robinhood-markets-inc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://robinhood.com/eu/en/about/"
+      ]
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    }
+  ]
+}

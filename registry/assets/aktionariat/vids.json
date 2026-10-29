@@ -1,0 +1,82 @@
+{
+  "identity": {
+    "slug": "vids",
+    "symbol": "VIDS",
+    "name": "Vidby Shares",
+    "legacyId": 2984,
+    "canonicalMarketId": "VIDS"
+  },
+  "exposure": {
+    "underlying": "vidby"
+  },
+  "class": {
+    "structure": "pe-venture",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "about": {
+    "description": "Tokenized shares of vidby, an AI-enabled video translation, dubbing, and subtitling company serving global enterprises and creators, issued on Ethereum via Aktionariat.",
+    "logo": "https://icons.llamao.fi/icons/rwa/vids.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://vidby.com/investors"
+      ],
+      "twitter": "https://x.com/aktionariat",
+      "docs": "https://docs.aktionariat.com/",
+      "linkedin": "https://www.linkedin.com/company/aktionariat-ag"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xe221db71c5c527149bdf56c4d13a54cf55e543c1",
+      "deployedAt": "2022-07-05",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x38e2b267bd38092230e04b33584191055ac5eebc",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "technologies-of-understanding-ag",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://vidby.com/investors",
+        "https://www.aktionariat.com/"
+      ]
+    },
+    {
+      "organization": "aktionariat-ag",
+      "kind": "tokenizer",
+      "sourceLinks": [
+        "https://vidby.com/investors",
+        "https://www.aktionariat.com/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "No public attestation date found"
+    }
+  ]
+}

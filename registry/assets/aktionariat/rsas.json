@@ -1,0 +1,82 @@
+{
+  "identity": {
+    "slug": "rsas",
+    "symbol": "RSAS",
+    "name": "Revario Shares",
+    "legacyId": 2985,
+    "canonicalMarketId": "RSAS"
+  },
+  "exposure": {
+    "underlying": "revario"
+  },
+  "class": {
+    "structure": "pe-venture",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "about": {
+    "description": "Tokenized shares of Revario SA, a Swiss sustainable-fashion brand promoting local production and lower-impact apparel, issued on Ethereum via Aktionariat.",
+    "logo": "https://icons.llamao.fi/icons/rwa/rsas.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.revario.ch/pages/crowdinvesting"
+      ],
+      "twitter": "https://x.com/aktionariat",
+      "docs": "https://docs.aktionariat.com/",
+      "linkedin": "https://www.linkedin.com/company/aktionariat-ag"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xbc8538387481dfb0c6a5acb62226b3144d60e108",
+      "deployedAt": "2025-08-12",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x4bb3c05dbf07c3167993cf7ad3c6ffae65fc0378",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "revario-sa",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.revario.ch/pages/crowdinvesting",
+        "https://www.aktionariat.com/"
+      ]
+    },
+    {
+      "organization": "aktionariat-ag",
+      "kind": "tokenizer",
+      "sourceLinks": [
+        "https://www.revario.ch/pages/crowdinvesting",
+        "https://www.aktionariat.com/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "No public attestation date found"
+    }
+  ]
+}

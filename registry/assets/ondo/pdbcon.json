@@ -1,0 +1,116 @@
+{
+  "identity": {
+    "slug": "pdbcon",
+    "symbol": "PDBCon",
+    "name": "Invesco Optimum Yld Dvsfd Cmd Str No K-1 ETF (Ondo Tokenized)",
+    "legacyId": 740,
+    "canonicalMarketId": "PDBCon"
+  },
+  "exposure": {
+    "underlying": "invesco-optimum-yld-dvsfd-cmd-str-no-k-1-etf"
+  },
+  "class": {
+    "structure": "equity-basket",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities",
+      "gold-commodities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "cexListed": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Daily"
+  },
+  "sources": {
+    "coingeckoId": "invesco-optimum-yld-dvsfd-cmd-str-no-k-1-etf-ondo-tokenized-etf",
+    "identifiers": [
+      {
+        "scheme": "isin",
+        "value": "US46090F1003",
+        "source": null,
+        "verified": false
+      }
+    ]
+  },
+  "about": {
+    "description": "PDBCon is an Ondo Global Markets tokenized ETF exposure designed to provide economic exposure to =SUBSTITUTE(A171, \", \") in an onchain format. The token is designed to be fully backed by the underlying publicly traded ETF, together with cash in transit, held with regulated custodial broker-dealers. Holdings attestations and ongoing reporting are surfaced through Ondo trust and transparency materials and the product asset page. Tokenholders are not shareholders of the underlying and do not receive shareholder voting rights. Distributions, where applicable, are reflected through total return mechanics and reinvestment adjustments.",
+    "logo": "https://icons.llamao.fi/icons/rwa/pdbc.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://app.ondo.finance/assets/pdbcon"
+      ],
+      "twitter": "https://x.com/ondofinance",
+      "docs": "https://docs.ondo.finance/",
+      "linkedin": "https://www.linkedin.com/company/ondofinance",
+      "discord": "https://discord.com/invite/ondofinance",
+      "telegram": "https://t.me/ondofinance",
+      "github": "https://github.com/ondoprotocol"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x46c0a02a877c1412cb32b57028b2f771c0364a7e",
+      "deployedAt": "2025-12-10",
+      "primary": true
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xf2315b646624f6904ed5fe6ffcfa581f75146e73",
+      "deployedAt": "2025-12-10"
+    },
+    {
+      "chain": "bsc",
+      "address": "0xcf3e84e62002ca459db81b2032d7fe13715bad51",
+      "deployedAt": "2025-12-10"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x4bd6862ca2c8cdb5217189e264c6185fd7692482",
+      "deployedAt": "2025-12-10"
+    },
+    {
+      "chain": "solana",
+      "address": "M6agiXbNgy8Xon9ngiW4ZDPbMFcNCTMkMMkshZyondo",
+      "deployedAt": "2025-12-31"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "ondo-global-markets-bvi-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.ondo.finance/ondo-global-markets/legal-and-regulatory"
+      ],
+      "protocolIds": [
+        2542,
+        6650
+      ]
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://app.ondo.finance/assets/pdbcon"
+      ],
+      "note": "Daily (ongoing)"
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "identity": {
+    "slug": "mim",
+    "symbol": "MIM",
+    "name": "Magic Internet Money",
+    "legacyId": 621,
+    "canonicalMarketId": "MIM"
+  },
+  "exposure": {
+    "underlying": "us-dollar"
+  },
+  "class": {
+    "structure": "crypto-stable",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "non-rwa-stablecoins"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "cexListed": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "sources": {
+    "coingeckoId": "magic-internet-money"
+  },
+  "about": {
+    "description": "MIM is the stablecoin minted by Abracadabra’s lending markets, where users borrow against interest-bearing crypto collateral (e.g., yield vault shares, LP tokens). Peg stability depends on overcollateralization and liquidation risk management across many collateral types, which can create complex cross-protocol contagion risk. Key risks include collateral depegs, liquidation cascades, oracle risk, and smart-contract risk across the integrated DeFi stack.",
+    "logo": "https://icons.llamao.fi/icons/rwa/magic-internet-money.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://abracadabra.money/"
+      ],
+      "twitter": "https://x.com/AbracadabraMoney",
+      "docs": "https://abracadabra.money/",
+      "discord": "https://discord.com/invite/mim",
+      "telegram": "https://t.me/abracadabramoney",
+      "github": "https://github.com/Abracadabra-money"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "arbitrum",
+      "address": "0x957a8af7894e76e16db17c2a913496a4e60b7090",
+      "deployedAt": "2023-06-05"
+    },
+    {
+      "chain": "avax",
+      "address": "0xb3a66127ccb143bfb01d3aecd3ce9d17381b130d",
+      "deployedAt": "2023-06-05"
+    },
+    {
+      "chain": "base",
+      "address": "0x4035957323fc05ad9704230e3dc1e7663091d262",
+      "deployedAt": "2023-08-01"
+    },
+    {
+      "chain": "berachain",
+      "address": "0x5b82028cfc477c4e7dda7ff33d59a23fa7be002a",
+      "deployedAt": "2025-01-23"
+    },
+    {
+      "chain": "blast",
+      "address": "0x76da31d7c9cbeae102aff34d3398bc450c8374c1",
+      "deployedAt": "2024-02-29"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x41d5a04b4e03dc27dc1f5c5a576ad2187bc601af",
+      "deployedAt": "2023-06-05"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x439a5f0f5e8d149dda9a0ca367d4a8e4d6f83c10",
+      "deployedAt": "2023-06-05",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xdf2c270f610dc35d8ffda5b453e74db5471e126b",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "fantom",
+      "address": "0xc5c01568a3b5d8c203964049615401aaf0783191",
+      "deployedAt": "2021-09-04"
+    },
+    {
+      "chain": "fraxtal",
+      "address": "0x8c6bf92b92289de338a167b789a684103722d1a3",
+      "deployedAt": "2024-03-09"
+    },
+    {
+      "chain": "harmony",
+      "address": "0x878e35d250e332b3fb4e65f852876973f1495ece",
+      "deployedAt": "2025-01-01"
+    },
+    {
+      "chain": "kava",
+      "address": "0xc7a161cfd0e133d289b13692b636b8e8b5cd8d8c",
+      "deployedAt": "2023-08-15"
+    },
+    {
+      "chain": "moonriver",
+      "address": "0xef2dbdfec54c466f7ff92c9c5c75abb6794f0195",
+      "deployedAt": "2023-06-05"
+    },
+    {
+      "chain": "nibiru",
+      "address": "0xfcfc58685101e2914cbcf7551b432500db84eaa8",
+      "deployedAt": "2025-06-07"
+    },
+    {
+      "chain": "optimism",
+      "address": "0x48686c24697fe9042531b64d792304e514e74339",
+      "deployedAt": "2023-06-05"
+    },
+    {
+      "chain": "polygon",
+      "address": "0x01288e04435bfcd4718ff203d6ed18146c17cd4b",
+      "deployedAt": "2021-06-18"
+    },
+    {
+      "chain": "solana",
+      "address": "2ASbApnFVSTp2RJvMLgLVfbDwJvu1FRXdhJWrGs89Lhj",
+      "deployedAt": "2021-11-26"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "abracadabra-money",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://abracadabra.money/",
+        "https://docs.abracadabra.money/"
+      ]
+    }
+  ]
+}

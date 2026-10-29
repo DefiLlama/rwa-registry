@@ -1,0 +1,77 @@
+{
+  "identity": {
+    "slug": "cbrsrh",
+    "symbol": "CBRS",
+    "name": "Cerebras Systems • Robinhood Token",
+    "legacyId": 4492,
+    "canonicalMarketId": "CBRSrh"
+  },
+  "exposure": {
+    "underlying": "cerebras-systems-inc"
+  },
+  "class": {
+    "structure": "synthetic-stock",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "yieldBearing": false
+  },
+  "sources": {
+    "identifiers": [
+      {
+        "scheme": "isin",
+        "value": "US15675D1037",
+        "source": null,
+        "verified": false
+      }
+    ]
+  },
+  "about": {
+    "description": "CBRS is a tokenized tracker certificate issued by Robinhood Markets, Inc. through its European subsidiary Robinhood Europe UAB, deployed as an ERC-20 token on Robinhood Chain (chainId 4663). It is designed to provide synthetic price exposure to CBRS rather than direct share ownership, operating under MiFID II regulatory oversight. The token is available to EU/EEA customers with 24/5 commission-free trading, and on-chain pricing is supplied through Chainlink oracle feeds.",
+    "logo": "https://icons.llamao.fi/icons/rwa/cbrs.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://robinhood.com/stocks"
+      ],
+      "twitter": "https://x.com/RobinhoodApp",
+      "docs": "https://robinhood.com/us/en/support/",
+      "linkedin": "https://www.linkedin.com/company/robinhood-markets",
+      "discord": "https://discord.com/invite/robinhood",
+      "github": "https://github.com/robinhood"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "robinhood",
+      "address": "0x5c90450bbb4273d7b2f17cf6917aeb237a569679",
+      "deployedAt": "2026-06-10",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "robinhood-markets-inc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://robinhood.com/eu/en/about/"
+      ]
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    }
+  ]
+}

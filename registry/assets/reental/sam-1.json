@@ -1,0 +1,72 @@
+{
+  "identity": {
+    "slug": "sam-1",
+    "symbol": "SAM-1",
+    "name": "REENTAL - SAMANA 1",
+    "legacyId": 9612,
+    "canonicalMarketId": "SAM-1"
+  },
+  "exposure": {
+    "underlying": "samana-1"
+  },
+  "class": {
+    "structure": "single-property",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "real-estate"
+    ]
+  },
+  "terms": {
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "Reental-SAM-1 is Reental's tokenized interest in Samana 1 (USD-denominated), issued on Polygon at a fixed 100 USD per token. The token's AssetOracle publishes that issue price, not a revalued mark: it is pinned at exactly $100 and has never moved. No attestation, no redemption price and no secondary market (transfers are whitelist-gated).",
+    "logo": "https://icons.llamao.fi/icons/rwa/sam-1.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.reental.co/"
+      ],
+      "twitter": "https://x.com/Reental_co",
+      "docs": "https://docs.reental.co/",
+      "linkedin": "https://www.linkedin.com/company/reental"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "polygon",
+      "address": "0x69072424b70ed26ff987fcb49258b7e8f93c6d82",
+      "deployedAt": "2025-08-25",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x7653d69565a39d3a60194e8cc68a3fa8971cd785",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "reental",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://app.reental.co"
+      ]
+    },
+    {
+      "organization": "reental",
+      "kind": "oracle"
+    }
+  ]
+}

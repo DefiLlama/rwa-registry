@@ -1,0 +1,65 @@
+{
+  "identity": {
+    "slug": "atma",
+    "symbol": "ATMA",
+    "name": "ATMOSPHERA",
+    "legacyId": 2714,
+    "canonicalMarketId": "ATMA"
+  },
+  "exposure": {
+    "underlying": "atmosphera"
+  },
+  "class": {
+    "structure": "pe-venture",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "Atmosphera tokenizes revenue from live events (concerts, festivals, conferences) via the Stobox 4 platform. Part of the Evedo ecosystem. Organizers raise capital through loans or revenue-sharing models. Investors gain fractionalized access to event revenue streams with escrow protection, powered by STV3 Protocol on Arbitrum with compliance logic, investor rights, and financial data embedded on-chain. Accepts fiat and crypto investments. Ticker and contract address not yet publicly disclosed.",
+    "logo": "https://icons.llamao.fi/icons/rwa/atma.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.stobox.io/"
+      ],
+      "twitter": "https://x.com/StoboxCompany",
+      "docs": "https://docs.stobox.io/",
+      "linkedin": "https://www.linkedin.com/company/stobox-platform",
+      "discord": "https://dsc.gg/stobox",
+      "telegram": "https://t.me/stobox_community",
+      "github": "https://github.com/StoboxTechnologies"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "arbitrum",
+      "address": "0xe02635a193d275b8af4512598d2631dab04652d7",
+      "deployedAt": "2025-12-12",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "atmosphera-evedo-ecosystem",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://blog.stobox.io/stobox-welcomes-atmosphera-bringing-event-investments-on-chain/"
+      ]
+    }
+  ]
+}

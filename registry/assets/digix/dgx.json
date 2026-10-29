@@ -1,0 +1,78 @@
+{
+  "identity": {
+    "slug": "dgx",
+    "symbol": "DGX",
+    "name": "Digix Gold",
+    "legacyId": 103,
+    "canonicalMarketId": "DGX"
+  },
+  "exposure": {
+    "underlying": "gold"
+  },
+  "class": {
+    "structure": "gold",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "gold-commodities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "N/A (defunct)"
+  },
+  "about": {
+    "description": "Digix Gold (DGX) is a legacy tokenized gold project that pioneered early proof-of-asset style workflows for linking token supply to vaulted bullion. DGX was historically designed to represent a gram-denominated claim on physical gold and emphasized traceability and auditability as core primitives. The ecosystem has since seen significant wind-down and exchange delistings over time, and DGX is best viewed as a historical reference point in tokenized gold design. Officially ceased operations and withdrew from Singapore PSA licensing September 2022 and the business shut down.",
+    "logo": "https://icons.llamao.fi/icons/rwa/dgx.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://digix.global"
+      ],
+      "twitter": "https://x.com/DigixGlobal",
+      "docs": "https://digix.global/",
+      "linkedin": "https://www.linkedin.com/company/digix-global",
+      "discord": "https://discord.gg/CCDBJJC",
+      "telegram": "https://t.me/digixofficial",
+      "github": "https://github.com/digixglobal"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x4f3afec4e5a3f2a6a1a411def7d7dfe50ee057bf",
+      "deployedAt": "2018-03-22",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x75ba02c5baf9cc3e9fe01c51df3cb1437e8690d4",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "digixglobal-pte-ltd",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://raw.githubusercontent.com/DigixGlobal/digix-press-kit/master/digix-whitepaper.pdf"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "2018-07-01 (project ceased 2022)"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "identity": {
+    "slug": "openai",
+    "symbol": "OPENAI",
+    "name": "OpenAI PreStocks",
+    "legacyId": 408,
+    "canonicalMarketId": "OPENAI"
+  },
+  "exposure": {
+    "underlying": "openai"
+  },
+  "class": {
+    "structure": "pe-venture",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "sources": {
+    "coingeckoId": "openai-prestocks-2"
+  },
+  "about": {
+    "description": "OPENAI is a PreStocks token that tracks the implied valuation of OpenAI, a private AI company known for models like GPT and DALL·E. PreStocks tokens are priced in terms of valuation, and are designed to give 24/7 tradable market exposure to pre-IPO companies through an SPV-backed structure. OpenAI’s work spans frontier model research and product deployment, with an emphasis on scaling capabilities alongside responsible release and safety practices. OPENAI provides economic exposure only and does not represent ownership of OpenAI shares or grant voting, dividend, or information rights.",
+    "logo": "https://icons.llamao.fi/icons/rwa/openai.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://prestocks.com/openai"
+      ],
+      "twitter": "https://x.com/prestocks",
+      "docs": "https://prestocks.com/",
+      "linkedin": "https://www.linkedin.com/company/prestocks"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "solana",
+      "address": "PreweJYECqtQwBtpxHL171nL2K6umo692gTm7Q3rpgF",
+      "deployedAt": "2025-09-25",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "prestocks",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://prestocks.com/faq"
+      ]
+    }
+  ]
+}

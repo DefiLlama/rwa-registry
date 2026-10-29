@@ -1,0 +1,65 @@
+{
+  "identity": {
+    "slug": "wxrwa1",
+    "symbol": "WXRWA1",
+    "name": "Wrapped 158 Nelson St (Syracuse NY)",
+    "legacyId": 4606,
+    "canonicalMarketId": "WXRWA1"
+  },
+  "exposure": {
+    "underlying": "158-nelson-st-syracuse-ny-13204-single-family-residential-3bd-1-5ba-1-188-sqft-b"
+  },
+  "class": {
+    "structure": "single-property",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "real-estate"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "about": {
+    "description": "WXRWA1 is a single-property real estate token issued by 0xequity representing a fractional interest in the residential property at 158 Nelson St, Syracuse, New York 13204, United States. The property is a single-family home built in 1920 with 3 bedrooms, 1.5 bathrooms, and approximately 1,188 square feet. The offering advertises approximately 10.23 percent annualized yield. The token is issued at 10 USDC and both minting and holding require KYC allowlisting. Rental yield accrues per-second, and holders claim accrued rent by minting a yield NFT which becomes redeemable for USDC after an approximately two-week settlement window. Because ongoing on-chain proof of property collateral and independent appraisal are not publicly disclosed, WXRWA1 is classified as RWA rather than True RWA.",
+    "logo": "https://icons.llamao.fi/icons/rwa/wxrwa1.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://app.0xequity.com/"
+      ],
+      "twitter": "https://x.com/0xequityRWA",
+      "docs": "https://app.0xequity.com/",
+      "linkedin": "https://www.linkedin.com/company/0xequity",
+      "telegram": "https://t.me/oxequityRWA"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "base",
+      "address": "0xce827d203dc317cb8823098dcbe88fd3ae447482",
+      "deployedAt": "2024-12-09",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "0xequity",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://app.0xequity.com/listings/158-nelson-st"
+      ]
+    }
+  ]
+}

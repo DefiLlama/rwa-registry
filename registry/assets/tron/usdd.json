@@ -1,0 +1,92 @@
+{
+  "identity": {
+    "slug": "usdd",
+    "symbol": "USDD",
+    "name": "USDD",
+    "legacyId": 579,
+    "canonicalMarketId": "USDD"
+  },
+  "exposure": {
+    "underlying": "us-dollar"
+  },
+  "class": {
+    "structure": "crypto-stable",
+    "type": "asset",
+    "rwaClassification": "programmable-finance",
+    "category": [
+      "non-rwa-stablecoins"
+    ]
+  },
+  "terms": {
+    "cexListed": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "sources": {
+    "coingeckoId": "usdd"
+  },
+  "about": {
+    "description": "USDD is TRON DAO Reserve’s DeFi stablecoin. the peg is supported through overcollateralization, mint/burn mechanisms, and reserve-managed liquidity across TRON and EVM deployments. It is self-custody transferable and relies on protocol governance and reserve operations rather than a traditional fiat issuer.",
+    "logo": "https://icons.llamao.fi/icons/rwa/usdd.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://usdd.io/"
+      ],
+      "twitter": "https://x.com/usddio"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "arbitrum",
+      "address": "0x680447595e8b7b3aa1b43beb9f6098c79ac2ab3f",
+      "deployedAt": "2022-05-16"
+    },
+    {
+      "chain": "avax",
+      "address": "0xb514cabd09ef5b169ed3fe0fa8dbd590741e81c2",
+      "deployedAt": "2022-08-05"
+    },
+    {
+      "chain": "bittorrent",
+      "address": "0x17f235fd5974318e4e2a5e37919a209f7c37a6d1",
+      "deployedAt": "2022-04-30"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x392004bee213f1ff580c867359c246924f21e6ad",
+      "deployedAt": "2025-01-20"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x0c10bf8fcb7bf5412187a595ab97a3609160b5c6",
+      "deployedAt": "2022-04-30"
+    },
+    {
+      "chain": "fraxtal",
+      "address": "0x2d114997af7e72f69c1edc02288616d88afdc24d",
+      "deployedAt": "2024-03-09"
+    },
+    {
+      "chain": "optimism",
+      "address": "0x7113370218f31764c1b6353bdf6004d86ff6b9cc",
+      "deployedAt": "2022-05-22"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "tron-dao-reserve",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://usdd.io/",
+        "https://trondao.org/"
+      ]
+    }
+  ]
+}

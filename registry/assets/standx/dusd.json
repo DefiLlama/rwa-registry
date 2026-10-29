@@ -1,0 +1,71 @@
+{
+  "identity": {
+    "slug": "dusd",
+    "symbol": "DUSD",
+    "name": "StandX DUSD",
+    "legacyId": 605,
+    "canonicalMarketId": "DUSD"
+  },
+  "exposure": {
+    "underlying": "us-dollar"
+  },
+  "class": {
+    "structure": "crypto-stable",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "non-rwa-stablecoins"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "sources": {
+    "coingeckoId": "standx-dusd"
+  },
+  "about": {
+    "description": "DUSD is a yield-bearing dollar token issued by StandX. Users mint DUSD by depositing USDT or USDC and can redeem by swapping back to USDT/USDC through the platform. Key exposures include the quality of underlying stablecoin reserves, smart-contract and oracle risk, and StandX platform/strategy risk that supports the yield.",
+    "logo": "https://icons.llamao.fi/icons/rwa/standx-dusd.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://standx.com/"
+      ],
+      "twitter": "https://x.com/StandX_Official",
+      "refLinks": [
+        "https://standx.com/referral?code=defillama"
+      ]
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "bsc",
+      "address": "0xaf44a1e76f56ee12adbb7ba8acd3cbd474888122",
+      "deployedAt": "2025-03-14",
+      "primary": true
+    },
+    {
+      "chain": "solana",
+      "address": "DUSDt4AeLZHWYmcXnVGYdgAzjtzU5mXUVnTMdnSzAttM",
+      "deployedAt": "2025-04-09"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "standx",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://standx.com/",
+        "https://docs.standx.com/"
+      ]
+    }
+  ]
+}

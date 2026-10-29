@@ -1,0 +1,150 @@
+{
+  "identity": {
+    "slug": "lusd",
+    "symbol": "LUSD",
+    "name": "Liquity USD",
+    "legacyId": 620,
+    "canonicalMarketId": "LUSD"
+  },
+  "exposure": {
+    "underlying": "us-dollar"
+  },
+  "class": {
+    "structure": "crypto-stable",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "non-rwa-stablecoins"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "cexListed": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "sources": {
+    "coingeckoId": "liquity-usd"
+  },
+  "about": {
+    "description": "LUSD is Liquity’s decentralized USD stablecoin minted by borrowing against ETH collateral via non-custodial Troves. The peg is supported by an ETH-only collateral design, liquidation via the Stability Pool, and a built-in redemption mechanism that allows LUSD to be redeemed for ETH at face value. Key risks include ETH price shocks and liquidation dynamics, Stability Pool liquidity/absorptive capacity, and smart-contract risk.",
+    "logo": "https://icons.llamao.fi/icons/rwa/liquity-usd.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.liquity.org/"
+      ],
+      "twitter": "https://x.com/LiquityProtocol",
+      "docs": "https://docs.liquity.org/",
+      "linkedin": "https://www.linkedin.com/company/liquityprotocol",
+      "discord": "https://discord.com/invite/HFKpCdgQm6",
+      "telegram": "https://t.me/liquityprotocol",
+      "github": "https://github.com/liquity"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "arbitrum",
+      "address": "0x8ffdf2de812095b1d19cb146e4c004587c0a0692",
+      "deployedAt": "2023-06-20"
+    },
+    {
+      "chain": "arbitrum_nova",
+      "address": "0x14b580e57d0827d7b0f326d73ac837c51d62627d",
+      "deployedAt": "2025-01-01"
+    },
+    {
+      "chain": "avax",
+      "address": "0xda0019e7e50ee4990440b1aa5dffcac6e27ee27b",
+      "deployedAt": "2022-03-01"
+    },
+    {
+      "chain": "base",
+      "address": "0x368181499736d0c0cc614dbb145e2ec1ac86b8c6",
+      "deployedAt": "2023-11-02"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x181002d60d504d30a39601ae13af3191cb102580",
+      "deployedAt": "2022-03-01"
+    },
+    {
+      "chain": "era",
+      "address": "0x503234f203fc7eb888eec8513210612a43cf6115",
+      "deployedAt": "2023-04-14"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x3fe6a295459fae07df8a0cecc36f37160fe86aa9",
+      "deployedAt": "2023-02-20",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xf06016d822943c42e3cb7fc3a6a3b1889c1045f8",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "fantom",
+      "address": "0x16365b45eb269b5b5dacb34b4a15399ec79b95eb",
+      "deployedAt": "2022-03-01"
+    },
+    {
+      "chain": "fraxtal",
+      "address": "0x873fe38a08d485088f223b6439432b3096cf7010",
+      "deployedAt": "2024-03-09"
+    },
+    {
+      "chain": "linea",
+      "address": "0x63ba74893621d3d12f13cec1e86517ec3d329837",
+      "deployedAt": "2024-01-24"
+    },
+    {
+      "chain": "mantle",
+      "address": "0xf93a85d53e4af0d62bdf3a83ccfc1ecf3eaf9f32",
+      "deployedAt": "2023-07-14"
+    },
+    {
+      "chain": "optimism",
+      "address": "0x8eb270e296023e9d92081fdf967ddd7878724424",
+      "deployedAt": "2023-04-05"
+    },
+    {
+      "chain": "polygon",
+      "address": "0x23001f892c0c82b79303edc9b9033cd190bb21c7",
+      "deployedAt": "2021-04-28"
+    },
+    {
+      "chain": "polygon_zkevm",
+      "address": "0x01e9a866c361ead20ab4e838287dd464dc67a50e",
+      "deployedAt": "2023-05-25"
+    },
+    {
+      "chain": "starknet",
+      "address": "0x070a76fd48ca0ef910631754d77dd822147fe98a569b826ec85e3c33fde586ac",
+      "deployedAt": "2026-05-28"
+    },
+    {
+      "chain": "unichain",
+      "address": "0xf81b7485b4cb59645f74528d702c7f8cd72577fb",
+      "deployedAt": "2025-02-04"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "liquity",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.liquity.org/",
+        "https://docs.liquity.org/"
+      ]
+    }
+  ]
+}

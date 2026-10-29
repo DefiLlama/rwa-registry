@@ -1,0 +1,86 @@
+{
+  "identity": {
+    "slug": "apxusd",
+    "symbol": "apxUSD",
+    "name": "Apyx apxUSD",
+    "legacyId": 2841,
+    "canonicalMarketId": "apxUSD"
+  },
+  "exposure": {
+    "underlying": "us-dollar"
+  },
+  "class": {
+    "structure": "rwa-fiat-stable",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "rwa-stablecoins"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Monthly"
+  },
+  "sources": {
+    "coingeckoId": "apxusd"
+  },
+  "about": {
+    "description": "apxUSD is Apyx’s overcollateralized, non-yield-bearing synthetic dollar on Ethereum. It is backed by dividend-bearing DAT preferred shares such as STRC, while yield is routed to apyUSD. Apyx also publishes daily dashboard data and monthly accounting attestations.",
+    "logo": "https://icons.llamao.fi/icons/rwa/apyx-apxusd.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://apyx.fi"
+      ],
+      "twitter": "https://x.com/apyx_fi",
+      "docs": "https://apyx.app/",
+      "linkedin": "https://www.linkedin.com/company/apyx-asset",
+      "discord": "https://discord.gg/apyx-fi",
+      "telegram": "https://t.me/apyx_announcements",
+      "github": "https://github.com/apyx-labs",
+      "refLinks": [
+        "https://app.apyx.fi/join/3ve1q9l"
+      ]
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x98a878b1cd98131b271883b390f68d2c90674665",
+      "deployedAt": "2026-02-18",
+      "primary": true
+    },
+    {
+      "chain": "monad",
+      "address": "0x3d78455e22d5dd49709ec135a59cb1c5a87ac3c6",
+      "deployedAt": "2026-10-06"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "apyx",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.apyx.fi/resources/terms-of-service"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://docs.apyx.fi/collateral-and-custody/transparency"
+      ],
+      "note": "no date in the export"
+    }
+  ]
+}

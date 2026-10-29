@@ -1,0 +1,66 @@
+{
+  "identity": {
+    "slug": "aa-falconxusdc",
+    "symbol": "AA_FALCONXUSDC",
+    "name": "FalconX Credit Vault",
+    "legacyId": 3413,
+    "canonicalMarketId": "AA_FALCONXUSDC"
+  },
+  "exposure": {
+    "underlying": "falconx-credit-vault"
+  },
+  "class": {
+    "structure": "structured-credit",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "private-credit"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true
+  },
+  "about": {
+    "description": "The FalconX Credit Vault provides fixed-rate exposure to institutional credit lines managed by FalconX, a leading digital asset prime brokerage. Curated by M11 Credit",
+    "logo": "https://icons.llamao.fi/icons/rwa/falconx-credit-vault.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://pareto.credit/"
+      ],
+      "twitter": "https://x.com/paretocredit",
+      "docs": "https://docs.pareto.credit/",
+      "linkedin": "https://www.linkedin.com/company/pareto-credit",
+      "telegram": "https://t.me/paretocredit",
+      "github": "https://github.com/pareto-credit"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x433d5b175148da32ffe1e1a37a939e1b7e79be4d",
+      "deployedAt": "2025-06-18",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xc26a6fa2c37b38e549a4a1807543801db684f99c",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "idle-dao-llc",
+      "kind": "issuer"
+    }
+  ]
+}

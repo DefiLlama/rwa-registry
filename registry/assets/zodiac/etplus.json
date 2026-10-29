@@ -1,0 +1,76 @@
+{
+  "identity": {
+    "slug": "etplus",
+    "symbol": "eTPLUS",
+    "name": "Ember Zodiac Treasury Plus",
+    "legacyId": 9717,
+    "canonicalMarketId": "eTPLUS"
+  },
+  "exposure": {
+    "underlying": "ztplus-zodiac-s-permissionless-wrapper-of-the-tplus-fund-short-duration-self-liq"
+  },
+  "class": {
+    "structure": "structured-credit",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "private-credit"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Daily NAV via Chainlink; fund audit by Forvis Mazars, frequency not publicly disclosed"
+  },
+  "about": {
+    "description": "eTPLUS gives native on-chain access to TPLUS, a short-duration self-liquidating private credit strategy managed by Epoch Digital and targeting 8% net APY (Ember reports a 9.73% target). The portfolio spans bank payment receivables, payment processing receivables and insured trade receivables, each backed by contractual cash flows with insurance, over-collateralisation or credit enhancement; weighted average duration is under 45 days with no asset-level leverage. Deposits are allocated into zTPLUS, Zodiac's permissionless wrapper of the fund, and depositors receive eTPLUS, an ERC-4626 receipt representing proportional ownership of the vault. Deposits are synchronous and capped at 25,000,000 USDC per chain; withdrawals run on a 3-day period with a 10.84-share minimum (~USD 10,000) and a 0.05% redemption fee.",
+    "logo": "https://icons.llamao.fi/icons/rwa/etplus.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://epoch.credit/"
+      ]
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "monad",
+      "address": "0x9d753059f0abdd90b197f3be9d3cbc49bc01d31a",
+      "deployedAt": "2026-10-01",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "epoch-digital-credit",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://epoch.credit/"
+      ]
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    },
+    {
+      "organization": "ascent-fund-services",
+      "kind": "fund-administrator"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "date": "2026-10-23",
+      "links": [
+        "https://monadvision.com/address/0xDF9BF6D889D251fc22fF10D3B04A108530a818E6"
+      ]
+    }
+  ]
+}

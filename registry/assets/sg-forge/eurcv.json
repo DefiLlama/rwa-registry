@@ -1,0 +1,71 @@
+{
+  "identity": {
+    "slug": "eurcv",
+    "symbol": "EURCV",
+    "name": "EUR CoinVertible",
+    "legacyId": 595,
+    "canonicalMarketId": "EURCV"
+  },
+  "exposure": {
+    "underlying": "euro"
+  },
+  "class": {
+    "structure": "eur-stable",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "fiat-stablecoins"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "sources": {
+    "coingeckoId": "societe-generale-forge-eurcv"
+  },
+  "about": {
+    "description": "Euro-denominated stablecoin designed for onchain settlement and payments, issued by SG-FORGE (Société Générale Group). Token is intended for regulated use-cases with controlled issuance/redemption and transfer restrictions for eligible participants.",
+    "logo": "https://icons.llamao.fi/icons/rwa/eurcv.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.sgforge.com/products/eurcv"
+      ],
+      "twitter": "https://x.com/SG_Forge"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x5f7827fdeb7c20b443265fc2f40845b715385ff2",
+      "deployedAt": "2023-10-25",
+      "primary": true
+    },
+    {
+      "chain": "solana",
+      "address": "DghpMkatCiUsofbTmid3M3kAbDTPqDwKiYHnudXeGG52",
+      "deployedAt": "2026-02-11"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "soci-t-g-n-rale-forge-sg-forge",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.sgforge.com/products/eurcv",
+        "https://www.sgforge.com/sites/default/files/2024-11/eurcv_emoney_token_whitepaper.pdf"
+      ]
+    }
+  ]
+}

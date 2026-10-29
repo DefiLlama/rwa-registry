@@ -1,0 +1,68 @@
+{
+  "identity": {
+    "slug": "susd-solayer",
+    "symbol": "sUSD",
+    "name": "Solayer USD",
+    "legacyId": 19,
+    "canonicalMarketId": "sUSD-SOLAYER"
+  },
+  "exposure": {
+    "underlying": "us-dollar"
+  },
+  "class": {
+    "structure": "yield-rwa-stable",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "rwa-stablecoins"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "cexListed": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "sources": {
+    "coingeckoId": "solayer-usd"
+  },
+  "about": {
+    "description": "Solayer USD (sUSD) is a yield-bearing USD stablecoin on Solana. Solayer describes sUSD as backed by U.S. Treasury bills and structured so holders accrue Treasury-linked yield while using sUSD as a dollar-denominated settlement asset in Solana DeFi. Yield accrues using Solana Token-2022 interest-bearing mechanics.",
+    "logo": "https://icons.llamao.fi/icons/rwa/solayer-usd.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://solayer.xyz"
+      ],
+      "twitter": "https://x.com/solayer_labs",
+      "docs": "https://docs.solayer.org/",
+      "linkedin": "https://www.linkedin.com/company/solayer-labs",
+      "telegram": "https://t.me/solayer_discussion",
+      "github": "https://github.com/solayer-labs"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "solana",
+      "address": "susdabGDNbhrnCa6ncrYo81u4s9GM8ecK2UwMyZiq4X",
+      "deployedAt": "2024-11-02",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "solayer",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.solayer.org/assets/susd/yield-bearing-stablecoin/what-is-susd",
+        "https://docs.solayer.org/susd/protocol-info/litepaper"
+      ]
+    }
+  ]
+}

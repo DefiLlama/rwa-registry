@@ -1,0 +1,108 @@
+{
+  "identity": {
+    "slug": "awdh",
+    "symbol": "aWDH",
+    "name": "Waterdrop Inc aStock",
+    "legacyId": 9252,
+    "canonicalMarketId": "aWDH"
+  },
+  "exposure": {
+    "underlying": "waterdrop-inc"
+  },
+  "class": {
+    "structure": "stock-backed",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Daily"
+  },
+  "about": {
+    "description": "Tokenized Waterdrop Inc. Each token is backed 1:1 by the underlying share, purchased through a FINRA-registered broker-dealer and held in regulated custody, and is redeemable for stablecoins.",
+    "logo": "https://img.anchored.finance/logos/WDH.svg",
+    "links": {
+      "website": [
+        "https://anchored.finance/stocks"
+      ],
+      "twitter": "https://x.com/AnchoredFi",
+      "docs": "https://docs.anchored.finance/getting-started/anchored-tokens",
+      "linkedin": "https://www.linkedin.com/company/anchored-fi/",
+      "github": "https://github.com/AnchoredLabs"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x6458d4844ccaad06dbf566d1df93d8815f89d9b0",
+      "deployedAt": "2026-09-21"
+    },
+    {
+      "chain": "monad",
+      "address": "0x6458d4844ccaad06dbf566d1df93d8815f89d9b0",
+      "deployedAt": "2026-09-21",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x500769f4544c5cc75436a615101f27ff4350469a",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0x6458d4844ccaad06dbf566d1df93d8815f89d9b0",
+      "deployedAt": "2026-09-21"
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0x6458d4844ccaad06dbf566d1df93d8815f89d9b0",
+      "deployedAt": "2026-09-21"
+    },
+    {
+      "chain": "robinhood",
+      "address": "0x6458d4844ccaad06dbf566d1df93d8815f89d9b0",
+      "deployedAt": "2026-09-21"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x6458d4844ccaad06dbf566d1df93d8815f89d9b0",
+      "deployedAt": "2026-09-21"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "anchored-capital-ltd",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://anchored.finance/",
+        "https://alpaca.markets/tokenization"
+      ]
+    },
+    {
+      "organization": "anchored-finance",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://accountable.anchored.finance/"
+      ],
+      "note": "no date in the export"
+    }
+  ]
+}

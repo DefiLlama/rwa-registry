@@ -1,0 +1,62 @@
+{
+  "identity": {
+    "slug": "dia-ad-col1",
+    "symbol": "DIA-AD-COL1",
+    "name": "Anita Diamonds Collection 1",
+    "legacyId": 661,
+    "canonicalMarketId": "DIA-AD-COL1"
+  },
+  "exposure": {
+    "underlying": "diamonds"
+  },
+  "class": {
+    "structure": "other-commodity",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "gold-commodities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "about": {
+    "description": "DIA-AD-COL1 provides tokenized exposure to Anita Diamonds Collection 1, a curated portfolio of certified polished diamonds held in the UAE. The structure is designed to link tokens to specific inventory and certification records, enabling clearer audit trails than typical commodity-style claims and supporting regulated distribution. It targets fractional access to a defined diamond collection, with verification anchored in issuer disclosures and public asset identifiers.",
+    "logo": "https://icons.llamao.fi/icons/rwa/dia-ad-col1.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://ctrl-alt.co/press-releases/billiton-ctrl-alt-diamond-tokenization"
+      ],
+      "twitter": "https://x.com/CtrlAltCo"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ripple",
+      "address": "4449412D41442D434F4C31000000000000000000.rDgoZHy4SLPs4jhJZqkyaXX4iEsEUkCAVp",
+      "deployedAt": null,
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "ctrl-alt",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://ctrl-alt.co/press-releases/billiton-ctrl-alt-diamond-tokenization",
+        "https://ctrl-alt.co/"
+      ]
+    }
+  ]
+}

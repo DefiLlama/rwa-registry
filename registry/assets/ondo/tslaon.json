@@ -1,0 +1,115 @@
+{
+  "identity": {
+    "slug": "tslaon",
+    "symbol": "TSLAon",
+    "name": "Tesla (Ondo Tokenized Stock)",
+    "legacyId": 294,
+    "canonicalMarketId": "TSLAon"
+  },
+  "exposure": {
+    "underlying": "tesla-inc"
+  },
+  "class": {
+    "structure": "stock-backed",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "cexListed": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Daily"
+  },
+  "sources": {
+    "coingeckoId": "tesla-ondo-tokenized-stock",
+    "identifiers": [
+      {
+        "scheme": "isin",
+        "value": "US88160R1014",
+        "source": null,
+        "verified": false
+      }
+    ]
+  },
+  "about": {
+    "description": "TSLAon is an Ondo Global Markets tokenized stock exposure designed to provide economic exposure to Tesla in an onchain format. The token is designed to be fully backed by the underlying publicly traded asset, together with cash in transit, held with regulated custodial broker-dealers. Holdings attestations and ongoing reporting are surfaced through Ondo trust and transparency materials and the product asset page. Tokenholders are not shareholders of the underlying and do not receive shareholder voting rights. Dividend value is reflected through total return mechanics. Ondo Global Markets adjusts the token to account for dividends net of withholding taxes and reinvests that value into additional shares, increasing the shares per token over time instead of paying cash dividends directly to tokenholders.",
+    "logo": "https://icons.llamao.fi/icons/rwa/tsla.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://app.ondo.finance/assets/tslaon"
+      ],
+      "twitter": "https://x.com/ondofinance",
+      "docs": "https://docs.ondo.finance/",
+      "linkedin": "https://www.linkedin.com/company/ondofinance",
+      "discord": "https://discord.com/invite/ondofinance",
+      "telegram": "https://t.me/ondofinance",
+      "github": "https://github.com/ondoprotocol"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xf6b1117ec07684d3958cad8beb1b302bfd21103f",
+      "deployedAt": "2025-07-16",
+      "primary": true
+    },
+    {
+      "chain": "bsc",
+      "address": "0x2494b603319d4d9f9715c9f4496d9e0364b59d93",
+      "deployedAt": "2025-10-09"
+    },
+    {
+      "chain": "solana",
+      "address": "KeGv7bsfR4MheC1CkmnAVceoApjrkvBhHYjWb67ondo",
+      "deployedAt": "2026-02-17"
+    },
+    {
+      "chain": "hyperliquid",
+      "address": "0x417883b1709545f1211a25b00ad13455fc7f1bc5",
+      "deployedAt": "2026-03-27"
+    },
+    {
+      "chain": "robinhood",
+      "address": "0xb197f36c25ba9b66960688882a4dc595c6b04309",
+      "deployedAt": "2026-10-07"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "ondo-global-markets-bvi-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.ondo.finance/ondo-global-markets/legal-and-regulatory"
+      ],
+      "protocolIds": [
+        2542,
+        6650
+      ]
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://app.ondo.finance/assets/tslaon"
+      ],
+      "note": "Daily (ongoing)"
+    }
+  ]
+}

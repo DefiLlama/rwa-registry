@@ -1,0 +1,59 @@
+{
+  "identity": {
+    "slug": "bsfg-ad-1",
+    "symbol": "BSFG-AD-1",
+    "name": "Berkeley Square UAE SME Portfolio 1",
+    "legacyId": 9048,
+    "canonicalMarketId": "BSFG-AD-1"
+  },
+  "exposure": {
+    "underlying": "uae-sme-corporate-credit-aed"
+  },
+  "class": {
+    "structure": "credit-pool",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "private-credit"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "UAE SME corporate credit portfolio, tokenized on Aptos via the PACT platform. On-chain loan book 'Berkeley Square UAE SME Portfolio 1 Loan Book' (459 per-loan NFTs), denominated in the zAED zero-value token. Tokenization type is Represented (not freely transferable).",
+    "logo": "https://icons.llamao.fi/icons/rwa/bsfg-ad-1.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://pact.foundation/"
+      ],
+      "twitter": "https://x.com/pactfinance"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "aptos",
+      "address": "0xb3907e0273c705c517c3f0e2000964d7b24916e08193bdda7068c300dd8f69c8",
+      "deployedAt": "2026-09-03",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "berkeley-square-finance-group-via-pact",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://pact.foundation/"
+      ]
+    }
+  ]
+}

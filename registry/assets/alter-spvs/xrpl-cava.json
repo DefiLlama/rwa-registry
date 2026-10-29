@@ -1,0 +1,68 @@
+{
+  "identity": {
+    "slug": "xrpl-cava",
+    "symbol": "CAVA",
+    "name": "Carbovanta Advanced Materials",
+    "legacyId": 4483,
+    "canonicalMarketId": "xrpl:CAVA"
+  },
+  "exposure": {
+    "underlying": "carbovanta-advanced-materials"
+  },
+  "class": {
+    "structure": "pe-venture",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "about": {
+    "description": "CAVA is an XRPL-issued token representing an economic interest in an Alter SPVs investment vehicle that holds an early-stage venture investment in Carbovanta Advanced Materials. Carbovanta develops graphene, carbon nanomaterials, conductive materials, coatings, thermal materials, and industrial carbon technologies for commercial applications. Carbovanta does not issue, administer, market, or operate the token, and the operating business remains entirely separate from the tokenization structure.",
+    "logo": "https://alterspv.com/cava.png",
+    "links": {
+      "website": [
+        "https://carbovanta.com/"
+      ],
+      "docs": "https://carbovanta.com/tokenization-disclaimer"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ripple",
+      "address": "CAVA:rDEZ8jhgxBJ5CYEy29YfnEdpFgdRBqQfXv",
+      "deployedAt": "2026-06-07",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "alter-spvs",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://carbovanta.com/tokenization-disclaimer"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://carbovanta.com/tokenization-disclaimer"
+      ],
+      "note": "no date in the export"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "identity": {
+    "slug": "a7a5",
+    "symbol": "A7A5",
+    "name": "A7A5",
+    "legacyId": 582,
+    "canonicalMarketId": "A7A5"
+  },
+  "exposure": {
+    "underlying": "united-arab-emirates-dirham"
+  },
+  "class": {
+    "structure": "other-fiat-stable",
+    "type": "asset",
+    "rwaClassification": "programmable-finance",
+    "category": [
+      "fiat-stablecoins"
+    ]
+  },
+  "terms": {
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "sources": {
+    "coingeckoId": "a7a5"
+  },
+  "about": {
+    "description": "A7A5 is a ruble-pegged stablecoin issued by Old Vector LLC (Kyrgyzstan) and deployed on Ethereum (and reported on Tron). It is designed for RUB-denominated settlement and has been linked in public reporting to Russian-focused payment/settlement flows. backing is reported as off-chain RUB bank deposits and the token is transferable in self custody.",
+    "logo": "https://icons.llamao.fi/icons/rwa/a7a5.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.a7a5.io/"
+      ],
+      "twitter": "https://x.com/A7A5official"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x6fa0be17e4bea2fcfa22ef89bf8ac9aab0ab0fc9",
+      "deployedAt": "2025-03-19",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "old-vector-llc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://etherscan.io/token/0x6fA0BE17e4beA2fCfA22ef89BF8ac9aab0AB0fc9"
+      ]
+    }
+  ]
+}

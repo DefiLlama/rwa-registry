@@ -1,0 +1,98 @@
+{
+  "identity": {
+    "slug": "vbill",
+    "symbol": "VBILL",
+    "name": "VanEck Treasury Fund",
+    "legacyId": 170,
+    "canonicalMarketId": "VBILL"
+  },
+  "exposure": {
+    "underlying": "vaneck-treasury-fund"
+  },
+  "class": {
+    "structure": "mmf",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "bond-mmf-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "sources": {
+    "coingeckoId": "vaneck-treasury-fund"
+  },
+  "about": {
+    "description": "VBILL represents tokenized fund units of the VanEck Treasury Fund, designed for qualified investors seeking short-duration U.S. Treasury exposure with daily liquidity conventions. The product is distributed through Securitize’s regulated tokenization stack, pairing NAV-based fund operations with tokenized delivery so the position can be held and transferred through digital asset rails while maintaining a traditional fund-style structure and disclosure workflow.",
+    "logo": "https://icons.llamao.fi/icons/rwa/vbill.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://securitize.io/primary-market/vaneck-vbill"
+      ],
+      "twitter": "https://x.com/Securitize",
+      "docs": "https://docs.securitize.io",
+      "linkedin": "https://www.linkedin.com/company/securitize",
+      "telegram": "https://t.me/securitize",
+      "github": "https://github.com/securitize-io"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x2255718832bc9fd3be1caf75084f4803da14ff01",
+      "deployedAt": "2025-05-12",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xd69fefe5df62373dcbde3e1f9625cf334a2dae78",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "bsc",
+      "address": "0x14d72634328c4d03bba184a48081df65f1911279",
+      "deployedAt": "2025-05-12",
+      "labels": [
+        {
+          "address": "0x5f71ffad6613accd4b65939b39f92179339b9472",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "avax",
+      "address": "0x7f4546ef315efc65336187fe3765ea779ac90183",
+      "deployedAt": "2025-05-12"
+    },
+    {
+      "chain": "solana",
+      "address": "34mJztT9am2jybSukvjNqRjgJBZqHJsHnivArx1P4xy1",
+      "deployedAt": "2025-05-12"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "vaneck-treasury-fund-ltd",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002068562&owner=exclude&count=40"
+      ],
+      "protocolIds": [
+        6639
+      ]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "identity": {
+    "slug": "mnrys",
+    "symbol": "MNRYS",
+    "name": "Monerys Security Token",
+    "legacyId": 2713,
+    "canonicalMarketId": "MNRYS"
+  },
+  "exposure": {
+    "underlying": "monerys-security"
+  },
+  "class": {
+    "structure": "pe-venture",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "about": {
+    "description": "Security token offering by Monerys AG, the first client tokenization project to go live on Stobox 4. Monerys AG is building Switzerland's first blockchain-integrated hybrid bank. Structured through two parallel paths: a Tokenized Securities Path (Reg S and Reg D for international and US accredited investors) and a Conventional Equity Path. Both paths convert 1:1 into shares of the licensed banking entity upon FINMA approval. Deployed on Arbitrum via STV3 Protocol with Fireblocks MPC wallets and Sumsub KYC integration.",
+    "logo": "https://icons.llamao.fi/icons/rwa/mnrys.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.stobox.io/"
+      ],
+      "twitter": "https://x.com/StoboxCompany",
+      "docs": "https://docs.stobox.io/",
+      "linkedin": "https://www.linkedin.com/company/stobox-platform",
+      "discord": "https://dsc.gg/stobox",
+      "telegram": "https://t.me/stobox_community",
+      "github": "https://github.com/StoboxTechnologies"
+    }
+  },
+  "review": {
+    "activeAumReviewed": false,
+    "suspicious": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "arbitrum",
+      "address": "0xc5ea652c8bae686a7eda53e285547effffad220e",
+      "deployedAt": "2025-09-18",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "monerys-ag",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://blog.stobox.io/monerys-ag-launches-first-security-token-offering-on-stobox-4/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

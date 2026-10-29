@@ -1,0 +1,73 @@
+{
+  "identity": {
+    "slug": "tru",
+    "symbol": "TRU",
+    "name": "TrueFi",
+    "legacyId": 68,
+    "canonicalMarketId": "TRU"
+  },
+  "exposure": {
+    "underlying": "truefi"
+  },
+  "class": {
+    "structure": "governance-token",
+    "type": "asset",
+    "rwaClassification": "non-rwa-gov-utility",
+    "category": [
+      "governance-tokens",
+      "private-credit"
+    ]
+  },
+  "terms": {
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "sources": {
+    "coingeckoId": "truefi"
+  },
+  "about": {
+    "description": "TRU is the governance and utility token for TrueFi, a credit marketplace that connects stablecoin lenders with borrowers and managed credit strategies. The protocol is known for structured lending products where underwriting and risk management are central, aiming to deliver predictable yield from credit rather than relying on volatile leverage. TRU coordinates governance, incentives, and risk framework evolution across TrueFi’s lending products and partners.",
+    "logo": "https://icons.llamao.fi/icons/rwa/truefi.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://truefi.io"
+      ],
+      "twitter": "https://x.com/TrueFiDAO",
+      "docs": "https://docs.truefi.io/",
+      "linkedin": "https://www.linkedin.com/company/truefi-protocol",
+      "discord": "https://discord.com/invite/truefi-dao-768936623684714517",
+      "telegram": "https://t.me/jointruefi",
+      "github": "https://github.com/TrueFi-Protocol"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x4c19596f5aaff459fa38b0f7ed92f11ae6543784",
+      "deployedAt": "2020-06-02",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xc03151bac97f692e5b71eb49635a624141f7477b",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "archblock-inc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.moneyhouse.ch/en/company/archblock-holding-ag-2003787031"
+      ]
+    }
+  ]
+}

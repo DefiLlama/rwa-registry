@@ -1,0 +1,112 @@
+{
+  "identity": {
+    "slug": "usdo",
+    "symbol": "USDO",
+    "name": "OpenEden OpenDollar",
+    "legacyId": 594,
+    "canonicalMarketId": "USDO"
+  },
+  "exposure": {
+    "underlying": "us-dollar"
+  },
+  "class": {
+    "structure": "yield-rwa-stable",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "rwa-stablecoins"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Continuous"
+  },
+  "sources": {
+    "coingeckoId": "openeden-open-dollar"
+  },
+  "about": {
+    "description": "USDO is a rebasing yield-bearing USD stablecoin issued by OpenEden Digital, a Bermuda Monetary Authority DABA-licensed segregated accounts company. It maintains a target 1 dollar redemption value and is fully backed by tokenized short-dated US Treasury bills through the OpenEden TBILL product line. Yield from the underlying Treasury portfolio accrues to holders via positive rebases of the token balance rather than a rising unit price. USDO is deployed as an EIP-1967 upgradeable ERC-20 on Ethereum, Base, BSC, and Kaia and as a Solana Token-2022 mint with transferHook and metadata extensions. A separate ERC-4626 wrapper called cUSDO offers non-rebasing DeFi composability by tokenizing USDO shares that accrue value through a rising convertToAssets rate. Continuous proof of reserves is published through Chainlink Proof of Reserve feeds and OpenEden transparency reporting.",
+    "logo": "https://icons.llamao.fi/icons/rwa/opendollar.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://openeden.com/usdo"
+      ],
+      "twitter": "https://x.com/OpenEden_X",
+      "docs": "https://docs.openeden.com/",
+      "linkedin": "https://www.linkedin.com/company/openeden",
+      "discord": "https://discord.gg/FuPtnSJmke",
+      "telegram": "https://t.me/openeden",
+      "github": "https://github.com/OpenEdenHQ",
+      "refLinks": [
+        "https://portal.openeden.com/bills-campaign?refCode=x1z3OOidAS"
+      ]
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x8238884ec9668ef77b90c6dff4d1a9f4f4823bfe",
+      "deployedAt": "2024-09-26",
+      "primary": true
+    },
+    {
+      "chain": "base",
+      "address": "0xad55aebc9b8c03fc43cd9f62260391c13c23e7c0",
+      "deployedAt": "2025-01-17"
+    },
+    {
+      "chain": "solana",
+      "address": "BnANu5CtUogLqcvBNByJuwaRvRxNtVuDcAytwjsUUtqs",
+      "deployedAt": "2025-07-16"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x302e52aff9815b9d1682473dbfb9c74f9b750aa8",
+      "deployedAt": "2025-02-20"
+    },
+    {
+      "chain": "klaytn",
+      "address": "0x87e617c7484ade79fcd90db58beb82b057facb48",
+      "deployedAt": "2026-08-28"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "openeden-digital-openeden",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://openeden.com/usdo",
+        "https://docs.openeden.com/usdo/transparency"
+      ],
+      "protocolIds": [
+        5995
+      ]
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://docs.openeden.com/usdo/transparency",
+        "https://openeden.com/usdo/transparency",
+        "https://data.chain.link/feeds/ethereum/mainnet/usdo-reserve-pro",
+        "https://data.chain.link/feeds/base/base/usdo-por"
+      ],
+      "note": "Continuous (Chainlink Proof of Reserve)"
+    }
+  ]
+}

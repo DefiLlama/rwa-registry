@@ -1,0 +1,72 @@
+{
+  "identity": {
+    "slug": "dia-fs-col1",
+    "symbol": "DIA-FS-COL1",
+    "name": "Ctrl Alt Diamonds: FS Collection 1",
+    "legacyId": 4084,
+    "canonicalMarketId": "DIA-FS-COL1"
+  },
+  "exposure": {
+    "underlying": "polished-diamonds"
+  },
+  "class": {
+    "structure": "other-commodity",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "gold-commodities"
+    ]
+  },
+  "terms": {
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "yieldBearing": false
+  },
+  "about": {
+    "description": "An XRP Ledger token representing a collection of Billiton Diamond's GIA-certified polished diamond inventory, tokenized in Dubai by VARA-licensed Ctrl Alt with Ripple enterprise custody as part of a ~$280M inventory-tokenization pilot. The tokens have not yet been distributed to investors. The full supply sits in a single inventory account pending further VARA approval.",
+    "logo": "https://icons.llamao.fi/icons/rwa/dia-fs-col1.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.ctrl-alt.co"
+      ],
+      "twitter": "https://x.com/CtrlAltCo",
+      "docs": "https://www.ctrl-alt.co"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ripple",
+      "address": "DIA-FS-COL1.rDgoZHy4SLPs4jhJZqkyaXX4iEsEUkCAVp",
+      "deployedAt": null,
+      "primary": true,
+      "labels": [
+        {
+          "address": "rGJmNemAJ4SgKkZAVjcAbCfrHRFhjQXPZB",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "billiton-diamond-dubai",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.ctrl-alt.co/press-releases/billiton-ctrl-alt-diamond-tokenization"
+      ]
+    },
+    {
+      "organization": "tokenized-by-ctrl-alt-vara-vasp-vl-25-05-002",
+      "kind": "tokenizer",
+      "sourceLinks": [
+        "https://www.ctrl-alt.co/press-releases/billiton-ctrl-alt-diamond-tokenization"
+      ]
+    }
+  ]
+}

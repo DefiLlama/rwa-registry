@@ -1,0 +1,101 @@
+{
+  "identity": {
+    "slug": "secz",
+    "symbol": "SECZ",
+    "name": "Securitize Corp. Tokenized Shares",
+    "legacyId": 4514,
+    "canonicalMarketId": "SECZ"
+  },
+  "exposure": {
+    "underlying": "securitize-corp"
+  },
+  "class": {
+    "structure": "blockchain-native-equity",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Quarterly"
+  },
+  "about": {
+    "description": "SECZ is the SEC-registered blockchain-native common stock of Securitize Holdings, Inc. (NYSE: SECZ), issued and settled natively on Solana (Token-2022) and Avalanche (permissioned ERC-20) in parallel with the traditional NYSE listing that debuted on 2026-07-02 following a business combination with Cantor Equity Partners II. On-chain and off-chain shares are equivalent primary representations of ownership, with Securitize Transfer Agent, LLC (SEC-registered) maintaining the official register and enabling movement between book-entry and on-chain positions. Access requires KYC verification. Approximately $266 million in tokenized shares landed on-chain at debut, the largest tokenized public stock at launch.",
+    "logo": "https://icons.llamao.fi/icons/rwa/secz.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://securitize.io/"
+      ],
+      "twitter": "https://x.com/Securitize",
+      "docs": "https://securitize.io"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "solana",
+      "address": "5VzwKkvynPJzcgwhBe7ESEyNgqMbo15yBu7Sehssd9ED",
+      "deployedAt": "2026-06-29",
+      "primary": true,
+      "labels": [
+        {
+          "address": "D2kGPFTyGSeeTSCA1kEzKZNrdMvYKPLdZtrmAnnK6jCS",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "B2Psxcut8sEVTSEC92ELQfK2veHUuWivuxxHToVq4irF",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "avax",
+      "address": "0x5954ff4099ac47c4d6d098a9216f3278bb8c9506",
+      "deployedAt": "2026-06-29",
+      "labels": [
+        {
+          "address": "0x59c1eacec450c57dcb9b8725d0f96635c2b676ee",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x22f53b51e4272f954f25bc377b1b759c6c5a528b",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xb40ee3fc18f7de7ac7c97e307c4ad523e0821a48",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "securitize-corp",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002094496"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "date": "2026-08-13",
+      "links": [
+        "https://www.sec.gov/Archives/edgar/data/2094496/000162828026056788/secz-20260630.htm"
+      ]
+    }
+  ]
+}

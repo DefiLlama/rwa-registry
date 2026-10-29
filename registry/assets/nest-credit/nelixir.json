@@ -1,0 +1,76 @@
+{
+  "identity": {
+    "slug": "nelixir",
+    "symbol": "NELIXIR",
+    "name": "Nest Elixir Vault",
+    "legacyId": 3003,
+    "canonicalMarketId": "NELIXIR"
+  },
+  "exposure": {
+    "underlying": "us-dollar"
+  },
+  "class": {
+    "structure": "stable-yield-wrapper",
+    "type": "wrapper",
+    "rwaClassification": "programmable-finance",
+    "category": [
+      "rwa-wrappers",
+      "rwa-stablecoins"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "sources": {
+    "coingeckoId": "nest-elixir-vault-lp"
+  },
+  "about": {
+    "description": "nELIXIR is the receipt token for Nest’s Elixir vault, bringing Elixir’s deUSD yield-bearing stablecoin into Nest as a permissionless cross-chain wrapper. Public materials describe deUSD yield as coming from a mix of treasury exposure and funding yield, and note that holders of assets such as BlackRock BUIDL and Hamilton Lane SCOPE can mint deUSD and route it into Nest. Value accrues through the vault’s NAV rather than separate coupon payments, and redemptions follow Nest settlement and liquidity mechanics.",
+    "logo": "https://icons.llamao.fi/icons/rwa/nelixir.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://nest.credit"
+      ],
+      "twitter": "https://x.com/nestcredit",
+      "docs": "https://docs.nestcredit.io/",
+      "linkedin": "https://www.linkedin.com/company/nestcredit",
+      "discord": "https://discord.gg/t9HpeFvUwS",
+      "telegram": "https://t.me/NestCredit"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "plume_mainnet",
+      "address": "0x9fbc367b9bb966a2a537989817a088afcaffdc4c",
+      "deployedAt": "2025-05-08",
+      "primary": true
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x9fbc367b9bb966a2a537989817a088afcaffdc4c",
+      "deployedAt": "2025-01-10"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "nest-dao-llc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.lei-lookup.com/record/254900BB9T1QYAT04892"
+      ],
+      "protocolIds": [
+        5284
+      ]
+    }
+  ]
+}

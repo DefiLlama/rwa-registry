@@ -1,0 +1,70 @@
+{
+  "identity": {
+    "slug": "azx1",
+    "symbol": "AZX1",
+    "name": "DOM X Arizona Copper-Gold Token",
+    "legacyId": 4653,
+    "canonicalMarketId": "AZX1"
+  },
+  "exposure": {
+    "underlying": "undisclosed-arizona-copper-gold-mining-project-specific-mine-name-operator-count"
+  },
+  "class": {
+    "structure": "commodity-basket",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "gold-commodities"
+    ]
+  },
+  "terms": {
+    "kycToTransferHold": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "about": {
+    "description": "AZX1 is the DOM X Arizona Copper-Gold Token, an Avalanche C-Chain security token issued through BridgeTower Capital's tokenization platform. BridgeTower markets AZX1 as representing exposure to a claimed eleven billion United States dollar Arizona copper-gold natural resource asset, with a technology stack that includes Chainlink Cross-Chain Interoperability Protocol, Chainlink Proof of Reserve, Chainlink NAVLink, Chainlink Runtime Environment, Iron by MoonPay for fiat and stablecoin subscription, and Securitize as SEC registered transfer agent, broker dealer, and alternative trading system partner. The token uses an EIP-3009 TransferWithAuthorization permissioned compliance token pattern with KYC, KYB, and AML checks at the protocol level. Material backing verification failures include the following. The specific Arizona mining project is not publicly named. No NI 43-101 or S-K 1300 technical report is published to substantiate the eleven billion United States dollar valuation. No United States Securities and Exchange Commission Form D or other securities filing has been located for AZX1. No private placement memorandum, legal opinion, custodian, or independent auditor is publicly disclosed. The contract has been effectively dormant since deployment in February 2026 with only administrative transactions and no visible retail holders or decentralized exchange liquidity. This row is Delisted and marked Suspicious for these reasons.",
+    "logo": "https://icons.llamao.fi/icons/rwa/azx1.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.bridgetowercapital.com/"
+      ],
+      "docs": "https://www.bridgetowercapital.com/",
+      "linkedin": "https://www.linkedin.com/company/bridgetower-capital/"
+    }
+  },
+  "review": {
+    "activeAumReviewed": false,
+    "suspicious": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "avax",
+      "address": "0x3a72f3b5a6fa1cdf30f3820c58987c25bc947698",
+      "deployedAt": "2026-02-18",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "bridgetower-capital",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001732227&type=&dateb=&owner=include&count=40"
+      ]
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

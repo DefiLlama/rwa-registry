@@ -1,0 +1,90 @@
+{
+  "identity": {
+    "slug": "aznd",
+    "symbol": "AZND",
+    "name": "Asia Dollar",
+    "legacyId": 198,
+    "canonicalMarketId": "AZND"
+  },
+  "exposure": {
+    "underlying": "us-dollar"
+  },
+  "class": {
+    "structure": "yield-rwa-stable",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "rwa-stablecoins",
+      "private-credit"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "sources": {
+    "coingeckoId": "mu-digital-aznd"
+  },
+  "about": {
+    "description": "AZND (Asia Dollar) is Mu Digital’s senior, credit-backed USD yield token supported by a diversified pool of Asia-Pacific real-world credit. AZND targets stability and steady yield, with junior-tranche protection provided by muBOND.",
+    "logo": "https://icons.llamao.fi/icons/rwa/asia-dollar.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://docs.mudigital.net/protocol-overview/asia-dollar-aznd"
+      ],
+      "twitter": "https://x.com/MuDigitalHQ",
+      "docs": "https://www.mudigital.io/",
+      "linkedin": "https://www.linkedin.com/company/mu-digital",
+      "discord": "https://discord.com/invite/MuDigital",
+      "github": "https://github.com/Mu-Digital"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "monad",
+      "address": "0x4917a5ec9fcb5e10f47cbb197abe6ab63be81fe8",
+      "deployedAt": "2025-11-06",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x7b2cba10e42e33c0a91b3216f0529eacc88392a2",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x52c66b5e7f8fde20843de900c5c8b4b0f23708a0",
+      "deployedAt": "2026-01-22"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "mu-digital-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://find-and-update.company-information.service.gov.uk/company/13130370"
+      ],
+      "protocolIds": [
+        7055
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "retirement",
+      "date": null,
+      "reason": "listed in the server's RWA_RETIRED_ZERO_IDS",
+      "note": "date not in the export"
+    }
+  ]
+}

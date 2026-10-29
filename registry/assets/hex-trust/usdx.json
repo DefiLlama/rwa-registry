@@ -1,0 +1,57 @@
+{
+  "identity": {
+    "slug": "usdx",
+    "symbol": "USDX",
+    "name": "Hex Trust USDX",
+    "legacyId": 601,
+    "canonicalMarketId": "USDX"
+  },
+  "exposure": {
+    "underlying": "us-dollar"
+  },
+  "class": {
+    "structure": "usd-stable",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "fiat-stablecoins"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "about": {
+    "description": "Fiat-backed USD stablecoin issued by Hex Trust’s HT Digital Assets brand, intended for onchain settlement and payments. Issuer presents reserve and supply figures on its website and supports mint/redeem via KYC-enabled channels.",
+    "logo": "https://icons.llamao.fi/icons/rwa/usdx.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.htdigitalassets.com/"
+      ],
+      "twitter": "https://x.com/Hex_Trust",
+      "docs": "https://www.hextrust.com/",
+      "linkedin": "https://hk.linkedin.com/company/hextrust"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [],
+  "roles": [
+    {
+      "organization": "ht-digital-assets-hex-trust",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.htdigitalassets.com/",
+        "https://docs.ozean.finance/usdx-faq"
+      ]
+    }
+  ]
+}

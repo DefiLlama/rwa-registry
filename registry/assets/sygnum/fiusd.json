@@ -1,0 +1,89 @@
+{
+  "identity": {
+    "slug": "fiusd",
+    "symbol": "FIUSD",
+    "name": "Sygnum FIUSD Liquidity Fund",
+    "legacyId": 94,
+    "canonicalMarketId": "FIUSD"
+  },
+  "exposure": {
+    "underlying": "fidelity-international-institutional-liquidity-fund"
+  },
+  "class": {
+    "structure": "mmf",
+    "type": "asset",
+    "rwaClassification": "programmable-finance",
+    "category": [
+      "bond-mmf-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Annual (ISAE 3402 Type 2)"
+  },
+  "sources": {
+    "coingeckoId": "sygnum-fiusd-liquidity-fund",
+    "identifiers": [
+      {
+        "scheme": "isin",
+        "value": "IE00BNKLND78",
+        "source": null,
+        "verified": false
+      }
+    ]
+  },
+  "about": {
+    "description": "FIUSD represents a tokenized unit exposure linked to Fidelity International’s Institutional Liquidity Fund, structured as a USD money market style product designed for liquidity and capital preservation. It targets conservative, short-duration performance consistent with institutional cash management, distributed through regulated digital asset banking and tokenization infrastructure.",
+    "logo": "https://icons.llamao.fi/icons/rwa/fiusd.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.sygnum.com"
+      ],
+      "twitter": "https://x.com/sygnumofficial",
+      "docs": "https://www.sygnum.com/",
+      "linkedin": "https://www.linkedin.com/company/sygnumofficial"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "arbitrum",
+      "address": "0xcded6b899edba762d793f44ed295248049440e1e",
+      "deployedAt": "2025-03-11",
+      "primary": true
+    },
+    {
+      "chain": "era",
+      "address": "0xcded6b899edba762d793f44ed295248049440e1e",
+      "deployedAt": null
+    }
+  ],
+  "roles": [
+    {
+      "organization": "sygnum-bank-ag",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.sygnum.com/tokenization/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "date": "2023-09-26",
+      "links": [
+        "https://www.fidelity.lu/funds/factsheet/IE00BNKLND78",
+        "https://www.fidelityinternational.com/legal/documents/FILF/en/ar.filf.en.xx.pdf"
+      ]
+    }
+  ]
+}

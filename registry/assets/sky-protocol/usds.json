@@ -1,0 +1,112 @@
+{
+  "identity": {
+    "slug": "usds",
+    "symbol": "USDS",
+    "name": "Sky Dollar",
+    "legacyId": 575,
+    "canonicalMarketId": "USDS"
+  },
+  "exposure": {
+    "underlying": "us-dollar"
+  },
+  "class": {
+    "structure": "crypto-stable",
+    "type": "asset",
+    "rwaClassification": "programmable-finance",
+    "category": [
+      "non-rwa-stablecoins"
+    ]
+  },
+  "terms": {
+    "cexListed": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "sources": {
+    "coingeckoId": "usds"
+  },
+  "about": {
+    "description": "USDS is Sky Protocol’s upgraded USD stablecoin (successor to DAI). DAI can be converted 1:1 to USDS, and new issuance is driven by overcollateralized borrowing against on-chain collateral through Sky Vaults. USDS integrates with Sky’s savings product (sUSDS) and governance framework, targeting DeFi settlement usage rather than direct retail fiat redemption.",
+    "logo": "https://icons.llamao.fi/icons/rwa/sky-dollar.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://sky.money/"
+      ],
+      "twitter": "https://twitter.com/SkyEcosystem",
+      "docs": "https://docs.sky.money/",
+      "linkedin": "https://www.linkedin.com/company/skyecosystem",
+      "discord": "https://discord.com/invite/XeZQ8HxSEN",
+      "github": "https://github.com/makerdao"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "althea",
+      "address": "0xd567b3d7b8fe3c79a1ad8da978812cfc4fa05e75",
+      "deployedAt": "2026-02-11"
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0x6491c05a82219b8d1479057361ff1654749b876b",
+      "deployedAt": "2025-01-22"
+    },
+    {
+      "chain": "base",
+      "address": "0x820c137fa70c8691f0e44dc420a5e53c168921dc",
+      "deployedAt": "2024-10-10"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xdc035d45d973e3ec169d2276ddab16f1e407384f",
+      "deployedAt": "2024-09-02",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x64a2b7cfa832fe83be6a7c1a67521b350519b9c1",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x210cfcf53d1f9648c1c4dcaee677f0cb06914364",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x37fc5d447c8c54326c62b697f674c93ead2a93a3",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xd6891d1dffda6b0b1af3524018a1ee2e608785f7",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "katana",
+      "address": "0x62d6a123e8d19d06d68cf0d2294f9a3a0362c6b3",
+      "deployedAt": "2025-05-27"
+    },
+    {
+      "chain": "solana",
+      "address": "USDSwr9ApdHk5bvJKMjzff41FfuX8bSxdKcR81vTwcA",
+      "deployedAt": "2026-02-11"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "sky-protocol-makerdao",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://sky.money/"
+      ],
+      "protocolIds": [
+        2929
+      ]
+    }
+  ]
+}

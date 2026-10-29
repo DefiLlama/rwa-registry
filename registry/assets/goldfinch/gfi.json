@@ -1,0 +1,76 @@
+{
+  "identity": {
+    "slug": "gfi",
+    "symbol": "GFI",
+    "name": "Goldfinch",
+    "legacyId": 43,
+    "canonicalMarketId": "GFI"
+  },
+  "exposure": {
+    "underlying": "goldfinch"
+  },
+  "class": {
+    "structure": "governance-token",
+    "type": "asset",
+    "rwaClassification": "non-rwa-gov-utility",
+    "category": [
+      "governance-tokens",
+      "private-credit"
+    ]
+  },
+  "terms": {
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "sources": {
+    "coingeckoId": "goldfinch"
+  },
+  "about": {
+    "description": "GFI is the governance and utility token for Goldfinch, a private credit protocol that channels crypto liquidity to real-world borrowers via underwritten credit lines and lending pools. The system is built around borrower performance, repayment behavior, and risk management rather than overcollateralized crypto positions, with loan originators and auditors coordinating access to pools. GFI is used for governance and incentive alignment across the Goldfinch ecosystem.",
+    "logo": "https://icons.llamao.fi/icons/rwa/goldfinch.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://goldfinch.finance"
+      ],
+      "twitter": "https://x.com/goldfinch_fi",
+      "docs": "https://docs.goldfinch.finance/",
+      "linkedin": "https://www.linkedin.com/company/goldfinch-finance",
+      "discord": "https://discord.com/invite/UCdYWTJzD5",
+      "telegram": "https://t.me/goldfinch_finance",
+      "github": "https://github.com/goldfinch-eng"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xdab396ccf3d84cf2d07c4454e10c8a6f5b008d2b",
+      "deployedAt": "2021-10-22",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xbeb28978b2c755155f20fd3d09cb37e300a6981f",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "goldfinch-foundation",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.sec.gov/Archives/edgar/data/1877359/000187735921000001/xslFormDX01/primary_doc.xml"
+      ],
+      "protocolIds": [
+        703
+      ]
+    }
+  ]
+}

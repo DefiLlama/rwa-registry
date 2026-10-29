@@ -1,0 +1,65 @@
+{
+  "identity": {
+    "slug": "mervcr",
+    "symbol": "MERVCR",
+    "name": "Merv Car Rental",
+    "legacyId": 2715,
+    "canonicalMarketId": "MERVCR"
+  },
+  "exposure": {
+    "underlying": "merv-car-rental"
+  },
+  "class": {
+    "structure": "pe-venture",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "about": {
+    "description": "MERVCR is a security token representing common stock in Merv Capital Ltd. (BVI), a technology-driven luxury car rental company. Deployed on Arbitrum via Stobox STV3 Protocol. Token price $10 per MERVCR. STO targeting $2M raise with minimum $1,000 investment. Investors receive monthly earnings in stablecoins tied to fleet revenue. 12-month lock-up period. 200,000 tokens minted. Max supply 200,000 (6-decimal adjusted). TVT $2.0M per Dune dashboard. Created on-chain 2026-01-06. Treasury wallet: 0x6ddbaafde80a8670d9ea6626c4adfadbb5d698b4.",
+    "logo": "https://icons.llamao.fi/icons/rwa/mervcr.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://merv.fi/"
+      ],
+      "twitter": "https://x.com/StoboxCompany",
+      "docs": "https://docs.stobox.io/",
+      "linkedin": "https://www.linkedin.com/company/stobox-platform",
+      "discord": "https://dsc.gg/stobox",
+      "telegram": "https://t.me/stobox_community",
+      "github": "https://github.com/StoboxTechnologies"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "arbitrum",
+      "address": "0x5429b3971ef7bb6b8b2561ea043a0169ab2e6573",
+      "deployedAt": "2026-01-06",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "merv-capital-ltd",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://blog.stobox.io/merv-capital-tokenizes-on-stobox/"
+      ]
+    }
+  ]
+}

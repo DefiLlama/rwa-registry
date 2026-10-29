@@ -1,0 +1,67 @@
+{
+  "identity": {
+    "slug": "cmbmint",
+    "symbol": "CMBMINT",
+    "name": "CMBI USD Money Market Fund Token",
+    "legacyId": 4075,
+    "canonicalMarketId": "CMBMINT"
+  },
+  "exposure": {
+    "underlying": "usd-money-market-fund"
+  },
+  "class": {
+    "structure": "mmf",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "bond-mmf-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "CMBMINT is a tokenized share class of the $3.8B CMB International USD Money Market Fund, issued by MAS-regulated exchange DigiFT for accredited investors. The token offers instant on-chain subscription and redemption against the Hong Kong SFC-authorized fund managed by China Merchants Bank's asset-management arm. 94% of current supply sits with a single subscriber.",
+    "logo": "https://icons.llamao.fi/icons/rwa/cmbmint.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.digift.io"
+      ],
+      "twitter": "https://x.com/DigiFTTech",
+      "docs": "https://www.digift.io"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xc9a71c8fa0f505e690cbab1012d4a4a518e03231",
+      "deployedAt": "2025-08-09",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "cmb-international-asset-management-ltd-china-merchants-bank",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.bnbchain.org/en/blog/cmb-international-and-bnb-chain-bring-3-8b-money-market-fund-onchain"
+      ]
+    },
+    {
+      "organization": "tokenized-by-digift",
+      "kind": "tokenizer",
+      "sourceLinks": [
+        "https://www.bnbchain.org/en/blog/cmb-international-and-bnb-chain-bring-3-8b-money-market-fund-onchain"
+      ]
+    }
+  ]
+}

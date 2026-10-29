@@ -1,0 +1,84 @@
+{
+  "identity": {
+    "slug": "k2",
+    "symbol": "K2",
+    "name": "Klima Protocol K2",
+    "legacyId": 3,
+    "canonicalMarketId": "K2"
+  },
+  "exposure": {
+    "underlying": "klima-protocol"
+  },
+  "class": {
+    "structure": "governance-token",
+    "type": "asset",
+    "rwaClassification": "non-rwa-gov-utility",
+    "category": [
+      "governance-tokens"
+    ]
+  },
+  "terms": {
+    "cexListed": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "sources": {
+    "coingeckoId": "klima-dao-2"
+  },
+  "about": {
+    "description": "K2 is the governance and incentive token of Klima Protocol’s dual-token architecture on Base. It helps coordinate emissions and liquidity incentives and complements kVCM, the carbon-backed asset used by the protocol for acquiring and retiring carbon credits.",
+    "logo": "https://icons.llamao.fi/icons/rwa/klima-protocol-k2.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.klimaprotocol.com/"
+      ],
+      "twitter": "https://x.com/KlimaDAO",
+      "docs": "https://docs.klimadao.finance/",
+      "linkedin": "https://www.linkedin.com/company/klima-dao",
+      "discord": "https://discord.com/invite/klimadao",
+      "telegram": "https://t.me/klimadao_official",
+      "github": "https://github.com/klimadao"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "base",
+      "address": "0x59081d974a0c635fae3e8195f34f879b591b6519",
+      "deployedAt": "2025-10-10",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x75295d12c90d59bd038d7cb7102c466f8017fa25",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xa79cd47655156b299762dfe92a67980805ce5a31",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x375c1dc69f05ff526498c8aca48805eec52861d5",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "klima-foundation",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.lei-lookup.com/record/50670046CKR3ABC11150/"
+      ],
+      "protocolIds": [
+        781
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "identity": {
+    "slug": "bcap",
+    "symbol": "BCAP",
+    "name": "Blockchain Capital III Digital Liquid Venture Fund",
+    "legacyId": 541,
+    "canonicalMarketId": "BCAP"
+  },
+  "exposure": {
+    "underlying": "blockchain-capital-iii-digital-liquid-venture-fund"
+  },
+  "class": {
+    "structure": "pe-venture",
+    "type": "asset",
+    "rwaClassification": "programmable-finance",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "about": {
+    "description": "BCAP is the tokenized limited partner interest for Blockchain Capital III Digital Liquid Venture Fund, LP. It is a venture capital vehicle that invests across blockchain and crypto infrastructure, applications, and protocols, launched in 2017, BCAP was structured alongside Blockchain Capital III, LP as one of the earliest examples of a venture fund raising capital through an Ethereum‑based security token, with Securitize supporting digital issuance and compliant ownership records. Token holders receive pro‑rata economic exposure to the fund’s underlying portfolio and any distributions from realized exits. As a venture strategy, returns are driven by portfolio company performance and the timing of liquidity events. NAV is derived from the manager’s valuation of the underlying holdings rather than on‑chain collateral.",
+    "logo": "https://icons.llamao.fi/icons/rwa/bcap.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://loop.blockchain.capital",
+        "https://bcap.invest.securitize.io"
+      ],
+      "twitter": "https://x.com/Securitize",
+      "docs": "https://docs.securitize.io",
+      "linkedin": "https://www.linkedin.com/company/securitize",
+      "telegram": "https://t.me/securitize",
+      "github": "https://github.com/securitize-io"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x1f41e42d0a9e3c0dd3ba15b527342783b43200a9",
+      "deployedAt": "2018-10-19",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xb6ffc6f5f6c98dc08348760994fe55522fe61401",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "era",
+      "address": "0x57fd71a86522dc06d6255537521886057c1772a3",
+      "deployedAt": "2025-01-14"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "blockchain-capital-tokenhub-pte-ltd",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001703926&owner=exclude&count=40"
+      ],
+      "protocolIds": [
+        6712
+      ]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "identity": {
+    "slug": "ddsc",
+    "symbol": "DDSC",
+    "name": "Dirham-Backed Stablecoin",
+    "legacyId": 4650,
+    "canonicalMarketId": "DDSC"
+  },
+  "exposure": {
+    "underlying": "united-arab-emirates-dirham"
+  },
+  "class": {
+    "structure": "other-fiat-stable",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "fiat-stablecoins"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "cexListed": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Continuous"
+  },
+  "about": {
+    "description": "DDSC (Dirham-Backed Stablecoin) is a UAE Dirham denominated stablecoin issued on ADI Chain by AEDC Stable Coin Network and Distribution L.L.C., regulated by the Central Bank of the UAE under the Payment Token Services Regulation and Stored Value Facilities framework. The issuer is backed by International Holding Company, First Abu Dhabi Bank, and Sirius International Holding, with reserves held under First Abu Dhabi Bank custody at a 1 to 1 backing to AED. The token is a private payment token that is distinct from the Central Bank of the UAE Digital Dirham Central Bank Digital Currency. CBUAE approved the operational launch in February 2026 and issued a No Objection Certificate for retail listing on VARA-regulated exchanges in July 2026. Reserves are audited monthly by Crowe with a public proof of reserves dashboard published on ddsc.ai. The contract is an EIP-1967 upgradeable proxy with six decimal places, supports pause and freeze compliance controls, and is deployed on ADI Chain, a zkSync OS Layer 2 operated by the ADI Foundation.",
+    "logo": "https://icons.llamao.fi/icons/rwa/ddsc.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.ddsc.ai/"
+      ],
+      "twitter": "https://x.com/DDSCAI",
+      "docs": "https://www.ddsc.ai/DDSC_Whitepaper.pdf"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false
+  },
+  "deployments": [
+    {
+      "chain": "adi",
+      "address": "0x1211f0cfe66739433c1330e21f4951b80e813479",
+      "deployedAt": "2026-02-10",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "aedc-stable-coin-network-and-distribution-l-l-c-cbuae-licensed-issuer",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://rulebook.centralbank.ae/en/rulebook/payment-token-services-regulation"
+      ]
+    },
+    {
+      "organization": "jointly-backed-by-international-holding-company-first-abu-dhabi-bank-and-sirius-international-holding",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://rulebook.centralbank.ae/en/rulebook/payment-token-services-regulation"
+      ]
+    },
+    {
+      "organization": "crowe",
+      "kind": "auditor"
+    },
+    {
+      "organization": "uae-central-bank",
+      "kind": "supervisor"
+    },
+    {
+      "organization": "first-abu-dhabi-bank",
+      "kind": "custodian"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://www.ddsc.ai/transparency",
+        "https://www.thenationalnews.com/future/technology/2026/02/11/ihc-sirius-and-fab-given-approval-to-launch-uae-dirham-backed-stablecoin-ddsc/",
+        "https://rulebook.centralbank.ae/en/rulebook/payment-token-services-regulation",
+        "https://decrypt.co/357832/dirham-backed-stablecoin-ddsc-launches-on-adi-chain-licensed-by-the-uae-central-bank",
+        "https://www.ledgerinsights.com/fab-backed-uae-stablecoin-ddsc-cleared-for-retail-rollout-via-crypto-exchanges/"
+      ],
+      "note": "Monthly (Crowe auditor) with daily on-chain reconciliation"
+    }
+  ]
+}

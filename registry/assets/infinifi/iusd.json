@@ -1,0 +1,70 @@
+{
+  "identity": {
+    "slug": "iusd",
+    "symbol": "IUSD",
+    "name": "infiniFi USD",
+    "legacyId": 591,
+    "canonicalMarketId": "IUSD"
+  },
+  "exposure": {
+    "underlying": "us-dollar"
+  },
+  "class": {
+    "structure": "rwa-fiat-stable",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "rwa-stablecoins"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "sources": {
+    "coingeckoId": "infinifi-usd"
+  },
+  "about": {
+    "description": "infiniFi USD (iUSD) is an ERC‑20 representing a user’s deposited value in the infiniFi protocol. iUSD can be minted and redeemed 1:1 for USDC with no mint/redeem fee. if liquid reserves are insufficient, redemptions queue until duration assets mature.",
+    "logo": "https://icons.llamao.fi/icons/rwa/infinifi-usd.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://infinifi.xyz/"
+      ],
+      "twitter": "https://x.com/infiniFi",
+      "refLinks": [
+        "https://infinifi.xyz?ref=XXKTY1S9"
+      ]
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x48f9e38f3070ad8945dfeae3fa70987722e3d89c",
+      "deployedAt": "2025-05-22",
+      "primary": true
+    },
+    {
+      "chain": "monad",
+      "address": "0x127066e1982940c33fdc882d9c138296ab15f97f",
+      "deployedAt": "2026-09-23"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "infinifi",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://infinifi.xyz/"
+      ]
+    }
+  ]
+}

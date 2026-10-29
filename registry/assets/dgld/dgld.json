@@ -1,0 +1,87 @@
+{
+  "identity": {
+    "slug": "dgld",
+    "symbol": "DGLD",
+    "name": "Digital Gold",
+    "legacyId": 9254,
+    "canonicalMarketId": "DGLD"
+  },
+  "exposure": {
+    "underlying": "gold"
+  },
+  "class": {
+    "structure": "gold",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "gold-commodities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Ad hoc - latest custodian inventory list dated 2026-08-31; no committed cadence published"
+  },
+  "sources": {
+    "coingeckoId": "gold-token-sa-dgld-tokenized-gold"
+  },
+  "about": {
+    "description": "DGLD is a digital proof of ownership of allocated physical gold vaulted in Switzerland, issued by Gold Token SA, the tokenization arm of MKS PAMP. Each token represents 1 fine troy ounce of LBMA Good Delivery PAMP gold held at Castel San Pietro. Backing verified 2026-09-21 against the 2026-08-31 GTSA custodian inventory list, which reconciles bar-for-bar to circulating supply: Ethereum 1,603.687 oz = 4 Swiss bars (PAMP C030727, C031037, C035696, C035700); Base 401.159 oz = bar C075714; Solana 407.109 oz = bar C076016; total 2,411.955 fine oz with zero delta on every leg. Each chain holds its own independently allocated bars with no bridge dependency. NOTE: a Feb 2026 exploit of a non-standard transferFrom in inherited 2022 Consensys code let the Ethereum-Base bridge mint unbacked tokens on Base; contained in ~2.5h, physical gold never at risk, two independent audits followed, the bridge path was closed 2026-06-30 and the old Base contract (0xd02f50E1017F493ffFFa70c8fCf09e349e11d6c9) was deprecated and reset to zero supply.",
+    "logo": "https://icons.llamao.fi/icons/rwa/dgld.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://dgld.ch/"
+      ],
+      "twitter": "https://x.com/DGLD_Official",
+      "docs": "https://s3.eu-central-1.amazonaws.com/gtsa.s8/dgld/documents/26.6.5_DGLD-Litepaper-v3-June2026.pdf",
+      "linkedin": "https://www.linkedin.com/company/dgld/",
+      "github": "https://github.com/orgs/goldtokensa/repositories"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xa9299c296d7830a99414d1e5546f5171fa01e9c8",
+      "deployedAt": "2022-11-03",
+      "primary": true
+    },
+    {
+      "chain": "base",
+      "address": "0xe908475f8beb7a138b0dc6eb5a05cb27068ffb9a",
+      "deployedAt": "2026-06-25"
+    },
+    {
+      "chain": "solana",
+      "address": "dg1dmo6NZNagkwB6EAfUeaco6CFXFLRhb1KCrsqXTVz",
+      "deployedAt": "2026-07-28"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "gold-token-sa",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://dgld.ch/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "date": "2026-08-31",
+      "links": [
+        "https://files.dgld.ch/reports/2026-08-31-GTSA-Inventory-List.pdf",
+        "https://explorer.dgld.ch",
+        "https://dgld.ch/news/post-incident-report-february-2026-exploit"
+      ]
+    }
+  ]
+}

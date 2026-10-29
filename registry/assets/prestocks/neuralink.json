@@ -1,0 +1,63 @@
+{
+  "identity": {
+    "slug": "neuralink",
+    "symbol": "NEURALINK",
+    "name": "Neuralink PreStocks",
+    "legacyId": 3287,
+    "canonicalMarketId": "NEURALINK"
+  },
+  "exposure": {
+    "underlying": "neuralink"
+  },
+  "class": {
+    "structure": "stock-backed",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "about": {
+    "description": "NEURALINK is a PreStocks token that tracks the implied valuation of Neuralink, a private neurotechnology company developing brain-computer interfaces. PreStocks tokens are priced in terms of valuation, and are designed to give 24/7 tradable market exposure to pre-IPO companies through an SPV-backed structure. Neuralink develops implantable brain-computer interfaces designed to translate neural signals into actions, with early clinical applications focused on helping people with paralysis control computers and mobile devices. NEURALINK provides economic exposure only and does not represent ownership of Neuralink shares or grant voting, dividend, or information rights.",
+    "logo": "https://icons.llamao.fi/icons/rwa/neuralink.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://prestocks.com/neuralink"
+      ],
+      "twitter": "https://x.com/prestocks",
+      "docs": "https://prestocks.com/",
+      "linkedin": "https://www.linkedin.com/company/prestocks"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "solana",
+      "address": "PrekqLJvJ3qVdXmBGDiexvwUTF4rLFDa6HWS4HJbw9S",
+      "deployedAt": "2026-09-10",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "prestocks",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://prestocks.com/faq"
+      ]
+    }
+  ]
+}

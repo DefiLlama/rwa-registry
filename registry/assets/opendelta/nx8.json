@@ -1,0 +1,76 @@
+{
+  "identity": {
+    "slug": "nx8",
+    "symbol": "NX8",
+    "name": "NX8",
+    "legacyId": 4475,
+    "canonicalMarketId": "NX8"
+  },
+  "exposure": {
+    "underlying": "gmci-l1-index-basket-btc-eth-sol-bnb-tron-hype-avax-sui"
+  },
+  "class": {
+    "structure": "crypto-index-fund",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "crypto-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Quarterly rebalance; semi-annual composition review"
+  },
+  "sources": {
+    "coingeckoId": "nx8"
+  },
+  "about": {
+    "description": "NX8 is a tokenized crypto-native index product that tracks the top Layer-1 networks underpinning crypto's most proven use cases. The basket is composed of BTC, ETH, SOL, BNB, TRON, HYPE, AVAX, and SUI under a methodology provided by GMCI with Nansen as ecosystem partner. NX8 is issued by OpenDelta as an SPL token on Solana and is LayerZero OFT-compatible across additional chains. The basket is rebalanced quarterly and the composition is reviewed every six months, with all positions backed by the underlying assets held in custody. Holders earn Nansen Points, staking rewards from the underlying Layer-1 networks, and treasury incentives. The product has a Moderate risk profile as Market Beta, with live integrations on Kamino for lending and Orca for DEX liquidity.",
+    "logo": "https://coin-images.coingecko.com/coins/images/71541/large/NX8_logo.png",
+    "links": {
+      "website": [
+        "https://www.opendelta.com/"
+      ],
+      "twitter": "https://x.com/opendelta_",
+      "docs": "https://docs.opendelta.com/products/nx8",
+      "telegram": "https://t.me/+JCi2SU41HCUwYjZh"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "solana",
+      "address": "NX8DuAWprqWAYDvpkkuhKnPfGRXQQhgiw85pCkgvFYk",
+      "deployedAt": "2026-06-26",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "opendelta",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.opendelta.com/",
+        "https://docs.opendelta.com/products/nx8"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://docs.opendelta.com/custody/proof-of-funds"
+      ],
+      "note": "no date in the export"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "identity": {
+    "slug": "fwdi",
+    "symbol": "FWDI",
+    "name": "Forward Industries Token",
+    "legacyId": 2722,
+    "canonicalMarketId": "FWDI"
+  },
+  "exposure": {
+    "underlying": "forward-industries-inc"
+  },
+  "class": {
+    "structure": "stock-backed",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "sources": {
+    "coingeckoId": "forward-industries-inc"
+  },
+  "about": {
+    "description": "Forward Industries tokenizes SEC-registered FWDI public shares on Solana using Superstate’s Opening Bell, enabling compliant onchain equity with programmable transfers and potential DeFi integrations, such as using tokenized shares as collateral.",
+    "logo": "https://icons.llamao.fi/icons/rwa/fwdi.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://superstate.com/assets/fwdi"
+      ],
+      "twitter": "https://x.com/SuperstateInc",
+      "docs": "https://docs.superstate.com/",
+      "linkedin": "https://www.linkedin.com/company/superstate-finance"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "solana",
+      "address": "7GzQgf6DPo6ZANjnbhe9tNCpkGTv3zqHbsDx74jyQf9",
+      "deployedAt": "2025-09-23",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "superstate",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://superstate.com/assets/fwdi"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "no date in the export"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "identity": {
+    "slug": "pds",
+    "symbol": "PDS",
+    "name": "Pension Dynamics Shares",
+    "legacyId": 2989,
+    "canonicalMarketId": "PDS"
+  },
+  "exposure": {
+    "underlying": "pensiondynamics-ag"
+  },
+  "class": {
+    "structure": "pe-venture",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "about": {
+    "description": "Tokenized shares of PensionDynamics, a Swiss software company building digital infrastructure for pension funds and related retirement workflows, issued on Ethereum via Aktionariat.",
+    "logo": "https://icons.llamao.fi/icons/rwa/pds.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://icr.ch/aktionariat/"
+      ],
+      "twitter": "https://x.com/aktionariat",
+      "docs": "https://docs.aktionariat.com/",
+      "linkedin": "https://www.linkedin.com/company/aktionariat-ag"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xa995d67fd0187b4b8fea3a60e11f31a08e4ac40b",
+      "deployedAt": "2022-06-07",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xc72429381fa2b499ef8e7f61e3343b813a61d539",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "pensiondynamics-ag",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://icr.ch/aktionariat/",
+        "https://www.aktionariat.com/"
+      ]
+    },
+    {
+      "organization": "aktionariat-ag",
+      "kind": "tokenizer",
+      "sourceLinks": [
+        "https://icr.ch/aktionariat/",
+        "https://www.aktionariat.com/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "No public attestation date found"
+    }
+  ]
+}

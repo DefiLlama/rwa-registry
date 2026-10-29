@@ -1,0 +1,82 @@
+{
+  "identity": {
+    "slug": "spxa",
+    "symbol": "SPXA",
+    "name": "Janus Henderson Anemoy S&P500® Fund",
+    "legacyId": 281,
+    "canonicalMarketId": "SPXA"
+  },
+  "exposure": {
+    "underlying": "s-p-500-index"
+  },
+  "class": {
+    "structure": "equity-basket",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Monthly factsheet + real-time NAV"
+  },
+  "about": {
+    "description": "SPXA represents tokenized fund units of the Janus Henderson Anemoy S&P 500® Fund, providing S&P 500 equity index exposure through a NAV-based fund structure issued via Centrifuge and available on Base.",
+    "logo": "https://icons.llamao.fi/icons/rwa/spx.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.anemoy.io/funds/spxa",
+        "https://app.centrifuge.io/pool/281474976710665"
+      ],
+      "twitter": "https://x.com/anemoycapital",
+      "docs": "https://docs.centrifuge.io/",
+      "linkedin": "https://www.linkedin.com/company/centrifuge-io",
+      "discord": "https://discord.com/invite/yEzyUq5gxF",
+      "telegram": "https://t.me/centrifuge_chat",
+      "github": "https://github.com/centrifuge"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "base",
+      "address": "0x09b61343097c1f9b159a3ae7151298efd10f0db2",
+      "deployedAt": "2025-09-19",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x8d566adace57ee5dd2bf98953b804991d634211a",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "anemoy-capital-spc-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.lei-lookup.com/record/2549009CBJ86SM12V633"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "date": "2026-04-30",
+      "links": [
+        "https://app.centrifuge.io/pool/281474976710665"
+      ]
+    }
+  ]
+}

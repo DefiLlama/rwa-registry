@@ -1,0 +1,236 @@
+{
+  "identity": {
+    "slug": "usde",
+    "symbol": "USDE",
+    "name": "Ethena USDe",
+    "legacyId": 83,
+    "canonicalMarketId": "USDE"
+  },
+  "exposure": {
+    "underlying": "us-dollar"
+  },
+  "class": {
+    "structure": "synthetic-stable",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "non-rwa-stablecoins"
+    ]
+  },
+  "terms": {
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Monthly (custodian attestations); Weekly (PoR from Jan 2026)"
+  },
+  "sources": {
+    "coingeckoId": "ethena-usde"
+  },
+  "about": {
+    "description": "USDe is a synthetic dollar asset designed to target price stability through collateral plus hedged positioning in derivatives markets. Its stability and yield dynamics are tied to hedge performance and the costs and returns available in perpetual and futures markets, creating a return profile that can differ meaningfully from reserve-backed cash-management products.",
+    "logo": "https://icons.llamao.fi/icons/rwa/ethena-usde.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.ethena.fi"
+      ],
+      "twitter": "https://x.com/ethena_labs",
+      "docs": "https://docs.ethena.fi/",
+      "linkedin": "https://www.linkedin.com/company/ethena-labs",
+      "telegram": "https://t.me/ethena_labs",
+      "github": "https://github.com/ethena-labs",
+      "refLinks": [
+        "https://www.app.ethena.fi/join/3y20d"
+      ]
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "arbitrum",
+      "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
+      "deployedAt": "2024-03-11"
+    },
+    {
+      "chain": "avax",
+      "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
+      "deployedAt": "2025-08-08"
+    },
+    {
+      "chain": "base",
+      "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
+      "deployedAt": "2024-06-14"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
+      "deployedAt": "2024-03-11"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x4c9edd5852cd905f086c759e8383e09bff1e68b3",
+      "deployedAt": "2023-11-14",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xa2af0b03aaf167cfc9624c6ef587581b6fcced92",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x3b0aaf6e6fcd4a7ceef8c92c32dfea9e64dc1862",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "fraxtal",
+      "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
+      "deployedAt": "2024-03-12"
+    },
+    {
+      "chain": "kava",
+      "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
+      "deployedAt": "2024-03-14"
+    },
+    {
+      "chain": "linea",
+      "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
+      "deployedAt": "2024-03-20"
+    },
+    {
+      "chain": "manta",
+      "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
+      "deployedAt": "2024-03-08"
+    },
+    {
+      "chain": "mantle",
+      "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
+      "deployedAt": "2024-03-08"
+    },
+    {
+      "chain": "mode",
+      "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
+      "deployedAt": "2024-03-12"
+    },
+    {
+      "chain": "plasma",
+      "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
+      "deployedAt": "2025-09-10"
+    },
+    {
+      "chain": "scroll",
+      "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
+      "deployedAt": "2024-03-11"
+    },
+    {
+      "chain": "solana",
+      "address": "DEkqHyPN7GMRJ5cArtQFAWefqbZb33Hyf6s5iCwjEonT",
+      "deployedAt": "2024-08-01"
+    },
+    {
+      "chain": "ton",
+      "address": "EQAIb6KmdfdDR7CN1GBqVJuP25iCnLKCvBlJ07Evuu2dzP5f",
+      "deployedAt": "2025-02-07"
+    },
+    {
+      "chain": "era",
+      "address": "0x39fe7a0dacce31bd90418e3e659fb0b5f0b3db0d",
+      "deployedAt": "2024-06-14"
+    },
+    {
+      "chain": "berachain",
+      "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
+      "deployedAt": "2025-01-23"
+    },
+    {
+      "chain": "blast",
+      "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
+      "deployedAt": "2024-04-20"
+    },
+    {
+      "chain": "hyperliquid",
+      "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
+      "deployedAt": "2025-04-28"
+    },
+    {
+      "chain": "ink",
+      "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
+      "deployedAt": "2025-10-27"
+    },
+    {
+      "chain": "megaeth",
+      "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
+      "deployedAt": "2025-12-30"
+    },
+    {
+      "chain": "metis",
+      "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
+      "deployedAt": "2024-03-11"
+    },
+    {
+      "chain": "optimism",
+      "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
+      "deployedAt": "2024-03-11"
+    },
+    {
+      "chain": "tempo",
+      "address": "0x20c0000000000000000000002f52d5cc21a3207b",
+      "deployedAt": "2026-04-13"
+    },
+    {
+      "chain": "xlayer",
+      "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
+      "deployedAt": "2024-06-14"
+    },
+    {
+      "chain": "zircuit",
+      "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
+      "deployedAt": "2024-08-28"
+    },
+    {
+      "chain": "monad",
+      "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
+      "deployedAt": "2026-06-11"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "ethena-labs-s-a",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.lei-lookup.com/record/894500K29XZNTAWSC539/"
+      ],
+      "protocolIds": [
+        4133,
+        2269,
+        2272,
+        2286,
+        3075,
+        2274,
+        2352,
+        2314,
+        2275,
+        2293,
+        2270,
+        2273,
+        6469,
+        2276,
+        4859,
+        2369,
+        5342,
+        3577
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "date": "2025-10-26"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "identity": {
+    "slug": "snxs",
+    "symbol": "SNXS",
+    "name": "Sonix Shares",
+    "legacyId": 2990,
+    "canonicalMarketId": "SNXS"
+  },
+  "exposure": {
+    "underlying": "sonix"
+  },
+  "class": {
+    "structure": "pe-venture",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "about": {
+    "description": "Tokenized shares of Sonix, a gaming-focused platform combining voice chat, tournaments, and avatar-based social features, issued on Ethereum via Aktionariat.",
+    "logo": "https://icons.llamao.fi/icons/rwa/snxs.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.sonixapp.com/"
+      ],
+      "twitter": "https://x.com/aktionariat",
+      "docs": "https://docs.aktionariat.com/",
+      "linkedin": "https://www.linkedin.com/company/aktionariat-ag"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x859336669a5aee857810e59716b0db08468f9f84",
+      "deployedAt": "2025-08-21",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x5faf3ccd8180725c42114a455abdd1abafaa990a",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "sonix-sa",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.sonixapp.com/",
+        "https://www.aktionariat.com/"
+      ]
+    },
+    {
+      "organization": "aktionariat-ag",
+      "kind": "tokenizer",
+      "sourceLinks": [
+        "https://www.sonixapp.com/",
+        "https://www.aktionariat.com/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "No public attestation date found"
+    }
+  ]
+}

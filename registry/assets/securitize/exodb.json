@@ -1,0 +1,85 @@
+{
+  "identity": {
+    "slug": "exodb",
+    "symbol": "EXODB",
+    "name": "Exodus Movement, Inc. Class B",
+    "legacyId": 542,
+    "canonicalMarketId": "EXODB"
+  },
+  "exposure": {
+    "underlying": "exodus-movement-inc"
+  },
+  "class": {
+    "structure": "stock-backed",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Annual audited with quarterly reviewed filings"
+  },
+  "about": {
+    "description": "EXODB is the onchain representation of Exodus Movement, Inc.’s Class B common stock issued through the Securitize platform. Rather than being a synthetic “wrapped” asset, the token is designed to mirror the underlying security on the issuer’s shareholder register, so ownership and transfers remain tied to the rights and restrictions of the Class B class as defined in the issuer’s charter and offering documents. Onchain, EXODB is implemented as an ERC‑20 token on Arbitrum. Class B shares typically carry different governance economics (for example, enhanced voting rights and/or class conversion mechanics) than Class A, investors should rely on the issuer’s SEC filings and governing documents for the exact rights attached to the Class B security.",
+    "logo": "https://icons.llamao.fi/icons/rwa/exod.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.exodus.com"
+      ],
+      "twitter": "https://x.com/Securitize",
+      "docs": "https://docs.securitize.io",
+      "linkedin": "https://www.linkedin.com/company/securitize",
+      "telegram": "https://t.me/securitize",
+      "github": "https://github.com/securitize-io"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "arbitrum",
+      "address": "0x116998824ff90532906bab91becea4a8e4ce06db",
+      "deployedAt": "2025-09-29",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x8f13c4c1e89cac742f998a7edd8c5d4a8cfe9e33",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "exodus-movement-inc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001821534&owner=exclude&count=40"
+      ],
+      "protocolIds": [
+        6712,
+        7435
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "date": "2026-03-11",
+      "links": [
+        "https://www.sec.gov/Archives/edgar/data/1821534/000182153426000009/exod-20251231.htm",
+        "https://www.sec.gov/Archives/edgar/data/1821534/000162828026055453/exod-20260630.htm"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "identity": {
+    "slug": "deon",
+    "symbol": "DEon",
+    "name": "Deere (Ondo Tokenized)",
+    "legacyId": 704,
+    "canonicalMarketId": "DEon"
+  },
+  "exposure": {
+    "underlying": "deere-co"
+  },
+  "class": {
+    "structure": "stock-backed",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "cexListed": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Daily"
+  },
+  "sources": {
+    "coingeckoId": "deere-ondo-tokenized-stocks",
+    "identifiers": [
+      {
+        "scheme": "isin",
+        "value": "US2441991054",
+        "source": null,
+        "verified": false
+      }
+    ]
+  },
+  "about": {
+    "description": "DEon is an Ondo Global Markets tokenized stock exposure designed to provide economic exposure to =SUBSTITUTE(A135, \", \") in an onchain format. The token is designed to be fully backed by the underlying publicly traded asset, together with cash in transit, held with regulated custodial broker-dealers. Holdings attestations and ongoing reporting are surfaced through Ondo trust and transparency materials and the product asset page. Tokenholders are not shareholders of the underlying and do not receive shareholder voting rights. Dividend value is reflected through total return mechanics, and where applicable, dividends are reflected through reinvestment adjustments instead of cash dividends.",
+    "logo": "https://icons.llamao.fi/icons/rwa/de.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://app.ondo.finance/assets/deon"
+      ],
+      "twitter": "https://x.com/ondofinance",
+      "docs": "https://docs.ondo.finance/",
+      "linkedin": "https://www.linkedin.com/company/ondofinance",
+      "discord": "https://discord.com/invite/ondofinance",
+      "telegram": "https://t.me/ondofinance",
+      "github": "https://github.com/ondoprotocol"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x32d7c413fd3477e86b8ec6b0bb8f3ac510eafaae",
+      "deployedAt": "2025-12-18",
+      "primary": true
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x58d1d74d4af6b18f9356a3f0fa9cf01f00464ba7",
+      "deployedAt": "2025-12-18"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x90ccbb75d61cb65cd73a3abb5df04a75961612b7",
+      "deployedAt": "2025-12-18"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x50e8990532fb86eb238a2bd1b6bdb0714b85b6fa",
+      "deployedAt": "2025-12-18"
+    },
+    {
+      "chain": "solana",
+      "address": "CqQyAZjB9LGFTG95eiadGTkfhd9QA12ProeKsQmondo",
+      "deployedAt": "2025-12-31"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "ondo-global-markets-bvi-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.ondo.finance/ondo-global-markets/legal-and-regulatory"
+      ],
+      "protocolIds": [
+        2542,
+        6650
+      ]
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://app.ondo.finance/assets/deon"
+      ],
+      "note": "Daily (ongoing)"
+    }
+  ]
+}

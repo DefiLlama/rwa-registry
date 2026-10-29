@@ -1,0 +1,67 @@
+{
+  "identity": {
+    "slug": "rai-v2",
+    "symbol": "rAI",
+    "name": "RWAlpha rAI Vault",
+    "legacyId": 9020,
+    "canonicalMarketId": "rAI-v2"
+  },
+  "exposure": {
+    "underlying": "neos-nasdaq-100-high-income-etf-yieldmax-nvda-option-income-strategy-etf"
+  },
+  "class": {
+    "structure": "rwa-basket-vault",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "rwa-wrappers"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "rAI is a yield bearing vault token from RWAlpha on the Mantle chain. The vault holds a basket of two listed option income funds, weighted seventy five percent to the NEOS Nasdaq-100 High Income ETF and twenty five percent to the YieldMax NVDA Option Income Strategy ETF. Both funds sell call options against their holdings, so the cash flow reaching token holders comes from option premium rather than from ordinary dividends. Subscriptions are taken in USDT and the platform mints the token to the subscriber wallet on the following business day, while redemptions are settled in USDT within about five business days. Distributions are paid weekly in USDT and are quoted after a thirty percent withholding tax. The Mantle contract is open for subscription through the platform but currently has no supply outstanding.",
+    "links": {
+      "website": [
+        "https://www.rwalpha.ai/vault/rAI?chain=mantle"
+      ],
+      "twitter": "https://x.com/RWAlpha_AI",
+      "docs": "https://www.rwalpha.ai/docs/intro",
+      "linkedin": "https://www.linkedin.com/company/rwalpha",
+      "telegram": "https://t.me/rwalphahelpdesk",
+      "github": "https://github.com/dmzFinance"
+    }
+  },
+  "review": {
+    "activeAumReviewed": false,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "mantle",
+      "address": "0xfef3231af5549aec491307677e803e017fa66bba",
+      "deployedAt": "2026-06-15",
+      "primary": true
+    },
+    {
+      "chain": "bsc",
+      "address": "0x5d08b15c4241cc0c147c65a562f0a5f9c5f9ca04",
+      "deployedAt": "2026-04-16"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "rwalpha-matrix-spc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.rwalpha.ai/docs/legal"
+      ]
+    }
+  ]
+}

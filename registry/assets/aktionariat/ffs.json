@@ -1,0 +1,82 @@
+{
+  "identity": {
+    "slug": "ffs",
+    "symbol": "FFS",
+    "name": "FinanceFarm Shares",
+    "legacyId": 2981,
+    "canonicalMarketId": "FFS"
+  },
+  "exposure": {
+    "underlying": "financefarm"
+  },
+  "class": {
+    "structure": "pe-venture",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "about": {
+    "description": "Tokenized shares of FinanceFarm AG, a Swiss fintech developing an app to give retail users easier access to decentralized-finance products, issued on Ethereum via Aktionariat.",
+    "logo": "https://icons.llamao.fi/icons/rwa/ffs.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://invest.financefarm.com"
+      ],
+      "twitter": "https://x.com/aktionariat",
+      "docs": "https://docs.aktionariat.com/",
+      "linkedin": "https://www.linkedin.com/company/aktionariat-ag"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xeb3a8874eee15a55cb0380540a93dbeeac1b13b2",
+      "deployedAt": "2022-12-05",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x8bae8fc137fbd8df4c3b2deef76dd4952ae83ccf",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "financefarm-ag",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://invest.financefarm.com",
+        "https://www.aktionariat.com/"
+      ]
+    },
+    {
+      "organization": "aktionariat-ag",
+      "kind": "tokenizer",
+      "sourceLinks": [
+        "https://invest.financefarm.com",
+        "https://www.aktionariat.com/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "No public attestation date found"
+    }
+  ]
+}

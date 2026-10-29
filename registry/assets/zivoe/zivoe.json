@@ -1,0 +1,75 @@
+{
+  "identity": {
+    "slug": "zivoe",
+    "symbol": "ZIVOE",
+    "name": "Zivoe",
+    "legacyId": 73,
+    "canonicalMarketId": "ZIVOE"
+  },
+  "exposure": {
+    "underlying": "zivoe"
+  },
+  "class": {
+    "structure": "credit-pool",
+    "type": "platform",
+    "rwaClassification": "non-rwa-platform",
+    "category": [
+      "private-credit"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "Zivoe is a private-credit protocol that issues a vault token designed to reflect the performance of a diversified, short-duration consumer credit portfolio. Users deposit stablecoins into the vault, capital is deployed into real-economy credit channels, and returns are intended to accrue to holders through the vault’s performance rather than speculative price exposure. The model targets an institutional-style credit return stream packaged into an onchain, single-position wrapper.",
+    "logo": "https://icons.llamao.fi/icons/rwa/zivoe.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://zivoe.com"
+      ],
+      "twitter": "https://x.com/zivoeprotocol",
+      "docs": "https://docs.zivoe.com/",
+      "linkedin": "https://www.linkedin.com/company/zivoe",
+      "discord": "https://discord.me/zivoe",
+      "github": "https://github.com/Zivoe"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xe412d46a0fbd567332b7689cfffe1f8a4f19a9d2",
+      "deployedAt": "2024-07-22",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x6172f8103d156c49532e610232d33f0796e6ef87",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xfb7920b55887840643e20952f22eb18ddc474b2b",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "zivoe",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://zivoe.com"
+      ]
+    }
+  ]
+}

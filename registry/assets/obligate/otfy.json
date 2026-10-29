@@ -1,0 +1,71 @@
+{
+  "identity": {
+    "slug": "otfy",
+    "symbol": "oTFY",
+    "name": "Obligate Trade Finance Yield",
+    "legacyId": 8782,
+    "canonicalMarketId": "oTFY"
+  },
+  "exposure": {
+    "underlying": "obligate-trade-finance-yield"
+  },
+  "class": {
+    "structure": "trade-finance",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "private-credit"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "sources": {
+    "coingeckoId": "obligate-trade-finance-yield"
+  },
+  "about": {
+    "description": "Obligate Trade Finance Yield (oTFY) is a NAV-accruing Solana token giving exposure to a revolving portfolio of short-tenor (7-90 day) digital bonds financing asset-backed physical commodity trade, managed by TradeFlow Capital Management Pte Ltd of Singapore. The legal issuer is Verified SV S.a r.l., a Luxembourg securitisation vehicle (RCS B282302) acting for Compartment x10; Obligate AG is product sponsor and tokenisation platform. NAV is struck weekly by calculation agent Verified Assets Limited and is final and binding. The offering memorandum states Rating: None, so the portfolio is not investment-grade rated. Subscription minimum $100,000; redemption requires 7 calendar days' notice before a weekly valuation date plus up to 2 business days, settles in stablecoin to the holder's wallet, and may be scaled back pro-rata or suspended. The SPL mint retains BOTH a live mint authority and a live freeze authority at A1dZeiEE1oTf9FZEZn8sBdsmk6CQHphnHJ5HhYxYV2qm, so holdings are freezable and supply is expandable. No auditor, custodian, fund administrator or transfer agent is disclosed.",
+    "links": {
+      "website": [
+        "https://www.obligate.com/otfy"
+      ],
+      "twitter": "https://x.com/obligatecom",
+      "docs": "https://www.obligate.com/otfy",
+      "linkedin": "https://ch.linkedin.com/company/obligatecom",
+      "telegram": "https://t.me/obligatecom"
+    }
+  },
+  "review": {
+    "activeAumReviewed": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "solana",
+      "address": "BwB3tNH92jKw6naNGDYDbDwRo8bvYxZVvZjRZRcoWR2h",
+      "deployedAt": "2026-08-14",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "verified-sv-s-a-r-l",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://app.rwa.xyz/assets/oTFY"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "review",
+      "outcome": "suspicious",
+      "reason": "SPL mint retains live mint AND freeze authority (A1dZeiEE1oTf9FZEZn8sBdsmk6CQHphnHJ5HhYxYV2qm), so holdings are freezable. Token metadata file still reads \"RWA10 Yield Strategy\" and the mint was created 2026-03-10, before the stated 2026-06-30 issuance. Submission claimed a Chainlink oracle; the word Chainlink does not appear in the offering memorandum. Attestation link is the offering memorandum, not an attestation. Submitted by a third party (DeFiAM), not confirmed by Obligate."
+    }
+  ]
+}

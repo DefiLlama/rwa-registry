@@ -1,0 +1,68 @@
+{
+  "identity": {
+    "slug": "hom",
+    "symbol": "HOM",
+    "name": "Homium",
+    "legacyId": 558,
+    "canonicalMarketId": "HOM"
+  },
+  "exposure": {
+    "underlying": "homium-shared-appreciation-home-equity-loan-portfolio"
+  },
+  "class": {
+    "structure": "re-credit",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "real-estate"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "HOM is tokenized exposure to Homium’s pooled shared‑appreciation home equity loans, issued on Avalanche. Homium originates “shared appreciation” home equity structures that allow homeowners to borrow against their home value while aligning repayment with future home price appreciation rather than adding traditional amortizing debt, the tokenization framework packages these loan notes into a portfolio that can be held and transferred as a single digital asset. Token returns depend on cashflows from the underlying home equity loan portfolio and realized appreciation outcomes, with credit, housing‑market, and servicing performance as primary risk drivers. HOM is intended to represent a regulated claim on off‑chain loan assets while benefiting from onchain issuance, settlement, and transparency.",
+    "logo": "https://icons.llamao.fi/icons/rwa/hom.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://investors.homium.io"
+      ],
+      "twitter": "https://x.com/Securitize",
+      "docs": "https://docs.securitize.io",
+      "linkedin": "https://www.linkedin.com/company/securitize",
+      "telegram": "https://t.me/securitize",
+      "github": "https://github.com/securitize-io"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "avax",
+      "address": "0x555b9383a0585192034766493d19aa43c5bed51e",
+      "deployedAt": "2023-09-29",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "homium-asset-llc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://investors.homium.io"
+      ],
+      "protocolIds": [
+        6712
+      ]
+    }
+  ]
+}

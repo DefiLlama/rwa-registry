@@ -1,0 +1,129 @@
+{
+  "identity": {
+    "slug": "uscc",
+    "symbol": "USCC",
+    "name": "Superstate Crypto Carry Fund",
+    "legacyId": 168,
+    "canonicalMarketId": "USCC"
+  },
+  "exposure": {
+    "underlying": "superstate-crypto-carry-fund"
+  },
+  "class": {
+    "structure": "mixed-rwa-fund",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "bond-mmf-funds",
+      "other-rwas"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Continuous NAV + periodic holdings disclosure (EY audit)"
+  },
+  "sources": {
+    "coingeckoId": "superstate-uscc"
+  },
+  "about": {
+    "description": "USCC represents tokenized fund units of the Superstate Crypto Carry Fund, designed for qualified purchasers seeking a market-neutral yield profile derived from crypto basis trades, with additional components that can include staking and a Treasury sleeve for cash management. The fund is built around NAV-based share accounting and is offered with both tokenized delivery and traditional book-entry ownership, positioning it as an institutional-style alternative-return strategy with onchain settlement optionality.",
+    "logo": "https://icons.llamao.fi/icons/rwa/uscc.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://superstate.com/assets/uscc"
+      ],
+      "twitter": "https://x.com/superstateinc",
+      "docs": "https://docs.superstate.com/",
+      "linkedin": "https://www.linkedin.com/company/superstate-finance",
+      "github": "https://github.com/superstateinc"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x14d60e7fdc0d71d8611742720e4c50e7a974020c",
+      "deployedAt": "2024-07-09",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xa1b40f6b5c590de820bbdca10ae8359ba7e33d60",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x56b4f7bda221e8db84a21012200833dea74c6d32",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x64471d103a7f77262529383d53bdd28b260b1ae8",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xd2d314606cab9fa389661ef4af2062e66ec13a6a",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x2ec96c9af82ddd650c0776cb0da93beaa7ce2a10",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "bsc",
+      "address": "0x6ab5918c142599120215b1bd84cca7f85170760b",
+      "deployedAt": "2024-08-29",
+      "labels": [
+        {
+          "address": "0x000000000000000000000000000000000000dead",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x9f8f07c129aabd407a4a28da8f1c676e8da1beca",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "plume_mainnet",
+      "address": "0x4c21b7577c8fe8b0b0669165ee7c8f67fa1454cf",
+      "deployedAt": "2025-05-22"
+    },
+    {
+      "chain": "solana",
+      "address": "BTRR3sj1Bn2ZjuemgbeQ6SCtf84iXS81CS7UDTSxUCaK",
+      "deployedAt": "2025-07-17"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "superstate-asset-trust",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.sec.gov/Archives/edgar/data/2030263/000094562124000588/0000945621-24-000588-index.htm"
+      ],
+      "protocolIds": [
+        5120
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://docs.superstate.com/superstate-funds/uscc",
+        "https://superstate.com/assets/uscc"
+      ],
+      "note": "2026-06-23 (holdings as-of)"
+    }
+  ]
+}

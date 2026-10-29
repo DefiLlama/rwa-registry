@@ -1,0 +1,103 @@
+{
+  "identity": {
+    "slug": "nct",
+    "symbol": "NCT",
+    "name": "Toucan Nature Carbon Tonne",
+    "legacyId": 7,
+    "canonicalMarketId": "NCT"
+  },
+  "exposure": {
+    "underlying": "toucan-nature-carbon-tonne"
+  },
+  "class": {
+    "structure": "carbon-credit",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "carbon-environment"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Not publicly disclosed (on-chain carbon credit verification)"
+  },
+  "sources": {
+    "coingeckoId": "toucan-protocol-nature-carbon-tonne"
+  },
+  "about": {
+    "description": "NCT is Toucan’s pooled reference token focused on nature-based carbon credits. It is minted 1:1 when eligible project-specific carbon tokens are deposited into the Nature Carbon Pool and can be redeemed for underlying tokens under the pool’s rules and eligibility criteria.",
+    "logo": "https://icons.llamao.fi/icons/rwa/toucan-nature-carbon-tonne.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://toucan.earth"
+      ],
+      "twitter": "https://x.com/ToucanProtocol",
+      "docs": "https://docs.toucan.earth/",
+      "linkedin": "https://www.linkedin.com/company/toucan-protocol",
+      "discord": "https://discord.com/invite/r8DZqeJMFE",
+      "github": "https://github.com/ToucanProtocol"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "polygon",
+      "address": "0xd838290e877e0188a4a44700463419ed96c16107",
+      "deployedAt": "2022-02-08",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x26937b31c167326aa91ab2fde1931cedcdd8e78d",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x02040d2c67e0af6f9db1e2d31d8ead08f82803d0",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xe1eceb826b663a9391c4377d662cdd03d000b451",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x251e5996da588b20dd9935c37c5d97ef510ed062",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x2eaf553f49da98fb6bed94752e2495b8bde587dc",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xa2804549aa248796507a98adccbcfefa87f674e7",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "toucan-protocol-association",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://toucan.earth/legal/disclaimers"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://app.toucan.earth/pools",
+        "https://blog.toucan.earth/announcing-nct-nature-carbon-tonne/"
+      ],
+      "note": "Not publicly disclosed"
+    }
+  ]
+}

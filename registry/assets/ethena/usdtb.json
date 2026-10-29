@@ -1,0 +1,100 @@
+{
+  "identity": {
+    "slug": "usdtb",
+    "symbol": "USDTB",
+    "name": "Ethena USDtb",
+    "legacyId": 11,
+    "canonicalMarketId": "USDTB"
+  },
+  "exposure": {
+    "underlying": "us-dollar"
+  },
+  "class": {
+    "structure": "rwa-fiat-stable",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "rwa-stablecoins"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "cexListed": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Monthly"
+  },
+  "sources": {
+    "coingeckoId": "ethena-ustb"
+  },
+  "about": {
+    "description": "USDtb (USDTB) is a USD stablecoin issued by Anchorage Digital Bank in partnership with Ethena Labs. Anchorage publishes monthly reserve attestations prepared by Deloitte under AICPA attestation standards. The reserve reporting covers assets held for USDtb relative to USDtb outstanding at the report date.",
+    "logo": "https://icons.llamao.fi/icons/rwa/ethena-usdtb.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.ethena.fi"
+      ],
+      "twitter": "https://x.com/ethena_labs",
+      "docs": "https://docs.ethena.fi/",
+      "linkedin": "https://www.linkedin.com/company/ethena-labs",
+      "telegram": "https://t.me/ethena_labs",
+      "github": "https://github.com/ethena-labs",
+      "refLinks": [
+        "https://www.app.ethena.fi/join/3y20d"
+      ]
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xc139190f447e929f090edeb554d95abb8b18ac1c",
+      "deployedAt": "2024-11-28",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xa2af0b03aaf167cfc9624c6ef587581b6fcced92",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x3b0aaf6e6fcd4a7ceef8c92c32dfea9e64dc1862",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "solana",
+      "address": "8yXrtJ54jZtE84xEBzTESKuegjcAkAuDrdAhRd8i8n3T",
+      "deployedAt": "2025-12-16"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "anchorage-digital-bank-national-association",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.anchorage.com/platform/usdtb-reserve-attestations",
+        "https://www.anchorage.com/press/usdtb-anchorage-digital-ethena-labs"
+      ],
+      "protocolIds": [
+        5506
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "date": "2026-01-31",
+      "links": [
+        "https://www.anchorage.com/platform/usdtb-reserve-attestations"
+      ]
+    }
+  ]
+}

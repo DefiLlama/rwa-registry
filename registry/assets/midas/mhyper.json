@@ -1,0 +1,86 @@
+{
+  "identity": {
+    "slug": "mhyper",
+    "symbol": "mHYPER",
+    "name": "Midas mHYPER",
+    "legacyId": 3801,
+    "canonicalMarketId": "mHYPER"
+  },
+  "exposure": {
+    "underlying": "market-neutral-stablecoin-defi-strategies-hyperithm"
+  },
+  "class": {
+    "structure": "crypto-hedge-fund",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "crypto-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Continuous"
+  },
+  "about": {
+    "description": "mHYPER is a Midas-issued structured certificate managed by Hyperithm. Issued via Midas under German BaFin Crypto Securities Registrar status. The strategy runs market-neutral, stablecoin-funded DeFi positions. Delta-neutral spreads, funding-rate harvesting, basis trades across major on-chain markets. NAV accrues via the Midas Attestation Engine. Chainlink PoR verifies backing. KYC at mint/redemption. Secondary transfer permissionless. Deployed on Ethereum, Plasma, Monad, and Katana. Risk Manager: Hyperithm Inc.",
+    "logo": "https://icons.llamao.fi/icons/rwa/mhyper.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://midas.app/"
+      ],
+      "twitter": "https://x.com/midasrwa",
+      "docs": "https://docs.midas.app/tokens/mhyper",
+      "linkedin": "https://www.linkedin.com/company/midas-rwa"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x9b5528528656dbc094765e2abb79f293c21191b9",
+      "deployedAt": "2025-07-15",
+      "primary": true
+    },
+    {
+      "chain": "plasma",
+      "address": "0xb31bea5c2a43f942a3800558b1aa25978da75f8a",
+      "deployedAt": "2025-10-06"
+    },
+    {
+      "chain": "monad",
+      "address": "0xd90f6bfed23ffde40106fc4498dd2e9edb95e4e7",
+      "deployedAt": "2026-01-13"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "midas",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://midas.app/mhyper"
+      ]
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://midas.app/mhyper"
+      ],
+      "note": "Continuous (Midas Attestation Engine)"
+    }
+  ]
+}

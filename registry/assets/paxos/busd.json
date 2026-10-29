@@ -1,0 +1,305 @@
+{
+  "identity": {
+    "slug": "busd",
+    "symbol": "BUSD",
+    "name": "Binance USD",
+    "legacyId": 598,
+    "canonicalMarketId": "BUSD"
+  },
+  "exposure": {
+    "underlying": "us-dollar"
+  },
+  "class": {
+    "structure": "usd-stable",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "fiat-stablecoins"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "cexListed": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Monthly (ended; BUSD discontinued)"
+  },
+  "sources": {
+    "coingeckoId": "binance-usd"
+  },
+  "about": {
+    "description": "USD stablecoin issued by Paxos under New York trust regulation and branded for Binance. Reserves historically held in cash and short-term U. S. Treasury instruments with published reserve reports. new minting has been halted while redemptions remain available via Paxos.",
+    "logo": "https://icons.llamao.fi/icons/rwa/busd.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://paxos.com/busd/"
+      ],
+      "twitter": "https://x.com/Paxos",
+      "docs": "https://docs.paxos.com/",
+      "linkedin": "https://www.linkedin.com/company/paxos",
+      "telegram": "https://t.me/PaxosGlobal",
+      "github": "https://github.com/paxosglobal"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "agoric",
+      "address": "ibc/65cd60d7e37ef830bc6b6a6df4e3e3884a96c0905a7d271c48dc0440b1989ec7",
+      "deployedAt": null
+    },
+    {
+      "chain": "airdao",
+      "address": "0x7a477aa8ed4884509387dba81ba6f2b7c97597e2",
+      "deployedAt": null
+    },
+    {
+      "chain": "aptos",
+      "address": "0x8d87a65ba30e09357fa2edea2c80dbac296e5dec2b18287113500b902942929d::celer_coin_manager::Busdcoin",
+      "deployedAt": null
+    },
+    {
+      "chain": "arbitrum_nova",
+      "address": "0x47bee17aa97e6659797c0d1bbb94c9aa1f0787bb",
+      "deployedAt": "2025-01-01"
+    },
+    {
+      "chain": "archway",
+      "address": "ibc/799f11b241aab598261632b890a3b0e678b5918d00ed3ed943e7d7c102621c1f",
+      "deployedAt": null
+    },
+    {
+      "chain": "astar",
+      "address": "0xb7ab962c42a8bb443e0362f58a5a43814c573ffb",
+      "deployedAt": "2022-03-30"
+    },
+    {
+      "chain": "avax",
+      "address": "0x19860ccb0a68fd4213ab9d8266f7bbf05a8dde98",
+      "deployedAt": "2021-07-23"
+    },
+    {
+      "chain": "base",
+      "address": "0x4d84e25cea9447581867fe9f2329b972f532da2c",
+      "deployedAt": "2023-07-31"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x98e871ab1cc7e3073b6cc1b661be7ca678a33f7f",
+      "deployedAt": "2022-10-15"
+    },
+    {
+      "chain": "carbon",
+      "address": "ibc/ad706b02dd4d8468c287d2f22e4ba2fb80338df5c1f4035086411074b755a485",
+      "deployedAt": null
+    },
+    {
+      "chain": "chihuahua",
+      "address": "ibc/f56fa94f0b3c96d03eb180a6d783fa1c8687e2c14e783aa5aaf27a5202877039",
+      "deployedAt": null
+    },
+    {
+      "chain": "comdex",
+      "address": "ibc/f960753b47a20b18df578ffdd51fb8b32af5bf77ff8718580421333f7458e690",
+      "deployedAt": null
+    },
+    {
+      "chain": "conflux",
+      "address": "0xc46fedc533e9f14c99c4c5124e2085701fa9b255",
+      "deployedAt": "2025-01-01"
+    },
+    {
+      "chain": "crescent",
+      "address": "ibc/a7a2b8871cd2e999eb1d9e901b4f744617c80816ce94de84ca1200109651c903",
+      "deployedAt": null
+    },
+    {
+      "chain": "elys",
+      "address": "ibc/640c351655113012304dc20c7cd1621b49876dd026fc4ce82d3d01ce4956b2ac",
+      "deployedAt": null
+    },
+    {
+      "chain": "era",
+      "address": "0x9a455d1a2b4630ffdb9a2307f2e875400d28b3c5",
+      "deployedAt": "2023-05-04"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x4fabb145d64652a948d72533023f6e7a623c7c53",
+      "deployedAt": "2019-09-05",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xe25a329d385f77df5d4ed56265babe2b99a5436e",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "ethpow",
+      "address": "0xf61eb8999f2f222f425d41da4c2ff4b6d8320c87",
+      "deployedAt": "2026-05-28"
+    },
+    {
+      "chain": "godwoken_v1",
+      "address": "0xcd7bc9fc617a4f82ec1c8359d1c8610b90e3b44c",
+      "deployedAt": "2022-07-11"
+    },
+    {
+      "chain": "harmony",
+      "address": "0x1aa1f7815103c0700b98f24138581b88d4cf9769",
+      "deployedAt": "2021-09-04"
+    },
+    {
+      "chain": "juno",
+      "address": "ibc/01d29b33757b631d6e02a4ae8a852969273e2476ed83cb3f947d4aa5db9f151e",
+      "deployedAt": null
+    },
+    {
+      "chain": "kava",
+      "address": "0x4d84e25cea9447581867fe9f2329b972f532da2c",
+      "deployedAt": "2025-01-01"
+    },
+    {
+      "chain": "klaytn",
+      "address": "0x98671f24b2b5215b937524a1073fd382f3972e0d",
+      "deployedAt": "2022-08-21"
+    },
+    {
+      "chain": "kujira",
+      "address": "ibc/65cd60d7e37ef830bc6b6a6df4e3e3884a96c0905a7d271c48dc0440b1989ec7",
+      "deployedAt": null
+    },
+    {
+      "chain": "lightlink_phoenix",
+      "address": "0xe06fe7298243d8e47092a1e0679351f305e5f856",
+      "deployedAt": "2024-01-15"
+    },
+    {
+      "chain": "linea",
+      "address": "0x4d84e25cea9447581867fe9f2329b972f532da2c",
+      "deployedAt": "2023-07-31"
+    },
+    {
+      "chain": "map",
+      "address": "0x35bf4004c3fc9f509259d4942da6bae3669e1db1",
+      "deployedAt": "2025-01-01"
+    },
+    {
+      "chain": "milkomeda",
+      "address": "0x4bf769b05e832fcdc9053fffbc78ca889acb5e1e",
+      "deployedAt": "2022-05-12"
+    },
+    {
+      "chain": "milkomeda_a1",
+      "address": "0x8dc0dfa2aec0d4410c8c60c5f9cd0cd37b05a06a",
+      "deployedAt": null
+    },
+    {
+      "chain": "moonbeam",
+      "address": "0x692c57641fc054c2ad6551ccc6566eba599de1ba",
+      "deployedAt": "2022-05-12"
+    },
+    {
+      "chain": "neutron",
+      "address": "ibc/71ba048e21a9aeac5e23fb7d91be0e8730d50ab8993a01307616aa0c7ea618e3",
+      "deployedAt": null
+    },
+    {
+      "chain": "osmosis",
+      "address": "ibc/6329dd8cf31a334dd5be3f68c846c9fe313281362b37686a62343bac1eb1546d",
+      "deployedAt": "2023-11-16"
+    },
+    {
+      "chain": "persistence",
+      "address": "ibc/d93e39c5f90a03fcb8265b18410a64198928ba77ccfab907c4d61072e801f021",
+      "deployedAt": null
+    },
+    {
+      "chain": "polygon",
+      "address": "0xdab529f40e671a1d4bf91361c21bf9f0c9712ab7",
+      "deployedAt": "2020-09-07"
+    },
+    {
+      "chain": "regen",
+      "address": "ibc/c0b2f6309c73078a793f8db25b72028728f9ce1244a60e0d356ddf92861503cb",
+      "deployedAt": null
+    },
+    {
+      "chain": "secret",
+      "address": "ibc/abc6463caa1ea8c15167dbd278c82b1e6193d9d7847dec458de87e12a5be978e",
+      "deployedAt": null
+    },
+    {
+      "chain": "solana",
+      "address": "33fsBLA8djQm82RpHmE3SuVrPGtZBWNYExsEUeKX1HXX",
+      "deployedAt": "2021-09-14"
+    },
+    {
+      "chain": "sophon",
+      "address": "0x2f4a7f6ec403a9cf19acfd51a63fad59143a862b",
+      "deployedAt": null
+    },
+    {
+      "chain": "stargaze",
+      "address": "ibc/8f1b50c472ed7bcaa3d783fa8b3a1f2700994cc60a47128ee18a4d7c9c7469cb",
+      "deployedAt": null
+    },
+    {
+      "chain": "theta",
+      "address": "0x7b37d0787a3424a0810e02b24743a45ebd5530b2",
+      "deployedAt": "2022-05-12"
+    },
+    {
+      "chain": "ultron",
+      "address": "0xc7cac85c1779d2b8ada94effff49a4754865e2e4",
+      "deployedAt": "2025-01-01"
+    },
+    {
+      "chain": "umee",
+      "address": "ibc/d35e5113823942ee8655934a5476b2c4c1c84c8e83aef04a89c256fc51437463",
+      "deployedAt": null
+    },
+    {
+      "chain": "velas",
+      "address": "0xc111c29a988ae0c0087d97b33c6e6766808a3bd3",
+      "deployedAt": "2026-05-28"
+    },
+    {
+      "chain": "xdai",
+      "address": "0xd5fe5f651dde69f6fc444d123f2c0cfb804542cd",
+      "deployedAt": "2021-04-05"
+    },
+    {
+      "chain": "xpla",
+      "address": "ibc/a71fc27aa5a7fed3d451c0010962727a89f4ef183edf694e15c1f67e8fc1e51e",
+      "deployedAt": null
+    }
+  ],
+  "roles": [
+    {
+      "organization": "paxos-trust-company-llc-for-binance",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://paxos.com/busd/",
+        "https://paxos.com/transparency/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "date": "2024-08-01",
+      "links": [
+        "https://paxos.com/transparency/"
+      ]
+    }
+  ]
+}

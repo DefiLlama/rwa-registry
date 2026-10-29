@@ -1,0 +1,95 @@
+{
+  "identity": {
+    "slug": "thbill",
+    "symbol": "thBILL",
+    "name": "Theo Network thBILL",
+    "legacyId": 97,
+    "canonicalMarketId": "thBILL"
+  },
+  "exposure": {
+    "underlying": "theo-network-thbill"
+  },
+  "class": {
+    "structure": "t-bills",
+    "type": "asset",
+    "rwaClassification": "programmable-finance",
+    "category": [
+      "bond-mmf-funds"
+    ]
+  },
+  "terms": {
+    "cexListed": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "sources": {
+    "coingeckoId": "theo-short-duration-us-treasury-fund"
+  },
+  "about": {
+    "description": "thBILL is a tokenized Treasury-bill product designed to give onchain users access to short-duration U.S. government yield through a single, transferable position. It is positioned as a cash-management building block that can be held directly or integrated into DeFi strategies, with tooling focused on portfolio visibility, liquidity access, and distribution.",
+    "logo": "https://icons.llamao.fi/icons/rwa/thbill.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://theo.xyz/about_thbill"
+      ],
+      "twitter": "https://x.com/theo_network",
+      "docs": "https://docs.theo.xyz/",
+      "linkedin": "https://www.linkedin.com/company/theo-network",
+      "discord": "https://discord.gg/theo-network",
+      "refLinks": [
+        "https://app.theo.xyz/invite?invite=defillama"
+      ]
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x5fa487bca6158c64046b2813623e20755091da0b",
+      "deployedAt": "2025-07-22",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x64defac2fc320c8194af86e4987bba26f0c2f49c",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0xfdd22ce6d1f66bc0ec89b20bf16ccb6670f55a5a",
+      "deployedAt": "2025-08-04"
+    },
+    {
+      "chain": "base",
+      "address": "0xfdd22ce6d1f66bc0ec89b20bf16ccb6670f55a5a",
+      "deployedAt": "2025-08-04"
+    },
+    {
+      "chain": "hyperliquid",
+      "address": "0xfdd22ce6d1f66bc0ec89b20bf16ccb6670f55a5a",
+      "deployedAt": "2025-08-04"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "theo-protocol-corporation",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.theo.xyz/legal/terms"
+      ],
+      "protocolIds": [
+        6702
+      ]
+    }
+  ]
+}

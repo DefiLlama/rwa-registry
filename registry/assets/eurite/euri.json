@@ -1,0 +1,96 @@
+{
+  "identity": {
+    "slug": "euri",
+    "symbol": "EURI",
+    "name": "Eurite Euro Token",
+    "legacyId": 194,
+    "canonicalMarketId": "EURI"
+  },
+  "exposure": {
+    "underlying": "euro"
+  },
+  "class": {
+    "structure": "eur-stable",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "fiat-stablecoins"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "cexListed": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Periodic"
+  },
+  "sources": {
+    "coingeckoId": "eurite"
+  },
+  "about": {
+    "description": "EURI is a euro stablecoin issued under a regulated electronic money framework, designed for EUR-denominated settlement with strong reserve safeguarding requirements. It emphasizes transparency through independent attestations tied to reserve coverage, positioning EURI as a compliance-forward EUR unit for payments, exchange settlement, and DeFi liquidity.",
+    "logo": "https://icons.llamao.fi/icons/rwa/euri.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.eurite.com/"
+      ],
+      "twitter": "https://x.com/Eurite_BC",
+      "docs": "https://eurite.io/",
+      "linkedin": "https://www.linkedin.com/company/eurite-labs"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x9d1a7a3191102e9f900faa10540837ba84dcbae7",
+      "deployedAt": "2024-07-02",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xfca77c0891578e371ee9ff34d6f653d8ec3d9e9d",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "bsc",
+      "address": "0x9d1a7a3191102e9f900faa10540837ba84dcbae7",
+      "deployedAt": "2024-07-02",
+      "labels": [
+        {
+          "address": "0xfca77c0891578e371ee9ff34d6f653d8ec3d9e9d",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "banking-circle-s-a",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.lei-lookup.com/record/213800W1NGBLERUS6M39/"
+      ],
+      "protocolIds": [
+        3560
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://www.eurite.com/about-us/"
+      ],
+      "note": "Not publicly disclosed"
+    }
+  ]
+}

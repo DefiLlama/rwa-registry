@@ -1,0 +1,71 @@
+{
+  "identity": {
+    "slug": "tslar",
+    "symbol": "TSLAr",
+    "name": "Tesla rStock",
+    "legacyId": 426,
+    "canonicalMarketId": "TSLAr"
+  },
+  "exposure": {
+    "underlying": "tesla-inc"
+  },
+  "class": {
+    "structure": "stock-backed",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "sources": {
+    "coingeckoId": "tesla-rstock"
+  },
+  "about": {
+    "description": "TSLAr is a Remora Markets rStock that provides on-chain price exposure to Tesla rStock. Remora Markets is operated by Step Labs LLC and is a Step Finance subsidiary. It supports mint and burn flows for tokenized stocks through its app. Remora lists Alpaca Securities LLC as both custodian and broker for the underlying. Remora’s disclaimer states rStocks are not stocks and do not grant ownership or rights to underlying assets, so shareholder voting rights and cash dividends are not provided to tokenholders.",
+    "logo": "https://icons.llamao.fi/icons/rwa/tsla.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://remoramarkets.xyz/products"
+      ],
+      "twitter": "https://x.com/RemoraMarkets",
+      "docs": "https://docs.remora.markets/",
+      "linkedin": "https://www.linkedin.com/company/remoramarkets",
+      "discord": "https://discord.gg/Pab8wcH5Yt"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "solana",
+      "address": "FJug3z58gssSTDhVNkTse5fP8GRZzuidf9SRtfB2RhDe",
+      "deployedAt": "2026-02-11",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "step-labs-llc-remora-markets",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://remoramarkets.xyz/legal-documentation/service-providers"
+      ],
+      "protocolIds": [
+        6669,
+        6760
+      ]
+    }
+  ]
+}

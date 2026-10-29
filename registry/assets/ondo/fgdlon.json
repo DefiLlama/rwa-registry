@@ -1,0 +1,106 @@
+{
+  "identity": {
+    "slug": "fgdlon",
+    "symbol": "FGDLon",
+    "name": "Franklin Responsibly Sourced Gold ETF (Ondo Tokenized ETF)",
+    "legacyId": 2864,
+    "canonicalMarketId": "FGDLon"
+  },
+  "exposure": {
+    "underlying": "franklin-templeton-holdings-trust"
+  },
+  "class": {
+    "structure": "equity-basket",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities",
+      "gold-commodities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "cexListed": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Daily"
+  },
+  "sources": {
+    "coingeckoId": "franklin-responsibly-sourced-gold-etf-ondo-tokenized",
+    "identifiers": [
+      {
+        "scheme": "isin",
+        "value": "US35473M1053",
+        "source": null,
+        "verified": false
+      }
+    ]
+  },
+  "about": {
+    "description": "FGDLon is an Ondo Global Markets tokenized ETF exposure designed to provide economic exposure to Franklin Responsibly Sourced Gold ETF, which seeks to reflect the price of gold bullion, less fund expenses. The ETF uses gold sourced from LBMA-accredited refiners that are required to demonstrate compliance with the LBMA Responsible Gold Guidance. The token is designed to be fully backed by the underlying publicly traded ETF, together with cash in transit, held with regulated custodial broker-dealers. Tokenholders are not shareholders of the underlying.",
+    "logo": "https://icons.llamao.fi/icons/rwa/fgdl.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://app.ondo.finance/assets/fgdlon"
+      ],
+      "twitter": "https://x.com/ondofinance",
+      "docs": "https://docs.ondo.finance/",
+      "linkedin": "https://www.linkedin.com/company/ondofinance",
+      "discord": "https://discord.com/invite/ondofinance",
+      "telegram": "https://t.me/ondofinance",
+      "github": "https://github.com/ondoprotocol"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x1cb673005fc58447d881486919c14d8e7c741bb1",
+      "deployedAt": "2026-03-09",
+      "primary": true
+    },
+    {
+      "chain": "bsc",
+      "address": "0xee0d57462f20434030b8262204c00c0ea0399c41",
+      "deployedAt": "2026-03-09"
+    },
+    {
+      "chain": "solana",
+      "address": "CYqLHM92EhmF83iNgfN4A1j2ckjsHigRvXu7xHCondo",
+      "deployedAt": "2026-03-09"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "ondo-global-markets-bvi-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.ondo.finance/ondo-global-markets/legal-and-regulatory"
+      ],
+      "protocolIds": [
+        2542,
+        6650
+      ]
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://app.ondo.finance/assets/fgdlon"
+      ],
+      "note": "Daily (ongoing)"
+    }
+  ]
+}

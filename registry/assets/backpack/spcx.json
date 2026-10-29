@@ -1,0 +1,73 @@
+{
+  "identity": {
+    "slug": "spcx",
+    "symbol": "SPCX",
+    "name": "SpaceX (Backpack Securities)",
+    "legacyId": 4429,
+    "canonicalMarketId": "SPCX"
+  },
+  "exposure": {
+    "underlying": "space-exploration-technologies-corp"
+  },
+  "class": {
+    "structure": "stock-backed",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "cexListed": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "sources": {
+    "coingeckoId": "spacex-backpack-securities",
+    "identifiers": [
+      {
+        "scheme": "isin",
+        "value": "US84615Q1031",
+        "source": null,
+        "verified": false
+      }
+    ]
+  },
+  "about": {
+    "description": "SPCX is a tokenized SpaceX share issued by Backpack Securities, a regulated U.S. broker-dealer. Each token is backed 1:1 by a SpaceX share held in regulated custody under New York UCC Article 8 and is redeemable for the underlying equity via ACATS/DTCC. Distributed on Solana via Sunrise.",
+    "logo": "https://icons.llamao.fi/icons/rwa/spcx.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://backpack.exchange/"
+      ],
+      "twitter": "https://x.com/Backpack",
+      "docs": "https://docs.backpack.exchange/"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "solana",
+      "address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+      "deployedAt": "2026-06-16",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "backpack-securities",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://backpack.exchange/"
+      ]
+    }
+  ]
+}

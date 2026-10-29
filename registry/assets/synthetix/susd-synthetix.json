@@ -1,0 +1,130 @@
+{
+  "identity": {
+    "slug": "susd-synthetix",
+    "symbol": "sUSD",
+    "name": "Synthetix USD",
+    "legacyId": 619,
+    "canonicalMarketId": "sUSD-SYNTHETIX"
+  },
+  "exposure": {
+    "underlying": "us-dollar"
+  },
+  "class": {
+    "structure": "synthetic-stable",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "non-rwa-stablecoins"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "cexListed": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "sources": {
+    "coingeckoId": "nusd"
+  },
+  "about": {
+    "description": "sUSD is Synthetix’s onchain synthetic USD (a “synth”) minted against staked collateral in the Synthetix system. Instead of representing a claim on fiat reserves, it represents system debt and relies on overcollateralization, liquidations, and exchange mechanisms within Synthetix (notably on L2s) to support its peg. Key risks include collateral volatility, systemic debt/solvency dynamics, oracle and liquidation parameter risk, and smart-contract risk across deployments.",
+    "logo": "https://icons.llamao.fi/icons/rwa/synthetix-usd.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://synthetix.io/"
+      ],
+      "twitter": "https://x.com/synthetix_io",
+      "docs": "https://docs.synthetix.io/",
+      "linkedin": "https://www.linkedin.com/company/synthetix",
+      "discord": "https://discord.com/invite/synthetix",
+      "github": "https://github.com/Synthetixio"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "arbitrum",
+      "address": "0xa970af1a584579b618be4d69ad6f73459d112f95",
+      "deployedAt": "2021-06-26",
+      "labels": [
+        {
+          "address": "0xf0288b07a9b9a49dbf9a2f584db371093e8c14e2",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x57ab1ec28d129707052df4df418d58a2d46d5f51",
+      "deployedAt": "2019-09-26",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x99f4176ee457afedffcb1839c7ab7a030a5e4a92",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "fantom",
+      "address": "0x0e1694483ebb3b74d3054e383840c6cf011e518e",
+      "deployedAt": "2021-09-04"
+    },
+    {
+      "chain": "fraxtal",
+      "address": "0xbd4f4190d5b53f178604e722bbe23d8c9571304e",
+      "deployedAt": "2024-03-09"
+    },
+    {
+      "chain": "harmony",
+      "address": "0xefdccb355b7d65710a44b6e09d7b5449f650bf40",
+      "deployedAt": "2021-09-04"
+    },
+    {
+      "chain": "optimism",
+      "address": "0x6d80113e533a2c0fe82eabd35f1875dcea89ea97",
+      "deployedAt": "2022-03-11"
+    },
+    {
+      "chain": "polygon",
+      "address": "0xf81b4bec6ca8f9fe7be01ca734f55b2b6e03a7a0",
+      "deployedAt": "2021-06-28"
+    },
+    {
+      "chain": "sifchain",
+      "address": "csusd",
+      "deployedAt": null
+    },
+    {
+      "chain": "solana",
+      "address": "CCGLdsokcybeF8NrCcu1RSQK8isNBjBA58kVEMTHTKjx",
+      "deployedAt": "2021-07-25"
+    },
+    {
+      "chain": "unichain",
+      "address": "0x7251d204c2e867b31096d5c7091298239b3a6a0f",
+      "deployedAt": "2025-02-04"
+    },
+    {
+      "chain": "xdai",
+      "address": "0xb1950fb2c9c0cbc8553578c67db52aa110a93393",
+      "deployedAt": "2020-08-19"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "synthetix",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://synthetix.io/",
+        "https://docs.synthetix.io/"
+      ]
+    }
+  ]
+}

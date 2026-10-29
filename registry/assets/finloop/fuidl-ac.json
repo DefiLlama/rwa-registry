@@ -1,0 +1,76 @@
+{
+  "identity": {
+    "slug": "fuidl-ac",
+    "symbol": "FUIDL-AC",
+    "name": "Finloop USD Instant Digital Liquidity Token - AC",
+    "legacyId": 4488,
+    "canonicalMarketId": "FUIDL-AC"
+  },
+  "exposure": {
+    "underlying": "aaa-rated-investment-grade-money-market-portfolio"
+  },
+  "class": {
+    "structure": "mmf",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "bond-mmf-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "FUIDL-AC is the accumulating share class of FUIDL, in which yield accrues to share price rather than being distributed. Both share classes hold the same FinCycle reserve portfolio.",
+    "logo": "https://www.ex.io/drawing/icons/currencies/fuidl.png",
+    "links": {
+      "website": [
+        "https://www.finlooprwa.com/"
+      ],
+      "twitter": "https://x.com/FinloopHK",
+      "docs": "https://www.finlooprwa.com/"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xea200d4c6680d103a78292b88c4cf30618e21fea",
+      "deployedAt": "2026-04-15",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xf9cd54286fa07a8c63e6b0b40daebc574436e448",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xcc13dd7368656e29ac94a73bdac81324849290db",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "fosun-hani-global-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.finlooprwa.com/"
+      ]
+    },
+    {
+      "organization": "fosun-hani-global-limited",
+      "kind": "oracle"
+    }
+  ]
+}

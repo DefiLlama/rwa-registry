@@ -1,0 +1,77 @@
+{
+  "identity": {
+    "slug": "anz",
+    "symbol": "ANZ",
+    "name": "Anzen Finance",
+    "legacyId": 29,
+    "canonicalMarketId": "ANZ"
+  },
+  "exposure": {
+    "underlying": "anzen-finance"
+  },
+  "class": {
+    "structure": "governance-token",
+    "type": "asset",
+    "rwaClassification": "non-rwa-gov-utility",
+    "category": [
+      "governance-tokens",
+      "private-credit"
+    ]
+  },
+  "terms": {
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "sources": {
+    "coingeckoId": "anzen-finance"
+  },
+  "about": {
+    "description": "ANZ is the utility and governance token for Anzen Finance, the issuer behind the USDz stablecoin and related yield products. The protocol centers on bringing cash-flowing private credit exposures onchain, with USDz positioned as a dollar-linked asset supported by a diversified collateral portfolio. ANZ aligns incentives across liquidity, governance, and protocol economics, including vote-escrow style participation.",
+    "logo": "https://icons.llamao.fi/icons/rwa/anzen-finance.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://anzen.finance"
+      ],
+      "twitter": "https://x.com/anzenfinance",
+      "docs": "https://docs.anzen.finance/",
+      "linkedin": "https://www.linkedin.com/company/anzen-finance",
+      "discord": "https://discord.gg/anzen",
+      "telegram": "https://t.me/anzenfinance",
+      "github": "https://github.com/Anzen-Finance"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "base",
+      "address": "0xeec468333ccc16d4bf1cef497a56cf8c0aae4ca3",
+      "deployedAt": "2024-11-28",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xa7eca748b861ac42b8ccfbf212da6e11eeb84d8a",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "anzen-finance",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://anzen.finance"
+      ],
+      "protocolIds": [
+        4744
+      ]
+    }
+  ]
+}

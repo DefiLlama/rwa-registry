@@ -1,0 +1,76 @@
+{
+  "identity": {
+    "slug": "wtcrcl",
+    "symbol": "wtCRCL",
+    "name": "Wrapped Circle Internet Group Inc ST0x",
+    "legacyId": 3149,
+    "canonicalMarketId": "wtCRCL"
+  },
+  "exposure": {
+    "underlying": "circle-internet-group-inc"
+  },
+  "class": {
+    "structure": "stock-backed",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "about": {
+    "description": "wtCRCL is an ST0x tokenized equity that provides onchain exposure to Circle. ST0x says each token is backed 1:1 by underlying shares held with a regulated broker and issued by S01 Issuer GmbH as a regulated debt instrument with a contractual Right of Exchange to segregated-custody shares. The tokens are standard ERC-20s, may be withdrawn to self-custody, and ST0x states they can be used in DeFi without counterparty whitelisting. Minting and redemption through the Core Bridge require KYC plus a qualified brokerage account for delivery of the underlying shares. No public reserve attestation is currently disclosed, so the asset is classified as RWA rather than True RWA.",
+    "logo": "https://icons.llamao.fi/icons/rwa/crcl.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.st0x.io/trade/0x8AFba81DEc38DE0A18E2Df5E1967a7493651eebf"
+      ],
+      "twitter": "https://x.com/st0x_io",
+      "docs": "https://docs.st0x.io/",
+      "linkedin": "https://www.linkedin.com/company/st0x",
+      "telegram": "https://t.me/ST0xCommunity"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "base",
+      "address": "0x8afba81dec38de0a18e2df5e1967a7493651eebf",
+      "deployedAt": "2026-02-04",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x1c66d6708914c40239d54919320b4c48cae3d1a9",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x71b94911fd1ce621fc40970450004c544e5287a8",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "s01-issuer-gmbh",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.st0x.io/faqs",
+        "https://www.st0x.io/terms",
+        "https://www.newswire.ca/news-releases/intellistake-announces-st0x-as-tokenized-securities-platform-investment-following-european-prospectus-approval-845326540.html"
+      ]
+    }
+  ]
+}

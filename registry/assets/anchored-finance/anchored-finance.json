@@ -1,0 +1,116 @@
+{
+  "identity": {
+    "slug": "anchored-finance",
+    "symbol": "ANCHORED-FINANCE",
+    "name": "Anchored Finance",
+    "legacyId": 2817,
+    "canonicalMarketId": "ANCHORED-FINANCE"
+  },
+  "exposure": {
+    "underlying": "anchored-finance"
+  },
+  "class": {
+    "structure": "lending-venue",
+    "type": "platform",
+    "rwaClassification": "non-rwa-platform",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "about": {
+    "description": "Anchored Finance is a tokenization platform focused on bringing tokenized U.S. equities, institutional fund products, and other familiar financial assets onchain, with Monad as its initial home chain. The project describes itself as full-cycle and compliance-first, while its disclosed infrastructure references Alpaca brokerage rails for minting and redemption of equity-backed tokenized assets.",
+    "logo": "https://icons.llamao.fi/icons/rwa/anchored-finance.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://anchored.finance/"
+      ],
+      "twitter": "https://x.com/AnchoredFi",
+      "docs": "https://docs.anchored.finance/",
+      "linkedin": "https://www.linkedin.com/company/anchored-finance"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x844454eea68a30bb1a7c2be9c64d520c457e8814",
+      "deployedAt": "2026-02-10"
+    },
+    {
+      "chain": "monad",
+      "address": "0xa5fc101aa96aa60bd270a72b8ac4b8ac8848065b",
+      "deployedAt": "2026-02-10",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x500769f4544c5cc75436a615101f27ff4350469a",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "monad",
+      "address": "0x8c1b182bb0fe4e8407404ffe37c974d6dacef3a9",
+      "deployedAt": "2026-02-10",
+      "labels": [
+        {
+          "address": "0x500769f4544c5cc75436a615101f27ff4350469a",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "monad",
+      "address": "0x500769f4544c5cc75436a615101f27ff4350469a",
+      "deployedAt": "2026-02-10",
+      "labels": [
+        {
+          "address": "0x500769f4544c5cc75436a615101f27ff4350469a",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "monad",
+      "address": "0x35ac646729bdc42a2cd5443849efb710fe5d366f",
+      "deployedAt": "2026-02-10",
+      "labels": [
+        {
+          "address": "0x500769f4544c5cc75436a615101f27ff4350469a",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "anchored-finance",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://anchored.finance/",
+        "https://alpaca.markets/tokenization"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://accountable.anchored.finance/"
+      ],
+      "note": "No attestation found"
+    }
+  ]
+}

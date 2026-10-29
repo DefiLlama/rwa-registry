@@ -1,0 +1,84 @@
+{
+  "identity": {
+    "slug": "samd",
+    "symbol": "sAMD",
+    "name": "StableStock AMD",
+    "legacyId": 3319,
+    "canonicalMarketId": "sAMD"
+  },
+  "exposure": {
+    "underlying": "advanced-micro-devices-inc"
+  },
+  "class": {
+    "structure": "stock-backed",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Weekly assurance PDF + real-time reserves dashboard"
+  },
+  "about": {
+    "description": "sAMD tokenizes Advanced Micro Devices (Nasdaq: AMD), the x86 CPU and datacenter-GPU vendor led by CEO Lisa Su. AMD is the principal Western challenger to NVIDIA in AI accelerators with its Instinct MI300/MI325 lineup and competes head-on with Intel in server CPUs (EPYC) and client CPUs (Ryzen). The token is a BEP-20 on BNB Chain fully backed 1:1 by AMD shares held through StableBroker's licensed broker infrastructure (a StableStock/HabitTrade partnership), with 24/7 on-chain market making via Native. KYC is required at mint/redeem. On-chain transfers and DEX trading are permissionless.",
+    "logo": "https://icons.llamao.fi/icons/rwa/amd.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://stablestock.finance"
+      ],
+      "twitter": "https://x.com/StableStock",
+      "docs": "https://docs.stablestock.com/",
+      "linkedin": "https://www.linkedin.com/company/stablestock",
+      "discord": "https://discord.gg/stablestock",
+      "telegram": "https://t.me/StableStock"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "bsc",
+      "address": "0x2ec3235b43cbc03bc0f3dc5fb09d79f7ec560fd1",
+      "deployedAt": "2025-10-06",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x73a1007a1bbee4a2b019ae21d9f02bfe1ce57208",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "stablebroker-habittrade",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://stablestock.gitbook.io/ss/introduction/trust-and-security"
+      ]
+    },
+    {
+      "organization": "stablebroker-habittrade",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://app.stablestock.finance/h5/transparency"
+      ],
+      "note": "no date in the export"
+    }
+  ]
+}

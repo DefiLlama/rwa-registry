@@ -1,0 +1,89 @@
+{
+  "identity": {
+    "slug": "prcl",
+    "symbol": "PRCL",
+    "name": "Parcl",
+    "legacyId": 122,
+    "canonicalMarketId": "PRCL"
+  },
+  "exposure": {
+    "underlying": "parcl"
+  },
+  "class": {
+    "structure": "governance-token",
+    "type": "asset",
+    "rwaClassification": "non-rwa-gov-utility",
+    "category": [
+      "governance-tokens",
+      "real-estate"
+    ]
+  },
+  "terms": {
+    "cexListed": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "sources": {
+    "coingeckoId": "parcl"
+  },
+  "about": {
+    "description": "Parcl provides real estate market exposure through price indexes designed to track housing markets, enabling users to take positions on regional real estate performance without direct property ownership. PRCL is used for governance and incentives across the ecosystem, aligning participation around index integrity, liquidity, and product expansion.",
+    "logo": "https://icons.llamao.fi/icons/rwa/parcl.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.parcl.co"
+      ],
+      "twitter": "https://x.com/ParclLabs",
+      "docs": "https://docs.parcl.co/",
+      "linkedin": "https://www.linkedin.com/company/parclco",
+      "discord": "https://discord.com/invite/parcl",
+      "github": "https://github.com/ParclLabs"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "solana",
+      "address": "4LLbsb5ReP3yEtYzmXewyGjcir5uXtKFURtaEUVC2AHs",
+      "deployedAt": "2026-02-11",
+      "primary": true,
+      "labels": [
+        {
+          "address": "5aqYbzVcPbNzi1AD3fgZCDHb3ASeq3u7C4yBJGTcXo8U",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "8L4PHZZrQWLPAEfJYsqPA7FWb8mM5KKvivBiRrcJrqEt",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "GwNEpe5sX56GgL4twtPmQhR1nqbR8Qn4nbrvbzPWpWac",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "EFm8ZpoH3N1HQE8YGBVxWkcqEDhkqx6UA9h71fmprjAk",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "AkMAwycdPh3xe1okbkwqAFmpFvuHFXnuM5Ptx2186pwF",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "parcl-labs-llc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.parcllabs.com/legal/terms-of-use"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "identity": {
+    "slug": "ustb",
+    "symbol": "USTB",
+    "name": "Superstate USTB",
+    "legacyId": 93,
+    "canonicalMarketId": "USTB"
+  },
+  "exposure": {
+    "underlying": "superstate-short-duration-u-s-government-securities-fund"
+  },
+  "class": {
+    "structure": "t-bills",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "bond-mmf-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Continuous NAV + periodic holdings disclosure (PwC audit)"
+  },
+  "sources": {
+    "coingeckoId": "superstate-short-duration-us-government-securities-fund-ustb",
+    "isinNote": "86851T204"
+  },
+  "about": {
+    "description": "USTB represents tokenized shares of the Superstate Short Duration U.S. Government Securities Fund, designed to provide Treasury-bill exposure with transparent, NAV-based pricing. It is built for treasury and collateral workflows that benefit from onchain settlement, supported by fund-level holdings visibility and ongoing reporting.",
+    "logo": "https://icons.llamao.fi/icons/rwa/ustb.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://superstate.com/ustb"
+      ],
+      "twitter": "https://x.com/superstateinc",
+      "docs": "https://docs.superstate.com/",
+      "linkedin": "https://www.linkedin.com/company/superstate-finance",
+      "github": "https://github.com/superstateinc"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x43415eb6ff9db7e26a15b704e7a3edce97d31c4e",
+      "deployedAt": "2023-12-06",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x30349a8eb64aa43068e68c163c47bc94889079e6",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xe17004dbbd7b6ffc57c23c7fc0d8cafa1be39764",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xb677a382df95060fcf0f4fe6e43736f86c23d045",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x8ea8909565fc7eafe0dda9c5f169bb8287a1c4c9",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x235adf84139701024edba844ebf76fa7eed98a0c",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xf2e3826923fdc5ebb7586f91fe116b9be7d4e1a5",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x5c0d7f90a44f6f29626df0d86dcdac7092870a6f",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x0a88f1ca96da2fed91d66782c7832ffd51bfb2ac",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xae581c3448ecd7171f7b56d6db8ed1f9602afe71",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "plume_mainnet",
+      "address": "0xe4fa682f94610ccd170680cc3b045d77d9e528a8",
+      "deployedAt": "2025-03-26"
+    },
+    {
+      "chain": "solana",
+      "address": "CCz3SGVziFeLYk2xfEstkiqJfYkjaSWb2GCABYsVcjo2",
+      "deployedAt": "2025-07-16"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "superstate-trust-superstate-ustb-money-market-fund",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.sec.gov/Archives/edgar/data/1982577/000110465925042142/tm2513524d1_n1a.htm"
+      ],
+      "protocolIds": [
+        4265
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://superstate.com/assets/ustb",
+        "https://docs.superstate.com/superstate-funds",
+        "https://docs.superstate.com/superstate-funds/ustb/redeeming-ustb"
+      ],
+      "note": "2026-05-22 (holdings as-of)"
+    }
+  ]
+}

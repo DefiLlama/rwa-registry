@@ -1,0 +1,67 @@
+{
+  "identity": {
+    "slug": "ab1",
+    "symbol": "AB1",
+    "name": "Animoca Brands Tokenized Equity",
+    "legacyId": 4054,
+    "canonicalMarketId": "AB1"
+  },
+  "exposure": {
+    "underlying": "animoca-brands"
+  },
+  "class": {
+    "structure": "pe-venture",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "yieldBearing": false
+  },
+  "about": {
+    "description": "AB1 is tokenized ordinary equity of Animoca Brands Corporation Limited, the Hong Kong-based Web3 investment group, issued by Republic on Solana. Underlying book-entry shares are custodied by BitGo Bank & Trust and tokens trade on Republic's regulated secondary marketplace through the INX ATS with KYC required. Holders own real Animoca Brands equity in digital form. Supply grows as existing shareholders opt in to tokenize. The on-chain holder base is a small closed cap table with transfer-hook whitelisting.",
+    "logo": "https://icons.llamao.fi/icons/rwa/ab1.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://republic.com/animoca-shareholders"
+      ],
+      "twitter": "https://x.com/animocabrands",
+      "docs": "https://republic.com/animoca-trade"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "solana",
+      "address": "13UnWveBycSEeYJFgvsmE2qHXP5ERienrhGZ5wUjWM8L",
+      "deployedAt": "2025-12-23",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "republic-opendeal-group",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://republic.com/insights/republic/animoca-tokenization"
+      ]
+    },
+    {
+      "organization": "underlying-shares-of-animoca-brands-corporation-limited-custodied-at-bitgo-bank-trust",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://republic.com/insights/republic/animoca-tokenization"
+      ]
+    }
+  ]
+}

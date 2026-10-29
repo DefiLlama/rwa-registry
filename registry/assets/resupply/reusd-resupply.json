@@ -1,0 +1,64 @@
+{
+  "identity": {
+    "slug": "reusd-resupply",
+    "symbol": "REUSD",
+    "name": "Resupply USD",
+    "legacyId": 600,
+    "canonicalMarketId": "REUSD-Resupply"
+  },
+  "exposure": {
+    "underlying": "us-dollar"
+  },
+  "class": {
+    "structure": "crypto-stable",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "non-rwa-stablecoins"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "sources": {
+    "coingeckoId": "resupply-usd"
+  },
+  "about": {
+    "description": "Decentralized stablecoin minted against stablecoin-denominated collateral that is deployed into external lending markets (e.g., Curve Lend / FraxLend) to earn yield. Protocol design shares lending fees and aims to maintain a $1 peg through overcollateralization and liquidation mechanics.",
+    "logo": "https://icons.llamao.fi/icons/rwa/resupply-usd.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://resupply.fi/"
+      ],
+      "twitter": "https://x.com/ResupplyFi",
+      "docs": "https://docs.resupply.fi/"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x57ab1e0003f623289cd798b1824be09a793e4bec",
+      "deployedAt": "2025-03-13",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "resupply-finance-protocol",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://resupply.fi/",
+        "https://docs.resupply.fi/"
+      ]
+    }
+  ]
+}

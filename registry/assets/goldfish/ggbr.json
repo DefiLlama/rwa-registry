@@ -1,0 +1,99 @@
+{
+  "identity": {
+    "slug": "ggbr",
+    "symbol": "GGBR",
+    "name": "Goldfish Gold",
+    "legacyId": 2815,
+    "canonicalMarketId": "GGBR"
+  },
+  "exposure": {
+    "underlying": "gold"
+  },
+  "class": {
+    "structure": "other-commodity",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "gold-commodities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "cexListed": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "sources": {
+    "coingeckoId": "goldfish-gold"
+  },
+  "about": {
+    "description": "Goldfish Gold is a gold-linked token marketed as over-collateralized by in-situ (in ground) gold reserves, ION.au treasury holdings, and an insurance fund. Public materials state qualifying holders can redeem for physical gold through regulated partners, such as Monex, subject to a 250g minimum.",
+    "logo": "https://icons.llamao.fi/icons/rwa/ggbr.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://goldfishgold.com/"
+      ],
+      "twitter": "https://x.com/goldfishggbr",
+      "discord": "https://discord.gg/goldfish"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x7e2ac793f3e692f388e66c7dc28f739d13b0b71a",
+      "deployedAt": "2025-10-06",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x33579c58e7a24f514823fdc549465708a89ec50c",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x590c0d2feb641136984ec250c7287c27fa1a05bb",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xd22d50e306b439015a5b01be65bb8e7ebc0bc2f4",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "ggbr-inc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://goldfishgold.com/privacy-policy",
+        "https://iondigitalcorp.com/"
+      ]
+    },
+    {
+      "organization": "i-on-digital-corp-ion-au",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://goldfishgold.com/privacy-policy",
+        "https://iondigitalcorp.com/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://goldfishgold.com/collateral",
+        "https://goldfishgold.com/whitepaper"
+      ],
+      "note": "Not publicly disclosed"
+    }
+  ]
+}

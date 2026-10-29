@@ -1,0 +1,90 @@
+{
+  "identity": {
+    "slug": "nbisb",
+    "symbol": "NBISB",
+    "name": "Nebius Tokenized bStocks",
+    "legacyId": 4637,
+    "canonicalMarketId": "NBISB"
+  },
+  "exposure": {
+    "underlying": "nebius-group-n-v"
+  },
+  "class": {
+    "structure": "stock-backed",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "cexListed": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Continuous"
+  },
+  "sources": {
+    "coingeckoId": "nebius-bstocks-tokenized-stock",
+    "identifiers": [
+      {
+        "scheme": "isin",
+        "value": "AE000A4AVMG4",
+        "source": null,
+        "verified": false
+      }
+    ]
+  },
+  "about": {
+    "description": "NBISB is a tokenized certificate issued by BTECH Holdings Limited (ADGM) that provides economic exposure to Nebius Group N.V. Each token is backed 1 to 1 by a corresponding share held in a segregated custody account with a regulated custodian under ADGM FSRA Ledger-Based Securities rules. NBISB is admitted to the ADGM Official List of Securities. Convertibility to real shares is available via the Binance-affiliated broker-dealer Nest Trading Limited, and dividend value is delivered through an on-chain Multiplier rebasing mechanism at the bStocks framework level. Aggregate proof of collateral is published on the Binance Proof of Collateral dashboard covering the entire bStocks family. Access is restricted from United States persons.",
+    "logo": "https://icons.llamao.fi/icons/rwa/nbisb.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.bstocks.finance/"
+      ],
+      "docs": "https://www.binance.com/en/proof-of-collateral/bstocks"
+    }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
+  },
+  "deployments": [
+    {
+      "chain": "bsc",
+      "address": "0xe256bc2a4f5297f8ba6f043f180a46300ecbcbb1",
+      "deployedAt": "2026-07-01",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "btech-holdings-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.adgm.com/financial-services-regulatory-authority/listing-authority/official-list-of-securities"
+      ]
+    },
+    {
+      "organization": "binance",
+      "kind": "oracle"
+    },
+    {
+      "organization": "btech-holdings-limited",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://www.binance.com/en/proof-of-collateral/bstocks",
+        "https://www.adgm.com/financial-services-regulatory-authority/listing-authority/official-list-of-securities",
+        "https://www.binance.com/en/academy/articles/what-are-bstocks-a-guide-to-tokenized-stocks-on-binance"
+      ],
+      "note": "Continuous (Binance Proof of Collateral dashboard)"
+    }
+  ]
+}

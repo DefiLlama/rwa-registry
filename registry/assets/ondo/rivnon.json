@@ -1,0 +1,110 @@
+{
+  "identity": {
+    "slug": "rivnon",
+    "symbol": "RIVNon",
+    "name": "Rivian Automotive (Ondo Tokenized)",
+    "legacyId": 747,
+    "canonicalMarketId": "RIVNon"
+  },
+  "exposure": {
+    "underlying": "rivian-automotive-inc"
+  },
+  "class": {
+    "structure": "stock-backed",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "cexListed": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Daily"
+  },
+  "sources": {
+    "coingeckoId": "rivian-automotive-ondo-tokenized",
+    "identifiers": [
+      {
+        "scheme": "isin",
+        "value": "US76954A1034",
+        "source": null,
+        "verified": false
+      }
+    ]
+  },
+  "about": {
+    "description": "RIVNon is an Ondo Global Markets tokenized stock exposure designed to provide economic exposure to =SUBSTITUTE(A178, \", \") in an onchain format. The token is designed to be fully backed by the underlying publicly traded asset, together with cash in transit, held with regulated custodial broker-dealers. Holdings attestations and ongoing reporting are surfaced through Ondo trust and transparency materials and the product asset page. Tokenholders are not shareholders of the underlying and do not receive shareholder voting rights. Dividend value is reflected through total return mechanics, and where applicable, dividends are reflected through reinvestment adjustments instead of cash dividends.",
+    "logo": "https://icons.llamao.fi/icons/rwa/rivn.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://app.ondo.finance/assets/rivnon"
+      ],
+      "twitter": "https://x.com/ondofinance",
+      "docs": "https://docs.ondo.finance/",
+      "linkedin": "https://www.linkedin.com/company/ondofinance",
+      "discord": "https://discord.com/invite/ondofinance",
+      "telegram": "https://t.me/ondofinance",
+      "github": "https://github.com/ondoprotocol"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x04d94914cd1d7ff749efedee764335777225b962",
+      "deployedAt": "2025-12-10",
+      "primary": true
+    },
+    {
+      "chain": "bsc",
+      "address": "0x277e1fa8704c5511fed7e30bc691f922aa30101b",
+      "deployedAt": "2025-12-10"
+    },
+    {
+      "chain": "solana",
+      "address": "AXRsYFt7TXNQ3DcY6BkvRgPV6VsYMURyDtaeudjondo",
+      "deployedAt": "2025-12-31"
+    },
+    {
+      "chain": "hyperliquid",
+      "address": "0x353d347bb7bc1c812e3a131d9b5193b3618029e5",
+      "deployedAt": "2026-03-27"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "ondo-global-markets-bvi-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.ondo.finance/ondo-global-markets/legal-and-regulatory"
+      ],
+      "protocolIds": [
+        2542,
+        6650
+      ]
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://app.ondo.finance/assets/rivnon"
+      ],
+      "note": "Daily (ongoing)"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "identity": {
+    "slug": "xgz",
+    "symbol": "XGZ",
+    "name": "GoldZip Gold Token",
+    "legacyId": 4081,
+    "canonicalMarketId": "XGZ"
+  },
+  "exposure": {
+    "underlying": "gold"
+  },
+  "class": {
+    "structure": "gold",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "gold-commodities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "about": {
+    "description": "XGZ is a gold token from GoldZip Digital, the Singapore subsidiary of the Hong Kong Gold Exchange, with each token backed by 1 gram of 99.99% gold in HKGX-recognized vaults and redeemable for physical bars subject to AML checks. The token trades on Uniswap and MEXC. Roughly 95% of the 39,000-token supply remains in the issuer treasury, and reserve audits have not yet been published.",
+    "logo": "https://icons.llamao.fi/icons/rwa/xgz.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://goldzip.info"
+      ],
+      "twitter": "https://x.com/goldzipxgz",
+      "docs": "https://goldzip.info"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x69af64f409c08e9076bf7f3ed9db3a7409717161",
+      "deployedAt": "2025-08-27",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xf31abc0c78d727bbb5e663de9952fda74b6bce2d",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "goldzip-digital-pte-ltd-singapore",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://goldzip.info",
+        "https://hkgx.com.hk/en/goldZip/"
+      ]
+    },
+    {
+      "organization": "subsidiary-of-hong-kong-gold-exchange",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://goldzip.info",
+        "https://hkgx.com.hk/en/goldZip/"
+      ]
+    }
+  ]
+}

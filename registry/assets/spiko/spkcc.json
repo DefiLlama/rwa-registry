@@ -1,0 +1,113 @@
+{
+  "identity": {
+    "slug": "spkcc",
+    "symbol": "SPKCC",
+    "name": "Spiko Cash and Carry Dollar",
+    "legacyId": 672,
+    "canonicalMarketId": "SPKCC"
+  },
+  "exposure": {
+    "underlying": "spiko-digital-assets-cash-and-carry-fund"
+  },
+  "class": {
+    "structure": "crypto-hedge-fund",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "crypto-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Semi-annual"
+  },
+  "sources": {
+    "coingeckoId": "spiko-digital-assets-cash-carry-fund",
+    "identifiers": [
+      {
+        "scheme": "isin",
+        "value": "FR0014010OM9",
+        "source": null,
+        "verified": false
+      }
+    ]
+  },
+  "about": {
+    "description": "Spiko Cash and Carry Dollar is an institutional alternative fund that allocates monthly to the best expected return among a BTC CME futures cash-and-carry trade, an ETH CME futures cash-and-carry trade, or Treasury bills, aiming to lock in carry above the risk-free rate. It lists daily subscriptions and redemptions in USDC, eligible professional investors, CACEIS as custodian and fund administrator, and PricewaterhouseCoopers as auditor. Spiko's smart contract system enforces that only allowlisted, KYC-cleared addresses can hold Spiko tokens.",
+    "logo": "https://icons.llamao.fi/icons/rwa/spiko-cash-and-carry-dollar.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.spiko.io/"
+      ],
+      "twitter": "https://x.com/Spiko_finance",
+      "docs": "https://docs.spiko.io/",
+      "linkedin": "https://www.linkedin.com/company/spiko-finance",
+      "github": "https://github.com/spiko-tech"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x4f33acf823e6eeb697180d553ce0c710124c8d59",
+      "deployedAt": "2025-07-16",
+      "primary": true
+    },
+    {
+      "chain": "starknet",
+      "address": "0x04bade88e79a6120f893d64e51006ac6853eceeefa1a50868d19601b1f0a567d",
+      "deployedAt": "2026-04-14"
+    },
+    {
+      "chain": "polygon",
+      "address": "0x903d5990119bc799423e9c25c56518ba7dd19474",
+      "deployedAt": "2025-07-16"
+    },
+    {
+      "chain": "stellar",
+      "address": "CDS2GCAQTNQINSCJUJIVBJXILKBWP5PU7LOBGHMP3X47QCQBFKPMTCNT",
+      "deployedAt": "2025-10-01"
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0x99f70a0e1786402a6796c6b0aa997ef340a5c6da",
+      "deployedAt": "2025-07-16"
+    },
+    {
+      "chain": "base",
+      "address": "0xf695df6c0f3bb45918a7a82e83348fc59517734e",
+      "deployedAt": "2025-07-16"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "spiko",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://etherscan.io/token/0x4f33acf823e6eeb697180d553ce0c710124c8d59"
+      ],
+      "protocolIds": [
+        4980
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "date": "2025-05-01",
+      "links": [
+        "https://dokumenty.analizy.pl/pobierz/fzg/SPIK001_A_USD/PE/2025-10-14"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "identity": {
+    "slug": "afs",
+    "symbol": "AFS",
+    "name": "Alan Frei Company Shares",
+    "legacyId": 2977,
+    "canonicalMarketId": "AFS"
+  },
+  "exposure": {
+    "underlying": "alan-frei-company-ag"
+  },
+  "class": {
+    "structure": "pe-venture",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "about": {
+    "description": "Tokenized shares of Alan Frei Company, a Swiss venture and product studio centered on new products, services, and entrepreneurial experiments, issued on Ethereum via Aktionariat.",
+    "logo": "https://icons.llamao.fi/icons/rwa/afs.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://shares.alanfrei.com/"
+      ],
+      "twitter": "https://x.com/aktionariat",
+      "docs": "https://docs.aktionariat.com/",
+      "linkedin": "https://www.linkedin.com/company/aktionariat-ag"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x56528c1df17fd5451451eb6efde297758bc8f9a1",
+      "deployedAt": "2022-11-28",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x4d307525b22897ca07af7e34079397f3d7ae60a2",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "alan-frei-company-ag",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://shares.alanfrei.com/",
+        "https://www.aktionariat.com/"
+      ]
+    },
+    {
+      "organization": "aktionariat-ag",
+      "kind": "tokenizer",
+      "sourceLinks": [
+        "https://shares.alanfrei.com/",
+        "https://www.aktionariat.com/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "No public attestation date found"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "identity": {
+    "slug": "spxux",
+    "symbol": "SPXUX",
+    "name": "WisdomTree 500 Digital Fund",
+    "legacyId": 159,
+    "canonicalMarketId": "SPXUX"
+  },
+  "exposure": {
+    "underlying": "s-p-500-index"
+  },
+  "class": {
+    "structure": "equity-basket",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Semi-annual (N-CSRS) + Annual (N-CSR)"
+  },
+  "sources": {
+    "identifiers": [
+      {
+        "scheme": "isin",
+        "value": "US97717K7090",
+        "source": null,
+        "verified": false
+      }
+    ]
+  },
+  "about": {
+    "description": "SPXUX represents digital shares of a U.S. large-cap equity fund designed to track a broad 500-stock benchmark-style exposure. It targets core U.S. equity market performance through a tokenized share format that supports digital settlement and integrations, positioning the fund as a building-block equity sleeve for portfolios that want onchain delivery.",
+    "logo": "https://icons.llamao.fi/icons/rwa/spx.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.wisdomtreeconnect.com/digital-funds/equity/spxux"
+      ],
+      "twitter": "https://x.com/WisdomTreePrime",
+      "docs": "https://www.wisdomtree.com/",
+      "linkedin": "https://www.linkedin.com/company/wisdomtree-investments"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x873d589f38abbcdd1fca27261aba2f1aa0661d44",
+      "deployedAt": "2025-03-31",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x14009f8f0bd4870ee179d9acd4be5877cf8df3cb",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x05327328807f48dbc72d767885c41e445b55c4ff",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0xfec440fdf48860ff6e2265bd1ef9cae8bb2cce8a",
+      "deployedAt": "2025-03-17"
+    },
+    {
+      "chain": "avax",
+      "address": "0x1a149e21bd3e74b7018db79c988b4ba3bbc1873d",
+      "deployedAt": "2025-03-18"
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0x4122047076a1106618e984a8776a3f7bbcb1d429",
+      "deployedAt": "2025-03-31"
+    },
+    {
+      "chain": "optimism",
+      "address": "0x1a149e21bd3e74b7018db79c988b4ba3bbc1873d",
+      "deployedAt": "2025-03-20"
+    },
+    {
+      "chain": "plume_mainnet",
+      "address": "0x4182704f3f9673b2d99b9f5211ae93ab1e43e67d",
+      "deployedAt": "2025-10-21"
+    },
+    {
+      "chain": "stellar",
+      "address": "SPXU-GDJBVX3QA5HJPBSAU5VIX2W6MC37NU4UFXPKEGK42SJCYN6AEQ4Z6COM",
+      "deployedAt": "2023-01-18"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "wisdomtree-digital-trust",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.sec.gov/cgi-bin/browse-edgar?CIK=0001859001&owner=include&action=getcompany"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "date": "2026-03-06",
+      "links": [
+        "https://www.wisdomtreeconnect.com/digital-funds/equity/spxux",
+        "https://www.wisdomtreeconnect.com/prospectus-regulatory-reports"
+      ]
+    }
+  ]
+}

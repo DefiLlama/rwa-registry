@@ -1,0 +1,86 @@
+{
+  "identity": {
+    "slug": "fusdlp",
+    "symbol": "FUSDLP",
+    "name": "FinChain Dollar LP",
+    "legacyId": 8781,
+    "canonicalMarketId": "FUSDLP"
+  },
+  "exposure": {
+    "underlying": "finchain-dollar-lp"
+  },
+  "class": {
+    "structure": "mixed-rwa-fund",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "bond-mmf-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "FinChain Dollar LP (FUSDLP) is the non-rebasing, value-accruing counterpart to FUSD, representing a pro-rata claim on FinChain's basket of tokenised real-world assets. Its balance is constant and its price rises as the basket earns. Convertible to and from FUSD on demand by KYC-verified wallets. The basket is held via FinChain's own wrapper tokens (TKUSD-F and CUMFU-F, both labelled 'FinChain ADR') referencing Taikang Asset Management (Hong Kong) and China Asset Management (Hong Kong) products, plus FUIDL, which reaches BNY Mellon US Dollar Liquidity Fund exposure indirectly through Finloop Finance Technology Services Limited rather than a BNY-issued instrument. On Ethereum roughly 99.8% of supply sits in the issuer's own reserve treasury.",
+    "links": {
+      "website": [
+        "https://www.finchain.global/"
+      ],
+      "twitter": "https://x.com/FinChain_CN",
+      "docs": "https://finchain.gitbook.io/finchain-docs/en/fusd/fusdlp-token"
+    }
+  },
+  "review": {
+    "activeAumReviewed": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x3fea1cb36d2c5523c062d0e060eac253608b4daf",
+      "deployedAt": "2026-01-26",
+      "primary": true
+    },
+    {
+      "chain": "xsat",
+      "address": "0x3fea1cb36d2c5523c062d0e060eac253608b4daf",
+      "deployedAt": "2026-08-28"
+    },
+    {
+      "chain": "sonic",
+      "address": "0x3fea1cb36d2c5523c062d0e060eac253608b4daf",
+      "deployedAt": "2026-01-26"
+    },
+    {
+      "chain": "monad",
+      "address": "0x3fea1cb36d2c5523c062d0e060eac253608b4daf",
+      "deployedAt": "2026-04-08"
+    },
+    {
+      "chain": "avax",
+      "address": "0x3fea1cb36d2c5523c062d0e060eac253608b4daf",
+      "deployedAt": "2026-08-28"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "finchain-bermuda-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://finchain.gitbook.io/finchain-docs/en/fusd/introduction/structuring"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "review",
+      "outcome": "suspicious",
+      "reason": "Issuer docs list FUSDLP on Solana and Monad only, yet Ethereum and Avalanche deployments exist on-chain; chain list here is taken from on-chain evidence. ~99.8% of Ethereum supply is held by the issuer treasury. Named-manager backing (Taikang, China AMC, BNY Mellon) is held via FinChain wrapper tokens or an intermediary, not issuer-native instruments."
+    }
+  ]
+}

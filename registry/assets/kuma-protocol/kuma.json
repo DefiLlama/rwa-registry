@@ -1,0 +1,70 @@
+{
+  "identity": {
+    "slug": "kuma",
+    "symbol": "KUMA",
+    "name": "KUMA Protocol",
+    "legacyId": 86,
+    "canonicalMarketId": "KUMA"
+  },
+  "exposure": {
+    "underlying": "kuma-sovereign-bond-tokens"
+  },
+  "class": {
+    "structure": "sovereign-bond-fund",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "bond-mmf-funds"
+    ]
+  },
+  "terms": {
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Monthly"
+  },
+  "sources": {
+    "coingeckoId": "kuma-protocol-wrapped-frk"
+  },
+  "about": {
+    "description": "KUMA is a protocol that packages short-dated sovereign fixed-income exposure into onchain instruments designed to earn yield while remaining more accessible than traditional bond rails. It uses structured products that represent government-bill style risk and return, aiming to make sovereign yield usable within onchain liquidity, savings, and collateral workflows.",
+    "logo": "https://icons.llamao.fi/icons/rwa/kuma.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://kuma.bond"
+      ],
+      "twitter": "https://x.com/mimo_labs",
+      "docs": "https://docs.kuma.bond/",
+      "linkedin": "https://www.linkedin.com/company/mimo-capital"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "telos",
+      "address": "0x291cb8c79009458d555a27144b4e19a4c2ae299a",
+      "deployedAt": null,
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "mimo-capital-ag",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://mcag.mimo.capital/legal/Mimo_Capital_AG_Financial_Statements_2022_EN.pdf"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "Monthly (ongoing)"
+    }
+  ]
+}

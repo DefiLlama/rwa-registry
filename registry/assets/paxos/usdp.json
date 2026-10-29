@@ -1,0 +1,127 @@
+{
+  "identity": {
+    "slug": "usdp",
+    "symbol": "USDP",
+    "name": "Pax Dollar",
+    "legacyId": 16,
+    "canonicalMarketId": "USDP"
+  },
+  "exposure": {
+    "underlying": "us-dollar"
+  },
+  "class": {
+    "structure": "usd-stable",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "fiat-stablecoins"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "cexListed": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Monthly (KPMG LLP; self-published portfolio reports discontinued)"
+  },
+  "sources": {
+    "coingeckoId": "paxos-standard"
+  },
+  "about": {
+    "description": "USDP is Paxos’s USD stablecoin designed for 1:1 redemption. Paxos positions USDP as issued by a regulated entity, backed by cash and cash equivalents, with monthly reserve reports intended to disclose reserve composition and coverage.",
+    "logo": "https://icons.llamao.fi/icons/rwa/usdp.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.paxos.com/usdp"
+      ],
+      "twitter": "https://x.com/PaxosGlobal",
+      "docs": "https://docs.paxos.com/",
+      "linkedin": "https://www.linkedin.com/company/paxos",
+      "telegram": "https://t.me/PaxosGlobal",
+      "github": "https://github.com/paxosglobal"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x8e870d67f660d95d5be530380d0ec0bd388289e1",
+      "deployedAt": "2018-09-08",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x5195427ca88df768c298721da791b93ad11eca65",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x2fb074fa59c9294c71246825c1c9a0c7782d41a4",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "solana",
+      "address": "HVbpJAQGNpkgBaYBZQBR1t7yFdvaYVp2vCQQfKKEN4tM",
+      "deployedAt": "2026-01-04"
+    },
+    {
+      "chain": "linea",
+      "address": "0x8e870d67f660d95d5be530380d0ec0bd388289e1",
+      "deployedAt": "2024-07-22"
+    },
+    {
+      "chain": "bsc",
+      "address": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+      "deployedAt": "2020-09-02"
+    },
+    {
+      "chain": "europa",
+      "address": "0x8e870d67f660d95d5be530380d0ec0bd388289e1",
+      "deployedAt": null
+    }
+  ],
+  "roles": [
+    {
+      "organization": "paxos-trust-company-llc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.paxos.com/"
+      ],
+      "protocolIds": [
+        2269,
+        2272,
+        2286,
+        3075,
+        2274,
+        2352,
+        2314,
+        2275,
+        2293,
+        2270,
+        2273,
+        6469,
+        2276,
+        4859,
+        2369,
+        5342,
+        3577
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "date": "2026-05-31",
+      "links": [
+        "https://www.paxos.com/usdp-transparency"
+      ]
+    }
+  ]
+}

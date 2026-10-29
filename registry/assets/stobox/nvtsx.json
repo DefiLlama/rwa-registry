@@ -1,0 +1,71 @@
+{
+  "identity": {
+    "slug": "nvtsx",
+    "symbol": "NVTSX",
+    "name": "Novitas Security Token",
+    "legacyId": 2716,
+    "canonicalMarketId": "NVTSX"
+  },
+  "exposure": {
+    "underlying": "novitas-security"
+  },
+  "class": {
+    "structure": "pe-venture",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "about": {
+    "description": "NVTSX is a security token deployed on Arbitrum via Stobox STV3 Protocol (EIP-2535 Diamond Standard). Created on-chain 2025-09-05. Max supply 8,100,000 (6-decimal adjusted). As of Feb 2026: 0 tokens minted, $0 TVT, price not yet set. Token appears to be in pre-launch/configuration phase. No public blog announcement or website found. Treasury wallet: 0x0913fa58845a7f22676ffd347366009b5ace6dc. Source: Stobox 4 RWA Adoption Dashboard (Dune).",
+    "logo": "https://icons.llamao.fi/icons/rwa/nvtsx.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.stobox.io/"
+      ],
+      "twitter": "https://x.com/StoboxCompany",
+      "docs": "https://docs.stobox.io/",
+      "linkedin": "https://www.linkedin.com/company/stobox-platform",
+      "discord": "https://dsc.gg/stobox",
+      "telegram": "https://t.me/stobox_community",
+      "github": "https://github.com/StoboxTechnologies"
+    }
+  },
+  "review": {
+    "activeAumReviewed": false,
+    "suspicious": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "arbitrum",
+      "address": "0xf11cbc58863694ec11a2cb134a53c8f94349c745",
+      "deployedAt": "2025-09-05",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "novitas-via-stobox-4",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://dune.com/stobox/rwaboard"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

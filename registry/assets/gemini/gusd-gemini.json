@@ -1,0 +1,83 @@
+{
+  "identity": {
+    "slug": "gusd-gemini",
+    "symbol": "GUSD",
+    "name": "Gemini Dollar",
+    "legacyId": 14,
+    "canonicalMarketId": "GUSD-GEMINI"
+  },
+  "exposure": {
+    "underlying": "us-dollar"
+  },
+  "class": {
+    "structure": "usd-stable",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "fiat-stablecoins"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "cexListed": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Monthly"
+  },
+  "sources": {
+    "coingeckoId": "gemini-dollar"
+  },
+  "about": {
+    "description": "GUSD is Gemini’s USD stablecoin designed for 1:1 redemption. Gemini states it is issued by a regulated entity and that outstanding tokens are supported by reserves held in cash or cash equivalents, with monthly third-party reserve examinations published for public review.",
+    "logo": "https://icons.llamao.fi/icons/rwa/gusd.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.gemini.com/dollar"
+      ],
+      "twitter": "https://x.com/Gemini",
+      "docs": "https://docs.gemini.com/",
+      "linkedin": "https://www.linkedin.com/company/gemini",
+      "telegram": "https://t.me/s/geminiofficial_APAC"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x056fd409e1d7a124bd7017459dfea2f387b6d5cd",
+      "deployedAt": "2018-09-09",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x4c2f150fc90fed3d8281114c2349f1906cde5346",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "gemini-trust-company-llc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.gemini.com/legal"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "date": "2025-07-31",
+      "links": [
+        "https://www.gemini.com/dollar"
+      ]
+    }
+  ]
+}

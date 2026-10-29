@@ -1,0 +1,102 @@
+{
+  "identity": {
+    "slug": "adram",
+    "symbol": "aDRAM",
+    "name": "Roundhill Memory ETF aStock",
+    "legacyId": 9209,
+    "canonicalMarketId": "aDRAM"
+  },
+  "exposure": {
+    "underlying": "roundhill-memory-etf"
+  },
+  "class": {
+    "structure": "etf-backed",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "etfs"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Daily"
+  },
+  "about": {
+    "description": "Tokenized Roundhill Memory ETF. Each token is backed 1:1 by the underlying ETF share, purchased through a FINRA-registered broker-dealer and held in regulated custody, and is redeemable for stablecoins.",
+    "logo": "https://img.anchored.finance/logos/DRAM.svg",
+    "links": {
+      "website": [
+        "https://anchored.finance/stocks"
+      ],
+      "twitter": "https://x.com/AnchoredFi",
+      "docs": "https://docs.anchored.finance/getting-started/anchored-tokens",
+      "linkedin": "https://www.linkedin.com/company/anchored-fi/",
+      "github": "https://github.com/AnchoredLabs"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xf90bf694935638374b238de65222139010592c8f",
+      "deployedAt": "2026-09-01"
+    },
+    {
+      "chain": "monad",
+      "address": "0xf90bf694935638374b238de65222139010592c8f",
+      "deployedAt": "2026-09-01",
+      "primary": true
+    },
+    {
+      "chain": "base",
+      "address": "0xf90bf694935638374b238de65222139010592c8f",
+      "deployedAt": "2026-09-01"
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0xf90bf694935638374b238de65222139010592c8f",
+      "deployedAt": "2026-09-01"
+    },
+    {
+      "chain": "robinhood",
+      "address": "0xf90bf694935638374b238de65222139010592c8f",
+      "deployedAt": "2026-09-04"
+    },
+    {
+      "chain": "bsc",
+      "address": "0xf90bf694935638374b238de65222139010592c8f",
+      "deployedAt": "2026-09-08"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "anchored-capital-ltd",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://anchored.finance/",
+        "https://alpaca.markets/tokenization"
+      ]
+    },
+    {
+      "organization": "anchored-finance",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://accountable.anchored.finance/"
+      ],
+      "note": "no date in the export"
+    }
+  ]
+}

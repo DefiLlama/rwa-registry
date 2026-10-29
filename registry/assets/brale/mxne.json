@@ -1,0 +1,94 @@
+{
+  "identity": {
+    "slug": "mxne",
+    "symbol": "MXNe",
+    "name": "Real MXN",
+    "legacyId": 3990,
+    "canonicalMarketId": "MXNe"
+  },
+  "exposure": {
+    "underlying": "mexican-peso"
+  },
+  "class": {
+    "structure": "rwa-fiat-stable",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "rwa-stablecoins"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Ongoing (Brale attestations + onchain proof of reserves)"
+  },
+  "sources": {
+    "coingeckoId": "real-mxn"
+  },
+  "about": {
+    "description": "Real MXN (MXNe) is a Mexican peso-backed stablecoin issued by Brale Inc. in partnership with Etherfuse. Backed 1:1 by reserves including Etherfuse Stablebonds (tokenized Mexican CETES). Live on Solana, Polygon, Base, and Stellar. Primary mint/redeem via KYB-verified US business accounts on the Brale Platform (USDC/USDP/ACH/wire, instant to 1-2 business days). Secondary trading permissionless. Yield retained by issuer. 0% management, performance, subscription, and redemption fees. Targets remittances, merchant payments, and MXN-denominated business settlement.",
+    "logo": "https://icons.llamao.fi/icons/rwa/mxne.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://brale.xyz/stablecoins/MXNe"
+      ],
+      "twitter": "https://x.com/brale_xyz",
+      "docs": "https://docs.brale.xyz",
+      "linkedin": "https://www.linkedin.com/company/brale",
+      "telegram": "https://t.me/bralecommunity"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "solana",
+      "address": "6zYgzrT7X2wi9a9NeMtUvUWLLmf2a8vBsbYkocYdB9wa",
+      "deployedAt": "2025-03-07",
+      "primary": true
+    },
+    {
+      "chain": "polygon",
+      "address": "0x615c2f42919c7fed56a44a5c62d5ef73f748fd0f",
+      "deployedAt": "2025-04-15"
+    },
+    {
+      "chain": "base",
+      "address": "0x269cae7dc59803e5c596c95756faeebb6030e0af",
+      "deployedAt": "2024-05-22"
+    },
+    {
+      "chain": "stellar",
+      "address": "MXNe-GCQCNWT22JDLENQAVIE6DRJGHWAQ6EX2H5ABGPV55EJUPPZM5UA7KHZR",
+      "deployedAt": "2024-05-20"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "brale",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://brale.xyz/stablecoins/MXNe"
+      ],
+      "protocolIds": [
+        6990
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://brale.xyz/security"
+      ],
+      "note": "no date in the export"
+    }
+  ]
+}

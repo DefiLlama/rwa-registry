@@ -1,0 +1,75 @@
+{
+  "identity": {
+    "slug": "osdmc-pre",
+    "symbol": "oSDMC-pre",
+    "name": "OpenStock SDMC Pre-IPO Vault",
+    "legacyId": 9027,
+    "canonicalMarketId": "oSDMC-pre"
+  },
+  "exposure": {
+    "underlying": "shenzhen-sdmc-technology-co-ltd"
+  },
+  "class": {
+    "structure": "pe-venture",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "about": {
+    "description": "oSDMC-pre is a capped vault token from OpenStock and the first vault the platform shipped. It gave holders exposure to the Hong Kong listing of Shenzhen SDMC Technology, which builds the streaming boxes, home networking hardware and home artificial intelligence software that telecom operators supply to subscribers. The vault subscribed to the offering through a special purpose vehicle, so a holder owns a claim on the vehicle rather than registered shares, with no voting rights and no dividend entitlement. It raised a little over forty thousand dollars against a three million dollar size, took a fully locked allocation, and now redeems for stablecoin at a published net redemption value above the entry price. Deposits are closed and the token remains freely transferable.",
+    "links": {
+      "website": [
+        "https://opn.st/s/SDMC"
+      ],
+      "twitter": "https://x.com/OpenstockInc",
+      "docs": "https://docs.opn.st/"
+    }
+  },
+  "review": {
+    "activeAumReviewed": false,
+    "suspicious": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xcee063f8148901037323c1c3a3763b8a5c7c36fb",
+      "deployedAt": "2026-05-18",
+      "primary": true
+    },
+    {
+      "chain": "base",
+      "address": "0x3ed40ee069214f350a36764b4f38cffbe3c6d8a7",
+      "deployedAt": "2026-05-18"
+    },
+    {
+      "chain": "solana",
+      "address": "8nW4rB2fjoeTTWestau8ZrqpbFCwK9q2BzjrF1P34WZM",
+      "deployedAt": "2026-05-18"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "polynomial-research",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.opn.st/legal/structure"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

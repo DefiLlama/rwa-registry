@@ -1,0 +1,68 @@
+{
+  "identity": {
+    "slug": "rai-v1",
+    "symbol": "rAI",
+    "name": "RWAlpha rAI Vault (Superseded Deployment)",
+    "legacyId": 9023,
+    "canonicalMarketId": "rAI-v1"
+  },
+  "exposure": {
+    "underlying": "neos-nasdaq-100-high-income-etf-yieldmax-nvda-option-income-strategy-etf"
+  },
+  "class": {
+    "structure": "rwa-basket-vault",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "rwa-wrappers"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "This is the first RWAlpha rAI vault contract deployed on the Mantle chain. RWAlpha later deployed a replacement rAI contract and this one carries no supply, so it is recorded as superseded rather than as a live product. The product itself holds a basket of two listed option income funds weighted to the NEOS Nasdaq-100 High Income ETF and the YieldMax NVDA Option Income Strategy ETF.",
+    "links": {
+      "website": [
+        "https://www.rwalpha.ai/vault/rAI?chain=mantle"
+      ],
+      "twitter": "https://x.com/RWAlpha_AI",
+      "docs": "https://www.rwalpha.ai/docs/intro",
+      "linkedin": "https://www.linkedin.com/company/rwalpha",
+      "telegram": "https://t.me/rwalphahelpdesk",
+      "github": "https://github.com/dmzFinance"
+    }
+  },
+  "review": {
+    "activeAumReviewed": false,
+    "suspicious": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "mantle",
+      "address": "0xa71262f2c790ab98d14a36e6c533b5b304deb69c",
+      "deployedAt": "2026-05-25",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "rwalpha-matrix-spc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.rwalpha.ai/docs/legal"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

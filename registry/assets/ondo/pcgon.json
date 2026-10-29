@@ -1,0 +1,115 @@
+{
+  "identity": {
+    "slug": "pcgon",
+    "symbol": "PCGon",
+    "name": "PG&E (Ondo Tokenized)",
+    "legacyId": 739,
+    "canonicalMarketId": "PCGon"
+  },
+  "exposure": {
+    "underlying": "pg-e-corporation"
+  },
+  "class": {
+    "structure": "stock-backed",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "cexListed": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Daily"
+  },
+  "sources": {
+    "coingeckoId": "pg-e-ondo-tokenized",
+    "identifiers": [
+      {
+        "scheme": "isin",
+        "value": "US69331C1080",
+        "source": null,
+        "verified": false
+      }
+    ]
+  },
+  "about": {
+    "description": "PCGon is an Ondo Global Markets tokenized stock exposure designed to provide economic exposure to =SUBSTITUTE(A170, \", \") in an onchain format. The token is designed to be fully backed by the underlying publicly traded asset, together with cash in transit, held with regulated custodial broker-dealers. Holdings attestations and ongoing reporting are surfaced through Ondo trust and transparency materials and the product asset page. Tokenholders are not shareholders of the underlying and do not receive shareholder voting rights. Dividend value is reflected through total return mechanics, and where applicable, dividends are reflected through reinvestment adjustments instead of cash dividends.",
+    "logo": "https://icons.llamao.fi/icons/rwa/pcg.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://app.ondo.finance/assets/pcgon"
+      ],
+      "twitter": "https://x.com/ondofinance",
+      "docs": "https://docs.ondo.finance/",
+      "linkedin": "https://www.linkedin.com/company/ondofinance",
+      "discord": "https://discord.com/invite/ondofinance",
+      "telegram": "https://t.me/ondofinance",
+      "github": "https://github.com/ondoprotocol"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x193fdf644451cc394b28b9cec2f5d32e2b4de515",
+      "deployedAt": "2025-12-18",
+      "primary": true
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x17fd126242b655ab1dd380b656d9ee88dd43ca05",
+      "deployedAt": "2025-12-18"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x47b36ddb9dd12a8411f78226f55e8c3f0d65481f",
+      "deployedAt": "2025-12-18"
+    },
+    {
+      "chain": "bsc",
+      "address": "0xb08809298c4a6b6a438f392c2081f0d9d5e67043",
+      "deployedAt": "2025-12-18"
+    },
+    {
+      "chain": "solana",
+      "address": "UP5s1srLaHDc4SwJqLPa3A48x5R7ofN3hZWxWEZondo",
+      "deployedAt": "2025-12-31"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "ondo-global-markets-bvi-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.ondo.finance/ondo-global-markets/legal-and-regulatory"
+      ],
+      "protocolIds": [
+        2542,
+        6650
+      ]
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://app.ondo.finance/assets/pcgon"
+      ],
+      "note": "Daily (ongoing)"
+    }
+  ]
+}

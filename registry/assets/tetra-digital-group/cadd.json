@@ -1,0 +1,77 @@
+{
+  "identity": {
+    "slug": "cadd",
+    "symbol": "CADD",
+    "name": "Tetra Canadian Digital Dollar",
+    "legacyId": 3696,
+    "canonicalMarketId": "CADD"
+  },
+  "exposure": {
+    "underlying": "canadian-dollar"
+  },
+  "class": {
+    "structure": "other-fiat-stable",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "fiat-stablecoins"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Monthly"
+  },
+  "about": {
+    "description": "CADD is Canada's first CAD-backed stablecoin issued by a licensed financial institution, issued by Tetra Trust Company via agent CAD Digital Inc. (a Tetra Digital Group subsidiary), CADD received regulatory approval from the Alberta Treasury Board and Finance and launched May 4, 2026. Backed 1:1 by Canadian dollars held in trust at Canadian financial institutions including tier-one banks. All funds used to mint CADD are dedicated exclusively to redemption. External financial auditor performs monthly attestations plus unannounced random checks. Reserve verifications are published on the Tetra website so users can confirm 1 CADD equals 1 CAD held in reserve. Live on Base, Ethereum, and Tempo, with Solana planned. Use cases include 24/7 cross-border settlement, real-time corporate treasury transfers, programmable payments for marketplace payouts, and direct settlement between FinTech partners without correspondent banking delays, backed by a C$10M round from Canadian fintechs and financial institutions including Urbana Corporation, Wealthsimple, Purpose Unlimited, Shakepay, ATB Financial, National Bank of Canada, and Shopify.",
+    "logo": "https://icons.llamao.fi/icons/rwa/cadd.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.tetra.digital/cadd"
+      ],
+      "twitter": "https://x.com/tetra_trust",
+      "docs": "https://www.tetra.digital/cadd",
+      "linkedin": "https://www.linkedin.com/company/tetra-trust"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x16f93ebc5320c89efc8701577efe49d14a276a06",
+      "deployedAt": "2026-02-26",
+      "primary": true
+    },
+    {
+      "chain": "base",
+      "address": "0x16f93ebc5320c89efc8701577efe49d14a276a06",
+      "deployedAt": "2026-02-26"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "tetra-trust-company",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.tetra.digital/cadd"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://www.tetra.digital/cadd"
+      ],
+      "note": "no date in the export"
+    }
+  ]
+}

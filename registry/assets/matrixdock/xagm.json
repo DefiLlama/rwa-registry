@@ -1,0 +1,87 @@
+{
+  "identity": {
+    "slug": "xagm",
+    "symbol": "XAGM",
+    "name": "Matrixdock XAGm",
+    "legacyId": 3521,
+    "canonicalMarketId": "XAGM"
+  },
+  "exposure": {
+    "underlying": "silver"
+  },
+  "class": {
+    "structure": "silver",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "gold-commodities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Biannual (semi-annual third-party physical audits per Matrixdock policy; matches XAUm cadence)"
+  },
+  "sources": {
+    "coingeckoId": "matrixdock-silver"
+  },
+  "about": {
+    "description": "XAGm is Matrixdock's tokenized silver product, designed for bar-level transparency with holdings mapped to LBMA Good Delivery silver bars stored in vetted Asian vaults. Each XAGm represents one fine troy ounce of silver at launch, with the ozPerToken value declining gradually to reflect a 0.3% annualized custody fee. The token uses Matrixdock's Fungible Reserve Standard (FRS), under which on-chain mint budget and proof-of-reserves are tightly coupled to off-chain bullion economics. Independent physical audits are performed by Bureau Veritas, with semi-annual audit reports and ongoing vault asset statements published via Matrixdock's transparency surface. Holders can redeem XAGm for the underlying silver subject to KYC/AML and minimum thresholds via the Matrixdock app.",
+    "logo": "https://icons.llamao.fi/icons/rwa/xagm.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.matrixdock.com/xagm"
+      ],
+      "twitter": "https://x.com/matrixdock",
+      "docs": "https://docs.matrixdock.com/",
+      "linkedin": "https://www.linkedin.com/company/matrixport-group",
+      "github": "https://github.com/Matrixdock-STBT"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x123ffe0a3c62878dcbee2742227dc8990058d9e1",
+      "deployedAt": "2026-03-09",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x7516d4e35a369fc18ddfeec0d69c28112fe13bf0",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "matrix-infinitus-hong-kong-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.matrixdock.com"
+      ],
+      "protocolIds": [
+        8536
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://www.matrixdock.com/xagm",
+        "https://matrixdock.gitbook.io/matrixdock-docs/english/silver-token-xagm/smart-contract/contract-audit",
+        "https://www.matrixdock.com/transparency/underlying-assets?type=xagm"
+      ],
+      "note": "Pending (XAGm launched late 2025; first dedicated audit report expected per biannual cadence)"
+    }
+  ]
+}

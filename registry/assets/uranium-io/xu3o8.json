@@ -1,0 +1,130 @@
+{
+  "identity": {
+    "slug": "xu3o8",
+    "symbol": "xU3O8",
+    "name": "Uranium.io",
+    "legacyId": 115,
+    "canonicalMarketId": "xU3O8"
+  },
+  "exposure": {
+    "underlying": "uranium"
+  },
+  "class": {
+    "structure": "uranium",
+    "type": "asset",
+    "rwaClassification": "programmable-finance",
+    "category": [
+      "gold-commodities"
+    ]
+  },
+  "terms": {
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "sources": {
+    "coingeckoId": "uranium"
+  },
+  "about": {
+    "description": "Uranium.io tokenizes exposure to physical uranium oxide (U3O8), aiming to make an institutionally custodied commodity position accessible in fractional units. It is positioned around observable backing and reporting, with a proof-of-reserves workflow intended to support verifiable supply versus custodied holdings for the uranium inventory.",
+    "logo": "https://icons.llamao.fi/icons/rwa/xu3o8.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://uranium.io"
+      ],
+      "twitter": "https://x.com/uranium_io",
+      "docs": "https://uranium.io/",
+      "linkedin": "https://www.linkedin.com/company/uranium-io",
+      "discord": "https://discord.com/invite/FAEGEhZh5A",
+      "telegram": "https://t.me/Uranium_Community"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "arbitrum",
+      "address": "0x6604b5da093f3f35066c6c79e51d581a44c35288",
+      "deployedAt": "2024-01-04",
+      "labels": [
+        {
+          "address": "0xd1c5a347983b20c1983c4e622033714ccd926eb7",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xb5f84bd70888adbfda48123567ed7f739b08483e",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xe4e67ec708cba576e8072d8b8a449894442543b7",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x6eb2e48e23154378c811a612c4b0ba6e5c37fb2f",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x372b2dc06478aa2c8182eee0f12ea0e9a15e2913",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x8cc379a292a47cb8406fb1bd8a6d98f442275f0e",
+      "deployedAt": "2023-10-25",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xe7ec85a0b514d86b7216b82bcc729000740182d7",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x1ab654ea2af878c2c8743d4d9be2c083b6fb001c",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xb422bdba6ac2a04e78675a31e06be3a290526eb7",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x66e6bee6329f1985756408ee98a7b2af46dd089f",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x746d581a216ab8c8b559a1d20649b65e30edd8cc",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xe5bf040e958e8f2e6bb563142dba59e73bd86192",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xd39505c7840a155d8437dd817914bb16aec94d48",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x267b83bf3420f5dbe0adc82ecf901d197461d928",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xe9ad4ebc0a7c7701b006ccc5a286f0c8c69754c4",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "uranium-io",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://uranium.io"
+      ]
+    }
+  ]
+}

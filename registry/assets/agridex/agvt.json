@@ -1,0 +1,77 @@
+{
+  "identity": {
+    "slug": "agvt",
+    "symbol": "AGVT",
+    "name": "AY-Aniseed vault",
+    "legacyId": 3768,
+    "canonicalMarketId": "AGVT"
+  },
+  "exposure": {
+    "underlying": "trade-finance-receivables-aniseed-series"
+  },
+  "class": {
+    "structure": "trade-finance",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "private-credit"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "AGVT is a receipt-token-style vault share for the AgriDex Trade Float Vault on Stellar/Soroban (consumer brand: Loam). Holders deposit USDC. Capital is deployed into short-duration commodity trade-finance exposures (the \"Aniseed\" series references aniseed-linked trade receivables). The vault is operated by AgriDex International Limited and uses a permissioned/approved-wallet onboarding flow per official docs. Returns accrue at the vault level through NAV growth. Receipt-token balances are constant while per-token value increases as underlying trade-finance cashflows realize. Target APY 9-12% (per docs). 30-day minimum holding period. Two-phase redemption (request to notice period to confirm) processed at par value subject to available liquidity. Underlying exposures: short-duration trade receivables, pre-financing of verified trade flows, inventory-linked structures, and settlement/payments float. NO third-party audit / proof-of-reserves of the loan book exists at audit date (per issuer submission). The on-chain exchange contract (CATKU4.IRN5N) is the sole minter/burner and holds the USDC reserve used for redemption. The rate is operator-controlled, which is an explicit centralization vector. Contract deployed May 11, 2026. Distinct from the Solana-based AGRI governance token (which is a separate AgriDex product).",
+    "logo": "https://icons.llamao.fi/icons/rwa/loam.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://agridex.com"
+      ],
+      "twitter": "https://x.com/agridexplatform",
+      "docs": "https://agridex-2.gitbook.io/agridex-docs/product/trade-float-vault",
+      "linkedin": "https://www.linkedin.com/company/agridex-international"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "stellar",
+      "address": "CDQDXYC42G4ODKZA7B3RARH6VEOGCCQAX2UXOZLDYBNGDEOWODTSQYAZ",
+      "deployedAt": "2026-03-23",
+      "primary": true,
+      "labels": [
+        {
+          "address": "GDO6SXI6XKH3UVTSNRA2G3X727554WXNN4OZWAC5VWAEXGPUOPSX63PO",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "CATKU4CKIUVPTNTLBHUFWIE5NOXO6CUW7EZGJLNAOZBKTQGXFHFIRN5N",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "agridex-international-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://agridex.com"
+      ]
+    },
+    {
+      "organization": "agridex-international-limited",
+      "kind": "oracle"
+    }
+  ]
+}

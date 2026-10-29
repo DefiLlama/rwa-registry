@@ -1,0 +1,75 @@
+{
+  "identity": {
+    "slug": "peak",
+    "symbol": "pEAK",
+    "name": "Peakwater Volatility Alpha Fund Token",
+    "legacyId": 4094,
+    "canonicalMarketId": "pEAK"
+  },
+  "exposure": {
+    "underlying": "cross-asset-volatility-strategy"
+  },
+  "class": {
+    "structure": "crypto-hedge-fund",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "crypto-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "pEAK is the tokenized share class of the Peakwater Volatility Alpha Fund, a Singapore VCC sub-fund managed by MAS-licensed Pilgrim Partners Asia that runs systematic long/short cross-asset volatility strategies (including IBIT-, COIN- and MSTR-linked derivatives) targeting ~20% annualized absolute returns. It is issued and distributed on Ethereum through the regulated DigiFT exchange to accredited and institutional investors.",
+    "logo": "https://icons.llamao.fi/icons/rwa/peak.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://peakwatervolatility.com"
+      ],
+      "twitter": "https://x.com/DigiFTTech",
+      "docs": "https://www.digift.io"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x725d35740656c77f27221ae580e5f8cf43da1af9",
+      "deployedAt": "2025-05-22",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x3797c46db697c24a983222c335f17ba28e8c5b69",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "pilgrim-investment-vcc-sub-fund-t24vc0084d-sf004-manager-pilgrim-partners-asia-mas-cms",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://insights.digift.io/the-first-institutional-grade-tokenized-volatility-strategy-goes-live-on-digift/",
+        "https://www.pilgrimpartnersasia.com/in-the-news/press-release-digift-and-pilgrim-partners-asia-launch-peakwater"
+      ]
+    },
+    {
+      "organization": "tokenized-by-digift",
+      "kind": "tokenizer",
+      "sourceLinks": [
+        "https://insights.digift.io/the-first-institutional-grade-tokenized-volatility-strategy-goes-live-on-digift/",
+        "https://www.pilgrimpartnersasia.com/in-the-news/press-release-digift-and-pilgrim-partners-asia-launch-peakwater"
+      ]
+    }
+  ]
+}

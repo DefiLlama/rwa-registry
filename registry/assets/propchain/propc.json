@@ -1,0 +1,137 @@
+{
+  "identity": {
+    "slug": "propc",
+    "symbol": "PROPC",
+    "name": "Propchain",
+    "legacyId": 124,
+    "canonicalMarketId": "PROPC"
+  },
+  "exposure": {
+    "underlying": "propchain"
+  },
+  "class": {
+    "structure": "governance-token",
+    "type": "asset",
+    "rwaClassification": "non-rwa-gov-utility",
+    "category": [
+      "governance-tokens",
+      "real-estate"
+    ]
+  },
+  "terms": {
+    "cexListed": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "sources": {
+    "coingeckoId": "propchain"
+  },
+  "about": {
+    "description": "Propchain positions itself as an infrastructure layer for real estate digitization, combining standardized property data, validation workflows, and tokenization tooling intended for institutional and ecosystem integrations. PROPC is the ecosystem token designed to align incentives across network participation, data services, and product expansion across global real estate markets.",
+    "logo": "https://icons.llamao.fi/icons/rwa/propchain.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://propchain.com"
+      ],
+      "twitter": "https://x.com/PropChainGlobal",
+      "docs": "https://docs.propchain.com/",
+      "linkedin": "https://www.linkedin.com/company/propchain-network",
+      "telegram": "https://t.me/officialpropchainchat",
+      "github": "https://github.com/Propchainglobal"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x9ff58067bd8d239000010c154c6983a325df138e",
+      "deployedAt": "2023-05-17",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x000000000000000000000000000000000000dead",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xb091d200a9f916ab0994e82546d278337576afc9",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x4b418d1077a80b837c828e94a6a48b6a2ff16e79",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xc829ba3cdbabf1b84e643e4fe590f1054a610ec2",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x7cf5edd4002d258ba7e333c1a66642c84ffd6933",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x955866b5a5e8aa8619ac09c422046095654414da",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x5b3bf3addf38bce39559fd8c1fb15e9f5ec1830a",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x44b9ccadef7ef8003085022c6413dd22fb456b38",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xfd20daa10fda594c4ea65c3b3acab786018d5555",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xb27f5a6b5fc3a0df3db94adfab16bd097156457d",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xc780e9c48752cebe21fb119e1a4efea57e4b0026",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xc0a7838017c8f0fc9fe0f0d9c164a9e28f9ef446",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x8377ff4aed639cbd75223aa9a9cab257864591ca",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xf57ee6abf77d467e61652fd0c1a267875979b04d",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x31a9aa9ff0e3e3df58452fe9113ce5905a70cc19",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x4fc18b68960a6ed7eab07451f0d755d857ff329d",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xe14885c5d632abff9c04aeef8e5fb88c0f6872da",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "propchain-foundation",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.propchain.com/propchain-foundation/foundation-introduction"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "identity": {
+    "slug": "cash",
+    "symbol": "CASH+",
+    "name": "Asseto CASH+",
+    "legacyId": 78,
+    "canonicalMarketId": "CASH+"
+  },
+  "exposure": {
+    "underlying": "asseto-cash-reserve-portfolio"
+  },
+  "class": {
+    "structure": "mmf",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "bond-mmf-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "about": {
+    "description": "CASH+ is Asseto’s cash-management style token designed to keep a stable unit of account while earning yield through a managed, conservative allocation. It targets lower volatility than typical DeFi yield strategies and is positioned for users seeking a steady return profile suited to treasury-style stablecoin parking.",
+    "logo": "https://icons.llamao.fi/icons/rwa/asseto-cash-plus.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://asseto.finance"
+      ],
+      "twitter": "https://x.com/AssetoFinance",
+      "docs": "https://docs.asseto.capital/",
+      "linkedin": "https://www.linkedin.com/company/asseto-capital"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x498d9329555471bf6073a5f2d047f746d522a373",
+      "deployedAt": "2025-09-17",
+      "primary": true
+    },
+    {
+      "chain": "bsc",
+      "address": "0x1775504c5873e179ea2f8abfce3861ec74d159bc",
+      "deployedAt": "2025-08-15"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "asseto-finance",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://asseto.finance"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "Not publicly disclosed"
+    }
+  ]
+}

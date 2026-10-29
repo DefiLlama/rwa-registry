@@ -1,0 +1,101 @@
+{
+  "identity": {
+    "slug": "yzm",
+    "symbol": "YZM",
+    "name": "Yuzu Money Vault",
+    "legacyId": 4550,
+    "canonicalMarketId": "YZM"
+  },
+  "exposure": {
+    "underlying": "curated-institutional-grade-yield-strategies-operated-under-yuzu-money-risk-fram"
+  },
+  "class": {
+    "structure": "crypto-hedge-fund",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "crypto-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Continuous"
+  },
+  "about": {
+    "description": "YZM is the ERC-4626 share token of the Yuzu Money Vault on Monad. Deposited USDC is deployed under Yuzu Money's institutional-grade risk framework, with real-time reserve verification via Accountable's Proof of Solvency. Yield accrues to share price through ERC-4626 convertToAssets. The vault operates within the Yuzu Money platform which spans tokenized RWA products (Yuzu Prime) and structured stablecoin products (Yuzu Alpha).",
+    "logo": "https://icons.llamao.fi/icons/rwa/yzm.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://yuzu.money/"
+      ],
+      "twitter": "https://x.com/YuzuMoneyX",
+      "docs": "https://yuzu-money.gitbook.io/yuzu-money",
+      "discord": "https://discord.com/invite/gjKw4KJyu8",
+      "telegram": "https://t.me/yuzumoneyofficial"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "monad",
+      "address": "0x3a2c4aaae6776dc1c31316de559598f2f952e2cb",
+      "deployedAt": "2025-12-19",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xcb9c1fbf1b8fcd71a70a1a6551dcaaf9f7029c19",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x1fa34cbc70df96ee00cd107f80cec09068db829c",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x4b70b6cb8c66f09b71f2f023fe3d54eed30bea22",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x4b07aaa370189e5603df56c84f59c5a59181bfb1",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x4de9b4d7b70d1680cd8e3a2c60717cbbe6014991",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "yuzu-money",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://yuzu-money.gitbook.io/yuzu-money"
+      ],
+      "protocolIds": [
+        7092
+      ]
+    },
+    {
+      "organization": "yuzu-money",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://yuzu.accountable.capital/"
+      ],
+      "note": "Continuous"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "identity": {
+    "slug": "tfw-001",
+    "symbol": "TFW_001",
+    "name": "Tokeshare forwill001",
+    "legacyId": 9029,
+    "canonicalMarketId": "TFW_001"
+  },
+  "exposure": {
+    "underlying": "quad-transport-vehicle"
+  },
+  "class": {
+    "structure": "other-exotic",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "other-rwas"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "Monthly"
+  },
+  "about": {
+    "description": "TFW_001 is a tokenized fractional interest in a quad used for a transport/rental activity. Tokeshare lists 100 shares on Stellar at an indicative price of 50 USDC each, corresponding to a 5,000 USDC asset valuation. Tokeshare reports a net monthly distribution of 68.60 USDC across the asset, or 0.686 USDC per token, and a displayed annual net yield of 16.46%",
+    "logo": "https://icons.llamao.fi/icons/rwa/tokeshare-forwill001.jpg?w=48&h=48",
+    "links": {
+      "website": [
+        "https://tokeshare.co/stellar/tfw001"
+      ],
+      "twitter": "https://x.com/Tokeshare"
+    }
+  },
+  "review": {
+    "activeAumReviewed": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "stellar",
+      "address": "CC2MTI3REEQUMDJYOLQHK4D6GPGSTGPZOWH3G75SECSOTOH7L7GGLG5O",
+      "deployedAt": "2026-07-28",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "tokeshare",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://tokeshare.co/stellar/tfw001"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "review",
+      "outcome": "suspicious",
+      "reason": null
+    }
+  ]
+}

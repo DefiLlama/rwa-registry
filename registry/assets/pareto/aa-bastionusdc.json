@@ -1,0 +1,66 @@
+{
+  "identity": {
+    "slug": "aa-bastionusdc",
+    "symbol": "AA_BASTIONUSDC",
+    "name": "Bastion Trading Credit Vault",
+    "legacyId": 3416,
+    "canonicalMarketId": "AA_BASTIONUSDC"
+  },
+  "exposure": {
+    "underlying": "bastion-trading-credit-vault"
+  },
+  "class": {
+    "structure": "structured-credit",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "private-credit"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true
+  },
+  "about": {
+    "description": "The Bastion Trading Credit Vault provides evergreen, fixed-rate exposure managed by Bastion Trading, a Hong Kong-based trading firm established in 2014. Funds are deployed into derivatives trading",
+    "logo": "https://icons.llamao.fi/icons/rwa/bastion-trading-credit-vault.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://pareto.credit/"
+      ],
+      "twitter": "https://x.com/paretocredit",
+      "docs": "https://docs.pareto.credit/",
+      "linkedin": "https://www.linkedin.com/company/pareto-credit",
+      "telegram": "https://t.me/paretocredit",
+      "github": "https://github.com/pareto-credit"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x4462ed748b8f7985a4ac6b538dfc105fce2dd165",
+      "deployedAt": "2025-05-12",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xc49b4ecc14aa31ef0ad077edcf53fab4201b724c",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "idle-dao-llc",
+      "kind": "issuer"
+    }
+  ]
+}

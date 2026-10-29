@@ -1,0 +1,120 @@
+{
+  "identity": {
+    "slug": "gho",
+    "symbol": "GHO",
+    "name": "GHO",
+    "legacyId": 583,
+    "canonicalMarketId": "GHO"
+  },
+  "exposure": {
+    "underlying": "us-dollar"
+  },
+  "class": {
+    "structure": "crypto-stable",
+    "type": "asset",
+    "rwaClassification": "programmable-finance",
+    "category": [
+      "non-rwa-stablecoins"
+    ]
+  },
+  "terms": {
+    "cexListed": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "sources": {
+    "coingeckoId": "gho"
+  },
+  "about": {
+    "description": "GHO is Aave’s overcollateralized stablecoin. It is minted by borrowing against collateral supplied on Aave (via ‘facilitators’ that manage minting limits) and is integrated with Aave’s risk framework. features like the GHO discount tie borrowing costs to Aave governance and security staking.",
+    "logo": "https://icons.llamao.fi/icons/rwa/gho.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://aave.com/gho"
+      ],
+      "twitter": "https://twitter.com/AaveAave",
+      "docs": "https://docs.aave.com/",
+      "linkedin": "https://www.linkedin.com/company/aaveaave",
+      "discord": "https://discord.com/invite/aave",
+      "telegram": "https://t.me/Aavesome",
+      "github": "https://github.com/aave"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "arbitrum",
+      "address": "0x7dff72693f6a4149b17e7c6314655f6a9f7c8b33",
+      "deployedAt": "2024-06-23"
+    },
+    {
+      "chain": "avax",
+      "address": "0xf611aeb5013fd2c0511c9cd55c7dc5c1140741a6",
+      "deployedAt": "2025-06-25"
+    },
+    {
+      "chain": "base",
+      "address": "0x067ae75628177fd257c2b1e500993e1a0babcbd1",
+      "deployedAt": "2025-02-10"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x40d16fc0246ad3160ccc09b8d0d3a2cd28ae6c2f",
+      "deployedAt": "2023-07-15",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x464c71f6c2f760dda6093dcb91c24c39e5d6e18c",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "fraxtal",
+      "address": "0x999d00801c88e980c6605137ea660606e0494ce5",
+      "deployedAt": "2024-03-12"
+    },
+    {
+      "chain": "ink",
+      "address": "0xfc421ad3c883bf9e7c4f42de845c4e4405799e73",
+      "deployedAt": "2025-08-17"
+    },
+    {
+      "chain": "lens",
+      "address": "0x0000000000000000000000000000000000000000",
+      "deployedAt": null
+    },
+    {
+      "chain": "xdai",
+      "address": "0x3fdcec11b4f15c79d483aedc56f37d302837cf4d",
+      "deployedAt": "2025-08-05"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "aave-dao",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://aave.com/gho",
+        "https://aave.com/"
+      ],
+      "protocolIds": [
+        1599,
+        111,
+        1838,
+        1839,
+        6277,
+        6621,
+        7106,
+        7488,
+        "parent#aave"
+      ]
+    }
+  ]
+}

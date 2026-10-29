@@ -1,0 +1,78 @@
+{
+  "identity": {
+    "slug": "flusd",
+    "symbol": "flUSD",
+    "name": "Flint USD",
+    "legacyId": 4048,
+    "canonicalMarketId": "flUSD"
+  },
+  "exposure": {
+    "underlying": "euro-real-estate-debt"
+  },
+  "class": {
+    "structure": "credit-pool",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "private-credit",
+      "real-estate"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true,
+    "attestationFrequency": "NAV updates via Lagoon valuation cycle; lend.xyz dataroom"
+  },
+  "about": {
+    "description": "flUSD is an ERC-7540 asynchronous USDC vault on Lagoon Finance curated by 9Summits, allocating ~95% to euro-denominated real-estate-backed bonds originated by France's Lend SA (AMF-filed under Monetary and Financial Code Art. L411-2) with a ~5% Morpho liquidity buffer. Targets ~10% APR with weekly distributions and ~18-month average duration. EUR/USD exposure is unhedged and redemptions are asynchronous (7-21 days, non-cancellable). The public contact is pseudonymous and the bond originator is newly established (3 funded projects, ~$1.9M).",
+    "logo": "https://icons.llamao.fi/icons/rwa/flusd.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://flintrwa.xyz"
+      ],
+      "twitter": "https://x.com/flintrwa",
+      "docs": "https://flint-rwa.gitbook.io/flintrwa-docs",
+      "telegram": "https://t.me/paul_flint"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x7f35dea44a192764aa50d50e5f0ece1d5a8b0e45",
+      "deployedAt": "2026-06-04",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "kbl-llc-fz-flint-brand",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://flintrwa.xyz",
+        "https://lend.xyz",
+        "https://app.lagoon.finance/vault/1/0x7f35dea44a192764aa50d50e5f0ece1d5a8b0e45"
+      ]
+    },
+    {
+      "organization": "underlying-bonds-issued-by-lend-sa-france",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://flintrwa.xyz",
+        "https://lend.xyz",
+        "https://app.lagoon.finance/vault/1/0x7f35dea44a192764aa50d50e5f0ece1d5a8b0e45"
+      ]
+    },
+    {
+      "organization": "lagoon",
+      "kind": "oracle"
+    }
+  ]
+}

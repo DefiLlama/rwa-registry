@@ -1,0 +1,124 @@
+{
+  "identity": {
+    "slug": "char",
+    "symbol": "CHAR",
+    "name": "Biochar",
+    "legacyId": 413,
+    "canonicalMarketId": "CHAR"
+  },
+  "exposure": {
+    "underlying": "toucan-biochar"
+  },
+  "class": {
+    "structure": "carbon-credit",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "carbon-environment"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Not publicly disclosed (on-chain carbon credit verification)"
+  },
+  "sources": {
+    "coingeckoId": "biochar"
+  },
+  "about": {
+    "description": "CHAR is Toucan’s biochar carbon pool token backed by Puro.earth CO2 removal certificates (CORCs) and corresponding project-specific tokens. It enables automated, on-demand buying, selling, deposits, and redemptions with transparent pool composition and an allowlist of eligible projects. Deployed on Base and Celo.",
+    "logo": "https://icons.llamao.fi/icons/rwa/biochar.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://toucan.earth/char/"
+      ],
+      "twitter": "https://x.com/ToucanProtocol",
+      "docs": "https://docs.toucan.earth/",
+      "linkedin": "https://www.linkedin.com/company/toucan-protocol",
+      "discord": "https://discord.com/invite/r8DZqeJMFE",
+      "github": "https://github.com/ToucanProtocol"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "base",
+      "address": "0x20b048fa035d5763685d695e66adf62c5d9f5055",
+      "deployedAt": "2024-04-17",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0x7bc01aff86e64949f39de616c950a1f094695ec4",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xf22929a43bff92e2303a55b2a88e3fcbc7b6b1ef",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x6bcad56fe6621d57c4254b70a6d057942842c9a0",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xf49f899d70db6518e3d65eaf1c5d742c205eca83",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x6a4549759c475d845d4ae074b3656dc257490da5",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x3476bfb58a03cafb6f7b7b02c21fc6597e5e78ec",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xd096b0271064dffcb7cde699b25850dddbfd71d1",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x09da61144b05c4a80b2d3c67bd72d740922cb186",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xdc2187ef2832a450bc06778cfc01028afb6397cc",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x9ad2aa3c4a50c35d62b35718cd391c172d6659da",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "celo",
+      "address": "0x50e85c754929840b58614f48e29c64bc78c58345",
+      "deployedAt": "2024-02-28"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "toucan-protocol-association",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.auditorstats.ch/index.php?pid=4&uid=CHE-381.295.616"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://docs.toucan.earth/toucan/carbon-pools/char-carbon-pool",
+        "https://toucan.earth/char/"
+      ],
+      "note": "Not publicly disclosed"
+    }
+  ]
+}

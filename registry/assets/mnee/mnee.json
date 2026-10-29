@@ -1,0 +1,74 @@
+{
+  "identity": {
+    "slug": "mnee",
+    "symbol": "MNEE",
+    "name": "MNEE USD",
+    "legacyId": 611,
+    "canonicalMarketId": "MNEE"
+  },
+  "exposure": {
+    "underlying": "us-dollar"
+  },
+  "class": {
+    "structure": "usd-stable",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "fiat-stablecoins"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "cexListed": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Monthly"
+  },
+  "sources": {
+    "coingeckoId": "mnee-usd-stablecoin"
+  },
+  "about": {
+    "description": "MNEE is a USD stablecoin that targets $1 and is backed by issuer-held reserves in cash and short-term U. S. government obligations (per issuer disclosures). It supports both ERC‑20 and Bitcoin SV 1Sat Ordinals representations. primary risks are issuer/custody, regulatory constraints on mint/redemption, and reserve management.",
+    "logo": "https://icons.llamao.fi/icons/rwa/mnee.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.mnee.io/"
+      ],
+      "twitter": "https://x.com/MNEE_cash"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x8ccedbae4916b79da7f3f612efb2eb93a2bfd6cf",
+      "deployedAt": "2024-03-21",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "mnee",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.mnee.io/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://www.mnee.io/"
+      ],
+      "note": "Monthly (ongoing, 2026)"
+    }
+  ]
+}
