@@ -22,7 +22,7 @@ CI runs the same four checks on every pull request. `pnpm format` fixes formatti
 | ---------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
 | `registry/`            | The data, one JSON file per row: `reference/` (chains, organizations, underlyings, vocabularies), `assets/<platform>/` and `perps/<venue>/`. |
 | `acks/`                | One file per guard exception.                                                                                                                |
-| `src/`                 | The code, one folder per part: `schema`, `registry`, `cli`, `build`, `import`, `migrate`, `discover` and the `clients` it reads through.     |
+| `src/`                 | The code, one folder per part: `schema`, `registry`, `cli`, `build`, `discover` and the `clients` it reads through.                          |
 | `config/discover.json` | The sources `discover` asks, the venue listing APIs and the pacing, with `<ENV_NAME>` placeholders for keys (`.env.example` names them).     |
 | `schema/json/`         | The JSON Schema of each table for editors, written by `pnpm schema`.                                                                         |
 | `templates/`           | One JSON file per row an `add` command writes, to fill and pass with `--from` (`templates/README.md`).                                       |
@@ -53,14 +53,11 @@ No command and no CI step needs an environment variable; the five keys `discover
 | `pause <target> <slug>`              | Adds a dated paused event; a paused venue stops publishing.                           | `--at`, `--reason`, `--source`.                                                                                                                                                    |
 | `resume <target> <slug>`             | Adds a dated resumed event after a pause.                                             | `--at`, `--reason`, `--source`.                                                                                                                                                    |
 | `review <asset>`                     | Records a review of an asset's data, suspicious or cleared.                           | `--outcome`, `--source`, `--reason` when suspicious.                                                                                                                               |
-| `ack <asset>`                        | Adds one guard exception, open-ended without `--until`.                               | `--guard`, `--until`, `--reason`, `--resolve`, `--source`.                                                                                                                         |
-| `set <file> [field] [value]`         | Sets one field of one file, or replaces the file; a `kind` or `class` moves the file. | `--source`, `--reason`, `--file <json>`.                                                                                                                                           |
+| `ack <asset>`                        | Adds one guard exception, open-ended without `--until`.                               | `--guard`, `--until`, `--reason`, `--resolve`.                                                                                                                                     |
+| `set <file> [field] [value]`         | Sets one field of one file, or replaces the file; a `kind` or `class` moves the file. | `--file <json>`.                                                                                                                                                                   |
 | `merge <table> <keep> <drop>`        | Merges one organization or underlying into another.                                   | `--reason`, `--source`, `--force`.                                                                                                                                                 |
 | `discover address <chain>:<address>` | Prints what the chain says about one address.                                         | `--json`.                                                                                                                                                                          |
-| `discover dates`                     | Appends deployment and listing dates as patch rows to a CSV.                          | `--out <file>` (required), `--platform`, `--chain`, `--venue`, `--limit`, `--dry-run`.                                                                                             |
-| `import`                             | Imports the Airtable exports and writes the migration report.                         | `--markets`, `--platforms`, `--out`, `--patches`, `--dates`.                                                                                                                       |
-| `migrate`                            | Lands one stage of the Airtable exports through the add commands.                     | `--markets`, `--platforms`, `--stage`, `--from-registry`, `--batches`, `--out`, `--export-patches`, `--dry-run`.                                                                   |
-| `apply`                              | Lands one batch CSV of fixes through `set`, `merge`, `ack` and the add commands.      | `--batch`, `--markets`, `--platforms`, `--out`, `--patches`, `--dry-run`.                                                                                                          |
+| `discover dates`                     | Sets the deployment dates and listing events it finds in the registry files.          | `--platform`, `--chain`, `--venue`, `--limit`, `--dry-run`.                                                                                                                        |
 
 ## Example: add one asset
 
@@ -81,6 +78,4 @@ The asset lands in `registry/assets/xstocks/ionqx.json` with the next legacy id.
 - [docs/model.md](docs/model.md): the 14 tables, their keys, the taxonomy, the vocabularies, the events and the derived fields.
 - [docs/registry.md](docs/registry.md): the file layout, the naming rules, the blocks of a file, the checks and editing with commands.
 - [docs/server.md](docs/server.md): what `registry.json` holds, how the server reads it, and how to add a venue.
-- [docs/import.md](docs/import.md): the import of the Airtable exports, its outputs, the patches and the date discovery.
-- [docs/migrate.md](docs/migrate.md): landing the exports stage by stage and the fix batches.
 - [docs/operations.md](docs/operations.md): the workflows, the review rule, the keys `discover` uses, and the parallel run.

@@ -19,7 +19,7 @@ jobs:
       - run: pnpm install --frozen-lockfile
       - name: validate
         run: |
-          # A base with no registry file is the empty repository before the migrate stages, so nothing in it is new.
+          # A base with no registry file is the empty repository before the data lands, so nothing in it is new.
           if [ -n "$(find base/registry -name '*.json' 2>/dev/null | head -1)" ]; then pnpm rwa validate --base base/registry; else pnpm rwa validate; fi
       - run: pnpm typecheck
       - run: pnpm test

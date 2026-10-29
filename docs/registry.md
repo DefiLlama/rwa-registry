@@ -81,6 +81,5 @@ A warning never fails `validate`. It marks a row on main that breaks a rule new 
 
 - A command that writes first checks its new, changed and removed files on a copy of the registry. On an error it prints `file: message`, writes nothing and exits 1. An `add` command never overwrites a file that exists, and it marks an identifier `verified` only when it names a source URL.
 - A row must exist before another row names it: an asset needs its platform's `platform.json`, its underlying, its issuer and a category rule for its structure and exposure; a market needs its venue; a role or venue needs its organization. Add a missing rule with `add rule`.
-- A new deployment needs a date, which `add asset` takes from `:<YYYY-MM-DD>` on `--deployment` or else asks the chain.
+- A new deployment needs a date, which `add asset` takes from `:<YYYY-MM-DD>` on `--deployment` or else asks the chain; under `--no-discover` it stays undated and `validate` warns until the date is set.
 - `set` names a field by its path in the file, such as `terms.redeemable`, and reads the value by the field's type: a number, `true`, `false`, `unknown` for null, or a comma-separated list.
-- `set` and `ack` record each changed value as a patch row in `patches/<YYYY-MM-DD>.csv` beside the registry, or in the folder `--patches` names, with its source URL and the day it was read (`import.md`).

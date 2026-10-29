@@ -43,7 +43,7 @@ The taxonomy has three layers, each on one row.
 | Category  | no file; the build writes it | category    | the site's shelf, stocks-equities                                   |
 
 `reference/vocabularies/category-rules.json` holds one rule per structure and exposure pair, such as `{ "structure": "stock-backed", "exposure": "public-equities", "category": ["stocks-equities"] }`, and the build writes the rule's categories on every asset of that pair. An asset whose pair has no rule fails `validate`, so add the rule first with `add rule`.
-An underlying's `aliases` hold the other spellings of its name, for people and the import. They are never matched against a venue symbol.
+An underlying's `aliases` hold the other spellings of its name, for people. They are never matched against a venue symbol.
 
 ## Organizations
 
