@@ -1,114 +1,142 @@
 [
   {
     "slug": "agricultural-commodities",
-    "label": "Agricultural Commodities"
+    "label": "Agricultural Commodities",
+    "class": "commodity"
   },
   {
     "slug": "ai-compute-infrastructure",
-    "label": "AI & Compute Infrastructure"
+    "label": "AI & Compute Infrastructure",
+    "class": "equity"
   },
   {
     "slug": "bonds",
-    "label": "Bonds"
+    "label": "Bonds",
+    "class": "rate"
   },
   {
     "slug": "carbon-credits",
-    "label": "Carbon Credits"
+    "label": "Carbon Credits",
+    "class": "carbon-credits"
   },
   {
     "slug": "collectibles-luxury-goods",
-    "label": "Collectibles & Luxury Goods"
+    "label": "Collectibles & Luxury Goods",
+    "class": "collectibles"
   },
   {
     "slug": "commodity-baskets",
-    "label": "Commodity Baskets"
+    "label": "Commodity Baskets",
+    "class": "commodity"
   },
   {
     "slug": "crypto-digital-assets",
-    "label": "Crypto / Digital Assets"
+    "label": "Crypto / Digital Assets",
+    "class": "crypto"
   },
   {
     "slug": "energy",
-    "label": "Energy"
+    "label": "Energy",
+    "class": "commodity"
   },
   {
     "slug": "equity-etfs",
-    "label": "Equity ETFs"
+    "label": "Equity ETFs",
+    "class": "equity"
   },
   {
     "slug": "equity-indices",
-    "label": "Equity Indices"
+    "label": "Equity Indices",
+    "class": "equity"
   },
   {
     "slug": "fiat-currencies",
-    "label": "Fiat Currencies"
+    "label": "Fiat Currencies",
+    "class": "fx"
   },
   {
     "slug": "industrial-metals",
-    "label": "Industrial Metals"
+    "label": "Industrial Metals",
+    "class": "commodity"
   },
   {
     "slug": "intellectual-property-royalties",
-    "label": "Intellectual Property & Royalties"
+    "label": "Intellectual Property & Royalties",
+    "class": "royalties"
   },
   {
     "slug": "mixed-public-markets",
-    "label": "Mixed Public Markets"
+    "label": "Mixed Public Markets",
+    "class": "fund"
   },
   {
     "slug": "mixed-public-private-markets",
-    "label": "Mixed Public & Private Markets"
+    "label": "Mixed Public & Private Markets",
+    "class": "fund"
   },
   {
     "slug": "multi-asset-rwas",
-    "label": "Multi-Asset RWAs"
+    "label": "Multi-Asset RWAs",
+    "class": "fund"
   },
   {
     "slug": "natural-gas",
-    "label": "Natural Gas"
+    "label": "Natural Gas",
+    "class": "commodity"
   },
   {
     "slug": "oil",
-    "label": "Oil"
+    "label": "Oil",
+    "class": "commodity"
   },
   {
     "slug": "precious-metals",
-    "label": "Precious Metals"
+    "label": "Precious Metals",
+    "class": "commodity"
   },
   {
     "slug": "private-credit",
-    "label": "Private Credit"
+    "label": "Private Credit",
+    "class": "rate"
   },
   {
     "slug": "private-equity-venture",
-    "label": "Private Equity & Venture"
+    "label": "Private Equity & Venture",
+    "class": "equity"
   },
   {
     "slug": "private-markets",
-    "label": "Private Markets"
+    "label": "Private Markets",
+    "class": "fund"
   },
   {
     "slug": "public-equities",
-    "label": "Public Equities"
+    "label": "Public Equities",
+    "class": "equity"
   },
   {
     "slug": "real-estate",
-    "label": "Real Estate"
+    "label": "Real Estate",
+    "class": "real-estate"
   },
   {
     "slug": "reinsurance",
-    "label": "Reinsurance"
+    "label": "Reinsurance",
+    "class": "reinsurance"
   },
   {
     "slug": "rwa-infrastructure",
-    "label": "RWA Infrastructure"
+    "label": "RWA Infrastructure",
+    "class": "crypto"
   },
   {
     "slug": "tax-credits",
-    "label": "Tax Credits"
+    "label": "Tax Credits",
+    "class": "tax-credits"
   },
   {
     "slug": "volatility",
-    "label": "Volatility"
+    "label": "Volatility",
+    "class": "volatility"
   }
 ]
