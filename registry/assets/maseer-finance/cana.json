@@ -1,0 +1,82 @@
+{
+  "identity": {
+    "slug": "cana",
+    "symbol": "CANA",
+    "name": "CANA Holdings California Carbon Credits",
+    "legacyId": 1,
+    "canonicalMarketId": "CANA"
+  },
+  "exposure": {
+    "underlying": "california-carbon-credits"
+  },
+  "class": {
+    "structure": "carbon-credit",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "carbon-environment"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "cexListed": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "sources": {
+    "yieldPoolIds": [
+      "fda10983-9dcd-49e9-9332-b227dc244d5d",
+      "dde4e536-0f20-4a73-b9b4-42ec2e24dc2b"
+    ],
+    "llamaAttestationProof": false
+  },
+  "about": {
+    "description": "CANA is designed to provide tokenized price exposure to California Carbon Allowances (CCAs), the compliance instrument used in California’s cap-and-trade program. CCAs are issued and auctioned under a regulated framework, and their market price reflects compliance demand for emissions. CANA positions itself as a tokenized access point to that compliance carbon market rather than a voluntary offset product.",
+    "logo": "https://icons.llamao.fi/icons/rwa/cana-holdings-california-carbon-credits.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://maseer.finance/"
+      ],
+      "twitter": "https://x.com/defimaseer",
+      "github": "https://github.com/maseer-finance"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x01995a697752266d8e748738aaa3f06464b8350b",
+      "primary": true,
+      "labels": [
+        {
+          "address": "0xb9edeff23c4567e775cf05551da34b940316c55c",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x598568027d21612ac5d1e4fc22d4278628c56a57",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0xb324284a938807b40c713c159d6df2cc25014167",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "cana-holdings",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://cana.earth"
+      ]
+    }
+  ]
+}

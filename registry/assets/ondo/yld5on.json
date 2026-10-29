@@ -1,0 +1,94 @@
+{
+  "identity": {
+    "slug": "yld5on",
+    "symbol": "YLD5on",
+    "name": "Ondo 5 Targeted Income TR Portfolio",
+    "legacyId": 9243,
+    "canonicalMarketId": "YLD5on"
+  },
+  "exposure": {
+    "underlying": "5-targeted-income-tr-portfolio"
+  },
+  "class": {
+    "structure": "mixed-rwa-fund",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Daily"
+  },
+  "about": {
+    "description": "YLD5on is an Ondo Intelligent Portfolio token providing economic exposure to a total return strategy that targets yield through high-yield preferred shares, covered-call equity ETFs, corporate, government and securitized bonds, and Real Estate Investment Trusts (REITs). The portfolio is constructed to target an approximate 5% yield, with dividends reinvested into the underlying constituents. The token is designed to be fully backed by the underlying portfolio constituents, together with cash in transit, held with regulated custodial broker-dealers. Holdings attestations and ongoing reporting are surfaced through Ondo trust and transparency materials and the product asset page. Tokenholders are not shareholders of the underlying constituents and do not receive shareholder voting rights. The portfolio is total return: dividends and income are reinvested into the portfolio rather than paid as cash distributions to tokenholders.",
+    "logo": "https://icons.llamao.fi/icons/rwa/yld5on.png?w=48&h=48",
+    "registryInfo": "Ondo Global Markets (BVI) Limited issues Ondo Intelligent Portfolio tokens as structured notes designed to track the performance of a curated multi-asset portfolio (including dividends and income, which are reinvested). The notes are governed by the Issuer's Sales Terms under Swiss law. Tokens are fully backed by the corresponding underlying portfolio constituents held with regulated custodial broker-dealers, plus an additional collateral buffer. Ondo publishes ongoing attestations and reporting for token backing (verified by Ankura Trust Company).",
+    "links": {
+      "website": [
+        "https://app.ondo.finance/assets/yld5on"
+      ],
+      "twitter": "https://x.com/ondofinance",
+      "docs": "https://docs.ondo.finance/",
+      "linkedin": "https://www.linkedin.com/company/ondofinance",
+      "discord": "https://discord.com/invite/ondofinance",
+      "telegram": "https://t.me/ondofinance",
+      "github": "https://github.com/ondoprotocol"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x3d68e46ba86ebe702b2399245730dde2f7e4b077",
+      "primary": true
+    },
+    {
+      "chain": "bsc",
+      "address": "0x0cfd1030e2431e0fa15d4cc3f3e43076fe93f8f9"
+    },
+    {
+      "chain": "solana",
+      "address": "ofe6mC87qNGYgSr9Ps7wMVVSbUFvpcJDDxskPrqondo"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "ondo-global-markets-bvi-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.ondo.finance/ondo-stocks/legal-and-regulatory"
+      ],
+      "protocolIds": [
+        2542,
+        6650
+      ]
+    },
+    {
+      "organization": "ondo-global-markets-bvi-limited",
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://app.ondo.finance/assets/yld5on"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://app.ondo.finance/assets/yld5on"
+      ],
+      "note": "Daily (ongoing)"
+    }
+  ]
+}

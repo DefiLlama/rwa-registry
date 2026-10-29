@@ -1,0 +1,94 @@
+{
+  "identity": {
+    "slug": "mag7xon",
+    "symbol": "MAG7Xon",
+    "name": "Ondo Magnificent 7 and Crypto Portfolio",
+    "legacyId": 9241,
+    "canonicalMarketId": "MAG7Xon"
+  },
+  "exposure": {
+    "underlying": "magnificent-7-and-crypto-portfolio"
+  },
+  "class": {
+    "structure": "equity-basket",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Daily"
+  },
+  "about": {
+    "description": "MAG7Xon is an Ondo Intelligent Portfolio token providing economic exposure to an aggressive growth strategy that pairs the mega-cap technology stocks known as the \"Magnificent Seven\" with leading crypto assets. The portfolio holds an 80% equal-weight allocation to Apple, Microsoft, Alphabet, Amazon, NVIDIA, Meta and Tesla, with the remaining 20% split between Bitcoin (15%) and Ethereum (5%). NOTE: roughly 20% of this token's backing is crypto rather than real-world assets, so its full onchain marketcap overstates RWA exposure by that share. The token is designed to be fully backed by the underlying portfolio constituents, together with cash in transit, held with regulated custodial broker-dealers. Holdings attestations and ongoing reporting are surfaced through Ondo trust and transparency materials and the product asset page. Tokenholders are not shareholders of the underlying constituents and do not receive shareholder voting rights. The portfolio is total return: dividends and income are reinvested into the portfolio rather than paid as cash distributions to tokenholders.",
+    "logo": "https://icons.llamao.fi/icons/rwa/mag7xon.png?w=48&h=48",
+    "registryInfo": "Ondo Global Markets (BVI) Limited issues Ondo Intelligent Portfolio tokens as structured notes designed to track the performance of a curated multi-asset portfolio (including dividends and income, which are reinvested). The notes are governed by the Issuer's Sales Terms under Swiss law. Tokens are fully backed by the corresponding underlying portfolio constituents held with regulated custodial broker-dealers, plus an additional collateral buffer. Ondo publishes ongoing attestations and reporting for token backing (verified by Ankura Trust Company).",
+    "links": {
+      "website": [
+        "https://app.ondo.finance/assets/mag7xon"
+      ],
+      "twitter": "https://x.com/ondofinance",
+      "docs": "https://docs.ondo.finance/",
+      "linkedin": "https://www.linkedin.com/company/ondofinance",
+      "discord": "https://discord.com/invite/ondofinance",
+      "telegram": "https://t.me/ondofinance",
+      "github": "https://github.com/ondoprotocol"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xee69f45715bfa6a4cffe2bb7e0d71093b9d58705",
+      "primary": true
+    },
+    {
+      "chain": "bsc",
+      "address": "0x50436ec45316a98e72b03ead5752e8543f11ec09"
+    },
+    {
+      "chain": "solana",
+      "address": "pvC4ogQRN4QtVwEVEB4gW1WADLCFkcTNuxvYVixondo"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "ondo-global-markets-bvi-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.ondo.finance/ondo-stocks/legal-and-regulatory"
+      ],
+      "protocolIds": [
+        2542,
+        6650
+      ]
+    },
+    {
+      "organization": "ondo-global-markets-bvi-limited",
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://app.ondo.finance/assets/mag7xon"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://app.ondo.finance/assets/mag7xon"
+      ],
+      "note": "Daily (ongoing)"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "identity": {
+    "slug": "gldnft1kg",
+    "symbol": "GLDNFT1KG",
+    "name": "Gold DAO GLD NFT 1kg",
+    "legacyId": 9251,
+    "canonicalMarketId": "GLDNFT1KG"
+  },
+  "exposure": {
+    "underlying": "gold"
+  },
+  "class": {
+    "structure": "gold",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "gold-commodities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true
+  },
+  "about": {
+    "description": "GLD NFT 1kg: an ICRC-7 NFT representing one 1kg physical gold bar refined by Metalor and held in an insured Swiss vault, audited every four months. Redeemable by burning the NFT to claim the bar. These NFTs are the backing for GLDT (RWA #540) - each GLDT is minted by locking a GLD NFT in the gldt_swap canister, so the locked portion is excluded from active mcap to avoid double counting GLDT. ORIGYN provides the NFT certification infrastructure; Gold DAO issues and custodies.",
+    "links": {
+      "website": [
+        "https://gldt.org/"
+      ]
+    }
+  },
+  "review": {
+    "activeAumReviewed": true
+  },
+  "deployments": [
+    {
+      "chain": "icp",
+      "address": "7i7jl-6qaaa-aaaam-abjma-cai",
+      "primary": true,
+      "labels": [
+        {
+          "address": "6f6ua-hqaaa-aaaar-qairq-cai",
+          "kind": "excluded-holder"
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "organization": "bity-tokenisation-sa",
+      "kind": "issuer"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "no date in the export"
+    }
+  ]
+}

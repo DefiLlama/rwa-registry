@@ -1,0 +1,94 @@
+{
+  "identity": {
+    "slug": "blkgrwon",
+    "symbol": "BLKGRWon",
+    "name": "Ondo High Growth Powered by BlackRock",
+    "legacyId": 9247,
+    "canonicalMarketId": "BLKGRWon"
+  },
+  "exposure": {
+    "underlying": "high-growth-powered-by-blackrock"
+  },
+  "class": {
+    "structure": "equity-basket",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Daily"
+  },
+  "about": {
+    "description": "BLKGRWon is an Ondo Intelligent Portfolio token targeting long-term capital appreciation through a modeled, equity-led allocation of roughly 95% equities and 5% Bitcoin, covering iShares equity strategies across U.S. and international markets alongside a Bitcoin allocation. NOTE: roughly 5% of this token's backing is Bitcoin rather than real-world assets. The token is designed to be fully backed by the underlying portfolio constituents, together with cash in transit, held with regulated custodial broker-dealers. Holdings attestations and ongoing reporting are surfaced through Ondo trust and transparency materials and the product asset page. Tokenholders are not shareholders of the underlying constituents and do not receive shareholder voting rights. The portfolio is total return: dividends and income are reinvested into the portfolio rather than paid as cash distributions to tokenholders.",
+    "logo": "https://icons.llamao.fi/icons/rwa/blkgrwon.png?w=48&h=48",
+    "registryInfo": "Ondo Global Markets (BVI) Limited issues Ondo Intelligent Portfolio tokens as structured notes designed to track the performance of a curated multi-asset portfolio (including dividends and income, which are reinvested). The notes are governed by the Issuer's Sales Terms under Swiss law. Tokens are fully backed by the corresponding underlying portfolio constituents held with regulated custodial broker-dealers, plus an additional collateral buffer. Ondo publishes ongoing attestations and reporting for token backing (verified by Ankura Trust Company).",
+    "links": {
+      "website": [
+        "https://app.ondo.finance/assets/blkgrwon"
+      ],
+      "twitter": "https://x.com/ondofinance",
+      "docs": "https://docs.ondo.finance/",
+      "linkedin": "https://www.linkedin.com/company/ondofinance",
+      "discord": "https://discord.com/invite/ondofinance",
+      "telegram": "https://t.me/ondofinance",
+      "github": "https://github.com/ondoprotocol"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0xc90341cb9cb8d65af044fab23b659b7b4279399b",
+      "primary": true
+    },
+    {
+      "chain": "bsc",
+      "address": "0xe4bd77247671746caa3119e9feaa146f8a4ee237"
+    },
+    {
+      "chain": "solana",
+      "address": "qr13tSwtPWKTgYQqf6XM8YoT5LrbFgacpVUupfEondo"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "ondo-global-markets-bvi-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.ondo.finance/ondo-stocks/legal-and-regulatory"
+      ],
+      "protocolIds": [
+        2542,
+        6650
+      ]
+    },
+    {
+      "organization": "ondo-global-markets-bvi-limited",
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://app.ondo.finance/assets/blkgrwon"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://app.ondo.finance/assets/blkgrwon"
+      ],
+      "note": "Daily (ongoing)"
+    }
+  ]
+}

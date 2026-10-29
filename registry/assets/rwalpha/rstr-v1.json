@@ -1,0 +1,67 @@
+{
+  "identity": {
+    "slug": "rstr-v1",
+    "symbol": "rSTR",
+    "name": "RWAlpha rSTR Vault (Superseded Deployment)",
+    "legacyId": 9025,
+    "canonicalMarketId": "rSTR-v1"
+  },
+  "exposure": {
+    "underlying": "rwalpha-rstr-basket"
+  },
+  "class": {
+    "structure": "rwa-basket-vault",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "rwa-wrappers"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false
+  },
+  "about": {
+    "description": "This is the first RWAlpha rSTR vault contract deployed on the Mantle chain. A replacement rSTR contract was deployed later and this one carries no supply. RWAlpha publishes no description of the rSTR strategy, so the underlying basket is left unrecorded.",
+    "registryInfo": "RWAlpha products are issued through RWAlpha Matrix SPC, a Cayman Islands umbrella fund structure with a British Virgin Islands fund manager. RWAlpha is a product of DMZ Finance, which also operates the QCD Open-end PCC umbrella fund in the Dubai International Financial Centre. Subscriptions are converted through a licensed over-the-counter channel and the underlying funds are bought and held through licensed brokers and custodians named by the platform rather than disclosed per product.",
+    "links": {
+      "website": [
+        "https://www.rwalpha.ai/"
+      ],
+      "twitter": "https://x.com/RWAlpha_AI",
+      "docs": "https://www.rwalpha.ai/docs/intro",
+      "linkedin": "https://www.linkedin.com/company/rwalpha",
+      "telegram": "https://t.me/rwalphahelpdesk",
+      "github": "https://github.com/dmzFinance"
+    }
+  },
+  "review": {
+    "activeAumReviewed": false,
+    "suspicious": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "mantle",
+      "address": "0xaebc6191684b0838e46c0113b5741b5f96070028",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "rwalpha-matrix-spc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.rwalpha.ai/docs/legal"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "delisting",
+      "note": "last stored day not given at import"
+    }
+  ]
+}

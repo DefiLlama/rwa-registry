@@ -1,0 +1,94 @@
+{
+  "identity": {
+    "slug": "brainon",
+    "symbol": "BRAINon",
+    "name": "Ondo AI Leaders Portfolio",
+    "legacyId": 9242,
+    "canonicalMarketId": "BRAINon"
+  },
+  "exposure": {
+    "underlying": "ai-leaders-portfolio"
+  },
+  "class": {
+    "structure": "equity-basket",
+    "type": "asset",
+    "rwaClassification": "true-rwa",
+    "category": [
+      "stocks-equities"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": false,
+    "attestationFrequency": "Daily"
+  },
+  "about": {
+    "description": "BRAINon is an Ondo Intelligent Portfolio token providing modified market-cap exposure to the artificial intelligence value chain, spanning semiconductors and compute, AI infrastructure, power and energy, and AI thematic ETFs. Roughly 85% is allocated to individual stocks and 15% to ETFs. The token is designed to be fully backed by the underlying portfolio constituents, together with cash in transit, held with regulated custodial broker-dealers. Holdings attestations and ongoing reporting are surfaced through Ondo trust and transparency materials and the product asset page. Tokenholders are not shareholders of the underlying constituents and do not receive shareholder voting rights. The portfolio is total return: dividends and income are reinvested into the portfolio rather than paid as cash distributions to tokenholders.",
+    "logo": "https://icons.llamao.fi/icons/rwa/brainon.png?w=48&h=48",
+    "registryInfo": "Ondo Global Markets (BVI) Limited issues Ondo Intelligent Portfolio tokens as structured notes designed to track the performance of a curated multi-asset portfolio (including dividends and income, which are reinvested). The notes are governed by the Issuer's Sales Terms under Swiss law. Tokens are fully backed by the corresponding underlying portfolio constituents held with regulated custodial broker-dealers, plus an additional collateral buffer. Ondo publishes ongoing attestations and reporting for token backing (verified by Ankura Trust Company).",
+    "links": {
+      "website": [
+        "https://app.ondo.finance/assets/brainon"
+      ],
+      "twitter": "https://x.com/ondofinance",
+      "docs": "https://docs.ondo.finance/",
+      "linkedin": "https://www.linkedin.com/company/ondofinance",
+      "discord": "https://discord.com/invite/ondofinance",
+      "telegram": "https://t.me/ondofinance",
+      "github": "https://github.com/ondoprotocol"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": "0x8d7a1fcfaf626f8db3852c12d4cdc863d9441283",
+      "primary": true
+    },
+    {
+      "chain": "bsc",
+      "address": "0x0574e53f8214d0402c8388b4402113a74354d1b0"
+    },
+    {
+      "chain": "solana",
+      "address": "CPcYDPoNoD42Yqvv2kKfB93RqL73vxnXEoRRgqqondo"
+    }
+  ],
+  "roles": [
+    {
+      "organization": "ondo-global-markets-bvi-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.ondo.finance/ondo-stocks/legal-and-regulatory"
+      ],
+      "protocolIds": [
+        2542,
+        6650
+      ]
+    },
+    {
+      "organization": "ondo-global-markets-bvi-limited",
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://app.ondo.finance/assets/brainon"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://app.ondo.finance/assets/brainon"
+      ],
+      "note": "Daily (ongoing)"
+    }
+  ]
+}

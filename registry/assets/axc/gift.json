@@ -1,0 +1,61 @@
+{
+  "identity": {
+    "slug": "gift",
+    "symbol": "GIFT",
+    "name": "Grow Institutional Fund Token",
+    "legacyId": 638,
+    "canonicalMarketId": "GIFT"
+  },
+  "exposure": {
+    "underlying": "grow-institutional-fund"
+  },
+  "class": {
+    "structure": "mixed-rwa-fund",
+    "type": "asset",
+    "rwaClassification": "rwa",
+    "category": [
+      "bond-mmf-funds"
+    ]
+  },
+  "terms": {
+    "redeemable": true,
+    "kycForMintRedeem": true,
+    "kycToTransferHold": true,
+    "transferable": true,
+    "selfCustody": true,
+    "yieldBearing": true
+  },
+  "about": {
+    "description": "GIFT is AXC's institutional fund position token for the GROW Heritage Fund, used as the base asset inside AXC's RWAfi vault framework to bridge administrator-issued fund documentation into a programmable vault position. AXC's DRDS and pricing workflow is designed so each valuation update is not a single-party push: the fund administrator publishes the new figure, and designated internal witnesses confirm it before the protocol uses it for vault accounting and TVL calculations. In practice, this makes GIFT the \"institutional leg\" of AXC's tokenization stack, pairing controlled issuance with a verifiable, multi-party data path that can later support more composable, user-facing vault products. GIFT is tied to: GROW Global Allocation OFC (BUU813) registered 19/4/2024 (Private) under sub-fund GROW Heritage Fund (BUU815) registered 19/4/2024 (Private).",
+    "logo": "https://icons.llamao.fi/icons/rwa/gift.png?w=48&h=48",
+    "registryInfo": "Marshall Islands (MIDAO) Non-Profit DAO LLC, Reg. No. 10190-25 (Good Standing), reg. date 2025-04-10. Physical: 852 Lagoon Rd, Majuro, Marshall Islands MH 96960. Mailing: PO Box 852, Long Island Rd, Majuro, Marshall Islands MH 96960. Custodian: Wealth Guardian.",
+    "links": {
+      "website": [
+        "https://axc.xyz/en"
+      ],
+      "twitter": "https://x.com/AXCLabs"
+    }
+  },
+  "review": {
+    "activeAumReviewed": true,
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "deployments": [
+    {
+      "chain": "bsc",
+      "address": "0x6eca9d3b1ef79f5b45572fb8204835c6a4502be9",
+      "primary": true
+    }
+  ],
+  "roles": [
+    {
+      "organization": "rwafi-dao-llc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://registry.midao.org/public-registry/"
+      ]
+    }
+  ]
+}
