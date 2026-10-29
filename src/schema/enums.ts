@@ -65,7 +65,6 @@ export const ADDRESS_FAMILIES = [
 export type AddressFamily = (typeof ADDRESS_FAMILIES)[number];
 
 export const assetKind = z.enum(['claim', 'stablecoin', 'governance']);
-export const sessionModel = z.enum(['24-5', '24-7', 'exchange-hours', 'futures-hours']);
 export const reviewOutcome = z.enum(['suspicious', 'cleared']);
 export const ackGuard = z.enum(['flows-hidden', 'asset-move']);
 export const mcapBasis = z.enum(['onchain', 'active']);

@@ -23,9 +23,7 @@ export const venue = defineTable({
     accessModel: v['access-model'],
     rwaClassification: v['rwa-classification'],
     conventionNote: optional(text),
-    // The website, issuer and margin asset the sheet writes on most of the venue's markets; a market that differs holds its own.
-    website: optional(text),
-    issuer: optional(text),
+    // The margin asset the sheet writes on most of the venue's markets; a market that differs holds its own.
     marginAsset: optional(text),
     status: optional(enums.status),
   }),

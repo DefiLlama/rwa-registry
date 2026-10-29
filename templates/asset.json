@@ -9,7 +9,6 @@
   },
   "exposure": {
     "underlying": "ionq-inc",
-    "instrument": null,
     "wraps": null
   },
   "class": {
@@ -29,11 +28,6 @@
     "transferable": null,
     "selfCustody": null,
     "yieldBearing": null,
-    "minimumInvestment": null,
-    "currency": null,
-    "redemptionFrequency": null,
-    "valueModel": null,
-    "accessRegime": null,
     "attestationFrequency": null
   },
   "sources": {
@@ -41,22 +35,13 @@
     "protocolIds": null,
     "yieldPoolIds": null,
     "identifiers": null,
-    "isinNote": null,
     "llamaAttestationProof": null
   },
   "about": {
     "description": null,
     "logo": null,
-    "registryInfo": null,
     "links": {
-      "website": null,
-      "twitter": null,
-      "docs": null,
-      "linkedin": null,
-      "discord": null,
-      "telegram": null,
-      "github": null,
-      "refLinks": null
+      "website": null
     }
   },
   "review": {

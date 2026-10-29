@@ -32,6 +32,16 @@
         }
       ]
     },
+    "logo": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
     "exposure": {
       "description": "a slug of registry/reference/vocabularies/asset-group.json",
       "type": "string",
@@ -77,28 +87,6 @@
             ],
             "additionalProperties": false
           }
-        },
-        {
-          "type": "null"
-        }
-      ]
-    },
-    "unit": {
-      "anyOf": [
-        {
-          "type": "string"
-        },
-        {
-          "type": "null"
-        }
-      ]
-    },
-    "currency": {
-      "anyOf": [
-        {
-          "description": "a slug of registry/reference/vocabularies/currency.json",
-          "type": "string",
-          "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
         },
         {
           "type": "null"

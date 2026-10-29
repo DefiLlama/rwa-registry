@@ -202,15 +202,13 @@ describe('checkRegistry', () => {
     expect(problems).toEqual([expect.objectContaining({ error: 'DuplicateKeyError' })]);
   });
 
-  it('accepts a wrapper on an instrument, a market on an asset and a bridged deployment at its source address on another chain', () => {
+  it('accepts a wrapper, a market on an asset and a bridged deployment at its source address on another chain', () => {
     const [, ethereum] = tslax.deployments;
     const { problems } = load({
       ...baseTree(),
-      'reference/instruments/tesla-xstock.json': { slug: 'tesla-xstock', name: 'Tesla xStock' },
       'assets/xstocks/wtslax.json': assetFile('wtslax', 9001, {
         type: 'wrapper',
         wraps: 'tslax',
-        instrument: 'tesla-xstock',
         deployments: [{ ...ethereum, chain: 'hyperliquid', bridgedFrom: `ethereum:${ethereum.address}` }],
       }),
       'perps/xyz/wtslax.json': marketWith({ symbol: 'WTSLAX', legacyId: null, tracks: null, tracksAsset: 'wtslax' }),
@@ -338,18 +336,6 @@ describe('checkRegistry', () => {
     );
 
     expect(problems.filter((problem) => problem.error === 'AddressFormatError')).toEqual([]);
-  });
-
-  it('fails a parentPlatform that names no organization', () => {
-    const tree = baseTree();
-    const platform = tree['assets/xstocks/platform.json'] as Record<string, Record<string, unknown>>;
-    const withParent = (slug: string) =>
-      registryOf({ ...tree, 'assets/xstocks/platform.json': { ...platform, platform: { ...platform.platform, parentPlatform: slug } } });
-
-    expect(errorsIn(checkRegistry(withParent('xstocks'), null))).toEqual([]);
-    expect(errorsIn(checkRegistry(withParent('xstock'), null))).toEqual([
-      expect.objectContaining({ error: 'DanglingReferenceError', message: expect.stringContaining('parentPlatform names organization xstock') }),
-    ]);
   });
 });
 

@@ -40,6 +40,26 @@ describe('parseRow', () => {
     expect(errors).toEqual([expect.objectContaining({ path: 'sources.yieldPoolIds[1]' })]);
   });
 
+  it("refuses a twitter link on an asset, since its platform holds the asset's social links", () => {
+    const links = { website: ['https://xstocks.com/'], twitter: 'https://x.com/xStocksFi' };
+    const errors = parseRow('asset', tslaxWith({ links }), file, { vocabularies });
+
+    expect(errors).toEqual([expect.objectContaining({ path: 'about.links.twitter' })]);
+  });
+
+  it('keeps the logo an underlying carries for the markets that track it', () => {
+    const tesla = {
+      slug: 'tesla-inc',
+      name: 'Tesla, Inc.',
+      logo: 'https://icons.llamao.fi/icons/rwa/tsla.png',
+      exposure: 'public-equities',
+    };
+
+    expect(
+      parseRow('underlying', tesla, 'reference/underlyings/equity/tesla-inc.json', { vocabularies }),
+    ).toMatchObject({ logo: tesla.logo });
+  });
+
   it('fails an identifier marked verified that names no source', () => {
     const identifiers = [{ scheme: 'isin', value: 'US88160R1014', source: null, verified: true }];
     const errors = parseRow('asset', tslaxWith({ identifiers }), file, { vocabularies });

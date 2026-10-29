@@ -38,10 +38,6 @@ export const organization = defineTable({
     primaryChain: optional(ref),
     chains: optional(z.array(ref)),
     attestationFrequency: optional(text),
-    // The Platforms tab's Margin / Settlement Asset as written, such as "USDC (Arbitrum)".
-    marginSettlementAsset: optional(text),
-    // The organization the Platforms tab's Parent Platform cell names, by slug; a platform that names itself holds its own.
-    parentPlatform: optional(ref),
     // The sheet's flags: a blank is left out, so the server publishes null. suspicious and delisted hold only the
     // sheet's FALSE, since a TRUE is the review or delisting event; llamaGradeAttestation holds either value.
     suspicious: optional(z.literal(false)),
@@ -75,8 +71,6 @@ export const organization = defineTable({
       'primaryChain',
       'chains',
       'attestationFrequency',
-      'marginSettlementAsset',
-      'parentPlatform',
       'suspicious',
       'delisted',
       'llamaGradeAttestation',

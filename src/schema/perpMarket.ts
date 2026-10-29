@@ -11,8 +11,6 @@ export const perpMarket = defineTable({
   fields: (v) => ({
     venue: ref,
     symbol: text,
-    // The sheet's Name where the venue's name, the tracked name and "Perp" do not spell it.
-    name: optional(text),
     legacyId: optional(integer),
     aliases: optional(z.array(text)),
     tracks: optional(ref),
@@ -24,12 +22,8 @@ export const perpMarket = defineTable({
     pair: optional(text),
     makerFeeBps: optional(number),
     takerFeeBps: optional(number),
-    session: optional(enums.sessionModel),
     oracleProvider: optional(text),
     description: optional(text),
-    // The sheet's Logo of the market row, which no venue or underlying holds.
-    logo: optional(text),
-    refLinks: optional(z.array(text)),
     // The sheet's website and issuer where they differ from the venue's.
     website: optional(text),
     issuer: optional(text),
@@ -40,10 +34,10 @@ export const perpMarket = defineTable({
   build: ['id', 'status'],
   children: { events: 'event' },
   blocks: {
-    identity: ['symbol', 'name', 'legacyId', 'aliases'],
+    identity: ['symbol', 'legacyId', 'aliases'],
     tracks: [['underlying', 'tracks'], ['asset', 'tracksAsset'], 'structure'],
-    terms: ['collateral', 'marginAsset', 'pair', 'makerFeeBps', 'takerFeeBps', 'session'],
+    terms: ['collateral', 'marginAsset', 'pair', 'makerFeeBps', 'takerFeeBps'],
     sources: ['oracleProvider'],
-    about: ['description', 'logo', 'refLinks', 'website', 'issuer'],
+    about: ['description', 'website', 'issuer'],
   },
 });

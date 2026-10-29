@@ -6,8 +6,8 @@ import { z } from 'zod';
 import { defineTable } from './defineTable';
 import * as enums from './enums';
 import { identifier } from './identifier';
-import { links } from './links';
-import { flag, integer, number, optional, protocolId, ref, slug, text } from './primitives';
+import { assetLinks } from './links';
+import { flag, integer, optional, protocolId, ref, slug, text } from './primitives';
 
 export const asset = defineTable({
   fields: (v) => ({
@@ -18,7 +18,6 @@ export const asset = defineTable({
     legacyId: integer,
     canonicalMarketId: text,
     underlying: ref,
-    instrument: optional(ref),
     wraps: optional(ref),
     structure: v['asset-class'],
     type: v['type'],
@@ -36,11 +35,6 @@ export const asset = defineTable({
     transferable: optional(flag),
     selfCustody: optional(flag),
     yieldBearing: optional(flag),
-    minimumInvestment: optional(number),
-    currency: optional(v['currency']),
-    redemptionFrequency: optional(v['redemption-frequency']),
-    valueModel: optional(v['value-model']),
-    accessRegime: optional(v['access-regime']),
     attestationFrequency: optional(text),
     coingeckoId: optional(text),
     // The sheet's protocol ids of an asset with no issuer role to hold them; the build publishes them as issuerProtocolIds.
@@ -48,17 +42,13 @@ export const asset = defineTable({
     // The DefiLlama yields pool ids the server's native-yield match may use as an override.
     yieldPoolIds: optional(z.array(z.uuid())),
     identifiers: optional(z.array(identifier)),
-    // The sheet's ISIN cell as written where it holds more than its codes; the server published the cell.
-    isinNote: optional(text),
     // The sheet's Llama Attestation Proof: the proof link, or false where the sheet marks none held ("x").
     llamaAttestationProof: optional(
       z.union([z.string().regex(/^https?:\/\/\S+$/, 'a proof is a link'), z.literal(false)]),
     ),
     description: optional(text),
     logo: optional(text),
-    // The sheet's Issuer Registry Info of this asset; the server publishes it before the issuer organization's.
-    registryInfo: optional(text),
-    links: optional(links),
+    links: optional(assetLinks),
     activeAumReviewed: optional(flag),
     // The sheet's flags: a blank is left out, so the server publishes null. suspicious and delisted hold only the
     // sheet's FALSE, since a TRUE is the review or delisting event; llamaGradeAttestation holds either value.
@@ -78,7 +68,7 @@ export const asset = defineTable({
   children: { deployments: 'deployment', roles: 'role', events: 'event' },
   blocks: {
     identity: ['slug', 'symbol', 'name', 'legacyId', 'canonicalMarketId'],
-    exposure: ['underlying', 'instrument', 'wraps'],
+    exposure: ['underlying', 'wraps'],
     class: [
       'structure',
       'type',
@@ -96,15 +86,10 @@ export const asset = defineTable({
       'transferable',
       'selfCustody',
       'yieldBearing',
-      'minimumInvestment',
-      'currency',
-      'redemptionFrequency',
-      'valueModel',
-      'accessRegime',
       'attestationFrequency',
     ],
-    sources: ['coingeckoId', 'protocolIds', 'yieldPoolIds', 'identifiers', 'isinNote', 'llamaAttestationProof'],
-    about: ['description', 'logo', 'registryInfo', 'links'],
+    sources: ['coingeckoId', 'protocolIds', 'yieldPoolIds', 'identifiers', 'llamaAttestationProof'],
+    about: ['description', 'logo', 'links'],
     review: ['activeAumReviewed', 'suspicious', 'delisted', 'llamaGradeAttestation'],
   },
 });

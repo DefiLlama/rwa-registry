@@ -1,29 +1,30 @@
 import { existsSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { describe, expect, it } from 'vitest';
-import { baseTree, tslaxWith, writeTree } from '../../fixtures/tree';
+import { baseTree, marketWith, writeTree } from '../../fixtures/tree';
 import { readJson, runCli } from '../runCli';
 
 const TSLAX = 'assets/xstocks/tslax.json';
+const TSLA = 'perps/xyz/tsla.json';
 const set = (root: string, ...rest: string[]) => runCli(['set', ...rest, '--registry', root]);
 
 describe('set', () => {
   it('writes a number parsed through the schema', async () => {
-    const root = writeTree({ ...baseTree(), [TSLAX]: tslaxWith({ minimumInvestment: 5000 }) });
+    const root = writeTree({ ...baseTree(), [TSLA]: marketWith({ makerFeeBps: 3 }) });
 
-    const { code } = await set(root, TSLAX, 'terms.minimumInvestment', '1000');
+    const { code } = await set(root, TSLA, 'terms.makerFeeBps', '1.5');
 
     expect(code).toBe(0);
-    expect(readJson(root, TSLAX).terms.minimumInvestment).toBe(1000);
+    expect(readJson(root, TSLA).terms.makerFeeBps).toBe(1.5);
   });
 
   it('refuses a value that is not of the field type', async () => {
     const root = writeTree(baseTree());
 
-    const { code, lines } = await set(root, TSLAX, 'terms.minimumInvestment', 'five');
+    const { code, lines } = await set(root, TSLA, 'terms.makerFeeBps', 'five');
 
     expect(code).toBe(1);
-    expect(lines.join('\n')).toMatch(/terms\.minimumInvestment: five is not a number/);
+    expect(lines.join('\n')).toMatch(/terms\.makerFeeBps: five is not a number/);
   });
 
   it.each([

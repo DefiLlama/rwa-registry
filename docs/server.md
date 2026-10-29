@@ -28,6 +28,17 @@ Each row is flat: a row has `structure`, not `class.structure`, and a nested dep
 The server reads `category` on the asset row, the list the asset carries in its `class` block, first the main one. A field the reader maps is a published field, so rename or remove one on the server first.
 A chain is published as its DefiLlama chain key only; the server labels a chain and keeps the burn addresses per address family in its own code.
 
+Each fact lives on one row, so the reader falls back to its home where the published row shows it:
+
+- An asset's `twitter`, `docs`, `linkedin`, `discord`, `telegram`, `github` and `refLinks` are its platform's `links`; the asset holds its own `website` only.
+- An asset's issuer registry info is the `registryInfo` of the organizations its issuer roles name.
+- An asset's ISIN, where it holds none, is the ISIN of the underlying it tracks.
+- A market's logo is the `logo` of the underlying it tracks.
+- A market's referral link is its venue organization's `links.refLinks`.
+- A venue's website and issuer name are its organization's `links.website` and `name`, under a market's own `website` or `issuer` where it holds one.
+- An organization's parent platform is the organization its `parent` names, else itself.
+- A venue operator's margin asset, access model, primary chain and chains are its venue's `marginAsset`, `accessModel` and `chain`.
+
 ## What an adapter reads
 
 An adapter is server code under `rwa/adapters/`. From the registry's side it is the rows it reads and one field that names it.

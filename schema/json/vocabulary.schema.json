@@ -11,29 +11,6 @@
       "label": {
         "type": "string"
       },
-      "description": {
-        "anyOf": [
-          {
-            "type": "string"
-          },
-          {
-            "type": "null"
-          }
-        ]
-      },
-      "aliases": {
-        "anyOf": [
-          {
-            "type": "array",
-            "items": {
-              "type": "string"
-            }
-          },
-          {
-            "type": "null"
-          }
-        ]
-      },
       "class": {
         "anyOf": [
           {
@@ -56,16 +33,6 @@
         ]
       },
       "impliesGovernance": {
-        "anyOf": [
-          {
-            "type": "boolean"
-          },
-          {
-            "type": "null"
-          }
-        ]
-      },
-      "estimateRevenue": {
         "anyOf": [
           {
             "type": "boolean"

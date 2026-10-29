@@ -120,26 +120,6 @@
         }
       ]
     },
-    "website": {
-      "anyOf": [
-        {
-          "type": "string"
-        },
-        {
-          "type": "null"
-        }
-      ]
-    },
-    "issuer": {
-      "anyOf": [
-        {
-          "type": "string"
-        },
-        {
-          "type": "null"
-        }
-      ]
-    },
     "marginAsset": {
       "anyOf": [
         {

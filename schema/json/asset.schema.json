@@ -40,17 +40,6 @@
           "type": "string",
           "minLength": 1
         },
-        "instrument": {
-          "anyOf": [
-            {
-              "type": "string",
-              "minLength": 1
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
         "wraps": {
           "anyOf": [
             {
@@ -207,64 +196,6 @@
             }
           ]
         },
-        "minimumInvestment": {
-          "anyOf": [
-            {
-              "type": "number"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "currency": {
-          "anyOf": [
-            {
-              "description": "a slug of registry/reference/vocabularies/currency.json",
-              "type": "string",
-              "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "redemptionFrequency": {
-          "anyOf": [
-            {
-              "description": "a slug of registry/reference/vocabularies/redemption-frequency.json",
-              "type": "string",
-              "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "valueModel": {
-          "anyOf": [
-            {
-              "description": "a slug of registry/reference/vocabularies/value-model.json",
-              "type": "string",
-              "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "accessRegime": {
-          "anyOf": [
-            {
-              "description": "a slug of registry/reference/vocabularies/access-regime.json",
-              "type": "string",
-              "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
         "attestationFrequency": {
           "anyOf": [
             {
@@ -375,16 +306,6 @@
             }
           ]
         },
-        "isinNote": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
         "llamaAttestationProof": {
           "anyOf": [
             {
@@ -430,95 +351,12 @@
             }
           ]
         },
-        "registryInfo": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
         "links": {
           "anyOf": [
             {
               "type": "object",
               "properties": {
                 "website": {
-                  "anyOf": [
-                    {
-                      "type": "array",
-                      "items": {
-                        "type": "string"
-                      }
-                    },
-                    {
-                      "type": "null"
-                    }
-                  ]
-                },
-                "twitter": {
-                  "anyOf": [
-                    {
-                      "type": "string"
-                    },
-                    {
-                      "type": "null"
-                    }
-                  ]
-                },
-                "docs": {
-                  "anyOf": [
-                    {
-                      "type": "string"
-                    },
-                    {
-                      "type": "null"
-                    }
-                  ]
-                },
-                "linkedin": {
-                  "anyOf": [
-                    {
-                      "type": "string"
-                    },
-                    {
-                      "type": "null"
-                    }
-                  ]
-                },
-                "discord": {
-                  "anyOf": [
-                    {
-                      "type": "string"
-                    },
-                    {
-                      "type": "null"
-                    }
-                  ]
-                },
-                "telegram": {
-                  "anyOf": [
-                    {
-                      "type": "string"
-                    },
-                    {
-                      "type": "null"
-                    }
-                  ]
-                },
-                "github": {
-                  "anyOf": [
-                    {
-                      "type": "string"
-                    },
-                    {
-                      "type": "null"
-                    }
-                  ]
-                },
-                "refLinks": {
                   "anyOf": [
                     {
                       "type": "array",

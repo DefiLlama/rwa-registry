@@ -13,11 +13,11 @@ export const underlying = defineTable({
     name: text,
     aliases: optional(z.array(text)),
     ticker: optional(text),
+    // The logo a market that tracks it shows.
+    logo: optional(text),
     class: slug,
     exposure: v['asset-group'],
     identifiers: optional(z.array(identifier)),
-    unit: optional(text),
-    currency: optional(v['currency']),
     excludedReason: optional(text),
   }),
   implied: 'class',

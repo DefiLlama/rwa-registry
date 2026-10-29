@@ -2,7 +2,6 @@
   "venue": "xyz",
   "identity": {
     "symbol": "IONQ",
-    "name": null,
     "legacyId": null,
     "aliases": null
   },
@@ -16,16 +15,13 @@
     "marginAsset": null,
     "pair": "IONQ-USDC",
     "makerFeeBps": null,
-    "takerFeeBps": null,
-    "session": null
+    "takerFeeBps": null
   },
   "sources": {
     "oracleProvider": "Pyth equity feed"
   },
   "about": {
     "description": null,
-    "logo": null,
-    "refLinks": null,
     "website": null,
     "issuer": null
   },

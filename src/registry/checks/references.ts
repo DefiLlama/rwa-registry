@@ -14,7 +14,6 @@ type Target = TableName | 'chain';
 export const REFERENCES: Partial<Record<TableName, [field: string, table: Target][]>> = {
   organization: [
     ['parent', 'organization'],
-    ['parentPlatform', 'organization'],
     ['primaryChain', 'chain'],
     ['chains', 'chain'],
   ],
@@ -25,7 +24,6 @@ export const REFERENCES: Partial<Record<TableName, [field: string, table: Target
   ],
   asset: [
     ['underlying', 'underlying'],
-    ['instrument', 'instrument'],
     ['wraps', 'asset'],
   ],
   deployment: [

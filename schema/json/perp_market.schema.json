@@ -8,16 +8,6 @@
         "symbol": {
           "type": "string"
         },
-        "name": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
         "legacyId": {
           "anyOf": [
             {
@@ -138,22 +128,6 @@
               "type": "null"
             }
           ]
-        },
-        "session": {
-          "anyOf": [
-            {
-              "type": "string",
-              "enum": [
-                "24-5",
-                "24-7",
-                "exchange-hours",
-                "futures-hours"
-              ]
-            },
-            {
-              "type": "null"
-            }
-          ]
         }
       },
       "additionalProperties": false
@@ -181,29 +155,6 @@
           "anyOf": [
             {
               "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "logo": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "refLinks": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "type": "string"
-              }
             },
             {
               "type": "null"
