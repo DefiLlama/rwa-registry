@@ -1,0 +1,64 @@
+{
+  "identity": {
+    "slug": "wise-telecom-nodes",
+    "name": "Wise Telecom Nodes",
+    "legacyPid": 336,
+    "protocolSlug": "wise-lending-v2"
+  },
+  "about": {
+    "description": "WISE Token is the brand under which WiseSoft LLC operates two distinct products. The original product is an Ethereum yield and staking token launched in 2020 alongside the Wise Lending money market, which DefiLlama tracks under the wise lending v2 slug and which now holds negligible value. The current product is Wise Telecom Nodes, a set of stablecoin deposit vaults marketed as exposure to World Mobile AirNode telecom infrastructure. A depositor sends USDC, USDT or USDG to a vault and receives a transferable receipt token at par. The vault forwards the deposit to an externally owned account rather than retaining it, and credits the depositor with interest at a rate the operator configures on chain. The vaults are EIP 2535 diamonds deployed at identical addresses on Ethereum, Base and Arbitrum, and every deployment shares the same bytecode. World Mobile has publicly named Wise Lending as a distribution partner, but World Mobile is not the issuer and no published document creates a World Mobile obligation to holders.",
+    "logo": "https://icons.llamao.fi/icons/protocols/wise-token?w=48&h=48",
+    "links": {
+      "website": [
+        "https://wisetoken.com/"
+      ],
+      "twitter": "https://x.com/Wise_Token",
+      "docs": "https://docs.wisetoken.net/",
+      "linkedin": "https://www.linkedin.com/company/wise-defi",
+      "discord": "https://discord.gg/FaAJP3pJu4",
+      "telegram": "https://t.me/WiseTokenCommunity; https://t.me/WiseToken",
+      "github": "https://github.com/wise-foundation",
+      "refLinks": [
+        "Admin authority over every vault on every chain rests with a single externally owned account rather than a multisig or timelock, and that account can mint and burn receipt balances, set the interest rate and pause deposits. No withdraw selector of any signature is registered on the diamonds, so there is no issuer redemption and exit depends on a peer funded sell order queue at a seller set discount. Deposits are forwarded to an externally owned account rather than held in the vault, so the receipt tokens are not backed by assets observable on chain. The yield is a configuration value set by the admin key rather than a measured return on the underlying infrastructure. The interface adds a fixed manual amount to the Ethereum vault figure it displays, and the issuer's public data endpoint reports a total value locked figure inconsistent with its own prior week figure by several orders of magnitude. The total deposit cap stored on chain is set well above the capacity advertised on the interface. No audit covers the Telecom Nodes contracts. The audits the issuer publishes cover the unrelated lending product. Issuer jurisdiction is undisclosed."
+      ]
+    },
+    "registryInfo": "WiseSoft, LLC, formed January 2021 per the issuer's own documentation, operating publicly as WISE Token and Wise Lending. Founder and chief executive named publicly as Peter Girr. State of formation, company registration number and registered address are not disclosed in the issuer's documentation and could not be located in registry or trademark records, so jurisdiction is treated as unknown. The WISE LENDING trademark, serial 98811807, is registered to WiseSoft LLC. No money transmitter, e-money, VASP or other financial licence was located.",
+    "foundedYear": 2021,
+    "headquarters": "Not disclosed",
+    "founders": "Peter Girr, founder and chief executive",
+    "regulatoryStatus": "No money transmitter, e-money, VASP or other financial licence was located for WiseSoft LLC. The WISE LENDING trademark, serial 98811807, is registered to WiseSoft LLC.",
+    "keyMilestones": "2020 WISE staking token launched on Ethereum per issuer documentation. 2023 Wise Lending money market listed on DefiLlama. January 2025 World Mobile named Wise Lending a distribution partner. July 2026 the Wise Telecom Nodes vaults were deployed on Ethereum, Base and Arbitrum.",
+    "entityStructureNotes": "WiseSoft LLC is the only named entity. State of formation, registration number and registered address are not disclosed in the issuer documentation and could not be located in registry or trademark records. The WISE token and the Wise Lending money market predate the Telecom Nodes vaults and are operated under the same brand by the same entity."
+  },
+  "platform": {
+    "category": [
+      "private-credit"
+    ],
+    "platformType": [
+      "structured-credit"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum",
+      "base",
+      "arbitrum"
+    ],
+    "parentPlatform": "wise-telecom-nodes",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueNotes": "The operator retains any difference between what the forwarded deposits earn and the interest rate it configures on chain. No fee schedule is published and the spread is not disclosed."
+    }
+  },
+  "roles": [
+    {
+      "organization": "wisesoft-llc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.wisetoken.net/wise-token/wise-ethereum/introduction/wisesoft-llc"
+      ]
+    }
+  ]
+}

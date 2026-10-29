@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "slug": "tradable",
+    "name": "Tradable",
+    "legacyPid": 291
+  },
+  "about": {
+    "logo": "https://icons.llamao.fi/icons/rwa/tradable.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.tradable.xyz"
+      ],
+      "twitter": "https://x.com/tradable_xyz"
+    }
+  },
+  "platform": {
+    "category": [
+      "private-credit"
+    ],
+    "primaryChain": "era",
+    "delisted": false
+  }
+}

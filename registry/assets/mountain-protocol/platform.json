@@ -1,0 +1,67 @@
+{
+  "identity": {
+    "slug": "mountain-protocol",
+    "name": "Mountain Protocol",
+    "legacyPid": 75
+  },
+  "about": {
+    "description": "Mountain Protocol Ltd is a Bermuda Monetary Authority (BMA) Class F-licensed digital asset business issuing USDM, a yield-bearing stablecoin backed 1:1 by short-duration US Treasuries. Founded 2023 by Martin Carrica (ex-Buenbit) and Manuel Pacheco and headquartered in Hamilton, Bermuda. USDM rebases daily to pass through net Treasury yield to holders (currently ~4-5% APY net of fees) and is restricted to non-US KYC'd holders. Mountain was acquired by Anchorage Digital (announced November 2023), but continues to operate USDM under its existing BMA license. USDM is one of the first BMA-licensed yield-bearing stablecoins and competes with Ondo USDY, Sky's sUSDS, and Ethena USDe in the yield-stablecoin category.",
+    "logo": "https://icons.llamao.fi/icons/rwa/mountain-protocol.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://mountainprotocol.com"
+      ],
+      "twitter": "https://x.com/mountainusdm",
+      "docs": "https://docs.mountainprotocol.com/",
+      "linkedin": "https://www.linkedin.com/company/mountain-protocol"
+    },
+    "registryInfo": "Mountain Protocol Ltd is a Bermuda-incorporated company regulated by the Bermuda Monetary Authority (BMA) under a Class F Digital Asset Business Act (DABA) license, granted 2023. USDM is fully backed by short-duration US Treasuries and cash held at qualified Bermuda banks. Founders: Martin Carrica (CEO, ex-Buenbit) and Manuel Pacheco. Backed by Coinbase Ventures, Multicoin Capital, Castle Island Ventures, Bankless Ventures, Distributed Global, and others. Auditor: The Network Firm LLP (proof-of-reserves). USDM was the first BMA-licensed yield-bearing stablecoin; non-US-only access model. Tether-style reserve attestations published monthly."
+  },
+  "platform": {
+    "category": [
+      "rwa-stablecoins"
+    ],
+    "platformType": [
+      "yield-rwa-stable"
+    ],
+    "accessModel": "permissioned",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "attestationFrequency": "Monthly proof-of-reserves attestation by The Network Firm LLP",
+    "parentPlatform": "mountain-protocol",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Yield Spread",
+      "holderTotalFeeBps": 50,
+      "assetManagerTakeBps": 50,
+      "tokenizationPlatformTakeBps": 0,
+      "yieldSpreadRetainedBps": 50,
+      "mintFeeBps": 0,
+      "redemptionFeeBps": 0,
+      "floatIncome": false,
+      "issuerDocsUrl": "https://docs.mountainprotocol.com/",
+      "revenueConfidence": "reasoned-estimate",
+      "feeLastVerified": "2026-05-10",
+      "revenueNotes": "Mountain Protocol retains a portion of the underlying Treasury yield as protocol revenue. The 50 bps estimate is based on the historical gap between Mountain's published USDM rebase rate and prevailing 4-week T-bill yields. Mountain does not publicly disclose the exact spread; figure should be verified against current FAQ or by tracking the rate differential."
+    }
+  },
+  "roles": [
+    {
+      "organization": "mountain-protocol-ltd-bermuda",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://mountainprotocol.com"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "Monthly"
+    }
+  ]
+}

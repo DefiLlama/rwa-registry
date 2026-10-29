@@ -1,0 +1,35 @@
+{
+  "identity": {
+    "slug": "paradex",
+    "name": "Paradex",
+    "legacyPid": 316,
+    "protocolSlug": "paradex"
+  },
+  "about": {
+    "logo": "https://icons.llamao.fi/icons/rwa/paradex.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://paradex.trade/"
+      ],
+      "twitter": "https://x.com/tradeparadex",
+      "docs": "https://docs.paradex.trade/",
+      "linkedin": "https://www.linkedin.com/company/paradex-trade",
+      "discord": "https://discord.gg/paradex"
+    }
+  },
+  "platform": {
+    "primaryChain": "starknet",
+    "chains": [
+      "starknet"
+    ],
+    "marginSettlementAsset": "USDC",
+    "suspicious": false,
+    "delisted": false
+  },
+  "roles": [
+    {
+      "organization": "paradex",
+      "kind": "issuer"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "identity": {
+    "slug": "prosper",
+    "name": "Prosper",
+    "legacyPid": 54
+  },
+  "about": {
+    "description": "Prosper is a governance and incentive token for its protocol ecosystem, enabling community decision-making and participation in protocol economics. It aligns stakeholder interests through tokenized governance.",
+    "logo": "https://icons.llamao.fi/icons/rwa/prosper.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://prosper-fi.com"
+      ],
+      "twitter": "https://x.com/prosperfi_BTC",
+      "docs": "https://docs.prosper.fi/",
+      "linkedin": "https://www.linkedin.com/company/prosper-protocol"
+    }
+  },
+  "platform": {
+    "category": [
+      "governance-tokens",
+      "other-rwas"
+    ],
+    "platformType": [
+      "governance-token"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "bsc",
+    "chains": [
+      "bsc"
+    ],
+    "parentPlatform": "prosper",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "prosper",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://prosper-fi.com"
+      ]
+    }
+  ]
+}

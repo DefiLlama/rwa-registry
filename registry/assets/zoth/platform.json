@@ -1,0 +1,53 @@
+{
+  "identity": {
+    "slug": "zoth",
+    "name": "Zoth",
+    "legacyPid": 67
+  },
+  "about": {
+    "description": "Zoth offers a yield-bearing fiat stablecoin backed by short-duration RWA exposure including US Treasuries. The platform provides DeFi-composable yield-stable exposure and integrates with major lending protocols. Note: Zoth experienced a significant exploit in March 2025 that drained a portion of the treasury; the protocol has since restructured.",
+    "logo": "https://icons.llamao.fi/icons/rwa/zoth.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://zoth.io"
+      ],
+      "twitter": "https://x.com/zothdotio",
+      "docs": "https://docs.zoth.io/",
+      "linkedin": "https://www.linkedin.com/company/zoth-fi"
+    }
+  },
+  "platform": {
+    "category": [
+      "rwa-wrappers",
+      "rwa-stablecoins",
+      "bond-mmf-funds"
+    ],
+    "platformType": [
+      "yield-fiat-stable"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "parentPlatform": "zoth",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "issuerDocsUrl": "https://docs.zoth.io/",
+      "revenueConfidence": "no-public-data",
+      "feeLastVerified": "2026-05-10",
+      "revenueNotes": "Public fee disclosure not available. Protocol restructured after March 2025 exploit."
+    }
+  },
+  "roles": [
+    {
+      "organization": "zoth-dao",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://zoth.io"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "identity": {
+    "slug": "backed-finance",
+    "name": "Backed Finance",
+    "legacyPid": 119,
+    "protocolSlug": "backedfi"
+  },
+  "about": {
+    "description": "Backed Finance AG is the Zug, Switzerland-based issuer of bTokens and the consumer-facing xStocks brand, founded in 2021 by Adam Levi (CEO), Roberto Klein, and Yehonatan Goldman (all three previously at DAOstack). Its product line spans tokenized US equities (bTSLA, bNVDA, etc., and xStocks AAPLx/NVDAx/TSLAx), tokenized ETFs (bIB01, bCSPX), and tokenized bond funds (bHIGH, bC3M). Each bToken is 1:1-backed by real shares custodied at a regulated bank, structured as Swiss FinSA-compliant tracker certificates that allow transferability without an on-chain whitelist. Backed pioneered free-float tokenized stocks chosen specifically because Switzerland's DLT Act permits transferable digital securities without restrictive whitelisting. Acquired by Kraken in 2025; xStocks crossed $10B+ in combined exchange and on-chain trading volume within 6 months of debut.",
+    "logo": "https://icons.llamao.fi/icons/rwa/backed-finance.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://backed.fi/"
+      ],
+      "twitter": "https://x.com/BackedFi",
+      "docs": "https://docs.backed.fi/",
+      "linkedin": "https://www.linkedin.com/company/backedfi",
+      "github": "https://github.com/backedfi"
+    },
+    "registryInfo": "Backed Finance AG — Swiss stock corporation (Aktiengesellschaft) headquartered in Zug, Switzerland. Operates issuing SPV Backed Assets (JE) Limited (Jersey, Channel Islands) for tokenized equity and ETF products. Founded 2021 by CEO Adam Levi, Roberto Klein (Legal Lead, Tel Aviv University BS/MS), and Yehonatan Goldman — all three co-founders previously worked at DAOstack. Operates under Swiss FinSA prospectus and DLT Act, enabling free-float (non-whitelisted) tokenized securities. Acquired by Kraken (announced 2025)."
+  },
+  "platform": {
+    "category": [
+      "stocks-equities",
+      "bond-mmf-funds"
+    ],
+    "platformType": [
+      "tokenized-stocks",
+      "tokenized-bond-funds"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum",
+      "solana",
+      "bsc",
+      "base",
+      "xdai",
+      "avax",
+      "arbitrum"
+    ],
+    "attestationFrequency": "Daily",
+    "parentPlatform": "backed-finance",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "onchainMcapBasis": "active",
+    "fees": {
+      "revenueModel": "Mint/Redeem Spread + Float Income",
+      "revenueConfidence": "issuer-disclosed",
+      "revenueNotes": "Backed Finance AG (Switzerland-based) operates under Liechtenstein FMA prospectus regime to issue bToken / xStock tokenized securities backed 1:1 by underlying shares/ETFs held in segregated custody. Revenue from mint/redeem spreads, float income on cash balances, and platform B2B distribution fees. Independent attestation by The Network Firm LLP. xStocks line launched June 2025 in partnership with Kraken."
+    }
+  },
+  "roles": [
+    {
+      "organization": "backed-finance-ag",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://backed.fi/company"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "Daily on-chain proof of reserves"
+    }
+  ]
+}

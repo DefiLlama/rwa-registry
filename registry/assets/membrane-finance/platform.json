@@ -1,0 +1,45 @@
+{
+  "identity": {
+    "slug": "membrane-finance",
+    "name": "Membrane Finance",
+    "legacyPid": 192
+  },
+  "about": {
+    "description": "Membrane Finance issues a fiat-backed stablecoin maintained at parity with its reference currency through reserve backing and redemption mechanisms. It enables fast, low-cost settlement of stablecoin transactions.",
+    "logo": "https://icons.llamao.fi/icons/rwa/membrane-finance.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://euroe.com"
+      ],
+      "twitter": "https://x.com/EUROemoney",
+      "docs": "https://www.euroe.com/",
+      "linkedin": "https://fi.linkedin.com/company/membrane-finance"
+    }
+  },
+  "platform": {
+    "category": [
+      "fiat-stablecoins"
+    ],
+    "platformType": [
+      "eur-stable"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "parentPlatform": "membrane-finance",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "membrane-finance",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://euroe.com"
+      ]
+    }
+  ]
+}

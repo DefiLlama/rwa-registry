@@ -1,0 +1,83 @@
+{
+  "identity": {
+    "slug": "tether",
+    "name": "Tether",
+    "legacyPid": 20,
+    "protocolSlug": "tether-gold"
+  },
+  "about": {
+    "description": "Tether is the largest stablecoin provider, issuing USDT as a fiat-backed digital token representing US dollar reserves. It enables fast, borderless transfers with blockchain settlement while maintaining 1:1 collateralization.",
+    "logo": "https://icons.llamao.fi/icons/rwa/tether.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://tether.to"
+      ],
+      "twitter": "https://x.com/Tether_to",
+      "docs": "https://tether.to/en/transparency",
+      "linkedin": "https://www.linkedin.com/company/tether-operations-limited",
+      "discord": "N/A (corporate)",
+      "telegram": "https://t.me/tether_official",
+      "github": "https://github.com/tetherto"
+    },
+    "registryInfo": "Tether Holdings Ltd. (BVI). Issuer of USDT (largest stablecoin by market cap, $130B+), USDt0 (Solana/TON), XAUT (gold-backed), and EURT. Operates via Bitfinex affiliate group. Quarterly attestations by BDO Italia. CEO Paolo Ardoino.",
+    "foundedYear": 2014,
+    "headquarters": "El Salvador",
+    "founders": "Paolo Ardoino (CEO since December 2023)",
+    "regulatoryStatus": "Licensed as a Digital Asset Service Provider and stablecoin issuer in El Salvador, where the group relocated in January 2025, operating through Tether Operations S.A. de C.V. USDT holds no US federal license. The US market token USAT launched in January 2026 under the GENIUS Act, issued by Anchorage Digital Bank N.A. with Cantor Fitzgerald as reserve custodian.",
+    "keyMilestones": "2026-01: USAT launches as a GENIUS Act federally regulated stablecoin issued by Anchorage Digital Bank | 2025-09: USAT unveiled with Bo Hines named CEO of Tether USAT | 2025-01: group HQ relocation to El Salvador completed after DASP license | 2024-10: 10 years of USDT with over 350 million users | 2023-12: Paolo Ardoino becomes CEO",
+    "entityStructureNotes": "Tether Operations S.A. de C.V. in El Salvador is the operating company for USDT following the 2025 relocation. The US token USAT sits outside this structure and is issued by Anchorage Digital Bank N.A. with Tether providing Hadron technology and distribution. Non stablecoin divisions include Power, Data, Edu, and Evo."
+  },
+  "platform": {
+    "category": [
+      "fiat-stablecoins"
+    ],
+    "platformType": [
+      "usd-stable"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "attestationFrequency": "Quarterly",
+    "parentPlatform": "tether",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Float Income",
+      "holderTotalFeeBps": 0,
+      "assetManagerTakeBps": 0,
+      "tokenizationPlatformTakeBps": 0,
+      "mintFeeBps": 10,
+      "redemptionFeeBps": 10,
+      "floatIncome": true,
+      "feeScheduleUrl": "https://tether.to/en/fees/",
+      "issuerDocsUrl": "https://tether.to/en/transparency/",
+      "tcsUrl": "https://tether.to/en/legal",
+      "governanceWhitepaperUrl": "https://tether.to/en/whitepaper",
+      "revenueConfidence": "issuer-disclosed",
+      "feeLastVerified": "2026-07-02",
+      "revenueNotes": "Tether earns float income on reserves backing its stablecoins — primarily short-duration US Treasuries (~$80B+), reverse repos, and bank deposits. In 2024 Tether reported ~$13B in profits, making it one of the most profitable financial firms per employee in the world. No fees charged at the token-holder level; mint/redeem fees apply at the institutional-customer level for whitelisted treasury operations.",
+      "revenueVerificationMethod": "Fee schedule fetched from tether.to/en/fees on 2026-07-02. Profit and reserve figures from the BDO-attested Q1 2026 report via tether.io press release.",
+      "chainShareClassFeeVariants": "A 100000 minimum applies to mint and redemption. A 150 one-time verification fee applies. XAUt has a separate fee schedule at gold.tether.to. There are no per-chain differences.",
+      "takeRateBasis": "Float income on reserves",
+      "revenueMix": "Interest on about 141B in US Treasury exposure (about 117B direct T-bills plus about 24B repo, per the 2026-03-31 attestation) plus gold (about 20B) and BTC (about 7B) mark-to-market gains. Mint and redeem fees are immaterial. FY2025 net profit exceeded 10B. Q1 2026 profit was 1.04B. Excess reserves 8.23B."
+    }
+  },
+  "roles": [
+    {
+      "organization": "tether-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://tether.to"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "Quarterly (BDO Italia attestation)"
+    }
+  ]
+}

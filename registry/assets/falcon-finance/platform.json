@@ -1,0 +1,60 @@
+{
+  "identity": {
+    "slug": "falcon-finance",
+    "name": "Falcon Finance",
+    "legacyPid": 150
+  },
+  "about": {
+    "description": "Falcon Finance is a perpetual derivatives platform providing leveraged trading on RWA-linked assets and digital commodities. It enables non-custodial margin trading with blockchain settlement.",
+    "logo": "https://icons.llamao.fi/icons/rwa/falcon-finance.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://falcon.finance/"
+      ],
+      "twitter": "https://x.com/falconfinance",
+      "docs": "https://docs.falcon.finance/",
+      "linkedin": "https://www.linkedin.com/company/falconstable",
+      "refLinks": [
+        "https://app.falcon.finance/?r=ecf7be7f48d1ce67467fc040bcc1abd5"
+      ]
+    },
+    "foundedYear": 2024,
+    "founders": "Andrei Grachev (Founder, Managing Partner, also DWF Labs)",
+    "regulatoryStatus": "Falcon Digital Limited states in its Terms that it is not currently licensed by any regulatory authority, with BVI governing law and the US and Singapore among restricted jurisdictions. Reserve assurance comes from quarterly ISAE 3000 attestations by Harris and Trotter LLP and daily reserve verification rather than a regulator. GENIUS and MiCA licensing discussions are disclosed but no authorization exists as of July 2026.",
+    "keyMilestones": "2026-02: USDf supply passed 2 billion dollars | 2025-10: first quarterly ISAE 3000 attestation published | 2025-09: FF governance token TGE | 2025-07: USDf passed 1 billion with 10M World Liberty Financial investment | 2025-04: public launch with Falcon Miles program",
+    "entityStructureNotes": "USDf and sUSDf are issued by Falcon Digital Limited trading as Falcon Finance under BVI law. DWF Labs is the seed investor and incubator but a separate entity. No registered office or incorporation number is printed in the public Terms."
+  },
+  "platform": {
+    "category": [
+      "non-rwa-stablecoins"
+    ],
+    "platformType": [
+      "synthetic-stable"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "parentPlatform": "falcon-finance",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "mintFeeBps": 0,
+      "redemptionFeeBps": 0,
+      "revenueConfidence": "issuer-disclosed",
+      "feeLastVerified": "2026-07-09",
+      "revenueNotes": "No protocol fees for minting or redeeming USDf, with stablecoin redemptions 1 to 1 after a 7 day cooldown. Economics flow via yield spread on deployed collateral paid to sUSDf stakers, with a portion funding a 10 million dollar insurance fund."
+    }
+  },
+  "roles": [
+    {
+      "organization": "falcon-digital-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://falcon.finance/"
+      ]
+    }
+  ]
+}

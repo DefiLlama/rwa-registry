@@ -1,0 +1,45 @@
+{
+  "identity": {
+    "slug": "trovio",
+    "name": "Trovio",
+    "legacyPid": 98
+  },
+  "about": {
+    "description": "Trovio provides tokenized access to physical commodities and precious metals through blockchain infrastructure. It enables fractional ownership and efficient settlement of commodity positions.",
+    "logo": "https://icons.llamao.fi/icons/rwa/trovio.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://pmgt.io"
+      ],
+      "twitter": "https://x.com/trovio_group",
+      "docs": "https://trovio.io/",
+      "linkedin": "https://www.linkedin.com/company/trovio-group"
+    }
+  },
+  "platform": {
+    "category": [
+      "gold-commodities"
+    ],
+    "platformType": [
+      "gold"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "parentPlatform": "trovio",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "trovio-pty-ltd",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://pmgt.io"
+      ]
+    }
+  ]
+}

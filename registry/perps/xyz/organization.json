@@ -1,0 +1,64 @@
+{
+  "identity": {
+    "slug": "trade-xyz",
+    "name": "trade[XYZ]",
+    "legacyPid": 219,
+    "protocolSlug": "tradexyz"
+  },
+  "about": {
+    "description": "trade[XYZ] is the first HIP-3 builder-deployed perpetual venue on Hyperliquid, launched October 13, 2025 by the Hyperunit team. It operates 24/7 cash-settled perpetual markets covering US equities, ETFs, equity indices (including the world's first officially S&P 500-licensed perpetual via sister deployment ABCD, March 2026), commodities, FX, and pre-IPO/private-company valuations. Markets appear under the xyz namespace and are margined and cash-settled in USDC, giving users synthetic price exposure rather than ownership of the underlying. Cumulative volume since launch has exceeded $100B with an annualized run rate above $600B, accounting for over 35% of all Hyperliquid trading volume.",
+    "logo": "https://icons.llamao.fi/icons/rwa/tradexyz.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://trade.xyz/"
+      ],
+      "twitter": "https://x.com/tradexyz",
+      "docs": "https://docs.trade.xyz/",
+      "linkedin": "https://www.linkedin.com/company/hyperunit",
+      "discord": "https://discord.gg/tradexyz",
+      "telegram": "https://t.me/tradexyz",
+      "github": "https://github.com/tradexyz"
+    },
+    "registryInfo": "Operated by the Hyperunit team (also behind Hyperliquid asset-tokenization layer Unit). Core team brings expertise from HRT, Jump Trading, Fortress Investment Group, and US cyber units; founder remains pseudonymous. Markets are deployed under the xyz namespace on Hyperliquid via HIP-3 builder-deployed perpetuals."
+  },
+  "platform": {
+    "category": [
+      "rwa-perps"
+    ],
+    "platformType": [
+      "perp-venue"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "hyperliquid",
+    "chains": [
+      "hyperliquid"
+    ],
+    "attestationFrequency": "N/A (Perp Venue)",
+    "marginSettlementAsset": "USDC (Hyperliquid)",
+    "parentPlatform": "trade-xyz",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Maker/Taker Fees + Funding Skim",
+      "revenueConfidence": "issuer-disclosed",
+      "feeLastVerified": "2026-05-11",
+      "revenueNotes": "trade[XYZ] is the largest HIP-3 builder-deployer on Hyperliquid (operates ABCD, COIN, ALPHA, and other namespaces). Under HIP-3, user-facing fees are 2x the standard Hyperliquid validator-perp rate (~7-9 bps taker, ~2-3 bps maker on standard mode; Growth Mode reduces all-in fees by 90%+, to ~0.45-0.9 bps taker). The 50% deployer revenue share goes to trade[XYZ]; the remaining 50% goes to the Hyperliquid protocol. Specific per-market rates vary by Growth Mode setting per asset. Source: https://hyperliquid.gitbook.io/hyperliquid-docs/hyperliquid-improvement-proposals-hips/hip-3-builder-deployed-perpetuals"
+    }
+  },
+  "roles": [
+    {
+      "organization": "hyperunit-trade-xyz",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.trade.xyz/about-trade-xyz/hyperliquid-xyz-and-hip-3"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "N/A (Perp Venue)"
+    }
+  ]
+}

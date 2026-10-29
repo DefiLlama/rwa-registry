@@ -1,0 +1,64 @@
+{
+  "identity": {
+    "slug": "resolv",
+    "name": "Resolv",
+    "legacyPid": 156
+  },
+  "about": {
+    "description": "Resolv is a decentralized insurance protocol offering smart contract coverage and claims settlement on-chain. It enables tokenized insurance products with transparent reserve mechanisms.",
+    "logo": "https://icons.llamao.fi/icons/rwa/resolv.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://resolv.im/"
+      ],
+      "twitter": "https://x.com/ResolvLabs",
+      "docs": "https://docs.resolv.xyz/",
+      "linkedin": "https://www.linkedin.com/company/resolv-labs",
+      "discord": "https://discord.gg/resolv-labs",
+      "telegram": "https://t.me/resolvlabs",
+      "github": "https://github.com/resolv-labs",
+      "refLinks": [
+        "https://app.resolv.xyz/ref/defillama"
+      ]
+    },
+    "registryInfo": "Resolv Labs (BVI; founded 2023 by Ivan Kozlov & Tim Shekikhachev). Operates USR, a delta-neutral synthetic dollar protocol similar to Ethena, with ETH/BTC long-spot + short-perp hedge. RLP is the risk-absorbing token. Backed by Maven 11, Coinbase Ventures, Reverie."
+  },
+  "platform": {
+    "category": [
+      "non-rwa-stablecoins"
+    ],
+    "platformType": [
+      "synthetic-stable"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "attestationFrequency": "Continuous (on-chain)",
+    "parentPlatform": "resolv",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Yield Spread",
+      "revenueConfidence": "issuer-disclosed",
+      "revenueNotes": "Resolv earns the spread between gross strategy yield (funding + LST) and the stUSR pass-through rate, with excess accruing to RLP holders. Protocol-fee mechanism documented on docs.resolv.xyz."
+    }
+  },
+  "roles": [
+    {
+      "organization": "resolv",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://resolv.im/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "Daily on-chain proof of reserves"
+    }
+  ]
+}

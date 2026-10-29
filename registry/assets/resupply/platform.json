@@ -1,0 +1,44 @@
+{
+  "identity": {
+    "slug": "resupply",
+    "name": "Resupply",
+    "legacyPid": 168
+  },
+  "about": {
+    "description": "Resupply offers a stablecoin backed by real-world assets and Treasury securities, combining yield generation with price stability. It enables institutional-grade stable settlement with underlying RWA collateral.",
+    "logo": "https://icons.llamao.fi/icons/rwa/resupply.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://resupply.fi/"
+      ],
+      "twitter": "https://x.com/ResupplyFi",
+      "docs": "https://docs.resupply.fi/"
+    }
+  },
+  "platform": {
+    "category": [
+      "non-rwa-stablecoins"
+    ],
+    "platformType": [
+      "crypto-stable"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "parentPlatform": "resupply",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "resupply-finance-protocol",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://resupply.fi/"
+      ]
+    }
+  ]
+}

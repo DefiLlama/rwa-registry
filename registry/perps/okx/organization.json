@@ -1,0 +1,56 @@
+{
+  "identity": {
+    "slug": "okx",
+    "name": "OKX",
+    "legacyPid": 333,
+    "protocolSlug": "okx"
+  },
+  "about": {
+    "description": "OKX is a global cryptocurrency exchange launched in 2017 as OKEx by Star Xu, building on his 2013 OKCoin exchange, and rebranded to OKX in 2022. Xu remains founder and CEO, with former Goldman Sachs banker Hong Fang serving as president. The exchange runs one of the larger RWA perp books among CEXs, with roughly 147 contracts covering US stocks and ETFs, index products including the KOSPI 200, Korean equities such as Samsung and SK Hynix, commodities, and pre-IPO contracts on OpenAI, SpaceX and Anthropic. Stock and ETF perps launched on March 4, 2026 and pre-IPO pre-market perps followed in May 2026, with the products flagged in the API through instCategory and ruleType=pre_market fields. Contracts are USDT-margined with leverage of 0.01x to 5x on equities, funding settles every 8 hours by default with OKX's automatic frequency adjustment able to shorten the interval and pre-market contracts funding every 4 hours at a flat rate, and headline fees are 2 bps maker and 5 bps taker. The global venue is operated by Seychelles-incorporated Aux Cayes FinTech Co. Ltd and is not available to US users, who are served by a separate OKX US platform without these contracts.",
+    "logo": "https://icons.llamao.fi/icons/rwa/okx.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.okx.com"
+      ],
+      "twitter": "https://x.com/okx",
+      "docs": "https://www.okx.com/docs-v5/en/",
+      "linkedin": "https://www.linkedin.com/company/okxofficial/",
+      "discord": "https://discord.gg/okx",
+      "telegram": "https://t.me/OKXOfficial_English"
+    },
+    "foundedYear": 2017,
+    "headquarters": "No single disclosed global headquarters. The global platform is operated by Seychelles-incorporated Aux Cayes FinTech Co. Ltd, with regional hubs including San Jose, United States and Malta",
+    "founders": "Star Xu (Founder and CEO), Hong Fang (President)",
+    "regulatoryStatus": "The global exchange, including the RWA perp venue, is operated by Aux Cayes FinTech Co. Ltd, incorporated in the Seychelles. In February 2025 Aux Cayes FinTech pleaded guilty in the US to operating an unlicensed money transmitting business and paid about 505 million dollars in penalties and forfeiture, after which OKX launched a separate compliant US platform in April 2025 with headquarters in San Jose. For the EEA, OKX received a MiCA CASP license from the Malta Financial Services Authority in January 2025, becoming one of the first major exchanges licensed under the regime, followed by a Malta payment institution license in February 2026. The group also holds a Dubai VARA VASP license and a Singapore MPI license, none of which cover the global perp venue itself.",
+    "keyMilestones": "2013: Star Xu founds OKCoin, the origin of the OK Group exchange lineage | 2017: OKEx launches as the group's global exchange, later rebranded OKX in 2022 | 2025-01: Receives MiCA CASP license from the Malta Financial Services Authority for the EEA | 2025-02: Aux Cayes FinTech pleads guilty to US unlicensed money transmitting charges and pays about 505 million dollars | 2025-04: Launches regulated US exchange and Web3 wallet with new San Jose headquarters | 2026-03: Lists USDT-margined perpetual futures on US stocks and ETFs including NVDA, AAPL, SPY and QQQ | 2026-05: Adds pre-IPO pre-market perpetual futures on OpenAI, SpaceX and Anthropic",
+    "entityStructureNotes": "Aux Cayes FinTech Co. Ltd (Seychelles) operates the global platform and derivatives venue. OKX US operations run through US-registered entities headquartered in San Jose, California under US CEO Roshan Robert. OKX Malta entities hold the MiCA CASP and payment institution licenses for the EEA. Additional regulated entities operate under Dubai VARA and Singapore MAS licenses. The group traces to OK Group and OKCoin, founded by Star Xu in 2013."
+  },
+  "platform": {
+    "category": [
+      "rwa-perps"
+    ],
+    "platformType": [
+      "perp-venue"
+    ],
+    "accessModel": "permissioned",
+    "marginSettlementAsset": "USDT",
+    "parentPlatform": "okx",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Perp Maker/Taker Fees",
+      "issuerDocsUrl": "https://www.okx.com/fees",
+      "governanceWhitepaperUrl": "https://www.okx.com/help/terms-of-service",
+      "revenueConfidence": "issuer-disclosed",
+      "feeLastVerified": "2026-07-30",
+      "revenueNotes": "instCategory API flag. Equity perps offered to eligible users in Asia/CIS/LatAm/Turkiye."
+    }
+  },
+  "roles": [
+    {
+      "organization": "aux-cayes-fintech-co-ltd-seychelles",
+      "kind": "issuer"
+    }
+  ]
+}

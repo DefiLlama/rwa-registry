@@ -1,0 +1,45 @@
+{
+  "identity": {
+    "slug": "xaue-protocol",
+    "name": "XAUE Protocol",
+    "legacyPid": 243,
+    "protocolSlug": "xaue-protocol"
+  },
+  "about": {
+    "description": "XAUE Protocol provides tokenized access to physical commodities and precious metals through blockchain infrastructure. It enables fractional ownership and efficient settlement of commodity positions.",
+    "logo": "https://icons.llamao.fi/icons/rwa/xaue-protocol.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://xaue.com/"
+      ],
+      "twitter": "https://x.com/Xaue_Protocol"
+    }
+  },
+  "platform": {
+    "category": [
+      "rwa-wrappers",
+      "gold-commodities"
+    ],
+    "platformType": [
+      "gold"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "parentPlatform": "xaue-protocol",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "aurise-foundation",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://xaue.com/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "identity": {
+    "slug": "stake-my-gold",
+    "name": "Stake My Gold",
+    "legacyPid": 313
+  },
+  "about": {
+    "description": "Stake My Gold (SMG Development Inc.) is a no-KYC gold staking platform launched in late 2025 by an anonymous team, with terms of service governed by British Virgin Islands law, offering fixed 8-15% APR on gold-backed tokens on Ethereum, primarily GGBR, a token issued by GGBR Inc. (Wyoming) and collateralized by I-ON Digital Corp's ION.au securities referencing in-situ (unmined) gold reserves. Its stGGBR product is an ERC-4626 vault whose exchange rate rises at an administrator-set targetAPY, met by injecting GGBR daily from a platform-controlled Yield Reserve; the site attributes the underlying yield to a rehypothecation agreement with I-ON Digital, but no attestation of that income is published. A CertiK audit was completed in April 2026 (Skynet score 73/BBB, team not KYC-verified).",
+    "logo": "https://icons.llamao.fi/icons/rwa/stake-my-gold.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://stakemygold.com/"
+      ],
+      "twitter": "https://x.com/stakemygold",
+      "docs": "https://stakemygold.com/stggbr",
+      "telegram": "https://t.me/stakemygold"
+    },
+    "foundedYear": 2025,
+    "regulatoryStatus": "Unregulated. Explicitly no-KYC per Terms of Service; no licenses or registrations disclosed; ToS governed by BVI law with BVI arbitration. Platform disclaims custody and describes itself as a non-custodial interface to third-party smart contracts.",
+    "keyMilestones": "2025-11: platform launched with 12% APR GGBR staking | 2026-04: CertiK audit completed (final report 2026-04-07) | 2026-05: CertiK Skynet rating BBB; revised Terms of Service; stGGBR vault documentation live",
+    "entityStructureNotes": "Operated by SMG Development Inc.; jurisdiction not disclosed (BVI governing law in ToS suggests BVI; unverified in any registry). No address, directors, or corporate filings found. Claims independence from token issuers while operating the stGGBR vault, the GGBR Yield Reserve, and GGBR OTC sales; GGBR is issued by GGBR Inc. (Wyoming) backed by I-ON Digital Corp's ION.au gold-asset-backed securities."
+  },
+  "platform": {
+    "category": [
+      "rwa-wrappers",
+      "gold-commodities"
+    ],
+    "platformType": [
+      "active-vault"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "delisted": false,
+    "fees": {
+      "revenueModel": "Undisclosed; implied spread between claimed rehypothecation income and the fixed APR paid to stakers, plus OTC swap fees on GGBR and a 30% penalty on accrued interest for early unlock",
+      "floatIncome": false,
+      "tcsUrl": "https://stakemygold.com/terms-of-service",
+      "revenueConfidence": "no-public-data",
+      "feeLastVerified": "2026-07-20",
+      "revenueNotes": "No fee schedule published; stGGBR vault has no stated deposit/withdrawal fee; yield is a reserve-funded targetAPY set by administrators, so platform economics are opaque. Early-unstake penalty: 30% of interest earned in the period (flexible term).",
+      "revenueVerificationMethod": "stakemygold.com home, stGGBR, yield-strategy, security, transparency, FAQ and ToS pages plus CertiK Skynet listing"
+    }
+  },
+  "roles": [
+    {
+      "organization": "smg-development-inc",
+      "kind": "issuer"
+    },
+    {
+      "organization": "smg-development-inc",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "review",
+      "outcome": "suspicious",
+      "reason": "stGGBR APR is not earned yield but an admin-set targetAPY paid by injecting GGBR from a platform-controlled Yield Reserve, with no attestation that claimed rehypothecation income funds it; backing is I-ON Digital in-situ (unmined) gold securities, not vaulted bullion; anonymous team with no registry record for SMG Development Inc.; site shows two different stGGBR contract addresses and transparency reports with dead links and impossible dates (listed as published months before the platform existed); ToS caps liability at $100; 8-15% fixed APR far exceeds gold-lending market rates (reviewed 2026-07)."
+    }
+  ]
+}

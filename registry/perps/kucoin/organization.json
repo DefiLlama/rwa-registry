@@ -1,0 +1,56 @@
+{
+  "identity": {
+    "slug": "kucoin",
+    "name": "KuCoin",
+    "legacyPid": 330,
+    "protocolSlug": "kucoin"
+  },
+  "about": {
+    "description": "KuCoin is a centralized cryptocurrency exchange founded in September 2017 by Chun Gan, known as Michael, and Ke Tang, known as Eric, and has been led by CEO BC Wong since January 2025 after both founders exited management under a US Department of Justice resolution. Its futures arm, launched as KuMEX in 2019, added stock index perpetual contracts in March 2026 starting with TSLA and MSTR and has grown to roughly 135 RWA contracts covering US stocks, ETFs, commodities and pre-IPO names such as Anthropic and OpenAI. Contracts are USDT-margined synthetic perpetuals that trade around the clock, with funding on stock and pre-IPO contracts settled every 8 hours and base fees of 0.02 percent maker and 0.06 percent taker. Stock contracts carry the API flag marketType NASDAQ and pre-IPO contracts carry marketStage PRE_MARKET. KuCoin historically operated through Seychelles entity Peken Global Limited, while its current terms name no legal entity and apply Turks and Caicos Islands law, and the platform is barred from US markets under its plea agreement and a March 2026 CFTC consent order.",
+    "logo": "https://icons.llamao.fi/icons/rwa/kucoin.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.kucoin.com"
+      ],
+      "twitter": "https://x.com/kucoincom",
+      "docs": "https://www.kucoin.com/docs-new",
+      "linkedin": "https://www.linkedin.com/company/kucoin/",
+      "discord": "https://discord.com/invite/kucoinofficialserver",
+      "telegram": "https://t.me/Kucoin_Exchange"
+    },
+    "foundedYear": 2017,
+    "headquarters": "Historically operated from Victoria, Seychelles through Peken Global Limited. Current terms of use name no entity and state Turks and Caicos Islands as governing jurisdiction.",
+    "founders": "Chun Gan \"Michael Gan\" (Co-Founder, exited management 2025), Ke Tang \"Eric\" (Co-Founder, exited management 2025), BC Wong (CEO)",
+    "regulatoryStatus": "In January 2025 Peken Global Limited, the Seychelles entity operating KuCoin, pleaded guilty in the Southern District of New York to operating an unlicensed money transmitting business, paying over $297 million in forfeiture and fines, exiting the US market and removing founders Chun Gan and Ke Tang from management, and in March 2026 a federal court entered a permanent injunction barring KuCoin from US markets under a CFTC consent order. In November 2025 KuCoin EU Exchange GmbH, based in Vienna, received a MiCA CASP authorization from the Austrian FMA with passporting rights across the EEA. In February 2026 the FMA prohibited KuCoin EU from conducting new business over AML staffing deficiencies, and while the new-business ban was lifted in May 2026, commencement of business operations remained prohibited as of the FMA's follow-up notice. The global platform's current terms name no operating entity and apply Turks and Caicos Islands law.",
+    "keyMilestones": "2017-09: KuCoin founded | 2019-07: Futures platform launched as KuMEX | 2025-01: Peken Global pleads guilty in US court, pays over $297 million and exits the US market, BC Wong appointed CEO | 2025-07: xStocks tokenized equity spot listings launched | 2025-11: KuCoin EU Exchange GmbH receives MiCA CASP authorization from Austria's FMA | 2026-03: Stock index perpetual futures launch with TSLAUSDT and MSTRUSDT, and a federal court enters a permanent injunction barring KuCoin from US markets under a CFTC consent order | 2026-06: Pre-IPO perpetuals launch with ANTHROPICUSDT and OPENAIUSDT",
+    "entityStructureNotes": "US DOJ filings identify three entities doing business as KuCoin: Flashdot Limited (Cayman Islands, formerly Phoenixfin Limited), Peken Global Limited (Seychelles) and Phoenixfin Private Limited (Singapore). KuCoin EU Exchange GmbH (Vienna, Austria) holds the MiCA authorization. The current global terms of use name no corporate entity and designate Turks and Caicos Islands governing law with SIAC arbitration."
+  },
+  "platform": {
+    "category": [
+      "rwa-perps"
+    ],
+    "platformType": [
+      "perp-venue"
+    ],
+    "accessModel": "permissioned",
+    "marginSettlementAsset": "USDT",
+    "parentPlatform": "kucoin",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Perp Maker/Taker Fees",
+      "issuerDocsUrl": "https://www.kucoin.com/announcement/en-futures-fee",
+      "governanceWhitepaperUrl": "https://www.kucoin.com/announcement/en-futures-terms-of-use",
+      "revenueConfidence": "issuer-disclosed",
+      "feeLastVerified": "2026-07-30",
+      "revenueNotes": "marketType=NASDAQ API flag. Stock perps launched 2026-03-13."
+    }
+  },
+  "roles": [
+    {
+      "organization": "not-disclosed-in-current-terms-peken-global-limited-seychelles-operated-the-exchange-per-us-doj-filings",
+      "kind": "issuer"
+    }
+  ]
+}

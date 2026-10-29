@@ -1,0 +1,22 @@
+{
+  "identity": {
+    "slug": "fundbridge",
+    "name": "FundBridge",
+    "legacyPid": 284
+  },
+  "about": {
+    "logo": "https://icons.llamao.fi/icons/rwa/fundbridge.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://fundbridgecapital.com"
+      ]
+    }
+  },
+  "platform": {
+    "category": [
+      "gold-commodities"
+    ],
+    "primaryChain": "ethereum",
+    "delisted": false
+  }
+}

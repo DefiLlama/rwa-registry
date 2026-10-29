@@ -1,0 +1,43 @@
+{
+  "identity": {
+    "slug": "hex-trust",
+    "name": "Hex Trust",
+    "legacyPid": 169
+  },
+  "about": {
+    "description": "Hex Trust issues a fiat-backed stablecoin maintained at parity with its reference currency through reserve backing and redemption mechanisms. It enables fast, low-cost settlement of stablecoin transactions.",
+    "logo": "https://icons.llamao.fi/icons/rwa/hex-trust.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.htdigitalassets.com/"
+      ],
+      "twitter": "https://x.com/Hex_Trust",
+      "docs": "https://www.hextrust.com/",
+      "linkedin": "https://hk.linkedin.com/company/hextrust"
+    }
+  },
+  "platform": {
+    "category": [
+      "fiat-stablecoins"
+    ],
+    "platformType": [
+      "usd-stable"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": null,
+    "chains": [],
+    "parentPlatform": "hex-trust",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "ht-digital-assets-hex-trust",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.htdigitalassets.com/"
+      ]
+    }
+  ]
+}

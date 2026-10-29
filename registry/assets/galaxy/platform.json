@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "slug": "galaxy",
+    "name": "Galaxy",
+    "legacyPid": 285
+  },
+  "about": {
+    "logo": "https://icons.llamao.fi/icons/rwa/galaxy.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.galaxy.com"
+      ],
+      "twitter": "https://x.com/galaxyhq"
+    }
+  },
+  "platform": {
+    "category": [
+      "private-credit"
+    ],
+    "primaryChain": "avax",
+    "delisted": false
+  }
+}

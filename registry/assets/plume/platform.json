@@ -1,0 +1,45 @@
+{
+  "identity": {
+    "slug": "plume",
+    "name": "Plume",
+    "legacyPid": 139
+  },
+  "about": {
+    "description": "Plume issues a fiat-backed stablecoin maintained at parity with its reference currency through reserve backing and redemption mechanisms. It enables fast, low-cost settlement of stablecoin transactions.",
+    "logo": "https://icons.llamao.fi/icons/rwa/plume.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://docs.plume.org/category/pusd"
+      ],
+      "twitter": "https://x.com/plumenetwork",
+      "docs": "https://docs.plumenetwork.xyz/",
+      "linkedin": "https://www.linkedin.com/company/plume-network"
+    }
+  },
+  "platform": {
+    "category": [
+      "fiat-stablecoins"
+    ],
+    "platformType": [
+      "usd-stable"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "plume_mainnet",
+    "chains": [
+      "plume_mainnet"
+    ],
+    "parentPlatform": "plume",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "plume-network",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.plume.org/category/pusd"
+      ]
+    }
+  ]
+}

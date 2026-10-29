@@ -1,0 +1,51 @@
+{
+  "identity": {
+    "slug": "agbo",
+    "name": "Agbo",
+    "legacyPid": 252
+  },
+  "about": {
+    "description": "Agbo is a payments platform built on Base that issues 0XOF, the first West African CFA franc (XOF) stablecoin onchain (via issuer Volta Equity Partners Limited Company). The platform connects on/off-ramp agents, mobile money rails, and direct conversion flows to bring the WAEMU monetary union's official currency onchain. Backed by liquid WAEMU sovereign bonds. Includes a Nǔ loyalty program where holders earn loyalty points. Targets remittances, payments, and treasury use cases across Bénin, Burkina Faso, Côte d'Ivoire, Guinea-Bissau, Mali, Niger, Sénégal, and Togo.",
+    "logo": "https://icons.llamao.fi/icons/rwa/agbo.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://agbo.to/"
+      ],
+      "twitter": "https://x.com/0xAgbo",
+      "docs": "https://docs.agbo.to/"
+    },
+    "registryInfo": "Volta Equity Partners Limited Company is the legal entity behind the Agbo operating brand. Issues 0XOF, the first XOF (West African CFA franc) stablecoin on Base, backed by WAEMU sovereign bond reserves. Targets remittance and payment use cases across the eight-country WAEMU monetary union."
+  },
+  "platform": {
+    "category": [
+      "fiat-stablecoins"
+    ],
+    "platformType": [
+      "other-fiat-stable"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "base",
+    "chains": [
+      "base"
+    ],
+    "parentPlatform": "agbo",
+    "suspicious": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "volta-equity-partners-limited-company",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://agbo.to/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

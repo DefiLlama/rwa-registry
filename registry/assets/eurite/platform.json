@@ -1,0 +1,45 @@
+{
+  "identity": {
+    "slug": "eurite",
+    "name": "Eurite",
+    "legacyPid": 130
+  },
+  "about": {
+    "description": "Eurite issues a fiat-backed stablecoin maintained at parity with its reference currency through reserve backing and redemption mechanisms. It enables fast, low-cost settlement of stablecoin transactions.",
+    "logo": "https://icons.llamao.fi/icons/rwa/eurite.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.eurite.com/"
+      ],
+      "twitter": "https://x.com/Eurite_BC",
+      "docs": "https://eurite.io/",
+      "linkedin": "https://www.linkedin.com/company/eurite-labs"
+    }
+  },
+  "platform": {
+    "category": [
+      "fiat-stablecoins"
+    ],
+    "platformType": [
+      "eur-stable"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "parentPlatform": "eurite",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "banking-circle-s-a",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.eurite.com/"
+      ]
+    }
+  ]
+}

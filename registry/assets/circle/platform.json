@@ -1,0 +1,82 @@
+{
+  "identity": {
+    "slug": "circle",
+    "name": "Circle",
+    "legacyPid": 7,
+    "protocolSlug": "circle"
+  },
+  "about": {
+    "description": "Circle issues a fiat-backed stablecoin maintained at parity with its reference currency through reserve backing and redemption mechanisms. It enables fast, low-cost settlement of stablecoin transactions.",
+    "logo": "https://icons.llamao.fi/icons/rwa/circle.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.circle.com/eurc"
+      ],
+      "twitter": "https://x.com/circle",
+      "docs": "https://developers.circle.com/",
+      "linkedin": "https://www.linkedin.com/company/circle-internet-financial",
+      "discord": "https://discord.com/invite/buildoncircle",
+      "telegram": "N/A (institutional)",
+      "github": "https://github.com/circlefin"
+    },
+    "registryInfo": "Circle Internet Financial, LLC (US, NYSE: CRCL post-2025 IPO). Issuer of USDC ($60B+), EURC, USYC (yield-bearing), and historical BUSD-via-Paxos. Money-transmitter licensed in all 50 US states; MiCA-compliant in EU. Founded 2013 by Jeremy Allaire & Sean Neville.",
+    "foundedYear": 2013,
+    "headquarters": "New York, USA",
+    "founders": "Jeremy Allaire (Co-Founder, Chairman, CEO), Sean Neville (Co-Founder)",
+    "regulatoryStatus": "Public company on NYSE under CRCL since June 2025. Circle Internet Financial LLC holds US state money transmitter licenses and the first NYDFS BitLicense (2015). First global stablecoin issuer compliant with MiCA via a French ACPR EMI license (July 2024), with AMF crypto services approval in April 2026. Received final OCC approval in July 2026 to establish First National Digital Currency Bank N.A. and holds licenses in the UK, Singapore, Bermuda, and ADGM.",
+    "keyMilestones": "2026-07: final OCC approval for national trust bank First National Digital Currency Bank N.A. | 2025-12: OCC conditional approval for the national trust charter | 2025-06: IPO on NYSE under CRCL | 2024-07: first global stablecoin issuer compliant with MiCA via French EMI license | 2018-09: USDC launches with the CENTRE Consortium",
+    "entityStructureNotes": "Circle Internet Group Inc. is the listed parent. Circle Internet Financial LLC holds the US money transmission and NYDFS licenses, a French EMI entity issues for the EEA under MiCA, and Circle International Bermuda holds a Bermuda digital asset license. The new OCC chartered trust bank will provide federally regulated custody."
+  },
+  "platform": {
+    "category": [
+      "fiat-stablecoins"
+    ],
+    "platformType": [
+      "eur-stable"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "attestationFrequency": "Monthly",
+    "parentPlatform": "circle",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Float Income",
+      "holderTotalFeeBps": 0,
+      "tokenizationPlatformTakeBps": 0,
+      "mintFeeBps": 0,
+      "redemptionFeeBps": 0,
+      "floatIncome": true,
+      "prospectusUrl": "https://investor.circle.com/financials/sec-filings/default.aspx",
+      "feeScheduleUrl": "https://help.circle.com/s/article/USDC-redemption-structure",
+      "issuerDocsUrl": "https://www.circle.com/transparency",
+      "tcsUrl": "https://www.circle.com/legal/usdc-terms",
+      "revenueConfidence": "public-filings",
+      "feeLastVerified": "2026-07-02",
+      "revenueNotes": "Circle earns float income on USDC reserves (~5% APY on the $60B+ reserve = $3B+ annual gross revenue per recent 10-K disclosures). Revenue is shared with Coinbase (~50% of reserve income per the Centre Consortium dissolution agreement, ongoing). EURC and USYC layered on similar mechanics.",
+      "revenueVerificationMethod": "Redemption tiers from help.circle.com rendered in browser on 2026-07-02. Revenue split from the Q1 2026 earnings release. Distribution terms from SEC 424B4.",
+      "chainShareClassFeeVariants": "Redemption structure effective 2026-03-15 with three tiers. Basic has free standard redemption with a monthly net-redemption overage above 40M (2 bps to 100M, 5 bps above). Standard charges 5 bps on net daily redemption above 2M with a 10M gross daily limit. Institutional charges 5 bps gross daily with 2M per day free plus the same monthly overage and net-mint credits. EEA Basic charges a 2 bps service fee on net monthly redemptions above 40M.",
+      "takeRateBasis": "Float income on reserves, net of distribution revenue-share",
+      "revenueMix": "Q1 2026 revenue was 694M, of which reserve income was 653M (94 percent) and other products 42M. Distribution costs consume about 55 to 60 percent of reserve income (Coinbase takes 100 percent of on-platform reserve income plus 50 percent of residual, and Binance has a paid-incentive deal per the 424B4)."
+    }
+  },
+  "roles": [
+    {
+      "organization": "circle-internet-financial-llc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.circle.com/eurc"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "Monthly (Deloitte)"
+    }
+  ]
+}

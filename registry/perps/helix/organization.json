@@ -1,0 +1,60 @@
+{
+  "identity": {
+    "slug": "helix",
+    "name": "Helix",
+    "legacyPid": 231,
+    "protocolSlug": "helix"
+  },
+  "about": {
+    "description": "Helix is the premier decentralized spot and perpetual exchange on the Injective L1, built by Injective Labs (co-founded in 2018 by CEO Eric Chen and CTO Albert Chon, Stanford CS) and launched September 1, 2022. It offers commodity, equity, and equity-index perpetuals alongside crypto markets — all margined in USDT — and was an early venue to list pre-IPO/private-company perpetuals. Helix is known for one of the fastest growth curves in DEX history, attaining $1B cumulative volume in one month and over $7B+ across spot and perpetual markets.",
+    "logo": "https://icons.llamao.fi/icons/rwa/helix.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://helixapp.com/"
+      ],
+      "twitter": "https://x.com/HelixMarkets",
+      "docs": "https://docs.helixapp.com/",
+      "linkedin": "https://www.linkedin.com/company/injective-labs",
+      "discord": "https://discord.gg/injective",
+      "telegram": "https://t.me/joininjective",
+      "github": "https://github.com/InjectiveLabs"
+    },
+    "registryInfo": "Helix is built and operated by Injective Labs Inc., the R&D company behind the Injective L1 blockchain. Injective was co-founded in 2018 by Eric Chen (CEO; former cryptocurrency researcher) and Albert Chon (CTO; Stanford CS, former Amazon and OpenZeppelin engineer). Helix launched on Injective Mainnet on September 1, 2022 and reached $1B cumulative volume within its first month."
+  },
+  "platform": {
+    "category": [
+      "rwa-perps"
+    ],
+    "platformType": [
+      "perp-venue"
+    ],
+    "accessModel": "permissionless",
+    "attestationFrequency": "N/A (Perp Venue)",
+    "marginSettlementAsset": "USDT (Injective)",
+    "parentPlatform": "helix",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Maker/Taker Fees",
+      "revenueConfidence": "issuer-disclosed",
+      "feeLastVerified": "2026-05-11",
+      "revenueNotes": "Helix (powered by Injective) standard perpetual fees: -0.5 bps maker rebate / 5 bps taker. Some markets have different rates — XRP and SEI perps charge -1 bp maker / 10 bps taker. VIP discounts available based on 28-day rolling volume and staked INJ. Fee recipient always receives 40% of the trading fee regardless of maker/taker designation. Source: https://docs.helixapp.com/trading/fees-and-rebates"
+    }
+  },
+  "roles": [
+    {
+      "organization": "injective-labs-inc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://injectivelabs.org/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "N/A (Perp Venue)"
+    }
+  ]
+}

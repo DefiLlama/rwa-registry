@@ -1,0 +1,56 @@
+{
+  "identity": {
+    "slug": "binance",
+    "name": "Binance",
+    "legacyPid": 318,
+    "protocolSlug": "binance-cex"
+  },
+  "about": {
+    "description": "Binance is the world's largest cryptocurrency exchange by trading volume, founded in 2017 by Changpeng Zhao and Yi He and led since late 2023 by CEO Richard Teng. In January 2026 it became the first exchange to offer regulated TradFi perpetual contracts. These are 24/7, USDT-settled perpetual futures on gold and silver, then US, Korean and Hong Kong equities, ETFs, commodities, and pre-IPO names including OpenAI, Anthropic and SpaceX, around 152 RWA contracts in total. The products are issued through Nest Exchange Limited, Binance's Abu Dhabi venue holding ADGM's first comprehensive exchange license suite for a crypto platform, with Nest Clearing and Custody as recognized clearing house and Nest Trading as broker-dealer. Contracts fund every 4 to 8 hours depending on the underlying and are offered in eligible markets outside the US.",
+    "logo": "https://icons.llamao.fi/icons/rwa/binance.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.binance.com"
+      ],
+      "twitter": "https://x.com/binance",
+      "docs": "https://developers.binance.com",
+      "linkedin": "https://www.linkedin.com/company/binance",
+      "discord": "https://discord.gg/jE4wt8g2H2",
+      "telegram": "https://t.me/binanceexchange"
+    },
+    "foundedYear": 2017,
+    "headquarters": "No declared global HQ. UAE de facto hub (Binance FZE Dubai, ADGM Nest entities Abu Dhabi)",
+    "founders": "Changpeng Zhao (Co-founder, former CEO), Yi He (Co-founder), Richard Teng (CEO since 2023-11)",
+    "regulatoryStatus": "The TradFi perpetuals run on a fully licensed stack in Abu Dhabi Global Market: Nest Exchange Limited (Recognised Investment Exchange, Recognition Order No. 0072), Nest Clearing and Custody Limited (Recognised Clearing House), and Nest Trading Limited (broker-dealer). This was the first comprehensive ADGM license suite granted to a crypto platform. The wider group holds a full VARA VASP license in Dubai (Binance FZE) and a CBB license in Bahrain. Binance settled with the US DOJ in November 2023 (~$4.3B, AML and sanctions) and operates under a compliance monitor. It holds no MiCA CASP authorization and exited France in July 2026. TradFi products are not offered to US persons.",
+    "keyMilestones": "2017-07: Binance launches and becomes the largest crypto exchange within a year | 2023-11: US DOJ settlement (~$4.3B) over AML failures, CZ steps down and Richard Teng becomes CEO | 2024-04: full VARA VASP license in Dubai | 2025-12: ADGM grants the Nest license suite, the first comprehensive license of its kind for a crypto platform, purpose-built for regulated TradFi products | 2026-01: first regulated TradFi perpetuals go live (gold Jan 5, silver Jan 7, first stock perp TSLA Jan 28) | 2026-05: pre-IPO perpetuals launch (SpaceX May 21, OpenAI May 26, with Anthropic following on 2026-06-02)",
+    "entityStructureNotes": "Decentralized group with no single disclosed parent for the global crypto-futures venue. TradFi Perpetuals run on the ADGM Nest stack: Nest Exchange Limited (RIE), Nest Clearing and Custody Limited (RCH + custody/CSD), Nest Trading Limited (broker-dealer), all Binance group. Other key entities: Binance FZE (Dubai, VARA), Binance Bahrain BSC (CBB), Binance.US (separate US affiliate, BAM Trading Services)."
+  },
+  "platform": {
+    "category": [
+      "rwa-perps"
+    ],
+    "platformType": [
+      "perp-venue"
+    ],
+    "accessModel": "permissioned",
+    "marginSettlementAsset": "USDT",
+    "parentPlatform": "binance",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Perp Maker/Taker Fees",
+      "issuerDocsUrl": "https://www.binance.com/en/fee/futureFee",
+      "governanceWhitepaperUrl": "https://www.binance.com/en/about-legal/home",
+      "revenueConfidence": "issuer-disclosed",
+      "feeLastVerified": "2026-07-30",
+      "revenueNotes": "TradFi Perpetuals issued via the ADGM-regulated Nest entity. One SpaceX contract is margined in USD1."
+    }
+  },
+  "roles": [
+    {
+      "organization": "nest-exchange-limited-adgm-recognised-investment-exchange-recognition-order-no-0072-for-tradfi-perpetuals",
+      "kind": "issuer"
+    }
+  ]
+}

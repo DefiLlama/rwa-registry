@@ -1,0 +1,42 @@
+{
+  "identity": {
+    "slug": "re-al",
+    "name": "re.al",
+    "legacyPid": 117
+  },
+  "about": {
+    "description": "re.al is a governance and incentive token for its protocol ecosystem, enabling community decision-making and participation in protocol economics. It aligns stakeholder interests through tokenized governance.",
+    "logo": "https://icons.llamao.fi/icons/rwa/re.al.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.re.al"
+      ],
+      "twitter": "https://x.com/real_rwa",
+      "docs": "https://docs.re.al/",
+      "linkedin": "https://www.linkedin.com/company/re-al"
+    }
+  },
+  "platform": {
+    "category": [
+      "governance-tokens",
+      "other-rwas"
+    ],
+    "platformType": [
+      "governance-token"
+    ],
+    "accessModel": "permissionless",
+    "parentPlatform": "re-al",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "re-al-protocol",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.re.al"
+      ]
+    }
+  ]
+}

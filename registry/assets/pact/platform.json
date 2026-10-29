@@ -1,0 +1,46 @@
+{
+  "identity": {
+    "slug": "pact",
+    "name": "PACT",
+    "legacyPid": 224
+  },
+  "about": {
+    "description": "PACT is the stablecoin infrastructure layer for legacy finance, powering real-time payroll, scalable credit, and global settlement onchain. Built for institutional fintechs, PACT offers native onchain integrations for credit/debit cards, loans, mortgages, and receivables.",
+    "logo": "https://icons.llamao.fi/icons/rwa/pact.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://pactfoundation.com/"
+      ],
+      "twitter": "https://x.com/pactfinance",
+      "discord": "https://discord.com/invite/mWvHy4p3Sv",
+      "telegram": "https://t.me/pactofficial"
+    }
+  },
+  "platform": {
+    "category": [
+      "governance-tokens",
+      "private-credit"
+    ],
+    "platformType": [
+      "governance-token"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "aptos",
+    "chains": [
+      "aptos"
+    ],
+    "parentPlatform": "pact",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "pact-foundation-pact-labs",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://pactfoundation.com/"
+      ]
+    }
+  ]
+}

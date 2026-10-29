@@ -1,0 +1,73 @@
+{
+  "identity": {
+    "slug": "brix",
+    "name": "Brix",
+    "legacyPid": 256
+  },
+  "about": {
+    "description": "Brix Money is a tokenized emerging-market assets protocol on MegaETH (Ethereum L2 with sub-10ms blocks). Founded by Alp Ergin (CEO). Backed by $5.5M seed round (April 2026) led by Yapı Kredi's FRWRD venture arm and Iş Asset Management (Iş Bankası) — major Turkish financial institutions — alongside Circle Ventures, ConsenSys, and Borderless Capital. Selected for MegaETH's \"MegaMafia\" accelerator program (batch 2). Launched flagship product iTRY (Turkish Lira-pegged stablecoin) on April 20, 2026 alongside wiTRY (yield-bearing wrapper). Brix's structural innovation is partnering with local financial institutions to originate and manage underlying assets, while Brix handles distribution and on-chain composability. Future roadmap targets UAE, Egypt, Mexico, Brazil, South Korea. The Turkish Lira yield product brings ~40% annualized central-bank policy rates onchain via a BVI-regulated money market fund + RedStone 24/7 FX oracle.",
+    "logo": "https://icons.llamao.fi/icons/rwa/brix.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://brix.money/"
+      ],
+      "twitter": "https://x.com/brix_money",
+      "docs": "https://docs.brix.money/",
+      "linkedin": "https://www.linkedin.com/company/brix-capital/",
+      "telegram": "https://t.me/BrixDotMoney",
+      "github": "https://github.com/InverterNetwork"
+    },
+    "registryInfo": "Brix is a tokenized emerging-markets assets protocol building on MegaETH (Ethereum L2). Co-founder & CEO: Alp Ergin. Closed $5.5M seed round in April 2026; investors include Yapı Kredi (FRWRD venture arm), Iş Asset Management (Iş Bankası), Circle Ventures, ConsenSys, and Borderless Capital. Selected for MegaMafia accelerator (2nd batch). Underlying iTRY backing is held in a BVI-regulated fund investing in Turkish money market instruments; oracle is RedStone (24/7 FX-adjusted feed solving the Turkish Lira off-hours dilemma). Future products target the UAE, Egypt, Mexico, Brazil, and South Korea emerging-market currencies."
+  },
+  "platform": {
+    "category": [
+      "fiat-stablecoins"
+    ],
+    "platformType": [
+      "tokenization-platform"
+    ],
+    "accessModel": "permissioned",
+    "primaryChain": "megaeth",
+    "chains": [
+      "ethereum",
+      "megaeth"
+    ],
+    "attestationFrequency": "Continuous",
+    "parentPlatform": "brix",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Yield Spread",
+      "issuerDocsUrl": "https://brix.money/itry",
+      "revenueConfidence": "no-public-data",
+      "feeLastVerified": "2026-05-13",
+      "revenueNotes": "Brix retains a portion of the underlying Turkish money market fund yield as the spread between iTRY rebase rate and wiTRY accrual. Specific bps not publicly disclosed. ~40% annualized Turkish central bank policy rate is the source. Source: https://brix.money/itry"
+    }
+  },
+  "roles": [
+    {
+      "organization": "brix",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://brix.money/"
+      ]
+    },
+    {
+      "organization": "redstone",
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://blog.redstone.finance/2026/03/17/how-redstone-solved-the-fx-time-dilemma-to-bring-24-7-turkish-lira-yield-onchain-with-brix/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://accountable.brix.money/"
+      ],
+      "note": "Continuous (on-chain PoR)"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "identity": {
+    "slug": "hastra",
+    "name": "Hastra",
+    "legacyPid": 202,
+    "protocolSlug": "hastra"
+  },
+  "about": {
+    "description": "Hastra provides tokenized access to private credit and structured finance products, connecting institutional lenders with decentralized liquidity. It enables securitization of off-chain credit through on-chain smart contracts.",
+    "logo": "https://icons.llamao.fi/icons/rwa/hastra.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://hastra.io/prime"
+      ],
+      "twitter": "https://x.com/HastraFi",
+      "docs": "https://hastra.io/"
+    },
+    "foundedYear": 2025,
+    "regulatoryStatus": "Hastra is operated by Signum Ltd., a British Virgin Islands company wholly owned by Provenance Cayman Foundation, and holds no disclosed registration with any financial regulator. Its own site states wYLDS is not registered with the SEC or any securities regulator. The underlying YLDS reserve asset is an SEC registered security issued by Figure Certificate Company, which is independent of Hastra.",
+    "keyMilestones": "2026-03: auto loans added to Democratized Prime via Agora Data with Ethereum expansion | 2025-12: Figure led RWA Consortium launched supporting PRIME on Solana | 2025-11: Chainlink named official oracle and CCIP bridge for wYLDS and PRIME | 2025-03: hastra.io first live | 2025-02: underlying YLDS launched by Figure Certificate Company",
+    "entityStructureNotes": "Signum Ltd., a BVI company doing business as Hastra and wholly owned by Provenance Cayman Foundation, mints wYLDS on Solana against a reserve of YLDS purchased with user USDC. YLDS is issued by Figure Certificate Company, an SEC registered face amount certificate company independent of Hastra. PRIME is minted when users stake wYLDS with yield from Democratized Prime HELOC pools."
+  },
+  "platform": {
+    "category": [
+      "rwa-wrappers",
+      "private-credit"
+    ],
+    "platformType": [
+      "yield-pool"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "solana",
+    "chains": [
+      "solana"
+    ],
+    "parentPlatform": "hastra",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueConfidence": "no-public-data",
+      "feeLastVerified": "2026-07-09",
+      "revenueNotes": "No fee schedule exists. USDC converts to wYLDS 1 to 1 with monthly yield in wYLDS. Who keeps the YLDS to wYLDS spread is not stated. Figure Technology Solutions explicitly disclaims issuing or sponsoring wYLDS and PRIME."
+    }
+  },
+  "roles": [
+    {
+      "organization": "hastra",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://hastra.io/prime"
+      ]
+    }
+  ]
+}

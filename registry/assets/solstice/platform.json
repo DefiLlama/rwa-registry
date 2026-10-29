@@ -1,0 +1,54 @@
+{
+  "identity": {
+    "slug": "solstice",
+    "name": "Solstice",
+    "legacyPid": 158
+  },
+  "about": {
+    "description": "Solstice offers a stablecoin backed by real-world assets and Treasury securities, combining yield generation with price stability. It enables institutional-grade stable settlement with underlying RWA collateral.",
+    "logo": "https://icons.llamao.fi/icons/rwa/solstice.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://solstice.finance/"
+      ],
+      "twitter": "https://x.com/solsticefi"
+    },
+    "foundedYear": 2023,
+    "headquarters": "Lisbon, Portugal",
+    "founders": "Ben Nadareski (Founder, CEO), Tim Grant (Co-Founder, Chairman), David Plisek (COO)",
+    "regulatoryStatus": "Solstice holds no disclosed financial services license and user Terms are with Solstice Foundation under BVI law. A MiCA Article 6 white paper for the SLX token was notified by SLX Ltd in April 2026 but is a notification rather than an approval and covers SLX, not USX. Hong Kong and Singapore disclosures state no SFC or MAS licenses with products restricted to professional and accredited investors.",
+    "keyMilestones": "2026-05: SLX token generation event with major exchange listings, followed by a Foundation statement denying insider selling | 2026-04: MiCA Article 6 white paper for SLX notified | 2025-09: public launch of USX and YieldVault on Solana with over 160 million deposited and first monthly proof of solvency cycle | 2024-09: Deus X Capital announced Solstice Labs at Solana Breakpoint",
+    "entityStructureNotes": "User Terms are with Solstice Foundation under BVI law with a Cayman registered seat per the MiCA filing. SLX Ltd, a BVI subsidiary, issues the SLX token. The operating business Solstice Labs launched as a Lisbon based company funded by Deus X Capital with a separate staking arm, Solstice Staking AG."
+  },
+  "platform": {
+    "category": [
+      "non-rwa-stablecoins"
+    ],
+    "platformType": [
+      "synthetic-stable"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "solana",
+    "chains": [
+      "solana"
+    ],
+    "parentPlatform": "solstice",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueConfidence": "no-public-data",
+      "feeLastVerified": "2026-07-09",
+      "revenueNotes": "Docs state minting and redemption involve no spread and Solstice does not profit from issuance or redemption. Fees on eUSX and YieldVault and any reserve income retention are not disclosed. Unlock fees exist with stSLX holders exempted but amounts are not published."
+    }
+  },
+  "roles": [
+    {
+      "organization": "solstice",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://solstice.finance/"
+      ]
+    }
+  ]
+}

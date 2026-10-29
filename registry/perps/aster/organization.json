@@ -1,0 +1,70 @@
+{
+  "identity": {
+    "slug": "aster",
+    "name": "Aster",
+    "legacyPid": 233,
+    "protocolSlug": "aster"
+  },
+  "about": {
+    "description": "Aster is a next-generation decentralized perpetual and spot exchange formed from the 2025 merger of Astherus (multi-asset liquidity) and APX Finance (perpetual DEX), and powered by Aster Chain — a high-performance privacy-focused L1. Backed by YZi Labs (formerly Binance Labs, CZ-affiliated), PancakeSwap, and additional ecosystem partners, Aster offers perpetual futures with up to 1001× leverage across BNB Chain, Ethereum, Solana, and Arbitrum. Markets are margined in USD1 (the World Liberty Financial stablecoin) and feature a \"Trade & Earn\" model that lets users post yield-bearing assets as margin.",
+    "logo": "https://icons.llamao.fi/icons/rwa/aster.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://asterdex.com/"
+      ],
+      "twitter": "https://x.com/Aster_DEX",
+      "docs": "https://docs.asterdex.com/",
+      "linkedin": "https://www.linkedin.com/company/asterdex",
+      "discord": "https://discord.gg/asterdex",
+      "telegram": "https://t.me/asterdex",
+      "github": "https://github.com/asterdex",
+      "refLinks": [
+        "https://www.asterdex.com/en/referral/c6eF10"
+      ]
+    },
+    "registryInfo": "Aster was formed in 2025 from the merger of Astherus (a multi-asset liquidity protocol) and APX Finance (a decentralized perpetuals platform). The project is backed by YZi Labs (formerly Binance Labs, the venture fund associated with Binance co-founders Changpeng Zhao \"CZ\" and Yi He, managing $10B+ for early Binance executives), with PancakeSwap (BNB Chain's leading DEX) and other ecosystem partners. Aster Chain — a high-performance privacy-focused L1 — launched as the venue's native settlement layer in 2025."
+  },
+  "platform": {
+    "category": [
+      "rwa-perps"
+    ],
+    "platformType": [
+      "perp-venue"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "bsc",
+    "chains": [
+      "bsc",
+      "ethereum",
+      "solana",
+      "arbitrum"
+    ],
+    "marginSettlementAsset": "USD1 (Aster Chain / multi-chain)",
+    "parentPlatform": "aster",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Maker/Taker Fees + Funding Skim",
+      "revenueConfidence": "issuer-disclosed",
+      "feeLastVerified": "2026-05-11",
+      "feeWaiverEndDate": "2026-06-07",
+      "revenueNotes": "Aster RWA fee schedule during RWA Sprint Season 1 (May 7 - June 7, 2026): 0 bps maker (waived) / 0.9 bps taker on stock, ETF, and commodity perpetual pairs. Standard schedule (post-Sprint): 1 bp maker / 3.5 bps taker. USD1-settled commodity perps charge 1 bp taker with a 0.5 bp maker rebate. Crypto markets (not on this RWA page) charge 1 bp maker / 3.5 bps taker. Source: https://docs.asterdex.com/product/aster-perpetuals/fees-and-specs/perpetual-fees"
+    }
+  },
+  "roles": [
+    {
+      "organization": "aster",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.asterdex.com/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "N/A (perp venue, not asset issuer)"
+    }
+  ]
+}

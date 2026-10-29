@@ -1,0 +1,22 @@
+{
+  "identity": {
+    "slug": "zeconomy",
+    "name": "Zeconomy",
+    "legacyPid": 293
+  },
+  "about": {
+    "logo": "https://icons.llamao.fi/icons/rwa/zeconomy.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.zeconomy.com"
+      ]
+    }
+  },
+  "platform": {
+    "category": [
+      "bond-mmf-funds"
+    ],
+    "primaryChain": "ethereum",
+    "delisted": false
+  }
+}

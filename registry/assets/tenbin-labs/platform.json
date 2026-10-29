@@ -1,0 +1,53 @@
+{
+  "identity": {
+    "slug": "tenbin-labs",
+    "name": "Tenbin Labs",
+    "legacyPid": 269,
+    "protocolSlug": "tenbin-labs"
+  },
+  "about": {
+    "description": "Tenbin Labs is a tokenization platform connecting on-chain assets directly to CME futures markets (rather than traditional custodial wrapping). First product is Tenbin Gold (tGLD) launched on Ethereum. Roadmap includes FX (Brazilian real, Mexican peso) and other commodities. Combines on-chain settlement with off-chain hedging, pricing, and yield-generation infrastructure.",
+    "logo": "https://icons.llamao.fi/icons/rwa/tenbin-labs.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://tenbinlabs.xyz/"
+      ],
+      "twitter": "https://x.com/tenbinlabs",
+      "telegram": "https://t.me/liquid_and_yield_bearing",
+      "github": "https://github.com/tenbinlabs/tenbin-contracts"
+    },
+    "registryInfo": "Tenbin Labs is a tokenization protocol for liquid real-world assets on-chain for DeFi use, focused on precious metals, yield-bearing currency, and other commodities. Raised $7M seed funding led by Galaxy Ventures in January 2026, with backing from Wintermute Ventures, GSR, Variant, Archetype, and FalconX. Uses CME futures contracts to anchor pricing and manage exposure (capturing yield from futures basis) rather than physical reserves. Prime broker support from Hidden Road and StoneX."
+  },
+  "platform": {
+    "category": [
+      "gold-commodities",
+      "fx"
+    ],
+    "platformType": [
+      "gold"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "parentPlatform": "tenbin-labs",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Yield Spread (futures basis)",
+      "revenueConfidence": "no-public-data",
+      "revenueNotes": "Tenbin captures yield from futures basis (price difference between CME futures and spot). Specific bps not publicly disclosed. Source: https://tenbinlabs.xyz/"
+    }
+  },
+  "roles": [
+    {
+      "organization": "tenbin-labs",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://tenbinlabs.xyz/"
+      ]
+    }
+  ]
+}

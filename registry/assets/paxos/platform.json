@@ -1,0 +1,66 @@
+{
+  "identity": {
+    "slug": "paxos",
+    "name": "Paxos",
+    "legacyPid": 14,
+    "protocolSlug": "paxos"
+  },
+  "about": {
+    "description": "Paxos is a blockchain infrastructure company providing settlement and custody services, including the PAX stablecoin and RWA tokenization technology. It operates under NY charter as a trust company and specializes in regulated digital asset services.",
+    "logo": "https://icons.llamao.fi/icons/rwa/paxos.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.paxos.com/usdp"
+      ],
+      "twitter": "https://x.com/PaxosGlobal",
+      "docs": "https://docs.paxos.com/",
+      "linkedin": "https://www.linkedin.com/company/paxos",
+      "github": "https://github.com/paxosglobal"
+    },
+    "registryInfo": "Paxos Trust Company, LLC (New York; NYDFS-chartered trust). Founded 2012 by Charles Cascarilla and Rich Teo. Issuer of PAXG (gold-backed), USDP (Paxos Standard), and historically BUSD (Binance USD, discontinued Feb-2024 by NYDFS order). PayPal's USDC custody partner. Backed by Oak Hill Capital, Founders Fund, Mithril.",
+    "foundedYear": 2012,
+    "headquarters": "New York, USA",
+    "founders": "Charles Cascarilla (Co-Founder, CEO)",
+    "regulatoryStatus": "Received the first NYDFS limited purpose trust charter for digital assets in 2015 and completed conversion to Paxos Trust Company N.A. under OCC supervision in December 2025. Paxos Digital Singapore Pte. Ltd. holds full MAS approval as a major payments institution (July 2024) and issues USDG from Singapore, with an EU entity issuing USDG under MiCA and a UAE authorization as its third issuance market.",
+    "keyMilestones": "2025-12: conversion to OCC national trust charter completed | 2024-11: Global Dollar USDG launches from Singapore with the Global Dollar Network | 2024-07: full MAS approval for Paxos Digital Singapore | 2023-08: PayPal USD launches, issued by Paxos | 2023-02: Paxos halts BUSD minting as directed by NYDFS",
+    "entityStructureNotes": "Paxos Trust Company N.A. is the US regulated entity issuing PYUSD, USDP and PAXG and managing legacy BUSD reserves. Paxos Digital Singapore issues USDG under MAS oversight and a European entity issues USDG under MiCA. Paxos also operates Paxos Labs and the acquired Fordefi custody business."
+  },
+  "platform": {
+    "category": [
+      "fiat-stablecoins"
+    ],
+    "platformType": [
+      "usd-stable"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "attestationFrequency": "Monthly",
+    "parentPlatform": "paxos",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Float Income + Custody Fees",
+      "revenueConfidence": "issuer-disclosed",
+      "revenueNotes": "Paxos earns float income on stablecoin reserves (invested in short-duration treasuries and bank deposits), plus institutional custody / brokerage fees. PAXG carries a small annual storage fee (~0.02% built into the spread). White-label stablecoin issuance is a significant revenue line (PayPal USD, Mastercard partnerships)."
+    }
+  },
+  "roles": [
+    {
+      "organization": "paxos-trust-company-llc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.paxos.com/usdp"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "Monthly (Withum)"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "identity": {
+    "slug": "deribit",
+    "name": "Deribit",
+    "legacyPid": 327,
+    "protocolSlug": "deribit"
+  },
+  "about": {
+    "description": "Deribit is a crypto options and futures exchange founded in 2016 in the Netherlands by John Jansen, who built it with co-founders Marius Jansen and Sebastian Smyczynski, and it facilitates the majority of global crypto options volume. Luuk Strijers, CCO since 2019, became CEO in 2024, and Coinbase completed its acquisition of Deribit for about $2.9 billion on 2025-08-14. The venue lists exactly one RWA perpetual as of August 2026, the PAXG_USDC-PERPETUAL on Pax Gold, launched in December 2024 alongside PAXG spot, dated futures, and options through a partnership with Paxos. The contract is a USDC-margined and USDC-settled linear perpetual with up to 50x leverage, and funding accrues continuously in real time against an 8-hour rate with daily settlement at 08:00 UTC. Under the fee schedule effective August 2026, standard perpetual fees are 1.5 bps maker and 3.5 bps taker, with rebates at higher VIP tiers. Trading runs on Deribit FZE, the Dubai entity licensed by VARA, and the platform serves institutional and retail traders outside the United States and other restricted countries, with Coinbase consolidating INTX perps, including stock and commodity RWA markets, into Deribit in September 2026.",
+    "logo": "https://icons.llamao.fi/icons/rwa/deribit.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.deribit.com"
+      ],
+      "twitter": "https://x.com/DeribitOfficial",
+      "docs": "https://docs.deribit.com/",
+      "linkedin": "https://www.linkedin.com/company/deribit/",
+      "telegram": "https://t.me/deribit"
+    },
+    "foundedYear": 2016,
+    "headquarters": "Dubai, United Arab Emirates",
+    "founders": "John Jansen (Co-founder, former CEO), Marius Jansen (Co-founder), Sebastian Smyczynski (Co-founder), Luuk Strijers (CEO)",
+    "regulatoryStatus": "Deribit FZE, the group's Dubai entity, received a conditional VASP license for VA Exchange Services covering spot and derivatives from Dubai's Virtual Asset Regulatory Authority in April 2024, the first crypto derivatives exchange to do so. Global activities migrated to Deribit FZE with effect from January 1, 2025, when the exchange began operating as a fully licensed spot and derivatives exchange in Dubai. The exchange started in the Netherlands and moved operations to Panama in 2020 before relocating to Dubai. Since August 2025 Deribit has been part of Coinbase Global following the completed $2.9 billion acquisition, and the platform is not available in the United States or other restricted countries.",
+    "keyMilestones": "2016: Deribit launches as a bitcoin options and futures exchange built by John Jansen and co-founders in the Netherlands | 2020: Operations move to Panama | 2024-04: Deribit FZE receives conditional VARA VASP license in Dubai and Luuk Strijers is named CEO | 2024-12: Pax Gold listing goes live with PAXG spot, USDC-margined perpetual, dated futures, and options, over $250m notional traded in the first week | 2025-01: Deribit begins operating as a fully licensed spot and derivatives exchange in Dubai on Deribit FZE | 2025-08: Coinbase completes its roughly $2.9b acquisition of Deribit | 2026-06: Deribit announces consolidation of Coinbase INTX perps, including stock and commodity RWA markets, scheduled for September 2026, plus a new fee schedule effective 2026-08",
+    "entityStructureNotes": "Operating entity is Deribit FZE in Dubai, UAE, licensed by VARA, which took over all exchange activities from January 2025. Earlier operating bases were the Netherlands (from founding) and Panama (from 2020). Deribit FZE is now part of the Coinbase Global group following the acquisition completed in August 2025."
+  },
+  "platform": {
+    "category": [
+      "rwa-perps"
+    ],
+    "platformType": [
+      "perp-venue"
+    ],
+    "accessModel": "permissioned",
+    "marginSettlementAsset": "USDC",
+    "parentPlatform": "deribit",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Perp Maker/Taker Fees",
+      "issuerDocsUrl": "https://www.deribit.com/kb/fees",
+      "governanceWhitepaperUrl": "https://www.deribit.com/kb/tos",
+      "revenueConfidence": "issuer-disclosed",
+      "feeLastVerified": "2026-08-06",
+      "revenueNotes": "Single RWA perp (PAXG_USDC-PERPETUAL) from the 2024 Paxos partnership. Coinbase-owned."
+    }
+  },
+  "roles": [
+    {
+      "organization": "deribit-fze-dubai-vara-licensed-part-of-coinbase-global-since-august-2025",
+      "kind": "issuer"
+    }
+  ]
+}

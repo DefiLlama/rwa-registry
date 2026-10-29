@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "slug": "agridex",
+    "name": "AgriDex",
+    "legacyPid": 278
+  },
+  "about": {
+    "logo": "https://icons.llamao.fi/icons/rwa/agridex.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://agridex.com"
+      ],
+      "twitter": "https://x.com/agridexplatform"
+    }
+  },
+  "platform": {
+    "category": [
+      "private-credit"
+    ],
+    "primaryChain": "solana",
+    "llamaGradeAttestation": false
+  }
+}

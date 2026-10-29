@@ -1,0 +1,57 @@
+{
+  "identity": {
+    "slug": "usd-ai",
+    "name": "USD.ai",
+    "legacyPid": 128
+  },
+  "about": {
+    "description": "USD.ai offers a stablecoin backed by real-world assets and Treasury securities, combining yield generation with price stability. It enables institutional-grade stable settlement with underlying RWA collateral.",
+    "logo": "https://icons.llamao.fi/icons/rwa/usd.ai.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://usd.ai/"
+      ],
+      "twitter": "https://x.com/USDai_Official",
+      "docs": "https://docs.usd.ai/",
+      "linkedin": "https://www.linkedin.com/company/usd-ai"
+    },
+    "foundedYear": 2021,
+    "headquarters": "New York, USA",
+    "founders": "David Choi (Co-Founder, CEO, Permian Labs)",
+    "regulatoryStatus": "USD.ai discloses no operating license in any jurisdiction. The protocol is operated by USD.AI Foundation, a Cayman Islands foundation company, and Terms state the tokens are not insured by any agency. Minting and redemption against PYUSD is limited to KYC verified institutions and the 2026 CHIP token sale used US private placement style restrictions.",
+    "keyMilestones": "2026-04: CHIP governance token TGE with Binance HODLer airdrop | 2026-02: CHIP sale on CoinList | 2026-01: Sharon AI secured a 500 million dollar non recourse facility | 2025-10: QumulusAI secured a 500 million dollar facility | 2025-09: Bullish made a 4 million dollar investment at 250 million private beta deposits | 2025-08: 13.4 million Series A led by Framework Ventures",
+    "entityStructureNotes": "Built by Permian Labs Inc., a Delaware corporation from the MetaStreet team, with governance by the Cayman USD.AI Foundation whose subsidiary GPU Finance Ltd. acts as administrative agent on loans. Each borrower holds GPU collateral in a bankruptcy remote Delaware SPV under the CALIBER framework with escrow at a qualified trust company."
+  },
+  "platform": {
+    "category": [
+      "rwa-stablecoins",
+      "other-rwas"
+    ],
+    "platformType": [
+      "rwa-fiat-stable"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "arbitrum",
+    "chains": [
+      "arbitrum"
+    ],
+    "parentPlatform": "usd-ai",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueConfidence": "no-public-data",
+      "feeLastVerified": "2026-07-09",
+      "revenueNotes": "USDai mints and redeems 1 to 1 against PYUSD with no published fee. Economics are a net interest margin between 7 to 15 percent borrower APR and depositor yield plus origination fees, with exact rates not disclosed. sUSDai unstaking runs a 30 day FIFO epoch."
+    }
+  },
+  "roles": [
+    {
+      "organization": "permian-labs-usd-ai",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://usd.ai/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "identity": {
+    "slug": "stablestock",
+    "name": "StableStock",
+    "legacyPid": 245,
+    "protocolSlug": "stablestock"
+  },
+  "about": {
+    "description": "StableStock is a Hong Kong-headquartered TraDeFi platform founded in 2025 by CEO Zixi (ex-Matrix Partners China crypto-investment lead), COO Zac, and CMO Evie. The platform issues 1:1 tokenized US equities (sStocks) on BNB Chain alongside yield-bearing vault strategies, enabling 24/7 market access, mint/redeem arbitrage, and on-chain liquidity for non-US users. StableStock raised a seed round from YZi Labs (formerly Binance Labs), MPCi, and Vertex Ventures, and partners with Safeheron for institutional-grade custody and transaction security. Block Street is the primary DeFi integration partner for sStocks distribution.",
+    "logo": "https://icons.llamao.fi/icons/rwa/stablestock.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.stablestock.finance/"
+      ],
+      "twitter": "https://x.com/StableStockHQ",
+      "docs": "https://docs.stablestock.finance/",
+      "linkedin": "https://www.linkedin.com/company/stablestock",
+      "discord": "https://discord.gg/stablestock",
+      "telegram": "https://t.me/stablestock"
+    },
+    "registryInfo": "StableStock is a TraDeFi platform building 1:1 tokenized securities (sStocks) and yield-bearing vault strategies. Headquartered in Hong Kong. Founded 2025. Co-founded by CEO Zixi (former Head of Crypto Investment at Matrix Partners China; Nanyang Technological University), COO Zac (ex-Baidu and Head of Overseas at Rong360), and CMO Evie (Web3 marketing agency founder; National University of Singapore). Seed round completed with participation from YZi Labs (formerly Binance Labs), MPCi, and Vertex Ventures. Custody and transaction security partnership with Safeheron."
+  },
+  "platform": {
+    "category": [
+      "stocks-equities"
+    ],
+    "platformType": [
+      "tokenized-stocks"
+    ],
+    "accessModel": "permissioned",
+    "primaryChain": "bsc",
+    "chains": [
+      "bsc"
+    ],
+    "parentPlatform": "stablestock",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Mint/Redeem Spread",
+      "revenueConfidence": "no-public-data",
+      "feeLastVerified": "2026-05-11",
+      "revenueNotes": "StableStock is a tokenization platform that issues sXXXx tokens 1:1 against US equities. Revenue from per-transaction mint/redeem fees and float on cash held in segregated custody at the issuer level. Permissionless transfer model with KYC required for mint/redeem."
+    }
+  },
+  "roles": [
+    {
+      "organization": "stablestock",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.stablestock.finance/"
+      ]
+    }
+  ]
+}

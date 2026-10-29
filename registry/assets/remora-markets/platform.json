@@ -1,0 +1,53 @@
+{
+  "identity": {
+    "slug": "remora-markets",
+    "name": "Remora Markets",
+    "legacyPid": 55
+  },
+  "about": {
+    "description": "Remora Markets is a blockchain-based platform providing infrastructure for tokenization and on-chain financial services. It enables users to access and trade diverse digital assets through decentralized protocols.",
+    "logo": "https://icons.llamao.fi/icons/rwa/remora-markets.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://remora.markets"
+      ],
+      "twitter": "https://x.com/RemoraMarkets",
+      "docs": "https://docs.remora.markets/",
+      "linkedin": "https://www.linkedin.com/company/remoramarkets",
+      "discord": "N/A (institutional)"
+    },
+    "registryInfo": "Remora Markets is a tokenized real-estate platform — issues tokens representing fractional ownership of single-property real-estate assets. US-based, focused on residential single-family-rental investments."
+  },
+  "platform": {
+    "category": [
+      "stocks-equities"
+    ],
+    "platformType": [
+      "equity-basket"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "solana",
+    "chains": [
+      "solana"
+    ],
+    "parentPlatform": "remora-markets",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Performance Fee + Property Management",
+      "revenueConfidence": "no-public-data",
+      "feeLastVerified": "2026-05-11",
+      "revenueNotes": "Remora earns property-management fees (typically 8-10% of rental income), acquisition fees on new properties, and asset-management fees. Revenue does not accrue to a protocol token (Remora is a Reg-D / Reg-A issuer rather than a token economy)."
+    }
+  },
+  "roles": [
+    {
+      "organization": "remora-inc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://remora.markets"
+      ]
+    }
+  ]
+}

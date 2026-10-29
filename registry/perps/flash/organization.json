@@ -1,0 +1,67 @@
+{
+  "identity": {
+    "slug": "flash-trade",
+    "name": "Flash Trade",
+    "legacyPid": 236,
+    "protocolSlug": "flash-trade"
+  },
+  "about": {
+    "description": "Flash Trade is a perpetual platform on Solana led by Co-Founder & CEO Anas Khader, backed by Solana Ventures, Jump Capital, and ROK Capital. The platform offers stock, commodity, and equity-index perpetuals alongside crypto with up to 500× leverage and a distinctive pool-to-peer liquidity model, with all positions margined and cash-settled in USDC. Pricing is sourced from Pyth Network. Flash Trade unveiled at Breakpoint 2025 a roadmap toward near-zero-latency infrastructure, fully permissionless order books, and broader RWA market expansion.",
+    "logo": "https://icons.llamao.fi/icons/rwa/flash-trade.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://flash.trade/"
+      ],
+      "twitter": "https://x.com/flashtrade_",
+      "docs": "https://docs.flash.trade/",
+      "linkedin": "https://www.linkedin.com/company/flashtrade",
+      "discord": "https://discord.gg/flashtrade",
+      "telegram": "https://t.me/flashtraders",
+      "github": "https://github.com/Flash-Trade",
+      "refLinks": [
+        "https://www.flash.trade/?referral=defillama"
+      ]
+    },
+    "registryInfo": "Flash Trade is led by Co-Founder & CEO Anas Khader. The platform is built on Solana and backed by Alameda Research, Solana Ventures, Jump Capital, and ROK Capital. Pricing comes from Pyth Network. Native token: FAF."
+  },
+  "platform": {
+    "category": [
+      "rwa-perps"
+    ],
+    "platformType": [
+      "perp-venue"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "solana",
+    "chains": [
+      "solana"
+    ],
+    "attestationFrequency": "N/A (Perp Venue)",
+    "marginSettlementAsset": "USDC (Solana)",
+    "parentPlatform": "flash-trade",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Maker/Taker Fees + LP Profit",
+      "revenueConfidence": "no-public-data",
+      "feeLastVerified": "2026-05-11",
+      "revenueNotes": "Flash Trade captures open/close fees (~6-8 bps) plus borrow fees from leveraged positions, and counter-party PnL via the FLP liquidity pool (similar to Jupiter Perpetuals/GMX model). Fees distributed to FLP token-holders and stakers."
+    }
+  },
+  "roles": [
+    {
+      "organization": "flash-trade",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://flash.trade/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "N/A (Perp Venue)"
+    }
+  ]
+}

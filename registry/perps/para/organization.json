@@ -1,0 +1,64 @@
+{
+  "identity": {
+    "slug": "paragon",
+    "name": "Paragon",
+    "legacyPid": 242,
+    "protocolSlug": "paragon"
+  },
+  "about": {
+    "description": "Paragon is a HIP-3 builder-deployed perpetual venue on Hyperliquid built by N8V Labs and founded by Taha El-Magbri, focused on crypto-native market-index perpetuals. Launched April 2, 2026, it became the first venue to list cash-settled perpetual contracts on widely tracked analytical benchmarks — BTC.D (Bitcoin's share of total crypto market cap), TOTAL2 (total crypto market cap excluding Bitcoin), and OTHERS (altcoin market cap excluding the top 10) — with up to 50× leverage. Markets appear under the para namespace on Hyperliquid and are margined and cash-settled in USDC.",
+    "logo": "https://icons.llamao.fi/icons/rwa/paragon.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://paragon.trade/"
+      ],
+      "twitter": "https://x.com/ParagonTrade",
+      "docs": "https://docs.paragon.trade/",
+      "linkedin": "https://www.linkedin.com/company/paragontrade",
+      "discord": "https://discord.gg/paragontrade",
+      "telegram": "https://t.me/paragontrade",
+      "github": "N/A (closed source)"
+    },
+    "registryInfo": "Paragon is built by N8V Labs and led by Founder Taha El-Magbri. Markets are deployed under the para namespace on Hyperliquid via HIP-3 builder-deployed perpetuals. Paragon launched the first crypto-native perpetual index markets (BTC.D, TOTAL2, OTHERS) on April 2, 2026."
+  },
+  "platform": {
+    "category": [
+      "rwa-perps"
+    ],
+    "platformType": [
+      "perp-venue"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "hyperliquid",
+    "chains": [
+      "hyperliquid"
+    ],
+    "attestationFrequency": "N/A (Perp Venue)",
+    "marginSettlementAsset": "USDC (Hyperliquid)",
+    "parentPlatform": "paragon",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Maker/Taker Fees + Funding Skim",
+      "revenueConfidence": "issuer-disclosed",
+      "feeLastVerified": "2026-05-11",
+      "revenueNotes": "Paragon is a HIP-3 builder-deployer on Hyperliquid. Fees follow HIP-3 framework: standard taker ~7-9 bps, Growth Mode taker ~0.45-0.9 bps. 50% of fees go to Paragon deployer, 50% to Hyperliquid protocol. Source: https://hyperliquid.gitbook.io/hyperliquid-docs/hyperliquid-improvement-proposals-hips/hip-3-builder-deployed-perpetuals"
+    }
+  },
+  "roles": [
+    {
+      "organization": "n8v-labs-paragon",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.paragon.trade/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "N/A (Perp Venue)"
+    }
+  ]
+}

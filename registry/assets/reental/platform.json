@@ -1,0 +1,53 @@
+{
+  "identity": {
+    "slug": "reental",
+    "name": "Reental",
+    "legacyPid": 112,
+    "protocolSlug": "reental-rwa"
+  },
+  "about": {
+    "description": "Reental enables fractional ownership and trading of real estate assets through tokenization. It provides institutional-grade real estate exposure via blockchain infrastructure.",
+    "logo": "https://icons.llamao.fi/icons/rwa/reental.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://reental.co"
+      ],
+      "twitter": "https://x.com/reental_co",
+      "docs": "https://docs.reental.co/",
+      "linkedin": "https://www.linkedin.com/company/reental"
+    }
+  },
+  "platform": {
+    "category": [
+      "real-estate"
+    ],
+    "platformType": [
+      "lending-venue"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "attestationFrequency": "N/A (Lending Venue)",
+    "parentPlatform": "reental",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "reental",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://reental.co"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "N/A (Lending Venue)"
+    }
+  ]
+}

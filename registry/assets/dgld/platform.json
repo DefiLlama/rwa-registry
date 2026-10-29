@@ -1,0 +1,22 @@
+{
+  "identity": {
+    "slug": "dgld",
+    "name": "DGLD",
+    "protocolSlug": null
+  },
+  "about": {
+    "links": {
+      "website": [
+        "https://dgld.ch/"
+      ]
+    }
+  },
+  "platform": {
+    "primaryChain": null,
+    "chains": [
+      "ethereum",
+      "base",
+      "solana"
+    ]
+  }
+}

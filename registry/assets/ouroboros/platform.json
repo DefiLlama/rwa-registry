@@ -1,0 +1,51 @@
+{
+  "identity": {
+    "slug": "ouroboros",
+    "name": "Ouroboros",
+    "legacyPid": 303
+  },
+  "about": {
+    "description": "Ouroboros Capital is a multi strategy crypto investment firm active in yield strategies, venture capital, liquid directional trading, and research. Its yield arm offers absolute return strategies spanning DeFi, delta neutral arbitrage, and basis trading, accessible through BVI funds or separately managed accounts. Public information about its legal entity, team, and regulatory status is limited.",
+    "links": {
+      "website": [
+        "https://ourocap.io/"
+      ],
+      "twitter": "https://x.com/OuroborosCap8"
+    },
+    "regulatoryStatus": "Uses BVI fund structures per its site. No regulatory registrations disclosed. The legal entity and team are not publicly identified."
+  },
+  "platform": {
+    "category": [
+      "crypto-funds"
+    ],
+    "platformType": [
+      "crypto-hedge-fund"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "monad",
+    "chains": [
+      "monad"
+    ],
+    "parentPlatform": "ouroboros",
+    "suspicious": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueConfidence": "no-public-data",
+      "feeLastVerified": "2026-07-09",
+      "revenueNotes": "No fee schedule disclosed. Site was unreachable at verification time and details were drawn from an archived snapshot."
+    }
+  },
+  "roles": [
+    {
+      "organization": "ouroboros-capital",
+      "kind": "issuer"
+    }
+  ],
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

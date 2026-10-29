@@ -1,0 +1,23 @@
+{
+  "slug": "coinex",
+  "organization": "coinex",
+  "venueType": "cex",
+  "adapter": "coinex",
+  "published": true,
+  "makerFeeBps": 3,
+  "takerFeeBps": 5,
+  "oracleProvider": "CoinEx weighted index of tokenized-equity spot order books",
+  "accessModel": "permissioned",
+  "rwaClassification": "programmable-finance",
+  "conventionNote": "Funding settles every 8 hours, and fees are 3 bps maker and 5 bps taker at VIP 0.",
+  "website": "https://www.coinex.com",
+  "issuer": "CoinEx",
+  "marginAsset": "USDT",
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

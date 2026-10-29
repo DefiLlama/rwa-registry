@@ -1,0 +1,74 @@
+{
+  "identity": {
+    "slug": "spiko",
+    "name": "Spiko",
+    "legacyPid": 59,
+    "protocolSlug": "spiko"
+  },
+  "about": {
+    "description": "Spiko is a blockchain-based platform providing infrastructure for tokenization and on-chain financial services. It enables users to access and trade diverse digital assets through decentralized protocols.",
+    "logo": "https://icons.llamao.fi/icons/rwa/spiko.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://spiko.io"
+      ],
+      "twitter": "https://x.com/Spiko_finance",
+      "docs": "https://docs.spiko.io/",
+      "linkedin": "https://www.linkedin.com/company/spiko-finance"
+    },
+    "registryInfo": "Spiko SAS (France, AMF-licensed under MiCA & SFDR). European tokenized money-market platform launched 2024. Issues fund tokens for treasuries (USTBL — US T-Bills) and Euro short-term debt (EUTBL). Co-founded by Paul-Adrien Hyppolite and Antoine Michon.",
+    "foundedYear": 2023,
+    "headquarters": "Paris, France",
+    "founders": "Paul-Adrien Hyppolite (Co-Founder, CEO), Antoine Michon (Co-Founder)",
+    "regulatoryStatus": "Spiko Finance is a French SAS licensed as an investment firm by the ACPR under number 19183 and registered with ORIAS under 23008251. Its money market funds are approved and supervised by the French AMF, with CACEIS Bank as depositary, Twenty First Capital as management company for the T Bills funds, and PwC as statutory auditor. Spiko never holds client funds.",
+    "keyMilestones": "2026-03: Spiko Dollar launched with Amundi as delegated asset manager | 2025-07: 22 million dollar Series A led by Index Ventures after passing 400 million AuM | 2025: obtained MiFID investment firm license enabling EU passporting | 2024-05: Spiko EU T Bills MMF launched with AMF approval | 2024: USTBL US T Bills MMF launched",
+    "entityStructureNotes": "Spiko Finance SAS is the licensed investment firm and distributor while the funds are separate AMF approved French vehicles. The T Bills funds are managed by Twenty First Capital and the Smart Cash funds by Amundi under delegation. Client cash flows go directly to depositary CACEIS."
+  },
+  "platform": {
+    "category": [
+      "bond-mmf-funds"
+    ],
+    "platformType": [
+      "mmf"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "attestationFrequency": "Daily NAV (UCITS-equivalent)",
+    "parentPlatform": "spiko",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Management Fee",
+      "holderTotalFeeBps": 25,
+      "assetManagerTakeBps": 25,
+      "tokenizationPlatformTakeBps": 5,
+      "performanceFeePct": 0,
+      "mintFeeBps": 0,
+      "redemptionFeeBps": 0,
+      "underlyingFundExpenseBps": 30,
+      "floatIncome": false,
+      "revenueConfidence": "issuer-disclosed",
+      "feeLastVerified": "2026-07-09",
+      "revenueNotes": "Spiko USTBL (US T-Bills MMF) and EUTBL (EU T-Bills MMF): 25 bps annual management fee plus 5 bps operating expenses (capped at 10 bps), total ~30 bps. Fee deducted daily on a pro-rata basis. No entry, exit, custody, or transaction fees for primary-market subscriptions/redemptions. Source: https://docs.spiko.io"
+    }
+  },
+  "roles": [
+    {
+      "organization": "spiko-finance-sas",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://spiko.io"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "Daily NAV"
+    }
+  ]
+}

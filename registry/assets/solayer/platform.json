@@ -1,0 +1,45 @@
+{
+  "identity": {
+    "slug": "solayer",
+    "name": "Solayer",
+    "legacyPid": 17
+  },
+  "about": {
+    "description": "Solayer offers a stablecoin backed by real-world assets and Treasury securities, combining yield generation with price stability. It enables institutional-grade stable settlement with underlying RWA collateral.",
+    "logo": "https://icons.llamao.fi/icons/rwa/solayer.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://solayer.xyz"
+      ],
+      "twitter": "https://x.com/solayer_labs",
+      "docs": "https://docs.solayer.org/",
+      "linkedin": "https://www.linkedin.com/company/solayer-labs"
+    }
+  },
+  "platform": {
+    "category": [
+      "rwa-stablecoins"
+    ],
+    "platformType": [
+      "yield-rwa-stable"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "solana",
+    "chains": [
+      "solana"
+    ],
+    "parentPlatform": "solayer",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "solayer",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://solayer.xyz"
+      ]
+    }
+  ]
+}

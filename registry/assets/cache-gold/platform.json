@@ -1,0 +1,51 @@
+{
+  "identity": {
+    "slug": "cache-gold",
+    "name": "CACHE.Gold",
+    "legacyPid": 88
+  },
+  "about": {
+    "description": "CACHE.Gold provides tokenized access to physical commodities and precious metals through blockchain infrastructure. It enables fractional ownership and efficient settlement of commodity positions.",
+    "logo": "https://icons.llamao.fi/icons/rwa/cache.gold.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://cache.gold"
+      ],
+      "twitter": "https://x.com/cache_token",
+      "docs": "https://docs.cache.gold/",
+      "linkedin": "https://www.linkedin.com/company/cache-gold"
+    }
+  },
+  "platform": {
+    "category": [
+      "gold-commodities"
+    ],
+    "platformType": [
+      "gold"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "parentPlatform": "cache-gold",
+    "suspicious": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "cache-private-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://cache.gold"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

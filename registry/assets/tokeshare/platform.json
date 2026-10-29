@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "slug": "tokeshare",
+    "name": "Tokeshare",
+    "protocolSlug": "tokeshare"
+  },
+  "about": {
+    "links": {
+      "website": [
+        "https://tokeshare.co/"
+      ]
+    }
+  },
+  "platform": {
+    "primaryChain": null,
+    "chains": [
+      "polygon",
+      "base",
+      "ethereum",
+      "stellar"
+    ]
+  }
+}

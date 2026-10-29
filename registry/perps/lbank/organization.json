@@ -1,0 +1,56 @@
+{
+  "identity": {
+    "slug": "lbank",
+    "name": "LBank",
+    "legacyPid": 331,
+    "protocolSlug": "lbank"
+  },
+  "about": {
+    "description": "LBank is a centralized cryptocurrency exchange founded in 2015 that claims more than 25 million registered users, with co-founders Allen Wei and Eric He as its only publicly named principals and no current executive team disclosed. He stepped back from day to day leadership in September 2024 into advisory roles but remains the public face of the exchange. The venue launched US stock perpetual futures on 2025-12-31 with 35 pairs and has since expanded the offering, branded TradFi Futures, to roughly 210 contracts spanning stocks, ETFs, pre-IPO names, indices, commodities and FX as of July 2026, while LBank's own product page cites over 100 assets. Contracts are USDT-margined perpetuals, and per LBank's 2026-03 TradFi FAQ the stock contracts are exempt from funding fees while some commodity contracts may incur them on the standard 8 hour cycle. Equity contracts default to isolated margin, follow NYSE and Nasdaq trading-hour synchronization for pricing events, and carry base fees of 0.02 percent maker and 0.06 percent taker. The venue operates under LBK Blockchain Co., Limited, a British Virgin Islands entity, and is not available to residents of the United States, Canada, mainland China, Hong Kong or Macao.",
+    "logo": "https://icons.llamao.fi/icons/rwa/lbank.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.lbank.com"
+      ],
+      "twitter": "https://x.com/LBank_Exchange",
+      "docs": "https://www.lbank.com/docs/index.html",
+      "linkedin": "https://www.linkedin.com/company/lbank",
+      "discord": "https://discord.com/invite/YdmGwEhuN8",
+      "telegram": "https://t.me/LBank_en"
+    },
+    "foundedYear": 2015,
+    "headquarters": "No operational headquarters disclosed. The user agreement names a registered address in Road Town, Tortola, British Virgin Islands.",
+    "founders": "Allen Wei (Co-Founder), Eric He (Co-Founder, stepped back to advisory roles in September 2024). No current executive team publicly disclosed",
+    "regulatoryStatus": "LBank discloses no licenses from major financial regulators. Its user agreement names LBK Blockchain Co., Limited, registered in the British Virgin Islands, with BVI governing law and disputes referred to the Dubai International Arbitration Centre. The Ontario Securities Commission has published an investor warning stating that LBank is not registered to trade securities in Ontario. The platform prohibits personal accounts for residents of the United States, Canada, mainland China and several other jurisdictions.",
+    "keyMilestones": "2015: LBank founded | 2024-09: Co-founder Eric He steps back from day to day leadership into advisory roles | 2025-12: US stock perpetual futures launched with 35 pairs including NVDA, TSLA and MSTR | 2026-01: Stock Futures Zone launched as cumulative stock futures volume passes $6.3 billion | 2026-02: Cumulative stock futures volume passes $12 billion | 2026-03: TradFi branding and trading FAQ published covering equities, metals, energy and indices | 2026-07: Roughly 210 RWA perpetual contracts live",
+    "entityStructureNotes": "LBK Blockchain Co., Limited (British Virgin Islands) is the contracting entity in the user agreement, which also references LBK Exchange as owner of the LBank name and trademarks. The Ontario OSC warning additionally names PT LBK Teknology Indonesia and LBK Exchange Limited. No parent or holding structure is disclosed."
+  },
+  "platform": {
+    "category": [
+      "rwa-perps"
+    ],
+    "platformType": [
+      "perp-venue"
+    ],
+    "accessModel": "permissioned",
+    "marginSettlementAsset": "USDT",
+    "parentPlatform": "lbank",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Perp Maker/Taker Fees",
+      "issuerDocsUrl": "https://www.lbank.com/support/articles/21425760291097",
+      "governanceWhitepaperUrl": "https://www.lbank.com/support/articles/21436436060953",
+      "revenueConfidence": "issuer-disclosed",
+      "feeLastVerified": "2026-07-30",
+      "revenueNotes": "No API category flag - allowlist-maintained, count approximate (+/-5)."
+    }
+  },
+  "roles": [
+    {
+      "organization": "lbk-blockchain-co-limited-british-virgin-islands",
+      "kind": "issuer"
+    }
+  ]
+}

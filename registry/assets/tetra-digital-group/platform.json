@@ -1,0 +1,47 @@
+{
+  "identity": {
+    "slug": "tetra-digital-group",
+    "name": "Tetra Digital Group",
+    "legacyPid": 251
+  },
+  "about": {
+    "description": "Tetra Digital Group (Calgary, AB) operates Canada's first regulated digital asset custodian (Tetra Trust Company) and is the parent of CAD Digital Inc., the issuance agent for CADD. CADD is Canada's first CAD-backed stablecoin issued by a licensed financial institution (launched May 4, 2026). Regulated by the Alberta Treasury Board and Finance. C$10M backing round included Urbana Corporation, Wealthsimple, Purpose Unlimited, Shakepay, ATB Financial, National Bank of Canada, and Shopify. Provides institutional-grade custody as a licensed provincial trust company.",
+    "logo": "https://icons.llamao.fi/icons/rwa/tetra-digital-group.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.tetra.digital/"
+      ],
+      "twitter": "https://x.com/tetra_trust",
+      "docs": "https://www.tetra.digital/",
+      "linkedin": "https://www.linkedin.com/company/tetra-trust"
+    },
+    "registryInfo": "Tetra Digital Group (Calgary, AB) is the parent of Tetra Trust Company (Canada's first regulated digital asset custodian, licensed provincial trust company) and CAD Digital Inc. (CADD issuance agent). Reserve and stablecoin operations are regulated by the Alberta Treasury Board and Finance."
+  },
+  "platform": {
+    "category": [
+      "fiat-stablecoins"
+    ],
+    "platformType": [
+      "other-fiat-stable"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum",
+      "base"
+    ],
+    "parentPlatform": "tetra-digital-group",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "tetra-digital-group",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.tetra.digital/"
+      ]
+    }
+  ]
+}

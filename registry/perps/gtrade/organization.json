@@ -1,0 +1,66 @@
+{
+  "identity": {
+    "slug": "gtrade",
+    "name": "gTrade",
+    "legacyPid": 228,
+    "protocolSlug": "gains-network"
+  },
+  "about": {
+    "description": "gTrade is a decentralized leveraged-trading platform launched in 2021 by Gains Network, the multichain perpetuals project founded by pseudonymous developer Seb on Polygon and now deployed across Arbitrum, Polygon, and Base. It supports 130+ pairs spanning crypto, stocks, equity indices, commodities, and forex with multi-collateral margining (USDC, DAI, WETH) and integrates Chainlink CCIP & Data Streams alongside Pyth for cross-chain liquidity and pricing. The protocol is governed via the GNS token and is one of the longest-running on-chain perpetual venues for traditional-asset markets, with a track record of guaranteed order execution and one-click trading.",
+    "logo": "https://icons.llamao.fi/icons/rwa/gtrade.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://gains.trade/"
+      ],
+      "twitter": "https://x.com/GainsNetwork_io",
+      "docs": "https://docs.gains.trade/",
+      "linkedin": "https://www.linkedin.com/company/gainsnetwork",
+      "discord": "https://discord.gg/gains-network",
+      "telegram": "https://t.me/GainsNetwork_io",
+      "github": "https://github.com/GainsNetwork-org"
+    },
+    "registryInfo": "Gains Network was founded in 2021 by pseudonymous founder Seb (full-stack developer), later joined by Nathan, Lunaman, Crumb, and additional contributors. The protocol is governed via the GNS token and the Gains Network DAO; gTrade is the protocol's flagship perpetual product and integrates Chainlink CCIP, Chainlink Data Streams, and Pyth for cross-chain liquidity and pricing."
+  },
+  "platform": {
+    "category": [
+      "rwa-perps"
+    ],
+    "platformType": [
+      "perp-venue"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "arbitrum",
+    "chains": [
+      "arbitrum",
+      "polygon",
+      "base"
+    ],
+    "attestationFrequency": "N/A (Perp Venue)",
+    "marginSettlementAsset": "USDC; DAI; WETH (Arbitrum/Polygon/Base)",
+    "parentPlatform": "gtrade",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Spread + Maker/Taker + GNS Burn",
+      "revenueConfidence": "issuer-disclosed",
+      "feeLastVerified": "2026-05-11",
+      "revenueNotes": "gTrade RWA fee model is spread-based, not maker/taker. Fixed 1 bp spread on major and minor forex pairs and on tier-1 commodities. Per-pair spreads on exotic FX and lower-tier commodities (vary by volatility). Stocks/equities use dynamic spread via price-impact formula. Spread never applies at closing — only at opening. Borrowing fees apply to open positions. Crypto markets (not on this RWA page) have 0% spread on BTC/ETH and dynamic spread on alts. Fee distribution: 22% governance (DAO), 15% LP vault, 54% GNS token burn, 5% referrals, 4% trigger keepers. Source: https://docs.gains.trade/gtrade-leveraged-trading/fees-and-spread"
+    }
+  },
+  "roles": [
+    {
+      "organization": "gains-network",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.gains.trade/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "N/A (Perp Venue)"
+    }
+  ]
+}

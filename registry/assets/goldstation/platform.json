@@ -1,0 +1,46 @@
+{
+  "identity": {
+    "slug": "goldstation",
+    "name": "Goldstation",
+    "legacyPid": 91
+  },
+  "about": {
+    "description": "Goldstation provides tokenized access to physical commodities and precious metals through blockchain infrastructure. It enables fractional ownership and efficient settlement of commodity positions.",
+    "logo": "https://icons.llamao.fi/icons/rwa/goldstation.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://goldstation.io"
+      ],
+      "twitter": "https://x.com/goldstation_io",
+      "docs": "https://goldstation.io/",
+      "linkedin": "https://www.linkedin.com/company/goldstation"
+    }
+  },
+  "platform": {
+    "category": [
+      "governance-tokens",
+      "gold-commodities"
+    ],
+    "platformType": [
+      "governance-token"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "klaytn",
+    "chains": [
+      "klaytn"
+    ],
+    "parentPlatform": "goldstation",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "goldstation-foundation",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://goldstation.io"
+      ]
+    }
+  ]
+}

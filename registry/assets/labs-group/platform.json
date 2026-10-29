@@ -1,0 +1,46 @@
+{
+  "identity": {
+    "slug": "labs-group",
+    "name": "LABS Group",
+    "legacyPid": 103
+  },
+  "about": {
+    "description": "LABS Group enables fractional ownership and trading of real estate assets through tokenization. It provides institutional-grade real estate exposure via blockchain infrastructure.",
+    "logo": "https://icons.llamao.fi/icons/rwa/labs-group.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://labsgroup.io"
+      ],
+      "twitter": "https://x.com/labsgroupio",
+      "docs": "https://docs.labsgroup.io/",
+      "linkedin": "https://www.linkedin.com/company/labs-group"
+    }
+  },
+  "platform": {
+    "category": [
+      "governance-tokens",
+      "real-estate"
+    ],
+    "platformType": [
+      "governance-token"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "bsc",
+    "chains": [
+      "bsc"
+    ],
+    "parentPlatform": "labs-group",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "labs-group-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://labsgroup.io"
+      ]
+    }
+  ]
+}

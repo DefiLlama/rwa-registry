@@ -1,0 +1,63 @@
+{
+  "identity": {
+    "slug": "ventuals",
+    "name": "Ventuals",
+    "legacyPid": 227,
+    "protocolSlug": "ventuals"
+  },
+  "about": {
+    "description": "Ventuals is the first production HIP-3 builder-deployed perpetual venue on Hyperliquid, founded by Alvin Hsia and Emily Hsia (previously builders of Shadow) and incubated by Paradigm. It pioneered private-company valuation perpetuals, letting users go long or short the implied valuations of pre-IPO companies like SpaceX, OpenAI, Anthropic, and Kraken with up to 10× leverage, alongside thematic public-market index perpetuals (MAG7, Semis, Robotics, Defense, Energy, etc.). Ventuals runs its own oracles blending off-chain valuation data with real-time perp pricing, and uses Privy for embedded wallets. All markets are margined and cash-settled, providing synthetic exposure to instruments that have historically been illiquid or inaccessible to retail.",
+    "logo": "https://icons.llamao.fi/icons/rwa/ventuals.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://ventuals.com/"
+      ],
+      "twitter": "https://x.com/ventuals",
+      "docs": "https://docs.ventuals.com/",
+      "linkedin": "https://www.linkedin.com/company/ventuals",
+      "discord": "https://discord.gg/ventuals",
+      "telegram": "https://t.me/ventuals"
+    },
+    "registryInfo": "Ventuals was founded by sibling duo Alvin Hsia and Emily Hsia, who previously built Shadow (an on-chain data extraction project). The platform was incubated by Paradigm and is the first production application of Hyperliquid's HIP-3 builder-deployed perpetuals standard, with Privy providing embedded wallet/custody infrastructure."
+  },
+  "platform": {
+    "category": [
+      "rwa-perps"
+    ],
+    "platformType": [
+      "perp-venue"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "hyperliquid",
+    "chains": [
+      "hyperliquid"
+    ],
+    "attestationFrequency": "N/A (Perp Venue)",
+    "marginSettlementAsset": "USDC (Hyperliquid)",
+    "parentPlatform": "ventuals",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Maker/Taker Fees + Funding Skim",
+      "revenueConfidence": "issuer-disclosed",
+      "feeLastVerified": "2026-05-11",
+      "revenueNotes": "Ventuals is a HIP-3 builder-deployer on Hyperliquid focused on pre-IPO/private equity perps (xAI, SpaceX, etc.). Fees follow HIP-3 framework: standard taker ~7-9 bps, Growth Mode taker ~0.45-0.9 bps. 50% of fees go to Ventuals deployer, 50% to Hyperliquid protocol. Source: https://hyperliquid.gitbook.io/hyperliquid-docs/hyperliquid-improvement-proposals-hips/hip-3-builder-deployed-perpetuals"
+    }
+  },
+  "roles": [
+    {
+      "organization": "ventuals",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.ventuals.com/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "N/A (Perp Venue)"
+    }
+  ]
+}

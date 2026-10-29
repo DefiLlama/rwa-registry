@@ -1,0 +1,67 @@
+{
+  "identity": {
+    "slug": "re-protocol",
+    "name": "Re Protocol",
+    "legacyPid": 140,
+    "protocolSlug": "re"
+  },
+  "about": {
+    "description": "Re Protocol provides tokenized access to private credit and structured finance products, connecting institutional lenders with decentralized liquidity. It enables securitization of off-chain credit through on-chain smart contracts.",
+    "logo": "https://icons.llamao.fi/icons/rwa/re-protocol.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://re.xyz/"
+      ],
+      "twitter": "https://x.com/Securitize",
+      "docs": "https://docs.re/",
+      "linkedin": "https://www.linkedin.com/company/re-protocol",
+      "discord": "https://discord.gg/reinsurance",
+      "telegram": "N/A (institutional)",
+      "refLinks": [
+        "https://app.re.xyz/?ref=nuu0c"
+      ]
+    },
+    "registryInfo": "Re Protocol (Re Insurance Limited, Bermuda). Tokenized reinsurance protocol launched 2022 by Karn Saroya, Eric Liu et al. Brings insurance / reinsurance capacity onchain via tokenized capital pools backing real-world risk programs. Re token live on Ethereum.",
+    "foundedYear": 2022,
+    "headquarters": "George Town, Cayman Islands",
+    "founders": "Karn Saroya (Co-Founder, CEO), Jonathan Lim (Chief Underwriting Officer, Cover Re)",
+    "regulatoryStatus": "Regulated reinsurance activity is conducted exclusively by Cover Reinsurance SPC Ltd., a Class B(iii) licensed Cayman segregated portfolio company regulated by CIMA. The protocol itself is operated by Resilience Foundation, a Cayman foundation company holding no insurance licence, with affiliates Resilience (BVI) Ltd and Resilience Inv SPC. Tokens are offered only to non US persons under Regulation S with mandatory KYC and a MiCA whitepaper for reUSD is published.",
+    "keyMilestones": "2026-06: RE governance token TGE with about 500 million cumulative premiums written and a Coinbase Ventures investment | 2026-04: Cover Re secured a 100 million investment note | 2024-05: tokenized reinsurance fund debuted on Avalanche with a 15 million Nexus Mutual commitment | 2022-09: 14 million seed with Tribe, Framework, Electric Capital, Exor, SiriusPoint",
+    "entityStructureNotes": "Resilience Foundation operates the protocol supported by Resilience (BVI) Ltd and Resilience Inv SPC. Cover Reinsurance SPC Ltd. is the separately CIMA regulated reinsurer deploying protocol capital into treaties secured by Regulation 114 trusts with Truist and Computershare as trustees."
+  },
+  "platform": {
+    "category": [
+      "private-credit"
+    ],
+    "platformType": [
+      "reinsurance-pool"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "avax",
+    "chains": [
+      "avax"
+    ],
+    "parentPlatform": "re-protocol",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Performance Fee + Float Income",
+      "mintFeeBps": 0,
+      "redemptionFeeBps": 6,
+      "floatIncome": true,
+      "revenueConfidence": "issuer-disclosed",
+      "feeLastVerified": "2026-07-09",
+      "revenueNotes": "Instant reUSD redemptions carry a 6 bps fee and mint fees are shown in the mint flow rather than published. Economics are spread based with reUSD accruing SOFR plus 250 bps and reUSDe risk free plus 850 bps while the reinsurer retains the excess from premiums and trust collateral yield, attested daily by The Network Firm via Chainlink."
+    }
+  },
+  "roles": [
+    {
+      "organization": "re-member-fund-a-lp-re-member-fund-b-lp",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://re.xyz/"
+      ]
+    }
+  ]
+}

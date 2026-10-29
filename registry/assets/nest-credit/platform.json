@@ -1,0 +1,52 @@
+{
+  "identity": {
+    "slug": "nest-credit",
+    "name": "Nest Credit",
+    "legacyPid": 49,
+    "protocolSlug": "nest-credit"
+  },
+  "about": {
+    "description": "Nest (Nest Credit) is the institutional-grade RWA-yield aggregator built by the Plume Foundation, providing decentralized vaults that bundle tokenized bonds, private credit, and other yield-bearing real-world assets. Native to the Plume L1 (an RWA-specialized public blockchain), Nest expanded to Ethereum, BNB Chain, Plasma, and most recently launched five RWA vaults on Solana (December 2025) sourcing institutional assets from WisdomTree, Hamilton Lane, BlackOpal, Securitize, and Superstate. EtherFi made a $25M allocation to Nest vaults powered by Superstate USCC. Backed by Brevan Howard Digital, Haun Ventures, Galaxy Ventures, and Lightspeed Faction. Nest functions as a one-stop interface to access institutional real-world yield through staked vault tokens (nALPHA, nTBILL, etc.).",
+    "logo": "https://icons.llamao.fi/icons/rwa/nest-credit.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://nest.credit/"
+      ],
+      "twitter": "https://x.com/nestcredit",
+      "docs": "https://docs.nest.credit/",
+      "linkedin": "https://www.linkedin.com/company/nestcredit"
+    },
+    "registryInfo": "Nest is created and managed by the Plume Foundation, the entity that stewards the Plume RWA-focused public blockchain. Plume Foundation co-founders include Teddy Pornprinya (CBO). Backed by Brevan Howard Digital, Haun Ventures, Galaxy Ventures, Lightspeed Faction, and other institutional investors. Vaults integrate third-party credit evaluations and tokenized risk disclosures from issuers including Securitize, Superstate, WisdomTree, Hamilton Lane, BlackOpal, and others."
+  },
+  "platform": {
+    "category": [
+      "bond-mmf-funds",
+      "private-credit"
+    ],
+    "platformType": [
+      "rwa-vaults"
+    ],
+    "accessModel": "permissioned",
+    "primaryChain": "plume_mainnet",
+    "chains": [
+      "plume_mainnet",
+      "ethereum",
+      "solana",
+      "bsc",
+      "plasma"
+    ],
+    "parentPlatform": "nest-credit",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "plume-foundation-nest",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://plume.org/"
+      ]
+    }
+  ]
+}

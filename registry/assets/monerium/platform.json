@@ -1,0 +1,24 @@
+{
+  "identity": {
+    "slug": "monerium",
+    "name": "Monerium",
+    "legacyPid": 277
+  },
+  "about": {
+    "logo": "https://icons.llamao.fi/icons/rwa/monerium.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://monerium.com"
+      ],
+      "twitter": "https://x.com/monerium"
+    }
+  },
+  "platform": {
+    "category": [
+      "fiat-stablecoins"
+    ],
+    "primaryChain": "ethereum",
+    "delisted": false,
+    "llamaGradeAttestation": false
+  }
+}

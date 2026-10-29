@@ -1,0 +1,55 @@
+{
+  "identity": {
+    "slug": "bingx",
+    "name": "BingX",
+    "legacyPid": 319,
+    "protocolSlug": "bingx"
+  },
+  "about": {
+    "description": "BingX is a derivatives-focused exchange founded in 2018 (as Bingbon, rebranded 2021) that runs the largest RWA perpetuals lineup of any exchange. Roughly 393 contracts span US and international stocks, pre-IPO names, 15 equity indices from the Nasdaq-100 to the KOSPI and Nifty, 28 commodities from gold to coffee and soybeans, and 33 FX pairs, all USDT-margined with 8-hour funding. Stock perpetuals launched in November 2025 and the venue expanded within months into the broadest TradFi coverage in the market. The platform is known for copy trading and its Chelsea FC and Scuderia Ferrari sponsorships. Corporately it is unusually opaque: customers contract with Nieve Cruz PA Corporation, and no founders or group CEO are publicly disclosed.",
+    "logo": "https://icons.llamao.fi/icons/rwa/bingx.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://bingx.com"
+      ],
+      "twitter": "https://x.com/BingXOfficial",
+      "docs": "https://bingx-api.github.io/docs/",
+      "linkedin": "https://www.linkedin.com/company/bingxofficial/",
+      "telegram": "https://t.me/BingXOfficial"
+    },
+    "foundedYear": 2018,
+    "headquarters": "No declared HQ. Contracting entity Nieve Cruz PA Corporation, with regional entities in Australia (Adelaide) and Lithuania",
+    "founders": "Founders not officially disclosed (third-party registries attribute founding to Josh Lu). No publicly named group CEO. Vivien Lin (Chief Product Officer, Global Spokesperson) is the most senior publicly identified executive",
+    "regulatoryStatus": "Largely offshore posture. The customer agreement contracts with Nieve Cruz PA Corporation, with regional registrations rather than derivatives licenses: AUSTRAC digital-currency-exchange registrations in Australia (BingX Global Pty Ltd, plus StellarExchange Pty Ltd for fiat rails) and a Lithuanian FCIS VASP registration (BingX EU UAB). It has no MiCA CASP authorization and Spain's CNMV lists BingX as unauthorized. The RWA perp lineup trades on the global offshore platform without a dedicated securities license.",
+    "keyMilestones": "2018: founded as Bingbon, a social and copy-trading derivatives platform | 2021-11: rebrands to BingX and expands globally | 2024-09: hot-wallet hack (over $40m), platform covers losses and resumes | 2025-11: stock perpetual futures launch (MSFT, GOOGL, AMZN, TSLA, ARM, INTC first) | 2026: grows into the largest CEX RWA perp program (~393 instruments across stocks, indices, commodities, FX)",
+    "entityStructureNotes": "Platform contracting entity: Nieve Cruz PA Corporation (per BingX Customer Agreement). Australia: StellarExchange Pty Ltd (AUSTRAC DCE, fiat) and BingX Global Pty Ltd (AUSTRAC). EU: BingX EU UAB (Lithuania, FCIS VASP). Stock/index/commodity/FX perps (NCSK/NCSI/NCCO/NCFX symbol taxonomy) run on the same offshore platform - no separately disclosed derivatives entity."
+  },
+  "platform": {
+    "category": [
+      "rwa-perps"
+    ],
+    "platformType": [
+      "perp-venue"
+    ],
+    "accessModel": "permissioned",
+    "marginSettlementAsset": "USDT",
+    "parentPlatform": "bingx",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Perp Maker/Taker Fees",
+      "issuerDocsUrl": "https://bingx.com/en/support/costs",
+      "governanceWhitepaperUrl": "https://bingx.com/en/support/articles/360048092813",
+      "revenueConfidence": "issuer-disclosed",
+      "feeLastVerified": "2026-07-30",
+      "revenueNotes": "Largest CEX RWA perp program by instrument count, with the NCSK/NCSI/NCCO/NCFX symbol taxonomy."
+    }
+  },
+  "roles": [
+    {
+      "organization": "nieve-cruz-pa-corporation-counterparty-named-in-the-bingx-customer-agreement",
+      "kind": "issuer"
+    }
+  ]
+}

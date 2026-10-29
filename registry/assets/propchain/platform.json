@@ -1,0 +1,46 @@
+{
+  "identity": {
+    "slug": "propchain",
+    "name": "Propchain",
+    "legacyPid": 108
+  },
+  "about": {
+    "description": "Propchain enables fractional ownership and trading of real estate assets through tokenization. It provides institutional-grade real estate exposure via blockchain infrastructure.",
+    "logo": "https://icons.llamao.fi/icons/rwa/propchain.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://propchain.com"
+      ],
+      "twitter": "https://x.com/PropChainGlobal",
+      "docs": "https://docs.propchain.com/",
+      "linkedin": "https://www.linkedin.com/company/propchain-network"
+    }
+  },
+  "platform": {
+    "category": [
+      "governance-tokens",
+      "real-estate"
+    ],
+    "platformType": [
+      "governance-token"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "parentPlatform": "propchain",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "propchain-foundation",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://propchain.com"
+      ]
+    }
+  ]
+}

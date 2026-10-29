@@ -1,0 +1,16 @@
+{
+  "slug": "bybit",
+  "organization": "bybit",
+  "venueType": "cex",
+  "adapter": "bybit",
+  "published": true,
+  "makerFeeBps": 2,
+  "takerFeeBps": 5.5,
+  "oracleProvider": "Bybit TradFi index, components undisclosed, anchor-clamped",
+  "accessModel": "permissioned",
+  "rwaClassification": "programmable-finance",
+  "conventionNote": "Funding settles every 8 hours on most markets and every 4 hours on 3, read from each instrument fundingInterval, and fees are 2 bps maker and 5.5 bps taker at VIP 0, varying by region.",
+  "website": "https://www.bybit.com",
+  "issuer": "Bybit",
+  "marginAsset": "USDT"
+}

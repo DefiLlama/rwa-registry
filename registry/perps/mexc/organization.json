@@ -1,0 +1,57 @@
+{
+  "identity": {
+    "slug": "mexc",
+    "name": "MEXC",
+    "legacyPid": 332,
+    "protocolSlug": "mexc"
+  },
+  "about": {
+    "description": "MEXC is a global crypto exchange founded in 2018 as MXC and rebranded MEXC Global in 2021, known for one of the widest altcoin and futures catalogs in the industry. Its founders and beneficial owners are not publicly disclosed, and since April 2026 the exchange has been led by CEO Vugar Usi, who joined as COO in late 2025, alongside Chief Strategy Officer Cecilia Hsueh. MEXC launched USDT-margined US stock perpetual futures in July 2025 with a first phase covering COIN, HOOD, NVDA, AAPL, AMZN, GOOGL, META, TSLA and MCD, and has since built one of the largest RWA perp books among centralized exchanges, with roughly 330 contracts spanning stocks, ETFs, pre-IPO names such as SPCX, indices, commodities and FX under collision-suffix symbols like AAPLSTOCK_USDT. Contracts are margined and settled in USDT, with USDC and USD1 margined variants on some contracts, and funding on standard futures settles every eight hours at 00:00, 08:00 and 16:00 UTC. Stock futures traded in sync with US market hours at launch before moving to 24/7 trading, and MEXC is currently waiving trading and funding fees on many stock contracts under a limited-time campaign with no announced end date. The venue is an offshore platform open to global retail users outside jurisdictions restricted in its terms, and the Seychelles FSA identified MX Global Ltd as its operating company in 2026.",
+    "logo": "https://icons.llamao.fi/icons/rwa/mexc.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.mexc.com"
+      ],
+      "twitter": "https://x.com/MEXC",
+      "docs": "https://mexcdevelop.github.io/apidocs/contract_v1_en/",
+      "linkedin": "https://www.linkedin.com/company/mexcofficial",
+      "discord": "https://discord.com/invite/sHj2NrKacq",
+      "telegram": "https://t.me/MEXCEnglish"
+    },
+    "foundedYear": 2018,
+    "headquarters": "Not disclosed. Historically associated with Seychelles registration, with the Seychelles FSA identifying Seychelles company MX Global Ltd as the platform operator in 2026, and operations commonly reported in Singapore.",
+    "founders": "Founders not disclosed. Vugar Usi (CEO since April 2026), Cecilia Hsueh (Chief Strategy Officer). Former CEO John Chen left in 2022 per MEXC statements",
+    "regulatoryStatus": "MEXC holds no license from any major securities or derivatives regulator for its global platform, and its RWA perpetual futures are offered from an offshore structure. In a press release dated 26 May 2026 the Seychelles Financial Services Authority identified MX Global Ltd, a Seychelles IBC, as the operator of the MEXC platform, found it in breach of the Seychelles VASP Act 2024 for operating without a license, and said it was initiating enforcement measures including referral for possible legal action. The FSA had earlier confirmed that MEXC Global Ltd, the entity historically associated with the platform, was struck off the Seychelles register in August 2023 and dissolved in December 2024 without ever holding a license. MEXC has also accumulated warnings and restrictions from regulators in multiple other jurisdictions and restricts US users in its terms.",
+    "keyMilestones": "2018: Founded as MXC | 2021-06: Rebranded to MEXC Global | 2025-07: US stock perpetual futures launched with limited-time zero trading and funding fees | 2026-04: Vugar Usi appointed CEO and USD1-margined futures launched in partnership with World Liberty Financial | 2026-05: Seychelles FSA names MX Global Ltd as unlicensed operator of the platform | 2026-07: CoinGecko-based report ranks MEXC second in TradFi perpetual futures volume at $323.9B with 159 TradFi perpetuals listed, and Ondo tokenized stock spot pairs listed",
+    "entityStructureNotes": "MEXC does not publish a corporate structure. MEXC Global Ltd (Seychelles IBC No. 218833) was historically associated with the platform, was struck off the register in August 2023 and dissolved in December 2024. The Seychelles FSA identified MX Global Ltd (Seychelles IBC No. 238047) as the current platform operator in May 2026. Operational bases are commonly reported in Singapore but are not confirmed by the company."
+  },
+  "platform": {
+    "category": [
+      "rwa-perps"
+    ],
+    "platformType": [
+      "perp-venue"
+    ],
+    "accessModel": "permissioned",
+    "marginSettlementAsset": "USDT; USDC; USD1",
+    "parentPlatform": "mexc",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Perp Maker/Taker Fees",
+      "issuerDocsUrl": "https://www.mexc.com/fee",
+      "governanceWhitepaperUrl": "https://www.mexc.com/terms",
+      "revenueConfidence": "issuer-disclosed",
+      "feeLastVerified": "2026-08-06",
+      "revenueNotes": "Zero-fee stock-perp promo active (standard tiers apply otherwise). conceptPlate API tags. Quote variants are separate contracts.",
+      "subsidyRebateArrangements": "Stock zone fees vary per contract, many at 0/0 under the promo campaign, others up to 1 bp maker and 4 bps taker per the public contract API"
+    }
+  },
+  "roles": [
+    {
+      "organization": "not-disclosed-by-mexc-the-seychelles-fsa-identified-mx-global-ltd-seychelles-ibc-no-238047-as-the-entity-operating-the-platform-in-may-2026",
+      "kind": "issuer"
+    }
+  ]
+}

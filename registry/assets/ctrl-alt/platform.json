@@ -1,0 +1,43 @@
+{
+  "identity": {
+    "slug": "ctrl-alt",
+    "name": "Ctrl Alt",
+    "legacyPid": 203
+  },
+  "about": {
+    "description": "Ctrl Alt provides tokenized access to physical commodities and precious metals through blockchain infrastructure. It enables fractional ownership and efficient settlement of commodity positions.",
+    "logo": "https://icons.llamao.fi/icons/rwa/ctrl-alt.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://ctrl-alt.co/press-releases/billiton-ctrl-alt-diamond-tokenization"
+      ],
+      "twitter": "https://x.com/CtrlAltCo"
+    }
+  },
+  "platform": {
+    "category": [
+      "gold-commodities"
+    ],
+    "platformType": [
+      "other-commodity"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ripple",
+    "chains": [
+      "ripple"
+    ],
+    "parentPlatform": "ctrl-alt",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "ctrl-alt",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://ctrl-alt.co/press-releases/billiton-ctrl-alt-diamond-tokenization"
+      ]
+    }
+  ]
+}

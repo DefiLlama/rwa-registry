@@ -1,0 +1,74 @@
+{
+  "identity": {
+    "slug": "etherfuse",
+    "name": "Etherfuse",
+    "legacyPid": 272,
+    "protocolSlug": "etherfuse"
+  },
+  "about": {
+    "description": "Etherfuse is a regulated multichain tokenization platform for tokenized sovereign debt (\"Stablebonds\"). Six live stablebonds as of June 2026: CETES (Mexico), USTRY (US), GILTS (UK), EUROB (EU), TESOURO (Brazil), KTB (South Korea — via Shinhan Securities partnership). Each 1:1 backed by underlying government bond. Yield compounds into NAV; instant redemption via SDK. Cross-chain on Solana, Stellar, Base, Polygon, and Monad. Acquired by RedStone ecosystem reach via TokenizeThis 2026 sponsorship.",
+    "logo": "https://icons.llamao.fi/icons/rwa/etherfuse.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.etherfuse.com/"
+      ],
+      "twitter": "https://x.com/etherfuse",
+      "docs": "https://www.etherfuse.com/stablebonds",
+      "linkedin": "https://www.linkedin.com/company/etherfuse",
+      "github": "https://github.com/etherfuse"
+    },
+    "registryInfo": "Etherfuse — regulated multichain issuer of tokenized sovereign debt. US domicile; primary-market access restricted to Non-U.S. investors. Operates under Switzerland DLT Act / FINMA. Custody arrangements vary per stablebond: BBVA (CETES), Spiko SICAV (USTRY, EUROB), Archax Ltd (GILTS), B3 SA Brasil Bolsa Balcão (TESOURO), Shinhan Securities (KTB). RedStone provides 24/7 FX-adjusted price oracles."
+  },
+  "platform": {
+    "category": [
+      "bond-mmf-funds"
+    ],
+    "platformType": [
+      "tokenization-platform"
+    ],
+    "accessModel": "permissioned",
+    "primaryChain": "solana",
+    "chains": [
+      "solana",
+      "stellar",
+      "base",
+      "polygon",
+      "monad"
+    ],
+    "attestationFrequency": "On-demand via SDK + onchain transparency",
+    "parentPlatform": "etherfuse",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Mgmt Fee (yield-tiered: 0.25%-1.50%)",
+      "issuerDocsUrl": "https://www.etherfuse.com/",
+      "revenueConfidence": "issuer-disclosed"
+    }
+  },
+  "roles": [
+    {
+      "organization": "etherfuse",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.etherfuse.com/"
+      ]
+    },
+    {
+      "organization": "redstone",
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://blog.redstone.finance/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://app.etherfuse.com/legal/stablebonds-overview"
+      ],
+      "note": "no date in the export"
+    }
+  ]
+}

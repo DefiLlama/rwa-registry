@@ -1,0 +1,17 @@
+{
+  "slug": "arcus",
+  "organization": "arcus",
+  "venueType": "dex",
+  "chain": "ethereum",
+  "adapter": "arcus",
+  "published": true,
+  "oracleProvider": "External market data for underlying (regular hours); smoothed order-book mid (off-hours)",
+  "accessModel": "permissionless",
+  "rwaClassification": "programmable-finance",
+  "conventionNote": "Funding settles hourly against a fair-price mark, and fees follow the venue volume tiers whose Base tier is 1.5 bps maker and 4.5 bps taker.",
+  "website": "https://arcus.xyz",
+  "issuer": "Arcus",
+  "marginAsset": "USDG",
+  "makerFeeBps": 1.5,
+  "takerFeeBps": 4.5
+}

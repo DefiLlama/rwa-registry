@@ -1,0 +1,46 @@
+{
+  "identity": {
+    "slug": "propbase",
+    "name": "Propbase",
+    "legacyPid": 107
+  },
+  "about": {
+    "description": "Propbase enables fractional ownership and trading of real estate assets through tokenization. It provides institutional-grade real estate exposure via blockchain infrastructure.",
+    "logo": "https://icons.llamao.fi/icons/rwa/propbase.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.propbase.app"
+      ],
+      "twitter": "https://x.com/PropbaseApp",
+      "docs": "https://docs.propbase.app/",
+      "linkedin": "https://www.linkedin.com/company/propbase-app"
+    }
+  },
+  "platform": {
+    "category": [
+      "governance-tokens",
+      "real-estate"
+    ],
+    "platformType": [
+      "governance-token"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "aptos",
+    "chains": [
+      "aptos"
+    ],
+    "parentPlatform": "propbase",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "pb-labs-co-ltd",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.propbase.app"
+      ]
+    }
+  ]
+}

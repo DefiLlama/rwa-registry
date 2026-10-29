@@ -1,0 +1,56 @@
+{
+  "identity": {
+    "slug": "tokenizer",
+    "name": "Tokenizer",
+    "legacyPid": 114
+  },
+  "about": {
+    "description": "Tokenizer enables fractional ownership and trading of real estate assets through tokenization. It provides institutional-grade real estate exposure via blockchain infrastructure.",
+    "logo": "https://icons.llamao.fi/icons/rwa/tokenizer.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://tokenizer.estate"
+      ],
+      "twitter": "https://x.com/TokenizerEstate",
+      "docs": "https://tokenizer.estate/",
+      "linkedin": "https://www.linkedin.com/company/tokenizerestate"
+    }
+  },
+  "platform": {
+    "category": [
+      "real-estate"
+    ],
+    "platformType": [
+      "lending-venue"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "polygon",
+    "chains": [
+      "polygon"
+    ],
+    "attestationFrequency": "N/A (Lending Venue)",
+    "parentPlatform": "tokenizer",
+    "suspicious": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "tokenizer-estate",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://tokenizer.estate"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    },
+    {
+      "kind": "attestation",
+      "note": "N/A (Lending Venue)"
+    }
+  ]
+}

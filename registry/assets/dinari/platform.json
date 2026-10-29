@@ -1,0 +1,76 @@
+{
+  "identity": {
+    "slug": "dinari",
+    "name": "Dinari",
+    "legacyPid": 138,
+    "protocolSlug": "dinari"
+  },
+  "about": {
+    "description": "Dinari is the leading US-regulated tokenized-stocks platform, founded in 2021 by CEO Gabe Otte and headquartered in San Francisco. dShares are 1:1-backed tokens of US equities and ETFs (200+ tickers including AAPL, NVDA, TSLA, SPY, MSTR), each retaining full shareholder rights including dividends and corporate actions. Dinari Inc. is an SEC-registered Transfer Agent (Section 17A(c)) — the first crypto-native firm to receive this designation — and Dinari Securities LLC is the first FINRA/SIPC-registered broker-dealer authorized to offer tokenized US stocks (June 2025). In August 2025 Dinari launched the Dinari Financial Network, a Layer 1 omni-chain orderbook powered by Avalanche, and partnered with Chainlink and S&P Dow Jones Indices for the S&P Digital Markets 50 Index. Total funding $22.65M (Series A led by Hack VC and Blockchange).",
+    "logo": "https://icons.llamao.fi/icons/rwa/dinari.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://dinari.com/"
+      ],
+      "twitter": "https://x.com/DinariGlobal",
+      "docs": "https://docs.dinari.com/",
+      "linkedin": "https://www.linkedin.com/company/dinari",
+      "discord": "https://discord.gg/dinari",
+      "telegram": "https://t.me/dinari",
+      "github": "https://github.com/dinaricrypto"
+    },
+    "registryInfo": "Dinari Inc. — Delaware C-corporation, SEC-registered Transfer Agent under Section 17A(c) of the Securities Exchange Act of 1934 (the first crypto-native firm to receive this registration). Wholly owned subsidiary Dinari Securities LLC is a separately registered broker-dealer and member of FINRA/SIPC — the first US licensed broker-dealer authorized to offer tokenized US equities (granted June 2025). Headquartered in San Francisco. Founded 2021. CEO Gabe Otte. Total funding $22.65M, including a $12.7M Series A in May 2025 led by Hack VC and Blockchange Ventures.",
+    "foundedYear": 2021,
+    "headquarters": "San Francisco, USA",
+    "founders": "Gabriel Otte (Co-Founder, CEO), Jake Timothy (Co-Founder, CTO), Chas Rampenthal (Chief Legal Officer)",
+    "regulatoryStatus": "Dinari Inc. is an SEC registered transfer agent effective May 2022, and affiliate Dinari Securities LLC received FINRA broker dealer membership approval in June 2025, the first for a tokenized equity platform. dShares are issued and sold by Dinari Inc. to non US persons under SEC Regulation S and the tokens are not registered under the Securities Act.",
+    "keyMilestones": "2026-07: tZERO partnership to bring tokenized US equities to broker dealers | 2025-08: Dinari Financial Network omni chain orderbook L1 launched on Avalanche | 2025-06: FINRA broker dealer approval and Gemini launched Dinari powered tokenized stocks for EU customers | 2025-05: 12.7 million Series A led by Hack VC | 2022-05: SEC transfer agent registration effective",
+    "entityStructureNotes": "Dinari Inc. is the Delaware incorporated US parent holding the SEC transfer agent registration and issuing dShares under Regulation S. Dinari Securities LLC is the broker dealer affiliate for the US market path under parent Dinari Holdings LLC."
+  },
+  "platform": {
+    "category": [
+      "stocks-equities"
+    ],
+    "platformType": [
+      "tokenized-stocks"
+    ],
+    "accessModel": "permissioned",
+    "primaryChain": "arbitrum",
+    "chains": [
+      "arbitrum",
+      "base",
+      "ethereum",
+      "avax"
+    ],
+    "attestationFrequency": "Monthly",
+    "parentPlatform": "dinari",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Mint/Redeem Spread",
+      "holderTotalFeeBps": 50,
+      "mintFeeBps": 25,
+      "redemptionFeeBps": 25,
+      "feeScheduleUrl": "https://docs.dinari.com/docs/dshare-fees",
+      "revenueConfidence": "issuer-disclosed",
+      "feeLastVerified": "2026-07-09",
+      "revenueNotes": "Issuance and redemption each cost a flat trading fee plus an order fee of 25 bps when paying in USD plus or 50 bps in USDC or USDT. The flat fee is 20 cents per order on Base, Arbitrum, and Plume and 50 dollars on Ethereum mainnet. Dividend payments carry a 5 percent service fee. Volume discounts exist for qualified partners."
+    }
+  },
+  "roles": [
+    {
+      "organization": "dinari-inc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://dinari.com/about"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "Per-token 1:1 backing, monthly reconciliation"
+    }
+  ]
+}

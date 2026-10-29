@@ -1,0 +1,45 @@
+{
+  "identity": {
+    "slug": "stasis",
+    "name": "Stasis",
+    "legacyPid": 18
+  },
+  "about": {
+    "description": "Stasis issues a fiat-backed stablecoin maintained at parity with its reference currency through reserve backing and redemption mechanisms. It enables fast, low-cost settlement of stablecoin transactions.",
+    "logo": "https://icons.llamao.fi/icons/rwa/stasis.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://stasis.net"
+      ],
+      "twitter": "https://x.com/stasisnet",
+      "docs": "https://docs.stasis.net/",
+      "linkedin": "https://www.linkedin.com/company/stasis-net"
+    }
+  },
+  "platform": {
+    "category": [
+      "fiat-stablecoins"
+    ],
+    "platformType": [
+      "eur-stable"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "parentPlatform": "stasis",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "stasis",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://stasis.net"
+      ]
+    }
+  ]
+}

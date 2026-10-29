@@ -1,0 +1,70 @@
+{
+  "identity": {
+    "slug": "frax",
+    "name": "Frax",
+    "legacyPid": 11
+  },
+  "about": {
+    "description": "Frax Protocol is a stablecoin ecosystem combining fractional reserve and algorithmic mechanisms to maintain stability while generating yield for stakeholders. It offers FRAX stablecoin backed by USDC reserves and algorithmic incentives.",
+    "logo": "https://icons.llamao.fi/icons/rwa/frax.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://frax.com/"
+      ],
+      "twitter": "https://twitter.com/fraxfinance",
+      "docs": "https://docs.frax.finance/",
+      "linkedin": "https://www.linkedin.com/company/frax-finance",
+      "discord": "https://discord.gg/frax",
+      "telegram": "https://t.me/fraxfinance",
+      "github": "https://github.com/FraxFinance"
+    },
+    "registryInfo": "Frax Finance (Frax Finance LLC, US). Decentralized stablecoin protocol issuing FRAX (fractional-algorithmic, since 2024 fully collateralized), frxUSD (yield-bearing), and operating Fraxlend / Fraxswap / Fraxchain. Founded 2020 by Sam Kazemian. FXS governance + FRAX stablecoin.",
+    "foundedYear": 2019,
+    "founders": "Sam Kazemian (Founder), Travis Moore (Co-Founder)",
+    "regulatoryStatus": "frxUSD is governed by the Frax DAO and fully backed by tokenized US Treasury funds held via enshrined custodians including Securitize BUIDL, Superstate USTB, and WisdomTree WTGXX. Under FIP-432 compliance, collateral management, and issuer functions were delegated to Frax Inc, a Delaware public benefit corporation formerly named FinresPBC, positioned as the prospective GENIUS Act charter applicant. No banking or trust charter is currently held.",
+    "keyMilestones": "2025-07: FIP-432 delegates frxUSD compliance and collateral management to Frax Inc as formal issuer | 2025-04: North Star upgrade renames FXS to FRAX and legacy FRAX to frxUSD | 2025-01: frxUSD launched backed by BlackRock BUIDL tokenized by Securitize | 2023-10: FIP-277 onboards FinresPBC as offchain RWA partner | 2020-12: original FRAX stablecoin launches",
+    "entityStructureNotes": "The protocol is DAO governed onchain while offchain reserves and regulatory interfaces run through Frax Inc, a Delaware public benefit corporation that holds reserves at cost without charging fees to the protocol. Reserve custody is distributed across enshrined custodian contracts tied to regulated tokenized funds. FraxNet is the account layer for minting, redeeming, and earning on frxUSD."
+  },
+  "platform": {
+    "category": [
+      "non-rwa-stablecoins"
+    ],
+    "platformType": [
+      "algo-stable"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "attestationFrequency": "Continuous (on-chain) + monthly attestation",
+    "parentPlatform": "frax",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Yield Spread + Borrow Spread",
+      "mintFeeBps": 0,
+      "redemptionFeeBps": 0,
+      "floatIncome": true,
+      "revenueConfidence": "issuer-disclosed",
+      "feeLastVerified": "2026-07-09",
+      "revenueNotes": "frxUSD runs at zero mint and redeem fees to drive adoption. Treasury yield on backing is paid to holders who opt in via FraxNet or sfrxUSD staking, with the protocol retaining the spread on non distributed balances."
+    }
+  },
+  "roles": [
+    {
+      "organization": "frax-finance-protocol",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://frax.com/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "Real-time on-chain reserves"
+    }
+  ]
+}

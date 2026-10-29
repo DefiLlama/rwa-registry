@@ -1,0 +1,55 @@
+{
+  "identity": {
+    "slug": "bitget",
+    "name": "Bitget",
+    "legacyPid": 320,
+    "protocolSlug": "bitget"
+  },
+  "about": {
+    "description": "Bitget is a derivatives-first exchange founded in Singapore in 2018 by Sandra Lou and led since 2024 by CEO Gracy Chen, now headquartered in the Seychelles with over 100 million registered users claimed. In August 2025 it launched the market's first RWA Index perpetual futures, starting with Tesla, NVIDIA and Circle, and grew the lineup to roughly 261 contracts across US, Hong Kong, Japanese and Korean equities, ETFs, the S&P 500 and Nasdaq-100, commodities, tokenized gold, and pre-IPO names. RWA contracts trade 24/5 (mirroring underlying market weeks) and are USDT-margined with 4 to 8 hour funding. They are flagged directly in Bitget's public API (isRwa), the cleanest machine-readable RWA labeling of any exchange.",
+    "logo": "https://icons.llamao.fi/icons/rwa/bitget.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.bitget.com"
+      ],
+      "twitter": "https://x.com/bitget",
+      "docs": "https://www.bitget.com/api-doc/common/intro",
+      "linkedin": "https://www.linkedin.com/company/bitget-global",
+      "telegram": "https://t.me/BitgetENOfficial"
+    },
+    "foundedYear": 2018,
+    "headquarters": "Victoria, Seychelles (founded in Singapore)",
+    "founders": "Sandra Lou (Founder, former CEO), Gracy Chen (CEO since 2024-05)",
+    "regulatoryStatus": "Operates from the Seychelles via BTG Technology Holdings Limited (BGR Tech Limited for specific users). Licensed in El Salvador as a Digital Asset Service Provider (CNAD, April 2025), a license that expressly covers derivatives, alongside the 2024 Bitcoin Service Provider license. EU presence runs through national VASP registrations (Bulgaria, February 2025). It is not in ESMA's MiCA CASP register as of mid-2026 and the RWA perp venue itself operates offshore rather than under a securities license.",
+    "keyMilestones": "2018: founded in Singapore, focused on crypto derivatives | 2024-05: Gracy Chen appointed CEO | 2025-04: El Salvador DASP license granted, expressly covering derivatives, complementing the 2024 BSP license | 2025-08: launches the first RWA Index perpetual futures (TSLA, NVDA, CRCL on Aug 20) | 2026: lineup reaches ~261 RWA contracts with 24/5 trading",
+    "entityStructureNotes": "Platform operated per Terms of Use by BTG Technology Holdings Limited, with a parallel Terms of Use (Specific Users) naming BGR Tech Limited (Seychelles). Bulgarian VASP-registered entity for the EU and an El Salvador BSP/DASP local entity. RWA index perpetuals (isRwa API flag, 24/5 trading) sit inside the main USDT-M futures venue."
+  },
+  "platform": {
+    "category": [
+      "rwa-perps"
+    ],
+    "platformType": [
+      "perp-venue"
+    ],
+    "accessModel": "permissioned",
+    "marginSettlementAsset": "USDT",
+    "parentPlatform": "bitget",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Perp Maker/Taker Fees",
+      "issuerDocsUrl": "https://www.bitget.com/fee",
+      "governanceWhitepaperUrl": "https://www.bitget.com/support/articles/7700532076057",
+      "revenueConfidence": "issuer-disclosed",
+      "feeLastVerified": "2026-07-30",
+      "revenueNotes": "RWA index perps trade 24/5 (Mon 00:00 to Sat 00:00 UTC-4) and carry the isRwa API flag."
+    }
+  },
+  "roles": [
+    {
+      "organization": "btg-technology-holdings-limited-platform-operator-per-terms-of-use-with-bgr-tech-limited-seychelles-for-specific-users",
+      "kind": "issuer"
+    }
+  ]
+}

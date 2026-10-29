@@ -1,0 +1,67 @@
+{
+  "identity": {
+    "slug": "gmtrade",
+    "name": "GMTrade",
+    "legacyPid": 232,
+    "protocolSlug": "gmtrade"
+  },
+  "about": {
+    "description": "GMTrade (formerly GMXSOL) is the third-largest perpetual DEX on Solana, launched March 12, 2025 by an independent team approved through GMX DAO governance and rebranded from GMXSOL on November 26, 2025. It uses GMX's liquidity-pool architecture adapted for Solana to offer perpetual markets on commodities, public equities, equity indices, and FX in addition to crypto, with positions margined and cash-settled in USDC. GMTrade has reached $554M+ in 24-hour volume during peak activity.",
+    "logo": "https://icons.llamao.fi/icons/rwa/gmtrade.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://gmtrade.xyz/"
+      ],
+      "twitter": "https://x.com/gmtrade_xyz",
+      "docs": "https://docs.gmtrade.xyz/",
+      "linkedin": "https://www.linkedin.com/company/gmtrade",
+      "discord": "N/A (no public Discord)",
+      "telegram": "N/A (no public Telegram)",
+      "github": "N/A (closed source)",
+      "refLinks": [
+        "https://gmtrade.xyz/referrals/?ref=545"
+      ]
+    },
+    "registryInfo": "GMTrade was deployed and is iterated by an independent (anonymous) team, with GMX brand usage approved via GMX DAO governance vote. Originally launched March 12, 2025 as \"GMXSOL\" and rebranded to GMTrade on November 26, 2025 to clarify independent positioning."
+  },
+  "platform": {
+    "category": [
+      "rwa-perps"
+    ],
+    "platformType": [
+      "perp-venue"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "solana",
+    "chains": [
+      "solana"
+    ],
+    "attestationFrequency": "N/A (Perp Venue)",
+    "marginSettlementAsset": "USDC (Solana)",
+    "parentPlatform": "gmtrade",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Maker/Taker Fees + Funding Skim",
+      "revenueConfidence": "issuer-disclosed",
+      "feeLastVerified": "2026-05-11",
+      "revenueNotes": "GMTrade (formerly GMXSOL) is the third-largest perpetual DEX on Solana. Originally deployed March 12, 2025 by an independent team approved via GMX DAO governance vote to use the GMX brand on Solana, rebranded from GMXSOL on November 26, 2025. Margin/settlement is USDC on Solana. Specific maker/taker fee schedule and revenue split with GMX DAO are not publicly disclosed by the GMTrade team at audit date — closed-source iteration. Revenue Model assumed Maker/Taker Fees + Funding Skim based on GMX-style architecture."
+    }
+  },
+  "roles": [
+    {
+      "organization": "gmtrade-independent-team-gmx-dao-approved",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://gmtrade.xyz/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "N/A (Perp Venue)"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "identity": {
+    "slug": "charizard-capital",
+    "name": "Charizard Capital",
+    "legacyPid": 147
+  },
+  "about": {
+    "description": "Charizard Capital enables tokenization of equity securities and corporate shares with full corporate action support. It bridges traditional equity markets with blockchain settlement and fractional ownership.",
+    "logo": "https://icons.llamao.fi/icons/rwa/charizard-capital.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.charizardcapital.com/"
+      ],
+      "twitter": "https://x.com/CharizardCapital"
+    }
+  },
+  "platform": {
+    "category": [
+      "governance-tokens",
+      "other-rwas"
+    ],
+    "platformType": [
+      "revenue-share",
+      "collectibles"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "solana",
+    "chains": [
+      "solana"
+    ],
+    "parentPlatform": "charizard-capital",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "charizard-capital-llc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.charizardcapital.com/"
+      ]
+    }
+  ]
+}

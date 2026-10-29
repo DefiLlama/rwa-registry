@@ -1,0 +1,56 @@
+{
+  "identity": {
+    "slug": "bybit",
+    "name": "Bybit",
+    "legacyPid": 322,
+    "protocolSlug": "bybit"
+  },
+  "about": {
+    "description": "Bybit is one of the largest global crypto exchanges by volume, founded in 2018 by Ben Zhou and headquartered in Dubai since 2022. Zhou remains CEO and the venue is operated by Bybit Fintech Limited. Bybit has built one of the deepest RWA perp menus among centralized exchanges, starting with a PAXG gold-token perpetual in 2022, adding an XAUT perpetual in April 2025, direct gold and silver contracts (XAU, XAG) on 2026-03-09 and its first batch of 20 US stock perpetuals on 2026-04-21. The lineup now spans roughly 153 RWA contracts including 31 ETFs and pre-IPO perpetuals on SpaceX and CXMT, with weekly ticker additions. Contracts are USDT-margined and USDT-settled, with USDC-margined variants for the XAUT and PAXG pairs, and funding runs every 8 hours on stock perps and every 4 hours on metals. The platform serves users worldwide from Dubai, with the US, UK retail and other restricted markets excluded.",
+    "logo": "https://icons.llamao.fi/icons/rwa/bybit.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.bybit.com"
+      ],
+      "twitter": "https://x.com/Bybit_Official",
+      "docs": "https://bybit-exchange.github.io/docs/",
+      "linkedin": "https://www.linkedin.com/company/bybitexchange",
+      "discord": "https://discord.com/invite/bybit",
+      "telegram": "https://t.me/BybitEnglish"
+    },
+    "foundedYear": 2018,
+    "headquarters": "Dubai, United Arab Emirates",
+    "founders": "Ben Zhou (Co-Founder and CEO)",
+    "regulatoryStatus": "Bybit's global platform is operated by Bybit Fintech Limited from Dubai, where it holds a UAE Securities and Commodities Authority virtual asset platform operator license granted in October 2025 alongside a provisional VARA license at the emirate level. Bybit EU GmbH holds a MiCA crypto-asset service provider license granted by Austria's FMA in May 2025, passporting services across the EEA from a Vienna base. The company also holds registrations in markets including India, Kazakhstan and Georgia. In February 2025 Bybit suffered the largest crypto hack on record at roughly 1.5 billion dollars, attributed to North Korea's Lazarus Group, and covered client balances in full while keeping withdrawals open. Its TradFi perpetuals are synthetic derivatives offered outside securities licensing regimes and are not available to US persons.",
+    "keyMilestones": "2018-03: Bybit founded by Ben Zhou as a crypto derivatives exchange | 2022-03: PAXG perpetual brings tokenized gold exposure to the futures book, HQ moves to Dubai the same year | 2025-02: Roughly 1.5 billion dollar hack, the largest in crypto history, met with full client reimbursement and continued withdrawals | 2025-05: MiCA license granted in Austria establishes the regulated EEA hub | 2026-03: Gold and silver perpetuals (XAU, XAG) launch on 2026-03-09, opening the direct commodities lineup | 2026-04: First batch of 20 US stock perpetual contracts launches on 2026-04-21, growing to roughly 153 RWA contracts including 31 ETFs and pre-IPO SpaceX and CXMT",
+    "entityStructureNotes": "Bybit Fintech Limited operates the global exchange from Dubai, UAE. Bybit EU GmbH (Vienna, Austria) holds the MiCA license for the EEA. Additional local entities and registrations cover markets such as India, Kazakhstan and Georgia."
+  },
+  "platform": {
+    "category": [
+      "rwa-perps"
+    ],
+    "platformType": [
+      "perp-venue"
+    ],
+    "accessModel": "permissioned",
+    "marginSettlementAsset": "USDT; USDC",
+    "parentPlatform": "bybit",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Perp Maker/Taker Fees",
+      "issuerDocsUrl": "https://www.bybit.com/en/help-center/article/Trading-Fee-Structure",
+      "governanceWhitepaperUrl": "https://www.bybit.com/app/terms-service/information",
+      "revenueConfidence": "issuer-disclosed",
+      "feeLastVerified": "2026-07-30",
+      "revenueNotes": "First batch of 20 US stock perps launched 2026-04-21. PAXG perp live since 2022."
+    }
+  },
+  "roles": [
+    {
+      "organization": "bybit-fintech-limited",
+      "kind": "issuer"
+    }
+  ]
+}

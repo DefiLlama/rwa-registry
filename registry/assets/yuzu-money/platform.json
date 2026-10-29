@@ -1,0 +1,55 @@
+{
+  "identity": {
+    "slug": "yuzu-money",
+    "name": "Yuzu Money",
+    "legacyPid": 304
+  },
+  "about": {
+    "description": "Yuzu Money is an onchain yield platform offering structured products for neobanks, wealth managers, and accredited investors. Yuzu Prime applies capital efficient onchain leverage to investment grade fixed income assets such as Treasury bills and AAA CLOs, while Yuzu Alpha is a tranched yield bearing stablecoin stack. The platform is operated by Yuzu Fintech LLC, a virtual asset service provider licensed in the Kutaisi Free Industrial Zone of Georgia, with real time proof of reserves by Accountable.",
+    "links": {
+      "website": [
+        "https://yuzu.money/"
+      ],
+      "twitter": "https://x.com/YuzuMoneyX",
+      "docs": "https://yuzu-money.gitbook.io/yuzu-money",
+      "linkedin": "https://www.linkedin.com/company/yuzu-money"
+    },
+    "foundedYear": 2025,
+    "regulatoryStatus": "Yuzu Fintech LLC is a Virtual Asset Service Provider licensed under the Kutaisi Free Industrial Zone rules of the Republic of Georgia. Not authorized by any other regulator. Primary mint and redeem is gated to accredited and institutional investors."
+  },
+  "platform": {
+    "category": [
+      "crypto-funds"
+    ],
+    "platformType": [
+      "crypto-hedge-fund"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "monad",
+    "chains": [
+      "monad"
+    ],
+    "parentPlatform": "yuzu-money",
+    "suspicious": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Yield Spread",
+      "revenueConfidence": "issuer-disclosed",
+      "feeLastVerified": "2026-07-09",
+      "revenueNotes": "No performance fee. Yuzu takes a spread between realized strategy yield and the posted APY, smoothed through a reserve fund. Audited twice (Pashov Aug 2025, Dedaub Oct 2025) with Accountable real time proof of reserves. Team is not publicly named, seed backers are disclosed."
+    }
+  },
+  "roles": [
+    {
+      "organization": "yuzu-money",
+      "kind": "issuer"
+    }
+  ],
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

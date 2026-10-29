@@ -1,0 +1,53 @@
+{
+  "identity": {
+    "slug": "toucan-nature",
+    "name": "Toucan Nature",
+    "legacyPid": 6
+  },
+  "about": {
+    "description": "Toucan Nature is a carbon credit tokenization platform enabling fractional ownership and trading of environmental commodities. It bridges voluntary and compliance carbon markets through blockchain infrastructure.",
+    "logo": "https://icons.llamao.fi/icons/rwa/toucan-nature.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://toucan.earth"
+      ],
+      "twitter": "https://x.com/ToucanProtocol",
+      "docs": "https://docs.toucan.earth/",
+      "linkedin": "https://www.linkedin.com/company/toucan-protocol",
+      "github": "https://github.com/ToucanProtocol"
+    },
+    "registryInfo": "Toucan Protocol GmbH (Berlin, Germany). Tokenization platform for voluntary carbon credits. Issues TCO2, BCT, NCT carbon-credit pools backed by retired carbon credits held in Verra registry. Launched 2021; partnered with KlimaDAO and others."
+  },
+  "platform": {
+    "category": [
+      "carbon-environment"
+    ],
+    "platformType": [
+      "carbon-credit"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "polygon",
+    "chains": [
+      "polygon"
+    ],
+    "parentPlatform": "toucan-nature",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Mint/Redeem Fee",
+      "revenueConfidence": "no-public-data",
+      "feeLastVerified": "2026-05-11",
+      "revenueNotes": "Toucan captures small per-token bridging fees during credit on-ramping (Verra → onchain) and pool-deposit/withdrawal fees in the BCT/NCT mechanism. No native token; protocol funded by grants and partnership distributions."
+    }
+  },
+  "roles": [
+    {
+      "organization": "toucan-protocol-association",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://toucan.earth"
+      ]
+    }
+  ]
+}

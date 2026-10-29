@@ -1,0 +1,66 @@
+{
+  "identity": {
+    "slug": "felix",
+    "name": "Felix",
+    "legacyPid": 220,
+    "protocolSlug": "felix-protocol"
+  },
+  "about": {
+    "description": "Felix is a HIP-3 builder-deployed perpetual venue on Hyperliquid that launched its first market (TSLA) on November 13, 2025 powered by HyperStone (RedStone) oracles. It offers public-equity, equity-index, and commodity perpetual markets, all margined and cash-settled in USDH (or feUSD where supported), giving users synthetic price exposure rather than ownership of the underlying assets. Felix also operates a separate borrowing protocol on HyperEVM (Liquity v2 fork minting feUSD) with its founder coming from DeFi risk-management firm Anthias.xyz; both products are unified under the Felix Protocol brand. Markets appear under the flx namespace on Hyperliquid.",
+    "logo": "https://icons.llamao.fi/icons/rwa/felix.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://usefelix.gitbook.io/perps"
+      ],
+      "twitter": "https://x.com/felixprotocol",
+      "docs": "https://usefelix.gitbook.io/perps",
+      "linkedin": "https://www.linkedin.com/company/felixprotocol",
+      "discord": "https://discord.gg/felixprotocol",
+      "telegram": "https://t.me/felixprotocol",
+      "refLinks": [
+        "https://www.usefelix.xyz?ref=4BF702FF"
+      ]
+    },
+    "registryInfo": "Felix Protocol's founder previously worked at Anthias.xyz, a DeFi risk-management firm. The team holds an exclusive license from Liquity AG to repurpose and deploy Liquity v2 on HyperEVM (the borrowing/feUSD product). Felix's perpetual product is deployed under the flx namespace on Hyperliquid via HIP-3, with HyperStone (RedStone) providing oracle feeds for its first HIP-3 market (TSLA, launched November 13, 2025)."
+  },
+  "platform": {
+    "category": [
+      "rwa-perps"
+    ],
+    "platformType": [
+      "perp-venue"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "hyperliquid",
+    "chains": [
+      "hyperliquid"
+    ],
+    "attestationFrequency": "N/A (Perp Venue)",
+    "marginSettlementAsset": "USDH; feUSD (Hyperliquid)",
+    "parentPlatform": "felix",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Maker/Taker Fees + Lending Spread",
+      "revenueConfidence": "issuer-disclosed",
+      "feeLastVerified": "2026-05-11",
+      "revenueNotes": "Felix is a HIP-3 builder-deployer on Hyperliquid focused on lending and perpetual markets. Trading fees follow HIP-3 framework: standard taker ~7-9 bps, Growth Mode taker ~0.45-0.9 bps. 50% of fees go to Felix deployer, 50% to Hyperliquid protocol. Felix also earns lending spread from its money-market vault. Source: https://hyperliquid.gitbook.io/hyperliquid-docs/hyperliquid-improvement-proposals-hips/hip-3-builder-deployed-perpetuals"
+    }
+  },
+  "roles": [
+    {
+      "organization": "felix-protocol",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://usefelix.xyz/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "N/A (Perp Venue)"
+    }
+  ]
+}

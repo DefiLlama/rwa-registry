@@ -1,0 +1,43 @@
+{
+  "identity": {
+    "slug": "cap",
+    "name": "Cap",
+    "legacyPid": 155
+  },
+  "about": {
+    "description": "Cap offers a stablecoin backed by real-world assets and Treasury securities, combining yield generation with price stability. It enables institutional-grade stable settlement with underlying RWA collateral.",
+    "logo": "https://icons.llamao.fi/icons/rwa/cap.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://cap.app/"
+      ],
+      "twitter": "https://x.com/capmoney_"
+    }
+  },
+  "platform": {
+    "category": [
+      "rwa-stablecoins"
+    ],
+    "platformType": [
+      "rwa-fiat-stable"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "celo",
+    "chains": [
+      "celo"
+    ],
+    "parentPlatform": "cap",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "cap-protocol",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://cap.app/"
+      ]
+    }
+  ]
+}

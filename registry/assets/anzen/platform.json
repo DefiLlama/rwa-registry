@@ -1,0 +1,63 @@
+{
+  "identity": {
+    "slug": "anzen",
+    "name": "Anzen",
+    "legacyPid": 25
+  },
+  "about": {
+    "description": "Anzen provides tokenized access to private credit and structured finance products, connecting institutional lenders with decentralized liquidity. It enables securitization of off-chain credit through on-chain smart contracts.",
+    "logo": "https://icons.llamao.fi/icons/rwa/anzen.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://anzen.finance"
+      ],
+      "twitter": "https://x.com/anzenfinance",
+      "docs": "https://docs.anzen.finance/",
+      "linkedin": "https://www.linkedin.com/company/anzen-finance",
+      "discord": "https://discord.gg/anzenfinance",
+      "telegram": "https://t.me/anzen_finance",
+      "github": "https://github.com/anzen-finance"
+    },
+    "registryInfo": "Anzen Finance is a US private-credit RWA platform issuing USDz, a yield-bearing stablecoin backed by short-duration private-credit pools. Founded 2023, US-domiciled; partners with Securitize for compliance and Percent Lab for credit origination."
+  },
+  "platform": {
+    "category": [
+      "governance-tokens",
+      "private-credit"
+    ],
+    "platformType": [
+      "governance-token"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "base",
+    "chains": [
+      "base"
+    ],
+    "attestationFrequency": "Monthly",
+    "parentPlatform": "anzen",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Yield Spread",
+      "revenueConfidence": "no-public-data",
+      "feeLastVerified": "2026-05-11",
+      "revenueNotes": "Anzen earns the spread between gross private-credit yields (~10-15% gross) and the sUSDz pass-through rate (~6-8%) net of credit reserves and origination fees."
+    }
+  },
+  "roles": [
+    {
+      "organization": "anzen-finance",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://anzen.finance"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "Monthly attestation"
+    }
+  ]
+}

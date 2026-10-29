@@ -1,0 +1,62 @@
+{
+  "identity": {
+    "slug": "solid-world",
+    "name": "Solid World",
+    "legacyPid": 5
+  },
+  "about": {
+    "description": "Solid World is a carbon credit tokenization platform enabling fractional ownership and trading of environmental commodities. It bridges voluntary and compliance carbon markets through blockchain infrastructure.",
+    "logo": "https://icons.llamao.fi/icons/rwa/solid-world.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://solidworld.io"
+      ],
+      "twitter": "https://x.com/solidworldhq",
+      "docs": "https://docs.solid.world/",
+      "linkedin": "https://www.linkedin.com/company/solid-world-dao",
+      "discord": "https://discord.gg/solidworld",
+      "telegram": "N/A (institutional)",
+      "github": "https://github.com/solid-world"
+    },
+    "registryInfo": "Solid World (Solid World Climate AG, Switzerland) is a Swiss tokenization platform for high-quality forward carbon credits. Founded 2022 by Marco De Rossi; pioneered the \"pre-vintage\" tokenized-carbon liquidity-pool model that aims to forward-finance carbon-credit issuance via on-chain prepayments."
+  },
+  "platform": {
+    "category": [
+      "carbon-environment"
+    ],
+    "platformType": [
+      "carbon-credit"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "polygon",
+    "chains": [
+      "polygon"
+    ],
+    "attestationFrequency": "Per credit-issuance cycle",
+    "parentPlatform": "solid-world",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Origination + Trading Fee",
+      "revenueConfidence": "no-public-data",
+      "feeLastVerified": "2026-05-11",
+      "revenueNotes": "Solid World earns origination fees on each tokenized forward and trading fees on the CRISP secondary market. Protocol-fee revenue accrues to the Solid World DAO treasury."
+    }
+  },
+  "roles": [
+    {
+      "organization": "mt-solid-world",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://solidworld.io"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "Per-project verification (Verra / Gold Standard)"
+    }
+  ]
+}

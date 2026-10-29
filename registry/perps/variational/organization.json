@@ -1,0 +1,56 @@
+{
+  "identity": {
+    "slug": "variational",
+    "name": "Variational",
+    "legacyPid": 258,
+    "protocolSlug": "variational"
+  },
+  "about": {
+    "description": "Variational Omni is an RFQ-based perpetual futures DEX on Arbitrum. Trades route through the Omni Liquidity Provider (OLP), which aggregates liquidity from CEXs, DEXs, AMMs, and OTC channels. All trades cleared into isolated onchain escrow contracts with pre-defined margin/liquidation rules. Zero maker/taker fees; revenue from spread captured by OLP. 450+ live markets including crypto, pre-market, RWAs (commodities, stocks, indices), volatility indices, interest-rate swaps. Up to 50x leverage. USDC settlement.",
+    "logo": "https://icons.llamao.fi/icons/rwa/variational.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.variational.io/"
+      ],
+      "twitter": "https://x.com/variational_io",
+      "docs": "https://docs.variational.io/",
+      "linkedin": "https://www.linkedin.com/company/variational-io"
+    },
+    "registryInfo": "Variational Labs (Columbia-University-origin team). Variational Protocol is a permissionless onchain derivatives infrastructure. Variational Omni is the flagship product — an RFQ perp DEX on Arbitrum with a single professional LP (Omni Liquidity Provider) aggregating CEX/DEX/AMM/OTC liquidity. Zero trading fees model. ~$200B lifetime volume, ~$100M TVL, ranked #4 perp DEX by OI per CoinGecko case study (Apr 2026)."
+  },
+  "platform": {
+    "category": [
+      "perp-dex",
+      "rwa-perps"
+    ],
+    "platformType": [
+      "perp-dex"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "arbitrum",
+    "chains": [
+      "arbitrum"
+    ],
+    "marginSettlementAsset": "USDC (Arbitrum)",
+    "parentPlatform": "variational",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Spread Capture",
+      "feeScheduleUrl": "https://docs.variational.io/omni/trading/fees",
+      "revenueConfidence": "issuer-disclosed",
+      "feeLastVerified": "2026-05-19",
+      "revenueNotes": "Zero maker/taker fees. Revenue from spread captured by the Omni Liquidity Provider; Variational Protocol receives a cut. $0.10 flat deposit/withdraw fee. Liquidation penalty: 0.5% of mid. Source: docs.variational.io/omni/trading/fees."
+    }
+  },
+  "roles": [
+    {
+      "organization": "variational-labs",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.variational.io/"
+      ]
+    }
+  ]
+}

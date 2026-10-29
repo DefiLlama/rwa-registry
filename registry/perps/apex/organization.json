@@ -1,0 +1,71 @@
+{
+  "identity": {
+    "slug": "apex-omni",
+    "name": "ApeX Omni",
+    "legacyPid": 234,
+    "protocolSlug": "apex-omni"
+  },
+  "about": {
+    "description": "ApeX Omni is the next-generation aggregated multichain decentralized derivatives exchange from ApeX Protocol, built by Davison Labs and backed by Bybit. It evolved from ApeX Pro (StarkEx-powered) into a modular intent-centric architecture spanning Ethereum, Arbitrum, Base, BNB Chain, and Mantle (via zkLink Nova). The platform offers stock and equity-index perpetuals alongside crypto with cross-collateral margining in USDT, zero gas fees on most actions, and high-leverage execution via a permissionless non-custodial design.",
+    "logo": "https://icons.llamao.fi/icons/rwa/apex-omni.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.apex.exchange/"
+      ],
+      "twitter": "https://x.com/OfficialApeXdex",
+      "docs": "https://api-docs.pro.apex.exchange/",
+      "linkedin": "https://www.linkedin.com/company/apexprotocol",
+      "discord": "https://discord.gg/apex",
+      "telegram": "https://t.me/OfficialApeXdex",
+      "github": "https://github.com/ApeX-Protocol",
+      "refLinks": [
+        "https://omni.apex.exchange/referral?referralCode=T0S8V482"
+      ]
+    },
+    "registryInfo": "ApeX Omni is the next-generation permissionless DEX from ApeX Protocol, developed by Davison Labs and backed/incubated by Bybit. The earlier ApeX Pro product was powered by StarkWare's StarkEx Layer 2 scalability engine; ApeX Omni now operates on a multi-chain architecture aggregated via zkLink Nova (Ethereum, Arbitrum, Base, BNB Chain, Mantle)."
+  },
+  "platform": {
+    "category": [
+      "rwa-perps"
+    ],
+    "platformType": [
+      "perp-venue"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum",
+      "arbitrum",
+      "base",
+      "bsc",
+      "mantle"
+    ],
+    "attestationFrequency": "N/A (Perp Venue)",
+    "marginSettlementAsset": "USDT (multi-chain via zkLink Nova)",
+    "parentPlatform": "apex-omni",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Maker/Taker Fees",
+      "revenueConfidence": "issuer-disclosed",
+      "feeLastVerified": "2026-05-11",
+      "revenueNotes": "ApeX Omni standard fees: 2 bps maker / 5 bps taker. Launch promotional tier (subject to change): 0 bps maker / 2.5 bps taker for accounts with ≤$500K 30-day volume, 0 bps maker / 5 bps taker for accounts above. Negative bot fees (-0.2 bps) and VIP rebates (up to -0.5 bps) available. No gas fees (L2 infrastructure). Source: https://www.apex.exchange/blog/detail/Enhancing-Your-Trading-Experience-on-ApeX-Omni-Fee-Structure-Updates"
+    }
+  },
+  "roles": [
+    {
+      "organization": "apex-protocol-built-by-davison-labs",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.apex.exchange/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "N/A (Perp Venue)"
+    }
+  ]
+}

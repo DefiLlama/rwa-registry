@@ -1,0 +1,46 @@
+{
+  "identity": {
+    "slug": "raac",
+    "name": "RAAC",
+    "legacyPid": 141
+  },
+  "about": {
+    "description": "RAAC offers a stablecoin backed by real-world assets and Treasury securities, combining yield generation with price stability. It enables institutional-grade stable settlement with underlying RWA collateral.",
+    "logo": "https://icons.llamao.fi/icons/rwa/raac.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://pmusd.raac.io/"
+      ],
+      "twitter": "https://x.com/Raacfi",
+      "docs": "https://docs.raac.fi/",
+      "linkedin": "https://www.linkedin.com/company/raac-protocol"
+    }
+  },
+  "platform": {
+    "category": [
+      "rwa-stablecoins",
+      "gold-commodities"
+    ],
+    "platformType": [
+      "rwa-fiat-stable"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "parentPlatform": "raac",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "i-on-digital-corp-ion-au",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://pmusd.raac.io/"
+      ]
+    }
+  ]
+}

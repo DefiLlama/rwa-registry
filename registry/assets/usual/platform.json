@@ -1,0 +1,60 @@
+{
+  "identity": {
+    "slug": "usual",
+    "name": "Usual",
+    "legacyPid": 22,
+    "protocolSlug": "usual"
+  },
+  "about": {
+    "description": "Usual offers a stablecoin backed by real-world assets and Treasury securities, combining yield generation with price stability. It enables institutional-grade stable settlement with underlying RWA collateral.",
+    "logo": "https://icons.llamao.fi/icons/rwa/usual.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://usual.money"
+      ],
+      "twitter": "https://x.com/usualmoney",
+      "docs": "https://docs.usual.money/",
+      "linkedin": "https://www.linkedin.com/company/usual-money"
+    },
+    "foundedYear": 2022,
+    "headquarters": "Paris, France",
+    "founders": "Pierre Person (Co-Founder, CEO), Hugo Salle de Chou (Co-Founder, COO), Adli Takkal Bataille (Co-Founder)",
+    "regulatoryStatus": "USD0 is issued by the Usual DAO rather than a licensed e-money institution and no MiCA authorization or AMF PSAN registration is verifiable. Terms are provided by ADDU, a French association, and prohibit US users. Regulatory posture rests on the collateral layer through regulated tokenizers including Hashnote USYC, Spiko, and M0 with custody at BNY Mellon and CACEIS.",
+    "keyMilestones": "2026-01: Usual Credit fixed rate lending launched and DAO approved acquiring the Fira lending protocol | 2025-12: USD0 plus plus restructured into bUSD0 and rt-bUSD0 with full DAO convergence to community ownership | 2025-10: EUR0 euro stablecoin launched | 2025-01: USD0 plus plus redemption floor change triggered a depeg below 90 cents | 2024-12: 10M Series A led by Binance Labs and Kraken Ventures",
+    "entityStructureNotes": "Up Only Co, a French SAS in Paris known as Usual Labs, develops the protocol while ADDU, a French association, provides interfaces and DAO organization. USD0 is issued onchain by the Usual DAO which since December 2025 holds all protocol assets. USUAL tokens confer no equity in either French entity."
+  },
+  "platform": {
+    "category": [
+      "rwa-stablecoins"
+    ],
+    "platformType": [
+      "rwa-fiat-stable"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "parentPlatform": "usual",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "mintFeeBps": 0,
+      "redemptionFeeBps": 0,
+      "floatIncome": true,
+      "revenueConfidence": "issuer-disclosed",
+      "feeLastVerified": "2026-07-09",
+      "revenueNotes": "Mint fee zero and redemption fee governance configurable, currently zero per the fact sheet. T-bill collateral yield is protocol revenue with 30 percent distributed weekly to locked USUAL holders and 70 percent to the DAO treasury since January 2025."
+    }
+  },
+  "roles": [
+    {
+      "organization": "association-de-d-veloppement-de-la-dao-usual-addu",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://usual.money"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "identity": {
+    "slug": "coinex",
+    "name": "CoinEx",
+    "legacyPid": 324,
+    "protocolSlug": "coinex"
+  },
+  "about": {
+    "description": "CoinEx is a global cryptocurrency exchange launched in December 2017 by Haipo Yang, the founder of the ViaBTC mining pool, and it began in Hong Kong. Yang remains founder and CEO per company communications through 2025, and the platform positions itself as a retail-focused venue with spot, margin, and more than 200 futures markets. Its RWA perpetual book holds 8 USDT-margined linear contracts, five xStock tokenized-equity perps (TSLAX, NVDAX, GOOGLX, MSTRX, CRCLX) plus Tether Gold (XAUT), silver (XAG), and WTI crude (CL). The tokenized-stock perps began with TSLAXUSDT on 2026-02-10 and the crude contract followed on 2026-04-17, with leverage on these markets capped at 20x. Contracts are margined and settled in USDT, funding is exchanged at 8-hour intervals, and base fees on these markets are 3 bps maker and 5 bps taker. The contracting entity in the current Terms of Service is Algebraiex Global Limited, and the venue serves retail users globally except in prohibited jurisdictions including the United States, which CoinEx exited after its 2023 New York settlement.",
+    "logo": "https://icons.llamao.fi/icons/rwa/coinex.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.coinex.com"
+      ],
+      "twitter": "https://x.com/coinexcom",
+      "docs": "https://docs.coinex.com/api/v2/",
+      "discord": "https://discord.gg/9aTtZBwrbQ",
+      "telegram": "https://t.me/CoinExOfficialEN"
+    },
+    "foundedYear": 2017,
+    "headquarters": "Founded in Hong Kong, current headquarters city not officially disclosed",
+    "founders": "Haipo Yang (Founder and CEO)",
+    "regulatoryStatus": "CoinEx does not publish licenses from major financial regulators and operates as an offshore venue with a list of prohibited jurisdictions. In February 2023 the New York Attorney General sued the operator, Vino Global Limited d/b/a CoinEx, under the Martin Act for acting as an unregistered securities and commodities broker-dealer. The June 2023 consent order required about $1.7 million in restitution and penalties, banned the platform from New York, required it to stop serving US customers, blocked new US accounts, and mandated geoblocking of New York IP addresses. The current Terms of Service name Algebraiex Global Limited as the contracting entity, and the tokenized-stock perps reference Backed xStocks certificates that are themselves not offered to US persons.",
+    "keyMilestones": "2017-12: CoinEx launched by ViaBTC founder Haipo Yang | 2023-06: Settled with New York Attorney General for about $1.7m, barred from New York and exited the US | 2023-09: Hot wallet hack of roughly $70m, CoinEx pledged 100 percent compensation and rebuilt wallet systems | 2024-05: Listed Tether Gold (XAUT) spot market | 2026-02: Listed TSLAXUSDT, its first tokenized-stock perpetual, days after the TSLAX spot listing | 2026-04: Listed CLUSDT crude oil perpetual, RWA perp book reaches 8 contracts",
+    "entityStructureNotes": "Current contracting entity per Terms of Service is Algebraiex Global Limited, jurisdiction of incorporation not disclosed on the site. The 2023 New York consent order was executed by Vino Global Limited d/b/a CoinEx. CoinEx sits in the ViaBTC founder ecosystem alongside ViaBTC Pool, ViaBTC Capital, CoinEx Wallet, and CoinEx Smart Chain."
+  },
+  "platform": {
+    "category": [
+      "rwa-perps"
+    ],
+    "platformType": [
+      "perp-venue"
+    ],
+    "accessModel": "permissioned",
+    "marginSettlementAsset": "USDT",
+    "parentPlatform": "coinex",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Perp Maker/Taker Fees",
+      "issuerDocsUrl": "https://www.coinex.com/en/fees",
+      "governanceWhitepaperUrl": "https://www.coinex.com/en/service",
+      "revenueConfidence": "issuer-disclosed",
+      "feeLastVerified": "2026-07-30",
+      "revenueNotes": "Small tokenized-stock perp program on Backed xStocks bases."
+    }
+  },
+  "roles": [
+    {
+      "organization": "algebraiex-global-limited-contracting-entity-per-coinex-terms-of-service",
+      "kind": "issuer"
+    }
+  ]
+}

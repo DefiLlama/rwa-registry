@@ -1,0 +1,16 @@
+{
+  "slug": "binance",
+  "organization": "binance",
+  "venueType": "cex",
+  "adapter": "binance",
+  "published": true,
+  "makerFeeBps": 2,
+  "takerFeeBps": 5,
+  "oracleProvider": "Binance TradFi index, weighted median of third-party vendors",
+  "accessModel": "permissioned",
+  "rwaClassification": "programmable-finance",
+  "conventionNote": "Funding settles every 8 hours on most markets and every 4 hours on 11, read per symbol from fundingInfo, and equity perps run under the TradFi Perpetuals programme at 0 bps maker and 4 bps taker since 2026-03-31.",
+  "website": "https://www.binance.com/en/futures",
+  "issuer": "Binance",
+  "marginAsset": "USDT"
+}

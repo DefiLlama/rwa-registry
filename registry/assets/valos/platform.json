@@ -1,0 +1,46 @@
+{
+  "identity": {
+    "slug": "valos",
+    "name": "Valos",
+    "legacyPid": 294
+  },
+  "about": {
+    "description": "Valos is a Finland based digital asset manager specializing in private credit for the crypto industry. It lends to institutional borrowers such as market makers, prime brokers, exchanges, and custodians, and has deployed over one billion dollars across more than 50 active loans. Its onchain credit vault on Monad issues vUSD as a share token, with the loan book verified in real time by Accountable Data Verification Network.",
+    "links": {
+      "website": [
+        "https://valos.io/"
+      ],
+      "twitter": "https://x.com/Valos_io",
+      "linkedin": "https://www.linkedin.com/company/valosdigital"
+    }
+  },
+  "platform": {
+    "category": [
+      "private-credit"
+    ],
+    "primaryChain": "monad",
+    "chains": [
+      "monad"
+    ],
+    "suspicious": false,
+    "fees": {
+      "revenueModel": "Lending Spread",
+      "revenueConfidence": "no-public-data",
+      "feeLastVerified": "2026-07-02",
+      "revenueNotes": "The vault targets 7 to 8 percent net APY to depositors from institutional lending. Valos earns the spread between borrower rates and the depositor yield. There is no public fee schedule."
+    }
+  },
+  "roles": [
+    {
+      "organization": "lumen-digital-oy-finland",
+      "kind": "issuer"
+    }
+  ],
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "flx",
+  "organization": "felix",
+  "parent": "hyperliquid",
+  "venueType": "dex",
+  "chain": "hyperliquid",
+  "adapter": "hyperliquid",
+  "published": true,
+  "oracleProvider": "Felix external commodity reference methodology",
+  "accessModel": "permissionless",
+  "rwaClassification": "programmable-finance",
+  "conventionNote": "Funding settles every hour as on every Hyperliquid perp, with the HIP-3 premium formula; Felix shut down on 2026-06-19 and its markets were liquidated.",
+  "website": "https://usefelix.gitbook.io/perps",
+  "issuer": "Felix",
+  "marginAsset": "USDH",
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ],
+  "makerFeeBps": null,
+  "takerFeeBps": null
+}

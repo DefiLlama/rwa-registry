@@ -1,0 +1,51 @@
+{
+  "identity": {
+    "slug": "paypal",
+    "name": "PayPal",
+    "legacyPid": 15
+  },
+  "about": {
+    "description": "PayPal issues a fiat-backed stablecoin maintained at parity with its reference currency through reserve backing and redemption mechanisms. It enables fast, low-cost settlement of stablecoin transactions.",
+    "logo": "https://icons.llamao.fi/icons/rwa/paypal.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.paypal.com/pyusd"
+      ],
+      "twitter": "https://x.com/PayPal",
+      "docs": "https://developer.paypal.com/",
+      "linkedin": "https://www.linkedin.com/company/paypal"
+    },
+    "foundedYear": 1998,
+    "headquarters": "San Jose, USA",
+    "founders": "Enrique Lores (President, CEO since March 2026)",
+    "regulatoryStatus": "PayPal Holdings Inc. is a public company on NASDAQ under PYPL. PYUSD is not issued by PayPal itself but by Paxos Trust Company under NYDFS oversight and since December 2025 an OCC national trust charter. Paxos publishes monthly reserve reports and third party attestations for PYUSD reserves.",
+    "keyMilestones": "2026-03: PYUSD available across 70 markets | 2026-02: Enrique Lores appointed CEO effective March 1 | 2025-07: Pay with Crypto launched for merchants and PYUSD expanded to Arbitrum | 2024-05: PYUSD launches on Solana | 2023-08: PayPal launches PYUSD issued by Paxos Trust Company",
+    "entityStructureNotes": "PayPal Holdings Inc. is the Delaware incorporated NASDAQ listed parent, independent from eBay since July 2015. PYUSD is issued by Paxos Trust Company under New York and now federal trust oversight while PayPal distributes the token through PayPal and Venmo."
+  },
+  "platform": {
+    "category": [
+      "fiat-stablecoins"
+    ],
+    "platformType": [
+      "usd-stable"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "parentPlatform": "paypal",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "paxos-trust-company-llc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.paypal.com/pyusd"
+      ]
+    }
+  ]
+}

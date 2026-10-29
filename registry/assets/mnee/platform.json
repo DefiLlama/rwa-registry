@@ -1,0 +1,43 @@
+{
+  "identity": {
+    "slug": "mnee",
+    "name": "MNEE",
+    "legacyPid": 179
+  },
+  "about": {
+    "description": "MNEE issues a fiat-backed stablecoin maintained at parity with its reference currency through reserve backing and redemption mechanisms. It enables fast, low-cost settlement of stablecoin transactions.",
+    "logo": "https://icons.llamao.fi/icons/rwa/mnee.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.mnee.io/"
+      ],
+      "twitter": "https://x.com/MNEE_cash"
+    }
+  },
+  "platform": {
+    "category": [
+      "fiat-stablecoins"
+    ],
+    "platformType": [
+      "usd-stable"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "parentPlatform": "mnee",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "mnee",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.mnee.io/"
+      ]
+    }
+  ]
+}

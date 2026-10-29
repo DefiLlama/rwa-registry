@@ -1,0 +1,77 @@
+{
+  "identity": {
+    "slug": "fidelity",
+    "name": "Fidelity",
+    "legacyPid": 72
+  },
+  "about": {
+    "description": "Fidelity Treasury Digital Fund OnChain Class (FYOXX) is the first SEC-registered MMF from Fidelity Investments to record ownership on a public blockchain. Launched 2025 by Fidelity Investments, FYOXX is a share class of the existing Fidelity Treasury Digital Fund and invests in US Treasury securities and repurchase agreements collateralized by Treasuries. Share ownership is recorded on Ethereum via a transfer-agent-controlled smart contract; the on-chain class is institutional-only with a $1M minimum and offered to qualified institutional buyers. Tokens are non-transferable and non-self-custodied; redemptions are in USD via the transfer agent. Fidelity is a top-5 US asset manager and one of the largest US 401(k) administrators; the FYOXX launch follows competitor MMFs from BlackRock (BUIDL), Franklin Templeton (BENJI), and WisdomTree (WTGXX).",
+    "logo": "https://icons.llamao.fi/icons/rwa/fidelity.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://institutional.fidelity.com/app/funds-and-products/9053/fidelity-treasury-digital-fund-onchain-class-fyoxx.html"
+      ],
+      "twitter": "https://x.com/digitalassets",
+      "docs": "https://www.fidelity.com/",
+      "linkedin": "https://www.linkedin.com/company/fidelity-investments"
+    },
+    "registryInfo": "Fidelity Treasury Digital Fund (FYOXX, OnChain Class) is a series of Fidelity Hereford Street Trust, a Massachusetts business trust registered with the SEC as an open-end investment company under the Investment Company Act of 1940 (CIK 0000877212). Sponsor: Fidelity Investments (FMR LLC, parent), one of the largest US asset managers ($4T+ AUM). The OnChain Class records share ownership on Ethereum via a transfer-agent-controlled smart contract; the underlying assets (US Treasury securities and cash) sit in the master fund. Fund administrator: Fidelity Service Company. Custodian: State Street. Auditor: PricewaterhouseCoopers LLP."
+  },
+  "platform": {
+    "category": [
+      "bond-mmf-funds"
+    ],
+    "platformType": [
+      "mmf"
+    ],
+    "accessModel": "permissioned",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "attestationFrequency": "Daily NAV; annual audited financials filed with SEC",
+    "parentPlatform": "fidelity",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Asset Manager Fee",
+      "holderTotalFeeBps": 14,
+      "assetManagerTakeBps": 14,
+      "tokenizationPlatformTakeBps": 0,
+      "performanceFeePct": 0,
+      "mintFeeBps": 0,
+      "redemptionFeeBps": 0,
+      "underlyingFundExpenseBps": 14,
+      "floatIncome": false,
+      "prospectusUrl": "https://www.fidelity.com/mutual-funds/details/fidelity-funds.shtml?symbol=FYOXX",
+      "issuerDocsUrl": "https://institutional.fidelity.com/app/funds-and-products/9053/fidelity-treasury-digital-fund-onchain-class-fyoxx.html",
+      "revenueConfidence": "public-filings",
+      "feeLastVerified": "2026-05-10",
+      "feeWaiverEndDate": "2027-04-30",
+      "revenueNotes": "Per SEC-filed FYOXX prospectus: gross expense ratio approximately 30 bps; net expense ratio approximately 14 bps after contractual fee waivers. Numbers should be re-verified against the most recent FYOXX prospectus / SAI filing. Tokenization handled in-house by Fidelity transfer agent — no separate vendor fee."
+    }
+  },
+  "roles": [
+    {
+      "organization": "fidelity-hereford-street-trust-registered-investment-company",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://institutional.fidelity.com/app/funds-and-products/9053/fidelity-treasury-digital-fund-onchain-class-fyoxx.html"
+      ]
+    },
+    {
+      "organization": "fidelity-investments-sponsor",
+      "kind": "sponsor",
+      "sourceLinks": [
+        "https://institutional.fidelity.com/app/funds-and-products/9053/fidelity-treasury-digital-fund-onchain-class-fyoxx.html"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "Continuous (NAV)"
+    }
+  ]
+}

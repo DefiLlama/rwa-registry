@@ -1,0 +1,77 @@
+{
+  "identity": {
+    "slug": "superstate",
+    "name": "Superstate",
+    "legacyPid": 80,
+    "protocolSlug": "superstate"
+  },
+  "about": {
+    "description": "Superstate is a blockchain-based platform providing infrastructure for tokenization and on-chain financial services. It enables users to access and trade diverse digital assets through decentralized protocols.",
+    "logo": "https://icons.llamao.fi/icons/rwa/superstate.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://superstate.com/ustb"
+      ],
+      "twitter": "https://x.com/superstateinc",
+      "docs": "https://docs.superstate.com/",
+      "linkedin": "https://www.linkedin.com/company/superstate-finance",
+      "discord": "N/A (institutional)",
+      "telegram": "N/A (institutional)",
+      "github": "https://github.com/superstateinc"
+    },
+    "registryInfo": "Superstate, Inc. (Delaware C-corp; SEC-registered investment adviser). Founded 2023 by Robert Leshner (Compound founder), Reeve Collins, Jim Hiltner. Issues USTB (Short-Duration US Government Securities Fund) and USCC (Crypto Carry Fund, basis-trade) — both registered 1940-Act-equivalent feeders distributed onchain. $250M+ combined AUM.",
+    "foundedYear": 2023,
+    "headquarters": "New York, USA",
+    "founders": "Robert Leshner (Co-Founder, CEO), Jim Hiltner (Co-Founder)",
+    "regulatoryStatus": "Superstate Advisers LLC is a registered investment adviser and Superstate Services LLC is an SEC registered transfer agent. The funds are private Delaware Statutory Trust series offered under Reg D to accredited investors and qualified purchasers. As of 2026 Invesco Advisers manages USTB and Bitwise manages USCC, with Superstate as sub advisor and transfer agent for both.",
+    "keyMilestones": "2026-06: Bitwise takeover of USCC completed as the Bitwise Crypto Carry Fund | 2026-03: Invesco announced as investment manager of USTB | 2025-05: Opening Bell launched bringing SEC registered public equities onchain | 2024-07: USCC launched | 2024-02: USTB launched | 2023-06: first SEC filing and seed round",
+    "entityStructureNotes": "Superstate Inc. is the parent with Superstate Advisers LLC as RIA and Superstate Services LLC as SEC registered transfer agent. Funds are Delaware Statutory Trust series held as tokens on Ethereum, Solana, and Plume or in book entry form. Superstate has shifted toward FundOS infrastructure, delegating USTB to Invesco and USCC to Bitwise."
+  },
+  "platform": {
+    "category": [
+      "bond-mmf-funds"
+    ],
+    "platformType": [
+      "t-bills"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "attestationFrequency": "Daily / Weekly",
+    "parentPlatform": "superstate",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Management Fee",
+      "holderTotalFeeBps": 15,
+      "assetManagerTakeBps": 15,
+      "tokenizationPlatformTakeBps": 0,
+      "performanceFeePct": 0,
+      "mintFeeBps": 0,
+      "redemptionFeeBps": 0,
+      "underlyingFundExpenseBps": 15,
+      "floatIncome": false,
+      "revenueConfidence": "issuer-disclosed",
+      "feeLastVerified": "2026-07-09",
+      "revenueNotes": "USTB charges up to 15 bps with a 10 bps monthly rebate on average daily holdings above 25 million dollars, with no performance fee. USCC charges 75 bps. After the Invesco and Bitwise transitions headline fees accrue to the external managers with Superstate earning undisclosed infrastructure and transfer agency fees via FundOS."
+    }
+  },
+  "roles": [
+    {
+      "organization": "superstate-trust-superstate-ustb-money-market-fund",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://superstate.com/ustb"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "Daily NAV (USTB) + Weekly (USCC)"
+    }
+  ]
+}

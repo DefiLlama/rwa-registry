@@ -1,0 +1,45 @@
+{
+  "identity": {
+    "slug": "avalon",
+    "name": "Avalon",
+    "legacyPid": 159
+  },
+  "about": {
+    "description": "Avalon offers a stablecoin backed by real-world assets and Treasury securities, combining yield generation with price stability. It enables institutional-grade stable settlement with underlying RWA collateral.",
+    "logo": "https://icons.llamao.fi/icons/rwa/avalon.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://avalonfinance.xyz/"
+      ],
+      "twitter": "https://x.com/avalonfinance_",
+      "docs": "https://docs.avalonfinance.xyz/",
+      "linkedin": "https://www.linkedin.com/company/avalon-labs"
+    }
+  },
+  "platform": {
+    "category": [
+      "non-rwa-stablecoins"
+    ],
+    "platformType": [
+      "crypto-stable"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "parentPlatform": "avalon",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "avalon-labs",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://avalonfinance.xyz/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "slug": "evident",
+    "name": "EVIDENT",
+    "legacyPid": 282
+  },
+  "about": {
+    "logo": "https://icons.llamao.fi/icons/rwa/evident.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.evident.capital"
+      ],
+      "twitter": "https://x.com/EvidentCapital"
+    }
+  },
+  "platform": {
+    "category": [
+      "bond-mmf-funds"
+    ],
+    "primaryChain": "polygon",
+    "delisted": false
+  }
+}

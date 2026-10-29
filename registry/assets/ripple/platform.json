@@ -1,0 +1,57 @@
+{
+  "identity": {
+    "slug": "ripple",
+    "name": "Ripple",
+    "legacyPid": 16
+  },
+  "about": {
+    "description": "Ripple issues a fiat-backed stablecoin maintained at parity with its reference currency through reserve backing and redemption mechanisms. It enables fast, low-cost settlement of stablecoin transactions.",
+    "logo": "https://icons.llamao.fi/icons/rwa/ripple.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://ripple.com"
+      ],
+      "twitter": "https://x.com/Ripple",
+      "docs": "https://ripple.com/developers/",
+      "linkedin": "https://www.linkedin.com/company/ripple-labs"
+    },
+    "foundedYear": 2012,
+    "headquarters": "San Francisco, USA",
+    "founders": "Brad Garlinghouse (CEO), Monica Long (President), Chris Larsen (Co-Founder, Executive Chairman)",
+    "regulatoryStatus": "RLUSD is issued by Standard Custody and Trust Company, a Ripple subsidiary holding a New York limited purpose trust charter with NYDFS approval from December 2024. In December 2025 the OCC granted conditional approval for Ripple National Trust Bank under dual OCC and NYDFS oversight. RLUSD reserves are custodied by BNY. In July 2026 Ripple received full MiCA CASP authorization via Luxembourg CSSF.",
+    "keyMilestones": "2026-07: full MiCA CASP authorization via Luxembourg CSSF | 2025-12: OCC conditional approval for Ripple National Trust Bank | 2025-07: OCC application filed and BNY selected as RLUSD reserve custodian | 2024-12: RLUSD launches after NYDFS approval | 2024-06: Standard Custody acquisition completed | 2012-09: company founded",
+    "entityStructureNotes": "Ripple Labs Inc. is the parent with RLUSD issued through subsidiary Standard Custody and Trust Company under its NYDFS trust charter. Ripple National Trust Bank is conditionally approved by the OCC. European operations run through Luxembourg licensed entities holding EMI and CASP authorizations."
+  },
+  "platform": {
+    "category": [
+      "fiat-stablecoins"
+    ],
+    "platformType": [
+      "usd-stable"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ripple",
+    "chains": [
+      "ripple"
+    ],
+    "parentPlatform": "ripple",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "floatIncome": true,
+      "revenueConfidence": "no-public-data",
+      "feeLastVerified": "2026-07-09",
+      "revenueNotes": "RLUSD user terms state redemption at 1 dollar less fees for direct enterprise customers but no fee schedule is published. Monetization is reserve float plus the token role in Ripple Payments and Ripple Prime."
+    }
+  },
+  "roles": [
+    {
+      "organization": "standard-custody-trust-company-llc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://ripple.com"
+      ]
+    }
+  ]
+}

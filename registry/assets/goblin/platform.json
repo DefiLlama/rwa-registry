@@ -1,0 +1,57 @@
+{
+  "identity": {
+    "slug": "goblin",
+    "name": "Goblin",
+    "legacyPid": 312
+  },
+  "about": {
+    "description": "Goblin (Goblin Finance) is a yield-aggregation protocol launched in 2025, originally on Aptos, where its GoVault product runs automated liquidity-management strategies; in 2026 it added its first RWA product, a permissioned private-credit vault on Pharos Network settled via Ember Protocol, with the issuer recorded as Goblin Issuer Inc. It closed a $1M strategic round in December 2025 led by OKX Ventures, Gate Ventures and BlockBooster, with participation from Aptos Foundation and Hyperion. The team is anonymous, no regulatory registrations are disclosed, and Goblin Issuer Inc could not be verified in any company registry; the docs disclose no borrowers, credit manager, custodian or fee schedule for the RWA vault, and published audits (MoveBit, Plainshift) cover only the Aptos ALM vaults.",
+    "logo": "https://icons.llamao.fi/icons/rwa/goblin.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://goblin.fi/"
+      ],
+      "twitter": "https://x.com/the_goblin_fi",
+      "docs": "https://docs.goblin.fi/",
+      "discord": "https://discord.com/invite/BcUN2MuDCk",
+      "telegram": "https://t.me/Goblinfinance_Official"
+    },
+    "foundedYear": 2025,
+    "regulatoryStatus": "None disclosed. No licenses, registrations, or securities exemptions referenced on the website or documentation; issuing entity and jurisdiction for the private-credit vault not disclosed.",
+    "keyMilestones": "2025-08: public launch as liquidity infrastructure on Aptos | 2025-11: GoAPT liquid staking token launched | 2025-12: $1M strategic round led by OKX Ventures, Gate Ventures, BlockBooster | 2026-07: first RWA private-credit vault live on Pharos Network",
+    "entityStructureNotes": "Vault issuer recorded as Goblin Issuer Inc; jurisdiction of incorporation not disclosed and not found in registry searches. No corporate entity, address, or legal terms page identified. RWA vault settles via Ember Protocol on Pharos."
+  },
+  "platform": {
+    "category": [
+      "private-credit"
+    ],
+    "platformType": [
+      "structured-credit"
+    ],
+    "accessModel": "permissioned",
+    "primaryChain": "pharos",
+    "chains": [
+      "pharos"
+    ],
+    "suspicious": false,
+    "delisted": false,
+    "fees": {
+      "revenueModel": "Vault performance fee (rate undisclosed)",
+      "floatIncome": false,
+      "revenueConfidence": "no-public-data",
+      "feeLastVerified": "2026-07-20",
+      "revenueNotes": "Docs confirm a performance fee exists in the vault APY formula but no numeric fee schedule is published; no fee terms at all for the RWA private-credit vault.",
+      "revenueVerificationMethod": "docs.goblin.fi full index incl. Key Concepts, GoVault, RWA Vault and Audit pages; no fee schedule or legal terms published"
+    }
+  },
+  "roles": [
+    {
+      "organization": "goblin-issuer-inc",
+      "kind": "issuer"
+    },
+    {
+      "organization": "goblin-issuer-inc",
+      "kind": "oracle"
+    }
+  ]
+}

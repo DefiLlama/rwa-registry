@@ -1,0 +1,55 @@
+{
+  "identity": {
+    "slug": "robinhood",
+    "name": "Robinhood",
+    "legacyPid": 205,
+    "protocolSlug": "robinhood"
+  },
+  "about": {
+    "description": "Robinhood is a publicly listed (NASDAQ: HOOD) US retail brokerage founded in 2013 by Vlad Tenev (CEO) and Baiju Bhatt and headquartered in Menlo Park, CA. Its tokenized-stock product launched June 2025, issuing 200+ EU-regulated 1:1 stock & ETF tokens on Arbitrum (eventually migrating to Robinhood's own L2). Tokens are MiFID II-compliant securities issued by Robinhood Europe UAB to qualified non-US users; settlement is on-chain and tokens accrue dividends and corporate actions automatically. Robinhood is the single largest tokenized-equity issuer on-chain by ticker count, with the biggest ticker breadth across any RWA platform.",
+    "logo": "https://icons.llamao.fi/icons/rwa/robinhood.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://robinhood.com/"
+      ],
+      "twitter": "https://x.com/RobinhoodApp",
+      "docs": "https://robinhood.com/us/en/support/",
+      "linkedin": "https://www.linkedin.com/company/robinhood-markets",
+      "discord": "https://discord.gg/robinhood",
+      "telegram": "https://t.me/robinhoodapp",
+      "github": "https://github.com/robinhood-markets"
+    },
+    "registryInfo": "Robinhood Markets, Inc. — Delaware C-corporation. NASDAQ-listed (ticker: HOOD; IPO July 29, 2021). Subsidiaries Robinhood Financial LLC (FINRA-registered broker-dealer) and Robinhood Crypto, LLC. Headquartered at 85 Willow Road, Menlo Park, CA 94025. Founded 2013. Co-founders Vlad Tenev (CEO) and Baiju Bhatt. Robinhood Stock Tokens are issued and minted on Arbitrum from the EU under MiFID II via Robinhood Europe UAB (Lithuanian-licensed investment firm)."
+  },
+  "platform": {
+    "category": [
+      "stocks-equities"
+    ],
+    "platformType": [
+      "tokenized-stocks"
+    ],
+    "accessModel": "permissioned",
+    "primaryChain": "arbitrum",
+    "chains": [
+      "arbitrum"
+    ],
+    "parentPlatform": "robinhood",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Hybrid",
+      "revenueConfidence": "public-filings",
+      "revenueNotes": "Robinhood Markets generates revenue primarily from payment-for-order-flow (PFOF) on equities/options/crypto, transaction rebates from exchange counterparties, net interest income on cash/margin balances, Robinhood Gold subscription fees, and securities lending. Tokenized stock products (e.g. Robinhood-issued shares on Arbitrum) layer minimal mint/redeem fees on top of the existing brokerage P&L. Public company (NASDAQ: HOOD)."
+    }
+  },
+  "roles": [
+    {
+      "organization": "robinhood-markets-inc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://robinhood.com/us/en/about/"
+      ]
+    }
+  ]
+}

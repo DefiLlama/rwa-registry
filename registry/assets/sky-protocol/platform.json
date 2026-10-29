@@ -1,0 +1,79 @@
+{
+  "identity": {
+    "slug": "sky-protocol",
+    "name": "Sky Protocol",
+    "legacyPid": 8
+  },
+  "about": {
+    "description": "Sky Protocol is a stablecoin and governance ecosystem built on the MakerDAO foundation, enabling DAI issuance and decentralized finance primitives. It provides SKY token incentives and protocol governance.",
+    "logo": "https://icons.llamao.fi/icons/rwa/sky-protocol.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://sky.money/"
+      ],
+      "twitter": "https://twitter.com/SkyEcosystem",
+      "docs": "https://docs.sky.money/",
+      "linkedin": "https://www.linkedin.com/company/skyecosystem",
+      "discord": "https://discord.com/invite/skyecosystem",
+      "github": "https://github.com/sky-ecosystem"
+    },
+    "registryInfo": "Sky Protocol (formerly MakerDAO; rebranded Sept 2024). Decentralized lending and stablecoin protocol issuing DAI/USDS (collateralized stablecoin). Founded 2014 by Rune Christensen. SKY governance token (post-Maker rename). RWA exposure via Spark Protocol allocations into BlackRock BUIDL, Steakhouse, Centrifuge pools, and US-Treasury direct holdings.",
+    "foundedYear": 2014,
+    "headquarters": "Decentralized (DAO)",
+    "founders": "Rune Christensen (Co-Founder), governed by SKY token holders with no CEO",
+    "regulatoryStatus": "Sky is a decentralized protocol whose stablecoins USDS and DAI are issued by smart contracts rather than a licensed legal entity. Official sources disclose no licenses or registrations with any regulator and no MiCA or GENIUS Act authorization is claimed. Governance decisions are executed through onchain executive votes.",
+    "keyMilestones": "2024-09: USDS, sUSDS and SKY tokens initialized with the sky.money launch | 2024-08: MakerDAO rebrand to Sky announced | 2017-12: Dai stablecoin launches on Ethereum mainnet | 2015-03: project publicly introduced by Rune Christensen",
+    "entityStructureNotes": "The protocol smart contracts issue USDS and legacy DAI, with MKR upgraded to SKY at 1 to 24000. There is no central issuing company. The sky.money app is a front end and governance runs through the forum and onchain votes."
+  },
+  "platform": {
+    "category": [
+      "non-rwa-stablecoins"
+    ],
+    "platformType": [
+      "crypto-stable"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "attestationFrequency": "Continuous (on-chain)",
+    "parentPlatform": "sky-protocol",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Yield Spread + Stability Fees",
+      "holderTotalFeeBps": 0,
+      "tokenizationPlatformTakeBps": 0,
+      "mintFeeBps": 0,
+      "redemptionFeeBps": 0,
+      "floatIncome": true,
+      "feeScheduleUrl": "https://developers.skyeco.com/guides/psm/litepsm/",
+      "issuerDocsUrl": "https://developers.skyeco.com/",
+      "governanceWhitepaperUrl": "https://forum.skyeco.com",
+      "revenueConfidence": "issuer-disclosed",
+      "feeLastVerified": "2026-07-02",
+      "revenueNotes": "Sky earns spread between underlying RWA yields (T-Bills, MMFs, credit pools) and the Sky Savings Rate paid to USDS-holders. Plus stability fees on collateralized borrowing. Surplus revenue flows to SKY-token buyback-and-burn and to the DAO treasury.",
+      "revenueVerificationMethod": "eth_call reads on 2026-07-02 via ethereum-rpc.publicnode.com: sUSDS ssr per-second rate converts to 3.603 percent APY, pot dsr converts to 1.251 percent, and LitePSM tin and tout are 0.",
+      "chainShareClassFeeVariants": "sUSDS earns the SSR (3.603 percent), the legacy DSR is 1.251 percent, and plain USDS or DAI earn nothing. PSM tin and tout are currently 0 and are governance-settable. Whitelisted integrators have NoFee PSM paths. SkyLink bridging is free at the protocol level.",
+      "takeRateBasis": "Yield spread. Stability fees plus RWA and T-bill income on backing, minus the SSR paid only on the saved share of supply.",
+      "revenueMix": "RWA and T-bill income is about 60 to 70 percent of the yield stack, Spark borrow interest is second, crypto CDP stability fees third, and PSM fees are 0. Surplus above the buffer feeds SKY buybacks via the Smart Burn Engine. SSR is 3.603 percent APY and DSR is 1.251 percent APY as read onchain on 2026-07-02. Un-saved USDS and DAI supply is pure float."
+    }
+  },
+  "roles": [
+    {
+      "organization": "sky-protocol-makerdao",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://sky.money/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "Real-time on-chain proof of collateral"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "identity": {
+    "slug": "anchored-coins",
+    "name": "Anchored Coins",
+    "legacyPid": 166
+  },
+  "about": {
+    "description": "Anchored Coins issues a fiat-backed stablecoin maintained at parity with its reference currency through reserve backing and redemption mechanisms. It enables fast, low-cost settlement of stablecoin transactions.",
+    "logo": "https://icons.llamao.fi/icons/rwa/anchored-coins.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://anchoredcoins.com/"
+      ],
+      "twitter": "https://x.com/AnchoredCoins"
+    }
+  },
+  "platform": {
+    "category": [
+      "fiat-stablecoins"
+    ],
+    "platformType": [
+      "eur-stable"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "parentPlatform": "anchored-coins",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "anchored-coins-ag",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://anchoredcoins.com/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "identity": {
+    "slug": "roofstock",
+    "name": "Roofstock",
+    "legacyPid": 113
+  },
+  "about": {
+    "description": "Roofstock enables fractional ownership and trading of real estate assets through tokenization. It provides institutional-grade real estate exposure via blockchain infrastructure.",
+    "logo": "https://icons.llamao.fi/icons/rwa/roofstock.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://onchain.roofstock.com/"
+      ],
+      "twitter": "https://x.com/roofstock",
+      "docs": "https://www.roofstock.com/",
+      "linkedin": "https://www.linkedin.com/company/roofstock"
+    }
+  },
+  "platform": {
+    "category": [
+      "real-estate"
+    ],
+    "platformType": [
+      "lending-venue"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "attestationFrequency": "N/A (Lending Venue)",
+    "parentPlatform": "roofstock",
+    "suspicious": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "roofstock-inc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://onchain.roofstock.com/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    },
+    {
+      "kind": "attestation",
+      "note": "N/A (Lending Venue)"
+    }
+  ]
+}

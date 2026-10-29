@@ -1,0 +1,56 @@
+{
+  "identity": {
+    "slug": "whitebit",
+    "name": "WhiteBIT",
+    "legacyPid": 335,
+    "protocolSlug": null
+  },
+  "about": {
+    "description": "WhiteBIT is a European cryptocurrency exchange founded in 2018 by Volodymyr Nosov, a Ukrainian entrepreneur who leads the business as Founder and President of W Group, whose wider ecosystem reports more than 35 million customers. The exchange is headquartered in Vilnius, Lithuania and maintains long-running sports partnerships with FC Barcelona and Juventus. In July 2026 it launched TradeFi, a perpetual futures category for traditional assets that opened with more than 45 contracts covering US stocks, ETFs, metals and energy, then added Asian equities and SpaceX in the following weeks to reach roughly 90 contracts by August 2026. All TradeFi contracts are margined and settled in USDT with leverage up to 100x on selected instruments, and funding applies every 8 hours on stock and ETF contracts and every 4 hours on commodity and tokenized gold contracts per the public futures API. The contracts track prices only and confer no ownership of the underlying securities or commodities. Futures on the global whitebit.com platform are conducted through Peak Horizon Corp. of Panama, and the user agreement bars users in the USA, Canada, China, the UK, the EU and Japan from securities linked contracts.",
+    "logo": "https://icons.llamao.fi/icons/rwa/whitebit.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://whitebit.com"
+      ],
+      "twitter": "https://x.com/WhiteBit",
+      "docs": "https://docs.whitebit.com/",
+      "linkedin": "https://www.linkedin.com/company/whitebit-cryptocurrency-exchange/",
+      "discord": "https://discord.gg/DuNSzgf6bU",
+      "telegram": "https://t.me/WhiteBIT"
+    },
+    "foundedYear": 2018,
+    "headquarters": "Vilnius, Lithuania",
+    "founders": "Volodymyr Nosov (Founder, President of W Group)",
+    "regulatoryStatus": "Crypto operations on the global platform, including futures, margin and any securities law governed contracts, are conducted through Peak Horizon Corp. of Panama, while fiat operations run through WB Technologies AG, a VQF supervised Swiss financial intermediary in Zug. In June 2026 WB-Shield Innovations GmbH, operating as WhiteBIT EU, obtained MiCA authorization from the Austrian Financial Market Authority and is building a separate whitebit.eu platform for EEA users. In April 2026 WhiteBIT obtained a brokerage license from the National Bank of Georgia, placing regulated derivatives in a WhiteBIT Broker entity alongside the WhiteBIT Georgia LLC VASP, while the US entity listed on whitebit.us is WhiteBIT US, Inc. (NMLS 2715589) and US services are not currently available. The RWA perpetuals trade on the offshore global venue, whose terms exclude users in the USA, Canada, China, the UK, the EU and Japan from securities linked contracts, and no public enforcement actions against the exchange were identified.",
+    "keyMilestones": "2018: WhiteBIT founded by Volodymyr Nosov as a European crypto exchange of Ukrainian origin | 2022-12: Becomes official cryptocurrency exchange partner of FC Barcelona, renewed in 2026 through 2030 | 2026-04: Obtains brokerage license from the National Bank of Georgia, splitting derivatives into a WhiteBIT Broker entity | 2026-06: WB-Shield Innovations GmbH (WhiteBIT EU) receives MiCA authorization from the Austrian FMA | 2026-07: Launches TradeFi, 45+ USDT margined perpetuals on US stocks, ETFs, metals and energy with up to 100x leverage | 2026-08: TradeFi lineup reaches roughly 90 contracts after adding SpaceX, tokenized gold and Asian equities",
+    "entityStructureNotes": "W Group is the umbrella brand. Per the whitebit.com user agreement, WhiteBIT Group includes UAB Clear White Technologies (Lithuania, tech and support), Peak Horizon Corp. (Panama, crypto operations including futures), WB Technologies AG (Zug, Switzerland, fiat operations, VQF supervised), Dervaliose Technologies Sp. z o.o. (Poland), Coreline Solutions LLC (Bulgaria), Clear White Technologies Limited (Hong Kong), Clear White Operations Limited and Whitebit Solutions Ltd (Seychelles), Nova Fintech LLC (St. Vincent and the Grenadines), WHITEBIT S.A. (Argentina), WB Prestadora de Servicos de Ativos Virtuais LTDA (Brazil), WhiteBIT Operations Australia Pty Ltd and WhiteBIT Georgia LLC. Separately regulated entities include WB-Shield Innovations GmbH (Austria, MiCA, as WhiteBIT EU), a WhiteBIT Broker entity in Georgia (NBG brokerage license) and WhiteBIT US, Inc. (US, NMLS 2715589, services not currently available)."
+  },
+  "platform": {
+    "category": [
+      "rwa-perps"
+    ],
+    "platformType": [
+      "perp-venue"
+    ],
+    "accessModel": "permissioned",
+    "marginSettlementAsset": "USDT",
+    "parentPlatform": "whitebit",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Perp Maker/Taker Fees",
+      "issuerDocsUrl": "https://whitebit.com/trading-data/trading-fees",
+      "governanceWhitepaperUrl": "https://whitebit.com/terms",
+      "revenueConfidence": "issuer-disclosed",
+      "feeLastVerified": "2026-07-30",
+      "revenueNotes": "European brand exchange with a MiCA-licensed EU arm. TradeFi program launched 2026-07-01. Single API endpoint serves specs, OI and funding."
+    }
+  },
+  "roles": [
+    {
+      "organization": "peak-horizon-corp-panama-per-the-whitebit-com-user-agreement-the-entity-conducting-futures-and-other-crypto-operations",
+      "kind": "issuer"
+    }
+  ]
+}

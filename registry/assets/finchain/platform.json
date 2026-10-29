@@ -1,0 +1,43 @@
+{
+  "identity": {
+    "slug": "finchain",
+    "name": "FinChain",
+    "legacyPid": 344
+  },
+  "about": {
+    "links": {
+      "website": [
+        "https://www.finchain.global/"
+      ],
+      "twitter": "https://x.com/FinChain_CN",
+      "docs": "https://finchain.gitbook.io/finchain-docs/en/fusd/fusd-token"
+    }
+  },
+  "platform": {
+    "category": [
+      "rwa-stablecoins"
+    ],
+    "platformType": [
+      "yield-rwa-stable"
+    ],
+    "accessModel": "permissioned",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum",
+      "xsat",
+      "sonic",
+      "monad",
+      "avax"
+    ],
+    "parentPlatform": "finchain",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "finchain-bermuda-limited",
+      "kind": "issuer"
+    }
+  ]
+}

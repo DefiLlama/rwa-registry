@@ -1,0 +1,65 @@
+{
+  "identity": {
+    "slug": "theo-network",
+    "name": "THEO Network",
+    "parent": "theo",
+    "legacyPid": 268
+  },
+  "about": {
+    "description": "Theo is a full-stack platform connecting onchain capital to global financial markets, built to distribute institutional-style products in formats that can be used across DeFi venues. The ecosystem emphasizes tokenized fund access, liquidity pathways, and integration tooling so traditional market exposures can function as collateral and trading inventory in onchain markets.",
+    "logo": "https://icons.llamao.fi/icons/rwa/theo.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://theo.xyz"
+      ],
+      "twitter": "https://x.com/theo_network",
+      "docs": "https://docs.theo.xyz/",
+      "linkedin": "https://www.linkedin.com/company/theo-network",
+      "discord": "https://discord.gg/theo-network",
+      "refLinks": [
+        "https://app.theo.xyz/invite?invite=defillama"
+      ]
+    },
+    "registryInfo": "Theo Protocol Corporation, registered in Panama"
+  },
+  "platform": {
+    "category": [
+      "bond-mmf-funds"
+    ],
+    "platformType": [
+      "mixed-rwa-fund"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "base",
+    "chains": [
+      "base",
+      "arbitrum",
+      "ethereum",
+      "hyperliquid"
+    ],
+    "attestationFrequency": "Not publicly disclosed",
+    "parentPlatform": "theo",
+    "suspicious": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "theo-protocol-corporation",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.theo.xyz/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    },
+    {
+      "kind": "attestation",
+      "note": "Not publicly disclosed"
+    }
+  ]
+}

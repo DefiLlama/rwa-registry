@@ -1,0 +1,24 @@
+{
+  "slug": "parcl",
+  "organization": "parcl",
+  "venueType": "dex",
+  "chain": "solana",
+  "adapter": "parcl",
+  "published": true,
+  "oracleProvider": "Pyth / Parcl Labs housing feed",
+  "accessModel": "permissionless",
+  "rwaClassification": "programmable-finance",
+  "website": "https://app.parcl.co/",
+  "issuer": "Parcl Labs",
+  "marginAsset": "USDC",
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ],
+  "makerFeeBps": null,
+  "takerFeeBps": null,
+  "conventionNote": "Funding follows a continuous funding-velocity model with no fixed settlement period, maker and taker fees are per-market on-chain settings with no published schedule, and all 32 parcl markets are delisted."
+}

@@ -1,0 +1,61 @@
+{
+  "identity": {
+    "slug": "justoken",
+    "name": "Justoken",
+    "legacyPid": 198
+  },
+  "about": {
+    "description": "Justoken provides tokenized access to physical commodities and precious metals through blockchain infrastructure. It enables fractional ownership and efficient settlement of commodity positions.",
+    "logo": "https://icons.llamao.fi/icons/rwa/justoken.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.justoken.com"
+      ],
+      "twitter": "https://x.com/justokenglobal",
+      "docs": "https://justoken.com/",
+      "linkedin": "https://www.linkedin.com/company/justoken",
+      "discord": "N/A (institutional)",
+      "telegram": "N/A (institutional)"
+    },
+    "registryInfo": "Justoken is a Brazilian tokenization platform issuing tokenized credit-rights certificates (CRAs) and similar instruments under Brazilian CVM regulation."
+  },
+  "platform": {
+    "category": [
+      "gold-commodities"
+    ],
+    "platformType": [
+      "other-commodity"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "polygon",
+    "chains": [
+      "polygon"
+    ],
+    "attestationFrequency": "Monthly investor reports + annual audit",
+    "parentPlatform": "justoken",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Origination + Structuring Fee",
+      "revenueConfidence": "no-public-data",
+      "feeLastVerified": "2026-05-11",
+      "revenueNotes": "Justoken earns securitizadora structuring fees on each issuance and ongoing servicing/admin fees under the Brazilian CVM-88 model."
+    }
+  },
+  "roles": [
+    {
+      "organization": "justoken",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.justoken.com"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "Monthly (CVM)"
+    }
+  ]
+}

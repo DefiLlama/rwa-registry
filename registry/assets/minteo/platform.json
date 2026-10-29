@@ -1,0 +1,43 @@
+{
+  "identity": {
+    "slug": "minteo",
+    "name": "Minteo",
+    "legacyPid": 197
+  },
+  "about": {
+    "description": "Minteo issues a fiat-backed stablecoin maintained at parity with its reference currency through reserve backing and redemption mechanisms. It enables fast, low-cost settlement of stablecoin transactions.",
+    "logo": "https://icons.llamao.fi/icons/rwa/minteo.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://minteo.com"
+      ],
+      "twitter": "https://x.com/minteocom"
+    }
+  },
+  "platform": {
+    "category": [
+      "fiat-stablecoins"
+    ],
+    "platformType": [
+      "other-fiat-stable"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "polygon",
+    "chains": [
+      "polygon"
+    ],
+    "parentPlatform": "minteo",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "minteo",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://minteo.com"
+      ]
+    }
+  ]
+}

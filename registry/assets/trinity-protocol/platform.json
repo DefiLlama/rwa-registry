@@ -1,0 +1,87 @@
+{
+  "identity": {
+    "slug": "trinity-protocol",
+    "name": "Trinity Protocol",
+    "legacyPid": 244
+  },
+  "about": {
+    "description": "Trinity Protocol is an Arbitrum issuer of tokenized real-world asset claims designed to be used as lending collateral. It has issued four asset tokens, deployed across fifteen separate contract addresses. GVLT is presented as a claim on allocated gold bullion and HYDRO as exposure to United States clean hydrogen production tax credits under Internal Revenue Code section 45V. TBUND is presented as AAA rated German sovereign bonds, although the custody document published for it describes physical 1924 German bearer bond certificates. TART is presented as a Vatican fine art collection, although the appraisal published for it covers a single papal portrait. The issuer has created eight Morpho Blue markets that accept these tokens as collateral against USDC, each at a 62.5% liquidation loan-to-value and each priced by an adapter the issuer deploys and controls. The platform also operates MetaMorpho vaults, of which eight have been deployed and one is published on its website, and a bond contract offering fixed-rate USDC notes in two series with minimum subscriptions of 100,000 and 50,000 US dollars. A Proof of Reserve contract publishes IPFS content identifiers for issuer attestation documents and computes a reserve total by summing the issuer's own treasury balances of GVLT and HYDRO at oracle prices, so that total measures issuer-held token inventory rather than custodied assets.",
+    "logo": "https://icons.llamao.fi/icons/rwa/trinity-protocol.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://graceful-begonia-2b7634.netlify.app/"
+      ],
+      "twitter": "https://x.com/cameron_arc_ai",
+      "linkedin": "https://www.linkedin.com/company/trinityprotocol",
+      "telegram": "https://t.me/cameroncurriden01",
+      "refLinks": [
+        "Mirrored from the asset-level reasons on canonical IDs GVLT, TBUND, HYDRO and TART. No independent reserve attestation exists for any of the four tokens. The Proof of Reserve attestation is signed by the platform's own authorised representative with no auditor named and the contract's attestorName field is empty. The gold metadata record leaves every supporting document, including the custody attestation, the safekeeping receipt and the bar list, pointing at the placeholder path ipfs://CID-B. The bond token's only custody document is a form whose custodian, signatory and notary blocks are left blank and whose attesting party is named Charles Garret, matching the issuing entity Garret INC, and whose custodian field carries a line reading ***FOR APPROVED  ENTITIES ONLLY*** rather than naming a custodian, describing physical 1924 German bearer certificates while the platform's website presents that token as AAA rated German sovereign bonds. The art token's appraisal states a three month validity that had lapsed before the token was deployed. The Proof of Reserve contract derives its reserve total from the issuer's own token holdings valued at oracle prices, so it does not evidence any underlying asset. The identifier published as the issuer LEI is the string TRINITY-PROTOCOL-RWA, which is not a code issued under ISO 17442, and neither the issuer nor the platform appears in the GLEIF registry. The price adapters for two of the eight collateral markets return values scaled for an eighteen decimal loan asset while those markets settle in a six decimal asset, which overstates collateral value in them by a factor of one trillion. The gold and art tokens are each deployed at six separate addresses carrying identical supply."
+      ]
+    },
+    "registryInfo": "No public registry record for the issuer could be located. The issuer is identified as Garret INC, a United States corporation, with an EIN of 87-1576956, neither of which appears on the project website, in either document published through the Proof of Reserve contract, or in the token metadata records. The surname appears once in the issuer's published material, as an annotation reading Charles Garret filling the attestor line of the custody document published for the bond token. Neither the entity name nor the EIN can be independently confirmed, because no public registry of employer identification numbers exists for for-profit entities and no record for Garret INC or Trinity Protocol appears in the GLEIF registry or in SEC EDGAR. The metadata records the issuer publishes name no issuing entity, although the gold record does name a custodian and a marking entity. The identifier the Proof of Reserve contract publishes as an issuer LEI is the string TRINITY-PROTOCOL-RWA, which is exactly twenty characters but contains hyphens and ends in letters where ISO 17442 requires alphanumeric characters throughout and two check digits calculated under ISO 7064.",
+    "foundedYear": 2026,
+    "founders": "Cameron Curriden, who signs the platform's Proof of Reserve attestation as its authorised representative and whose personal accounts are the X and Telegram contacts listed for the platform, neither of which appears on the platform's own website. No other individual is named as responsible for the platform, although other names appear in the asset documentation, including the attestor of the bond token's custody document and the appraiser and former owners of the art token.",
+    "regulatoryStatus": "No registration has been identified. The identifier the platform publishes as its LEI is the string TRINITY-PROTOCOL-RWA, which is not a code issued under ISO 17442, and no record for Garret INC or for Trinity Protocol appears in the GLEIF registry. No Form D or other filing appears in SEC EDGAR full-text search under either name, while the bond programme is offered publicly with minimum subscriptions of 100,000 and 50,000 US dollars.",
+    "keyMilestones": "2026-03 first GVLT token contract deployed on Arbitrum. 2026-04 Proof of Reserve contract deployed and two attestations published. 2026-04 a forum post proposed a 5 million USDC pilot allocation from the Arbitrum Treasury Management Committee, which drew no response from the committee and was never actioned. 2026-04 TBUND, HYDRO and TART collateral markets created on Morpho Blue. 2026-05 two further token contracts named Compliance Counterpart WBTC and Compliance Counterpart USDC deployed and minted to the treasury, with no lending market created for either.",
+    "entityStructureNotes": "Tokens are issued under a name the issuer gives as Garret INC, a United States corporation with an EIN of 87-1576956, neither of which appears in any source the issuer publishes. A single treasury address deployed every token contract, the Proof of Reserve contract and every price adapter. It owns five of the eight MetaMorpho vaults while a second externally owned account owns the other three, and it is itself an externally owned account carrying an EIP-7702 delegation rather than a multisignature wallet."
+  },
+  "platform": {
+    "category": [
+      "gold-commodities",
+      "other-rwas"
+    ],
+    "platformType": [
+      "gold",
+      "collectibles",
+      "other-exotic"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "arbitrum",
+    "chains": [
+      "arbitrum"
+    ],
+    "attestationFrequency": "On-demand",
+    "parentPlatform": "trinity-protocol",
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueConfidence": "no-public-data",
+      "revenueNotes": "No revenue has been identified. The platform's public offering is a bond programme that would pay fixed coupons to subscribers rather than collect fees from them, and the bond contract published on its website has recorded no token transfers of any kind, while an earlier contract of the same name recorded a single mint of 100,000 units to the issuer's own treasury. No management fee, performance fee, mint fee or redemption fee is published for any of the four tokens, and the Morpho Blue markets the platform created carry a protocol fee of zero.",
+      "takeRateBasis": "Merkl reward campaigns denominated in GVLT are advertised for the gold and bond collateral markets."
+    }
+  },
+  "roles": [
+    {
+      "organization": "garret-inc",
+      "kind": "issuer"
+    },
+    {
+      "organization": "garret-inc",
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://arbiscan.io/address/0x1104D3cd2cfa891964eF88BDE9F5d1DBe4947101"
+      ]
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://arbiscan.io/address/0x1104D3cd2cfa891964eF88BDE9F5d1DBe4947101"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "review",
+      "outcome": "suspicious",
+      "reason": "Mirrors the asset-level flags on TBUND and HYDRO. TBUND: the only published custody document leaves its custodian, signatory and notary blocks blank, its IPFS identifier is the placeholder cid://, and it describes 1924 German bearer bond certificates while the issuer markets AAA-rated German sovereign bonds; the Proof of Reserve contract it cites does not reference the token. HYDRO: no token-specific attestation exists; it appears only as a line item in the gold token's self-declared Proof of Reserve, valued off an issuer-controlled fixed $4 price, with unlimited admin mint. Both: the identifier published as the LEI, TRINITY-PROTOCOL-RWA, is not an ISO 17442 code, and neither issuer nor platform appears in GLEIF."
+    },
+    {
+      "kind": "attestation",
+      "links": [
+        "https://arbiscan.io/address/0x9c0bc46a92DD9acdD0c0d1CA8496BDa1f2d34dBF#code"
+      ],
+      "note": "46136"
+    }
+  ]
+}

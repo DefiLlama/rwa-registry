@@ -1,0 +1,17 @@
+{
+  "slug": "variational",
+  "organization": "variational",
+  "venueType": "dex",
+  "chain": "arbitrum",
+  "adapter": "variational",
+  "published": true,
+  "makerFeeBps": 0,
+  "takerFeeBps": 0,
+  "oracleProvider": "OLP-aggregated (CEX/DEX/AMM/OTC mid-quotes)",
+  "accessModel": "permissionless",
+  "rwaClassification": "programmable-finance",
+  "conventionNote": "Perps pay funding every 1, 4 or 8 hours per market on the fair-price oracle mark, swaps such as XAUS pay none, and there is no maker or taker fee because the cost sits in the OLP spread.",
+  "website": "https://www.variational.io/omni",
+  "issuer": "Variational",
+  "marginAsset": "USDC (Arbitrum)"
+}

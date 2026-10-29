@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "slug": "accountable-capital",
+    "name": "Accountable Capital",
+    "legacyPid": 315
+  },
+  "about": {
+    "logo": "https://icons.llamao.fi/icons/rwa/accountable-capital.png?w=48&h=48",
+    "links": {
+      "discord": "https://discord.com/invite/gjKw4KJyu8",
+      "telegram": "https://t.me/yuzumoneyofficial"
+    }
+  },
+  "platform": {
+    "primaryChain": "monad",
+    "chains": [
+      "monad"
+    ],
+    "marginSettlementAsset": "USDC",
+    "suspicious": false,
+    "delisted": false
+  }
+}

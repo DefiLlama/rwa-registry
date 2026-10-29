@@ -1,0 +1,47 @@
+{
+  "identity": {
+    "slug": "avant-protocol",
+    "name": "Avant Protocol",
+    "legacyPid": 178
+  },
+  "about": {
+    "description": "Avant Protocol offers a stablecoin backed by real-world assets and Treasury securities, combining yield generation with price stability. It enables institutional-grade stable settlement with underlying RWA collateral.",
+    "logo": "https://icons.llamao.fi/icons/rwa/avant-protocol.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://avantprotocol.com/"
+      ],
+      "twitter": "https://x.com/avantprotocol",
+      "docs": "https://docs.avantprotocol.com/",
+      "refLinks": [
+        "https://app.avantprotocol.com/rewards?ref=defillama"
+      ]
+    }
+  },
+  "platform": {
+    "category": [
+      "non-rwa-stablecoins"
+    ],
+    "platformType": [
+      "crypto-stable"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "avax",
+    "chains": [
+      "avax"
+    ],
+    "parentPlatform": "avant-protocol",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "avant-protocol",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://avantprotocol.com/"
+      ]
+    }
+  ]
+}

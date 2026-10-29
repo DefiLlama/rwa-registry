@@ -1,0 +1,45 @@
+{
+  "identity": {
+    "slug": "digix",
+    "name": "Digix",
+    "legacyPid": 90
+  },
+  "about": {
+    "description": "Digix provides tokenized access to physical commodities and precious metals through blockchain infrastructure. It enables fractional ownership and efficient settlement of commodity positions.",
+    "logo": "https://icons.llamao.fi/icons/rwa/digix.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://digix.global"
+      ],
+      "twitter": "https://x.com/DigixGlobal",
+      "docs": "https://digix.global/",
+      "linkedin": "https://www.linkedin.com/company/digix-global"
+    }
+  },
+  "platform": {
+    "category": [
+      "gold-commodities"
+    ],
+    "platformType": [
+      "gold"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "parentPlatform": "digix",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "digixglobal-pte-ltd",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://digix.global"
+      ]
+    }
+  ]
+}

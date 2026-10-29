@@ -1,0 +1,23 @@
+{
+  "slug": "orderly",
+  "organization": "aden",
+  "venueType": "dex",
+  "chain": "gatelayer",
+  "published": false,
+  "oracleProvider": "Orderly Network",
+  "accessModel": "permissionless",
+  "rwaClassification": "programmable-finance",
+  "website": "https://aden.io/",
+  "issuer": "ADEN",
+  "marginAsset": "USDC",
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ],
+  "makerFeeBps": null,
+  "takerFeeBps": null,
+  "conventionNote": null
+}

@@ -1,0 +1,74 @@
+{
+  "identity": {
+    "slug": "sygnum",
+    "name": "Sygnum",
+    "legacyPid": 81
+  },
+  "about": {
+    "description": "Sygnum Bank AG is a FINMA-licensed Swiss digital asset bank, founded in 2018 by Mathias Imbach and Manuel Krieger. Headquartered in Zurich with a second hub in Singapore (MAS-licensed), Sygnum offers banking, custody, trading, asset management, and tokenization to institutional and qualified-private clients. The Sygnum FIUSD Liquidity Fund is a tokenized USD money-market fund issued on Arbitrum that invests in short-duration US Treasuries and high-grade USD cash equivalents. It is the bank's primary tokenized cash-management product and complements the broader Sygnum tokenization stack (including IPC bond tokens, gold tokens, and equity tokenization). Sygnum reached unicorn status in 2024 with backing from SBI, Animoca, and Sun Hung Kai & Co.",
+    "logo": "https://icons.llamao.fi/icons/rwa/sygnum.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.sygnum.com/fiusd-fund/"
+      ],
+      "twitter": "https://x.com/sygnumofficial",
+      "docs": "https://www.sygnum.com/",
+      "linkedin": "https://www.linkedin.com/company/sygnumofficial"
+    },
+    "registryInfo": "Sygnum Bank AG is a Switzerland-licensed digital asset bank, regulated by the Swiss Financial Market Supervisory Authority (FINMA) since 2019. Headquartered in Zurich. Holding company: Sygnum Group AG. Affiliates include Sygnum Singapore (CMS license from MAS) and Sygnum Luxembourg. Founders: Mathias Imbach (Group CEO) and Manuel Krieger. Backed by SBI Holdings (Japan), Animoca Brands, Sun Hung Kai & Co., and others; reached unicorn status (~$1B valuation) in 2024. Auditor: Deloitte (Switzerland). Sygnum FIUSD is a Liechtenstein-domiciled UCITS-style cash management fund."
+  },
+  "platform": {
+    "category": [
+      "bond-mmf-funds"
+    ],
+    "platformType": [
+      "mmf"
+    ],
+    "accessModel": "permissioned",
+    "primaryChain": "arbitrum",
+    "chains": [
+      "arbitrum"
+    ],
+    "attestationFrequency": "Daily NAV publication; semi-annual audited financials",
+    "parentPlatform": "sygnum",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Asset Manager Fee",
+      "holderTotalFeeBps": 50,
+      "assetManagerTakeBps": 50,
+      "tokenizationPlatformTakeBps": 0,
+      "performanceFeePct": 0,
+      "mintFeeBps": 0,
+      "redemptionFeeBps": 0,
+      "floatIncome": false,
+      "issuerDocsUrl": "https://www.sygnum.com/fiusd-fund/",
+      "revenueConfidence": "reasoned-estimate",
+      "feeLastVerified": "2026-05-10",
+      "revenueNotes": "Sygnum FIUSD Liquidity Fund mgmt fee estimated at ~50 bps based on Swiss/EU institutional tokenized cash-fund norms. Sygnum publishes a factsheet but does not disclose the exact bps figure publicly. To be verified directly with the issuer or via fund subscription documents."
+    }
+  },
+  "roles": [
+    {
+      "organization": "sygnum-bank-ag-swiss-bank-finma-licensed",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.sygnum.com/fiusd-fund/"
+      ]
+    },
+    {
+      "organization": "sygnum-trust-services-singapore-pte-ltd",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.sygnum.com/fiusd-fund/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "Continuous (NAV)"
+    }
+  ]
+}

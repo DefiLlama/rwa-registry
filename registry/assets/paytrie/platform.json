@@ -1,0 +1,43 @@
+{
+  "identity": {
+    "slug": "paytrie",
+    "name": "PayTrie",
+    "legacyPid": 191
+  },
+  "about": {
+    "description": "PayTrie issues a fiat-backed stablecoin maintained at parity with its reference currency through reserve backing and redemption mechanisms. It enables fast, low-cost settlement of stablecoin transactions.",
+    "logo": "https://icons.llamao.fi/icons/rwa/paytrie.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://paytrie.com/cadc"
+      ],
+      "twitter": "https://x.com/Paytrie"
+    }
+  },
+  "platform": {
+    "category": [
+      "fiat-stablecoins"
+    ],
+    "platformType": [
+      "other-fiat-stable"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "parentPlatform": "paytrie",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "paytrie-ab-inc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://paytrie.com/cadc"
+      ]
+    }
+  ]
+}

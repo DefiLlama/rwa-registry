@@ -1,0 +1,44 @@
+{
+  "identity": {
+    "slug": "tokenizer-hong-kong-platform",
+    "name": "Tokenizer (Hong Kong platform)",
+    "parent": "tokenizer",
+    "legacyPid": 266
+  },
+  "about": {
+    "description": "Tokenizer.Estate is a turnkey real estate tokenization platform designed for property owners, developers, and funds that want an end-to-end solution spanning legal structuring, onboarding, and a configurable token issuance workflow. It positions itself as infrastructure rather than a single asset issuer, focusing on repeatable deal setup and investor access tooling for real estate offerings.",
+    "logo": "https://icons.llamao.fi/icons/rwa/tokenizer-hong-kong-platform.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://tokenizer.estate"
+      ],
+      "twitter": "https://x.com/TokenizerEstate",
+      "docs": "https://tokenizer.estate/",
+      "linkedin": "https://www.linkedin.com/company/tokenizerestate"
+    },
+    "registryInfo": "https://tokenizer.estate"
+  },
+  "platform": {
+    "category": [
+      "real-estate"
+    ],
+    "platformType": [
+      "lending-venue"
+    ],
+    "accessModel": "permissioned",
+    "parentPlatform": "tokenizer",
+    "suspicious": false,
+    "llamaGradeAttestation": false
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    },
+    {
+      "kind": "attestation",
+      "note": "No attestation found"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "identity": {
+    "slug": "newrlrwa",
+    "name": "NewrlRWA",
+    "legacyPid": 131
+  },
+  "about": {
+    "description": "NewrlRWA is a carbon credit tokenization platform enabling fractional ownership and trading of environmental commodities. It bridges voluntary and compliance carbon markets through blockchain infrastructure.",
+    "logo": "https://icons.llamao.fi/icons/rwa/newrlrwa.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://newrl.net/"
+      ],
+      "twitter": "https://x.com/newrl_layer1",
+      "docs": "https://newrl.net/",
+      "linkedin": "https://www.linkedin.com/company/newrl"
+    }
+  },
+  "platform": {
+    "category": [
+      "carbon-environment"
+    ],
+    "platformType": [
+      "carbon-credit"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "aptos",
+    "chains": [
+      "aptos"
+    ],
+    "parentPlatform": "newrlrwa",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "newrl",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://newrl.net/"
+      ]
+    }
+  ]
+}

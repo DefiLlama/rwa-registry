@@ -1,0 +1,63 @@
+{
+  "identity": {
+    "slug": "xmaquina",
+    "name": "XMAQUINA",
+    "legacyPid": 338
+  },
+  "about": {
+    "description": "XMAQUINA is a decentralised organisation that acquires and governs exposure to humanoid robotics and physical AI companies. Capital raised through five public Genesis auctions seeded a treasury that holds private equity positions alongside stablecoin and crypto reserves, with allocations approved by DEUS token governance and executed through approved legal structures. Independent attestations from Andersen LLP confirm the governance proposal, investment vehicle, underlying company exposure and capital funded for each allocation.",
+    "logo": "https://icons.llamao.fi/icons/rwa/xmaquina.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.xmaquina.io/"
+      ],
+      "twitter": "https://x.com/xmaquina",
+      "docs": "https://docs.xmaquina.io/",
+      "discord": "https://discord.gg/xmaquina",
+      "telegram": "https://t.me/xmaquinaofficial"
+    },
+    "registryInfo": "MachineDAO LLC is a non-profit DAO LLC organised under the laws of the Republic of the Marshall Islands and serves as the governance and treasury entity. A foundation entity executes offchain investments and holds legal title to assets on behalf of the DAO, and a special-purpose entity handles token issuance.",
+    "foundedYear": 2024,
+    "regulatoryStatus": "MachineDAO LLC is a Marshall Islands non-profit DAO LLC. No financial services licence is disclosed and governance participation is stated not to confer equity, profit or dividend rights.",
+    "entityStructureNotes": "MachineDAO LLC is a non-profit DAO LLC organised under the laws of the Republic of the Marshall Islands and serves as the governance and treasury entity. A foundation entity executes offchain investments and holds legal title to assets on behalf of the DAO, and a special-purpose entity handles token issuance."
+  },
+  "platform": {
+    "category": [
+      "governance-tokens",
+      "other-rwas"
+    ],
+    "platformType": [
+      "governance-token"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "base",
+    "chains": [
+      "base",
+      "solana",
+      "peaq"
+    ],
+    "attestationFrequency": "Per allocation",
+    "parentPlatform": "xmaquina",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "machinedao-llc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.xmaquina.io/dao/legal-structure"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://docs.xmaquina.io/dao/attestations"
+      ],
+      "note": "Per allocation (Andersen LLP)"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "identity": {
+    "slug": "goldenasset",
+    "name": "GoldenAsset",
+    "legacyPid": 92
+  },
+  "about": {
+    "description": "GoldenAsset provides tokenized access to physical commodities and precious metals through blockchain infrastructure. It enables fractional ownership and efficient settlement of commodity positions.",
+    "logo": "https://icons.llamao.fi/icons/rwa/goldenasset.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://goldenasset.org",
+        "https://gemswap.org/"
+      ],
+      "twitter": "https://x.com/gldswn",
+      "docs": "https://goldenasset.io/",
+      "linkedin": "https://www.linkedin.com/company/golden-asset"
+    }
+  },
+  "platform": {
+    "category": [
+      "gold-commodities"
+    ],
+    "platformType": [
+      "other-commodity"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "sei",
+    "chains": [
+      "sei"
+    ],
+    "parentPlatform": "goldenasset",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "golden-swan-solutions-pte-ltd",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://goldenasset.org",
+        "https://gemswap.org/"
+      ]
+    }
+  ]
+}

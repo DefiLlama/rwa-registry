@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "slug": "risex",
+    "name": "RISEx",
+    "protocolSlug": "risex"
+  },
+  "about": {
+    "links": {
+      "website": [
+        "https://www.rise.trade"
+      ],
+      "docs": "https://docs.risechain.com/docs/risex"
+    }
+  },
+  "platform": {
+    "primaryChain": "rise",
+    "chains": [
+      "rise"
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "identity": {
+    "slug": "entropy",
+    "name": "Entropy",
+    "legacyPid": 348,
+    "protocolSlug": "entropy"
+  },
+  "about": {
+    "description": "Entropy is a HIP-3 builder-deployed perpetual venue on Hyperliquid operating the 'io' dex namespace, launched 2026-08-18 with equity, index and pre-IPO perpetual markets. Deployer 0x320c8988e3d1b5198f335802d7bfd2728a8fcac6; oracle updater 0x94757f8dcb4bf73b850195660e959d1105cfedd5. Markets cash-settle in USDC. Pre-IPO markets quote in market-cap units rather than per-share prices and carry a two-year no-IPO resolution that settles to the 30-day trailing TWAP of the mark.",
+    "logo": "https://icons.llamao.fi/icons/rwa/entropy.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://entropy.io/"
+      ],
+      "twitter": "https://x.com/entropyio",
+      "docs": "https://docs.entropy.io/",
+      "discord": "https://discord.gg/uFCymbuae"
+    },
+    "registryInfo": "Publicly announced a $14M raise led by Ribbit Capital plus a $40M HYPE stake (issuer claim, not independently verified as of 2026-08-25). Operates the 'io' HIP-3 namespace on Hyperliquid."
+  },
+  "platform": {
+    "category": [
+      "rwa-perps"
+    ],
+    "platformType": [
+      "perp-venue"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "hyperliquid",
+    "chains": [
+      "hyperliquid"
+    ],
+    "attestationFrequency": "N/A (Perp Venue)",
+    "marginSettlementAsset": "USDC (Hyperliquid)",
+    "parentPlatform": "entropy",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Maker/Taker Fees",
+      "revenueConfidence": "issuer-disclosed",
+      "feeLastVerified": "2026-08-25",
+      "revenueNotes": "HIP-3 builder-deployer on Hyperliquid. Fees are 2x the standard HL perp schedule (3.0 bps maker / 9.0 bps taker), protocol fee split evenly with Hyperliquid; deployerFeeScale 1.0. Both live markets have growth mode enabled (2026-08-19), scaling all fees, rebates and volume contribution by 0.1, so the effective schedule is 0.30 bps maker / 0.90 bps taker. Funding is peer-to-peer with no exchange cut, so there is no funding skim."
+    }
+  },
+  "roles": [
+    {
+      "organization": "entropy",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.entropy.io/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "N/A (Perp Venue)"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "identity": {
+    "slug": "moss",
+    "name": "Moss",
+    "legacyPid": 4
+  },
+  "about": {
+    "description": "Moss is a carbon credit tokenization platform enabling fractional ownership and trading of environmental commodities. It bridges voluntary and compliance carbon markets through blockchain infrastructure.",
+    "logo": "https://icons.llamao.fi/icons/rwa/moss.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://mco2token.moss.earth"
+      ],
+      "twitter": "https://x.com/moss_earth",
+      "docs": "https://moss.earth/",
+      "linkedin": "https://www.linkedin.com/company/moss-earth"
+    }
+  },
+  "platform": {
+    "category": [
+      "carbon-environment"
+    ],
+    "platformType": [
+      "carbon-credit"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "parentPlatform": "moss",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "moss-earth-s-a",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://mco2token.moss.earth"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "identity": {
+    "slug": "gemini",
+    "name": "Gemini",
+    "legacyPid": 12
+  },
+  "about": {
+    "description": "Gemini issues a fiat-backed stablecoin maintained at parity with its reference currency through reserve backing and redemption mechanisms. It enables fast, low-cost settlement of stablecoin transactions.",
+    "logo": "https://icons.llamao.fi/icons/rwa/gemini.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.gemini.com/dollar"
+      ],
+      "twitter": "https://x.com/Gemini",
+      "docs": "https://docs.gemini.com/",
+      "linkedin": "https://www.linkedin.com/company/gemini"
+    }
+  },
+  "platform": {
+    "category": [
+      "fiat-stablecoins"
+    ],
+    "platformType": [
+      "usd-stable"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "parentPlatform": "gemini",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "gemini-trust-company-llc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.gemini.com/dollar"
+      ]
+    }
+  ]
+}

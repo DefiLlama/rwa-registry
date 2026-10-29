@@ -1,0 +1,34 @@
+{
+  "identity": {
+    "slug": "meteora",
+    "name": "Meteora",
+    "legacyPid": 297
+  },
+  "about": {
+    "description": "Meteora is a core liquidity protocol on Solana that operates dynamic liquidity market maker pools and powers trading, yield, and token launches. In the RWA context it is the venue and parent platform for SV151, a Dynamic Asset representing tokenized shares of sealed Pokemon Scarlet and Violet 151 booster packs held in audited custody by Bedrock Foundation and issued through Sunrise infrastructure.",
+    "logo": "https://icons.llamao.fi/icons/rwa/meteora.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.meteora.ag/"
+      ],
+      "twitter": "https://x.com/MeteoraAG",
+      "docs": "https://docs.meteora.ag/"
+    }
+  },
+  "platform": {
+    "category": [
+      "other-rwas"
+    ],
+    "primaryChain": "solana",
+    "chains": [
+      "solana"
+    ],
+    "suspicious": false,
+    "delisted": false,
+    "fees": {
+      "revenueModel": "Maker/Taker Fees (DEX pool fees)",
+      "revenueConfidence": "no-public-data",
+      "feeLastVerified": "2026-07-02"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "identity": {
+    "slug": "prestocks",
+    "name": "PreStocks",
+    "legacyPid": 136,
+    "protocolSlug": "prestocks"
+  },
+  "about": {
+    "description": "PreStocks is a blockchain-based platform providing infrastructure for tokenization and on-chain financial services. It enables users to access and trade diverse digital assets through decentralized protocols.",
+    "logo": "https://icons.llamao.fi/icons/rwa/prestocks.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://prestocks.com/anduril"
+      ],
+      "twitter": "https://x.com/prestocks",
+      "docs": "https://prestocks.com/",
+      "linkedin": "https://www.linkedin.com/company/prestocks"
+    },
+    "registryInfo": "PreStocks (Pre IPO Tokens Ltd, BVI) tokenizes pre-IPO private-company equity, providing onchain liquidity for shares of unicorns and growth-stage companies (SpaceX, OpenAI, Stripe, etc.) backed 1:1 by share-purchase agreements held in special-purpose vehicles."
+  },
+  "platform": {
+    "category": [
+      "stocks-equities"
+    ],
+    "platformType": [
+      "pe-venture"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "solana",
+    "chains": [
+      "solana"
+    ],
+    "parentPlatform": "prestocks",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Mint/Redeem Spread + Performance Fee",
+      "revenueConfidence": "no-public-data",
+      "feeLastVerified": "2026-05-11",
+      "revenueNotes": "PreStocks earns origination fees on share-purchase deal-flow, mint/redeem spreads on primary issuance, and a performance fee on terminal exit (IPO/acquisition)."
+    }
+  },
+  "roles": [
+    {
+      "organization": "prestocks",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://prestocks.com/anduril"
+      ]
+    }
+  ]
+}

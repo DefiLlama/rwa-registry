@@ -1,0 +1,53 @@
+{
+  "identity": {
+    "slug": "t-rize-group",
+    "name": "T-Rize Group",
+    "legacyPid": 82
+  },
+  "about": {
+    "description": "T-Rize Group enables fractional ownership and trading of real estate assets through tokenization. It provides institutional-grade real estate exposure via blockchain infrastructure.",
+    "logo": "https://icons.llamao.fi/icons/rwa/t-rize-group.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://t-rize.io"
+      ],
+      "twitter": "https://x.com/T_Rize_Group",
+      "docs": "https://t-rize.io/",
+      "linkedin": "https://www.linkedin.com/company/t-rize-group"
+    }
+  },
+  "platform": {
+    "category": [
+      "real-estate",
+      "other-rwas"
+    ],
+    "platformType": [
+      "lending-venue"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "base",
+    "chains": [
+      "base"
+    ],
+    "attestationFrequency": "N/A (Lending Venue)",
+    "parentPlatform": "t-rize-group",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "t-rize-group-corporation",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://t-rize.io"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "N/A (Lending Venue)"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "identity": {
+    "slug": "pleasing-golden",
+    "name": "Pleasing Golden",
+    "legacyPid": 134
+  },
+  "about": {
+    "description": "Pleasing Golden provides tokenized access to physical commodities and precious metals through blockchain infrastructure. It enables fractional ownership and efficient settlement of commodity positions.",
+    "logo": "https://icons.llamao.fi/icons/rwa/pleasing-golden.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.pleasinggold.com/",
+        "https://pleasing.gitbook.io/docs"
+      ],
+      "twitter": "https://x.com/PleasingGolden",
+      "docs": "https://pleasing-golden.com/",
+      "linkedin": "https://www.linkedin.com/company/pleasing-golden"
+    }
+  },
+  "platform": {
+    "category": [
+      "gold-commodities"
+    ],
+    "platformType": [
+      "gold"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "arbitrum",
+    "chains": [
+      "arbitrum"
+    ],
+    "parentPlatform": "pleasing-golden",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "pleasing-international-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.pleasinggold.com/",
+        "https://pleasing.gitbook.io/docs"
+      ]
+    }
+  ]
+}

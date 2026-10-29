@@ -1,0 +1,52 @@
+{
+  "identity": {
+    "slug": "aave",
+    "name": "Aave",
+    "legacyPid": 24
+  },
+  "about": {
+    "description": "Aave is a decentralized lending and borrowing protocol where users deposit crypto assets to earn yield and borrowers obtain loans with overcollateralization. It's the largest DeFi lending platform by TVL.",
+    "logo": "https://icons.llamao.fi/icons/rwa/aave.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://aave.com/docs/aave-v3/horizon"
+      ],
+      "twitter": "https://x.com/aave",
+      "docs": "https://docs.aave.com/",
+      "linkedin": "https://www.linkedin.com/company/aaveaave"
+    }
+  },
+  "platform": {
+    "category": [
+      "private-credit"
+    ],
+    "platformType": [
+      "lending-venue"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "attestationFrequency": "N/A (Lending Venue)",
+    "parentPlatform": "aave",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "aave-labs-ltd",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://aave.com/docs/aave-v3/horizon"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "N/A (Lending Venue)"
+    }
+  ]
+}

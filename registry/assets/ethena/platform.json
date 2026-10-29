@@ -1,0 +1,82 @@
+{
+  "identity": {
+    "slug": "ethena",
+    "name": "Ethena",
+    "legacyPid": 9
+  },
+  "about": {
+    "description": "Ethena is a stablecoin platform offering USDe as a delta-neutral RWA-backed token using perpetual futures and Treasury bonds for collateral. It provides institutional-grade stability without direct fiat backing.",
+    "logo": "https://icons.llamao.fi/icons/rwa/ethena.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.ethena.fi"
+      ],
+      "twitter": "https://x.com/ethena_labs",
+      "docs": "https://docs.ethena.fi/",
+      "linkedin": "https://www.linkedin.com/company/ethena-labs",
+      "discord": "https://discord.gg/ethena",
+      "telegram": "https://t.me/ethena_labs",
+      "github": "https://github.com/ethena-labs",
+      "refLinks": [
+        "https://www.app.ethena.fi/join/3y20d"
+      ]
+    },
+    "registryInfo": "Ethena Labs Ltd (BVI). Issuer of USDe (synthetic delta-neutral stablecoin) and sUSDe (staked yield-bearing). Founded 2023 by Guy Young. Backed by Dragonfly, BlockTower, Wintermute, Binance Labs, ParaFi. ENA governance token live on major exchanges.",
+    "foundedYear": 2023,
+    "founders": "Guy Young (Founder, CEO, Ethena Labs)",
+    "regulatoryStatus": "Ethena GmbH pursued MiCA authorization in Germany but BaFin prohibited new USDe business in March 2025 and ordered wind up in April 2025, with claims thereafter against Ethena (BVI) Limited. USDe holds no license in the EU or US. The US market stablecoin USDtb is issued by Anchorage Digital Bank N.A. under the GENIUS Act following a July 2025 partnership.",
+    "keyMilestones": "2025-07: StablecoinX ENA treasury SPAC announced and Anchorage partnership to issue USDtb under the GENIUS Act | 2025-06: BaFin orders wind up of Ethena GmbH with supervised USDe redemption | 2025-03: BaFin prohibits Ethena GmbH from new public offers of USDe | 2024-02: USDe public mainnet launch | 2023-07: Ethena Labs introduced",
+    "entityStructureNotes": "Ethena Labs develops the protocol while USDe is offered internationally through BVI entities. The German entity Ethena GmbH was wound up under BaFin order in 2025. USDtb is issued by Anchorage Digital Bank N.A. rather than an Ethena entity, and the Ethena Foundation backed the StablecoinX treasury vehicle."
+  },
+  "platform": {
+    "category": [
+      "rwa-stablecoins"
+    ],
+    "platformType": [
+      "rwa-fiat-stable"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "attestationFrequency": "Weekly",
+    "parentPlatform": "ethena",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Yield Spread",
+      "holderTotalFeeBps": 0,
+      "assetManagerTakeBps": 0,
+      "tokenizationPlatformTakeBps": 0,
+      "performanceFeePct": 0,
+      "mintFeeBps": 0,
+      "redemptionFeeBps": 0,
+      "floatIncome": true,
+      "governanceWhitepaperUrl": "https://gov.ethenafoundation.com",
+      "revenueConfidence": "issuer-disclosed",
+      "feeLastVerified": "2026-07-02",
+      "revenueNotes": "UPDATE 2026-07-02: The sENA fee switch is NOT active. The May 2026 fee allocation shows no sENA distribution and USDe supply (4.51B) is below the 6B activation threshold after the April 2026 rsETH incident. A real mint-fees revenue line of about 0.9M in May 2026 reflects execution and slippage capture on institutional flows, not a protocol mint fee, so the Mint Fee stays 0 bps. Prior note: Ethena protocol earns ZERO fee on minting or redeeming USDe (slippage/execution-cost-only). Protocol revenue comes from three sources: ~92% funding/basis spread from delta-hedging derivatives, ~7% rewards on liquid stable backing, ~6% staked-asset consensus + execution-layer rewards (as of January 2025). Revenue is automatically distributed to sUSDe (staked USDe) holders via ERC-4626 auto-compounding vault. Reserve fund accrual diverts a portion. Specific protocol fee bps is dynamic and not disclosed as a single number — the effective rate is what sUSDe holders earn vs. underlying. ENA-staker fee switch under governance discussion (Wintermute proposal). Source: https://docs.ethena.fi/solution-overview/protocol-revenue-explanation",
+      "revenueVerificationMethod": "May 2026 governance update (Blockworks Advisory on gov.ethenafoundation.com, posted 2026-06-05) plus docs.ethena.fi revenue pages.",
+      "chainShareClassFeeVariants": "USDe earns no yield while sUSDe earns yield with a one-day dynamic cooldown, alongside sENA. Whitelabel stables such as jupUSD, USDm and suiUSDe (about 300M) run on Ethena rails. LayerZero OFT cross-chain transfer is free at the protocol level.",
+      "takeRateBasis": "Yield spread. Backing yield accrues to the protocol and is paid out only to the staked share of supply.",
+      "revenueMix": "May 2026 gross fee income was 16.5M (April was 22M). Of the 4.5B backing, 89 percent is liquid cash deployed in DeFi lending on Aave, Morpho, Kamino and Jupiter Lend as the primary yield source, and 9 percent is BTC and ETH basis positions, so lending rates now dominate over funding. USDtb interest of about 2.4M per month has been redirected to sUSDe stakers since April 2026. Fee allocation is 44 percent sUSDe yield, 38 percent partner rewards, 18 percent Aave liquid-leverage program. The reserve fund is 62.5M. sUSDe 30-day APY is about 4.0 percent and the staking ratio is 39.7 percent."
+    }
+  },
+  "roles": [
+    {
+      "organization": "anchorage-digital-bank-national-association",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.ethena.fi"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "Weekly attestation (Chaos Labs / Harris & Trotter)"
+    }
+  ]
+}

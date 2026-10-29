@@ -1,0 +1,36 @@
+{
+  "identity": {
+    "slug": "qfex",
+    "name": "QFEX",
+    "legacyPid": 346,
+    "protocolSlug": "qfex"
+  },
+  "about": {
+    "links": {
+      "website": [
+        "https://www.qfex.com"
+      ],
+      "twitter": "https://x.com/qfexchange",
+      "docs": "https://docs.qfex.com/"
+    }
+  },
+  "platform": {
+    "category": [
+      "rwa-perps"
+    ],
+    "platformType": [
+      "stock-perp"
+    ],
+    "accessModel": "permissioned",
+    "parentPlatform": "qfex",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "qfex",
+      "kind": "issuer"
+    }
+  ]
+}

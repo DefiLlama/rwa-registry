@@ -1,0 +1,43 @@
+{
+  "identity": {
+    "slug": "usdm1",
+    "name": "USDM1",
+    "legacyPid": 222
+  },
+  "about": {
+    "description": "USDM1 offers a stablecoin backed by real-world assets and Treasury securities, combining yield generation with price stability. It enables institutional-grade stable settlement with underlying RWA collateral.",
+    "logo": "https://icons.llamao.fi/icons/rwa/usdm1.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://usdm1.com/"
+      ],
+      "twitter": "https://x.com/USDM1"
+    }
+  },
+  "platform": {
+    "category": [
+      "rwa-stablecoins"
+    ],
+    "platformType": [
+      "yield-rwa-stable"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "stellar",
+    "chains": [
+      "stellar"
+    ],
+    "parentPlatform": "usdm1",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "republic-of-the-marshall-islands",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://usdm1.com/"
+      ]
+    }
+  ]
+}

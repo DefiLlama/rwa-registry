@@ -1,0 +1,56 @@
+{
+  "identity": {
+    "slug": "htx",
+    "name": "HTX",
+    "legacyPid": 328,
+    "protocolSlug": "htx"
+  },
+  "about": {
+    "description": "HTX is the exchange formerly known as Huobi, founded in China in 2013 by Leon Li and long one of the largest crypto trading venues in Asia. Li sold his controlling stake to About Capital in October 2022, Justin Sun joined the advisory board around that time, and Bloomberg lists Sun as the exchange's owner, a characterization HTX frames only as an advisory role. The venue rebranded from Huobi to HTX in September 2023. HTX opened a TradFi perpetual futures section in early 2026, starting with silver and tokenized gold in January, gold, platinum and palladium in February, and WTI and Brent crude in March, then added US stock contracts including xStock-linked tickers such as TSLAX, MSTRX and INTCX from late March 2026. Its RWA book now spans roughly 170 contracts across stocks, ETFs, index perps such as SPX500 and NASDAQ100, commodities and pre-IPO names including OpenAI and Anthropic. All contracts are USDT-margined perpetuals using the same engine as its crypto futures, with funding settled at one, four or eight hour intervals depending on the pair. The exchange serves global retail users outside restricted jurisdictions, and its operating companies are not named in its own user agreement.",
+    "logo": "https://icons.llamao.fi/icons/rwa/htx.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.htx.com"
+      ],
+      "twitter": "https://x.com/HTX_Global",
+      "docs": "https://www.htx.com/en-us/opend/newApiPages/",
+      "linkedin": "https://www.linkedin.com/company/htxglobalofficial",
+      "discord": "https://discord.gg/htx-official",
+      "telegram": "https://t.me/htxglobalofficial"
+    },
+    "foundedYear": 2013,
+    "headquarters": "Not disclosed. Commonly described as Seychelles-based. UK FCA court filings name Huobi Global S.A., a Panama company, and unidentified persons as owners and operators.",
+    "founders": "Leon Li (Founder, exited 2022), Justin Sun (Advisor and reported owner)",
+    "regulatoryStatus": "HTX holds no license from any major securities or derivatives regulator for its global platform, and its user agreement attributes the service to unnamed HTX Operators. In October 2025 the UK FCA commenced High Court proceedings, made public in February 2026, against Huobi Global S.A., a company incorporated in Panama, and several categories of persons unknown who own, control or promote the HTX exchange. In May 2026 the UK government sanctioned the exchange's Huobi entity over Russia-related business, and HTX stated the sanctioned entity is legally separate from the exchange operator. The platform restricts users from the US and other listed jurisdictions but is otherwise open to global retail traders.",
+    "keyMilestones": "2013: Founded as Huobi by Leon Li in China | 2022-10: About Capital acquires controlling stake and Justin Sun joins the advisory board | 2023-09: Rebrand from Huobi to HTX | 2025-10: UK FCA files High Court proceedings against Huobi Global S.A. and persons unknown, made public in February 2026 | 2026-01: TradFi perpetual futures open with silver and tokenized gold, followed by gold, platinum and palladium in February and crude oil in March | 2026-03: US stock and xStock-linked perpetuals (TSLAX, MSTRX, INTCX) begin listing | 2026-05: OpenAI and Anthropic pre-IPO perpetuals list, and the UK sanctions the Huobi entity over Russia-related business",
+    "entityStructureNotes": "Operating entities are deliberately opaque. The HTX Platform User Agreement (13 July 2023 version) defines the operators only as HTX Operators without naming companies, which led the UK FCA to sue persons unknown alongside Huobi Global S.A. (Panama). The exchange is commonly described as Seychelles-based, and predecessor Huobi Global Limited was a Seychelles company. Huobi was listed in Hong Kong via a 2018 reverse takeover, and About Capital, a Hong Kong buyout fund, acquired the controlling stake in 2022."
+  },
+  "platform": {
+    "category": [
+      "rwa-perps"
+    ],
+    "platformType": [
+      "perp-venue"
+    ],
+    "accessModel": "permissioned",
+    "marginSettlementAsset": "USDT",
+    "parentPlatform": "htx",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Perp Maker/Taker Fees",
+      "issuerDocsUrl": "https://www.htx.com/fee/",
+      "governanceWhitepaperUrl": "https://www.htx.com/support/360000298561/",
+      "revenueConfidence": "issuer-disclosed",
+      "feeLastVerified": "2026-07-30",
+      "revenueNotes": "Largest tier-1 program and the only venue with true US index perps (1h funding on indices)."
+    }
+  },
+  "roles": [
+    {
+      "organization": "not-disclosed-the-htx-platform-user-agreement-refers-to-unnamed-htx-operators-uk-fca-filings-name-huobi-global-s-a-panama-and-persons-unknown",
+      "kind": "issuer"
+    }
+  ]
+}

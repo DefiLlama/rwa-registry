@@ -1,0 +1,45 @@
+{
+  "identity": {
+    "slug": "phantom",
+    "name": "Phantom",
+    "legacyPid": 204
+  },
+  "about": {
+    "description": "Phantom is a multi-chain wallet for Solana, Polygon, and other chains, enabling asset management and dApp interaction with a focus on user experience. It's the leading Solana wallet by user count.",
+    "logo": "https://icons.llamao.fi/icons/rwa/phantom.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://phantom.com/cash"
+      ],
+      "twitter": "https://x.com/phantom",
+      "docs": "https://phantom.com/",
+      "linkedin": "https://www.linkedin.com/company/phantomwallet"
+    }
+  },
+  "platform": {
+    "category": [
+      "fiat-stablecoins"
+    ],
+    "platformType": [
+      "usd-stable"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "solana",
+    "chains": [
+      "solana"
+    ],
+    "parentPlatform": "phantom",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "phantom",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://phantom.com/cash"
+      ]
+    }
+  ]
+}

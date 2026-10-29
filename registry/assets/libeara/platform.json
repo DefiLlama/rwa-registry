@@ -1,0 +1,72 @@
+{
+  "identity": {
+    "slug": "libeara",
+    "name": "Libeara",
+    "legacyPid": 85,
+    "protocolSlug": "libeara"
+  },
+  "about": {
+    "description": "Libeara is a permissioned institutional tokenization platform launched in November 2023 by SC Ventures (Standard Chartered's innovation arm) and led by CEO Aaron Gwak (16+ years at Standard Chartered). Headquartered in Singapore, Libeara has supported the tokenisation of US$1B+ in regulated assets including a top-rated tokenised US Treasury fund and the first tokenised retail money-market fund in Asia. Partners include FundBridge Capital (MAS-regulated CMS license holder) for the first tokenised Singapore-Dollar Government Bond Fund (Stable USD Money Market Fund / Ultra), and the platform is deployed across Ethereum, Arbitrum, and Avalanche. Custody via Fireblocks; compliance via Chainalysis and Chekk; stablecoin/fiat rails via StraitsX (Fazz). Strategic funding round led by GSR.",
+    "logo": "https://icons.llamao.fi/icons/rwa/libeara.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://libeara.com/"
+      ],
+      "twitter": "https://x.com/libeara_io",
+      "docs": "https://libeara.com/",
+      "linkedin": "https://www.linkedin.com/company/libeara",
+      "discord": "N/A (institutional)",
+      "telegram": "N/A (institutional)",
+      "github": "N/A (closed source)"
+    },
+    "registryInfo": "Libeara is a tokenization platform launched in November 2023 by SC Ventures, the innovation, fintech investment and ventures arm of Standard Chartered. Founder & CEO Aaron Gwak previously spent 16+ years at Standard Chartered. Tokenization stack integrates Fireblocks (custody), Chainalysis and Chekk (compliance), and StraitsX/Fazz (stablecoin-fiat conversion). Strategic funding round led by GSR (digital-asset market maker). Singapore-headquartered.",
+    "foundedYear": 2023,
+    "headquarters": "Singapore, Singapore",
+    "founders": "Aaron Gwak (Founder, CEO), Ben Sadeghi (Co-Founder, CTO), Alan Ling (Co-Founder, COO)",
+    "regulatoryStatus": "Libeara operates through Libeara (Singapore) Pte Ltd, incubated by SC Ventures of Standard Chartered, and was granted a Capital Markets Services licence by the Monetary Authority of Singapore in March 2026. Funds tokenized on the platform are issued and managed by regulated third party managers, notably FundBridge Capital under its Delta Master Trust, rather than by Libeara itself.",
+    "keyMilestones": "2026-06: 14 million dollar round led by GSR | 2026-03: MAS Capital Markets Services licence granted | 2025-04: ChinaAMC USD Digital Money Market Fund launches on Libeara rails | 2024-11: Delta Wellington Ultra Short Treasury On Chain Fund launched with FundBridge and Wellington | 2024-01: Moody s rates the SGD Delta Fund, its first tokenized fund rating | 2023-11: SC Ventures launches Libeara",
+    "entityStructureNotes": "Libeara is an SC Ventures portfolio venture with independent operation and outside capital from GSR. The operating entity is Libeara (Singapore) Pte Ltd, now MAS licensed. Tokenized funds sit in FundBridge Capital s Delta Master Trust with Wellington as sub manager for ULTRA and ChinaAMC managing CUMIU."
+  },
+  "platform": {
+    "category": [
+      "bond-mmf-funds"
+    ],
+    "platformType": [
+      "tokenized-bonds",
+      "tokenized-treasuries"
+    ],
+    "accessModel": "permissioned",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum",
+      "arbitrum",
+      "avax"
+    ],
+    "attestationFrequency": "Daily NAV + annual audit",
+    "parentPlatform": "libeara",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Management Fee + Platform Fee",
+      "revenueConfidence": "no-public-data",
+      "feeLastVerified": "2026-07-09",
+      "revenueNotes": "Libeara earns B2B platform and tokenization service fees from fund manager clients rather than fund economics, with amounts not public. At fund level CUMIU carries a management fee of about 5 bps while other fund fee schedules sit in private placement documents."
+    }
+  },
+  "roles": [
+    {
+      "organization": "libeara-incubated-by-sc-ventures",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://libeara.com/about/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "Daily NAV (40-Act / MAS equivalent)"
+    }
+  ]
+}

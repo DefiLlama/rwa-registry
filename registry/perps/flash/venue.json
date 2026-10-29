@@ -1,0 +1,23 @@
+{
+  "slug": "flash",
+  "organization": "flash-trade",
+  "venueType": "dex",
+  "chain": "solana",
+  "published": false,
+  "oracleProvider": "Pyth",
+  "accessModel": "permissionless",
+  "rwaClassification": "programmable-finance",
+  "conventionNote": "Flash Trade pools have no funding: open positions pay a margin fee that accrues continuously from pool utilization, and the open and the close fee are one flat rate (2 bps, AMD 5 bps) held as both maker and taker.",
+  "website": "https://flash.trade/",
+  "issuer": "Flash Trade",
+  "marginAsset": "USDC",
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ],
+  "makerFeeBps": 2,
+  "takerFeeBps": 2
+}

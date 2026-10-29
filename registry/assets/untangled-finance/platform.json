@@ -1,0 +1,45 @@
+{
+  "identity": {
+    "slug": "untangled-finance",
+    "name": "Untangled Finance",
+    "legacyPid": 62
+  },
+  "about": {
+    "description": "Untangled Finance provides tokenized access to private credit and structured finance products, connecting institutional lenders with decentralized liquidity. It enables securitization of off-chain credit through on-chain smart contracts.",
+    "logo": "https://icons.llamao.fi/icons/rwa/untangled-finance.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://untangled.finance"
+      ],
+      "twitter": "https://x.com/untangledfi",
+      "docs": "https://docs.untangled.finance/",
+      "linkedin": "https://www.linkedin.com/company/untangled-finance"
+    }
+  },
+  "platform": {
+    "category": [
+      "private-credit"
+    ],
+    "platformType": [
+      "credit-pool"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "celo",
+    "chains": [
+      "celo"
+    ],
+    "parentPlatform": "untangled-finance",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "untangled-finance-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://untangled.finance"
+      ]
+    }
+  ]
+}

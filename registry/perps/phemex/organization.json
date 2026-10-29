@@ -1,0 +1,56 @@
+{
+  "identity": {
+    "slug": "phemex",
+    "name": "Phemex",
+    "legacyPid": 334,
+    "protocolSlug": "phemex"
+  },
+  "about": {
+    "description": "Phemex is a derivatives-focused cryptocurrency exchange founded in 2019 by former Morgan Stanley executives including Jack Tao, launched its trading platform in November 2019 and claims more than 10 million users. Federico Variola serves as CEO, named in official Phemex blog and LinkedIn posts, while Jack Tao's current role is not publicly disclosed. The venue launched TradFi traditional-asset futures in February 2026 with a zero fee promotion that ran through May 2026, and now lists more than 130 such contracts covering US stocks, ETFs, equity indices, precious metals, energy and four pre-IPO names, SpaceX, Anthropic, OpenAI and QNTX. All are USDT-settled linear perpetuals on the same engine as its crypto futures, tagged in the public API with perpProductSubType TradFi or PreMarket, with funding every 8 hours on most TradFi contracts and every 4 hours on some. Base futures fees are 0.01 percent maker and 0.06 percent taker now that the launch promotion has ended. Phemex's terms name Phemex Poland sp. z o.o. as a group entity and apply Singapore governing law, and the exchange restored withdrawals within days of a January 2025 hot wallet hack that third-party analysts estimated at $69 to 85 million.",
+    "logo": "https://icons.llamao.fi/icons/rwa/phemex.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://phemex.com"
+      ],
+      "twitter": "https://x.com/Phemex_official",
+      "docs": "https://phemex-docs.github.io",
+      "linkedin": "https://www.linkedin.com/company/phemex",
+      "discord": "https://discord.gg/phemex",
+      "telegram": "https://t.me/Phemex_EN"
+    },
+    "foundedYear": 2019,
+    "headquarters": "Widely described as founded in Singapore, and its terms apply Singapore governing law, but no operational headquarters is formally disclosed. The only entity named in its terms is registered in Katowice, Poland.",
+    "founders": "Jack Tao (Founder), Federico Variola (CEO)",
+    "regulatoryStatus": "Phemex discloses no licenses from major financial regulators, and no MiCA authorization was found in EU registers. Its terms of use name Phemex Poland sp. z o.o. in Katowice as a group entity, with Singapore governing law and disputes referred to SIAC arbitration in Singapore. No regulatory enforcement actions against Phemex were identified in this review. The most notable operational event is the January 2025 hot wallet breach, estimated by third-party analysts at $69 to 85 million and attributed to the Lazarus Group, after which Phemex published an incident timeline, released proof of reserves and resumed withdrawals within days.",
+    "keyMilestones": "2019: Founded by former Morgan Stanley executives | 2019-11: Trading platform launched with crypto contract trading | 2023-11: Phemex Token (PT) launched with spot listing and staking | 2025-01: Hot wallet hack estimated by analysts at $69 to 85 million, withdrawals resumed within days | 2026-02: TradFi traditional-asset futures launched with a zero fee promotion through 2026-05 | 2026-05: Pre-IPO perpetual suite debuts with SpaceX, Anthropic, OpenAI and QNTX | 2026-08: 131 TradFi and 4 PreMarket perpetual contracts live per public API",
+    "entityStructureNotes": "Current terms of use name only Phemex Poland sp. z o.o. (Katowice, Poland, KRS 0001121869) among Phemex group entities, with Singapore governing law and SIAC arbitration. No Singapore, BVI or Seychelles operating entity is disclosed in current terms, and the corporate structure behind the derivatives venue is otherwise undisclosed."
+  },
+  "platform": {
+    "category": [
+      "rwa-perps"
+    ],
+    "platformType": [
+      "perp-venue"
+    ],
+    "accessModel": "permissioned",
+    "marginSettlementAsset": "USDT",
+    "parentPlatform": "phemex",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Perp Maker/Taker Fees",
+      "issuerDocsUrl": "https://phemex.com/fees-conditions",
+      "governanceWhitepaperUrl": "https://phemex.com/help-center/phemex-terms-of-use",
+      "revenueConfidence": "issuer-disclosed",
+      "feeLastVerified": "2026-07-30",
+      "revenueNotes": "perpProductSubType=TradFi/PreMarket API flag. TradFi zero-fee promo ran from launch through 2026-05."
+    }
+  },
+  "roles": [
+    {
+      "organization": "not-specifically-disclosed-terms-name-phemex-poland-sp-z-o-o-katowice-poland-as-a-group-entity",
+      "kind": "issuer"
+    }
+  ]
+}

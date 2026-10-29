@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "slug": "betoken",
+    "name": "BeToken",
+    "legacyPid": 280
+  },
+  "about": {
+    "logo": "https://icons.llamao.fi/icons/rwa/betoken.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://betoken.io"
+      ],
+      "twitter": "https://x.com/betoken_io"
+    }
+  },
+  "platform": {
+    "category": [
+      "stocks-equities"
+    ],
+    "primaryChain": "polygon",
+    "delisted": false
+  }
+}

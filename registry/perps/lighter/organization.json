@@ -1,0 +1,67 @@
+{
+  "identity": {
+    "slug": "lighter",
+    "name": "Lighter",
+    "legacyPid": 246,
+    "protocolSlug": "lighter"
+  },
+  "about": {
+    "description": "Lighter is a verifiable zero-fee perpetual contract DEX built as a custom ZK-rollup on Ethereum, founded by Vladimir Novakovski (former Citadel quant). The protocol generates ZK proofs of all order matching and liquidations and operates a fully on-chain order book targeting CEX-grade execution. Markets cover equities, ETFs, equity indices, and commodities alongside crypto, with positions margined and cash-settled in USDC. Lighter began ZK-rollup development in 2023, launched mainnet in October 2024, and raised $68M at a $1.5B valuation in November 2025 from Founders Fund, Ribbit Capital, Haun Ventures, and Robinhood.",
+    "logo": "https://icons.llamao.fi/icons/rwa/lighter.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://lighter.xyz/"
+      ],
+      "twitter": "https://x.com/Lighter_xyz",
+      "docs": "https://docs.lighter.xyz/",
+      "linkedin": "https://www.linkedin.com/company/lighter-xyz",
+      "discord": "https://discord.gg/lighter",
+      "telegram": "https://t.me/lighter_api_updates",
+      "github": "https://github.com/lighter-xyz",
+      "refLinks": [
+        "https://app.lighter.xyz/trade/ETH?referral=FHT1N8AYKHP4"
+      ]
+    },
+    "registryInfo": "Lighter Labs was founded by Vladimir Novakovski, formerly a quantitative engineer/trader at Citadel. The team began developing its own ZK-rollup in 2023; mainnet launched in October 2024 and the company raised $68M at a $1.5B valuation in November 2025 from Founders Fund, Ribbit Capital, Haun Ventures, and Robinhood (a rare strategic investment from the broker)."
+  },
+  "platform": {
+    "category": [
+      "rwa-perps"
+    ],
+    "platformType": [
+      "perp-venue"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "attestationFrequency": "N/A (Perp Venue)",
+    "marginSettlementAsset": "USDC (Lighter ZK-rollup)",
+    "parentPlatform": "lighter",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Maker/Taker Fees",
+      "revenueConfidence": "issuer-disclosed",
+      "feeLastVerified": "2026-05-11",
+      "revenueNotes": "Lighter perpetuals are FREE to trade for standard accounts (0 bps maker / 0 bps taker). Premium accounts (lower latency tier) pay 0.2 bps maker / 2 bps taker. Premium accounts can stake LIT for further fee discounts. Lighter is a zk-rollup perp DEX with no separate RWA fee tier — same fees apply to crypto and RWA markets. Source: https://docs.lighter.xyz/perpetual-futures/fees"
+    }
+  },
+  "roles": [
+    {
+      "organization": "lighter-labs",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://lighter.xyz/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "N/A (Perp Venue)"
+    }
+  ]
+}

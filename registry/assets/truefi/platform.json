@@ -1,0 +1,46 @@
+{
+  "identity": {
+    "slug": "truefi",
+    "name": "TrueFi",
+    "legacyPid": 61
+  },
+  "about": {
+    "description": "TrueFi provides tokenized access to private credit and structured finance products, connecting institutional lenders with decentralized liquidity. It enables securitization of off-chain credit through on-chain smart contracts.",
+    "logo": "https://icons.llamao.fi/icons/rwa/truefi.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://truefi.io"
+      ],
+      "twitter": "https://x.com/TrueFiDAO",
+      "docs": "https://docs.truefi.io/",
+      "linkedin": "https://www.linkedin.com/company/truefi-protocol"
+    }
+  },
+  "platform": {
+    "category": [
+      "governance-tokens",
+      "private-credit"
+    ],
+    "platformType": [
+      "governance-token"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "parentPlatform": "truefi",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "archblock-inc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://truefi.io"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "identity": {
+    "slug": "ondo",
+    "name": "Ondo",
+    "legacyPid": 76,
+    "protocolSlug": "ondo-finance"
+  },
+  "about": {
+    "description": "Ondo Finance is the largest pure-play tokenized real-world asset platform, with roughly $3.76b of on-chain AUM across more than 570 live assets. It was founded in 2021 by former Goldman Sachs colleagues Nathan Allman and Pinku Surana and is headquartered in New York, and has been led by CEO Ian De Bode since May 2026. Its flagship products are USDY, a yield-bearing dollar token secured by short-term US Treasuries with about $2.1b outstanding, and OUSG, a tokenized short-term Treasuries fund for qualified purchasers that also comes in a rebasing form (rOUSG) and holds tokenized money market funds from State Street, BlackRock, Fidelity and Franklin Templeton. Ondo Stocks, formerly Ondo Global Markets, offers more than 500 tokenized US stocks and ETFs issued by Ondo Global Markets (BVI) Limited to non-US investors on Ethereum, BNB Chain and Solana, with bridging to HyperEVM. The wider stack includes Ondo Perps, a perpetual futures venue that accepts tokenized stocks as collateral, the Ondo Network, a verifiable execution layer unveiled in July 2026 in place of the previously planned Ondo Chain layer-1, the Ondo Bridge, the Flux Finance lending protocol and the ONDO governance token. Backers include Founders Fund, Pantera Capital and Coinbase Ventures, and former US House Financial Services Committee Chair Patrick McHenry serves as Vice Chairman.",
+    "logo": "https://icons.llamao.fi/icons/rwa/ondo.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://ondo.finance/"
+      ],
+      "twitter": "https://x.com/OndoFinance",
+      "docs": "https://docs.ondo.finance/",
+      "linkedin": "https://www.linkedin.com/company/ondofinance",
+      "discord": "https://discord.gg/ondofinance",
+      "telegram": "https://t.me/ondofinance",
+      "github": "https://github.com/ondoprotocol"
+    },
+    "registryInfo": "Ondo Finance Inc., Delaware C-corporation. Operates regulated subsidiaries Ondo Capital Management LLC (SEC-registered investment adviser) and Ondo I LP (Cayman SPV) for OUSG, plus an SPC structure for USDY (Ankura Trust). Headquartered in New York, NY. Founded 2021 by Nathan Allman (CEO. ex-Goldman Sachs Digital Assets, Stanford MBA, Brown BA) and Pinku Surana (CTO. ex-Goldman). Backed by Pantera Capital, Founders Fund, Coinbase Ventures, Tiger Global, Wintermute, BlockTower, and others (~$50M+ raised across rounds).",
+    "foundedYear": 2021,
+    "headquarters": "New York, USA",
+    "founders": "Ian De Bode (CEO since May 2026, previously President and Chief Strategy Officer), Patrick McHenry (Vice Chairman), Mark Janoff (General Counsel), Nathan Allman (Founder, CEO until his passing in May 2026), Pinku Surana (Co-Founder)",
+    "regulatoryStatus": "Ondo Capital Management LLC, an SEC-registered investment adviser, manages OUSG, which is issued by Delaware limited partnership Ondo I LP under Regulation D Rule 506(c) to accredited investors and qualified purchasers in reliance on Section 3(c)(7) of the Investment Company Act. USDY was structured as a secured note issued by Ondo USDY LLC with Ankura Trust as collateral agent, and as of December 15, 2025 USDY sits under the Ondo Stocks umbrella with USDC redemptions handled by Ondo Global Markets (BVI) Limited, the BVI entity that issues Ondo tokenized stocks to non-US persons without US Securities Act registration. In October 2025 Ondo completed its acquisition of Oasis Pro, gaining Oasis Pro Markets LLC, an SEC-registered broker-dealer and ATS and a FINRA member, and Oasis Pro TA LLC, an SEC-registered transfer agent. In July 2026 Oasis Pro Markets received FINRA authorizations to offer tokenized equities and funds to US institutional and retail investors, and Ondo has filed written input with the SEC crypto task force including a broker-dealer no-action request.",
+    "keyMilestones": "2021: Founded by Nathan Allman and Pinku Surana, with a $4m seed led by Pantera Capital announced in August | 2023-01: OUSG launches as a tokenized short-term US Treasuries fund | 2023-08: USDY launches as a yield-bearing dollar token for non-US investors | 2024-01: ONDO governance token unlocks for public trading | 2025-09: Ondo Global Markets goes live on Ethereum with 100+ tokenized US stocks and ETFs, expanding to BNB Chain in October and Solana in January 2026 | 2025-10: Oasis Pro acquisition completes, adding SEC-registered broker-dealer, ATS and transfer agent licenses | 2026-05: Founder Nathan Allman passes away and Ian De Bode is named CEO | 2026-07: Ondo Perps launches on the new Ondo Network, Ondo Global Markets rebrands to Ondo Stocks as tokenized equities pass $1b, and Oasis Pro Markets secures FINRA authorizations for US tokenized equities",
+    "entityStructureNotes": "Ondo Finance Inc., a Delaware corporation, operates the platform and is the sole member of both the general partner of Ondo I LP, the OUSG issuer, and Ondo Capital Management LLC, the SEC-registered adviser to OUSG. Ondo Global Markets (BVI) Limited issues Ondo tokenized stocks, and since December 15, 2025 USDY sits under the same Ondo Stocks umbrella after formerly being issued by Ondo USDY LLC with Ankura Trust as collateral agent. Oasis Pro Markets LLC (SEC-registered broker-dealer and ATS) and Oasis Pro TA LLC (SEC-registered transfer agent) are the US-regulated subsidiaries acquired in 2025. The planned Ondo Chain layer-1 was superseded in July 2026 by the Ondo Network, a verifiable off-chain execution layer that powers Ondo Perps, the tokenized perp venue."
+  },
+  "platform": {
+    "category": [
+      "bond-mmf-funds",
+      "stocks-equities"
+    ],
+    "platformType": [
+      "tokenized-treasuries",
+      "tokenized-stocks"
+    ],
+    "accessModel": "permissioned",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum",
+      "solana",
+      "polygon",
+      "mantle",
+      "sui",
+      "aptos",
+      "arbitrum"
+    ],
+    "attestationFrequency": "Continuous (NAV-rebasing) + quarterly audited financials",
+    "parentPlatform": "ondo",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Hybrid",
+      "assetManagerTakeBps": 25,
+      "tokenizationPlatformTakeBps": 25,
+      "performanceFeePct": 0,
+      "yieldSpreadRetainedBps": 0,
+      "mintFeeBps": 25,
+      "redemptionFeeBps": 0,
+      "underlyingFundExpenseBps": 0,
+      "platformSetupFeeUsd": null,
+      "platformRecurringServiceFeeUsdPerYr": 0,
+      "issuerDocsUrl": "https://docs.ondo.finance/qualified-access-products/ousg/fees-and-taxes ; https://docs.ondo.finance/ondo-global-markets/fees-and-taxes",
+      "tcsUrl": "https://docs.ondo.finance/",
+      "governanceWhitepaperUrl": "https://docs.ondo.finance/legal/terms-of-service",
+      "revenueConfidence": "issuer-disclosed",
+      "feeLastVerified": "2026-08-06",
+      "revenueNotes": "OUSG carries a 0.15% management fee that Ondo has waived until January 1, 2027, extending the waiver previously set to end July 1, 2026, so OUSG currently generates no management fee revenue, and fund expenses are capped at a further 0.15%. USDY revenue is the spread between portfolio yield and the APY Ondo sets monthly, currently a 3.55% APY against a published portfolio yield to maturity of 3.76% (August 2026), an implied spread of roughly 20 bps. Ondo Stocks earns the difference between quoted buy or sell prices and the platform's execution price on the underlying, with no mint or burn fees, plus float income on USDon, the internal dollar token backed 1:1 by USD in brokerage accounts. Ondo Perps charges reported maker and taker fees of 1.5 bps and 3.5 bps in USDC. The ONDO token carries no fee entitlement today, and a possible DAO fee switch vote in H2 2026 remains market expectation rather than an announced commitment. Sources: https://docs.ondo.finance/qualified-access-products/ousg/fees-and-taxes and https://ondo.finance/usdy; Platform Setup Fee (USD): Yes",
+      "chainShareClassFeeVariants": "Mixed: official docs (live), prospectus-equivalent fund docs, live app verification (perps)",
+      "subsidyRebateArrangements": "USDY: $5,000 mint/redeem minimum on Sui/Aptos/Stellar/XRPL/Noble; OUSG mgmt fee waived to 2026-07-01",
+      "revenueMix": "Mixed (Mgmt Fee + Yield Spread + Quote Spread + Trading Fee)"
+    }
+  },
+  "roles": [
+    {
+      "organization": "ondo-finance-inc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://ondo.finance/about"
+      ]
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://docs.ondo.finance/general-access-products/usdy/transparency"
+      ]
+    },
+    {
+      "organization": "pyth-network",
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://docs.ondo.finance/general-access-products/usdy/transparency"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "Daily reserves + quarterly audits"
+    }
+  ]
+}

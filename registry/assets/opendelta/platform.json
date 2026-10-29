@@ -1,0 +1,41 @@
+{
+  "identity": {
+    "slug": "opendelta",
+    "name": "OpenDelta",
+    "legacyPid": 296
+  },
+  "about": {
+    "description": "OpenDelta is an onchain asset management and issuance platform that lets asset managers, fintechs, and treasuries create and distribute tokenized financial products. Its flagship listed product is NX8, a tokenized index of eight major layer 1 network tokens built with Nansen, with methodology by GMCI, custody by Anchorage and Hex Trust, and reserve verification by Accountable.",
+    "logo": "https://icons.llamao.fi/icons/rwa/opendelta.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.opendelta.com/"
+      ],
+      "twitter": "https://x.com/opendelta_",
+      "docs": "https://docs.opendelta.com/",
+      "linkedin": "https://www.linkedin.com/company/opendeltabtc/"
+    }
+  },
+  "platform": {
+    "category": [
+      "crypto-funds"
+    ],
+    "primaryChain": "solana",
+    "chains": [
+      "solana"
+    ],
+    "suspicious": false,
+    "delisted": false,
+    "fees": {
+      "revenueModel": "Management Fee",
+      "revenueConfidence": "no-public-data",
+      "feeLastVerified": "2026-07-02"
+    }
+  },
+  "roles": [
+    {
+      "organization": "opendelta-uk",
+      "kind": "issuer"
+    }
+  ]
+}

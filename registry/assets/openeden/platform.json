@@ -1,0 +1,80 @@
+{
+  "identity": {
+    "slug": "openeden",
+    "name": "OpenEden",
+    "legacyPid": 77,
+    "protocolSlug": "openeden"
+  },
+  "about": {
+    "description": "OpenEden is a blockchain-based platform providing infrastructure for tokenization and on-chain financial services. It enables users to access and trade diverse digital assets through decentralized protocols.",
+    "logo": "https://icons.llamao.fi/icons/rwa/openeden.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://openeden.com"
+      ],
+      "twitter": "https://x.com/OpenEden_X",
+      "docs": "https://docs.openeden.com/",
+      "linkedin": "https://www.linkedin.com/company/openeden",
+      "discord": "https://discord.com/invite/openeden",
+      "telegram": "https://t.me/openedenlabs",
+      "github": "https://github.com/openeden-xyz",
+      "refLinks": [
+        "https://portal.openeden.com/bills-campaign?refCode=x1z3OOidAS"
+      ]
+    },
+    "registryInfo": "OpenEden Labs (Singapore; MAS-regulated under regulated digital-asset framework). Issues TBILL (T-Bill-backed tokenized yield) and USDO (yield-bearing USD stablecoin). Founded 2023 by Jeremy Ng and Eugene Ng (formerly Gemini). Backed by Bo Hines investments, RockawayX, Tribe Capital. Rated investment-grade by Moody's.",
+    "foundedYear": 2022,
+    "headquarters": "Singapore, Singapore",
+    "founders": "Jeremy Ng (Founder, CEO), Eugene Ng (Co-Founder)",
+    "regulatoryStatus": "TBILL is issued by Hill Lights International Limited, a BVI professional fund regulated by the BVI Financial Services Commission, with BNY Mellon Investment Management Singapore as MAS regulated investment manager and BNY as custodian. Affiliate OpenEden Digital holds a Bermuda Class F Digital Asset Business licence and issues USDO. The TBILL fund carries an S and P AA+f rating and earlier received Moody s first tokenized fund A-bf rating.",
+    "keyMilestones": "2026-04: HYBOND launched tokenizing a BNY Investments short dated high yield bond strategy | 2025-10: S and P assigns AA+f S1+ rating to the TBILL fund | 2025-08: BNY appointed investment manager and custodian | 2025-02: USDO regulated yield bearing stablecoin launched | 2024-06: Moody s A-bf rating, the first for a tokenized Treasury fund | 2023-04: TBILL Vault launches",
+    "entityStructureNotes": "OpenEden Group is the Singapore headquartered parent. TBILL is issued by BVI fund Hill Lights International Limited with technology by River Labs Pte Ltd. OpenEden Digital in Bermuda issues USDO. Administration, audit, and management are outsourced to Protege Fund Services, TJ Assurance Partners, and BNY IM."
+  },
+  "platform": {
+    "category": [
+      "bond-mmf-funds"
+    ],
+    "platformType": [
+      "t-bills"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "attestationFrequency": "Daily + Monthly",
+    "parentPlatform": "openeden",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Management Fee",
+      "holderTotalFeeBps": 30,
+      "assetManagerTakeBps": 30,
+      "tokenizationPlatformTakeBps": 0,
+      "performanceFeePct": 0,
+      "mintFeeBps": 5,
+      "redemptionFeeBps": 5,
+      "underlyingFundExpenseBps": 30,
+      "floatIncome": false,
+      "revenueConfidence": "issuer-disclosed",
+      "feeLastVerified": "2026-07-09",
+      "revenueNotes": "Current docs show a 30 bps total expense ratio accrued daily plus a 5 bps transaction fee on both subscription and redemption paid in USDC. USDO adds a stablecoin margin business where OpenEden Digital keeps part of the reserve yield spread."
+    }
+  },
+  "roles": [
+    {
+      "organization": "treasury-bills-institutional-liquidity-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://openeden.com"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "Daily NAV + monthly attestation (NAV Consulting / Chaos Labs)"
+    }
+  ]
+}

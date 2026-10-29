@@ -1,0 +1,67 @@
+{
+  "identity": {
+    "slug": "avantis",
+    "name": "Avantis",
+    "legacyPid": 230,
+    "protocolSlug": "avantis"
+  },
+  "about": {
+    "description": "Avantis is the largest decentralized perpetual exchange on Base by volume, founded by Harsehaj Singh (CEO) and Raymond Dong with backgrounds at Pantera Capital, Lazard, McKinsey, and Bow Capital, and headquartered in New York City. The platform offers up to 500× leverage on commodities, equity indices, stocks, and FX, with positions margined and cash-settled in USDC and Pyth Pro as the primary oracle (Chainlink as verification). Avantis pioneered \"zero-fee perpetuals\" (ZFP) — a primitive where traders only pay fees if they profit — and is backed by Pantera Capital, Coinbase Ventures, Founders Fund, Galaxy Digital, and the Base Ecosystem Fund.",
+    "logo": "https://icons.llamao.fi/icons/rwa/avantis.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.avantisfi.com/"
+      ],
+      "twitter": "https://x.com/AvantisFi",
+      "docs": "https://docs.avantisfi.com/",
+      "linkedin": "https://www.linkedin.com/company/avantisfi",
+      "discord": "https://discord.gg/avantis",
+      "telegram": "https://t.me/avantis_fi",
+      "github": "https://github.com/Avantis-Labs",
+      "refLinks": [
+        "https://www.avantisfi.com/referral?code=DefiLlama"
+      ]
+    },
+    "registryInfo": "Avantis was founded by Co-Founder & CEO Harsehaj Singh and Raymond Dong, with leadership coming from Pantera Capital, Lazard, McKinsey, and Bow Capital. Headquartered in New York City. Backed by Pantera Capital, Coinbase Ventures, Founders Fund, Galaxy Digital, and the Base Ecosystem Fund. The protocol uses Pyth Pro as primary oracle with Chainlink verification."
+  },
+  "platform": {
+    "category": [
+      "rwa-perps"
+    ],
+    "platformType": [
+      "perp-venue"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "base",
+    "chains": [
+      "base"
+    ],
+    "attestationFrequency": "N/A (Perp Venue)",
+    "marginSettlementAsset": "USDC (Base)",
+    "parentPlatform": "avantis",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Opening Fee",
+      "revenueConfidence": "issuer-disclosed",
+      "feeLastVerified": "2026-05-11",
+      "revenueNotes": "Avantis RWA fee schedule (Base-native): stocks and indices 6 bps opening fee, NO closing fee. Commodities 6-8 bps opening fee, no closing fee. FX and metals follow the same opening-only model. Avantis also offers Zero-Fee Perpetuals (ZFP) with no fixed open/close fee but a 2.5%+ win-fee on gross profit at close. Crypto markets (not displayed on this RWA page) charge 4.5 bps open + 4.5 bps close. Dynamic spread/margin adjustments apply on either side of crowded markets. Source: https://docs.avantisfi.com/trading/trading-fees-fixed-fee-perpetuals/commodities"
+    }
+  },
+  "roles": [
+    {
+      "organization": "avantis",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.avantisfi.com/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "N/A (Perp Venue)"
+    }
+  ]
+}

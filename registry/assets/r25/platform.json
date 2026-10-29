@@ -1,0 +1,69 @@
+{
+  "identity": {
+    "slug": "r25",
+    "name": "R25",
+    "legacyPid": 255
+  },
+  "about": {
+    "description": "R25 is a multi-chain RWA tokenization protocol building the \"rcTokens\" family — RWA-backed yieldcoins. Product line: rcUSD (conservative MMF-backed dollar, $1 peg, on Sui/Polygon), rcUSDp (yield-bearing version), rcHY (higher yield from tokenized PE/credit), ibUSD (illiquid higher-yield), and VRPC family on Pharos (VRPC-Weekly + VRPC-SemiYearly + VRPC-Quarterly Variable Real Private Credit pools). The TopNod wallet collaboration offers fixed 1-year yields of ~12% base APY plus 2% boost for the first 3 months. R25 brings yield through tokenized money market funds and structured private-credit exposures including renewable energy, emerging tech, and disruptive industries.",
+    "logo": "https://icons.llamao.fi/icons/rwa/r25.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.r25.xyz/"
+      ],
+      "twitter": "https://x.com/R25Official",
+      "docs": "https://docs.r25.xyz/",
+      "linkedin": "https://www.linkedin.com/company/r25",
+      "discord": "Discord (community)",
+      "telegram": "Telegram (community)"
+    },
+    "registryInfo": "R25 is a decentralized finance protocol building institutional-grade tokenized assets supported by real-world assets. Focus on risk management, credit enhancement, and on-chain transparency. Founding member of the Pharos RealFi Alliance (alongside Chainlink, Asseto Finance, Ember, Faroo, LayerZero, Re7 Labs, TopNod, and Centrifuge). Multi-chain deployment: rcUSD/rcUSDp on Sui (Bluefin/Ember vault collaboration via TopNod wallet), rcUSD+ on Polygon, VRPC family on Pharos. Audited (Sui Audit Report + Polygon Audit Report available on website)."
+  },
+  "platform": {
+    "category": [
+      "rwa-stablecoins",
+      "private-credit",
+      "bond-mmf-funds"
+    ],
+    "platformType": [
+      "yield-pool"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "sui",
+    "chains": [
+      "sui",
+      "polygon",
+      "pharos"
+    ],
+    "attestationFrequency": "Periodic",
+    "parentPlatform": "r25",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Yield Spread",
+      "issuerDocsUrl": "https://docs.r25.xyz/",
+      "revenueConfidence": "no-public-data",
+      "feeLastVerified": "2026-05-13",
+      "revenueNotes": "R25 retains the yield spread between underlying MMF/credit returns and the rebase/yield paid to rcToken holders. Specific bps not publicly disclosed at audit date. Source: https://www.r25.xyz/"
+    }
+  },
+  "roles": [
+    {
+      "organization": "r25",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.r25.xyz/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://drive.google.com/drive/folders/1gf69cHLkplY1fEgItlQRRvcNukNNWGoU"
+      ],
+      "note": "Periodic per audit reports"
+    }
+  ]
+}

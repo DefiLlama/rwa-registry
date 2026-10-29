@@ -1,0 +1,46 @@
+{
+  "identity": {
+    "slug": "gate",
+    "name": "Gate",
+    "legacyPid": 175
+  },
+  "about": {
+    "description": "Gate offers a stablecoin backed by real-world assets and Treasury securities, combining yield generation with price stability. It enables institutional-grade stable settlement with underlying RWA collateral.",
+    "logo": "https://icons.llamao.fi/icons/rwa/gate.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.gate.com/gusd"
+      ],
+      "twitter": "https://x.com/gate_io",
+      "refLinks": [
+        "https://www.gatesite.casa/web3/ref?code=nufLft0L"
+      ]
+    }
+  },
+  "platform": {
+    "category": [
+      "rwa-stablecoins"
+    ],
+    "platformType": [
+      "yield-rwa-stable"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "parentPlatform": "gate",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "gate",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.gate.com/gusd"
+      ]
+    }
+  ]
+}

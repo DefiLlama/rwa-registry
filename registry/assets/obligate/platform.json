@@ -1,0 +1,39 @@
+{
+  "identity": {
+    "slug": "obligate",
+    "name": "Obligate",
+    "legacyPid": 341
+  },
+  "about": {
+    "links": {
+      "website": [
+        "https://www.obligate.com/otfy"
+      ],
+      "twitter": "https://x.com/obligatecom",
+      "docs": "https://www.obligate.com/otfy"
+    }
+  },
+  "platform": {
+    "category": [
+      "private-credit"
+    ],
+    "platformType": [
+      "trade-finance"
+    ],
+    "accessModel": "permissioned",
+    "primaryChain": "solana",
+    "chains": [
+      "solana"
+    ],
+    "parentPlatform": "obligate",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "verified-sv-s-a-r-l",
+      "kind": "issuer"
+    }
+  ]
+}

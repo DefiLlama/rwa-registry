@@ -1,0 +1,52 @@
+{
+  "identity": {
+    "slug": "xend-finance",
+    "name": "Xend Finance",
+    "legacyPid": 65
+  },
+  "about": {
+    "description": "Xend Finance is a BNB Chain-based DeFi platform targeting African and emerging-market savings products. The XEND token is the governance and utility token. The platform offers yield pools backed by stablecoin lending and RWA exposure, with a focus on serving credit-cooperative-style users in regions with limited access to USD savings.",
+    "logo": "https://icons.llamao.fi/icons/rwa/xend-finance.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://xend.finance"
+      ],
+      "twitter": "https://x.com/xendfinance",
+      "docs": "https://docs.xend.finance/",
+      "linkedin": "https://www.linkedin.com/company/xend-finance"
+    }
+  },
+  "platform": {
+    "category": [
+      "rwa-wrappers",
+      "bond-mmf-funds"
+    ],
+    "platformType": [
+      "yield-pool"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "bsc",
+    "chains": [
+      "bsc"
+    ],
+    "parentPlatform": "xend-finance",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "issuerDocsUrl": "https://docs.xend.finance/",
+      "revenueConfidence": "no-public-data",
+      "feeLastVerified": "2026-05-10",
+      "revenueNotes": "Public fee disclosure not available."
+    }
+  },
+  "roles": [
+    {
+      "organization": "xend-finance-ltd",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://xend.finance"
+      ]
+    }
+  ]
+}

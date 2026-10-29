@@ -1,0 +1,56 @@
+{
+  "identity": {
+    "slug": "tron",
+    "name": "TRON",
+    "legacyPid": 151
+  },
+  "about": {
+    "description": "TRON offers a stablecoin backed by real-world assets and Treasury securities, combining yield generation with price stability. It enables institutional-grade stable settlement with underlying RWA collateral.",
+    "logo": "https://icons.llamao.fi/icons/rwa/tron.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://usdd.io/"
+      ],
+      "twitter": "https://x.com/usddio"
+    },
+    "foundedYear": 2017,
+    "headquarters": "Decentralized (DAO)",
+    "founders": "Justin Sun (Founder)",
+    "regulatoryStatus": "USDD is not registered or licensed with any financial regulator and its documentation positions it as a decentralized protocol with no central issuer. USDD 2.0 relaunched in January 2025 as an overcollateralized CDP stablecoin. The SEC case against Justin Sun and TRON entities over TRX and BTT ended in March 2026 with a 10 million dollar Rainberry penalty and all other claims dismissed with prejudice.",
+    "keyMilestones": "2026-03: SEC v. Sun settled, Rainberry pays 10M penalty, other claims dismissed | 2025-07: SRM Entertainment renamed Tron Inc. on Nasdaq | 2025-01: USDD 2.0 launched as overcollateralized CDP stablecoin | 2022-06: USDD upgraded to overcollateralized model | 2022-05: TRON DAO launched USDD",
+    "entityStructureNotes": "USDD 1.0 was issued by the TRON DAO Reserve. USDD 2.0 has no identified corporate issuer and is minted through overcollateralized vault smart contracts with community governance. No legal entity is disclosed as accountable for the stablecoin."
+  },
+  "platform": {
+    "category": [
+      "non-rwa-stablecoins"
+    ],
+    "platformType": [
+      "crypto-stable"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "tron",
+    "chains": [
+      "tron"
+    ],
+    "parentPlatform": "tron",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "mintFeeBps": 0,
+      "redemptionFeeBps": 0,
+      "revenueConfidence": "issuer-disclosed",
+      "feeLastVerified": "2026-07-09",
+      "revenueNotes": "PSM swaps between USDD and USDT or USDC are 1 to 1 with no service fee. Vault minted USDD accrues an onchain stability fee with no published bps schedule. Initial 20 percent sUSDD yield was subsidized by TRON DAO. Crypto collateralized so no fiat float income."
+    }
+  },
+  "roles": [
+    {
+      "organization": "tron-dao-reserve",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://usdd.io/"
+      ]
+    }
+  ]
+}

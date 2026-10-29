@@ -1,0 +1,20 @@
+{
+  "identity": {
+    "slug": "syntetika",
+    "name": "Syntetika",
+    "protocolSlug": "syntetika"
+  },
+  "about": {
+    "links": {
+      "website": [
+        "https://syntetika.io/"
+      ]
+    }
+  },
+  "platform": {
+    "primaryChain": "base",
+    "chains": [
+      "base"
+    ]
+  }
+}

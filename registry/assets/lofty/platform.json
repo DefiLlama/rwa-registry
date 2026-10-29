@@ -1,0 +1,45 @@
+{
+  "identity": {
+    "slug": "lofty",
+    "name": "Lofty",
+    "legacyPid": 105
+  },
+  "about": {
+    "description": "Lofty enables fractional ownership and trading of real estate assets through tokenization. It provides institutional-grade real estate exposure via blockchain infrastructure.",
+    "logo": "https://icons.llamao.fi/icons/rwa/lofty.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://lofty.ai"
+      ],
+      "twitter": "https://x.com/lofty_ai",
+      "docs": "https://docs.lofty.ai/",
+      "linkedin": "https://www.linkedin.com/company/lofty-ai"
+    }
+  },
+  "platform": {
+    "category": [
+      "real-estate"
+    ],
+    "platformType": [
+      "single-property"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "algorand",
+    "chains": [
+      "algorand"
+    ],
+    "parentPlatform": "lofty",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "lofty-ai-inc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://lofty.ai"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "identity": {
+    "slug": "goldfinch",
+    "name": "Goldfinch",
+    "legacyPid": 38
+  },
+  "about": {
+    "description": "Goldfinch is a decentralized credit protocol providing loans to emerging market businesses and institutions backed on-chain collateral and off-chain underwriting. It brings institutional lending to decentralized finance.",
+    "logo": "https://icons.llamao.fi/icons/rwa/goldfinch.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://goldfinch.finance"
+      ],
+      "twitter": "https://x.com/goldfinch_fi",
+      "docs": "https://docs.goldfinch.finance/",
+      "linkedin": "https://www.linkedin.com/company/goldfinch-finance"
+    }
+  },
+  "platform": {
+    "category": [
+      "governance-tokens",
+      "private-credit"
+    ],
+    "platformType": [
+      "governance-token"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "parentPlatform": "goldfinch",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "goldfinch-foundation",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://goldfinch.finance"
+      ]
+    }
+  ]
+}

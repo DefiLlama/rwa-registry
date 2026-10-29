@@ -1,0 +1,42 @@
+{
+  "identity": {
+    "slug": "rwalpha",
+    "name": "RWAlpha",
+    "legacyPid": 339
+  },
+  "about": {
+    "links": {
+      "website": [
+        "https://www.rwalpha.ai/"
+      ],
+      "twitter": "https://x.com/RWAlpha_AI",
+      "docs": "https://www.rwalpha.ai/docs/intro"
+    }
+  },
+  "platform": {
+    "category": [
+      "rwa-wrappers"
+    ],
+    "platformType": [
+      "rwa-basket-vault"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "bsc",
+    "chains": [
+      "bsc",
+      "mantle"
+    ],
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "rwalpha-matrix-spc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.rwalpha.ai/docs/legal"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "identity": {
+    "slug": "blocksquare",
+    "name": "Blocksquare",
+    "legacyPid": 337
+  },
+  "about": {
+    "description": "Blocksquare is a real estate tokenization framework that records each property on Ethereum as its own ERC20 token with a fixed maximum supply. Every token carries an on chain property record holding the street address, geographic coordinates, a valuation and the settlement currency, maintained through a central property registry contract. Properties are onboarded by Certified Partners, which are the entities that own or control the underlying real estate, while Blocksquare supplies the contracts, the registry and the marketplace. Valuations are written on chain by the operator and revised by corporate resolution on a periodic basis rather than by market pricing or an oracle. Holding a property token requires passing onboarding checks and transfers are limited to approved addresses. Blocksquare also operates Oceanpoint, a staking and pooling layer for these tokens, and the separate BST protocol token.",
+    "logo": "https://icons.llamao.fi/icons/rwa/blocksquare.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://blocksquare.io/"
+      ],
+      "twitter": "https://x.com/blocksquare_io",
+      "docs": "https://docs.blocksquare.io/",
+      "linkedin": "https://www.linkedin.com/company/blocksquare/",
+      "discord": "https://discord.com/invite/blocksquare",
+      "telegram": "https://t.me/blocksquare",
+      "github": "https://github.com/blocksquare",
+      "refLinks": [
+        "Property valuations are written on chain by the operator and revised by corporate resolution rather than by an independent appraisal feed or a market, so the reported value of each property rests on the operator's own assertion. No attestation, audit or proof of reserve was supplied for the property tokens. The submission named a registered issuing entity for only three of the one hundred and seventy two properties, so for the remainder the counterparty a holder actually faces is not established from the material provided. Two of those three name a company established by the chief executive of Blocksquare itself, so the operator and the property owning entity are not always independent of each other. Token holders hold an economic interest through the property owning entity rather than registered legal title, and no issuer redemption facility exists, so exit depends on locating an approved buyer. On a sample of tokens the valuation held in the registry is ten percent below the valuation held on the token itself, and the reason for the difference is not documented."
+      ]
+    },
+    "registryInfo": "Blocksquare is the tokenization framework operator. The properties are held by separate property owning entities onboarded as Certified Partners, and the submission did not identify the registered company name, number or jurisdiction for any of them. Property records including address, coordinates and valuation are held in the Blocksquare property registry at 0x05325C1Ab1440df7214dB38F676F95999729267B on Ethereum, alongside a property factory at 0x1Ae91a263A690BF2129cf0b3aCAc92bBB67E6685.",
+    "foundedYear": 2017,
+    "headquarters": "Ljubljana, Slovenia",
+    "founders": "Denis Petrovcic, co-founder and chief executive",
+    "regulatoryStatus": "No licence or regulatory registration was supplied with the submission.",
+    "keyMilestones": "Properties are recorded on Ethereum through a central property registry and a property factory. Oceanpoint at 0x13299657e662894b933Bb3Ee73F7f8dA94b55451 provides a staking and secondary market layer for the property tokens and holds balances of some of them. The BST protocol token trades separately from the property tokens.",
+    "entityStructureNotes": "Blocksquare supplies the contracts, registry and marketplace. Each property is onboarded by a Certified Partner that owns or controls the real estate, so the issuing entity differs per property and none was named in the submission."
+  },
+  "platform": {
+    "category": [
+      "real-estate"
+    ],
+    "platformType": [
+      "single-property"
+    ],
+    "accessModel": "permissioned",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "parentPlatform": "blocksquare",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueNotes": "Fee accessors exist on the property token interface for a Blocksquare fee, a Certified Partner fee and a licensed issuer fee, but they returned no data on the tokens tested, so no rate could be read from chain. No fee schedule was supplied with the submission."
+    }
+  },
+  "roles": [
+    {
+      "organization": "blocksquare",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.blocksquare.io/"
+      ]
+    }
+  ]
+}

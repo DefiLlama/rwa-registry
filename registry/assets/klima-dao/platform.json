@@ -1,0 +1,64 @@
+{
+  "identity": {
+    "slug": "klima-dao",
+    "name": "Klima DAO",
+    "legacyPid": 3
+  },
+  "about": {
+    "description": "Klima DAO is a governance and incentive token for its protocol ecosystem, enabling community decision-making and participation in protocol economics. It aligns stakeholder interests through tokenized governance.",
+    "logo": "https://icons.llamao.fi/icons/rwa/klima-dao.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.klimaprotocol.com/"
+      ],
+      "twitter": "https://x.com/KlimaDAO",
+      "docs": "https://docs.klimadao.finance/",
+      "linkedin": "https://www.linkedin.com/company/klima-dao",
+      "discord": "https://discord.gg/klimadao",
+      "telegram": "https://t.me/klimadao",
+      "github": "https://github.com/KlimaDAO"
+    },
+    "registryInfo": "Klima DAO (decentralized autonomous organization, no formal entity; operated by community contributors). Launched October 2021 with the mission to drive carbon-credit prices higher and accelerate climate action. KLIMA token backed by carbon-credit reserves (BCT, MCO2, NCT, UBO, NBO) bridged from Verra registry via Toucan and Moss.Earth."
+  },
+  "platform": {
+    "category": [
+      "governance-tokens"
+    ],
+    "platformType": [
+      "governance-token"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "base",
+    "chains": [
+      "base"
+    ],
+    "attestationFrequency": "Continuous (on-chain)",
+    "parentPlatform": "klima-dao",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Bonding Premium + Treasury Yield",
+      "assetManagerTakeBps": 0,
+      "performanceFeePct": 30,
+      "revenueConfidence": "issuer-disclosed",
+      "feeLastVerified": "2026-05-11",
+      "revenueNotes": "Klima DAO captures revenue through: (1) Bonding mechanism — when carbon credits are bonded into the protocol, the DAO wallet receives an additional 30% of the bond's value in KLIMA on top of the bonder's allocation (i.e., on a 10 KLIMA bond, 10 goes to the bonder and 3 to the DAO). (2) Trading/retirement fee of up to 1% on carbon token trades and retirements through Klima infrastructure. (3) LP-revenue capture on KLIMA pairs. Staking rewards distribute 70% of seigniorage to KLIMA stakers and 30% to DAO operations. Source: https://docs.klimadao.finance/references/glossary"
+    }
+  },
+  "roles": [
+    {
+      "organization": "klima-foundation",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.klimaprotocol.com/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "Continuous (on-chain treasury)"
+    }
+  ]
+}

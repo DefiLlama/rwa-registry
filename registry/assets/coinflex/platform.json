@@ -1,0 +1,43 @@
+{
+  "identity": {
+    "slug": "coinflex",
+    "name": "CoinFLEX",
+    "legacyPid": 163
+  },
+  "about": {
+    "description": "CoinFLEX offers a stablecoin backed by real-world assets and Treasury securities, combining yield generation with price stability. It enables institutional-grade stable settlement with underlying RWA collateral.",
+    "logo": "https://icons.llamao.fi/icons/rwa/coinflex.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://coinflex.com/"
+      ],
+      "twitter": "https://x.com/CoinFLEXdotcom"
+    }
+  },
+  "platform": {
+    "category": [
+      "rwa-stablecoins"
+    ],
+    "platformType": [
+      "yield-rwa-stable"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "parentPlatform": "coinflex",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "coinflex",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://coinflex.com/"
+      ]
+    }
+  ]
+}

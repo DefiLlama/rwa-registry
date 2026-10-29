@@ -1,0 +1,43 @@
+{
+  "identity": {
+    "slug": "gmo-trust",
+    "name": "GMO Trust",
+    "legacyPid": 190
+  },
+  "about": {
+    "description": "GMO Trust issues a fiat-backed stablecoin maintained at parity with its reference currency through reserve backing and redemption mechanisms. It enables fast, low-cost settlement of stablecoin transactions.",
+    "logo": "https://icons.llamao.fi/icons/rwa/gmo-trust.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://stablecoin.z.com"
+      ],
+      "twitter": "https://x.com/GMOTrust"
+    }
+  },
+  "platform": {
+    "category": [
+      "fiat-stablecoins"
+    ],
+    "platformType": [
+      "other-fiat-stable"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "parentPlatform": "gmo-trust",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "gmo-z-com-trust-company-inc-gmo-trust",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://stablecoin.z.com"
+      ]
+    }
+  ]
+}

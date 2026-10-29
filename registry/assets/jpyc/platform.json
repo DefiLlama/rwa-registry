@@ -1,0 +1,45 @@
+{
+  "identity": {
+    "slug": "jpyc",
+    "name": "JPYC",
+    "legacyPid": 189
+  },
+  "about": {
+    "description": "JPYC issues a fiat-backed stablecoin maintained at parity with its reference currency through reserve backing and redemption mechanisms. It enables fast, low-cost settlement of stablecoin transactions.",
+    "logo": "https://icons.llamao.fi/icons/rwa/jpyc.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://jpyc.jp"
+      ],
+      "twitter": "https://x.com/jpyc_official",
+      "docs": "https://corporate.jpyc.co.jp/en",
+      "linkedin": "https://www.linkedin.com/company/jpycinc"
+    }
+  },
+  "platform": {
+    "category": [
+      "fiat-stablecoins"
+    ],
+    "platformType": [
+      "other-fiat-stable"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "parentPlatform": "jpyc",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "jpyc-inc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://jpyc.jp"
+      ]
+    }
+  ]
+}

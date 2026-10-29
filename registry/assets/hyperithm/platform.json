@@ -1,0 +1,51 @@
+{
+  "identity": {
+    "slug": "hyperithm",
+    "name": "Hyperithm",
+    "legacyPid": 302
+  },
+  "about": {
+    "description": "Hyperithm is a digital asset manager founded in 2018 and based in Tokyo and Seoul, specializing in market neutral quant strategies for institutions and high net worth clients. It is registered with Japan FSA under the Specially Permitted Businesses regime for qualified institutional investors. Its aHYPER token represents shares in its Monad yield vault, which runs a delta neutral MON basis strategy with real time solvency verification by Accountable.",
+    "logo": "https://icons.llamao.fi/icons/rwa/hyperithm.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.hyperithm.com/"
+      ],
+      "twitter": "https://x.com/hyperithm",
+      "linkedin": "https://www.linkedin.com/company/hyperithm/"
+    },
+    "foundedYear": 2018,
+    "headquarters": "Tokyo, Japan",
+    "founders": "Lloyd Lee (Founder, CEO), Sangrok Oh (co-CEO), Jonggu Lee (CIO)",
+    "regulatoryStatus": "Registered with Japan FSA as an operator of Specially Permitted Businesses for Qualified Institutional Investors under Article 63. Member of JCBA and JANE. First ISMS certified digital asset manager in Korea (2021)."
+  },
+  "platform": {
+    "category": [
+      "crypto-funds"
+    ],
+    "platformType": [
+      "crypto-hedge-fund"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "monad",
+    "chains": [
+      "monad"
+    ],
+    "parentPlatform": "hyperithm",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Management Fee",
+      "revenueConfidence": "no-public-data",
+      "feeLastVerified": "2026-07-09",
+      "revenueNotes": "A vault manager fee exists (over 100K USD generated during the vault scaling period per the Accountable case study) but the rate is not publicly disclosed."
+    }
+  },
+  "roles": [
+    {
+      "organization": "hyperithm-co-ltd",
+      "kind": "issuer"
+    }
+  ]
+}

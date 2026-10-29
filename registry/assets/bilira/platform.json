@@ -1,0 +1,43 @@
+{
+  "identity": {
+    "slug": "bilira",
+    "name": "BiLira",
+    "legacyPid": 188
+  },
+  "about": {
+    "description": "BiLira issues a fiat-backed stablecoin maintained at parity with its reference currency through reserve backing and redemption mechanisms. It enables fast, low-cost settlement of stablecoin transactions.",
+    "logo": "https://icons.llamao.fi/icons/rwa/bilira.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://bilira.co"
+      ],
+      "twitter": "https://x.com/BiLira_Kripto"
+    }
+  },
+  "platform": {
+    "category": [
+      "fiat-stablecoins"
+    ],
+    "platformType": [
+      "other-fiat-stable"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "parentPlatform": "bilira",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "bilira",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://bilira.co"
+      ]
+    }
+  ]
+}

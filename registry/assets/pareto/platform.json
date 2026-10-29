@@ -1,0 +1,45 @@
+{
+  "identity": {
+    "slug": "pareto",
+    "name": "Pareto",
+    "legacyPid": 248
+  },
+  "about": {
+    "description": "Pareto provides tokenized access to private credit and structured finance products, connecting institutional lenders with decentralized liquidity. It enables securitization of off-chain credit through on-chain smart contracts.",
+    "logo": "https://icons.llamao.fi/icons/rwa/pareto.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://pareto.credit/"
+      ],
+      "twitter": "https://x.com/paretocredit",
+      "docs": "https://docs.pareto.credit/",
+      "linkedin": "https://www.linkedin.com/company/pareto-credit"
+    }
+  },
+  "platform": {
+    "category": [
+      "private-credit"
+    ],
+    "platformType": [
+      "structured-credit"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "parentPlatform": "pareto",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "idle-dao-llc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://pareto.credit/"
+      ]
+    }
+  ]
+}

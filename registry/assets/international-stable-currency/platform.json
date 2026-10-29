@@ -1,0 +1,45 @@
+{
+  "identity": {
+    "slug": "international-stable-currency",
+    "name": "International Stable Currency",
+    "legacyPid": 13
+  },
+  "about": {
+    "description": "International Stable Currency offers a stablecoin backed by real-world assets and Treasury securities, combining yield generation with price stability. It enables institutional-grade stable settlement with underlying RWA collateral.",
+    "logo": "https://icons.llamao.fi/icons/rwa/international-stable-currency.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://isc.money"
+      ],
+      "twitter": "https://x.com/ISC_money",
+      "docs": "https://docs.iscy.io/",
+      "linkedin": "https://www.linkedin.com/company/iscy"
+    }
+  },
+  "platform": {
+    "category": [
+      "rwa-stablecoins"
+    ],
+    "platformType": [
+      "multi-asset-rwa-stable"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "solana",
+    "chains": [
+      "solana"
+    ],
+    "parentPlatform": "international-stable-currency",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "international-stable-currency",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://isc.money"
+      ]
+    }
+  ]
+}

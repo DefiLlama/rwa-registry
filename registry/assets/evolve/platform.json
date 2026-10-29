@@ -1,0 +1,43 @@
+{
+  "identity": {
+    "slug": "evolve",
+    "name": "Evolve",
+    "legacyPid": 225
+  },
+  "about": {
+    "description": "Evolve offers a stablecoin backed by real-world assets and Treasury securities, combining yield generation with price stability. It enables institutional-grade stable settlement with underlying RWA collateral.",
+    "logo": "https://icons.llamao.fi/icons/rwa/evolve.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://goevolve.xyz/"
+      ],
+      "twitter": "https://x.com/goevolvexyz"
+    }
+  },
+  "platform": {
+    "category": [
+      "rwa-stablecoins"
+    ],
+    "platformType": [
+      "yield-rwa-stable"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "sei",
+    "chains": [
+      "sei"
+    ],
+    "parentPlatform": "evolve",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "evolve",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://goevolve.xyz/"
+      ]
+    }
+  ]
+}

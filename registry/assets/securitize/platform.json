@@ -1,0 +1,105 @@
+{
+  "identity": {
+    "slug": "securitize",
+    "name": "Securitize",
+    "legacyPid": 68,
+    "protocolSlug": "securitize"
+  },
+  "about": {
+    "description": "Founded in 2017 and headquartered in Miami, FL, Securitize (CEO Carlos Domingo) is the leading institutional RWA tokenization platform, operating a vertically integrated stack across an SEC- and FINRA-registered broker-dealer, transfer agent, fund administrator, and Alternative Trading System (ATS). Through its DS (Digital Securities) Protocol it issues permissioned, compliant security tokens with on-chain KYC/AML enforcement and whitelist-based transfer restrictions. As of mid-2025 the company administered $4B+ in tokenized assets and serves as the issuance and transfer-agent partner for BlackRock's BUIDL fund, the world's largest tokenized RWA fund, and for tokenized funds from Apollo, Hamilton Lane, KKR, VanEck, Arca, and BNY. Securitize is BlackRock-backed and announced in October 2025 a business combination with Cantor Equity Partners II at a $1.25B valuation, expected to close in H1 2026 and to take Securitize public.",
+    "logo": "https://icons.llamao.fi/icons/rwa/securitize.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://securitize.io"
+      ],
+      "twitter": "https://x.com/Securitize",
+      "docs": "https://docs.securitize.io",
+      "linkedin": "https://www.linkedin.com/company/securitize",
+      "telegram": "https://t.me/securitize",
+      "github": "https://github.com/securitize-io"
+    },
+    "registryInfo": "Securitize, Inc., Delaware C-corporation. SEC- and FINRA-regulated subsidiaries: Securitize Markets, LLC (FINRA-registered broker-dealer and SEC-registered Alternative Trading System. formerly Distributed Technology Markets LLC, acquired 2020), Securitize Fund Services (digital transfer agent and fund administrator), and Securitize Capital (asset-management arm). Headquartered at 78 SW 7th Street, Suite 500, Miami, FL 33130. Founded 2017. CEO Carlos Domingo. Announced October 2025 SPAC merger with Cantor Equity Partners II at $1.25B valuation.",
+    "foundedYear": 2017,
+    "headquarters": "Miami, USA",
+    "founders": "Carlos Domingo (CEO)",
+    "regulatoryStatus": "SEC-registered transfer agent (Securitize, LLC). FINRA broker-dealer and first BD approved to custody tokenized securities (Securitize Markets, LLC). Operates an Alternative Trading System. Registered investment advisor (Securitize Capital). Fund administrator (Securitize Fund Services). EU DLT Pilot Regime authorization.",
+    "keyMilestones": "2026-05: FINRA CMA approval, first broker-dealer cleared to custody tokenized securities | 2026-04: Computershare agreement for tokenized share issuance | 2026-03: NYSE and ICE MOU | 2026-01: onchain trading platform for US public stocks | 2025-12: SPAC merger with Cantor Equity Partners II announced (NASDAQ SECZ)",
+    "entityStructureNotes": "Vertically integrated regulated stack across transfer agency, broker-dealer, ATS, investment advisory, and fund administration. Backed by BlackRock, Morgan Stanley, and Ark Invest."
+  },
+  "platform": {
+    "category": [
+      "bond-mmf-funds",
+      "private-credit",
+      "stocks-equities",
+      "real-estate"
+    ],
+    "platformType": [
+      "tokenization-platform"
+    ],
+    "accessModel": "permissioned",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum",
+      "polygon",
+      "avax",
+      "arbitrum",
+      "optimism",
+      "aptos",
+      "bsc",
+      "solana"
+    ],
+    "parentPlatform": "securitize",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Hybrid",
+      "assetManagerTakeBps": null,
+      "tokenizationPlatformTakeBps": null,
+      "performanceFeePct": 0,
+      "yieldSpreadRetainedBps": null,
+      "mintFeeBps": 0,
+      "redemptionFeeBps": 0,
+      "underlyingFundExpenseBps": null,
+      "floatIncome": false,
+      "feeScheduleUrl": "https://securitize.io/transfer-agent-services/tokenize-your-assets-with-securitize-transfer",
+      "issuerDocsUrl": "https://securitize.io/",
+      "tcsUrl": "https://securitize.io/legal",
+      "governanceWhitepaperUrl": "https://x.com/securitize/status/2051285777984712952 ; https://x.com/securitize/status/2051285780383813957 ; https://x.com/securitize/status/2051285782703243410 ; https://x.com/securitize/status/2051285784263594235 ; https://securitize.io/learn/press",
+      "revenueConfidence": "reasoned-estimate",
+      "feeLastVerified": "2026-05-04",
+      "revenueNotes": "Securitize is the only fully vertically integrated regulated tokenization stack: SEC-registered transfer agent (Securitize, LLC), broker-dealer (Securitize Markets, LLC), alternative trading system, registered investment advisor (Securitize Capital), and fund administrator (Securitize Fund Services). BREAKING (May 4, 2026, 3:00 PM): Securitize received FINRA approval of its Continuing Membership Application (CMA), significantly expanding Securitize Markets' broker-dealer activities. Per Securitize's own announcement: this makes Securitize the FIRST broker-dealer approved to custody tokenized securities, giving it the first complete full-stack onchain IPO infrastructure. NEW CAPABILITIES UNLOCKED BY THE CMA APPROVAL (per Securitize's tweet thread): (i) Custody of tokenized securities for customers, first BD approved. (ii) ATOMIC SWAPS and clearing/settlement between tokenized securities AND stablecoins onchain in a single transaction (eliminates multi-leg DvP operational complexity). (iii) Securitize Markets can now act as UNDERWRITER or selling group participant for tokenized securities offerings (enables onchain IPO syndication and primary distribution). (iv) Real-time onchain settlement within a regulated broker-dealer. The CMA approval converts the SEC Trading & Markets Dec 17, 2025 Rule 15c3-3 framework into operational reality for Securitize Markets specifically. RECENT MILESTONES: (1) May 4, 2026, FINRA CMA approval. (2) Apr 29, 2026, Securitize + Computershare agreement enabling tokenized share issuance for US public companies (Issuer-Sponsored Tokens / ISTs alongside DRS shares). (3) Mar 24, 2026, NYSE/ICE MOU. (4) Q1 2026, onchain trading platform for real US public stocks. (5) EU DLT Pilot Regime authorization (Avalanche-selected). (6) SPAC merger with Cantor Equity Partners II at $1.25B pre-money valuation, expected H1 2026 close (NASDAQ:SECZ). (7) Backed by BlackRock, Morgan Stanley, and Ark Invest. REVENUE MODEL: (a) transfer-agent ongoing services. (b) fund administration / NAV calculation. (c) tokenization & smart contract deployment. (d) broker-dealer / placement agent fees. (e) ATS trading fees. (f) underwriting / selling-group fees on tokenized securities offerings (NEW post-CMA). (g) custody fees on tokenized securities (NEW post-CMA). (h) atomic swap / settlement fees (NEW post-CMA). Per BUIDL N-1A: BlackRock pays Securitize Markets an upfront flat fee plus a quarterly fee equal to a percentage of avg daily NAV per investor (rate undisclosed). Industry estimates: 5-10 bps slice on institutional tokenized funds. REPORTED FINANCIALS: 841% YoY revenue surge in Q4 2025 per S-4 filing. $4B+ AUM tokenized as of April 2026 across ~24 tracked funds.; Asset Manager Take (bps): Varies per asset; Tokenization Platform Take (bps): Varies per asset; Yield Spread Retained (bps): Varies per asset; Underlying Fund Expense (bps): Varies per asset",
+      "revenueVerificationMethod": "Mixed: SEC filings (RCOIN, ACRED underlying), official PR (BUIDL share classes), issuer sites",
+      "chainShareClassFeeVariants": "BUIDL: 50 bps (Ethereum/Arbitrum/Optimism), 20 bps (Aptos/Avalanche/Polygon/Solana)",
+      "subsidyRebateArrangements": "BUIDL: Aptos Foundation, Avalanche (BVI) Inc., Polygon Labs BD pay BlackRock quarterly fees subsidizing 20 bps share classes (per official announcement 2024-11-13)",
+      "takeRateBasis": "Admin (transfer agency + fund administration + feeder structures); per-fund take not disclosed",
+      "revenueMix": "Transfer-agent & fund-admin service fees across BUIDL/ACRED/HL funds/VBILL etc. (rates not public) + own funds (STAC)"
+    }
+  },
+  "roles": [
+    {
+      "organization": "securitize-inc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://securitize.io/about"
+      ]
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://data.chain.link/feeds/ethereum/mainnet/buidl-por"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://securitize.io/learn/insights",
+        "https://securitize.io/blackrock/buidl"
+      ],
+      "note": "No attestation found"
+    }
+  ]
+}

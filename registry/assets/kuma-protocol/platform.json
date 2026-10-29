@@ -1,0 +1,70 @@
+{
+  "identity": {
+    "slug": "kuma-protocol",
+    "name": "KUMA Protocol",
+    "legacyPid": 74
+  },
+  "about": {
+    "description": "KUMA Protocol is a tokenized fixed-income platform operated by Mimo Capital AG of Liechtenstein, issuing on-chain bond tokens backed by sovereign bond ETFs (initially EU government bonds via European bond ETFs). The platform uses Liechtenstein's TVTG (Token Container Model) framework to issue bonds as transferable on-chain securities. KUMA tokens are designed as a DeFi-composable building block for European fixed-income exposure and can be used as collateral within the Mimo Labs ecosystem. Live on Telos mainnet (KUMA's preferred low-fee EVM venue) and other EVMs.",
+    "logo": "https://icons.llamao.fi/icons/rwa/kuma-protocol.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://kuma.bond"
+      ],
+      "twitter": "https://x.com/mimo_labs",
+      "docs": "https://docs.kuma.bond/",
+      "linkedin": "https://www.linkedin.com/company/mimo-capital"
+    },
+    "registryInfo": "Mimo Capital AG is a Liechtenstein-domiciled financial services company operating under the EU MiCA/Liechtenstein framework. KUMA bonds are issued as transferable on-chain securities under the Liechtenstein Token & Trustworthy Technology Service Provider Act (TVTG, 2020), which provides a comprehensive legal framework for blockchain-based securities. Bonds are backed by physical sovereign-bond ETFs custodied at qualified European custodians. Founded by Stefan Loesch and the Mimo Labs team (previously known for the MIMO/PAR stablecoin protocol)."
+  },
+  "platform": {
+    "category": [
+      "bond-mmf-funds"
+    ],
+    "platformType": [
+      "sovereign-bond-fund"
+    ],
+    "accessModel": "permissioned",
+    "primaryChain": "telos",
+    "chains": [
+      "telos"
+    ],
+    "attestationFrequency": "Daily NAV via Chainlink Proof-of-Reserve",
+    "parentPlatform": "kuma-protocol",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Asset Manager Fee",
+      "holderTotalFeeBps": 20,
+      "assetManagerTakeBps": 20,
+      "tokenizationPlatformTakeBps": 0,
+      "mintFeeBps": 0,
+      "redemptionFeeBps": 0,
+      "floatIncome": false,
+      "issuerDocsUrl": "https://docs.kuma.bond/",
+      "revenueConfidence": "reasoned-estimate",
+      "feeLastVerified": "2026-05-10",
+      "revenueNotes": "KUMA charges an issuance/management fee on NAV; the 20 bps figure is a reasoned estimate based on KUMA docs language and comparable European bond-ETF wrapper fees. Underlying ETF expense ratios (typically 5-15 bps for European bond ETFs) are charged separately and pass through to holders. Exact KUMA fee schedule to be verified."
+    }
+  },
+  "roles": [
+    {
+      "organization": "mimo-capital-ag-liechtenstein",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://kuma.bond"
+      ]
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "Daily"
+    }
+  ]
+}

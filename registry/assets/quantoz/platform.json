@@ -1,0 +1,62 @@
+{
+  "identity": {
+    "slug": "quantoz",
+    "name": "Quantoz",
+    "legacyPid": 167
+  },
+  "about": {
+    "description": "Quantoz issues a fiat-backed stablecoin maintained at parity with its reference currency through reserve backing and redemption mechanisms. It enables fast, low-cost settlement of stablecoin transactions.",
+    "logo": "https://icons.llamao.fi/icons/rwa/quantoz.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://quantoz.com/"
+      ],
+      "twitter": "https://x.com/Quantoz",
+      "docs": "https://docs.quantoz.com/",
+      "linkedin": "https://www.linkedin.com/company/quantoz",
+      "discord": "N/A (institutional)",
+      "telegram": "N/A (institutional)",
+      "github": "https://github.com/Quantoz"
+    },
+    "registryInfo": "Quantoz Payments BV (Netherlands; DNB-licensed Electronic Money Institution under MiCA). Issuer of EURQ (Euro stablecoin) and USDQ (USD stablecoin) under EU MiCA / Dutch EMI regulation. Founded 2010 (originally as a Bitcoin payments processor)."
+  },
+  "platform": {
+    "category": [
+      "fiat-stablecoins"
+    ],
+    "platformType": [
+      "usd-stable"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "attestationFrequency": "Monthly",
+    "parentPlatform": "quantoz",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Float Income + Transaction Fees",
+      "revenueConfidence": "no-public-data",
+      "feeLastVerified": "2026-05-11",
+      "revenueNotes": "Quantoz earns float income on stablecoin reserves and platform/transaction fees from MiCA-compliant payment-services activity built on EURQ/USDQ rails."
+    }
+  },
+  "roles": [
+    {
+      "organization": "quantoz-payments-b-v",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://quantoz.com/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "Monthly (MiCA compliance)"
+    }
+  ]
+}

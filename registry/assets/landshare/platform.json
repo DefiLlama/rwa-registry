@@ -1,0 +1,46 @@
+{
+  "identity": {
+    "slug": "landshare",
+    "name": "Landshare",
+    "legacyPid": 104
+  },
+  "about": {
+    "description": "Landshare enables fractional ownership and trading of real estate assets through tokenization. It provides institutional-grade real estate exposure via blockchain infrastructure.",
+    "logo": "https://icons.llamao.fi/icons/rwa/landshare.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://landshare.io"
+      ],
+      "twitter": "https://x.com/Landshareio",
+      "docs": "https://docs.landshare.io/",
+      "linkedin": "https://www.linkedin.com/company/landshare-io"
+    }
+  },
+  "platform": {
+    "category": [
+      "governance-tokens",
+      "real-estate"
+    ],
+    "platformType": [
+      "governance-token"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "bsc",
+    "chains": [
+      "bsc"
+    ],
+    "parentPlatform": "landshare",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "landshare-holdings-llc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://landshare.io"
+      ]
+    }
+  ]
+}

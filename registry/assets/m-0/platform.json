@@ -1,0 +1,56 @@
+{
+  "identity": {
+    "slug": "m-0",
+    "name": "M^0",
+    "legacyPid": 152
+  },
+  "about": {
+    "description": "M^0 issues a fiat-backed stablecoin maintained at parity with its reference currency through reserve backing and redemption mechanisms. It enables fast, low-cost settlement of stablecoin transactions.",
+    "logo": "https://icons.llamao.fi/icons/rwa/m0.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.m0.org/"
+      ],
+      "twitter": "https://x.com/m0",
+      "docs": "https://docs.m0.org/",
+      "linkedin": "https://www.linkedin.com/company/m-zero-labs"
+    },
+    "foundedYear": 2023,
+    "headquarters": "Zug, Switzerland",
+    "founders": "Luca Prosperi (Co-Founder, CEO), Greg Di Prisco (Co-Founder), Joao Reginatto (Chief Strategy Officer)",
+    "regulatoryStatus": "The M0 Foundation is a Swiss foundation in Zug supervised by the federal foundation supervisory authority, and neither it nor the protocol holds a FINMA license. Stablecoin issuance on the network is performed by permissioned third party issuers described as regulated in their own jurisdictions, such as Anchorage Digital, Bridge, MoonPay, and MXON. The Foundation states it is not a protocol actor.",
+    "keyMilestones": "2026-06: MoneyGram launched MGUSD built on M0 | 2025-08: 40 million Series B from Polychain and Ribbit bringing total funding to 100 million | 2025-04: launched on Solana with KAST | 2025-03: Noble launched USDN built on M0 | 2024-07: MXON became the first live minter | 2024-06: 35 million Series A led by Bain Capital Crypto",
+    "entityStructureNotes": "The Swiss M0 Foundation promotes the protocol while a separate development company, M0 Labs, raised the venture funding. Protocol control sits with the onchain Two Token Governor where POWER holders vote on regular proposals and ZERO holders on key changes."
+  },
+  "platform": {
+    "category": [
+      "fiat-stablecoins"
+    ],
+    "platformType": [
+      "usd-stable"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "parentPlatform": "m-0",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueConfidence": "issuer-disclosed",
+      "feeLastVerified": "2026-07-09",
+      "revenueNotes": "No static fee schedule. A governance set Minter Rate is charged continuously on each issuer outstanding M balance, calibrated below collateral yield so issuers keep a margin, and an Earner Rate is paid to approved earners with payouts capped at minter rate accruals. Live parameters are onchain."
+    }
+  },
+  "roles": [
+    {
+      "organization": "m-0-federated-minters",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.m0.org/"
+      ]
+    }
+  ]
+}

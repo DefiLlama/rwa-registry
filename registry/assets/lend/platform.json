@@ -1,0 +1,73 @@
+{
+  "identity": {
+    "slug": "lend",
+    "name": "Lend",
+    "legacyPid": 271
+  },
+  "about": {
+    "description": "Lend is a French-regulated tokenization platform for real estate operations operating under EU MiCA-compliant framework. Each operation is structured through a dedicated SPV with Lend holding preferential rights; investors receive tokenized bonds (opLEND-N series) with fixed APR ranging 9–15%. Capital can be subscribed in USDC from 38+ chains and is aggregated to the primary chain via LayerZero OFT. A secondary marketplace (Lend DEX) enables early exit. Self-Repaying Loan feature uses Aave for users to borrow USDC against crypto and invest. Audited by Hashlock (Dec 2025, all High severity findings resolved). Chainlink USD/EUR oracle integration. Diamond-proxy contract architecture with admin-controlled refund/whitelist powers (centralized by design for regulatory compliance).",
+    "logo": "https://icons.llamao.fi/icons/rwa/lend.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://lend.xyz/"
+      ],
+      "twitter": "https://x.com/lendxyz",
+      "docs": "https://docs.lend.xyz/",
+      "github": "https://github.com/lendxyz",
+      "refLinks": [
+        "https://app.lend.xyz/?ref=3WJ0FUZS"
+      ]
+    },
+    "registryInfo": "Lend SA — French-incorporated (Société Anonyme) tokenization platform for real estate operations. Operates under EU MiCA-compliant regulatory partner framework. Legal counsel: D&A Partners. Bonds issued as private placement under Article L.411-2 French Code Monétaire et Financier to qualified investors. Smart contracts audited by Hashlock Pty Ltd (Australian audit firm, Dec 2025 Final Report v2): audit scope Admin.sol/Invest.sol/Operations.sol/Utils.sol/Storage.sol (Solidity ^0.8.27, Diamond proxy pattern, OpenZeppelin-based); findings: 1 High (resolved), 1 Medium (acknowledged — intentional centralized design for regulatory refunds), 2 Low (1 resolved, 1 acknowledged), 2 QA (both resolved). Centralized admin powers (refunds, whitelisting, peer config) by design for regulatory compliance. Multichain via LayerZero OFT (Ethereum primary, 8 chains supported). Chainlink USD/EUR oracle for FX conversion. Team active in Web3 since 2019. Current operations TVL ~$864K USDC (DefiLlama PR #19472 adapter run). Operations: Vouziers Commercial Units ($423K @ 12.5%), Saint-Herblain Datacenter ($581K @ 9%), Conflans Residential (upcoming $866K @ 10%)."
+  },
+  "platform": {
+    "category": [
+      "real-estate"
+    ],
+    "platformType": [
+      "tokenization-platform"
+    ],
+    "accessModel": "permissioned",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum",
+      "arbitrum",
+      "base",
+      "bsc",
+      "linea",
+      "polygon",
+      "sonic",
+      "plume_mainnet"
+    ],
+    "attestationFrequency": "On audit + monthly investor reporting per operation",
+    "parentPlatform": "lend",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "lend-sa",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://lend.xyz/"
+      ]
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://docs.lend.xyz/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "links": [
+        "https://hashlock.com/wp-content/uploads/2025/12/Lend-xyz-Smart-Contract-Audit-Report-Final-Report-v2.pdf"
+      ],
+      "note": "2025-12 (Hashlock v2)"
+    }
+  ]
+}

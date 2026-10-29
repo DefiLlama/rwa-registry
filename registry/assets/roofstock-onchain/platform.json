@@ -1,0 +1,50 @@
+{
+  "identity": {
+    "slug": "roofstock-onchain",
+    "name": "Roofstock onChain",
+    "parent": "roofstock",
+    "legacyPid": 265
+  },
+  "about": {
+    "description": "Roofstock onChain tokenizes individual homes by placing each property into a single-member entity and allowing ownership to transfer through a wallet-native purchase flow. The model is designed to compress closing-style friction into a faster settlement experience while keeping the asset anchored to real-world title and entity records. It targets buyers seeking direct property ownership outcomes with a more streamlined, digital-first purchasing process.",
+    "logo": "https://icons.llamao.fi/icons/rwa/roofstock-onchain.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://onchain.roofstock.com/"
+      ],
+      "docs": "https://www.roofstock.com/",
+      "linkedin": "https://www.linkedin.com/company/roofstock",
+      "github": "https://github.com/RoofstockOnChain"
+    }
+  },
+  "platform": {
+    "category": [
+      "real-estate"
+    ],
+    "platformType": [
+      "lending-venue"
+    ],
+    "accessModel": "permissioned",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "parentPlatform": "roofstock",
+    "suspicious": false,
+    "llamaGradeAttestation": false
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    },
+    {
+      "kind": "attestation",
+      "links": [
+        "https://onchain.roofstock.com/properties"
+      ],
+      "note": "No attestation found"
+    }
+  ]
+}

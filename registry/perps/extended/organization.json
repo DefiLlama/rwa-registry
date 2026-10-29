@@ -1,0 +1,67 @@
+{
+  "identity": {
+    "slug": "extended",
+    "name": "Extended",
+    "legacyPid": 238,
+    "protocolSlug": "extended-exchange"
+  },
+  "about": {
+    "description": "Extended (formerly X10) is a hyper-performant perpetual DEX on Starknet, led by ex-Revolut Head of Crypto Operations Ruslan Fakhrutdinov with 8 of 10 team members coming from Revolut's crypto unit. The platform migrated from StarkEx to Starknet mainnet on August 12, 2025 and now lists 50+ markets across crypto and TradFi (stocks, equity indices, commodities like gold and oil, and FX) with up to 100× leverage, accessible directly from any EVM or Starknet wallet. Positions are margined and cash-settled in USDC. Backed by Tioga Capital, Semantic Ventures, Prelude, StarkWare, Cyber Fund, Revolut executives, and Lido co-founder Konstantin Lomashuk ($6.5M raised).",
+    "logo": "https://icons.llamao.fi/icons/rwa/extended.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://extended.exchange/"
+      ],
+      "twitter": "https://x.com/extended_xyz",
+      "docs": "https://docs.extended.exchange/",
+      "linkedin": "https://www.linkedin.com/company/extendedexchange",
+      "discord": "https://discord.gg/extended",
+      "telegram": "https://t.me/extended_xyz",
+      "github": "https://github.com/extended-exchange",
+      "refLinks": [
+        "https://app.extended.exchange/join/DEFILLAMAO"
+      ]
+    },
+    "registryInfo": "Extended (formerly X10) is led by Ruslan Fakhrutdinov, former Head of Crypto Operations at Revolut; eight of the ten founding team members are ex-Revolut. The company has raised $6.5M from Tioga Capital, Semantic Ventures, Prelude, StarkWare, Cyber Fund, Revolut executives, and Lido co-founder Konstantin Lomashuk. The platform migrated from StarkEx to Starknet mainnet on August 12, 2025."
+  },
+  "platform": {
+    "category": [
+      "rwa-perps"
+    ],
+    "platformType": [
+      "perp-venue"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "starknet",
+    "chains": [
+      "starknet"
+    ],
+    "attestationFrequency": "N/A (Perp Venue)",
+    "marginSettlementAsset": "USDC (Starknet)",
+    "parentPlatform": "extended",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Maker/Taker Fees",
+      "revenueConfidence": "issuer-disclosed",
+      "feeLastVerified": "2026-05-11",
+      "revenueNotes": "Extended (formerly X10, rebranded August 2025 with migration from StarkEx to Starknet) flat-fee model: 0.05% (5 bps) taker total fee. Maker rebates available for high-volume traders. Referral program offers 10% fee discount on first $50M of referee volume. Gas fees on Starknet are $0.01-0.10 per transaction. Source: https://insidecryptoreview.com/en/dex/extended"
+    }
+  },
+  "roles": [
+    {
+      "organization": "extended-formerly-x10",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://extended.exchange/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "N/A (Perp Venue)"
+    }
+  ]
+}

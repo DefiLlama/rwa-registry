@@ -1,0 +1,68 @@
+{
+  "identity": {
+    "slug": "cashlink",
+    "name": "Cashlink",
+    "legacyPid": 200
+  },
+  "about": {
+    "description": "Cashlink Technologies GmbH is a Frankfurt-based BaFin-licensed Crypto Securities Registrar under the German eWpG (Electronic Securities Act). In 2025 Cashlink served as the on-chain registrar for the first euro-denominated electronic bond (\"NRW1\") issued by NRW.BANK, the AAA-rated development bank of the German state of North Rhine-Westphalia. NRW.BANK's obligations are explicitly guaranteed by the State of NRW (Anstaltslast, Gewährträgerhaftung), making NRW1 an unconditional sovereign-grade credit. The bond is recorded on Polygon as a crypto security. Cashlink runs the issuance and lifecycle infrastructure for several other German Mittelstand and DACH issuers and is a key piece of the German on-chain fixed-income stack.",
+    "logo": "https://icons.llamao.fi/icons/rwa/cashlink.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://cashlink.de/en/"
+      ],
+      "twitter": "https://x.com/cashlinkBerlin",
+      "docs": "https://cashlink.de/en/",
+      "linkedin": "https://de.linkedin.com/company/cashlink"
+    },
+    "registryInfo": "Cashlink Technologies GmbH is a German fintech (Frankfurt) holding a BaFin license as a Crypto Securities Registrar under the German Electronic Securities Act (eWpG), the first such license issued in Germany. The NRW1 electronic bond is issued by NRW.BANK, the AAA-rated development bank of the German state of North Rhine-Westphalia, with explicit guarantee from the state. Cashlink serves as the registrar of the NRW1 tokens on Polygon. Cashlink founders: Michael Duttlinger and Daniel Loewer."
+  },
+  "platform": {
+    "category": [
+      "bond-mmf-funds"
+    ],
+    "platformType": [
+      "corp-bond-fund"
+    ],
+    "accessModel": "permissioned",
+    "primaryChain": "polygon",
+    "chains": [
+      "polygon"
+    ],
+    "attestationFrequency": "On-issuance prospectus, BaFin-supervised",
+    "parentPlatform": "cashlink",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Issuance Fee",
+      "mintFeeBps": 0,
+      "issuerDocsUrl": "https://cashlink.de/en/",
+      "revenueConfidence": "reasoned-estimate",
+      "feeLastVerified": "2026-05-10",
+      "revenueNotes": "Cashlink earns one-time issuance fees and recurring registrar fees from issuers (paid by NRW.BANK in this case, not by bondholders). Bondholders receive the full bond coupon. Specific fee schedule is bespoke per issuance."
+    }
+  },
+  "roles": [
+    {
+      "organization": "cashlink-technologies-gmbh-tokenization-platform",
+      "kind": "tokenizer",
+      "sourceLinks": [
+        "https://www.nrwbank.de/en/news/2025/250710_digitale-anleihen_en.html"
+      ]
+    },
+    {
+      "organization": "nrw-bank-bond-issuer-nrw1",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.nrwbank.de/en/news/2025/250710_digitale-anleihen_en.html"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "On-issuance"
+    }
+  ]
+}

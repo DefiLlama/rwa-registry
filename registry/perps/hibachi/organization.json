@@ -1,0 +1,70 @@
+{
+  "identity": {
+    "slug": "hibachi",
+    "name": "Hibachi",
+    "legacyPid": 350,
+    "protocolSlug": "hibachi"
+  },
+  "about": {
+    "description": "Hibachi is a perpetual DEX with an off-chain order book and zk-proven settlement on Arbitrum. It offers perpetual futures on crypto, FX and commodities, with FX markets trading 24/5. Positions are margined and cash-settled in USDT, and accounts open with a wallet or an email without KYC.",
+    "logo": "https://icons.llamao.fi/icons/protocols/hibachi?w=48&h=48",
+    "links": {
+      "website": [
+        "https://hibachi.xyz/"
+      ],
+      "twitter": "https://x.com/hibachi_xyz",
+      "docs": "https://docs.hibachi.xyz/",
+      "linkedin": "https://www.linkedin.com/company/hibachixyz",
+      "github": "https://github.com/hibachi-xyz",
+      "refLinks": [
+        "https://hibachi.xyz/r/YUKPTN36RM"
+      ]
+    },
+    "registryInfo": "Hibachi PTE. LTD. is the entity named in the terms of service, under Singapore law; no registered address or founders are disclosed. The team cites backgrounds at Citadel, Tower Research, IMC, Meta, Google, Amazon and Hashflow. Hibachi raised a $5M seed in March 2025 from Dragonfly, Electric Capital and Echo.",
+    "foundedYear": 2023,
+    "founders": "Founders not disclosed",
+    "regulatoryStatus": "Not registered or licensed by any regulator by its own terms, and unavailable in the US and UK."
+  },
+  "platform": {
+    "category": [
+      "rwa-perps"
+    ],
+    "platformType": [
+      "perp-venue"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "arbitrum",
+    "chains": [
+      "arbitrum",
+      "base"
+    ],
+    "attestationFrequency": "N/A (Perp Venue)",
+    "marginSettlementAsset": "USDT (Arbitrum)",
+    "parentPlatform": "hibachi",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Maker/Taker Fees",
+      "feeScheduleUrl": "https://docs.hibachi.xyz/hibachi-docs/trading/fees",
+      "revenueConfidence": "issuer-disclosed",
+      "feeLastVerified": "2026-10-22",
+      "revenueNotes": "Hibachi base fees: 0 bps maker / 4.5 bps taker. The taker fee falls with 14-day rolling volume and the maker fee is 0 bps at every tier. Funding is paid between longs and shorts with no exchange cut. One schedule covers all perpetual markets. Sources: https://docs.hibachi.xyz/hibachi-docs/trading/fees, https://docs.hibachi.xyz/hibachi-docs/trading/funding"
+    }
+  },
+  "roles": [
+    {
+      "organization": "hibachi-pte-ltd",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://hibachi.xyz/terms"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "N/A (Perp Venue)"
+    }
+  ]
+}

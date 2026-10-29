@@ -1,0 +1,60 @@
+{
+  "identity": {
+    "slug": "auxite",
+    "name": "Auxite",
+    "legacyPid": 215
+  },
+  "about": {
+    "description": "Auxite provides tokenized access to physical commodities and precious metals through blockchain infrastructure. It enables fractional ownership and efficient settlement of commodity positions.",
+    "logo": "https://icons.llamao.fi/icons/rwa/auxite.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://auxite.io"
+      ],
+      "twitter": "https://x.com/auxiteRWA",
+      "docs": "https://docs.auxite.com/",
+      "linkedin": "https://www.linkedin.com/company/auxite",
+      "discord": "N/A (institutional)",
+      "telegram": "N/A (institutional)"
+    },
+    "registryInfo": "Auxite is a gold/silver tokenization platform issuing physical-metal-backed tokens (AUXG = gold, AXAU = gold, etc.). KYC-required at the issuer level; permissionless transfer once minted."
+  },
+  "platform": {
+    "category": [
+      "gold-commodities"
+    ],
+    "platformType": [
+      "gold"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "base",
+    "chains": [
+      "base"
+    ],
+    "parentPlatform": "auxite",
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Mint/Redeem Spread + Storage Fee",
+      "revenueConfidence": "no-public-data",
+      "feeLastVerified": "2026-05-11",
+      "revenueNotes": "Auxite earns a primary-market premium over spot metals pricing plus ongoing storage/insurance fees on physical bullion held in third-party vaults."
+    }
+  },
+  "roles": [
+    {
+      "organization": "aurum-ledger-ltd",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://auxite.io"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "review",
+      "outcome": "suspicious",
+      "reason": "Mirrored from asset-level flags on canonical IDs AUXG, AUXS, AUXPT, AUXPD (RIDs 2837-2840): all four tokens silently redeployed 2026-06-08 (same day as launch press release) with prior Feb-2026 contracts abandoned; three mutually contradictory reserve figures (marketing page vs own API vs on-chain supply); no custodian, insurer, or auditor named despite \"LBMA-accredited/insured/independently reviewed\" claims; API attributes gold/silver to an undisclosed Istanbul vault; operator \"Aurum Ledger Ltd, Hong Kong\" not found in registries; ~100% of supply held by issuer treasury Safe; no CoinGecko/CMC listings. 1:1 backing unverified (2026-06-11)."
+    }
+  ]
+}

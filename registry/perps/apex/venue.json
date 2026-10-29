@@ -1,0 +1,18 @@
+{
+  "slug": "apex",
+  "organization": "apex-omni",
+  "venueType": "dex",
+  "chain": "base",
+  "adapter": "apex",
+  "published": true,
+  "makerFeeBps": 2,
+  "takerFeeBps": 5,
+  "fundingRetentionPct": 0,
+  "oracleProvider": "ApeX oracle",
+  "accessModel": "permissionless",
+  "rwaClassification": "programmable-finance",
+  "conventionNote": "Funding settles every hour from an orderbook premium index on every market, and APEX holders and VIP tiers get lower fees than the default 2 bps maker and 5 bps taker.",
+  "website": "https://www.apex.exchange/",
+  "issuer": "ApeX Omni",
+  "marginAsset": "USDC"
+}

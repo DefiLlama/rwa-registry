@@ -1,0 +1,16 @@
+{
+  "slug": "kucoin",
+  "organization": "kucoin",
+  "venueType": "cex",
+  "adapter": "kucoin",
+  "published": true,
+  "makerFeeBps": 2,
+  "takerFeeBps": 6,
+  "oracleProvider": "Binance index, single source re-published by KuCoin",
+  "accessModel": "permissioned",
+  "rwaClassification": "programmable-finance",
+  "conventionNote": "Funding settles every 8 hours on 130 of 137 markets and every 4 hours on 7, read per market from fundingRateGranularity, and fees are the base tier of 0.02% maker and 0.06% taker.",
+  "website": "https://www.kucoin.com",
+  "issuer": "KuCoin",
+  "marginAsset": "USDT"
+}

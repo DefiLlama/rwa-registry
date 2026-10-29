@@ -1,0 +1,58 @@
+{
+  "identity": {
+    "slug": "stokr",
+    "name": "STOKR",
+    "legacyPid": 196
+  },
+  "about": {
+    "description": "STOKR tokenizes fixed-income instruments and corporate bonds, enabling fractional secondary trading and yield generation. It bridges traditional debt markets with DeFi infrastructure.",
+    "logo": "https://icons.llamao.fi/icons/rwa/stokr.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://stokr.io/"
+      ],
+      "twitter": "https://x.com/stokr_io",
+      "docs": "https://docs.stokr.io/",
+      "linkedin": "https://www.linkedin.com/company/stokr-network",
+      "discord": "N/A (institutional)",
+      "telegram": "https://t.me/stokrofficial",
+      "github": "N/A (closed source)"
+    },
+    "registryInfo": "STOKR (Stokr S.A., Luxembourg) — Luxembourg CSSF-supervised security-token issuance and trading venue. Founded 2018. Issues tokenized securities (equity, debt, real-estate) under EU MiFID II / Prospectus Regulation frameworks."
+  },
+  "platform": {
+    "category": [
+      "bond-mmf-funds"
+    ],
+    "platformType": [
+      "corp-bond-fund"
+    ],
+    "accessModel": "permissionless",
+    "attestationFrequency": "Annual",
+    "parentPlatform": "stokr",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Platform Fee + Trading Fee",
+      "revenueConfidence": "no-public-data",
+      "feeLastVerified": "2026-05-11",
+      "revenueNotes": "STOKR charges one-time issuance/listing fees, annual platform fees from issuers, and a small per-transaction trading fee. CSSF-supervised business model with limited public fee disclosure."
+    }
+  },
+  "roles": [
+    {
+      "organization": "oro-fund-i-bm2",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://stokr.io/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "Per-issuance prospectus + annual audit"
+    }
+  ]
+}

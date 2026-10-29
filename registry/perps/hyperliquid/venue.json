@@ -1,0 +1,13 @@
+{
+  "slug": "hyperliquid",
+  "organization": "hyperliquid",
+  "venueType": "dex",
+  "chain": "hyperliquid",
+  "adapter": "hyperliquid",
+  "published": true,
+  "makerFeeBps": 1.5,
+  "takerFeeBps": 4.5,
+  "fundingRetentionPct": 0,
+  "accessModel": "permissionless",
+  "rwaClassification": "programmable-finance"
+}

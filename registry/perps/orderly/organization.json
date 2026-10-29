@@ -1,0 +1,64 @@
+{
+  "identity": {
+    "slug": "aden",
+    "name": "ADEN",
+    "legacyPid": 235,
+    "protocolSlug": "aden"
+  },
+  "about": {
+    "description": "ADEN is a perpetual venue on Gate Layer (OP Stack EVM L2) powered by Orderly Network's shared orderbook, founded by veteran derivatives trader and Bugscoin founder INBUM. Acquired by Gate Ventures in October 2025 (with INBUM staying on as Founder), ADEN supports 447+ perpetual markets — including commodity and index perps — with up to 125× leverage, cross-chain deposits/withdrawals, and multiple margin modes. All positions are margined and cash-settled in USDC via Orderly.",
+    "logo": "https://icons.llamao.fi/icons/rwa/aden.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://aden.io/"
+      ],
+      "twitter": "https://x.com/aden_official_",
+      "docs": "https://aden-perp-api-docs.aden.io/",
+      "linkedin": "https://www.linkedin.com/company/aden-io",
+      "discord": "https://discord.gg/aden",
+      "telegram": "https://t.me/adenofficial",
+      "github": "N/A (closed source)"
+    },
+    "registryInfo": "ADEN was founded by INBUM, founder of the Bugscoin (BGSC) project and a veteran derivatives trader. Acquired by Gate Ventures in October 2025; INBUM continues to lead as Founder. The platform is deployed on Gate Layer (an OP-Stack–based EVM-compatible Layer 2) and uses Orderly Network as its underlying orderbook/settlement infrastructure."
+  },
+  "platform": {
+    "category": [
+      "rwa-perps"
+    ],
+    "platformType": [
+      "perp-venue"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "gatelayer",
+    "chains": [
+      "gatelayer"
+    ],
+    "attestationFrequency": "N/A (Perp Venue)",
+    "marginSettlementAsset": "USDC (Gate Layer / Orderly)",
+    "parentPlatform": "aden",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Maker/Taker Fees + Funding Skim",
+      "revenueConfidence": "issuer-disclosed",
+      "feeLastVerified": "2026-05-11",
+      "revenueNotes": "ADEN is a HIP-3 builder-deployer on Hyperliquid. Fees follow HIP-3 framework: standard taker ~7-9 bps, Growth Mode taker ~0.45-0.9 bps. 50% of fees go to ADEN deployer, 50% to Hyperliquid protocol. Source: https://hyperliquid.gitbook.io/hyperliquid-docs/hyperliquid-improvement-proposals-hips/hip-3-builder-deployed-perpetuals"
+    }
+  },
+  "roles": [
+    {
+      "organization": "aden-gate-ventures-portfolio",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://aden.io/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "N/A (Perp Venue)"
+    }
+  ]
+}

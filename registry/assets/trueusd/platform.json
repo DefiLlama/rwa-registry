@@ -1,0 +1,59 @@
+{
+  "identity": {
+    "slug": "trueusd",
+    "name": "TrueUSD",
+    "legacyPid": 21
+  },
+  "about": {
+    "description": "TrueUSD issues a fiat-backed stablecoin maintained at parity with its reference currency through reserve backing and redemption mechanisms. It enables fast, low-cost settlement of stablecoin transactions.",
+    "logo": "https://icons.llamao.fi/icons/rwa/trueusd.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.trueusd.com"
+      ],
+      "twitter": "https://x.com/tusdio",
+      "docs": "https://docs.trueusd.com/",
+      "linkedin": "https://www.linkedin.com/company/trueusd"
+    },
+    "foundedYear": 2018,
+    "headquarters": "British Virgin Islands",
+    "founders": "Li Jinmei (ultimate beneficial owner of Techteryx per court filings), Techteryx CEO unknown",
+    "regulatoryStatus": "Operator Techteryx Ltd. is a BVI company with no publicly disclosed stablecoin or money transmission license. The former US issuer TrueCoin LLC and TrustToken Inc. settled SEC fraud and registration charges in September 2024 over false fully backed marketing. Roughly 456 million dollars of reserves are litigated across Hong Kong, Singapore, and Dubai after diversion to Aria Commodities DMCC, with Justin Sun having provided emergency liquidity support.",
+    "keyMilestones": "2025-11: Dubai court freezes about 456 million dollars in Aria linked assets | 2025-04: Hong Kong filings reveal the reserve diversion and Sun bailout | 2024-09: SEC settles charges against TrueCoin and TrustToken | 2023-03: Binance makes BTC TUSD its only zero fee Bitcoin pair | 2020-12: TUSD business sold to Techteryx | 2018-03: TrustToken launches TrueUSD",
+    "entityStructureNotes": "TUSD was created by TrustToken Inc. through TrueCoin LLC and sold to BVI incorporated Techteryx Ltd. in early 2021, with Techteryx assuming full management in July 2023. Reserves were held by fiduciaries including First Digital Trust of Hong Kong, an arrangement now in litigation across three jurisdictions."
+  },
+  "platform": {
+    "category": [
+      "fiat-stablecoins"
+    ],
+    "platformType": [
+      "usd-stable"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "parentPlatform": "trueusd",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "mintFeeBps": 0,
+      "redemptionFeeBps": 0,
+      "floatIncome": true,
+      "revenueConfidence": "issuer-disclosed",
+      "feeLastVerified": "2026-07-09",
+      "revenueNotes": "TUSD charges no minting or redemption fees with a 1000 dollar redemption minimum. The February 2026 whitepaper states TUSD may collect interest on reserve deposits and pays none to users. Note the extensive reserve controversy history when weighing attestations."
+    }
+  },
+  "roles": [
+    {
+      "organization": "techteryx-ltd",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.trueusd.com"
+      ]
+    }
+  ]
+}

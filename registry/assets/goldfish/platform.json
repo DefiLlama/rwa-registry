@@ -1,0 +1,50 @@
+{
+  "identity": {
+    "slug": "goldfish",
+    "name": "Goldfish",
+    "legacyPid": 212
+  },
+  "about": {
+    "description": "Goldfish provides tokenized access to physical commodities and precious metals through blockchain infrastructure. It enables fractional ownership and efficient settlement of commodity positions.",
+    "logo": "https://icons.llamao.fi/icons/rwa/goldfish.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://goldfishgold.com/"
+      ],
+      "twitter": "https://x.com/goldfishggbr"
+    }
+  },
+  "platform": {
+    "category": [
+      "gold-commodities"
+    ],
+    "platformType": [
+      "other-commodity"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "parentPlatform": "goldfish",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "ggbr-inc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://goldfishgold.com/"
+      ]
+    },
+    {
+      "organization": "i-on-digital-corp-ion-au",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://goldfishgold.com/"
+      ]
+    }
+  ]
+}

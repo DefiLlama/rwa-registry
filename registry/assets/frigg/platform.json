@@ -1,0 +1,48 @@
+{
+  "identity": {
+    "slug": "frigg",
+    "name": "Frigg",
+    "legacyPid": 2
+  },
+  "about": {
+    "description": "Frigg is a carbon credit tokenization platform enabling fractional ownership and trading of environmental commodities. It bridges voluntary and compliance carbon markets through blockchain infrastructure.",
+    "logo": "https://icons.llamao.fi/icons/rwa/frigg.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.agatobwe.eco/",
+        "https://frigg.eco"
+      ],
+      "twitter": "https://x.com/FriggEco",
+      "docs": "https://www.frigg.eco/",
+      "linkedin": "https://www.linkedin.com/company/frigg-eco"
+    }
+  },
+  "platform": {
+    "category": [
+      "private-credit",
+      "carbon-environment"
+    ],
+    "platformType": [
+      "structured-credit"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "parentPlatform": "frigg",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "agatobwe-hydro-power-ltd-via-frigg-eco",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.agatobwe.eco/",
+        "https://frigg.eco"
+      ]
+    }
+  ]
+}

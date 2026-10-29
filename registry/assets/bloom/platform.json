@@ -1,0 +1,75 @@
+{
+  "identity": {
+    "slug": "bloom",
+    "name": "Bloom",
+    "legacyPid": 28
+  },
+  "about": {
+    "description": "Bloom is a Cayman Foundation-operated tokenized US Treasury platform issuing \"TBY\" (Term Bound Yield) tokens, which represent fixed-maturity exposure to short-duration US Treasury bills. Each TBY series targets a specific 6-month maturity and matures back into USDC at par plus accrued yield. The protocol uses a regulated US broker-dealer for the underlying T-bill execution. Bloom is sister-protocol to Blueberry Protocol (a DeFi lending platform) and aims to bring institutional-grade T-bill yield to on-chain market makers, treasuries, and DeFi protocols seeking risk-free returns.",
+    "logo": "https://icons.llamao.fi/icons/rwa/bloom.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://bloom.garden"
+      ],
+      "twitter": "https://x.com/blueberryfdn",
+      "docs": "https://docs.blueberry.fi/",
+      "linkedin": "https://www.linkedin.com/company/blueberry-protocol"
+    },
+    "registryInfo": "Bloom is operated by the Blueberry Foundation, a Cayman Islands not-for-profit foundation company. The platform tokenizes US Treasury-backed bills via a US registered broker-dealer affiliate (TBY - \"Term Bound Yield\" tokens). Founders: Kris Rojek and the Blueberry team (previously Blueberry Protocol). Backed by Hack VC, Alliance, Tribe Capital, and others."
+  },
+  "platform": {
+    "category": [
+      "bond-mmf-funds"
+    ],
+    "platformType": [
+      "mixed-rwa-fund"
+    ],
+    "accessModel": "permissioned",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "attestationFrequency": "Daily NAV via Chainlink Proof-of-Reserves",
+    "parentPlatform": "bloom",
+    "suspicious": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Yield Spread",
+      "holderTotalFeeBps": 20,
+      "assetManagerTakeBps": 20,
+      "tokenizationPlatformTakeBps": 0,
+      "yieldSpreadRetainedBps": 20,
+      "mintFeeBps": 0,
+      "redemptionFeeBps": 0,
+      "floatIncome": false,
+      "issuerDocsUrl": "https://docs.blueberry.fi/",
+      "revenueConfidence": "reasoned-estimate",
+      "feeLastVerified": "2026-05-10",
+      "revenueNotes": "Bloom's TBY tokens accrue yield against an underlying T-bill basket. The 20 bps spread is an estimate based on Term Bound Yield maturity structure and comparable platforms (e.g., Mountain). Bloom does not publish the exact spread."
+    }
+  },
+  "roles": [
+    {
+      "organization": "blueberry-foundation-cayman",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://bloom.garden"
+      ]
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    },
+    {
+      "kind": "attestation",
+      "note": "Daily"
+    }
+  ]
+}

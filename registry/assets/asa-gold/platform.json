@@ -1,0 +1,45 @@
+{
+  "identity": {
+    "slug": "asa-gold",
+    "name": "ASA.Gold",
+    "legacyPid": 86
+  },
+  "about": {
+    "description": "ASA.Gold provides tokenized access to physical commodities and precious metals through blockchain infrastructure. It enables fractional ownership and efficient settlement of commodity positions.",
+    "logo": "https://icons.llamao.fi/icons/rwa/asa.gold.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.asa.gold"
+      ],
+      "twitter": "https://x.com/eAlgonaut/",
+      "docs": "https://www.asa.gold/",
+      "linkedin": "https://www.linkedin.com/company/asa-gold"
+    }
+  },
+  "platform": {
+    "category": [
+      "gold-commodities"
+    ],
+    "platformType": [
+      "gold"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "algorand",
+    "chains": [
+      "algorand"
+    ],
+    "parentPlatform": "asa-gold",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "asa-gold",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.asa.gold"
+      ]
+    }
+  ]
+}

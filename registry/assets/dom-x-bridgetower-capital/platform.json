@@ -1,0 +1,69 @@
+{
+  "identity": {
+    "slug": "dom-x-bridgetower-capital",
+    "name": "DOM X (BridgeTower Capital)",
+    "legacyPid": 311
+  },
+  "about": {
+    "description": "BridgeTower Capital is a blockchain and AI services company headquartered in Meridian, Idaho; its website says it was founded in 2020 by Cory Pugh, though its Delaware entity (BridgeTower Capital, Inc., formerly LendingCoin, Inc.) was incorporated in 2018 per SEC EDGAR. The firm has pivoted across staking infrastructure, NFTs, e-commerce, AI data lineage and RWA tokenization, and in April 2026 announced Chainlink-powered tokenization of the DOM X Arizona Copper-Gold Project, a claimed $11B asset issued as the AZX1 token on Avalanche with Securitize as transfer-agent partner. No named mine, no NI 43-101 or S-K 1300 technical report, and no SEC filing referencing DOM X could be located as of July 2026; the AZX1 contract is dormant and the asset is delisted.",
+    "links": {
+      "website": [
+        "https://www.bridgetowercapital.com/"
+      ],
+      "twitter": "https://x.com/BridgeTowerCap",
+      "linkedin": "https://www.linkedin.com/company/bridgetower-capital/"
+    },
+    "foundedYear": 2020,
+    "headquarters": "Meridian, United States",
+    "founders": "Cory Pugh (Founder, CEO), Todd Wolfenbarger (CMO), Marty Tate (General Counsel), Spencer Calvin (Managing Director), Chase Pugh (VP of Blockchain Platforms), Mindy Ngo Anderson (Head of Operations)",
+    "regulatoryStatus": "No licenses or registrations disclosed. BridgeTower Capital, Inc. (Delaware, CIK 0001732227) filed Form D/D-A (Rule 506(c)) with the SEC 2018-2021 for an equity raise; DOM X securities are stated to be offered only under exemptions to eligible investors, but no Form D or other SEC filing referencing DOM X was found. Securitize is a named transfer-agent partner.",
+    "keyMilestones": "2018-03: first sale under Reg D equity offering as BridgeTower Capital, Inc. (f/k/a LendingCoin, Inc.) | 2021-04: Security Token Pre-Offering with Zurich entity; Algorand partnership | 2022-03: Securitize and Chainlink partnership for staked digital asset security on Avalanche | 2024-12: Sovereign AI Data Lineage launch with InterVision and ProvLabs | 2026-04: announced Chainlink tokenization of claimed $11B DOM X Arizona Copper-Gold Project",
+    "entityStructureNotes": "BridgeTower Capital, Inc., Delaware corporation (CIK 0001732227), previously LendingCoin, Inc. (2018), business address Meridian, Idaho. 2022 press materials described it as Singapore-based with Swiss and US operating entities; a Zurich entity was announced in 2021. No DOM X issuer SPV has been identified."
+  },
+  "platform": {
+    "category": [
+      "gold-commodities"
+    ],
+    "platformType": [
+      "commodity-basket"
+    ],
+    "accessModel": "permissioned",
+    "primaryChain": "avax",
+    "chains": [
+      "avax"
+    ],
+    "fees": {
+      "revenueModel": "Tokenization platform and issuance services, white-label staking, AI infrastructure; presumed platform and issuance fees on tokenized offerings (nothing disclosed for DOM X/AZX1)",
+      "revenueConfidence": "no-public-data",
+      "feeLastVerified": "2026-07-20",
+      "revenueNotes": "No fee schedule, offering memorandum, or economics for AZX1/DOM X are public; offering documents available only to eligible investors. Company declined to disclose revenue range in its Form D.",
+      "revenueVerificationMethod": "bridgetowercapital.com, PRNewswire 2026-04-23, BusinessWire 2022-03-23, Securitize investor portal landing, SEC EDGAR filings and full-text search"
+    }
+  },
+  "roles": [
+    {
+      "organization": "bridgetower-capital-meridian-idaho",
+      "kind": "issuer"
+    },
+    {
+      "organization": "securitize-llc-as-sec-registered-transfer-agent-broker-dealer-and-alternative-trading-system-partner",
+      "kind": "transfer-agent"
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    },
+    {
+      "kind": "review",
+      "outcome": "suspicious",
+      "reason": "Claimed $11B Arizona copper-gold asset names no mine or operator, cites no NI 43-101 / S-K 1300 technical report, and no SEC filing mentioning DOM X exists (EDGAR full-text search 2026-07). Entity's only EDGAR history is a 2018-2021 Form D reporting $80,000 sold to 4 investors against a $69.5M target, under former name LendingCoin, Inc. AZX1 contract dormant; sole asset delisted. Multi-year pattern of partnership announcements across repeated pivots with few verifiable shipped financial products; $25B pipeline claim unverifiable (reviewed 2026-07)."
+    }
+  ]
+}

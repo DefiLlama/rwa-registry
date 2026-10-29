@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "slug": "archax",
+    "name": "Archax",
+    "legacyPid": 279
+  },
+  "about": {
+    "logo": "https://icons.llamao.fi/icons/rwa/archax.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://archax.com"
+      ],
+      "twitter": "https://x.com/ArchaxEx"
+    }
+  },
+  "platform": {
+    "category": [
+      "bond-mmf-funds"
+    ],
+    "primaryChain": "hedera",
+    "delisted": false
+  }
+}

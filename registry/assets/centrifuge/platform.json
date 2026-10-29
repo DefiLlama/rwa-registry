@@ -1,0 +1,62 @@
+{
+  "identity": {
+    "slug": "centrifuge",
+    "name": "Centrifuge",
+    "legacyPid": 29,
+    "protocolSlug": "centrifuge"
+  },
+  "about": {
+    "description": "Centrifuge is an RWA protocol enabling securitization of real-world assets including invoices, mortgages, and trade finance through tokenized structures. It connects institutional asset originators with DeFi liquidity.",
+    "logo": "https://icons.llamao.fi/icons/rwa/centrifuge.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://centrifuge.io"
+      ],
+      "twitter": "https://x.com/centrifuge",
+      "docs": "https://docs.centrifuge.io/",
+      "linkedin": "https://www.linkedin.com/company/centrifuge-io",
+      "github": "https://github.com/centrifuge"
+    },
+    "registryInfo": "Centrifuge (Centrifuge Foundation, Switzerland; Centrifuge Inc., US). Decentralized RWA tokenization protocol launched 2017 by Lucas Vogelsang, Martin Quensel et al. Tinlake / Centrifuge Pools enable structured-credit issuance. CFG governance token live on Coinbase, Bybit, KuCoin. Backed by BlockTower, Galaxy, Coinbase Ventures.",
+    "foundedYear": 2017,
+    "headquarters": "Zug, Switzerland",
+    "founders": "Bhaji Illuminati (CEO since February 2025), Lucas Vogelsang (Co-Founder, board), Martin Quensel (Co-Founder, President)",
+    "regulatoryStatus": "Centrifuge is a protocol developer, not a licensed fund manager, with the website imprint held by Centrifuge Network Foundation in the Cayman Islands and development via k f labs in Zug. Its flagship funds are issued by Anemoy Limited, a BVI entity whose funds are approved and regulated by the BVI Financial Services Commission as professional funds for non US professional investors, with Janus Henderson as sub investment manager.",
+    "keyMilestones": "2026-06: New York Life Investment Management launched its first tokenized fund on Centrifuge and Kraken Institutional added JAAA to qualified custody | 2025-07: first tokenized S and P 500 index fund launched with Janus Henderson | 2025-06: JAAA tokenized AAA CLO fund launched with a 1 billion dollar Sky ecosystem allocation via Grove | 2025-02: Bhaji Illuminati appointed CEO | 2017: founded by Vogelsang and Quensel",
+    "entityStructureNotes": "The brand comprises the Centrifuge Network Foundation in the Cayman Islands and k f labs in Zug. Anemoy Limited is the BVI asset management arm issuing the FSC approved funds with Janus Henderson as sub investment manager. Each fund uses a bankruptcy remote SPV with independent custodian and Trident Trust as administrator."
+  },
+  "platform": {
+    "category": [
+      "governance-tokens",
+      "private-credit"
+    ],
+    "platformType": [
+      "governance-token"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "parentPlatform": "centrifuge",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Origination Fee + Yield Spread",
+      "holderTotalFeeBps": 25,
+      "revenueConfidence": "issuer-disclosed",
+      "feeLastVerified": "2026-07-09",
+      "revenueNotes": "JTRSY charges 25 bps total annually accruing daily onchain per the Centrifuge STEP II filing (raised from a waived 15 bps in 2025). The JAAA tokenized fund TER is not disclosed and should not be confused with the US listed JAAA ETF. Fee split between Anemoy and Janus Henderson is not disclosed."
+    }
+  },
+  "roles": [
+    {
+      "organization": "centrifuge-gmbh",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://centrifuge.io"
+      ]
+    }
+  ]
+}

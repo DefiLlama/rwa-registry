@@ -1,0 +1,36 @@
+{
+  "identity": {
+    "slug": "zyr-hanyu",
+    "name": "ZYR Hanyu",
+    "legacyPid": 298
+  },
+  "about": {
+    "description": "ZYR Hanyu is a special purpose vehicle managed by Zao Yu Ren Holdings that claims to hold an equity interest in Hanyu Aerospace Technology Co Ltd, described as a private Chinese aerospace technology company. The HAT token on the XRP Ledger represents participation in the SPV rather than direct company shares. The token is not redeemable and its price is derived from an XRPL AMM pool ratio.",
+    "links": {
+      "website": [
+        "https://hanyu.zaoyuren.com/"
+      ]
+    }
+  },
+  "platform": {
+    "category": [
+      "stocks-equities"
+    ],
+    "primaryChain": "ripple",
+    "chains": [
+      "ripple"
+    ],
+    "suspicious": false,
+    "delisted": false,
+    "fees": {
+      "revenueConfidence": "no-public-data",
+      "feeLastVerified": "2026-07-02"
+    }
+  },
+  "roles": [
+    {
+      "organization": "zyr-hanyu-spv-managed-by-zao-yu-ren-holdings",
+      "kind": "issuer"
+    }
+  ]
+}

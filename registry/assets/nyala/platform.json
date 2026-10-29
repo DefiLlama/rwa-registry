@@ -1,0 +1,22 @@
+{
+  "identity": {
+    "slug": "nyala",
+    "name": "NYALA",
+    "legacyPid": 288
+  },
+  "about": {
+    "logo": "https://icons.llamao.fi/icons/rwa/nyala.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.nyala.de/en"
+      ]
+    }
+  },
+  "platform": {
+    "category": [
+      "stocks-equities"
+    ],
+    "primaryChain": "polygon",
+    "delisted": false
+  }
+}

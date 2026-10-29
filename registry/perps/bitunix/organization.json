@@ -1,0 +1,56 @@
+{
+  "identity": {
+    "slug": "bitunix",
+    "name": "Bitunix",
+    "legacyPid": 321,
+    "protocolSlug": "bitunix"
+  },
+  "about": {
+    "description": "Bitunix is a global centralized crypto exchange founded in 2021 that runs spot and derivatives markets and has positioned futures as its core product. The company was co-founded by Arron Lee, while its chief executive is not clearly disclosed and company letters are signed only by a CEO named Allen. In March 2026 it moved into real world assets, launching USDT-margined US stock perpetual futures on 2026-03-19 with TSLA, MSTR, INTC and AMZN among the first listings, then expanding on 2026-03-25 into ETF and commodity contracts including SPY, QQQ and crude oil. The RWA lineup has since grown to roughly 140 contracts spanning US equities, ETFs, indices and commodities, traded alongside crypto pairs in a single futures account. Contracts are margined and settled in USDT with funding applied on an 8 hour cadence, and base futures fees are 0.02 percent maker and 0.06 percent taker. Bitunix is offered globally from an offshore corporate base incorporated in Saint Vincent and the Grenadines, with the US among its restricted markets.",
+    "logo": "https://icons.llamao.fi/icons/rwa/bitunix.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.bitunix.com"
+      ],
+      "twitter": "https://x.com/BitunixOfficial",
+      "docs": "https://openapidoc.bitunix.com/",
+      "linkedin": "https://www.linkedin.com/company/bitunix/",
+      "discord": "https://discord.gg/bitunix",
+      "telegram": "https://t.me/bitunixglobal"
+    },
+    "foundedYear": 2021,
+    "headquarters": "No disclosed operational headquarters. Incorporated in Saint Vincent and the Grenadines.",
+    "founders": "Arron Lee (Co-Founder). CEO not clearly disclosed, company communications are signed by a CEO identified only as Allen",
+    "regulatoryStatus": "Bitunix is not licensed as a securities or derivatives exchange in any major jurisdiction, and its stock and commodity perpetuals are offered under offshore incorporation in Saint Vincent and the Grenadines. The company states that it holds a Money Services Business registration with FinCEN in the United States dating from 2022 and an MSB registration with FINTRAC in Canada. It obtained an AUSTRAC digital currency exchange registration in Australia in January 2026 and states that it holds a VASP authorization in the Philippines. These are money-service and AML registrations rather than derivatives licenses, and the platform restricts users from the US and other sanctioned or prohibited jurisdictions.",
+    "keyMilestones": "2021: Bitunix founded as a derivatives-focused crypto exchange | 2022: FinCEN MSB registration in the United States, per company disclosures | 2026-01: AUSTRAC registration adds Australia to its compliance footprint | 2026-03: US stock perpetual futures launch on 2026-03-19 with TSLA, MSTR, INTC and AMZN, bringing equities into a USDT futures account | 2026-03: ETF and commodity expansion on 2026-03-25 adds SPY, QQQ and crude oil contracts | 2026-07: RWA lineup reaches roughly 140 contracts across stocks, ETFs, indices and commodities",
+    "entityStructureNotes": "Operating company incorporated in Saint Vincent and the Grenadines. Company-stated registrations include FinCEN MSB (US), FINTRAC MSB (Canada), AUSTRAC DCE (Australia) and a Philippines VASP authorization. No separately disclosed derivatives-issuing entity."
+  },
+  "platform": {
+    "category": [
+      "rwa-perps"
+    ],
+    "platformType": [
+      "perp-venue"
+    ],
+    "accessModel": "permissioned",
+    "marginSettlementAsset": "USDT",
+    "parentPlatform": "bitunix",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Perp Maker/Taker Fees",
+      "issuerDocsUrl": "https://www.bitunix.com/service/handling-fee",
+      "governanceWhitepaperUrl": "https://support.bitunix.com/hc/en-us/articles/16492827232921-Bitunix-Futures-Services-Agreement",
+      "revenueConfidence": "issuer-disclosed",
+      "feeLastVerified": "2026-07-30",
+      "revenueNotes": "US stock futures launched 2026-03-19 and the TradFi zone expanded through 2026."
+    }
+  },
+  "roles": [
+    {
+      "organization": "not-clearly-disclosed-corporate-registration-in-saint-vincent-and-the-grenadines",
+      "kind": "issuer"
+    }
+  ]
+}

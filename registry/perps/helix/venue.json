@@ -1,0 +1,17 @@
+{
+  "slug": "helix",
+  "organization": "helix",
+  "venueType": "dex",
+  "adapter": "helix",
+  "published": true,
+  "makerFeeBps": -0.5,
+  "takerFeeBps": 5,
+  "fundingRetentionPct": 0,
+  "oracleProvider": "Chainlink Data Streams",
+  "accessModel": "permissionless",
+  "rwaClassification": "programmable-finance",
+  "conventionNote": "Funding is computed from an hourly rate with an hourly cap from the Injective market info, and makers get a rebate at the typical maker fee of -0.005%.",
+  "website": "https://helixapp.com/",
+  "issuer": "Helix",
+  "marginAsset": "USDT"
+}

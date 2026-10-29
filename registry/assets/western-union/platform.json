@@ -1,0 +1,46 @@
+{
+  "identity": {
+    "slug": "western-union",
+    "name": "Western Union",
+    "legacyPid": 250
+  },
+  "about": {
+    "description": "The Western Union Company (NYSE: WU) is a global money-movement and payments business operating in 200+ countries with 550,000+ agent locations. On May 4, 2026 Western Union launched its Digital Asset Network, anchored by USDPT, a USD-pegged payment stablecoin issued by Anchorage Digital Bank, N.A. on Solana. The Digital Asset Network connects licensed virtual currency exchanges and custodians to Western Union's global payout and liquidity infrastructure. Forthcoming consumer product: Stable by Western Union (40+ country rollout in 2026, initially in the Philippines and Bolivia). Custody and tokenization technology powered by Fireblocks.",
+    "logo": "https://icons.llamao.fi/icons/rwa/western-union.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.westernunion.com/"
+      ],
+      "twitter": "https://x.com/WesternUnion",
+      "docs": "https://corporate.westernunion.com/digital-asset-network",
+      "linkedin": "https://www.linkedin.com/company/the-western-union-company"
+    },
+    "registryInfo": "The Western Union Company (NYSE: WU) is a Denver, CO-headquartered global money movement and payments business that operates in 200+ countries and territories with 550,000+ agent locations."
+  },
+  "platform": {
+    "category": [
+      "fiat-stablecoins"
+    ],
+    "platformType": [
+      "usd-stable"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "solana",
+    "chains": [
+      "solana"
+    ],
+    "parentPlatform": "western-union",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "the-western-union-company",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.westernunion.com/"
+      ]
+    }
+  ]
+}

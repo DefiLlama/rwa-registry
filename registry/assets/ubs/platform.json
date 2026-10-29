@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "slug": "ubs",
+    "name": "UBS",
+    "legacyPid": 292
+  },
+  "about": {
+    "logo": "https://icons.llamao.fi/icons/rwa/ubs.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.ubs.com"
+      ],
+      "twitter": "https://x.com/UBS"
+    }
+  },
+  "platform": {
+    "category": [
+      "bond-mmf-funds"
+    ],
+    "primaryChain": "ethereum",
+    "delisted": false
+  }
+}

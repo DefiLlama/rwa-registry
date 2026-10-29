@@ -1,0 +1,66 @@
+{
+  "identity": {
+    "slug": "hyena",
+    "name": "HyENA",
+    "legacyPid": 240,
+    "protocolSlug": "hyena"
+  },
+  "about": {
+    "description": "HyENA is a USDe-margined builder-deployed perpetual venue on Hyperliquid, launched December 9, 2025 by the Based team and backed by the Ethena Foundation. It is the first perpetual DEX to require USDe as collateral, allowing margin to earn integrated staking rewards (announced ~12% APY in launch month) — a \"trade while earning\" experience. HyENA inherits Hyperliquid HIP-3's sub-200ms latency and gas-free order-matching, and within 48 hours of launch logged $50M+ in volume; by early January 2026 it had crossed $440M cumulative volume across 6.5K users, becoming the second-largest permissionless HIP-3 venue.",
+    "logo": "https://icons.llamao.fi/icons/rwa/hyena.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.hyena.trade/"
+      ],
+      "twitter": "https://x.com/hyenatrade",
+      "docs": "https://docs.hyena.trade/",
+      "linkedin": "https://www.linkedin.com/company/ethena-labs",
+      "discord": "https://discord.gg/7chqM8cDTq",
+      "telegram": "https://t.me/hyena_announcements",
+      "refLinks": [
+        "https://app.hyena.trade/ref/DEFILLAMA"
+      ]
+    },
+    "registryInfo": "HyENA is built by the Based team — currently the highest-earning Builder in the Hyperliquid ecosystem — with operational and economic support from the Ethena Foundation. Markets are deployed via Hyperliquid HIP-3 and accept Ethena USDe exclusively as collateral. Ethena reportedly receives 50% of trading fees as part of the partnership."
+  },
+  "platform": {
+    "category": [
+      "rwa-perps"
+    ],
+    "platformType": [
+      "perp-venue"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "hyperliquid",
+    "chains": [
+      "hyperliquid"
+    ],
+    "attestationFrequency": "N/A (Perp Venue)",
+    "marginSettlementAsset": "USDe (Hyperliquid)",
+    "parentPlatform": "hyena",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Maker/Taker Fees + Funding Skim",
+      "revenueConfidence": "issuer-disclosed",
+      "feeLastVerified": "2026-05-11",
+      "revenueNotes": "HyENA is a HIP-3 builder-deployer on Hyperliquid. Fees follow HIP-3 framework: standard taker ~7-9 bps, Growth Mode taker ~0.45-0.9 bps. 50% of fees go to HyENA deployer, 50% to Hyperliquid protocol. Source: https://hyperliquid.gitbook.io/hyperliquid-docs/hyperliquid-improvement-proposals-hips/hip-3-builder-deployed-perpetuals"
+    }
+  },
+  "roles": [
+    {
+      "organization": "based-hyena",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.hyena.trade/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "N/A (Perp Venue)"
+    }
+  ]
+}

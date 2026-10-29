@@ -1,0 +1,60 @@
+{
+  "identity": {
+    "slug": "strato",
+    "name": "STRATO",
+    "legacyPid": 257
+  },
+  "about": {
+    "description": "STRATO is an Ethereum-compatible Layer 1 blockchain operated by BlockApps Inc., focused on real-world asset tokenization. STRATO hosts a precious-metals product line including GOLDST (vaulted gold) and SILVST (vaulted silver), each redeemable into physical metal stored with BA Gold Enterprises in New York. The platform also exposes a DeFi stack for borrowing, liquidity, and yield against vaulted RWAs, and publishes periodic vault audit reports.",
+    "logo": "https://icons.llamao.fi/icons/rwa/strato.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://strato.nexus/"
+      ],
+      "twitter": "https://x.com/strato_net",
+      "docs": "https://docs.strato.nexus/",
+      "linkedin": "https://www.linkedin.com/company/blockapps",
+      "telegram": "https://t.me/strato_net"
+    },
+    "registryInfo": "BlockApps Inc. (Delaware) is the developer of STRATO, an Ethereum-compatible Layer 1 designed for real-world asset tokenization, with public materials describing BA Gold Enterprises Inc. as the New York vaulting partner for the precious-metals products."
+  },
+  "platform": {
+    "category": [
+      "tokenization-platform",
+      "gold-commodities"
+    ],
+    "platformType": [
+      "tokenization-platform"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "strato",
+    "chains": [
+      "strato"
+    ],
+    "attestationFrequency": "Monthly vaulting confirmations; periodic independent CPA audit",
+    "parentPlatform": "strato",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Mint/Redemption Spread; Vault Fee",
+      "revenueConfidence": "no-public-data",
+      "revenueNotes": "STRATO charges a vault/management fee and a mint/redemption spread on its precious-metals tokens, but the specific bps and revenue-sharing schedule are not publicly disclosed on the STRATO website or audit pages as of May 2026."
+    }
+  },
+  "roles": [
+    {
+      "organization": "blockapps-inc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://blockapps.net/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "date": "2026-03-25"
+    }
+  ]
+}

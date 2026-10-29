@@ -1,0 +1,57 @@
+{
+  "identity": {
+    "slug": "world-liberty-financial",
+    "name": "World Liberty Financial",
+    "legacyPid": 149
+  },
+  "about": {
+    "description": "World Liberty Financial issues a fiat-backed stablecoin maintained at parity with its reference currency through reserve backing and redemption mechanisms. It enables fast, low-cost settlement of stablecoin transactions.",
+    "logo": "https://icons.llamao.fi/icons/rwa/world-liberty-financial.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://worldlibertyfinancial.com/usd1"
+      ],
+      "twitter": "https://x.com/worldlibertyfi",
+      "docs": "https://worldlibertyfinancial.com/"
+    },
+    "foundedYear": 2024,
+    "founders": "Zach Witkoff (Co-Founder, CEO), Zachary Folkman (Co-Founder), Chase Herro (Co-Founder)",
+    "regulatoryStatus": "USD1 reserves are custodied by BitGo Trust Company, a South Dakota chartered trust company, verified through monthly attestations under AICPA criteria. World Liberty is positioning USD1 for GENIUS Act compliance and in January 2026 its affiliate WLTC Holdings LLC applied to the OCC for a national trust bank charter. The company is not currently itself a chartered or licensed stablecoin issuer.",
+    "keyMilestones": "2026-01: OCC application for World Liberty Trust Company national trust bank and USD1 supply passes 3.3 billion dollars | 2025-09: WLFI token becomes tradable | 2025-05: MGX 2 billion dollar Binance investment settled in USD1 | 2025-03: USD1 stablecoin announced | 2024-09: venture announced",
+    "entityStructureNotes": "World Liberty Financial Inc. is the operating company with a Trump business entity owning 60 percent and entitled to 75 percent of token sale revenue. The proposed banking arm is World Liberty Trust Company N.A. via WLTC Holdings LLC. Reserves are custodied by third party BitGo Trust Company."
+  },
+  "platform": {
+    "category": [
+      "fiat-stablecoins"
+    ],
+    "platformType": [
+      "usd-stable"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "parentPlatform": "world-liberty-financial",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "mintFeeBps": 0,
+      "redemptionFeeBps": 0,
+      "floatIncome": true,
+      "revenueConfidence": "reasoned-estimate",
+      "feeLastVerified": "2026-07-09",
+      "revenueNotes": "The OCC application states minting, redeeming, and fiat on and off ramp of USD1 carry no fees at launch. Economics rest on reserve float, reported by WSJ at roughly 80 million dollars per year on about 2 billion dollars of supply, with an undisclosed split with custodian BitGo."
+    }
+  },
+  "roles": [
+    {
+      "organization": "world-liberty-financial-inc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://worldlibertyfinancial.com/usd1"
+      ]
+    }
+  ]
+}

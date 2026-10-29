@@ -1,0 +1,37 @@
+{
+  "identity": {
+    "slug": "bitbond",
+    "name": "Bitbond",
+    "legacyPid": 347
+  },
+  "about": {
+    "links": {
+      "website": [
+        "https://www.bitbond.com/"
+      ]
+    }
+  },
+  "platform": {
+    "category": [
+      "private-credit"
+    ],
+    "platformType": [
+      "other-credit"
+    ],
+    "accessModel": "permissioned",
+    "primaryChain": "stellar",
+    "chains": [
+      "stellar"
+    ],
+    "parentPlatform": "bitbond",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "realiz-digital-assets-fund",
+      "kind": "issuer"
+    }
+  ]
+}

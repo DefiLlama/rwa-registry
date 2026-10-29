@@ -1,0 +1,39 @@
+{
+  "identity": {
+    "slug": "netnet-capital-management",
+    "name": "NetNet Capital Management",
+    "legacyPid": 340
+  },
+  "about": {
+    "links": {
+      "website": [
+        "https://netnet.capital/"
+      ],
+      "twitter": "https://x.com/netnetcap",
+      "docs": "https://docs.netnet.capital/"
+    }
+  },
+  "platform": {
+    "category": [
+      "rwa-wrappers"
+    ],
+    "platformType": [
+      "structured-note"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "robinhood",
+    "chains": [
+      "robinhood"
+    ],
+    "parentPlatform": "netnet-capital-management",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "netnet-capital-management",
+      "kind": "issuer"
+    }
+  ]
+}

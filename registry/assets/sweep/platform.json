@@ -1,0 +1,45 @@
+{
+  "identity": {
+    "slug": "sweep",
+    "name": "Sweep",
+    "legacyPid": 19
+  },
+  "about": {
+    "description": "Sweep offers a stablecoin backed by real-world assets and Treasury securities, combining yield generation with price stability. It enables institutional-grade stable settlement with underlying RWA collateral.",
+    "logo": "https://icons.llamao.fi/icons/rwa/sweep.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.sweepr.finance"
+      ],
+      "twitter": "https://x.com/SweeprFi",
+      "docs": "https://docs.sweepr.finance/",
+      "linkedin": "https://www.linkedin.com/company/sweep-finance"
+    }
+  },
+  "platform": {
+    "category": [
+      "rwa-stablecoins"
+    ],
+    "platformType": [
+      "yield-rwa-stable"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "parentPlatform": "sweep",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "sweep-protocol",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.sweepr.finance"
+      ]
+    }
+  ]
+}

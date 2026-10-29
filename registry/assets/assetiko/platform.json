@@ -1,0 +1,58 @@
+{
+  "identity": {
+    "slug": "assetiko",
+    "name": "Assetiko",
+    "legacyPid": 309
+  },
+  "about": {
+    "description": "Assetiko is a self-described tokenization platform structured through British Virgin Islands companies whose website and documentation first appeared in June-July 2026. Its commodity issuer, Assetiko Commodities Ltd., issues tokenized precious metals on the XRP Ledger (silver XAGa, platinum XPTa, with gold XAUa marketed), backed not by allocated bullion alone but by a mixed reserve of physical metal (40-80%), ETFs/ETCs, certificates and cash or stablecoins. No regulator oversees the products, no founders or personnel are named anywhere, and reserve reports, custodian statements, audit reports and insurance certificates are all restricted records available only via identity-verified request.",
+    "logo": "https://icons.llamao.fi/icons/rwa/assetiko.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://assetiko.com/"
+      ],
+      "docs": "https://developers.assetiko.com/"
+    },
+    "headquarters": "Road Town, British Virgin Islands (registered office only; operational location undisclosed)",
+    "regulatoryStatus": "Unregulated. Self-declared BVI Business Companies; states it is not a broker, investment adviser, exchange, marketplace, bank or custodian; no financial-services licence claimed in any jurisdiction. Physical redemption excluded in the United States.",
+    "keyMilestones": "2026-06: Legal Notices published (ASTK-LN-2026-06-28) | 2026-07: XAUa tokenized gold launch announced | 2026-07: site-wide documentation and social assets dated 2026-07-10",
+    "entityStructureNotes": "Legal Notices disclose four BVI companies at Craigmuir Chambers, Road Town, Tortola: Assetiko Holdings Ltd. (parent), Assetiko Digital Assets Ltd., Assetiko Treasury Ltd., Assetiko Operations Ltd. (website operator); registered agent self-named as Assetiko Corporate Services (BVI) Ltd. The commodity issuer Assetiko Commodities Ltd. is NOT among the disclosed group entities and its jurisdiction is nowhere stated. XAUa XRPL issuer address rJanYBNcgXZFRqTNcaY5AoPdSEgveJofGw."
+  },
+  "platform": {
+    "category": [
+      "gold-commodities"
+    ],
+    "platformType": [
+      "silver",
+      "platinum"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ripple",
+    "chains": [
+      "ripple"
+    ],
+    "delisted": false,
+    "fees": {
+      "revenueModel": "Issuance, redemption, custody, delivery, network, compliance, FX and settlement fees per an unpublished Fee Schedule; issuer retains any excess reserve coverage",
+      "floatIncome": false,
+      "tcsUrl": "https://assetiko.com/tokenized-commodities/xaua/terms",
+      "revenueConfidence": "no-public-data",
+      "feeLastVerified": "2026-07-20",
+      "revenueNotes": "Fee Schedule referenced in Product Terms s.14 and Reserve Methodology s.19 but never published or linked. Reserves are metal-linked with cash/stablecoins capped near 10%, so float income is minimal by design; holders have no claim to excess reserves.",
+      "revenueVerificationMethod": "XAUa Product Terms s.14, Reserve Methodology s.19, developers.assetiko.com asset registry; no published fee schedule found"
+    }
+  },
+  "roles": [
+    {
+      "organization": "assetiko-commodities-ltd",
+      "kind": "issuer"
+    }
+  ],
+  "events": [
+    {
+      "kind": "review",
+      "outcome": "suspicious",
+      "reason": "Issuer of record (Assetiko Commodities Ltd.) is absent from its own disclosed BVI group entities with no stated jurisdiction or registration number; registered agent is self-named at Harneys' Craigmuir Chambers address, which is anomalous; every reserve/custody/audit/insurance document is a restricted record; dashboard gold price ($2,453.40/oz) equals its stated average cost and sits far below prevailing prices, consistent with placeholder data; marketed XAGa/XPTa coverage figures are absent from its own developer registry; entire web presence created within weeks (Jun-Jul 2026) with zero named humans and no social media (reviewed 2026-07)."
+    }
+  ]
+}

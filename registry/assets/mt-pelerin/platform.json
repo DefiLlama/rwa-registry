@@ -1,0 +1,45 @@
+{
+  "identity": {
+    "slug": "mt-pelerin",
+    "name": "Mt Pelerin",
+    "legacyPid": 223
+  },
+  "about": {
+    "description": "Mt Pelerin is a blockchain-based platform providing infrastructure for tokenization and on-chain financial services. It enables users to access and trade diverse digital assets through decentralized protocols.",
+    "logo": "https://icons.llamao.fi/icons/rwa/mt-pelerin.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.mtpelerin.com/shareholders"
+      ],
+      "twitter": "https://x.com/mtpelerin",
+      "docs": "https://www.mtpelerin.com/",
+      "linkedin": "https://www.linkedin.com/company/mt-pelerin"
+    }
+  },
+  "platform": {
+    "category": [
+      "stocks-equities"
+    ],
+    "platformType": [
+      "pe-venture"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "parentPlatform": "mt-pelerin",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "mt-pelerin-group-sa",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.mtpelerin.com/shareholders"
+      ]
+    }
+  ]
+}

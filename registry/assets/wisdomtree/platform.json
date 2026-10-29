@@ -1,0 +1,77 @@
+{
+  "identity": {
+    "slug": "wisdomtree",
+    "name": "WisdomTree",
+    "legacyPid": 124,
+    "protocolSlug": "wisdomtree"
+  },
+  "about": {
+    "description": "WisdomTree is a publicly listed (NYSE: WT) global ETF and asset-management firm headquartered in New York with ~$115B+ AUM, founded in 1985 and led by CEO Jonathan Steinberg. Through WisdomTree Connect and WisdomTree Prime, the firm issues regulated tokenized money-market and bond funds (WTSYX/WTGXX/WTSIX/WTLGX/WTLLX/WTGSX) and tokenized equity-index strategies as digital fund shares on Ethereum and Stellar. WisdomTree Digital Trust, LLC handles tokenized issuance and settlement; WisdomTree is one of the few NYSE-listed traditional asset managers to operate a vertically integrated on-chain stack and has been an early issuance partner for Plume's Nest vaults and other institutional RWA platforms.",
+    "logo": "https://icons.llamao.fi/icons/rwa/wisdomtree.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.wisdomtree.com/"
+      ],
+      "twitter": "https://x.com/WisdomTreeFunds",
+      "docs": "https://www.wisdomtree.com/investments/blog/category/tokenization",
+      "linkedin": "https://www.linkedin.com/company/wisdomtree-investments",
+      "github": "https://github.com/wisdomtree-inc"
+    },
+    "registryInfo": "WisdomTree, Inc. — Delaware C-corporation, NYSE-listed (ticker: WT). Subsidiary WisdomTree Digital Trust, LLC issues digital fund shares; WisdomTree Securities, Inc. (FINRA/SIPC member) acts as transfer agent and broker-dealer. Headquartered at 250 West 34th Street, 3rd Floor, New York, NY 10119. Founded 1985 (as Individual Investor Group). CEO Jonathan Steinberg. Approximately $115B+ AUM as of 2025. Operates the WisdomTree Connect / WisdomTree Prime app for direct retail access to tokenized fund shares.",
+    "foundedYear": 2023,
+    "headquarters": "New York, USA",
+    "founders": "Jonathan Steinberg (Founder, CEO, WisdomTree Inc.), Will Peck (Head of Digital Assets)",
+    "regulatoryStatus": "The digital funds including WTGXX are SEC registered 1940 Act funds under Rule 2a-7, advised by WisdomTree Digital Management Inc. and distributed by WisdomTree Securities Inc. WisdomTree Digital Movement Inc. is a federally registered MSB and state licensed money transmitter. WisdomTree Digital Trust Company LLC holds a New York limited purpose trust charter granted by NYDFS in March 2024. The parent is NYSE listed.",
+    "keyMilestones": "2026-02: 24 7 trading and instant settlement announced for tokenized money market fund shares | 2025-11: fund renamed WisdomTree Treasury Money Market Digital Fund | 2025-07: withdrawals of WTGXX to whitelisted self custodied wallets enabled | 2024-09: WisdomTree Connect institutional platform launched | 2024-03: NYDFS trust charter granted | 2023-11: WTGXX launched",
+    "entityStructureNotes": "WisdomTree Inc. is the NYSE listed parent with regulated roles split across subsidiaries. WisdomTree Digital Management advises the thirteen digital funds, WisdomTree Securities distributes them, WisdomTree Digital Movement is the licensed money transmitter powering Prime and Connect, and the NYDFS chartered trust issues the WisdomTree Dollar and Gold tokens."
+  },
+  "platform": {
+    "category": [
+      "bond-mmf-funds",
+      "stocks-equities"
+    ],
+    "platformType": [
+      "tokenized-funds"
+    ],
+    "accessModel": "permissioned",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum",
+      "stellar"
+    ],
+    "attestationFrequency": "Daily (40-Act fund NAV) + annual audit",
+    "parentPlatform": "wisdomtree",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Management Fee",
+      "holderTotalFeeBps": 25,
+      "assetManagerTakeBps": 25,
+      "tokenizationPlatformTakeBps": 0,
+      "performanceFeePct": 0,
+      "mintFeeBps": 0,
+      "redemptionFeeBps": 0,
+      "underlyingFundExpenseBps": 25,
+      "floatIncome": false,
+      "revenueConfidence": "public-filings",
+      "feeLastVerified": "2026-07-09",
+      "revenueNotes": "WTGXX carries a 25 bps expense ratio factored into daily NAV with distributions net of expenses, sub advised by Voya. Investors pay blockchain gas on redemptions and transfers. Digital funds remain a small slice of the parent ETF business."
+    }
+  },
+  "roles": [
+    {
+      "organization": "wisdomtree-investments-inc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.wisdomtree.com/about-us"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "Daily NAV"
+    }
+  ]
+}

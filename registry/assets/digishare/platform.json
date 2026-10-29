@@ -1,0 +1,44 @@
+{
+  "identity": {
+    "slug": "digishare",
+    "name": "DigiShare",
+    "legacyPid": 210
+  },
+  "about": {
+    "description": "DigiShare enables fractional ownership and trading of real estate assets through tokenization. It provides institutional-grade real estate exposure via blockchain infrastructure.",
+    "logo": "https://icons.llamao.fi/icons/rwa/digishare.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://landinvest.io/"
+      ],
+      "twitter": "https://x.com/landinvestio"
+    }
+  },
+  "platform": {
+    "category": [
+      "stocks-equities",
+      "real-estate"
+    ],
+    "platformType": [
+      "pe-venture"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "parentPlatform": "digishare",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "land-invest-corp",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://landinvest.io/"
+      ]
+    }
+  ]
+}

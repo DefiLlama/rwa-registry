@@ -1,0 +1,53 @@
+{
+  "identity": {
+    "slug": "altai",
+    "name": "Altai",
+    "legacyPid": 127
+  },
+  "about": {
+    "description": "Altai offers a stablecoin backed by real-world assets and Treasury securities, combining yield generation with price stability. It enables institutional-grade stable settlement with underlying RWA collateral.",
+    "logo": "https://icons.llamao.fi/icons/rwa/altai.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://altai.exchange/"
+      ],
+      "twitter": "https://x.com/altaiexchange",
+      "docs": "https://altai.io/",
+      "linkedin": "https://www.linkedin.com/company/altaicapitalmanagement"
+    },
+    "registryInfo": "Altai is a tokenization platform issuing tokenized real-world asset tokens backed by physical commodities and metals."
+  },
+  "platform": {
+    "category": [
+      "rwa-stablecoins",
+      "gold-commodities"
+    ],
+    "platformType": [
+      "rwa-fiat-stable"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "bsc",
+    "chains": [
+      "bsc"
+    ],
+    "parentPlatform": "altai",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Mint/Redeem Spread + Storage Fee",
+      "revenueConfidence": "no-public-data",
+      "feeLastVerified": "2026-05-11",
+      "revenueNotes": "Altai earns primary-market spreads on tokenized metal issuances and ongoing storage/insurance fees on physical inventory held in custody."
+    }
+  },
+  "roles": [
+    {
+      "organization": "altai",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://altai.exchange/"
+      ]
+    }
+  ]
+}

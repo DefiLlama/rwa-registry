@@ -1,0 +1,43 @@
+{
+  "identity": {
+    "slug": "groma",
+    "name": "Groma",
+    "legacyPid": 209
+  },
+  "about": {
+    "description": "Groma enables fractional ownership and trading of real estate assets through tokenization. It provides institutional-grade real estate exposure via blockchain infrastructure.",
+    "logo": "https://icons.llamao.fi/icons/rwa/groma.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.groma.com/"
+      ],
+      "twitter": "https://x.com/GromaCorp"
+    }
+  },
+  "platform": {
+    "category": [
+      "real-estate"
+    ],
+    "platformType": [
+      "reit"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "base",
+    "chains": [
+      "base"
+    ],
+    "parentPlatform": "groma",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "groma",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.groma.com/"
+      ]
+    }
+  ]
+}

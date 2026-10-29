@@ -1,0 +1,60 @@
+{
+  "identity": {
+    "slug": "alpha-global-reserve",
+    "name": "Alpha Global Reserve",
+    "legacyPid": 308
+  },
+  "about": {
+    "description": "Alpha Global Reserve Limited (self-stated Company No. 2202727; jurisdiction never disclosed) issues XAUa, a token stated to correspond 1:1 to one gram of 999.9 fine LBMA-certified gold held in LBMA-approved Hong Kong vaults under a trust arrangement, deployed on Ethereum and BNB Chain via its AlphaChain platform. The wider AlphaToken group includes Alpha Digital Assets Limited (website operator, Hong Kong law) and AlphaToken Technology (HK) Ltd. The group discloses that it is not registered, licensed or regulated by the Hong Kong SFC, HKMA, BVI FSC or any other financial regulator, and its whitepaper frames all reserve, custody and audit claims as non-binding assumptions of the current intended design. No auditor is named, no leadership is named, and stablecoin redemption is at the issuer's sole discretion.",
+    "logo": "https://icons.llamao.fi/icons/rwa/alpha-global-reserve.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://alphatoken.com/"
+      ],
+      "twitter": "https://x.com/AlphaTokenHQ",
+      "docs": "https://docs.alphatoken.com/",
+      "telegram": "https://t.me/AlphaTokenHQ"
+    },
+    "regulatoryStatus": "Unregulated by its own disclosure: Terms of Service state Alpha Digital Assets Ltd. is not registered, licensed, or regulated by the Hong Kong SFC, HKMA, BVI Financial Services Commission, or any other financial regulatory authority. XAUa not offered to U.S. persons.",
+    "entityStructureNotes": "Issuer: Alpha Global Reserve Limited, Company No. 2202727 per whitepaper - registry, jurisdiction and incorporation date not stated and not verifiable in any public registry. Related: Alpha Digital Assets Limited (operates alphatoken.com, HK law), AlphaToken Technology (HK) Ltd. (docs). Gold custody: LBMA-approved Hong Kong vaults incl. Brink's, under trust; exclusive mint/burn authority with the issuer."
+  },
+  "platform": {
+    "category": [
+      "gold-commodities"
+    ],
+    "platformType": [
+      "gold"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "delisted": false,
+    "fees": {
+      "revenueModel": "Mint/Redeem Fees",
+      "mintFeeBps": 25,
+      "redemptionFeeBps": 25,
+      "floatIncome": false,
+      "feeScheduleUrl": "https://pub-resources.alphatoken.com/resources/docs/en/whitepaper.pdf",
+      "tcsUrl": "https://pub-resources.alphatoken.com/resources/policy/en/terms_of_service.html",
+      "revenueConfidence": "issuer-disclosed",
+      "feeLastVerified": "2026-07-20",
+      "revenueNotes": "0.25% minting and 0.25% redemption fees disclosed only in whitepaper section 4.7, which the document itself declares non-binding and subject to change without notice; no separate fee schedule page. Stablecoin-route redemption proceeds are discretionary; only physical gold redemption is described as guaranteed, subject to minimums.",
+      "revenueVerificationMethod": "XAUa whitepaper sections 4.6-4.7, Terms of Service section 3"
+    }
+  },
+  "roles": [
+    {
+      "organization": "alpha-global-reserve-limited",
+      "kind": "issuer"
+    }
+  ],
+  "events": [
+    {
+      "kind": "review",
+      "outcome": "suspicious",
+      "reason": "Issuer discloses only a bare company number with no jurisdiction or registry and affirms it holds no licence from any regulator while issuing a gold-backed bearer instrument. Whitepaper recasts every reserve, custody, audit and backing claim (including the 1g gold backing) as non-binding assumptions; no auditor named, no attestation published; stablecoin redemption at issuer's sole discretion; ToS cap liability at $1,000; no named founders or office; zero independent registry or press footprint (reviewed 2026-07)."
+    }
+  ]
+}

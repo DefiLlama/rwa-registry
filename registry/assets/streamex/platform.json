@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "slug": "streamex",
+    "name": "Streamex",
+    "legacyPid": 290
+  },
+  "about": {
+    "logo": "https://icons.llamao.fi/icons/rwa/streamex.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.streamex.com"
+      ],
+      "twitter": "https://x.com/streamex"
+    }
+  },
+  "platform": {
+    "category": [
+      "gold-commodities"
+    ],
+    "primaryChain": "base",
+    "delisted": false
+  }
+}

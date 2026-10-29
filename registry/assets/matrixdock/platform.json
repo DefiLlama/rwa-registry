@@ -1,0 +1,71 @@
+{
+  "identity": {
+    "slug": "matrixdock",
+    "name": "Matrixdock",
+    "legacyPid": 95,
+    "protocolSlug": "matrixdock"
+  },
+  "about": {
+    "description": "Matrixdock provides tokenized access to physical commodities and precious metals through blockchain infrastructure. It enables fractional ownership and efficient settlement of commodity positions.",
+    "logo": "https://icons.llamao.fi/icons/rwa/matrixdock.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.matrixdock.com/xaum"
+      ],
+      "twitter": "https://x.com/matrixdock",
+      "docs": "https://docs.matrixdock.com/",
+      "linkedin": "https://www.linkedin.com/company/matrixport-group",
+      "discord": "N/A (institutional)",
+      "telegram": "https://t.me/matrixdock",
+      "github": "N/A (closed source)"
+    },
+    "registryInfo": "Matrixdock (operated by Matrixport / Matrix Finance Holdings Limited; BVI). Singapore-headquartered tokenized-RWA platform launched 2023. Issues STBT (Short-Term Treasury Bill Token), XAUm (gold-backed) and XAGm (silver-backed) tokens. Matrixport group operates regulated digital-asset financial services in Singapore (MAS-licensed Major Payment Institution and SFC HK Type 1/4/9)."
+  },
+  "platform": {
+    "category": [
+      "gold-commodities"
+    ],
+    "platformType": [
+      "gold"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "attestationFrequency": "Monthly",
+    "parentPlatform": "matrixdock",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Management Fee",
+      "holderTotalFeeBps": 30,
+      "assetManagerTakeBps": 30,
+      "tokenizationPlatformTakeBps": 0,
+      "performanceFeePct": 0,
+      "mintFeeBps": 0,
+      "redemptionFeeBps": 0,
+      "underlyingFundExpenseBps": 30,
+      "floatIncome": false,
+      "revenueConfidence": "issuer-disclosed",
+      "feeLastVerified": "2026-05-11",
+      "revenueNotes": "Matrixdock STBT (Short-Term Treasury Bill Token): 30 bps annual management fee, 0% performance fee. Daily yield distribution via rebasing. Fully backed by US Treasuries maturing within 6 months. XAGm (tokenized silver) follows Matrixdock's Fungible Reserve Standard with custody and audit costs accounted for in supply dynamics. Source: https://www.matrixdock.com/stbt"
+    }
+  },
+  "roles": [
+    {
+      "organization": "matrix-infinitus-hong-kong-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.matrixdock.com/xaum"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "Monthly (Mazars / equivalent)"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "identity": {
+    "slug": "pv01",
+    "name": "PV01",
+    "legacyPid": 78
+  },
+  "about": {
+    "description": "PV01 is a London/Cayman-based tokenized fixed-income platform founded in 2023 by Max Boonen (founder of B2C2). The platform issues short-dated US Treasury bills as transferable on-chain tokens (the \"PV01 Bond\" series), targeting crypto-native institutions, prop traders, and DeFi protocols seeking on-chain T-bill exposure. Bonds are issued via Cayman SPVs holding 1:1 backing in US Treasuries with daily yield accrual; institutional investors can mint and redeem directly. PV01 has been used by Tether (USDT issuer) for treasury management and by other large stablecoin and protocol treasuries. The \"PV01\" wordmark refers to the bond risk metric ($price-value of a 1bp move). PV01 differentiates from other treasury platforms by offering bonds of specific maturities (rather than open-ended MMF shares) and by targeting the crypto-native institutional market.",
+    "logo": "https://icons.llamao.fi/icons/rwa/pv01.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://pv0.one/"
+      ],
+      "twitter": "https://x.com/pv01_markets",
+      "docs": "https://www.pv0.one/",
+      "linkedin": "https://www.linkedin.com/company/pv01-platform"
+    },
+    "registryInfo": "PV01 is a Cayman Islands-based digital fixed-income issuance platform, with UK operations via PV01 Holdings Ltd (registered in England & Wales). Founded 2023 by Max Boonen (founder of B2C2, one of the largest crypto market makers), Sergey Kachura, and Hugo Renaudin. Backed by British Business Bank, Coinbase Ventures, Tioga Capital, AlbionVC, ParaFi, Avon Ventures (Fidelity), and others (~$5M seed + ~$8M Series A). PV01 partners with a network of Cayman SPVs and broker-dealer affiliates for on-chain bond issuance. Token contracts deployed on Ethereum mainnet with permissioned transfer controls."
+  },
+  "platform": {
+    "category": [
+      "private-credit",
+      "bond-mmf-funds"
+    ],
+    "platformType": [
+      "lending-venue"
+    ],
+    "accessModel": "permissioned",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "attestationFrequency": "Per-issuance prospectus + monthly position attestation",
+    "parentPlatform": "pv01",
+    "suspicious": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Asset Manager Fee",
+      "holderTotalFeeBps": 10,
+      "assetManagerTakeBps": 10,
+      "tokenizationPlatformTakeBps": 0,
+      "mintFeeBps": 0,
+      "redemptionFeeBps": 0,
+      "floatIncome": true,
+      "issuerDocsUrl": "https://pv0.one/",
+      "revenueConfidence": "reasoned-estimate",
+      "feeLastVerified": "2026-05-10",
+      "revenueNotes": "PV01 issuance/management fees are bespoke per series and not publicly disclosed. The 10 bps figure is a low-end estimate based on the institutional-only model and comparable tokenized-T-bill platforms (8-20 bps). Tether (USDT) is a known counterparty for treasury management. Actual economics vary by maturity and counterparty."
+    }
+  },
+  "roles": [
+    {
+      "organization": "pv0-cayman-ltd",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://pv0.one/"
+      ]
+    },
+    {
+      "organization": "pv01-holdings-ltd-uk",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://pv0.one/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    },
+    {
+      "kind": "attestation",
+      "note": "Per-issuance + monthly"
+    }
+  ]
+}

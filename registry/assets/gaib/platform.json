@@ -1,0 +1,60 @@
+{
+  "identity": {
+    "slug": "gaib",
+    "name": "GAIB",
+    "legacyPid": 37,
+    "protocolSlug": "gaib"
+  },
+  "about": {
+    "description": "GAIB is a governance and incentive token for its protocol ecosystem, enabling community decision-making and participation in protocol economics. It aligns stakeholder interests through tokenized governance.",
+    "logo": "https://icons.llamao.fi/icons/rwa/gaib.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://gaib.ai"
+      ],
+      "twitter": "https://x.com/gaib_ai",
+      "docs": "https://docs.gaib.ai/",
+      "linkedin": "https://www.linkedin.com/company/gaibofficial",
+      "discord": "https://discord.gg/gaib",
+      "telegram": "https://t.me/GAIB_AI",
+      "github": "https://github.com/gaib-ai",
+      "refLinks": [
+        "https://aid.gaib.ai/spice?ref=4A3909EB"
+      ]
+    },
+    "registryInfo": "GAIB (Gainz AI / Bond) is a tokenized AI-compute-infrastructure platform — issues tokens representing fractional ownership of GPU and AI-data-center compute capacity. Backed by Hack VC, Faction VC."
+  },
+  "platform": {
+    "category": [
+      "governance-tokens",
+      "other-rwas"
+    ],
+    "platformType": [
+      "governance-token"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "parentPlatform": "gaib",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Compute Revenue Share",
+      "revenueConfidence": "no-public-data",
+      "feeLastVerified": "2026-05-11",
+      "revenueNotes": "GAIB takes a structuring + ongoing servicing fee on each tokenized compute deployment, plus a performance fee on compute-rental net yield distributed to token holders."
+    }
+  },
+  "roles": [
+    {
+      "organization": "good-ai-pte-ltd",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://gaib.ai"
+      ]
+    }
+  ]
+}

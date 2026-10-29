@@ -1,0 +1,55 @@
+{
+  "identity": {
+    "slug": "crypto-com",
+    "name": "Crypto.com",
+    "legacyPid": 325,
+    "protocolSlug": "crypto-com"
+  },
+  "about": {
+    "description": "Crypto.com is a Singapore-headquartered crypto platform founded in Hong Kong in 2016 as Monaco by Kris Marszalek, Rafael Melo, Gary Or and Bobby Bao, and rebranded Crypto.com in July 2018 after acquiring the domain. Marszalek remains CEO. Its global derivatives venue, Crypto.com Exchange, moved into RWA perps in 2026, launching commodity and US index perpetuals in April, institutional pre-IPO perpetuals referencing OpenAI, Anthropic and SpaceX valuations in mid May, and equity perpetuals on Tesla, NVIDIA, Apple and other large caps in late May, building a book of roughly 90 contracts flagged in its API as EQUITY, EQUITY_IND, COMMODITIES and PRE_IPO. Contracts are margined in USD-based collateral with periodic funding that adjusts outside underlying market hours plus price stability controls when reference markets are closed, and leverage runs up to 10x on equities and 20x on gold per the launch announcements. Cross margin access is described for eligible non-retail participants, and the pre-IPO perpetuals are limited to eligible institutional clients on request. The global Exchange operates under terms published by Foris DAX Limited, separate from the group's CFTC-regulated US derivatives arm.",
+    "logo": "https://icons.llamao.fi/icons/rwa/crypto-com.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://crypto.com"
+      ],
+      "twitter": "https://x.com/cryptocom",
+      "docs": "https://exchange-developer.crypto.com/exchange/v1/",
+      "linkedin": "https://www.linkedin.com/company/cryptocom",
+      "discord": "https://discord.gg/cryptocom"
+    },
+    "foundedYear": 2016,
+    "headquarters": "Singapore",
+    "founders": "Kris Marszalek (Co-founder, CEO), Rafael Melo (Co-founder, CFO), Gary Or (Co-founder), Bobby Bao (Co-founder)",
+    "regulatoryStatus": "Crypto.com holds one of the broadest license stacks among global exchanges, although the global derivatives venue itself operates under Foris DAX Limited exchange terms rather than a securities license. Foris DAX MT Limited received a MiCA CASP authorization from the Malta MFSA in January 2025, and the group also holds a Major Payment Institution license in Singapore, a deemed-license virtual asset trading platform status in Hong Kong, and registrations across the Americas, Europe, the Middle East and Asia-Pacific. In the US, North American Derivatives Exchange Inc., acquired from IG Group and operating as Crypto.com Derivatives North America, is a CFTC-designated contract market and derivatives clearing organization, joined by Foris DAX FCM LLC as a futures commission merchant in what the company called a full CFTC derivatives license stack in September 2025. The SEC issued Crypto.com a Wells notice in August 2024, the company sued the agency that October, withdrew the suit in December 2024, and the SEC closed the investigation with no action in March 2025.",
+    "keyMilestones": "2016: Founded as Monaco in Hong Kong | 2018-07: Rebranded to Crypto.com | 2021-12: Agreed to acquire CFTC-regulated Nadex and the Small Exchange from IG Group for $216M | 2025-01: Foris DAX MT Limited receives MiCA CASP license from Malta MFSA | 2025-09: Completes full CFTC derivatives license stack including FCM approval | 2026-04: Commodity and US index perpetual contracts launch on Crypto.com Exchange | 2026-05: Institutional-only pre-IPO perpetuals on OpenAI, Anthropic and SpaceX launch mid month, followed by equity perpetuals in late May",
+    "entityStructureNotes": "Foris DAX Limited publishes the global Crypto.com Exchange terms, which are governed by Hong Kong law, with the entity's domicile not stated in the terms. Foris DAX MT Limited (Malta) is the MiCA-licensed EEA entity. Foris DAX Inc. and Foris Inc. serve US app users. North American Derivatives Exchange Inc., d/b/a Crypto.com Derivatives North America (Chicago), holds the CFTC DCM and DCO licenses, and Foris DAX FCM LLC holds the FCM license per NFA records. Foris DAX Asia (Singapore) holds the MAS Major Payment Institution license."
+  },
+  "platform": {
+    "category": [
+      "rwa-perps"
+    ],
+    "platformType": [
+      "perp-venue"
+    ],
+    "accessModel": "permissioned",
+    "marginSettlementAsset": "USD-stablecoin",
+    "parentPlatform": "crypto-com",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Perp Maker/Taker Fees",
+      "issuerDocsUrl": "https://crypto.com/exchange/document/fees-limits",
+      "governanceWhitepaperUrl": "https://static2.crypto.com/exchange/assets/documents/tnc.pdf",
+      "revenueConfidence": "issuer-disclosed",
+      "feeLastVerified": "2026-07-30",
+      "revenueNotes": "Explicit product_type API taxonomy. Pre-IPO perps restricted to institutional participants."
+    }
+  },
+  "roles": [
+    {
+      "organization": "foris-dax-limited-publisher-of-the-crypto-com-exchange-terms-and-conditions",
+      "kind": "issuer"
+    }
+  ]
+}

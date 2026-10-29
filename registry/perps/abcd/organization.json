@@ -1,0 +1,68 @@
+{
+  "identity": {
+    "slug": "abcd",
+    "name": "ABCD",
+    "legacyPid": 241,
+    "protocolSlug": "abcd"
+  },
+  "about": {
+    "description": "ABCD is a licensed HIP-3 perpetual venue on Hyperliquid operated by trade[XYZ] (the Hyperunit team), featuring the first officially S&P-licensed equity-index perpetual on a decentralized exchange. Announced on March 18, 2026, the deployment lets eligible non-US investors gain leveraged 24/7 exposure to the S&P 500® via cash-settled perpetual contracts margined in USDC. Markets appear under the abcd namespace on Hyperliquid and use real-time data feeds from S&P Dow Jones Indices.",
+    "logo": "https://icons.llamao.fi/icons/rwa/abcd.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://trade.xyz/"
+      ],
+      "twitter": "https://x.com/tradexyz",
+      "docs": "https://docs.trade.xyz/",
+      "linkedin": "https://www.linkedin.com/company/hyperunit",
+      "discord": "https://discord.gg/tradexyz",
+      "telegram": "https://t.me/tradexyz",
+      "github": "https://github.com/tradexyz"
+    },
+    "registryInfo": "ABCD is a HIP-3 deployment operated by trade[XYZ] (Hyperunit team) and was the first decentralized exchange to receive an official S&P Dow Jones Indices license to offer S&P 500® perpetual contracts (announced March 18, 2026). Markets appear under the abcd namespace on Hyperliquid and use real-time data sourced from S&P Dow Jones Indices."
+  },
+  "platform": {
+    "category": [
+      "rwa-perps"
+    ],
+    "platformType": [
+      "perp-venue"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "hyperliquid",
+    "chains": [
+      "hyperliquid"
+    ],
+    "attestationFrequency": "N/A (Perp Venue)",
+    "marginSettlementAsset": "USDC (Hyperliquid)",
+    "parentPlatform": "abcd",
+    "suspicious": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Maker/Taker Fees + Funding Skim",
+      "revenueConfidence": "issuer-disclosed",
+      "feeLastVerified": "2026-05-11",
+      "revenueNotes": "ABCD is a HIP-3 namespace operated by trade[XYZ] on Hyperliquid (first decentralized S&P 500 perp). Fees follow HIP-3 framework: standard taker ~7-9 bps, Growth Mode taker ~0.45-0.9 bps. 50% of fees go to the trade[XYZ] deployer, 50% to Hyperliquid protocol. Source: https://hyperliquid.gitbook.io/hyperliquid-docs/hyperliquid-improvement-proposals-hips/hip-3-builder-deployed-perpetuals"
+    }
+  },
+  "roles": [
+    {
+      "organization": "hyperunit-trade-xyz",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://press.spglobal.com/2026-03-18-S-P-Dow-Jones-Indices-Licenses-S-P-500-R-to-Trade-XYZ-for-Perpetual-Contracts-on-Hyperliquid"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    },
+    {
+      "kind": "attestation",
+      "note": "N/A (Perp Venue)"
+    }
+  ]
+}

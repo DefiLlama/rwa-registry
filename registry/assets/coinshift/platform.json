@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "slug": "coinshift",
+    "name": "Coinshift",
+    "legacyPid": 281
+  },
+  "about": {
+    "logo": "https://icons.llamao.fi/icons/rwa/coinshift.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://coinshift.xyz"
+      ],
+      "twitter": "https://x.com/0xCoinshift"
+    }
+  },
+  "platform": {
+    "category": [
+      "bond-mmf-funds"
+    ],
+    "primaryChain": "ethereum",
+    "delisted": false
+  }
+}

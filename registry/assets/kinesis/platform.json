@@ -1,0 +1,64 @@
+{
+  "identity": {
+    "slug": "kinesis",
+    "name": "Kinesis",
+    "legacyPid": 94
+  },
+  "about": {
+    "description": "Kinesis provides tokenized access to physical commodities and precious metals through blockchain infrastructure. It enables fractional ownership and efficient settlement of commodity positions.",
+    "logo": "https://icons.llamao.fi/icons/rwa/kinesis.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://kinesis.money/gold"
+      ],
+      "twitter": "https://x.com/KinesisMonetary",
+      "docs": "https://kinesis.money/",
+      "linkedin": "https://www.linkedin.com/company/kinesismoney",
+      "discord": "https://discord.gg/kinesismoney",
+      "telegram": "https://t.me/kinesismoney",
+      "github": "N/A (closed source)"
+    },
+    "registryInfo": "Kinesis Money (UK; ABX Group / Allocated Bullion Exchange parent). Operates the Kinesis Monetary System with KAU (gold) and KAG (silver) physically-backed tokens. Founded 2018. Backed by direct purchase agreements with refiners; 1:1 allocated physical bullion in vaults across the UK, US, Singapore, Switzerland."
+  },
+  "platform": {
+    "category": [
+      "gold-commodities"
+    ],
+    "platformType": [
+      "gold"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": null,
+    "chains": [],
+    "attestationFrequency": "Monthly",
+    "parentPlatform": "kinesis",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Transaction Fee + Storage",
+      "assetManagerTakeBps": 0,
+      "mintFeeBps": 45,
+      "redemptionFeeBps": 45,
+      "floatIncome": false,
+      "revenueConfidence": "issuer-disclosed",
+      "feeLastVerified": "2026-05-11",
+      "revenueNotes": "Kinesis fee schedule: 45 bps for blockchain mint/transfer and currency transfers (KAU/KAG between accounts), 22 bps for trades on Kinesis Exchange, 22 bps for Kinesis Pay spending transactions. NO storage fees — vaulting costs covered by a share of transaction-fee revenue (via partnership with ABX). 57.5% of all platform fees redistributed monthly to users as gold/silver-denominated yields. Source: https://kinesis.money/about-us/fees/"
+    }
+  },
+  "roles": [
+    {
+      "organization": "kinesis-cayman",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://kinesis.money/gold"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "Monthly proof of reserves"
+    }
+  ]
+}

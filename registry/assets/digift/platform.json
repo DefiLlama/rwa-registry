@@ -1,0 +1,67 @@
+{
+  "identity": {
+    "slug": "digift",
+    "name": "DigiFT",
+    "legacyPid": 71,
+    "protocolSlug": "digift"
+  },
+  "about": {
+    "description": "DigiFT is a MAS-licensed digital securities exchange (Recognised Market Operator + Capital Markets Services license) operating out of Singapore, founded in 2021 by Henry Zhang. The platform offers secondary trading and primary issuance of tokenized securities — including tokenized US Treasury funds, structured notes, and corporate bonds — to accredited and institutional investors. DigiFT differentiates from other RWA platforms by holding direct exchange licensing in a Tier-1 jurisdiction (Singapore), enabling on-venue trading with regulatory clarity. Issuers using DigiFT include UBS (tokenized MMF) and Invesco (tokenized money market). Trades settle on-chain in stablecoins or fiat.",
+    "logo": "https://icons.llamao.fi/icons/rwa/digift.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://digift.io"
+      ],
+      "twitter": "https://x.com/DigiFTTech",
+      "docs": "https://docs.digift.sg/",
+      "linkedin": "https://www.linkedin.com/company/digift"
+    },
+    "registryInfo": "DigiFT Tech (Singapore) Pte. Ltd. is a Singapore-based digital securities exchange operator. It holds a Recognised Market Operator (RMO) license and a Capital Markets Services (CMS) license from the Monetary Authority of Singapore (MAS), making it one of the first MAS-regulated on-chain RWA trading venues. Founded 2021 by Henry Zhang (CEO) and the DigiFT team. Backed by Shanghai Pudong Development Bank International, HashKey Capital, and others. UEN: 202109302K. Headquartered in Singapore."
+  },
+  "platform": {
+    "category": [
+      "bond-mmf-funds"
+    ],
+    "platformType": [
+      "lending-venue"
+    ],
+    "accessModel": "permissioned",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "attestationFrequency": "N/A (Lending Venue)",
+    "parentPlatform": "digift",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Trading Fee",
+      "holderTotalFeeBps": 20,
+      "assetManagerTakeBps": 0,
+      "tokenizationPlatformTakeBps": 20,
+      "mintFeeBps": 10,
+      "redemptionFeeBps": 10,
+      "floatIncome": false,
+      "issuerDocsUrl": "https://docs.digift.sg/",
+      "revenueConfidence": "reasoned-estimate",
+      "feeLastVerified": "2026-05-10",
+      "revenueNotes": "DigiFT operates as a MAS-licensed exchange. Trading/tokenization fees are charged to issuers and traders rather than as MMF mgmt fees. The 10/10 bps mint/redeem figures are placeholders representing typical exchange-side fees; actual schedule is bespoke per issuer agreement and not publicly disclosed. Underlying products (UBS MMF, Invesco MMF) carry their own mgmt fees separately."
+    }
+  },
+  "roles": [
+    {
+      "organization": "digift-tech-singapore-pte-ltd",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://digift.io"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "N/A (Lending Venue)"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "identity": {
+    "slug": "redswan-digital-real-estate",
+    "name": "RedSwan Digital Real Estate",
+    "legacyPid": 211
+  },
+  "about": {
+    "description": "RedSwan Digital Real Estate enables fractional ownership and trading of real estate assets through tokenization. It provides institutional-grade real estate exposure via blockchain infrastructure.",
+    "logo": "https://icons.llamao.fi/icons/rwa/redswan-digital-real-estate.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://redswan.io/"
+      ],
+      "twitter": "https://x.com/RedSwanDigital",
+      "docs": "https://www.redswan.io/",
+      "linkedin": "https://www.linkedin.com/company/redswan-cre",
+      "discord": "N/A (institutional)",
+      "telegram": "N/A (institutional)",
+      "github": "N/A (closed source)"
+    },
+    "registryInfo": "RedSwan CRE Digital Securities, Inc. (Texas, US). Real-estate tokenization platform launched 2018 by Edward Nwokedi. Specializes in commercial-real-estate (CRE) tokenization, partnering with Hedera Hashgraph for the underlying ledger."
+  },
+  "platform": {
+    "category": [
+      "real-estate"
+    ],
+    "platformType": [
+      "single-property"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "stellar",
+    "chains": [
+      "stellar"
+    ],
+    "attestationFrequency": "Quarterly",
+    "parentPlatform": "redswan-digital-real-estate",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Origination + Servicing Fee",
+      "revenueConfidence": "no-public-data",
+      "feeLastVerified": "2026-05-11",
+      "revenueNotes": "RedSwan earns origination fees on each tokenized CRE deal + ongoing property-management/servicing fees from underlying property operators."
+    }
+  },
+  "roles": [
+    {
+      "organization": "redswan-digital-real-estate",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://redswan.io/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "Quarterly investor reports"
+    }
+  ]
+}

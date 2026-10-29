@@ -1,0 +1,56 @@
+{
+  "identity": {
+    "slug": "domora",
+    "name": "Domora",
+    "legacyPid": 142
+  },
+  "about": {
+    "description": "Domora is a blockchain-based platform providing infrastructure for tokenization and on-chain financial services. It enables users to access and trade diverse digital assets through decentralized protocols.",
+    "logo": "https://icons.llamao.fi/icons/rwa/domora.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.domora.com/"
+      ],
+      "twitter": "https://x.com/domoracom",
+      "docs": "https://www.domora.io/",
+      "linkedin": "https://www.linkedin.com/company/domora-realty"
+    }
+  },
+  "platform": {
+    "category": [
+      "other-rwas"
+    ],
+    "platformType": [
+      "domain-venue"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "base",
+    "chains": [
+      "base"
+    ],
+    "attestationFrequency": "N/A (Domain Venue)",
+    "parentPlatform": "domora",
+    "suspicious": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "freename-ag",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.domora.com/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    },
+    {
+      "kind": "attestation",
+      "note": "N/A (Domain Venue)"
+    }
+  ]
+}

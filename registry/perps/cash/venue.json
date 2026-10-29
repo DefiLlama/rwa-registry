@@ -1,0 +1,25 @@
+{
+  "slug": "cash",
+  "organization": "cash",
+  "parent": "hyperliquid",
+  "venueType": "dex",
+  "chain": "hyperliquid",
+  "adapter": "hyperliquid",
+  "published": true,
+  "oracleProvider": "Pyth + SEDA 24/5 equity feed",
+  "accessModel": "permissionless",
+  "rwaClassification": "programmable-finance",
+  "conventionNote": "Funding is paid hourly between traders with about 5.5% a year by default and an off-hours cap, most markets ran in HIP-3 growth mode at 0.3 bps maker and 0.9 bps taker, and Dreamcash added a builder fee of 2.5 bps on web and 4.5 bps in the app.",
+  "website": "https://www.dreamcash.xyz/",
+  "issuer": "Dreamcash",
+  "marginAsset": "USDT",
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ],
+  "makerFeeBps": 0.3,
+  "takerFeeBps": 0.9
+}

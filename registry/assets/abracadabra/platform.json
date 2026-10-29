@@ -1,0 +1,44 @@
+{
+  "identity": {
+    "slug": "abracadabra",
+    "name": "Abracadabra",
+    "legacyPid": 186
+  },
+  "about": {
+    "description": "Abracadabra offers a stablecoin backed by real-world assets and Treasury securities, combining yield generation with price stability. It enables institutional-grade stable settlement with underlying RWA collateral.",
+    "logo": "https://icons.llamao.fi/icons/rwa/abracadabra.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://abracadabra.money/"
+      ],
+      "twitter": "https://x.com/AbracadabraMoney",
+      "docs": "https://abracadabra.money/"
+    }
+  },
+  "platform": {
+    "category": [
+      "non-rwa-stablecoins"
+    ],
+    "platformType": [
+      "crypto-stable"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "parentPlatform": "abracadabra",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "abracadabra-money",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://abracadabra.money/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "identity": {
+    "slug": "backpack",
+    "name": "Backpack",
+    "legacyPid": 295
+  },
+  "about": {
+    "description": "Backpack is a crypto exchange that expanded into tokenized equities through its brokerage arm Backpack Securities. Its SPCX token on Solana is backed one for one by SpaceX shares held in a US broker dealer account and launched the same day as the SpaceX Nasdaq listing in June 2026 with issuance infrastructure from Sunrise. Holders can redeem tokens for the underlying shares through traditional brokerage rails.",
+    "logo": "https://icons.llamao.fi/icons/rwa/backpack.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://backpack.exchange/"
+      ],
+      "twitter": "https://x.com/Backpack",
+      "docs": "https://docs.backpack.exchange/"
+    }
+  },
+  "platform": {
+    "category": [
+      "stocks-equities"
+    ],
+    "primaryChain": "solana",
+    "chains": [
+      "solana"
+    ],
+    "suspicious": false,
+    "delisted": false,
+    "fees": {
+      "revenueModel": "Maker/Taker Fees",
+      "revenueConfidence": "no-public-data",
+      "feeLastVerified": "2026-07-02"
+    }
+  },
+  "roles": [
+    {
+      "organization": "backpack-securities-trek-labs-group",
+      "kind": "issuer"
+    }
+  ]
+}

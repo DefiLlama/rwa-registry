@@ -1,0 +1,63 @@
+{
+  "identity": {
+    "slug": "cash",
+    "name": "CASH",
+    "legacyPid": 249,
+    "protocolSlug": "dreamcash"
+  },
+  "about": {
+    "description": "CASH is Dreamcash's third-party perpetual venue on Hyperliquid, operated by Supreme Liquid Labs and strategically backed by Tether and Selini Capital. The platform offers AI-enhanced trading on equity, ETF, equity-index, and commodity perpetual markets, all margined and cash-settled in USDT0 with up to 40× leverage. Markets appear under the cash namespace on Hyperliquid via HIP-3 builder-deployed perpetuals; the front-end is a self-custodial mobile/web app that abstracts the on-chain experience while keeping settlement transparent.",
+    "logo": "https://icons.llamao.fi/icons/rwa/cash.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.dreamcash.xyz/"
+      ],
+      "twitter": "https://x.com/Dreamcash",
+      "docs": "https://docs.dreamcash.xyz/",
+      "linkedin": "https://www.linkedin.com/company/dreamcash",
+      "discord": "https://discord.gg/dreamcash",
+      "telegram": "https://t.me/dreamcash"
+    },
+    "registryInfo": "Dreamcash is operated by Supreme Liquid Labs. Tether (USDT0 issuer) holds a strategic investment alongside Selini Capital, with both backing the rollout of USDT0-collateralized RWA perpetual markets on Hyperliquid. Markets are deployed under the cash namespace via Hyperliquid HIP-3."
+  },
+  "platform": {
+    "category": [
+      "rwa-perps"
+    ],
+    "platformType": [
+      "perp-venue"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "hyperliquid",
+    "chains": [
+      "hyperliquid"
+    ],
+    "attestationFrequency": "N/A (Perp Venue)",
+    "marginSettlementAsset": "USDT0 (Hyperliquid)",
+    "parentPlatform": "cash",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Float Income",
+      "revenueConfidence": "no-public-data",
+      "feeLastVerified": "2026-05-11",
+      "revenueNotes": "CASH (issued by Bridge Building Inc., a Bridge.xyz subsidiary) is a USD-backed stablecoin maintained 1:1 with USD reserves. Revenue from float income on USD reserves invested in short-duration treasuries and bank deposits (similar to USDC model). Used as the stablecoin rail for Dreamcash equity-perp deployer markets."
+    }
+  },
+  "roles": [
+    {
+      "organization": "supreme-liquid-labs-dreamcash",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.dreamcash.xyz/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "N/A (Perp Venue)"
+    }
+  ]
+}

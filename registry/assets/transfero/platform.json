@@ -1,0 +1,54 @@
+{
+  "identity": {
+    "slug": "transfero",
+    "name": "Transfero",
+    "legacyPid": 177
+  },
+  "about": {
+    "description": "Transfero issues a fiat-backed stablecoin maintained at parity with its reference currency through reserve backing and redemption mechanisms. It enables fast, low-cost settlement of stablecoin transactions.",
+    "logo": "https://icons.llamao.fi/icons/rwa/transfero.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.transfero.com/stablecoins"
+      ],
+      "twitter": "https://x.com/transferogroup"
+    },
+    "foundedYear": 2017,
+    "headquarters": "Rio de Janeiro, Brazil",
+    "founders": "Claudio Just (CEO since 2025, Co-Founder), Marlyson Silva (Chairman, Group President, Co-Founder), Guilherme Murtinho (VP Europe and Asia, Co-Founder)",
+    "regulatoryStatus": "Transfero Swiss AG of Zug is a Swiss financial intermediary and VASP member of VQF, a FINMA recognized self regulatory organisation. In Brazil, Transfero Instituicao de Pagamento Ltda. was authorized by Banco Central do Brasil as a payment institution in the electronic money issuer modality in August 2023. Authorization under the new Brazilian SPSAV virtual asset regime effective February 2026 is pending or unknown.",
+    "keyMilestones": "2025-08: Claudio Just announced as group CEO | 2024-12: acquisition of Web3 VC manager Fuse Capital announced | 2023-08: Banco Central do Brasil payment institution authorization | 2019-07: BRZ, the first Brazilian real stablecoin, launched | 2017-07: Transfero Swiss AG incorporated in Zug",
+    "entityStructureNotes": "The group has a Swiss parent, Transfero Swiss AG in Zug, with operations headquartered in Rio de Janeiro. Brazilian entities include the central bank authorized payment institution, and the BRZ whitepaper assigns the token mint role to Transfero Asset Management Ltd in the Bahamas with reserves held by separate reserve managers."
+  },
+  "platform": {
+    "category": [
+      "fiat-stablecoins"
+    ],
+    "platformType": [
+      "other-fiat-stable"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "parentPlatform": "transfero",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueConfidence": "no-public-data",
+      "feeLastVerified": "2026-07-09",
+      "revenueNotes": "No public mint or redemption fee schedule exists for BRZ and float income retention is not disclosed."
+    }
+  },
+  "roles": [
+    {
+      "organization": "transfero",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.transfero.com/stablecoins"
+      ]
+    }
+  ]
+}

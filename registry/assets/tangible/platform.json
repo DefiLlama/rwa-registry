@@ -1,0 +1,48 @@
+{
+  "identity": {
+    "slug": "tangible",
+    "name": "Tangible",
+    "legacyPid": 60,
+    "protocolSlug": "tangible"
+  },
+  "about": {
+    "description": "Tangible enables fractional ownership and trading of real estate assets through tokenization. It provides institutional-grade real estate exposure via blockchain infrastructure.",
+    "logo": "https://icons.llamao.fi/icons/rwa/tangible.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://tangible.store"
+      ],
+      "twitter": "https://x.com/tangibleDAO",
+      "docs": "https://docs.tangible.store/",
+      "linkedin": "https://www.linkedin.com/company/tangible-store"
+    }
+  },
+  "platform": {
+    "category": [
+      "governance-tokens",
+      "real-estate",
+      "other-rwas"
+    ],
+    "platformType": [
+      "revenue-share"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "polygon",
+    "chains": [
+      "polygon"
+    ],
+    "parentPlatform": "tangible",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "tangible",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://tangible.store"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "gate",
+  "organization": "gate",
+  "venueType": "cex",
+  "adapter": "gate",
+  "published": true,
+  "makerFeeBps": 2,
+  "takerFeeBps": 5,
+  "oracleProvider": "Gate index, NASDAQ and NYSE direct plus iTick, Massive, peer perps",
+  "accessModel": "permissioned",
+  "rwaClassification": "programmable-finance",
+  "conventionNote": "Funding settles every 8 hours on most markets (every 4 hours on 13 and every hour on 1, per the contract funding_interval), and the fee is the VIP 0 USDT-M rate.",
+  "website": "https://www.gate.com",
+  "issuer": "Gate",
+  "marginAsset": "USDT"
+}

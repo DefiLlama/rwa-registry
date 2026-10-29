@@ -1,0 +1,45 @@
+{
+  "identity": {
+    "slug": "maseer-finance",
+    "name": "Maseer Finance",
+    "legacyPid": 1
+  },
+  "about": {
+    "description": "Maseer Finance is a carbon credit tokenization platform enabling fractional ownership and trading of environmental commodities. It bridges voluntary and compliance carbon markets through blockchain infrastructure.",
+    "logo": "https://icons.llamao.fi/icons/rwa/maseer-finance.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://maseer.finance/"
+      ],
+      "twitter": "https://x.com/defimaseer",
+      "docs": "https://docs.maseer.com/",
+      "linkedin": "https://www.linkedin.com/company/maseer-finance"
+    }
+  },
+  "platform": {
+    "category": [
+      "carbon-environment"
+    ],
+    "platformType": [
+      "carbon-credit"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "parentPlatform": "maseer-finance",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "cana-holdings",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://maseer.finance/"
+      ]
+    }
+  ]
+}

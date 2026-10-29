@@ -1,0 +1,42 @@
+{
+  "identity": {
+    "slug": "finloop",
+    "name": "Finloop",
+    "legacyPid": 300
+  },
+  "about": {
+    "description": "Finloop is a Hong Kong based wealth technology platform incubated by Fosun Wealth Holdings that operates the FinRWA Platform for compliant tokenization and distribution of investment products. Its FUIDL tokens give professional investors onchain access to a AAA rated USD money market fund with same day subscription and redemption. Distribution runs through licensed venues including EX.IO in Hong Kong and CapBridge and 1exchange in Singapore.",
+    "logo": "https://icons.llamao.fi/icons/rwa/finloop.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.finlooprwa.com/"
+      ],
+      "twitter": "https://x.com/FinloopHK"
+    }
+  },
+  "platform": {
+    "category": [
+      "bond-mmf-funds"
+    ],
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum",
+      "solana"
+    ],
+    "suspicious": false,
+    "delisted": false,
+    "fees": {
+      "revenueModel": "Mint/Redeem Fees plus underlying fund fees",
+      "revenueConfidence": "issuer-disclosed",
+      "feeLastVerified": "2026-07-02",
+      "feeWaiverEndDate": null,
+      "revenueNotes": "A launch promotion currently waives subscription and redemption fees. The waiver end date is unknown and promotional."
+    }
+  },
+  "roles": [
+    {
+      "organization": "fosun-hani-global-limited-hk",
+      "kind": "issuer"
+    }
+  ]
+}

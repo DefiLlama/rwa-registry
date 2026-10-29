@@ -1,0 +1,53 @@
+{
+  "identity": {
+    "slug": "landx-finance",
+    "name": "LandX Finance",
+    "legacyPid": 43
+  },
+  "about": {
+    "description": "LandX Finance enables fractional ownership and trading of real estate assets through tokenization. It provides institutional-grade real estate exposure via blockchain infrastructure.",
+    "logo": "https://icons.llamao.fi/icons/rwa/landx-finance.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://landx.fi"
+      ],
+      "twitter": "https://x.com/landxfinance",
+      "docs": "https://docs.landx.fi/",
+      "linkedin": "https://www.linkedin.com/company/landxfinance"
+    },
+    "registryInfo": "LandX Finance (BVI / Cayman). Tokenized agricultural-yield protocol launched 2023. Issues commodity-yield tokens (xCORN, xSOY, xWHEAT, xRICE, etc.) representing perpetual cashflows from real farmland production. LNDX governance token."
+  },
+  "platform": {
+    "category": [
+      "governance-tokens",
+      "real-estate"
+    ],
+    "platformType": [
+      "governance-token"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "parentPlatform": "landx-finance",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Origination + Performance Fee",
+      "revenueConfidence": "no-public-data",
+      "feeLastVerified": "2026-05-11",
+      "revenueNotes": "LandX earns origination spreads on the perpetual-yield contracts and protocol fees on conversion (xCROP → cash). LNDX captures protocol fees via staking/buyback."
+    }
+  },
+  "roles": [
+    {
+      "organization": "landx-labs-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://landx.fi"
+      ]
+    }
+  ]
+}

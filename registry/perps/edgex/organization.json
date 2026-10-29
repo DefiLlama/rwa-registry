@@ -1,0 +1,66 @@
+{
+  "identity": {
+    "slug": "edgex",
+    "name": "edgeX",
+    "legacyPid": 247,
+    "protocolSlug": "edgex"
+  },
+  "about": {
+    "description": "edgeX is a high-performance perpetual contract DEX incubated by Amber Group, with its MVP launched in July 2024 on StarkEx. The order-book engine targets CEX-grade execution with up to 200K TPS and ZK-proven settlement; users self-custody assets while accessing up to 100× leverage on BTC pairs across multichain support spanning 70+ chains. Markets cover equities, equity indices, commodities, and crypto, with positions margined and cash-settled in USDC. edgeX is migrating to its own dedicated EDGE Chain L2 in conjunction with its March 31, 2026 EDGE Token Generation Event (1B EDGE total supply, 25% allocated to airdrops).",
+    "logo": "https://icons.llamao.fi/icons/rwa/edgex.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.edgex.exchange/"
+      ],
+      "twitter": "https://x.com/edgeX_exchange",
+      "docs": "https://edgex-1.gitbook.io/edgeX-documentation",
+      "linkedin": "https://www.linkedin.com/company/edgex-exchange",
+      "discord": "https://discord.gg/edgex",
+      "telegram": "https://t.me/edgexofficial",
+      "refLinks": [
+        "https://pro.edgex.exchange/referral/196451583"
+      ]
+    },
+    "registryInfo": "edgeX is a high-performance perpetual DEX incubated by Amber Group (a leading global digital-asset trading firm). The MVP (edgeX V1) launched in July 2024 on StarkEx; the protocol is transitioning to its own dedicated EDGE Chain L2 and conducted its EDGE Token Generation Event on March 31, 2026, with 25% of the 1B EDGE supply allocated to airdrops."
+  },
+  "platform": {
+    "category": [
+      "rwa-perps"
+    ],
+    "platformType": [
+      "perp-venue"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "attestationFrequency": "N/A (Perp Venue)",
+    "marginSettlementAsset": "USDC (StarkEx → EDGE Chain)",
+    "parentPlatform": "edgex",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Maker/Taker Fees",
+      "revenueConfidence": "issuer-disclosed",
+      "feeLastVerified": "2026-05-11",
+      "revenueNotes": "edgeX base fees (non-VIP): 1.2 bps maker / 3.8 bps taker. VIP tiers based on 30-day rolling volume reduce fees down to 0 bps maker / 2.4 bps taker at VIP 6 ($2B+ volume). Hourly funding fees apply between longs and shorts. Same schedule applies to crypto and RWA markets. Source: https://edgex-1.gitbook.io/edgeX-documentation/trading/trading-fees"
+    }
+  },
+  "roles": [
+    {
+      "organization": "edgex-incubated-by-amber-group",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.edgex.exchange/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "N/A (Perp Venue)"
+    }
+  ]
+}

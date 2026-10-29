@@ -1,0 +1,17 @@
+{
+  "slug": "gmtrade",
+  "organization": "gmtrade",
+  "venueType": "dex",
+  "chain": "solana",
+  "adapter": "gmtrade",
+  "published": true,
+  "oracleProvider": "Pyth",
+  "accessModel": "permissionless",
+  "rwaClassification": "programmable-finance",
+  "website": "https://gmtrade.xyz/",
+  "issuer": "GMTrade",
+  "marginAsset": "USDC",
+  "makerFeeBps": 2,
+  "takerFeeBps": 2.4,
+  "conventionNote": "GMTrade charges an open and close fee by pool balance instead of maker and taker: makerFeeBps holds the rate for a trade that improves the long and short balance (2.0 bps, FX 1.0) and takerFeeBps the rate for one that worsens it (2.4 bps, FX 1.2); funding adapts to that balance with no fixed interval, and borrowing fees rise on both sides while the market is closed."
+}

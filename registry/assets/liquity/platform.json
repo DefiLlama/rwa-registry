@@ -1,0 +1,61 @@
+{
+  "identity": {
+    "slug": "liquity",
+    "name": "Liquity",
+    "legacyPid": 171
+  },
+  "about": {
+    "description": "Liquity is a decentralized borrowing protocol allowing users to mint LUSD stablecoin by locking Ether as collateral, with minimal governance and protocol fees. It enables efficient, trust-minimized access to leverage on crypto collateral.",
+    "logo": "https://icons.llamao.fi/icons/rwa/liquity.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.liquity.org/"
+      ],
+      "twitter": "https://x.com/LiquityProtocol",
+      "docs": "https://docs.liquity.org/",
+      "linkedin": "https://www.linkedin.com/company/liquityprotocol",
+      "discord": "https://discord.gg/liquity",
+      "telegram": "https://t.me/Liquity",
+      "github": "https://github.com/liquity"
+    },
+    "registryInfo": "Liquity Protocol (Liquity AG, Switzerland). Decentralized borrowing protocol issuing LUSD (V1) and BOLD (V2) stablecoins, both fully ETH/LST-collateralized. Founded 2020 by Robert Lauko & Rick Pardoe. LQTY governance token. Liquity V2 launched 2025 with multi-collateral and adaptive interest-rate model."
+  },
+  "platform": {
+    "category": [
+      "non-rwa-stablecoins"
+    ],
+    "platformType": [
+      "crypto-stable"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "attestationFrequency": "Continuous (on-chain)",
+    "parentPlatform": "liquity",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Borrow Fee + Liquidation Fee",
+      "revenueConfidence": "issuer-disclosed",
+      "revenueNotes": "Liquity V2 earns ongoing interest charges on collateralized debt (paid in BOLD), redemption fees, and liquidation premiums. Revenue distributed to LQTY stakers + BOLD-stability-pool depositors."
+    }
+  },
+  "roles": [
+    {
+      "organization": "liquity-protocol",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.liquity.org/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "Continuous (on-chain collateral)"
+    }
+  ]
+}

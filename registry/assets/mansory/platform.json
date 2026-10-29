@@ -1,0 +1,46 @@
+{
+  "identity": {
+    "slug": "mansory",
+    "name": "Mansory",
+    "legacyPid": 45
+  },
+  "about": {
+    "description": "Mansory is a governance and incentive token for its protocol ecosystem, enabling community decision-making and participation in protocol economics. It aligns stakeholder interests through tokenized governance.",
+    "logo": "https://icons.llamao.fi/icons/rwa/mansory.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://mansory.io"
+      ],
+      "twitter": "https://x.com/MANSORYofficial",
+      "docs": "https://www.mansorymotors.com/",
+      "linkedin": "https://www.linkedin.com/company/mansoryusa"
+    }
+  },
+  "platform": {
+    "category": [
+      "governance-tokens",
+      "other-rwas"
+    ],
+    "platformType": [
+      "governance-token"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "solana",
+    "chains": [
+      "solana"
+    ],
+    "parentPlatform": "mansory",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "mansory-auto-trading-ltd",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://mansory.io"
+      ]
+    }
+  ]
+}

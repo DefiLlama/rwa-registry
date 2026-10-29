@@ -1,0 +1,63 @@
+{
+  "identity": {
+    "slug": "usdi",
+    "name": "USDi",
+    "legacyPid": 314
+  },
+  "about": {
+    "description": "USDi is an inflation-indexed USD stablecoin issued by USDi Partners LLC, formed in mid-2024 and based in Basking Ridge, New Jersey. The ERC-20 token tracks the US Not-Seasonally-Adjusted CPI using the TIPS reference-CPI interpolation method against a base CPI of 315.605 (base date March 1, 2025), so each token preserves the purchasing power of a December 2024 dollar. Reserves are invested in the Enduring US Inflation Tracking Fund managed by Enduring Investments, with NAV calculated by independent administrator Trident Fund Services Inc; the issuer claims no securities or money-transmission licenses and no SEC filings for USDi Partners were located on EDGAR.",
+    "logo": "https://icons.llamao.fi/icons/rwa/usdi.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.usdicoin.com/"
+      ],
+      "twitter": "https://x.com/TheRealUSDi",
+      "docs": "https://www.usdicoin.com/whitepaper",
+      "telegram": "https://t.me/USDi_Coin"
+    },
+    "foundedYear": 2024,
+    "headquarters": "Basking Ridge, United States",
+    "founders": "Michael Ashton (Co-Founder), Andrew Fately (Co-Founder, Managing Partner), Roger Ramia (Co-Founder, Technical Lead)",
+    "regulatoryStatus": "No licenses or registrations disclosed; positioned in the whitepaper as a currency, not an investment vehicle. EDGAR full-text search returns no SEC filings for USDi Partners LLC (checked 2026-07). Direct fiat mints/burns above $1mm require KYC/AML with USDi Partners.",
+    "keyMilestones": "2024: USDi Partners LLC formed mid-2024 | 2025-03: base date Mar 1, 2025 - USDi value $1.000000 against base CPI 315.605 | 2025-04: public launch as ERC-20 on Ethereum; ConsenSys Diligence smart-contract audit published",
+    "entityStructureNotes": "Issuer: USDi Partners LLC, Basking Ridge, New Jersey. Reserves in the Enduring US Inflation Tracking Fund managed by Enduring Investments (Michael Ashton's firm): unlevered US Treasuries, TIPS, FX, commodity futures/options and cash. Administrator: Trident Fund Services Inc (monthly collateral attestation). Auditor contradiction between live sources: website FAQ names Cherry Bekaert LLC while the whitepaper names Spicer Jeffries LLP."
+  },
+  "platform": {
+    "category": [
+      "rwa-stablecoins"
+    ],
+    "platformType": [
+      "multi-asset-rwa-stable"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "suspicious": false,
+    "delisted": false,
+    "fees": {
+      "revenueModel": "Hybrid - small mint/burn transaction fee plus retention of reserve-fund return in excess of CPI accrual",
+      "floatIncome": true,
+      "tcsUrl": "https://www.usdicoin.com/disclaimer",
+      "revenueConfidence": "issuer-disclosed",
+      "feeLastVerified": "2026-07-20",
+      "revenueNotes": "Whitepaper discloses a very small transaction fee on public mint/burn (size not published) and that the backing fund has outperformed CPI by roughly 5-13bps per month net of fees; excess return over the CPI-indexed liability accrues to overcollateralization/the issuer. USDi pays no interest to holders. No attestation reports were locatable on the public website despite claims they are posted.",
+      "revenueVerificationMethod": "USDi whitepaper (IPFS via usdicoin.com), usdicoin.com FAQ and mint page, issuer press release 2025-04-15, SEC EDGAR full-text search"
+    }
+  },
+  "roles": [
+    {
+      "organization": "usdi-partners-llc",
+      "kind": "issuer"
+    },
+    {
+      "organization": "trident-fund-services",
+      "kind": "fund-administrator"
+    },
+    {
+      "organization": "usdi-partners-llc",
+      "kind": "oracle"
+    }
+  ]
+}

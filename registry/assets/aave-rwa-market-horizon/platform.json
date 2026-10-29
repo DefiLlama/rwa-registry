@@ -1,0 +1,59 @@
+{
+  "identity": {
+    "slug": "aave-rwa-market-horizon",
+    "name": "Aave RWA Market (Horizon)",
+    "parent": "aave",
+    "legacyPid": 259
+  },
+  "about": {
+    "description": "Horizon is Aave Labs’ dedicated RWA market designed for qualified participants and permissioned tokenized collateral. It enables institutions to post permissioned RWAs such as tokenized money market and fixed-income products as collateral and borrow widely used stablecoins, combining DeFi liquidity with issuer-level compliance controls. Retail users can typically participate on the liquidity side by supplying stablecoins to the market.",
+    "logo": "https://icons.llamao.fi/icons/rwa/aave-rwa-market-horizon.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://aave.com/docs/aave-v3/horizon"
+      ],
+      "docs": "https://docs.aave.com/",
+      "linkedin": "https://www.linkedin.com/company/aaveaave",
+      "discord": "https://discord.com/invite/aave",
+      "telegram": "https://t.me/Aavesome",
+      "github": "https://github.com/aave"
+    },
+    "registryInfo": "Cayman Islands exempt company registered with the General Registry (entity ID 398971), LEI 635400TRMDMOYGUYRZ27, legal address Walkers Corporate Limited, 190 Elgin Avenue, George Town, Grand Cayman, KY1-9008, Cayman Islands."
+  },
+  "platform": {
+    "category": [
+      "private-credit"
+    ],
+    "platformType": [
+      "lending-venue"
+    ],
+    "accessModel": "permissioned",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "parentPlatform": "aave",
+    "suspicious": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "aave-labs-ltd",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://lei.bloomberg.com/leis/view/635400TRMDMOYGUYRZ27"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    },
+    {
+      "kind": "attestation",
+      "note": "N/A (lending protocol)"
+    }
+  ]
+}

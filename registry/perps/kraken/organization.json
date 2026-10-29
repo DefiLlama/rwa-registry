@@ -1,0 +1,55 @@
+{
+  "identity": {
+    "slug": "kraken",
+    "name": "Kraken",
+    "legacyPid": 329
+  },
+  "about": {
+    "description": "Kraken is one of the longest-running cryptocurrency exchanges, founded in 2011 by Jesse Powell and operated by parent company Payward, Inc. It has been led since October 2024 by co-CEOs Arjun Sethi and David Ripley. Its Kraken Pro derivatives venue lists roughly 20 RWA perpetual contracts spanning xStocks tokenized stocks and ETFs such as Apple, Nvidia, Tesla, the S&P 500 and Nasdaq-100, a SpaceX pre-IPO contract (PF_SPCXXUSD), FX majors including EUR, GBP and CHF, and commodity products including WTI crude, silver and gold-token perps. The tokenized-equity perps launched in February 2026 with up to 20x leverage, the SpaceX pre-IPO perp listed on June 7, 2026, and FX perps launched in April 2025. Contracts are cash settled in USD on multi-collateral flex margin, with funding realized hourly on products such as the pre-IPO perp and headline derivatives fees of 2 bps maker and 5 bps taker. The venue is operated for non-US clients by Payward Digital Solutions Ltd, a Bermuda company licensed by the Bermuda Monetary Authority, with eligibility restrictions that exclude the US and, for some products, the EEA, Canada and Australia.",
+    "logo": "https://icons.llamao.fi/icons/rwa/kraken.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.kraken.com"
+      ],
+      "twitter": "https://x.com/krakenfx",
+      "docs": "https://docs.kraken.com/api/",
+      "linkedin": "https://www.linkedin.com/company/krakenfx/",
+      "discord": "https://discord.gg/krakenexchange",
+      "telegram": "https://t.me/kraken_exchange_official"
+    },
+    "foundedYear": 2011,
+    "headquarters": "San Francisco, United States (remote-first company, parent Payward, Inc.)",
+    "founders": "Jesse Powell (Co-founder and Chairman), Arjun Sethi (Co-CEO), David Ripley (Co-CEO)",
+    "regulatoryStatus": "The perpetual futures venue is operated by Payward Digital Solutions Ltd, which holds a Class F Digital Asset Business license from the Bermuda Monetary Authority (registration 202403268), while group company Crypto Facilities Limited holds a UK FCA authorisation including a Multilateral Trading Facility permission (FRN 757895) and Payward Europe Digital Solutions (CY) Limited holds a CySEC MiFID investment firm license (342/17) for EEA derivatives. In the EU, Payward Europe Solutions Limited received a MiCA CASP license from the Central Bank of Ireland in June 2025, and in the US, NinjaTrader Clearing LLC (acquired 2025) operates as Kraken Derivatives US, a CFTC-registered FCM and NFA member, alongside a Wyoming SPDI bank charter held by Kraken Financial. Kraken settled SEC staking-service charges for 30 million dollars in February 2023, and the SEC's November 2023 lawsuit alleging operation of an unregistered exchange was dismissed with prejudice in March 2025 with no penalties or admission of wrongdoing.",
+    "keyMilestones": "2011: Jesse Powell founds Kraken, which becomes one of the longest-running crypto exchanges | 2019-02: Acquires UK derivatives venue Crypto Facilities, entering regulated futures | 2024-10: Arjun Sethi appointed co-CEO alongside David Ripley | 2025-04: FX perpetual futures launch, Kraken's first non-crypto perps | 2025-12: Agrees to acquire Backed Finance, the issuer of xStocks tokenized equities | 2026-02: Launches xStocks tokenized-equity perpetual futures, described as the first on a regulated derivatives venue | 2026-06: SpaceX pre-IPO perpetual (PF_SPCXXUSD) lists with 5x leverage and a synthetic pre-market index",
+    "entityStructureNotes": "Payward, Inc. (US) is the group parent. Payward Digital Solutions Ltd (Bermuda) operates the non-US derivatives venue and brokers tokenized equities. Crypto Facilities Limited (UK, FCA FRN 757895) runs the FCA-regulated MTF. Payward Europe Digital Solutions (CY) Limited (Cyprus, CySEC 342/17) covers EEA investment services. Payward Europe Solutions Limited and Payward Global Solutions Limited (Ireland) hold MiCA CASP licenses, and Payward Ireland Limited holds an EMI license. NinjaTrader Clearing LLC d/b/a Kraken Derivatives US (CFTC FCM, NFA 0309379) serves US futures clients. Kraken Financial holds a Wyoming SPDI charter. Backed Assets (JE) Limited (Jersey, acquired with Backed) issues xStocks."
+  },
+  "platform": {
+    "category": [
+      "rwa-perps"
+    ],
+    "platformType": [
+      "perp-venue"
+    ],
+    "accessModel": "permissioned",
+    "marginSettlementAsset": "USD multi-collateral",
+    "parentPlatform": "kraken",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Perp Maker/Taker Fees",
+      "issuerDocsUrl": "https://www.kraken.com/features/fee-schedule",
+      "governanceWhitepaperUrl": "https://www.kraken.com/legal",
+      "revenueConfidence": "issuer-disclosed",
+      "feeLastVerified": "2026-07-30",
+      "revenueNotes": "Perps on tokenized Backed xStocks with an explicit category field in the API. 110+ countries, no US."
+    }
+  },
+  "roles": [
+    {
+      "organization": "payward-digital-solutions-ltd-bermuda",
+      "kind": "issuer"
+    }
+  ]
+}

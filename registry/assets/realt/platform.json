@@ -1,0 +1,46 @@
+{
+  "identity": {
+    "slug": "realt",
+    "name": "RealT",
+    "legacyPid": 109
+  },
+  "about": {
+    "description": "RealT enables fractional ownership and trading of real estate assets through tokenization. It provides institutional-grade real estate exposure via blockchain infrastructure.",
+    "logo": "https://icons.llamao.fi/icons/rwa/realt.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://realt.co/buy-tokens/"
+      ],
+      "twitter": "https://x.com/real_rwa",
+      "docs": "https://docs.realt.co/",
+      "linkedin": "https://www.linkedin.com/company/realt"
+    }
+  },
+  "platform": {
+    "category": [
+      "governance-tokens",
+      "real-estate"
+    ],
+    "platformType": [
+      "governance-token"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "parentPlatform": "realt",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "realtoken-llc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://realt.co/buy-tokens/"
+      ]
+    }
+  ]
+}

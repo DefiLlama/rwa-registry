@@ -1,0 +1,62 @@
+{
+  "identity": {
+    "slug": "denario",
+    "name": "Denario",
+    "legacyPid": 33
+  },
+  "about": {
+    "description": "Denario provides tokenized access to physical commodities and precious metals through blockchain infrastructure. It enables fractional ownership and efficient settlement of commodity positions.",
+    "logo": "https://icons.llamao.fi/icons/rwa/denario.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.denario.swiss/dsc"
+      ],
+      "twitter": "https://x.com/DenarioSwiss/",
+      "docs": "https://denario.finance/",
+      "linkedin": "https://www.linkedin.com/company/denario-finance",
+      "discord": "N/A (institutional)",
+      "telegram": "https://t.me/denario_official",
+      "github": "N/A (closed source)"
+    },
+    "registryInfo": "Denario AG (Switzerland; FINMA-supervised) is a Swiss tokenization platform issuing tokenized precious-metals products (DAU = gold, DAG = silver) under physical 1:1 backing. Operates under Swiss DLT Act with FINMA AML supervision."
+  },
+  "platform": {
+    "category": [
+      "gold-commodities"
+    ],
+    "platformType": [
+      "silver"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "polygon",
+    "chains": [
+      "polygon"
+    ],
+    "attestationFrequency": "Monthly",
+    "parentPlatform": "denario",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Mint/Redeem Spread + Storage",
+      "revenueConfidence": "no-public-data",
+      "feeLastVerified": "2026-05-11",
+      "revenueNotes": "Denario earns a primary-market spread over spot metals price + ongoing storage / insurance fees on physical bullion held in third-party vaults."
+    }
+  },
+  "roles": [
+    {
+      "organization": "denario-ag",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.denario.swiss/dsc"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "Monthly attestation"
+    }
+  ]
+}

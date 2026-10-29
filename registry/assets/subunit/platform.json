@@ -1,0 +1,58 @@
+{
+  "identity": {
+    "slug": "subunit",
+    "name": "Subunit",
+    "legacyPid": 79
+  },
+  "about": {
+    "description": "Subunit is a Base-native tokenized real estate platform offering fractional ownership of residential and commercial US properties to accredited investors. Each property is held in a Delaware Statutory Trust (DST) structure with on-chain token holders receiving rental distributions in stablecoin. Properties target single-family-rental and small multi-family markets. Subunit differentiates from RealT by using a single platform-level governance token (rather than separate REIT-style structures per property) and by targeting accredited investors only.",
+    "logo": "https://icons.llamao.fi/icons/rwa/subunit.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.subunit.xyz"
+      ],
+      "twitter": "https://x.com/subunit_xyz",
+      "docs": "https://subunit.finance/",
+      "linkedin": "https://www.linkedin.com/company/subunit-finance"
+    },
+    "registryInfo": "Subunit Labs Inc. is the platform operator. Property-specific tokens are issued through a Delaware Statutory Trust structure with each property held in its own DST. Tokens deployed on Base for low transaction cost. Backed by Coinbase Ventures, Bain Capital Crypto, and others. SEC-Reg D 506(c) accredited-investor-only."
+  },
+  "platform": {
+    "category": [
+      "governance-tokens",
+      "real-estate"
+    ],
+    "platformType": [
+      "governance-token",
+      "reit"
+    ],
+    "accessModel": "permissioned",
+    "primaryChain": "base",
+    "chains": [
+      "base"
+    ],
+    "parentPlatform": "subunit",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Asset Manager Fee",
+      "holderTotalFeeBps": 100,
+      "assetManagerTakeBps": 100,
+      "tokenizationPlatformTakeBps": 0,
+      "issuerDocsUrl": "https://subunit.finance/",
+      "revenueConfidence": "reasoned-estimate",
+      "feeLastVerified": "2026-05-10",
+      "revenueNotes": "Real-estate platforms typically charge 1-2% AUM-equivalent fee for property management, plus mint/redemption costs at the DST level. Specific fee schedule per property."
+    }
+  },
+  "roles": [
+    {
+      "organization": "subunit-labs-inc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.subunit.xyz"
+      ]
+    }
+  ]
+}

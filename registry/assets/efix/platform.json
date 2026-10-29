@@ -1,0 +1,49 @@
+{
+  "identity": {
+    "slug": "efix",
+    "name": "EFIX",
+    "legacyPid": 207
+  },
+  "about": {
+    "description": "eFix Finance is a tokenized fixed-income platform issuing efixDI+ on Polygon, providing on-chain exposure to short-duration USD fixed-income instruments. The platform targets EU/LATAM institutional users seeking dollar-yield exposure.",
+    "logo": "https://icons.llamao.fi/icons/rwa/efix.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://efix.finance/protocol/"
+      ],
+      "twitter": "https://x.com/efixfinance"
+    }
+  },
+  "platform": {
+    "category": [
+      "rwa-wrappers",
+      "bond-mmf-funds"
+    ],
+    "platformType": [
+      "mmf"
+    ],
+    "accessModel": "permissioned",
+    "primaryChain": "polygon",
+    "chains": [
+      "polygon"
+    ],
+    "parentPlatform": "efix",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueConfidence": "no-public-data",
+      "feeLastVerified": "2026-05-10",
+      "revenueNotes": "Public fee disclosure not available."
+    }
+  },
+  "roles": [
+    {
+      "organization": "efix-finance",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://efix.finance/protocol/"
+      ]
+    }
+  ]
+}

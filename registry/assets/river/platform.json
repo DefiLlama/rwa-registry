@@ -1,0 +1,43 @@
+{
+  "identity": {
+    "slug": "river",
+    "name": "River",
+    "legacyPid": 174
+  },
+  "about": {
+    "description": "River offers a stablecoin backed by real-world assets and Treasury securities, combining yield generation with price stability. It enables institutional-grade stable settlement with underlying RWA collateral.",
+    "logo": "https://icons.llamao.fi/icons/rwa/river.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://app.river.inc/"
+      ],
+      "twitter": "https://x.com/RiverdotInc"
+    }
+  },
+  "platform": {
+    "category": [
+      "non-rwa-stablecoins"
+    ],
+    "platformType": [
+      "crypto-stable"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "bsc",
+    "chains": [
+      "bsc"
+    ],
+    "parentPlatform": "river",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "river-satoshi-protocol",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://app.river.inc/"
+      ]
+    }
+  ]
+}

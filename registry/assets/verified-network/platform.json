@@ -1,0 +1,57 @@
+{
+  "identity": {
+    "slug": "verified-network",
+    "name": "Verified Network",
+    "legacyPid": 63
+  },
+  "about": {
+    "description": "Verified Network is a tokenized mixed-RWA and private-credit platform issued by Verified AG. It connects institutional lenders with vetted borrowers, providing on-chain access to private credit and structured fixed-income exposure.",
+    "logo": "https://icons.llamao.fi/icons/rwa/verified-network.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.verified.network"
+      ],
+      "twitter": "https://x.com/veridefi",
+      "docs": "https://www.verified.network/",
+      "linkedin": "https://www.linkedin.com/company/verified-network"
+    }
+  },
+  "platform": {
+    "category": [
+      "bond-mmf-funds",
+      "private-credit"
+    ],
+    "platformType": [
+      "mixed-rwa-fund"
+    ],
+    "accessModel": "permissioned",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "parentPlatform": "verified-network",
+    "suspicious": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueConfidence": "no-public-data",
+      "feeLastVerified": "2026-05-10",
+      "revenueNotes": "Public fee disclosure not available."
+    }
+  },
+  "roles": [
+    {
+      "organization": "verified-ag",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.verified.network"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

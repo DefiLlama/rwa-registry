@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "slug": "goldzip",
+    "name": "GoldZip",
+    "legacyPid": 286
+  },
+  "about": {
+    "logo": "https://icons.llamao.fi/icons/rwa/goldzip.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://goldzip.info"
+      ],
+      "twitter": "https://x.com/goldzipxgz"
+    }
+  },
+  "platform": {
+    "category": [
+      "gold-commodities"
+    ],
+    "primaryChain": "ethereum",
+    "delisted": false
+  }
+}

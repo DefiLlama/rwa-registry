@@ -1,0 +1,56 @@
+{
+  "identity": {
+    "slug": "bondlink-finance",
+    "name": "Bondlink Finance",
+    "legacyPid": 70
+  },
+  "about": {
+    "description": "Bondlink Finance is an on-chain private credit and tokenized fixed-income protocol providing pooled lending exposure to institutional credit borrowers. Platform-specific tokens represent shares in underlying credit pools.",
+    "logo": "https://icons.llamao.fi/icons/rwa/bondlink-finance.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.bondlink.finance"
+      ],
+      "twitter": "https://x.com/bondlinkfinance",
+      "docs": "https://docs.bondlink.finance/",
+      "linkedin": "https://www.linkedin.com/company/bondlink-finance"
+    }
+  },
+  "platform": {
+    "category": [
+      "private-credit"
+    ],
+    "platformType": [
+      "credit-pool"
+    ],
+    "accessModel": "permissioned",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "parentPlatform": "bondlink-finance",
+    "suspicious": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueConfidence": "no-public-data",
+      "feeLastVerified": "2026-05-10",
+      "revenueNotes": "Public fee disclosure not available. Confidence is low."
+    }
+  },
+  "roles": [
+    {
+      "organization": "bondlink-finance",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.bondlink.finance"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

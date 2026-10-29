@@ -1,0 +1,17 @@
+{
+  "slug": "risex",
+  "organization": "risex",
+  "venueType": "dex",
+  "chain": "rise",
+  "adapter": "risex",
+  "published": true,
+  "makerFeeBps": 1,
+  "takerFeeBps": 3,
+  "oracleProvider": "Stork",
+  "accessModel": "permissionless",
+  "rwaClassification": "programmable-finance",
+  "conventionNote": "Funding settles hourly on the mark-index premium with a 0% base rate on RWA pairs, and fees are tiered on rolling 14-day volume from 1 bps maker and 3 bps taker at the base tier, with no maker rebate.",
+  "website": "https://rise.trade/",
+  "issuer": "RISEx",
+  "marginAsset": "USDC"
+}

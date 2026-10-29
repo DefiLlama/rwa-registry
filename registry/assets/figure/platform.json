@@ -1,0 +1,70 @@
+{
+  "identity": {
+    "slug": "figure",
+    "name": "Figure",
+    "legacyPid": 129
+  },
+  "about": {
+    "description": "Figure provides tokenized access to private credit and structured finance products, connecting institutional lenders with decentralized liquidity. It enables securitization of off-chain credit through on-chain smart contracts.",
+    "logo": "https://icons.llamao.fi/icons/rwa/figure.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.figure.com/heloc"
+      ],
+      "twitter": "https://x.com/figure",
+      "docs": "https://figure.com/",
+      "linkedin": "https://www.linkedin.com/company/figure-tech",
+      "discord": "https://discord.com/invite/figuremarkets",
+      "telegram": "https://t.me/+N4gMKd2dZys3NWJh",
+      "github": "https://github.com/FigureTechnologies"
+    },
+    "registryInfo": "Figure Technologies, Inc. (US; FinCEN-registered MSB; Figure Certificate Company is SEC-registered face-amount certificate company under the Investment Company Act). Founded 2018 by Mike Cagney (SoFi co-founder). Operates the Provenance Blockchain (Cosmos-based) and issues YLDS (yield-bearing US-dollar token) on Provenance and other chains.",
+    "foundedYear": 2018,
+    "headquarters": "Charlotte, USA",
+    "founders": "Mike Cagney (Co-Founder, Executive Chairman), Michael Tannenbaum (CEO since April 2024), June Ou (Co-Founder, Board)",
+    "regulatoryStatus": "Figure Technology Solutions Inc. is a US public company on Nasdaq under FIGR after a September 2025 IPO. YLDS is issued by subsidiary Figure Certificate Company, an SEC registered face amount certificate company under the Investment Company Act of 1940 with a public prospectus on EDGAR, making YLDS the first SEC registered yield bearing stablecoin. The HELOC business operates under US state lending and mortgage licenses with loans recorded on Provenance Blockchain.",
+    "keyMilestones": "2025-09: IPO priced at 25 dollars per share raising about 787 million with Nasdaq trading from September 11 | 2025-07: Figure Technology Solutions and Figure Markets merger announced | 2025-02: YLDS launched as the first SEC registered yield bearing stablecoin | 2024-06: Figure Connect blockchain credit marketplace launched | 2024-04: Tannenbaum named CEO with Cagney as Executive Chairman",
+    "entityStructureNotes": "Figure Technology Solutions Inc., a Delaware corporation in Charlotte listed as FIGR, is the public parent. YLDS is issued by Figure Certificate Company, a separately incorporated SEC registered subsidiary. The underlying Provenance Blockchain is governed by the separate Provenance Blockchain Foundation."
+  },
+  "platform": {
+    "category": [
+      "private-credit",
+      "real-estate"
+    ],
+    "platformType": [
+      "re-credit"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "provenance",
+    "chains": [
+      "provenance"
+    ],
+    "attestationFrequency": "Quarterly (per SEC schedule)",
+    "parentPlatform": "figure",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Yield Spread + Origination Fees",
+      "floatIncome": true,
+      "revenueConfidence": "public-filings",
+      "feeLastVerified": "2026-07-09",
+      "revenueNotes": "YLDS pays SOFR minus 35 bps effective October 2025 per the EDGAR Form 497, accrued daily and paid monthly with no mint or redeem fee at 1 dollar face. Figure Certificate Company retains the spread between reserve earnings and the certificate rate. HELOC origination fees run 0 to 4.99 percent of initial draw."
+    }
+  },
+  "roles": [
+    {
+      "organization": "figure",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.figure.com/heloc"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "SEC reporting schedule (S-1 + 10-K)"
+    }
+  ]
+}

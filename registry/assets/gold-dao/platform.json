@@ -1,0 +1,64 @@
+{
+  "identity": {
+    "slug": "gold-dao",
+    "name": "Gold DAO",
+    "legacyPid": 93,
+    "protocolSlug": "gold-dao"
+  },
+  "about": {
+    "description": "Gold DAO provides tokenized access to physical commodities and precious metals through blockchain infrastructure. It enables fractional ownership and efficient settlement of commodity positions.",
+    "logo": "https://icons.llamao.fi/icons/rwa/gold-dao.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://gldt.org/"
+      ],
+      "twitter": "https://x.com/thegolddao",
+      "docs": "https://docs.gold-dao.org/",
+      "linkedin": "https://www.linkedin.com/company/gold-dao",
+      "discord": "https://discord.gg/golddao",
+      "telegram": "https://t.me/golddao",
+      "github": "https://github.com/GoldDAO"
+    },
+    "registryInfo": "Gold DAO is an Internet Computer-native DAO operating GLDT, a gold-backed token on Internet Computer Protocol. Backed 1:1 by physical gold bars (SwissGold-style) held in audited Swiss vaults."
+  },
+  "platform": {
+    "category": [
+      "governance-tokens",
+      "gold-commodities"
+    ],
+    "platformType": [
+      "governance-token"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "attestationFrequency": "Quarterly",
+    "parentPlatform": "gold-dao",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Storage Fee",
+      "revenueConfidence": "no-public-data",
+      "feeLastVerified": "2026-05-11",
+      "revenueNotes": "Gold DAO charges a small annual storage/insurance fee implicit in the gold-bar accumulation mechanic. No protocol-level transaction fees."
+    }
+  },
+  "roles": [
+    {
+      "organization": "gold-dao",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://gldt.org/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "Quarterly (third-party auditor)"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "identity": {
+    "slug": "first-digital",
+    "name": "First Digital",
+    "legacyPid": 10
+  },
+  "about": {
+    "description": "First Digital issues a fiat-backed stablecoin maintained at parity with its reference currency through reserve backing and redemption mechanisms. It enables fast, low-cost settlement of stablecoin transactions.",
+    "logo": "https://icons.llamao.fi/icons/rwa/first-digital.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.firstdigitallabs.com"
+      ],
+      "twitter": "https://x.com/FDLabsHQ",
+      "docs": "https://firstdigitallabs.com/",
+      "linkedin": "https://www.linkedin.com/company/first-digital-trust"
+    },
+    "foundedYear": 2017,
+    "headquarters": "Hong Kong, Hong Kong",
+    "founders": "Vincent Chok (Founder, CEO), Gunnar Jaerv (COO)",
+    "regulatoryStatus": "FDUSD reserves are custodied by First Digital Trust Limited, a Hong Kong registered trust company and licensed Trust or Company Service Provider. The issuer moved from Hong Kong entity FD121 Limited to FD121 (BVI) Limited in August 2025, two weeks after the Hong Kong Stablecoins Ordinance took effect, and no First Digital entity appears on the HKMA register of licensed stablecoin issuers as of mid 2026. Monthly ISAE 3000 attestations are signed by AOGB CPA Limited.",
+    "keyMilestones": "2026-04: HKMA grants first stablecoin licenses with First Digital absent from the register | 2025-08: FDUSD issuance moved to FD121 (BVI) Limited | 2025-04: FDUSD depegged about 9 percent after Justin Sun insolvency allegations, with a defamation writ filed in Hong Kong | 2024-10: Solana expansion | 2023-06: FDUSD launched by FD121 Limited",
+    "entityStructureNotes": "First Digital Group has First Digital Trust Limited holding FDUSD reserves in segregated accounts and First Digital Labs as the issuer brand. Since August 2025 the issuer is FD121 (BVI) Limited, which is not a trust company or bank, with reserves legally segregated for bankruptcy isolation."
+  },
+  "platform": {
+    "category": [
+      "fiat-stablecoins"
+    ],
+    "platformType": [
+      "usd-stable"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "bsc",
+    "chains": [
+      "bsc"
+    ],
+    "parentPlatform": "first-digital",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "mintFeeBps": 0,
+      "redemptionFeeBps": 0,
+      "floatIncome": true,
+      "revenueConfidence": "issuer-disclosed",
+      "feeLastVerified": "2026-07-09",
+      "revenueNotes": "The whitepaper states zero fee minting and redemption as long as you mint more than you redeem, with no published schedule for net redeemers. Holders are not entitled to interest so reserve income is retained. Note the April 2025 depeg episode and unresolved litigation with Techteryx parties."
+    }
+  },
+  "roles": [
+    {
+      "organization": "first-digital-trust-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.firstdigitallabs.com"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "identity": {
+    "slug": "kamino-institutional",
+    "name": "Kamino Institutional",
+    "legacyPid": 349,
+    "protocolSlug": "kamino-institutional-yield"
+  },
+  "about": {
+    "description": "Kamino Institutional Yield is Kamino's regulated off-chain lending arm on Solana. The live product is the Commodity Yield vault, whose kicUSDC share token funds short-tenor collateralised commodity trade finance through a CIMA-supervised lending operation.",
+    "links": {
+      "website": [
+        "https://kamino.com/earn/institutional"
+      ],
+      "twitter": "https://x.com/kamino",
+      "docs": "https://kamino.com/docs/products/institutional-yield"
+    }
+  },
+  "platform": {
+    "category": [
+      "private-credit"
+    ],
+    "platformType": [
+      "trade-finance"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "solana",
+    "chains": [
+      "solana"
+    ],
+    "parentPlatform": "kamino-institutional",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "kamino-institutional-yield-spv",
+      "kind": "issuer"
+    }
+  ]
+}

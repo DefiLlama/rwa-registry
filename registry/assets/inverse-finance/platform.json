@@ -1,0 +1,44 @@
+{
+  "identity": {
+    "slug": "inverse-finance",
+    "name": "Inverse Finance",
+    "legacyPid": 160
+  },
+  "about": {
+    "description": "Inverse Finance offers a stablecoin backed by real-world assets and Treasury securities, combining yield generation with price stability. It enables institutional-grade stable settlement with underlying RWA collateral.",
+    "logo": "https://icons.llamao.fi/icons/rwa/inverse-finance.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.inverse.finance/"
+      ],
+      "twitter": "https://x.com/InverseFinance",
+      "docs": "https://docs.inverse.finance/"
+    }
+  },
+  "platform": {
+    "category": [
+      "non-rwa-stablecoins"
+    ],
+    "platformType": [
+      "crypto-stable"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "parentPlatform": "inverse-finance",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "inverse-finance",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.inverse.finance/"
+      ]
+    }
+  ]
+}

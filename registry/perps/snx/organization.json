@@ -1,0 +1,66 @@
+{
+  "identity": {
+    "slug": "synthetix-perps",
+    "name": "Synthetix Perps",
+    "legacyPid": 237,
+    "protocolSlug": "synthetix"
+  },
+  "about": {
+    "description": "Synthetix is one of the longest-running DeFi protocols, founded in 2016 by Kain Warwick (originally as Havven) and now governed by the Spartan Council, a 7-seat elected council established by Referendum SR-2 in October 2024. Synthetix Perps (V3) is the protocol's decentralized perpetual product, currently live on Ethereum, Optimism, and Base, offering commodity perpetuals (gold, silver) margined in sUSD/USDC, with equity and equity-index perpetuals planned for 2026. The protocol pioneered synthetic-asset issuance via the SNX collateral model and remains a foundational liquidity layer for DeFi derivatives.",
+    "logo": "https://icons.llamao.fi/icons/rwa/synthetix-perps.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://synthetix.io/"
+      ],
+      "twitter": "https://x.com/synthetix_io",
+      "docs": "https://docs.synthetix.io/",
+      "linkedin": "https://www.linkedin.com/company/synthetix-protocol",
+      "discord": "https://discord.gg/synthetix",
+      "telegram": "https://t.me/havven_news",
+      "github": "https://github.com/Synthetixio"
+    },
+    "registryInfo": "Synthetix was founded in 2016 by Kain Warwick (originally as Havven, pivoted to Synthetix in 2018; ICO raised ~$30M). The Synthetix Foundation, originally domiciled in Australia, was decommissioned in 2018 in favor of decentralized governance. Following Referendum SR-2 (October 2024), the protocol is now governed by the Spartan Council, a 7-seat elected council (1 treasury, 3 advisory, 3 hired Core Contributors). Synthetix V3 is deployed across Ethereum, Optimism, and Base."
+  },
+  "platform": {
+    "category": [
+      "rwa-perps"
+    ],
+    "platformType": [
+      "perp-venue"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum",
+      "optimism",
+      "base"
+    ],
+    "attestationFrequency": "N/A (Perp Venue)",
+    "marginSettlementAsset": "sUSD; USDC (Ethereum/Optimism/Base)",
+    "parentPlatform": "synthetix-perps",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Maker/Taker Fees",
+      "revenueConfidence": "reasoned-estimate",
+      "feeLastVerified": "2026-05-11",
+      "revenueNotes": "Synthetix Perps V3 uses a maker/taker model with delta-neutral skew pricing. On crypto majors the published rate is 2 bps maker / 6 bps taker. RWA markets on Synthetix Perps are limited to 2 commodity perps; the platform does not publish separate fee tiers for these RWA markets, so the rate is presumed to follow the V3 general schedule. Trading fees accrue to SNX stakers. Source: https://docs.synthetix.io/exchange/perps-basics/maker-or-taker"
+    }
+  },
+  "roles": [
+    {
+      "organization": "synthetix-dao-spartan-council",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://synthetix.io/governance"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "N/A (Perp Venue)"
+    }
+  ]
+}

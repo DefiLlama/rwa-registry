@@ -1,0 +1,31 @@
+{
+  "identity": {
+    "slug": "alter-spvs",
+    "name": "Alter SPVs",
+    "legacyPid": 299
+  },
+  "about": {
+    "description": "Alter SPVs is the label for a set of special purpose vehicles issuing XRP Ledger tokens said to represent economic interests in five private companies spanning aerospace, advanced materials, semiconductors, solar energy, and agricultural technology. The tokens do not confer direct share ownership and pricing comes from XRPL AMM pools rather than an external oracle or published NAV."
+  },
+  "platform": {
+    "category": [
+      "stocks-equities"
+    ],
+    "primaryChain": "ripple",
+    "chains": [
+      "ripple"
+    ],
+    "suspicious": false,
+    "delisted": false,
+    "fees": {
+      "revenueConfidence": "no-public-data",
+      "feeLastVerified": "2026-07-02"
+    }
+  },
+  "roles": [
+    {
+      "organization": "alter-spvs",
+      "kind": "issuer"
+    }
+  ]
+}

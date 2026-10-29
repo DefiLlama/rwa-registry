@@ -1,0 +1,55 @@
+{
+  "identity": {
+    "slug": "delta-exchange-india",
+    "name": "Delta Exchange India",
+    "legacyPid": 326
+  },
+  "about": {
+    "description": "Delta Exchange is a crypto derivatives exchange founded in 2018 by Pankaj Balani, Jitender Tokas and Saurabh Goyal, and its India platform launched in June 2024 as what it describes as the first FIU-IND registered venue for crypto futures and options in India. The India venue is operated by Excelium Technologies Private Limited of Mumbai, with co-founder Pankaj Balani as CEO, and serves Indian users only through Indian KYC and INR deposit and withdrawal rails. Its RWA offering began in February 2026 with perpetuals on PAX Gold and six xStock tokenized stocks including Apple, Amazon, Alphabet, Meta, Tesla and Nvidia, then expanded with Coinbase and Circle xStocks, S&P 500 and Nasdaq xStocks, Tether Gold, a tokenized silver contract, a SpaceX xStock and a wave of bStocks contracts in July 2026, reaching 34 tokenized asset perpetuals as of August 2026. The contracts reference third party tokenized stock and metal tokens rather than the underlying equities, and carry a tradfi tag in the exchange's product API. They are quoted, margined and settled in USD balances funded over INR rails at a fixed 85 INR per USD conversion, with leverage up to 25x on stock token perps and up to 100x on the gold token perps. Funding on stock token perps is exchanged every eight hours at 5:30, 13:30 and 21:30 IST, while the metal token perps fund every four hours. Delta's separate global platform lists a smaller set of xStock perpetuals of its own, so the full tokenized lineup including bStocks is specific to the India venue.",
+    "logo": "https://icons.llamao.fi/icons/rwa/delta-exchange-india.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://india.delta.exchange"
+      ],
+      "twitter": "https://x.com/Delta_Exchange",
+      "docs": "https://docs.delta.exchange",
+      "linkedin": "https://www.linkedin.com/company/deltaexchangein/",
+      "telegram": "https://t.me/DeltaExchangeIndia"
+    },
+    "foundedYear": 2018,
+    "headquarters": "Mumbai, India (registered address of Excelium Technologies Private Limited, Powai, Mumbai)",
+    "founders": "Pankaj Balani (Co-founder, CEO), Jitender Tokas (Co-founder, Chief Business Officer), Saurabh Goyal (Co-founder, CTO)",
+    "regulatoryStatus": "Delta Exchange India is operated by Excelium Technologies Private Limited, which states its registration as a reporting entity with the Financial Intelligence Unit India under number VA00041101 pursuant to the Prevention of Money Laundering Act. FIU-IND registration is an anti money laundering registration rather than a derivatives market license, since India has no licensing regime for crypto derivatives venues. The platform positions itself as the first FIU registered crypto futures and options exchange in India and operates INR only funding rails. No public enforcement actions against the entity were identified, and the separate Delta Exchange global platform serves non-India users outside this registration.",
+    "keyMilestones": "2018: Delta Exchange founded by Pankaj Balani, Jitender Tokas and Saurabh Goyal | 2024-06: Delta Exchange India formally launches with FIU-IND registration and INR settlement | 2026-02: First RWA perpetuals listed, PAX Gold plus six xStock tokenized stock contracts | 2026-03: Adds Coinbase and Circle xStock perps | 2026-04: Adds S&P 500 and Nasdaq xStock perps and a Tether Gold perp, and launches INR spot trading | 2026-06: Lists a SpaceX xStock perpetual days after the SpaceX IPO | 2026-07: Adds about 20 bStocks tokenized stock perps, taking the RWA lineup to 34 contracts",
+    "entityStructureNotes": "Excelium Technologies Private Limited (India, Mumbai) operates the Delta Exchange India platform and states FIU-IND registration VA00041101. Delta Exchange also runs a separate global derivatives platform for non-India users under the Delta Exchange brand (global.delta.exchange), which lists its own smaller set of xStock and PAXG perpetuals but not the bStocks lineup."
+  },
+  "platform": {
+    "category": [
+      "rwa-perps"
+    ],
+    "platformType": [
+      "perp-venue"
+    ],
+    "accessModel": "permissioned",
+    "marginSettlementAsset": "USD (INR rails, fixed 85 INR per USD)",
+    "parentPlatform": "delta-exchange-india",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Perp Maker/Taker Fees",
+      "issuerDocsUrl": "https://www.delta.exchange/fees",
+      "governanceWhitepaperUrl": "https://www.delta.exchange/terms-of-use",
+      "revenueConfidence": "issuer-disclosed",
+      "feeLastVerified": "2026-08-06",
+      "revenueNotes": "India-KYC venue (FIU-registered). Underlyings are tokenized stocks (Backed xStocks / bStocks).",
+      "subsidyRebateArrangements": "Metal token perps (PAXG, XAUT, SLVON) trade at 1 bp maker and 1 bp taker"
+    }
+  },
+  "roles": [
+    {
+      "organization": "excelium-technologies-private-limited",
+      "kind": "issuer"
+    }
+  ]
+}

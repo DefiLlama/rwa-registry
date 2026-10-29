@@ -1,0 +1,58 @@
+{
+  "identity": {
+    "slug": "0xequity",
+    "name": "0xequity",
+    "legacyPid": 306
+  },
+  "about": {
+    "description": "0xequity is a fractional real-estate tokenization platform established in 2023, operated through 0xequity Corp (British Virgin Islands) and 0xequity US, Inc. (Wilmington, Delaware), with teams based in the United States and Turkey. KYC-verified users buy property tokens from $10, receive a share of net rental income claimable on-chain, and can use tokens in DeFi features such as collateralized borrowing on Base and Arbitrum. The operator states it is not a registered broker-dealer or investment adviser, discloses no securities licenses, and prohibits U.S. citizens from investing.",
+    "links": {
+      "website": [
+        "https://app.0xequity.com/"
+      ],
+      "twitter": "https://x.com/0xequityRWA",
+      "docs": "https://docs.0xequity.com/",
+      "linkedin": "https://www.linkedin.com/company/0xequity",
+      "telegram": "https://t.me/oxequityRWA"
+    },
+    "foundedYear": 2023,
+    "headquarters": "Wilmington, United States",
+    "founders": "Mustafa Yasar (Co-Founder, CEO), Asim Ashfaq (Co-Founder)",
+    "regulatoryStatus": "No licenses or registrations disclosed. Site disclaimer states the operator is not a registered broker-dealer or investment advisor and that U.S. citizens are not permitted to invest.",
+    "keyMilestones": "2023: 0xequity established | 2026-Q4: planned launch of tokenized US stocks with DeFi integration (per official site)",
+    "entityStructureNotes": "0xequity Corp, Road Town, Tortola, British Virgin Islands; 0xequity US, Inc., Wilmington, Delaware. Homepage footer names 0xequity Corp as operator while the About page names 0xequity US, Inc.; company describes itself as primarily based in the United States and Turkey."
+  },
+  "platform": {
+    "category": [
+      "real-estate"
+    ],
+    "platformType": [
+      "single-property"
+    ],
+    "accessModel": "permissioned",
+    "primaryChain": "base",
+    "chains": [
+      "base"
+    ],
+    "suspicious": false,
+    "delisted": false,
+    "fees": {
+      "revenueModel": "Hybrid - rental income fee, property listing fees, purchase-time operating expense; no buy/sell fees currently",
+      "mintFeeBps": 0,
+      "redemptionFeeBps": 0,
+      "floatIncome": false,
+      "feeScheduleUrl": "https://www.0xequity.com/about-us",
+      "tcsUrl": "https://www.0xequity.com/terms-of-use",
+      "revenueConfidence": "issuer-disclosed",
+      "feeLastVerified": "2026-07-20",
+      "revenueNotes": "Footer disclosure: no fees on buy/sell (subject to change), 2% fee on rental income, per-property listing fees, a 2% monthly fee and a 10% purchase-time operating expense; 10% of rental income goes to property managers. Disclosures are inconsistently worded across pages and the incidence of the monthly/operating charges is unclear.",
+      "revenueVerificationMethod": "Official website footer disclosures (homepage and About page) and docs.0xequity.com"
+    }
+  },
+  "roles": [
+    {
+      "organization": "0xequity",
+      "kind": "issuer"
+    }
+  ]
+}

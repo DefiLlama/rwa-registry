@@ -1,0 +1,46 @@
+{
+  "identity": {
+    "slug": "standx",
+    "name": "StandX",
+    "legacyPid": 173
+  },
+  "about": {
+    "description": "StandX offers a stablecoin backed by real-world assets and Treasury securities, combining yield generation with price stability. It enables institutional-grade stable settlement with underlying RWA collateral.",
+    "logo": "https://icons.llamao.fi/icons/rwa/standx.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://standx.com/"
+      ],
+      "twitter": "https://x.com/StandX_Official",
+      "refLinks": [
+        "https://standx.com/referral?code=defillama"
+      ]
+    }
+  },
+  "platform": {
+    "category": [
+      "non-rwa-stablecoins"
+    ],
+    "platformType": [
+      "crypto-stable"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "bsc",
+    "chains": [
+      "bsc"
+    ],
+    "parentPlatform": "standx",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "standx",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://standx.com/"
+      ]
+    }
+  ]
+}

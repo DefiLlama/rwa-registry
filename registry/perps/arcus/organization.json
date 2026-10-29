@@ -1,0 +1,53 @@
+{
+  "identity": {
+    "slug": "arcus",
+    "name": "Arcus",
+    "legacyPid": 301,
+    "protocolSlug": "arcus"
+  },
+  "about": {
+    "description": "Arcus is a decentralized exchange built by the dYdX Labs team in partnership with Robinhood Crypto on Robinhood Chain. It offers zero fee spot trading of tokenized stocks alongside 24/7 cross margined perpetual futures on equities, indices, commodities, and crypto with up to 50x leverage. All trading settles in USDG, the Paxos issued Global Dollar stablecoin.",
+    "logo": "https://icons.llamao.fi/icons/rwa/arcus.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://arcus.xyz"
+      ],
+      "twitter": "https://x.com/arcus_xyz",
+      "docs": "https://docs.arcus.xyz",
+      "linkedin": "https://www.linkedin.com/company/arcus-xyz"
+    },
+    "foundedYear": 2026,
+    "founders": "Eddie Zhang (Founder, CEO), Antonio Juliano (board, dYdX founder)",
+    "regulatoryStatus": "Not a regulated financial services provider by its own disclosure and unavailable in the US, UK, and Canada. The underlying Stock Tokens are issued by Robinhood Assets (Jersey) Limited under its Tokenised Products Programme with Bitstamp Global Ltd as authorised participant."
+  },
+  "platform": {
+    "category": [
+      "rwa-perps"
+    ],
+    "platformType": [
+      "perp-venue"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "robinhood",
+    "chains": [
+      "robinhood"
+    ],
+    "marginSettlementAsset": "USDG",
+    "parentPlatform": "arcus",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Maker/Taker Fees",
+      "revenueConfidence": "reasoned-estimate",
+      "feeLastVerified": "2026-07-09",
+      "revenueNotes": "Volume-tiered fees with maker rebates, read live from api.arcus.xyz/v1/feetiers. Base tier raw values are 150 maker and 450 taker in a field labeled bps, which matches Hyperliquid 1.5 bps and 4.5 bps if units are centi-bps. Unit disclosure pending, treat numbers with caution. Spot trading is fee free. Off-hours RWA funding locks to SOFR plus 0.5 percent."
+    }
+  },
+  "roles": [
+    {
+      "organization": "arcus-labs-ltd",
+      "kind": "issuer"
+    }
+  ]
+}

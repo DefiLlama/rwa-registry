@@ -1,0 +1,44 @@
+{
+  "identity": {
+    "slug": "native-markets",
+    "name": "Native Markets",
+    "legacyPid": 180
+  },
+  "about": {
+    "description": "Native Markets issues a fiat-backed stablecoin maintained at parity with its reference currency through reserve backing and redemption mechanisms. It enables fast, low-cost settlement of stablecoin transactions.",
+    "logo": "https://icons.llamao.fi/icons/rwa/native-markets.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://nativemarkets.com/usdh"
+      ],
+      "twitter": "https://x.com/nativemarkets",
+      "docs": "https://nativemarkets.com/"
+    }
+  },
+  "platform": {
+    "category": [
+      "fiat-stablecoins"
+    ],
+    "platformType": [
+      "usd-stable"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "hyperliquid",
+    "chains": [
+      "hyperliquid"
+    ],
+    "parentPlatform": "native-markets",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "bridge-building-inc-native-markets",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://nativemarkets.com/usdh"
+      ]
+    }
+  ]
+}

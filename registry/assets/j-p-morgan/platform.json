@@ -1,0 +1,66 @@
+{
+  "identity": {
+    "slug": "j-p-morgan",
+    "name": "J.P. Morgan",
+    "legacyPid": 208
+  },
+  "about": {
+    "description": "In late 2025 JPMorgan Chase issued tokenized commercial paper (CUSIP 36317HAA2) on the Solana blockchain in partnership with Galaxy Digital. The transaction was structured by JPMorgan's capital markets desk with Galaxy as tokenization agent and on-chain custodian, representing one of the first tokenized commercial paper issuances by a US G-SIB. The token is a representation of standard short-dated commercial paper held in DTC; investors hold beneficial interest via Galaxy's on-chain wrapper. Subscriptions are USD/USDC-only with KYC required at the qualified-institutional level. The product validates Solana as a venue for institutional-grade fixed-income tokenization and complements JPMorgan's broader Kinexys platform.",
+    "logo": "https://icons.llamao.fi/icons/rwa/j.p.-morgan.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.jpmorgan.com/onyx/index"
+      ],
+      "twitter": "https://x.com/jpmorgan",
+      "linkedin": "https://www.linkedin.com/company/jpmorganchase"
+    },
+    "registryInfo": "Underlying instrument is JPMorgan Chase & Co. commercial paper (CUSIP 36317HAA2), issued by JPMorgan Chase Bank, N.A., a US national bank chartered by the OCC. Tokenization performed by Galaxy Digital Capital Markets, Galaxy Digital Holdings Ltd. subsidiary (TSX:GLXY), via Galaxy's Solana-based asset-issuance program in collaboration with JPMorgan's Kinexys platform. JPMorgan Chase & Co. is regulated by the Federal Reserve, OCC, and FDIC."
+  },
+  "platform": {
+    "category": [
+      "bond-mmf-funds"
+    ],
+    "platformType": [
+      "corp-bond-fund"
+    ],
+    "accessModel": "permissioned",
+    "primaryChain": "solana",
+    "chains": [
+      "solana"
+    ],
+    "attestationFrequency": "On-issuance plus monthly Galaxy custody attestation",
+    "parentPlatform": "j-p-morgan",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Asset Manager Fee",
+      "issuerDocsUrl": "https://www.jpmorgan.com/about-us/corporate-news/2025/jpmorgan-commercial-paper-issuance-solana-blockchain",
+      "revenueConfidence": "reasoned-estimate",
+      "feeLastVerified": "2026-05-10",
+      "revenueNotes": "Single-issue tokenized commercial paper. JPMorgan earns the typical bank-issuer spread on the commercial paper. Galaxy earns a tokenization/custody fee that is not publicly disclosed but typical comparables are 5-15bps. No retail mint/redeem fees; institutional pricing."
+    }
+  },
+  "roles": [
+    {
+      "organization": "jpmorgan-chase-bank-n-a-issuer-of-underlying-commercial-paper",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.jpmorgan.com/onyx/index"
+      ]
+    },
+    {
+      "organization": "galaxy-digital-capital-markets-tokenization-agent",
+      "kind": "tokenizer",
+      "sourceLinks": [
+        "https://www.jpmorgan.com/onyx/index"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "On-issuance"
+    }
+  ]
+}

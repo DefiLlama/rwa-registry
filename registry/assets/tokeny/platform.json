@@ -1,0 +1,53 @@
+{
+  "identity": {
+    "slug": "tokeny",
+    "name": "Tokeny",
+    "legacyPid": 199
+  },
+  "about": {
+    "description": "Tokeny Solutions is a Luxembourg-based regulated tokenization-infrastructure provider, founded in 2017 by Luc Falempin and majority-owned by Euronext since 2024. Tokeny created the ERC-3643 permissioned token standard (formerly T-REX), now the de-facto standard for institutional security tokens. Tokeny provides white-label tokenization infrastructure to hundreds of issuers, including the tokenized SkyBridge / Legion Strategies hedge fund (LS on Avalanche), tokenized MMFs, real estate, and private equity. As infrastructure, Tokeny earns SaaS and per-issuance fees rather than asset-management fees.",
+    "logo": "https://icons.llamao.fi/icons/rwa/tokeny.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://tokeny.com"
+      ],
+      "twitter": "https://x.com/tokeny",
+      "docs": "https://docs.tokeny.com/",
+      "linkedin": "https://www.linkedin.com/company/tokeny-solutions"
+    },
+    "registryInfo": "Tokeny Solutions SA is a Luxembourg-based tokenization-infrastructure company, founded in 2017 by Luc Falempin (CEO). Tokeny developed the ERC-3643 (formerly T-REX) permissioned-token standard, widely used by institutional tokenization issuers. Backed by Euronext (acquired majority stake in 2024). Tokeny's clients include hundreds of issuers across MMFs, equities, bonds, and real estate. For Legion Strategies / SkyBridge tokenized hedge fund, Tokeny provided the issuance platform. RCS Luxembourg: B205697."
+  },
+  "platform": {
+    "category": [
+      "crypto-funds"
+    ],
+    "platformType": [
+      "crypto-hedge-fund"
+    ],
+    "accessModel": "permissioned",
+    "primaryChain": "avax",
+    "chains": [
+      "avax"
+    ],
+    "parentPlatform": "tokeny",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Platform Fee",
+      "issuerDocsUrl": "https://docs.tokeny.com/",
+      "revenueConfidence": "reasoned-estimate",
+      "feeLastVerified": "2026-05-10",
+      "revenueNotes": "Tokeny is a B2B tokenization infrastructure vendor. It charges issuers SaaS fees (annual platform fee + per-issuance fee) rather than charging end-token holders. Specific pricing is bespoke per client engagement."
+    }
+  },
+  "roles": [
+    {
+      "organization": "tokeny-solutions-sa-luxembourg",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://tokeny.com"
+      ]
+    }
+  ]
+}

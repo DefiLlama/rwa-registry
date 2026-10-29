@@ -1,0 +1,31 @@
+{
+  "identity": {
+    "slug": "reality",
+    "name": "Reality",
+    "legacyPid": 317
+  },
+  "about": {
+    "logo": "https://icons.llamao.fi/icons/rwa/reality.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://realityfinance.xyz/"
+      ],
+      "twitter": "https://x.com/RealityFi_xyz",
+      "docs": "https://realityfinance.xyz/info/docs/"
+    }
+  },
+  "platform": {
+    "primaryChain": "arbitrum",
+    "chains": [
+      "arbitrum"
+    ],
+    "suspicious": false,
+    "delisted": false
+  },
+  "roles": [
+    {
+      "organization": "reality-bitget-subsidiary",
+      "kind": "issuer"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "identity": {
+    "slug": "yieldbricks",
+    "name": "YieldBricks",
+    "legacyPid": 116
+  },
+  "about": {
+    "description": "YieldBricks enables fractional ownership and trading of real estate assets through tokenization. It provides institutional-grade real estate exposure via blockchain infrastructure.",
+    "logo": "https://icons.llamao.fi/icons/rwa/yieldbricks.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://yieldbricks.com"
+      ],
+      "twitter": "https://x.com/YieldBricks",
+      "docs": "https://docs.yieldbricks.com/",
+      "linkedin": "https://www.linkedin.com/company/yieldbricks"
+    }
+  },
+  "platform": {
+    "category": [
+      "governance-tokens",
+      "real-estate"
+    ],
+    "platformType": [
+      "governance-token"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "arbitrum",
+    "chains": [
+      "arbitrum"
+    ],
+    "parentPlatform": "yieldbricks",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "yieldbricks",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://yieldbricks.com"
+      ]
+    }
+  ]
+}

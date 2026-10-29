@@ -1,0 +1,70 @@
+{
+  "identity": {
+    "slug": "maple",
+    "name": "Maple",
+    "legacyPid": 46
+  },
+  "about": {
+    "description": "Maple Finance is a credit protocol connecting institutional borrowers with on-chain lenders, enabling RWA-backed loans secured by real-world collateral. It structures private credit access through DeFi infrastructure.",
+    "logo": "https://icons.llamao.fi/icons/rwa/maple.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.maple.finance"
+      ],
+      "twitter": "https://x.com/maplefinance",
+      "docs": "https://maplefinance.gitbook.io/",
+      "linkedin": "https://www.linkedin.com/company/maplefinance",
+      "discord": "https://discord.gg/maplefinance",
+      "telegram": "https://t.me/maplefinance",
+      "github": "https://github.com/maple-labs"
+    },
+    "registryInfo": "Maple Finance (Maple Finance Inc., Cayman Islands; operating entity in Australia). Institutional lending protocol launched 2019 by Sid Powell & Joe Flanagan. Pivoted from crypto-backed undercollateralized lending to RWA-focused after 2022 events. SYRUP governance token. Issues Cash Management Token (Maple) backed by US Treasuries via BlockTower & Cantor Fitzgerald custody.",
+    "foundedYear": 2019,
+    "founders": "Sid Powell (Co-Founder, CEO), Joe Flanagan (Co-Founder, Executive Chairman)",
+    "regulatoryStatus": "Maple is not a licensed asset manager and describes itself as a technology services provider. The interface is operated by Maple Labs Pty Ltd, an Australian entity. The syrup products are issued by Maple International Operations SPC, a Cayman Islands segregated portfolio company, with a MiCA whitepaper for EU distribution and US persons excluded from syrup products.",
+    "keyMilestones": "2026-07: AUM reached 4.45 billion dollars with 22.97 billion cumulative loans originated | 2024-11: SYRUP token launched replacing MPL at 1 to 100 | 2024-06: Syrup platform launched opening institutional secured lending yield to DeFi users | 2023-04: Cash Management Pool launched | 2019: founded by Powell and Flanagan",
+    "entityStructureNotes": "Maple Labs Pty Ltd develops the protocol and operates the interface. The syrupUSDC, syrupUSDT and syrupUSDG products are issued through Maple International Operations SPC with bankruptcy remote segregated portfolios. Governance and treasury run through the onchain MapleTreasury contract and the SYRUP token."
+  },
+  "platform": {
+    "category": [
+      "governance-tokens",
+      "private-credit"
+    ],
+    "platformType": [
+      "governance-token"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "attestationFrequency": "Monthly",
+    "parentPlatform": "maple",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Interest Spread",
+      "performanceFeePct": 0,
+      "mintFeeBps": 33,
+      "revenueConfidence": "issuer-disclosed",
+      "feeLastVerified": "2026-07-09",
+      "revenueNotes": "No published lender fee schedule. Maple monetizes management, service, and origination fees deducted from gross borrower interest, a net interest margin of 0.85 percent over the last 12 months per its transparency page, with 22.02 million dollars LTM protocol revenue funding the treasury and SYRUP staking."
+    }
+  },
+  "roles": [
+    {
+      "organization": "maple-labs-pty-ltd",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.maple.finance"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "Monthly (cash management product)"
+    }
+  ]
+}

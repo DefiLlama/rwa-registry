@@ -1,0 +1,45 @@
+{
+  "identity": {
+    "slug": "uranium-io",
+    "name": "Uranium.io",
+    "legacyPid": 99
+  },
+  "about": {
+    "description": "Uranium.io provides tokenized access to physical commodities and precious metals through blockchain infrastructure. It enables fractional ownership and efficient settlement of commodity positions.",
+    "logo": "https://icons.llamao.fi/icons/rwa/uranium.io.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://uranium.io"
+      ],
+      "twitter": "https://x.com/uranium_io",
+      "docs": "https://uranium.io/",
+      "linkedin": "https://www.linkedin.com/company/uranium-io"
+    }
+  },
+  "platform": {
+    "category": [
+      "gold-commodities"
+    ],
+    "platformType": [
+      "uranium"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "parentPlatform": "uranium-io",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "uranium-io",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://uranium.io"
+      ]
+    }
+  ]
+}

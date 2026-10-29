@@ -1,0 +1,53 @@
+{
+  "identity": {
+    "slug": "united-stables",
+    "name": "United Stables",
+    "legacyPid": 153
+  },
+  "about": {
+    "description": "United Stables issues a fiat-backed stablecoin maintained at parity with its reference currency through reserve backing and redemption mechanisms. It enables fast, low-cost settlement of stablecoin transactions.",
+    "logo": "https://icons.llamao.fi/icons/rwa/united-stables.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://u.tech/"
+      ],
+      "twitter": "https://x.com/UTechStables"
+    },
+    "foundedYear": 2025,
+    "founders": "Athena Y (CEO per launch release, no other executives named)",
+    "regulatoryStatus": "United Stables Limited is a British Virgin Islands company with registration number 2193253 under BVI governing law. The company expressly states it has not obtained registration, authorization, or licensing under MiCA, the Hong Kong Stablecoins Ordinance, the US GENIUS Act, or any securities law. Transparency relies on a live Chainlink Proof of Reserve page with no named audit firm.",
+    "keyMilestones": "2026-05: Bitget spot listing | 2026-03: deployed on TRON and Ethereum with Binance deposits opened | 2026-01: Binance spot listing with zero fee pairs | 2025-12: official launch of the U token on BNB Chain and Ethereum",
+    "entityStructureNotes": "The U token is issued by United Stables Limited in the BVI. Tokens confer no ownership or profit rights, redemption is available only to onboarded Mint Users, and reserves of cash, T-bills, and stablecoins are not held in trust. Secondary market holders have no direct redemption right."
+  },
+  "platform": {
+    "category": [
+      "fiat-stablecoins"
+    ],
+    "platformType": [
+      "usd-stable"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "parentPlatform": "united-stables",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueConfidence": "no-public-data",
+      "feeLastVerified": "2026-07-09",
+      "revenueNotes": "No issuer fee for holding or transferring. Mint Users may incur network, execution, and operational fees disclosed pre completion and waivable at issuer discretion, with no published bps schedule. Holders receive no yield so reserve income accrues to the issuer."
+    }
+  },
+  "roles": [
+    {
+      "organization": "united-stables-united-stables-holding-bvi",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://u.tech/"
+      ]
+    }
+  ]
+}

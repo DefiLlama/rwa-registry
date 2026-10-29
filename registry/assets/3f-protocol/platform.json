@@ -1,0 +1,59 @@
+{
+  "identity": {
+    "slug": "3f-protocol",
+    "name": "3F Protocol",
+    "legacyPid": 270
+  },
+  "about": {
+    "description": "3F is a Morpho-powered vault protocol providing leveraged exposure to tokenized real-world assets. Operates as a coordination layer: user picks an RWA vault, sets leverage, and 3F handles flash-loan loops, bridge orchestration, and liquidation routing. Currently offers leveraged JAAA strategies (4x); leveraged JTRSY and other RWA strategies in development. Stablecoin lenders deposit USDC/USDT to earn yield from the leverage borrowings.",
+    "logo": "https://icons.llamao.fi/icons/rwa/3f-protocol.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.3f.xyz/"
+      ],
+      "twitter": "https://x.com/3f_xyz",
+      "docs": "https://www.3f.xyz/",
+      "linkedin": "https://www.linkedin.com/company/3f-xyz/"
+    },
+    "registryInfo": "3F Protocol (3f.xyz, brand: \"3F\") — leveraged-RWA vault protocol built on top of Morpho Blue. Coordinates flash loans, bridge facilitation, and liquidation routing to provide users with leveraged exposure to tokenized RWAs. Launched private beta in early 2026. As of May 2026: ~$7M total exposure, 15.20% maximum APY advertised, 2 RWA products live. Owner address controlling wJAAA + JAAA-4X contracts: 0xa0f6cbc8dba8b106473e5f70fe04a3ea6c3bfd26. Founder/operator footprint: Sonya Sun Kim (Twitter @sonyasunkim). Provides both retail-facing leveraged vaults and institutional bridge/liquidator infrastructure."
+  },
+  "platform": {
+    "category": [
+      "rwa-wrappers",
+      "bond-mmf-funds",
+      "private-credit"
+    ],
+    "platformType": [
+      "leveraged-rwa-vault"
+    ],
+    "accessModel": "permissioned",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "parentPlatform": "3f-protocol",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Vault Performance Fee + Spread Retention",
+      "mintFeeBps": 0,
+      "redemptionFeeBps": 0,
+      "floatIncome": false,
+      "issuerDocsUrl": "https://www.3f.xyz/",
+      "tcsUrl": "https://www.3f.xyz/legal/terms-of-use",
+      "revenueConfidence": "no-public-data",
+      "feeLastVerified": "2026-05-22",
+      "revenueNotes": "3F in private beta as of March 2026; explicit fee schedule not publicly disclosed. Built atop Morpho Blue. Revenue derives from (a) vault performance fee on net yield, (b) any spread between underlying JAAA NAV growth and USDC borrow cost. Verify Confidence once 3F publishes formal docs."
+    }
+  },
+  "roles": [
+    {
+      "organization": "3f-labs-operating-entity",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.3f.xyz/"
+      ]
+    }
+  ]
+}

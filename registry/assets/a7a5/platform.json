@@ -1,0 +1,54 @@
+{
+  "identity": {
+    "slug": "a7a5",
+    "name": "A7A5",
+    "legacyPid": 154
+  },
+  "about": {
+    "description": "A7A5 issues a fiat-backed stablecoin maintained at parity with its reference currency through reserve backing and redemption mechanisms. It enables fast, low-cost settlement of stablecoin transactions.",
+    "logo": "https://icons.llamao.fi/icons/rwa/a7a5.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.a7a5.io/"
+      ],
+      "twitter": "https://x.com/A7A5official"
+    },
+    "foundedYear": 2025,
+    "headquarters": "Bishkek, Kyrgyzstan",
+    "founders": "Leonid Shumakov (Director of A7A5 per UK Sanctions List), Ilan Shor (co-owner of parent A7 LLC per OFAC)",
+    "regulatoryStatus": "Issuer Old Vector LLC is registered in Kyrgyzstan with a virtual asset issuer registration from February 2025. On 14 August 2025 US OFAC designated Old Vector, Grinex, A7 LLC and affiliates, citing the token creation with Garantex and ownership links to sanctioned oligarch Ilan Shor and Promsvyazbank. The UK designated Old Vector, Grinex, and director Leonid Shumakov in August 2025, and the EU 19th Russia sanctions package listed the A7A5 token itself in October 2025 with an EU wide transaction prohibition from 25 November 2025, the first EU restriction of a specific crypto asset.",
+    "keyMilestones": "2026-05: UK designates HTX and further A7 network entities | 2025-10: EU 19th package lists A7A5 as the first designated crypto asset | 2025-08: OFAC and UK designations of Old Vector and Grinex | 2025-03: Garantex disruption, with funds moved to successor Grinex using A7A5 per OFAC | 2025-02: Kyrgyz registration of the token issuance",
+    "entityStructureNotes": "The token is issued by Old Vector LLC of Bishkek, established in December 2024. Per OFAC it was created for Russian customers of A7 LLC, a Moscow settlement firm owned by Ilan Shor and Promsvyazbank. Reserves are ruble deposits described by US and UK authorities as held at Promsvyazbank."
+  },
+  "platform": {
+    "category": [
+      "fiat-stablecoins"
+    ],
+    "platformType": [
+      "other-fiat-stable"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "parentPlatform": "a7a5",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueConfidence": "no-public-data",
+      "feeLastVerified": "2026-07-09",
+      "revenueNotes": "No fee schedule is disclosed. The project states it passes deposit income to holders at the Central Bank of Russia key rate minus 1 point since February 2026. The token and issuer are subject to US, UK, and EU sanctions measures, see Regulatory Status."
+    }
+  },
+  "roles": [
+    {
+      "organization": "old-vector-llc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.a7a5.io/"
+      ]
+    }
+  ]
+}

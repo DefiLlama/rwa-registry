@@ -1,0 +1,45 @@
+{
+  "identity": {
+    "slug": "cygnus-finance",
+    "name": "Cygnus Finance",
+    "legacyPid": 172
+  },
+  "about": {
+    "description": "Cygnus Finance offers a stablecoin backed by real-world assets and Treasury securities, combining yield generation with price stability. It enables institutional-grade stable settlement with underlying RWA collateral.",
+    "logo": "https://icons.llamao.fi/icons/rwa/cygnus-finance.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.cygnus.finance/"
+      ],
+      "twitter": "https://x.com/CygnusDAO",
+      "docs": "https://docs.cygnus.finance/",
+      "linkedin": "https://www.linkedin.com/company/cygnus-finance"
+    }
+  },
+  "platform": {
+    "category": [
+      "rwa-stablecoins"
+    ],
+    "platformType": [
+      "yield-rwa-stable"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "base",
+    "chains": [
+      "base"
+    ],
+    "parentPlatform": "cygnus-finance",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "cygnus-finance",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.cygnus.finance/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "identity": {
+    "slug": "adi-chain",
+    "name": "ADI Chain",
+    "legacyPid": 307
+  },
+  "about": {
+    "description": "DDSC is a UAE dirham payment stablecoin issued by AEDC Stable Coin Network and Distribution L.L.C., an Abu Dhabi company established in 2025 by a consortium of International Holding Company, First Abu Dhabi Bank and Sirius International Holding. It is licensed by the Central Bank of the UAE under the Stored Value Facilities and Payment Token Services Regulations, and in July 2026 received a CBUAE No Objection Certificate to go live on selected VARA-regulated exchanges. DDSC is backed 1:1 by AED held in escrowed, ring-fenced reserves at licensed UAE banks with monthly attestations by Crowe, and settles on ADI Chain, an institutional Layer-2 developed by the ADI Foundation. The issuer does not onboard end-users directly; distribution, KYC and any fees run through licensed distribution partners.",
+    "logo": "https://icons.llamao.fi/icons/rwa/adi-chain.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.ddsc.ai/"
+      ],
+      "twitter": "https://x.com/DDSCAI",
+      "docs": "https://www.ddsc.ai/DDSC_Whitepaper.pdf",
+      "linkedin": "https://www.linkedin.com/company/ddscuae/"
+    },
+    "foundedYear": 2025,
+    "headquarters": "Abu Dhabi, United Arab Emirates",
+    "founders": "No DDSC-entity executives publicly named; consortium leadership: Syed Basar Shueb (CEO, IHC), Ajay Hans Raj Bhatia (CEO, Sirius International Holding), Futoon Hamdan AlMazrouei (FAB)",
+    "regulatoryStatus": "CBUAE-licensed under the Stored Value Facilities Regulation (Licence 05.01.01.018.2026.01) and Payment Token Services Regulation (Licence 09.01.01.004.2026.01); PTSR in-principle approval 2025-09; CBUAE No Objection Certificate (2026-07) to list on selected VARA-regulated exchanges. Licence numbers taken from ddsc.ai footer, not independently verified against a public CBUAE register.",
+    "keyMilestones": "2025-04: IHC and FAB announce AED stablecoin initiative | 2025-09: CBUAE in-principle approval under PTSR | 2025-10: DDSC White Paper v1.0 published | 2026-02: CBUAE approves operational launch on ADI Chain; Sirius joins consortium | 2026-07: CBUAE NOC for selected VARA-regulated exchanges; over AED 150m transacted since launch",
+    "entityStructureNotes": "Issuer: AEDC Stable Coin Network and Distribution L.L.C., Abu Dhabi LLC. Shareholders per whitepaper: 1968B SPV RSC Limited (33%, ADGM; presumed FAB vehicle - FAB does not appear by name in the shareholder list), Sirius Investment Holding RSC Ltd (34%, ADGM), IHC Capital Holding LLC (33%). ADI Chain is developed by the separate ADI Foundation. Whitepaper notes the board was not yet constituted as of Sep 2025."
+  },
+  "platform": {
+    "category": [
+      "fiat-stablecoins"
+    ],
+    "platformType": [
+      "other-fiat-stable"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "adi",
+    "chains": [
+      "adi"
+    ],
+    "suspicious": false,
+    "delisted": false,
+    "fees": {
+      "revenueModel": "Float Income - issuer charges no end-user fees; distribution partners set their own",
+      "holderTotalFeeBps": 0,
+      "mintFeeBps": 0,
+      "redemptionFeeBps": 0,
+      "floatIncome": true,
+      "feeScheduleUrl": "https://www.ddsc.ai/DDSC_Whitepaper.pdf",
+      "tcsUrl": "https://www.ddsc.ai/terms",
+      "revenueConfidence": "reasoned-estimate",
+      "feeLastVerified": "2026-07-20",
+      "revenueNotes": "Whitepaper section 12 states the issuer will not charge end-user fees; redemption at guaranteed 1:1 parity with no minimum. Interest on escrowed AED reserves is the only apparent issuer revenue; retention of reserve interest is not explicitly confirmed. Transparency page is a static snapshot and no Crowe attestation reports are downloadable despite the monthly-publication claim.",
+      "revenueVerificationMethod": "DDSC White Paper v1.0 section 12, ddsc.ai Terms of Use, ddsc.ai/transparency dashboard"
+    }
+  },
+  "roles": [
+    {
+      "organization": "aedc-stable-coin-network-and-distribution-l-l-c-cbuae-licensed-issuer",
+      "kind": "issuer"
+    },
+    {
+      "organization": "jointly-backed-by-international-holding-company-first-abu-dhabi-bank-and-sirius-international-holding",
+      "kind": "issuer"
+    },
+    {
+      "organization": "crowe",
+      "kind": "auditor"
+    },
+    {
+      "organization": "uae-central-bank",
+      "kind": "supervisor"
+    },
+    {
+      "organization": "first-abu-dhabi-bank",
+      "kind": "custodian"
+    }
+  ]
+}

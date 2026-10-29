@@ -1,0 +1,51 @@
+{
+  "identity": {
+    "slug": "baillie-gifford",
+    "name": "Baillie Gifford",
+    "legacyPid": 305
+  },
+  "about": {
+    "description": "Baillie Gifford is an independent investment partnership founded in 1908 and headquartered in Edinburgh, managing about 237 billion dollars for global clients. Its digital assets unit issues natively tokenized funds in which the blockchain serves as the legal register of ownership. Its first public product is the Baillie Gifford Enhanced Yield Fund, ticker BAGEY, an FCA authorised short duration corporate bond OEIC issued on Ethereum and Solana with daily dealing and USDC subscriptions.",
+    "logo": "https://icons.llamao.fi/icons/rwa/baillie-gifford.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.bailliegifford.com/digital-assets"
+      ],
+      "twitter": "https://x.com/BGDA_UK"
+    },
+    "foundedYear": 1908,
+    "headquarters": "Edinburgh, UK",
+    "founders": "Theo Golden (Head of Digital Assets and Tokenisation), Kathrin Hamilton (Partner, Tokenisation Steering Group), Stuart Dunbar (Partner)",
+    "regulatoryStatus": "FCA authorised OEIC developed through roughly a year in the FCA Regulatory Sandbox. Baillie Gifford and BNY were added to the FCA crypto register at launch. NatWest Trustee and Depositary Services Limited is depositary and BNY provides tokenisation, custody, and wallet infrastructure."
+  },
+  "platform": {
+    "category": [
+      "bond-mmf-funds"
+    ],
+    "platformType": [
+      "corp-bond-fund"
+    ],
+    "accessModel": "permissioned",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum",
+      "solana"
+    ],
+    "parentPlatform": "baillie-gifford",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Management Fee",
+      "revenueConfidence": "no-public-data",
+      "feeLastVerified": "2026-07-09",
+      "revenueNotes": "OCF and management fee are not publicly disclosed. Fund literature is professional investor gated, request via digitalassets at bailliegifford.com. Daily dealt with a daily NAV plus an indicative NAV for secondary market use."
+    }
+  },
+  "roles": [
+    {
+      "organization": "baillie-gifford-enhanced-yield-fund-uk-regulated-oeic",
+      "kind": "issuer"
+    }
+  ]
+}

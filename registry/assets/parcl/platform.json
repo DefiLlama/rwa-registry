@@ -1,0 +1,66 @@
+{
+  "identity": {
+    "slug": "parcl",
+    "name": "Parcl",
+    "legacyPid": 106,
+    "protocolSlug": "parcl"
+  },
+  "about": {
+    "description": "Parcl is a real-estate perpetual venue on Solana, founded in 2020 by Trevor Bacon (CEO), Kellan Grenier, and Jason Lewris under Parcl Labs. The platform lets users go long or short city-level housing-price indices (NYC, LA, Miami, SF, Chicago, Boston, Denver, Austin, DC, Dubai) with up to 10× leverage, all margined and cash-settled in USDC. Parcl Labs publishes its own proprietary housing-data feed via Pyth and has raised $11.6M+ across Seed and Strategic rounds from Archetype, Dragonfly Capital, ParaFi, Shima Capital, Coinbase Ventures, Solana Ventures, Fifth Wall, JAWS, and IA Capital.",
+    "logo": "https://icons.llamao.fi/icons/rwa/parcl.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.parcl.co"
+      ],
+      "twitter": "https://x.com/parcl",
+      "docs": "https://docs.parcl.co/",
+      "linkedin": "https://www.linkedin.com/company/parclco",
+      "discord": "https://discord.gg/parcl",
+      "telegram": "https://t.me/parcl",
+      "github": "https://github.com/ParclFinance"
+    },
+    "registryInfo": "Parcl Labs was founded in 2020 by CEO Trevor Bacon (ex-tech-sector portfolio manager), Kellan Grenier, and Jason Lewris. The company has raised $4.1M Seed (2021, led by Archetype) and $7.5M Strategic (May 2022) from investors including Dragonfly Capital, ParaFi, Shima Capital, Coinbase Ventures, Solana Ventures, Slow Ventures, Not Boring Capital, Tribe Capital, FJ Labs, Fifth Wall, JAWS, IA Capital, and Eberg Capital. Bacon and Grenier transitioned to strategic-advisor roles at BioSig/Streamex in 2025."
+  },
+  "platform": {
+    "category": [
+      "rwa-perps",
+      "real-estate",
+      "governance-tokens"
+    ],
+    "platformType": [
+      "perp-venue"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "solana",
+    "chains": [
+      "solana"
+    ],
+    "attestationFrequency": "N/A (Perp Venue)",
+    "marginSettlementAsset": "USDC (Solana)",
+    "parentPlatform": "parcl",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Maker/Taker Fees",
+      "revenueConfidence": "no-public-data",
+      "feeLastVerified": "2026-05-11",
+      "revenueNotes": "Parcl charges open/close fees on housing-index perpetuals plus a price-impact skew. Fees accrue to PRCL stakers and the protocol treasury. Listed real-estate indices include city-level home-price markers and aggregate US/regional indices, with oracles powered by Parcl Labs' proprietary housing-data pipeline."
+    }
+  },
+  "roles": [
+    {
+      "organization": "parcl-labs",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://parcl.co/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "N/A (Perp Venue)"
+    }
+  ]
+}

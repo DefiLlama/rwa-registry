@@ -1,0 +1,46 @@
+{
+  "identity": {
+    "slug": "infinifi",
+    "name": "infiniFi",
+    "legacyPid": 161
+  },
+  "about": {
+    "description": "infiniFi offers a stablecoin backed by real-world assets and Treasury securities, combining yield generation with price stability. It enables institutional-grade stable settlement with underlying RWA collateral.",
+    "logo": "https://icons.llamao.fi/icons/rwa/infinifi.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://infinifi.xyz/"
+      ],
+      "twitter": "https://x.com/infiniFi",
+      "refLinks": [
+        "https://infinifi.xyz?ref=XXKTY1S9"
+      ]
+    }
+  },
+  "platform": {
+    "category": [
+      "rwa-stablecoins"
+    ],
+    "platformType": [
+      "rwa-fiat-stable"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "parentPlatform": "infinifi",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "infinifi",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://infinifi.xyz/"
+      ]
+    }
+  ]
+}

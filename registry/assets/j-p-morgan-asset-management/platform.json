@@ -1,0 +1,75 @@
+{
+  "identity": {
+    "slug": "j-p-morgan-asset-management",
+    "name": "J.P. Morgan Asset Management",
+    "legacyPid": 135
+  },
+  "about": {
+    "description": "J.P. Morgan Asset Management is the asset-management arm of JPMorgan Chase & Co., one of the largest global asset managers with over $4T in AUM. In 2025 it launched the My OnChain Net Yield Fund (MONY), a Cayman-domiciled segregated portfolio investing in short-duration USD liquidity instruments and tokenized onto Ethereum. The MONY token represents shares in the fund and is restricted to qualified institutional investors. The launch is part of JPMAM's broader on-chain liquidity initiative, sitting alongside JPMorgan's Kinexys (formerly Onyx) platform and the firm's tokenized collateral mobility work. JPMAM partners with Ondo and other ecosystem participants for distribution; subscriptions and redemptions are USD-only with T+0/T+1 settlement.",
+    "logo": "https://icons.llamao.fi/icons/rwa/j.p.-morgan-asset-management.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://am.jpmorgan.com/us/en/asset-management/institutional/investment-strategies/liquidity/mony-onchain/"
+      ],
+      "twitter": "https://x.com/JPMorganAM",
+      "docs": "https://am.jpmorgan.com/",
+      "linkedin": "https://www.linkedin.com/company/j-p-morgan-asset-management"
+    },
+    "registryInfo": "My OnChain Net Yield Fund Ltd is a Cayman Islands segregated portfolio company. JPMorgan Asset Management (UK) Limited acts as investment manager (FCA-authorized, FRN 122288). Parent: JPMorgan Chase & Co. (NYSE: JPM), US bank holding company with $4T+ AUM at JPMAM globally. Fund administration provided by State Street; tokenization infrastructure provided by Ondo Finance partnership. Launched 2025 as institutional MMF tokenization initiative."
+  },
+  "platform": {
+    "category": [
+      "bond-mmf-funds"
+    ],
+    "platformType": [
+      "mmf"
+    ],
+    "accessModel": "permissioned",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "attestationFrequency": "Daily NAV publication; quarterly audited financials",
+    "parentPlatform": "j-p-morgan-asset-management",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Asset Manager Fee",
+      "holderTotalFeeBps": 15,
+      "assetManagerTakeBps": 15,
+      "tokenizationPlatformTakeBps": 0,
+      "performanceFeePct": 0,
+      "mintFeeBps": 0,
+      "redemptionFeeBps": 0,
+      "floatIncome": false,
+      "issuerDocsUrl": "https://am.jpmorgan.com/content/dam/jpm-am-aem/global/en/institutional/communications/lux-communication/onchain-faq.pdf",
+      "governanceWhitepaperUrl": "https://am.jpmorgan.com/us/en/asset-management/institutional/investment-strategies/liquidity/mony-onchain/",
+      "revenueConfidence": "reasoned-estimate",
+      "feeLastVerified": "2026-05-10",
+      "revenueNotes": "MONY fee schedule is not publicly disclosed as of audit date. The 15 bps reflects a reasoned estimate based on comparable institutional MMF tokenized share classes (e.g. Fidelity FYOXX, BlackRock BUIDL). Actual fee may differ — to be verified against the fund's offering documents when available."
+    }
+  },
+  "roles": [
+    {
+      "organization": "jpmorgan-asset-management-uk-limited-as-investment-manager",
+      "kind": "manager",
+      "sourceLinks": [
+        "https://am.jpmorgan.com/us/en/asset-management/institutional/investment-strategies/liquidity/mony-onchain/"
+      ]
+    },
+    {
+      "organization": "my-onchain-net-yield-fund-ltd-cayman-spc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://am.jpmorgan.com/us/en/asset-management/institutional/investment-strategies/liquidity/mony-onchain/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "Continuous (NAV)"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "identity": {
+    "slug": "apyx",
+    "name": "Apyx",
+    "legacyPid": 216
+  },
+  "about": {
+    "description": "Apyx offers a stablecoin backed by real-world assets and Treasury securities, combining yield generation with price stability. It enables institutional-grade stable settlement with underlying RWA collateral.",
+    "logo": "https://icons.llamao.fi/icons/rwa/apyx.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://apyx.fi"
+      ],
+      "twitter": "https://x.com/apyx_fi",
+      "docs": "https://apyx.app/",
+      "linkedin": "https://www.linkedin.com/company/apyx-asset",
+      "refLinks": [
+        "https://app.apyx.fi/join/3ve1q9l"
+      ]
+    },
+    "foundedYear": 2026,
+    "founders": "Parker White (Founding Contributor, ex DFDV COO), Joseph Onorati (Founding Contributor, DFDV CEO)",
+    "regulatoryStatus": "Apyx discloses no licenses or registrations in any jurisdiction. The protocol is made available by Preference Capital (BVI) Ltd. under BVI law with the US, EU, UK, and Canada prohibited. The only third party oversight is monthly examination level attestations by Wolf and Company P.C., a PCAOB registered audit firm, plus an Accountable proof of solvency dashboard.",
+    "keyMilestones": "2026-06: Apyx 2.0 announced after supply scaled to about 500 million, following a depeg to 90 cents during the largest ever STRC drawdown | 2026-03: BitGo added custodial support and first Wolf and Company monthly attestation | 2026-02: apxUSD launched on Ethereum with DeFi Development Corp strategic investment | 2026-01: seed round closed at a 70 million valuation",
+    "entityStructureNotes": "The protocol is made available by Preference Capital (BVI) Ltd. with reserve assets in Strategy STRC and Strive SATA preferred stock plus cash held in accounts of an Apyx Foundation whose domicile is not disclosed. The team overlaps with Nasdaq listed DeFi Development Corp. Total capital raised was 3 million dollars despite headline valuations."
+  },
+  "platform": {
+    "category": [
+      "rwa-stablecoins"
+    ],
+    "platformType": [
+      "rwa-fiat-stable"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "parentPlatform": "apyx",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueConfidence": "reasoned-estimate",
+      "feeLastVerified": "2026-07-09",
+      "revenueNotes": "apxUSD mint and redeem is whitelisted institutional only at 1 dollar with spreads and offchain execution expenses rather than a published fee. apyUSD early exit fees decline from 350 bps to 10 bps across the unlock window. Excess collateral yield above apyUSD payouts accrues to the overcollateralization buffer."
+    }
+  },
+  "roles": [
+    {
+      "organization": "apyx",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://apyx.fi"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "identity": {
+    "slug": "citadao",
+    "name": "CitaDAO",
+    "legacyPid": 101
+  },
+  "about": {
+    "description": "CitaDAO enables fractional ownership and trading of real estate assets through tokenization. It provides institutional-grade real estate exposure via blockchain infrastructure.",
+    "logo": "https://icons.llamao.fi/icons/rwa/citadao.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.citadao.io"
+      ],
+      "twitter": "https://x.com/citadao_io",
+      "docs": "https://docs.citadao.io/",
+      "linkedin": "https://www.linkedin.com/company/citadao"
+    }
+  },
+  "platform": {
+    "category": [
+      "governance-tokens",
+      "real-estate"
+    ],
+    "platformType": [
+      "governance-token"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "ethereum",
+    "chains": [
+      "ethereum"
+    ],
+    "parentPlatform": "citadao",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "citadao-protocol-limited",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.citadao.io"
+      ]
+    }
+  ]
+}

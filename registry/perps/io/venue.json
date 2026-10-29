@@ -1,0 +1,19 @@
+{
+  "slug": "io",
+  "organization": "entropy",
+  "parent": "hyperliquid",
+  "venueType": "dex",
+  "chain": "hyperliquid",
+  "adapter": "hyperliquid",
+  "published": true,
+  "oracleProvider": "Entropy equity oracle (primary listing venue in-session, depth-gated order-book EMA blend out-of-session)",
+  "accessModel": "permissionless",
+  "rwaClassification": "programmable-finance",
+  "conventionNote": "Funding is paid hourly peer to peer on the Hyperliquid HIP-3 formula scaled by a per-asset multiplier set by Entropy (0.125 on most markets, 0.5 on PRL) with no exchange cut, and fees are the HIP-3 schedule at deployer fee scale 1.0 with growth mode on.",
+  "website": "https://entropy.io/",
+  "issuer": "Entropy",
+  "marginAsset": "USDC",
+  "makerFeeBps": 0.3,
+  "takerFeeBps": 0.9,
+  "deployerFeeShare": 0.5
+}

@@ -1,0 +1,24 @@
+{
+  "identity": {
+    "slug": "colb",
+    "name": "Colb",
+    "legacyPid": 276
+  },
+  "about": {
+    "logo": "https://icons.llamao.fi/icons/rwa/colb.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://www.colb.finance"
+      ],
+      "twitter": "https://x.com/ColbFinance"
+    }
+  },
+  "platform": {
+    "category": [
+      "stocks-equities"
+    ],
+    "primaryChain": "bsc",
+    "delisted": false,
+    "llamaGradeAttestation": false
+  }
+}

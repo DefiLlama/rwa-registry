@@ -1,0 +1,25 @@
+{
+  "slug": "abcd",
+  "organization": "abcd",
+  "parent": "hyperliquid",
+  "venueType": "dex",
+  "chain": "hyperliquid",
+  "adapter": "hyperliquid",
+  "published": true,
+  "oracleProvider": "Ext. institutional feeds / 1h EMA",
+  "accessModel": "permissionless",
+  "rwaClassification": "programmable-finance",
+  "conventionNote": "Funding is paid hourly between traders on the HIP-3 formula at 0.5x the Hyperliquid rate with about 5.5% a year base and a 4% an hour cap, and fees follow the HIP-3 deployer schedule at scale 1.0 with half to the deployer.",
+  "website": "https://trade.xyz/",
+  "issuer": "trade[XYZ]",
+  "marginAsset": "USDC",
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ],
+  "makerFeeBps": 3,
+  "takerFeeBps": 9
+}

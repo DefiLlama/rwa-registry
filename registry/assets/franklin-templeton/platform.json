@@ -1,0 +1,77 @@
+{
+  "identity": {
+    "slug": "franklin-templeton",
+    "name": "Franklin Templeton",
+    "legacyPid": 73
+  },
+  "about": {
+    "description": "Franklin Templeton is a global asset manager offering blockchain-enabled tokenized funds, including money market funds and fixed-income products. It provides institutional-grade RWA solutions for on-chain investing.",
+    "logo": "https://icons.llamao.fi/icons/rwa/franklin-templeton.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://digitalassets.franklintempleton.com/benji/"
+      ],
+      "twitter": "https://x.com/FTI_US",
+      "docs": "https://www.franklintempleton.com/",
+      "linkedin": "https://www.linkedin.com/company/franklin-templeton",
+      "discord": "N/A (institutional)",
+      "telegram": "N/A (institutional)",
+      "github": "N/A (closed source)"
+    },
+    "registryInfo": "Franklin Resources, Inc. (NYSE: BEN). Global asset manager with $1.7T+ AUM. Issuer of BENJI (Franklin OnChain US Government Money Fund, FOBXX) — the first SEC-registered 1940 Act money-market fund with on-chain shares, launched April 2021. Multi-chain: Stellar, Polygon, Avalanche, Arbitrum, Base, Aptos.",
+    "foundedYear": 2021,
+    "headquarters": "San Mateo, USA",
+    "founders": "Jenny Johnson (President, CEO, Franklin Resources), Roger Bayston (Head of Digital Assets)",
+    "regulatoryStatus": "FOBXX is a US registered 1940 Act money market fund under SEC Rule 2a-7, a series of Franklin Templeton Trust with shares recorded on blockchain via the Benji platform. BENJI tokens represent fund shares one to one with the transfer agent maintaining the official register on blockchain. The parent Franklin Resources Inc. is NYSE listed.",
+    "keyMilestones": "2026-04: five years of BENJI marked with the Stellar Development Foundation | 2025-06: intraday yield feature launched on Benji | 2025-02: BENJI expanded to Solana reaching 8 supported blockchains | 2023-04: fund expanded to Polygon | 2021-04: FOBXX launched as the first US registered fund using a public blockchain for share processing",
+    "entityStructureNotes": "FOBXX is a series of the Delaware organized Franklin Templeton Trust advised by Franklin Advisers Inc., a subsidiary of Franklin Resources Inc. The Benji platform is the in house tokenization and transfer agency technology. BENJI spans Stellar, Ethereum, Polygon, Arbitrum, Base, Avalanche, Aptos, Solana, and BNB Chain."
+  },
+  "platform": {
+    "category": [
+      "bond-mmf-funds"
+    ],
+    "platformType": [
+      "mmf"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "stellar",
+    "chains": [
+      "stellar"
+    ],
+    "attestationFrequency": "Daily",
+    "parentPlatform": "franklin-templeton",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Management Fee",
+      "holderTotalFeeBps": 20,
+      "assetManagerTakeBps": 20,
+      "tokenizationPlatformTakeBps": 0,
+      "performanceFeePct": 0,
+      "mintFeeBps": 0,
+      "redemptionFeeBps": 0,
+      "underlyingFundExpenseBps": 20,
+      "floatIncome": false,
+      "revenueConfidence": "public-filings",
+      "feeLastVerified": "2026-07-09",
+      "feeWaiverEndDate": "2026-07-31",
+      "revenueNotes": "Total annual operating expenses are contractually capped at 20 bps net via fee waiver running to 2026-07-31 per the latest 485BPOS, with a materially higher gross expense ratio before waivers. The waiver renews annually so the effective fee could change."
+    }
+  },
+  "roles": [
+    {
+      "organization": "franklin-templeton-trust-franklin-onchain-u-s-government-money-fund",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://digitalassets.franklintempleton.com/benji/"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "attestation",
+      "note": "Daily NAV (40-Act)"
+    }
+  ]
+}

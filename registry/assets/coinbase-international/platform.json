@@ -1,0 +1,53 @@
+{
+  "identity": {
+    "slug": "coinbase-international",
+    "name": "Coinbase International",
+    "legacyPid": 323
+  },
+  "about": {
+    "description": "Coinbase International Exchange is the offshore derivatives venue of Nasdaq-listed Coinbase (founded 2012 by Brian Armstrong and Fred Ehrsam), launched in May 2023 and operated by Coinbase Bermuda Limited under Usman Naeem as CEO. It began moving beyond crypto in 2026, launching US stock perpetual futures on 2026-03-20 with the Magnificent 7 plus SPY and QQQ, adding gold and silver perpetuals on 2026-05-06, and opening pre-IPO perpetuals on OpenAI and Anthropic on 2026-06-22 following an earlier SpaceX market. The RWA lineup stands at roughly 33 contracts within a venue of more than 180 markets. All contracts are USDC-margined and USDC-settled on crypto rails with funding applied hourly, and stock perps carry up to 10x leverage on single names and 20x on ETFs with cross-margining against crypto perps and spot. The venue serves non-US institutions directly, while retail traders in eligible countries access the same markets through Coinbase Advanced.",
+    "logo": "https://icons.llamao.fi/icons/rwa/coinbase-international.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://international.coinbase.com"
+      ],
+      "twitter": "https://x.com/coinbase",
+      "docs": "https://docs.cdp.coinbase.com/international-exchange/introduction/welcome",
+      "linkedin": "https://www.linkedin.com/company/coinbase"
+    },
+    "foundedYear": 2023,
+    "headquarters": "Hamilton, Bermuda",
+    "founders": "Brian Armstrong (Co-Founder and CEO, Coinbase), Usman Naeem (CEO, Coinbase Bermuda Limited), Jeffrey Baron (Chief Operating Officer, Coinbase Bermuda Limited)",
+    "regulatoryStatus": "The venue is operated by Coinbase Bermuda Limited, doing business as Coinbase International Exchange, which holds a Class F digital asset business license from the Bermuda Monetary Authority under the Digital Asset Business Act 2018. The BMA approved the venue for institutional perpetual futures at its May 2023 launch and extended approval to eligible non-US retail customers via Coinbase Advanced in September 2023. US persons are strictly prohibited, and derivatives are not available to UK retail clients. The parent, Coinbase Global Inc, is a US-listed company that also operates the CFTC-regulated Coinbase Derivatives Exchange domestically and closed its acquisition of options venue Deribit in August 2025.",
+    "keyMilestones": "2012-06: Coinbase founded by Brian Armstrong and Fred Ehrsam | 2023-05: Coinbase International Exchange launches in Bermuda under a BMA Class F license, giving Coinbase an offshore perps venue | 2023-09: BMA approval extends perpetual futures to eligible non-US retail via Coinbase Advanced | 2025-08: Deribit acquisition closes at roughly 2.9 billion dollars, the largest crypto M&A deal to date | 2026-03: Stock perpetual futures launch on 2026-03-20 with the Magnificent 7, SPY and QQQ, starting the Everything Exchange RWA push | 2026-05: Gold and silver perpetuals launch on 2026-05-06 | 2026-06: Pre-IPO perpetuals on OpenAI and Anthropic open on 2026-06-22 after the SpaceX market",
+    "entityStructureNotes": "Coinbase Bermuda Limited (dba Coinbase International Exchange), an exempted company incorporated in Bermuda with registered office at 46 Reid Street, Hamilton, is the operating entity, wholly owned by Coinbase Global Inc (US). Retail access is routed through Coinbase Advanced in eligible non-US countries. Deribit operates as a separately branded Coinbase-owned options venue."
+  },
+  "platform": {
+    "category": [
+      "rwa-perps"
+    ],
+    "platformType": [
+      "perp-venue"
+    ],
+    "accessModel": "permissioned",
+    "marginSettlementAsset": "USDC",
+    "parentPlatform": "coinbase-international",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false,
+    "fees": {
+      "revenueModel": "Perp Maker/Taker Fees",
+      "issuerDocsUrl": "https://help.coinbase.com/en/international-exchange/trading-deposits-withdrawals/international-exchange-fees",
+      "governanceWhitepaperUrl": "https://www.coinbase.com/legal/user_agreement/cbbm_cbsl",
+      "revenueConfidence": "issuer-disclosed",
+      "feeLastVerified": "2026-07-30",
+      "revenueNotes": "Bermuda-regulated INTX, non-US only, 1h funding. US entity offers crypto-only perps."
+    }
+  },
+  "roles": [
+    {
+      "organization": "coinbase-bermuda-limited-dba-coinbase-international-exchange",
+      "kind": "issuer"
+    }
+  ]
+}

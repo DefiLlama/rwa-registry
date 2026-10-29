@@ -1,0 +1,46 @@
+{
+  "identity": {
+    "slug": "aria-protocol",
+    "name": "Aria Protocol",
+    "legacyPid": 26
+  },
+  "about": {
+    "description": "Aria Protocol is a governance and incentive token for its protocol ecosystem, enabling community decision-making and participation in protocol economics. It aligns stakeholder interests through tokenized governance.",
+    "logo": "https://icons.llamao.fi/icons/rwa/aria-protocol.png?w=48&h=48",
+    "links": {
+      "website": [
+        "https://ariaprotocol.xyz"
+      ],
+      "twitter": "https://x.com/Aria_Protocol",
+      "docs": "https://docs.aria.finance/",
+      "linkedin": "https://www.linkedin.com/company/aria-protocol"
+    }
+  },
+  "platform": {
+    "category": [
+      "governance-tokens",
+      "other-rwas"
+    ],
+    "platformType": [
+      "governance-token"
+    ],
+    "accessModel": "permissionless",
+    "primaryChain": "sty",
+    "chains": [
+      "sty"
+    ],
+    "parentPlatform": "aria-protocol",
+    "suspicious": false,
+    "delisted": false,
+    "llamaGradeAttestation": false
+  },
+  "roles": [
+    {
+      "organization": "aria-protocol-labs-inc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://ariaprotocol.xyz"
+      ]
+    }
+  ]
+}
