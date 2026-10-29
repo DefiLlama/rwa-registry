@@ -3,7 +3,7 @@ import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { describe, expect, it, vi } from 'vitest';
 import { discoverDates } from '../../src/discover/discoverDates';
-import { readPatches } from '../../src/import/applyPatch';
+import { readPatches } from '../../src/utils/patchCsv';
 import { RateLimitedError } from '../../src/errors';
 import { assetFile, baseTree, registryOf, undatedTslax } from '../fixtures/tree';
 import type { HttpRequest } from '../../src/clients/http';

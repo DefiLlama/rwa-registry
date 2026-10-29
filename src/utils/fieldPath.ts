@@ -1,6 +1,6 @@
 /**
  * fieldPath: a JSON path such as deployments[0].deployedAt as its steps, and the value read or set at it on a copy.
- * @dev review: src/import/applyPatch.ts, src/cli/fieldValue.ts
+ * @dev review: src/cli/fieldValue.ts, src/cli/commands/set.ts
  */
 export type Step = string | number;
 

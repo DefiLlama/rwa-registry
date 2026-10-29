@@ -6,7 +6,6 @@
 import { Command } from 'commander';
 import type { Ask } from './ask';
 import { ack } from './commands/ack';
-import { apply } from './commands/apply';
 import { addAsset } from './commands/add-asset';
 import { addChain } from './commands/add-chain';
 import { addMarket } from './commands/add-market';
@@ -19,9 +18,7 @@ import { addVenue } from './commands/add-venue';
 import { build } from './commands/build';
 import { delist } from './commands/delist';
 import { discover } from './commands/discover';
-import { importCommand } from './commands/import';
 import { merge } from './commands/merge';
-import { migrate } from './commands/migrate';
 import { pause } from './commands/pause';
 import { resume } from './commands/resume';
 import { review } from './commands/review';
@@ -45,9 +42,6 @@ export interface CliCommand {
 
 const commands: CliCommand[] = [
   validate,
-  importCommand,
-  migrate,
-  apply,
   build,
   schema,
   addAsset,

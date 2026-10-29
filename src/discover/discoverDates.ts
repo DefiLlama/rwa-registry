@@ -1,10 +1,10 @@
 /**
- * discoverDates: the undated deployments and the markets with no listing event, read in batches and appended to a patch file the import applies; rows it holds are skipped and a capped read resumes from its cursor. Each chain is its own lane of batches and the lanes run side by side, so a slow chain never holds a fast one.
- * @dev review: src/discover/readers/index.ts, src/discover/listings/index.ts, src/import/applyPatch.ts
+ * discoverDates: the undated deployments and the markets with no listing event, read in batches and appended to a patch csv; rows it holds are skipped and a capped read resumes from its cursor. Each chain is its own lane of batches and the lanes run side by side, so a slow chain never holds a fast one.
+ * @dev review: src/discover/readers/index.ts, src/discover/listings/index.ts, src/utils/patchCsv.ts
  */
 import { existsSync } from 'node:fs';
 import { marketTarget, type VenueTarget } from './listings/listingReader';
-import { appendPatchFile, readPatches, UNKNOWN, type PatchRow } from '../import/applyPatch';
+import { appendPatchFile, readPatches, UNKNOWN, type PatchRow } from '../utils/patchCsv';
 import { chainIdOf } from '../registry';
 import { placeOf, type Place } from '../registry/place';
 import type { Registry } from '../schema';

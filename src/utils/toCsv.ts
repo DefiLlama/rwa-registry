@@ -1,6 +1,6 @@
 /**
  * toCsv: rows to RFC 4180 text with a header line; a cell holding a comma, a quote or a newline is quoted.
- * @dev review: src/cli/commands/validate.ts, src/import/writeReport.ts
+ * @dev review: src/cli/commands/validate.ts
  */
 const quote = (value: unknown): string => {
   const text = value == null ? '' : String(value);

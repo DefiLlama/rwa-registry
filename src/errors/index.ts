@@ -5,6 +5,5 @@
 export * from './rwaError';
 export * from './schema';
 export * from './registry';
-export * from './import';
 export * from './clients';
 export * from './cli';

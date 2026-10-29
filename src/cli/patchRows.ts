@@ -1,13 +1,13 @@
 /**
- * patchRows: one row per value a command changed in a registry file, in the columns of the import's patch csv, so `import --patches` reads them.
- * @dev review: src/import/applyPatch.ts
+ * patchRows: one row per value a command changed in a registry file, in the columns of the patch csv, the registry's own change log under patches/<day>.csv.
+ * @dev review: src/utils/patchCsv.ts
  */
 import { mkdirSync } from 'node:fs';
 import { join } from 'node:path';
-import { appendPatchFile, cellOf, UNKNOWN, type PatchRow } from '../import/applyPatch';
+import { appendPatchFile, cellOf, UNKNOWN, type PatchRow } from '../utils/patchCsv';
 import { isObject } from '../utils/isObject';
 
-export type { PatchRow } from '../import/applyPatch';
+export type { PatchRow } from '../utils/patchCsv';
 
 export interface PatchSource {
   source: string;
