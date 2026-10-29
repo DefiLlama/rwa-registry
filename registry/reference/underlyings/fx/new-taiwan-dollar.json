@@ -2,6 +2,6 @@
   "slug": "new-taiwan-dollar",
   "name": "New Taiwan Dollar",
   "ticker": "TWD.FX",
-  "exposure": "fiat-currencies",
-  "currency": "twd"
+  "logo": "https://icons.llamao.fi/icons/rwa/twd.png?w=48&h=48",
+  "exposure": "fiat-currencies"
 }

@@ -2,6 +2,7 @@
   "slug": "spx6900",
   "name": "SPX6900",
   "ticker": "SPX",
+  "logo": "https://icons.llamao.fi/icons/rwa/spx.png?w=48&h=48",
   "exposure": "crypto-digital-assets",
   "excludedReason": "crypto token, not an RWA exposure"
 }

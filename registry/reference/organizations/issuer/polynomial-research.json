@@ -2,5 +2,8 @@
   "identity": {
     "slug": "polynomial-research",
     "name": "Polynomial Research"
+  },
+  "about": {
+    "registryInfo": "OpenStock is operated by Polynomial Research. Each vault is paired with a single purpose, bankruptcy remote special purpose vehicle that subscribes to the allocation, signs the broker mandate, holds the shares with a custodian and wires net proceeds back on chain. The vehicle carries one class of claim matching the vault token, with no tranche ranking above holders. The vehicle, custodian and broker are named per vault by the platform rather than in the product documentation. Access excludes United States persons and Hong Kong residents."
   }
 }

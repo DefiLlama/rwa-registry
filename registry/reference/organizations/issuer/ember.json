@@ -2,5 +2,8 @@
   "identity": {
     "slug": "ember",
     "name": "Ember"
+  },
+  "about": {
+    "registryInfo": "Ember operates the R25 Treasury vault on Sui (0x6013f760aa089ef027e9b92f7c09edf5fef73ef6b48fc5ecd8af62a4ef2db3d8) with R25 as strategy manager; the two appear as co-managers on the vault's sub-accounts."
   }
 }

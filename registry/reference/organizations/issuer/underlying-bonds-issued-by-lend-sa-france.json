@@ -2,5 +2,8 @@
   "identity": {
     "slug": "underlying-bonds-issued-by-lend-sa-france",
     "name": "underlying bonds issued by Lend SA (France)"
+  },
+  "about": {
+    "registryInfo": "Flint operated by KBL LLC FZ (UAE free zone; not found in public registries - UNVERIFIED). Underlying bonds: Lend SA, France, public bond offerings under Monetary and Financial Code Art. L411-2, filed with AMF, advised by D&A Partners. Curator: 9Summits (established Morpho/Lagoon curator, ~$24M AUM). Vault infrastructure: Lagoon Finance (ERC-7540), audited by Nethermind (7 reports v0.1-v0.5.1)."
   }
 }

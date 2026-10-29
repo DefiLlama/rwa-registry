@@ -2,5 +2,8 @@
   "identity": {
     "slug": "reality-bitget-subsidiary",
     "name": "Reality (Bitget subsidiary)"
+  },
+  "about": {
+    "registryInfo": "Reality is a licensed real-world asset issuance platform operating as a subsidiary of the Bitget exchange group. Underlying securities are custodied through Alpaca Securities LLC (FINRA CRD 288202, SEC file 8-69928), a FINRA-registered and SIPC-covered US broker-dealer. Proof of asset attestations are performed by The Network Firm LLP, a Miami-headquartered CPA firm specializing in digital-asset and RWA attestations via its LedgerLens real-time attestation platform. rTokens are issued on Arbitrum One with 24/5 mint and redemption, on-chain dividend distributions in stablecoins, and automatic handling of stock splits and corporate actions."
   }
 }

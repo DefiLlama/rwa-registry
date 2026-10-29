@@ -2,5 +2,8 @@
   "identity": {
     "slug": "pilgrim-investment-vcc-sub-fund-t24vc0084d-sf004-manager-pilgrim-partners-asia-mas-cms",
     "name": "Pilgrim Investment VCC sub-fund T24VC0084D-SF004 (manager: Pilgrim Partners Asia, MAS CMS)"
+  },
+  "about": {
+    "registryInfo": "Monthly subscription series of the Peakwater Volatility Alpha Fund, registered sub-fund T24VC0084D-SF004 of Pilgrim Investment VCC (Singapore VCC Act); manager Pilgrim Partners Asia (MAS CMS licence); tokenized and distributed by DigiFT (MAS-licensed exchange). Listed as its own row rather than as an extra contract on pEAK (#4094) because each series carries its own NAV - one combined row blends units across NAVs and books phantom flows at every roll-up. DigiFT SubRedManagement contract balance (pending subscriptions/redemptions) excluded."
   }
 }

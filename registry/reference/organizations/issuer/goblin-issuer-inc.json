@@ -2,5 +2,8 @@
   "identity": {
     "slug": "goblin-issuer-inc",
     "name": "Goblin Issuer Inc"
+  },
+  "about": {
+    "registryInfo": "Goblin Issuer Inc is the token-issuing\n  entity for the Goblin Finance private credit product suite. Public\n  jurisdiction and formal registration were not surfaced in disclosed\n  materials. GPCI is deployed on the Pharos Mainnet as a permissioned ERC-20\n  with USDC as the underlying deposit asset and settlement is coordinated\n  through the Ember Protocol tokenization rail. Ember and Goblin ALM smart\n  contracts have been audited by Movebit and Plainshift."
   }
 }

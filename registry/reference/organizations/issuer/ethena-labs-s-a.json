@@ -2,5 +2,8 @@
   "identity": {
     "slug": "ethena-labs-s-a",
     "name": "Ethena Labs, S.A."
+  },
+  "about": {
+    "registryInfo": "Ethena Labs, S.A. is a Portuguese company limited by shares that develops the USDe protocol. The sUSDe staking contract is an ERC-4626 vault on Ethereum that holds USDe and accrues protocol rewards to stakers through the share price."
   }
 }

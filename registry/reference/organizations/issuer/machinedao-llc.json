@@ -2,5 +2,8 @@
   "identity": {
     "slug": "machinedao-llc",
     "name": "MachineDAO LLC"
+  },
+  "about": {
+    "registryInfo": "MachineDAO LLC is a non-profit DAO LLC organised under the laws of the Republic of the Marshall Islands. It controls the onchain treasury and approves capital allocation through DEUS voting. A foundation entity executes offchain investments and holds legal title to assets on behalf of the DAO, and a separate special-purpose entity handles token issuance."
   }
 }

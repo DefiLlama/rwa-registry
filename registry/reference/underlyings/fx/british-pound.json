@@ -2,6 +2,6 @@
   "slug": "british-pound",
   "name": "British Pound",
   "ticker": "GBP.FX",
-  "exposure": "fiat-currencies",
-  "currency": "gbp"
+  "logo": "https://icons.llamao.fi/icons/rwa/gbp.png?w=48&h=48",
+  "exposure": "fiat-currencies"
 }

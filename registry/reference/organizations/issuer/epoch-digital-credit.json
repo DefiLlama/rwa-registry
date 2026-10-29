@@ -2,5 +2,8 @@
   "identity": {
     "slug": "epoch-digital-credit",
     "name": "EPOCH Digital Credit"
+  },
+  "about": {
+    "registryInfo": "TPLUS is a Cayman SPC regulated by CIMA, independently administered by Ascent, audited by Forvis Mazars, with custody at Anchorage Digital and on-chain proof of reserves plus daily NAV feeds via Chainlink. Zodiac issues zTPLUS as the permissionless wrapper of the fund. eTPLUS is the ERC-4626 vault receipt issued on the Ember Protocol tokenization rail, the same rail behind GPCI (Pharos) and rcUSD (Sui); Epoch Digital is named as vault manager in Ember's API."
   }
 }

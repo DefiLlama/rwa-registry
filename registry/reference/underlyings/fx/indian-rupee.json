@@ -2,6 +2,6 @@
   "slug": "indian-rupee",
   "name": "Indian Rupee",
   "ticker": "INR.FX",
-  "exposure": "fiat-currencies",
-  "currency": "inr"
+  "logo": "https://icons.llamao.fi/icons/rwa/inr.png?w=48&h=48",
+  "exposure": "fiat-currencies"
 }

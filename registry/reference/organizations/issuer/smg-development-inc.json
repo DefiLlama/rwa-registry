@@ -2,5 +2,8 @@
   "identity": {
     "slug": "smg-development-inc",
     "name": "SMG Development Inc."
+  },
+  "about": {
+    "registryInfo": "SMG Development Inc. is a British Virgin Islands company operating the Stake My Gold platform, stated to be independent from the underlying GGBR issuer. STGGBR wraps GGBR (Goldfish Gold), which is backed by NI 43-101 verified in-situ (unmined, in-ground) gold reserves of I-ON Digital Corp (OTCQB: IONI), over-collateralized approximately 5 to 1 with UCC-1 liens against the mining property. Physical redemption at the GGBR base layer is offered via Monex, and custody controls are handled at the GGBR layer using Fireblocks. STGGBR itself is an ERC-4626 tokenized-vault wrapper that accrues yield via daily targetAPY injections priced against GGBR."
   }
 }

@@ -2,5 +2,8 @@
   "identity": {
     "slug": "frax-inc",
     "name": "FRAX Inc"
+  },
+  "about": {
+    "registryInfo": "Legacy FRAX stablecoin issued by the Frax Finance Protocol; distinct from Frax USD (frxUSD), the newer fiat-redeemable stablecoin."
   }
 }

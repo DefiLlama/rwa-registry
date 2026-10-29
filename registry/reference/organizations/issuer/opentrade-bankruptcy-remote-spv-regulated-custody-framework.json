@@ -2,5 +2,8 @@
   "identity": {
     "slug": "opentrade-bankruptcy-remote-spv-regulated-custody-framework",
     "name": "OpenTrade (bankruptcy-remote SPV + regulated custody framework)"
+  },
+  "about": {
+    "registryInfo": "Client-specific OpenTrade vault (symbol XDFIS-DeFi-2) discovered via OpenTrade PoolFactory; several zero-supply XDFIS test clones exist and must not be counted (0x1b7dd356..., 0x1f04e890..., 0x4de33b57..., 0x3a07befb..., 0xca02f78a...). Single funded holder; ERC-4626-style shares minted only against USDC deposits."
   }
 }

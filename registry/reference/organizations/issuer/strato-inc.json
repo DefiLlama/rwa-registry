@@ -2,5 +2,8 @@
   "identity": {
     "slug": "strato-inc",
     "name": "STRATO, Inc."
+  },
+  "about": {
+    "registryInfo": "Two British Virgin Islands entities appear in the platform's own legal documents. STRATO, Inc., registration 2179057, is named in the terms of service and tokenization terms as the operator and metals counterparty. STRATO Nexus, Inc, registration 2210755, is named in the privacy policy as operator of the site and interfaces. Governing law is British Virgin Islands with arbitration before the BVI International Arbitration Centre and a class action waiver. BlockApps, Inc., a New York company, is the software developer and holds the documentation copyright. No entity is identified anywhere as the issuer of this token specifically, and the terms of service do not reference the ticker at all. No money transmitter, e-money or stablecoin licence was located. Precious metal collateral is custodied by BA Gold Enterprises, Inc. of West 47th Street, New York, an independent jewellery and fine metals wholesaler that is not an accredited bullion depository. Monthly vaulting confirmations are authored by the custodian's own general counsel rather than an independent auditor. The only independent physical count on file is a certified public accountant engagement effective 31 December 2025, at which point gold holdings were roughly one ninth of the amount later claimed. Non metal collateral sits in a two of three Gnosis Safe on Ethereum at 0x8c458F866e603335ef179A63a2528F357732f5d5. The token proxy admin is a separate two of three Gnosis Safe at 0x95b47C329286128d9Ee628770B13dd4D795CbF55 with no timelock and no modules. No completed audit report exists."
   }
 }

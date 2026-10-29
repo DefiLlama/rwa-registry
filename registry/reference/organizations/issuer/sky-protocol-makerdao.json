@@ -2,5 +2,8 @@
   "identity": {
     "slug": "sky-protocol-makerdao",
     "name": "Sky Protocol (MakerDAO)"
+  },
+  "about": {
+    "registryInfo": "Decentralized stablecoin issued by the Sky Protocol (formerly MakerDAO) through overcollateralized on-chain vaults; no single centralized issuer."
   }
 }

@@ -2,5 +2,8 @@
   "identity": {
     "slug": "hiyield-vault-spvs-managed-by-wsfs-bank-execution-via-raymond-james",
     "name": "HiYield (vault SPVs managed by WSFS Bank, execution via Raymond James)"
+  },
+  "about": {
+    "registryInfo": "HiYield documentation describes ERC-4626 credit vaults and a whitelist manager gating access (KYC/KYB). Legal structure notes offchain assets held in SPVs managed by WSFS Bank with capital markets execution through Raymond James."
   }
 }

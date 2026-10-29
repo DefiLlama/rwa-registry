@@ -2,6 +2,6 @@
   "slug": "japanese-yen",
   "name": "Japanese Yen",
   "ticker": "JPY.FX",
-  "exposure": "fiat-currencies",
-  "currency": "jpy"
+  "logo": "https://icons.llamao.fi/icons/rwa/jpy.png?w=48&h=48",
+  "exposure": "fiat-currencies"
 }

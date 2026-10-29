@@ -2,5 +2,8 @@
   "identity": {
     "slug": "regnum-aurum-acquisition-corp",
     "name": "Regnum Aurum Acquisition Corp."
+  },
+  "about": {
+    "registryInfo": "Regnum Aurum Acquisition Corp. is a British Virgin Islands business company (Registration No. 2149666, incorporated 27 May 2024) operating under the brand RAAC. Governing law is BVI with LCIA arbitration seated in BVI. Founder and CEO Kevin Rusher. Contact admin@raac.io. pmUSD is issued as an EIP-1967 upgradeable ERC-20 proxy (implementation 0x32d93b015562cc8da0ef3ccbccc3f8e1da8541d8) within the RAAC RWf(x) suite. The underlying collateral is ION.au, a gold-backed digital security issued by I-ON Digital Corp (OTCQB: IONI), a publicly listed US company. Each ION.au token issued corresponds to 5 ounces of NI 43-101 verified in-situ (in ground) gold reserves. RAAC mints $90 of pmUSD for each $100 of ION.au collateral, creating an approximately 111 percent overcollateralization buffer. Attestation is via a Chainlink Proof of Reserve feed and the pmusd.raac.io transparency dashboard."
   }
 }

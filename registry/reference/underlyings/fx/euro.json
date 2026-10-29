@@ -2,6 +2,6 @@
   "slug": "euro",
   "name": "Euro",
   "ticker": "EUR.FX",
-  "exposure": "fiat-currencies",
-  "currency": "eur"
+  "logo": "https://icons.llamao.fi/icons/rwa/eur.png?w=48&h=48",
+  "exposure": "fiat-currencies"
 }

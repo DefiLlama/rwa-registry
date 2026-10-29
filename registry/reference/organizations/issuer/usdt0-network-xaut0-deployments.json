@@ -2,5 +2,8 @@
   "identity": {
     "slug": "usdt0-network-xaut0-deployments",
     "name": "USDT0 Network (XAUt0 deployments)"
+  },
+  "about": {
+    "registryInfo": "USDT0 Network documentation describes XAUt0 as an Omnichain Fungible Token (LayerZero OFT) minted 1:1 against XAUt locked on Ethereum via an OFT Adapter contract."
   }
 }

@@ -2,6 +2,7 @@
   "slug": "diadata",
   "name": "DIAdata",
   "ticker": "DIA",
+  "logo": "https://icons.llamao.fi/icons/rwa/dia.png?w=48&h=48",
   "exposure": "crypto-digital-assets",
   "excludedReason": "crypto token, not an RWA exposure"
 }

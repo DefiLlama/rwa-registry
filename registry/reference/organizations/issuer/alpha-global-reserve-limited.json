@@ -2,5 +2,8 @@
   "identity": {
     "slug": "alpha-global-reserve-limited",
     "name": "Alpha Global Reserve Limited"
+  },
+  "about": {
+    "registryInfo": "Alpha Global Reserve Limited (Company No. 2202727, consistent with a British Virgin Islands company) is the named issuer of XAUa. Alpha Token operates a portal at alphatoken.com and communicates via Twitter and a WhatsApp channel. The whitepaper is written in explicit non-binding language: material claims about custodian identity, vault location, auditor identity, and attestation frequency are prefaced as \"assumptions of current intended design\" that do not represent binding commitments. As of this review the following transparency gaps are unresolved. No auditor is publicly named for either the asset reserve or the smart contract. No proof of reserves page is published at alphatoken.com/reserves or alphatoken.com/transparency, both of which redirect to the homepage. No Chainlink Proof of Reserves feed exists for the contract. The custodian is described only as \"including but not limited to Brink's\" without a specific vault identifier. The company jurisdiction is not stated in the whitepaper. Redemption for physical bars requires aggregation to LBMA Good Delivery bar sizes, and stablecoin redemption is discretionary. On-chain total supply as of the review date is approximately 10 XAUa (10 grams of gold, approximately one thousand two hundred United States dollars notional) held across two addresses, one of which is the issuer Gnosis Safe. The row is flagged Suspicious pending publication of a named auditor, a proof of reserves page, and a specific vault identifier."
   }
 }

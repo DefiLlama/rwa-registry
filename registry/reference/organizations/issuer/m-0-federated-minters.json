@@ -2,5 +2,8 @@
   "identity": {
     "slug": "m-0-federated-minters",
     "name": "M^0 (federated Minters)"
+  },
+  "about": {
+    "registryInfo": "M is issued via the M^0 framework by approved Minters; protocol validators verify collateral and publish attestations per documentation."
   }
 }

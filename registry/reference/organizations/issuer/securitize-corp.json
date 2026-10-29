@@ -3,6 +3,9 @@
     "slug": "securitize-corp",
     "name": "Securitize Corp."
   },
+  "about": {
+    "registryInfo": "SEC-registered blockchain-native common stock of Securitize Holdings, Inc. (NYSE: SECZ), CIK 0002094496 (SIC 6199, Finance Services). Delaware C-corporation. Public listing completed 2026-07-02 via business combination with Cantor Equity Partners II SPAC. Securitize Transfer Agent, LLC (SEC-registered, CIK 0001782266) maintains the official record of ownership across both traditional book-entry form and native on-chain issuances. Deployed as ERC-20 on Avalanche (permissioned via Securitize DS Protocol) and as SPL Token-2022 on Solana with default-frozen account state and pausable authority for KYC gating."
+  },
   "identifiers": [
     {
       "scheme": "lei",

@@ -2,5 +2,8 @@
   "identity": {
     "slug": "fidelity-international-fil-ltd",
     "name": "Fidelity International (FIL Ltd)"
+  },
+  "about": {
+    "registryInfo": "First tokenized fund of Fidelity International (FIL Ltd), launched 13 May 2026 with Sygnum tokenization infrastructure and Chainlink NAV publication; rated Aaa-mf by Moody's; strategy mirrors FIL's ~$7B Irish-domiciled USD LVNAV liquidity fund (high-quality government securities + ABCP). Two share classes: FILQ-A (accumulating) and FILQ-D (distributing), both 2 decimals."
   }
 }

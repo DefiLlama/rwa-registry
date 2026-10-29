@@ -2,5 +2,8 @@
   "identity": {
     "slug": "aave-dao",
     "name": "Aave DAO"
+  },
+  "about": {
+    "registryInfo": "Decentralized stablecoin governed by the Aave DAO and minted through the Aave Protocol against user-supplied collateral."
   }
 }

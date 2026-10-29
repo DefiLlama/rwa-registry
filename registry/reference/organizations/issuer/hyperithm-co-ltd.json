@@ -2,5 +2,8 @@
   "identity": {
     "slug": "hyperithm-co-ltd",
     "name": "Hyperithm Co., Ltd."
+  },
+  "about": {
+    "registryInfo": "Hyperithm Co., Ltd. is a digital asset manager headquartered in Tokyo and Seoul, founded in January 2018. It is registered as a Specially Permitted Business for Qualified Institutional Investors (Article 63 registration) under the Japan Financial Services Agency, and holds a Virtual Asset Service Provider registration granted by the Korea Financial Intelligence Unit under the Financial Services Commission AML regime. The underlying cbBTC is Coinbase Wrapped BTC on Monad (0xd18b7ec58cdf4876f6afebd3ed1730e4ce10414b), bridged from Base via Chainlink CCIP infrastructure. Reserves and vault positions are continuously verified through Hyperithm accountable.hyperithm.com dashboard, which uses zero-knowledge proofs and Merkle-sum-tree root hashes for cryptographic real-time attestation. Related products include aHYPER (HYPE-denominated Monad vault) and Kamino Hyperithm USDC Apex Vault on Solana."
   }
 }

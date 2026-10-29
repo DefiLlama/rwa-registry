@@ -2,6 +2,6 @@
   "slug": "swiss-franc",
   "name": "Swiss Franc",
   "ticker": "CHF.FX",
-  "exposure": "fiat-currencies",
-  "currency": "chf"
+  "logo": "https://icons.llamao.fi/icons/rwa/chf.png?w=48&h=48",
+  "exposure": "fiat-currencies"
 }

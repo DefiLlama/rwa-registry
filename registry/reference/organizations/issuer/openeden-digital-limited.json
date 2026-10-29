@@ -2,5 +2,8 @@
   "identity": {
     "slug": "openeden-digital-limited",
     "name": "OpenEden Digital Limited"
+  },
+  "about": {
+    "registryInfo": "OpenEden Digital Limited (OED) is licensed by the Bermuda Monetary Authority under Digital Asset Business Act license number 202403468 and is structured as a Segregated Accounts Company. cUSDO is issued as an ERC-4626 tokenized vault wrapper of USDO (OpenEden OpenDollar). Every cUSDO share represents a claim on a growing amount of underlying USDO through the ERC-4626 convertToAssets rate. Because the underlying USDO is fully backed by tokenized short-dated US Treasury bills, all attestation and reserve backing flows through from the base USDO layer."
   }
 }

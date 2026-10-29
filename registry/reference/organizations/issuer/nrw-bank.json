@@ -3,6 +3,9 @@
     "slug": "nrw-bank",
     "name": "NRW.BANK"
   },
+  "about": {
+    "registryInfo": "Domicile: Germany, Regulatory framework: German Electronic Securities Act, Platform: Cashlink"
+  },
   "identifiers": [
     {
       "scheme": "lei",

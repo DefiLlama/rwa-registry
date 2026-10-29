@@ -2,6 +2,7 @@
   "slug": "btc-volatility-index",
   "name": "BTC Volatility Index",
   "ticker": "BVOL.IDX",
+  "logo": "https://icons.llamao.fi/icons/rwa/bvol.png?w=48&h=48",
   "exposure": "crypto-digital-assets",
   "excludedReason": "crypto market index, not an RWA exposure"
 }

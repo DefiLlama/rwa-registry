@@ -2,6 +2,6 @@
   "slug": "canadian-dollar",
   "name": "Canadian Dollar",
   "ticker": "CAD.FX",
-  "exposure": "fiat-currencies",
-  "currency": "cad"
+  "logo": "https://icons.llamao.fi/icons/rwa/cad.png?w=48&h=48",
+  "exposure": "fiat-currencies"
 }

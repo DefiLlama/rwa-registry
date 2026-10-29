@@ -2,5 +2,8 @@
   "identity": {
     "slug": "rs-carmen-hotel-llc",
     "name": "RS Carmen Hotel, LLC"
+  },
+  "about": {
+    "registryInfo": "Issuing entity RS Carmen Hotel, LLC (no SEC EDGAR filings found - pre-offering). Issued in parallel on Hedera (two deployments) and Stellar Soroban (two deployments), each carrying identical full supply - only the primary Hedera token is tracked to avoid quadruple counting. Zero transfer events since creation; listings are in \"Express Interest\" status on RedSwan's marketplace (\"not for sale\"), with no SEC filings yet for the issuing LLCs - pre-offering stage with 100% issuer-held supply."
   }
 }

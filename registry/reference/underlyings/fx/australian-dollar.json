@@ -2,6 +2,6 @@
   "slug": "australian-dollar",
   "name": "Australian Dollar",
   "ticker": "AUD.FX",
-  "exposure": "fiat-currencies",
-  "currency": "aud"
+  "logo": "https://icons.llamao.fi/icons/rwa/aud.png?w=48&h=48",
+  "exposure": "fiat-currencies"
 }

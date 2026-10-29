@@ -2,5 +2,8 @@
   "identity": {
     "slug": "garret-inc",
     "name": "Garret INC"
+  },
+  "about": {
+    "registryInfo": "No public registry record for the issuer could be located. The issuer is identified as Garret INC, a United States corporation, with an EIN of 87-1576956, neither of which appears on the project website, in either document published through the Proof of Reserve contract, or in the token metadata records. The surname appears once in the issuer's published material, as an annotation reading Charles Garret filling the attestor line of the custody document published for the bond token. Neither the entity name nor the EIN can be independently confirmed, because no public registry of employer identification numbers exists for for-profit entities and no record for Garret INC or Trinity Protocol appears in the GLEIF registry or in SEC EDGAR. The metadata records the issuer publishes name no issuing entity, although the gold record does name a custodian and a marking entity. The identifier the Proof of Reserve contract publishes as an issuer LEI is the string TRINITY-PROTOCOL-RWA, which is exactly twenty characters but contains hyphens and ends in letters where ISO 17442 requires alphanumeric characters throughout and two check digits calculated under ISO 7064."
   }
 }

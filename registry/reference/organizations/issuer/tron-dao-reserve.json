@@ -2,5 +2,8 @@
   "identity": {
     "slug": "tron-dao-reserve",
     "name": "TRON DAO Reserve"
+  },
+  "about": {
+    "registryInfo": "Crypto-collateralized stablecoin associated with the TRON ecosystem and managed via TRON DAO Reserve mechanisms."
   }
 }

@@ -2,6 +2,7 @@
   "slug": "total-crypto-market-cap-ex-btc",
   "name": "Total Crypto Market Cap ex-BTC",
   "ticker": "TOTAL2",
+  "logo": "https://icons.llamao.fi/icons/rwa/total2.png?w=48&h=48",
   "exposure": "crypto-digital-assets",
   "excludedReason": "crypto market index, not an RWA exposure"
 }

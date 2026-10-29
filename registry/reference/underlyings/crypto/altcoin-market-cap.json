@@ -2,6 +2,7 @@
   "slug": "altcoin-market-cap",
   "name": "Altcoin Market Cap",
   "ticker": "OTHERS",
+  "logo": "https://icons.llamao.fi/icons/rwa/others.png?w=48&h=48",
   "exposure": "crypto-digital-assets",
   "excludedReason": "crypto market index, not an RWA exposure"
 }

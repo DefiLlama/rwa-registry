@@ -2,6 +2,7 @@
   "slug": "bitcoin-dominance",
   "name": "Bitcoin Dominance",
   "ticker": "BTCD",
+  "logo": "https://icons.llamao.fi/icons/rwa/btcd.png?w=48&h=48",
   "exposure": "crypto-digital-assets",
   "excludedReason": "crypto market index, not an RWA exposure"
 }

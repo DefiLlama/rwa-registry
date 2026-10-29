@@ -2,5 +2,8 @@
   "identity": {
     "slug": "great-bridge-capital-company-llc-guggenheim-treasury-services-spv",
     "name": "Great Bridge Capital Company LLC (Guggenheim Treasury Services SPV)"
+  },
+  "about": {
+    "registryInfo": "Great Bridge Capital Company LLC, a bankruptcy-remote SPV established by Guggenheim Treasury Services, rated Prime-1 by Moody's; backed by maturity-matched US Treasuries with maturities up to 397 days. Ripple invested $10M in the program; >$280M cumulative issuance by June 2025. Ethereum leg is an ERC-1155 (one token-id per CP issue, 2 implied decimals); XRPL issuer rnXNUqF8... issues dated GDCPyyyymmdd currencies with clawback enabled."
   }
 }

@@ -2,5 +2,8 @@
   "identity": {
     "slug": "openeden-digital-openeden",
     "name": "OpenEden Digital (OpenEden)"
+  },
+  "about": {
+    "registryInfo": "OpenEden Digital Limited (OED) is licensed by the Bermuda Monetary Authority under Digital Asset Business Act license number 202403468, structured as a Segregated Accounts Company. USDO is deployed as an EIP-1967 upgradeable ERC-20 proxy on Ethereum, Base, BSC, and Kaia and as a Solana Token-2022 mint with transferHook and metadata extensions. All five chain deployments are verified against the CoinGecko platform contract map for openeden-open-dollar. A separate ERC-4626 wrapper called cUSDO (Compounding Open Dollar, ethereum:0xaD55aebc9b8c03FC43cd9f62260391c13c23e7c0) provides non-rebasing DeFi composability. Because cUSDO holds a significant share of Ethereum USDO in its vault (approximately 18.29 million USDO at review), the cUSDO contract is listed as a holder to remove for active marketcap purposes to avoid double-counting with the separately tracked cUSDO row."
   }
 }

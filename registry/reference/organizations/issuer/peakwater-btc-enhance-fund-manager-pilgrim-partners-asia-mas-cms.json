@@ -2,5 +2,8 @@
   "identity": {
     "slug": "peakwater-btc-enhance-fund-manager-pilgrim-partners-asia-mas-cms",
     "name": "Peakwater BTC Enhance Fund (manager: Pilgrim Partners Asia, MAS CMS)"
+  },
+  "about": {
+    "registryInfo": "Peakwater BTC Enhance Fund, managed by Pilgrim Partners Asia (MAS CMS licence); tokenized and distributed by DigiFT (MAS-licensed exchange). Sibling of the Peakwater Volatility Alpha Fund (pEAK). This token is the fund's lead series: the original pEAK.BTC contract (0x21768b6f7c76324f323a0e9f93f18bf32344c8af) was converted into it on 2026-01-24 and later monthly series (pEAK.BTC1225/0126/0226/0326/0626) roll into it quarterly, so those contracts hold no supply. DigiFT SubRedManagement contract balance (pending subscriptions/redemptions) excluded."
   }
 }
