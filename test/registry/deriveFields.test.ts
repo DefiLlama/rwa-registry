@@ -48,7 +48,7 @@ describe('deriveFields', () => {
       ],
       'assets/xstocks/susde.json': withClass(assetFile('susde', 8818, { structure: 'stable-yield-wrapper' }), {
         stablecoin: false,
-        flagReason: 'the server publishes false from the sheet row',
+        flagReason: 'the server publishes false today',
       }),
       'assets/xstocks/apyusd.json': assetFile('apyusd', 2994, { structure: 'stable-yield-wrapper' }),
       'assets/xstocks/tslax.json': withClass(tslaxFile(), { stablecoin: true, flagReason: 'the server publishes true' }),

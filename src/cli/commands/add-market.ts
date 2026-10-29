@@ -1,5 +1,5 @@
 /**
- * add market: perps/<venue>/<lowercase symbol>.json; its published id is the lowercase venue:symbol, so no legacy id; its listing event comes from the venue when the venue dates it.
+ * add market: perps/<venue>/<lowercase symbol>.json; its published id is the lowercase venue:symbol, so no legacy id unless the template keeps one; its listing event comes from the venue when the venue dates it, and --no-discover asks no venue.
  * @dev review: src/cli/addCommand.ts, src/discover/discoverReads.ts
  */
 import { marketTarget } from '../../discover/listings/listingReader';
@@ -37,7 +37,10 @@ export const createAddMarketCommand = (
         flag: '--oracle <text>',
         description: "the market's oracle where it differs from the venue's oracleProvider, Pyth equity feed",
       },
-      { flag: '--no-discover', description: 'never ask the venue for the listing date' },
+      {
+        flag: '--no-discover',
+        description: 'never ask the venue for the listing date; the market gets no listing event from it',
+      },
     ],
     fromFlags: (values) => ({
       venue: values.venue,
@@ -48,17 +51,18 @@ export const createAddMarketCommand = (
       pair: values.pair,
       oracleProvider: values.oracle,
     }),
-    files: async (template, registry, { note, flags, sheet }) => {
+    files: async (template, registry, { note, flags }) => {
       const market = { venue: String(template.venue), symbol: String(template.symbol) };
       const venue = registry.venue.find((row) => row.slug === market.venue);
-      // A sheet row's listing date comes with the dates batch, not from the venue.
       const reads =
-        flags.discover === false || !venue || sheet
+        flags.discover === false || !venue
           ? null
           : (deps.reads ?? ((log) => discoverReads(deps.env ?? process.env, log)))(note);
       const [listing] = reads ? await reads.listings([marketTarget(market, venue!)]) : [];
       const name = `${market.venue}:${market.symbol}`;
-      if (listing && listing.date === null) note(`${name}: no listing date (${whyOf(listing)}), so no listing event`);
+      if (flags.discover === false) note(`${name}: no listing event from the venue under --no-discover`);
+      else if (listing && listing.date === null)
+        note(`${name}: no listing date (${whyOf(listing)}), so no listing event`);
       else if (listing) note(`${name}: listing ${listing.date} from ${listing.source} (${listing.basis})`);
       const events = [...((template.events as unknown[] | undefined) ?? [])];
       if (listing && listing.date !== null) events.push(listingEvent(listing));

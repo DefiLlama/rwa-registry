@@ -3,7 +3,7 @@ import { join } from 'node:path';
 import { describe, expect, it } from 'vitest';
 import { baseTree, writeTree } from '../../fixtures/tree';
 import { templateFile } from '../../../src/cli/templates';
-import { readJson, readText, runCli } from '../runCli';
+import { readJson, readText, runCli, templateCopy } from '../runCli';
 
 const venue = [
   '--venue-type',
@@ -83,5 +83,29 @@ describe('add venue', () => {
 
     expect(code).toBe(0);
     expect(readText(byFile, 'perps/hibachi/venue.json')).toBe(readText(byFlags, 'perps/hibachi/venue.json'));
+  });
+
+  it('writes the operator a template carries beside the venue when the registry has no organization of its slug', async () => {
+    const root = writeTree({
+      ...baseTree(),
+      'reference/chains/arbitrum.json': { slug: 'arbitrum', label: 'Arbitrum', addressFamily: 'evm' },
+    });
+    const operator = { slug: 'hibachi', name: 'Hibachi', links: { website: ['https://hibachi.xyz'] } };
+
+    const { code } = await runCli([
+      'add',
+      'venue',
+      '--registry',
+      root,
+      '--from',
+      templateCopy('venue', (filled) => ({ ...filled, operator })),
+    ]);
+
+    expect(code).toBe(0);
+    expect(readJson(root, 'perps/hibachi/venue.json').organization).toBe('hibachi');
+    expect(readJson(root, 'perps/hibachi/organization.json')).toEqual({
+      identity: { slug: 'hibachi', name: 'Hibachi' },
+      about: { links: { website: ['https://hibachi.xyz'] } },
+    });
   });
 });

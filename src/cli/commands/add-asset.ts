@@ -1,11 +1,12 @@
 /**
- * add asset: one asset file under assets/<platform>/ with the next legacy id, every deployment dated, from the flag, the template or the chain, and its issuer role.
+ * add asset: one asset file under assets/<platform>/ with its legacy id, kept from the template or the next free one, every deployment dated from the flag, the template or the chain unless --no-discover leaves it undated, and its issuer role.
  * @dev review: src/cli/addCommand.ts, src/discover/discoverReads.ts
  */
 import type { Env } from '../../config/loadConfig';
 import { whyOf } from '../../discover/dateResult';
 import { discoverReads, type DiscoverReads } from '../../discover/discoverReads';
 import { FlagFormatError, MissingFieldError, NoSuchRowError } from '../../errors/cli';
+import { UndatedDeploymentError } from '../../errors/registry';
 import { chainIdOf, homeFile, nextAssetKeys } from '../../registry';
 import type { Registry } from '../../schema';
 import { defineAddCommand, fileContent, organizationChoices, vocabularyChoices, type FlagValues } from '../addCommand';
@@ -30,7 +31,9 @@ const inKeyForm = (deployment: Deployment, registry: Registry): Deployment => {
     : deployment;
 };
 
-// A deployment given without its date is dated from the chain, and refused when the chain does not say.
+const named = (deployment: Deployment) => `${deployment.chain}:${deployment.address}`;
+
+// A deployment given without its date is dated from the chain, and refused when the chain does not say; with no reads it stays undated, noted once, and validate warns until the date is set.
 const dated = async (
   deployments: Deployment[],
   registry: Registry,
@@ -39,10 +42,10 @@ const dated = async (
 ) => {
   const undated = deployments.filter(({ deployedAt }) => !deployedAt);
   if (!undated.length) return deployments;
-  const named = (deployment: Deployment) => `${deployment.chain}:${deployment.address}`;
   if (!reads) {
-    const message = `${undated.map(named).join(', ')}: no deployment date; pass :<YYYY-MM-DD> or leave out --no-discover`;
-    throw new FlagFormatError({ file: FILE, message });
+    const names = undated.map(named).join(', ');
+    note(`${names}: left undated under --no-discover; validate warns undated-deployment until deployedAt is set`);
+    return deployments;
   }
   const chains = new Map(registry.chain.map((chain) => [chain.slug, chain]));
   const unknown = undated.find(({ chain }) => !chains.has(chain));
@@ -76,7 +79,7 @@ const primaryOf = (deployments: Deployment[], chain: unknown): Deployment[] => {
 
 type Role = { organization: string; kind: string; sourceLinks?: string[] };
 
-// The roles in the order the import writes them: the issuer and its tokenizer first, then the oracle and the auditor.
+// The roles in their written order: the issuer and its tokenizer first, then the oracle and the auditor.
 const rolesOf = (values: FlagValues): Role[] => {
   const source = values.issuerSource === undefined ? {} : { sourceLinks: [String(values.issuerSource)] };
   const others = (['tokenizer', 'oracle', 'auditor'] as const).flatMap((kind) =>
@@ -147,7 +150,11 @@ export const createAddAssetCommand = (
         description: "the chain whose deployment is primary, the first deployment's chain by default",
       },
       { flag: '--coingecko-id <id>', description: 'the CoinGecko id, when it has one' },
-      { flag: '--no-discover', description: 'never ask the chain for a missing deployment date' },
+      {
+        flag: '--no-discover',
+        description:
+          'never ask the chain for a missing deployment date; a deployment given without one stays undated, and validate warns until it is set',
+      },
     ],
     fromFlags: (values) => ({
       platform: values.platform,
@@ -163,17 +170,17 @@ export const createAddAssetCommand = (
       deployments: (values.deployment as string[]).map(deploymentOf),
       roles: rolesOf(values),
     }),
-    files: async ({ platform, primaryChain, ...row }, registry, { note, flags, sheet }) => {
+    files: async ({ platform, primaryChain, ...row }, registry, { note, flags }) => {
       const roles = checkedRoles((row.roles ?? []) as Role[], registry);
       const canonicalMarketId = String(row.canonicalMarketId ?? row.symbol);
-      // A sheet row keeps the RWA ID and slug the app already serves.
-      const { legacyId, slug } = sheet
-        ? { legacyId: row.legacyId as number, slug: String(row.slug) }
-        : nextAssetKeys(registry, canonicalMarketId);
+      const { legacyId, slug } = nextAssetKeys(registry, canonicalMarketId, {
+        legacyId: row.legacyId as number | null | undefined,
+        slug: row.slug as string | null | undefined,
+      });
       const given = ((row.deployments ?? []) as Deployment[]).map((deployment) => inKeyForm(deployment, registry));
       const reads =
         flags.discover === false ? null : (deps.reads ?? ((log) => discoverReads(deps.env ?? process.env, log)))(note);
-      const deployments = primaryOf(sheet ? given : await dated(given, registry, reads, note), primaryChain);
+      const deployments = primaryOf(await dated(given, registry, reads, note), primaryChain);
       const content = fileContent('asset', {
         ...row,
         slug,
@@ -183,7 +190,10 @@ export const createAddAssetCommand = (
         deployments,
         roles,
       });
-      return [{ path: homeFile('asset', { platform, slug }), content }];
+      const undated = deployments.some(({ deployedAt }) => !deployedAt);
+      return [
+        { path: homeFile('asset', { platform, slug }), content, allows: undated ? [UndatedDeploymentError.name] : [] },
+      ];
     },
   });
 

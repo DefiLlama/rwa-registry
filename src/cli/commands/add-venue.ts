@@ -1,9 +1,16 @@
 /**
- * add venue: perps/<slug>/venue.json, unpublished until its adapter lands, and its operator beside it, perps/<slug>/organization.json, when the flags leave it out and none exists.
+ * add venue: perps/<slug>/venue.json, unpublished until its adapter lands, and its operator beside it, perps/<slug>/organization.json, from the template's operator or the flags' name, when the registry has none of that slug.
  * @dev review: src/cli/addCommand.ts
  */
 import { homeFile, rowSlug, rwaSlug } from '../../registry';
-import { defineAddCommand, fileContent, vocabularyChoices } from '../addCommand';
+import { isObject } from '../../utils/isObject';
+import { defineAddCommand, fileContent, vocabularyChoices, type FlagValues, type Template } from '../addCommand';
+
+// The operator a new venue brings: the template's operator object, or the flags' name under the slug rwaSlug makes when no --organization names one.
+const operatorOf = (template: Template, flags: FlagValues): Template | null => {
+  if (flags.from !== undefined) return isObject(template.operator) ? template.operator : null;
+  return flags.organization === undefined ? { slug: template.organization, name: flags.name } : null;
+};
 
 export const addVenue = defineAddCommand({
   name: 'add venue',
@@ -50,29 +57,15 @@ export const addVenue = defineAddCommand({
     accessModel: values.accessModel,
     rwaClassification: values.rwaClassification,
   }),
-  files: (template, registry, { flags, sheet }) => {
+  files: (template, registry, { flags }) => {
+    const { operator: _, ...row } = template;
     const venue = {
-      path: homeFile('venue', template),
-      content: fileContent('venue', { ...template, published: template.published ?? false }),
+      path: homeFile('venue', row),
+      content: fileContent('venue', { ...row, published: row.published ?? false }),
     };
-    const organization = String(template.organization);
-    // A sheet venue brings its operator whole, written beside it when the registry lacks it.
-    if (sheet) {
-      const operator = sheet.operator;
-      if (!operator || registry.organization.some((row) => row.slug === organization)) return [venue];
-      const owner = { ...operator, kind: 'venue-operator', venue: template.slug };
-      const { kind: _, venue: __, ...content } = owner;
-      return [venue, { path: homeFile('organization', owner), content: fileContent('organization', content) }];
-    }
-    const named = flags.from !== undefined || flags.organization !== undefined;
-    if (named || registry.organization.some((row) => row.slug === organization)) return [venue];
-    const owner = { slug: organization, name: flags.name, kind: 'venue-operator', venue: template.slug };
-    return [
-      venue,
-      {
-        path: homeFile('organization', owner),
-        content: fileContent('organization', { slug: organization, name: flags.name }),
-      },
-    ];
+    const operator = operatorOf(template, flags);
+    if (!operator || registry.organization.some((item) => item.slug === operator.slug)) return [venue];
+    const home = { ...operator, kind: 'venue-operator', venue: row.slug };
+    return [venue, { path: homeFile('organization', home), content: fileContent('organization', operator) }];
   },
 });

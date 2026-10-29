@@ -5,7 +5,7 @@ import { describe, expect, it } from 'vitest';
 import { TABLE_NAMES } from '../../../src/schema';
 import { runCli } from '../runCli';
 
-// The repository before migrate lands its first stage: registry/ and acks/ hold only a .gitkeep each.
+// The repository before the data lands: registry/ and acks/ hold only a .gitkeep each.
 const emptyRepository = () => {
   const repo = mkdtempSync(join(tmpdir(), 'rwa-empty-'));
   for (const dir of ['registry', 'acks']) {

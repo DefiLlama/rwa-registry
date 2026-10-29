@@ -5,14 +5,14 @@
 import { FlagFormatError } from '../errors/cli';
 import { tables, toFile, type ChildKey, type Registry, type TableName, type VocabularyName } from '../schema';
 import { isObject } from '../utils/isObject';
-import { checkTemplate, readTemplate, TEMPLATES, type Template, type TemplateName } from './templates';
+import type { CliCommand } from './index';
+import { readTemplate, TEMPLATES, type Template, type TemplateName } from './templates';
 import {
   defineWriteCommand,
   optionKey,
   type Field,
   type FileToWrite,
   type FlagValues,
-  type WriteCommand,
   type WriteContext,
 } from './writeCommand';
 
@@ -21,15 +21,6 @@ export type { Template } from './templates';
 
 export interface AddContext extends WriteContext {
   flags: FlagValues;
-  // Set when migrate hands over a row of the sheet: the command keeps its slug and legacy id, asks no chain or venue
-  // for a date, and leaves an undated deployment undated for the dates batch.
-  sheet?: SheetRow;
-}
-
-// A sheet row as migrate hands it to an add command: the row as its template holds it and, for a venue, its operator.
-export interface SheetRow {
-  template: Template;
-  operator?: Template;
 }
 
 export interface AddSpec {
@@ -80,7 +71,7 @@ const unlessFrom = (field: Field): Field => ({
     (typeof field.required === 'function' ? field.required(values) : field.required === true),
 });
 
-export const defineAddCommand = (spec: AddSpec): WriteCommand =>
+export const defineAddCommand = (spec: AddSpec): CliCommand =>
   defineWriteCommand({
     name: spec.name,
     description: spec.description,
@@ -99,10 +90,5 @@ export const defineAddCommand = (spec: AddSpec): WriteCommand =>
       }
       const template = readTemplate(String(values.from), TEMPLATES[spec.template]);
       return spec.files(template, registry, { ...context, flags: values });
-    },
-    fromInput: (input, registry, context) => {
-      const sheet = input as SheetRow;
-      const template = checkTemplate(sheet.template, TEMPLATES[spec.template], spec.name, true);
-      return spec.files(template, registry, { ...context, flags: {}, sheet });
     },
   });

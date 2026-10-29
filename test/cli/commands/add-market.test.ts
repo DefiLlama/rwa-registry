@@ -26,11 +26,15 @@ const add = async (listing: DateResult, flags = {}) => {
 };
 
 describe('add market', () => {
-  it('writes perps/<venue>/<lowercase symbol>.json with no legacy id, and no event under --no-discover', async () => {
-    const { code, file, listings } = await add(found(1, null, 'x', 'listing-field'), { discover: false });
+  it('writes perps/<venue>/<lowercase symbol>.json with no legacy id, and no event under --no-discover, noted', async () => {
+    const { code, file, lines, listings } = await add(found(1, null, 'x', 'listing-field'), { discover: false });
 
     expect(code).toBe(0);
     expect(listings).not.toHaveBeenCalled();
+    expect(lines).toEqual([
+      'xyz:TSLA_USD: no listing event from the venue under --no-discover',
+      expect.stringMatching(/^wrote .*perps\/xyz\/tsla_usd\.json$/),
+    ]);
     expect(file()).toEqual({
       identity: { symbol: 'TSLA_USD' },
       tracks: { underlying: 'tesla-inc', structure: 'stock-perp' },

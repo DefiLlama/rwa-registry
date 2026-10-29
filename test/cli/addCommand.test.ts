@@ -167,11 +167,6 @@ const REFUSALS: [string, (root: string) => string[], string][] = [
     'reference/vocabularies/asset-kind.json: asset-kind is not a vocabulary',
   ],
   [
-    'a template that sets the legacy id another asset holds',
-    () => fromAsset((template) => ({ ...template, identity: { ...template.identity, legacyId: 257 } })),
-    'asset.json: legacyId is 257; the command fills it or leaves it out, so leave it null',
-  ],
-  [
     'a template without a field the file path is made from',
     () => fromAsset((template) => ({ ...template, platform: null })),
     'asset.json: platform is required',

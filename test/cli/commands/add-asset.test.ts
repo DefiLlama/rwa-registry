@@ -41,6 +41,11 @@ const tree = (extra: Tree = {}) => ({
   ...extra,
 });
 
+// The underlying templates/asset.json tracks.
+const IONQ: Tree = {
+  'reference/underlyings/equity/ionq-inc.json': { slug: 'ionq-inc', name: 'IonQ, Inc.', exposure: 'public-equities' },
+};
+
 const add = (
   root: string,
   symbol = 'NVDAx',
@@ -93,6 +98,9 @@ const runWith = async (command: CliCommand, root: string, deployment: string[], 
   return { code, lines };
 };
 
+const withIdentity = (fields: Record<string, unknown>) =>
+  templateCopy('asset', (filled) => ({ ...filled, identity: { ...filled.identity, ...fields } }));
+
 describe('add asset', () => {
   it('writes the asset file with the next legacy id above the export, its dated deployments and the defaults', async () => {
     const root = writeTree(tree());
@@ -139,6 +147,46 @@ describe('add asset', () => {
     expect(readJson(root, 'assets/xstocks/tslax-9718.json').identity.canonicalMarketId).toBe('TSLAX');
   });
 
+  it('keeps the slug and legacy id a template gives', async () => {
+    const root = writeTree(tree(IONQ));
+
+    const { code } = await runCli([
+      'add',
+      'asset',
+      '--registry',
+      root,
+      '--from',
+      withIdentity({ slug: 'ionq-xstock', legacyId: 258 }),
+    ]);
+
+    expect(code).toBe(0);
+    expect(readJson(root, 'assets/xstocks/ionq-xstock.json').identity).toMatchObject({
+      slug: 'ionq-xstock',
+      legacyId: 258,
+    });
+  });
+
+  it('refuses a template whose legacy id another asset holds, naming the id, and writes nothing', async () => {
+    const root = writeTree(tree(IONQ));
+
+    const { code, lines } = await runCli([
+      'add',
+      'asset',
+      '--registry',
+      root,
+      '--from',
+      withIdentity({ legacyId: 257 }),
+      '--json',
+    ]);
+
+    expect(code).toBe(1);
+    expect(lines).toEqual([
+      `${join(root, 'assets/xstocks/tslax.json')}: legacyId 257 is also on asset ionqx`,
+      `${join(root, 'assets/xstocks/ionqx.json')}: legacyId 257 moved from tslax to ionqx`,
+    ]);
+    expect(existsSync(join(root, 'assets/xstocks/ionqx.json'))).toBe(false);
+  });
+
   it('dates a deployment given without its date from the discover reader and notes the source', async () => {
     const root = writeTree(tree());
     const dated = found(1751155200, 5, 'https://explorer.solana.com/tx/sig0', 'first-signature');
@@ -155,32 +203,41 @@ describe('add asset', () => {
     ]);
   });
 
-  it('refuses an undated deployment the reader cannot date, and any undated one under --no-discover', async () => {
+  it('refuses an undated deployment the reader cannot date', async () => {
     const root = writeTree(tree());
     const dates = vi.fn(async (queries: DateQuery[]) => queries.map(() => missing('page-cap', 'getSignatures')));
     const command = createAddAssetCommand({ reads: () => ({ dates, listings: vi.fn() }) });
 
-    const unread = await runWith(command, root, [`solana:${SOLANA}`]);
-    const skipped = await runWith(command, root, [`solana:${SOLANA}`], { discover: false });
+    const { lines } = await runWith(command, root, [`solana:${SOLANA}`]);
 
-    expect(unread.lines).toEqual([
+    expect(lines).toEqual([
       `add asset: solana:${SOLANA}: no deployment date (page-cap: getSignatures); pass :<YYYY-MM-DD>`,
     ]);
-    expect(skipped.lines).toEqual([expect.stringContaining('--no-discover')]);
-    expect(dates).toHaveBeenCalledTimes(1);
     expect(existsSync(join(root, 'assets/xstocks/nvdax.json'))).toBe(false);
   });
 
+  it('leaves a deployment undated under --no-discover, asks no chain, and notes that validate warns', async () => {
+    const root = writeTree(tree());
+    const dates = vi.fn();
+    const command = createAddAssetCommand({ reads: () => ({ dates, listings: vi.fn() }) });
+
+    const { code, lines } = await runWith(command, root, [`solana:${SOLANA}`], { discover: false });
+    const validated = await runCli(['validate', '--registry', root]);
+
+    expect(code).toBe(0);
+    expect(dates).not.toHaveBeenCalled();
+    expect(JSON.parse(lines.join('\n')).notes).toEqual([
+      `solana:${SOLANA}: left undated under --no-discover; validate warns undated-deployment until deployedAt is set`,
+    ]);
+    expect(readJson(root, 'assets/xstocks/nvdax.json').deployments).toEqual([
+      { chain: 'solana', address: SOLANA, primary: true },
+    ]);
+    expect(validated.lines).toEqual([expect.stringMatching(/^warning: undated-deployment: 1 /)]);
+  });
+
   it('writes from templates/asset.json the file the flags write, roles included', async () => {
-    const ionq = {
-      'reference/underlyings/equity/ionq-inc.json': {
-        slug: 'ionq-inc',
-        name: 'IonQ, Inc.',
-        exposure: 'public-equities',
-      },
-    };
-    const byFlags = writeTree(tree(ionq));
-    const byFile = writeTree(tree(ionq));
+    const byFlags = writeTree(tree(IONQ));
+    const byFile = writeTree(tree(IONQ));
     const { platform, ...file } = readTemplate('asset');
     const template = { platform, ...toRow('asset', file) } as Record<string, any>;
     const [issuer, ...others] = template.roles;
@@ -224,15 +281,7 @@ describe('add asset', () => {
   });
 
   it('keeps from the template the label and event the flags cannot give', async () => {
-    const root = writeTree(
-      tree({
-        'reference/underlyings/equity/ionq-inc.json': {
-          slug: 'ionq-inc',
-          name: 'IonQ, Inc.',
-          exposure: 'public-equities',
-        },
-      }),
-    );
+    const root = writeTree(tree(IONQ));
 
     const { code } = await runCli([
       'add',

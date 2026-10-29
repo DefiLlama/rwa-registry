@@ -19,6 +19,8 @@ export const checkStaged = (
   root: string,
   before: { registry: Registry; problems: Problem[] },
   files: StagedFile[],
+  // ignore: the error kinds let through, by error name, which validate then reports as warnings.
+  options: { ignore?: string[] } = {},
 ): Problem[] => {
   const stage = mkdtempSync(join(tmpdir(), 'rwa-add-'));
   try {
@@ -37,8 +39,9 @@ export const checkStaged = (
     }
     // An error the registry already had is not the new files' to fix.
     const known = new Set(before.problems.map(problemId));
+    const ignored = new Set(options.ignore ?? []);
     return loadRegistry(copy, before.registry).problems.filter(
-      (problem) => problem.severity === 'error' && !known.has(problemId(problem)),
+      (problem) => problem.severity === 'error' && !known.has(problemId(problem)) && !ignored.has(problem.error),
     );
   } finally {
     rmSync(stage, { recursive: true, force: true });

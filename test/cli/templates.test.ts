@@ -31,24 +31,24 @@ const misordered = (schema: z.ZodObject, value: Record<string, unknown>, at: str
   ];
 };
 
-// What the command puts where the template leaves null: a slug it makes and a legacy id it gives.
-const MADE: Record<string, unknown> = { slug: 'made-by-the-command', legacyId: 9718 };
+// What the command assigns where the template leaves null: a slug it makes and a legacy id it gives.
+const ASSIGNED: Record<string, unknown> = { slug: 'made-by-the-command', legacyId: 9718 };
 
 describe.each(Object.entries(TEMPLATES))('templates/%s.json', (name, spec: TemplateSpec) => {
-  it('holds every field of its file in its blocks in schema order and parses, with the fields the command makes left null', () => {
-    const { [spec.implied ?? '']: implied, ...file } = JSON.parse(
-      readFileSync(templateFile(name as keyof typeof TEMPLATES), 'utf8'),
-    );
+  it('holds every field of its file in its blocks in schema order and parses, with the fields the command assigns left null', () => {
+    const json = JSON.parse(readFileSync(templateFile(name as keyof typeof TEMPLATES), 'utf8'));
+    const outside = new Set([spec.implied, spec.beside]);
+    const file = Object.fromEntries(Object.entries(json).filter(([key]) => !outside.has(key)));
     const omitted = new Set(spec.omits ?? []);
     const shape = Object.fromEntries(Object.entries(files[spec.table].shape).filter(([key]) => !omitted.has(key)));
     const row = toRow(spec.table, file);
-    const made = Object.fromEntries(
-      [...(spec.leftNull ?? []), ...(spec.derived ?? [])].map((key) => [key, MADE[key] ?? null]),
-    );
+    const assigned = spec.assigned ?? [];
+    const made = Object.fromEntries(assigned.map((key) => [key, ASSIGNED[key]]));
 
     expect(misordered(z.strictObject(shape), file, name)).toEqual([]);
-    expect((spec.leftNull ?? []).map((key) => row[key])).toEqual((spec.leftNull ?? []).map(() => null));
-    expect(spec.implied ? slug.safeParse(implied).success : true).toBe(true);
+    expect(assigned.map((key) => row[key])).toEqual(assigned.map(() => null));
+    expect(spec.implied ? slug.safeParse(json[spec.implied]).success : true).toBe(true);
+    expect(spec.beside ? json[spec.beside] : null).toBeNull();
     expect(files[spec.table].safeParse(toFile(spec.table, { ...row, ...made })).error?.issues ?? []).toEqual([]);
   });
 });
