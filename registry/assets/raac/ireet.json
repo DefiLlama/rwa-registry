@@ -28,6 +28,7 @@
   "about": {
     "description": "iREET is an ERC-4626 vault-share token issued by Regnum Aurum Acquisition Corp. (operating as RAAC) that represents a fractional interest in a diversified pool of US single-family residential real estate properties tokenized on-chain as RAAC Property NFTs (RAACNFT). At launch the portfolio held 16 US single-family homes generating approximately 34.5 thousand US dollars per month in rental income, with the current portfolio at 17 properties. The rental strategy focuses on Section 8 Housing Choice Voucher Program tenancies. Property valuations are computed via a RAACHousePriceOracle powered by Chainlink Functions with third-party property verification cited as Roofstock, and re-valuations occur approximately twice yearly. NAV per iREET share is calculated on-chain as the sum of current property valuations divided by circulating supply. Vault shares are freely transferable subject to a ComplianceRegistry blacklist, and access is restricted from US persons via legal terms. Smart contracts have been audited by Pashov Audit Group (August, November, and December 2025 reports), FYEO (October 2024), and Cyfrin CodeHawks (February 2025 competitive audit).",
     "logo": "https://icons.llamao.fi/icons/rwa/ireet.png?w=48&h=48",
+    "registryInfo": "Regnum Aurum Acquisition Corp. is a British Virgin Islands business company (Registration No. 2149666, incorporated 27 May 2024), operating under the brand RAAC (Real Asset Application Chain) and RAAC Advisory. Governing law is BVI with LCIA arbitration seated in BVI. Founder and CEO Kevin Rusher. No LEI, RIA, MSB, SFC, or ADGM license has been disclosed. The Gundam Foundation GitHub organization (github.com/gundam-foundation) is the same code repository previously named RegnumAurumAcquisitionCorp and is not a separately registered entity. KYC and compliance are handled via zk.me with additional analytics via Hypernative and TRM Labs. Contact: admin@raac.io. Legal title to underlying US real estate is held by Regnum Aurum Acquisition Corp itself, not by a separate SPV. Instruxi Limited (UK Companies House 13781404, London) provides onboarding, tokenization infrastructure, and Chainlink Proof of Reserve setup but does not act as a licensed real-estate title custodian. Third-party property verification is cited as Roofstock.",
     "links": {
       "website": [
         "https://ireet.raac.io/"
@@ -74,11 +75,19 @@
     },
     {
       "organization": "raac",
-      "kind": "oracle"
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://ireet.raac.io/#transparency",
+        "https://i-bvi.com/company/regnum-aurum-acquisition-corp_1552615"
+      ]
     },
     {
       "organization": "chainlink",
-      "kind": "oracle"
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://ireet.raac.io/#transparency",
+        "https://i-bvi.com/company/regnum-aurum-acquisition-corp_1552615"
+      ]
     }
   ],
   "events": [

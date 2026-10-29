@@ -27,6 +27,7 @@
   "about": {
     "description": "DAKS is the Draggable wrapper around AKS (Aktionariat AG Shares). Under Aktionariat's modular share-token design, the naked AKS ERC-20 is wrapped into DAKS to add drag-along rights, shareholder-agreement enforcement, and governance/transfer features required for active trading of the underlying Aktionariat AG common shares. One DAKS corresponds 1:1 to one share in Aktionariat AG with full shareholder rights under Swiss law. Holders can unwrap DAKS back into AKS once the drag-along clause is triggered (e.g., during an acquisition or shareholder vote).",
     "logo": "https://icons.llamao.fi/icons/rwa/daks.png?w=48&h=48",
+    "registryInfo": "Official company page: Aktionariat AG, fintech, founded 2020, Erlenbach, Switzerland.",
     "links": {
       "website": [
         "https://shares.aktionariat.com"

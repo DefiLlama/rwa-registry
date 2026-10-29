@@ -29,6 +29,7 @@
   "about": {
     "description": "MXN₮ is Tether's Mexican peso stablecoin, designed to provide MXN-denominated onchain liquidity for transfers, trading, and treasury operations. It follows Tether's centralized issuance model (mint/burn through verified accounts) and is supported by the same transparency and periodic reserve attestation framework used across Tether's fiat-backed stablecoins.",
     "logo": "https://icons.llamao.fi/icons/rwa/mxnt.png?w=48&h=48",
+    "registryInfo": "Tether Limited - issuer of Tether-branded fiat-backed stablecoins. MXN₮ is designed to track the Mexican peso and is covered by Tether's reserve reporting framework.",
     "links": {
       "website": [
         "https://tether.to"

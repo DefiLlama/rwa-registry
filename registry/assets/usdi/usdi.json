@@ -27,6 +27,7 @@
   "about": {
     "description": "USDi is an inflation-linked digital dollar designed to preserve purchasing power as prices change by tracking the United States Consumer Price Index. It is non-rebasing: the price per token rises with the CPI adjustment ratio referenced to a base CPI of 315.605 set on March 1 2025. Unlike a purely synthetic CPI tracker, USDi is backed by a hybrid multi-asset managed fund holding US Treasuries, TIPS, foreign exchange positions, commodities futures and options, and cash on an unlevered basis, managed by Enduring Investments and administered by Trident Fund Services. Annual audits are performed by Cherry Bekaert LLC and the smart contract was audited by ConsenSys Diligence in April 2025. Because ongoing on-chain proof of reserve is not yet published continuously (only monthly reports and annual audit), USDi is classified as RWA rather than True RWA until continuous attestation infrastructure is in place.",
     "logo": "https://icons.llamao.fi/icons/rwa/usdi.png?w=48&h=48",
+    "registryInfo": "USDi Partners LLC is the issuer of USDi Coin. The token is backed by a multi-asset managed fund known as the USDi Coin Fund managed by Enduring Investments led by Michael Ashton, which holds a combination of US Treasuries, Treasury Inflation-Protected Securities (TIPS), foreign exchange positions, commodities futures and options, and cash on an unlevered basis. NAV per mint or burn is computed by fund administrator Trident Fund Services with monthly reports and annual audited financials by Cherry Bekaert LLC. The smart contract was audited by ConsenSys Diligence in April 2025. Contact information includes info@usdicoin.com, vanessa@usdicoin.com, mike@usdicoin.com, and andy@usdicoin.com. State of formation and money transmitter or trust licensing are not publicly disclosed.",
     "links": {
       "website": [
         "https://www.usdicoin.com/"
@@ -64,7 +65,10 @@
     },
     {
       "organization": "usdi-partners-llc",
-      "kind": "oracle"
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://www.usdicoin.com/"
+      ]
     }
   ]
 }

@@ -30,6 +30,7 @@
   "about": {
     "description": "GOLDST is STRATO's vaulted gold token, with each token designed to represent one troy ounce of physical gold held by BA Gold Enterprises in New York City. STRATO's March 2026 audit materials reported 711 ounces of gold held as collateral for digital tokens, including gold bars and Krugerrand/Maple coins across main and ancillary vaults. The asset is used inside STRATO's precious-metals DeFi stack for borrowing, liquidity, and yield strategies, while physical redemption is handled through the platform's vault process.",
     "logo": "https://icons.llamao.fi/icons/rwa/goldst.png?w=48&h=48",
+    "registryInfo": "STRATO is operated by BlockApps Inc., the core team behind the STRATO Layer 1 Ethereum-compatible blockchain for RWAs. Public STRATO materials identify BA Gold Enterprises Inc. as the New York vaulting partner for the metal backing.",
     "links": {
       "website": [
         "https://strato.nexus/vaults"

@@ -27,6 +27,7 @@
   "about": {
     "description": "STBX is a regulated security token representing participation certificates linked to Class-A equity in Stobox Holdings Ltd, issued by Stobox Tokenized Equities Ltd. (BVI) on the STV3 Protocol (EIP-2535). 2M tokens issued representing 20% of company equity. Minimum investment $500 USDC. Deployed on Arbitrum as the primary chain, with legacy contracts on BSC and Ethereum. Investors must complete KYC and activate a Stobox DID to participate. SLX holders are being converted to STBX at a 2:1 rate (SLX $2.50 : STBX $5.00).",
     "logo": "https://icons.llamao.fi/icons/rwa/stbx.png?w=48&h=48",
+    "registryInfo": "Issued by Stobox Tokenized Equities Ltd. (British Virgin Islands) as participation certificates linked to Class-A shares of Stobox Holdings Ltd.",
     "links": {
       "website": [
         "https://assets.stobox.io/"

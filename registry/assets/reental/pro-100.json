@@ -27,6 +27,7 @@
   "about": {
     "description": "Reental-PRO-100 is Reental's tokenized interest in Proyecto 100 (USD-denominated), issued on Polygon at a fixed 100 USD per token. The token's AssetOracle publishes that issue price, not a revalued mark: it is pinned at exactly $100 and has never moved. No attestation, no redemption price and no secondary market (transfers are whitelist-gated).",
     "logo": "https://icons.llamao.fi/icons/rwa/pro-100.png?w=48&h=48",
+    "registryInfo": "Reental (tokenized real estate investment platform).",
     "links": {
       "website": [
         "https://www.reental.co/"
@@ -60,7 +61,10 @@
     },
     {
       "organization": "reental",
-      "kind": "oracle"
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://polygonscan.com/address/0xfc116439d8bc687045d4f2efc56ef8052a046439"
+      ]
     }
   ]
 }

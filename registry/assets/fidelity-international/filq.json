@@ -26,6 +26,7 @@
   "about": {
     "description": "FILQ is Fidelity International's tokenized USD liquidity fund, issued on Ethereum through Sygnum's tokenization platform with NAV published via Chainlink. Rated Aaa-mf by Moody's, it offers institutional investors 24/7 subscriptions and redemptions into a portfolio of high-quality government securities and asset-backed commercial paper, in accumulating (FILQ-A) and distributing (FILQ-D) share classes. Supply is mint-on-subscription with no pre-minted inventory. Holdings sit in custody omnibus wallets.",
     "logo": "https://icons.llamao.fi/icons/rwa/filq.png?w=48&h=48",
+    "registryInfo": "First tokenized fund of Fidelity International (FIL Ltd), launched 13 May 2026 with Sygnum tokenization infrastructure and Chainlink NAV publication; rated Aaa-mf by Moody's; strategy mirrors FIL's ~$7B Irish-domiciled USD LVNAV liquidity fund (high-quality government securities + ABCP). Two share classes: FILQ-A (accumulating) and FILQ-D (distributing), both 2 decimals.",
     "links": {
       "website": [
         "https://www.fidelityinternational.com"

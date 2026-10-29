@@ -27,6 +27,7 @@
   "about": {
     "description": "Reental-SAM-2 is Reental's tokenized interest in Samana 2 (USD-denominated), issued on Polygon at a fixed 100 USD per token. The token's AssetOracle publishes that issue price, not a revalued mark: it is pinned at exactly $100 and has never moved. No attestation, no redemption price and no secondary market (transfers are whitelist-gated). 1.0% of supply ($10,059) sits in Reental-side crowdfunding/recipient wallets and is excluded from active marketcap.",
     "logo": "https://icons.llamao.fi/icons/rwa/sam-2.png?w=48&h=48",
+    "registryInfo": "Reental (tokenized real estate investment platform).",
     "links": {
       "website": [
         "https://www.reental.co/"
@@ -66,7 +67,10 @@
     },
     {
       "organization": "reental",
-      "kind": "oracle"
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://polygonscan.com/address/0xe4e3cb64e2f76707a046e4d095428f08d5532bed"
+      ]
     }
   ]
 }

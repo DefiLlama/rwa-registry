@@ -27,6 +27,7 @@
   "about": {
     "description": "AID (AI Dollar) is a USD-pegged stablecoin minted 1:1 from USDC and instantly redeemable 1:1 for USDC 24/7/365 (0% mint fee, 0.1% redemption fee). It serves as the base asset for GAIB's AI infrastructure financing ecosystem: users stake AID into the sAID vault to earn yield from GPU financing deals. AID is deployed across Ethereum, Arbitrum, Base, and BSC via LayerZero OFT bridging. Reserve coverage stands at 113% of circulating AID. Total AID issued: $18.46M, of which $18.25M is staked as sAID and deployed into active GPU financing facilities.",
     "logo": "https://icons.llamao.fi/icons/rwa/ai-dollar.png?w=48&h=48",
+    "registryInfo": "SpiceFlow AI Foundation fully owns SpiceFlow AI Corporation, which operates the AID minting and redemption infrastructure; the managed strategy is executed through Good AI SPC, a Cayman Islands segregated portfolio company.",
     "links": {
       "website": [
         "https://aid.gaib.ai/buy"

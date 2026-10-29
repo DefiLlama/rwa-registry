@@ -27,6 +27,7 @@
   "about": {
     "description": "Etherfuse USTRY is a 1:1-backed tokenized US Treasury Notes product issued by Etherfuse. Underlying short/medium-duration US Treasuries. Yield compounds into NAV with instant redemption via Etherfuse SDK. Custody via Spiko SICAV. Live on Stellar, Solana, Base, and Polygon.",
     "logo": "https://icons.llamao.fi/icons/rwa/ustry.png?w=48&h=48",
+    "registryInfo": "Etherfuse — regulated multichain issuer of tokenized sovereign debt. Domicile: United States. Primary-market eligibility: Non-U.S. investors only. Regulatory framework: Switzerland DLT Act (FINMA). Custody varies per stablebond (BBVA / Spiko SICAV / Archax / B3 / etc).",
     "links": {
       "website": [
         "https://www.etherfuse.com/"
@@ -78,7 +79,10 @@
     },
     {
       "organization": "redstone",
-      "kind": "oracle"
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://blog.redstone.finance/2026/03/17/how-redstone-solved-the-fx-time-dilemma-to-bring-24-7-turkish-lira-yield-onchain-with-brix/"
+      ]
     }
   ],
   "events": [

@@ -28,6 +28,7 @@
   "about": {
     "description": "Fiat-backed USD stablecoin issued by Hex Trust’s HT Digital Assets brand, intended for onchain settlement and payments. Issuer presents reserve and supply figures on its website and supports mint/redeem via KYC-enabled channels.",
     "logo": "https://icons.llamao.fi/icons/rwa/usdx.png?w=48&h=48",
+    "registryInfo": "Hex Trust is a digital asset custodian; HT Digital Assets is presented as the USDX issuer/brand.",
     "links": {
       "website": [
         "https://www.htdigitalassets.com/"

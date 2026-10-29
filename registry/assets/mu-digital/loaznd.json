@@ -32,6 +32,7 @@
   "about": {
     "description": "loAZND is the ERC-4626 vault receipt token issued when AZND is locked to earn yield. loAZND represents a share of the AZND vault and its value increases via periodic repricing, with a cooldown period required for withdrawals.",
     "logo": "https://icons.llamao.fi/icons/rwa/loaznd.png?w=48&h=48",
+    "registryInfo": "MU DIGITAL LIMITED, UK private limited company (Companies House company number 13130370).",
     "links": {
       "website": [
         "https://docs.mudigital.net/protocol-overview/asia-dollar-aznd/locking"

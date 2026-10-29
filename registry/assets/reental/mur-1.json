@@ -27,6 +27,7 @@
   "about": {
     "description": "Reental-MUR-1 is Reental's tokenized interest in Murcia 1 (EUR-denominated), issued on Polygon at a fixed 100 EUR per token. The token's AssetOracle publishes that issue price, not a revalued mark: it is 100 EUR converted through Chainlink EUR/USD, so the only variation is FX. No attestation, no redemption price and no secondary market (transfers are whitelist-gated). 99.9% of supply ($1,714,835) sits in Reental-side crowdfunding/recipient wallets and is excluded from active marketcap.",
     "logo": "https://icons.llamao.fi/icons/rwa/mur-1.png?w=48&h=48",
+    "registryInfo": "Reental (tokenized real estate investment platform).",
     "links": {
       "website": [
         "https://www.reental.co/"
@@ -66,7 +67,10 @@
     },
     {
       "organization": "reental",
-      "kind": "oracle"
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://polygonscan.com/address/0x2a37fdd1adb57eccd525533bbd2889a8841b60a6"
+      ]
     }
   ]
 }

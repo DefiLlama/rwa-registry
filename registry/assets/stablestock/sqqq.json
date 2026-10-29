@@ -28,6 +28,7 @@
   "about": {
     "description": "sQQQ is StableStock's tokenized wrapper for the Invesco QQQ Trust Series 1 (Nasdaq: QQQ), the ETF that tracks the Nasdaq-100 Index (the 100 largest non-financial companies listed on Nasdaq) and is among the largest ETFs globally with a multi-hundred-billion USD AUM. The sToken is a BEP-20 issued 1:1 against QQQ ETF units custodied off-chain by StableBroker (StableStock's licensed broker partner with HabitTrade), with 24/7 on-chain liquidity supplied in partnership with Native. Mint/redeem is KYC-gated. BEP-20 transfers are permissionless, offering BSC DeFi users broad US big-tech/innovation exposure in a single token.",
     "logo": "https://icons.llamao.fi/icons/rwa/qqq.png?w=48&h=48",
+    "registryInfo": "StableStock sTokens are issued under StableBroker, StableStock's licensed-broker infrastructure operated with HabitTrade. HabitTrade Pty Ltd holds AFSL 514654 (ABN 59 626 521 202, Australia); HabitTrade LLC holds a US FinCEN MSB registration (31000229716152); HabitTrade (HK) Limited holds an SFC Type 1 licence (Hong Kong). StableStock custody relies on its US broker partner DriveWealth LLC, a FINRA/SIPC member US broker-dealer. StableStock's published backers/partners include YZi Labs, MPCi, Vertex Ventures, Foresight Ventures, Amber Group and Dragonfly.",
     "links": {
       "website": [
         "https://stablestock.finance"
@@ -69,7 +70,10 @@
     },
     {
       "organization": "stablebroker-habittrade",
-      "kind": "oracle"
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://stablestock.gitbook.io/ss/concepts/transparency#live-trades-and-reserves"
+      ]
     }
   ],
   "events": [

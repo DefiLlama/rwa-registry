@@ -29,6 +29,7 @@
   "about": {
     "description": "Dai (DAI) is Sky/MakerDAO’s legacy overcollateralized stablecoin, minted against on-chain collateral in the protocol’s vault system. DAI can be upgraded 1:1 into Sky Dollar (USDS). Both are used for on-chain payments, trading, and DeFi collateral.",
     "logo": "https://icons.llamao.fi/icons/rwa/dai.png?w=48&h=48",
+    "registryInfo": "Decentralized stablecoin issued by the Sky Protocol (formerly MakerDAO) through overcollateralized on-chain vaults; no single centralized issuer.",
     "links": {
       "website": [
         "https://sky.money/"

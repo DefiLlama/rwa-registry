@@ -25,6 +25,7 @@
   },
   "about": {
     "description": "rAI is a yield bearing vault token from RWAlpha on the Mantle chain. The vault holds a basket of two listed option income funds, weighted seventy five percent to the NEOS Nasdaq-100 High Income ETF and twenty five percent to the YieldMax NVDA Option Income Strategy ETF. Both funds sell call options against their holdings, so the cash flow reaching token holders comes from option premium rather than from ordinary dividends. Subscriptions are taken in USDT and the platform mints the token to the subscriber wallet on the following business day, while redemptions are settled in USDT within about five business days. Distributions are paid weekly in USDT and are quoted after a thirty percent withholding tax. The Mantle contract is open for subscription through the platform but currently has no supply outstanding.",
+    "registryInfo": "RWAlpha products are issued through RWAlpha Matrix SPC, a Cayman Islands umbrella fund structure with a British Virgin Islands fund manager. RWAlpha is a product of DMZ Finance, which also operates the QCD Open-end PCC umbrella fund in the Dubai International Financial Centre. Subscriptions are converted through a licensed over-the-counter channel and the underlying funds are bought and held through licensed brokers and custodians named by the platform rather than disclosed per product.",
     "links": {
       "website": [
         "https://www.rwalpha.ai/vault/rAI?chain=mantle"

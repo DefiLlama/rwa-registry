@@ -26,6 +26,7 @@
   "about": {
     "description": "Emerging-markets non-performing consumer loan portfolio (India), tokenized on Aptos via the PACT platform. On-chain loan book 'BSFG-EM-NPA-1 Loan Book' (~18.6k per-loan NFTs), denominated in the zINR-NPA zero-value token. Tokenization type is Represented (not freely transferable).",
     "logo": "https://icons.llamao.fi/icons/rwa/bsfg-em-npa-1.png?w=48&h=48",
+    "registryInfo": "Berkeley Square Finance Group (BSFG) is the merchant bank originator within the PACT framework. Tokens issued on Aptos via PACT, which provides on-chain origination, monitoring, and enforcement infrastructure.",
     "links": {
       "website": [
         "https://pact.foundation/"

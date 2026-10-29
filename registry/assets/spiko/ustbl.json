@@ -40,6 +40,7 @@
   "about": {
     "description": "USTBL represents tokenized shares of Spiko’s U.S. T‑Bills money market fund, a regulated EU-domiciled, French AMF-approved UCITS short‑term VNAV money market fund (Spiko SICAV) managed by Twenty First Capital. Service providers include CACEIS (custodian and fund admin), BNY (sub-custodian for U.S. T-bills), and PwC (fund auditor), and Chainlink publishes the daily token value onchain. The fund invests primarily in U.S. Treasury bills, and Treasury‑secured repurchase agreements, with limited cash, targeting short-term risk-free returns. NAV is calculated on each business day, and shares are designed for cash management with frequent subscriptions and redemptions.",
     "logo": "https://icons.llamao.fi/icons/rwa/ustbl.png?w=48&h=48",
+    "registryInfo": "Spiko Finance (SAS) registered with Paris Trade and Companies Register (No. 980 659 585); licensed as an investment firm by ACPR (no. 19183); ORIAS no. 23008251.",
     "links": {
       "website": [
         "https://www.spiko.io/spiko-dollar"

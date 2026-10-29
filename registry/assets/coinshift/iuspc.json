@@ -61,7 +61,10 @@
     },
     {
       "organization": "chainlink",
-      "kind": "oracle"
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://data.chain.link/feeds/ethereum/mainnet/uspc-nav"
+      ]
     }
   ],
   "events": [

@@ -27,6 +27,7 @@
   "about": {
     "description": "REENTAL-CAR-2 is Reental's tokenized interest in Caribe 2 (USD-denominated), issued on Polygon at a fixed 100 USD per token. The token's AssetOracle publishes that issue price, not a revalued mark: it is pinned at exactly $100 and has never moved. No attestation, no redemption price and no secondary market (transfers are whitelist-gated).",
     "logo": "https://icons.llamao.fi/icons/rwa/car-2.png?w=48&h=48",
+    "registryInfo": "Reental (tokenized real estate investment platform).",
     "links": {
       "website": [
         "https://www.reental.co/"
@@ -66,7 +67,10 @@
     },
     {
       "organization": "reental",
-      "kind": "oracle"
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://polygonscan.com/address/0x89ccd3fa405a8ab04dc5c2a615c0b68790950e99"
+      ]
     }
   ]
 }

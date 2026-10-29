@@ -27,6 +27,7 @@
   "about": {
     "description": "JCOT is an ERC-1155 token by Justoken (formerly Agrotoken) on Polygon where each token represents one metric ton of cotton, used as collateral and a means of exchange within Justoken's agricultural ecosystem across Brazil and Argentina. 100% of supply in one platform custody wallet. On-chain distribution to third parties is minimal.",
     "logo": "https://icons.llamao.fi/icons/rwa/jcot.png?w=48&h=48",
+    "registryInfo": "Justoken (rebranded from Agrotoken, April 2025), founded 2020, HQ Buenos Aires, operating in Brazil and Argentina; founders Eduardo Novillo Astrada and Ariel Scaliter. Tokens are ERC-1155 commodity claims used for barter and credit collateral in the agricultural ecosystem; backing claimed via platform reconciliation of agricultural receipts (no public third-party auditor found).",
     "links": {
       "website": [
         "https://www.justoken.com"

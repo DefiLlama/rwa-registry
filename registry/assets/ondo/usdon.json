@@ -28,6 +28,7 @@
   "about": {
     "description": "Ondo Global Markets native stablecoin, backed 1:1 by USD in Global Markets brokerage accounts, and used as the quote asset for minting and redeeming Ondo tokenized stocks. USDC can be swapped 1:1 to/from USDon via the stablecoin swapper (subject to swapper liquidity and permissions).",
     "logo": "https://icons.llamao.fi/icons/rwa/usd.png?w=48&h=48",
+    "registryInfo": "Ondo USDY LLC, Delaware special purpose limited liability company, bankruptcy‑remote issuer of USDY token.",
     "links": {
       "website": [
         "https://docs.ondo.finance/ondo-global-markets/available-assets"

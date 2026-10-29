@@ -26,6 +26,7 @@
   },
   "about": {
     "description": "FinChain Dollar LP (FUSDLP) is the non-rebasing, value-accruing counterpart to FUSD, representing a pro-rata claim on FinChain's basket of tokenised real-world assets. Its balance is constant and its price rises as the basket earns. Convertible to and from FUSD on demand by KYC-verified wallets. The basket is held via FinChain's own wrapper tokens (TKUSD-F and CUMFU-F, both labelled 'FinChain ADR') referencing Taikang Asset Management (Hong Kong) and China Asset Management (Hong Kong) products, plus FUIDL, which reaches BNY Mellon US Dollar Liquidity Fund exposure indirectly through Finloop Finance Technology Services Limited rather than a BNY-issued instrument. On Ethereum roughly 99.8% of supply sits in the issuer's own reserve treasury.",
+    "registryInfo": "Subsidiary of Finchain Holdings (Cayman) Limited; Bermuda Monetary Authority licence claimed by issuer, not confirmed on any public register",
     "links": {
       "website": [
         "https://www.finchain.global/"

@@ -39,6 +39,7 @@
   "about": {
     "description": "SPCX is a tokenized SpaceX share issued by Backpack Securities, a regulated U.S. broker-dealer. Each token is backed 1:1 by a SpaceX share held in regulated custody under New York UCC Article 8 and is redeemable for the underlying equity via ACATS/DTCC. Distributed on Solana via Sunrise.",
     "logo": "https://icons.llamao.fi/icons/rwa/spcx.png?w=48&h=48",
+    "registryInfo": "Backpack Securities is a regulated U.S. broker-dealer; backing SpaceX shares held in custody under New York UCC Article 8.",
     "links": {
       "website": [
         "https://backpack.exchange/"

@@ -25,6 +25,7 @@
   },
   "about": {
     "description": "This is the first RWAlpha rAI vault contract deployed on the Mantle chain. RWAlpha later deployed a replacement rAI contract and this one carries no supply, so it is recorded as superseded rather than as a live product. The product itself holds a basket of two listed option income funds weighted to the NEOS Nasdaq-100 High Income ETF and the YieldMax NVDA Option Income Strategy ETF.",
+    "registryInfo": "RWAlpha products are issued through RWAlpha Matrix SPC, a Cayman Islands umbrella fund structure with a British Virgin Islands fund manager. RWAlpha is a product of DMZ Finance, which also operates the QCD Open-end PCC umbrella fund in the Dubai International Financial Centre. Subscriptions are converted through a licensed over-the-counter channel and the underlying funds are bought and held through licensed brokers and custodians named by the platform rather than disclosed per product.",
     "links": {
       "website": [
         "https://www.rwalpha.ai/vault/rAI?chain=mantle"

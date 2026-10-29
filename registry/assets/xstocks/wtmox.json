@@ -40,6 +40,7 @@
   "about": {
     "description": "wTMOx is the ERC-4626 wrapped version of TMOx (Thermo Fisher xStock). It wraps TMOx into a standardized vault-share token to enable DeFi composability such as use as collateral in lending markets, automated strategies, and other yield protocols. Each wTMOx represents a share claim on deposited TMOx. Underlying real-world exposure, redemption mechanics, and reference price tracking are inherited from the underlying TMOx xStock issued by Backed. The wrapper does not rebase, so its share-to-underlying ratio grows with the xStocks multiplier, making it a total-return tracker rather than a price-parity tracker.",
     "logo": "https://icons.llamao.fi/icons/rwa/xstocks-tmox.png?w=48&h=48",
+    "registryInfo": "Backed Assets (JE) Limited – Jersey company no. 152608, registered address First Floor, La Chasse Chambers, Ten La Chasse, St. Helier, Jersey JE2 4UE. LEI 984500001AB7C6C7F577.",
     "links": {
       "website": [
         "https://assets.backed.fi/products/thermo-fisher-xstock"
@@ -120,7 +121,10 @@
     },
     {
       "organization": "chainlink",
-      "kind": "oracle"
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://defi.backed.fi/proof-of-reserves"
+      ]
     },
     {
       "organization": "the-network-firm",

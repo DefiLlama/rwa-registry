@@ -29,6 +29,7 @@
   "about": {
     "description": "HYBOND is a tokenized bond fund providing 1:1 exposure to the BNY Mellon Global Short-Dated High Yield Bond Fund, an actively managed portfolio of short-dated corporate bonds. Each token tracks the fund's daily NAV through an onchain PriceOracle and is deployed as an ERC-20 on Ethereum and BNB Chain. Settlement is T+4 on Luxembourg and US business days, with a 0.05% redemption fee and a 1.00% per annum management fee inclusive of BNY's fees. The token is issued by OpenEden Digital Limited under a Bermuda Monetary Authority DABA license, and underlying fund shares are custodied at BNY. The issuer disclaims any representation of rights or interests in or against BNY Mellon, its affiliates, or the underlying BNY fund directly. The investor relationship is with OpenEden as the digital asset issuer.",
     "logo": "https://icons.llamao.fi/icons/rwa/hybond.png?w=48&h=48",
+    "registryInfo": "OpenEden Digital Limited is licensed to conduct digital asset business by the Bermuda Monetary Authority under the Digital Asset Business Act (DABA). OpenEden Group operates a BVI regulated professional fund and a Bermuda licensed digital asset business approved and registered as a segregated accounts company. Underlying BNY Mellon Global Short-Dated High Yield Bond Fund is managed by Insight Investment (a BNY Investments company, $840B+ AUM); fund shares custodied at BNY.",
     "links": {
       "website": [
         "https://openeden.com/hybond"
@@ -97,7 +98,10 @@
     },
     {
       "organization": "openeden",
-      "kind": "oracle"
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://docs.openeden.com/hybond/smart-contract-audits"
+      ]
     }
   ],
   "events": [

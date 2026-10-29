@@ -77,7 +77,10 @@
     },
     {
       "organization": "xaue-protocol",
-      "kind": "oracle"
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://etherscan.io/address/0x0618bd112c396060d2b37b537b3d92e757644169"
+      ]
     }
   ],
   "events": [

@@ -28,6 +28,7 @@
   "about": {
     "description": "sCOPX is StableStock's tokenized wrapper for the Global X Copper Miners ETF (NYSE Arca: COPX), which tracks the Solactive Global Copper Miners Total Return Index. A global basket of copper mining equities whose top holdings include Lundin Mining, Sumitomo Metal Mining, KGHM Polska Miedź, Freeport-McMoRan and Glencore. sCOPX is a BEP-20 on BNB Chain issued 1:1 against COPX units custodied off-chain through StableBroker (StableStock's licensed broker partner with HabitTrade), with 24/7 on-chain liquidity operated with Native. Mint/redeem is KYC-gated. The BEP-20 transfers freely on BSC, making copper-mining/thematic-metals exposure available inside BNB Chain DeFi.",
     "logo": "https://icons.llamao.fi/icons/rwa/copx.png?w=48&h=48",
+    "registryInfo": "StableStock sTokens are issued under StableBroker, StableStock's licensed-broker infrastructure operated with HabitTrade. HabitTrade Pty Ltd holds AFSL 514654 (ABN 59 626 521 202, Australia); HabitTrade LLC holds a US FinCEN MSB registration (31000229716152); HabitTrade (HK) Limited holds an SFC Type 1 licence (Hong Kong). StableStock custody relies on its US broker partner DriveWealth LLC, a FINRA/SIPC member US broker-dealer. StableStock's published backers/partners include YZi Labs, MPCi, Vertex Ventures, Foresight Ventures, Amber Group and Dragonfly.",
     "links": {
       "website": [
         "https://stablestock.finance"
@@ -69,7 +70,10 @@
     },
     {
       "organization": "stablebroker-habittrade",
-      "kind": "oracle"
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://stablestock.gitbook.io/ss/concepts/transparency#live-trades-and-reserves"
+      ]
     }
   ],
   "events": [

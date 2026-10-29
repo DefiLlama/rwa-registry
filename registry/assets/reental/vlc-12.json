@@ -27,6 +27,7 @@
   "about": {
     "description": "Reental-VLC-12 is Reental's tokenized interest in Valencia 12 (EUR-denominated), issued on Polygon at a fixed 100 EUR per token. The token's AssetOracle publishes that issue price, not a revalued mark: it is 100 EUR converted through Chainlink EUR/USD, so the only variation is FX. No attestation, no redemption price and no secondary market (transfers are whitelist-gated). 1.2% of supply ($16,001) sits in Reental-side crowdfunding/recipient wallets and is excluded from active marketcap.",
     "logo": "https://icons.llamao.fi/icons/rwa/vlc-12.png?w=48&h=48",
+    "registryInfo": "Reental (tokenized real estate investment platform).",
     "links": {
       "website": [
         "https://www.reental.co/"
@@ -66,7 +67,10 @@
     },
     {
       "organization": "reental",
-      "kind": "oracle"
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://polygonscan.com/address/0x7039df363f52320aa6a1d340014acfa745cfa1e1"
+      ]
     }
   ]
 }

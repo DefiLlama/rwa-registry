@@ -39,6 +39,7 @@
   "about": {
     "description": "wbNVDA is the ERC-4626 wrapped version of bNVDA (Backed NVIDIA Corporation), deployed across multiple chains. It wraps bNVDA into a standardized vault-share token to enable DeFi composability such as use as collateral in lending markets, automated strategies, and other yield protocols. Each wbNVDA represents a share claim on deposited bNVDA. Underlying real-world exposure, redemption mechanics, and reference price tracking are inherited from the underlying bNVDA token issued by Backed Finance. The wrapper does not rebase, so its share-to-underlying ratio grows as Backed's bToken adjusts its balance for dividends and corporate events, making it a total-return tracker rather than a price-parity tracker.",
     "logo": "https://icons.llamao.fi/icons/rwa/nvda.png?w=48&h=48",
+    "registryInfo": "Backed Assets (JE) Limited – Jersey company no. 152608, registered address First Floor, La Chasse Chambers, Ten La Chasse, St. Helier, Jersey JE2 4UE. LEI 984500001AB7C6C7F577.",
     "links": {
       "website": [
         "https://assets.backed.fi/products/bnvda"
@@ -96,7 +97,10 @@
     },
     {
       "organization": "chainlink",
-      "kind": "oracle"
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://defi.backed.fi/proof-of-reserves"
+      ]
     },
     {
       "organization": "the-network-firm",

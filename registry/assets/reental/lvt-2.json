@@ -27,6 +27,7 @@
   "about": {
     "description": "Reental-LVT-2 is Reental's tokenized interest in Levante 2 (EUR-denominated), issued on Polygon at a fixed 100 EUR per token. The token's AssetOracle publishes that issue price, not a revalued mark: it is 100 EUR converted through Chainlink EUR/USD, so the only variation is FX. No attestation, no redemption price and no secondary market (transfers are whitelist-gated).",
     "logo": "https://icons.llamao.fi/icons/rwa/lvt-2.png?w=48&h=48",
+    "registryInfo": "Reental (tokenized real estate investment platform).",
     "links": {
       "website": [
         "https://www.reental.co/"
@@ -66,7 +67,10 @@
     },
     {
       "organization": "reental",
-      "kind": "oracle"
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://polygonscan.com/address/0xee55c94efe4fc2f419297d5593343db105b40bec"
+      ]
     }
   ]
 }

@@ -28,6 +28,7 @@
   "about": {
     "description": "mHYPER is a Midas-issued structured certificate managed by Hyperithm. Issued via Midas under German BaFin Crypto Securities Registrar status. The strategy runs market-neutral, stablecoin-funded DeFi positions. Delta-neutral spreads, funding-rate harvesting, basis trades across major on-chain markets. NAV accrues via the Midas Attestation Engine. Chainlink PoR verifies backing. KYC at mint/redemption. Secondary transfer permissionless. Deployed on Ethereum, Plasma, Monad, and Katana. Risk Manager: Hyperithm Inc.",
     "logo": "https://icons.llamao.fi/icons/rwa/mhyper.png?w=48&h=48",
+    "registryInfo": "Midas Capital Holding LLC — BaFin-licensed. mHYPER managed by Hyperithm as appointed Risk Manager. Tokenized certificate referencing the performance of selected market-neutral, stablecoin-focused strategies deployed across on-chain markets.",
     "links": {
       "website": [
         "https://midas.app/"

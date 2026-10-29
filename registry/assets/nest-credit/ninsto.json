@@ -31,6 +31,7 @@
   "about": {
     "description": "nINSTO is the receipt token for Nest’s institutional fixed-income vault. Nest discloses a composition across senior secured debt (30%), ETFs (54%), and money market funds (14%), implemented via Invesco iSNR (30%), OpenTrade XHYCB (BlackRock corporate bond ETF, 27%), Blackstone SRLN (27%), and OpenTrade XMMF (Fidelity Institutional Liquidity MMF, 14%). Value accrues through NAV appreciation. Redemptions are subject to the vault’s stated liquidity terms.",
     "logo": "https://icons.llamao.fi/icons/rwa/ninsto.png?w=48&h=48",
+    "registryInfo": "Nest DAO LLC – legal address 852 Lagoon Road, Majuro, 96960, Marshall Islands, Legal Entity Identifier (LEI) 254900BB9T1QYAT04892 (status: ISSUED; managing LOU: Bloomberg Finance L.P.; next renewal date: 2026-10-14).",
     "links": {
       "website": [
         "https://nest.credit"

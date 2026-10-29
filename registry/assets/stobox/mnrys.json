@@ -27,6 +27,7 @@
   "about": {
     "description": "Security token offering by Monerys AG, the first client tokenization project to go live on Stobox 4. Monerys AG is building Switzerland's first blockchain-integrated hybrid bank. Structured through two parallel paths: a Tokenized Securities Path (Reg S and Reg D for international and US accredited investors) and a Conventional Equity Path. Both paths convert 1:1 into shares of the licensed banking entity upon FINMA approval. Deployed on Arbitrum via STV3 Protocol with Fireblocks MPC wallets and Sumsub KYC integration.",
     "logo": "https://icons.llamao.fi/icons/rwa/mnrys.png?w=48&h=48",
+    "registryInfo": "Monerys AG (Switzerland), building Switzerland's first fully blockchain-integrated hybrid bank. Operating under FINMA guidance with structured path to full banking licensure. First client STO to go live on Stobox 4.",
     "links": {
       "website": [
         "https://www.stobox.io/"

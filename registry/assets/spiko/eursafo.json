@@ -40,6 +40,7 @@
   "about": {
     "description": "EUR share class of the Spiko Amundi Overnight Swap Fund (SAFO), a French AMF-authorized UCITS cash-management fund under SPIKO SICAV. SAFO uses fully collateralized total return swaps with Tier 1 banks, starting with BNP Paribas, to deliver overnight liquidity and yields above the €STR benchmark. The tokenized shares are issued across Ethereum, Polygon, Arbitrum, Base, Etherlink, Stellar, and Starknet, with Chainlink publishing NAV onchain. Holdings and transfers are restricted to allowlisted wallets.",
     "logo": "https://icons.llamao.fi/icons/rwa/eursafo.png?w=48&h=48",
+    "registryInfo": "Spiko Finance is a SAS registered with the Paris Trade and Companies Register (No. 980 659 585), ACPR investment firm no. 19183, and ORIAS no. 23008251. SAFO is a UCITS-authorized sub-fund of SPIKO SICAV under French law, with Amundi Asset Management as delegated asset manager, CACEIS as depositary bank and fund administrator, and PwC as auditor.",
     "links": {
       "website": [
         "https://www.spiko.io/spiko-euro"

@@ -26,6 +26,7 @@
   "about": {
     "description": "MUU is a tokenized tracker certificate issued by Robinhood Markets, Inc. through Robinhood Europe UAB, deployed on Arbitrum One. It is designed to reflect the price of the MUU ETF in a format accessible on-chain, providing synthetic exposure rather than direct fund ownership under MiFID II regulatory oversight. Trading is available 24/5 to EU/EEA customers, and on-chain pricing is supplied through Chainlink oracle feeds.",
     "logo": "https://icons.llamao.fi/icons/rwa/mu.png?w=48&h=48",
+    "registryInfo": "SEC-registered broker-dealer; Robinhood Europe UAB (MiFID II)",
     "links": {
       "website": [
         "https://robinhood.com/stocks"

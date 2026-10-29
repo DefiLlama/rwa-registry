@@ -28,6 +28,7 @@
   "about": {
     "description": "mHyperBTC is a Midas-issued BTC-denominated structured certificate managed by Hyperithm. Issued via Midas under German BaFin Crypto Securities Registrar status. The strategy runs BTC market-neutral positions. Basis trading, funding-rate arbitrage, delta-neutral approaches. With reference asset and backing in BTC. NAV accrues via the Midas Attestation Engine. Chainlink PoR verifies backing. KYC at mint/redemption. Secondary transfer permissionless. Deployed on Ethereum, Monad, and Rootstock.",
     "logo": "https://icons.llamao.fi/icons/rwa/mhyperbtc.png?w=48&h=48",
+    "registryInfo": "Midas Capital Holding LLC — BaFin-licensed. mHyperBTC is Midas's Bitcoin-denominated market-neutral structured certificate. Managed by Hyperithm as Risk Manager; same strategy family as mHYPER but BTC-denominated and BTC-backed.",
     "links": {
       "website": [
         "https://midas.app/"

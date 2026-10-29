@@ -29,6 +29,7 @@
   "about": {
     "description": "USDD is TRON DAO Reserve’s DeFi stablecoin. the peg is supported through overcollateralization, mint/burn mechanisms, and reserve-managed liquidity across TRON and EVM deployments. It is self-custody transferable and relies on protocol governance and reserve operations rather than a traditional fiat issuer.",
     "logo": "https://icons.llamao.fi/icons/rwa/usdd.png?w=48&h=48",
+    "registryInfo": "Crypto-collateralized stablecoin associated with the TRON ecosystem and managed via TRON DAO Reserve mechanisms.",
     "links": {
       "website": [
         "https://usdd.io/"

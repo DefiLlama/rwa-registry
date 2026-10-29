@@ -29,6 +29,7 @@
   },
   "about": {
     "description": "Obligate Trade Finance Yield (oTFY) is a NAV-accruing Solana token giving exposure to a revolving portfolio of short-tenor (7-90 day) digital bonds financing asset-backed physical commodity trade, managed by TradeFlow Capital Management Pte Ltd of Singapore. The legal issuer is Verified SV S.a r.l., a Luxembourg securitisation vehicle (RCS B282302) acting for Compartment x10; Obligate AG is product sponsor and tokenisation platform. NAV is struck weekly by calculation agent Verified Assets Limited and is final and binding. The offering memorandum states Rating: None, so the portfolio is not investment-grade rated. Subscription minimum $100,000; redemption requires 7 calendar days' notice before a weekly valuation date plus up to 2 business days, settles in stablecoin to the holder's wallet, and may be scaled back pro-rata or suspended. The SPL mint retains BOTH a live mint authority and a live freeze authority at A1dZeiEE1oTf9FZEZn8sBdsmk6CQHphnHJ5HhYxYV2qm, so holdings are freezable and supply is expandable. No auditor, custodian, fund administrator or transfer agent is disclosed.",
+    "registryInfo": "Luxembourg securitisation vehicle, RCS B282302, LEI 98450067DE8910C77757, Compartment x10. Sponsor/platform: Obligate AG, CHE-379.891.298, Zurich (formerly FQX AG).",
     "links": {
       "website": [
         "https://www.obligate.com/otfy"

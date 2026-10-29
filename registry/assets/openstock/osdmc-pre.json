@@ -25,6 +25,7 @@
   },
   "about": {
     "description": "oSDMC-pre is a capped vault token from OpenStock and the first vault the platform shipped. It gave holders exposure to the Hong Kong listing of Shenzhen SDMC Technology, which builds the streaming boxes, home networking hardware and home artificial intelligence software that telecom operators supply to subscribers. The vault subscribed to the offering through a special purpose vehicle, so a holder owns a claim on the vehicle rather than registered shares, with no voting rights and no dividend entitlement. It raised a little over forty thousand dollars against a three million dollar size, took a fully locked allocation, and now redeems for stablecoin at a published net redemption value above the entry price. Deposits are closed and the token remains freely transferable.",
+    "registryInfo": "OpenStock is operated by Polynomial Research. Each vault is paired with a single purpose, bankruptcy remote special purpose vehicle that subscribes to the allocation, signs the broker mandate, holds the shares with a custodian and wires net proceeds back on chain. The vehicle carries one class of claim matching the vault token, with no tranche ranking above holders. The vehicle, custodian and broker are named per vault by the platform rather than in the product documentation. Access excludes United States persons and Hong Kong residents.",
     "links": {
       "website": [
         "https://opn.st/s/SDMC"

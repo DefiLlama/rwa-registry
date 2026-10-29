@@ -28,6 +28,7 @@
   "about": {
     "description": "vUSD is the ERC-4626 share token of Valos's RWA-backed lending vault on Monad. AUSD deposits are lent by Valos to established institutional crypto-industry counterparties such as market makers, prime brokers, exchanges, and custodians, with vault positions backed by their loan receivables. The vault NAV is tracked onchain via convertToAssets at approximately 1.0285 AUSD per vUSD, with AUSD pegged 1:1 to USD.",
     "logo": "https://cdn.morpho.org/assets/logos/vusd.svg",
+    "registryInfo": "Lumen Digital Oy — Finnish digital-asset manager operating as Valos, specializing in institutional private credit deployed across crypto-industry counterparties.",
     "links": {
       "website": [
         "https://valos.io/"
@@ -81,7 +82,10 @@
     },
     {
       "organization": "lumen-digital-oy",
-      "kind": "oracle"
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://valos.accountable.capital/"
+      ]
     }
   ],
   "events": [

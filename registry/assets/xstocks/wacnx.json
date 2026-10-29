@@ -40,6 +40,7 @@
   "about": {
     "description": "wACNx is the ERC-4626 wrapped version of ACNx (Accenture xStock). It wraps ACNx into a standardized vault-share token to enable DeFi composability such as use as collateral in lending markets, automated strategies, and other yield protocols. Each wACNx represents a share claim on deposited ACNx. Underlying real-world exposure, redemption mechanics, and reference price tracking are inherited from the underlying ACNx xStock issued by Backed. The wrapper does not rebase, so its share-to-underlying ratio grows with the xStocks multiplier, making it a total-return tracker rather than a price-parity tracker.",
     "logo": "https://icons.llamao.fi/icons/rwa/xstocks-acnx.png?w=48&h=48",
+    "registryInfo": "Backed Assets (JE) Limited – Jersey company no. 152608, registered address First Floor, La Chasse Chambers, Ten La Chasse, St. Helier, Jersey JE2 4UE. LEI 984500001AB7C6C7F577.",
     "links": {
       "website": [
         "https://assets.backed.fi/products/accenture-xstock"
@@ -120,7 +121,10 @@
     },
     {
       "organization": "chainlink",
-      "kind": "oracle"
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://defi.backed.fi/proof-of-reserves"
+      ]
     },
     {
       "organization": "the-network-firm",

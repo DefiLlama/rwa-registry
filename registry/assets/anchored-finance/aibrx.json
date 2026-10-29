@@ -28,6 +28,7 @@
   "about": {
     "description": "Tokenized Immunitybio Inc. Each token is backed 1:1 by the underlying share, purchased through a FINRA-registered broker-dealer and held in regulated custody, and is redeemable for stablecoins.",
     "logo": "https://img.anchored.finance/logos/IBRX.svg",
+    "registryInfo": "Anchored Capital Ltd. Tokenization infrastructure backed by Alpaca brokerage rails providing 1:1 brokerage-held backing for tokenized equities. Tokens represent economic exposure rather than direct equity ownership.",
     "links": {
       "website": [
         "https://anchored.finance/stocks"
@@ -87,7 +88,10 @@
     },
     {
       "organization": "anchored-finance",
-      "kind": "oracle"
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://docs.anchored.finance/trading-api/market-data/stock-oracle"
+      ]
     }
   ],
   "events": [

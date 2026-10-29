@@ -27,6 +27,7 @@
   "about": {
     "description": "USDPT (U.S. Dollar Payment Token) is Western Union's USD-pegged payment stablecoin issued by Anchorage Digital Bank, N.A. and launched on Solana on May 4, 2026. USDPT is fully backed 1:1 by US dollars held by Anchorage Digital Bank as reserve custodian, who holds short-duration US dollar instruments to back every USDPT in circulation. The token is the foundation of Western Union's Digital Asset Network, connecting licensed virtual currency exchanges and custodians to Western Union's global payout and liquidity infrastructure across more than 550,000 agent locations in 150+ countries. Initial rollout markets are the Philippines and Bolivia. Use cases include treasury and agent settlement (near-instant 24/7 settlement between Western Union and global agents), global exchange support via licensed virtual currency exchanges, and the consumer-facing Stable by Western Union product launching in 40+ countries in 2026. Reserve composition and attestation cadence not yet publicly disclosed. Custody and tokenization technology powered by Fireblocks.",
     "logo": "https://icons.llamao.fi/icons/rwa/usdpt.png?w=48&h=48",
+    "registryInfo": "Anchorage Digital Bank, N.A. is the first US federally chartered crypto bank, holding an OCC national trust bank charter granted January 2021. Issues USDPT under its US bank charter on behalf of The Western Union Company (NYSE: WU).",
     "links": {
       "website": [
         "https://www.westernunion.com/"

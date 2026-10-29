@@ -26,6 +26,7 @@
   "about": {
     "description": "XDFIS is an OpenTrade yield vault on Avalanche giving an institutional client USDC-denominated exposure to a diversified fixed-income strategy. Shares follow the ERC-4626 vault standard with yield accruing in the share price, and assets are held through OpenTrade's bankruptcy-remote SPV and regulated-custody framework. The vault currently has a single funded holder.",
     "logo": "https://icons.llamao.fi/icons/rwa/xdfis.png?w=48&h=48",
+    "registryInfo": "Client-specific OpenTrade vault (symbol XDFIS-DeFi-2) discovered via OpenTrade PoolFactory; several zero-supply XDFIS test clones exist and must not be counted (0x1b7dd356..., 0x1f04e890..., 0x4de33b57..., 0x3a07befb..., 0xca02f78a...). Single funded holder; ERC-4626-style shares minted only against USDC deposits.",
     "links": {
       "website": [
         "https://www.open-trade.io"

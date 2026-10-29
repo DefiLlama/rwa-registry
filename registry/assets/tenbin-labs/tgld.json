@@ -30,6 +30,7 @@
   "about": {
     "description": "Tenbin Gold (tGLD) is a liquid, on-chain gold token providing spot economic exposure equivalent to holding gold, backed by USD stablecoins and CME gold futures contracts (not physical gold reserves). Uses CME futures for pricing/collateral, capturing yield from futures basis.",
     "logo": "https://icons.llamao.fi/icons/rwa/tenbin-gold.png?w=48&h=48",
+    "registryInfo": "TENBIN LABS INC. (Delaware C-corp). LEI: 254900A3XDLQJAQWKC09. Registered address: c/o Corporation Service Company, 251 Little Falls Drive, Wilmington, DE 19808; HQ in New York, NY. Founded 2025. Filed Form D with the SEC for Reg D securities offering. Total funding $13.8M across rounds; Jan 2026 $7M seed led by Galaxy Ventures, with Wintermute Ventures, GSR, Variant, Archetype, FalconX, and Bankless Ventures. tGLD is anchored by CME-listed gold futures contracts (regulated CFTC derivatives venue) and USD stablecoins rather than physical bullion custody; prime brokerage support from Hidden Road and StoneX. Audited Solidity contracts published at github.com/tenbinlabs/tenbin-contracts.",
     "links": {
       "website": [
         "https://tenbinlabs.xyz/"

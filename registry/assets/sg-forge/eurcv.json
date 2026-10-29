@@ -32,6 +32,7 @@
   "about": {
     "description": "Euro-denominated stablecoin designed for onchain settlement and payments, issued by SG-FORGE (Société Générale Group). Token is intended for regulated use-cases with controlled issuance/redemption and transfer restrictions for eligible participants.",
     "logo": "https://icons.llamao.fi/icons/rwa/eurcv.png?w=48&h=48",
+    "registryInfo": "SG-FORGE is a Société Générale Group entity. EURCV is described as an e-money token product issued by SG-FORGE.",
     "links": {
       "website": [
         "https://www.sgforge.com/products/eurcv"

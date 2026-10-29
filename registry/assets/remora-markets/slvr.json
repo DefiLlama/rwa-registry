@@ -31,6 +31,7 @@
   "about": {
     "description": "SLVr is a Remora Markets rToken that provides onchain price exposure to silver. The product is issued against custodied shares, and the token supply is intended to match the custodied share count shown on Remora's products page. Remora Markets is operated by Step Labs LLC (a Step Finance subsidiary) and supports mint and burn flows through its app. Remora's disclosures state rTokens are not stocks or ownership claims, and holders do not receive shareholder rights in the underlying shares.",
     "logo": "https://icons.llamao.fi/icons/rwa/slvr.png?w=48&h=48",
+    "registryInfo": "Step Labs LLC (Remora Markets) - Registered in Cook Islands (Reg. No. LLC15405/2024), T&F Chambers, Nikao, Avarua, Rarotonga, Cook Islands. Custodian/Broker/Paying Agent: Alpaca Securities LLC (FINRA CRD# 288202 / SEC# 8-69928). USD<->USDC conversion: Alpaca Crypto LLC (FinCEN-registered MSB, NMLS #2160858. MSB #31000188404516). Onboarding/KYC partner: iDenfy UAB (Reg. No. 304617621).",
     "links": {
       "website": [
         "https://remoramarkets.xyz/products"

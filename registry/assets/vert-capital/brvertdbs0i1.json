@@ -37,6 +37,7 @@
   "about": {
     "description": "The 12th debenture issuance of VERT Companhia Securitizadora, a CVM-regulated Brazilian securitizer, paying CDI + 4.5% monthly and maturing March 2029 (ISIN BRVERTDBS0I1). The secured debenture is registered with B3 and mirrored on the XRP Ledger through VERT's tokenization platform, which records issuance, lifecycle events, and payments on-chain.",
     "logo": "https://icons.llamao.fi/icons/rwa/brvertdbs0i1.png?w=48&h=48",
+    "registryInfo": "VERT Companhia Securitizadora, CNPJ 25.005.683/0001-09, CVM-regulated Brazilian securitizer. Per B3 ISIN registry: simple debentures, 12th emission 1st series, issued 15/03/2025, maturity 15/03/2029, face value R$1,000, DI (CDI) + 4.5% paid monthly, secured (garantia real), nominative. Mirrored on the XRP Ledger via VERT's tokenization platform; the domain-verified issuer account is listed as the contract reference because the ISIN-to-XRPL currency-code mapping (SRA-SRE candidate tokens) has not been published by the issuer.",
     "links": {
       "website": [
         "https://www.vert-capital.com/en"

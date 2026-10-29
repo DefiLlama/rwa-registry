@@ -31,6 +31,7 @@
   "about": {
     "description": "iTRY is a Turkish Lira-pegged stablecoin backed by a BVI-regulated fund investing in Turkish money market instruments. Provides global stablecoin holders with exposure to Turkey's elevated central bank policy rate (~40% annualized historically). Institutional participants mint at NAV. ITRY itself is freely transferable. On-chain Proof of Reserves verification. Deployed on Ethereum + MegaETH via LayerZero. Oracle: RedStone, launched April 20, 2026.",
     "logo": "https://icons.llamao.fi/icons/rwa/itry.png?w=48&h=48",
+    "registryInfo": "Brix is a tokenized emerging-market assets protocol building on MegaETH (Ethereum L2). Backed by a $5.5M seed round (April 2026), selected for MegaMafia accelerator. The underlying iTRY backing is held in a BVI-regulated fund investing in Turkish money market instruments; oracle is RedStone (24/7 FX-adjusted feed).",
     "links": {
       "website": [
         "https://brix.money/"
@@ -71,7 +72,10 @@
     },
     {
       "organization": "redstone",
-      "kind": "oracle"
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://blog.redstone.finance/2026/03/17/how-redstone-solved-the-fx-time-dilemma-to-bring-24-7-turkish-lira-yield-onchain-with-brix/"
+      ]
     }
   ],
   "events": [

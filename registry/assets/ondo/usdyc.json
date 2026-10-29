@@ -26,6 +26,7 @@
   "about": {
     "description": "USDYc is an issuer-only, non-transferable onchain accounting token that represents USDY subscriptions during the restricted period before USDY is issued. When the temporary global certificate is created, USDYc is minted in the corresponding amount, and once the restricted period ends, USDY is minted and the associated USDYc is burned.",
     "logo": "https://icons.llamao.fi/icons/rwa/usdyc.png?w=48&h=48",
+    "registryInfo": "Ondo USDY LLC, Delaware special purpose limited liability company, bankruptcy‑remote issuer of USDY token.",
     "links": {
       "website": [
         "https://docs.ondo.finance/general-access-products/usdy/faq/usdyc"

@@ -28,6 +28,7 @@
   "about": {
     "description": "xBASKET is LandX's ERC20 index/wrapper token representing an equally weighted basket of xWHEAT, xRICE, xCORN, and xSOY. It offers diversified agricultural commodity vault exposure and is designed so yield from the underlying xTokens can be auto-compounded or reinvested, with minting and redemption against underlying xTokens.",
     "logo": "https://icons.llamao.fi/icons/rwa/xbasket.png?w=48&h=48",
+    "registryInfo": "LandX Labs Limited – Saint Vincent and the Grenadines Business Company (BC), Registered Company Number 26897 BC 2022. Per LandX's published Terms and Conditions of Use, this is the entity making the LandX App available. Terms are governed by the laws of the Republic of Panama.",
     "links": {
       "website": [
         "https://landx.fi"
@@ -69,7 +70,11 @@
     },
     {
       "organization": "chainlink",
-      "kind": "oracle"
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://landx.fi/proof-of-reserves",
+        "https://landx.gitbook.io/landx/whitepaper/ctokens-commodity-collateral"
+      ]
     }
   ],
   "events": [

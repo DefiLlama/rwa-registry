@@ -28,6 +28,7 @@
   "about": {
     "description": "sAAPL is a 1:1 tokenized wrapper of Apple Inc. (Nasdaq: AAPL) issued on BNB Chain by StableStock. Apple is a ~$3T market cap consumer electronics and services business (iPhone, Mac, Wearables, Services) and is the second-largest holding in most US index funds. The underlying shares are custodied off-chain by StableBroker. The licensed broker infrastructure StableStock operates in partnership with HabitTrade, and 24/7 on-chain liquidity is provided in collaboration with Native. Mint/redeem is KYC-gated through StableBroker while the BEP-20 sAAPL token transfers freely on BSC and is tradable on the StableStock app.",
     "logo": "https://icons.llamao.fi/icons/rwa/aapl.png?w=48&h=48",
+    "registryInfo": "StableStock sTokens are issued under StableBroker, StableStock's licensed-broker infrastructure operated with HabitTrade. HabitTrade Pty Ltd holds AFSL 514654 (ABN 59 626 521 202, Australia); HabitTrade LLC holds a US FinCEN MSB registration (31000229716152); HabitTrade (HK) Limited holds an SFC Type 1 licence (Hong Kong). StableStock custody relies on its US broker partner DriveWealth LLC, a FINRA/SIPC member US broker-dealer. StableStock's published backers/partners include YZi Labs, MPCi, Vertex Ventures, Foresight Ventures, Amber Group and Dragonfly.",
     "links": {
       "website": [
         "https://stablestock.finance"
@@ -69,7 +70,10 @@
     },
     {
       "organization": "stablebroker-habittrade",
-      "kind": "oracle"
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://stablestock.gitbook.io/ss/concepts/transparency#live-trades-and-reserves"
+      ]
     }
   ],
   "events": [

@@ -25,6 +25,7 @@
   },
   "about": {
     "description": "kicUSDC is the NAV-accruing share token of Kamino's Institutional Commodity Yield vault on Solana. USDC deposits are lent, via an SPV, as short-tenor (1-3 month) loans to corporates and commodity traders, secured by physical commodity inventory or 1:1 escrowed cash with cargo insured in transit; roughly 93% of capital is deployed off-chain and the rest is held as an on-chain liquidity buffer. Yield accrues through share price appreciation rather than a rebase, and withdrawals are served from the buffer first, then from a FIFO queue as loans mature. The on-chain SPL mint symbol is kV-KICUSDC; Kamino's own UI and adapters call it kicUSDC.",
+    "registryInfo": "Cayman Islands; the commodity lending operation is approved and supervised by the Cayman Islands Monetary Authority (CIMA). Kamino's public docs describe the vehicle only as the \"Institutional Yield SPV\" and do not name the registered entity or give a registry number (checked 2026-09-30).",
     "links": {
       "website": [
         "https://kamino.com/earn/institutional"

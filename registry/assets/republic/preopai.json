@@ -27,6 +27,7 @@
   "about": {
     "description": "preOPAI is a tokenized Contingent Payout Note issued by Republic International Cayman and sold through Bitget IPO Prime on Solana, designed to mirror OpenAI stock performance upon a future IPO or acquisition. Holders own an unsecured debt claim against the issuer rather than OpenAI equity, with no voting or dividend rights. OpenAI is unaffiliated and actively disavows pre-IPO exposure products. Offered to non-US persons under Regulation S at $725/token (29,082 tokens, ~$21M). Trading occurs on the Bitget spot market with on-chain supply held in issuer/exchange omnibus custody.",
     "logo": "https://icons.llamao.fi/icons/rwa/preopai.png?w=48&h=48",
+    "registryInfo": "Republic International Cayman, Cayman Islands exempted company (Republic/OpenDeal group, CIK 0001794805). Regulation S, non-US persons only. OpenAI Group PBC has no affiliation with and has not endorsed the product; OpenAI and Anthropic publicly warned in May 2026 that unauthorized SPV transfers of their shares are void.",
     "links": {
       "website": [
         "https://www.bitget.com/academy/guide-to-openai-preopai-on-bitget-ipo-prime"

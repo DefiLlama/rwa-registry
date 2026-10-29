@@ -28,6 +28,7 @@
   "about": {
     "description": "Anchored Liquid Strategies Fund (aLSF). A multi-strategy fund of funds diversified across statistical arbitrage, long/short equity and macro, with monthly liquidity. The token represents an interest in the matching segregated portfolio, priced at the net asset value reported for the underlying fund.",
     "logo": "https://icons.llamao.fi/icons/rwa/anchored-alsf.png?w=48&h=48",
+    "registryInfo": "Anchored Capital Ltd. Segregated-portfolio fund tokens; each token represents an interest in the matching segregated portfolio, priced at the NAV reported for the underlying fund.",
     "links": {
       "website": [
         "https://anchored.finance/funds"
@@ -63,7 +64,10 @@
     },
     {
       "organization": "anchored-finance",
-      "kind": "oracle"
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://docs.anchored.finance/getting-started/quickstart"
+      ]
     }
   ],
   "events": [

@@ -27,6 +27,7 @@
   "about": {
     "description": "Legacy Frax Dollar (FRAX) is the original Frax stablecoin token (ERC-20) used across DeFi. It is separate from Frax USD (frxUSD / FRXUSD), which is the newer fiat-redeemable, fully collateralized Frax stablecoin.",
     "logo": "https://icons.llamao.fi/icons/rwa/legacy-frax-dollar.png?w=48&h=48",
+    "registryInfo": "Legacy FRAX stablecoin issued by the Frax Finance Protocol; distinct from Frax USD (frxUSD), the newer fiat-redeemable stablecoin.",
     "links": {
       "website": [
         "https://frax.com/"

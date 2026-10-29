@@ -36,6 +36,7 @@
   "about": {
     "description": "SLV is a tokenized tracker certificate issued by Robinhood Markets, Inc. through Robinhood Europe UAB, deployed on Arbitrum One. It is designed to track the price of the SLV commodity instrument in a format accessible on-chain, offering synthetic exposure under MiFID II regulatory oversight. On-chain pricing is supplied through Chainlink oracle feeds.",
     "logo": "https://icons.llamao.fi/icons/rwa/slv.png?w=48&h=48",
+    "registryInfo": "SEC-registered broker-dealer; Robinhood Europe UAB (MiFID II)",
     "links": {
       "website": [
         "https://robinhood.com/stocks"

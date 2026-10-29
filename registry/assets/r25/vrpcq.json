@@ -27,6 +27,7 @@
   "about": {
     "description": "VRPC-Quarterly (VRPCQ) is R25's 92-day fixed-term Variable Real Private Credit token on Pharos (Axil Consumer Credit Vault - 3M). Executes RWA-based lending strategies and seeks economic exposure to diversified consumer credit assets across emerging markets.",
     "logo": "https://icons.llamao.fi/icons/rwa/r25.png?w=48&h=48",
+    "registryInfo": "R25 is a decentralized RWA tokenization protocol focused on institutional-grade tokenized credit and yield assets. Founding member of the Pharos RealFi Alliance (inaugural cohort: Chainlink, Asseto Finance, Ember Protocol, Faroo, LayerZero, R25, Re7 Labs, TopNod, Centrifuge). Multi-chain deployment: rcUSD/rcUSDp on Sui (in collaboration with Ember Protocol — incubated by the Bluefin team — and TopNod wallet for self-custody distribution), rcUSD+ on Polygon, and the VRPC family on Pharos. VRPCQ specifically is the Axil Consumer Credit Vault 3-Month variant — a 92-day fixed-term private credit pool with diversified consumer credit exposure across emerging markets. Smart contract audit reports for the Sui and Polygon deployments are published on r25.xyz. Attestation documents for the VRPC family are maintained at the Drive folder: https://drive.google.com/drive/folders/1gf69cHLkplY1fEgItlQRRvcNukNNWGoU.",
     "links": {
       "website": [
         "https://www.r25.xyz/"

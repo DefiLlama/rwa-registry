@@ -27,6 +27,7 @@
   "about": {
     "description": "aHYPER is the ERC-4626 share token of the Hyperithm Delta Neutral Vault on Monad. Deposited USDC is deployed by Hyperithm, a digital asset manager based in Tokyo and Seoul, across delta-neutral crypto strategies including funding-rate arbitrage, Pendle PT positions, leveraged interest-rate arbitrage, and lending / DEX liquidity provision. Yield accrues to share price via ERC-4626 convertToAssets. Reserves are continuously verified through Accountable's Proof of Solvency feed at accountable.hyperithm.com.",
     "logo": "https://cdn.morpho.org/assets/logos/ahyper.svg",
+    "registryInfo": "Hyperithm Co., Ltd. is a premier digital asset manager based in Tokyo and Seoul, founded in January 2018 by ex-Morgan Stanley banker Sangrok Oh and Forbes 30 Under 30 entrepreneur Lloyd Lee. Registered as SPBQII operator with the Japan Financial Services Agency and holding a VASP license from the Korea Financial Intelligence Unit. Backed by Coinbase Ventures, Hashed, Samsung Next, and Kakao Investment. The ERC-4626 vault is issued on Monad and verified continuously via Accountable's Proof of Solvency feed.",
     "links": {
       "website": [
         "https://www.hyperithm.com/"
@@ -85,7 +86,10 @@
     },
     {
       "organization": "hyperithm-co-ltd",
-      "kind": "oracle"
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://accountable.hyperithm.com/"
+      ]
     }
   ],
   "events": [

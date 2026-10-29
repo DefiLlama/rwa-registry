@@ -29,6 +29,7 @@
   "about": {
     "description": "HYSon is an Ondo Global Markets tokenized ETF exposure designed to provide economic exposure to PIMCO 0-5 Year High Yield Corporate Bond Index ETF in an onchain format. The token is designed to be fully backed by the underlying publicly traded ETF, together with cash in transit, held with regulated custodial broker-dealers. Holdings attestations and ongoing reporting are surfaced through Ondo trust and transparency materials and the product asset page.",
     "logo": "https://icons.llamao.fi/icons/rwa/hys.png?w=48&h=48",
+    "registryInfo": "Ondo Global Markets (BVI) Limited issues Ondo Global Markets tokens as structured notes designed to track the performance of the corresponding underlying publicly traded stock or ETF (including dividends, which are reinvested where applicable). The notes are governed by the Issuer’s Sales Terms under Swiss law. GM tokens are fully backed 1:1 by the corresponding underlying securities held with regulated custodial broker-dealers, plus an additional collateral buffer. Ondo publishes ongoing attestations and reporting for GM token backing (verified by Ankura Trust Company).",
     "links": {
       "website": [
         "https://app.ondo.finance/assets/hyson"

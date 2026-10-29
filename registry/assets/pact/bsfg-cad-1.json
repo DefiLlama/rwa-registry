@@ -26,6 +26,7 @@
   "about": {
     "description": "Canadian residential mortgage portfolio, tokenized on Aptos via the PACT platform. On-chain loan book 'Berkeley Square Mortgage Portfolio 1 Loan Book' (163 per-loan NFTs), denominated in the zCAD zero-value token. Tokenization type is Represented (not freely transferable).",
     "logo": "https://icons.llamao.fi/icons/rwa/bsfg-cad-1.png?w=48&h=48",
+    "registryInfo": "Berkeley Square Finance Group (BSFG) is the merchant bank originator within the PACT framework. Tokens issued on Aptos via PACT, which provides on-chain origination, monitoring, and enforcement infrastructure.",
     "links": {
       "website": [
         "https://pact.foundation/"

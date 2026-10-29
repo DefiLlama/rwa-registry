@@ -28,6 +28,7 @@
   "about": {
     "description": "sSPY tokenizes the SPDR S&P 500 ETF Trust (NYSE Arca: SPY) managed by State Street Global Advisors. The largest and most-liquid ETF in the world, which tracks the S&P 500 index of US large-cap equities. StableStock issues sSPY as a 1:1 BEP-20 on BNB Chain, backed by SPY units custodied off-chain via StableBroker (StableStock's licensed broker partner with HabitTrade), with 24/7 on-chain liquidity jointly operated with Native, with KYC applying only at mint/redeem. The BEP-20 transfers permissionlessly on BSC, giving DeFi users broad US equity beta composable with on-chain lending, AMMs and structured products.",
     "logo": "https://icons.llamao.fi/icons/rwa/spy.png?w=48&h=48",
+    "registryInfo": "StableStock sTokens are issued under StableBroker, StableStock's licensed-broker infrastructure operated with HabitTrade. HabitTrade Pty Ltd holds AFSL 514654 (ABN 59 626 521 202, Australia); HabitTrade LLC holds a US FinCEN MSB registration (31000229716152); HabitTrade (HK) Limited holds an SFC Type 1 licence (Hong Kong). StableStock custody relies on its US broker partner DriveWealth LLC, a FINRA/SIPC member US broker-dealer. StableStock's published backers/partners include YZi Labs, MPCi, Vertex Ventures, Foresight Ventures, Amber Group and Dragonfly.",
     "links": {
       "website": [
         "https://stablestock.finance"
@@ -69,7 +70,10 @@
     },
     {
       "organization": "stablebroker-habittrade",
-      "kind": "oracle"
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://stablestock.gitbook.io/ss/concepts/transparency#live-trades-and-reserves"
+      ]
     }
   ],
   "events": [

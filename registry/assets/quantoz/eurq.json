@@ -28,6 +28,7 @@
   "about": {
     "description": "EURQ is a euro-pegged stablecoin issued by Quantoz Payments (a Dutch electronic money institution). Reserves are reported as cash and high-quality liquid assets, with a disclosed reserve ratio. EURQ/USDQ are redeemable 1:1 via institutional redemption partners. Native issuance spans multiple chains (e. g. , Ethereum, Polygon, Algorand and XRPL) for onchain euro settlement and treasury management.",
     "logo": "https://icons.llamao.fi/icons/rwa/eurq.png?w=48&h=48",
+    "registryInfo": "Quantoz Payments B.V. - Netherlands electronic money institution (EMI) supervised by De Nederlandsche Bank (DNB). EURQ is issued as an e-money token designed for MiCA compliance; reserves are disclosed on Quantoz's transparency page.",
     "links": {
       "website": [
         "https://quantoz.com/products/eurq-usdq"

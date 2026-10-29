@@ -32,6 +32,7 @@
   "about": {
     "description": "TBILL is OpenEden’s tokenized Treasury exposure designed to provide short-duration U.S. T-bill yield with NAV-based accounting and onchain settlement. It targets institutional-grade operations and is commonly used for treasury allocation, collateral, and liquidity workflows that prefer conservative duration risk and transparent portfolio reporting.",
     "logo": "https://icons.llamao.fi/icons/rwa/tbill.png?w=48&h=48",
+    "registryInfo": "Treasury Bills Institutional Liquidity Limited – British Virgin Islands professional fund under the Securities and Investment Business Act, 2010, issuer of TBILL tokens, portfolio of short‑dated U.S. Treasury bills held via bankruptcy‑remote SPV OpenEden Cayman Limited with assets in segregated accounts at regulated custodians.",
     "links": {
       "website": [
         "https://openeden.com"

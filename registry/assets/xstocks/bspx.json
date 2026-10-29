@@ -40,6 +40,7 @@
   "about": {
     "description": "BSPx is the Bending Spoons xStock, a tokenized equity exposure designed to track Bending Spoons in a format usable across crypto venues. Under the xStocks framework the issuer Backed Assets (JE) Limited holds 1:1 collateral in the underlying shares through a regulated depositary, and the tokens are issued as senior secured debt claims giving holders direct legal recourse to the underlying stock. Any regulated market participant can subscribe or redeem shares in kind for USDC or USDT, while onchain the tokens transfer permissionlessly across Solana, Ethereum, and supported EVM chains. Chainlink Proof of Reserve continuously publishes collateral attestations.",
     "logo": "https://icons.llamao.fi/icons/rwa/bspx.png?w=48&h=48",
+    "registryInfo": "Backed Assets (JE) Limited is a Jersey company (no. 152608), registered address First Floor, La Chasse Chambers, Ten La Chasse, St. Helier, Jersey JE2 4UE.",
     "links": {
       "website": [
         "https://assets.backed.fi/products/bending-spoons-xstock"
@@ -202,7 +203,10 @@
     },
     {
       "organization": "chainlink",
-      "kind": "oracle"
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://defi.backed.fi/proof-of-reserves"
+      ]
     },
     {
       "organization": "the-network-firm",

@@ -28,6 +28,7 @@
   "about": {
     "description": "sBLSH tokenizes Bullish (NYSE: BLSH), the institutional digital-asset exchange that was spun out of Block.one and completed its NYSE IPO at $37/share in August 2025 under CEO Tom Farley (former NYSE President), with backers including Peter Thiel, Galaxy Digital and Nomura. Bullish was the first crypto-native exchange to list directly on the NYSE. StableStock issues sBLSH as a 1:1 BEP-20 on BNB Chain, backed by BLSH shares custodied off-chain through StableBroker (StableStock's licensed broker partner with HabitTrade), with 24/7 on-chain liquidity via Native. KYC is enforced at mint/redeem. On-chain transfers are permissionless.",
     "logo": "https://icons.llamao.fi/icons/rwa/blsh.png?w=48&h=48",
+    "registryInfo": "StableStock sTokens are issued under StableBroker, StableStock's licensed-broker infrastructure operated with HabitTrade. HabitTrade Pty Ltd holds AFSL 514654 (ABN 59 626 521 202, Australia); HabitTrade LLC holds a US FinCEN MSB registration (31000229716152); HabitTrade (HK) Limited holds an SFC Type 1 licence (Hong Kong). StableStock custody relies on its US broker partner DriveWealth LLC, a FINRA/SIPC member US broker-dealer. StableStock's published backers/partners include YZi Labs, MPCi, Vertex Ventures, Foresight Ventures, Amber Group and Dragonfly.",
     "links": {
       "website": [
         "https://stablestock.finance"
@@ -69,7 +70,10 @@
     },
     {
       "organization": "stablebroker-habittrade",
-      "kind": "oracle"
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://stablestock.gitbook.io/ss/concepts/transparency#live-trades-and-reserves"
+      ]
     }
   ],
   "events": [

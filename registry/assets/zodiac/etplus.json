@@ -27,6 +27,7 @@
   "about": {
     "description": "eTPLUS gives native on-chain access to TPLUS, a short-duration self-liquidating private credit strategy managed by Epoch Digital and targeting 8% net APY (Ember reports a 9.73% target). The portfolio spans bank payment receivables, payment processing receivables and insured trade receivables, each backed by contractual cash flows with insurance, over-collateralisation or credit enhancement; weighted average duration is under 45 days with no asset-level leverage. Deposits are allocated into zTPLUS, Zodiac's permissionless wrapper of the fund, and depositors receive eTPLUS, an ERC-4626 receipt representing proportional ownership of the vault. Deposits are synchronous and capped at 25,000,000 USDC per chain; withdrawals run on a 3-day period with a 10.84-share minimum (~USD 10,000) and a 0.05% redemption fee.",
     "logo": "https://icons.llamao.fi/icons/rwa/etplus.png?w=48&h=48",
+    "registryInfo": "TPLUS is a Cayman SPC regulated by CIMA, independently administered by Ascent, audited by Forvis Mazars, with custody at Anchorage Digital and on-chain proof of reserves plus daily NAV feeds via Chainlink. Zodiac issues zTPLUS as the permissionless wrapper of the fund. eTPLUS is the ERC-4626 vault receipt issued on the Ember Protocol tokenization rail, the same rail behind GPCI (Pharos) and rcUSD (Sui); Epoch Digital is named as vault manager in Ember's API.",
     "links": {
       "website": [
         "https://epoch.credit/"
@@ -57,7 +58,10 @@
     },
     {
       "organization": "chainlink",
-      "kind": "oracle"
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://monadvision.com/address/0xDF9BF6D889D251fc22fF10D3B04A108530a818E6"
+      ]
     },
     {
       "organization": "ascent-fund-services",

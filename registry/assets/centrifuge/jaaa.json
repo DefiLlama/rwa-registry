@@ -33,6 +33,7 @@
   "about": {
     "description": "JAAA represents tokenized fund units of the Janus Henderson Anemoy AAA CLO Fund, designed to provide floating-rate income with a high-quality credit profile through AAA-rated CLO exposure. It is positioned as a NAV-based fund product with tokenized delivery and onchain settlement, enabling treasury and collateral workflows that want institutional credit exposure in a programmable format while retaining fund-style reporting and holdings visibility.",
     "logo": "https://icons.llamao.fi/icons/rwa/jaaa.png?w=48&h=48",
+    "registryInfo": "Anemoy Capital SPC Limited – British Virgin Islands segregated portfolio company (SPC) registered in Road Town, BVI (company no. 2130465), operating BVI professional funds under the Securities and Investment Business Act and regulated by the BVI Financial Services Commission. LEI 2549009CBJ86SM12V633. Janus Henderson Anemoy AAA CLO Fund (JAAA) is one of the segregated portfolios issued by this SPC and tokenized via Centrifuge.",
     "links": {
       "website": [
         "https://www.anemoy.io/funds/jaaa",

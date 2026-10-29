@@ -77,7 +77,10 @@
     },
     {
       "organization": "redstone",
-      "kind": "oracle"
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://app.redstone.finance/push-feeds/PGNGI%2B_FUNDAMENTAL/ethereumMultiFeed"
+      ]
     }
   ],
   "events": [

@@ -28,6 +28,7 @@
   "about": {
     "description": "EUROe is a regulated euro stablecoin issued by Membrane Finance, designed for euro-denominated onchain settlement across multiple networks. It is marketed as fully fiat-backed with overcollateralisation (euro-denominated assets) and is redeemable 1:1 for euros via Membrane's account/onboarding flow, supporting payments, exchange settlement, and euro treasury operations in DeFi.",
     "logo": "https://icons.llamao.fi/icons/rwa/euroe.png?w=48&h=48",
+    "registryInfo": "Membrane Finance - EU-regulated issuer of the EUROe euro stablecoin, operating under an Electronic Money Institution (EMI) licence issued by the Finnish Financial Supervisory Authority (FIN-FSA).",
     "links": {
       "website": [
         "https://euroe.com"

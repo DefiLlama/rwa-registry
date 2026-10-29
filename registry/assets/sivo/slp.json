@@ -27,6 +27,7 @@
   "about": {
     "description": "Vault share token for the Sivo protocol. Stablecoin deposits fund diversified pools of payment-backed receivables owed by platforms, marketplaces and payment processors. Priced off the Chainlink SLP/USD exchange-rate feed (0x0e095dD47bdE0d7cdb57a72bB98B6419dfBB505b, 24h heartbeat), not a market price - CoinGecko lists sivo-defi but publishes no price. Backing verified 2026-09-21 via Accountable proof-of-solvency: reserves $13,651,664 vs 13,517,171 SLP supply = 100.99% collateral ratio. Note 80.9% of reserves sit on Sivo's own internal lending platform (issuer-sourced API); CEX and bank legs (Coinbase Prime, Brex, Airwallex) are independently retrieved.",
     "logo": "https://icons.llamao.fi/icons/rwa/sivo-slp.png?w=48&h=48",
+    "registryInfo": "Submitted issuer is Sivo Yield Administrator LLC; jurisdiction not disclosed on the site. Related entity naming is inconsistent across Sivo products - the sivoUSDX record cites Sivo Holdings Ltd, where a UK namesake (#12731839) was dissolved 25 Feb 2025 and an active Cayman SIVO HOLDINGS LIMITED (LEI 984500645Q5BFED03I75) exists. Issuing entity for SLP unconfirmed.",
     "links": {
       "website": [
         "https://sivo.xyz"
@@ -68,7 +69,10 @@
     },
     {
       "organization": "chainlink",
-      "kind": "oracle"
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://data.chain.link/feeds/ethereum/mainnet/slp-usd-exchange-rate"
+      ]
     }
   ],
   "events": [

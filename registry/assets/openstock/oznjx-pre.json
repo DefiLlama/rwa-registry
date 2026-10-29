@@ -25,6 +25,7 @@
   },
   "about": {
     "description": "oZNJX-pre is a capped vault token from OpenStock that gave holders exposure to the Hong Kong share offering of Zhongji Innolight, the Chinese maker of the optical transceivers used to connect servers inside artificial intelligence data centres. The company was already listed in Shenzhen and added a parallel Hong Kong line, and the vault subscribed to that Hong Kong offering through a special purpose vehicle. A holder owns a claim on the vehicle rather than registered shares, with no voting rights and no dividend entitlement. The vault raised about nine point three million dollars, was filled at roughly fifty three percent of the allocation it asked for, and now redeems for stablecoin at a published net redemption value rather than at the market price of the stock. Deposits are closed and the token remains freely transferable.",
+    "registryInfo": "OpenStock is operated by Polynomial Research. Each vault is paired with a single purpose, bankruptcy remote special purpose vehicle that subscribes to the allocation, signs the broker mandate, holds the shares with a custodian and wires net proceeds back on chain. The vehicle carries one class of claim matching the vault token, with no tranche ranking above holders. The vehicle, custodian and broker are named per vault by the platform rather than in the product documentation. Access excludes United States persons and Hong Kong residents.",
     "links": {
       "website": [
         "https://opn.st/s/ZNJX"

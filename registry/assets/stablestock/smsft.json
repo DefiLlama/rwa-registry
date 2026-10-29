@@ -28,6 +28,7 @@
   "about": {
     "description": "sMSFT tokenizes Microsoft Corporation (Nasdaq: MSFT), a ~$3T market-cap software and cloud company that owns Azure, the OpenAI partnership, GitHub, Microsoft 365 and Activision, and is led by CEO Satya Nadella. Microsoft is often the largest single weight in US equity benchmarks. StableStock issues sMSFT as a 1:1 BEP-20 on BNB Chain backed by MSFT shares custodied off-chain through StableBroker (StableStock's licensed broker partner with HabitTrade), with 24/7 on-chain liquidity via Native. Mint/redeem requires KYC. On-chain transfers and DEX trades are permissionless.",
     "logo": "https://icons.llamao.fi/icons/rwa/msft.png?w=48&h=48",
+    "registryInfo": "StableStock sTokens are issued under StableBroker, StableStock's licensed-broker infrastructure operated with HabitTrade. HabitTrade Pty Ltd holds AFSL 514654 (ABN 59 626 521 202, Australia); HabitTrade LLC holds a US FinCEN MSB registration (31000229716152); HabitTrade (HK) Limited holds an SFC Type 1 licence (Hong Kong). StableStock custody relies on its US broker partner DriveWealth LLC, a FINRA/SIPC member US broker-dealer. StableStock's published backers/partners include YZi Labs, MPCi, Vertex Ventures, Foresight Ventures, Amber Group and Dragonfly.",
     "links": {
       "website": [
         "https://stablestock.finance"
@@ -69,7 +70,10 @@
     },
     {
       "organization": "stablebroker-habittrade",
-      "kind": "oracle"
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://stablestock.gitbook.io/ss/concepts/transparency#live-trades-and-reserves"
+      ]
     }
   ],
   "events": [

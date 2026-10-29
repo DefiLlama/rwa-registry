@@ -26,6 +26,7 @@
   "about": {
     "description": "R2USD is R2’s stablecoin entry point into an onchain wealth-management protocol that allocates capital across real-world-yield strategies. Public materials describe R2 Reserve as a lower-risk Treasuries and credit allocation, and R2 Prime as a longer-duration structured strategy.",
     "logo": "https://icons.llamao.fi/icons/rwa/r2-protocol-r2usd.png?w=48&h=48",
+    "registryInfo": "R2 Labs describes the protocol as a fund-of-funds model for stablecoin yield across Treasuries, money markets, and tokenized credit.",
     "links": {
       "website": [
         "https://www.r2.money"

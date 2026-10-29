@@ -28,6 +28,7 @@
   "about": {
     "description": "EXODB is the onchain representation of Exodus Movement, Inc.’s Class B common stock issued through the Securitize platform. Rather than being a synthetic “wrapped” asset, the token is designed to mirror the underlying security on the issuer’s shareholder register, so ownership and transfers remain tied to the rights and restrictions of the Class B class as defined in the issuer’s charter and offering documents. Onchain, EXODB is implemented as an ERC‑20 token on Arbitrum. Class B shares typically carry different governance economics (for example, enhanced voting rights and/or class conversion mechanics) than Class A, investors should rely on the issuer’s SEC filings and governing documents for the exact rights attached to the Class B security.",
     "logo": "https://icons.llamao.fi/icons/rwa/exod.png?w=48&h=48",
+    "registryInfo": "SEC/Registry: CIK 0001821534 (Exodus Movement, Inc.). State of incorporation: Delaware. Exchange Act File No. 001-42047. Security: Class B common stock (tokenized representation).",
     "links": {
       "website": [
         "https://www.exodus.com"

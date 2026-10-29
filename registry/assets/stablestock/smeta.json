@@ -28,6 +28,7 @@
   "about": {
     "description": "sMETA is a 1:1 tokenized wrapper of Meta Platforms, Inc. Class A (Nasdaq: META), the Facebook/Instagram/WhatsApp/Threads operator plus the Reality Labs AR/VR division, led by CEO Mark Zuckerberg. Meta is one of the world's largest advertising-driven businesses and a primary beneficiary of AI-driven ad targeting. StableStock issues sMETA as a BEP-20 on BNB Chain, with the underlying shares custodied off-chain by StableBroker (licensed broker infrastructure, StableStock x HabitTrade) and 24/7 on-chain markets provided in partnership with Native. KYC gates mint/redeem only. BEP-20 transfers are permissionless.",
     "logo": "https://icons.llamao.fi/icons/rwa/meta.png?w=48&h=48",
+    "registryInfo": "StableStock sTokens are issued under StableBroker, StableStock's licensed-broker infrastructure operated with HabitTrade. HabitTrade Pty Ltd holds AFSL 514654 (ABN 59 626 521 202, Australia); HabitTrade LLC holds a US FinCEN MSB registration (31000229716152); HabitTrade (HK) Limited holds an SFC Type 1 licence (Hong Kong). StableStock custody relies on its US broker partner DriveWealth LLC, a FINRA/SIPC member US broker-dealer. StableStock's published backers/partners include YZi Labs, MPCi, Vertex Ventures, Foresight Ventures, Amber Group and Dragonfly.",
     "links": {
       "website": [
         "https://stablestock.finance"
@@ -69,7 +70,10 @@
     },
     {
       "organization": "stablebroker-habittrade",
-      "kind": "oracle"
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://stablestock.gitbook.io/ss/concepts/transparency#live-trades-and-reserves"
+      ]
     }
   ],
   "events": [

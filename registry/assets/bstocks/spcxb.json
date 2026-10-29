@@ -40,6 +40,7 @@
   "about": {
     "description": "SPCXB is a tokenized certificate issued by BTECH Holdings Limited (ADGM) that provides economic exposure to SpaceX shares. Each token is backed 1 to 1 by a corresponding SpaceX share held in a segregated custody account with a regulated custodian under ADGM FSRA Ledger-Based Securities rules. SPCXB is admitted to the ADGM Official List of Securities. Convertibility to real shares is available via the Binance-affiliated broker-dealer Nest Trading Limited, and dividend value is delivered through an on-chain Multiplier rebasing mechanism at the bStocks framework level. Aggregate proof of collateral is published on the Binance Proof of Collateral dashboard covering the entire bStocks family. Access is restricted from United States persons.",
     "logo": "https://icons.llamao.fi/icons/rwa/spcxb.png?w=48&h=48",
+    "registryInfo": "BTECH Holdings Limited is a Binance-group affiliate incorporated in the Abu Dhabi Global Market (ADGM). The Financial Services Regulatory Authority (FSRA) of ADGM approved the admission of Binance bStock Certificates to the ADGM Official List on June 11 2026, the first tokenized-securities admission to that Official List. bStocks are structured as Ledger-Based Securities under FSRA rules, issued 1 to 1 backed by underlying shares held in BTECH segregated custody. Convertibility to real shares is available via Binance-affiliated broker-dealer Nest Trading Limited. Dividends are handled through an on-chain Multiplier rebasing mechanism. Legal advisors: Al Tamimi and Company (issuer counsel), Gibson Dunn (listing advice). Aggregate proof of collateral for the bStocks family is published on the Binance Proof of Collateral dashboard. US persons are excluded.",
     "links": {
       "website": [
         "https://www.bstocks.finance/"
@@ -70,11 +71,17 @@
     },
     {
       "organization": "binance",
-      "kind": "oracle"
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://www.binance.com/en/proof-of-collateral/bstocks"
+      ]
     },
     {
       "organization": "btech-holdings-limited",
-      "kind": "oracle"
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://www.binance.com/en/proof-of-collateral/bstocks"
+      ]
     }
   ],
   "events": [

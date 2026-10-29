@@ -30,6 +30,7 @@
   "about": {
     "description": "Distributing (rebasing) form of USDY on Mantle, pegged to $1, with yield paid via additional mUSD tokens. Convertible to/from accumulating USDY on Mantle via the Ondo Token Converter.",
     "logo": "https://icons.llamao.fi/icons/rwa/usdy.png?w=48&h=48",
+    "registryInfo": "Ondo USDY LLC, Delaware special purpose limited liability company, bankruptcy‑remote issuer of USDY token.",
     "links": {
       "website": [
         "https://docs.ondo.finance/tools/converter/usdy-musd-conversion"

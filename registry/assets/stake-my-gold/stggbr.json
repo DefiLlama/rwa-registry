@@ -28,6 +28,7 @@
   "about": {
     "description": "STGGBR is a staked yield-bearing ERC-4626 wrapper of the Goldfish Gold (GGBR) token operated by SMG Development Inc. Daily yield is injected into the vault at a target APY, with the accrued value priced against the underlying GGBR. The underlying GGBR is backed by NI 43-101 verified in-situ (unmined, in-ground) gold reserves of publicly listed I-ON Digital Corp (OTCQB: IONI), over-collateralized approximately 5 to 1 with UCC-1 liens against the mining property. This is materially different from allocated LBMA bullion tokens such as PAXG or XAUT because the underlying is unmined ore rather than refined vault-held gold. Because value accrues via yield injections layered on top of the base GGBR claim, STGGBR is classified as a Programmable Finance active vault sitting on top of the GGBR base token.",
     "logo": "https://icons.llamao.fi/icons/rwa/stggbr.png?w=48&h=48",
+    "registryInfo": "SMG Development Inc. is a British Virgin Islands company operating the Stake My Gold platform, stated to be independent from the underlying GGBR issuer. STGGBR wraps GGBR (Goldfish Gold), which is backed by NI 43-101 verified in-situ (unmined, in-ground) gold reserves of I-ON Digital Corp (OTCQB: IONI), over-collateralized approximately 5 to 1 with UCC-1 liens against the mining property. Physical redemption at the GGBR base layer is offered via Monex, and custody controls are handled at the GGBR layer using Fireblocks. STGGBR itself is an ERC-4626 tokenized-vault wrapper that accrues yield via daily targetAPY injections priced against GGBR.",
     "links": {
       "website": [
         "https://stakemygold.com/"
@@ -61,7 +62,10 @@
     },
     {
       "organization": "smg-development-inc",
-      "kind": "oracle"
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://goldfishgold.com/collateral"
+      ]
     }
   ],
   "events": [

@@ -26,6 +26,7 @@
   "about": {
     "description": "Digital Commercial Paper (GDCP) is Moody's Prime-1-rated, US-Treasury-backed commercial paper issued by Great Bridge Capital Company, a bankruptcy-remote SPV of Guggenheim Treasury Services, and tokenized on the XRP Ledger and Ethereum via Zeconomy's AmpFi.Digital platform. Notes are sold at a discount with custom maturities up to 397 days for institutional investors. XRPL ledger obligations are the cleanest supply source. Ethereum ERC-1155 token-ids include matured-but-unburned issues that should not be counted at face value.",
     "logo": "https://icons.llamao.fi/icons/rwa/gdcp.png?w=48&h=48",
+    "registryInfo": "Great Bridge Capital Company LLC, a bankruptcy-remote SPV established by Guggenheim Treasury Services, rated Prime-1 by Moody's; backed by maturity-matched US Treasuries with maturities up to 397 days. Ripple invested $10M in the program; >$280M cumulative issuance by June 2025. Ethereum leg is an ERC-1155 (one token-id per CP issue, 2 implied decimals); XRPL issuer rnXNUqF8... issues dated GDCPyyyymmdd currencies with clawback enabled.",
     "links": {
       "website": [
         "https://www.zeconomy.com"

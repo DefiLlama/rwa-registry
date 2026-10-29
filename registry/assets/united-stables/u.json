@@ -31,6 +31,7 @@
   "about": {
     "description": "U is a USD stablecoin from United Stables, marketed as a liquidity layer for DeFi markets. Supply is intended to be fully backed by liquid reserve assets held in segregated custody accounts, with published attestation reports. Issuance/redemption is performed through authorized channels while U remains transferable on-chain.",
     "logo": "https://icons.llamao.fi/icons/rwa/u.png?w=48&h=48",
+    "registryInfo": "United Stables Limited (British Virgin Islands) issues U as an on-chain USD-pegged stablecoin with off-chain reserves.",
     "links": {
       "website": [
         "https://u.tech/"

@@ -27,6 +27,7 @@
   "about": {
     "description": "OPAIPon is a tokenized note issued by PM Issuer Co (BVI) Ltd. OpenAI Private Market Notes give eligible investors economic exposure to the per-share value realized on the common shares of the Reference Company, OpenAI. OpenAI is the company behind ChatGPT, founded in 2015 and headquartered in San Francisco. Other jurisdictional restrictions may apply. Learn more at ondo.finance/private-markets. NOTE: there is no public NAV, oracle or secondary market for this note — DefiLlama marks it at the midpoint of Ondo's own OPAIPon-USDC spot order book.",
     "logo": "https://icons.llamao.fi/icons/rwa/openai.png?w=48&h=48",
+    "registryInfo": "PM Issuer Co (BVI) Ltd issues OpenAI Private Market Notes, which give eligible investors economic exposure to the per-share value realized on the common shares of the Reference Company, OpenAI. Tokenholders are not shareholders of OpenAI and hold no voting or other shareholder rights. The notes have no public NAV or oracle: the mark used here is the midpoint of Ondo's own OPAIPon-USDC spot order book.",
     "links": {
       "website": [
         "https://ondo.finance/private-markets"

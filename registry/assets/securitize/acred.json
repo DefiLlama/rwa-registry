@@ -31,6 +31,7 @@
   "about": {
     "description": "ACRED represents tokenized access to the Apollo Diversified Credit Fund through the Securitize platform. The strategy seeks a return comprised of current income and capital appreciation, emphasizing income with low volatility and low correlation to broader public markets by investing across diversified credit exposures sourced from Apollo’s credit platform. ACRED is structured as an onchain fund interest with native subscription/redemption mechanics processed at the fund’s net asset value, including daily NAV redemptions as described by the issuer’s launch materials. The token has been deployed across multiple networks to support different settlement rails while keeping a single, regulated share‑class exposure.",
     "logo": "https://icons.llamao.fi/icons/rwa/apollo-diversified-credit-securitize-fund.png?w=48&h=48",
+    "registryInfo": "SEC/Registry: CIK 0002056038. Legal issuer: Securitize Tokenized Apollo Diversified Credit Fund, Ltd. (British Virgin Islands business company). Form D filed 2025-02-12 (Accession 0002056038-25-000001).",
     "links": {
       "website": [
         "https://securitize.io/primary-market/apollo-diversified-credit-securitize-fund"

@@ -39,6 +39,7 @@
   "about": {
     "description": "RCATx is the Red Cat xStock, a tokenized equity exposure designed to track Red Cat in a format usable across crypto venues. Under the xStocks framework (powered by Backed), tokens are 1:1 backed by the underlying security held with regulated custodians, with continuous Chainlink Proof of Reserve attestation, freely transferable and self-custodial. Mint/redemption via Backed for authorized participants (KYC). Added from the official xStocks API 2026-06-10.",
     "logo": "https://icons.llamao.fi/icons/rwa/xstocks-rcatx.png?w=48&h=48",
+    "registryInfo": "Backed Assets (JE) Limited – Jersey company no. 152608, registered address First Floor, La Chasse Chambers, Ten La Chasse, St. Helier, Jersey JE2 4UE.",
     "links": {
       "website": [
         "https://assets.backed.fi/products/red-cat-xstock"
@@ -201,7 +202,10 @@
     },
     {
       "organization": "chainlink",
-      "kind": "oracle"
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://defi.backed.fi/proof-of-reserves"
+      ]
     },
     {
       "organization": "the-network-firm",

@@ -26,6 +26,7 @@
   "about": {
     "description": "SR-strcUSX is the senior tranche of the Solstice strcUSX YieldVault on Solana. Depositors lock USX and receive a non-rebasing vault token whose value accretes toward an indicative target return funded by income linked to Strategy Inc. Variable Rate Series A Perpetual Stretch Preferred Stock. Holders do not own STRC shares and instead hold a claim on the vault that settles back to USX. Junior tranche capital absorbs realised losses on the STRC book before senior principal is affected, outside a liquidation event. Redemption is available at one to one through a fifteen day cooldown queue or immediately for a fee, and the token is transferable across Solana DeFi.",
     "logo": "https://icons.llamao.fi/icons/rwa/solstice-sr-strcusx.png?w=48&h=48",
+    "registryInfo": "Solstice Labs operates the Solstice protocol and the YieldVault framework. Issuing entities and user terms are set out in the legal section of the Solstice documentation.",
     "links": {
       "website": [
         "https://solstice.finance/vaults/strcusx"

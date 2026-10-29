@@ -67,7 +67,10 @@
     },
     {
       "organization": "redstone",
-      "kind": "oracle"
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://app.redstone.finance/push-feeds/ARKVX_FUNDAMENTAL/ethereumMultiFeed"
+      ]
     }
   ]
 }

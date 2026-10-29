@@ -27,6 +27,7 @@
   "about": {
     "description": "0XOF is the first West African CFA franc (XOF) stablecoin on Base, issued by Volta Equity Partners Limited Company under the Agbo brand. Pegged 1:1 to XOF, the official currency of the eight-country West African Economic and Monetary Union (WAEMU): Bénin, Burkina Faso, Côte d'Ivoire, Guinea-Bissau, Mali, Niger, Sénégal, and Togo. Reserves are backed by liquid WAEMU sovereign bonds. Acquisition channels include on/off-ramps via local agents, mobile money rails (covering the WAEMU mobile money ecosystem), and direct on-ramp conversions. The platform also features a Nǔ loyalty program where 0XOF holders accrue loyalty points (not native yield).",
     "logo": "https://icons.llamao.fi/icons/rwa/0xof.png?w=48&h=48",
+    "registryInfo": "Volta Equity Partners Limited Company is the issuer of 0XOF, the first XOF (West African CFA franc) stablecoin on Base. Operating brand: Agbo (agbo.to). Reserves backed by liquid WAEMU sovereign bonds.",
     "links": {
       "website": [
         "https://agbo.to/"

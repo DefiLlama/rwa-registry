@@ -27,6 +27,7 @@
   "about": {
     "description": "Reental-AZN-1 is Reental's tokenized interest in Arizona 1 (USD-denominated), issued on Polygon at a fixed 100 USD per token. The token's AssetOracle publishes that issue price, not a revalued mark: it is pinned at exactly $100 and has never moved. No attestation, no redemption price and no secondary market (transfers are whitelist-gated). 2.7% of supply ($3,021) sits in Reental-side crowdfunding/recipient wallets and is excluded from active marketcap.",
     "logo": "https://icons.llamao.fi/icons/rwa/azn-1.png?w=48&h=48",
+    "registryInfo": "Reental (tokenized real estate investment platform).",
     "links": {
       "website": [
         "https://www.reental.co/"
@@ -66,7 +67,10 @@
     },
     {
       "organization": "reental",
-      "kind": "oracle"
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://polygonscan.com/address/0x0a77118f103c2eb30dad91980296ec98c9a06069"
+      ]
     }
   ]
 }

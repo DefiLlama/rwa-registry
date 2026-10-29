@@ -28,6 +28,7 @@
   "about": {
     "description": "HYDRO is an Arbitrum ERC-20 that the issuer presents as exposure to United States clean hydrogen production tax credits under Internal Revenue Code section 45V. Section 45V is among the credits made transferable by section 6418, but that section permits a credit portion to be transferred only once, only to an unrelated taxpayer and only for cash, and it requires a pre-filing registration number together with a transfer election statement attached to the returns of both parties. The transferee is then treated as the taxpayer and claims the credit against its own federal income tax liability. A section 45V credit is therefore not a bearer instrument and cannot circulate between holders or be redeemed by an arbitrary token holder. The token contract exposes mint and burn to an administrator key, which is the only account able to change supply, and the contract is pausable. Transfers are unrestricted, with no allowlist, blacklist or transfer hook. Collateral pricing comes from an issuer-controlled adapter that returns a fixed four dollars per token, and a Morpho Blue market accepts HYDRO as collateral against USDC at a 62.5% liquidation loan-to-value.",
     "logo": "https://icons.llamao.fi/icons/rwa/hydro.png?w=48&h=48",
+    "registryInfo": "No public registry record for the issuer could be located. The issuer is identified as Garret INC, a United States corporation, with an EIN of 87-1576956, neither of which appears on the project website, in either document published through the Proof of Reserve contract, or in the token metadata records. The surname appears once in the issuer's published material, as an annotation reading Charles Garret filling the attestor line of the custody document published for the bond token. Neither the entity name nor the EIN can be independently confirmed, because no public registry of employer identification numbers exists for for-profit entities and no record for Garret INC or Trinity Protocol appears in the GLEIF registry or in SEC EDGAR. The metadata records the issuer publishes name no issuing entity, although the gold record does name a custodian and a marking entity. The identifier the Proof of Reserve contract publishes as an issuer LEI is the string TRINITY-PROTOCOL-RWA, which is exactly twenty characters but contains hyphens and ends in letters where ISO 17442 requires alphanumeric characters throughout and two check digits calculated under ISO 7064.",
     "links": {
       "website": [
         "https://graceful-begonia-2b7634.netlify.app/"
@@ -66,7 +67,10 @@
     },
     {
       "organization": "garret-inc",
-      "kind": "oracle"
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://arbiscan.io/address/0x0A96cB06A7BaDc652D1816e087940644754d9BD6"
+      ]
     }
   ],
   "events": [

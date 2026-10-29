@@ -40,6 +40,7 @@
   "about": {
     "description": "INCEon is an Ondo Global Markets tokenized ETF exposure designed to provide economic exposure to Franklin Income Equity Focus ETF, an actively managed income-oriented equity ETF that combines dividend-paying common stock, preferred or convertible securities, and equity-linked notes. The token is designed to be fully backed by the underlying publicly traded ETF, together with cash in transit, held with regulated custodial broker-dealers. Tokenholders are not shareholders of the underlying and do not receive shareholder voting rights. ETF distributions are reflected through Ondo's total return mechanics, with value reinvested net of applicable withholding taxes.",
     "logo": "https://icons.llamao.fi/icons/rwa/ince.png?w=48&h=48",
+    "registryInfo": "Ondo Global Markets (BVI) Limited issues Ondo Global Markets tokens as structured notes designed to track the performance of the corresponding underlying publicly traded stock or ETF (including dividends, which are reinvested where applicable). The notes are governed by the Issuer’s Sales Terms under Swiss law. GM tokens are fully backed 1:1 by the corresponding underlying securities held with regulated custodial broker-dealers, plus an additional collateral buffer. Ondo publishes ongoing attestations and reporting for GM token backing (verified by Ankura Trust Company).",
     "links": {
       "website": [
         "https://app.ondo.finance/assets/inceon"

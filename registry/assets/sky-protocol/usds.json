@@ -29,6 +29,7 @@
   "about": {
     "description": "USDS is Sky Protocol’s upgraded USD stablecoin (successor to DAI). DAI can be converted 1:1 to USDS, and new issuance is driven by overcollateralized borrowing against on-chain collateral through Sky Vaults. USDS integrates with Sky’s savings product (sUSDS) and governance framework, targeting DeFi settlement usage rather than direct retail fiat redemption.",
     "logo": "https://icons.llamao.fi/icons/rwa/sky-dollar.png?w=48&h=48",
+    "registryInfo": "Decentralized stablecoin issued by the Sky Protocol (formerly MakerDAO) through overcollateralized on-chain vaults; no single centralized issuer.",
     "links": {
       "website": [
         "https://sky.money/"

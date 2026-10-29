@@ -31,6 +31,7 @@
   "about": {
     "description": "rLRCX is a tokenized Lam Research Corporation share issued by Reality on Arbitrum, designed to track the economic performance of Lam Research Corporation (LRCX) at a 1:1 ratio. Each rLRCX is backed by a corresponding share held through Alpaca Securities LLC, a FINRA-registered and SIPC-covered US broker-dealer, with reserves continuously verified by The Network Firm through Reality's Proof of Asset dashboard. Reality is a regulated RWA issuance platform within the Bitget ecosystem.",
     "logo": "https://icons.llamao.fi/icons/rwa/rlrcx.png?w=48&h=48",
+    "registryInfo": "Reality is a licensed real-world asset issuance platform operating as a subsidiary of the Bitget exchange group. Underlying securities are custodied through Alpaca Securities LLC (FINRA CRD 288202, SEC file 8-69928), a FINRA-registered and SIPC-covered US broker-dealer. Proof of asset attestations are performed by The Network Firm LLP, a Miami-headquartered CPA firm specializing in digital-asset and RWA attestations via its LedgerLens real-time attestation platform. rTokens are issued on Arbitrum One with 24/5 mint and redemption, on-chain dividend distributions in stablecoins, and automatic handling of stock splits and corporate actions.",
     "links": {
       "website": [
         "https://realityfinance.xyz/"

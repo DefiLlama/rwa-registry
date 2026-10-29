@@ -28,6 +28,7 @@
   "about": {
     "description": "mEDGE is a Midas-issued structured certificate managed by Edge Capital. Issued through Midas Capital Holding LLC (Cayman) under German BaFin Crypto Securities Registrar status (eWpG framework). The strategy deploys capital into market-neutral and delta-neutral DeFi positions across blue-chip protocols. Lending on Aave/Morpho, basis trades on Hyperliquid/Binance, AMM LP positions, funding-rate arbitrage. NAV accrues via the Midas Attestation Engine. Chainlink Proof-of-Reserve verifies backing, with KYC required at mint/redemption. Secondary transfer permissionless. Deployed on Ethereum (canonical), Plume Mainnet, 0G, and Monad.",
     "logo": "https://icons.llamao.fi/icons/rwa/medge.png?w=48&h=48",
+    "registryInfo": "Midas Capital Holding LLC (Cayman) — BaFin-licensed Crypto Securities Registrar via German subsidiary. mEDGE is a structured DeFi-yield product targeting market-neutral and delta-neutral strategies across blue-chip DeFi protocols. Risk manager: Edge Capital. Eligibility: non-US qualified investors via Midas onboarding.",
     "links": {
       "website": [
         "https://midas.app/"

@@ -26,6 +26,7 @@
   "about": {
     "description": "PRME is a tokenized tracker certificate issued by Robinhood Markets, Inc. through its European subsidiary Robinhood Europe UAB, deployed as an ERC-20 token on Arbitrum One. It is designed to provide synthetic price exposure to PRME rather than direct share ownership, operating under MiFID II regulatory oversight. The token is available to EU/EEA customers with 24/5 commission-free trading, and on-chain pricing is supplied through Chainlink oracle feeds.",
     "logo": "https://icons.llamao.fi/icons/rwa/prme.png?w=48&h=48",
+    "registryInfo": "SEC-registered broker-dealer; Robinhood Europe UAB (MiFID II)",
     "links": {
       "website": [
         "https://robinhood.com/stocks"

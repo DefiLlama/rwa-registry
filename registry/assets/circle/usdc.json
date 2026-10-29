@@ -32,6 +32,7 @@
   "about": {
     "description": "USDC is Circle’s USD stablecoin designed for 1:1 redemption. Circle states USDC is fully backed by highly liquid cash and cash-equivalent assets, and that the majority of reserves are held in the Circle Reserve Fund (USDXX), an SEC-registered 2a-7 government money market fund. Circle provides reserve attestations and disclosures intended to allow independent review of reserve coverage and composition.",
     "logo": "https://icons.llamao.fi/icons/rwa/usdc.png?w=48&h=48",
+    "registryInfo": "Circle Internet Financial, LLC (LEI: 5493001KJTIIGC8Y1R12) — Delaware LLC (Entity No. 5381921). Parent: Circle Internet Group, Inc. (SEC CIK: 1876042).",
     "links": {
       "website": [
         "https://www.circle.com/usdc"

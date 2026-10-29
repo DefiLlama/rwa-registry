@@ -26,6 +26,7 @@
   "about": {
     "description": "ouro90D is the ERC-4626 share token of the Ouroboros 90D Fixed Term Vault on Monad. Deposited USDC is deployed by Ouroboros Capital across a suite of yield-oriented crypto strategies including DeFi, delta-neutral arbitrage, and basis trading. Yield accrues to share price through ERC-4626 convertToAssets. The 90D suffix in the ticker denotes a 90-day fixed-term structure.",
     "logo": "https://icons.llamao.fi/icons/rwa/ouro90d.png?w=48&h=48",
+    "registryInfo": "Ouroboros Capital is a multi-strategy crypto investment firm delivering yield through DeFi, delta-neutral arbitrage, and basis trading strategies. Its Ouroboros Yield product line offers customizable strategies for cash management and white-label distribution, accessible via BVI funds or separately managed accounts. The ERC-4626 vault is issued on Monad and reflects the firm's fixed-term yield structure as denoted by the 90D ticker suffix.",
     "links": {
       "website": [
         "https://ourocap.io/"

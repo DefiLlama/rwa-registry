@@ -31,6 +31,7 @@
   "about": {
     "description": "XAGm is Matrixdock's tokenized silver product, designed for bar-level transparency with holdings mapped to LBMA Good Delivery silver bars stored in vetted Asian vaults. Each XAGm represents one fine troy ounce of silver at launch, with the ozPerToken value declining gradually to reflect a 0.3% annualized custody fee. The token uses Matrixdock's Fungible Reserve Standard (FRS), under which on-chain mint budget and proof-of-reserves are tightly coupled to off-chain bullion economics. Independent physical audits are performed by Bureau Veritas, with semi-annual audit reports and ongoing vault asset statements published via Matrixdock's transparency surface. Holders can redeem XAGm for the underlying silver subject to KYC/AML and minimum thresholds via the Matrixdock app.",
     "logo": "https://icons.llamao.fi/icons/rwa/xagm.png?w=48&h=48",
+    "registryInfo": "Hong Kong private company limited by shares, Matrixdock is operated by Matrix Infinitus (Hong Kong) Limited, a member of the Singapore Bullion Market Association and the Chinese Gold & Silver Exchange, with Company ID 3010505 and Business Registration number 72562286-000.",
     "links": {
       "website": [
         "https://www.matrixdock.com/xagm"

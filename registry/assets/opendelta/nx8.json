@@ -31,6 +31,7 @@
   "about": {
     "description": "NX8 is a tokenized crypto-native index product that tracks the top Layer-1 networks underpinning crypto's most proven use cases. The basket is composed of BTC, ETH, SOL, BNB, TRON, HYPE, AVAX, and SUI under a methodology provided by GMCI with Nansen as ecosystem partner. NX8 is issued by OpenDelta as an SPL token on Solana and is LayerZero OFT-compatible across additional chains. The basket is rebalanced quarterly and the composition is reviewed every six months, with all positions backed by the underlying assets held in custody. Holders earn Nansen Points, staking rewards from the underlying Layer-1 networks, and treasury incentives. The product has a Moderate risk profile as Market Beta, with live integrations on Kamino for lending and Orca for DEX liquidity.",
     "logo": "https://coin-images.coingecko.com/coins/images/71541/large/NX8_logo.png",
+    "registryInfo": "OpenDelta — modular onchain asset management framework providing tokenization, operations, issuance, and distribution rails for crypto-native asset managers. NX8 ecosystem partner: Nansen. Methodology provider: GMCI. SPL token on Solana, LayerZero OFT-compatible across additional chains. Underlying basket assets held in custody by OpenDelta infrastructure partners.",
     "links": {
       "website": [
         "https://www.opendelta.com/"

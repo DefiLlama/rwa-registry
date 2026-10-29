@@ -29,6 +29,7 @@
   "about": {
     "description": "GHO is Aave’s overcollateralized stablecoin. It is minted by borrowing against collateral supplied on Aave (via ‘facilitators’ that manage minting limits) and is integrated with Aave’s risk framework. features like the GHO discount tie borrowing costs to Aave governance and security staking.",
     "logo": "https://icons.llamao.fi/icons/rwa/gho.png?w=48&h=48",
+    "registryInfo": "Decentralized stablecoin governed by the Aave DAO and minted through the Aave Protocol against user-supplied collateral.",
     "links": {
       "website": [
         "https://aave.com/gho"

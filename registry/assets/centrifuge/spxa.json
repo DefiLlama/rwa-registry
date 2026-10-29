@@ -28,6 +28,7 @@
   "about": {
     "description": "SPXA represents tokenized fund units of the Janus Henderson Anemoy S&P 500® Fund, providing S&P 500 equity index exposure through a NAV-based fund structure issued via Centrifuge and available on Base.",
     "logo": "https://icons.llamao.fi/icons/rwa/spx.png?w=48&h=48",
+    "registryInfo": "Anemoy Capital SPC Limited, an Anemoy segregated portfolio structure using Centrifuge for tokenized fund issuance, investment manager Anemoy Capital with Janus Henderson as sub-investment manager.",
     "links": {
       "website": [
         "https://www.anemoy.io/funds/spxa",

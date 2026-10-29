@@ -32,6 +32,7 @@
   "about": {
     "description": "pmUSD is a USD-pegged stablecoin in the RAAC RWf(x) product suite, issued by Regnum Aurum Acquisition Corp. as an EIP-1967 upgradeable ERC-20 proxy on Ethereum. On-chain circulating supply is approximately 94 million pmUSD. Collateral is ION.au, a gold-backed digital security issued by publicly listed I-ON Digital Corp (OTCQB: IONI), where each ION.au token corresponds to 5 ounces of NI 43-101 verified in-situ gold reserves. RAAC mints 90 dollars of pmUSD for every 100 dollars of ION.au posted as collateral, creating an approximately 111 percent overcollateralization buffer. Reserves and collateral are published via the pmusd.raac.io PoR dashboard and a Chainlink Proof of Reserve feed. This is a fundamentally different collateral model from allocated LBMA vault bullion tokens because the underlying gold is unmined ore rather than refined vault-held bullion.",
     "logo": "https://icons.llamao.fi/icons/rwa/precious-metal-usd.png?w=48&h=48",
+    "registryInfo": "Regnum Aurum Acquisition Corp. is a British Virgin Islands business company (Registration No. 2149666, incorporated 27 May 2024) operating under the brand RAAC. Governing law is BVI with LCIA arbitration seated in BVI. Founder and CEO Kevin Rusher. Contact admin@raac.io. pmUSD is issued as an EIP-1967 upgradeable ERC-20 proxy (implementation 0x32d93b015562cc8da0ef3ccbccc3f8e1da8541d8) within the RAAC RWf(x) suite. The underlying collateral is ION.au, a gold-backed digital security issued by I-ON Digital Corp (OTCQB: IONI), a publicly listed US company. Each ION.au token issued corresponds to 5 ounces of NI 43-101 verified in-situ (in ground) gold reserves. RAAC mints $90 of pmUSD for each $100 of ION.au collateral, creating an approximately 111 percent overcollateralization buffer. Attestation is via a Chainlink Proof of Reserve feed and the pmusd.raac.io transparency dashboard.",
     "links": {
       "website": [
         "https://pmusd.raac.io/"
@@ -93,11 +94,19 @@
     },
     {
       "organization": "chainlink",
-      "kind": "oracle"
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://data.chain.link/feeds/ethereum/mainnet/ion-por",
+        "https://pmusd.raac.io/collateral"
+      ]
     },
     {
       "organization": "raac",
-      "kind": "oracle"
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://data.chain.link/feeds/ethereum/mainnet/ion-por",
+        "https://pmusd.raac.io/collateral"
+      ]
     }
   ],
   "events": [

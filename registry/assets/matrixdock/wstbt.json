@@ -31,6 +31,7 @@
   "about": {
     "description": "wSTBT is a wrapper token designed to represent STBT in a non-rebasing format while preserving the underlying Treasury-linked accrual through an exchange-rate model. It is intended for venues that prefer a constant balance token, such as certain lending and collateral workflows, while keeping exposure economically tied to the STBT reserve base and yield stream. Unwrapping returns STBT, keeping wSTBT anchored to the same underlying reserve monitoring framework.",
     "logo": "https://icons.llamao.fi/icons/rwa/stbt.png?w=48&h=48",
+    "registryInfo": "Matrixdock brand operated by MATRIXDOCK PTE. LTD., a Singapore private company limited by shares incorporated in 2023 and registered with ACRA under UEN 202518853H, with registered office at 10 Collyer Quay, #40‑00 Ocean Financial Centre, Singapore 049315.",
     "links": {
       "website": [
         "https://stbt.matrixdock.com/wstbt/?language=en"

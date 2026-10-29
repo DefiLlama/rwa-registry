@@ -28,6 +28,7 @@
   "about": {
     "description": "XIDR is an Indonesian rupiah stablecoin from StraitsX, intended for IDR-denominated transfers and payments with onchain settlement. It follows a centralized issuance model with offchain IDR reserves and supports permissionless transfers on public chains, enabling IDR liquidity for fintech integrations and web3 use cases in Southeast Asia.",
     "logo": "https://icons.llamao.fi/icons/rwa/xidr.png?w=48&h=48",
+    "registryInfo": "StraitsX - issuer/brand for regional fiat-backed stablecoins used in Southeast Asia. XIDR is positioned as an IDR-backed stablecoin within the StraitsX ecosystem; licensing and reserve reporting are provided via StraitsX's disclosures.",
     "links": {
       "website": [
         "https://www.straitsx.com/xidr"

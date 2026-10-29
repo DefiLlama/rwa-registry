@@ -29,6 +29,7 @@
   "about": {
     "description": "Forward Industries tokenizes SEC-registered FWDI public shares on Solana using Superstate’s Opening Bell, enabling compliant onchain equity with programmable transfers and potential DeFi integrations, such as using tokenized shares as collateral.",
     "logo": "https://icons.llamao.fi/icons/rwa/fwdi.png?w=48&h=48",
+    "registryInfo": "Tokenized SEC-registered shares via Superstate Opening Bell (see Superstate issuer page).",
     "links": {
       "website": [
         "https://superstate.com/assets/fwdi"

@@ -39,6 +39,7 @@
   "about": {
     "description": "MSFT is a SwarmX-issued token that provides on-chain exposure to the referenced equity (Microsoft) under SwarmX’s prospectus-based Stock Certificate Token program. For dividends and other distributions, the Final Terms describe that the custodian receives the payment, forwards it to a conversion service provider to convert into stablecoins (USD stablecoins when available, otherwise EUR stablecoins at the issuer’s discretion), and makes the payout available via a Dividend Smart Contract. Tokenholders must claim distributions, and unclaimed dividends are forfeited once a token is redeemed. Tokenholder rights are contractual and defined in the prospectus and Final Terms, and are not the same as holding the underlying security directly.",
     "logo": "https://icons.llamao.fi/icons/rwa/msft.png?w=48&h=48",
+    "registryInfo": "SwarmX GmbH (LEI: 984500H93FZ5D50AFE98) — German GmbH, registered with Handelsregister Berlin (Charlottenburg) HRB 237948, address Winterfeldtstraße 25, 10781 Berlin, Germany. Issuer of Swarm prospectus-based Stock Certificate Tokens and Bond ETF tokens (SX1411 standard).",
     "links": {
       "website": [
         "https://swarm.com/products/"

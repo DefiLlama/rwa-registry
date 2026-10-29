@@ -31,6 +31,7 @@
   "about": {
     "description": "wiTRY is a yield-bearing wrapper obtained by staking iTRY in a vault contract. The underlying BVI-regulated Turkish money market fund earns yield, and new iTRY is minted into the wrapper vault, so each wiTRY token represents an ever-larger claim on iTRY. Realizes Turkey's ~40% annualized policy rate (historical) for global holders. Deployed on Ethereum + MegaETH.",
     "logo": "https://icons.llamao.fi/icons/rwa/witry.png?w=48&h=48",
+    "registryInfo": "Brix Money tokenization protocol on MegaETH. wiTRY is the yield-bearing share token of an ERC-4626-style vault that holds iTRY.",
     "links": {
       "website": [
         "https://brix.money/"

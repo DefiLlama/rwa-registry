@@ -25,6 +25,7 @@
   "about": {
     "description": "MNO is RedSwan Digital Real Estate's tokenized equity tranche in the Maidstone New Orleans hotel property, issued on Hedera and Stellar for accredited investors.",
     "logo": "https://icons.llamao.fi/icons/rwa/mno.png?w=48&h=48",
+    "registryInfo": "Issuing entity Drifter Nola, LLC (no SEC EDGAR filings found - pre-offering). Issued in parallel on Hedera (two deployments) and Stellar Soroban (two deployments), each carrying identical full supply - only the primary Hedera token is tracked to avoid quadruple counting. Zero transfer events since creation; listings are in \"Express Interest\" status on RedSwan's marketplace (\"not for sale\"), with no SEC filings yet for the issuing LLCs - pre-offering stage with 100% issuer-held supply.",
     "links": {
       "website": [
         "https://marketplace.redswan.io/properties"

@@ -30,6 +30,7 @@
   "about": {
     "description": "BSPT-BKT-2 is a Blocksquare property token recorded on Ethereum under the name 44 Acre Solar Farm In Essex, United Kingdom. The on chain property record gives an address of Crabtree, Horsham, UK together with geographic coordinates. No valuation has been set on either the token or the Blocksquare property registry, so the entry exists as a registered property token without a stated value. No maximum supply has been set and no tokens have been issued. Under the Blocksquare framework a property token conveys an economic interest routed through the entity that owns the property rather than direct legal title, holding requires passing the platform's onboarding checks, transfers are limited to approved addresses, yield reaches holders as distributed rental income paid in DAI, and no issuer redemption facility exists. This token was not part of the issuer's own submission and was identified from the Blocksquare marketplace indexer and confirmed on chain.",
     "logo": "https://icons.llamao.fi/icons/rwa/blocksquare.png?w=48&h=48",
+    "registryInfo": "Blocksquare is the tokenization framework and the property is held by a separate property owning entity onboarded as a Certified Partner. No registered company name, number or jurisdiction was published for this property. The property record sits in the Blocksquare property registry at 0x05325C1Ab1440df7214dB38F676F95999729267B on Ethereum and currently carries no valuation.",
     "links": {
       "website": [
         "https://blocksquare.io/"

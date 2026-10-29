@@ -30,6 +30,7 @@
   "about": {
     "description": "EUR₮ / EURt is Tether’s euro-denominated stablecoin. Note: Tether announced a wind-down and stated EUR₮ redemptions ceased on 2025-11-27 (no new issuance requests, last acquisition request processed in 2022). Token remains transferable on supported chains but is no longer redeemable via Tether.",
     "logo": "https://icons.llamao.fi/icons/rwa/eurt.png?w=48&h=48",
+    "registryInfo": "Tether Limited — incorporated in Hong Kong (2014-09-08). LEI: 254900HCMW7SQVV0N749 (Bloomberg Finance L.P., status: lapsed). HK Companies Registry ID: 63803283. Registered with FinCEN as an MSB (per CFTC order).",
     "links": {
       "website": [
         "https://tether.to/transparency/?tab=eurt"

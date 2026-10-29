@@ -26,6 +26,7 @@
   "about": {
     "description": "MG999 is a tokenized gold-linked private credit fund managed by Singapore's MAS-regulated FundBridge Capital and issued on Libeara, a Standard Chartered-incubated platform. The fund mirrors gold spot performance while earning yield from secured lending to gold retailers, with collateral such as jewellery inventory rather than vaulted bullion.",
     "logo": "https://icons.llamao.fi/icons/rwa/mg999.png?w=48&h=48",
+    "registryInfo": "FundBridge Capital Pte Ltd, Singapore MAS-regulated fund manager (est. 2017); tokenized on Libeara (SC Ventures / Standard Chartered-incubated). Gold-linked secured private credit fund (no physical bullion held); first borrower Mustafa Gold with jewellery inventory collateral. Single holder: a Gnosis Safe omnibus backing Theo&apos;s thGOLD wrapper - if thGOLD is ever listed, do not double count. Empty extra deployments on Arbitrum/Avalanche/old Ethereum excluded. FundBridge corporate site (fundbridgecapital.com) unreachable as of 2026-06-11; Libeara platform page used as primary web reference.",
     "links": {
       "website": [
         "https://libeara.com"

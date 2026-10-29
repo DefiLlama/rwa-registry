@@ -29,6 +29,7 @@
   "about": {
     "description": "Tokenized bond financing a commercial real estate operation at 32 Rue Chanzy, Vouziers, France (FR). $423,470 funded at 12.5% fixed APR with weekly payouts. Has already distributed 5,382.55 USDC to bondholders. Underlying is a two-building property in central Vouziers anchored by La Poste / La Banque Postale (€45,000/yr rent, 9-year lease renewed Dec 2025). SPV is 51% Lend / 49% property trader. Buy-and-resell strategy without renovation. 12-24 month duration. Audited by Hashlock. ERC-20 (opLEND-2) deployed cross-chain via LayerZero with primary supply on Ethereum. Audited by Hashlock (Dec 2025). 1 High severity finding resolved, 1 Medium acknowledged by design for regulatory refund compliance. EU MiCA framework via partner.",
     "logo": "https://icons.llamao.fi/icons/rwa/oplend-2.png?w=48&h=48",
+    "registryInfo": "Lend SA — French-regulated tokenization platform; bonds issued under Article L.411-2 of the French Code Monétaire et Financier (private placement to qualified investors). Legal counsel: D&A Partners. Smart contracts audited by Hashlock (Final Report v2, Dec 2025). Each operation is structured through a dedicated SPV with Lend holding preferential rights. Omnichain via LayerZero.",
     "links": {
       "website": [
         "https://lend.xyz/"
@@ -95,7 +96,10 @@
     },
     {
       "organization": "chainlink",
-      "kind": "oracle"
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://docs.lend.xyz/"
+      ]
     }
   ],
   "events": [

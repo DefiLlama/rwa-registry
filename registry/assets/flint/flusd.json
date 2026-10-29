@@ -28,6 +28,7 @@
   "about": {
     "description": "flUSD is an ERC-7540 asynchronous USDC vault on Lagoon Finance curated by 9Summits, allocating ~95% to euro-denominated real-estate-backed bonds originated by France's Lend SA (AMF-filed under Monetary and Financial Code Art. L411-2) with a ~5% Morpho liquidity buffer. Targets ~10% APR with weekly distributions and ~18-month average duration. EUR/USD exposure is unhedged and redemptions are asynchronous (7-21 days, non-cancellable). The public contact is pseudonymous and the bond originator is newly established (3 funded projects, ~$1.9M).",
     "logo": "https://icons.llamao.fi/icons/rwa/flusd.png?w=48&h=48",
+    "registryInfo": "Flint operated by KBL LLC FZ (UAE free zone; not found in public registries - UNVERIFIED). Underlying bonds: Lend SA, France, public bond offerings under Monetary and Financial Code Art. L411-2, filed with AMF, advised by D&A Partners. Curator: 9Summits (established Morpho/Lagoon curator, ~$24M AUM). Vault infrastructure: Lagoon Finance (ERC-7540), audited by Nethermind (7 reports v0.1-v0.5.1).",
     "links": {
       "website": [
         "https://flintrwa.xyz"

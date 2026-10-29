@@ -29,6 +29,7 @@
   "about": {
     "description": "SECZ is the SEC-registered blockchain-native common stock of Securitize Holdings, Inc. (NYSE: SECZ), issued and settled natively on Solana (Token-2022) and Avalanche (permissioned ERC-20) in parallel with the traditional NYSE listing that debuted on 2026-07-02 following a business combination with Cantor Equity Partners II. On-chain and off-chain shares are equivalent primary representations of ownership, with Securitize Transfer Agent, LLC (SEC-registered) maintaining the official register and enabling movement between book-entry and on-chain positions. Access requires KYC verification. Approximately $266 million in tokenized shares landed on-chain at debut, the largest tokenized public stock at launch.",
     "logo": "https://icons.llamao.fi/icons/rwa/secz.png?w=48&h=48",
+    "registryInfo": "SEC-registered blockchain-native common stock of Securitize Holdings, Inc. (NYSE: SECZ), CIK 0002094496 (SIC 6199, Finance Services). Delaware C-corporation. Public listing completed 2026-07-02 via business combination with Cantor Equity Partners II SPAC. Securitize Transfer Agent, LLC (SEC-registered, CIK 0001782266) maintains the official record of ownership across both traditional book-entry form and native on-chain issuances. Deployed as ERC-20 on Avalanche (permissioned via Securitize DS Protocol) and as SPL Token-2022 on Solana with default-frozen account state and pausable authority for KYC gating.",
     "links": {
       "website": [
         "https://securitize.io/"

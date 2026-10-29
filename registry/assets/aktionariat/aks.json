@@ -29,6 +29,7 @@
   "about": {
     "description": "AKS is the base ERC-20 share token for Aktionariat AG, the Swiss tokenization provider that operates the Aktionariat platform. Each AKS represents 1:1 ownership in one common share of Aktionariat AG under Swiss law (CHE-453.438.437). AKS is the 'naked' share token in Aktionariat's modular share-token design: it carries minimal on-chain functionality and is typically wrapped into DAKS (Draggable Aktionariat AG Shares) before being placed in active circulation. The DAKS wrapper adds drag-along clauses, voting/transfer features, and shareholder-agreement enforcement consistent with the underlying corporate governance terms.",
     "logo": "https://icons.llamao.fi/icons/rwa/aks.png?w=48&h=48",
+    "registryInfo": "Swiss Aktiengesellschaft (public limited company) entered in the commercial register of the Canton of Zurich under CHE-453.438.437, domiciled in Erlenbach (ZH), Switzerland.",
     "links": {
       "website": [
         "https://shares.aktionariat.com"

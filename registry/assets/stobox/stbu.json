@@ -29,6 +29,7 @@
   "about": {
     "description": "STBU is the utility and access token for the Stobox ecosystem. Used for platform payments, compliance fees, DS Swap gas, and ecosystem discounts. Max supply 100M tokens. Since 15 September 2026 the only live contract is on Base; the four earlier contracts on Ethereum, BSC, Polygon and Arbitrum were discontinued and cannot be migrated (https://www.stobox.io/stbu/safety). Utilized tokens are burned quarterly. Note: Original Ethereum deployer was compromised Jan 6, 2022. New v2 contracts were airdropped to pre-hack holders.",
     "logo": "https://icons.llamao.fi/icons/rwa/stobox-token.png?w=48&h=48",
+    "registryInfo": "Utility and access token for the Stobox ecosystem (Stobox 4, tokenization services, and rewards programs).",
     "links": {
       "website": [
         "https://www.stobox.io/"
