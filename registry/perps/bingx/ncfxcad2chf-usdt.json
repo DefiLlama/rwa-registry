@@ -12,6 +12,7 @@
     "pair": "CADCHF-USDT"
   },
   "about": {
-    "description": "CADCHF is a currency pair perpetual listed on BingX, tracking Canadian Dollar / Swiss Franc, margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+    "description": "CADCHF is a currency pair perpetual listed on BingX, tracking Canadian Dollar / Swiss Franc, margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification.",
+    "logo": "https://icons.llamao.fi/icons/rwa/cadchf.png?w=48&h=48"
   }
 }

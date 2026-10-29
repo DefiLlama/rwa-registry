@@ -18,6 +18,7 @@
   },
   "about": {
     "description": "Gold perpetual market. The contract tracks the price of one troy ounce of gold. Users get linear exposure to gold price moves without owning bullion, vaulted metal, or redeemable claims on physical inventory. Pricing follows the market reference used by the km venue on Hyperliquid. Positions are margined and cash-settled in USDH. Markets are visible on Hyperliquid under the km namespace, but are operated by Markets by Kinetiq rather than listed as core Hyperliquid perps.",
+    "logo": "https://icons.llamao.fi/icons/rwa/xau.png?w=48&h=48",
     "refLinks": [
       "https://markets.xyz/join/llama"
     ]

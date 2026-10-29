@@ -15,6 +15,7 @@
     "takerFeeBps": 5
   },
   "about": {
-    "description": "Canonical Market ID updated from gtrade:GOOGL-USD to gtrade:GOOGL_1-USD on 2026-05-26 after may26 adapter QA. gTrade restructured its perp listings. The active GOOGL market is now at gtrade:GOOGL_1-USD (non-suffix version dead in adapter with $0 OI/vol)."
+    "description": "Canonical Market ID updated from gtrade:GOOGL-USD to gtrade:GOOGL_1-USD on 2026-05-26 after may26 adapter QA. gTrade restructured its perp listings. The active GOOGL market is now at gtrade:GOOGL_1-USD (non-suffix version dead in adapter with $0 OI/vol).",
+    "logo": "https://icons.llamao.fi/icons/rwa/goog.png?w=48&h=48"
   }
 }

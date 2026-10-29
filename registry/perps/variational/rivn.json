@@ -13,6 +13,7 @@
     "pair": "RIVN-USDC"
   },
   "about": {
-    "description": "RIVN is a cash settled perpetual market on Variational Omni referencing Rivian Automotive, Inc.. The market is quoted and margined in USDC on Arbitrum, marked against the Omni Liquidity Pool's aggregated reference price rather than a single venue, and it conveys no ownership of the underlying and no claim on the issuer."
+    "description": "RIVN is a cash settled perpetual market on Variational Omni referencing Rivian Automotive, Inc.. The market is quoted and margined in USDC on Arbitrum, marked against the Omni Liquidity Pool's aggregated reference price rather than a single venue, and it conveys no ownership of the underlying and no claim on the issuer.",
+    "logo": "https://icons.llamao.fi/icons/rwa/rivn.png?w=48&h=48"
   }
 }

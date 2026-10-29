@@ -17,6 +17,7 @@
   },
   "about": {
     "description": "Single-stock perpetual market tracking Hyundai Motor Company (KRX: 005380), USD-quoted. Users get linear exposure to Hyundai share-price moves without owning Hyundai shares, shareholder rights, or dividend claims, with pricing referencing an external Korean equity feed via Lighter's fair price oracle, converted to USD. Positions are margined and cash-settled in USDC.",
+    "logo": "https://icons.llamao.fi/icons/rwa/005380.ks.png?w=48&h=48",
     "refLinks": [
       "https://app.lighter.xyz/trade/HYUNDAIUSD?referral=FHT1N8AYKHP4"
     ]

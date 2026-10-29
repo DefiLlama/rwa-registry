@@ -12,6 +12,7 @@
     "pair": "PAXG-USD"
   },
   "about": {
-    "description": "PAXG is a commodity perpetual listed on Crypto.com and tracking Pax Gold. The contract is cash settled in USD and does not convey ownership or delivery of the underlying. Funding is exchanged every 1h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+    "description": "PAXG is a commodity perpetual listed on Crypto.com and tracking Pax Gold. The contract is cash settled in USD and does not convey ownership or delivery of the underlying. Funding is exchanged every 1h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification.",
+    "logo": "https://icons.llamao.fi/icons/rwa/paxg.png?w=48&h=48"
   }
 }

@@ -17,6 +17,7 @@
   },
   "about": {
     "description": "FX perpetual on Lighter Labs tracking New Zealand Dollar (NZD) versus the US dollar, with pricing referencing Lighter fair price oracle. Positions are margined and cash-settled in USDC on Lighter ZK-rollup (Ethereum), giving users synthetic exposure to New Zealand Dollar/USD price movement without holding either currency as cash.",
+    "logo": "https://icons.llamao.fi/icons/rwa/nzd.png?w=48&h=48",
     "refLinks": [
       "https://app.lighter.xyz/trade/NZDUSD?referral=FHT1N8AYKHP4"
     ]

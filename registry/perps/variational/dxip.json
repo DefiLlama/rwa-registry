@@ -13,6 +13,7 @@
     "pair": "DXIP-USDC"
   },
   "about": {
-    "description": "Cash-settled swap on US Dollar Index, quoted against USDC. No funding; cost of carry is in the spread."
+    "description": "Cash-settled swap on US Dollar Index, quoted against USDC. No funding; cost of carry is in the spread.",
+    "logo": "https://icons.llamao.fi/icons/rwa/dxy.png?w=48&h=48"
   }
 }

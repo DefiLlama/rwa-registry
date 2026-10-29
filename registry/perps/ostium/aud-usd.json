@@ -19,6 +19,7 @@
   },
   "about": {
     "description": "FX perpetual on Ostium Labs tracking Australian Dollar (AUD) versus the US dollar, with pricing referencing Stork / QUODD institutional FX feed. Positions are margined and cash-settled in USDC on Arbitrum, giving users synthetic exposure to Australian Dollar/USD price movement without holding either currency as cash.",
+    "logo": "https://icons.llamao.fi/icons/rwa/aud.png?w=48&h=48",
     "refLinks": [
       "https://app.ostium.com/trade?from=AUD&to=USD&ref=6X17X"
     ]

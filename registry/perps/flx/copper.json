@@ -13,6 +13,7 @@
   },
   "about": {
     "description": "Copper perpetual market. The contract tracks copper pricing and gives users linear exposure to a core industrial metal used across manufacturing, electrification, and infrastructure. Users do not own metal inventory or warehouse receipts. Pricing uses Felix’s external reference methodology for commodity markets. Positions are margined and cash-settled in USDH. Markets are visible on Hyperliquid under the flx namespace, but are operated by Felix rather than listed as core Hyperliquid perps.",
+    "logo": "https://icons.llamao.fi/icons/rwa/xcu.png?w=48&h=48",
     "refLinks": [
       "https://www.usefelix.xyz?ref=4BF702FF"
     ]

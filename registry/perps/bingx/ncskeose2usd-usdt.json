@@ -12,6 +12,7 @@
     "pair": "EOSE-USDT"
   },
   "about": {
-    "description": "EOSE is a single-stock perpetual listed on BingX, tracking Eos Energy Enterprises, Inc., margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+    "description": "EOSE is a single-stock perpetual listed on BingX, tracking Eos Energy Enterprises, Inc., margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification.",
+    "logo": "https://icons.llamao.fi/icons/rwa/eose.png?w=48&h=48"
   }
 }

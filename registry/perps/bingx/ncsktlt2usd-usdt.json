@@ -12,6 +12,7 @@
     "pair": "TLT-USDT"
   },
   "about": {
-    "description": "TLT is a bond fund perpetual listed on BingX and tracking iShares 20+ Year Treasury Bond ETF. The contract is cash settled in USDT and does not convey ownership or redemption rights in the underlying. Funding is exchanged every 8h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+    "description": "TLT is a bond fund perpetual listed on BingX and tracking iShares 20+ Year Treasury Bond ETF. The contract is cash settled in USDT and does not convey ownership or redemption rights in the underlying. Funding is exchanged every 8h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification.",
+    "logo": "https://icons.llamao.fi/icons/rwa/tlt.png?w=48&h=48"
   }
 }

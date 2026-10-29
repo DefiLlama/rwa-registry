@@ -17,6 +17,7 @@
   },
   "about": {
     "description": "FX perpetual on Flash Trade tracking British Pound (GBP) versus the US dollar, with pricing referencing Pyth FX feeds. Positions are margined and cash-settled in USDC on Solana, giving users synthetic exposure to British Pound/USD price movement without holding either currency as cash. Delisted 2026-09-08: Flash Trade entered an orderly wind-down (deadline 2026-09-02). Protocol-wide OI $36k; all RWA markets at zero long and short; dailyVolumeInUsd 0.",
+    "logo": "https://icons.llamao.fi/icons/rwa/gbp.png?w=48&h=48",
     "refLinks": [
       "https://www.flash.trade/?referral=defillama"
     ]

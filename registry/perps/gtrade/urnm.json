@@ -13,7 +13,8 @@
     "pair": "URNM-USDC"
   },
   "about": {
-    "description": "Industrial-metals perpetual on Gains Network priced off the Sprott Uranium Miners ETF (URNM), a uranium-miners ETF, with pricing referencing Chainlink DON. Positions are margined and cash-settled in USDC / DAI / WETH on Arbitrum / Polygon / Base. Users get sector exposure without holding ETF shares or constituent equities."
+    "description": "Industrial-metals perpetual on Gains Network priced off the Sprott Uranium Miners ETF (URNM), a uranium-miners ETF, with pricing referencing Chainlink DON. Positions are margined and cash-settled in USDC / DAI / WETH on Arbitrum / Polygon / Base. Users get sector exposure without holding ETF shares or constituent equities.",
+    "logo": "https://icons.llamao.fi/icons/rwa/urnm.png?w=48&h=48"
   },
   "events": [
     {

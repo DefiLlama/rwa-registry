@@ -17,7 +17,8 @@
     "oracleProvider": "Binance pre-IPO order flow, no external price index"
   },
   "about": {
-    "description": "ANTHROPIC is a private-company perpetual listed on Binance and tracking Anthropic. The contract is cash settled in USDT against a Binance price index and does not convey ownership of the underlying. Funding is exchanged every 8h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+    "description": "ANTHROPIC is a private-company perpetual listed on Binance and tracking Anthropic. The contract is cash settled in USDT against a Binance price index and does not convey ownership of the underlying. Funding is exchanged every 8h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification.",
+    "logo": "https://icons.llamao.fi/icons/rwa/anthropic.png?w=48&h=48"
   },
   "events": [
     {

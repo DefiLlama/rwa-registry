@@ -15,6 +15,7 @@
   },
   "about": {
     "description": "Natural-gas perpetual on Extended (formerly X10) tracking Natural Gas, with pricing referencing Extended oracle. Users gain linear exposure to spot natural-gas prices without owning physical inventory or futures contracts. Positions are margined and cash-settled in USDC on Starknet.",
+    "logo": "https://icons.llamao.fi/icons/rwa/natgas.png?w=48&h=48",
     "refLinks": [
       "https://app.extended.exchange/join/DEFILLAMAO"
     ]

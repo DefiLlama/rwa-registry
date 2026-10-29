@@ -11,6 +11,7 @@
     "pair": "SQQQ-USD"
   },
   "about": {
-    "description": "SQQQ is an exchange traded fund perpetual listed on Crypto.com and tracking ProShares UltraPro Short QQQ. The contract is cash settled in USD and does not convey ownership or redemption rights in the underlying. Funding is exchanged every 1h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+    "description": "SQQQ is an exchange traded fund perpetual listed on Crypto.com and tracking ProShares UltraPro Short QQQ. The contract is cash settled in USD and does not convey ownership or redemption rights in the underlying. Funding is exchanged every 1h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification.",
+    "logo": "https://icons.llamao.fi/icons/rwa/sqqq.png?w=48&h=48"
   }
 }

@@ -18,6 +18,7 @@
   },
   "about": {
     "description": "Agricultural-commodity perpetual on Ventuals tracking Soybeans (SOY), with pricing referencing Ventuals weighted oracle (Notice + 2h mark EMA). Users gain linear exposure to soybeans prices without owning physical inventory or futures contracts. Positions are margined and cash-settled in USDC on Hyperliquid (vntl namespace).",
+    "logo": "https://icons.llamao.fi/icons/rwa/soy.png?w=48&h=48",
     "refLinks": [
       "https://app.hyperliquid.xyz/join/DEFILLAMAS"
     ]

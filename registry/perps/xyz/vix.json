@@ -17,6 +17,7 @@
   },
   "about": {
     "description": "Equity-index perpetual market tracking CBOE Volatility Index. Users get synthetic index exposure rather than ownership of constituent shares, cash-settled in USDC on trade[XYZ].",
+    "logo": "https://icons.llamao.fi/icons/rwa/vix.png?w=48&h=48",
     "refLinks": [
       "https://app.hyperliquid.xyz/join/DEFILLAMAS"
     ]

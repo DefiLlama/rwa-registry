@@ -16,6 +16,7 @@
   },
   "about": {
     "description": "Equity-index perpetual on Ostium Labs tracking Hang Seng Index (HSI), with pricing referencing Stork / QUODD. Users gain linear exposure to the index level without holding any underlying constituent stocks or futures. Positions are margined and cash-settled in USDC on Arbitrum.",
+    "logo": "https://icons.llamao.fi/icons/rwa/hsi.png?w=48&h=48",
     "refLinks": [
       "https://app.ostium.com/trade?from=HSI&to=HKD&ref=6X17X"
     ]

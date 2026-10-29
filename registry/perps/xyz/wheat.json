@@ -16,6 +16,7 @@
   },
   "about": {
     "description": "Wheat perpetual market. The contract tracks Wheat price using the venue's reference methodology. Users get linear commodity-price exposure only, without title to physical inventory or delivery rights, cash-settled in USDC on trade[XYZ].",
+    "logo": "https://icons.llamao.fi/icons/rwa/wheat.png?w=48&h=48",
     "refLinks": [
       "https://app.hyperliquid.xyz/join/DEFILLAMAS"
     ]

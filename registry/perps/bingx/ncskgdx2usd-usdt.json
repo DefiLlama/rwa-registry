@@ -12,6 +12,7 @@
     "pair": "GDX-USDT"
   },
   "about": {
-    "description": "GDX is an exchange traded fund perpetual listed on BingX and tracking VanEck Gold Miners ETF. The contract is cash settled in USDT and does not convey ownership or redemption rights in the underlying. Funding is exchanged every 8h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+    "description": "GDX is an exchange traded fund perpetual listed on BingX and tracking VanEck Gold Miners ETF. The contract is cash settled in USDT and does not convey ownership or redemption rights in the underlying. Funding is exchanged every 8h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification.",
+    "logo": "https://icons.llamao.fi/icons/rwa/gdx.png?w=48&h=48"
   }
 }

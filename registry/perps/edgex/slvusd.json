@@ -15,6 +15,7 @@
   },
   "about": {
     "description": "ETF perpetual market tracking the iShares Silver Trust (SLV). Users get synthetic exposure to the SLV ETF's price rather than ownership of ETF shares or claims on the underlying silver, with pricing referencing the ETF's public market price via the Stork decentralized oracle. Positions are margined and cash-settled in USDT.",
+    "logo": "https://icons.llamao.fi/icons/rwa/slv.png?w=48&h=48",
     "refLinks": [
       "https://pro.edgex.exchange/referral/196451583"
     ]

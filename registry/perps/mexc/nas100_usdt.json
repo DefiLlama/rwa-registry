@@ -13,6 +13,7 @@
     "pair": "NAS100-USDT"
   },
   "about": {
-    "description": "NAS100 is an index perpetual listed on MEXC, tracking Nasdaq-100 Index, margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Up to 200× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+    "description": "NAS100 is an index perpetual listed on MEXC, tracking Nasdaq-100 Index, margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Up to 200× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification.",
+    "logo": "https://icons.llamao.fi/icons/rwa/nas100.png?w=48&h=48"
   }
 }

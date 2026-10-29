@@ -13,7 +13,8 @@
     "pair": "XPT-USDC"
   },
   "about": {
-    "description": "Precious-metals perpetual on Gains Network tracking Platinum (XPT), with pricing referencing Chainlink DON. Users gain linear exposure to spot platinum without holding bullion or warrant claims. Positions are margined and cash-settled in USDC / DAI / WETH on Arbitrum / Polygon / Base."
+    "description": "Precious-metals perpetual on Gains Network tracking Platinum (XPT), with pricing referencing Chainlink DON. Users gain linear exposure to spot platinum without holding bullion or warrant claims. Positions are margined and cash-settled in USDC / DAI / WETH on Arbitrum / Polygon / Base.",
+    "logo": "https://icons.llamao.fi/icons/rwa/xpt.png?w=48&h=48"
   },
   "events": [
     {

@@ -14,6 +14,7 @@
   },
   "about": {
     "description": "Single-stock perpetual on Extended (formerly X10) tracking Applied Optoelectronics, Inc. (AAOI), with pricing referencing Extended oracle. Users gain linear exposure to Applied Optoelectronics, Inc. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Starknet.",
+    "logo": "https://icons.llamao.fi/icons/rwa/aaoi.png?w=48&h=48",
     "refLinks": [
       "https://app.extended.exchange/join/DEFILLAMAO"
     ]

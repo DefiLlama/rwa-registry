@@ -17,6 +17,7 @@
     "takerFeeBps": 2
   },
   "about": {
-    "description": "XAUT is a commodity perpetual listed on MEXC and tracking Tether Gold (XAUT). The contract is cash settled in USDC and does not convey ownership or delivery of the underlying. Funding is exchanged every 8h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+    "description": "XAUT is a commodity perpetual listed on MEXC and tracking Tether Gold (XAUT). The contract is cash settled in USDC and does not convey ownership or delivery of the underlying. Funding is exchanged every 8h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification.",
+    "logo": "https://icons.llamao.fi/icons/rwa/xaut.png?w=48&h=48"
   }
 }

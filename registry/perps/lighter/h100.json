@@ -18,6 +18,7 @@
   },
   "about": {
     "description": "NVIDIA H100 GPU hourly rental rate perpetual on Lighter. Tracks the GPU compute rate index, cash-settled in USDC. Mirrors the trade[XYZ]/Paragon H100 product on a different venue.",
+    "logo": "https://icons.llamao.fi/icons/rwa/h100.png?w=48&h=48",
     "refLinks": [
       "https://app.lighter.xyz/trade/H100?referral=FHT1N8AYKHP4"
     ]

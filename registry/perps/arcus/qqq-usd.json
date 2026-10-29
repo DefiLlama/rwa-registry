@@ -14,6 +14,7 @@
   },
   "about": {
     "description": "Arcus perpetual market tracking Invesco QQQ Trust (NASDAQ: QQQ) with 24/7 exposure to the underlying NASDAQ-100 index ETF. Total-return tracking (dividends, splits, and futures rolls passed through funding), cash-settled in USDG on the Arcus off-chain CLOB with permissioned appchain re-verification and EVM rootchain custody.",
+    "logo": "https://icons.llamao.fi/icons/rwa/qqq.png?w=48&h=48",
     "refLinks": [
       "https://app.arcus.xyz/ref/DEFILLAMA"
     ]

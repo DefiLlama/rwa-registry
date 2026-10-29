@@ -14,6 +14,7 @@
   },
   "about": {
     "description": "DELISTED and mislabeled. The canonical ID \"lighter:SPX\" on Lighter actually maps to SPX6900, a crypto memecoin trading at approximately $0.36 on Lighter perps, not the S&P 500 Index. The real Lighter S&P 500 perp is at canonical lighter:US500. This entry was erroneously categorized as an S&P 500 Perp and was removed from active tracking on 2026-05-26 after adapter QA.",
+    "logo": "https://icons.llamao.fi/icons/rwa/spx.png?w=48&h=48",
     "refLinks": [
       "https://app.lighter.xyz/trade/ETH?referral=FHT1N8AYKHP4"
     ]

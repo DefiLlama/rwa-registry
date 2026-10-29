@@ -12,7 +12,8 @@
     "pair": "VOLX-USDT"
   },
   "about": {
-    "description": "VOLX is an index perpetual listed on Gate, tracking Cboe Volatility Index, margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Gate prices this market off the Backed xStock token for Cboe Volatility Index, a tokenized representation of the listed shares rather than the shares themselves. Funding settles every 8h. Up to 20× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+    "description": "VOLX is an index perpetual listed on Gate, tracking Cboe Volatility Index, margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Gate prices this market off the Backed xStock token for Cboe Volatility Index, a tokenized representation of the listed shares rather than the shares themselves. Funding settles every 8h. Up to 20× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification.",
+    "logo": "https://icons.llamao.fi/icons/rwa/volx.png?w=48&h=48"
   },
   "events": [
     {

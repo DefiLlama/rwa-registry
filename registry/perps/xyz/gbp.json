@@ -17,6 +17,7 @@
   },
   "about": {
     "description": "FX perpetual on trade[XYZ] (Hyperunit) tracking the British Pound (GBP) versus the US dollar, with pricing referencing Pyth / external FX reference methodology. Positions are margined and cash-settled in USDC on Hyperliquid (xyz namespace). HIP-3 builder-deployed market. Standard 9.0-4.8 / 3.0-0 bps maker/taker (growth tier 0.9-0.48 / 0.30-0 bps). Hourly funding with 0.5x Hyperliquid coupling.",
+    "logo": "https://icons.llamao.fi/icons/rwa/gbp.png?w=48&h=48",
     "refLinks": [
       "https://app.hyperliquid.xyz/join/DEFILLAMAS"
     ]

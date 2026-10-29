@@ -16,6 +16,7 @@
   },
   "about": {
     "description": "ETF perpetual on Aster (YZi Labs-backed) tracking Invesco QQQ Trust (QQQ), with pricing referencing Aster custom oracle, cash-settled in USD1 on BNB Chain / Aster Chain.",
+    "logo": "https://icons.llamao.fi/icons/rwa/qqq.png?w=48&h=48",
     "refLinks": [
       "https://www.asterdex.com/en/referral/c6eF10"
     ]

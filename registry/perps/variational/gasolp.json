@@ -13,6 +13,7 @@
     "pair": "GASOLP-USDC"
   },
   "about": {
-    "description": "Cash-settled swap on Gasoline, quoted against USDC. No funding; cost of carry is in the spread."
+    "description": "Cash-settled swap on Gasoline, quoted against USDC. No funding; cost of carry is in the spread.",
+    "logo": "https://icons.llamao.fi/icons/rwa/gasoline.png?w=48&h=48"
   }
 }

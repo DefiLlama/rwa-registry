@@ -13,6 +13,7 @@
     "takerFeeBps": null
   },
   "about": {
-    "description": "COINX is a single-stock perpetual listed on Delta Exchange India, tracking Coinbase Global, Inc., margined and cash-settled in USD. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Up to 25× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+    "description": "COINX is a single-stock perpetual listed on Delta Exchange India, tracking Coinbase Global, Inc., margined and cash-settled in USD. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Up to 25× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification.",
+    "logo": "https://icons.llamao.fi/icons/rwa/coinx.png?w=48&h=48"
   }
 }

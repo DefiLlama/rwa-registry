@@ -16,6 +16,7 @@
   },
   "about": {
     "description": "Gold perpetual market. The contract tracks the price of one troy ounce of gold. Users get linear exposure to gold price moves without owning bullion, vaulted metal, or redeemable claims on physical inventory, with pricing referencing an external gold price feed. Positions are margined and cash-settled in USDC. Markets are visible on Hyperliquid under the xyz namespace, but are operated by trade[XYZ] rather than listed as core Hyperliquid perps.",
+    "logo": "https://icons.llamao.fi/icons/rwa/xau.png?w=48&h=48",
     "refLinks": [
       "https://app.hyperliquid.xyz/join/DEFILLAMAS"
     ]

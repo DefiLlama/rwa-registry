@@ -13,6 +13,7 @@
     "pair": "NATGAS-USDC"
   },
   "about": {
-    "description": "Natural-gas perpetual on Gains Network tracking Natural Gas, with pricing referencing Chainlink DON. Users gain linear exposure to spot natural-gas prices without owning physical inventory or futures contracts. Positions are margined and cash-settled in USDC / DAI / WETH on Arbitrum / Polygon / Base."
+    "description": "Natural-gas perpetual on Gains Network tracking Natural Gas, with pricing referencing Chainlink DON. Users gain linear exposure to spot natural-gas prices without owning physical inventory or futures contracts. Positions are margined and cash-settled in USDC / DAI / WETH on Arbitrum / Polygon / Base.",
+    "logo": "https://icons.llamao.fi/icons/rwa/natgas.png?w=48&h=48"
   }
 }

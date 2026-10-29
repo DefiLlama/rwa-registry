@@ -15,6 +15,7 @@
   },
   "about": {
     "description": "Gold perpetual market quoted against PAX Gold (PAXG), where each PAXG token represents one troy ounce of London Good Delivery gold. The contract gives linear exposure to the PAXG/USD price (tracking gold) without owning PAXG, the underlying gold, or redemption rights, with pricing referencing an external feed via the Stork decentralized oracle. Positions are margined and cash-settled in USDT.",
+    "logo": "https://icons.llamao.fi/icons/rwa/xau.png?w=48&h=48",
     "refLinks": [
       "https://pro.edgex.exchange/referral/196451583"
     ]

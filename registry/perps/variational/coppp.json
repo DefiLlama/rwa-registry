@@ -13,6 +13,7 @@
     "pair": "COPPP-USDC"
   },
   "about": {
-    "description": "Cash-settled swap on Copper, quoted against USDC. No funding; cost of carry is in the spread."
+    "description": "Cash-settled swap on Copper, quoted against USDC. No funding; cost of carry is in the spread.",
+    "logo": "https://icons.llamao.fi/icons/rwa/copper.png?w=48&h=48"
   }
 }

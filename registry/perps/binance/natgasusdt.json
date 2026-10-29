@@ -12,7 +12,8 @@
     "pair": "NATGAS-USDT"
   },
   "about": {
-    "description": "NATGAS is a commodity perpetual listed on Binance and tracking Natural Gas. The contract is cash settled in USDT against a Binance price index and does not convey ownership of the underlying. Funding is exchanged every 4h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+    "description": "NATGAS is a commodity perpetual listed on Binance and tracking Natural Gas. The contract is cash settled in USDT against a Binance price index and does not convey ownership of the underlying. Funding is exchanged every 4h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification.",
+    "logo": "https://icons.llamao.fi/icons/rwa/natgas.png?w=48&h=48"
   },
   "events": [
     {

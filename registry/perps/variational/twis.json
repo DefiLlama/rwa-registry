@@ -13,6 +13,7 @@
     "pair": "TWIS-USDC"
   },
   "about": {
-    "description": "Cash-settled swap on MSCI Taiwan Index, quoted against USDC. No funding; cost of carry is in the spread."
+    "description": "Cash-settled swap on MSCI Taiwan Index, quoted against USDC. No funding; cost of carry is in the spread.",
+    "logo": "https://icons.llamao.fi/icons/rwa/tw88.png?w=48&h=48"
   }
 }

@@ -16,7 +16,8 @@
     "oracleProvider": "Lighter fair price oracle"
   },
   "about": {
-    "description": "Single-stock perpetual on Lighter tracking Nokia Corporation (Oyj). Users get linear exposure to the underlying without owning shares. Cash-settled in USDC."
+    "description": "Single-stock perpetual on Lighter tracking Nokia Corporation (Oyj). Users get linear exposure to the underlying without owning shares. Cash-settled in USDC.",
+    "logo": "https://icons.llamao.fi/icons/rwa/nok.png?w=48&h=48"
   },
   "events": [
     {

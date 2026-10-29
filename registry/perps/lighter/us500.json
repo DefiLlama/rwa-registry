@@ -14,6 +14,7 @@
   },
   "about": {
     "description": "US500 perpetual on Lighter. A separate S&P 500 product distinct from lighter:SPX, USDC-margined. Both lighter:SPX and lighter:US500 are live on Lighter (confirmed via adapter may20).",
+    "logo": "https://icons.llamao.fi/icons/rwa/us500.png?w=48&h=48",
     "refLinks": [
       "https://app.lighter.xyz/trade/US500?referral=FHT1N8AYKHP4"
     ]

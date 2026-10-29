@@ -17,6 +17,7 @@
   },
   "about": {
     "description": "Single-stock perpetual market tracking International Business Machines Corp. (IBM). Users get linear exposure to IBM share-price moves without owning shares, shareholder rights, or dividend claims, with pricing referencing an external 24/5 equity feed. Positions are margined and cash-settled in USDC on Hyperliquid (xyz namespace).",
+    "logo": "https://icons.llamao.fi/icons/rwa/ibm.png?w=48&h=48",
     "refLinks": [
       "https://app.hyperliquid.xyz/join/DEFILLAMAS"
     ]

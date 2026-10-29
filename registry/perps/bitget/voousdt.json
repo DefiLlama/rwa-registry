@@ -12,7 +12,8 @@
     "pair": "VOO-USDT"
   },
   "about": {
-    "description": "VOO is an exchange traded fund perpetual listed on Bitget and tracking Vanguard S&P 500 ETF. The contract is cash settled in USDT and does not convey ownership or redemption rights in the underlying. Funding is exchanged every 8h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+    "description": "VOO is an exchange traded fund perpetual listed on Bitget and tracking Vanguard S&P 500 ETF. The contract is cash settled in USDT and does not convey ownership or redemption rights in the underlying. Funding is exchanged every 8h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification.",
+    "logo": "https://icons.llamao.fi/icons/rwa/voo.png?w=48&h=48"
   },
   "events": [
     {

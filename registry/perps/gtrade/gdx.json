@@ -13,7 +13,8 @@
     "pair": "GDX-USDC"
   },
   "about": {
-    "description": "ETF perpetual on Gains Network tracking VanEck Gold Miners ETF (GDX), with pricing referencing Chainlink DON. Users gain linear price exposure to the ETF without owning ETF shares, dividends, or creation-redemption rights. Positions are margined and cash-settled in USDC / DAI / WETH on Arbitrum / Polygon / Base."
+    "description": "ETF perpetual on Gains Network tracking VanEck Gold Miners ETF (GDX), with pricing referencing Chainlink DON. Users gain linear price exposure to the ETF without owning ETF shares, dividends, or creation-redemption rights. Positions are margined and cash-settled in USDC / DAI / WETH on Arbitrum / Polygon / Base.",
+    "logo": "https://icons.llamao.fi/icons/rwa/gdx.png?w=48&h=48"
   },
   "events": [
     {

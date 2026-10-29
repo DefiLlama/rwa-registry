@@ -14,7 +14,8 @@
     "takerFeeBps": 4
   },
   "about": {
-    "description": "SKHYNIX is a single-stock perpetual listed on Binance and tracking SK hynix Inc. The contract is cash settled in USDT against a Binance price index and does not convey ownership of the underlying. Funding is exchanged every 4h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification. This contract references the Korea Exchange listed common stock and is distinct from the Nasdaq American Depositary Receipt contract."
+    "description": "SKHYNIX is a single-stock perpetual listed on Binance and tracking SK hynix Inc. The contract is cash settled in USDT against a Binance price index and does not convey ownership of the underlying. Funding is exchanged every 4h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification. This contract references the Korea Exchange listed common stock and is distinct from the Nasdaq American Depositary Receipt contract.",
+    "logo": "https://icons.llamao.fi/icons/rwa/000660.png?w=48&h=48"
   },
   "events": [
     {

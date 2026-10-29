@@ -17,6 +17,7 @@
   },
   "about": {
     "description": "ETF perpetual market tracking the Global X Uranium ETF (URA). Users get synthetic exposure to the URA ETF's price rather than ownership of ETF shares or redemption rights, with pricing referencing the ETF's public market price via Lighter's fair price oracle. Positions are margined and cash-settled in USDC.",
+    "logo": "https://icons.llamao.fi/icons/rwa/ura.png?w=48&h=48",
     "refLinks": [
       "https://app.lighter.xyz/trade/URA?referral=FHT1N8AYKHP4"
     ]

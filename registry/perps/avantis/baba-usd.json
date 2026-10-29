@@ -14,6 +14,7 @@
   },
   "about": {
     "description": "Single-stock perpetual on Avantis (Base) tracking Alibaba Group Holding Ltd (NYSE: BABA), USDC-margined. References equity oracle. Distinct from Aster, trade[XYZ], Extended, and Lighter BABA perps.",
+    "logo": "https://icons.llamao.fi/icons/rwa/baba.png?w=48&h=48",
     "refLinks": [
       "https://www.avantisfi.com/referral?code=DefiLlama"
     ]

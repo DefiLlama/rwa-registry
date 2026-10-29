@@ -11,6 +11,7 @@
     "pair": "UVXY-USD"
   },
   "about": {
-    "description": "UVXY is an exchange traded fund perpetual listed on Crypto.com and tracking ProShares Ultra VIX Short-Term Futures ETF. The contract is cash settled in USD and does not convey ownership or redemption rights in the underlying. Funding is exchanged every 1h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+    "description": "UVXY is an exchange traded fund perpetual listed on Crypto.com and tracking ProShares Ultra VIX Short-Term Futures ETF. The contract is cash settled in USD and does not convey ownership or redemption rights in the underlying. Funding is exchanged every 1h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification.",
+    "logo": "https://icons.llamao.fi/icons/rwa/uvxy.png?w=48&h=48"
   }
 }

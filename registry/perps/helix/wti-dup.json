@@ -13,7 +13,8 @@
     "pair": "WTI-USDT"
   },
   "about": {
-    "description": "DUPLICATE of the active Helix WTI/USOIL crude oil perp. Delisted to preserve audit trail. Reference Asset bug (\"W&T OFFSHORE INC\") corrected on the active record to West Texas Intermediate Crude Oil."
+    "description": "DUPLICATE of the active Helix WTI/USOIL crude oil perp. Delisted to preserve audit trail. Reference Asset bug (\"W&T OFFSHORE INC\") corrected on the active record to West Texas Intermediate Crude Oil.",
+    "logo": "https://icons.llamao.fi/icons/rwa/wti.png?w=48&h=48"
   },
   "events": [
     {

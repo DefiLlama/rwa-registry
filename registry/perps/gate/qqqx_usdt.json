@@ -12,6 +12,7 @@
     "pair": "QQQX-USDT"
   },
   "about": {
-    "description": "QQQX is an ETF perpetual listed on Gate, tracking Invesco QQQ Trust, Series 1, margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Gate prices this market off the Backed xStock token for Invesco QQQ Trust, Series 1, a tokenized representation of the listed shares rather than the shares themselves. Funding settles every 8h. Up to 50× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+    "description": "QQQX is an ETF perpetual listed on Gate, tracking Invesco QQQ Trust, Series 1, margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Gate prices this market off the Backed xStock token for Invesco QQQ Trust, Series 1, a tokenized representation of the listed shares rather than the shares themselves. Funding settles every 8h. Up to 50× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification.",
+    "logo": "https://icons.llamao.fi/icons/rwa/qqqx.png?w=48&h=48"
   }
 }

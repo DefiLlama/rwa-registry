@@ -15,6 +15,7 @@
     "takerFeeBps": 3
   },
   "about": {
-    "description": "Single-stock perpetual on Gains Network tracking Snap Inc. (SNAP), with pricing referencing Chainlink DON (24/5 equity feed). Users gain linear exposure to Snap Inc. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC / DAI / WETH on Arbitrum / Polygon / Base."
+    "description": "Single-stock perpetual on Gains Network tracking Snap Inc. (SNAP), with pricing referencing Chainlink DON (24/5 equity feed). Users gain linear exposure to Snap Inc. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC / DAI / WETH on Arbitrum / Polygon / Base.",
+    "logo": "https://icons.llamao.fi/icons/rwa/snap.png?w=48&h=48"
   }
 }

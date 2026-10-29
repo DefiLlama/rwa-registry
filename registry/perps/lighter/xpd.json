@@ -16,6 +16,7 @@
   },
   "about": {
     "description": "Palladium perpetual market. The contract tracks the spot price of one troy ounce of palladium (XPD/USD). Users get linear exposure to palladium price moves without owning bullion, vaulted metal, or redeemable claims on physical inventory, with pricing referencing an external spot metal feed via Lighter's fair price oracle. Positions are margined and cash-settled in USDC.",
+    "logo": "https://icons.llamao.fi/icons/rwa/xpd.png?w=48&h=48",
     "refLinks": [
       "https://app.lighter.xyz/trade/XPD?referral=FHT1N8AYKHP4"
     ]

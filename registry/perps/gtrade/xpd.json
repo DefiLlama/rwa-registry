@@ -13,7 +13,8 @@
     "pair": "XPD-USDC"
   },
   "about": {
-    "description": "Precious-metals perpetual on Gains Network tracking Palladium (XPD), with pricing referencing Chainlink DON. Users gain linear exposure to spot palladium without holding bullion or warrant claims. Positions are margined and cash-settled in USDC / DAI / WETH on Arbitrum / Polygon / Base."
+    "description": "Precious-metals perpetual on Gains Network tracking Palladium (XPD), with pricing referencing Chainlink DON. Users gain linear exposure to spot palladium without holding bullion or warrant claims. Positions are margined and cash-settled in USDC / DAI / WETH on Arbitrum / Polygon / Base.",
+    "logo": "https://icons.llamao.fi/icons/rwa/xpd.png?w=48&h=48"
   },
   "events": [
     {

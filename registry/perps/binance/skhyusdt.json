@@ -14,7 +14,8 @@
     "takerFeeBps": 4
   },
   "about": {
-    "description": "SKHY is a single-stock perpetual listed on Binance and tracking SK hynix Inc. ADR. The contract is cash settled in USDT against a Binance price index and does not convey ownership of the underlying. Funding is exchanged every 8h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification. This contract references the Nasdaq listed American Depositary Receipt, where one ADS represents one tenth of one common share, and is distinct from the Korean common stock contract."
+    "description": "SKHY is a single-stock perpetual listed on Binance and tracking SK hynix Inc. ADR. The contract is cash settled in USDT against a Binance price index and does not convey ownership of the underlying. Funding is exchanged every 8h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification. This contract references the Nasdaq listed American Depositary Receipt, where one ADS represents one tenth of one common share, and is distinct from the Korean common stock contract.",
+    "logo": "https://icons.llamao.fi/icons/rwa/skhy.png?w=48&h=48"
   },
   "events": [
     {

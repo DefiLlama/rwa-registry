@@ -12,7 +12,8 @@
     "pair": "EWT-USDT"
   },
   "about": {
-    "description": "EWT is an exchange traded fund perpetual listed on Bitget and tracking iShares MSCI Taiwan ETF. The contract is cash settled in USDT and does not convey ownership or redemption rights in the underlying. Funding is exchanged every 8h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+    "description": "EWT is an exchange traded fund perpetual listed on Bitget and tracking iShares MSCI Taiwan ETF. The contract is cash settled in USDT and does not convey ownership or redemption rights in the underlying. Funding is exchanged every 8h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification.",
+    "logo": "https://icons.llamao.fi/icons/rwa/ewt.png?w=48&h=48"
   },
   "events": [
     {

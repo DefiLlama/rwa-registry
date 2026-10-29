@@ -13,6 +13,7 @@
     "pair": "PAYP-USDC"
   },
   "about": {
-    "description": "PAYP is a cash settled perpetual market on Variational Omni referencing PayPay Corporation (ADR). The market is quoted and margined in USDC on Arbitrum, marked against the Omni Liquidity Pool's aggregated reference price rather than a single venue, and it conveys no ownership of the underlying and no claim on the issuer. The symbol PAYP resolves to PayPay Corporation, a Japanese payments company, and not to PayPal."
+    "description": "PAYP is a cash settled perpetual market on Variational Omni referencing PayPay Corporation (ADR). The market is quoted and margined in USDC on Arbitrum, marked against the Omni Liquidity Pool's aggregated reference price rather than a single venue, and it conveys no ownership of the underlying and no claim on the issuer. The symbol PAYP resolves to PayPay Corporation, a Japanese payments company, and not to PayPal.",
+    "logo": "https://icons.llamao.fi/icons/rwa/payp.png?w=48&h=48"
   }
 }

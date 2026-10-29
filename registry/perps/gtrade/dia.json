@@ -13,7 +13,8 @@
     "pair": "DIA-USDC"
   },
   "about": {
-    "description": "Equity-index perpetual on Gains Network tracking SPDR Dow Jones Industrial Average ETF Trust (DIA), with pricing referencing Chainlink DON. Users gain linear exposure to the index level without holding any underlying constituent stocks or futures. Positions are margined and cash-settled in USDC / DAI / WETH on Arbitrum / Polygon / Base."
+    "description": "Equity-index perpetual on Gains Network tracking SPDR Dow Jones Industrial Average ETF Trust (DIA), with pricing referencing Chainlink DON. Users gain linear exposure to the index level without holding any underlying constituent stocks or futures. Positions are margined and cash-settled in USDC / DAI / WETH on Arbitrum / Polygon / Base.",
+    "logo": "https://icons.llamao.fi/icons/rwa/dia.png?w=48&h=48"
   },
   "events": [
     {

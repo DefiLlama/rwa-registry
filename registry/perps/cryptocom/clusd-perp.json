@@ -11,6 +11,7 @@
     "pair": "CL-USD"
   },
   "about": {
-    "description": "CL is a commodity perpetual listed on Crypto.com and tracking Crude Oil (WTI). The contract is cash settled in USD and does not convey ownership or delivery of the underlying. Funding is exchanged every 1h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+    "description": "CL is a commodity perpetual listed on Crypto.com and tracking Crude Oil (WTI). The contract is cash settled in USD and does not convey ownership or delivery of the underlying. Funding is exchanged every 1h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification.",
+    "logo": "https://icons.llamao.fi/icons/rwa/cl.png?w=48&h=48"
   }
 }

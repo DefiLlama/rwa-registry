@@ -12,6 +12,7 @@
     "pair": "BOT-USDT"
   },
   "about": {
-    "description": "BOT is an ETF perpetual listed on Bitunix, tracking RoboStrategy, Inc., margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Up to 50× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+    "description": "BOT is an ETF perpetual listed on Bitunix, tracking RoboStrategy, Inc., margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Up to 50× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification.",
+    "logo": "https://icons.llamao.fi/icons/rwa/bot.png?w=48&h=48"
   }
 }

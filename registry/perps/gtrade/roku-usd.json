@@ -13,7 +13,8 @@
     "pair": "ROKU-USDC"
   },
   "about": {
-    "description": "Single-stock perpetual on Gains Network tracking Roku, Inc. (ROKU), with pricing referencing Chainlink DON (24/5 equity feed). Users gain linear exposure to Roku, Inc. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC / DAI / WETH on Arbitrum / Polygon / Base."
+    "description": "Single-stock perpetual on Gains Network tracking Roku, Inc. (ROKU), with pricing referencing Chainlink DON (24/5 equity feed). Users gain linear exposure to Roku, Inc. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC / DAI / WETH on Arbitrum / Polygon / Base.",
+    "logo": "https://icons.llamao.fi/icons/rwa/roku.png?w=48&h=48"
   },
   "events": [
     {

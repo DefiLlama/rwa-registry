@@ -17,6 +17,7 @@
   },
   "about": {
     "description": "Single-stock perpetual on trade[XYZ] (Hyperunit) tracking Zoom Communications, Inc. (ZM), with pricing referencing Pyth / futures-based external reference methodology (24/5 equity feed). Users gain linear exposure to Zoom Communications, Inc. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Hyperliquid (xyz namespace).",
+    "logo": "https://icons.llamao.fi/icons/rwa/zm.png?w=48&h=48",
     "refLinks": [
       "https://app.hyperliquid.xyz/join/DEFILLAMAS"
     ]

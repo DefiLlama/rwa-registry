@@ -13,6 +13,7 @@
     "pair": "SMCI-USDC"
   },
   "about": {
-    "description": "Single-stock perpetual on Variational Omni tracking Super Micro Computer, Inc. (SMCI), priced off Variational Omni's OLP-aggregated mid-quotes. Users gain linear exposure to Super Micro Computer, Inc. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Arbitrum."
+    "description": "Single-stock perpetual on Variational Omni tracking Super Micro Computer, Inc. (SMCI), priced off Variational Omni's OLP-aggregated mid-quotes. Users gain linear exposure to Super Micro Computer, Inc. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Arbitrum.",
+    "logo": "https://icons.llamao.fi/icons/rwa/smci.png?w=48&h=48"
   }
 }

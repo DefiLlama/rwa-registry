@@ -13,6 +13,7 @@
     "pair": "DKNG-USDC"
   },
   "about": {
-    "description": "Single-stock perpetual on Variational Omni tracking DraftKings Inc. (DKNG), priced off Variational Omni's OLP-aggregated mid-quotes. Users gain linear exposure to DraftKings Inc. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Arbitrum."
+    "description": "Single-stock perpetual on Variational Omni tracking DraftKings Inc. (DKNG), priced off Variational Omni's OLP-aggregated mid-quotes. Users gain linear exposure to DraftKings Inc. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Arbitrum.",
+    "logo": "https://icons.llamao.fi/icons/rwa/dkng.png?w=48&h=48"
   }
 }

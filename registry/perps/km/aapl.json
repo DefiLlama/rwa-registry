@@ -17,6 +17,7 @@
   },
   "about": {
     "description": "Single-stock perpetual market tracking Apple Inc. The contract gives synthetic exposure to Apple’s share price without ownership of Apple shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDH. The market is visible on Hyperliquid under the km namespace, but it is operated by Markets by Kinetiq rather than listed as a core Hyperliquid perp.",
+    "logo": "https://icons.llamao.fi/icons/rwa/aapl.png?w=48&h=48",
     "refLinks": [
       "https://markets.xyz/join/llama"
     ]

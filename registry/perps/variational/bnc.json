@@ -13,6 +13,7 @@
     "pair": "BNC-USDC"
   },
   "about": {
-    "description": "BNC is a cash settled perpetual market on Variational Omni referencing CEA Industries Inc.. The market is quoted and margined in USDC on Arbitrum, marked against the Omni Liquidity Pool's aggregated reference price rather than a single venue, and it conveys no ownership of the underlying and no claim on the issuer. CEA Industries trades under the symbol BNC following its change of name and strategy."
+    "description": "BNC is a cash settled perpetual market on Variational Omni referencing CEA Industries Inc.. The market is quoted and margined in USDC on Arbitrum, marked against the Omni Liquidity Pool's aggregated reference price rather than a single venue, and it conveys no ownership of the underlying and no claim on the issuer. CEA Industries trades under the symbol BNC following its change of name and strategy.",
+    "logo": "https://icons.llamao.fi/icons/rwa/bnc.png?w=48&h=48"
   }
 }

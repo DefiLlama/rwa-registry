@@ -16,6 +16,7 @@
   },
   "about": {
     "description": "Brent Crude Oil perpetual on Ostium, cash-settled in USDC on Arbitrum.",
+    "logo": "https://icons.llamao.fi/icons/rwa/brent.png?w=48&h=48",
     "refLinks": [
       "https://app.ostium.com/trade?from=BRENT&to=USD&ref=6X17X"
     ]

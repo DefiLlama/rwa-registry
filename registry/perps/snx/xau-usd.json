@@ -12,7 +12,8 @@
     "pair": "XAU-USD"
   },
   "about": {
-    "description": "Gold perpetual on Synthetix V3. Ethereum Mainnet. Delisted 2026-09-08: no such market on any live Synthetix deployment. V4 lists 10 crypto-only perps, V2 (Optimism) returns no markets, V3/Kwenta API is down."
+    "description": "Gold perpetual on Synthetix V3. Ethereum Mainnet. Delisted 2026-09-08: no such market on any live Synthetix deployment. V4 lists 10 crypto-only perps, V2 (Optimism) returns no markets, V3/Kwenta API is down.",
+    "logo": "https://icons.llamao.fi/icons/rwa/xau.png?w=48&h=48"
   },
   "events": [
     {

@@ -13,6 +13,7 @@
     "pair": "KO-USDC"
   },
   "about": {
-    "description": "Single-stock perpetual on Gains Network tracking The Coca-Cola Company (KO), with pricing referencing Chainlink DON (24/5 equity feed). Users gain linear exposure to The Coca-Cola Company share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC / DAI / WETH on Arbitrum / Polygon / Base."
+    "description": "Single-stock perpetual on Gains Network tracking The Coca-Cola Company (KO), with pricing referencing Chainlink DON (24/5 equity feed). Users gain linear exposure to The Coca-Cola Company share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC / DAI / WETH on Arbitrum / Polygon / Base.",
+    "logo": "https://icons.llamao.fi/icons/rwa/ko.png?w=48&h=48"
   }
 }

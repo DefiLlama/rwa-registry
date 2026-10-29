@@ -13,7 +13,8 @@
     "pair": "TSLA-USDC"
   },
   "about": {
-    "description": "DELISTED. GTrade reorganized its perp listings. The canonical gtrade:TSLA-USD is no longer the active market on gTrade (per may26 adapter, $0 OI / $0 24h vol). The active gTrade TSLA perp is at gtrade:TSLA_1-USD (separate RID). Marked Delisted=True on 2026-05-26."
+    "description": "DELISTED. GTrade reorganized its perp listings. The canonical gtrade:TSLA-USD is no longer the active market on gTrade (per may26 adapter, $0 OI / $0 24h vol). The active gTrade TSLA perp is at gtrade:TSLA_1-USD (separate RID). Marked Delisted=True on 2026-05-26.",
+    "logo": "https://icons.llamao.fi/icons/rwa/tsla.png?w=48&h=48"
   },
   "events": [
     {

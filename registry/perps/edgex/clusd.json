@@ -15,6 +15,7 @@
   },
   "about": {
     "description": "WTI crude oil perpetual market. The contract tracks West Texas Intermediate crude oil using a futures-based reference price. Users get linear oil price exposure only, without owning physical crude, inventory claims, or a deliverable futures position. Pricing uses a futures-based external reference via the Stork decentralized oracle. Positions are margined and cash-settled in USDT.",
+    "logo": "https://icons.llamao.fi/icons/rwa/wti.png?w=48&h=48",
     "refLinks": [
       "https://pro.edgex.exchange/referral/196451583"
     ]
