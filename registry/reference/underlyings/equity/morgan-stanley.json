@@ -1,0 +1,17 @@
+{
+  "slug": "morgan-stanley",
+  "name": "Morgan Stanley",
+  "aliases": [
+    "MORGAN STANLEY"
+  ],
+  "ticker": "MS",
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US6174464486",
+      "source": null,
+      "verified": false
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "wells-fargo-company",
+  "name": "Wells Fargo & Company",
+  "aliases": [
+    "WELLS FARGO & CO"
+  ],
+  "ticker": "WFC",
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US9497461015",
+      "source": null,
+      "verified": false
+    }
+  ]
+}

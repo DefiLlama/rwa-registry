@@ -1,0 +1,17 @@
+{
+  "slug": "keycorp",
+  "name": "KeyCorp",
+  "aliases": [
+    "KEYCORP"
+  ],
+  "ticker": "KEY",
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US4932671088",
+      "source": null,
+      "verified": false
+    }
+  ]
+}

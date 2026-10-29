@@ -1,0 +1,17 @@
+{
+  "slug": "fedex-corp",
+  "name": "FEDEX CORP",
+  "aliases": [
+    "FedEx Corporation"
+  ],
+  "ticker": "FDX",
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US31428X1063",
+      "source": null,
+      "verified": false
+    }
+  ]
+}

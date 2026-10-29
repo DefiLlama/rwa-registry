@@ -1,0 +1,14 @@
+{
+  "slug": "s-p-500-index",
+  "name": "S&P 500 Index",
+  "ticker": "SPX.IDX",
+  "exposure": "equity-indices",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US78462F1030",
+      "source": null,
+      "verified": false
+    }
+  ]
+}

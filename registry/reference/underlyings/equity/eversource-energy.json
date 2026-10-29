@@ -1,0 +1,17 @@
+{
+  "slug": "eversource-energy",
+  "name": "Eversource Energy",
+  "aliases": [
+    "EVERSOURCE ENERGY"
+  ],
+  "ticker": "ES",
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US30040W1080",
+      "source": null,
+      "verified": false
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "deere-co",
+  "name": "Deere & Co.",
+  "aliases": [
+    "DEERE & CO"
+  ],
+  "ticker": "DE",
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US2441991054",
+      "source": null,
+      "verified": false
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "dover-corp",
+  "name": "DOVER CORP",
+  "aliases": [
+    "Dover Corporation"
+  ],
+  "ticker": "DOV",
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US2600031080",
+      "source": null,
+      "verified": false
+    }
+  ]
+}

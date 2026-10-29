@@ -1,0 +1,17 @@
+{
+  "slug": "csx-corp",
+  "name": "CSX CORP",
+  "aliases": [
+    "CSX Corporation"
+  ],
+  "ticker": "CSX",
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US1264081035",
+      "source": null,
+      "verified": false
+    }
+  ]
+}

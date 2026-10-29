@@ -1,0 +1,17 @@
+{
+  "slug": "sempra",
+  "name": "Sempra",
+  "aliases": [
+    "SEMPRA"
+  ],
+  "ticker": "SRE",
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US8168511090",
+      "source": null,
+      "verified": false
+    }
+  ]
+}

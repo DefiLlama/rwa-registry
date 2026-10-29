@@ -1,0 +1,7 @@
+{
+  "slug": "total-crypto-market-cap-ex-btc",
+  "name": "Total Crypto Market Cap ex-BTC",
+  "ticker": "TOTAL2",
+  "exposure": "crypto-digital-assets",
+  "excludedReason": "crypto market index, not an RWA exposure"
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "nucor-corporation",
+  "name": "Nucor Corporation",
+  "aliases": [
+    "NUCOR CORP"
+  ],
+  "ticker": "NUE",
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US6703461052",
+      "source": null,
+      "verified": false
+    }
+  ]
+}

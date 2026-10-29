@@ -1,0 +1,17 @@
+{
+  "slug": "idex-corp",
+  "name": "IDEX CORP",
+  "aliases": [
+    "IDEX Corporation"
+  ],
+  "ticker": "IEX",
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US45167R1041",
+      "source": null,
+      "verified": false
+    }
+  ]
+}

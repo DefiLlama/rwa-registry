@@ -1,0 +1,7 @@
+{
+  "slug": "btc-volatility-index",
+  "name": "BTC Volatility Index",
+  "ticker": "BVOL.IDX",
+  "exposure": "crypto-digital-assets",
+  "excludedReason": "crypto market index, not an RWA exposure"
+}
