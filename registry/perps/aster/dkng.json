@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "DKNG",
-    "name": "Aster DraftKings Perp",
     "legacyId": 4435
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "DKNG-USDT"
   },
   "about": {
-    "description": "Single-stock perpetual market on Aster tracking DraftKings Inc. (NASDAQ: DKNG), cash-settled.",
-    "logo": "https://icons.llamao.fi/icons/rwa/dkng.png?w=48&h=48",
-    "refLinks": [
-      "https://www.asterdex.com/en/referral/c6eF10"
-    ]
+    "description": "Single-stock perpetual market on Aster tracking DraftKings Inc. (NASDAQ: DKNG), cash-settled."
   }
 }

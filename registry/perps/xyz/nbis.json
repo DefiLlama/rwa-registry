@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "NBIS",
-    "name": "trade[XYZ] Nebius Perp",
     "legacyId": 3983
   },
   "tracks": {
@@ -16,10 +15,6 @@
     "oracleProvider": "Pyth equity feed"
   },
   "about": {
-    "description": "Single-stock perpetual market on trade[XYZ] tracking Nebius Group N.V, cash-settled.",
-    "logo": "https://icons.llamao.fi/icons/rwa/nbis.png?w=48&h=48",
-    "refLinks": [
-      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
-    ]
+    "description": "Single-stock perpetual market on trade[XYZ] tracking Nebius Group N.V, cash-settled."
   }
 }

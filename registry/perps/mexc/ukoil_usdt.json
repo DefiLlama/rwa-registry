@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "UKOIL_USDT",
-    "name": "MEXC Crude Oil (Brent) Perp (USDT)",
     "legacyId": 5096
   },
   "tracks": {
@@ -15,7 +14,6 @@
     "takerFeeBps": 2
   },
   "about": {
-    "description": "UKOIL is a commodity perpetual listed on MEXC and tracking Crude Oil (Brent). The contract is cash settled in USDT and does not convey ownership or delivery of the underlying. Funding is exchanged every 4h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification.",
-    "logo": "https://icons.llamao.fi/icons/rwa/ukoil.png?w=48&h=48"
+    "description": "UKOIL is a commodity perpetual listed on MEXC and tracking Crude Oil (Brent). The contract is cash settled in USDT and does not convey ownership or delivery of the underlying. Funding is exchanged every 4h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
   }
 }

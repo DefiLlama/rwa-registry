@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "CA-LA",
-    "name": "Parcl Los Angeles Perp",
     "legacyId": 3088
   },
   "tracks": {
@@ -13,8 +12,7 @@
     "pair": "LA-USD"
   },
   "about": {
-    "description": "Los Angeles Housing Index perpetual on Parcl, cash-settled in USDC on Solana.",
-    "logo": "https://icons.llamao.fi/icons/rwa/la.png?w=48&h=48"
+    "description": "Los Angeles Housing Index perpetual on Parcl, cash-settled in USDC on Solana."
   },
   "events": [
     {

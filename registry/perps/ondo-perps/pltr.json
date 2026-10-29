@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "PLTR",
-    "name": "Ondo Perps Palantir Perp",
     "legacyId": 4039
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "PLTR-USD"
   },
   "about": {
-    "description": "Single-stock perpetual market on Ondo Perps tracking Palantir Technologies Inc, cash-settled, 24/7, up to 10x leverage, hourly funding, launched 2026-06-09 (non-US users only). Verified live via adapter 2026-06-10.",
-    "logo": "https://icons.llamao.fi/icons/rwa/pltr.png?w=48&h=48",
-    "refLinks": [
-      "https://app.ondoperps.xyz/trade/perps/PLTR-USD.P?ref=76ZCWB"
-    ]
+    "description": "Single-stock perpetual market on Ondo Perps tracking Palantir Technologies Inc, cash-settled, 24/7, up to 10x leverage, hourly funding, launched 2026-06-09 (non-US users only). Verified live via adapter 2026-06-10."
   }
 }

@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "SNDK-USD",
-    "name": "Avantis SanDisk Perp",
     "legacyId": 3818
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "SNDK-USDC"
   },
   "about": {
-    "description": "SanDisk (SNDK) perpetual on Avantis (Base). Tracks SanDisk stock price, USDC-margined. Oracle-priced via Pyth Lazer.",
-    "logo": "https://icons.llamao.fi/icons/rwa/sndk.png?w=48&h=48",
-    "refLinks": [
-      "https://www.avantisfi.com/referral?code=DefiLlama"
-    ]
+    "description": "SanDisk (SNDK) perpetual on Avantis (Base). Tracks SanDisk stock price, USDC-margined. Oracle-priced via Pyth Lazer."
   }
 }

@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "AAPL-USD",
-    "name": "Avantis Apple Perp",
     "legacyId": 3063
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "AAPL-USD"
   },
   "about": {
-    "description": "Apple perpetual on Avantis, cash-settled in USDC on Base.",
-    "logo": "https://icons.llamao.fi/icons/rwa/aapl.png?w=48&h=48",
-    "refLinks": [
-      "https://www.avantisfi.com/referral?code=DefiLlama"
-    ]
+    "description": "Apple perpetual on Avantis, cash-settled in USDC on Base."
   }
 }

@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "MSFT_24_5-USD",
-    "name": "Extended Microsoft Perp",
     "legacyId": 3142
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "MSFT-USD"
   },
   "about": {
-    "description": "Microsoft perpetual on Extended on Starknet, cash-settled in USDC.",
-    "logo": "https://icons.llamao.fi/icons/rwa/msft.png?w=48&h=48",
-    "refLinks": [
-      "https://app.extended.exchange/join/DEFILLAMAO"
-    ]
+    "description": "Microsoft perpetual on Extended on Starknet, cash-settled in USDC."
   }
 }

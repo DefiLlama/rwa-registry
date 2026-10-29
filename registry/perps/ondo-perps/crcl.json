@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "CRCL",
-    "name": "Ondo Perps Circle Perp",
     "legacyId": 4029
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "CRCL-USD"
   },
   "about": {
-    "description": "Single-stock perpetual market on Ondo Perps tracking Circle Internet Group, Inc, cash-settled, 24/7, up to 10x leverage, hourly funding, launched 2026-06-09 (non-US users only). Verified live via adapter 2026-06-10.",
-    "logo": "https://icons.llamao.fi/icons/rwa/crcl.png?w=48&h=48",
-    "refLinks": [
-      "https://app.ondoperps.xyz/trade/perps/CRCL-USD.P?ref=76ZCWB"
-    ]
+    "description": "Single-stock perpetual market on Ondo Perps tracking Circle Internet Group, Inc, cash-settled, 24/7, up to 10x leverage, hourly funding, launched 2026-06-09 (non-US users only). Verified live via adapter 2026-06-10."
   }
 }

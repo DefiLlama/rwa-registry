@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "NFLX",
-    "name": "Aster Netflix Perp",
     "legacyId": 4378
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "NFLX-USDT"
   },
   "about": {
-    "description": "Single-stock perpetual market on Aster tracking Netflix, cash-settled.",
-    "logo": "https://icons.llamao.fi/icons/rwa/nflx.png?w=48&h=48",
-    "refLinks": [
-      "https://www.asterdex.com/en/referral/c6eF10"
-    ]
+    "description": "Single-stock perpetual market on Aster tracking Netflix, cash-settled."
   }
 }

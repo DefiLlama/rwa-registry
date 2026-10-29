@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "METAUSD",
-    "name": "edgeX Meta Perp",
     "legacyId": 3385
   },
   "tracks": {
@@ -14,10 +13,6 @@
     "pair": "META-USD"
   },
   "about": {
-    "description": "Single-stock perpetual market tracking Meta Platforms, Inc. Users get linear exposure to Meta share-price moves without owning Meta shares, shareholder rights, or dividend claims, with pricing referencing an external 24/5 equity feed via the Stork decentralized oracle. Positions are margined and cash-settled in USDT.",
-    "logo": "https://icons.llamao.fi/icons/rwa/meta.png?w=48&h=48",
-    "refLinks": [
-      "https://pro.edgex.exchange/referral/196451583"
-    ]
+    "description": "Single-stock perpetual market tracking Meta Platforms, Inc. Users get linear exposure to Meta share-price moves without owning Meta shares, shareholder rights, or dividend claims, with pricing referencing an external 24/5 equity feed via the Stork decentralized oracle. Positions are margined and cash-settled in USDT."
   }
 }

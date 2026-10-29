@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "OPENAI",
-    "name": "Variational Omni OpenAI Pre-IPO Perp",
     "legacyId": 4447
   },
   "tracks": {
@@ -13,7 +12,6 @@
     "pair": "OPENAI-USDC"
   },
   "about": {
-    "description": "Pre-IPO valuation perpetual on Variational Omni tracking OpenAI, cash-settled.",
-    "logo": "https://icons.llamao.fi/icons/rwa/openai.png?w=48&h=48"
+    "description": "Pre-IPO valuation perpetual on Variational Omni tracking OpenAI, cash-settled."
   }
 }

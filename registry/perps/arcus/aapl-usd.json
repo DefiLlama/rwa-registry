@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "AAPL-USD",
-    "name": "Arcus Apple Perp",
     "legacyId": 4536
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "AAPL-USDG"
   },
   "about": {
-    "description": "Arcus perpetual market tracking Apple Inc. (NASDAQ: AAPL) with 24/7 exposure to the underlying mega-cap consumer technology stock. Total-return tracking (dividends, splits, and futures rolls passed through funding), cash-settled in USDG on the Arcus off-chain CLOB with permissioned appchain re-verification and EVM rootchain custody.",
-    "logo": "https://icons.llamao.fi/icons/rwa/aapl.png?w=48&h=48",
-    "refLinks": [
-      "https://app.arcus.xyz/ref/DEFILLAMA"
-    ]
+    "description": "Arcus perpetual market tracking Apple Inc. (NASDAQ: AAPL) with 24/7 exposure to the underlying mega-cap consumer technology stock. Total-return tracking (dividends, splits, and futures rolls passed through funding), cash-settled in USDG on the Arcus off-chain CLOB with permissioned appchain re-verification and EVM rootchain custody."
   }
 }

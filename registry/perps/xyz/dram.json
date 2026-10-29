@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "DRAM",
-    "name": "trade[XYZ] DRAM Perp",
     "legacyId": 3523
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "DRAM-USDC"
   },
   "about": {
-    "description": "Perpetual market on trade[XYZ] referencing the price of DRAM (dynamic random-access memory), the foundational semiconductor memory commodity used across PCs, servers, smartphones, and AI infrastructure, with pricing referencing a DRAM contract/spot benchmark. Positions are linear, margined and cash-settled in USDC on Hyperliquid under the xyz namespace, operated by trade[XYZ] rather than listed as core Hyperliquid perps.",
-    "logo": "https://icons.llamao.fi/icons/rwa/roundhill-memory-etf.png?w=48&h=48",
-    "refLinks": [
-      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
-    ]
+    "description": "Perpetual market on trade[XYZ] referencing the price of DRAM (dynamic random-access memory), the foundational semiconductor memory commodity used across PCs, servers, smartphones, and AI infrastructure, with pricing referencing a DRAM contract/spot benchmark. Positions are linear, margined and cash-settled in USDC on Hyperliquid under the xyz namespace, operated by trade[XYZ] rather than listed as core Hyperliquid perps."
   }
 }

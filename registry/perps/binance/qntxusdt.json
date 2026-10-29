@@ -14,8 +14,7 @@
     "takerFeeBps": 4
   },
   "about": {
-    "description": "QNTX is a single-stock perpetual listed on Binance and tracking Quantinuum Inc., which listed on Nasdaq on 2026-06-04 under the ticker QNT. Binance retains the symbol QNTX because QNT collides with the Quant crypto pair. The contract is cash settled in USDT against a Binance price index and does not convey ownership of the underlying. Funding is exchanged every 8h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification.",
-    "logo": "https://icons.llamao.fi/icons/rwa/qnt.png?w=48&h=48"
+    "description": "QNTX is a single-stock perpetual listed on Binance and tracking Quantinuum Inc., which listed on Nasdaq on 2026-06-04 under the ticker QNT. Binance retains the symbol QNTX because QNT collides with the Quant crypto pair. The contract is cash settled in USDT against a Binance price index and does not convey ownership of the underlying. Funding is exchanged every 8h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
   },
   "events": [
     {

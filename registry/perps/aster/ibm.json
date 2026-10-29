@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "IBM",
-    "name": "Aster IBM Perp",
     "legacyId": 3976
   },
   "tracks": {
@@ -15,10 +14,6 @@
     "takerFeeBps": null
   },
   "about": {
-    "description": "Single-stock perpetual market on Aster tracking International Business Machines Corp, cash-settled.",
-    "logo": "https://icons.llamao.fi/icons/rwa/ibm.png?w=48&h=48",
-    "refLinks": [
-      "https://www.asterdex.com/en/referral/c6eF10"
-    ]
+    "description": "Single-stock perpetual market on Aster tracking International Business Machines Corp, cash-settled."
   }
 }

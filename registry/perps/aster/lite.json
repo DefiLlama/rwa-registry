@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "LITE",
-    "name": "Aster Lumentum Perp",
     "legacyId": 3902
   },
   "tracks": {
@@ -15,10 +14,6 @@
     "takerFeeBps": null
   },
   "about": {
-    "description": "Perpetual market on Aster tracking Lumentum Holdings Inc. (LITE), cash-settled in crypto. Asset Class: Stock Perp. (Original record. Delisted in favor of the refreshed market.)",
-    "logo": "https://icons.llamao.fi/icons/rwa/lite.png?w=48&h=48",
-    "refLinks": [
-      "https://www.asterdex.com/en/referral/c6eF10"
-    ]
+    "description": "Perpetual market on Aster tracking Lumentum Holdings Inc. (LITE), cash-settled in crypto. Asset Class: Stock Perp. (Original record. Delisted in favor of the refreshed market.)"
   }
 }

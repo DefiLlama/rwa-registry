@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "MU-USD",
-    "name": "Avantis Micron Perp",
     "legacyId": 3817
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "MU-USDC"
   },
   "about": {
-    "description": "Micron Technology (MU) perpetual on Avantis (Base). Tracks Micron stock price, USDC-margined. Oracle-priced via Pyth Lazer.",
-    "logo": "https://icons.llamao.fi/icons/rwa/mu.png?w=48&h=48",
-    "refLinks": [
-      "https://www.avantisfi.com/referral?code=DefiLlama"
-    ]
+    "description": "Micron Technology (MU) perpetual on Avantis (Base). Tracks Micron stock price, USDC-margined. Oracle-priced via Pyth Lazer."
   }
 }

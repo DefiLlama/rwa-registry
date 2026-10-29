@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "BBX",
-    "name": "Aster BlackBerry Perp",
     "legacyId": 3959
   },
   "tracks": {
@@ -15,10 +14,6 @@
     "takerFeeBps": null
   },
   "about": {
-    "description": "Single-stock perpetual market on Aster tracking BlackBerry Limited (BB on NYSE, \"BBX\" on Aster). Users get linear exposure to share-price moves without owning shares, shareholder rights, or dividend claims, with pricing referencing an external 24/5 equity feed. Positions are margined and cash-settled in USDT on Aster.",
-    "logo": "https://icons.llamao.fi/icons/rwa/bbx.png?w=48&h=48",
-    "refLinks": [
-      "https://www.asterdex.com/en/referral/c6eF10"
-    ]
+    "description": "Single-stock perpetual market on Aster tracking BlackBerry Limited (BB on NYSE, \"BBX\" on Aster). Users get linear exposure to share-price moves without owning shares, shareholder rights, or dividend claims, with pricing referencing an external 24/5 equity feed. Positions are margined and cash-settled in USDT on Aster."
   }
 }

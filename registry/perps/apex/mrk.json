@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "MRK",
-    "name": "ApeX Omni Merck Perp",
     "legacyId": 3758
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "MRK-USDC"
   },
   "about": {
-    "description": "Merck & Co (NYSE:MRK) stock perpetual on ApeX Omni, cash-settled in USDT.",
-    "logo": "https://icons.llamao.fi/icons/rwa/mrk.png?w=48&h=48",
-    "refLinks": [
-      "https://omni.apex.exchange/referral?referralCode=T0S8V482"
-    ]
+    "description": "Merck & Co (NYSE:MRK) stock perpetual on ApeX Omni, cash-settled in USDT."
   }
 }

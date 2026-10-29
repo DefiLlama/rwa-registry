@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "ZM",
-    "name": "Variational Zoom Perp",
     "legacyId": 9143
   },
   "tracks": {
@@ -13,7 +12,6 @@
     "pair": "ZM-USDC"
   },
   "about": {
-    "description": "Single-stock perpetual on Variational Omni tracking Zoom Communications, Inc. (ZM), priced off Variational Omni's OLP-aggregated mid-quotes. Users gain linear exposure to Zoom Communications, Inc. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Arbitrum.",
-    "logo": "https://icons.llamao.fi/icons/rwa/zm.png?w=48&h=48"
+    "description": "Single-stock perpetual on Variational Omni tracking Zoom Communications, Inc. (ZM), priced off Variational Omni's OLP-aggregated mid-quotes. Users gain linear exposure to Zoom Communications, Inc. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Arbitrum."
   }
 }

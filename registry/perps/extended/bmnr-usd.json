@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "BMNR-USD",
-    "name": "Extended BitMine Immersion Technologies Perp",
     "legacyId": 8588
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "BMNR-USDC"
   },
   "about": {
-    "description": "Single-stock perpetual on Extended (formerly X10) tracking BitMine Immersion Technologies, Inc. (BMNR), with pricing referencing Extended oracle. Users gain linear exposure to BitMine Immersion Technologies, Inc. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Starknet.",
-    "logo": "https://icons.llamao.fi/icons/rwa/bmnr.png?w=48&h=48",
-    "refLinks": [
-      "https://app.extended.exchange/join/DEFILLAMAO"
-    ]
+    "description": "Single-stock perpetual on Extended (formerly X10) tracking BitMine Immersion Technologies, Inc. (BMNR), with pricing referencing Extended oracle. Users gain linear exposure to BitMine Immersion Technologies, Inc. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Starknet."
   }
 }

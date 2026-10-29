@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "USDJPY",
-    "name": "Ondo Perps US Dollar / Japanese Yen Perp",
     "legacyId": 9265
   },
   "tracks": {
@@ -13,9 +12,6 @@
     "pair": "USDJPY-USD"
   },
   "about": {
-    "description": "Forex perpetual market on Ondo Perps tracking US Dollar / Japanese Yen, cash-settled, 24/7, up to 10x leverage, margined in USDC, hourly funding. Users get linear price exposure only - no delivery of the underlying currencies. Adapter snapshot 2026-09-21: mark $157.298, open interest $35.87K, 24h volume $16.40K. Added 2026-09-21 in the third Ondo Perps expansion batch, taking the registry from 45 to 56 RWA markets; the adapter's 65 live rows include 9 crypto perps (BTC, ENA, ETH, HYPE, ONDO, PUMP, SOL, XRP, ZEC) that are out of scope.",
-    "refLinks": [
-      "https://app.ondoperps.xyz/trade/perps/USDJPY-USD.P?ref=76ZCWB"
-    ]
+    "description": "Forex perpetual market on Ondo Perps tracking US Dollar / Japanese Yen, cash-settled, 24/7, up to 10x leverage, margined in USDC, hourly funding. Users get linear price exposure only - no delivery of the underlying currencies. Adapter snapshot 2026-09-21: mark $157.298, open interest $35.87K, 24h volume $16.40K. Added 2026-09-21 in the third Ondo Perps expansion batch, taking the registry from 45 to 56 RWA markets; the adapter's 65 live rows include 9 crypto perps (BTC, ENA, ETH, HYPE, ONDO, PUMP, SOL, XRP, ZEC) that are out of scope."
   }
 }

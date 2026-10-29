@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "NIFTY",
-    "name": "trade[XYZ] Nifty 50 Perp",
     "legacyId": 3748
   },
   "tracks": {
@@ -15,10 +14,6 @@
   },
   "about": {
     "description": "Nifty 50 (India) index perpetual on trade[XYZ]. HIP-3 deployer namespace on Hyperliquid, cash-settled in USDC.",
-    "logo": "https://icons.llamao.fi/icons/rwa/nifty.png?w=48&h=48",
-    "refLinks": [
-      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
-    ],
     "issuer": "trade[XYZ]"
   },
   "events": [

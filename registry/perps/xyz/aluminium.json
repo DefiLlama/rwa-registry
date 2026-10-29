@@ -15,11 +15,7 @@
     "oracleProvider": "Pyth / futures-based external reference methodology"
   },
   "about": {
-    "description": "Aluminium perpetual market. The contract tracks Aluminium price using the venue's reference methodology. Users get linear commodity-price exposure only, without title to physical inventory or delivery rights, cash-settled in USDC on trade[XYZ].",
-    "logo": "https://icons.llamao.fi/icons/rwa/aluminium.png?w=48&h=48",
-    "refLinks": [
-      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
-    ]
+    "description": "Aluminium perpetual market. The contract tracks Aluminium price using the venue's reference methodology. Users get linear commodity-price exposure only, without title to physical inventory or delivery rights, cash-settled in USDC on trade[XYZ]."
   },
   "events": [
     {

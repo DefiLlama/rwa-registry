@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "GOOGL-USD",
-    "name": "GMTrade Alphabet Perp",
     "legacyId": 3825
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "GOOGL-USDC"
   },
   "about": {
-    "description": "Alphabet (GOOGL) perpetual on GMTrade (Solana), USDC-margined.",
-    "logo": "https://icons.llamao.fi/icons/rwa/googl.png?w=48&h=48",
-    "refLinks": [
-      "https://gmtrade.xyz/referrals/?ref=545"
-    ]
+    "description": "Alphabet (GOOGL) perpetual on GMTrade (Solana), USDC-margined."
   }
 }

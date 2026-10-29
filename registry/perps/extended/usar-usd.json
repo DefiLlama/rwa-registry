@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "USAR-USD",
-    "name": "Extended USA Rare Earth Perp",
     "legacyId": 8637
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "USAR-USDC"
   },
   "about": {
-    "description": "Single-stock perpetual on Extended (formerly X10) tracking USA Rare Earth, Inc. (USAR), with pricing referencing Extended oracle. Users gain linear exposure to USA Rare Earth, Inc. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Starknet.",
-    "logo": "https://icons.llamao.fi/icons/rwa/usar.png?w=48&h=48",
-    "refLinks": [
-      "https://app.extended.exchange/join/DEFILLAMAO"
-    ]
+    "description": "Single-stock perpetual on Extended (formerly X10) tracking USA Rare Earth, Inc. (USAR), with pricing referencing Extended oracle. Users gain linear exposure to USA Rare Earth, Inc. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Starknet."
   }
 }

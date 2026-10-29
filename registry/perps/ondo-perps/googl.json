@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "GOOGL",
-    "name": "Ondo Perps Alphabet Perp",
     "legacyId": 4030
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "GOOGL-USD"
   },
   "about": {
-    "description": "Single-stock perpetual market on Ondo Perps tracking Alphabet Inc, cash-settled, 24/7, up to 10x leverage, hourly funding, launched 2026-06-09 (non-US users only). Verified live via adapter 2026-06-10.",
-    "logo": "https://icons.llamao.fi/icons/rwa/googl.png?w=48&h=48",
-    "refLinks": [
-      "https://app.ondoperps.xyz/trade/perps/GOOGL-USD.P?ref=76ZCWB"
-    ]
+    "description": "Single-stock perpetual market on Ondo Perps tracking Alphabet Inc, cash-settled, 24/7, up to 10x leverage, hourly funding, launched 2026-06-09 (non-US users only). Verified live via adapter 2026-06-10."
   }
 }

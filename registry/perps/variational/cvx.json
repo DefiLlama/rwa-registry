@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "CVX",
-    "name": "Variational Omni Chevron Perp",
     "legacyId": 4470
   },
   "tracks": {
@@ -13,7 +12,6 @@
     "pair": "CVX-USDC"
   },
   "about": {
-    "description": "Single-stock perpetual market on Variational Omni tracking Chevron Corporation, cash-settled.",
-    "logo": "https://icons.llamao.fi/icons/rwa/cvx.png?w=48&h=48"
+    "description": "Single-stock perpetual market on Variational Omni tracking Chevron Corporation, cash-settled."
   }
 }

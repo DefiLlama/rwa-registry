@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "AMZN",
-    "name": "CASH Amazon Perp",
     "legacyId": 2946
   },
   "tracks": {
@@ -13,11 +12,7 @@
     "pair": "AMZN-USDT"
   },
   "about": {
-    "description": "Single-stock perpetual market tracking Amazon.com, Inc. Users get linear exposure to Amazon share-price moves without owning shares, voting rights, or dividend claims, with pricing referencing an external 24/5 equity feed. Positions are margined and cash-settled in USDT. Markets are visible on Hyperliquid under the cash namespace, but are operated by Dreamcash rather than listed as core Hyperliquid perps.",
-    "logo": "https://icons.llamao.fi/icons/rwa/amzn.png?w=48&h=48",
-    "refLinks": [
-      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
-    ]
+    "description": "Single-stock perpetual market tracking Amazon.com, Inc. Users get linear exposure to Amazon share-price moves without owning shares, voting rights, or dividend claims, with pricing referencing an external 24/5 equity feed. Positions are margined and cash-settled in USDT. Markets are visible on Hyperliquid under the cash namespace, but are operated by Dreamcash rather than listed as core Hyperliquid perps."
   },
   "events": [
     {

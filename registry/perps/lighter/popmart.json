@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "POPMART",
-    "name": "Lighter Pop Mart Perp",
     "legacyId": 4583
   },
   "tracks": {
@@ -16,8 +15,7 @@
     "oracleProvider": "Lighter fair price oracle"
   },
   "about": {
-    "description": "Single-stock perpetual on Lighter tracking Pop Mart International Group Limited. Users get linear exposure to the underlying without owning shares. Cash-settled in USDC.",
-    "logo": "https://icons.llamao.fi/icons/rwa/popmart.png?w=48&h=48"
+    "description": "Single-stock perpetual on Lighter tracking Pop Mart International Group Limited. Users get linear exposure to the underlying without owning shares. Cash-settled in USDC."
   },
   "events": [
     {

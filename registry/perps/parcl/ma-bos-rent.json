@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "MA-BOS-RENT",
-    "name": "Parcl Boston Rental Real Estate Perp",
     "legacyId": 3889
   },
   "tracks": {
@@ -13,8 +12,7 @@
     "pair": "MA-BOS-RENT-USDC"
   },
   "about": {
-    "description": "Boston rental price perpetual on Parcl. Verified live 2026-05-20.",
-    "logo": "https://icons.llamao.fi/icons/rwa/ma-bos-rent.png?w=48&h=48"
+    "description": "Boston rental price perpetual on Parcl. Verified live 2026-05-20."
   },
   "events": [
     {

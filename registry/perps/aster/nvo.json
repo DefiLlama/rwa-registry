@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "NVO",
-    "name": "Aster Novo Nordisk Perp",
     "legacyId": 3978
   },
   "tracks": {
@@ -15,10 +14,6 @@
     "takerFeeBps": null
   },
   "about": {
-    "description": "Single-stock perpetual market on Aster tracking Novo Nordisk A/S, cash-settled.",
-    "logo": "https://icons.llamao.fi/icons/rwa/nvo.png?w=48&h=48",
-    "refLinks": [
-      "https://www.asterdex.com/en/referral/c6eF10"
-    ]
+    "description": "Single-stock perpetual market on Aster tracking Novo Nordisk A/S, cash-settled."
   }
 }

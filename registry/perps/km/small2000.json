@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "SMALL2000",
-    "name": "Markets by Kinetiq Russell 2000 Perp",
     "legacyId": 3276
   },
   "tracks": {
@@ -13,11 +12,7 @@
     "pair": "SMALL2000-USDH"
   },
   "about": {
-    "description": "Russell 2000 small-cap equity index perpetual on Markets by Kinetiq (Hyperliquid).",
-    "logo": "https://icons.llamao.fi/icons/rwa/rty.png?w=48&h=48",
-    "refLinks": [
-      "https://markets.xyz/join/llama"
-    ]
+    "description": "Russell 2000 small-cap equity index perpetual on Markets by Kinetiq (Hyperliquid)."
   },
   "events": [
     {

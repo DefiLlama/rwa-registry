@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "SKHYNIXUSD",
-    "name": "Lighter SK Hynix Perp",
     "legacyId": 3363
   },
   "tracks": {
@@ -16,10 +15,6 @@
     "oracleProvider": "KRX feed (000660.KS, USD-converted)"
   },
   "about": {
-    "description": "Single-stock perpetual market tracking SK Hynix Inc. (KRX: 000660), USD-quoted. Users get linear exposure to SK Hynix share-price moves without owning SK Hynix shares, shareholder rights, or dividend claims, with pricing referencing an external Korean equity feed via Lighter's fair price oracle, converted to USD. Positions are margined and cash-settled in USDC.",
-    "logo": "https://icons.llamao.fi/icons/rwa/skhynix.png?w=48&h=48",
-    "refLinks": [
-      "https://app.lighter.xyz/trade/SKHYNIXUSD?referral=FHT1N8AYKHP4"
-    ]
+    "description": "Single-stock perpetual market tracking SK Hynix Inc. (KRX: 000660), USD-quoted. Users get linear exposure to SK Hynix share-price moves without owning SK Hynix shares, shareholder rights, or dividend claims, with pricing referencing an external Korean equity feed via Lighter's fair price oracle, converted to USD. Positions are margined and cash-settled in USDC."
   }
 }

@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "TN-NASH",
-    "name": "Parcl Nashville Real Estate Perp",
     "legacyId": 3879
   },
   "tracks": {
@@ -13,8 +12,7 @@
     "pair": "TN-NASH-USDC"
   },
   "about": {
-    "description": "Nashville metro real estate perpetual on Parcl. Verified live 2026-05-20.",
-    "logo": "https://icons.llamao.fi/icons/rwa/tn-nash.png?w=48&h=48"
+    "description": "Nashville metro real estate perpetual on Parcl. Verified live 2026-05-20."
   },
   "events": [
     {

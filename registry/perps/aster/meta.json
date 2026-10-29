@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "META",
-    "name": "Aster Meta Perp",
     "legacyId": 3561
   },
   "tracks": {
@@ -15,10 +14,6 @@
     "takerFeeBps": null
   },
   "about": {
-    "description": "Single-stock perpetual on Aster (YZi Labs-backed) tracking Meta Platforms, Inc. (META), with pricing referencing Aster custom oracle (24/5 equity feed). Users gain linear exposure to Meta Platforms, Inc. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USD1 on BNB Chain / Aster Chain.",
-    "logo": "https://icons.llamao.fi/icons/rwa/meta.png?w=48&h=48",
-    "refLinks": [
-      "https://www.asterdex.com/en/referral/c6eF10"
-    ]
+    "description": "Single-stock perpetual on Aster (YZi Labs-backed) tracking Meta Platforms, Inc. (META), with pricing referencing Aster custom oracle (24/5 equity feed). Users gain linear exposure to Meta Platforms, Inc. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USD1 on BNB Chain / Aster Chain."
   }
 }

@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "TSLA_1-USD",
-    "name": "gTrade Tesla (legacy TSLA_1) Perp",
     "legacyId": 3721
   },
   "tracks": {
@@ -13,7 +12,6 @@
     "pair": "TSLA-USDC"
   },
   "about": {
-    "description": "Active gTrade Tesla perp at canonical gtrade:TSLA_1-USD. Naming previously included \"(legacy TSLA_1)\" tag. Corrected 2026-05-26 after may26 adapter QA confirmed _1 suffix is the active market while gtrade:TSLA-USD is the dead/inactive version.",
-    "logo": "https://icons.llamao.fi/icons/rwa/tsla.png?w=48&h=48"
+    "description": "Active gTrade Tesla perp at canonical gtrade:TSLA_1-USD. Naming previously included \"(legacy TSLA_1)\" tag. Corrected 2026-05-26 after may26 adapter QA confirmed _1 suffix is the active market while gtrade:TSLA-USD is the dead/inactive version."
   }
 }

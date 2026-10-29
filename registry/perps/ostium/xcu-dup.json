@@ -12,11 +12,7 @@
     "pair": "XCU-USDC"
   },
   "about": {
-    "description": "Industrial-metals perpetual on Ostium Labs tracking Copper (XCU), with pricing referencing Stork / QUODD. Users gain linear exposure to copper prices without owning physical metal or futures positions. Positions are margined and cash-settled in USDC on Arbitrum.",
-    "logo": "https://icons.llamao.fi/icons/rwa/xcu.png?w=48&h=48",
-    "refLinks": [
-      "https://app.ostium.com/trade?from=SPX&to=USD&ref=6X17X"
-    ]
+    "description": "Industrial-metals perpetual on Ostium Labs tracking Copper (XCU), with pricing referencing Stork / QUODD. Users gain linear exposure to copper prices without owning physical metal or futures positions. Positions are margined and cash-settled in USDC on Arbitrum."
   },
   "events": [
     {

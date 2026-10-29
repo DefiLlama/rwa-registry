@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "CRM",
-    "name": "Variational Omni Salesforce Perp",
     "legacyId": 4591
   },
   "tracks": {
@@ -13,7 +12,6 @@
     "pair": "CRM-USDC"
   },
   "about": {
-    "description": "Single-stock perpetual on Variational Omni tracking Salesforce, Inc. Users get linear exposure to the underlying without owning shares. Cash-settled in USDC (Arbitrum).",
-    "logo": "https://icons.llamao.fi/icons/rwa/crm.png?w=48&h=48"
+    "description": "Single-stock perpetual on Variational Omni tracking Salesforce, Inc. Users get linear exposure to the underlying without owning shares. Cash-settled in USDC (Arbitrum)."
   }
 }

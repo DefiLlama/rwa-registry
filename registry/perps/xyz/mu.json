@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "MU",
-    "name": "trade[XYZ] Micron Perp",
     "legacyId": 3239
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "MU-USDC"
   },
   "about": {
-    "description": "Single-stock perpetual market tracking Micron Technology. Users get linear exposure to Micron Technology share-price moves without owning Micron Technology shares, shareholder rights, or dividend claims, cash-settled in USDC on trade[XYZ].",
-    "logo": "https://icons.llamao.fi/icons/rwa/mu.png?w=48&h=48",
-    "refLinks": [
-      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
-    ]
+    "description": "Single-stock perpetual market tracking Micron Technology. Users get linear exposure to Micron Technology share-price moves without owning Micron Technology shares, shareholder rights, or dividend claims, cash-settled in USDC on trade[XYZ]."
   }
 }

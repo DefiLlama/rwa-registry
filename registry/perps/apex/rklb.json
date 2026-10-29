@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "RKLB",
-    "name": "ApeX Omni Rocket Lab Perp",
     "legacyId": 4370
   },
   "tracks": {
@@ -18,10 +17,6 @@
   },
   "about": {
     "description": "Single-stock perpetual market on ApeX Omni tracking Rocket Lab, cash-settled.",
-    "logo": "https://icons.llamao.fi/icons/rwa/rklb.png?w=48&h=48",
-    "refLinks": [
-      "https://omni.apex.exchange/referral?referralCode=T0S8V482"
-    ],
     "issuer": "ApeX Protocol"
   }
 }

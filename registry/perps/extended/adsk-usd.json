@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "ADSK-USD",
-    "name": "Extended Autodesk Perp",
     "legacyId": 8577
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "ADSK-USDC"
   },
   "about": {
-    "description": "Single-stock perpetual on Extended (formerly X10) tracking Autodesk, Inc. (ADSK), with pricing referencing Extended oracle. Users gain linear exposure to Autodesk, Inc. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Starknet.",
-    "logo": "https://icons.llamao.fi/icons/rwa/adsk.png?w=48&h=48",
-    "refLinks": [
-      "https://app.extended.exchange/join/DEFILLAMAO"
-    ]
+    "description": "Single-stock perpetual on Extended (formerly X10) tracking Autodesk, Inc. (ADSK), with pricing referencing Extended oracle. Users gain linear exposure to Autodesk, Inc. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Starknet."
   }
 }

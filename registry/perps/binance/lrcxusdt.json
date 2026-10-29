@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "LRCXUSDT",
-    "name": "Binance Lam Research Corp. Perp",
     "legacyId": 4864
   },
   "tracks": {
@@ -15,8 +14,7 @@
     "takerFeeBps": 4
   },
   "about": {
-    "description": "LRCX is a single-stock perpetual listed on Binance and tracking Lam Research Corp. The contract is cash settled in USDT against a Binance price index and does not convey ownership of the underlying. Funding is exchanged every 8h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification.",
-    "logo": "https://icons.llamao.fi/icons/rwa/lrcx.png?w=48&h=48"
+    "description": "LRCX is a single-stock perpetual listed on Binance and tracking Lam Research Corp. The contract is cash settled in USDT against a Binance price index and does not convey ownership of the underlying. Funding is exchanged every 8h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
   },
   "events": [
     {

@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "NXPI-USD",
-    "name": "Extended NXP Semiconductors Perp",
     "legacyId": 8616
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "NXPI-USDC"
   },
   "about": {
-    "description": "Single-stock perpetual on Extended (formerly X10) tracking NXP Semiconductors N.V. (NXPI), with pricing referencing Extended oracle. Users gain linear exposure to NXP Semiconductors N.V. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Starknet.",
-    "logo": "https://icons.llamao.fi/icons/rwa/nxpi.png?w=48&h=48",
-    "refLinks": [
-      "https://app.extended.exchange/join/DEFILLAMAO"
-    ]
+    "description": "Single-stock perpetual on Extended (formerly X10) tracking NXP Semiconductors N.V. (NXPI), with pricing referencing Extended oracle. Users gain linear exposure to NXP Semiconductors N.V. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Starknet."
   }
 }

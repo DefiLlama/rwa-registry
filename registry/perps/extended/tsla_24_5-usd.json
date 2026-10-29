@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "TSLA_24_5-USD",
-    "name": "Extended Tesla Perp",
     "legacyId": 3139
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "TSLA-USD"
   },
   "about": {
-    "description": "Tesla perpetual on Extended on Starknet, cash-settled in USDC.",
-    "logo": "https://icons.llamao.fi/icons/rwa/tsla.png?w=48&h=48",
-    "refLinks": [
-      "https://app.extended.exchange/join/DEFILLAMAO"
-    ]
+    "description": "Tesla perpetual on Extended on Starknet, cash-settled in USDC."
   }
 }

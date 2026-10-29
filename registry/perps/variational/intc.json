@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "INTC",
-    "name": "Variational Omni Intel Perp",
     "legacyId": 4405
   },
   "tracks": {
@@ -13,7 +12,6 @@
     "pair": "INTC-USDC"
   },
   "about": {
-    "description": "Single-stock perpetual market on Variational Omni tracking Intel, cash-settled.",
-    "logo": "https://icons.llamao.fi/icons/rwa/intc.png?w=48&h=48"
+    "description": "Single-stock perpetual market on Variational Omni tracking Intel, cash-settled."
   }
 }

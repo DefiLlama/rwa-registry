@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "USDCAD-USD",
-    "name": "GMTrade USDCAD Perp",
     "legacyId": 3820
   },
   "tracks": {
@@ -15,10 +14,6 @@
     "takerFeeBps": 1.2
   },
   "about": {
-    "description": "USDCAD perpetual on GMTrade (Solana), USDC-margined. Tracks USD/CAD FX rate.",
-    "logo": "https://icons.llamao.fi/icons/rwa/usdcad.png?w=48&h=48",
-    "refLinks": [
-      "https://gmtrade.xyz/referrals/?ref=545"
-    ]
+    "description": "USDCAD perpetual on GMTrade (Solana), USDC-margined. Tracks USD/CAD FX rate."
   }
 }

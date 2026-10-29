@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "TX-DAL",
-    "name": "Parcl Dallas Real Estate Perp",
     "legacyId": 3875
   },
   "tracks": {
@@ -13,8 +12,7 @@
     "pair": "TX-DAL-USDC"
   },
   "about": {
-    "description": "Dallas metro real estate perpetual on Parcl. Verified live 2026-05-20.",
-    "logo": "https://icons.llamao.fi/icons/rwa/tx-dal.png?w=48&h=48"
+    "description": "Dallas metro real estate perpetual on Parcl. Verified live 2026-05-20."
   },
   "events": [
     {

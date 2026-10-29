@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "LITE",
-    "name": "Lighter Lumentum Perp",
     "legacyId": 3981
   },
   "tracks": {
@@ -16,10 +15,6 @@
     "oracleProvider": "Lighter fair price oracle"
   },
   "about": {
-    "description": "Single-stock perpetual market on Lighter tracking Lumentum Holdings Inc, cash-settled.",
-    "logo": "https://icons.llamao.fi/icons/rwa/lite.png?w=48&h=48",
-    "refLinks": [
-      "https://app.lighter.xyz/trade/LITE?referral=FHT1N8AYKHP4"
-    ]
+    "description": "Single-stock perpetual market on Lighter tracking Lumentum Holdings Inc, cash-settled."
   }
 }

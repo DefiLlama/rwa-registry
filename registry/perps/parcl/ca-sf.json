@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "CA-SF",
-    "name": "Parcl San Francisco Perp",
     "legacyId": 3090
   },
   "tracks": {
@@ -13,8 +12,7 @@
     "pair": "SF-USD"
   },
   "about": {
-    "description": "San Francisco Housing Index perpetual on Parcl, cash-settled in USDC on Solana.",
-    "logo": "https://icons.llamao.fi/icons/rwa/stifel-financial-corp..png?w=48&h=48"
+    "description": "San Francisco Housing Index perpetual on Parcl, cash-settled in USDC on Solana."
   },
   "events": [
     {

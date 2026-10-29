@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "CL",
-    "name": "Aster WTI Crude Oil Perp",
     "legacyId": 3103
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "CL-USDT"
   },
   "about": {
-    "description": "Crude Oil (WTI) perpetual on Aster, settled in USD1 on Aster Chain.",
-    "logo": "https://icons.llamao.fi/icons/rwa/wti.png?w=48&h=48",
-    "refLinks": [
-      "https://www.asterdex.com/en/referral/c6eF10"
-    ]
+    "description": "Crude Oil (WTI) perpetual on Aster, settled in USD1 on Aster Chain."
   }
 }

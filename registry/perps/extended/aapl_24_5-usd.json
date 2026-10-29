@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "AAPL_24_5-USD",
-    "name": "Extended Apple Perp",
     "legacyId": 3141
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "AAPL-USD"
   },
   "about": {
-    "description": "Apple perpetual on Extended on Starknet, cash-settled in USDC.",
-    "logo": "https://icons.llamao.fi/icons/rwa/aapl.png?w=48&h=48",
-    "refLinks": [
-      "https://app.extended.exchange/join/DEFILLAMAO"
-    ]
+    "description": "Apple perpetual on Extended on Starknet, cash-settled in USDC."
   }
 }

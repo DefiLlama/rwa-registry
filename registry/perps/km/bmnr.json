@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "BMNR",
-    "name": "Markets by Kinetiq Bitmine Immersion Technologies Perp",
     "legacyId": 2973
   },
   "tracks": {
@@ -18,11 +17,7 @@
     "oracleProvider": "Kaiko / NYSE:BMNR"
   },
   "about": {
-    "description": "Single-stock perpetual market tracking Bitmine Immersion Technologies, Inc. The contract gives synthetic exposure to BMNR’s share price without ownership of the underlying shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDH. The market is visible on Hyperliquid under the km namespace, but it is operated by Markets by Kinetiq rather than listed as a core Hyperliquid perp.",
-    "logo": "https://icons.llamao.fi/icons/rwa/bmnr.png?w=48&h=48",
-    "refLinks": [
-      "https://markets.xyz/join/llama"
-    ]
+    "description": "Single-stock perpetual market tracking Bitmine Immersion Technologies, Inc. The contract gives synthetic exposure to BMNR’s share price without ownership of the underlying shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDH. The market is visible on Hyperliquid under the km namespace, but it is operated by Markets by Kinetiq rather than listed as a core Hyperliquid perp."
   },
   "events": [
     {

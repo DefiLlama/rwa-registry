@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "MSTR",
-    "name": "Ondo Perps Strategy Perp",
     "legacyId": 4035
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "MSTR-USD"
   },
   "about": {
-    "description": "Single-stock perpetual market on Ondo Perps tracking Strategy Inc, cash-settled, 24/7, up to 10x leverage, hourly funding, launched 2026-06-09 (non-US users only). Verified live via adapter 2026-06-10.",
-    "logo": "https://icons.llamao.fi/icons/rwa/mstr.png?w=48&h=48",
-    "refLinks": [
-      "https://app.ondoperps.xyz/trade/perps/MSTR-USD.P?ref=76ZCWB"
-    ]
+    "description": "Single-stock perpetual market on Ondo Perps tracking Strategy Inc, cash-settled, 24/7, up to 10x leverage, hourly funding, launched 2026-06-09 (non-US users only). Verified live via adapter 2026-06-10."
   }
 }

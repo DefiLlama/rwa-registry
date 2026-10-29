@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "SPCX-USD",
-    "name": "gTrade SpaceX Perp",
     "legacyId": 4459
   },
   "tracks": {
@@ -13,7 +12,6 @@
     "pair": "SPCX-USDC"
   },
   "about": {
-    "description": "SpaceX (SPCX) perpetual on gTrade, synthetic and cash-settled in USDC on Arbitrum.",
-    "logo": "https://icons.llamao.fi/icons/rwa/spcx.png?w=48&h=48"
+    "description": "SpaceX (SPCX) perpetual on gTrade, synthetic and cash-settled in USDC on Arbitrum."
   }
 }

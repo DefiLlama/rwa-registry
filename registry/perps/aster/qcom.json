@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "QCOM",
-    "name": "Aster Qualcomm Perp",
     "legacyId": 4390
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "QCOM-USDT"
   },
   "about": {
-    "description": "Single-stock perpetual market on Aster tracking Qualcomm, cash-settled.",
-    "logo": "https://icons.llamao.fi/icons/rwa/qcom.png?w=48&h=48",
-    "refLinks": [
-      "https://www.asterdex.com/en/referral/c6eF10"
-    ]
+    "description": "Single-stock perpetual market on Aster tracking Qualcomm, cash-settled."
   }
 }

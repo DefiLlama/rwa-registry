@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "AE-DXB",
-    "name": "Parcl Dubai Perp",
     "legacyId": 3096
   },
   "tracks": {
@@ -13,8 +12,7 @@
     "pair": "DXB-USD"
   },
   "about": {
-    "description": "DELISTED 2026-05-26 (browser-verified). Parcl AE-DXB (Dubai). Confirmed delisted. Direct URL https://app.parcl.co/markets/AE-DXB returns 404. International market removed from Parcl.",
-    "logo": "https://icons.llamao.fi/icons/rwa/dxb.png?w=48&h=48"
+    "description": "DELISTED 2026-05-26 (browser-verified). Parcl AE-DXB (Dubai). Confirmed delisted. Direct URL https://app.parcl.co/markets/AE-DXB returns 404. International market removed from Parcl."
   },
   "events": [
     {

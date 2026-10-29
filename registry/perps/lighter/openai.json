@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "OPENAI",
-    "name": "Lighter OpenAI Pre-IPO Perp",
     "legacyId": 3980
   },
   "tracks": {
@@ -16,10 +15,6 @@
     "oracleProvider": "Pyth"
   },
   "about": {
-    "description": "Pre-IPO valuation perpetual on Lighter tracking OpenAI, cash-settled.",
-    "logo": "https://icons.llamao.fi/icons/rwa/openai.png?w=48&h=48",
-    "refLinks": [
-      "https://app.lighter.xyz/trade/OPENAI?referral=FHT1N8AYKHP4"
-    ]
+    "description": "Pre-IPO valuation perpetual on Lighter tracking OpenAI, cash-settled."
   }
 }

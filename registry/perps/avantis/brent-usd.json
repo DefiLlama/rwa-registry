@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "BRENT-USD",
-    "name": "Avantis Brent Crude Oil Perp",
     "legacyId": 3058
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "BRENT-USD"
   },
   "about": {
-    "description": "Crude Oil (Brent) perpetual on Avantis, cash-settled in USDC on Base.",
-    "logo": "https://icons.llamao.fi/icons/rwa/brent.png?w=48&h=48",
-    "refLinks": [
-      "https://www.avantisfi.com/referral?code=DefiLlama"
-    ]
+    "description": "Crude Oil (Brent) perpetual on Avantis, cash-settled in USDC on Base."
   }
 }

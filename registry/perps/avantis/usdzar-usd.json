@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "USDZAR-USD",
-    "name": "Avantis USDZAR Perp",
     "legacyId": 3867
   },
   "tracks": {
@@ -17,10 +16,6 @@
   },
   "about": {
     "description": "USDZAR perpetual on Avantis (Base), USDC-margined. Verified live 2026-05-20.",
-    "logo": "https://icons.llamao.fi/icons/rwa/usdzar.png?w=48&h=48",
-    "refLinks": [
-      "https://www.avantisfi.com/referral?code=DefiLlama"
-    ],
     "website": "https://avantisfi.com/"
   }
 }

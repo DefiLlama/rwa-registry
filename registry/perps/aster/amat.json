@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "AMAT",
-    "name": "Aster Applied Materials Perp",
     "legacyId": 4389
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "AMAT-USDT"
   },
   "about": {
-    "description": "Single-stock perpetual market on Aster tracking Applied Materials, cash-settled.",
-    "logo": "https://icons.llamao.fi/icons/rwa/amat.png?w=48&h=48",
-    "refLinks": [
-      "https://www.asterdex.com/en/referral/c6eF10"
-    ]
+    "description": "Single-stock perpetual market on Aster tracking Applied Materials, cash-settled."
   }
 }

@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "SBP_USDT",
-    "name": "Gate Sino Biopharmaceutical Limited Perp",
     "legacyId": 7069
   },
   "tracks": {
@@ -13,8 +12,7 @@
     "pair": "SBP-USDT"
   },
   "about": {
-    "description": "SBP is a single-stock perpetual listed on Gate, tracking Sino Biopharmaceutical Limited, margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Up to 25× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification.",
-    "logo": "https://icons.llamao.fi/icons/rwa/sbp.png?w=48&h=48"
+    "description": "SBP is a single-stock perpetual listed on Gate, tracking Sino Biopharmaceutical Limited, margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Up to 25× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
   },
   "events": [
     {

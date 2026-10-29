@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "BP-USD",
-    "name": "Extended BP Perp",
     "legacyId": 3618
   },
   "tracks": {
@@ -15,11 +14,7 @@
     "takerFeeBps": 5
   },
   "about": {
-    "description": "Single-stock perpetual on Extended (formerly X10) tracking BP p.l.c. (BP), with pricing referencing Extended oracle (24/5 equity feed). Users gain linear exposure to BP p.l.c. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Starknet.",
-    "logo": "https://icons.llamao.fi/icons/rwa/bp.png?w=48&h=48",
-    "refLinks": [
-      "https://app.extended.exchange/join/DEFILLAMAO"
-    ]
+    "description": "Single-stock perpetual on Extended (formerly X10) tracking BP p.l.c. (BP), with pricing referencing Extended oracle (24/5 equity feed). Users gain linear exposure to BP p.l.c. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Starknet."
   },
   "events": [
     {

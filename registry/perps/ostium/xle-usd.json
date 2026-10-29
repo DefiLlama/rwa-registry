@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "XLE-USD",
-    "name": "Ostium XLE ETF Perp",
     "legacyId": 3547
   },
   "tracks": {
@@ -15,10 +14,6 @@
     "takerFeeBps": 5
   },
   "about": {
-    "description": "ETF perpetual on Ostium Labs tracking Energy Select Sector SPDR Fund (XLE), with pricing referencing Stork / QUODD. Users gain linear price exposure to the ETF without owning ETF shares, dividends, or creation-redemption rights. Positions are margined and cash-settled in USDC on Arbitrum.",
-    "logo": "https://icons.llamao.fi/icons/rwa/xle.png?w=48&h=48",
-    "refLinks": [
-      "https://app.ostium.com/trade?from=XLE&to=USD&ref=6X17X"
-    ]
+    "description": "ETF perpetual on Ostium Labs tracking Energy Select Sector SPDR Fund (XLE), with pricing referencing Stork / QUODD. Users gain linear price exposure to the ETF without owning ETF shares, dividends, or creation-redemption rights. Positions are margined and cash-settled in USDC on Arbitrum."
   }
 }

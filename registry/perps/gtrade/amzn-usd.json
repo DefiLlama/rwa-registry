@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "AMZN-USD",
-    "name": "gTrade Amazon Perp",
     "legacyId": 3718
   },
   "tracks": {
@@ -13,8 +12,7 @@
     "pair": "AMZN-USDC"
   },
   "about": {
-    "description": "DELISTED. GTrade reorganized its perp listings. The canonical gtrade:AMZN-USD is no longer the active market on gTrade (per may26 adapter, $0 OI / $0 24h vol). The active gTrade AMZN perp is at gtrade:AMZN_1-USD (separate RID). Marked Delisted=True on 2026-05-26.",
-    "logo": "https://icons.llamao.fi/icons/rwa/amzn.png?w=48&h=48"
+    "description": "DELISTED. GTrade reorganized its perp listings. The canonical gtrade:AMZN-USD is no longer the active market on gTrade (per may26 adapter, $0 OI / $0 24h vol). The active gTrade AMZN perp is at gtrade:AMZN_1-USD (separate RID). Marked Delisted=True on 2026-05-26."
   },
   "events": [
     {

@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "SOXL_USDC",
-    "name": "MEXC Direxion Daily Semiconductor Bull 3X ETF Perp (USDC)",
     "legacyId": 5462
   },
   "tracks": {
@@ -14,7 +13,6 @@
     "pair": "SOXL-USDC"
   },
   "about": {
-    "description": "SOXL is an exchange traded fund perpetual listed on MEXC and tracking Direxion Daily Semiconductor Bull 3X ETF. The contract is cash settled in USDC and does not convey ownership or redemption rights in the underlying. Funding is exchanged every 8h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification.",
-    "logo": "https://icons.llamao.fi/icons/rwa/soxl.png?w=48&h=48"
+    "description": "SOXL is an exchange traded fund perpetual listed on MEXC and tracking Direxion Daily Semiconductor Bull 3X ETF. The contract is cash settled in USDC and does not convey ownership or redemption rights in the underlying. Funding is exchanged every 8h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
   }
 }

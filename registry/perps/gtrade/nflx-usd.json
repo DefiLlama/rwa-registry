@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "NFLX-USD",
-    "name": "gTrade Netflix Perp",
     "legacyId": 3720
   },
   "tracks": {
@@ -13,8 +12,7 @@
     "pair": "NFLX-USDC"
   },
   "about": {
-    "description": "DELISTED. GTrade reorganized its perp listings. The canonical gtrade:NFLX-USD is no longer the active market on gTrade (per may26 adapter, $0 OI / $0 24h vol). The active gTrade NFLX perp is at gtrade:NFLX_1-USD (separate RID). Marked Delisted=True on 2026-05-26.",
-    "logo": "https://icons.llamao.fi/icons/rwa/nflx.png?w=48&h=48"
+    "description": "DELISTED. GTrade reorganized its perp listings. The canonical gtrade:NFLX-USD is no longer the active market on gTrade (per may26 adapter, $0 OI / $0 24h vol). The active gTrade NFLX perp is at gtrade:NFLX_1-USD (separate RID). Marked Delisted=True on 2026-05-26."
   },
   "events": [
     {

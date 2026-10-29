@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "AMD",
-    "name": "Flash Trade AMD Perp",
     "legacyId": 3124
   },
   "tracks": {
@@ -15,11 +14,7 @@
     "takerFeeBps": 5
   },
   "about": {
-    "description": "Advanced Micro Devices perpetual on Flash Trade, cash-settled in USDC on Solana. Delisted 2026-09-08: Flash Trade entered an orderly wind-down (deadline 2026-09-02). Protocol-wide OI $36k; all RWA markets at zero long and short; dailyVolumeInUsd 0.",
-    "logo": "https://icons.llamao.fi/icons/rwa/amd.png?w=48&h=48",
-    "refLinks": [
-      "https://www.flash.trade/?referral=defillama"
-    ]
+    "description": "Advanced Micro Devices perpetual on Flash Trade, cash-settled in USDC on Solana. Delisted 2026-09-08: Flash Trade entered an orderly wind-down (deadline 2026-09-02). Protocol-wide OI $36k; all RWA markets at zero long and short; dailyVolumeInUsd 0."
   },
   "events": [
     {

@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "UNITREE_USDT",
-    "name": "Gate Hangzhou Yushu Technology Co., Ltd. Perp",
     "legacyId": 7782
   },
   "tracks": {
@@ -13,8 +12,7 @@
     "pair": "UNITREE-USDT"
   },
   "about": {
-    "description": "UNITREE is a private-company perpetual listed on Gate, tracking Hangzhou Yushu Technology Co., Ltd., margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Up to 10× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification.",
-    "logo": "https://icons.llamao.fi/icons/rwa/unitree.png?w=48&h=48"
+    "description": "UNITREE is a private-company perpetual listed on Gate, tracking Hangzhou Yushu Technology Co., Ltd., margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Up to 10× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
   },
   "events": [
     {

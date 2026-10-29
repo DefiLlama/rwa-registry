@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "URA-USD",
-    "name": "Ostium URA ETF Perp",
     "legacyId": 3545
   },
   "tracks": {
@@ -15,10 +14,6 @@
     "takerFeeBps": 5
   },
   "about": {
-    "description": "Industrial-metals perpetual on Ostium Labs priced off the Global X Uranium ETF (URA), a uranium-mining-equity ETF, with pricing referencing Stork / QUODD. Positions are margined and cash-settled in USDC on Arbitrum. Users get sector exposure without holding ETF shares or constituent equities.",
-    "logo": "https://icons.llamao.fi/icons/rwa/ura.png?w=48&h=48",
-    "refLinks": [
-      "https://app.ostium.com/trade?from=URA&to=USD&ref=6X17X"
-    ]
+    "description": "Industrial-metals perpetual on Ostium Labs priced off the Global X Uranium ETF (URA), a uranium-mining-equity ETF, with pricing referencing Stork / QUODD. Positions are margined and cash-settled in USDC on Arbitrum. Users get sector exposure without holding ETF shares or constituent equities."
   }
 }

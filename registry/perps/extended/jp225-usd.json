@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "JP225-USD",
-    "name": "Extended Nikkei 225 Perp",
     "legacyId": 8646
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "JP225-USDC"
   },
   "about": {
-    "description": "Equity-index perpetual on Extended (formerly X10) tracking the Nikkei 225 Index, with pricing referencing Extended oracle. Users gain linear exposure to the index level without owning any constituent shares. Positions are margined and cash-settled in USDC on Starknet.",
-    "logo": "https://icons.llamao.fi/icons/rwa/nky.png?w=48&h=48",
-    "refLinks": [
-      "https://app.extended.exchange/join/DEFILLAMAO"
-    ]
+    "description": "Equity-index perpetual on Extended (formerly X10) tracking the Nikkei 225 Index, with pricing referencing Extended oracle. Users gain linear exposure to the index level without owning any constituent shares. Positions are margined and cash-settled in USDC on Starknet."
   }
 }

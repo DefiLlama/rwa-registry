@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "TENCENT",
-    "name": "Lighter Tencent Perp",
     "legacyId": 4584
   },
   "tracks": {
@@ -16,7 +15,6 @@
     "oracleProvider": "Lighter fair price oracle"
   },
   "about": {
-    "description": "Single-stock perpetual on Lighter tracking Tencent. Users get linear exposure to the underlying without owning shares. Cash-settled in USDC.",
-    "logo": "https://icons.llamao.fi/icons/rwa/tencent.png?w=48&h=48"
+    "description": "Single-stock perpetual on Lighter tracking Tencent. Users get linear exposure to the underlying without owning shares. Cash-settled in USDC."
   }
 }

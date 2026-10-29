@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "USDJPY-USD",
-    "name": "Extended JPY Perp",
     "legacyId": 3687
   },
   "tracks": {
@@ -18,11 +17,7 @@
     "oracleProvider": "Extended oracle (FX feed)"
   },
   "about": {
-    "description": "FX perpetual on Extended (formerly X10) tracking Japanese Yen (JPY) versus the US dollar, with pricing referencing Extended oracle (FX feed). Positions are margined and cash-settled in USDC on Starknet, giving users synthetic exposure to Japanese Yen/USD price movement without holding either currency as cash.",
-    "logo": "https://icons.llamao.fi/icons/rwa/jpy.png?w=48&h=48",
-    "refLinks": [
-      "https://app.extended.exchange/join/DEFILLAMAO"
-    ]
+    "description": "FX perpetual on Extended (formerly X10) tracking Japanese Yen (JPY) versus the US dollar, with pricing referencing Extended oracle (FX feed). Positions are margined and cash-settled in USDC on Starknet, giving users synthetic exposure to Japanese Yen/USD price movement without holding either currency as cash."
   },
   "events": [
     {

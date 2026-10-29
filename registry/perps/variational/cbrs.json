@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "CBRS",
-    "name": "Variational Omni Cerebras Perp",
     "legacyId": 4411
   },
   "tracks": {
@@ -13,7 +12,6 @@
     "pair": "CBRS-USDC"
   },
   "about": {
-    "description": "Single-stock perpetual market on Variational Omni tracking Cerebras Systems Inc. (NASDAQ: CBRS), publicly listed since May 2026, cash-settled.",
-    "logo": "https://icons.llamao.fi/icons/rwa/cbrs.png?w=48&h=48"
+    "description": "Single-stock perpetual market on Variational Omni tracking Cerebras Systems Inc. (NASDAQ: CBRS), publicly listed since May 2026, cash-settled."
   }
 }

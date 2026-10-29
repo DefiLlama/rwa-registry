@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "NVDA_24_5-USD",
-    "name": "Extended NVIDIA Perp",
     "legacyId": 3140
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "NVDA-USD"
   },
   "about": {
-    "description": "NVIDIA perpetual on Extended on Starknet, cash-settled in USDC.",
-    "logo": "https://icons.llamao.fi/icons/rwa/nvda.png?w=48&h=48",
-    "refLinks": [
-      "https://app.extended.exchange/join/DEFILLAMAO"
-    ]
+    "description": "NVIDIA perpetual on Extended on Starknet, cash-settled in USDC."
   }
 }

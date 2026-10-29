@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "ORCL",
-    "name": "Variational Omni Oracle Corporation Perp",
     "legacyId": 4598
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "ORCL-USDC"
   },
   "about": {
-    "description": "ORCL is a single-stock perpetual on Variational tracking Oracle Corporation. Oracle Corporation is a US enterprise software and cloud infrastructure company (NYSE: ORCL). The market is cash-settled with hourly funding, no shareholder rights, and no dividend rights in the underlying.",
-    "logo": "https://icons.llamao.fi/icons/rwa/orcl.png?w=48&h=48",
-    "refLinks": [
-      "0"
-    ]
+    "description": "ORCL is a single-stock perpetual on Variational tracking Oracle Corporation. Oracle Corporation is a US enterprise software and cloud infrastructure company (NYSE: ORCL). The market is cash-settled with hourly funding, no shareholder rights, and no dividend rights in the underlying."
   }
 }

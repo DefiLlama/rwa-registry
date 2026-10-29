@@ -12,11 +12,7 @@
     "pair": "PALLADIUM-USDH"
   },
   "about": {
-    "description": "Palladium perpetual market. The contract tracks Palladium price using the venue's reference methodology. Users get linear commodity-price exposure only, without title to physical inventory or delivery rights, cash-settled in USDH on Felix.",
-    "logo": "https://icons.llamao.fi/icons/rwa/xpd.png?w=48&h=48",
-    "refLinks": [
-      "https://www.usefelix.xyz?ref=4BF702FF"
-    ]
+    "description": "Palladium perpetual market. The contract tracks Palladium price using the venue's reference methodology. Users get linear commodity-price exposure only, without title to physical inventory or delivery rights, cash-settled in USDH on Felix."
   },
   "events": [
     {

@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "USO-USD",
-    "name": "Arcus United States Oil Fund Perp",
     "legacyId": 4528
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "USO-USDG"
   },
   "about": {
-    "description": "Arcus perpetual market tracking United States Oil Fund, LP (NYSE Arca: USO) with 24/7 exposure to the underlying crude oil futures ETF. Total-return tracking (dividends, splits, and futures rolls passed through funding), cash-settled in USDG on the Arcus off-chain CLOB with permissioned appchain re-verification and EVM rootchain custody.",
-    "logo": "https://icons.llamao.fi/icons/rwa/uso.png?w=48&h=48",
-    "refLinks": [
-      "https://app.arcus.xyz/ref/DEFILLAMA"
-    ]
+    "description": "Arcus perpetual market tracking United States Oil Fund, LP (NYSE Arca: USO) with 24/7 exposure to the underlying crude oil futures ETF. Total-return tracking (dividends, splits, and futures rolls passed through funding), cash-settled in USDG on the Arcus off-chain CLOB with permissioned appchain re-verification and EVM rootchain custody."
   }
 }

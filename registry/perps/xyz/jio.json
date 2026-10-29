@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "JIO",
-    "name": "trade[XYZ] Jio Platforms Perp",
     "legacyId": 9719
   },
   "tracks": {
@@ -13,9 +12,6 @@
     "pair": "JIO-USDC"
   },
   "about": {
-    "description": "Pre-IPO perpetual on trade[XYZ], the HIP-3 builder-deployed dex 'xyz' on Hyperliquid, cash-settled in USDC. Listed 2026-10-22. 5x max leverage, isolated margin only (marginMode noCross), szDecimals 1. Per the venue's pre-IPO specification index it references 1 equity share of Jio Platforms Limited (digital connectivity and digital services in India, the Reliance Industries digital arm), quoted in USD, initial price $13, discovery bound +/-50%, discovery-bound oracle threshold 75%. ANTICIPATED LISTING 2026-10-28, grace period to 2026-12-27: on IPO this converts to a standard XYZ perpetual and the oracle starts converting the INR share price to USD at the prevailing USD/INR rate — revisit Asset Group / Asset Class then, since the reference stops being private. No other tracked venue lists a Jio perp, so there is no cross-venue price check on this mark. Distinct from xyz:RELIANCE, the listed parent.",
-    "refLinks": [
-      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
-    ]
+    "description": "Pre-IPO perpetual on trade[XYZ], the HIP-3 builder-deployed dex 'xyz' on Hyperliquid, cash-settled in USDC. Listed 2026-10-22. 5x max leverage, isolated margin only (marginMode noCross), szDecimals 1. Per the venue's pre-IPO specification index it references 1 equity share of Jio Platforms Limited (digital connectivity and digital services in India, the Reliance Industries digital arm), quoted in USD, initial price $13, discovery bound +/-50%, discovery-bound oracle threshold 75%. ANTICIPATED LISTING 2026-10-28, grace period to 2026-12-27: on IPO this converts to a standard XYZ perpetual and the oracle starts converting the INR share price to USD at the prevailing USD/INR rate — revisit Asset Group / Asset Class then, since the reference stops being private. No other tracked venue lists a Jio perp, so there is no cross-venue price check on this mark. Distinct from xyz:RELIANCE, the listed parent."
   }
 }

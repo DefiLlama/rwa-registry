@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "SMCI",
-    "name": "Paragon Super Micro Computer Perp",
     "legacyId": 8798
   },
   "tracks": {
@@ -13,9 +12,6 @@
     "pair": "SMCI-USDC"
   },
   "about": {
-    "description": "Single-stock perpetual market tracking Super Micro Computer, Inc. (SMCI) on Paragon. Users get linear exposure to SMCI share-price moves without owning SMCI shares, shareholder rights, or dividend claims. HIP-3 builder-deployed market on Hyperliquid in the para namespace, cash-settled in USDC. Equity marks are sourced from Pyth equity feeds during covered sessions and bounded internally off-hours.",
-    "refLinks": [
-      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
-    ]
+    "description": "Single-stock perpetual market tracking Super Micro Computer, Inc. (SMCI) on Paragon. Users get linear exposure to SMCI share-price moves without owning SMCI shares, shareholder rights, or dividend claims. HIP-3 builder-deployed market on Hyperliquid in the para namespace, cash-settled in USDC. Equity marks are sourced from Pyth equity feeds during covered sessions and bounded internally off-hours."
   }
 }

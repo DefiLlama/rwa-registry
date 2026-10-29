@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "AAOI",
-    "name": "Aster Applied Optoelectronics Perp",
     "legacyId": 4396
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "AAOI-USDT"
   },
   "about": {
-    "description": "Single-stock perpetual market on Aster tracking Applied Optoelectronics, cash-settled.",
-    "logo": "https://icons.llamao.fi/icons/rwa/aaoi.png?w=48&h=48",
-    "refLinks": [
-      "https://www.asterdex.com/en/referral/c6eF10"
-    ]
+    "description": "Single-stock perpetual market on Aster tracking Applied Optoelectronics, cash-settled."
   }
 }

@@ -12,10 +12,6 @@
     "pair": "NATGAS-USDC"
   },
   "about": {
-    "description": "Natural gas perpetual market. The contract tracks Henry Hub natural-gas pricing, the main U.S. benchmark for gas markets. Users get linear commodity price exposure only, without owning physical gas, storage claims, or a deliverable futures position. Pricing uses a futures-based external reference via Lighter's fair price oracle. Positions are margined and cash-settled in USDC.",
-    "logo": "https://icons.llamao.fi/icons/rwa/natgas.png?w=48&h=48",
-    "refLinks": [
-      "https://app.lighter.xyz/trade/NATGAS?referral=FHT1N8AYKHP4"
-    ]
+    "description": "Natural gas perpetual market. The contract tracks Henry Hub natural-gas pricing, the main U.S. benchmark for gas markets. Users get linear commodity price exposure only, without owning physical gas, storage claims, or a deliverable futures position. Pricing uses a futures-based external reference via Lighter's fair price oracle. Positions are margined and cash-settled in USDC."
   }
 }

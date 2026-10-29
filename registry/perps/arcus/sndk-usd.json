@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "SNDK-USD",
-    "name": "Arcus SanDisk Perp",
     "legacyId": 4539
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "SNDK-USDG"
   },
   "about": {
-    "description": "Arcus perpetual market tracking Sandisk Corporation (NASDAQ: SNDK) with 24/7 exposure to the underlying NAND flash memory stock. Total-return tracking (dividends, splits, and futures rolls passed through funding), cash-settled in USDG on the Arcus off-chain CLOB with permissioned appchain re-verification and EVM rootchain custody.",
-    "logo": "https://icons.llamao.fi/icons/rwa/sndk.png?w=48&h=48",
-    "refLinks": [
-      "https://app.arcus.xyz/ref/DEFILLAMA"
-    ]
+    "description": "Arcus perpetual market tracking Sandisk Corporation (NASDAQ: SNDK) with 24/7 exposure to the underlying NAND flash memory stock. Total-return tracking (dividends, splits, and futures rolls passed through funding), cash-settled in USDG on the Arcus off-chain CLOB with permissioned appchain re-verification and EVM rootchain custody."
   }
 }

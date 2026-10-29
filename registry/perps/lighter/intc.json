@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "INTC",
-    "name": "Lighter Intel Perp",
     "legacyId": 3355
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "INTC-USDC"
   },
   "about": {
-    "description": "Single-stock perpetual market tracking Intel Corporation. Users get linear exposure to Intel share-price moves without owning Intel shares, shareholder rights, or dividend claims, with pricing referencing an external 24/5 equity feed via Lighter's fair price oracle. Positions are margined and cash-settled in USDC.",
-    "logo": "https://icons.llamao.fi/icons/rwa/intc.png?w=48&h=48",
-    "refLinks": [
-      "https://app.lighter.xyz/trade/INTC?referral=FHT1N8AYKHP4"
-    ]
+    "description": "Single-stock perpetual market tracking Intel Corporation. Users get linear exposure to Intel share-price moves without owning Intel shares, shareholder rights, or dividend claims, with pricing referencing an external 24/5 equity feed via Lighter's fair price oracle. Positions are margined and cash-settled in USDC."
   }
 }

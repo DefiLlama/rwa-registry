@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "DRAM",
-    "name": "Paradex Global X Memory & Storage Technology ETF Perp",
     "legacyId": 4738
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "DRAM-USD-PERP"
   },
   "about": {
-    "description": "DRAM is an ETF-tracking perpetual on Paradex referencing Global X Memory & Storage Technology ETF. Paradex is a permissionless perp and options DEX operating on its own Starknet-based appchain (Paradex Chain / DimeVM), with zero-fee trading, unified cross-margin in USDC, and ZK-encrypted account privacy. The market is cash-settled in USDC.",
-    "logo": "https://icons.llamao.fi/icons/rwa/dram.png?w=48&h=48",
-    "refLinks": [
-      "0"
-    ]
+    "description": "DRAM is an ETF-tracking perpetual on Paradex referencing Global X Memory & Storage Technology ETF. Paradex is a permissionless perp and options DEX operating on its own Starknet-based appchain (Paradex Chain / DimeVM), with zero-fee trading, unified cross-margin in USDC, and ZK-encrypted account privacy. The market is cash-settled in USDC."
   }
 }

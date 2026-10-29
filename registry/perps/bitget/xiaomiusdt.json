@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "XIAOMIUSDT",
-    "name": "Bitget Xiaomi Corporation Perp (XIAOMI)",
     "legacyId": 7438
   },
   "tracks": {
@@ -13,8 +12,7 @@
     "pair": "XIAOMI-USDT"
   },
   "about": {
-    "description": "XIAOMI is a single-stock perpetual listed on Bitget, tracking Xiaomi Corporation, margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Up to 5× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification.",
-    "logo": "https://icons.llamao.fi/icons/rwa/xiaomi.png?w=48&h=48"
+    "description": "XIAOMI is a single-stock perpetual listed on Bitget, tracking Xiaomi Corporation, margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Up to 5× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
   },
   "events": [
     {

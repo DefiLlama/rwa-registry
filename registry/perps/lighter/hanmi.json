@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "HANMI",
-    "name": "Lighter Hanmi Pharm Perp",
     "legacyId": 3535
   },
   "tracks": {
@@ -16,11 +15,7 @@
     "oracleProvider": "Lighter fair price oracle"
   },
   "about": {
-    "description": "Single-stock perpetual on Lighter Labs tracking Hanmi Pharm Co., Ltd. (128940.KS), with pricing referencing Lighter fair price oracle (24/5 equity feed). Users gain linear exposure to Hanmi Pharm Co., Ltd. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Lighter ZK-rollup (Ethereum).",
-    "logo": "https://icons.llamao.fi/icons/rwa/hanmi.png?w=48&h=48",
-    "refLinks": [
-      "https://app.lighter.xyz/trade/ETH?referral=FHT1N8AYKHP4"
-    ]
+    "description": "Single-stock perpetual on Lighter Labs tracking Hanmi Pharm Co., Ltd. (128940.KS), with pricing referencing Lighter fair price oracle (24/5 equity feed). Users gain linear exposure to Hanmi Pharm Co., Ltd. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Lighter ZK-rollup (Ethereum)."
   },
   "events": [
     {

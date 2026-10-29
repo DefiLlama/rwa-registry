@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "XAG",
-    "name": "Variational Omni Silver Perp",
     "legacyId": 3808
   },
   "tracks": {
@@ -13,7 +12,6 @@
     "pair": "XAG-USDC"
   },
   "about": {
-    "description": "Silver (XAG) perpetual on Variational Omni (Arbitrum), USDC-margined RFQ perpetual quoted by the single Omni Liquidity Provider (OLP), which aggregates pricing from CEXs/DEXs/AMMs/OTC venues. Tracks the spot price of one troy ounce of silver, with up to 50x leverage, with zero trading fees, with OLP capturing spread, cash-settled in USDC on Arbitrum, permissionless access, self-custody margin. Positions sit in an isolated onchain escrow with pre-defined margin and liquidation rules.",
-    "logo": "https://icons.llamao.fi/icons/rwa/xag.png?w=48&h=48"
+    "description": "Silver (XAG) perpetual on Variational Omni (Arbitrum), USDC-margined RFQ perpetual quoted by the single Omni Liquidity Provider (OLP), which aggregates pricing from CEXs/DEXs/AMMs/OTC venues. Tracks the spot price of one troy ounce of silver, with up to 50x leverage, with zero trading fees, with OLP capturing spread, cash-settled in USDC on Arbitrum, permissionless access, self-custody margin. Positions sit in an isolated onchain escrow with pre-defined margin and liquidation rules."
   }
 }

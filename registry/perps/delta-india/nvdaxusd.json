@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "NVDAXUSD",
-    "name": "Delta Exchange India NVIDIA Corp. Perp",
     "legacyId": 7489
   },
   "tracks": {
@@ -14,7 +13,6 @@
     "takerFeeBps": null
   },
   "about": {
-    "description": "NVDAX is a single-stock perpetual listed on Delta Exchange India, tracking NVIDIA Corp., margined and cash-settled in USD. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Up to 25× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification.",
-    "logo": "https://icons.llamao.fi/icons/rwa/nvdax.png?w=48&h=48"
+    "description": "NVDAX is a single-stock perpetual listed on Delta Exchange India, tracking NVIDIA Corp., margined and cash-settled in USD. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Up to 25× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
   }
 }

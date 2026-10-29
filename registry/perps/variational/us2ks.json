@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "us2ks",
-    "name": "Variational US2K Swap",
     "legacyId": 9587
   },
   "tracks": {
@@ -13,7 +12,6 @@
     "pair": "US2KS-USDC"
   },
   "about": {
-    "description": "Cash-settled swap on Russell 2000 Index, quoted against USDC. No funding; cost of carry is in the spread.",
-    "logo": "https://icons.llamao.fi/icons/rwa/us2000.png?w=48&h=48"
+    "description": "Cash-settled swap on Russell 2000 Index, quoted against USDC. No funding; cost of carry is in the spread."
   }
 }

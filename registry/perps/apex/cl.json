@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "CL",
-    "name": "ApeX Omni WTI Crude Oil Perp",
     "legacyId": 3842
   },
   "tracks": {
@@ -13,11 +12,7 @@
     "pair": "CL-USDC"
   },
   "about": {
-    "description": "WTI Crude Oil (CL) perpetual on ApeX Omni, USDC-margined. Tracks NYMEX WTI Crude front-month.",
-    "logo": "https://icons.llamao.fi/icons/rwa/cl.png?w=48&h=48",
-    "refLinks": [
-      "https://omni.apex.exchange/referral?referralCode=T0S8V482"
-    ]
+    "description": "WTI Crude Oil (CL) perpetual on ApeX Omni, USDC-margined. Tracks NYMEX WTI Crude front-month."
   },
   "events": [
     {

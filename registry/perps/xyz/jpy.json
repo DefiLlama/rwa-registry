@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "JPY",
-    "name": "trade[XYZ] JPY Perp",
     "legacyId": 3626
   },
   "tracks": {
@@ -16,10 +15,6 @@
     "oracleProvider": "Pyth / external FX reference methodology"
   },
   "about": {
-    "description": "FX perpetual on trade[XYZ] (Hyperunit) tracking Japanese Yen (JPY) versus the US dollar, with pricing referencing Pyth / external FX reference methodology. Positions are margined and cash-settled in USDC on Hyperliquid (xyz namespace), giving users synthetic exposure to Japanese Yen/USD price movement without holding either currency as cash.",
-    "logo": "https://icons.llamao.fi/icons/rwa/jpy.png?w=48&h=48",
-    "refLinks": [
-      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
-    ]
+    "description": "FX perpetual on trade[XYZ] (Hyperunit) tracking Japanese Yen (JPY) versus the US dollar, with pricing referencing Pyth / external FX reference methodology. Positions are margined and cash-settled in USDC on Hyperliquid (xyz namespace), giving users synthetic exposure to Japanese Yen/USD price movement without holding either currency as cash."
   }
 }

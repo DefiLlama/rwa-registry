@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "ONDS",
-    "name": "Aster Ondas Perp",
     "legacyId": 4395
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "ONDS-USDT"
   },
   "about": {
-    "description": "Single-stock perpetual market on Aster tracking Ondas, cash-settled.",
-    "logo": "https://icons.llamao.fi/icons/rwa/onds.png?w=48&h=48",
-    "refLinks": [
-      "https://www.asterdex.com/en/referral/c6eF10"
-    ]
+    "description": "Single-stock perpetual market on Aster tracking Ondas, cash-settled."
   }
 }

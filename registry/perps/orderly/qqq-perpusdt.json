@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "QQQ-PERPUSDT",
-    "name": "ADEN Invesco QQQ Trust Perp",
     "legacyId": 8573
   },
   "tracks": {
@@ -14,8 +13,7 @@
     "pair": "QQQ-PERPUSDT"
   },
   "about": {
-    "description": "QQQ is a cash settled perpetual market on ADEN referencing Invesco QQQ Trust, Series 1. The market is quoted and settled in USDT and marked against ADEN's index price rather than a single spot venue. It conveys no ownership of the underlying and no claim on any issuer. ADEN publishes the market under the identifier QQQ-PERPUSDT, so the quote asset forms part of the venue's own market name. Delisted 2026-09-08: ADEN is a Gate Layer front-end onto Gate’s futures book (brokerapi.gateperps.com returns identical position_size/trade_size to api.gateio.ws), so this duplicates the gate: coverage.",
-    "logo": "https://icons.llamao.fi/icons/rwa/qqq.png?w=48&h=48"
+    "description": "QQQ is a cash settled perpetual market on ADEN referencing Invesco QQQ Trust, Series 1. The market is quoted and settled in USDT and marked against ADEN's index price rather than a single spot venue. It conveys no ownership of the underlying and no claim on any issuer. ADEN publishes the market under the identifier QQQ-PERPUSDT, so the quote asset forms part of the venue's own market name. Delisted 2026-09-08: ADEN is a Gate Layer front-end onto Gate’s futures book (brokerapi.gateperps.com returns identical position_size/trade_size to api.gateio.ws), so this duplicates the gate: coverage."
   },
   "events": [
     {

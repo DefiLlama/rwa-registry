@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "XLE",
-    "name": "trade[XYZ] XLE ETF Perp",
     "legacyId": 3266
   },
   "tracks": {
@@ -16,10 +15,6 @@
     "oracleProvider": "Pyth equity feed"
   },
   "about": {
-    "description": "ETF perpetual market tracking Energy Select Sector SPDR Fund. Users get synthetic exposure to a listed fund rather than ownership of ETF shares or redemption rights in the fund, cash-settled in USDC on trade[XYZ].",
-    "logo": "https://icons.llamao.fi/icons/rwa/xle.png?w=48&h=48",
-    "refLinks": [
-      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
-    ]
+    "description": "ETF perpetual market tracking Energy Select Sector SPDR Fund. Users get synthetic exposure to a listed fund rather than ownership of ETF shares or redemption rights in the fund, cash-settled in USDC on trade[XYZ]."
   }
 }

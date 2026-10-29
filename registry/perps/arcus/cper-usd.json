@@ -12,10 +12,6 @@
     "pair": "CPER-USDG"
   },
   "about": {
-    "description": "Arcus perpetual market tracking United States Copper Index Fund with 24/7 exposure to the underlying copper futures index fund. Total-return tracking (dividends, splits, and futures rolls passed through funding), cash-settled in USDG on the Arcus off-chain CLOB with permissioned appchain re-verification and EVM rootchain custody.",
-    "logo": "https://icons.llamao.fi/icons/rwa/cper.png?w=48&h=48",
-    "refLinks": [
-      "https://app.arcus.xyz/ref/DEFILLAMA"
-    ]
+    "description": "Arcus perpetual market tracking United States Copper Index Fund with 24/7 exposure to the underlying copper futures index fund. Total-return tracking (dividends, splits, and futures rolls passed through funding), cash-settled in USDG on the Arcus off-chain CLOB with permissioned appchain re-verification and EVM rootchain custody."
   }
 }

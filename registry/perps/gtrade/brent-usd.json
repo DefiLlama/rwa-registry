@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "BRENT-USD",
-    "name": "gTrade BRENT Perp",
     "legacyId": 3606
   },
   "tracks": {
@@ -13,7 +12,6 @@
     "pair": "BRENT-USDC"
   },
   "about": {
-    "description": "Brent crude oil perpetual on Gains Network. The contract tracks Crude Oil (Brent) via Chainlink DON. Users gain linear oil-price exposure without owning physical crude or a deliverable futures position. Positions are margined and cash-settled in USDC / DAI / WETH on Arbitrum / Polygon / Base.",
-    "logo": "https://icons.llamao.fi/icons/rwa/brent.png?w=48&h=48"
+    "description": "Brent crude oil perpetual on Gains Network. The contract tracks Crude Oil (Brent) via Chainlink DON. Users gain linear oil-price exposure without owning physical crude or a deliverable futures position. Positions are margined and cash-settled in USDC / DAI / WETH on Arbitrum / Polygon / Base."
   }
 }

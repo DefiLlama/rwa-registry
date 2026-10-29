@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "SHAZ-USD",
-    "name": "gTrade SHAZ Perp",
     "legacyId": 4576
   },
   "tracks": {
@@ -13,8 +12,7 @@
     "pair": "SHAZ-USDC"
   },
   "about": {
-    "description": "Single-stock perpetual on Gains Network tracking SharonAI Holdings Inc. Users get linear exposure to the underlying without owning shares. Cash-settled in USDC.",
-    "logo": "https://icons.llamao.fi/icons/rwa/shaz.png?w=48&h=48"
+    "description": "Single-stock perpetual on Gains Network tracking SharonAI Holdings Inc. Users get linear exposure to the underlying without owning shares. Cash-settled in USDC."
   },
   "events": [
     {

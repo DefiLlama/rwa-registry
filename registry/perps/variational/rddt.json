@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "RDDT",
-    "name": "Variational Reddit Perp",
     "legacyId": 9133
   },
   "tracks": {
@@ -13,7 +12,6 @@
     "pair": "RDDT-USDC"
   },
   "about": {
-    "description": "Single-stock perpetual on Variational Omni tracking Reddit, Inc. (RDDT), priced off Variational Omni's OLP-aggregated mid-quotes. Users gain linear exposure to Reddit, Inc. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Arbitrum.",
-    "logo": "https://icons.llamao.fi/icons/rwa/rddt.png?w=48&h=48"
+    "description": "Single-stock perpetual on Variational Omni tracking Reddit, Inc. (RDDT), priced off Variational Omni's OLP-aggregated mid-quotes. Users gain linear exposure to Reddit, Inc. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Arbitrum."
   }
 }

@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "BIRD",
-    "name": "Aster Allbirds Perp",
     "legacyId": 3699
   },
   "tracks": {
@@ -15,11 +14,7 @@
     "takerFeeBps": null
   },
   "about": {
-    "description": "Single-stock perpetual on Aster (YZi Labs-backed) tracking Allbirds Inc. (BIRD), with pricing referencing Aster custom oracle (24/5 equity feed). Users gain linear exposure to share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USD1 on BNB Chain / Aster Chain.",
-    "logo": "https://icons.llamao.fi/icons/rwa/bird.png?w=48&h=48",
-    "refLinks": [
-      "https://www.asterdex.com/en/referral/c6eF10"
-    ]
+    "description": "Single-stock perpetual on Aster (YZi Labs-backed) tracking Allbirds Inc. (BIRD), with pricing referencing Aster custom oracle (24/5 equity feed). Users gain linear exposure to share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USD1 on BNB Chain / Aster Chain."
   },
   "events": [
     {

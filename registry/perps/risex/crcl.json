@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "CRCL",
-    "name": "RISEx Circle Internet Group Perp",
     "legacyId": 9238
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "CRCL-USDC"
   },
   "about": {
-    "description": "Single-stock perpetual on RISEx tracking Circle Internet Group, Inc. (NYSE: CRCL), cash-settled and margined in USDC, up to 10x leverage. RISEx is a fully onchain orderbook perp DEX on RISE Chain, where the orderbook shares state with DeFi protocols in the same block. Index price from Stork (median CEX spot); mark price is the median of an index-anchored premium, the raw book signal and a Stork anchor. Trades 24/7 including nights, weekends and holidays when the underlying market is closed, so liquidity thins during off-hours.",
-    "logo": "https://icons.llamao.fi/icons/rwa/crcl.png?w=48&h=48",
-    "refLinks": [
-      "https://www.rise.trade/en/trade/CRCL"
-    ]
+    "description": "Single-stock perpetual on RISEx tracking Circle Internet Group, Inc. (NYSE: CRCL), cash-settled and margined in USDC, up to 10x leverage. RISEx is a fully onchain orderbook perp DEX on RISE Chain, where the orderbook shares state with DeFi protocols in the same block. Index price from Stork (median CEX spot); mark price is the median of an index-anchored premium, the raw book signal and a Stork anchor. Trades 24/7 including nights, weekends and holidays when the underlying market is closed, so liquidity thins during off-hours."
   }
 }

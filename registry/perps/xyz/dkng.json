@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "DKNG",
-    "name": "trade[XYZ] DraftKings Perp",
     "legacyId": 3263
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "DKNG-USDC"
   },
   "about": {
-    "description": "Single-stock perpetual market tracking DraftKings. Users get linear exposure to DraftKings share-price moves without owning DraftKings shares, shareholder rights, or dividend claims, cash-settled in USDC on trade[XYZ].",
-    "logo": "https://icons.llamao.fi/icons/rwa/dkng.png?w=48&h=48",
-    "refLinks": [
-      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
-    ]
+    "description": "Single-stock perpetual market tracking DraftKings. Users get linear exposure to DraftKings share-price moves without owning DraftKings shares, shareholder rights, or dividend claims, cash-settled in USDC on trade[XYZ]."
   }
 }

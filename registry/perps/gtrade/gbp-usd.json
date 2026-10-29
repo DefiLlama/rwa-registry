@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "GBP-USD",
-    "name": "gTrade GBP Perp",
     "legacyId": 3650
   },
   "tracks": {
@@ -16,8 +15,7 @@
     "oracleProvider": "Chainlink DON FX feeds"
   },
   "about": {
-    "description": "FX perpetual on Gains Network tracking British Pound (GBP) versus the US dollar, with pricing referencing Chainlink DON FX feeds. Positions are margined and cash-settled in USDC / DAI / WETH on Arbitrum / Polygon / Base, giving users synthetic exposure to British Pound/USD price movement without holding either currency as cash.",
-    "logo": "https://icons.llamao.fi/icons/rwa/gbp.png?w=48&h=48"
+    "description": "FX perpetual on Gains Network tracking British Pound (GBP) versus the US dollar, with pricing referencing Chainlink DON FX feeds. Positions are margined and cash-settled in USDC / DAI / WETH on Arbitrum / Polygon / Base, giving users synthetic exposure to British Pound/USD price movement without holding either currency as cash."
   },
   "events": [
     {

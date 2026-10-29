@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "ASML",
-    "name": "trade[XYZ] ASML Perp",
     "legacyId": 3924
   },
   "tracks": {
@@ -16,10 +15,6 @@
     "oracleProvider": "Pyth equity feed"
   },
   "about": {
-    "description": "trade[XYZ] perpetual market tracking ASML Holding N.V. (Dutch semiconductor lithography equipment). Verified live on platform UI 2026-05-26 via browser.",
-    "logo": "https://icons.llamao.fi/icons/rwa/asml.png?w=48&h=48",
-    "refLinks": [
-      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
-    ]
+    "description": "trade[XYZ] perpetual market tracking ASML Holding N.V. (Dutch semiconductor lithography equipment). Verified live on platform UI 2026-05-26 via browser."
   }
 }

@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "BOT",
-    "name": "trade[XYZ] RoboStrategy Perp",
     "legacyId": 4481
   },
   "tracks": {
@@ -16,7 +15,6 @@
     "oracleProvider": "Pyth equity feed"
   },
   "about": {
-    "description": "Single-fund perpetual market on trade[XYZ] tracking RoboStrategy Inc. (Nasdaq BOT), the first publicly-traded closed-end fund focused on robotics and automation strategies. Users get linear exposure to BOT share-price moves without owning shares, voting rights, or dividend claims, cash-settled in USDC.",
-    "logo": "https://icons.llamao.fi/icons/rwa/bot.png?w=48&h=48"
+    "description": "Single-fund perpetual market on trade[XYZ] tracking RoboStrategy Inc. (Nasdaq BOT), the first publicly-traded closed-end fund focused on robotics and automation strategies. Users get linear exposure to BOT share-price moves without owning shares, voting rights, or dividend claims, cash-settled in USDC."
   }
 }

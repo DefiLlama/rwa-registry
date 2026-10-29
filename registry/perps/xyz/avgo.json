@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "AVGO",
-    "name": "trade[XYZ] Broadcom Perp",
     "legacyId": 4381
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "AVGO-USDC"
   },
   "about": {
-    "description": "Single-stock perpetual market on trade[XYZ] tracking Broadcom, cash-settled.",
-    "logo": "https://icons.llamao.fi/icons/rwa/avgo.png?w=48&h=48",
-    "refLinks": [
-      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
-    ]
+    "description": "Single-stock perpetual market on trade[XYZ] tracking Broadcom, cash-settled."
   }
 }

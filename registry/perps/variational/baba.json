@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "BABA",
-    "name": "Variational Omni Alibaba Group Holding Limited (ADR) Perp",
     "legacyId": 4755
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "BABA-USDC"
   },
   "about": {
-    "description": "BABA is a single-stock perpetual on Variational tracking Alibaba Group Holding Limited (ADR). Alibaba Group Holding Limited is a Chinese multinational technology company operating e-commerce, cloud computing, and digital media businesses (NYSE ADR: BABA). The market is cash-settled with hourly funding, no shareholder rights, and no dividend rights in the underlying.",
-    "logo": "https://icons.llamao.fi/icons/rwa/baba.png?w=48&h=48",
-    "refLinks": [
-      "0"
-    ]
+    "description": "BABA is a single-stock perpetual on Variational tracking Alibaba Group Holding Limited (ADR). Alibaba Group Holding Limited is a Chinese multinational technology company operating e-commerce, cloud computing, and digital media businesses (NYSE ADR: BABA). The market is cash-settled with hourly funding, no shareholder rights, and no dividend rights in the underlying."
   }
 }

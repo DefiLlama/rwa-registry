@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "EUR-USDT",
-    "name": "Hibachi EUR Perp",
     "legacyId": 9669
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "EUR-USDT"
   },
   "about": {
-    "description": "Forex perpetual on Hibachi (Arbitrum) referencing the Euro/USD exchange rate, cash-settled in USDT, giving users synthetic exposure to Euro/USD price movement without holding either currency as cash. Source: docs.hibachi.xyz.",
-    "logo": "https://icons.llamao.fi/icons/rwa/eur.png?w=48&h=48",
-    "refLinks": [
-      "https://hibachi.xyz/r/YUKPTN36RM"
-    ]
+    "description": "Forex perpetual on Hibachi (Arbitrum) referencing the Euro/USD exchange rate, cash-settled in USDT, giving users synthetic exposure to Euro/USD price movement without holding either currency as cash. Source: docs.hibachi.xyz."
   }
 }

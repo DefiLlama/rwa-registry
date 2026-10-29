@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "HOOD-USD",
-    "name": "Avantis Robinhood Perp",
     "legacyId": 3815
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "HOOD-USDC"
   },
   "about": {
-    "description": "Robinhood Markets (HOOD) perpetual on Avantis (Base). Tracks the price of Robinhood stock, USDC-margined. Oracle-priced via Pyth Lazer.",
-    "logo": "https://icons.llamao.fi/icons/rwa/hood.png?w=48&h=48",
-    "refLinks": [
-      "https://www.avantisfi.com/referral?code=DefiLlama"
-    ]
+    "description": "Robinhood Markets (HOOD) perpetual on Avantis (Base). Tracks the price of Robinhood stock, USDC-margined. Oracle-priced via Pyth Lazer."
   }
 }

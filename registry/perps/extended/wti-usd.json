@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "WTI-USD",
-    "name": "Extended WTI Crude Oil Perp",
     "legacyId": 3134
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "WTI-USD"
   },
   "about": {
-    "description": "Crude Oil (WTI) perpetual on Extended on Starknet, cash-settled in USDC.",
-    "logo": "https://icons.llamao.fi/icons/rwa/wti.png?w=48&h=48",
-    "refLinks": [
-      "https://app.extended.exchange/join/DEFILLAMAO"
-    ]
+    "description": "Crude Oil (WTI) perpetual on Extended on Starknet, cash-settled in USDC."
   }
 }

@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "ZHIPU",
-    "name": "Lighter Zhipu AI Perp",
     "legacyId": 4586
   },
   "tracks": {
@@ -16,7 +15,6 @@
     "oracleProvider": "Lighter fair price oracle"
   },
   "about": {
-    "description": "Single-stock perpetual on Lighter tracking Zhipu AI (Knowledge Atlas Technology). Users get linear exposure to the underlying without owning shares. Cash-settled in USDC.",
-    "logo": "https://icons.llamao.fi/icons/rwa/zhipu.png?w=48&h=48"
+    "description": "Single-stock perpetual on Lighter tracking Zhipu AI (Knowledge Atlas Technology). Users get linear exposure to the underlying without owning shares. Cash-settled in USDC."
   }
 }

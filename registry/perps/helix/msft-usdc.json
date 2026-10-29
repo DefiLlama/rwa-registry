@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "MSFT-USDC",
-    "name": "Helix Microsoft Perp",
     "legacyId": 3077
   },
   "tracks": {
@@ -13,7 +12,6 @@
     "pair": "MSFT-USDT"
   },
   "about": {
-    "description": "Microsoft perpetual on Helix (Injective), cash-settled in USDT.",
-    "logo": "https://icons.llamao.fi/icons/rwa/msft.png?w=48&h=48"
+    "description": "Microsoft perpetual on Helix (Injective), cash-settled in USDT."
   }
 }

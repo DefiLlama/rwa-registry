@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "AVGOUSD",
-    "name": "edgeX Broadcom Perp",
     "legacyId": 3624
   },
   "tracks": {
@@ -14,11 +13,7 @@
     "pair": "AVGO-USDC"
   },
   "about": {
-    "description": "Single-stock perpetual on edgeX (Amber Group-incubated) tracking Broadcom Inc. (AVGO), with pricing referencing Stork decentralized oracle network (24/5 equity feed). Users gain linear exposure to Broadcom Inc. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on StarkEx (migrating to EDGE Chain L2).",
-    "logo": "https://icons.llamao.fi/icons/rwa/avgo.png?w=48&h=48",
-    "refLinks": [
-      "https://pro.edgex.exchange/referral/196451583"
-    ]
+    "description": "Single-stock perpetual on edgeX (Amber Group-incubated) tracking Broadcom Inc. (AVGO), with pricing referencing Stork decentralized oracle network (24/5 equity feed). Users gain linear exposure to Broadcom Inc. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on StarkEx (migrating to EDGE Chain L2)."
   },
   "events": [
     {

@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "GOOGL",
-    "name": "Variational Omni Alphabet Inc. Class A Perp",
     "legacyId": 4505
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "GOOGL-USDC"
   },
   "about": {
-    "description": "GOOGL is a single-stock perpetual on Variational tracking Alphabet Inc. Class A. Alphabet Inc. Class A is the parent holding company of Google, YouTube, Android, and Waymo (Nasdaq: GOOGL). The market is cash-settled with hourly funding, no shareholder rights, and no dividend rights in the underlying.",
-    "logo": "https://icons.llamao.fi/icons/rwa/googl.png?w=48&h=48",
-    "refLinks": [
-      "0"
-    ]
+    "description": "GOOGL is a single-stock perpetual on Variational tracking Alphabet Inc. Class A. Alphabet Inc. Class A is the parent holding company of Google, YouTube, Android, and Waymo (Nasdaq: GOOGL). The market is cash-settled with hourly funding, no shareholder rights, and no dividend rights in the underlying."
   }
 }

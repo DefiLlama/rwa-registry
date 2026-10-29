@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "TX-HOU",
-    "name": "Parcl Houston Real Estate Perp",
     "legacyId": 3876
   },
   "tracks": {
@@ -13,8 +12,7 @@
     "pair": "TX-HOU-USDC"
   },
   "about": {
-    "description": "Houston metro real estate perpetual on Parcl. Verified live 2026-05-20.",
-    "logo": "https://icons.llamao.fi/icons/rwa/tx-hou.png?w=48&h=48"
+    "description": "Houston metro real estate perpetual on Parcl. Verified live 2026-05-20."
   },
   "events": [
     {

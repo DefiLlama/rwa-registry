@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "BMNR",
-    "name": "Aster Bitmine Perp",
     "legacyId": 4554
   },
   "tracks": {
@@ -13,7 +12,6 @@
     "pair": "BMNR-USDT"
   },
   "about": {
-    "description": "Single-stock perpetual on Aster tracking Bitmine Immersion Technologies, Inc. Users get linear exposure to the underlying without owning shares. Cash-settled in USDT.",
-    "logo": "https://icons.llamao.fi/icons/rwa/bmnr.png?w=48&h=48"
+    "description": "Single-stock perpetual on Aster tracking Bitmine Immersion Technologies, Inc. Users get linear exposure to the underlying without owning shares. Cash-settled in USDT."
   }
 }

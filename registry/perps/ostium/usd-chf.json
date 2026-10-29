@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "USD-CHF",
-    "name": "Ostium CHF Perp",
     "legacyId": 3644
   },
   "tracks": {
@@ -18,10 +17,6 @@
     "oracleProvider": "Stork / QUODD institutional FX feed"
   },
   "about": {
-    "description": "FX perpetual on Ostium Labs tracking Swiss Franc (CHF) versus the US dollar, with pricing referencing Stork / QUODD institutional FX feed. Positions are margined and cash-settled in USDC on Arbitrum, giving users synthetic exposure to Swiss Franc/USD price movement without holding either currency as cash.",
-    "logo": "https://icons.llamao.fi/icons/rwa/chf.png?w=48&h=48",
-    "refLinks": [
-      "https://app.ostium.com/trade?from=USD&to=CHF&ref=6X17X"
-    ]
+    "description": "FX perpetual on Ostium Labs tracking Swiss Franc (CHF) versus the US dollar, with pricing referencing Stork / QUODD institutional FX feed. Positions are margined and cash-settled in USDC on Arbitrum, giving users synthetic exposure to Swiss Franc/USD price movement without holding either currency as cash."
   }
 }

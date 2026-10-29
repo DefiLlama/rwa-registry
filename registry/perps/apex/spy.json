@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "SPY",
-    "name": "ApeX Omni SPY ETF Perp",
     "legacyId": 3110
   },
   "tracks": {
@@ -18,10 +17,6 @@
   },
   "about": {
     "description": "SPDR S&P 500 ETF Trust perpetual on ApeX Omni via zkLink, cash-settled in USDT.",
-    "logo": "https://icons.llamao.fi/icons/rwa/spy.png?w=48&h=48",
-    "refLinks": [
-      "https://omni.apex.exchange/referral?referralCode=T0S8V482"
-    ],
     "issuer": "ApeX Protocol"
   }
 }

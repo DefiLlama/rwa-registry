@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "META",
-    "name": "Ondo Perps Meta Perp",
     "legacyId": 4033
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "META-USD"
   },
   "about": {
-    "description": "Single-stock perpetual market on Ondo Perps tracking Meta Platforms, Inc, cash-settled, 24/7, up to 10x leverage, hourly funding, launched 2026-06-09 (non-US users only). Verified live via adapter 2026-06-10.",
-    "logo": "https://icons.llamao.fi/icons/rwa/meta.png?w=48&h=48",
-    "refLinks": [
-      "https://app.ondoperps.xyz/trade/perps/META-USD.P?ref=76ZCWB"
-    ]
+    "description": "Single-stock perpetual market on Ondo Perps tracking Meta Platforms, Inc, cash-settled, 24/7, up to 10x leverage, hourly funding, launched 2026-06-09 (non-US users only). Verified live via adapter 2026-06-10."
   }
 }

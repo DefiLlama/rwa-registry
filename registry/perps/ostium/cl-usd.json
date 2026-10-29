@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "CL-USD",
-    "name": "Ostium WTI Crude Oil Perp",
     "legacyId": 3042
   },
   "tracks": {
@@ -15,10 +14,6 @@
     "takerFeeBps": 5
   },
   "about": {
-    "description": "Crude Oil (WTI) perpetual on Ostium, cash-settled in USDC on Arbitrum.",
-    "logo": "https://icons.llamao.fi/icons/rwa/wti.png?w=48&h=48",
-    "refLinks": [
-      "https://app.ostium.com/trade?from=CL&to=USD&ref=6X17X"
-    ]
+    "description": "Crude Oil (WTI) perpetual on Ostium, cash-settled in USDC on Arbitrum."
   }
 }

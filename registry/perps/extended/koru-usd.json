@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "KORU-USD",
-    "name": "Extended KORU ETF Perp",
     "legacyId": 8644
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "KORU-USDC"
   },
   "about": {
-    "description": "Exchange-traded-fund perpetual on Extended (formerly X10) tracking Direxion Daily MSCI South Korea Bull 3X Shares (KORU), with pricing referencing Extended oracle. Users gain linear exposure to the fund share price without owning fund shares or receiving fund distributions. Positions are margined and cash-settled in USDC on Starknet.",
-    "logo": "https://icons.llamao.fi/icons/rwa/koru.png?w=48&h=48",
-    "refLinks": [
-      "https://app.extended.exchange/join/DEFILLAMAO"
-    ]
+    "description": "Exchange-traded-fund perpetual on Extended (formerly X10) tracking Direxion Daily MSCI South Korea Bull 3X Shares (KORU), with pricing referencing Extended oracle. Users gain linear exposure to the fund share price without owning fund shares or receiving fund distributions. Positions are margined and cash-settled in USDC on Starknet."
   }
 }

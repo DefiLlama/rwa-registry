@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "ROBO",
-    "name": "Lighter Robotics ETF Perp",
     "legacyId": 3371
   },
   "tracks": {
@@ -16,10 +15,6 @@
     "oracleProvider": "Chainlink"
   },
   "about": {
-    "description": "ETF perpetual market tracking the ROBO Global Robotics & Automation Index ETF (ROBO). Users get synthetic exposure to the ROBO ETF's price rather than ownership of ETF shares or redemption rights, with pricing referencing the ETF's public market price via Lighter's fair price oracle. Positions are margined and cash-settled in USDC.",
-    "logo": "https://icons.llamao.fi/icons/rwa/robo.png?w=48&h=48",
-    "refLinks": [
-      "https://app.lighter.xyz/trade/ROBO?referral=FHT1N8AYKHP4"
-    ]
+    "description": "ETF perpetual market tracking the ROBO Global Robotics & Automation Index ETF (ROBO). Users get synthetic exposure to the ROBO ETF's price rather than ownership of ETF shares or redemption rights, with pricing referencing the ETF's public market price via Lighter's fair price oracle. Positions are margined and cash-settled in USDC."
   }
 }

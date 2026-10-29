@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "SNDK",
-    "name": "Entropy SanDisk Perp",
     "legacyId": 9040
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "SNDK-USDC"
   },
   "about": {
-    "description": "Single-stock perpetual on Entropy, the HIP-3 builder-deployed dex 'io' on Hyperliquid, tracking SanDisk Corp. (SNDK) and cash-settled in USDC. Real share-price units - marks in line with the same underlying on other HIP-3 venues (io:SNDK 1523.9 vs xyz:SNDK 1523.6 at time of listing). Oracle uses the primary listing venue's price during regular session and a depth-gated blend of an order-book EMA with the last session tick (or an approved after-hours venue mid) outside it. 10x max leverage, isolated margin, $5M open-interest cap.",
-    "logo": "https://icons.llamao.fi/icons/rwa/sndk.png?w=48&h=48",
-    "refLinks": [
-      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
-    ]
+    "description": "Single-stock perpetual on Entropy, the HIP-3 builder-deployed dex 'io' on Hyperliquid, tracking SanDisk Corp. (SNDK) and cash-settled in USDC. Real share-price units - marks in line with the same underlying on other HIP-3 venues (io:SNDK 1523.9 vs xyz:SNDK 1523.6 at time of listing). Oracle uses the primary listing venue's price during regular session and a depth-gated blend of an order-book EMA with the last session tick (or an approved after-hours venue mid) outside it. 10x max leverage, isolated margin, $5M open-interest cap."
   }
 }

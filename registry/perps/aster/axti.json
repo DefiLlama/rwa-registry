@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "AXTI",
-    "name": "Aster AXT Perp",
     "legacyId": 4397
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "AXTI-USDT"
   },
   "about": {
-    "description": "Single-stock perpetual market on Aster tracking AXT, cash-settled.",
-    "logo": "https://icons.llamao.fi/icons/rwa/axti.png?w=48&h=48",
-    "refLinks": [
-      "https://www.asterdex.com/en/referral/c6eF10"
-    ]
+    "description": "Single-stock perpetual market on Aster tracking AXT, cash-settled."
   }
 }

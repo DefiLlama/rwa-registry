@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "QNT",
-    "name": "Lighter Quantinuum Perp",
     "legacyId": 4467
   },
   "tracks": {
@@ -16,11 +15,7 @@
     "oracleProvider": "Lighter fair price oracle"
   },
   "about": {
-    "description": "Pre-IPO valuation perpetual on Lighter tracking Quantinuum Inc. Quantum computing hardware/software (Honeywell + Cambridge Quantum joint venture), with pricing referencing Lighter fair price oracle (off-chain valuation feed), USDC-margined, cash-settled.",
-    "logo": "https://icons.llamao.fi/icons/rwa/qnt.png?w=48&h=48",
-    "refLinks": [
-      "https://app.lighter.xyz/trade/QNT?referral=FHT1N8AYKHP4"
-    ]
+    "description": "Pre-IPO valuation perpetual on Lighter tracking Quantinuum Inc. Quantum computing hardware/software (Honeywell + Cambridge Quantum joint venture), with pricing referencing Lighter fair price oracle (off-chain valuation feed), USDC-margined, cash-settled."
   },
   "events": [
     {

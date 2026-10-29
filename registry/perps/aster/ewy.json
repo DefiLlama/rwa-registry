@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "EWY",
-    "name": "Aster iShares MSCI South Korea Perp",
     "legacyId": 3702
   },
   "tracks": {
@@ -15,10 +14,6 @@
     "takerFeeBps": null
   },
   "about": {
-    "description": "ETF perpetual on Aster (YZi Labs-backed) tracking iShares MSCI South Korea ETF (EWY), with pricing referencing Aster custom oracle, cash-settled in USD1 on BNB Chain / Aster Chain.",
-    "logo": "https://icons.llamao.fi/icons/rwa/ewy.png?w=48&h=48",
-    "refLinks": [
-      "https://www.asterdex.com/en/referral/c6eF10"
-    ]
+    "description": "ETF perpetual on Aster (YZi Labs-backed) tracking iShares MSCI South Korea ETF (EWY), with pricing referencing Aster custom oracle, cash-settled in USD1 on BNB Chain / Aster Chain."
   }
 }

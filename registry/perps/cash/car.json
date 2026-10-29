@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "CAR",
-    "name": "CASH Avis Budget Group Perp",
     "legacyId": 3528
   },
   "tracks": {
@@ -16,11 +15,7 @@
     "oracleProvider": "Pyth + SEDA dated-futures conv."
   },
   "about": {
-    "description": "Single-stock perpetual on Dreamcash (CASH) tracking Avis Budget Group, Inc. (CAR), with pricing referencing Pyth + SEDA dated-futures conv. (24/5 equity feed). Users gain linear exposure to Avis Budget Group, Inc. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDT0 on Hyperliquid (cash namespace).",
-    "logo": "https://icons.llamao.fi/icons/rwa/car.png?w=48&h=48",
-    "refLinks": [
-      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
-    ]
+    "description": "Single-stock perpetual on Dreamcash (CASH) tracking Avis Budget Group, Inc. (CAR), with pricing referencing Pyth + SEDA dated-futures conv. (24/5 equity feed). Users gain linear exposure to Avis Budget Group, Inc. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDT0 on Hyperliquid (cash namespace)."
   },
   "events": [
     {

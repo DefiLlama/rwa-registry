@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "XBR-USD",
-    "name": "Extended Brent Crude Oil Perp",
     "legacyId": 3617
   },
   "tracks": {
@@ -15,10 +14,6 @@
     "takerFeeBps": null
   },
   "about": {
-    "description": "Crude oil (brent) perpetual on Extended (formerly X10). The contract tracks Crude Oil (Brent) via Extended oracle. Users gain linear oil-price exposure without owning physical crude or a deliverable futures position. Positions are margined and cash-settled in USDC on Starknet.",
-    "logo": "https://icons.llamao.fi/icons/rwa/brent.png?w=48&h=48",
-    "refLinks": [
-      "https://app.extended.exchange/join/DEFILLAMAO"
-    ]
+    "description": "Crude oil (brent) perpetual on Extended (formerly X10). The contract tracks Crude Oil (Brent) via Extended oracle. Users gain linear oil-price exposure without owning physical crude or a deliverable futures position. Positions are margined and cash-settled in USDC on Starknet."
   }
 }

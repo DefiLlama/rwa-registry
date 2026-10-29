@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "US500",
-    "name": "Variational Omni S&P 500 ETF Perp",
     "legacyId": 4419
   },
   "tracks": {
@@ -13,7 +12,6 @@
     "pair": "US500-USDC"
   },
   "about": {
-    "description": "Perpetual market on Variational Omni tracking SPDR S&P 500 ETF Trust, cash-settled.",
-    "logo": "https://icons.llamao.fi/icons/rwa/us500.png?w=48&h=48"
+    "description": "Perpetual market on Variational Omni tracking SPDR S&P 500 ETF Trust, cash-settled."
   }
 }

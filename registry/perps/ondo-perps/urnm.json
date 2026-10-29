@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "URNM",
-    "name": "Ondo Perps Sprott Uranium Miners ETF Perp",
     "legacyId": 9264
   },
   "tracks": {
@@ -13,9 +12,6 @@
     "pair": "URNM-USD"
   },
   "about": {
-    "description": "ETF perpetual market on Ondo Perps tracking the Sprott Uranium Miners ETF, cash-settled, 24/7, up to 5x leverage, margined in USDC, hourly funding. Users get linear price exposure only - no ownership, dividend or voting rights in the underlying. Adapter snapshot 2026-09-21: mark $51.68, open interest $1.85K, 24h volume $3.53K. Added 2026-09-21 in the third Ondo Perps expansion batch, taking the registry from 45 to 56 RWA markets; the adapter's 65 live rows include 9 crypto perps (BTC, ENA, ETH, HYPE, ONDO, PUMP, SOL, XRP, ZEC) that are out of scope.",
-    "refLinks": [
-      "https://app.ondoperps.xyz/trade/perps/URNM-USD.P?ref=76ZCWB"
-    ]
+    "description": "ETF perpetual market on Ondo Perps tracking the Sprott Uranium Miners ETF, cash-settled, 24/7, up to 5x leverage, margined in USDC, hourly funding. Users get linear price exposure only - no ownership, dividend or voting rights in the underlying. Adapter snapshot 2026-09-21: mark $51.68, open interest $1.85K, 24h volume $3.53K. Added 2026-09-21 in the third Ondo Perps expansion batch, taking the registry from 45 to 56 RWA markets; the adapter's 65 live rows include 9 crypto perps (BTC, ENA, ETH, HYPE, ONDO, PUMP, SOL, XRP, ZEC) that are out of scope."
   }
 }

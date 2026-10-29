@@ -14,10 +14,6 @@
     "takerFeeBps": null
   },
   "about": {
-    "description": "ETF perpetual market on Aster tracking iShares MSCI Taiwan ETF (EWT). Users get linear exposure to ETF price moves without owning fund shares or redemption rights, with pricing referencing an external 24/5 equity feed. Positions are margined and cash-settled in USDT on Aster.",
-    "logo": "https://icons.llamao.fi/icons/rwa/ewt.png?w=48&h=48",
-    "refLinks": [
-      "https://www.asterdex.com/en/referral/c6eF10"
-    ]
+    "description": "ETF perpetual market on Aster tracking iShares MSCI Taiwan ETF (EWT). Users get linear exposure to ETF price moves without owning fund shares or redemption rights, with pricing referencing an external 24/5 equity feed. Positions are margined and cash-settled in USDT on Aster."
   }
 }

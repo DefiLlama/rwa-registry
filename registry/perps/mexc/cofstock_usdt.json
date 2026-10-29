@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "COFSTOCK_USDT",
-    "name": "MEXC Capital One Financial Corp. Perp",
     "legacyId": 5976
   },
   "tracks": {
@@ -13,7 +12,6 @@
     "pair": "COF-USDT"
   },
   "about": {
-    "description": "COF is a single-stock perpetual listed on MEXC, tracking Capital One Financial Corp., margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Up to 20× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification.",
-    "logo": "https://icons.llamao.fi/icons/rwa/cof.png?w=48&h=48"
+    "description": "COF is a single-stock perpetual listed on MEXC, tracking Capital One Financial Corp., margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Up to 20× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
   }
 }

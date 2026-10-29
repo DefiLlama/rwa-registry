@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "AVGO",
-    "name": "ApeX Omni Broadcom Perp",
     "legacyId": 4368
   },
   "tracks": {
@@ -18,10 +17,6 @@
   },
   "about": {
     "description": "Single-stock perpetual market on ApeX Omni tracking Broadcom, cash-settled.",
-    "logo": "https://icons.llamao.fi/icons/rwa/avgo.png?w=48&h=48",
-    "refLinks": [
-      "https://omni.apex.exchange/referral?referralCode=T0S8V482"
-    ],
     "issuer": "ApeX Protocol"
   }
 }

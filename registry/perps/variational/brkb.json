@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "BRKB",
-    "name": "Variational Omni Berkshire Hathaway Inc. Class B Perp",
     "legacyId": 4588
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "BRKB-USDC"
   },
   "about": {
-    "description": "BRKB is a single-stock perpetual on Variational tracking Berkshire Hathaway Inc. Class B. Berkshire Hathaway Class B represents non-voting Class B shares of Warren Buffett's multinational holding company (NYSE: BRK.B). The market is cash-settled with hourly funding, no shareholder rights, and no dividend rights in the underlying.",
-    "logo": "https://icons.llamao.fi/icons/rwa/brk-b.png?w=48&h=48",
-    "refLinks": [
-      "0"
-    ]
+    "description": "BRKB is a single-stock perpetual on Variational tracking Berkshire Hathaway Inc. Class B. Berkshire Hathaway Class B represents non-voting Class B shares of Warren Buffett's multinational holding company (NYSE: BRK.B). The market is cash-settled with hourly funding, no shareholder rights, and no dividend rights in the underlying."
   }
 }

@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "USDSGD-USD",
-    "name": "Avantis USDSGD Perp",
     "legacyId": 3864
   },
   "tracks": {
@@ -17,10 +16,6 @@
   },
   "about": {
     "description": "USDSGD perpetual on Avantis (Base), USDC-margined. Verified live 2026-05-20.",
-    "logo": "https://icons.llamao.fi/icons/rwa/usdsgd.png?w=48&h=48",
-    "refLinks": [
-      "https://www.avantisfi.com/referral?code=DefiLlama"
-    ],
     "website": "https://avantisfi.com/"
   }
 }

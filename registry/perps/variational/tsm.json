@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "TSM",
-    "name": "Variational Omni Taiwan Semiconductor Perp",
     "legacyId": 4414
   },
   "tracks": {
@@ -13,7 +12,6 @@
     "pair": "TSM-USDC"
   },
   "about": {
-    "description": "Single-stock perpetual market on Variational Omni tracking Taiwan Semiconductor, cash-settled.",
-    "logo": "https://icons.llamao.fi/icons/rwa/tsm.png?w=48&h=48"
+    "description": "Single-stock perpetual market on Variational Omni tracking Taiwan Semiconductor, cash-settled."
   }
 }

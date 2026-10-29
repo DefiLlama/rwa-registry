@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "CXMT",
-    "name": "Ondo Perps ChangXin Memory Technologies Perp",
     "legacyId": 9256
   },
   "tracks": {
@@ -13,9 +12,6 @@
     "pair": "CXMT-USD"
   },
   "about": {
-    "description": "Single-stock perpetual market on Ondo Perps tracking ChangXin Memory Technologies, Inc., cash-settled, 24/7, up to 10x leverage, margined in USDC, hourly funding. Users get linear price exposure only - no ownership, dividend or voting rights in the underlying. Adapter snapshot 2026-09-21: mark $8.5717, open interest $24.03K, 24h volume $48.77K. Added 2026-09-21 in the third Ondo Perps expansion batch, taking the registry from 45 to 56 RWA markets; the adapter's 65 live rows include 9 crypto perps (BTC, ENA, ETH, HYPE, ONDO, PUMP, SOL, XRP, ZEC) that are out of scope.",
-    "refLinks": [
-      "https://app.ondoperps.xyz/trade/perps/CXMT-USD.P?ref=76ZCWB"
-    ]
+    "description": "Single-stock perpetual market on Ondo Perps tracking ChangXin Memory Technologies, Inc., cash-settled, 24/7, up to 10x leverage, margined in USDC, hourly funding. Users get linear price exposure only - no ownership, dividend or voting rights in the underlying. Adapter snapshot 2026-09-21: mark $8.5717, open interest $24.03K, 24h volume $48.77K. Added 2026-09-21 in the third Ondo Perps expansion batch, taking the registry from 45 to 56 RWA markets; the adapter's 65 live rows include 9 crypto perps (BTC, ENA, ETH, HYPE, ONDO, PUMP, SOL, XRP, ZEC) that are out of scope."
   }
 }

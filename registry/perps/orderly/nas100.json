@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "NAS100",
-    "name": "ADEN Nasdaq-100 Perp",
     "legacyId": 3113
   },
   "tracks": {
@@ -13,8 +12,7 @@
     "pair": "NAS100-PERPUSDC"
   },
   "about": {
-    "description": "Nasdaq-100 perpetual on ADEN (Orderly), cash-settled in USDC.",
-    "logo": "https://icons.llamao.fi/icons/rwa/ndx.png?w=48&h=48"
+    "description": "Nasdaq-100 perpetual on ADEN (Orderly), cash-settled in USDC."
   },
   "events": [
     {

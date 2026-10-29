@@ -15,10 +15,6 @@
     "oracleProvider": "Chainlink"
   },
   "about": {
-    "description": "Copper perpetual market. The contract tracks copper pricing referenced to the COMEX HG benchmark. Users get linear exposure to copper price moves without owning physical metal, warehouse claims, or a deliverable futures position, with pricing referencing an external metals feed via Lighter's fair price oracle. Positions are margined and cash-settled in USDC.",
-    "logo": "https://icons.llamao.fi/icons/rwa/xcu.png?w=48&h=48",
-    "refLinks": [
-      "https://app.lighter.xyz/trade/XCU?referral=FHT1N8AYKHP4"
-    ]
+    "description": "Copper perpetual market. The contract tracks copper pricing referenced to the COMEX HG benchmark. Users get linear exposure to copper price moves without owning physical metal, warehouse claims, or a deliverable futures position, with pricing referencing an external metals feed via Lighter's fair price oracle. Positions are margined and cash-settled in USDC."
   }
 }

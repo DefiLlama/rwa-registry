@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "PLTR",
-    "name": "Aster Palantir Perp",
     "legacyId": 3919
   },
   "tracks": {
@@ -15,10 +14,6 @@
     "takerFeeBps": null
   },
   "about": {
-    "description": "Aster perpetual market tracking Palantir Technologies Inc. (data analytics software). Verified live on platform UI 2026-05-26 via browser.",
-    "logo": "https://icons.llamao.fi/icons/rwa/pltr.png?w=48&h=48",
-    "refLinks": [
-      "https://www.asterdex.com/en/referral/c6eF10"
-    ]
+    "description": "Aster perpetual market tracking Palantir Technologies Inc. (data analytics software). Verified live on platform UI 2026-05-26 via browser."
   }
 }

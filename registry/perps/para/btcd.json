@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "BTCD",
-    "name": "Paragon BTC Dominance Perp",
     "legacyId": 3286
   },
   "tracks": {
@@ -16,10 +15,6 @@
     "oracleProvider": "Chaos Labs / HL published oracles"
   },
   "about": {
-    "description": "Crypto market-index perpetual tracking Bitcoin Dominance. Users get synthetic exposure to broad crypto-market movements rather than ownership of any constituent tokens, cash-settled in USDC on Paragon.",
-    "logo": "https://icons.llamao.fi/icons/rwa/btcd.png?w=48&h=48",
-    "refLinks": [
-      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
-    ]
+    "description": "Crypto market-index perpetual tracking Bitcoin Dominance. Users get synthetic exposure to broad crypto-market movements rather than ownership of any constituent tokens, cash-settled in USDC on Paragon."
   }
 }

@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "BIOTECH",
-    "name": "Ventuals BIOTECH Thematic Index Perp",
     "legacyId": 3020
   },
   "tracks": {
@@ -13,11 +12,7 @@
     "pair": "BIOTECH-USDH"
   },
   "about": {
-    "description": "ETF perpetual market tracking the SPDR S&P Biotech ETF. Users get synthetic exposure to a listed biotechnology fund rather than ownership of ETF shares or redemption rights in the fund. Ventuals uses Pyth data feeds when available and an internal pricing fallback when external pricing is unavailable. Max leverage 20x, open interest cap $10m, positions margined and cash-settled in USDH. Market is visible on Hyperliquid under the vntl namespace, but is operated by Ventuals rather than listed as a core Hyperliquid perp.",
-    "logo": "https://icons.llamao.fi/icons/rwa/xbi.png?w=48&h=48",
-    "refLinks": [
-      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
-    ]
+    "description": "ETF perpetual market tracking the SPDR S&P Biotech ETF. Users get synthetic exposure to a listed biotechnology fund rather than ownership of ETF shares or redemption rights in the fund. Ventuals uses Pyth data feeds when available and an internal pricing fallback when external pricing is unavailable. Max leverage 20x, open interest cap $10m, positions margined and cash-settled in USDH. Market is visible on Hyperliquid under the vntl namespace, but is operated by Ventuals rather than listed as a core Hyperliquid perp."
   },
   "events": [
     {

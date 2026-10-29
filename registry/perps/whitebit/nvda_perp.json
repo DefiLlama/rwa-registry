@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "NVDA_PERP",
-    "name": "WhiteBIT NVIDIA Corp. Perp",
     "legacyId": 6801
   },
   "tracks": {
@@ -15,7 +14,6 @@
     "takerFeeBps": 5.5
   },
   "about": {
-    "description": "NVDA is a single-stock perpetual listed on WhiteBIT, tracking NVIDIA Corp., margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Up to 20× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification.",
-    "logo": "https://icons.llamao.fi/icons/rwa/nvda.png?w=48&h=48"
+    "description": "NVDA is a single-stock perpetual listed on WhiteBIT, tracking NVIDIA Corp., margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Up to 20× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
   }
 }

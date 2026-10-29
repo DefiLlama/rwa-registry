@@ -14,10 +14,6 @@
     "takerFeeBps": 5
   },
   "about": {
-    "description": "Precious-metals perpetual on Ostium Labs tracking Palladium (XPD), with pricing referencing Stork / QUODD. Users gain linear exposure to spot palladium without holding bullion or warrant claims. Positions are margined and cash-settled in USDC on Arbitrum.",
-    "logo": "https://icons.llamao.fi/icons/rwa/xpd.png?w=48&h=48",
-    "refLinks": [
-      "https://app.ostium.com/trade?from=XPD&to=USD&ref=6X17X"
-    ]
+    "description": "Precious-metals perpetual on Ostium Labs tracking Palladium (XPD), with pricing referencing Stork / QUODD. Users gain linear exposure to spot palladium without holding bullion or warrant claims. Positions are margined and cash-settled in USDC on Arbitrum."
   }
 }

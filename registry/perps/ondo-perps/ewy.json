@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "EWY",
-    "name": "Ondo Perps iShares MSCI South Korea ETF Perp",
     "legacyId": 8824
   },
   "tracks": {
@@ -13,9 +12,6 @@
     "pair": "EWY-USD"
   },
   "about": {
-    "description": "ETF perpetual market on Ondo Perps tracking the iShares MSCI South Korea ETF, cash-settled, 24/7, up to 20x leverage, margined in USDC. Users get linear price exposure only - no ownership, dividend or voting rights in the underlying. Adapter snapshot 2026-08-19: mark $174.9000, open interest $199.93K, 24h volume $561.91K. Added 2026-08-19 to reconcile the registry with Ondo's stated 35 RWA markets; the adapter's 40 rows include 5 crypto perps (BTC, ETH, SOL, HYPE, ONDO) that are out of scope.",
-    "refLinks": [
-      "https://app.ondoperps.xyz/trade/perps/EWY-USD.P?ref=76ZCWB"
-    ]
+    "description": "ETF perpetual market on Ondo Perps tracking the iShares MSCI South Korea ETF, cash-settled, 24/7, up to 20x leverage, margined in USDC. Users get linear price exposure only - no ownership, dividend or voting rights in the underlying. Adapter snapshot 2026-08-19: mark $174.9000, open interest $199.93K, 24h volume $561.91K. Added 2026-08-19 to reconcile the registry with Ondo's stated 35 RWA markets; the adapter's 40 rows include 5 crypto perps (BTC, ETH, SOL, HYPE, ONDO) that are out of scope."
   }
 }

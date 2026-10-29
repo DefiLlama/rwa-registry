@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "ORCL_24_5-USD",
-    "name": "Extended ORCL Perp",
     "legacyId": 3620
   },
   "tracks": {
@@ -15,11 +14,7 @@
     "takerFeeBps": null
   },
   "about": {
-    "description": "Single-stock perpetual on Extended (formerly X10) tracking Oracle Corporation (ORCL), with pricing referencing Extended oracle (24/5 equity feed). Users gain linear exposure to Oracle Corporation share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Starknet.",
-    "logo": "https://icons.llamao.fi/icons/rwa/orcl.png?w=48&h=48",
-    "refLinks": [
-      "https://app.extended.exchange/join/DEFILLAMAO"
-    ]
+    "description": "Single-stock perpetual on Extended (formerly X10) tracking Oracle Corporation (ORCL), with pricing referencing Extended oracle (24/5 equity feed). Users gain linear exposure to Oracle Corporation share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Starknet."
   },
   "events": [
     {

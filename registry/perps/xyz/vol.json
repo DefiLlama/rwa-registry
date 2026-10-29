@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "VOL",
-    "name": "trade[XYZ] Volatility Perp",
     "legacyId": 3526
   },
   "tracks": {
@@ -16,11 +15,7 @@
     "oracleProvider": "Pyth / futures-based external reference methodology"
   },
   "about": {
-    "description": "Volatility perpetual on trade[XYZ] (Hyperunit) tracking Volatility Index (VOL), with pricing referencing Pyth / futures-based external reference methodology. Users gain synthetic exposure to implied/realized volatility without holding options or futures. Positions are margined and cash-settled in USDC on Hyperliquid (xyz namespace).",
-    "logo": "https://icons.llamao.fi/icons/rwa/volatility-index.png?w=48&h=48",
-    "refLinks": [
-      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
-    ]
+    "description": "Volatility perpetual on trade[XYZ] (Hyperunit) tracking Volatility Index (VOL), with pricing referencing Pyth / futures-based external reference methodology. Users gain synthetic exposure to implied/realized volatility without holding options or futures. Positions are margined and cash-settled in USDC on Hyperliquid (xyz namespace)."
   },
   "events": [
     {

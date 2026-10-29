@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "DELL",
-    "name": "Lighter Dell Technologies Perp",
     "legacyId": 3952
   },
   "tracks": {
@@ -16,10 +15,6 @@
     "oracleProvider": "Lighter fair price oracle"
   },
   "about": {
-    "description": "Single-stock perpetual market on Lighter (zkLighter / ZKSync) tracking Dell Technologies Inc. Users get linear exposure to share-price moves without owning shares, shareholder rights, or dividend claims, cash-settled in USDC on Lighter.",
-    "logo": "https://icons.llamao.fi/icons/rwa/dell.png?w=48&h=48",
-    "refLinks": [
-      "https://app.lighter.xyz/trade/DELL?referral=FHT1N8AYKHP4"
-    ]
+    "description": "Single-stock perpetual market on Lighter (zkLighter / ZKSync) tracking Dell Technologies Inc. Users get linear exposure to share-price moves without owning shares, shareholder rights, or dividend claims, cash-settled in USDC on Lighter."
   }
 }

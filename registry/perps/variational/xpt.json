@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "XPT",
-    "name": "Variational Omni Platinum Perp",
     "legacyId": 4425
   },
   "tracks": {
@@ -13,7 +12,6 @@
     "pair": "XPT-USDC"
   },
   "about": {
-    "description": "Perpetual market on Variational Omni tracking Platinum, cash-settled.",
-    "logo": "https://icons.llamao.fi/icons/rwa/xpt.png?w=48&h=48"
+    "description": "Perpetual market on Variational Omni tracking Platinum, cash-settled."
   }
 }

@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "CXMT",
-    "name": "Variational Omni ChangXin Memory Technologies Perp",
     "legacyId": 4768
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "CXMT-USDC"
   },
   "about": {
-    "description": "CXMT is a single-stock perpetual on Variational tracking ChangXin Memory Technologies. ChangXin Memory Technologies is a Chinese DRAM chip manufacturer and one of China's largest domestic memory producers (currently private, pre-IPO). The market is cash-settled with hourly funding, no shareholder rights, and no dividend rights in the underlying.",
-    "logo": "https://icons.llamao.fi/icons/rwa/cxmt.png?w=48&h=48",
-    "refLinks": [
-      "0"
-    ]
+    "description": "CXMT is a single-stock perpetual on Variational tracking ChangXin Memory Technologies. ChangXin Memory Technologies is a Chinese DRAM chip manufacturer and one of China's largest domestic memory producers (currently private, pre-IPO). The market is cash-settled with hourly funding, no shareholder rights, and no dividend rights in the underlying."
   }
 }

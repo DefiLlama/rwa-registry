@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "SKHYNIX-USD",
-    "name": "gTrade SK Hynix Perp",
     "legacyId": 4501
   },
   "tracks": {
@@ -13,8 +12,7 @@
     "pair": "SKHYNIX-USD"
   },
   "about": {
-    "description": "gTrade perpetual market tracking SK Hynix Inc. Cash-settled USDC pair on Arbitrum with Chainlink DON oracle pricing.",
-    "logo": "https://icons.llamao.fi/icons/rwa/skhynix.png?w=48&h=48"
+    "description": "gTrade perpetual market tracking SK Hynix Inc. Cash-settled USDC pair on Arbitrum with Chainlink DON oracle pricing."
   },
   "events": [
     {

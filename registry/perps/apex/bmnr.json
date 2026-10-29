@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "BMNR",
-    "name": "ApeX Omni BitMine Immersion Perp",
     "legacyId": 3763
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "BMNR-USDC"
   },
   "about": {
-    "description": "BitMine Immersion (NYSE-A:BMNR) stock perpetual on ApeX Omni, cash-settled in USDT.",
-    "logo": "https://icons.llamao.fi/icons/rwa/bmnr.png?w=48&h=48",
-    "refLinks": [
-      "https://omni.apex.exchange/referral?referralCode=T0S8V482"
-    ]
+    "description": "BitMine Immersion (NYSE-A:BMNR) stock perpetual on ApeX Omni, cash-settled in USDT."
   }
 }

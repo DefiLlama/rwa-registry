@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "CA-SOL",
-    "name": "Parcl Solana Beach Real Estate Perp",
     "legacyId": 3877
   },
   "tracks": {
@@ -13,8 +12,7 @@
     "pair": "CA-SOL-USDC"
   },
   "about": {
-    "description": "Solana Beach (CA) real estate perpetual on Parcl. Verified live 2026-05-20.",
-    "logo": "https://icons.llamao.fi/icons/rwa/ca-sol.png?w=48&h=48"
+    "description": "Solana Beach (CA) real estate perpetual on Parcl. Verified live 2026-05-20."
   },
   "events": [
     {

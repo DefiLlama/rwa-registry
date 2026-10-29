@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "SNDK",
-    "name": "Ondo Perps SanDisk Corporation Perp",
     "legacyId": 4776
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "SNDK-USD"
   },
   "about": {
-    "description": "SNDK is a single-stock perpetual on Ondo Perps tracking SanDisk Corporation. SanDisk Corporation is a US NAND flash memory and storage-solutions company spun off from Western Digital in 2025 (Nasdaq: SNDK). The market is cash-settled with hourly funding, no shareholder rights, and no dividend rights in the underlying.",
-    "logo": "https://icons.llamao.fi/icons/rwa/sndk.png?w=48&h=48",
-    "refLinks": [
-      "https://app.ondoperps.xyz/trade/perps/SNDK"
-    ]
+    "description": "SNDK is a single-stock perpetual on Ondo Perps tracking SanDisk Corporation. SanDisk Corporation is a US NAND flash memory and storage-solutions company spun off from Western Digital in 2025 (Nasdaq: SNDK). The market is cash-settled with hourly funding, no shareholder rights, and no dividend rights in the underlying."
   }
 }

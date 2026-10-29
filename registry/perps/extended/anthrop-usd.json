@@ -12,10 +12,6 @@
     "pair": "ANTHROP-USDC"
   },
   "about": {
-    "description": "Pre-IPO perpetual on Extended (formerly X10) tracking the private-market reference valuation of Anthropic, with pricing referencing Extended oracle. Users gain linear exposure to changes in that reference valuation without owning equity, shareholder rights, or any claim on the company. Positions are margined and cash-settled in USDC on Starknet.",
-    "logo": "https://icons.llamao.fi/icons/rwa/anthrop.png?w=48&h=48",
-    "refLinks": [
-      "https://app.extended.exchange/join/DEFILLAMAO"
-    ]
+    "description": "Pre-IPO perpetual on Extended (formerly X10) tracking the private-market reference valuation of Anthropic, with pricing referencing Extended oracle. Users gain linear exposure to changes in that reference valuation without owning equity, shareholder rights, or any claim on the company. Positions are margined and cash-settled in USDC on Starknet."
   }
 }

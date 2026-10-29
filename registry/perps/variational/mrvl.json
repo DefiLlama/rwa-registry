@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "MRVL",
-    "name": "Variational Omni Marvell Perp",
     "legacyId": 4407
   },
   "tracks": {
@@ -13,7 +12,6 @@
     "pair": "MRVL-USDC"
   },
   "about": {
-    "description": "Single-stock perpetual market on Variational Omni tracking Marvell, cash-settled.",
-    "logo": "https://icons.llamao.fi/icons/rwa/mrvl.png?w=48&h=48"
+    "description": "Single-stock perpetual market on Variational Omni tracking Marvell, cash-settled."
   }
 }

@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "SOXL",
-    "name": "Lighter SOXL Perp",
     "legacyId": 4464
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "SOXL-USDC"
   },
   "about": {
-    "description": "Perpetual market tracking the Direxion Daily Semiconductor Bull 3X Shares (SOXL) ETF. Users get linear exposure to the fund's price moves without owning shares. Positions are margined and cash-settled in USDC.",
-    "logo": "https://icons.llamao.fi/icons/rwa/soxl.png?w=48&h=48",
-    "refLinks": [
-      "https://app.lighter.xyz/trade/TSLA?referral=FHT1N8AYKHP4"
-    ]
+    "description": "Perpetual market tracking the Direxion Daily Semiconductor Bull 3X Shares (SOXL) ETF. Users get linear exposure to the fund's price moves without owning shares. Positions are margined and cash-settled in USDC."
   }
 }

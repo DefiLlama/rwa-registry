@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "UNITREE",
-    "name": "Ondo Perps Unitree Robotics Perp",
     "legacyId": 9261
   },
   "tracks": {
@@ -13,9 +12,6 @@
     "pair": "UNITREE-USD"
   },
   "about": {
-    "description": "Single-stock perpetual market on Ondo Perps tracking Yushu Technology Co., Ltd., cash-settled, 24/7, up to 5x leverage, margined in USDC, hourly funding. Users get linear price exposure only - no ownership, dividend or voting rights in the underlying. Adapter snapshot 2026-09-21: mark $73.61, open interest $16.51K, 24h volume $1.98K. Added 2026-09-21 in the third Ondo Perps expansion batch, taking the registry from 45 to 56 RWA markets; the adapter's 65 live rows include 9 crypto perps (BTC, ENA, ETH, HYPE, ONDO, PUMP, SOL, XRP, ZEC) that are out of scope.",
-    "refLinks": [
-      "https://app.ondoperps.xyz/trade/perps/UNITREE-USD.P?ref=76ZCWB"
-    ]
+    "description": "Single-stock perpetual market on Ondo Perps tracking Yushu Technology Co., Ltd., cash-settled, 24/7, up to 5x leverage, margined in USDC, hourly funding. Users get linear price exposure only - no ownership, dividend or voting rights in the underlying. Adapter snapshot 2026-09-21: mark $73.61, open interest $16.51K, 24h volume $1.98K. Added 2026-09-21 in the third Ondo Perps expansion batch, taking the registry from 45 to 56 RWA markets; the adapter's 65 live rows include 9 crypto perps (BTC, ENA, ETH, HYPE, ONDO, PUMP, SOL, XRP, ZEC) that are out of scope."
   }
 }

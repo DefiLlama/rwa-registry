@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "IREN-USD",
-    "name": "gTrade IREN Perp",
     "legacyId": 4572
   },
   "tracks": {
@@ -13,7 +12,6 @@
     "pair": "IREN-USDC"
   },
   "about": {
-    "description": "Single-stock perpetual on Gains Network tracking IREN Limited. Users get linear exposure to the underlying without owning shares. Cash-settled in USDC.",
-    "logo": "https://icons.llamao.fi/icons/rwa/iren.png?w=48&h=48"
+    "description": "Single-stock perpetual on Gains Network tracking IREN Limited. Users get linear exposure to the underlying without owning shares. Cash-settled in USDC."
   }
 }

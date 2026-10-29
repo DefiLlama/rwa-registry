@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "CXMT",
-    "name": "trade[XYZ] ChangXin Memory Technologies Perp",
     "legacyId": 4770
   },
   "tracks": {
@@ -16,10 +15,6 @@
     "oracleProvider": "Pyth equity feed"
   },
   "about": {
-    "description": "CXMT is a single-stock perpetual on trade[XYZ] tracking ChangXin Memory Technologies. ChangXin Memory Technologies is a Chinese DRAM chip manufacturer and one of China's largest domestic memory producers (currently private, pre-IPO). The market is cash-settled with hourly funding, no shareholder rights, and no dividend rights in the underlying.",
-    "logo": "https://icons.llamao.fi/icons/rwa/cxmt.png?w=48&h=48",
-    "refLinks": [
-      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
-    ]
+    "description": "CXMT is a single-stock perpetual on trade[XYZ] tracking ChangXin Memory Technologies. ChangXin Memory Technologies is a Chinese DRAM chip manufacturer and one of China's largest domestic memory producers (currently private, pre-IPO). The market is cash-settled with hourly funding, no shareholder rights, and no dividend rights in the underlying."
   }
 }

@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "PA-PHI",
-    "name": "Parcl Philadelphia Real Estate Perp",
     "legacyId": 3869
   },
   "tracks": {
@@ -13,8 +12,7 @@
     "pair": "PA-PHI-USDC"
   },
   "about": {
-    "description": "Philadelphia metro real estate perpetual on Parcl. Verified live 2026-05-20.",
-    "logo": "https://icons.llamao.fi/icons/rwa/pa-phi.png?w=48&h=48"
+    "description": "Philadelphia metro real estate perpetual on Parcl. Verified live 2026-05-20."
   },
   "events": [
     {

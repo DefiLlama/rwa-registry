@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "US500S",
-    "name": "Variational US 500 Swap",
     "legacyId": 9141
   },
   "tracks": {
@@ -13,7 +12,6 @@
     "pair": "US500S-USDC"
   },
   "about": {
-    "description": "Cash-settled swap on Variational Omni tracking the S&P 500 Index, priced off Variational Omni's OLP-aggregated mid-quotes. Unlike the venue's perpetual markets this contract pays no periodic funding — the cost of carry is quoted into the bid/ask spread instead. Positions are margined and cash-settled in USDC on Arbitrum.",
-    "logo": "https://icons.llamao.fi/icons/rwa/us500.png?w=48&h=48"
+    "description": "Cash-settled swap on Variational Omni tracking the S&P 500 Index, priced off Variational Omni's OLP-aggregated mid-quotes. Unlike the venue's perpetual markets this contract pays no periodic funding — the cost of carry is quoted into the bid/ask spread instead. Positions are margined and cash-settled in USDC on Arbitrum."
   }
 }

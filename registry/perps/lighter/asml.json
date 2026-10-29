@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "ASML",
-    "name": "Lighter ASML Perp",
     "legacyId": 3358
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "ASML-USDC"
   },
   "about": {
-    "description": "Single-stock perpetual market tracking ASML Holding N.V. (US ADR). Users get linear exposure to ASML share-price moves without owning ASML shares, shareholder rights, or dividend claims, with pricing referencing an external 24/5 equity feed via Lighter's fair price oracle. Positions are margined and cash-settled in USDC.",
-    "logo": "https://icons.llamao.fi/icons/rwa/asml.png?w=48&h=48",
-    "refLinks": [
-      "https://app.lighter.xyz/trade/ASML?referral=FHT1N8AYKHP4"
-    ]
+    "description": "Single-stock perpetual market tracking ASML Holding N.V. (US ADR). Users get linear exposure to ASML share-price moves without owning ASML shares, shareholder rights, or dividend claims, with pricing referencing an external 24/5 equity feed via Lighter's fair price oracle. Positions are margined and cash-settled in USDC."
   }
 }

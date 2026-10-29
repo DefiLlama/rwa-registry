@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "GBPUSD",
-    "name": "Lighter GBP Perp",
     "legacyId": 3632
   },
   "tracks": {
@@ -16,10 +15,6 @@
     "oracleProvider": "Lighter fair price oracle"
   },
   "about": {
-    "description": "FX perpetual on Lighter Labs tracking British Pound (GBP) versus the US dollar, with pricing referencing Lighter fair price oracle. Positions are margined and cash-settled in USDC on Lighter ZK-rollup (Ethereum), giving users synthetic exposure to British Pound/USD price movement without holding either currency as cash.",
-    "logo": "https://icons.llamao.fi/icons/rwa/gbp.png?w=48&h=48",
-    "refLinks": [
-      "https://app.lighter.xyz/trade/GBPUSD?referral=FHT1N8AYKHP4"
-    ]
+    "description": "FX perpetual on Lighter Labs tracking British Pound (GBP) versus the US dollar, with pricing referencing Lighter fair price oracle. Positions are margined and cash-settled in USDC on Lighter ZK-rollup (Ethereum), giving users synthetic exposure to British Pound/USD price movement without holding either currency as cash."
   }
 }

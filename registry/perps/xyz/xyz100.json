@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "XYZ100",
-    "name": "trade[XYZ] XYZ100 Equity Index Perp",
     "legacyId": 2920
   },
   "tracks": {
@@ -16,10 +15,6 @@
     "oracleProvider": "Futures-based external reference methodology"
   },
   "about": {
-    "description": "Equity-index perpetual market tracking the XYZ100 benchmark, a broad public-equity basket used by trade[XYZ]. Users get synthetic index exposure rather than ownership of constituent shares, with pricing referencing an external index methodology. Positions are margined and cash-settled in USDC. Markets are visible on Hyperliquid under the xyz namespace, but are operated by trade[XYZ] rather than listed as core Hyperliquid perps.",
-    "logo": "https://icons.llamao.fi/icons/rwa/ndx.png?w=48&h=48",
-    "refLinks": [
-      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
-    ]
+    "description": "Equity-index perpetual market tracking the XYZ100 benchmark, a broad public-equity basket used by trade[XYZ]. Users get synthetic index exposure rather than ownership of constituent shares, with pricing referencing an external index methodology. Positions are margined and cash-settled in USDC. Markets are visible on Hyperliquid under the xyz namespace, but are operated by trade[XYZ] rather than listed as core Hyperliquid perps."
   }
 }

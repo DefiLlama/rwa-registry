@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "ON_24_5-USD",
-    "name": "Extended ON Semiconductor Perp",
     "legacyId": 8618
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "ON-USDC"
   },
   "about": {
-    "description": "Single-stock perpetual on Extended (formerly X10) tracking ON Semiconductor Corporation (ON), with pricing referencing Extended oracle. Users gain linear exposure to ON Semiconductor Corporation share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Starknet.",
-    "logo": "https://icons.llamao.fi/icons/rwa/on.png?w=48&h=48",
-    "refLinks": [
-      "https://app.extended.exchange/join/DEFILLAMAO"
-    ]
+    "description": "Single-stock perpetual on Extended (formerly X10) tracking ON Semiconductor Corporation (ON), with pricing referencing Extended oracle. Users gain linear exposure to ON Semiconductor Corporation share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Starknet."
   }
 }

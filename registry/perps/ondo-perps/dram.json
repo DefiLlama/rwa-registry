@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "DRAM",
-    "name": "Ondo Perps DRAM Perp",
     "legacyId": 4044
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "DRAM-USD"
   },
   "about": {
-    "description": "ETF perpetual market on Ondo Perps tracking Roundhill Memory ETF, cash-settled, 24/7, up to 10x leverage, hourly funding, launched 2026-06-09 (non-US users only). Verified live via adapter 2026-06-10.",
-    "logo": "https://icons.llamao.fi/icons/rwa/dram.png?w=48&h=48",
-    "refLinks": [
-      "https://app.ondoperps.xyz/trade/perps/DRAM-USD.P?ref=76ZCWB"
-    ]
+    "description": "ETF perpetual market on Ondo Perps tracking Roundhill Memory ETF, cash-settled, 24/7, up to 10x leverage, hourly funding, launched 2026-06-09 (non-US users only). Verified live via adapter 2026-06-10."
   }
 }

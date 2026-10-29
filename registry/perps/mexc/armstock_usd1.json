@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "ARMSTOCK_USD1",
-    "name": "MEXC Arm Holdings plc Perp (USD1)",
     "legacyId": 5721
   },
   "tracks": {
@@ -14,7 +13,6 @@
     "pair": "ARM-USD1"
   },
   "about": {
-    "description": "ARM is a single-stock perpetual listed on MEXC, tracking Arm Holdings plc, margined and cash-settled in USD1. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Up to 20× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification.",
-    "logo": "https://icons.llamao.fi/icons/rwa/arm.png?w=48&h=48"
+    "description": "ARM is a single-stock perpetual listed on MEXC, tracking Arm Holdings plc, margined and cash-settled in USD1. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Up to 20× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
   }
 }

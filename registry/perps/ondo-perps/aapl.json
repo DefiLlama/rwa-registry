@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "AAPL",
-    "name": "Ondo Perps Apple Perp",
     "legacyId": 4025
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "AAPL-USD"
   },
   "about": {
-    "description": "Single-stock perpetual market on Ondo Perps tracking Apple Inc, cash-settled, 24/7, up to 20x leverage, hourly funding, launched 2026-06-09 (non-US users only). Verified live via adapter 2026-06-10.",
-    "logo": "https://icons.llamao.fi/icons/rwa/aapl.png?w=48&h=48",
-    "refLinks": [
-      "https://app.ondoperps.xyz/trade/perps/AAPL-USD.P?ref=76ZCWB"
-    ]
+    "description": "Single-stock perpetual market on Ondo Perps tracking Apple Inc, cash-settled, 24/7, up to 20x leverage, hourly funding, launched 2026-06-09 (non-US users only). Verified live via adapter 2026-06-10."
   }
 }

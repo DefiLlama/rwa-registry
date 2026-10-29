@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "AMZN-USD",
-    "name": "Avantis Amazon Perp",
     "legacyId": 3065
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "AMZN-USD"
   },
   "about": {
-    "description": "Amazon perpetual on Avantis, cash-settled in USDC on Base.",
-    "logo": "https://icons.llamao.fi/icons/rwa/amzn.png?w=48&h=48",
-    "refLinks": [
-      "https://www.avantisfi.com/referral?code=DefiLlama"
-    ]
+    "description": "Amazon perpetual on Avantis, cash-settled in USDC on Base."
   }
 }

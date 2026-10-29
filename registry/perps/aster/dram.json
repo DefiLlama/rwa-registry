@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "DRAM",
-    "name": "Aster DRAM Perp",
     "legacyId": 3698
   },
   "tracks": {
@@ -15,10 +14,6 @@
     "takerFeeBps": null
   },
   "about": {
-    "description": "ETF perpetual on Aster tracking Roundhill Memory ETF (DRAM), a thematic memory-chip equity basket including Micron, SK Hynix, Samsung Electronics, and other DRAM and NAND memory producers, settled in USD1 on Aster Chain.",
-    "logo": "https://icons.llamao.fi/icons/rwa/roundhill-memory-etf.png?w=48&h=48",
-    "refLinks": [
-      "https://www.asterdex.com/en/referral/c6eF10"
-    ]
+    "description": "ETF perpetual on Aster tracking Roundhill Memory ETF (DRAM), a thematic memory-chip equity basket including Micron, SK Hynix, Samsung Electronics, and other DRAM and NAND memory producers, settled in USD1 on Aster Chain."
   }
 }

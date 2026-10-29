@@ -15,11 +15,7 @@
     "oracleProvider": "Kaiko / USO-derived WTI"
   },
   "about": {
-    "description": "WTI crude oil perpetual market. The contract tracks West Texas Intermediate crude oil using a futures-based reference price with scheduled contract rolls. Users get linear oil price exposure only, without owning physical crude, inventory claims, or a deliverable futures position. Pricing follows the market reference used by the km venue on Hyperliquid. Positions are margined and cash-settled in USDH. Markets are visible on Hyperliquid under the km namespace, but are operated by Markets by Kinetiq rather than listed as core Hyperliquid perps.",
-    "logo": "https://icons.llamao.fi/icons/rwa/usoil.png?w=48&h=48",
-    "refLinks": [
-      "https://markets.xyz/join/llama"
-    ]
+    "description": "WTI crude oil perpetual market. The contract tracks West Texas Intermediate crude oil using a futures-based reference price with scheduled contract rolls. Users get linear oil price exposure only, without owning physical crude, inventory claims, or a deliverable futures position. Pricing follows the market reference used by the km venue on Hyperliquid. Positions are margined and cash-settled in USDH. Markets are visible on Hyperliquid under the km namespace, but are operated by Markets by Kinetiq rather than listed as core Hyperliquid perps."
   },
   "events": [
     {

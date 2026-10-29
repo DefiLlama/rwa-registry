@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "SPX500m-USD",
-    "name": "Extended S&P 500 Perp",
     "legacyId": 3136
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "SPX-USD"
   },
   "about": {
-    "description": "S&P 500 perpetual on Extended on Starknet, cash-settled in USDC.",
-    "logo": "https://icons.llamao.fi/icons/rwa/spx.png?w=48&h=48",
-    "refLinks": [
-      "https://app.extended.exchange/join/DEFILLAMAO"
-    ]
+    "description": "S&P 500 perpetual on Extended on Starknet, cash-settled in USDC."
   }
 }

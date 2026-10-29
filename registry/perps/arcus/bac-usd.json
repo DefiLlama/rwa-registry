@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "BAC-USD",
-    "name": "Arcus Bank of America Perp",
     "legacyId": 4518
   },
   "tracks": {
@@ -13,11 +12,7 @@
     "pair": "BAC-USDG"
   },
   "about": {
-    "description": "Arcus perpetual market tracking Bank of America Corporation (NYSE: BAC) with 24/7 exposure to the underlying money-center bank stock. Total-return tracking (dividends, splits, and futures rolls passed through funding), cash-settled in USDG on the Arcus off-chain CLOB with permissioned appchain re-verification and EVM rootchain custody.",
-    "logo": "https://icons.llamao.fi/icons/rwa/bac.png?w=48&h=48",
-    "refLinks": [
-      "https://app.arcus.xyz/ref/DEFILLAMA"
-    ]
+    "description": "Arcus perpetual market tracking Bank of America Corporation (NYSE: BAC) with 24/7 exposure to the underlying money-center bank stock. Total-return tracking (dividends, splits, and futures rolls passed through funding), cash-settled in USDG on the Arcus off-chain CLOB with permissioned appchain re-verification and EVM rootchain custody."
   },
   "events": [
     {

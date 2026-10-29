@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "BOT-USD",
-    "name": "Arcus RoboStrategy Perp",
     "legacyId": 8653
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "BOT-USDG"
   },
   "about": {
-    "description": "Arcus perpetual market tracking RoboStrategy, Inc. (NASDAQ: BOT) with 24/7 exposure to the underlying robotics and physical AI holding company. Total-return tracking (dividends, splits, and futures rolls passed through funding), cash-settled in USDG on the Arcus off-chain CLOB with permissioned appchain re-verification and EVM rootchain custody.",
-    "logo": "https://icons.llamao.fi/icons/rwa/bot.png?w=48&h=48",
-    "refLinks": [
-      "https://app.arcus.xyz/ref/DEFILLAMA"
-    ]
+    "description": "Arcus perpetual market tracking RoboStrategy, Inc. (NASDAQ: BOT) with 24/7 exposure to the underlying robotics and physical AI holding company. Total-return tracking (dividends, splits, and futures rolls passed through funding), cash-settled in USDG on the Arcus off-chain CLOB with permissioned appchain re-verification and EVM rootchain custody."
   }
 }

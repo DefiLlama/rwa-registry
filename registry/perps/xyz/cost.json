@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "COST",
-    "name": "trade[XYZ] Costco Perp",
     "legacyId": 3241
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "COST-USDC"
   },
   "about": {
-    "description": "Single-stock perpetual market tracking Costco. Users get linear exposure to Costco share-price moves without owning Costco shares, shareholder rights, or dividend claims, cash-settled in USDC on trade[XYZ].",
-    "logo": "https://icons.llamao.fi/icons/rwa/cost.png?w=48&h=48",
-    "refLinks": [
-      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
-    ]
+    "description": "Single-stock perpetual market tracking Costco. Users get linear exposure to Costco share-price moves without owning Costco shares, shareholder rights, or dividend claims, cash-settled in USDC on trade[XYZ]."
   }
 }

@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "WTI",
-    "name": "CASH WTI Crude Oil Perp",
     "legacyId": 2937
   },
   "tracks": {
@@ -16,11 +15,7 @@
     "oracleProvider": "Pyth + SEDA dated-futures conv."
   },
   "about": {
-    "description": "WTI crude oil perpetual market. The contract tracks West Texas Intermediate crude oil using a futures-based reference price with scheduled contract rolls. Users get linear oil price exposure only, without owning physical crude, inventory claims, or a deliverable futures position, with pricing referencing dated futures and is converted into an implied spot-style oracle with scheduled rolls. Positions are margined and cash-settled in USDT. Markets are visible on Hyperliquid under the cash namespace, but are operated by Dreamcash rather than listed as core Hyperliquid perps.",
-    "logo": "https://icons.llamao.fi/icons/rwa/wti.png?w=48&h=48",
-    "refLinks": [
-      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
-    ]
+    "description": "WTI crude oil perpetual market. The contract tracks West Texas Intermediate crude oil using a futures-based reference price with scheduled contract rolls. Users get linear oil price exposure only, without owning physical crude, inventory claims, or a deliverable futures position, with pricing referencing dated futures and is converted into an implied spot-style oracle with scheduled rolls. Positions are margined and cash-settled in USDT. Markets are visible on Hyperliquid under the cash namespace, but are operated by Dreamcash rather than listed as core Hyperliquid perps."
   },
   "events": [
     {

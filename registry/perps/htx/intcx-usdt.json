@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "INTCX-USDT",
-    "name": "HTX Intel Corp. Perp",
     "legacyId": 6422
   },
   "tracks": {
@@ -15,7 +14,6 @@
     "takerFeeBps": 6
   },
   "about": {
-    "description": "INTCX is a single-stock perpetual listed on HTX, tracking Intel Corp., margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. HTX prices this market off the Backed xStock token for Intel Corp., a tokenized representation of the listed shares rather than the shares themselves. Funding settles every 8h. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification.",
-    "logo": "https://icons.llamao.fi/icons/rwa/intcx.png?w=48&h=48"
+    "description": "INTCX is a single-stock perpetual listed on HTX, tracking Intel Corp., margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. HTX prices this market off the Backed xStock token for Intel Corp., a tokenized representation of the listed shares rather than the shares themselves. Funding settles every 8h. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
   }
 }

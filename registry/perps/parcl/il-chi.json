@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "IL-CHI",
-    "name": "Parcl Chicago Perp",
     "legacyId": 3091
   },
   "tracks": {
@@ -13,8 +12,7 @@
     "pair": "CHI-USD"
   },
   "about": {
-    "description": "Chicago Housing Index perpetual on Parcl, cash-settled in USDC on Solana.",
-    "logo": "https://icons.llamao.fi/icons/rwa/il-chi.png?w=48&h=48"
+    "description": "Chicago Housing Index perpetual on Parcl, cash-settled in USDC on Solana."
   },
   "events": [
     {

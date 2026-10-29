@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "VRTX-USD",
-    "name": "Extended Vertex Pharmaceuticals Perp",
     "legacyId": 8638
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "VRTX-USDC"
   },
   "about": {
-    "description": "Single-stock perpetual on Extended (formerly X10) tracking Vertex Pharmaceuticals Incorporated (VRTX), with pricing referencing Extended oracle. Users gain linear exposure to Vertex Pharmaceuticals Incorporated share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Starknet.",
-    "logo": "https://icons.llamao.fi/icons/rwa/vrtx.png?w=48&h=48",
-    "refLinks": [
-      "https://app.extended.exchange/join/DEFILLAMAO"
-    ]
+    "description": "Single-stock perpetual on Extended (formerly X10) tracking Vertex Pharmaceuticals Incorporated (VRTX), with pricing referencing Extended oracle. Users gain linear exposure to Vertex Pharmaceuticals Incorporated share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Starknet."
   }
 }

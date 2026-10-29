@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "WDC",
-    "name": "Aster Western Digital Perp",
     "legacyId": 4388
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "WDC-USDT"
   },
   "about": {
-    "description": "Single-stock perpetual market on Aster tracking Western Digital, cash-settled.",
-    "logo": "https://icons.llamao.fi/icons/rwa/wdc.png?w=48&h=48",
-    "refLinks": [
-      "https://www.asterdex.com/en/referral/c6eF10"
-    ]
+    "description": "Single-stock perpetual market on Aster tracking Western Digital, cash-settled."
   }
 }

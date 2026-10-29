@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "LITE",
-    "name": "ApeX Omni Lumentum Perp",
     "legacyId": 4369
   },
   "tracks": {
@@ -18,10 +17,6 @@
   },
   "about": {
     "description": "Single-stock perpetual market on ApeX Omni tracking Lumentum, cash-settled.",
-    "logo": "https://icons.llamao.fi/icons/rwa/lite.png?w=48&h=48",
-    "refLinks": [
-      "https://omni.apex.exchange/referral?referralCode=T0S8V482"
-    ],
     "issuer": "ApeX Protocol"
   }
 }

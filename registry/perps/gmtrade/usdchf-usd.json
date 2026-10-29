@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "USDCHF-USD",
-    "name": "GMTrade USDCHF Perp",
     "legacyId": 3821
   },
   "tracks": {
@@ -15,10 +14,6 @@
     "takerFeeBps": 1.2
   },
   "about": {
-    "description": "USDCHF perpetual on GMTrade (Solana), USDC-margined. Tracks USD/CHF FX rate.",
-    "logo": "https://icons.llamao.fi/icons/rwa/usdchf.png?w=48&h=48",
-    "refLinks": [
-      "https://gmtrade.xyz/referrals/?ref=545"
-    ]
+    "description": "USDCHF perpetual on GMTrade (Solana), USDC-margined. Tracks USD/CHF FX rate."
   }
 }

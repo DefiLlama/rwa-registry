@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "USA100",
-    "name": "Felix USA100 Equity Index Perp",
     "legacyId": 3237
   },
   "tracks": {
@@ -13,11 +12,7 @@
     "pair": "USA100-USDH"
   },
   "about": {
-    "description": "Equity-index perpetual market tracking Nasdaq-100 Index. Users get synthetic index exposure rather than ownership of constituent shares, cash-settled in USDH on Felix.",
-    "logo": "https://icons.llamao.fi/icons/rwa/ndx.png?w=48&h=48",
-    "refLinks": [
-      "https://www.usefelix.xyz?ref=4BF702FF"
-    ]
+    "description": "Equity-index perpetual market tracking Nasdaq-100 Index. Users get synthetic index exposure rather than ownership of constituent shares, cash-settled in USDH on Felix."
   },
   "events": [
     {

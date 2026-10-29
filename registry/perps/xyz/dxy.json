@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "DXY",
-    "name": "trade[XYZ] DXY Perp",
     "legacyId": 3628
   },
   "tracks": {
@@ -16,11 +15,7 @@
     "oracleProvider": "Pyth / external FX reference methodology"
   },
   "about": {
-    "description": "FX-index perpetual on trade[XYZ] (Hyperunit) tracking the US Dollar Index (DXY), a basket measuring USD's value against a weighted set of major currencies (EUR, JPY, GBP, CAD, SEK, CHF), with pricing referencing Pyth / external FX reference methodology. Positions are margined and cash-settled in USDC on Hyperliquid (xyz namespace). Users gain synthetic DXY exposure without holding any underlying currency.",
-    "logo": "https://icons.llamao.fi/icons/rwa/dxy.png?w=48&h=48",
-    "refLinks": [
-      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
-    ]
+    "description": "FX-index perpetual on trade[XYZ] (Hyperunit) tracking the US Dollar Index (DXY), a basket measuring USD's value against a weighted set of major currencies (EUR, JPY, GBP, CAD, SEK, CHF), with pricing referencing Pyth / external FX reference methodology. Positions are margined and cash-settled in USDC on Hyperliquid (xyz namespace). Users gain synthetic DXY exposure without holding any underlying currency."
   },
   "events": [
     {

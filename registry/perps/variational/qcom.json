@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "QCOM",
-    "name": "Variational Omni Qualcomm Perp",
     "legacyId": 4415
   },
   "tracks": {
@@ -13,7 +12,6 @@
     "pair": "QCOM-USDC"
   },
   "about": {
-    "description": "Single-stock perpetual market on Variational Omni tracking Qualcomm, cash-settled.",
-    "logo": "https://icons.llamao.fi/icons/rwa/qcom.png?w=48&h=48"
+    "description": "Single-stock perpetual market on Variational Omni tracking Qualcomm, cash-settled."
   }
 }

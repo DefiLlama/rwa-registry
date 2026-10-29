@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "ANTHROPIC",
-    "name": "Ventuals Anthropic Valuation Perp",
     "legacyId": 3012
   },
   "tracks": {
@@ -16,11 +15,7 @@
     "oracleProvider": "Ventuals weighted oracle (Notice + 2h mark EMA)"
   },
   "about": {
-    "description": "Private-company valuation perpetual on Anthropic. The contract lets users trade Anthropic's implied valuation in valuation units, where 1 ANTHROPIC equals $1B of company valuation, without owning equity or SPV interests. Oracle prices use a weighted combination of Notice offchain valuation data and a 2-hour EMA of mark price. Max leverage 3x, open interest cap $3m, positions margined and cash-settled in USDH. Market is visible on Hyperliquid under the vntl namespace, but is operated by Ventuals rather than listed as a core Hyperliquid perp.",
-    "logo": "https://icons.llamao.fi/icons/rwa/anthropic.png?w=48&h=48",
-    "refLinks": [
-      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
-    ]
+    "description": "Private-company valuation perpetual on Anthropic. The contract lets users trade Anthropic's implied valuation in valuation units, where 1 ANTHROPIC equals $1B of company valuation, without owning equity or SPV interests. Oracle prices use a weighted combination of Notice offchain valuation data and a 2-hour EMA of mark price. Max leverage 3x, open interest cap $3m, positions margined and cash-settled in USDH. Market is visible on Hyperliquid under the vntl namespace, but is operated by Ventuals rather than listed as a core Hyperliquid perp."
   },
   "events": [
     {

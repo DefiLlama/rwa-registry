@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "GOOG_24_5-USD",
-    "name": "Extended GOOG Perp",
     "legacyId": 3615
   },
   "tracks": {
@@ -15,11 +14,7 @@
     "takerFeeBps": 5
   },
   "about": {
-    "description": "Single-stock perpetual on Extended (formerly X10) tracking Alphabet Inc. Class C (GOOG), with pricing referencing Extended oracle (24/5 equity feed). Users gain linear exposure to Alphabet Inc. Class C share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Starknet.",
-    "logo": "https://icons.llamao.fi/icons/rwa/goog.png?w=48&h=48",
-    "refLinks": [
-      "https://app.extended.exchange/join/DEFILLAMAO"
-    ]
+    "description": "Single-stock perpetual on Extended (formerly X10) tracking Alphabet Inc. Class C (GOOG), with pricing referencing Extended oracle (24/5 equity feed). Users gain linear exposure to Alphabet Inc. Class C share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Starknet."
   },
   "events": [
     {

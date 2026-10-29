@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "FANG-USD",
-    "name": "Extended Diamondback Energy Perp",
     "legacyId": 8598
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "FANG-USDC"
   },
   "about": {
-    "description": "Single-stock perpetual on Extended (formerly X10) tracking Diamondback Energy, Inc. (FANG), with pricing referencing Extended oracle. Users gain linear exposure to Diamondback Energy, Inc. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Starknet.",
-    "logo": "https://icons.llamao.fi/icons/rwa/fang.png?w=48&h=48",
-    "refLinks": [
-      "https://app.extended.exchange/join/DEFILLAMAO"
-    ]
+    "description": "Single-stock perpetual on Extended (formerly X10) tracking Diamondback Energy, Inc. (FANG), with pricing referencing Extended oracle. Users gain linear exposure to Diamondback Energy, Inc. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Starknet."
   }
 }

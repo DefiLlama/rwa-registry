@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "BOT",
-    "name": "Variational Omni RoboStrategy Trust Perp",
     "legacyId": 4767
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "BOT-USDC"
   },
   "about": {
-    "description": "BOT is a single-stock perpetual on Variational tracking RoboStrategy Trust. RoboStrategy Trust is a tokenized structured product referencing an AI-driven trading strategy portfolio. The market is cash-settled with hourly funding, no shareholder rights, and no dividend rights in the underlying.",
-    "logo": "https://icons.llamao.fi/icons/rwa/bot.png?w=48&h=48",
-    "refLinks": [
-      "0"
-    ]
+    "description": "BOT is a single-stock perpetual on Variational tracking RoboStrategy Trust. RoboStrategy Trust is a tokenized structured product referencing an AI-driven trading strategy portfolio. The market is cash-settled with hourly funding, no shareholder rights, and no dividend rights in the underlying."
   }
 }

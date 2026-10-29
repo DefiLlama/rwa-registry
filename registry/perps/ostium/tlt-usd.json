@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "TLT-USD",
-    "name": "Ostium TLT ETF Perp",
     "legacyId": 3548
   },
   "tracks": {
@@ -15,10 +14,6 @@
     "takerFeeBps": 5
   },
   "about": {
-    "description": "Bond perpetual on Ostium Labs priced off the iShares 20+ Year Treasury Bond ETF (TLT), a 20+ year Treasury ETF, with pricing referencing Stork / QUODD. Positions are margined and cash-settled in USDC on Arbitrum. Users get duration-and-credit exposure without holding ETF shares, accrued coupons, or distribution rights.",
-    "logo": "https://icons.llamao.fi/icons/rwa/tlt.png?w=48&h=48",
-    "refLinks": [
-      "https://app.ostium.com/trade?from=TLT&to=USD&ref=6X17X"
-    ]
+    "description": "Bond perpetual on Ostium Labs priced off the iShares 20+ Year Treasury Bond ETF (TLT), a 20+ year Treasury ETF, with pricing referencing Stork / QUODD. Positions are margined and cash-settled in USDC on Arbitrum. Users get duration-and-credit exposure without holding ETF shares, accrued coupons, or distribution rights."
   }
 }

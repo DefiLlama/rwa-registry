@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "COST",
-    "name": "Aster Costco Perp",
     "legacyId": 4379
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "COST-USDT"
   },
   "about": {
-    "description": "Single-stock perpetual market on Aster tracking Costco, cash-settled.",
-    "logo": "https://icons.llamao.fi/icons/rwa/cost.png?w=48&h=48",
-    "refLinks": [
-      "https://www.asterdex.com/en/referral/c6eF10"
-    ]
+    "description": "Single-stock perpetual market on Aster tracking Costco, cash-settled."
   }
 }

@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "PAXG",
-    "name": "Aster Pax Gold Perp",
     "legacyId": 3706
   },
   "tracks": {
@@ -15,10 +14,6 @@
     "takerFeeBps": 3.5
   },
   "about": {
-    "description": "Pax Gold perpetual on Aster, settled in USD1 on Aster Chain.",
-    "logo": "https://icons.llamao.fi/icons/rwa/paxg.png?w=48&h=48",
-    "refLinks": [
-      "https://www.asterdex.com/en/referral/c6eF10"
-    ]
+    "description": "Pax Gold perpetual on Aster, settled in USD1 on Aster Chain."
   }
 }

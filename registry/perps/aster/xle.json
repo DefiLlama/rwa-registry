@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "XLE",
-    "name": "Aster Energy Select SPDR Perp",
     "legacyId": 4558
   },
   "tracks": {
@@ -13,7 +12,6 @@
     "pair": "XLE-USDT"
   },
   "about": {
-    "description": "Single-fund perpetual on Aster tracking Energy Select Sector SPDR Fund. Users get linear exposure to the underlying without owning shares. Cash-settled in USDT.",
-    "logo": "https://icons.llamao.fi/icons/rwa/xle.png?w=48&h=48"
+    "description": "Single-fund perpetual on Aster tracking Energy Select Sector SPDR Fund. Users get linear exposure to the underlying without owning shares. Cash-settled in USDT."
   }
 }

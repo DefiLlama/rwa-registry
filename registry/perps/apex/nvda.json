@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "NVDA",
-    "name": "ApeX Omni NVIDIA Perp",
     "legacyId": 3108
   },
   "tracks": {
@@ -18,10 +17,6 @@
   },
   "about": {
     "description": "NVIDIA perpetual on ApeX Omni via zkLink, cash-settled in USDT.",
-    "logo": "https://icons.llamao.fi/icons/rwa/nvda.png?w=48&h=48",
-    "refLinks": [
-      "https://omni.apex.exchange/referral?referralCode=T0S8V482"
-    ],
     "issuer": "ApeX Protocol"
   }
 }

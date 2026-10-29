@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "LLY",
-    "name": "Aster Eli Lilly Perp",
     "legacyId": 3977
   },
   "tracks": {
@@ -15,10 +14,6 @@
     "takerFeeBps": null
   },
   "about": {
-    "description": "Single-stock perpetual market on Aster tracking Eli Lilly and Company, cash-settled.",
-    "logo": "https://icons.llamao.fi/icons/rwa/lly.png?w=48&h=48",
-    "refLinks": [
-      "https://www.asterdex.com/en/referral/c6eF10"
-    ]
+    "description": "Single-stock perpetual market on Aster tracking Eli Lilly and Company, cash-settled."
   }
 }

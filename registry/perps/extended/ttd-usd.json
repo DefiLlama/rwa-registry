@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "TTD-USD",
-    "name": "Extended The Trade Desk Perp",
     "legacyId": 8635
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "TTD-USDC"
   },
   "about": {
-    "description": "Single-stock perpetual on Extended (formerly X10) tracking The Trade Desk, Inc. (TTD), with pricing referencing Extended oracle. Users gain linear exposure to The Trade Desk, Inc. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Starknet.",
-    "logo": "https://icons.llamao.fi/icons/rwa/ttd.png?w=48&h=48",
-    "refLinks": [
-      "https://app.extended.exchange/join/DEFILLAMAO"
-    ]
+    "description": "Single-stock perpetual on Extended (formerly X10) tracking The Trade Desk, Inc. (TTD), with pricing referencing Extended oracle. Users gain linear exposure to The Trade Desk, Inc. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Starknet."
   }
 }

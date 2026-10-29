@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "GOOGL-USD",
-    "name": "gTrade Alphabet Perp",
     "legacyId": 4458
   },
   "tracks": {
@@ -15,7 +14,6 @@
     "takerFeeBps": 5
   },
   "about": {
-    "description": "Alphabet (Class A) perpetual on gTrade, synthetic and cash-settled in USDC on Arbitrum.",
-    "logo": "https://icons.llamao.fi/icons/rwa/googl.png?w=48&h=48"
+    "description": "Alphabet (Class A) perpetual on gTrade, synthetic and cash-settled in USDC on Arbitrum."
   }
 }

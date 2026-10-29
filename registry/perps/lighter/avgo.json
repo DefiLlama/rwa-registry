@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "AVGO",
-    "name": "Lighter Broadcom Perp",
     "legacyId": 4512
   },
   "tracks": {
@@ -13,11 +12,7 @@
     "pair": "AVGO-USDC"
   },
   "about": {
-    "description": "Single-stock perpetual market on Lighter tracking Broadcom Inc. Users get linear exposure to share-price moves without owning shares, settled in USDC.",
-    "logo": "https://icons.llamao.fi/icons/rwa/avgo.png?w=48&h=48",
-    "refLinks": [
-      "https://app.lighter.xyz/trade/AVGO?referral=FHT1N8AYKHP4"
-    ]
+    "description": "Single-stock perpetual market on Lighter tracking Broadcom Inc. Users get linear exposure to share-price moves without owning shares, settled in USDC."
   },
   "events": [
     {

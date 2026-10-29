@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "CL",
-    "name": "Paradex WTI Crude Oil Perp",
     "legacyId": 4744
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "CL-USD-PERP"
   },
   "about": {
-    "description": "CL is a commodity perpetual on Paradex tracking WTI Crude Oil spot pricing. Paradex is a permissionless perp and options DEX operating on its own Starknet-based appchain (Paradex Chain / DimeVM), with zero-fee trading, unified cross-margin in USDC, and ZK-encrypted account privacy. The market is cash-settled in USDC.",
-    "logo": "https://icons.llamao.fi/icons/rwa/cl.png?w=48&h=48",
-    "refLinks": [
-      "0"
-    ]
+    "description": "CL is a commodity perpetual on Paradex tracking WTI Crude Oil spot pricing. Paradex is a permissionless perp and options DEX operating on its own Starknet-based appchain (Paradex Chain / DimeVM), with zero-fee trading, unified cross-margin in USDC, and ZK-encrypted account privacy. The market is cash-settled in USDC."
   }
 }

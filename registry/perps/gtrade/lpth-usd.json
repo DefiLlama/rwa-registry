@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "LPTH-USD",
-    "name": "gTrade LPTH Perp",
     "legacyId": 4573
   },
   "tracks": {
@@ -13,8 +12,7 @@
     "pair": "LPTH-USDC"
   },
   "about": {
-    "description": "Single-stock perpetual on Gains Network tracking LightPath Technologies Inc. Users get linear exposure to the underlying without owning shares. Cash-settled in USDC.",
-    "logo": "https://icons.llamao.fi/icons/rwa/lpth.png?w=48&h=48"
+    "description": "Single-stock perpetual on Gains Network tracking LightPath Technologies Inc. Users get linear exposure to the underlying without owning shares. Cash-settled in USDC."
   },
   "events": [
     {

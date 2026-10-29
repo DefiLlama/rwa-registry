@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "RDDT",
-    "name": "Paragon Reddit Perp",
     "legacyId": 8794
   },
   "tracks": {
@@ -13,9 +12,6 @@
     "pair": "RDDT-USDC"
   },
   "about": {
-    "description": "Single-stock perpetual market tracking Reddit, Inc. (RDDT) on Paragon. Users get linear exposure to RDDT share-price moves without owning RDDT shares, shareholder rights, or dividend claims. HIP-3 builder-deployed market on Hyperliquid in the para namespace, cash-settled in USDC.",
-    "refLinks": [
-      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
-    ]
+    "description": "Single-stock perpetual market tracking Reddit, Inc. (RDDT) on Paragon. Users get linear exposure to RDDT share-price moves without owning RDDT shares, shareholder rights, or dividend claims. HIP-3 builder-deployed market on Hyperliquid in the para namespace, cash-settled in USDC."
   }
 }

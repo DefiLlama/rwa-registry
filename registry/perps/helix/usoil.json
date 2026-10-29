@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "USOIL",
-    "name": "Helix USOIL (WTI) Perp",
     "legacyId": 3552
   },
   "tracks": {
@@ -15,8 +14,7 @@
     "takerFeeBps": 7
   },
   "about": {
-    "description": "West Texas Intermediate (WTI) crude oil perpetual on Helix (Injective), traded under the on-venue symbol USOIL, cash-settled in USDT.",
-    "logo": "https://icons.llamao.fi/icons/rwa/wti.png?w=48&h=48"
+    "description": "West Texas Intermediate (WTI) crude oil perpetual on Helix (Injective), traded under the on-venue symbol USOIL, cash-settled in USDT."
   },
   "events": [
     {

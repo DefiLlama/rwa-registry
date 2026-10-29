@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "GME-USD",
-    "name": "gTrade GameStop Perp",
     "legacyId": 3719
   },
   "tracks": {
@@ -13,8 +12,7 @@
     "pair": "GME-USDC"
   },
   "about": {
-    "description": "DELISTED. GTrade reorganized its perp listings. The canonical gtrade:GME-USD is no longer the active market on gTrade (per may26 adapter, $0 OI / $0 24h vol). The active gTrade GME perp is at gtrade:GME_1-USD (separate RID). Marked Delisted=True on 2026-05-26.",
-    "logo": "https://icons.llamao.fi/icons/rwa/gme.png?w=48&h=48"
+    "description": "DELISTED. GTrade reorganized its perp listings. The canonical gtrade:GME-USD is no longer the active market on gTrade (per may26 adapter, $0 OI / $0 24h vol). The active gTrade GME perp is at gtrade:GME_1-USD (separate RID). Marked Delisted=True on 2026-05-26."
   },
   "events": [
     {

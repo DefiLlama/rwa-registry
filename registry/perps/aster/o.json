@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "O",
-    "name": "Aster Realty Income Perp",
     "legacyId": 4465
   },
   "tracks": {
@@ -15,10 +14,6 @@
     "takerFeeBps": 3.5
   },
   "about": {
-    "description": "Single-stock perpetual on Aster (YZi Labs-backed) tracking Realty Income Corp (NYSE: O). Monthly-dividend REIT, with pricing referencing Aster custom oracle (24/5 equity feed). Users gain synthetic exposure to O share-price moves without holding equity, USDT-margined, cash-settled.",
-    "logo": "https://icons.llamao.fi/icons/rwa/o.png?w=48&h=48",
-    "refLinks": [
-      "https://www.asterdex.com/en/referral/c6eF10"
-    ]
+    "description": "Single-stock perpetual on Aster (YZi Labs-backed) tracking Realty Income Corp (NYSE: O). Monthly-dividend REIT, with pricing referencing Aster custom oracle (24/5 equity feed). Users gain synthetic exposure to O share-price moves without holding equity, USDT-margined, cash-settled."
   }
 }

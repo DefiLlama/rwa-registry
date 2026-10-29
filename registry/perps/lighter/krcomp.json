@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "KRCOMP",
-    "name": "Lighter Korea Composite Perp",
     "legacyId": 3536
   },
   "tracks": {
@@ -16,11 +15,7 @@
     "oracleProvider": "Lighter fair price oracle"
   },
   "about": {
-    "description": "Equity-index perpetual on Lighter Labs tracking KOSPI Composite Index (KOSPI), with pricing referencing Lighter fair price oracle. Users gain linear exposure to the index level without holding any underlying constituent stocks or futures. Positions are margined and cash-settled in USDC on Lighter ZK-rollup (Ethereum).",
-    "logo": "https://icons.llamao.fi/icons/rwa/kospi.png?w=48&h=48",
-    "refLinks": [
-      "https://app.lighter.xyz/trade/ETH?referral=FHT1N8AYKHP4"
-    ]
+    "description": "Equity-index perpetual on Lighter Labs tracking KOSPI Composite Index (KOSPI), with pricing referencing Lighter fair price oracle. Users gain linear exposure to the index level without holding any underlying constituent stocks or futures. Positions are margined and cash-settled in USDC on Lighter ZK-rollup (Ethereum)."
   },
   "events": [
     {

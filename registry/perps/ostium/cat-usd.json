@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "CAT-USD",
-    "name": "Ostium Caterpillar Perp",
     "legacyId": 3304
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "CAT-USD"
   },
   "about": {
-    "description": "Caterpillar perpetual on Ostium, cash-settled in USDC on Arbitrum. Trades during U.S. stock market hours only (9:30 AM - 4:00 PM ET, Monday-Friday).",
-    "logo": "https://icons.llamao.fi/icons/rwa/cat.png?w=48&h=48",
-    "refLinks": [
-      "https://app.ostium.com/trade?from=CAT&to=USD&ref=6X17X"
-    ]
+    "description": "Caterpillar perpetual on Ostium, cash-settled in USDC on Arbitrum. Trades during U.S. stock market hours only (9:30 AM - 4:00 PM ET, Monday-Friday)."
   }
 }

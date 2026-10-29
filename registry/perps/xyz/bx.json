@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "BX",
-    "name": "trade[XYZ] Blackstone Perp",
     "legacyId": 3269
   },
   "tracks": {
@@ -16,10 +15,6 @@
     "oracleProvider": "Pyth equity feed"
   },
   "about": {
-    "description": "Single-stock perpetual market tracking Blackstone. Users get linear exposure to Blackstone share-price moves without owning Blackstone shares, shareholder rights, or dividend claims, cash-settled in USDC on trade[XYZ].",
-    "logo": "https://icons.llamao.fi/icons/rwa/bx.png?w=48&h=48",
-    "refLinks": [
-      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
-    ]
+    "description": "Single-stock perpetual market tracking Blackstone. Users get linear exposure to Blackstone share-price moves without owning Blackstone shares, shareholder rights, or dividend claims, cash-settled in USDC on trade[XYZ]."
   }
 }

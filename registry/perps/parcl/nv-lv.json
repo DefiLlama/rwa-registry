@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "NV-LV",
-    "name": "Parcl Las Vegas Real Estate Perp",
     "legacyId": 3880
   },
   "tracks": {
@@ -13,8 +12,7 @@
     "pair": "NV-LV-USDC"
   },
   "about": {
-    "description": "Las Vegas metro real estate perpetual on Parcl. Verified live 2026-05-20.",
-    "logo": "https://icons.llamao.fi/icons/rwa/nv-lv.png?w=48&h=48"
+    "description": "Las Vegas metro real estate perpetual on Parcl. Verified live 2026-05-20."
   },
   "events": [
     {

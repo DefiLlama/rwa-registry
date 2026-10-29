@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "SOXL",
-    "name": "Ondo Perps Direxion Daily Semiconductor Bull 3X ETF Perp",
     "legacyId": 9037
   },
   "tracks": {
@@ -13,9 +12,6 @@
     "pair": "SOXL-USD"
   },
   "about": {
-    "description": "ETF perpetual market on Ondo Perps tracking the Direxion Daily Semiconductor Bull 3X ETF, cash-settled, 24/7, up to 10x leverage, margined in USDC, hourly funding. Users get linear price exposure only - no ownership, dividend or voting rights in the underlying. Adapter snapshot 2026-08-25: mark $116.33, open interest $176.92K, 24h volume $193.25K. Added 2026-08-25 in the second Ondo Perps expansion batch, taking the registry from 35 to 45 RWA markets; the adapter's 50 live rows include 5 crypto perps (BTC, ETH, SOL, HYPE, ONDO) that are out of scope.",
-    "refLinks": [
-      "https://app.ondoperps.xyz/trade/perps/SOXL-USD.P?ref=76ZCWB"
-    ]
+    "description": "ETF perpetual market on Ondo Perps tracking the Direxion Daily Semiconductor Bull 3X ETF, cash-settled, 24/7, up to 10x leverage, margined in USDC, hourly funding. Users get linear price exposure only - no ownership, dividend or voting rights in the underlying. Adapter snapshot 2026-08-25: mark $116.33, open interest $176.92K, 24h volume $193.25K. Added 2026-08-25 in the second Ondo Perps expansion batch, taking the registry from 35 to 45 RWA markets; the adapter's 50 live rows include 5 crypto perps (BTC, ETH, SOL, HYPE, ONDO) that are out of scope."
   }
 }

@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "QQQ",
-    "name": "Ondo Perps Invesco QQQ Perp",
     "legacyId": 8827
   },
   "tracks": {
@@ -13,9 +12,6 @@
     "pair": "QQQ-USD"
   },
   "about": {
-    "description": "ETF perpetual market on Ondo Perps tracking the Invesco QQQ Trust, Series 1, cash-settled, 24/7, up to 20x leverage, margined in USDC. Users get linear price exposure only - no ownership, dividend or voting rights in the underlying. Adapter snapshot 2026-08-19: mark $718.4600, open interest $2.92M, 24h volume $4.05M. Added 2026-08-19 to reconcile the registry with Ondo's stated 35 RWA markets; the adapter's 40 rows include 5 crypto perps (BTC, ETH, SOL, HYPE, ONDO) that are out of scope.",
-    "refLinks": [
-      "https://app.ondoperps.xyz/trade/perps/QQQ-USD.P?ref=76ZCWB"
-    ]
+    "description": "ETF perpetual market on Ondo Perps tracking the Invesco QQQ Trust, Series 1, cash-settled, 24/7, up to 20x leverage, margined in USDC. Users get linear price exposure only - no ownership, dividend or voting rights in the underlying. Adapter snapshot 2026-08-19: mark $718.4600, open interest $2.92M, 24h volume $4.05M. Added 2026-08-19 to reconcile the registry with Ondo's stated 35 RWA markets; the adapter's 40 rows include 5 crypto perps (BTC, ETH, SOL, HYPE, ONDO) that are out of scope."
   }
 }

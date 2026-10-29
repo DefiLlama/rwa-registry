@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "CBRS_24_5-USD",
-    "name": "Extended Cerebras Systems Perp",
     "legacyId": 8589
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "CBRS-USDC"
   },
   "about": {
-    "description": "Single-stock perpetual on Extended (formerly X10) tracking Cerebras Systems Inc. (CBRS), with pricing referencing Extended oracle. Users gain linear exposure to Cerebras Systems Inc. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Starknet.",
-    "logo": "https://icons.llamao.fi/icons/rwa/cbrs.png?w=48&h=48",
-    "refLinks": [
-      "https://app.extended.exchange/join/DEFILLAMAO"
-    ]
+    "description": "Single-stock perpetual on Extended (formerly X10) tracking Cerebras Systems Inc. (CBRS), with pricing referencing Extended oracle. Users gain linear exposure to Cerebras Systems Inc. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Starknet."
   }
 }

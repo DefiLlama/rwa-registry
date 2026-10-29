@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "US500",
-    "name": "Markets by Kinetiq US500 Equity Index Perp",
     "legacyId": 2964
   },
   "tracks": {
@@ -16,11 +15,7 @@
     "oracleProvider": "Kaiko / SPY-derived index"
   },
   "about": {
-    "description": "Equity-index perpetual market tracking a large-cap U.S. equity benchmark commonly used as a proxy for the U.S. public stock market. Users get synthetic index exposure rather than ownership of constituent shares. Pricing follows the market reference used by the km venue on Hyperliquid. Positions are margined and cash-settled in USDH. Markets are visible on Hyperliquid under the km namespace, but are operated by Markets by Kinetiq rather than listed as core Hyperliquid perps.",
-    "logo": "https://icons.llamao.fi/icons/rwa/spx.png?w=48&h=48",
-    "refLinks": [
-      "https://markets.xyz/join/llama"
-    ]
+    "description": "Equity-index perpetual market tracking a large-cap U.S. equity benchmark commonly used as a proxy for the U.S. public stock market. Users get synthetic index exposure rather than ownership of constituent shares. Pricing follows the market reference used by the km venue on Hyperliquid. Positions are margined and cash-settled in USDH. Markets are visible on Hyperliquid under the km namespace, but are operated by Markets by Kinetiq rather than listed as core Hyperliquid perps."
   },
   "events": [
     {

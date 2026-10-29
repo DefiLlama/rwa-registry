@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "COST",
-    "name": "Variational Omni Costco Wholesale Corporation Perp",
     "legacyId": 4590
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "COST-USDC"
   },
   "about": {
-    "description": "COST is a single-stock perpetual on Variational tracking Costco Wholesale Corporation. Costco Wholesale Corporation is a US membership-only warehouse club retailer (Nasdaq: COST). The market is cash-settled with hourly funding, no shareholder rights, and no dividend rights in the underlying.",
-    "logo": "https://icons.llamao.fi/icons/rwa/cost.png?w=48&h=48",
-    "refLinks": [
-      "0"
-    ]
+    "description": "COST is a single-stock perpetual on Variational tracking Costco Wholesale Corporation. Costco Wholesale Corporation is a US membership-only warehouse club retailer (Nasdaq: COST). The market is cash-settled with hourly funding, no shareholder rights, and no dividend rights in the underlying."
   }
 }

@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "REGN-USD",
-    "name": "Extended Regeneron Pharmaceuticals Perp",
     "legacyId": 8623
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "REGN-USDC"
   },
   "about": {
-    "description": "Single-stock perpetual on Extended (formerly X10) tracking Regeneron Pharmaceuticals, Inc. (REGN), with pricing referencing Extended oracle. Users gain linear exposure to Regeneron Pharmaceuticals, Inc. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Starknet.",
-    "logo": "https://icons.llamao.fi/icons/rwa/regn.png?w=48&h=48",
-    "refLinks": [
-      "https://app.extended.exchange/join/DEFILLAMAO"
-    ]
+    "description": "Single-stock perpetual on Extended (formerly X10) tracking Regeneron Pharmaceuticals, Inc. (REGN), with pricing referencing Extended oracle. Users gain linear exposure to Regeneron Pharmaceuticals, Inc. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Starknet."
   }
 }

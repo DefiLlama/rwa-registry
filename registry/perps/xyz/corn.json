@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "CORN",
-    "name": "trade[XYZ] Corn Perp",
     "legacyId": 3265
   },
   "tracks": {
@@ -16,11 +15,7 @@
     "oracleProvider": "Pyth / futures-based external reference methodology"
   },
   "about": {
-    "description": "Corn perpetual market. The contract tracks Corn price using the venue's reference methodology. Users get linear commodity-price exposure only, without title to physical inventory or delivery rights, cash-settled in USDC on trade[XYZ].",
-    "logo": "https://icons.llamao.fi/icons/rwa/corn.png?w=48&h=48",
-    "refLinks": [
-      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
-    ]
+    "description": "Corn perpetual market. The contract tracks Corn price using the venue's reference methodology. Users get linear commodity-price exposure only, without title to physical inventory or delivery rights, cash-settled in USDC on trade[XYZ]."
   },
   "events": [
     {

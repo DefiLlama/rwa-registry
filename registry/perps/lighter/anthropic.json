@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "ANTHROPIC",
-    "name": "Lighter Anthropic Pre-IPO Perp",
     "legacyId": 3979
   },
   "tracks": {
@@ -16,10 +15,6 @@
     "oracleProvider": "Pyth"
   },
   "about": {
-    "description": "Pre-IPO valuation perpetual on Lighter tracking Anthropic, cash-settled.",
-    "logo": "https://icons.llamao.fi/icons/rwa/anthropic.png?w=48&h=48",
-    "refLinks": [
-      "https://app.lighter.xyz/trade/ANTHROPIC?referral=FHT1N8AYKHP4"
-    ]
+    "description": "Pre-IPO valuation perpetual on Lighter tracking Anthropic, cash-settled."
   }
 }

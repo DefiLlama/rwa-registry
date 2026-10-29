@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "NBIS-USD",
-    "name": "Extended Nebius Group Perp",
     "legacyId": 8614
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "NBIS-USDC"
   },
   "about": {
-    "description": "Single-stock perpetual on Extended (formerly X10) tracking Nebius Group N.V. (NBIS), with pricing referencing Extended oracle. Users gain linear exposure to Nebius Group N.V. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Starknet.",
-    "logo": "https://icons.llamao.fi/icons/rwa/nbis.png?w=48&h=48",
-    "refLinks": [
-      "https://app.extended.exchange/join/DEFILLAMAO"
-    ]
+    "description": "Single-stock perpetual on Extended (formerly X10) tracking Nebius Group N.V. (NBIS), with pricing referencing Extended oracle. Users gain linear exposure to Nebius Group N.V. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Starknet."
   }
 }

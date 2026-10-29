@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "SBUX-USD",
-    "name": "gTrade SBUX Perp",
     "legacyId": 3580
   },
   "tracks": {
@@ -13,7 +12,6 @@
     "pair": "SBUX-USDC"
   },
   "about": {
-    "description": "Single-stock perpetual on Gains Network tracking Starbucks Corporation (SBUX), with pricing referencing Chainlink DON (24/5 equity feed). Users gain linear exposure to Starbucks Corporation share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC / DAI / WETH on Arbitrum / Polygon / Base.",
-    "logo": "https://icons.llamao.fi/icons/rwa/sbux.png?w=48&h=48"
+    "description": "Single-stock perpetual on Gains Network tracking Starbucks Corporation (SBUX), with pricing referencing Chainlink DON (24/5 equity feed). Users gain linear exposure to Starbucks Corporation share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC / DAI / WETH on Arbitrum / Polygon / Base."
   }
 }

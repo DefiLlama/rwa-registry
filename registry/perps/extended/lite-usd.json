@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "LITE-USD",
-    "name": "Extended Lumentum Holdings Perp",
     "legacyId": 8609
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "LITE-USDC"
   },
   "about": {
-    "description": "Single-stock perpetual on Extended (formerly X10) tracking Lumentum Holdings Inc. (LITE), with pricing referencing Extended oracle. Users gain linear exposure to Lumentum Holdings Inc. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Starknet.",
-    "logo": "https://icons.llamao.fi/icons/rwa/lite.png?w=48&h=48",
-    "refLinks": [
-      "https://app.extended.exchange/join/DEFILLAMAO"
-    ]
+    "description": "Single-stock perpetual on Extended (formerly X10) tracking Lumentum Holdings Inc. (LITE), with pricing referencing Extended oracle. Users gain linear exposure to Lumentum Holdings Inc. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Starknet."
   }
 }

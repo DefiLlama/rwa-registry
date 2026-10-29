@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "ZM",
-    "name": "Aster Zoom Perp",
     "legacyId": 4436
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "ZM-USDT"
   },
   "about": {
-    "description": "Single-stock perpetual market on Aster tracking Zoom Communications, Inc. (NASDAQ: ZM), cash-settled.",
-    "logo": "https://icons.llamao.fi/icons/rwa/zm.png?w=48&h=48",
-    "refLinks": [
-      "https://www.asterdex.com/en/referral/c6eF10"
-    ]
+    "description": "Single-stock perpetual market on Aster tracking Zoom Communications, Inc. (NASDAQ: ZM), cash-settled."
   }
 }

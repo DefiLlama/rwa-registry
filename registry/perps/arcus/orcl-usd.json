@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "ORCL-USD",
-    "name": "Arcus Oracle Perp",
     "legacyId": 4543
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "ORCL-USDG"
   },
   "about": {
-    "description": "Arcus perpetual market tracking Oracle Corporation (NYSE: ORCL) with 24/7 exposure to the underlying enterprise software stock. Total-return tracking (dividends, splits, and futures rolls passed through funding), cash-settled in USDG on the Arcus off-chain CLOB with permissioned appchain re-verification and EVM rootchain custody.",
-    "logo": "https://icons.llamao.fi/icons/rwa/orcl.png?w=48&h=48",
-    "refLinks": [
-      "https://app.arcus.xyz/ref/DEFILLAMA"
-    ]
+    "description": "Arcus perpetual market tracking Oracle Corporation (NYSE: ORCL) with 24/7 exposure to the underlying enterprise software stock. Total-return tracking (dividends, splits, and futures rolls passed through funding), cash-settled in USDG on the Arcus off-chain CLOB with permissioned appchain re-verification and EVM rootchain custody."
   }
 }

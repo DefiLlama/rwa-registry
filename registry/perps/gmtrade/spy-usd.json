@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "SPY-USD",
-    "name": "GMTrade SPY ETF Perp",
     "legacyId": 3831
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "SPY-USDC"
   },
   "about": {
-    "description": "SPY ETF perpetual on GMTrade (Solana). Tracks SPDR S&P 500 ETF Trust, USDC-margined.",
-    "logo": "https://icons.llamao.fi/icons/rwa/spy.png?w=48&h=48",
-    "refLinks": [
-      "https://gmtrade.xyz/referrals/?ref=545"
-    ]
+    "description": "SPY ETF perpetual on GMTrade (Solana). Tracks SPDR S&P 500 ETF Trust, USDC-margined."
   }
 }

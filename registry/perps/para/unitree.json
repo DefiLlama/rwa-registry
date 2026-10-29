@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "UNITREE",
-    "name": "Paragon Unitree Robotics Perp",
     "legacyId": 8783
   },
   "tracks": {
@@ -13,9 +12,6 @@
     "pair": "UNITREE-USDC"
   },
   "about": {
-    "description": "Single-stock perpetual market tracking Yushu Technology Co., Ltd. (Unitree Robotics) on Paragon. Users get linear exposure to the share price without owning shares, shareholder rights, or dividend claims. HIP-3 builder-deployed market on Hyperliquid in the para namespace, cash-settled in USDC. Unitree priced its Shanghai STAR Market IPO at CNY 150.80 on 2026-08-06 under code 688836, valuing it near CNY 61bn; subscriptions closed 2026-08-10 and the retail tranche was oversubscribed more than 8,000x. Shares had not yet begun trading as of 2026-08-14, with the debut expected 2026-08-17 to 08-21.",
-    "refLinks": [
-      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
-    ]
+    "description": "Single-stock perpetual market tracking Yushu Technology Co., Ltd. (Unitree Robotics) on Paragon. Users get linear exposure to the share price without owning shares, shareholder rights, or dividend claims. HIP-3 builder-deployed market on Hyperliquid in the para namespace, cash-settled in USDC. Unitree priced its Shanghai STAR Market IPO at CNY 150.80 on 2026-08-06 under code 688836, valuing it near CNY 61bn; subscriptions closed 2026-08-10 and the retail tranche was oversubscribed more than 8,000x. Shares had not yet begun trading as of 2026-08-14, with the debut expected 2026-08-17 to 08-21."
   }
 }

@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "XYZSPCX_ORCLPX-USD",
-    "name": "Extended SpaceX Perp",
     "legacyId": 3927
   },
   "tracks": {
@@ -18,11 +17,7 @@
     "oracleProvider": "trade[XYZ] (XYZSPCX) external valuation reference"
   },
   "about": {
-    "description": "Single-stock perpetual market on Extended tracking SpaceX (Space Exploration Technologies Corp.), publicly listed on Nasdaq (SPCX) since June 2026, cash-settled.",
-    "logo": "https://icons.llamao.fi/icons/rwa/spcx.png?w=48&h=48",
-    "refLinks": [
-      "https://app.extended.exchange/join/DEFILLAMAO"
-    ]
+    "description": "Single-stock perpetual market on Extended tracking SpaceX (Space Exploration Technologies Corp.), publicly listed on Nasdaq (SPCX) since June 2026, cash-settled."
   },
   "events": [
     {

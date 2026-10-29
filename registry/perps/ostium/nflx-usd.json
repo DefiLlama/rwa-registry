@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "NFLX-USD",
-    "name": "Ostium Netflix Perp",
     "legacyId": 3309
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "NFLX-USD"
   },
   "about": {
-    "description": "Netflix perpetual on Ostium, cash-settled in USDC on Arbitrum. Trades during U.S. stock market hours only (9:30 AM - 4:00 PM ET, Monday-Friday).",
-    "logo": "https://icons.llamao.fi/icons/rwa/nflx.png?w=48&h=48",
-    "refLinks": [
-      "https://app.ostium.com/trade?from=NFLX&to=USD&ref=6X17X"
-    ]
+    "description": "Netflix perpetual on Ostium, cash-settled in USDC on Arbitrum. Trades during U.S. stock market hours only (9:30 AM - 4:00 PM ET, Monday-Friday)."
   }
 }

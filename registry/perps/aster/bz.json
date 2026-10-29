@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "BZ",
-    "name": "Aster Brent Crude Oil Perp",
     "legacyId": 4372
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "BZ-USDT"
   },
   "about": {
-    "description": "Perpetual market on Aster tracking Brent Crude Oil, cash-settled.",
-    "logo": "https://icons.llamao.fi/icons/rwa/bz.png?w=48&h=48",
-    "refLinks": [
-      "https://www.asterdex.com/en/referral/c6eF10"
-    ]
+    "description": "Perpetual market on Aster tracking Brent Crude Oil, cash-settled."
   }
 }

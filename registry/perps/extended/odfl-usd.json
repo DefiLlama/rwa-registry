@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "ODFL-USD",
-    "name": "Extended Old Dominion Freight Line Perp",
     "legacyId": 8617
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "ODFL-USDC"
   },
   "about": {
-    "description": "Single-stock perpetual on Extended (formerly X10) tracking Old Dominion Freight Line, Inc. (ODFL), with pricing referencing Extended oracle. Users gain linear exposure to Old Dominion Freight Line, Inc. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Starknet.",
-    "logo": "https://icons.llamao.fi/icons/rwa/odfl.png?w=48&h=48",
-    "refLinks": [
-      "https://app.extended.exchange/join/DEFILLAMAO"
-    ]
+    "description": "Single-stock perpetual on Extended (formerly X10) tracking Old Dominion Freight Line, Inc. (ODFL), with pricing referencing Extended oracle. Users gain linear exposure to Old Dominion Freight Line, Inc. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Starknet."
   }
 }

@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "META_24_5-USD",
-    "name": "Extended Meta Perp",
     "legacyId": 3144
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "META-USD"
   },
   "about": {
-    "description": "Meta perpetual on Extended on Starknet, cash-settled in USDC.",
-    "logo": "https://icons.llamao.fi/icons/rwa/meta.png?w=48&h=48",
-    "refLinks": [
-      "https://app.extended.exchange/join/DEFILLAMAO"
-    ]
+    "description": "Meta perpetual on Extended on Starknet, cash-settled in USDC."
   }
 }

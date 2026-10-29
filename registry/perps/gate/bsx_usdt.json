@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "BSX_USDT",
-    "name": "Gate Boston Scientific Corp. Perp",
     "legacyId": 5892
   },
   "tracks": {
@@ -13,8 +12,7 @@
     "pair": "BSX-USDT"
   },
   "about": {
-    "description": "BSX is a single-stock perpetual listed on Gate, tracking Boston Scientific Corp., margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Gate prices this market off the Backed xStock token for Boston Scientific Corp., a tokenized representation of the listed shares rather than the shares themselves. Funding settles every 8h. Up to 20× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification.",
-    "logo": "https://icons.llamao.fi/icons/rwa/bsx.png?w=48&h=48"
+    "description": "BSX is a single-stock perpetual listed on Gate, tracking Boston Scientific Corp., margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Gate prices this market off the Backed xStock token for Boston Scientific Corp., a tokenized representation of the listed shares rather than the shares themselves. Funding settles every 8h. Up to 20× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
   },
   "events": [
     {

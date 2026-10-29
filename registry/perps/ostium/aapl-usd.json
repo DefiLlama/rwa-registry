@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "AAPL-USD",
-    "name": "Ostium Apple Perp",
     "legacyId": 3047
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "AAPL-USD"
   },
   "about": {
-    "description": "Apple perpetual on Ostium, cash-settled in USDC on Arbitrum. Trades during U.S. stock market hours only (9:30 AM - 4:00 PM ET, Monday-Friday).",
-    "logo": "https://icons.llamao.fi/icons/rwa/aapl.png?w=48&h=48",
-    "refLinks": [
-      "https://app.ostium.com/trade?from=AAPL&to=USD&ref=6X17X"
-    ]
+    "description": "Apple perpetual on Ostium, cash-settled in USDC on Arbitrum. Trades during U.S. stock market hours only (9:30 AM - 4:00 PM ET, Monday-Friday)."
   }
 }

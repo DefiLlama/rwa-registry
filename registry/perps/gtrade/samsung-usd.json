@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "SAMSUNG-USD",
-    "name": "gTrade Samsung Electronics Perp",
     "legacyId": 4500
   },
   "tracks": {
@@ -13,8 +12,7 @@
     "pair": "SAMSUNG-USD"
   },
   "about": {
-    "description": "gTrade perpetual market tracking Samsung Electronics Co., Ltd. Cash-settled USDC pair on Arbitrum with Chainlink DON oracle pricing.",
-    "logo": "https://icons.llamao.fi/icons/rwa/samsung.png?w=48&h=48"
+    "description": "gTrade perpetual market tracking Samsung Electronics Co., Ltd. Cash-settled USDC pair on Arbitrum with Chainlink DON oracle pricing."
   },
   "events": [
     {

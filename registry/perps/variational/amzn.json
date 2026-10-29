@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "AMZN",
-    "name": "Variational Omni Amazon.com Inc. Perp",
     "legacyId": 4752
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "AMZN-USDC"
   },
   "about": {
-    "description": "AMZN is a single-stock perpetual on Variational tracking Amazon.com Inc. Amazon.com Inc. operates e-commerce, AWS cloud infrastructure, advertising, and streaming media services (Nasdaq: AMZN). The market is cash-settled with hourly funding, no shareholder rights, and no dividend rights in the underlying.",
-    "logo": "https://icons.llamao.fi/icons/rwa/amzn.png?w=48&h=48",
-    "refLinks": [
-      "0"
-    ]
+    "description": "AMZN is a single-stock perpetual on Variational tracking Amazon.com Inc. Amazon.com Inc. operates e-commerce, AWS cloud infrastructure, advertising, and streaming media services (Nasdaq: AMZN). The market is cash-settled with hourly funding, no shareholder rights, and no dividend rights in the underlying."
   }
 }

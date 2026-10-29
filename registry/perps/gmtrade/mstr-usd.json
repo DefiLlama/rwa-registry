@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "MSTR-USD",
-    "name": "GMTrade Strategy Perp",
     "legacyId": 3828
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "MSTR-USDC"
   },
   "about": {
-    "description": "Strategy (MSTR, formerly MicroStrategy) perpetual on GMTrade (Solana), USDC-margined.",
-    "logo": "https://icons.llamao.fi/icons/rwa/mstr.png?w=48&h=48",
-    "refLinks": [
-      "https://gmtrade.xyz/referrals/?ref=545"
-    ]
+    "description": "Strategy (MSTR, formerly MicroStrategy) perpetual on GMTrade (Solana), USDC-margined."
   }
 }

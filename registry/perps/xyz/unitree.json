@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "UNITREE",
-    "name": "trade[XYZ] Unitree Robotics Perp",
     "legacyId": 8821
   },
   "tracks": {
@@ -13,9 +12,6 @@
     "pair": "UNITREE-USDC"
   },
   "about": {
-    "description": "Single-stock perpetual market tracking Yushu Technology Co., Ltd. (Unitree Robotics) on trade[XYZ]. Users get linear exposure to the share price without owning shares, shareholder rights, or dividend claims. HIP-3 builder-deployed market on Hyperliquid in the xyz namespace, cash-settled in USDC, isolated margin only, 10x max leverage. Hyperliquid API on 2026-08-19 reported 196,303.58 base open interest at a $114.23 mark (~$22.4M notional) and $114.36M 24h notional volume, making it the largest RWA perpetual market missing from the registry at the time it was added. Unitree priced its Shanghai STAR Market IPO at CNY 150.80 on 2026-08-06 under code 688836; shares had not yet begun trading as of 2026-08-14.",
-    "refLinks": [
-      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
-    ]
+    "description": "Single-stock perpetual market tracking Yushu Technology Co., Ltd. (Unitree Robotics) on trade[XYZ]. Users get linear exposure to the share price without owning shares, shareholder rights, or dividend claims. HIP-3 builder-deployed market on Hyperliquid in the xyz namespace, cash-settled in USDC, isolated margin only, 10x max leverage. Hyperliquid API on 2026-08-19 reported 196,303.58 base open interest at a $114.23 mark (~$22.4M notional) and $114.36M 24h notional volume, making it the largest RWA perpetual market missing from the registry at the time it was added. Unitree priced its Shanghai STAR Market IPO at CNY 150.80 on 2026-08-06 under code 688836; shares had not yet begun trading as of 2026-08-14."
   }
 }

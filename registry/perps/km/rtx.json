@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "RTX",
-    "name": "Markets by Kinetiq RTX Perp",
     "legacyId": 2972
   },
   "tracks": {
@@ -16,11 +15,7 @@
     "oracleProvider": "Kaiko / NYSE:RTX"
   },
   "about": {
-    "description": "Single-stock perpetual market tracking RTX Corporation. The contract gives synthetic exposure to RTX’s share price without ownership of the underlying shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDH. The market is visible on Hyperliquid under the km namespace, but it is operated by Markets by Kinetiq rather than listed as a core Hyperliquid perp.",
-    "logo": "https://icons.llamao.fi/icons/rwa/rtx.png?w=48&h=48",
-    "refLinks": [
-      "https://markets.xyz/join/llama"
-    ]
+    "description": "Single-stock perpetual market tracking RTX Corporation. The contract gives synthetic exposure to RTX’s share price without ownership of the underlying shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDH. The market is visible on Hyperliquid under the km namespace, but it is operated by Markets by Kinetiq rather than listed as a core Hyperliquid perp."
   },
   "events": [
     {

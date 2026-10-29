@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "NVDA-USD",
-    "name": "Avantis NVIDIA Perp",
     "legacyId": 3062
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "NVDA-USD"
   },
   "about": {
-    "description": "NVIDIA perpetual on Avantis, cash-settled in USDC on Base.",
-    "logo": "https://icons.llamao.fi/icons/rwa/nvda.png?w=48&h=48",
-    "refLinks": [
-      "https://www.avantisfi.com/referral?code=DefiLlama"
-    ]
+    "description": "NVIDIA perpetual on Avantis, cash-settled in USDC on Base."
   }
 }

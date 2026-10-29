@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "MU",
-    "name": "Lighter Micron Perp",
     "legacyId": 3531
   },
   "tracks": {
@@ -16,10 +15,6 @@
     "oracleProvider": "Lighter fair price oracle"
   },
   "about": {
-    "description": "Single-stock perpetual on Lighter Labs tracking Micron Technology, Inc. (MU), with pricing referencing Lighter fair price oracle (24/5 equity feed). Users gain linear exposure to Micron Technology, Inc. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Lighter ZK-rollup (Ethereum).",
-    "logo": "https://icons.llamao.fi/icons/rwa/mu.png?w=48&h=48",
-    "refLinks": [
-      "https://app.lighter.xyz/trade/MU?referral=FHT1N8AYKHP4"
-    ]
+    "description": "Single-stock perpetual on Lighter Labs tracking Micron Technology, Inc. (MU), with pricing referencing Lighter fair price oracle (24/5 equity feed). Users gain linear exposure to Micron Technology, Inc. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Lighter ZK-rollup (Ethereum)."
   }
 }

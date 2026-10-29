@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "TECH100m-USD",
-    "name": "Extended Nasdaq-100 Perp",
     "legacyId": 3137
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "NDX-USD"
   },
   "about": {
-    "description": "Nasdaq-100 perpetual on Extended on Starknet, cash-settled in USDC.",
-    "logo": "https://icons.llamao.fi/icons/rwa/ndx.png?w=48&h=48",
-    "refLinks": [
-      "https://app.extended.exchange/join/DEFILLAMAO"
-    ]
+    "description": "Nasdaq-100 perpetual on Extended on Starknet, cash-settled in USDC."
   }
 }

@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "LITE",
-    "name": "trade[XYZ] Lumentum Perp",
     "legacyId": 3264
   },
   "tracks": {
@@ -16,10 +15,6 @@
     "oracleProvider": "Pyth equity feed"
   },
   "about": {
-    "description": "Single-stock perpetual market tracking Lumentum Holdings. Users get linear exposure to Lumentum Holdings share-price moves without owning Lumentum Holdings shares, shareholder rights, or dividend claims, cash-settled in USDC on trade[XYZ].",
-    "logo": "https://icons.llamao.fi/icons/rwa/lite.png?w=48&h=48",
-    "refLinks": [
-      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
-    ]
+    "description": "Single-stock perpetual market tracking Lumentum Holdings. Users get linear exposure to Lumentum Holdings share-price moves without owning Lumentum Holdings shares, shareholder rights, or dividend claims, cash-settled in USDC on trade[XYZ]."
   }
 }

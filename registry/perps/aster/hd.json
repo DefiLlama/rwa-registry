@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "HD",
-    "name": "Aster Home Depot Perp",
     "legacyId": 4393
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "HD-USDT"
   },
   "about": {
-    "description": "Single-stock perpetual market on Aster tracking Home Depot, cash-settled.",
-    "logo": "https://icons.llamao.fi/icons/rwa/hd.png?w=48&h=48",
-    "refLinks": [
-      "https://www.asterdex.com/en/referral/c6eF10"
-    ]
+    "description": "Single-stock perpetual market on Aster tracking Home Depot, cash-settled."
   }
 }

@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "AAPL-USD",
-    "name": "GMTrade Apple Perp",
     "legacyId": 3823
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "AAPL-USDC"
   },
   "about": {
-    "description": "Apple (AAPL) perpetual on GMTrade (Solana), USDC-margined.",
-    "logo": "https://icons.llamao.fi/icons/rwa/aapl.png?w=48&h=48",
-    "refLinks": [
-      "https://gmtrade.xyz/referrals/?ref=545"
-    ]
+    "description": "Apple (AAPL) perpetual on GMTrade (Solana), USDC-margined."
   }
 }

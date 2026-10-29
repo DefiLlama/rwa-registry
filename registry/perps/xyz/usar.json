@@ -1,7 +1,6 @@
 {
   "identity": {
     "symbol": "USAR",
-    "name": "trade[XYZ] USAR Perp",
     "legacyId": 3250
   },
   "tracks": {
@@ -13,10 +12,6 @@
     "pair": "USAR-USDC"
   },
   "about": {
-    "description": "ETF perpetual market tracking USAR. Users get synthetic exposure to a listed fund rather than ownership of ETF shares or redemption rights in the fund, cash-settled in USDC on trade[XYZ].",
-    "logo": "https://icons.llamao.fi/icons/rwa/usar.png?w=48&h=48",
-    "refLinks": [
-      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
-    ]
+    "description": "ETF perpetual market tracking USAR. Users get synthetic exposure to a listed fund rather than ownership of ETF shares or redemption rights in the fund, cash-settled in USDC on trade[XYZ]."
   }
 }
