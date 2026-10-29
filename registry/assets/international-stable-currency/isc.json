@@ -34,14 +34,10 @@
   "about": {
     "description": "International Stable Currency (ISC) is presented as a basket-referenced stable asset designed to track the value of a diversified set of financial assets instead of a single fiat currency. The design aims to reduce exposure to any one currency’s inflation by referencing multiple asset classes.",
     "logo": "https://icons.llamao.fi/icons/rwa/international-stable-currency.png?w=48&h=48",
-    "registryInfo": "International Stable Currency (ISC) is presented as a decentralized protocol, published docs describe key entities such as the ISC Foundation and ISC Reserves, but no public LEI/CIK or regulated issuer entity is identified in public materials.",
     "links": {
       "website": [
         "https://isc.money"
-      ],
-      "twitter": "https://x.com/ISC_money",
-      "docs": "https://docs.iscy.io/",
-      "linkedin": "https://www.linkedin.com/company/iscy"
+      ]
     }
   },
   "review": {

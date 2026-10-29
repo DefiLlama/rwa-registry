@@ -30,14 +30,10 @@
   "about": {
     "description": "SILV is a tokenized silver product issued by Dominion Market on Solana. Each token is backed by one troy ounce of physical silver held in professional vault storage and the issuer names Brink's as custodian. The whitepaper states that holders do not receive legal title to any specific bar or individually identified ounce, so the position is a claim on the programme rather than on individually segregated metal. Redemption is currently settled in cash, with physical redemption of bars described by the issuer as planned rather than live. Onchain pricing is supplied by Pyth Lazer and an onchain reserve attestation is described as in deployment rather than complete. SILV is a Token 2022 mint carrying a permanent delegate and a freeze authority, so the issuer retains the ability to freeze balances and to move tokens without a holder signature. The token trades on Solana decentralized exchanges and is not listed on any centralized exchange.",
     "logo": "https://icons.llamao.fi/icons/rwa/dominion-silver.png?w=48&h=48",
-    "registryInfo": "Dominion Market operates the SILV silver tokenization programme and publishes its website under CMB Consulting FCZO. The issuer describes the backing as one troy ounce of LBMA grade physical silver per token, held in United States vault custody with Brink's acting as custodian.",
     "links": {
       "website": [
         "https://dominion.market/"
-      ],
-      "twitter": "https://x.com/Dominion_Market",
-      "docs": "https://dominion.market/whitepaper.html",
-      "telegram": "https://t.me/DominionSilverCommunity"
+      ]
     }
   },
   "review": {

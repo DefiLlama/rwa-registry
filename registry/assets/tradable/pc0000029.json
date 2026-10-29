@@ -26,13 +26,10 @@
   "about": {
     "description": "A senior secured delayed-draw term loan to a South American consumer lender offering buy-now-pay-later financing at the point of sale, secured by its BNPL loan receivables and refinancing a warehouse facility. Issued through Tradable on ZKsync Era with cash interest in the 13-14.5% range.",
     "logo": "https://icons.llamao.fi/icons/rwa/pc0000029.png?w=48&h=48",
-    "registryInfo": "Tradable Corp (not a registered investment adviser or broker-dealer), 150 N Riverside Plaza STE 5200, Chicago (offices of Victory Park Capital, a Janus Henderson company and seed investor; ParaFi invested Jan 2025). Each deal is a compliance-gated ERC-20 (country/investor-type/AML restrictions embedded); anonymized deal metadata pinned to IPFS; tokens minted on funding and burned pro-rata on principal repayment; USDC interest distributed pro-rata on-chain. Factory/registry contracts audited by Spearbit (Jul 2024) and Cantina (Oct 2024); KYC/KYB by Quadrata.",
     "links": {
       "website": [
         "https://www.tradable.xyz/"
-      ],
-      "twitter": "https://x.com/tradable_xyz",
-      "docs": "https://doc.tradable.xyz/product-docs"
+      ]
     }
   },
   "review": {

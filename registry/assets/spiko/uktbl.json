@@ -39,15 +39,10 @@
   "about": {
     "description": "Tokenized shares of the Spiko UK T-Bills Money Market Fund, a French AMF-approved money market fund investing exclusively in short-term UK Treasury Bills. Spiko states that investors can custody and transfer fund shares from their own wallet, while Spiko's smart contract architecture restricts holding to allowlisted, KYC-cleared addresses. CACEIS acts as depositary bank and fund administrator, HSBC is the sub-custodian for the Treasury Bills, and PwC is the statutory auditor, with audits performed quarterly. The prospectus provides for daily liquidity and withdrawals.",
     "logo": "https://icons.llamao.fi/icons/rwa/uktbl.png?w=48&h=48",
-    "registryInfo": "Fund is a sub-fund of SPIKO SICAV (Société d'Investissement à Capital Variable) incorporated in France; head office: 39, avenue Pierre 1er de Serbie, 75008 Paris, France (prospectus).",
     "links": {
       "website": [
         "https://www.spiko.io/"
-      ],
-      "twitter": "https://x.com/Spiko_finance",
-      "docs": "https://docs.spiko.io/",
-      "linkedin": "https://www.linkedin.com/company/spiko-finance",
-      "github": "https://github.com/spiko-tech"
+      ]
     }
   },
   "review": {

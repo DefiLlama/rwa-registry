@@ -28,16 +28,10 @@
   "about": {
     "description": "XAUt0 is an omnichain format designed to provide cross-chain mobility for Tether’s gold token. The system locks XAUt on Ethereum in an OFT Adapter contract and mints/burns XAUt0 across supported chains via LayerZero messaging. Tokenholders are not direct holders of the underlying gold, physical redemption remains through the underlying XAUt issuer process (including onboarding/KYC), while XAUt0 can be transferred and bridged across supported networks.",
     "logo": "https://icons.llamao.fi/icons/rwa/xaut0.png?w=48&h=48",
-    "registryInfo": "USDT0 Network documentation describes XAUt0 as an Omnichain Fungible Token (LayerZero OFT) minted 1:1 against XAUt locked on Ethereum via an OFT Adapter contract.",
     "links": {
       "website": [
         "https://usdt0.to/gold"
-      ],
-      "twitter": "https://x.com/USDT0_to",
-      "docs": "https://tether.to/en/transparency",
-      "linkedin": "https://www.linkedin.com/company/tether-operations-limited",
-      "telegram": "https://t.me/OfficialTether",
-      "github": "https://github.com/tetherto"
+      ]
     }
   },
   "review": {

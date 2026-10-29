@@ -39,18 +39,9 @@
   "about": {
     "description": "MCDx is the McDonald's xStock, a tokenized equity exposure designed to track McDonald's in a format usable across crypto venues. Under the xStocks framework (powered by Backed), each token is intended to be fully backed 1:1 by the underlying shares held through traditional custody arrangements. When the underlying stock pays a dividend, the dividend is typically reinvested into more of the underlying shares, and the token’s per-token exposure is adjusted so holders reflect that reinvestment over time rather than receiving a cash dividend. Stock splits and reverse splits are handled through the same adjustment process to keep the token aligned with the underlying. Holding an xStock provides economic exposure, but it does not give shareholder voting rights or shareholder privileges in the underlying company.",
     "logo": "https://icons.llamao.fi/icons/rwa/xstocks-mcdx.png?w=48&h=48",
-    "registryInfo": "Backed Assets (JE) Limited – Jersey company no. 152608, registered address First Floor, La Chasse Chambers, Ten La Chasse, St. Helier, Jersey JE2 4UE. LEI 984500001AB7C6C7F577.",
     "links": {
       "website": [
         "https://assets.backed.fi/products/mcdonalds-xstock"
-      ],
-      "twitter": "https://x.com/xstocksfi",
-      "docs": "https://docs.xstocks.com/",
-      "linkedin": "https://www.linkedin.com/company/backedfi",
-      "discord": "https://discord.com/invite/xstocksfi",
-      "github": "https://github.com/backed-fi",
-      "refLinks": [
-        "https://defi.xstocks.fi/points?ref=8QG15V04"
       ]
     }
   },

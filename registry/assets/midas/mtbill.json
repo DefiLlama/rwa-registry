@@ -31,16 +31,10 @@
   "about": {
     "description": "mTBILL is Midas’s tokenized Treasury-style cash management product designed to deliver short-term rates in a transferable format. It is built as a yield token whose value is intended to reflect the performance of an underlying conservative collateral base, and it is commonly used as collateral in DeFi lending venues where a transparent reserve view and redemption pathway are important for risk management.",
     "logo": "https://icons.llamao.fi/icons/rwa/mtbill.png?w=48&h=48",
-    "registryInfo": "Midas Software GmbH – German limited liability company (Gesellschaft mit beschränkter Haftung) organized under German law, issuer of Midas Liquid Yield Tokens (LYTs) including mTBILL, structured as secured loan tokens tracking short-duration U.S. Treasury exposure as described in the Midas mTBILL documentation and related offering materials.",
     "links": {
       "website": [
         "https://midas.app/mtbill"
-      ],
-      "twitter": "https://x.com/midasrwa",
-      "docs": "https://docs.midas.app/",
-      "linkedin": "https://www.linkedin.com/company/midas-rwa",
-      "discord": "https://discord.com/invite/WRU5ryX",
-      "telegram": "https://t.me/midasrwa"
+      ]
     }
   },
   "review": {

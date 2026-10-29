@@ -29,15 +29,10 @@
   "about": {
     "description": "CUMAU is the Class A USD digital share of the ChinaAMC USD Digital Money Market Fund, a Hong Kong-domiciled money market fund investing in short-term deposits and high-quality money market instruments. Class A carries a 0.15% per annum management fee and is listed on HKEX (stock codes 3472/9472). Tokenized via Libeara with Standard Chartered as custodian.",
     "logo": "https://icons.llamao.fi/icons/rwa/cumau.png?w=48&h=48",
-    "registryInfo": "Domicile: Hong Kong, Regulatory framework: Hong Kong Ordinance Professional Investor Exemption (HKMA), Custodian: Standard Chartered Trustee (Hong Kong) Limited (LEI: RILFO74KP1CM8P6PCT96), Auditor: KPMG",
     "links": {
       "website": [
         "https://www.chinaamc.com.hk/product/chinaamc-usd-digital-money-market-fund/"
-      ],
-      "twitter": "https://x.com/ChinaAMC_HK",
-      "docs": "https://libeara.com/",
-      "linkedin": "https://www.linkedin.com/company/libeara",
-      "github": "https://github.com/libeara"
+      ]
     }
   },
   "review": {

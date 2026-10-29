@@ -40,14 +40,10 @@
   "about": {
     "description": "FDIT represents a tokenized share exposure tied to Fidelity’s Treasury-focused digital fund share class, designed to provide current income consistent with liquidity and principal preservation. It is structured as a NAV-based cash-management instrument where performance is driven by short-duration U.S. government and cash-equivalent holdings rather than crypto market beta.",
     "logo": "https://icons.llamao.fi/icons/rwa/fdit.png?w=48&h=48",
-    "registryInfo": "Fidelity Hereford Street Trust – Delaware statutory trust registered with the U.S. SEC, CIK 0000917286, Series S000089156 \"Fidelity Treasury Digital Fund\" whose on-chain share class FYOXX is represented by the Fidelity Digital Interest Token (FDIT).",
     "links": {
       "website": [
         "https://institutional.fidelity.com/app/funds-and-products/9053/fidelity-treasury-digital-fund-onchain-class-fyoxx.html"
-      ],
-      "twitter": "https://x.com/digitalassets",
-      "docs": "https://www.fidelity.com/",
-      "linkedin": "https://www.linkedin.com/company/fidelity-investments"
+      ]
     }
   },
   "review": {

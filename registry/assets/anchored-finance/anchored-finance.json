@@ -27,14 +27,10 @@
   "about": {
     "description": "Anchored Finance is a tokenization platform focused on bringing tokenized U.S. equities, institutional fund products, and other familiar financial assets onchain, with Monad as its initial home chain. The project describes itself as full-cycle and compliance-first, while its disclosed infrastructure references Alpaca brokerage rails for minting and redemption of equity-backed tokenized assets.",
     "logo": "https://icons.llamao.fi/icons/rwa/anchored-finance.png?w=48&h=48",
-    "registryInfo": "Public materials describe Anchored as a compliance-first tokenization platform for stocks and institutional funds. Alpaca states tokenization partners can issue tokenized equities with 1:1 brokerage-held backing, while tokenized assets generally provide economic exposure rather than direct equity ownership unless otherwise stated by the issuer.",
     "links": {
       "website": [
         "https://anchored.finance/"
-      ],
-      "twitter": "https://x.com/AnchoredFi",
-      "docs": "https://docs.anchored.finance/",
-      "linkedin": "https://www.linkedin.com/company/anchored-finance"
+      ]
     }
   },
   "review": {

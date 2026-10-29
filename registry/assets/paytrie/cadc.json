@@ -31,12 +31,10 @@
   "about": {
     "description": "CADC is a Canadian dollar stablecoin issued by PayTrie for CAD-denominated settlement on public blockchains. It is designed to be fully reserved and redeemable 1:1 for CAD via PayTrie, supporting onchain payments, exchange settlement, and cross-border transfers in a CAD unit of account.",
     "logo": "https://icons.llamao.fi/icons/rwa/cadc.png?w=48&h=48",
-    "registryInfo": "PayTrie AB Inc. - Canadian fintech and issuer of CADC; described as a FINTRAC-registered Money Services Business (MSB) and backing CADC 1:1 with Canadian dollars held in a Canadian bank account.",
     "links": {
       "website": [
         "https://paytrie.com/cadc"
-      ],
-      "twitter": "https://x.com/Paytrie"
+      ]
     }
   },
   "review": {

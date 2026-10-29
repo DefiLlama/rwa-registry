@@ -27,14 +27,10 @@
   "about": {
     "description": "DELISTED 2026-09-21: fully wound down. On-chain totalSupply is 0 at ethereum:0x35ba0f7c2bebf25869fba6d0c1af6a17998562cc (was 16.03M at the 2026-06-11 review), with zero Transfer events in the preceding ~55 days (400k blocks scanned), so the token is dormant with no holder exposure. Unpriced in the coins API and carrying no supply or mcap on the dashboard. The Suspicious flag was cleared the same day - see Suspicious Reason. Sivo remains an active platform via SLP (Sivo Liquidity Provider, RWA ID 9253), which is a separate contract with live backing.",
     "logo": "https://icons.llamao.fi/icons/rwa/sivousdx.png?w=48&h=48",
-    "registryInfo": "Site footer states \"Sivo Holdings Ltd\" without jurisdiction. UK Companies House SIVO HOLDINGS LTD (#12731839) was DISSOLVED 25 Feb 2025; an active Cayman Islands SIVO HOLDINGS LIMITED exists (LEI 984500645Q5BFED03I75, George Town). Issuing entity unconfirmed. Parent operating company Sivo is Y Combinator W21 (founders Kate Hiscox, Dani Conejo Rico).",
     "links": {
       "website": [
         "https://sivo.xyz"
-      ],
-      "twitter": "https://x.com/sivodefi",
-      "docs": "https://intercom.help/sivoxyz/en; https://cdn.sanity.io/files/gbhfv92z/production/aa46e1fabb0752a23fcaa872467b3d8d7776e1a2.pdf",
-      "discord": "https://discord.gg/C9dzJuAsbD"
+      ]
     }
   },
   "review": {

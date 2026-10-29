@@ -34,15 +34,10 @@
   "about": {
     "description": "Denario Gold Coin (DGC) is designed to represent one ounce of physical gold granules held in Swiss storage, offering a way to hold gold exposure in a transferable digital format. The issuer emphasizes custody in Switzerland and provides an attestation workflow that links outstanding supply to custodied inventory through published inventory audit reporting.",
     "logo": "https://icons.llamao.fi/icons/rwa/dgc.png?w=48&h=48",
-    "registryInfo": "Swiss Aktiengesellschaft “Denario AG” acting as issuer and financial intermediary for Denario Gold Coin (DGC) under Swiss self-regulatory organization supervision.",
     "links": {
       "website": [
         "https://www.denario.swiss"
-      ],
-      "twitter": "https://x.com/DenarioSwiss/",
-      "docs": "https://denario.finance/",
-      "linkedin": "https://www.linkedin.com/company/denario-finance",
-      "telegram": "https://t.me/DenarioSwiss"
+      ]
     }
   },
   "review": {

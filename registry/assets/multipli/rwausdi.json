@@ -29,15 +29,10 @@
   "about": {
     "description": "rwaUSDi is Multipli’s institutional, permissioned credit layer for tokenized private markets and illiquid RWAs. Official docs position it for private credit, asset-backed lending, project finance, refinancing, and other assets with scheduled cash flows, delayed redemption windows, and bespoke risk profiles. Participation is KYB-gated, pools may be private or semi-private, and redemptions are defined or scheduled rather than instant. Multipli’s transparency materials state that rwaUSDi reserve reporting is published through a dashboard that works with Chainrisk and the AFI verification network to provide proof of reserves, cryptographic proofs, and independent attestations.",
     "logo": "https://icons.llamao.fi/icons/rwa/rwausdi.png?w=48&h=48",
-    "registryInfo": "Reviewed public materials describe rwaUSDi as a Multipli-issued institutional, permissioned credit layer for tokenized private markets. Specific corporate registry details for the operating entity behind rwaUSDi were not clearly disclosed in the reviewed public materials.",
     "links": {
       "website": [
         "https://multipli.fi/"
-      ],
-      "twitter": "https://x.com/multiplifi",
-      "docs": "https://multipli.fi/",
-      "discord": "https://discord.gg/F6gjSB3f78",
-      "telegram": "https://t.me/+gy8Qtyh5rdBiNDM9"
+      ]
     }
   },
   "review": {

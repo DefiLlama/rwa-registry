@@ -101,16 +101,10 @@
   "about": {
     "description": "EURC is Circle’s euro-denominated stablecoin issued on Ethereum, designed for 1:1 redemption for euros under a reserve-backed model. Circle states reserves are held in cash and cash equivalents and provides reserve attestations and disclosures intended to allow independent review of backing quality over time.",
     "logo": "https://icons.llamao.fi/icons/rwa/eurc.png?w=48&h=48",
-    "registryInfo": "Circle Internet Financial, LLC (LEI: 5493001KJTIIGC8Y1R12) — Delaware LLC (Entity No. 5381921). Parent: Circle Internet Group, Inc. (SEC CIK: 1876042).",
     "links": {
       "website": [
         "https://www.circle.com/eurc"
-      ],
-      "twitter": "https://x.com/circle",
-      "docs": "https://developers.circle.com/",
-      "linkedin": "https://www.linkedin.com/company/circle-internet-financial",
-      "discord": "https://discord.gg/buildoncircle",
-      "github": "https://github.com/circlefin"
+      ]
     }
   },
   "review": {

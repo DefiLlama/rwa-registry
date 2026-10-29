@@ -29,13 +29,10 @@
   "about": {
     "description": "GPCI is the vault share token for Goblin\n  Private Credit I, a permissioned USDC yield product on Pharos Mainnet.\n  Depositors mint GPCI in exchange for USDC deposited into a smart-contract\n  vault that funds a single institutional borrower under a private credit\n  facility approximately 3 months in duration. The offering targets\n  institutional-grade yield sourced from vetted private credit positions. Both\n  minting and holding require KYC and allowlisting. Settlement is coordinated\n  through the Ember Protocol tokenization rail, with contracts audited by\n  Movebit and Plainshift.",
     "logo": "https://icons.llamao.fi/icons/rwa/gpci.png?w=48&h=48",
-    "registryInfo": "Goblin Issuer Inc is the token-issuing\n  entity for the Goblin Finance private credit product suite. Public\n  jurisdiction and formal registration were not surfaced in disclosed\n  materials. GPCI is deployed on the Pharos Mainnet as a permissioned ERC-20\n  with USDC as the underlying deposit asset and settlement is coordinated\n  through the Ember Protocol tokenization rail. Ember and Goblin ALM smart\n  contracts have been audited by Movebit and Plainshift.",
     "links": {
       "website": [
         "https://goblin.fi/"
-      ],
-      "twitter": "https://x.com/the_goblin_fi",
-      "docs": "https://docs.goblin.fi/"
+      ]
     }
   },
   "review": {

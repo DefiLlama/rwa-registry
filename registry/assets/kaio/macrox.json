@@ -28,14 +28,10 @@
   "about": {
     "description": "MACROx is a tokenized feeder share class of Libre SAF VCC (Singapore) providing access to the Brevan Howard Master Fund's global macro strategy, issued via the KAIO (ex-Libre) protocol for accredited and institutional investors with monthly liquidity and NAV-based pricing. Only the current Ethereum register is tracked: a legacy duplicate register (0x340f2f4f..) exists with mirrored mint amounts, and platform escrow proxies are excluded from active supply. The on-chain NAV entry was last updated 2025-05-30.",
     "logo": "https://icons.llamao.fi/icons/rwa/macrox.png?w=48&h=48",
-    "registryInfo": "Brevan Howard Master Fund is referenced as an institutional fund tokenized via KAIO in public announcements tied to KAIO’s network integrations.",
     "links": {
       "website": [
         "https://www.kaio.xyz"
-      ],
-      "twitter": "https://x.com/KAIO_xyz",
-      "docs": "https://docs.kaio.xyz",
-      "linkedin": "https://www.linkedin.com/company/kaio-finance"
+      ]
     }
   },
   "review": {

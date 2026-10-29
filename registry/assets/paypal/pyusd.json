@@ -65,14 +65,10 @@
   "about": {
     "description": "PYUSD is PayPal USD, issued by Paxos. Issuer disclosures describe PYUSD as a USD-redeemable stablecoin backed by U.S. dollar deposits and cash equivalents, including U.S. Treasury securities, with monthly reserve composition reporting and independent attestation reporting.",
     "logo": "https://icons.llamao.fi/icons/rwa/pyusd.png?w=48&h=48",
-    "registryInfo": "Paxos Trust Company, LLC – New York limited purpose trust company chartered by NYDFS in May 2015. NMLS ID 1766787 (NYDFS virtual currency licensee and limited purpose trust charter holder).",
     "links": {
       "website": [
         "https://www.paypal.com/pyusd"
-      ],
-      "twitter": "https://x.com/PayPal",
-      "docs": "https://developer.paypal.com/",
-      "linkedin": "https://www.linkedin.com/company/paypal"
+      ]
     }
   },
   "review": {

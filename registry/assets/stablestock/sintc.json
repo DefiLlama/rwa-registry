@@ -28,16 +28,10 @@
   "about": {
     "description": "sINTC tokenizes Intel Corporation (Nasdaq: INTC), the legacy x86 incumbent executing an IDM 2.0 turnaround under CEO Lip-Bu Tan and building foundry capacity on the Intel 18A node. Intel competes with TSMC, Samsung foundry, AMD and NVIDIA. StableStock issues sINTC as a 1:1 BEP-20 on BNB Chain, with shares custodied off-chain through StableBroker. The licensed broker infrastructure StableStock provides in partnership with HabitTrade, and 24/7 on-chain liquidity operated with Native. Mint/redeem is KYC-gated. On-chain the token transfers without a whitelist.",
     "logo": "https://icons.llamao.fi/icons/rwa/intc.png?w=48&h=48",
-    "registryInfo": "StableStock sTokens are issued under StableBroker, StableStock's licensed-broker infrastructure operated with HabitTrade. HabitTrade Pty Ltd holds AFSL 514654 (ABN 59 626 521 202, Australia); HabitTrade LLC holds a US FinCEN MSB registration (31000229716152); HabitTrade (HK) Limited holds an SFC Type 1 licence (Hong Kong). StableStock custody relies on its US broker partner DriveWealth LLC, a FINRA/SIPC member US broker-dealer. StableStock's published backers/partners include YZi Labs, MPCi, Vertex Ventures, Foresight Ventures, Amber Group and Dragonfly.",
     "links": {
       "website": [
         "https://stablestock.finance"
-      ],
-      "twitter": "https://x.com/StableStock",
-      "docs": "https://docs.stablestock.com/",
-      "linkedin": "https://www.linkedin.com/company/stablestock",
-      "discord": "https://discord.gg/stablestock",
-      "telegram": "https://t.me/StableStock"
+      ]
     }
   },
   "review": {

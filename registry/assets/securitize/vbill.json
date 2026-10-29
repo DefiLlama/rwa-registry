@@ -31,16 +31,10 @@
   "about": {
     "description": "VBILL represents tokenized fund units of the VanEck Treasury Fund, designed for qualified investors seeking short-duration U.S. Treasury exposure with daily liquidity conventions. The product is distributed through Securitize’s regulated tokenization stack, pairing NAV-based fund operations with tokenized delivery so the position can be held and transferred through digital asset rails while maintaining a traditional fund-style structure and disclosure workflow.",
     "logo": "https://icons.llamao.fi/icons/rwa/vbill.png?w=48&h=48",
-    "registryInfo": "VanEck Treasury Fund, Ltd., British Virgin Islands investment fund organized as a company limited by shares.",
     "links": {
       "website": [
         "https://securitize.io/primary-market/vaneck-vbill"
-      ],
-      "twitter": "https://x.com/Securitize",
-      "docs": "https://docs.securitize.io",
-      "linkedin": "https://www.linkedin.com/company/securitize",
-      "telegram": "https://t.me/securitize",
-      "github": "https://github.com/securitize-io"
+      ]
     }
   },
   "review": {

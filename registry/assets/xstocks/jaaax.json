@@ -39,18 +39,9 @@
   "about": {
     "description": "JAAAx is the Janus Henderson AAA CLO xStock, a tokenized equity exposure designed to track Janus Henderson AAA CLO in a format usable across crypto venues. Under the xStocks framework (powered by Backed), tokens are 1:1 backed by the underlying security held with regulated custodians, with continuous Chainlink Proof of Reserve attestation, freely transferable and self-custodial. Mint/redemption via Backed for authorized participants (KYC). Added from the official xStocks API 2026-06-10.",
     "logo": "https://icons.llamao.fi/icons/rwa/xstocks-jaaax.png?w=48&h=48",
-    "registryInfo": "Backed Assets (JE) Limited – Jersey company no. 152608, registered address First Floor, La Chasse Chambers, Ten La Chasse, St. Helier, Jersey JE2 4UE.",
     "links": {
       "website": [
         "https://assets.backed.fi/products/janus-henderson-aaa-clo-xstock"
-      ],
-      "twitter": "https://x.com/xstocksfi",
-      "docs": "https://docs.xstocks.com/",
-      "linkedin": "https://www.linkedin.com/company/backedfi",
-      "discord": "https://discord.com/invite/xstocksfi",
-      "github": "https://github.com/backed-fi",
-      "refLinks": [
-        "https://defi.xstocks.fi/points?ref=8QG15V04"
       ]
     }
   },

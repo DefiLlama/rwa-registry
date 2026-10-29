@@ -38,18 +38,9 @@
   "about": {
     "description": "wGLDx is the ERC-4626 wrapped version of GLDx (Gold xStock). It wraps GLDx into a standardized vault-share token to enable DeFi composability such as use as collateral in lending markets, automated strategies, and other yield protocols. Each wGLDx represents a share claim on deposited GLDx. Underlying real-world exposure, redemption mechanics, and reference price tracking are inherited from the underlying GLDx xStock issued by Backed.",
     "logo": "https://icons.llamao.fi/icons/rwa/xstocks-gldx.png?w=48&h=48",
-    "registryInfo": "Backed Assets (JE) Limited – Jersey company no. 152608, registered address First Floor, La Chasse Chambers, Ten La Chasse, St. Helier, Jersey JE2 4UE. LEI 984500001AB7C6C7F577.",
     "links": {
       "website": [
         "https://assets.backed.fi/products/gold-xstock"
-      ],
-      "twitter": "https://x.com/xstocksfi",
-      "docs": "https://docs.xstocks.com/",
-      "linkedin": "https://www.linkedin.com/company/backedfi",
-      "discord": "https://discord.com/invite/xstocksfi",
-      "github": "https://github.com/backed-fi",
-      "refLinks": [
-        "https://defi.xstocks.fi/points?ref=8QG15V04"
       ]
     }
   },

@@ -40,17 +40,10 @@
   "about": {
     "description": "TMUSon is an Ondo Global Markets tokenized stock exposure designed to provide economic exposure to =SUBSTITUTE(A190, \", \") in an onchain format. The token is designed to be fully backed by the underlying publicly traded asset, together with cash in transit, held with regulated custodial broker-dealers. Holdings attestations and ongoing reporting are surfaced through Ondo trust and transparency materials and the product asset page. Tokenholders are not shareholders of the underlying and do not receive shareholder voting rights. Dividend value is reflected through total return mechanics, and where applicable, dividends are reflected through reinvestment adjustments instead of cash dividends.",
     "logo": "https://icons.llamao.fi/icons/rwa/tmus.png?w=48&h=48",
-    "registryInfo": "Ondo Global Markets (BVI) Limited issues Ondo Global Markets tokens as structured notes designed to track the performance of the corresponding underlying publicly traded stock or ETF (including dividends, which are reinvested where applicable). The notes are governed by the Issuer’s Sales Terms under Swiss law. GM tokens are fully backed 1:1 by the corresponding underlying securities held with regulated custodial broker-dealers, plus an additional collateral buffer. Ondo publishes ongoing attestations and reporting for GM token backing (verified by Ankura Trust Company).",
     "links": {
       "website": [
         "https://app.ondo.finance/assets/tmuson"
-      ],
-      "twitter": "https://x.com/ondofinance",
-      "docs": "https://docs.ondo.finance/",
-      "linkedin": "https://www.linkedin.com/company/ondofinance",
-      "discord": "https://discord.com/invite/ondofinance",
-      "telegram": "https://t.me/ondofinance",
-      "github": "https://github.com/ondoprotocol"
+      ]
     }
   },
   "review": {

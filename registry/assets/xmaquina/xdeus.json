@@ -27,16 +27,10 @@
   "about": {
     "description": "xDEUS is the vote-escrowed governance position of XMAQUINA, minted on Base when DEUS is staked through the DAO portal. It is implemented as an ERC721 rather than a fungible token, so each stake creates a separate position with its own identifier and multiplier, and the contract also implements the enumerable extension. Positions are non-transferable, which is enforced by the contract itself rather than by the ERC5192 standard interface, and a transfer attempt from a holder reverts with a custom error. Each position begins at a one times multiplier and accrues progressively to a maximum of twelve times after twelve months of continuous staking, with the same multiplier governing voting power, quorum weight and reward allocation. Holders vote on capital deployment into robotics companies and on treasury distributions, and governance may direct up to forty percent of value realised from protocol fees or equity exits to active positions through an on-chain capital distributor, though distribution is discretionary and there is no automatic mechanism. Minimum stake is one hundred DEUS per position with a five day minimum lock. Unstaking requires a withdrawal request followed by a five day cooldown and returns the exact staked DEUS with no slashing or dilution, after which the position is burned. The staked DEUS principal is held in a separate escrow rather than in the position contract.",
     "logo": "https://icons.llamao.fi/icons/rwa/xmaquina-xdeus.png?w=48&h=48",
-    "registryInfo": "MachineDAO LLC is a non-profit DAO LLC organised under the laws of the Republic of the Marshall Islands. It controls the onchain treasury and approves capital allocation through xDEUS voting. A foundation entity executes offchain investments and holds legal title to assets on behalf of the DAO, and a special-purpose entity handles token issuance.",
     "links": {
       "website": [
         "https://www.xmaquina.io/"
-      ],
-      "twitter": "https://x.com/xmaquina",
-      "docs": "https://docs.xmaquina.io/dao/xdeus",
-      "linkedin": "https://www.linkedin.com/company/xmaquina",
-      "discord": "https://discord.gg/xmaquina",
-      "telegram": "https://t.me/xmaquinaofficial"
+      ]
     }
   },
   "review": {

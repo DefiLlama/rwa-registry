@@ -28,14 +28,10 @@
   "about": {
     "description": "CASHx is a tokenized feeder share class of Libre SAF VCC (Singapore) that invests in the BlackRock ICS US Dollar Liquidity Fund, an AAA-rated institutional money market fund. The accumulating token is issued via the KAIO (ex-Libre) protocol and is restricted to KYC-verified accredited and institutional investors, with NAV published on-chain via KAIO's registry on Optimism. Platform escrow balances are excluded from active supply. Smaller deployments on Avalanche, Aptos, Hedera, and Polygon currently carry zero or dust supply.",
     "logo": "https://icons.llamao.fi/icons/rwa/cashx.png?w=48&h=48",
-    "registryInfo": "Tokenized shares of the underlying fund are issued solely by KAIO; the underlying is the BlackRock ICS US Dollar Liquidity Fund (Select Accumulating USD share class as referenced by KAIO).",
     "links": {
       "website": [
         "https://www.kaio.xyz"
-      ],
-      "twitter": "https://x.com/KAIO_xyz",
-      "docs": "https://docs.kaio.xyz",
-      "linkedin": "https://www.linkedin.com/company/kaio-finance"
+      ]
     }
   },
   "review": {

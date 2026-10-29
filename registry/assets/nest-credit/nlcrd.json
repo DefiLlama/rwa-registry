@@ -31,16 +31,10 @@
   "about": {
     "description": "nLCRD is the receipt token for Nest’s Liquid Credit vault. Public Nest API documentation shows the vault is live in Nest’s supported vault set, and the attached source sheet provides Plume and Solana contract addresses. Public materials reviewed did not disclose a fuller underlying portfolio breakdown for this specific sleeve, so the strategy is conservatively classified as a permissionless liquid credit wrapper where value accrues through NAV and redemptions follow Nest liquidity mechanics.",
     "logo": "https://icons.llamao.fi/icons/rwa/nlcrd.png?w=48&h=48",
-    "registryInfo": "Nest DAO LLC – legal address 852 Lagoon Road, Majuro, 96960, Marshall Islands, Legal Entity Identifier (LEI) 254900BB9T1QYAT04892 (status: ISSUED; managing LOU: Bloomberg Finance L.P.; next renewal date: 2026-10-14).",
     "links": {
       "website": [
         "https://nest.credit"
-      ],
-      "twitter": "https://x.com/nestcredit",
-      "docs": "https://docs.nestcredit.io/",
-      "linkedin": "https://www.linkedin.com/company/nestcredit",
-      "discord": "https://discord.gg/t9HpeFvUwS",
-      "telegram": "https://t.me/NestCredit"
+      ]
     }
   },
   "review": {

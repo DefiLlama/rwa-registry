@@ -24,7 +24,6 @@
     "transferable": true,
     "selfCustody": true,
     "yieldBearing": false,
-    "currency": "brl",
     "attestationFrequency": "Periodic"
   },
   "sources": {
@@ -36,8 +35,7 @@
     "links": {
       "website": [
         "https://www.transfero.com/stablecoins"
-      ],
-      "twitter": "https://x.com/transferogroup"
+      ]
     }
   },
   "review": {

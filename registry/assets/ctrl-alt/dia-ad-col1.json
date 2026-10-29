@@ -28,12 +28,10 @@
   "about": {
     "description": "DIA-AD-COL1 provides tokenized exposure to Anita Diamonds Collection 1, a curated portfolio of certified polished diamonds held in the UAE. The structure is designed to link tokens to specific inventory and certification records, enabling clearer audit trails than typical commodity-style claims and supporting regulated distribution. It targets fractional access to a defined diamond collection, with verification anchored in issuer disclosures and public asset identifiers.",
     "logo": "https://icons.llamao.fi/icons/rwa/dia-ad-col1.png?w=48&h=48",
-    "registryInfo": "Domicile: United Arab Emirates, Regulatory framework: Dubai Virtual Assets Regulatory Authority (VARA) VASP Licence Number VL/25/05/002, Network: XRP Ledger, Custody: Ripple custody technology",
     "links": {
       "website": [
         "https://ctrl-alt.co/press-releases/billiton-ctrl-alt-diamond-tokenization"
-      ],
-      "twitter": "https://x.com/CtrlAltCo"
+      ]
     }
   },
   "review": {

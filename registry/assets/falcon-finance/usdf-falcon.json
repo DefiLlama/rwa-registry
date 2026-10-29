@@ -30,16 +30,9 @@
   "about": {
     "description": "Falcon USD (USDf) is a DeFi-native synthetic dollar from Falcon Finance, minted against crypto collateral with protocol risk parameters and a staking wrapper (sUSDf) for yield distribution. USDf is designed for self-custody settlement across DeFi, with peg management handled by collateral policy and liquidity.",
     "logo": "https://icons.llamao.fi/icons/rwa/falcon-usd.png?w=48&h=48",
-    "registryInfo": "Falcon USD (USDf) is the synthetic dollar issued by the Falcon Finance protocol (operator listed as Falcon Digital Limited in terms).",
     "links": {
       "website": [
         "https://falcon.finance/"
-      ],
-      "twitter": "https://x.com/falconfinance",
-      "docs": "https://docs.falcon.finance/",
-      "linkedin": "https://www.linkedin.com/company/falconstable",
-      "refLinks": [
-        "https://app.falcon.finance/?r=ecf7be7f48d1ce67467fc040bcc1abd5"
       ]
     }
   },

@@ -28,17 +28,10 @@
   "about": {
     "description": "Digix Gold (DGX) is a legacy tokenized gold project that pioneered early proof-of-asset style workflows for linking token supply to vaulted bullion. DGX was historically designed to represent a gram-denominated claim on physical gold and emphasized traceability and auditability as core primitives. The ecosystem has since seen significant wind-down and exchange delistings over time, and DGX is best viewed as a historical reference point in tokenized gold design. Officially ceased operations and withdrew from Singapore PSA licensing September 2022 and the business shut down.",
     "logo": "https://icons.llamao.fi/icons/rwa/dgx.png?w=48&h=48",
-    "registryInfo": "Singapore private limited company (DigixGlobal Pte. Ltd.) identified in multiple governance and stablecoin reports as the issuer of Digix Gold Token (DGX) with legal jurisdiction in Singapore. DGX tokens represent 1 gram of 99.99% LBMA-standard gold held in audited Singapore vaults.",
     "links": {
       "website": [
         "https://digix.global"
-      ],
-      "twitter": "https://x.com/DigixGlobal",
-      "docs": "https://digix.global/",
-      "linkedin": "https://www.linkedin.com/company/digix-global",
-      "discord": "https://discord.gg/CCDBJJC",
-      "telegram": "https://t.me/digixofficial",
-      "github": "https://github.com/digixglobal"
+      ]
     }
   },
   "review": {

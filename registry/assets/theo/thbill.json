@@ -45,17 +45,9 @@
   "about": {
     "description": "thBILL is a tokenized Treasury-bill product designed to give onchain users access to short-duration U.S. government yield through a single, transferable position. It is positioned as a cash-management building block that can be held directly or integrated into DeFi strategies, with tooling focused on portfolio visibility, liquidity access, and distribution.",
     "logo": "https://icons.llamao.fi/icons/rwa/thbill.png?w=48&h=48",
-    "registryInfo": "Panamanian corporation (sociedad anónima) incorporated in Panama City, Republic of Panama and listed in the Panama corporate registry as THEO PROTOCOL CORPORATION (status VIGENTE, RUC 155768177-2-2025), acts as the legal entity behind the Theo Protocol platform and thBILL token.",
     "links": {
       "website": [
         "https://theo.xyz/about_thbill"
-      ],
-      "twitter": "https://x.com/theo_network",
-      "docs": "https://docs.theo.xyz/",
-      "linkedin": "https://www.linkedin.com/company/theo-network",
-      "discord": "https://discord.gg/theo-network",
-      "refLinks": [
-        "https://app.theo.xyz/invite?invite=defillama"
       ]
     }
   },

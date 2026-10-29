@@ -27,13 +27,10 @@
   "about": {
     "description": "rcUSDp is the yield-bearing twin of rcUSD: stake rcUSD and the staking pool escrows it as a Balance<RCUSD> in PoolInner.staked, minting non-rebasing rcUSDp whose redemption value rises as the underlying money-market book accrues. WRAPPER, NOT A SEPARATE ASSET: as of 2026-10-19 the pool escrows 8,276,744.98 rcUSD against 7,683,875.94 rcUSDp, and that escrowed rcUSD is already inside rcUSD's 18,276,755.54 TreasuryCap supply - listing this as an Asset would double count 8.28m, about 45% of R25's Sui book. Ember's R25 Treasury vault holds 7,456,999.92 rcUSDp (97% of supply) behind its mrcUSD receipt, so mrcUSD nests inside this. Priced on-chain by the r25Sui coins adapter: USDC x (PoolInner.staked / rcUSDp supply), 1.0771575 rcUSD per share on 2026-10-19.",
     "logo": "https://icons.llamao.fi/icons/rwa/rcusdp.png?w=48&h=48",
-    "registryInfo": "R25 is a decentralized RWA protocol issuing the rcToken family. rcUSDp is the staked form of rcUSD, minted by R25's own staking module on Sui (staking::Pool 0x64202e28c99a2036134788b750d3223b02f9b3c29b603e3e21e60a41289e395f); the rcUSD it represents is escrowed in that pool rather than redeemed, so it stays inside the rcUSD TreasuryCap supply held by treasuryrc::ManagedTreasury 0xf6495c5c7881cc89bff7a32250edb79eaeded52d23bfecbe24746c9911fd2a5c.",
     "links": {
       "website": [
         "https://www.r25.xyz/"
-      ],
-      "twitter": "https://x.com/R25Official",
-      "docs": "https://docs.r25.xyz/"
+      ]
     }
   },
   "review": {

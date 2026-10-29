@@ -31,15 +31,10 @@
   "about": {
     "description": "Real MXN (MXNe) is a Mexican peso-backed stablecoin issued by Brale Inc. in partnership with Etherfuse. Backed 1:1 by reserves including Etherfuse Stablebonds (tokenized Mexican CETES). Live on Solana, Polygon, Base, and Stellar. Primary mint/redeem via KYB-verified US business accounts on the Brale Platform (USDC/USDP/ACH/wire, instant to 1-2 business days). Secondary trading permissionless. Yield retained by issuer. 0% management, performance, subscription, and redemption fees. Targets remittances, merchant payments, and MXN-denominated business settlement.",
     "logo": "https://icons.llamao.fi/icons/rwa/mxne.png?w=48&h=48",
-    "registryInfo": "Brale Inc. (NMLS ID #2376957) — US-domiciled, State Money Transmitter Licensed regulated stablecoin issuer. MXNe issued in partnership with Etherfuse with reserves backed by Etherfuse Stablebonds (tokenized Mexican CETES). Account segregation: bankruptcy remote.",
     "links": {
       "website": [
         "https://brale.xyz/stablecoins/MXNe"
-      ],
-      "twitter": "https://x.com/brale_xyz",
-      "docs": "https://docs.brale.xyz",
-      "linkedin": "https://www.linkedin.com/company/brale",
-      "telegram": "https://t.me/bralecommunity"
+      ]
     }
   },
   "review": {

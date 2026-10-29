@@ -31,15 +31,10 @@
   "about": {
     "description": "M is the base stablecoin of the M^0 network, a ‘stablecoin infrastructure’ model where authorized minters issue M against short-dated Treasury/cash-equivalent reserves held with custodians. M can be held and transferred permissionlessly on-chain, while issuance/redemption is conducted by approved institutions - enabling multiple distribution brands to build on the same reserve-backed base.",
     "logo": "https://icons.llamao.fi/icons/rwa/m.png?w=48&h=48",
-    "registryInfo": "M is issued via the M^0 framework by approved Minters; protocol validators verify collateral and publish attestations per documentation.",
     "links": {
       "website": [
         "https://www.m0.org/"
-      ],
-      "twitter": "https://x.com/m0",
-      "docs": "https://docs.m0.org/",
-      "linkedin": "https://www.linkedin.com/company/m-zero-labs",
-      "github": "https://github.com/m0-foundation"
+      ]
     }
   },
   "review": {

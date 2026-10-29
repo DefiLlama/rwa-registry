@@ -26,15 +26,10 @@
   "about": {
     "description": "JR-strcUSX is the junior tranche of the Solstice strcUSX YieldVault on Solana. Depositors lock USX and receive a non-rebasing vault token that earns the residual yield remaining after the senior tranche is paid, funded by income linked to Strategy Inc. Variable Rate Series A Perpetual Stretch Preferred Stock. Holders do not own STRC shares and instead hold a claim on the vault that settles back to USX. Junior capital is first loss and absorbs realised losses on the STRC book ahead of senior, with a maximum loss of the full position. The token is priced on book value rather than the live STRC mark, and primary redemption is limited to monthly withdrawal windows with a cut off eight days before each window.",
     "logo": "https://icons.llamao.fi/icons/rwa/solstice-jr-strcusx.png?w=48&h=48",
-    "registryInfo": "Solstice Labs operates the Solstice protocol and the YieldVault framework. Issuing entities and user terms are set out in the legal section of the Solstice documentation.",
     "links": {
       "website": [
         "https://solstice.finance/vaults/strcusx"
-      ],
-      "twitter": "https://x.com/solsticefi",
-      "docs": "https://docs.solstice.finance/solstice-for-users/yieldvault/strcusx",
-      "discord": "https://discord.gg/TSmeMaYty2",
-      "telegram": "https://t.me/Solstice_TG"
+      ]
     }
   },
   "review": {

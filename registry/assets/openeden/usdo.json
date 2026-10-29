@@ -31,19 +31,9 @@
   "about": {
     "description": "USDO is a rebasing yield-bearing USD stablecoin issued by OpenEden Digital, a Bermuda Monetary Authority DABA-licensed segregated accounts company. It maintains a target 1 dollar redemption value and is fully backed by tokenized short-dated US Treasury bills through the OpenEden TBILL product line. Yield from the underlying Treasury portfolio accrues to holders via positive rebases of the token balance rather than a rising unit price. USDO is deployed as an EIP-1967 upgradeable ERC-20 on Ethereum, Base, BSC, and Kaia and as a Solana Token-2022 mint with transferHook and metadata extensions. A separate ERC-4626 wrapper called cUSDO offers non-rebasing DeFi composability by tokenizing USDO shares that accrue value through a rising convertToAssets rate. Continuous proof of reserves is published through Chainlink Proof of Reserve feeds and OpenEden transparency reporting.",
     "logo": "https://icons.llamao.fi/icons/rwa/opendollar.png?w=48&h=48",
-    "registryInfo": "OpenEden Digital Limited (OED) is licensed by the Bermuda Monetary Authority under Digital Asset Business Act license number 202403468, structured as a Segregated Accounts Company. USDO is deployed as an EIP-1967 upgradeable ERC-20 proxy on Ethereum, Base, BSC, and Kaia and as a Solana Token-2022 mint with transferHook and metadata extensions. All five chain deployments are verified against the CoinGecko platform contract map for openeden-open-dollar. A separate ERC-4626 wrapper called cUSDO (Compounding Open Dollar, ethereum:0xaD55aebc9b8c03FC43cd9f62260391c13c23e7c0) provides non-rebasing DeFi composability. Because cUSDO holds a significant share of Ethereum USDO in its vault (approximately 18.29 million USDO at review), the cUSDO contract is listed as a holder to remove for active marketcap purposes to avoid double-counting with the separately tracked cUSDO row.",
     "links": {
       "website": [
         "https://openeden.com/usdo"
-      ],
-      "twitter": "https://x.com/OpenEden_X",
-      "docs": "https://docs.openeden.com/",
-      "linkedin": "https://www.linkedin.com/company/openeden",
-      "discord": "https://discord.gg/FuPtnSJmke",
-      "telegram": "https://t.me/openeden",
-      "github": "https://github.com/OpenEdenHQ",
-      "refLinks": [
-        "https://portal.openeden.com/bills-campaign?refCode=x1z3OOidAS"
       ]
     }
   },

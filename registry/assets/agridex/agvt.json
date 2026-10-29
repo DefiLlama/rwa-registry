@@ -28,14 +28,10 @@
   "about": {
     "description": "AGVT is a receipt-token-style vault share for the AgriDex Trade Float Vault on Stellar/Soroban (consumer brand: Loam). Holders deposit USDC. Capital is deployed into short-duration commodity trade-finance exposures (the \"Aniseed\" series references aniseed-linked trade receivables). The vault is operated by AgriDex International Limited and uses a permissioned/approved-wallet onboarding flow per official docs. Returns accrue at the vault level through NAV growth. Receipt-token balances are constant while per-token value increases as underlying trade-finance cashflows realize. Target APY 9-12% (per docs). 30-day minimum holding period. Two-phase redemption (request to notice period to confirm) processed at par value subject to available liquidity. Underlying exposures: short-duration trade receivables, pre-financing of verified trade flows, inventory-linked structures, and settlement/payments float. NO third-party audit / proof-of-reserves of the loan book exists at audit date (per issuer submission). The on-chain exchange contract (CATKU4.IRN5N) is the sole minter/burner and holds the USDC reserve used for redemption. The rate is operator-controlled, which is an explicit centralization vector. Contract deployed May 11, 2026. Distinct from the Solana-based AGRI governance token (which is a separate AgriDex product).",
     "logo": "https://icons.llamao.fi/icons/rwa/loam.png?w=48&h=48",
-    "registryInfo": "AgriDex International Limited — UK private company, headquartered in London, founded 2020 by Henry Duckworth (CEO). Operates AGRI token on Solana (existing tokenization marketplace, ~$28.5M post-money valuation per 2024 strategic round led by Portal Ventures) and is launching the Trade Float Vault on Stellar/Soroban under the consumer brand \"Loam\" (getloam.io). Backed by Endeavour Ventures, Portal Ventures, and others. Loam is positioned as a settlement layer for global agricultural trade with ~5s settlement and <0.5% fees.",
     "links": {
       "website": [
         "https://agridex.com"
-      ],
-      "twitter": "https://x.com/agridexplatform",
-      "docs": "https://agridex-2.gitbook.io/agridex-docs/product/trade-float-vault",
-      "linkedin": "https://www.linkedin.com/company/agridex-international"
+      ]
     }
   },
   "review": {

@@ -29,16 +29,10 @@
   "about": {
     "description": "sUSDS is the savings wrapper for USDS, the stablecoin of the Sky Protocol, formerly MakerDAO. Depositors lock USDS in an ERC-4626 vault on Ethereum and receive a non-rebasing share token whose redemption value rises as the Sky Savings Rate accrues, so the position grows through share price rather than through a rising balance. Holders can redeem back to USDS from the vault at any time without permission or a minimum. The Sky Savings Rate is set by Sky governance and is paid out of blended protocol revenue rather than passed through from any single asset, so the return is not a direct claim on a specific real world asset. That revenue comes from Sky Agent allocations through Spark, Grove and other agents into onchain lending and institutional credit, from yield on the USD Coin reserves held in the peg stability module, from borrowing fees on crypto collateral vaults holding ether, wrapped bitcoin and staked ether, and from legacy real world asset vaults. Grove is the largest real world asset channel and launched with a one billion dollar allocation to the tokenized Janus Henderson Anemoy AAA collateralised loan obligation strategy. The deployments on Base, Arbitrum and Optimism are bridged representations of the Ethereum vault and do not themselves hold the underlying USDS.",
     "logo": "https://icons.llamao.fi/icons/rwa/sky-susds.png?w=48&h=48",
-    "registryInfo": "Sky Protocol, formerly MakerDAO, issues USDS and operates the Sky Savings Rate through onchain governance rather than through a single incorporated issuer. sUSDS is an ERC-4626 vault contract on Ethereum that holds USDS and accrues the savings rate to depositors.",
     "links": {
       "website": [
         "https://sky.money/susds"
-      ],
-      "twitter": "https://x.com/SkyEcosystem",
-      "docs": "https://docs.sky.money/",
-      "linkedin": "https://www.linkedin.com/company/skyecosystem",
-      "discord": "https://discord.com/invite/XeZQ8HxSEN",
-      "github": "https://github.com/makerdao"
+      ]
     }
   },
   "review": {

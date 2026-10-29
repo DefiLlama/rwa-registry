@@ -26,14 +26,10 @@
   "about": {
     "description": "Tokenized shares of FinanceFarm AG, a Swiss fintech developing an app to give retail users easier access to decentralized-finance products, issued on Ethereum via Aktionariat.",
     "logo": "https://icons.llamao.fi/icons/rwa/ffs.png?w=48&h=48",
-    "registryInfo": "Official company page: FinanceFarm AG, Switzerland, founded 2022-12-22, UID CH-280.030.894, sector FinTech.",
     "links": {
       "website": [
         "https://invest.financefarm.com"
-      ],
-      "twitter": "https://x.com/aktionariat",
-      "docs": "https://docs.aktionariat.com/",
-      "linkedin": "https://www.linkedin.com/company/aktionariat-ag"
+      ]
     }
   },
   "review": {

@@ -34,22 +34,15 @@
         "source": null,
         "verified": false
       }
-    ],
-    "isinNote": "CH1564487374 (Backed cert); US77106T1079 (underlying BOT)"
+    ]
   },
   "about": {
     "description": "BOTx is the RoboStrategy xStock, a tokenized equity exposure designed to track RoboStrategy in a format usable across crypto venues. Under the xStocks framework the issuer Backed Assets (JE) Limited holds 1:1 collateral in the underlying shares through a regulated depositary, and the tokens are issued as senior secured debt claims giving holders direct legal recourse to the underlying stock. Any regulated market participant can subscribe or redeem shares in kind for USDC or USDT, while onchain the tokens transfer permissionlessly across Solana, Ethereum, and supported EVM chains. Chainlink Proof of Reserve continuously publishes collateral attestations.",
     "logo": "https://icons.llamao.fi/icons/rwa/botx.png?w=48&h=48",
-    "registryInfo": "Backed Assets (JE) Limited is a Jersey company (no. 152608), registered address First Floor, La Chasse Chambers, Ten La Chasse, St. Helier, Jersey JE2 4UE.",
     "links": {
       "website": [
         "https://assets.backed.fi/products/robostrategy-xstock"
-      ],
-      "twitter": "https://x.com/xstocksfi",
-      "docs": "https://docs.xstocks.com/",
-      "linkedin": "https://www.linkedin.com/company/backedfi",
-      "discord": "https://discord.com/invite/xstocksfi",
-      "github": "https://github.com/backed-fi"
+      ]
     }
   },
   "review": {

@@ -26,13 +26,10 @@
   "about": {
     "description": "pEAK.BTC1025 is the lead series of the Peakwater BTC Enhance Fund, launched on DigiFT in October 2025. The fund holds Bitcoin exposure through regulated instruments such as the iShares Bitcoin Trust (IBIT) and overlays the Peakwater Volatility Alpha cross-asset volatility strategy, targeting ~10% annualized excess return over BTC. Managed by MAS-licensed Pilgrim Partners Asia and issued on Ethereum through DigiFT to accredited and institutional investors.",
     "logo": "https://icons.llamao.fi/icons/rwa/peak.png?w=48&h=48",
-    "registryInfo": "Peakwater BTC Enhance Fund, managed by Pilgrim Partners Asia (MAS CMS licence); tokenized and distributed by DigiFT (MAS-licensed exchange). Sibling of the Peakwater Volatility Alpha Fund (pEAK). This token is the fund's lead series: the original pEAK.BTC contract (0x21768b6f7c76324f323a0e9f93f18bf32344c8af) was converted into it on 2026-01-24 and later monthly series (pEAK.BTC1225/0126/0226/0326/0626) roll into it quarterly, so those contracts hold no supply. DigiFT SubRedManagement contract balance (pending subscriptions/redemptions) excluded.",
     "links": {
       "website": [
         "https://peakwatervolatility.com"
-      ],
-      "twitter": "https://x.com/DigiFTTech",
-      "docs": "https://www.digift.io"
+      ]
     }
   },
   "review": {

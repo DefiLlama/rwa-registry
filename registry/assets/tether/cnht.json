@@ -29,16 +29,10 @@
   "about": {
     "description": "CNH₮ is Tether's offshore-yuan (CNH) stablecoin, issued as an ERC-20 and TRC-20 token for CNH-denominated settlement on public blockchains. It is intended to be redeemable 1:1 through Tether's verified account framework, with reserves aggregated within Tether's broader transparency and attestation reporting.",
     "logo": "https://icons.llamao.fi/icons/rwa/cnht.png?w=48&h=48",
-    "registryInfo": "Tether Limited - issuer of Tether-branded fiat-backed stablecoins. CNH₮ represents a claim on Tether's reserves backing the offshore Chinese yuan peg; issuer corporate/regulatory details and reserve reporting are provided via Tether's transparency disclosures.",
     "links": {
       "website": [
         "https://tether.to"
-      ],
-      "twitter": "https://x.com/Tether_to",
-      "docs": "https://tether.to/en/transparency",
-      "linkedin": "https://www.linkedin.com/company/tether-operations-limited",
-      "telegram": "https://t.me/OfficialTether",
-      "github": "https://github.com/tetherto"
+      ]
     }
   },
   "review": {

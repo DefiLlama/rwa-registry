@@ -39,15 +39,10 @@
   "about": {
     "description": "wbTSLA is the ERC-4626 wrapped version of bTSLA (Backed Tesla), deployed across multiple chains. It wraps bTSLA into a standardized vault-share token to enable DeFi composability such as use as collateral in lending markets, automated strategies, and other yield protocols. Each wbTSLA represents a share claim on deposited bTSLA. Underlying real-world exposure, redemption mechanics, and reference price tracking are inherited from the underlying bTSLA token issued by Backed Finance. The wrapper does not rebase, so its share-to-underlying ratio grows as Backed's bToken adjusts its balance for dividends and corporate events, making it a total-return tracker rather than a price-parity tracker.",
     "logo": "https://icons.llamao.fi/icons/rwa/tsla.png?w=48&h=48",
-    "registryInfo": "Backed Assets (JE) Limited – private limited company incorporated in Jersey under the Companies (Jersey) Law 1991, registered in the Jersey companies register (no. 152608) with registered office First Floor, La Chasse Chambers, Ten La Chasse, St Helier JE2 4UE, Jersey. Issuer of tokenized tracker certificates under an FMA-approved EU prospectus passport. LEI 984500001AB7C6C7F577.",
     "links": {
       "website": [
         "https://www.backed.fi"
-      ],
-      "twitter": "https://x.com/BackedFi",
-      "docs": "https://docs.backed.fi/",
-      "linkedin": "https://www.linkedin.com/company/backedfi",
-      "github": "https://github.com/backed-fi"
+      ]
     }
   },
   "review": {

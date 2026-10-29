@@ -39,15 +39,10 @@
   "about": {
     "description": "Backed MicroStrategy Incorporated Class A Common Stock (bMSTR) is a tokenized equity exposure designed to track Backed MicroStrategy Incorporated Class A Common Stock in a format usable across crypto venues. It is intended to be fully backed 1:1 by the referenced underlying held through traditional custody arrangements. Dividends, when applicable, are typically reflected through adjustments over time rather than paid as cash dividends. Holding the token provides economic exposure, but it does not provide shareholder voting rights or shareholder privileges in the underlying company.",
     "logo": "https://icons.llamao.fi/icons/rwa/mstr.png?w=48&h=48",
-    "registryInfo": "Backed Assets (JE) Limited – Jersey company no. 152608, registered address First Floor, La Chasse Chambers, Ten La Chasse, St. Helier, Jersey JE2 4UE. LEI 984500001AB7C6C7F577.",
     "links": {
       "website": [
         "https://assets.backed.fi/products/bmstr"
-      ],
-      "twitter": "https://x.com/backedfi",
-      "docs": "https://docs.backed.fi/",
-      "linkedin": "https://www.linkedin.com/company/backedfi",
-      "github": "https://github.com/backed-fi"
+      ]
     }
   },
   "review": {

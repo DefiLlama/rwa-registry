@@ -32,18 +32,11 @@
   "about": {
     "description": "JTRSY represents tokenized fund units of the Janus Henderson Anemoy Treasury Fund, a professional fund structure designed for non-U.S. professional investors seeking short-dated U.S. Treasury bill exposure with daily liquidity conventions. The strategy concentrates in very short maturities to minimize duration risk while targeting money-market style returns, and it is distributed through a tokenized format that supports onchain settlement and integrations.",
     "logo": "https://icons.llamao.fi/icons/rwa/jtrsy.png?w=48&h=48",
-    "registryInfo": "Anemoy Capital SPC Limited – British Virgin Islands segregated portfolio company (SPC) registered in Road Town, BVI (company no. 2130465), operating BVI professional funds under the Securities and Investment Business Act and regulated by the BVI Financial Services Commission. LEI 2549009CBJ86SM12V633. Janus Henderson Anemoy Treasury Fund (JTRSY) is one of the segregated portfolios issued by this SPC, investing solely in short-term U.S. Treasury bills and tokenized via Centrifuge.",
     "links": {
       "website": [
         "https://www.anemoy.io/funds/jtrsy",
         "https://app.centrifuge.io/pool/281474976710662"
-      ],
-      "twitter": "https://x.com/anemoycapital",
-      "docs": "https://docs.centrifuge.io/",
-      "linkedin": "https://www.linkedin.com/company/centrifuge-io",
-      "discord": "https://discord.com/invite/yEzyUq5gxF",
-      "telegram": "https://t.me/centrifuge_chat",
-      "github": "https://github.com/centrifuge"
+      ]
     }
   },
   "review": {

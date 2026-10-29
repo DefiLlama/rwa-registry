@@ -28,14 +28,10 @@
   "about": {
     "description": "JSOY is a commodity-backed token where each token represents one metric ton of physical soybeans within Justoken’s issuance framework. It is intended to make inventory usable for settlement and financing workflows in agribusiness, with minting and burning designed to reflect underlying contractual commitments and delivery.",
     "logo": "https://icons.llamao.fi/icons/rwa/jsoy.png?w=48&h=48",
-    "registryInfo": "Domicile: United Kingdom, Asset type: Represented, eligible investors: Institutional Investor.",
     "links": {
       "website": [
         "https://www.justoken.com"
-      ],
-      "twitter": "https://x.com/justokenglobal",
-      "docs": "https://justoken.com/",
-      "linkedin": "https://www.linkedin.com/company/justoken"
+      ]
     }
   },
   "review": {

@@ -31,16 +31,10 @@
   "about": {
     "description": "AZND (Asia Dollar) is Mu Digital’s senior, credit-backed USD yield token supported by a diversified pool of Asia-Pacific real-world credit. AZND targets stability and steady yield, with junior-tranche protection provided by muBOND.",
     "logo": "https://icons.llamao.fi/icons/rwa/asia-dollar.png?w=48&h=48",
-    "registryInfo": "MU DIGITAL LIMITED, UK private limited company (Companies House company number 13130370).",
     "links": {
       "website": [
         "https://docs.mudigital.net/protocol-overview/asia-dollar-aznd"
-      ],
-      "twitter": "https://x.com/MuDigitalHQ",
-      "docs": "https://www.mudigital.io/",
-      "linkedin": "https://www.linkedin.com/company/mu-digital",
-      "discord": "https://discord.com/invite/MuDigital",
-      "github": "https://github.com/Mu-Digital"
+      ]
     }
   },
   "review": {

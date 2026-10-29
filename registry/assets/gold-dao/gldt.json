@@ -30,15 +30,10 @@
   "about": {
     "description": "Gold Token (GLDT) is a fungible token from Gold DAO backed by audited physical gold held in Swiss vaults via GLD NFTs. 1 GLDT represents 0.01 grams of gold (100 GLDT = 1g). GLDT is native to Internet Computer (ledger canister) and is bridged to EVM networks including Ethereum, Arbitrum, and Base for DeFi usage. To redeem physical gold, GLDT is swapped back into a GLD NFT through the GLDT Swap app, then redeemed with Bity under KYC/AML. Vault audit reports (KPMG factual findings) are published periodically to reconcile issued gold certificates with gold stored at Loomis Schweiz AG.",
     "logo": "https://icons.llamao.fi/icons/rwa/gldt.png?w=48&h=48",
-    "registryInfo": "Bity Tokenisation SA (Neuchâtel, Switzerland), physical gold stored with Loomis Schweiz AG (Kloten, Switzerland).",
     "links": {
       "website": [
         "https://gldt.org/"
-      ],
-      "twitter": "https://x.com/thegolddao",
-      "docs": "https://docs.gold-dao.org/",
-      "linkedin": "https://www.linkedin.com/company/gold-dao",
-      "github": "https://github.com/GoldDAO"
+      ]
     }
   },
   "review": {

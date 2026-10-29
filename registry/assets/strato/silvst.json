@@ -30,16 +30,10 @@
   "about": {
     "description": "SILVST is STRATO's vaulted silver token, with each token designed to represent one troy ounce of physical silver held by BA Gold Enterprises in New York City. STRATO's March 2026 audit materials reported 46,082 ounces of silver bars held as collateral for digital tokens, with larger 1,000 oz bars exchanged into smaller denominations to facilitate redemption. The asset is used inside STRATO's precious-metals DeFi stack for borrowing, liquidity, and yield strategies, while physical redemption is handled through the platform's vault process.",
     "logo": "https://icons.llamao.fi/icons/rwa/silvst.png?w=48&h=48",
-    "registryInfo": "STRATO is operated by BlockApps Inc., the core team behind the STRATO Layer 1 Ethereum-compatible blockchain for RWAs. Public STRATO materials identify BA Gold Enterprises Inc. as the New York vaulting partner for the metal backing.",
     "links": {
       "website": [
         "https://strato.nexus/vaults"
-      ],
-      "twitter": "https://x.com/strato_net",
-      "docs": "https://docs.strato.nexus/",
-      "linkedin": "https://www.linkedin.com/company/blockapps",
-      "telegram": "https://t.me/strato_net",
-      "github": "https://github.com/strato-net/strato-platform"
+      ]
     }
   },
   "review": {

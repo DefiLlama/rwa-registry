@@ -27,17 +27,10 @@
   "about": {
     "description": "AXPT is a profit-participation token connecting holders to charter revenue streams from ultra-long-range private jets. Deployed on Arbitrum using Stobox STV3 Protocol (EIP-2535 Diamond Standard) with automated distribution capabilities and rules-based transfer logic. Token price set at $10,000 per AXPT by the issuer. Operates through a BVI-domiciled SPV structure. Registration and verification required for access. Contract address not publicly indexed due to security token compliance restrictions.",
     "logo": "https://icons.llamao.fi/icons/rwa/axpt.png?w=48&h=48",
-    "registryInfo": "AriyaX Capital Ltd., founded in Dubai, operating across GCC, Europe, and Central Asia. BVI-domiciled SPV structure. Launched on Stobox 4 via STV3 Protocol.",
     "links": {
       "website": [
         "https://invest.ariyax.com/"
-      ],
-      "twitter": "https://x.com/StoboxCompany",
-      "docs": "https://docs.stobox.io/",
-      "linkedin": "https://www.linkedin.com/company/stobox-platform",
-      "discord": "https://dsc.gg/stobox",
-      "telegram": "https://t.me/stobox_community",
-      "github": "https://github.com/StoboxTechnologies"
+      ]
     }
   },
   "review": {

@@ -39,14 +39,10 @@
   "about": {
     "description": "TIPSX represents digital shares of an inflation-protected U.S. Treasury strategy designed to track TIPS performance. It targets real-rate exposure and inflation linkage through tokenized shares that support digital distribution and onchain settlement while maintaining the economics of Treasury inflation-protected securities.",
     "logo": "https://icons.llamao.fi/icons/rwa/tipsx.png?w=48&h=48",
-    "registryInfo": "WisdomTree Digital Trust – Delaware statutory trust registered with the U.S. SEC as an open-end management investment company under the Investment Company Act of 1940, filer CIK 0001859001.",
     "links": {
       "website": [
         "https://www.wisdomtreeconnect.com/digital-funds/fixed-income/tipsx"
-      ],
-      "twitter": "https://x.com/WisdomTreePrime",
-      "docs": "https://www.wisdomtree.com/",
-      "linkedin": "https://www.linkedin.com/company/wisdomtree-investments"
+      ]
     }
   },
   "review": {

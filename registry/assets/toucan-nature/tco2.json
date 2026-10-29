@@ -26,16 +26,10 @@
   "about": {
     "description": "TCO2 is Toucan’s project-specific tokenized carbon credit format. Each TCO2 corresponds to a specific carbon credit type with metadata such as project and vintage, enabling exposure to project-specific attributes. TCO2 tokens can be deposited into Toucan pools (such as BCT or NCT) to mint pooled reference tokens, or held directly.",
     "logo": "https://icons.llamao.fi/icons/rwa/toucan-carbon-reference-tokens.png?w=48&h=48",
-    "registryInfo": "Swiss association “Toucan Protocol Association”, Canton of Zug, enterprise ID CHE-381.295.616 (Swiss commercial register).",
     "links": {
       "website": [
         "https://toucan.earth"
-      ],
-      "twitter": "https://x.com/ToucanProtocol",
-      "docs": "https://docs.toucan.earth/",
-      "linkedin": "https://www.linkedin.com/company/toucan-protocol",
-      "discord": "https://discord.com/invite/r8DZqeJMFE",
-      "github": "https://github.com/ToucanProtocol"
+      ]
     }
   },
   "review": {

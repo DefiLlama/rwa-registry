@@ -33,14 +33,10 @@
   "about": {
     "description": "KUMA is a protocol that packages short-dated sovereign fixed-income exposure into onchain instruments designed to earn yield while remaining more accessible than traditional bond rails. It uses structured products that represent government-bill style risk and return, aiming to make sovereign yield usable within onchain liquidity, savings, and collateral workflows.",
     "logo": "https://icons.llamao.fi/icons/rwa/kuma.png?w=48&h=48",
-    "registryInfo": "Mimo Capital AG – Liechtenstein joint-stock company (Aktiengesellschaft) domiciled in Vaduz, trade register number FL-0002.584.786-1, registered as a Token Generator and Token Issuer under the Liechtenstein Blockchain Act (TVTG) by the FMA, Legal Entity Identifier (LEI) 254900E7ZUXDELL0LV43.",
     "links": {
       "website": [
         "https://kuma.bond"
-      ],
-      "twitter": "https://x.com/mimo_labs",
-      "docs": "https://docs.kuma.bond/",
-      "linkedin": "https://www.linkedin.com/company/mimo-capital"
+      ]
     }
   },
   "review": {

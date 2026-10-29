@@ -28,14 +28,10 @@
   "about": {
     "description": "XCHF (CryptoFranc) is a Swiss franc stablecoin issued by Bitcoin Suisse as an ERC-20 payment token. Each token is intended to represent a claim on CHF against the issuer and is backed via bank-guarantee/issuer arrangements, enabling CHF-denominated settlement and onchain liquidity for the Swiss crypto ecosystem.",
     "logo": "https://icons.llamao.fi/icons/rwa/xchf.png?w=48&h=48",
-    "registryInfo": "Bitcoin Suisse AG - Swiss crypto financial services company and issuer of the CryptoFranc (XCHF) payment token.",
     "links": {
       "website": [
         "https://www.bitcoinsuisse.com/cryptofranc"
-      ],
-      "twitter": "https://x.com/BitcoinSuisseAG",
-      "docs": "https://www.bitcoinsuisse.com/",
-      "linkedin": "https://www.linkedin.com/company/bitcoin-suisse-ag"
+      ]
     }
   },
   "review": {

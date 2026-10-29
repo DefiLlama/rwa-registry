@@ -25,16 +25,10 @@
   },
   "about": {
     "description": "rAIX is the enhanced version of the RWAlpha rAI vault on the Mantle chain. It holds a basket of five listed funds, weighted thirty percent to the YieldMax NVDA Option Income Strategy ETF, twenty percent each to the NEOS Nasdaq-100 High Income ETF, the Roundhill Memory ETF and the Vanguard Information Technology ETF, and ten percent to the iShares 0-3 Month Treasury Bond ETF. The option income funds and the treasury fund supply the cash flow while the memory and technology funds are held for growth. Subscriptions are taken in USDT and the platform mints the token to the subscriber wallet on the following business day, while redemptions are settled in USDT within about five business days. Distributions are paid weekly in USDT and are quoted after a thirty percent withholding tax. The Mantle contract is open for subscription through the platform but currently has no supply outstanding.",
-    "registryInfo": "RWAlpha products are issued through RWAlpha Matrix SPC, a Cayman Islands umbrella fund structure with a British Virgin Islands fund manager. RWAlpha is a product of DMZ Finance, which also operates the QCD Open-end PCC umbrella fund in the Dubai International Financial Centre. Subscriptions are converted through a licensed over-the-counter channel and the underlying funds are bought and held through licensed brokers and custodians named by the platform rather than disclosed per product.",
     "links": {
       "website": [
         "https://www.rwalpha.ai/vault/rAIX?chain=mantle"
-      ],
-      "twitter": "https://x.com/RWAlpha_AI",
-      "docs": "https://www.rwalpha.ai/docs/intro",
-      "linkedin": "https://www.linkedin.com/company/rwalpha",
-      "telegram": "https://t.me/rwalphahelpdesk",
-      "github": "https://github.com/dmzFinance"
+      ]
     }
   },
   "review": {

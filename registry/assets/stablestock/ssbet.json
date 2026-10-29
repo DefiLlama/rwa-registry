@@ -28,16 +28,10 @@
   "about": {
     "description": "sSBET is a tokenized wrapper of SharpLink Gaming, Inc. (Nasdaq: SBET), a Minneapolis-headquartered public company that has pivoted to becoming the largest corporate Ethereum Treasury (DAT) holder, with an ETH treasury exceeding 800,000 ETH under Chairman Joseph Lubin (Consensys founder). The sToken is a BEP-20 issued 1:1 against SBET shares custodied off-chain by StableBroker. StableStock's licensed broker infrastructure built with HabitTrade, and paired with 24/7 on-chain liquidity via Native. KYC gates mint/redeem. On-chain transfers are permissionless, giving BSC users a clean way to trade leveraged ETH-treasury exposure.",
     "logo": "https://icons.llamao.fi/icons/rwa/sbet.png?w=48&h=48",
-    "registryInfo": "StableStock sTokens are issued under StableBroker, StableStock's licensed-broker infrastructure operated with HabitTrade. HabitTrade Pty Ltd holds AFSL 514654 (ABN 59 626 521 202, Australia); HabitTrade LLC holds a US FinCEN MSB registration (31000229716152); HabitTrade (HK) Limited holds an SFC Type 1 licence (Hong Kong). StableStock custody relies on its US broker partner DriveWealth LLC, a FINRA/SIPC member US broker-dealer. StableStock's published backers/partners include YZi Labs, MPCi, Vertex Ventures, Foresight Ventures, Amber Group and Dragonfly.",
     "links": {
       "website": [
         "https://stablestock.finance"
-      ],
-      "twitter": "https://x.com/StableStock",
-      "docs": "https://docs.stablestock.com/",
-      "linkedin": "https://www.linkedin.com/company/stablestock",
-      "discord": "https://discord.gg/stablestock",
-      "telegram": "https://t.me/StableStock"
+      ]
     }
   },
   "review": {

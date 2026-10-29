@@ -26,13 +26,10 @@
   },
   "about": {
     "description": "FinChain Dollar (FUSD) is a yield-bearing, USD-pegged stablecoin issued by FinChain Bermuda Limited, a wholly owned subsidiary of Finchain Holdings (Cayman) Limited and the Web3 arm of Fosun Wealth Holdings. Balances rebase daily via a reward multiplier while the unit price stays fixed at $1; yield accrues from a reserve of tokenised T-bill and money-market exposure held against FUSDLP. Minted 1:1 from USDT by KYC-verified wallets ($1,000 minimum, non-US). No allowlist gates holding or transfer, but the token is an upgradeable, pausable proxy, so transferability is revocable by the admin Safe. Reserve treasury coverage measured ~115% on 2026-08-14. No public attestation is obtainable: both proof-of-reserve links resolve to one dead, email-gated DocSend and no financial auditor is named in the issuer's own vendor table. Two CertiK audits (latest 2026-06-29).",
-    "registryInfo": "Subsidiary of Finchain Holdings (Cayman) Limited; Bermuda Monetary Authority licence claimed by issuer, not confirmed on any public register",
     "links": {
       "website": [
         "https://www.finchain.global/"
-      ],
-      "twitter": "https://x.com/FinChain_CN",
-      "docs": "https://finchain.gitbook.io/finchain-docs/en/fusd/fusd-token"
+      ]
     }
   },
   "review": {

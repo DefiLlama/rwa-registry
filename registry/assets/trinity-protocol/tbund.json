@@ -28,14 +28,10 @@
   "about": {
     "description": "TBUND is an Arbitrum ERC-20 with a fixed supply of ten million tokens. The token contract exposes no mint function, so supply cannot be increased, and burn is the only path that reduces it. There is no holder-facing redemption function. Transfers are unrestricted, with no allowlist, blacklist or transfer hook. The only custody document the issuer has published for this token describes a collection of physical 1924 German bearer bond certificates, batch NC 387001 to 397000, being ten thousand certificates packed in ten boxes and evidenced by photographs with SHA-256 file hashes. Those are historical paper instruments rather than current German federal debt. A price adapter controlled by the issuer returns a fixed value for the token, and a Morpho Blue market accepts TBUND as collateral against USDC at a 62.5% liquidation loan-to-value.",
     "logo": "https://icons.llamao.fi/icons/rwa/tbund.png?w=48&h=48",
-    "registryInfo": "No public registry record for the issuer could be located. The issuer is identified as Garret INC, a United States corporation, with an EIN of 87-1576956, neither of which appears on the project website, in either document published through the Proof of Reserve contract, or in the token metadata records. The surname appears once in the issuer's published material, as an annotation reading Charles Garret filling the attestor line of the custody document published for the bond token. Neither the entity name nor the EIN can be independently confirmed, because no public registry of employer identification numbers exists for for-profit entities and no record for Garret INC or Trinity Protocol appears in the GLEIF registry or in SEC EDGAR. The metadata records the issuer publishes name no issuing entity, although the gold record does name a custodian and a marking entity. The identifier the Proof of Reserve contract publishes as an issuer LEI is the string TRINITY-PROTOCOL-RWA, which is exactly twenty characters but contains hyphens and ends in letters where ISO 17442 requires alphanumeric characters throughout and two check digits calculated under ISO 7064.",
     "links": {
       "website": [
         "https://graceful-begonia-2b7634.netlify.app/"
-      ],
-      "twitter": "https://x.com/cameron_arc_ai",
-      "linkedin": "https://www.linkedin.com/company/trinityprotocol",
-      "telegram": "https://t.me/cameroncurriden01"
+      ]
     }
   },
   "review": {

@@ -43,15 +43,10 @@
   "about": {
     "description": "Backed CSPX Core S&P 500 (bCSPX) is a tokenized tracker designed to reflect the performance of the iShares Core S&P 500 UCITS ETF (CSPX) in a format usable across crypto venues. It is positioned as fully backed 1:1 by the underlying ETF exposure held through traditional custody arrangements, with a proof-of-reserves page intended to make collateral coverage independently verifiable.",
     "logo": "https://icons.llamao.fi/icons/rwa/spx.png?w=48&h=48",
-    "registryInfo": "Backed Assets (JE) Limited – private limited company incorporated in Jersey under the Companies (Jersey) Law 1991, registered in the Jersey companies register (no. 152608) with registered office First Floor, La Chasse Chambers, Ten La Chasse, St Helier JE2 4UE, Jersey. Issuer of tokenized tracker certificates under an FMA‑approved EU prospectus passport. LEI 984500001AB7C6C7F577.",
     "links": {
       "website": [
         "https://www.backed.fi"
-      ],
-      "twitter": "https://x.com/BackedFi",
-      "docs": "https://docs.backed.fi/",
-      "linkedin": "https://www.linkedin.com/company/backedfi",
-      "github": "https://github.com/backed-fi"
+      ]
     }
   },
   "review": {

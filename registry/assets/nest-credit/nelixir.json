@@ -31,16 +31,10 @@
   "about": {
     "description": "nELIXIR is the receipt token for Nest’s Elixir vault, bringing Elixir’s deUSD yield-bearing stablecoin into Nest as a permissionless cross-chain wrapper. Public materials describe deUSD yield as coming from a mix of treasury exposure and funding yield, and note that holders of assets such as BlackRock BUIDL and Hamilton Lane SCOPE can mint deUSD and route it into Nest. Value accrues through the vault’s NAV rather than separate coupon payments, and redemptions follow Nest settlement and liquidity mechanics.",
     "logo": "https://icons.llamao.fi/icons/rwa/nelixir.png?w=48&h=48",
-    "registryInfo": "Nest DAO LLC – legal address 852 Lagoon Road, Majuro, 96960, Marshall Islands, Legal Entity Identifier (LEI) 254900BB9T1QYAT04892 (status: ISSUED; managing LOU: Bloomberg Finance L.P.; next renewal date: 2026-10-14).",
     "links": {
       "website": [
         "https://nest.credit"
-      ],
-      "twitter": "https://x.com/nestcredit",
-      "docs": "https://docs.nestcredit.io/",
-      "linkedin": "https://www.linkedin.com/company/nestcredit",
-      "discord": "https://discord.gg/t9HpeFvUwS",
-      "telegram": "https://t.me/NestCredit"
+      ]
     }
   },
   "review": {

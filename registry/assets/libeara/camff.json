@@ -39,15 +39,10 @@
   "about": {
     "description": "CAMFF is the Class F digital share of the ChinaAMC HKD Digital Money Market Fund, a Hong Kong-domiciled strategy designed for HKD cash management through short-term, high-quality HKD money market instruments. Class F carries a 0.60% per annum management fee. Inception date April 17, 2025. Tokenized via Libeara with Standard Chartered as custodian.",
     "logo": "https://icons.llamao.fi/icons/rwa/camff.png?w=48&h=48",
-    "registryInfo": "Domicile: Hong Kong, Regulatory framework: Hong Kong Ordinance Professional Investor Exemption (HKMA), Custodian: Standard Chartered Trustee (Hong Kong) Limited (LEI: 25490020R864YN3HC740), Auditor: KPMG",
     "links": {
       "website": [
         "https://www.chinaamc.com.hk/en/product/hkd-digital-money-market-fund/"
-      ],
-      "twitter": "https://x.com/ChinaAMC_HK",
-      "docs": "https://libeara.com/",
-      "linkedin": "https://www.linkedin.com/company/libeara",
-      "github": "https://github.com/libeara"
+      ]
     }
   },
   "review": {

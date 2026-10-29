@@ -31,14 +31,10 @@
   "about": {
     "description": "nBASIS is the receipt token for Nest’s market-neutral basis vault, combining regulated crypto basis carry with Treasury exposure. Nest discloses the composition as 75% crypto basis strategy and 25% U.S. Treasuries, implemented via Superstate USCC (60%), Superstate USTB (25%), and mBASIS (15%). The design targets non-directional returns where yield accrues via NAV appreciation. Redemption timing depends on vault settlement and liquidity controls.",
     "logo": "https://icons.llamao.fi/icons/rwa/nbasis.png?w=48&h=48",
-    "registryInfo": "Nest DAO LLC – legal address 852 Lagoon Road, Majuro, 96960, Marshall Islands, Legal Entity Identifier (LEI) 254900BB9T1QYAT04892 (status: ISSUED; managing LOU: Bloomberg Finance L.P.; next renewal date: 2026-10-14).",
     "links": {
       "website": [
         "https://nest.credit"
-      ],
-      "twitter": "https://x.com/nestcredit",
-      "docs": "https://docs.nestcredit.io/",
-      "linkedin": "https://www.linkedin.com/company/nestcredit"
+      ]
     }
   },
   "review": {

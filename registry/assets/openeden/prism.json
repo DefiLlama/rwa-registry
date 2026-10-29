@@ -32,17 +32,10 @@
   "about": {
     "description": "PRISM is a synthetic multi-strategy yield token issued by OpenEden Digital, a Bermuda Monetary Authority licensed segregated accounts company holding DABA license 202403468. It maintains a target 1 dollar NAV and is minted 1 to 1 against USDO. The underlying portfolio is managed by Monarq Asset Management, an NFA member and CFTC-registered CPO majority-owned by FalconX, and spans cash and carry arbitrage, overcollateralized institutional lending, blue-chip on-chain and DeFi yield strategies, and regulated tokenized RWAs including US Treasury-backed tokens. Because the collateral mix includes non-RWA crypto-native strategies alongside the RWA base, PRISM is classified as a Programmable Finance active vault sitting on top of the RWA stablecoin layer. A separate value-accruing staked version known as xPRISM exists as a wrapper on top of PRISM.",
     "logo": "https://icons.llamao.fi/icons/rwa/prism.png?w=48&h=48",
-    "registryInfo": "OpenEden Digital Limited is licensed by the Bermuda Monetary Authority under Digital Asset Business Act license number 202403468, structured as a Segregated Accounts Company. PRISM tokens are minted 1 to 1 against USDO (OpenEden OpenDollar) and the underlying portfolio is managed by Monarq Asset Management, a National Futures Association member and CFTC-registered Commodity Pool Operator that is majority-owned by FalconX. The reserve mandate spans cash-and-carry basis arbitrage, overcollateralized institutional lending, blue-chip on-chain and DeFi yield strategies, and regulated tokenized real-world assets including US Treasury-backed tokens (OpenEden TBILL). Ongoing reserve composition percentages are not currently published; an audit bounty is active in the OpenEden documentation portal.",
     "links": {
       "website": [
         "https://openeden.com/prism"
-      ],
-      "twitter": "https://x.com/OpenEden_X",
-      "docs": "https://docs.openeden.com/prism",
-      "linkedin": "https://www.linkedin.com/company/openeden",
-      "discord": "https://discord.gg/FuPtnSJmke",
-      "telegram": "https://t.me/openeden",
-      "github": "https://github.com/OpenEdenHQ"
+      ]
     }
   },
   "review": {

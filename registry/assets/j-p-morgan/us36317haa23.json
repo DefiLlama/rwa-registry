@@ -26,12 +26,10 @@
   "about": {
     "description": "Onchain U.S. commercial paper issued by Galaxy Digital Holdings LP and arranged by J.P. Morgan on Solana. The issuance was purchased by Coinbase and Franklin Templeton, and it aims to retain money-market characteristics while improving settlement speed, transparency, and post-trade efficiency.",
     "logo": "https://icons.llamao.fi/icons/rwa/us36317haa23.png?w=48&h=48",
-    "registryInfo": "Issuer: Galaxy Digital Holdings LP; arranged by J.P. Morgan; investors included Coinbase and Franklin Templeton (per J.P. Morgan release).",
     "links": {
       "website": [
         "https://www.jpmorgan.com/about-us/corporate-news/2025/jpmorgan-commercial-paper-issuance-solana-blockchain"
-      ],
-      "twitter": "https://x.com/galaxyhq"
+      ]
     }
   },
   "review": {

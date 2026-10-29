@@ -29,13 +29,10 @@
   "about": {
     "description": "GYTW is AXC's institutional fund-position token for the GROW Heritage Fund (BUU815), a BVI-registered private sub-fund of GROW Global Allocation OFC (BUU813). Used as the base asset inside AXC's RWAfi vault framework to bridge administrator-issued fund documentation into a programmable on-chain vault position. Pricing flows through AXC's DRDS (Distributed Reference Data System): the fund administrator publishes the NAV figure, then designated internal witnesses confirm before the protocol uses it for vault accounting and TVL. The whitelisted variant restricts holding to KYC'd institutional addresses. Pairs with AXC's existing GIFT token (Grow Institutional Fund Token) but is a separate product line targeting heritage-fund exposure.",
     "logo": "https://icons.llamao.fi/icons/rwa/gytw.png?w=48&h=48",
-    "registryInfo": "RWAfi DAO LLC - Series 1 issues GYTW under the RWAfi DAO LLC Master/Series DAO LLC structure. The AXC legal docs list the structure as domiciled in the Marshall Islands. AXC acts as the token service provider, providing technical support for token issuance and management.",
     "links": {
       "website": [
         "http://www.axc.xyz/"
-      ],
-      "twitter": "https://x.com/AXClabs",
-      "docs": "https://docs.axc.xyz/"
+      ]
     }
   },
   "review": {

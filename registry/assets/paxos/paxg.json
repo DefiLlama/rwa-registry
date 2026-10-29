@@ -55,16 +55,10 @@
   "about": {
     "description": "PAX Gold (PAXG) is a tokenized gold product issued by Paxos, designed so each token corresponds to allocated physical gold held in custody. It is built for fractional ownership and transferability while maintaining backing in LBMA-quality bullion, supported by recurring transparency reporting intended to reconcile token supply and underlying gold holdings.",
     "logo": "https://icons.llamao.fi/icons/rwa/paxg.png?w=48&h=48",
-    "registryInfo": "New York limited purpose trust company chartered and supervised by the New York State Department of Financial Services (NYDFS). Paxos Trust Company, LLC is authorized to issue PAX Gold (PAXG) and holds customer assets in custody under its trust charter (NMLS ID 1766787).",
     "links": {
       "website": [
         "https://www.paxos.com/pax-gold"
-      ],
-      "twitter": "https://x.com/Paxos",
-      "docs": "https://docs.paxos.com/",
-      "linkedin": "https://www.linkedin.com/company/paxos",
-      "telegram": "https://t.me/PaxosGlobal",
-      "github": "https://github.com/paxosglobal"
+      ]
     }
   },
   "review": {

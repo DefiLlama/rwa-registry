@@ -27,15 +27,10 @@
   },
   "about": {
     "description": "Staked Tenbin Gold is the ERC-4626 staking vault that receives protocol revenue distributions for Tenbin's gold product. Holders deposit tGLD and receive STGLD, whose redemption value per share rises as the protocol mints new asset tokens into the staking pool. Tenbin generates that revenue from yield on the on-chain USDC collateral backing tGLD, deployed to third-party lending vaults, net of the cost of maintaining hedge exposure, together with hedge performance and market adjustment fees. The issuer states that holding the unstaked asset token does not entitle the holder to rewards, so the yield accrues only to this staked wrapper. Accrual is live and measurable on-chain, with redemption value per share standing above the one to one launch baseline. Scale is currently negligible. Total supply is approximately 0.46 tokens across 23 holders, against a tGLD supply of approximately 258 tokens, so under one percent of the asset token supply is staked. Contract identity was verified on Ethereum and matches the address published by the issuer. The on-chain symbol is STGLD. Tenbin documentation refers to the token as stGLD.",
-    "registryInfo": "TENBIN LABS INC. (Delaware C-corp). LEI: 254900A3XDLQJAQWKC09. Registered address: c/o Corporation Service Company, 251 Little Falls Drive, Wilmington, DE 19808; HQ in New York, NY. Founded 2025. Filed Form D with the SEC for Reg D securities offering. Total funding $13.8M across rounds; Jan 2026 $7M seed led by Galaxy Ventures, with Wintermute Ventures, GSR, Variant, Archetype, FalconX, and Bankless Ventures. Staked Tenbin Gold is the protocol's ERC-4626 staking vault for tGLD and is listed as StakedAsset(stGLD) in the issuer's published core address table at docs.tenbinlabs.xyz. Audited Solidity contracts published at github.com/tenbinlabs/tenbin-contracts.",
     "links": {
       "website": [
         "https://tenbinlabs.xyz/"
-      ],
-      "twitter": "https://x.com/tenbinlabs",
-      "docs": "https://docs.tenbinlabs.xyz",
-      "telegram": "https://t.me/liquid_and_yield_bearing",
-      "github": "https://github.com/tenbinlabs/tenbin-contracts"
+      ]
     }
   },
   "review": {

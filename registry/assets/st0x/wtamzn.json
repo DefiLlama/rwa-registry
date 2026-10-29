@@ -28,15 +28,10 @@
   "about": {
     "description": "wtAMZN is an ST0x tokenized equity that provides onchain exposure to Amazon. ST0x says each token is backed 1:1 by underlying shares held with a regulated broker and issued by S01 Issuer GmbH as a regulated debt instrument with a contractual Right of Exchange to segregated-custody shares. The tokens are standard ERC-20s, may be withdrawn to self-custody, and ST0x states they can be used in DeFi without counterparty whitelisting. Minting and redemption through the Core Bridge require KYC plus a qualified brokerage account for delivery of the underlying shares. No public reserve attestation is currently disclosed, so the asset is classified as RWA rather than True RWA.",
     "logo": "https://icons.llamao.fi/icons/rwa/amzn.png?w=48&h=48",
-    "registryInfo": "ST0x describes S01 Issuer GmbH as the regulated issuer of its tokenized equities. An April 2026 ST0x-related release describes S01 Issuer GmbH as a German limited liability company issuing tokens as debt instruments under an EU Base Prospectus approved by Liechtenstein's FMA on 30 Mar 2026. The ST0x FAQ spells the issuer as \"S1 Issuer GmbH\". SARK X (BVI) Ltd / SarkX BVI Ltd operates the website and decentralized matching engine.",
     "links": {
       "website": [
         "https://www.st0x.io/trade/0x997baE3EC193a249596d3708C3fAB7C501Bb8a53"
-      ],
-      "twitter": "https://x.com/st0x_io",
-      "docs": "https://docs.st0x.io/",
-      "linkedin": "https://www.linkedin.com/company/st0x",
-      "telegram": "https://t.me/ST0xCommunity"
+      ]
     }
   },
   "review": {

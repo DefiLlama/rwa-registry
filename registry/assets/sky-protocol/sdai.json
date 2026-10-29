@@ -29,16 +29,10 @@
   "about": {
     "description": "sDAI is the savings wrapper for DAI, the original stablecoin of the Sky Protocol, formerly MakerDAO. Depositors lock DAI in an ERC-4626 vault on Ethereum and receive a non-rebasing share token whose redemption value rises as the DAI Savings Rate accrues, so the position grows through share price rather than through a rising balance. Holders can redeem back to DAI from the vault at any time without permission or a minimum. The DAI Savings Rate is set by Sky governance and is paid from the same blended protocol revenue that funds the Sky Savings Rate on USDS, so the return is not a direct claim on a specific real world asset. That revenue comes from Sky Agent allocations through Spark, Grove and other agents into onchain lending and institutional credit, from yield on the USD Coin reserves held in the peg stability module, from borrowing fees on crypto collateral vaults, and from legacy real world asset vaults. sDAI is the legacy savings product of the protocol and Sky is migrating users toward USDS and sUSDS, so the DAI Savings Rate is generally set below the Sky Savings Rate. The deployments on Base and Optimism are bridged representations of the Ethereum vault and do not themselves hold the underlying DAI.",
     "logo": "https://icons.llamao.fi/icons/rwa/sky-sdai.png?w=48&h=48",
-    "registryInfo": "Sky Protocol, formerly MakerDAO, issues DAI and operates the DAI Savings Rate through onchain governance rather than through a single incorporated issuer. sDAI is an ERC-4626 vault contract on Ethereum that holds DAI and accrues the savings rate to depositors through the share price.",
     "links": {
       "website": [
         "https://sky.money/"
-      ],
-      "twitter": "https://x.com/SkyEcosystem",
-      "docs": "https://docs.sky.money/",
-      "linkedin": "https://www.linkedin.com/company/skyecosystem",
-      "discord": "https://discord.com/invite/XeZQ8HxSEN",
-      "github": "https://github.com/makerdao"
+      ]
     }
   },
   "review": {

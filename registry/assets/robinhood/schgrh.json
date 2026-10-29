@@ -26,16 +26,10 @@
   "about": {
     "description": "SCHG is a tokenized tracker certificate issued by Robinhood Markets, Inc. through Robinhood Europe UAB, deployed on Arbitrum One. It is designed to reflect the price of the SCHG ETF in a format accessible on-chain, providing synthetic exposure rather than direct fund ownership under MiFID II regulatory oversight. Trading is available 24/5 to EU/EEA customers, and on-chain pricing is supplied through Chainlink oracle feeds.",
     "logo": "https://icons.llamao.fi/icons/rwa/schg.png?w=48&h=48",
-    "registryInfo": "SEC-registered broker-dealer; Robinhood Europe UAB (MiFID II)",
     "links": {
       "website": [
         "https://robinhood.com/stocks"
-      ],
-      "twitter": "https://x.com/RobinhoodApp",
-      "docs": "https://robinhood.com/us/en/support/",
-      "linkedin": "https://www.linkedin.com/company/robinhood-markets",
-      "discord": "https://discord.com/invite/robinhood",
-      "github": "https://github.com/robinhood"
+      ]
     }
   },
   "review": {

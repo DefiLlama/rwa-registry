@@ -26,13 +26,10 @@
   "about": {
     "description": "A beneficial-ownership token issued by FCA-regulated digital asset exchange and custodian Archax, representing units of the abrdn Liquidity Fund (Lux) - US Dollar Fund (L-1 Inc) held in Archax custody. Tokens are issued on Hedera, are KYC-gated to onboarded professional clients, and track $1 distributing fund units one-to-one.",
     "logo": "https://icons.llamao.fi/icons/rwa/aaulf.png?w=48&h=48",
-    "registryInfo": "Beneficial-ownership token issued by Archax Ltd (FCA-regulated digital securities exchange, brokerage and custodian): Archax purchases units of the underlying institutional money market fund via its nominee and issues tokens 1:1 against custodied fund units on Hedera (KYC key set; whitelist-gated transfers), with small XDC side deployments. Only onboarded professional Archax clients can hold or transfer.",
     "links": {
       "website": [
         "https://archax.com"
-      ],
-      "twitter": "https://x.com/ArchaxEx",
-      "docs": "https://archax.com"
+      ]
     }
   },
   "review": {

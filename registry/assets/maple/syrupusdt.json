@@ -27,17 +27,10 @@
   "about": {
     "description": "syrupUSDT is a yield-bearing receipt token for USDT deposited into Maple’s Syrup lending vaults. The token’s exchange rate increases as interest accrues from overcollateralized lending to institutional borrowers, with withdrawals processed at the smart contract exchange rate.",
     "logo": "https://icons.llamao.fi/icons/rwa/syrup-usdt.png?w=48&h=48",
-    "registryInfo": "Issuer CIK: 0001995469 (SEC), Domicile: United States, Regulatory framework: Non-Regulated",
     "links": {
       "website": [
         "https://maple.finance/"
-      ],
-      "twitter": "https://x.com/maplefinance",
-      "docs": "https://maplefinance.gitbook.io/",
-      "linkedin": "https://www.linkedin.com/company/maplefinance",
-      "discord": "https://discord.gg/fgWRMHCd7d",
-      "telegram": "https://t.me/maplefinance",
-      "github": "https://github.com/maple-labs"
+      ]
     }
   },
   "review": {

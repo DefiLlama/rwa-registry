@@ -32,16 +32,10 @@
   "about": {
     "description": "USD1 is a USD‑pegged stablecoin branded by World Liberty Financial. USD1 is designed to be fully backed by U.S. dollars and U.S. government money market funds, with reserve assets held/maintained by BitGo Trust Company. Mint/redemption is via authorized channels, while the token is transferable in self custody on supported networks.",
     "logo": "https://icons.llamao.fi/icons/rwa/usd1.png?w=48&h=48",
-    "registryInfo": "World Liberty Financial USD (USD1) is a fiat-backed stablecoin product of World Liberty Financial, with reserve custody and monthly reserve attestations published via partners.",
     "links": {
       "website": [
         "https://worldlibertyfinancial.com/usd1"
-      ],
-      "twitter": "https://x.com/worldlibertyfi",
-      "docs": "https://worldlibertyfinancial.com/",
-      "discord": "https://discord.com/invite/worldlibertyfinancial",
-      "telegram": "https://t.me/defiant1s",
-      "github": "https://github.com/worldliberty"
+      ]
     }
   },
   "review": {

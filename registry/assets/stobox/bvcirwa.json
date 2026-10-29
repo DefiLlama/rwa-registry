@@ -27,17 +27,10 @@
   "about": {
     "description": "BVCIRWA is a security token providing tokenized access to Blockchain Venture Capital Inc. (CSE: BVCI), described as Canada's first regulated stablecoin issuer. Token price $1.00 per BVCIRWA (set by issuer). Deployed on Arbitrum via Stobox STV3 Protocol. ZGrowth uses a dual-token architecture: BVCIRWA (security token on Arbitrum) paired with uBVCIRWA (utility token tradable on Uniswap and Raydium DEX). Offering available to non-Canadian accredited and institutional investors subject to KYC/AML. SPV structure domiciled in BVI.",
     "logo": "https://icons.llamao.fi/icons/rwa/bvcirwa.png?w=48&h=48",
-    "registryInfo": "ZGrowth (BVI) Ltd., British Virgin Islands-registered SPV wholly owned by BVCI founder Richard Zhou. Underlying asset: equity shares of Blockchain Venture Capital Inc. (CSE: BVCI).",
     "links": {
       "website": [
         "https://rwa.zgrowthbvi.com/"
-      ],
-      "twitter": "https://x.com/StoboxCompany",
-      "docs": "https://docs.stobox.io/",
-      "linkedin": "https://www.linkedin.com/company/stobox-platform",
-      "discord": "https://dsc.gg/stobox",
-      "telegram": "https://t.me/stobox_community",
-      "github": "https://github.com/StoboxTechnologies"
+      ]
     }
   },
   "review": {

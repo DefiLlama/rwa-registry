@@ -52,16 +52,10 @@
   "about": {
     "description": "Solayer USD (sUSD) is a yield-bearing USD stablecoin on Solana. Solayer describes sUSD as backed by U.S. Treasury bills and structured so holders accrue Treasury-linked yield while using sUSD as a dollar-denominated settlement asset in Solana DeFi. Yield accrues using Solana Token-2022 interest-bearing mechanics.",
     "logo": "https://icons.llamao.fi/icons/rwa/solayer-usd.png?w=48&h=48",
-    "registryInfo": "Solayer Labs Inc. – U.S.-based company building the Solayer restaking platform and sUSD income-based stablecoin (per Solayer documentation and press coverage).",
     "links": {
       "website": [
         "https://solayer.xyz"
-      ],
-      "twitter": "https://x.com/solayer_labs",
-      "docs": "https://docs.solayer.org/",
-      "linkedin": "https://www.linkedin.com/company/solayer-labs",
-      "telegram": "https://t.me/solayer_discussion",
-      "github": "https://github.com/solayer-labs"
+      ]
     }
   },
   "review": {

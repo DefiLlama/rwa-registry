@@ -32,13 +32,10 @@
   "about": {
     "description": "GYEN is a regulated Japanese yen stablecoin issued by GMO Trust. It provides onchain JPY exposure for payments and trading, with issuance/redemption handled through a regulated trust framework while tokens remain freely transferable on supported networks (e.g., Ethereum and Solana).",
     "logo": "https://icons.llamao.fi/icons/rwa/gyen.png?w=48&h=48",
-    "registryInfo": "GMO-Z.com Trust Company, Inc. (dba GMO Trust) - New York limited purpose trust company regulated by the New York State Department of Financial Services (NYDFS).",
     "links": {
       "website": [
         "https://stablecoin.z.com"
-      ],
-      "twitter": "https://x.com/GMOTrust",
-      "github": "https://github.com/trust-zcom"
+      ]
     }
   },
   "review": {

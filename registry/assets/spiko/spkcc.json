@@ -40,15 +40,10 @@
   "about": {
     "description": "Spiko Cash and Carry Dollar is an institutional alternative fund that allocates monthly to the best expected return among a BTC CME futures cash-and-carry trade, an ETH CME futures cash-and-carry trade, or Treasury bills, aiming to lock in carry above the risk-free rate. It lists daily subscriptions and redemptions in USDC, eligible professional investors, CACEIS as custodian and fund administrator, and PricewaterhouseCoopers as auditor. Spiko's smart contract system enforces that only allowlisted, KYC-cleared addresses can hold Spiko tokens.",
     "logo": "https://icons.llamao.fi/icons/rwa/spiko-cash-and-carry-dollar.png?w=48&h=48",
-    "registryInfo": "Regulatory framework: Fonds Professionnel Specialise (FPS), an alternative investment fund (France), overseen by the Autorite des marches financiers (AMF).",
     "links": {
       "website": [
         "https://www.spiko.io/"
-      ],
-      "twitter": "https://x.com/Spiko_finance",
-      "docs": "https://docs.spiko.io/",
-      "linkedin": "https://www.linkedin.com/company/spiko-finance",
-      "github": "https://github.com/spiko-tech"
+      ]
     }
   },
   "review": {

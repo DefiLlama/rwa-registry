@@ -31,17 +31,9 @@
   "about": {
     "description": "sAID is an ERC-4626 liquid-staking vault token minted by staking AID. It represents a pro rata share of GAIB’s AI and robotics infrastructure financing portfolio, together with liquidity buffers in U.S. Treasury bills and stable assets. Yield accrues through NAV appreciation, and unstaking follows a monthly batch cycle where requests are queued through month-end, liquidity is sourced during the following month, and claims open on the first day of the third month.",
     "logo": "https://icons.llamao.fi/icons/rwa/aid.png?w=48&h=48",
-    "registryInfo": "SpiceFlow AI Foundation fully owns SpiceFlow AI Corporation, which operates the sAIDVault decentralized application; the managed strategy is executed through Good AI SPC, a Cayman Islands segregated portfolio company.",
     "links": {
       "website": [
         "https://aid.gaib.ai/stake"
-      ],
-      "twitter": "https://x.com/gaib_ai",
-      "docs": "https://docs.gaib.ai/",
-      "linkedin": "https://www.linkedin.com/company/gaibofficial",
-      "telegram": "https://t.me/gaib_ai_official",
-      "refLinks": [
-        "https://aid.gaib.ai/spice?ref=4A3909EB"
       ]
     }
   },

@@ -43,14 +43,10 @@
   "about": {
     "description": "XSGD is a Singapore dollar stablecoin issued by StraitsX for SGD-denominated settlement on public blockchains. It is intended to be redeemable 1:1 for SGD through the StraitsX ecosystem, supporting payments, exchange settlement, and DeFi liquidity using an SGD unit of account. StraitsX provides recurring reserve attestation reports covering the assets backing XSGD.",
     "logo": "https://icons.llamao.fi/icons/rwa/xsgd.png?w=48&h=48",
-    "registryInfo": "STRAITSX SGD ISSUANCE PTE. LTD. – Exempt private company limited by shares incorporated in Singapore, ACRA registration / UEN 202328554G, registered address 79 Ayer Rajah Crescent #04-08, Singapore 139955. MAS Financial Institutions Directory lists STRAITSX SGD ISSUANCE PTE. LTD. as a Major Payment Institution, StraitsX states it is licensed/regulated by MAS under MPI licences PS20200475, PS20200656, PS20200657, PS20200658.",
     "links": {
       "website": [
         "https://www.straitsx.com/xsgd"
-      ],
-      "twitter": "https://x.com/xfers",
-      "docs": "https://docs.straitsx.com/",
-      "linkedin": "https://www.linkedin.com/company/straitsx"
+      ]
     }
   },
   "review": {

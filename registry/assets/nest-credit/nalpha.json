@@ -31,14 +31,10 @@
   "about": {
     "description": "nALPHA is the receipt token for Nest’s diversified “balanced yield” vault. Nest discloses a blended composition across crypto basis strategy (25%), American oil & gas / mineral and royalty interests (25%), private credit (23%), U.S. Treasuries (15%), plus smaller allocations to ETFs (12%), money market funds (1%), and senior secured debt (1%). The disclosed component list includes a 25% allocation to Nest Basis Vault, 25% Mineral Vault (mineral & royalty interests), 15% Nest Treasury Vault, 15% LiquidStone by BlackOpal (invoice financing), 8% Whinfell (tokenized ETFs), 8% Kasu (invoice financing), and smaller allocations to Blackstone SRLN (2%), OpenTrade XHYCB (BlackRock corporate bond ETF, 2%), OpenTrade XMMF (Fidelity Institutional Liquidity MMF, 1%), and Invesco iSNR (senior loan strategy, 1%)",
     "logo": "https://icons.llamao.fi/icons/rwa/nalpha.png?w=48&h=48",
-    "registryInfo": "Nest DAO LLC – legal address 852 Lagoon Road, Majuro, 96960, Marshall Islands, Legal Entity Identifier (LEI) 254900BB9T1QYAT04892 (status: ISSUED; managing LOU: Bloomberg Finance L.P.; next renewal date: 2026-10-14).",
     "links": {
       "website": [
         "https://nest.credit"
-      ],
-      "twitter": "https://x.com/nestcredit",
-      "docs": "https://docs.nestcredit.io/",
-      "linkedin": "https://www.linkedin.com/company/nestcredit"
+      ]
     }
   },
   "review": {

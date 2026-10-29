@@ -26,13 +26,10 @@
   "about": {
     "description": "pEAK is the tokenized share class of the Peakwater Volatility Alpha Fund, a Singapore VCC sub-fund managed by MAS-licensed Pilgrim Partners Asia that runs systematic long/short cross-asset volatility strategies (including IBIT-, COIN- and MSTR-linked derivatives) targeting ~20% annualized absolute returns. It is issued and distributed on Ethereum through the regulated DigiFT exchange to accredited and institutional investors.",
     "logo": "https://icons.llamao.fi/icons/rwa/peak.png?w=48&h=48",
-    "registryInfo": "Peakwater Volatility Alpha Fund, registered sub-fund T24VC0084D-SF004 of Pilgrim Investment VCC (Singapore VCC Act); manager Pilgrim Partners Asia (MAS CMS licence, est. 2009, >US$1B AUM); tokenized and distributed by DigiFT (MAS-licensed exchange). Monthly subscription series (pEAK0726/pEAK0826/pEAK0926 as of Sep 2026) are listed as separate rows because each carries its own NAV; they convert into this master token at the quarterly roll-up (series burned, pEAK minted at the NAV ratio; last roll-up 2026-07-16). Sibling fund pEAK.BTC is listed separately as pEAK.BTC1025. DigiFT SubRedManagement contract balance (pending subscriptions/redemptions) excluded.",
     "links": {
       "website": [
         "https://peakwatervolatility.com"
-      ],
-      "twitter": "https://x.com/DigiFTTech",
-      "docs": "https://www.digift.io"
+      ]
     }
   },
   "review": {

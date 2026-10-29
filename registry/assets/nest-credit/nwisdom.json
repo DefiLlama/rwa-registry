@@ -31,14 +31,10 @@
   "about": {
     "description": "nWISDOM is the receipt token for Nest’s WisdomTree vault, designed to wrap WisdomTree’s Private Credit and Alternative Income Digital Fund (CRDYX) as an on-chain vault token. Nest describes the underlying as a private credit and alternative income fund with diversified exposure across direct lending, asset-backed, and opportunistic credit strategies. WisdomTree states CRDYX seeks to track the price and yield performance (before fees and expenses) of the Gapstow Private Credit and Alternative Income Index, and notes the Digital Fund invests in alternative credit sectors via underlying closed-end investment companies, including those regulated as BDCs and REITs (plus related alternative credit exposures). NAV accrues as the underlying fund performs. Redemptions follow vault settlement and liquidity mechanics.",
     "logo": "https://icons.llamao.fi/icons/rwa/nwisdom.png?w=48&h=48",
-    "registryInfo": "Nest DAO LLC – legal address 852 Lagoon Road, Majuro, 96960, Marshall Islands, Legal Entity Identifier (LEI) 254900BB9T1QYAT04892 (status: ISSUED; managing LOU: Bloomberg Finance L.P.; next renewal date: 2026-10-14).",
     "links": {
       "website": [
         "https://nest.credit"
-      ],
-      "twitter": "https://x.com/nestcredit",
-      "docs": "https://docs.nestcredit.io/",
-      "linkedin": "https://www.linkedin.com/company/nestcredit"
+      ]
     }
   },
   "review": {

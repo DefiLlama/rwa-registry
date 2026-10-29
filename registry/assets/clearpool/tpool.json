@@ -28,17 +28,10 @@
   "about": {
     "description": "TPOOL represents participation in Clearpool’s USDX Treasury Pool, a product designed to earn short-term U.S. Treasury-linked yield on USDX deposits. The pool is managed with institutional partners and is positioned as a liquid yield option, with rewards reflecting treasury income and, where applicable, additional network incentives. It targets stable returns while keeping exposure denominated in a USD stablecoin.",
     "logo": "https://icons.llamao.fi/icons/rwa/tpool.png?w=48&h=48",
-    "registryInfo": "Incorporated in Panama, legal form: corporation (per CPOOL token specification)",
     "links": {
       "website": [
         "https://clearpool.finance"
-      ],
-      "twitter": "https://x.com/ClearpoolFin",
-      "docs": "https://docs.clearpool.finance/",
-      "linkedin": "https://www.linkedin.com/company/clearpool",
-      "discord": "https://discord.com/invite/YYzxscA4nu",
-      "telegram": "https://t.me/clearpoolofficial",
-      "github": "https://github.com/clearpool-finance"
+      ]
     }
   },
   "review": {

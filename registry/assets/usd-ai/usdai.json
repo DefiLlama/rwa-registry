@@ -31,14 +31,10 @@
   "about": {
     "description": "USDai is a synthetic dollar asset designed to target price stability through a crypto-collateral and issuance framework rather than through a cash-and-T-bills reserve portfolio. It is primarily used as a DeFi-native settlement asset inside the USD.ai ecosystem, with stability dynamics driven by protocol risk controls and market conditions.",
     "logo": "https://icons.llamao.fi/icons/rwa/usdai.png?w=48&h=48",
-    "registryInfo": "https://docs.usd.ai/",
     "links": {
       "website": [
         "https://usd.ai/"
-      ],
-      "twitter": "https://x.com/USDai_Official",
-      "docs": "https://docs.usd.ai/",
-      "linkedin": "https://www.linkedin.com/company/usd-ai"
+      ]
     }
   },
   "review": {

@@ -31,15 +31,10 @@
   "about": {
     "description": "Tokenized Western Digital. Each token is backed 1:1 by the underlying share, purchased through a FINRA-registered broker-dealer and held in regulated custody, and is redeemable for stablecoins.",
     "logo": "https://icons.llamao.fi/icons/rwa/anchored-awdc.png?w=48&h=48",
-    "registryInfo": "Anchored Capital Ltd. Tokenization infrastructure backed by Alpaca brokerage rails providing 1:1 brokerage-held backing for tokenized equities. Tokens represent economic exposure rather than direct equity ownership.",
     "links": {
       "website": [
         "https://anchored.finance/stocks"
-      ],
-      "twitter": "https://x.com/AnchoredFi",
-      "docs": "https://docs.anchored.finance/getting-started/anchored-tokens",
-      "linkedin": "https://www.linkedin.com/company/anchored-fi/",
-      "github": "https://github.com/AnchoredLabs"
+      ]
     }
   },
   "review": {

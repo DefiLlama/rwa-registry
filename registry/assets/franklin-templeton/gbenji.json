@@ -39,14 +39,10 @@
   "about": {
     "description": "gBENJI is a DeFi-oriented representation of BENJI, designed to make Franklin Templeton’s onchain money market fund exposure easier to integrate into lending, liquidity, and collateral workflows. It keeps the economic exposure tied to the underlying Franklin OnChain U.S. Government Money Fund (FOBXX), which targets liquidity and principal stability while earning current income from U.S. government securities, cash, and government-collateralized repurchase agreements.",
     "logo": "https://icons.llamao.fi/icons/rwa/gbenji.png?w=48&h=48",
-    "registryInfo": "FRANKLIN TEMPLETON TRUST, SEC filer (CIK 0001786958).",
     "links": {
       "website": [
         "https://digitalassets.franklintempleton.com/benji/"
-      ],
-      "twitter": "https://x.com/FTI_US",
-      "docs": "https://www.franklintempleton.com/",
-      "linkedin": "https://www.linkedin.com/company/franklin-templeton"
+      ]
     }
   },
   "review": {

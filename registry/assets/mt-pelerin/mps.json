@@ -37,16 +37,10 @@
   "about": {
     "description": "MPS is the actual tokenized share of Mt Pelerin Group SA. One MPS represents one company share, with one vote and dividend rights under Swiss law once the holder is registered with the company. Mt Pelerin states circulating MPS can be transferred without restrictions on Ethereum and Gnosis, and supports conversion of share-tokens into bankable Swiss ISIN shares.",
     "logo": "https://icons.llamao.fi/icons/rwa/mt-pelerin-shares.png?w=48&h=48",
-    "registryInfo": "Swiss company headquartered in Neuchâtel and founded in September 2018. Mt Pelerin states that MPS is the actual share of Mt Pelerin Group SA. The company’s standard shares are identified with ISIN CH0539730892, FIGI BBG00N73QMN3, and Bloomberg 1694205D SW Equity.",
     "links": {
       "website": [
         "https://www.mtpelerin.com/shareholders"
-      ],
-      "twitter": "https://x.com/mtpelerin",
-      "docs": "https://www.mtpelerin.com/",
-      "linkedin": "https://www.linkedin.com/company/mt-pelerin",
-      "telegram": "https://t.me/mtpelerin",
-      "github": "https://github.com/MtPelerin/bridge-v1"
+      ]
     }
   },
   "review": {

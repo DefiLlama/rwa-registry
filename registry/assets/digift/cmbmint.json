@@ -26,13 +26,10 @@
   "about": {
     "description": "CMBMINT is a tokenized share class of the $3.8B CMB International USD Money Market Fund, issued by MAS-regulated exchange DigiFT for accredited investors. The token offers instant on-chain subscription and redemption against the Hong Kong SFC-authorized fund managed by China Merchants Bank's asset-management arm. 94% of current supply sits with a single subscriber.",
     "logo": "https://icons.llamao.fi/icons/rwa/cmbmint.png?w=48&h=48",
-    "registryInfo": "Underlying: CMB International USD Money Market Fund (HK SFC-authorized, >$3.8B AUM, ranked #1 APAC money market fund by Bloomberg Oct 2025), managed by CMB International Asset Management (wholly-owned by China Merchants Bank). DigiFT (Singapore, MAS CMS licence + Recognised Market Operator) tokenizes an existing share class for accredited investors with instant on-chain subscription/redemption. BNB Chain/Solana/Arbitrum/Plume legs announced but addresses not publicly resolvable - Ethereum leg tracked only.",
     "links": {
       "website": [
         "https://www.digift.io"
-      ],
-      "twitter": "https://x.com/DigiFTTech",
-      "docs": "https://www.digift.io"
+      ]
     }
   },
   "review": {

@@ -27,17 +27,10 @@
   "about": {
     "description": "Plume USD (pUSD) is a stablecoin designed to be minted and redeemed 1:1 against USDC through Plume’s portal. Plume’s documentation describes pUSD as fully backed by USDC held in a BoringVault managed by Plume, redemptions return USDC, and pUSD is intended for onchain settlement and RWAfi use cases on Plume.",
     "logo": "https://icons.llamao.fi/icons/rwa/pusd.png?w=48&h=48",
-    "registryInfo": "Plume documentation describes Plume USD (pUSD) as a 1:1 USDC-backed stablecoin, backed by USDC held in a BoringVault managed by Plume.",
     "links": {
       "website": [
         "https://docs.plume.org/category/pusd"
-      ],
-      "twitter": "https://x.com/plumenetwork",
-      "docs": "https://docs.plumenetwork.xyz/",
-      "linkedin": "https://www.linkedin.com/company/plume-network",
-      "discord": "https://discord.com/invite/plume-network",
-      "telegram": "https://t.me/plumenetwork",
-      "github": "https://github.com/plumenetwork"
+      ]
     }
   },
   "review": {

@@ -27,13 +27,10 @@
   "about": {
     "description": "APC3M is the 3 month USDC vault share token issued through R25 Protocol\n  on Pharos Mainnet and curated by Axil as risk manager. The vault targets\n  approximately 14.3 percent gross annualized yield (approximately 11.3 percent\n  credit return plus 3 percent PROS ecosystem incentives) and is capped at\n  approximately 100 million dollars. Underlying exposure is a diversified pool\n  of short duration emerging market consumer loans across Mexico, Thailand,\n  Philippines, Indonesia, and Pakistan sourced through a regulated private\n  credit fund. Multi-layer protection is described as overcollateralization,\n  pledged bank accounts, and junior capital buffers. Pricing is derived from\n  the internal CoreVault Accountant pricePerShare, and reserves are attested by\n  APEX with smart contract audits by SlowMist.",
     "logo": "https://icons.llamao.fi/icons/rwa/apc3m.png?w=48&h=48",
-    "registryInfo": "APC3M is issued through R25 Protocol infrastructure with contracting\n  parties RiftWriter Company Limited and RazeStaker Company Limited (both\n  British Virgin Islands business companies per i-BVI registry). Risk curation\n  is provided by Axil, whose team is publicly described as alumni of BlackRock,\n  HSBC and HashKey. The vault operates as a permissioned ERC-4626 style share\n  token where USDC deposits are deployed into emerging-market consumer loan\n  portfolios across Mexico, Thailand, Philippines, Indonesia, and Pakistan\n  through a regulated private credit fund with ticket sizes of approximately 60\n  to 250 US dollars and 2 to 4 month maturities. Multi-layer protection is\n  described in marketing as overcollateralization, pledged bank accounts, and\n  junior capital buffers. Proof of reserves is attested by APEX and smart\n  contracts are audited by SlowMist.",
     "links": {
       "website": [
         "https://www.r25.xyz/"
-      ],
-      "twitter": "https://x.com/R25Official",
-      "docs": "https://www.r25.xyz/"
+      ]
     }
   },
   "review": {

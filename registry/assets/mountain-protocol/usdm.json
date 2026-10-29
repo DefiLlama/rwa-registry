@@ -44,15 +44,10 @@
   "about": {
     "description": "USDM is a yield-bearing USD stablecoin designed for cash management where holders receive a return sourced from a conservative reserve portfolio. It is positioned as a stable-yield building block for DeFi and treasury use cases, supported by recurring third-party reserve attestations intended to demonstrate reserve coverage and composition.",
     "logo": "https://icons.llamao.fi/icons/rwa/mountain-protocol-usdm.png?w=48&h=48",
-    "registryInfo": "Mountain Protocol Ltd – Bermuda digital asset business licensed and regulated by the Bermuda Monetary Authority under the Digital Asset Business Act (DABA). Class F digital asset business license no. 202302512.",
     "links": {
       "website": [
         "https://mountainprotocol.com"
-      ],
-      "twitter": "https://x.com/mountainusdm",
-      "docs": "https://docs.mountainprotocol.com/",
-      "linkedin": "https://www.linkedin.com/company/mountain-protocol",
-      "github": "https://github.com/mountainprotocol"
+      ]
     }
   },
   "review": {

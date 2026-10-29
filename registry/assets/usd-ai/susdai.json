@@ -31,14 +31,10 @@
   "about": {
     "description": "sUSDai is a staked, yield-accruing position built around USDai, designed for users who want a compounding exposure rather than a plain settlement token. It is positioned as the savings-style unit in the USD.ai ecosystem, where returns are earned through protocol mechanics and distributed to stakers over time.",
     "logo": "https://icons.llamao.fi/icons/rwa/susdai.png?w=48&h=48",
-    "registryInfo": "https://docs.usd.ai/technical-overview/technical-protocol-overview",
     "links": {
       "website": [
         "https://usd.ai/"
-      ],
-      "twitter": "https://x.com/USDai_Official",
-      "docs": "https://docs.usd.ai/",
-      "linkedin": "https://www.linkedin.com/company/usd-ai"
+      ]
     }
   },
   "review": {

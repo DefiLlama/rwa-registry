@@ -25,13 +25,10 @@
   "about": {
     "description": "Galaxy CLO 2025-1 is Galaxy Digital's debut collateralized loan obligation, tokenized on Avalanche by INX with an initial $75M close (scalable to $200M). The CLO finances an uncommitted credit facility to Arch Lending backing consumer loans overcollateralized by bitcoin and ether, pays a senior coupon of SOFR + 5.70% monthly with initial maturity December 2026, and uses Anchorage Digital Bank as trustee and custodian with real-time collateral reporting via Accountable. The token tracks $1.00 par with principal changes effected by on-chain mint and burn. Holders are qualified investors with INX ATS listing expected.",
     "logo": "https://icons.llamao.fi/icons/rwa/gaclo-1.png?w=48&h=48",
-    "registryInfo": "Galaxy CLO 2025-1 LLC, private placement (no SEC registration found on EDGAR; SPV state registry unconfirmed, likely Delaware). Issued and managed by Galaxy Asset Management; tokenized on Avalanche by INX; trustee, qualified custodian and collateral/administrative agent: Anchorage Digital Bank (Atlas Settlement Network); fund administration: NAV Consulting; ~$50M anchor allocation from Grove (Sky/Steakhouse ecosystem).",
     "links": {
       "website": [
         "https://www.galaxy.com"
-      ],
-      "twitter": "https://x.com/galaxyhq",
-      "docs": "https://www.galaxy.com"
+      ]
     }
   },
   "review": {

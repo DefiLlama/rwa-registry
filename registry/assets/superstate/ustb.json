@@ -27,21 +27,15 @@
     "attestationFrequency": "Continuous NAV + periodic holdings disclosure (PwC audit)"
   },
   "sources": {
-    "coingeckoId": "superstate-short-duration-us-government-securities-fund-ustb",
-    "isinNote": "86851T204"
+    "coingeckoId": "superstate-short-duration-us-government-securities-fund-ustb"
   },
   "about": {
     "description": "USTB represents tokenized shares of the Superstate Short Duration U.S. Government Securities Fund, designed to provide Treasury-bill exposure with transparent, NAV-based pricing. It is built for treasury and collateral workflows that benefit from onchain settlement, supported by fund-level holdings visibility and ongoing reporting.",
     "logo": "https://icons.llamao.fi/icons/rwa/ustb.png?w=48&h=48",
-    "registryInfo": "Superstate Trust – Delaware statutory trust registered with the SEC as an open‑end management investment company (CIK 0001982577, File Nos. 333‑272932 and 811‑23886), USTB series “Superstate USTB Money Market Fund” / “Superstate Short Duration US Government Securities Fund” investing in short‑duration U.S. government securities.",
     "links": {
       "website": [
         "https://superstate.com/ustb"
-      ],
-      "twitter": "https://x.com/superstateinc",
-      "docs": "https://docs.superstate.com/",
-      "linkedin": "https://www.linkedin.com/company/superstate-finance",
-      "github": "https://github.com/superstateinc"
+      ]
     }
   },
   "review": {

@@ -39,14 +39,10 @@
   "about": {
     "description": "FLTTX represents digital shares of a Treasury-focused fund that targets floating-rate U.S. Treasury exposure, aiming to reduce duration sensitivity versus fixed-rate Treasury portfolios. It is designed for investors who want Treasury credit quality with returns that adjust with short-term rates, delivered through a tokenized share format intended for faster settlement and onchain distribution.",
     "logo": "https://icons.llamao.fi/icons/rwa/flttx.png?w=48&h=48",
-    "registryInfo": "WisdomTree Digital Trust – Delaware statutory trust registered with the U.S. SEC as an open-end management investment company under the Investment Company Act of 1940, filer CIK 0001859001.",
     "links": {
       "website": [
         "https://www.wisdomtreeconnect.com/digital-funds/fixed-income/flttx"
-      ],
-      "twitter": "https://x.com/WisdomTreePrime",
-      "docs": "https://www.wisdomtree.com/",
-      "linkedin": "https://www.linkedin.com/company/wisdomtree-investments"
+      ]
     }
   },
   "review": {

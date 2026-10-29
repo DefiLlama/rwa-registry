@@ -44,16 +44,10 @@
   "about": {
     "description": "BUIDL is BlackRock’s tokenized digital liquidity fund built for institutional cash management. It is designed to deliver short-duration, high-quality income while maintaining a stable NAV convention, and it is structured to support flexible custody and continuous settlement so shares can be used in modern collateral, treasury, and settlement workflows.",
     "logo": "https://icons.llamao.fi/icons/rwa/buidl.png?w=48&h=48",
-    "registryInfo": "BlackRock USD Institutional Digital Liquidity Fund Ltd., a Bermuda exempted mutual fund company / Segregated Accounts Company (SAC) registered as a private fund under the Bermuda Investment Funds Act, with classified-fund status under the Bermuda Fund Rules.",
     "links": {
       "website": [
         "https://www.blackrock.com"
-      ],
-      "twitter": "https://x.com/BlackRock",
-      "docs": "https://docs.securitize.io",
-      "linkedin": "https://www.linkedin.com/company/securitize",
-      "telegram": "https://t.me/securitize",
-      "github": "https://github.com/securitize-io"
+      ]
     }
   },
   "review": {

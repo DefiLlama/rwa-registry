@@ -31,16 +31,10 @@
   "about": {
     "description": "nSCOPE is the receipt token for Nest’s Hamilton Lane SCOPE vault, providing tokenized exposure to Hamilton Lane’s Senior Credit Opportunities Fund, an evergreen senior private credit strategy focused on first-lien senior secured loans with diversified multi-manager sourcing and periodic liquidity. The attached source sheet shows active contracts on Plume, BNB Chain, and Solana. Nest’s smart contract docs later published a separate multichain nSCOPE BoringVault address on Plume, Ethereum, Plasma, and BNB, so the tracked contracts here follow the attached sheet for consistency.",
     "logo": "https://icons.llamao.fi/icons/rwa/nscope.png?w=48&h=48",
-    "registryInfo": "Nest DAO LLC – legal address 852 Lagoon Road, Majuro, 96960, Marshall Islands, Legal Entity Identifier (LEI) 254900BB9T1QYAT04892 (status: ISSUED; managing LOU: Bloomberg Finance L.P.; next renewal date: 2026-10-14).",
     "links": {
       "website": [
         "https://nest.credit"
-      ],
-      "twitter": "https://x.com/nestcredit",
-      "docs": "https://docs.nestcredit.io/",
-      "linkedin": "https://www.linkedin.com/company/nestcredit",
-      "discord": "https://discord.gg/t9HpeFvUwS",
-      "telegram": "https://t.me/NestCredit"
+      ]
     }
   },
   "review": {

@@ -44,18 +44,9 @@
   "about": {
     "description": "USDtb (USDTB) is a USD stablecoin issued by Anchorage Digital Bank in partnership with Ethena Labs. Anchorage publishes monthly reserve attestations prepared by Deloitte under AICPA attestation standards. The reserve reporting covers assets held for USDtb relative to USDtb outstanding at the report date.",
     "logo": "https://icons.llamao.fi/icons/rwa/ethena-usdtb.png?w=48&h=48",
-    "registryInfo": "Anchorage Digital Bank National Association – OCC‑chartered national bank (charter no. 25243), regulated by the U.S. Office of the Comptroller of the Currency, headquartered in Sioux Falls, South Dakota.",
     "links": {
       "website": [
         "https://www.ethena.fi"
-      ],
-      "twitter": "https://x.com/ethena_labs",
-      "docs": "https://docs.ethena.fi/",
-      "linkedin": "https://www.linkedin.com/company/ethena-labs",
-      "telegram": "https://t.me/ethena_labs",
-      "github": "https://github.com/ethena-labs",
-      "refLinks": [
-        "https://www.app.ethena.fi/join/3y20d"
       ]
     }
   },

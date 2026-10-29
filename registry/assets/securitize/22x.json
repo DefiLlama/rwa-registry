@@ -27,17 +27,11 @@
   "about": {
     "description": "22X is a tokenized venture portfolio designed to give a single security token exposure to equity in up to 30 early‑stage Silicon Valley startups that participated in the 500 Startups Global Seed Accelerator (Batch 22). The structure was created to package a diversified seed‑stage basket into one investable token, simplifying ownership and potential secondary transfers compared with holding dozens of individual startup positions. The 22X token is issued on Ethereum and represents an interest in the underlying portfolio vehicle rather than a claim on onchain collateral. Value is driven by the performance of the startup equity stakes and the timing of liquidity events (acquisitions, secondary sales, IPOs), which can be sporadic and long‑dated in seed investing.",
     "logo": "https://icons.llamao.fi/icons/rwa/22x.png?w=48&h=48",
-    "registryInfo": "SEC/Registry: CIK 0001729488. Legal issuer: Batch 22X Ltd. (Cayman Islands). Exempt offering: Form D under Regulation D (Accession 0001729488-18-000001).",
     "links": {
       "website": [
         "https://22xfund.com/",
         "https://www.sec.gov/edgar/browse/?CIK=0001729488"
-      ],
-      "twitter": "https://x.com/Securitize",
-      "docs": "https://docs.securitize.io",
-      "linkedin": "https://www.linkedin.com/company/securitize",
-      "telegram": "https://t.me/securitize",
-      "github": "https://github.com/securitize-io"
+      ]
     }
   },
   "review": {

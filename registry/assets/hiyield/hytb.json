@@ -27,14 +27,10 @@
   "about": {
     "description": "hyTB is HiYield’s ERC-4626 treasury-bill vault deposit token. HiYield documentation describes a permissioned onboarding flow (KYC/KYB) for vault access, users deposit USDC to the vault and receive deposit tokens that accrue via a configurable rate mechanism and can be held or used with approved DeFi integrations. Withdrawals are processed via the vault’s redemption mechanics as described in HiYield docs.",
     "logo": "https://icons.llamao.fi/icons/rwa/hytb.png?w=48&h=48",
-    "registryInfo": "HiYield documentation describes ERC-4626 credit vaults and a whitelist manager gating access (KYC/KYB). Legal structure notes offchain assets held in SPVs managed by WSFS Bank with capital markets execution through Raymond James.",
     "links": {
       "website": [
         "https://docs.hiyield.xyz/technical/contract-addresses"
-      ],
-      "twitter": "https://x.com/hiyield_xyz",
-      "docs": "https://docs.hiyield.finance/",
-      "linkedin": "https://www.linkedin.com/company/hiyield-finance"
+      ]
     }
   },
   "review": {

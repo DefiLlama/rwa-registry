@@ -25,13 +25,10 @@
   "about": {
     "description": "An XRP Ledger token representing a collection of Billiton Diamond's GIA-certified polished diamond inventory, tokenized in Dubai by VARA-licensed Ctrl Alt with Ripple enterprise custody as part of a ~$280M inventory-tokenization pilot. The tokens have not yet been distributed to investors. The full supply sits in a single inventory account pending further VARA approval.",
     "logo": "https://icons.llamao.fi/icons/rwa/dia-ag-col1.png?w=48&h=48",
-    "registryInfo": "Ctrl Alt Solutions FZCO, Dubai (DMCC199928; VARA VASP licence VL/25/05/002, Broker-Dealer + Issuer; UK affiliate Ctrl Alt Ltd, FCA FRN 1045023). Tokenized representation of Billiton Diamond's GIA-certified polished diamond inventory (~AED 1bn / $280M program) with custody via Ripple's enterprise custody technology. Explicitly a controlled pilot: investor distribution requires further VARA approval; 100% of each collection is held by a single inventory account.",
     "links": {
       "website": [
         "https://www.ctrl-alt.co"
-      ],
-      "twitter": "https://x.com/CtrlAltCo",
-      "docs": "https://www.ctrl-alt.co"
+      ]
     }
   },
   "review": {

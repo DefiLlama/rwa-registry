@@ -28,14 +28,10 @@
   "about": {
     "description": "CACHE Gold is a tokenized gold product designed to represent fully allocated vaulted gold on a per-gram basis. Its reserve model centers on item-level tracking and public verification, using a dedicated explorer to surface locked-gold inventory data and reserve state. It is positioned for users who want gold exposure with a strong emphasis on observable reserve integrity and auditable backing.",
     "logo": "https://icons.llamao.fi/icons/rwa/cache.gold.png?w=48&h=48",
-    "registryInfo": "Singapore private company limited by shares (CACHE PRIVATE LIMITED), UEN 201827110K, incorporated 8 August 2018 with registered address 6 Changi South Street 3, The Reserve Vault, Singapore 486128. Registered Singapore Precious Stones and Precious Metals (PSPM) dealer with Registration No. PS20190001508, qualified to buy, sell, store and issue precious-metals-backed tokens such as CACHE Gold.",
     "links": {
       "website": [
         "https://cache.gold"
-      ],
-      "docs": "https://docs.cache.gold/",
-      "linkedin": "https://www.linkedin.com/company/cache-gold",
-      "github": "https://github.com/cache-token"
+      ]
     }
   },
   "review": {

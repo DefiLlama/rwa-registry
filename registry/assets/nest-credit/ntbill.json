@@ -31,14 +31,10 @@
   "about": {
     "description": "nTBILL is the receipt token for Nest’s Treasury vault, designed as a conservative, cash-management style allocation backed by short-duration U.S. Treasury fund exposure. Nest discloses the vault as 100% U.S. Treasuries, implemented via Superstate USTB (70%) and a Janus Henderson U.S. Treasury fund (30%). Value accrues through NAV appreciation as the underlying Treasury vehicles earn yield. Redemptions are subject to vault settlement and liquidity mechanics.",
     "logo": "https://icons.llamao.fi/icons/rwa/ntbill.png?w=48&h=48",
-    "registryInfo": "Nest DAO LLC – legal address 852 Lagoon Road, Majuro, 96960, Marshall Islands, Legal Entity Identifier (LEI) 254900BB9T1QYAT04892 (status: ISSUED; managing LOU: Bloomberg Finance L.P.; next renewal date: 2026-10-14).",
     "links": {
       "website": [
         "https://nest.credit"
-      ],
-      "twitter": "https://x.com/nestcredit",
-      "docs": "https://docs.nestcredit.io/",
-      "linkedin": "https://www.linkedin.com/company/nestcredit"
+      ]
     }
   },
   "review": {

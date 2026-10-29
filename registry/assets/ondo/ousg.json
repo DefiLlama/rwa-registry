@@ -35,17 +35,10 @@
   "about": {
     "description": "OUSG is Ondo’s tokenized U.S. Treasury exposure designed for eligible users seeking short-duration government yield in an onchain form. It is structured around NAV-based accounting and is commonly used as a conservative yield sleeve for treasury management and collateral workflows where access and transfer are eligibility-gated.",
     "logo": "https://icons.llamao.fi/icons/rwa/ousg.png?w=48&h=48",
-    "registryInfo": "Ondo I LP, Delaware limited partnership, issuer of OUSG interests, filed Form D with the SEC and audited annually.",
     "links": {
       "website": [
         "https://ondo.finance"
-      ],
-      "twitter": "https://x.com/OndoFinance",
-      "docs": "https://docs.ondo.finance/",
-      "linkedin": "https://www.linkedin.com/company/ondofinance",
-      "discord": "https://discord.com/invite/ondofinance",
-      "telegram": "https://t.me/ondofinance",
-      "github": "https://github.com/ondoprotocol"
+      ]
     }
   },
   "review": {

@@ -28,14 +28,10 @@
   "about": {
     "description": "VOLTx is a tokenized feeder share class of Libre SAF VCC (Singapore) providing exposure to Nomura Laser Digital's market-neutral carry strategy combining delta-hedged crypto futures with staking yield. It is an accumulating, NAV-appreciation token for KYC-verified accredited and institutional investors issued via the KAIO (ex-Libre) protocol on Ethereum and Avalanche. Pending-redemption balances (RedemptionBook), platform escrow, and the Ethereum-side mirror of the Avalanche supply are excluded from active supply. The on-chain NAV entry was last updated 2025-03-31.",
     "logo": "https://icons.llamao.fi/icons/rwa/voltx.png?w=48&h=48",
-    "registryInfo": "Laser Digital’s Laser Carry Fund has been tokenized and distributed via KAIO, including deployments referenced on Hedera and Sei announcements.",
     "links": {
       "website": [
         "https://www.kaio.xyz"
-      ],
-      "twitter": "https://x.com/KAIO_xyz",
-      "docs": "https://docs.kaio.xyz",
-      "linkedin": "https://www.linkedin.com/company/kaio-finance"
+      ]
     }
   },
   "review": {

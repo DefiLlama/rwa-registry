@@ -27,16 +27,10 @@
   "about": {
     "description": "PRTS represents the tokenized fund interest for Protos, an actively managed hedge fund strategy focused on blockchain technologies, cryptocurrencies, and digital securities (including derivatives where applicable). The mandate is oriented toward capital appreciation with an emphasis on risk‑adjusted returns, combining directional exposure with portfolio construction and risk‑management techniques typical of hedge fund structures. PRTS is issued as a security token on Ethereum and reflects the net asset value of the underlying managed portfolio rather than a fixed onchain backing asset. Investors should interpret token pricing primarily through the fund’s NAV reports and disclosures, which track the underlying holdings and strategy performance.",
     "logo": "https://icons.llamao.fi/icons/rwa/protos.png?w=48&h=48",
-    "registryInfo": "SEC/Registry: CIK 0001725388. Legal issuer: Protos Cryptocurrency Fund Ltd. / Protos Asset Management program (Singapore). Exempt offering: Form D under Regulation D (Accession 0000950172-18-000027).",
     "links": {
       "website": [
         "https://protosmanagement.com/"
-      ],
-      "twitter": "https://x.com/Securitize",
-      "docs": "https://docs.securitize.io",
-      "linkedin": "https://www.linkedin.com/company/securitize",
-      "telegram": "https://t.me/securitize",
-      "github": "https://github.com/securitize-io"
+      ]
     }
   },
   "review": {

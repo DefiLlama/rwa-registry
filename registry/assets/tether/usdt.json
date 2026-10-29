@@ -32,16 +32,10 @@
   "about": {
     "description": "USDT/USD₮ is Tether’s USD stablecoin designed to track the U.S. dollar via issuer-managed reserves. Tether publishes periodic reserve reports and a reserve breakdown intended to show what assets back USDT and how that mix changes over time.",
     "logo": "https://icons.llamao.fi/icons/rwa/usdt.png?w=48&h=48",
-    "registryInfo": "Tether Limited – LEI 254900HCMW7SQVV0N749, registered in Hong Kong under Companies Registry entity ID 63803283 (Companies Registry RA000388). CFTC order (Sept 24, 2021) states Tether Limited was registered with FinCEN as a Money Services Business (MSB) in the United States.",
     "links": {
       "website": [
         "https://tether.to"
-      ],
-      "twitter": "https://x.com/Tether_to",
-      "docs": "https://tether.to/en/transparency",
-      "linkedin": "https://www.linkedin.com/company/tether-operations-limited",
-      "telegram": "https://t.me/OfficialTether",
-      "github": "https://github.com/tetherto"
+      ]
     }
   },
   "review": {

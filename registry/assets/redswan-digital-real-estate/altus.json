@@ -25,13 +25,10 @@
   "about": {
     "description": "ALTUS is a RedSwan-tokenized tranche of the Altus Opportunity Fund, a Reg D/Reg S diversified US real-estate fund managed by Altus Equity Group, minted on Hedera for accredited investors. The token has recorded no transfers since creation, so the full supply remains with the issuer pending distribution.",
     "logo": "https://icons.llamao.fi/icons/rwa/altus.png?w=48&h=48",
-    "registryInfo": "Altus Opportunity Fund, LLC: SEC Form D filed 2024-01-25, amended 2025-03-04 (CIK 0002008789, file 021-503364; manager CIK 0002012368). Tokenized by RedSwan PC, Inc. (Houston; SEC-registered investment advisor; broker-dealer RedSwan Markets LLC, FINRA/SIPC) on Hedera. Token has zero transfer events since creation - undistributed, interest-gathering stage.",
     "links": {
       "website": [
         "https://redswan.io"
-      ],
-      "twitter": "https://x.com/RedSwanDigital",
-      "docs": "https://marketplace.redswan.io"
+      ]
     }
   },
   "review": {

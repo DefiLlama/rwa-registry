@@ -27,14 +27,10 @@
   "about": {
     "description": "aHyperBTC is the ERC-4626 share token of the Hyperithm Delta Neutral cbBTC Vault on Monad. Deposited cbBTC (Coinbase Wrapped BTC, bridged from Base to Monad via Chainlink CCIP) is deployed by Hyperithm across delta-neutral crypto strategies that target continuous zero net delta exposure, including funding-rate arbitrage on Hyperliquid perps, Pendle Principal Token positions on cbBTC and LBTC, leveraged stablecoin looping on Aave, Morpho lending, and DEX liquidity provision. Reserves are continuously attested through the Accountable platform using zero-knowledge proofs and Merkle-sum-tree cryptographic verification rather than periodic traditional audits. Hyperithm is a Japan FSA Article 63 registered fund operator with a Korea Financial Intelligence Unit Virtual Asset Service Provider license.",
     "logo": "https://cdn.morpho.org/assets/logos/ahyperbtc.svg",
-    "registryInfo": "Hyperithm Co., Ltd. is a digital asset manager headquartered in Tokyo and Seoul, founded in January 2018. It is registered as a Specially Permitted Business for Qualified Institutional Investors (Article 63 registration) under the Japan Financial Services Agency, and holds a Virtual Asset Service Provider registration granted by the Korea Financial Intelligence Unit under the Financial Services Commission AML regime. The underlying cbBTC is Coinbase Wrapped BTC on Monad (0xd18b7ec58cdf4876f6afebd3ed1730e4ce10414b), bridged from Base via Chainlink CCIP infrastructure. Reserves and vault positions are continuously verified through Hyperithm accountable.hyperithm.com dashboard, which uses zero-knowledge proofs and Merkle-sum-tree root hashes for cryptographic real-time attestation. Related products include aHYPER (HYPE-denominated Monad vault) and Kamino Hyperithm USDC Apex Vault on Solana.",
     "links": {
       "website": [
         "https://www.hyperithm.com/"
-      ],
-      "twitter": "https://x.com/hyperithm",
-      "docs": "https://www.hyperithm.com/",
-      "github": "https://accountable.hyperithm.com/"
+      ]
     }
   },
   "review": {

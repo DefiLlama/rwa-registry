@@ -26,13 +26,10 @@
   "about": {
     "description": "SSGUSD is a Polygon token issued by Hong Kong tokenization platform EVIDENT representing interests in the State Street USD Liquidity Fund, an institutional USD money market fund. Units are held for professional investors in EVIDENT smart accounts, with daily yield accruals minted on-chain. The token contract's self-held escrow balance is excluded from active supply.",
     "logo": "https://icons.llamao.fi/icons/rwa/ssgusd.png?w=48&h=48",
-    "registryInfo": "EVIDENT (evident.capital), Hong Kong digital-market infrastructure; Polygon-recognized tokenization platform and HKMA Project Ensemble sandbox participant; on-chain implementation EvidentAssetTokenV2 with client balances in Kernel smart accounts and daily yield-accrual mints. No public announcement links State Street to this token (State Street manages the underlying fund only); exact share class and custody arrangement not publicly verifiable.",
     "links": {
       "website": [
         "https://www.evident.capital"
-      ],
-      "twitter": "https://x.com/EvidentCapital",
-      "docs": "https://www.evident.capital"
+      ]
     }
   },
   "review": {

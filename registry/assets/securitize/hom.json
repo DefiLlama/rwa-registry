@@ -28,16 +28,10 @@
   "about": {
     "description": "HOM is tokenized exposure to Homium’s pooled shared‑appreciation home equity loans, issued on Avalanche. Homium originates “shared appreciation” home equity structures that allow homeowners to borrow against their home value while aligning repayment with future home price appreciation rather than adding traditional amortizing debt, the tokenization framework packages these loan notes into a portfolio that can be held and transferred as a single digital asset. Token returns depend on cashflows from the underlying home equity loan portfolio and realized appreciation outcomes, with credit, housing‑market, and servicing performance as primary risk drivers. HOM is intended to represent a regulated claim on off‑chain loan assets while benefiting from onchain issuance, settlement, and transparency.",
     "logo": "https://icons.llamao.fi/icons/rwa/hom.png?w=48&h=48",
-    "registryInfo": "SEC/Registry: Related EDGAR filer CIK 0001774809 (Homium Mutual Benefit Corp / Homium, Inc., California). Recent Form D filing includes Accession 0001774809-25-000004. Product documentation and investor materials for the HOM token program are published at the Homium investor portal.",
     "links": {
       "website": [
         "https://investors.homium.io"
-      ],
-      "twitter": "https://x.com/Securitize",
-      "docs": "https://docs.securitize.io",
-      "linkedin": "https://www.linkedin.com/company/securitize",
-      "telegram": "https://t.me/securitize",
-      "github": "https://github.com/securitize-io"
+      ]
     }
   },
   "review": {

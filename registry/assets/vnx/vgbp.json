@@ -39,14 +39,10 @@
   "about": {
     "description": "VNX British Pound (VGBP) is a GBP-referenced token designed to maintain a 1:1 relationship with underlying pound reserves held in traditional banking rails. It targets GBP-denominated settlement and liquidity use cases while providing reserve audit reporting through the VNX transparency portal.",
     "logo": "https://icons.llamao.fi/icons/pegged/vnx-british-pound?w=48&h=48",
-    "registryInfo": "VNX Global Ltd. is a Bermuda exempted company limited by shares which holds a Class M digital assets business licence issued by the Bermuda Monetary Authority (BMA).",
     "links": {
       "website": [
         "https://vnx.io/british-pound"
-      ],
-      "twitter": "https://x.com/VNX_Global",
-      "docs": "https://vnx.gitbook.io/vnx-global/vnx-global-ltd",
-      "linkedin": "https://www.linkedin.com/company/vnx-global/"
+      ]
     }
   },
   "review": {

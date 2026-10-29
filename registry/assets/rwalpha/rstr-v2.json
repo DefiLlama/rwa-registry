@@ -25,16 +25,10 @@
   },
   "about": {
     "description": "rSTR is a vault token deployed by RWAlpha on the Mantle chain alongside the rAI and rAIX vaults. It does not appear on the RWAlpha marketplace and the platform publishes no description of what it holds, so the underlying basket is recorded as unknown rather than inferred from the ticker. The contract has no supply outstanding.",
-    "registryInfo": "RWAlpha products are issued through RWAlpha Matrix SPC, a Cayman Islands umbrella fund structure with a British Virgin Islands fund manager. RWAlpha is a product of DMZ Finance, which also operates the QCD Open-end PCC umbrella fund in the Dubai International Financial Centre. Subscriptions are converted through a licensed over-the-counter channel and the underlying funds are bought and held through licensed brokers and custodians named by the platform rather than disclosed per product.",
     "links": {
       "website": [
         "https://www.rwalpha.ai/"
-      ],
-      "twitter": "https://x.com/RWAlpha_AI",
-      "docs": "https://www.rwalpha.ai/docs/intro",
-      "linkedin": "https://www.linkedin.com/company/rwalpha",
-      "telegram": "https://t.me/rwalphahelpdesk",
-      "github": "https://github.com/dmzFinance"
+      ]
     }
   },
   "review": {

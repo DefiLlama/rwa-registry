@@ -30,16 +30,10 @@
   "about": {
     "description": "muBOND is Mu Digital’s junior, first-loss credit tranche that provides insurance to AZND holders. It targets higher returns in exchange for absorbing losses before AZND, with yield reflected through periodic repricing.",
     "logo": "https://icons.llamao.fi/icons/rwa/mu-digital-mubond.png?w=48&h=48",
-    "registryInfo": "MU DIGITAL LIMITED, UK private limited company (Companies House company number 13130370).",
     "links": {
       "website": [
         "https://docs.mudigital.net/protocol-overview/mubond"
-      ],
-      "twitter": "https://x.com/MuDigitalHQ",
-      "docs": "https://www.mudigital.io/",
-      "linkedin": "https://www.linkedin.com/company/mu-digital",
-      "discord": "https://discord.com/invite/MuDigital",
-      "github": "https://github.com/Mu-Digital"
+      ]
     }
   },
   "review": {

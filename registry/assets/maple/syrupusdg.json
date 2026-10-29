@@ -30,17 +30,10 @@
   "about": {
     "description": "syrupUSDG is a yield-bearing ERC-4626 receipt token for USDG (Global Dollar) deposited into Maple Finance Syrup lending vaults. The token exchange rate increases as interest accrues from overcollateralized lending to institutional borrowers underwritten by Maple Direct, with the pool advertising an approximately 5 percent base APY. syrupUSDG is issued by Maple International Operations SPC acting on behalf of Maple USDG Segregated Portfolio 1 (Cayman). USDG is issued by Paxos on behalf of the Global Dollar Network founded by Robinhood, Kraken, and Paxos. syrupUSDG launched on July 1 2026 with day-one deployments on Ethereum mainnet and Robinhood Chain, with Chainlink CCIP bridging between them. Reserves and pool performance are attested off-chain by The Network Firm.",
     "logo": "https://icons.llamao.fi/icons/rwa/syrup-usdg.png?w=48&h=48",
-    "registryInfo": "syrupUSDG is issued by Maple International Operations SPC acting on behalf of and for the account of Maple USDG Segregated Portfolio 1 (Cayman Islands SPC). US pool operations are conducted through Protocol Pool Operations LLC (Delaware, SEC CIK 0001995469, registered address 1500 Bay Road #338, Miami Beach FL 33139), which filed a Reg D 3(c)(1) offering in September 2023 signed by Director Sidney Powell (Maple Chief Executive Officer). USDG collateral is issued by Paxos on behalf of the Global Dollar Network whose founding participants include Robinhood, Kraken, and Paxos. Proof of Reserves is attested off-chain by The Network Firm since May 7 2026 and surfaced through the Maple transparency page. Underlying credit is underwritten by Maple Direct.",
     "links": {
       "website": [
         "https://maple.finance/"
-      ],
-      "twitter": "https://x.com/maplefinance",
-      "docs": "https://maplefinance.gitbook.io/",
-      "linkedin": "https://www.linkedin.com/company/maplefinance",
-      "discord": "https://discord.gg/fgWRMHCd7d",
-      "telegram": "https://t.me/maplefinance",
-      "github": "https://github.com/maple-labs; https://docs.maple.finance/technical-resources/security/security"
+      ]
     }
   },
   "review": {

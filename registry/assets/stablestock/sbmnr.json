@@ -28,16 +28,10 @@
   "about": {
     "description": "sBMNR tokenizes BitMine Immersion Technologies (NYSE American: BMNR), the public Ethereum Digital Asset Treasury (DAT) company chaired by Fundstrat's Tom Lee. BitMine is one of the largest corporate ETH holders (multi-million ETH treasury) and also operates immersion-cooled Bitcoin mining. The sToken gives on-chain traders BSC-native exposure to BMNR via 1:1 backing: the underlying shares are custodied off-chain by StableBroker (StableStock's licensed broker partner with HabitTrade), while 24/7 on-chain liquidity is provided by Native. Issuance and redemption are KYC-gated. The BEP-20 token itself is transfer-permissionless.",
     "logo": "https://icons.llamao.fi/icons/rwa/bmnr.png?w=48&h=48",
-    "registryInfo": "StableStock sTokens are issued under StableBroker, StableStock's licensed-broker infrastructure operated with HabitTrade. HabitTrade Pty Ltd holds AFSL 514654 (ABN 59 626 521 202, Australia); HabitTrade LLC holds a US FinCEN MSB registration (31000229716152); HabitTrade (HK) Limited holds an SFC Type 1 licence (Hong Kong). StableStock custody relies on its US broker partner DriveWealth LLC, a FINRA/SIPC member US broker-dealer. StableStock's published backers/partners include YZi Labs, MPCi, Vertex Ventures, Foresight Ventures, Amber Group and Dragonfly.",
     "links": {
       "website": [
         "https://stablestock.finance"
-      ],
-      "twitter": "https://x.com/StableStock",
-      "docs": "https://docs.stablestock.com/",
-      "linkedin": "https://www.linkedin.com/company/stablestock",
-      "discord": "https://discord.gg/stablestock",
-      "telegram": "https://t.me/StableStock"
+      ]
     }
   },
   "review": {

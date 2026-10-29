@@ -28,16 +28,10 @@
   "about": {
     "description": "sMSTR is the tokenized wrapper for Strategy Inc. (Nasdaq: MSTR, the former MicroStrategy Incorporated, which legally renamed to Strategy Inc. effective August 2025). Strategy is the world's largest corporate Bitcoin Treasury Company with holdings north of 780,000 BTC, led by Executive Chairman Michael Saylor. StableStock issues sMSTR as a 1:1 BEP-20 on BNB Chain backed by MSTR shares custodied off-chain through StableBroker (StableStock's licensed broker partner with HabitTrade), with 24/7 on-chain markets operated with Native. KYC is enforced at mint/redeem. On-chain transfers are permissionless. Making sMSTR the primary on-chain vehicle for leveraged BTC-reserve equity exposure within BSC DeFi.",
     "logo": "https://icons.llamao.fi/icons/rwa/mstr.png?w=48&h=48",
-    "registryInfo": "StableStock sTokens are issued under StableBroker, StableStock's licensed-broker infrastructure operated with HabitTrade. HabitTrade Pty Ltd holds AFSL 514654 (ABN 59 626 521 202, Australia); HabitTrade LLC holds a US FinCEN MSB registration (31000229716152); HabitTrade (HK) Limited holds an SFC Type 1 licence (Hong Kong). StableStock custody relies on its US broker partner DriveWealth LLC, a FINRA/SIPC member US broker-dealer. StableStock's published backers/partners include YZi Labs, MPCi, Vertex Ventures, Foresight Ventures, Amber Group and Dragonfly.",
     "links": {
       "website": [
         "https://stablestock.finance"
-      ],
-      "twitter": "https://x.com/StableStock",
-      "docs": "https://docs.stablestock.com/",
-      "linkedin": "https://www.linkedin.com/company/stablestock",
-      "discord": "https://discord.gg/stablestock",
-      "telegram": "https://t.me/StableStock"
+      ]
     }
   },
   "review": {

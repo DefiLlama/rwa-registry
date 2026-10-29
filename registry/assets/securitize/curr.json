@@ -29,12 +29,10 @@
   "about": {
     "description": "CURR tokens are Nasdaq-listed Currenc Group Inc. ordinary shares natively tokenized by Securitize on Solana, giving holders the same ownership and voting rights as traditional shares with 24/7 on-chain transferability between KYC-verified wallets. Shareholders can convert between traditional and tokenized form via Securitize acting as co-transfer agent.",
     "logo": "https://icons.llamao.fi/icons/rwa/curr.png?w=48&h=48",
-    "registryInfo": "Nasdaq-listed Currenc Group Inc. ordinary shares natively tokenized via Securitize (co-transfer agent), announced 2026-04-08 (6-K filed); tokenized shares carry identical ownership, voting, and corporate-action rights, convertible share<->token via Securitize. The Ethereum deployment (0x0885F310...) has zero supply and is excluded; Solana holder mix pending verification.",
     "links": {
       "website": [
         "https://currenc.com"
-      ],
-      "docs": "https://securitize.io"
+      ]
     }
   },
   "review": {

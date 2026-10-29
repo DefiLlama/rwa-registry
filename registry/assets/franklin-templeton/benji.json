@@ -43,14 +43,10 @@
   "about": {
     "description": "BENJI represents shares of Franklin Templeton’s Franklin OnChain U.S. Government Money Fund (FOBXX), with 1 share of FOBXX represented by 1 BENJI token. Franklin Templeton states BENJI accrues yield daily through newly minted BENJI tokens distributed to shareholders. Coverage includes the BENJI fund-token deployments plus the iBENJI fund-token contracts on Ethereum and BNB Smart Chain, while gBENJI and sgBENJI remain tracked separately in their own rows. Benji is available for retail and institutional investors on Stellar, and for institutional investors across Polygon, Arbitrum, Avalanche, Aptos, Ethereum, Base, Solana, and BNB Smart Chain. Franklin Templeton also announced Benji platform expansion to Canton, but no public contract address was listed on the official contracts page.",
     "logo": "https://icons.llamao.fi/icons/rwa/benji.png?w=48&h=48",
-    "registryInfo": "Franklin Templeton Trust – registered investment company, SEC filer CIK 0001786958, Series S000067043 \"Franklin OnChain U.S. Government Money Fund\" (FOBXX), with each BENJI token representing one share of the fund as disclosed in issuer materials.",
     "links": {
       "website": [
         "https://digitalassets.franklintempleton.com/benji/"
-      ],
-      "twitter": "https://x.com/FTI_US",
-      "docs": "https://www.franklintempleton.com/",
-      "linkedin": "https://www.linkedin.com/company/franklin-templeton"
+      ]
     }
   },
   "review": {

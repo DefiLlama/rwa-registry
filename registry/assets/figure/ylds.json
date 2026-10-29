@@ -32,17 +32,10 @@
   "about": {
     "description": "YLDS is a permissioned, yield-bearing USD-denominated digital instrument issued by Figure Certificate Company (FCC) on the Provenance Blockchain. FCC's S-1/prospectus provides audited financial statements, and YLDS reserve and excess balances are reconciled and published daily on ylds.com with quarterly audits reported in issuer filings. YLDS is redeemable 24/7/365, with withdrawal timing subject to the operating hours and settlement constraints of underlying fiat payment rails and blockchain networks. YLDS can be held in self-custody via a Provenance Blockchain wallet and transferred peer-to-peer to other KYC/KYB-approved Provenance addresses, within the Figure Markets self-custody exchange experience, YLDS can be used to settle trades or lent out.",
     "logo": "https://icons.llamao.fi/icons/rwa/ylds.png?w=48&h=48",
-    "registryInfo": "Figure Certificate Company (FCC), SEC-registered face-amount certificate company (Investment Company Act of 1940), CIK 1974395",
     "links": {
       "website": [
         "https://www.ylds.com/"
-      ],
-      "twitter": "https://x.com/figure",
-      "docs": "https://figure.com/",
-      "linkedin": "https://www.linkedin.com/company/figure-tech",
-      "discord": "https://discord.com/invite/figuremarkets",
-      "telegram": "https://t.me/+N4gMKd2dZys3NWJh",
-      "github": "https://github.com/FigureTechnologies"
+      ]
     }
   },
   "review": {

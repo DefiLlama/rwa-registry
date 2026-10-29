@@ -27,16 +27,10 @@
   "about": {
     "description": "Mu Digital is an onchain credit protocol that tokenizes USD-denominated Asian credit exposures into DeFi-composable tokens, including AZND (senior) and muBOND (first-loss).",
     "logo": "https://icons.llamao.fi/icons/rwa/mudigital.png?w=48&h=48",
-    "registryInfo": "MU DIGITAL LIMITED, UK private limited company (Companies House company number 13130370).",
     "links": {
       "website": [
         "https://mudigital.net/"
-      ],
-      "twitter": "https://x.com/MuDigitalHQ",
-      "docs": "https://www.mudigital.io/",
-      "linkedin": "https://www.linkedin.com/company/mu-digital",
-      "discord": "https://discord.com/invite/MuDigital",
-      "github": "https://github.com/Mu-Digital"
+      ]
     }
   },
   "review": {

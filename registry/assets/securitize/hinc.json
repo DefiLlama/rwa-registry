@@ -31,16 +31,10 @@
   "about": {
     "description": "HINC is a tokenized share of the Neuberger Securitize High Income Tokenized Fund, a British Virgin Islands corporation formed in 2026. The fund seeks high current income by investing the majority of its assets in high yield bonds, with the remainder in collateralised loan obligations, bank loans and other high yielding fixed income instruments, and it does not employ leverage. Securitize Capital LLC is the investment adviser and Neuberger acts as subadviser to the strategy. Fund administration is provided by Securitize Fund Services LLC, transfer agency by Securitize Transfer Agent LLC, and distribution by Securitize Markets LLC, an SEC registered broker dealer and member of FINRA and SIPC. The offering is made under Rule 506(c) and section 3(c)(7), so subscription is limited to accredited investors who are also qualified purchasers and is subject to onboarding, KYC and AML screening and jurisdictional eligibility, with a minimum investment of one hundred thousand dollars. Holders redeem for equivalent value in cash or stablecoin. The token is issued natively on Ethereum, Avalanche, Solana and Sui, and transfer is restricted to allowlisted wallets. The Solana deployment is a Token 2022 mint carrying a transfer hook and a permanent delegate, so the issuer can enforce transfer restrictions and move tokens without a holder signature.",
     "logo": "https://icons.llamao.fi/icons/rwa/hinc.jpg?w=48&h=48",
-    "registryInfo": "Neuberger Securitize High Income Tokenized Fund LTD is a British Virgin Islands corporation formed in 2026, with its registered office at Walkers Corporate, 171 Main Street, Road Town, Tortola. It filed a Form D with the SEC claiming exemptions under Rule 506(c) and section 3(c)(7) of the Investment Company Act. Securitize Capital LLC is the investment adviser and Neuberger is the subadviser.",
     "links": {
       "website": [
         "https://securitize.io/hinc"
-      ],
-      "twitter": "https://x.com/securitize",
-      "docs": "https://docs.securitize.io",
-      "linkedin": "https://www.linkedin.com/company/securitize",
-      "telegram": "https://t.me/securitize",
-      "github": "https://github.com/securitize-io"
+      ]
     }
   },
   "review": {

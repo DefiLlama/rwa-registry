@@ -38,15 +38,10 @@
   "about": {
     "description": "NGI+ is a 1 to 1 asset-backed token collateralized via a BVI bare trust holding units of the Partners Group Next Generation Infrastructure Class PC USD ACC sub-fund. The underlying is a Luxembourg SICAV Part II fund audited by PwC, managed by Partners Group AG, and invests in a broadly diversified portfolio of private infrastructure direct and secondary investments with a priority on operational assets that offer strong downside protection. Redemption is available for equivalent value in cash or stablecoin. Pricing is sourced from a Redstone push feed referencing the fund fundamental NAV. Reale Assets publishes ongoing appendix documentation covering collateralization and structure, and the tokenization stack is operated by Hong Kong regulated technology partner Asseto Fintech.",
     "logo": "https://icons.llamao.fi/icons/rwa/ngi.png?w=48&h=48",
-    "registryInfo": "Reale Assets Limited is a British Virgin Islands business company that issues NGI+ as beneficiary interests under a BVI bare trust where Reale acts as bare trustee holding units of the underlying regulated fund. The underlying is the Partners Group Next Generation Infrastructure Class PC USD ACC sub-fund of the Partners Group Evergreen SICAV, a Luxembourg SICAV Part II vehicle managed by Partners Group AG (SIX: PGHN) and audited by PwC. Tokenholders have no direct equity in Reale Assets or Partners Group and no BVI investor protection scheme applies. The tokenization stack is operated by Asseto Fintech Limited, a Hong Kong company backed by HashKey, BNB MVB, and Cyberport programs, with prior SFC no-objection letters for Animoca shares and DL Tower products.",
     "links": {
       "website": [
         "https://asseto.finance/"
-      ],
-      "twitter": "https://x.com/AssetoFinance",
-      "docs": "https://reale-assets.gitbook.io/reale/product/ngi+",
-      "linkedin": "https://www.linkedin.com/company/asseto-finance",
-      "github": "https://github.com/AssetoFinance"
+      ]
     }
   },
   "review": {

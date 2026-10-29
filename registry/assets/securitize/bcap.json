@@ -27,17 +27,11 @@
   "about": {
     "description": "BCAP is the tokenized limited partner interest for Blockchain Capital III Digital Liquid Venture Fund, LP. It is a venture capital vehicle that invests across blockchain and crypto infrastructure, applications, and protocols, launched in 2017, BCAP was structured alongside Blockchain Capital III, LP as one of the earliest examples of a venture fund raising capital through an Ethereum‑based security token, with Securitize supporting digital issuance and compliant ownership records. Token holders receive pro‑rata economic exposure to the fund’s underlying portfolio and any distributions from realized exits. As a venture strategy, returns are driven by portfolio company performance and the timing of liquidity events. NAV is derived from the manager’s valuation of the underlying holdings rather than on‑chain collateral.",
     "logo": "https://icons.llamao.fi/icons/rwa/bcap.png?w=48&h=48",
-    "registryInfo": "SEC/Registry: CIK 0001703926 (EDGAR). Legal issuer: Blockchain Capital TokenHub Pte. Ltd. (Singapore). Exempt offering: Form D under Regulation D (Accession 0000950172-17-000040).",
     "links": {
       "website": [
         "https://loop.blockchain.capital",
         "https://bcap.invest.securitize.io"
-      ],
-      "twitter": "https://x.com/Securitize",
-      "docs": "https://docs.securitize.io",
-      "linkedin": "https://www.linkedin.com/company/securitize",
-      "telegram": "https://t.me/securitize",
-      "github": "https://github.com/securitize-io"
+      ]
     }
   },
   "review": {

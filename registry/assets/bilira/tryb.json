@@ -32,12 +32,10 @@
   "about": {
     "description": "TRYB is a Turkish lira-pegged stablecoin used for TRY-denominated settlement and exchange liquidity, particularly for on/off-ramps connected to local markets. It is centrally issued and aims to maintain a 1 TRY value through issuer-managed reserves, enabling faster onchain transfers and trading in a TRY unit of account.",
     "logo": "https://icons.llamao.fi/icons/rwa/tryb.png?w=48&h=48",
-    "registryInfo": "BiLira - issuer/brand of the TRYB Turkish lira stablecoin. Public documentation indicates TRYB is designed to track TRY via a centralized issuer model with offchain reserves; legal/entity disclosures depend on issuer-provided documentation.",
     "links": {
       "website": [
         "https://bilira.co"
-      ],
-      "twitter": "https://x.com/BiLira_Kripto"
+      ]
     }
   },
   "review": {

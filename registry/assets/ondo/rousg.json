@@ -36,17 +36,10 @@
   "about": {
     "description": "OUSG is a qualified-access tokenized fund exposure to short-term U.S. Treasuries and money market funds. Eligibility is restricted (accredited investor + qualified purchaser). NAV is calculated daily with a fund administrator (NAV Consulting) and daily fund update reports are published, qualified-access funds are audited annually. KYC/KYB required for onboarding and primary-market mint/redemption, transfers are restricted to onboarded/eligible investors.",
     "logo": "https://icons.llamao.fi/icons/rwa/ousg.png?w=48&h=48",
-    "registryInfo": "Ondo I LP, Delaware limited partnership, issuer of OUSG interests, filed Form D with the SEC and audited annually.",
     "links": {
       "website": [
         "https://docs.ondo.finance/qualified-access-products/ousg/ousg-vs-rebasing-ousg-rousg"
-      ],
-      "twitter": "https://x.com/ondofinance",
-      "docs": "https://docs.ondo.finance/",
-      "linkedin": "https://www.linkedin.com/company/ondofinance",
-      "discord": "https://discord.com/invite/ondofinance",
-      "telegram": "https://t.me/ondofinance",
-      "github": "https://github.com/ondoprotocol"
+      ]
     }
   },
   "review": {

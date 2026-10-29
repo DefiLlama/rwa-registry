@@ -32,18 +32,11 @@
   "about": {
     "description": "Tokenized feeder fund that provides non-US accredited investors with USDC-denominated exposure to Apollo Diversified Credit Fund, a globally diversified credit strategy spanning corporate direct lending, asset-backed lending, performing credit, and dislocated credit. Coinbase Prime is the crypto custodian, Trident Trust as fund administrator, and MHA Cayman as auditor.",
     "logo": "https://icons.llamao.fi/icons/rwa/anemoy-tokenized-apollo-diversified-credit-fund.png?w=48&h=48",
-    "registryInfo": "LEI: 2549009CBJ86SM12V633; Domicile: British Virgin Islands",
     "links": {
       "website": [
         "https://app.centrifuge.io/pool/281474976710664",
         "https://centrifuge.io/blog/acrdx-launch-on-centrifuge"
-      ],
-      "twitter": "https://x.com/anemoycapital",
-      "docs": "https://docs.centrifuge.io/",
-      "linkedin": "https://www.linkedin.com/company/centrifuge-io",
-      "discord": "https://discord.com/invite/yEzyUq5gxF",
-      "telegram": "https://t.me/centrifuge_chat",
-      "github": "https://github.com/centrifuge"
+      ]
     }
   },
   "review": {

@@ -31,14 +31,10 @@
   "about": {
     "description": "FGRS is the SEC-registered blockchain-native common stock of Figure Technology Solutions, Inc. (the Nasdaq listing for the Class A is FIGR). FGRS is the Series A Blockchain Common Stock issued and settled natively on the Provenance blockchain through the On-chain Public Equity Network (OPEN), with no off-chain share registry duplicate. The blockchain is the canonical legal record. Shares are KYC-gated for issuance and transfer whitelisting. FGRS is redeemable for cash or stablecoins based on the Prospectus rather than for an underlying equity, since the blockchain-native shares are themselves the equity. The token is tradable with self-custody on Provenance, with on-chain supply of approximately 809,730 shares as of 2026-06-11.",
     "logo": "https://icons.llamao.fi/icons/rwa/fgrs.png?w=48&h=48",
-    "registryInfo": "Figure Technology Solutions, Inc. (Nasdaq: FIGR), CIK 0002064124; SEC-registered blockchain-native equity per Form 424(b)(4) prospectus. Issued natively on Provenance as marker denom nfgrd (on-chain denom symbol FGRD, display exponent 9; product ticker FGRS); marker authority addresses (mint/burn/force_transfer/admin): pb1qt67v5..., pb10r29n9..., pb175zt4h..., pb16dz8ae... (all hold zero balance as of 2026-06-11, listed as preemptive exclusions).",
     "links": {
       "website": [
         "https://www.figure.com/"
-      ],
-      "twitter": "https://x.com/Figure",
-      "docs": "https://www.sec.gov/Archives/edgar/data/2064124/000162828026008786/figure-blockchain424b4.htm",
-      "linkedin": "https://www.linkedin.com/company/figure-tech"
+      ]
     }
   },
   "review": {

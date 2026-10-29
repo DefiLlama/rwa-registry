@@ -27,14 +27,10 @@
   "about": {
     "description": "Reental-MLG-3 is Reental's tokenized interest in Málaga 3 (EUR-denominated), issued on Polygon at a fixed 100 EUR per token. The token's AssetOracle publishes that issue price, not a revalued mark: it is 100 EUR converted through Chainlink EUR/USD, so the only variation is FX. No attestation, no redemption price and no secondary market (transfers are whitelist-gated).",
     "logo": "https://icons.llamao.fi/icons/rwa/mlg-3.png?w=48&h=48",
-    "registryInfo": "Reental (tokenized real estate investment platform).",
     "links": {
       "website": [
         "https://www.reental.co/"
-      ],
-      "twitter": "https://x.com/Reental_co",
-      "docs": "https://docs.reental.co/",
-      "linkedin": "https://www.linkedin.com/company/reental"
+      ]
     }
   },
   "review": {

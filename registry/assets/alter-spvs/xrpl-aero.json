@@ -26,12 +26,10 @@
   "about": {
     "description": "AERO is an XRPL-issued token representing an economic interest in an Alter SPVs investment vehicle that holds an equity position in AeroNeura Ltd. AeroNeura Ltd is a private aerospace technology company developing advanced control systems, intelligent automation, propulsion testing software, and engineering solutions for the aerospace, automotive, defense, and industrial sectors. AeroNeura Ltd does not issue, manage, or operate the token, and the operating business remains entirely separate from the tokenization activities.",
     "logo": "https://aeroneura.com/assets/logo.png",
-    "registryInfo": "Alter SPVs holds an investment position in AeroNeura Ltd through a dedicated SPV. The tokenized instrument represents an economic interest in that SPV rather than direct ownership of AeroNeura Ltd shares. AeroNeura Ltd is an operating technology company developing advanced control systems, intelligent automation, propulsion testing software, and engineering solutions for the aerospace, automotive, defense, and industrial sectors.",
     "links": {
       "website": [
         "https://aeroneura.com/"
-      ],
-      "docs": "https://aeroneura.com/tokenization"
+      ]
     }
   },
   "review": {

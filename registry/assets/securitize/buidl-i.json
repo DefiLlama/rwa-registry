@@ -31,16 +31,10 @@
   "about": {
     "description": "BUIDL-I represents the I Class tokenized share of BlackRock’s USD Institutional Digital Liquidity Fund, tokenized by Securitize. Each token targets a $1 NAV and accrues fund income, with subscriptions and redemptions handled through the fund’s transfer and issuance process for qualified investors. The fund invests in cash, U.S. Treasury bills, and repurchase agreements, enabling blockchain-based settlement and collateral workflows.",
     "logo": "https://icons.llamao.fi/icons/rwa/buidl-i.png?w=48&h=48",
-    "registryInfo": "BlackRock USD Institutional Digital Liquidity Fund Ltd., a Bermuda exempted mutual fund company / Segregated Accounts Company (SAC) registered as a private fund under the Bermuda Investment Funds Act, with classified-fund status under the Bermuda Fund Rules.",
     "links": {
       "website": [
         "https://www.blackrock.com/us/individual/products/buidl-blackrock-usd-institutional-digital-liquidity-fund"
-      ],
-      "twitter": "https://x.com/BlackRock",
-      "docs": "https://docs.securitize.io",
-      "linkedin": "https://www.linkedin.com/company/securitize",
-      "telegram": "https://t.me/securitize",
-      "github": "https://github.com/securitize-io"
+      ]
     }
   },
   "review": {

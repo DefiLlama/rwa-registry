@@ -46,15 +46,10 @@
   "about": {
     "description": "TUSD is a USD stablecoin that emphasizes high-frequency reserve verification. It provides daily reserve attestation reporting and also supports a Chainlink Proof of Reserve feed for public monitoring of reported reserve data.",
     "logo": "https://icons.llamao.fi/icons/rwa/tusd.png?w=48&h=48",
-    "registryInfo": "Techteryx Ltd – British Virgin Islands company identified as the owner/operator of the TrueUSD stablecoin business in Hong Kong and DIFC court decisions, corporate information referenced via BVI Companies Registry search reports.",
     "links": {
       "website": [
         "https://www.trueusd.com"
-      ],
-      "twitter": "https://x.com/tusdio",
-      "docs": "https://docs.trueusd.com/",
-      "linkedin": "https://www.linkedin.com/company/trueusd",
-      "discord": "https://discord.com/invite/WhaRBEZJ44"
+      ]
     }
   },
   "review": {

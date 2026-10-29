@@ -37,18 +37,11 @@
   "about": {
     "description": "deJAAA is a wrapper designed to make JAAA more usable across DeFi venues by packaging fund exposure into a DeFi-oriented format while keeping the underlying economics tied to the Janus Henderson Anemoy AAA CLO Fund. It is designed for collateral and liquidity use cases that benefit from standardized DeFi token handling, while relying on the underlying JAAA fund’s holdings transparency and fund-level reporting for reserve visibility.",
     "logo": "https://icons.llamao.fi/icons/rwa/dejaaa.png?w=48&h=48",
-    "registryInfo": "Centrifuge GmbH – German limited liability company (Gesellschaft mit beschränkter Haftung), registered in the commercial register of Amtsgericht Charlottenburg (Berlin) under HRB 194474 B. Anemoy Capital SPC Limited – British Virgin Islands segregated portfolio company (SPC) registered in Road Town, BVI (company no. 2130465), operating BVI professional funds under the Securities and Investment Business Act and regulated by the BVI Financial Services Commission, LEI 2549009CBJ86SM12V633.",
     "links": {
       "website": [
         "https://www.anemoy.io/funds/jaaa",
         "https://app.centrifuge.io/pool/281474976710659"
-      ],
-      "twitter": "https://x.com/anemoycapital",
-      "docs": "https://docs.centrifuge.io/",
-      "linkedin": "https://www.linkedin.com/company/centrifuge-io",
-      "discord": "https://discord.com/invite/yEzyUq5gxF",
-      "telegram": "https://t.me/centrifuge_chat",
-      "github": "https://github.com/centrifuge"
+      ]
     }
   },
   "review": {

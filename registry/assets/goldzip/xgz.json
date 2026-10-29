@@ -27,13 +27,10 @@
   "about": {
     "description": "XGZ is a gold token from GoldZip Digital, the Singapore subsidiary of the Hong Kong Gold Exchange, with each token backed by 1 gram of 99.99% gold in HKGX-recognized vaults and redeemable for physical bars subject to AML checks. The token trades on Uniswap and MEXC. Roughly 95% of the 39,000-token supply remains in the issuer treasury, and reserve audits have not yet been published.",
     "logo": "https://icons.llamao.fi/icons/rwa/xgz.png?w=48&h=48",
-    "registryInfo": "GoldZip Digital Pte. Ltd., Singapore registered precious-metals dealer (MinLaw), subsidiary of the Hong Kong Gold Exchange (HKGX, the former Chinese Gold & Silver Exchange, trading physical gold since 1910). Web3 partner: Midas Labs (May 2026). HKGX states member gold inventory is \"currently in audit\" - no published auditor report; ~95% of supply sits in issuer treasury.",
     "links": {
       "website": [
         "https://goldzip.info"
-      ],
-      "twitter": "https://x.com/goldzipxgz",
-      "docs": "https://goldzip.info"
+      ]
     }
   },
   "review": {

@@ -28,16 +28,10 @@
   "about": {
     "description": "sGOOGL wraps Alphabet Inc. Class A (Nasdaq: GOOGL), the voting-share class of the Google/YouTube/Waymo/DeepMind parent. Alphabet is a ~$2T market-cap mega-cap and CEO Sundar Pichai oversees Search, YouTube, Google Cloud and Gemini AI. sGOOGL is a BEP-20 issued 1:1 against GOOGL shares custodied off-chain through StableBroker (StableStock's licensed broker partner with HabitTrade). 24/7 on-chain liquidity is provided with Native. KYC is required at mint/redeem. On-chain transfers are permissionless, making sGOOGL composable with BNB Chain DeFi.",
     "logo": "https://icons.llamao.fi/icons/rwa/goog.png?w=48&h=48",
-    "registryInfo": "StableStock sTokens are issued under StableBroker, StableStock's licensed-broker infrastructure operated with HabitTrade. HabitTrade Pty Ltd holds AFSL 514654 (ABN 59 626 521 202, Australia); HabitTrade LLC holds a US FinCEN MSB registration (31000229716152); HabitTrade (HK) Limited holds an SFC Type 1 licence (Hong Kong). StableStock custody relies on its US broker partner DriveWealth LLC, a FINRA/SIPC member US broker-dealer. StableStock's published backers/partners include YZi Labs, MPCi, Vertex Ventures, Foresight Ventures, Amber Group and Dragonfly.",
     "links": {
       "website": [
         "https://stablestock.finance"
-      ],
-      "twitter": "https://x.com/StableStock",
-      "docs": "https://docs.stablestock.com/",
-      "linkedin": "https://www.linkedin.com/company/stablestock",
-      "discord": "https://discord.gg/stablestock",
-      "telegram": "https://t.me/StableStock"
+      ]
     }
   },
   "review": {

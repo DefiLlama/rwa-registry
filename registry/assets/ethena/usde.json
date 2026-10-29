@@ -108,18 +108,9 @@
   "about": {
     "description": "USDe is a synthetic dollar asset designed to target price stability through collateral plus hedged positioning in derivatives markets. Its stability and yield dynamics are tied to hedge performance and the costs and returns available in perpetual and futures markets, creating a return profile that can differ meaningfully from reserve-backed cash-management products.",
     "logo": "https://icons.llamao.fi/icons/rwa/ethena-usde.png?w=48&h=48",
-    "registryInfo": "Ethena Labs, S.A. – Portuguese company limited by shares (sociedade anónima), legal address Rua Presidente Arriaga nº 54, 4º, 1200-773 Lisboa, Portugal, registration authority entity ID 517591111, Legal Entity Identifier (LEI) 894500K29XZNTAWSC539.",
     "links": {
       "website": [
         "https://www.ethena.fi"
-      ],
-      "twitter": "https://x.com/ethena_labs",
-      "docs": "https://docs.ethena.fi/",
-      "linkedin": "https://www.linkedin.com/company/ethena-labs",
-      "telegram": "https://t.me/ethena_labs",
-      "github": "https://github.com/ethena-labs",
-      "refLinks": [
-        "https://www.app.ethena.fi/join/3y20d"
       ]
     }
   },

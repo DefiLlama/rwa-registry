@@ -26,14 +26,10 @@
   "about": {
     "description": "Aurus tSILVER is a physically backed silver token. Each token represents 1 gram of 99.9% silver sourced from LBMA-accredited refineries and stored in insured, audited facilities, and it can be redeemed via Aurus.",
     "logo": "https://icons.llamao.fi/icons/rwa/txag.png?w=48&h=48",
-    "registryInfo": "Aurus tSILVER: 1:1 backed by 1g silver held with insured, audited vault partners (see issuer docs).",
     "links": {
       "website": [
         "https://aurus.org/tsilver"
-      ],
-      "twitter": "https://x.com/AurusOfficial",
-      "docs": "https://docs.aurus.io/",
-      "linkedin": "https://www.linkedin.com/company/aurus-technologies"
+      ]
     }
   },
   "review": {

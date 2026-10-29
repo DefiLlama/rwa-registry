@@ -32,14 +32,10 @@
   "about": {
     "description": "XUSD is a MAS-regulated USD stablecoin issued by StraitsX USD Issuance Pte. Ltd. It is intended to be fully backed by USD reserve assets held with regulated financial institutions, supporting dollar settlement for payments, treasury, and exchange workflows across supported blockchains. Minting and redemption are conducted through StraitsX’s regulated rails (typically with KYC), while the token itself can be held in self-custody and transferred onchain. Key risks include issuer/custodian and regulatory risk, and reliance on StraitsX’s redemption operations.",
     "logo": "https://icons.llamao.fi/icons/rwa/xusd.png?w=48&h=48",
-    "registryInfo": "StraitsX USD Issuance Pte. Ltd. - Singapore Major Payment Institution (MAS). Registered address 79 Ayer Rajah Crescent #04-08, Singapore 139955. MAS Financial Institutions Directory lists it for Digital Payment Token Service.",
     "links": {
       "website": [
         "https://www.straitsx.com/xusd"
-      ],
-      "twitter": "https://x.com/xfers",
-      "docs": "https://docs.straitsx.com/",
-      "linkedin": "https://www.linkedin.com/company/straitsx"
+      ]
     }
   },
   "review": {

@@ -27,15 +27,10 @@
   "about": {
     "description": "YZM is the ERC-4626 share token of the Yuzu Money Vault on Monad. Deposited USDC is deployed under Yuzu Money's institutional-grade risk framework, with real-time reserve verification via Accountable's Proof of Solvency. Yield accrues to share price through ERC-4626 convertToAssets. The vault operates within the Yuzu Money platform which spans tokenized RWA products (Yuzu Prime) and structured stablecoin products (Yuzu Alpha).",
     "logo": "https://icons.llamao.fi/icons/rwa/yzm.png?w=48&h=48",
-    "registryInfo": "Yuzu Money is an institutional-grade tokenized yield infrastructure with product suites spanning tokenized RWAs (Yuzu Prime) and DeFi structured products (Yuzu Alpha, comprising yzUSD senior tranche, staked syzUSD, and yzPP junior tranche). The platform runs on Pashov and Dedaub audited smart contracts, Fordefi MPC key management, and Hypernative real-time threat monitoring. The ERC-4626 vault issued on Monad operates under this risk framework with reserves continuously verified via Accountable's Proof of Solvency at yuzu.accountable.capital.",
     "links": {
       "website": [
         "https://yuzu.money/"
-      ],
-      "twitter": "https://x.com/YuzuMoneyX",
-      "docs": "https://yuzu-money.gitbook.io/yuzu-money",
-      "discord": "https://discord.com/invite/gjKw4KJyu8",
-      "telegram": "https://t.me/yuzumoneyofficial"
+      ]
     }
   },
   "review": {

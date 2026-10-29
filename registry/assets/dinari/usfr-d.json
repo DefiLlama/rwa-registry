@@ -40,17 +40,10 @@
   "about": {
     "description": "USFR.d is a Dinari dShare that provides on-chain exposure to the referenced equity (WisdomTree Floating Rate Treasury Fund dShare). dShares may only be issued and redeemed from wallets that have completed KYC, and Dinari states it screens wallets holding dShares as part of its AML program. The token includes a transfer blacklist feature for OFAC, AML, and account-security controls. Dinari states dividends and distributions are allocated using an on-chain snapshot and made available to withdraw from a USDC claim contract, and Dinari holds back shareholder voting rights from tokenholders.",
     "logo": "https://icons.llamao.fi/icons/rwa/usfr.png?w=48&h=48",
-    "registryInfo": "Dinari, Inc. — SEC Transfer Agent filer (Exchange Act, Type: TA). CIK 0001915430, SEC File No. 084-06840, State of Incorp.: DE, EIN 87-3045442. See SEC EDGAR Form TA-2 filing index.",
     "links": {
       "website": [
         "https://sbt.dinari.com/tokens/USFR.d"
-      ],
-      "twitter": "https://x.com/DinariGlobal",
-      "docs": "https://docs.dinari.com/",
-      "linkedin": "https://www.linkedin.com/company/dinari",
-      "discord": "https://discord.gg/dinari",
-      "telegram": "https://t.me/dinariglobal",
-      "github": "https://github.com/dinaricrypto"
+      ]
     }
   },
   "review": {

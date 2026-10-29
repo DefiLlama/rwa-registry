@@ -31,15 +31,10 @@
   "about": {
     "description": "JPYC is a JPY-denominated onchain payment token designed for everyday transfers and web3 payments in a yen unit of account. It is issued under a prepaid payment instrument structure, supporting permissionless transfers on public chains while offchain issuance/redemption and payment integrations are managed by the issuer.",
     "logo": "https://icons.llamao.fi/icons/rwa/jpyc.png?w=48&h=48",
-    "registryInfo": "JPYC Inc. - issuer of JPYC, a JPY-linked token structured in Japan as a prepaid payment instrument (rather than a bank-deposit stablecoin), intended for 1 JPYC ≈ 1 JPY usage within supported payment and on/off-ramp flows.",
     "links": {
       "website": [
         "https://jpyc.jp"
-      ],
-      "twitter": "https://x.com/jpyc_official",
-      "docs": "https://corporate.jpyc.co.jp/en",
-      "linkedin": "https://www.linkedin.com/company/jpycinc",
-      "github": "https://github.com/jpyc"
+      ]
     }
   },
   "review": {

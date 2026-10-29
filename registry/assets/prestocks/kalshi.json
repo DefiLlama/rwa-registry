@@ -31,14 +31,10 @@
   "about": {
     "description": "KALSHI is a PreStocks token on Solana that tracks the implied valuation of Kalshi. PreStocks describes its products as 1:1 backed by SPV exposure to underlying private-company shares, while emphasizing that holders receive economic exposure only, not direct ownership, voting, dividend, information, or other legal rights.",
     "logo": "https://icons.llamao.fi/icons/rwa/kalshi.png?w=48&h=48",
-    "registryInfo": "Public site does not clearly disclose the operating legal entity. PreStocks states its tokens are 1:1 backed by SPV exposure to underlying private-company shares and are not available in the U.S. or to U.S. persons.",
     "links": {
       "website": [
         "https://prestocks.com/kalshi"
-      ],
-      "twitter": "https://x.com/prestocks",
-      "docs": "https://prestocks.com/",
-      "linkedin": "https://www.linkedin.com/company/prestocks"
+      ]
     }
   },
   "review": {

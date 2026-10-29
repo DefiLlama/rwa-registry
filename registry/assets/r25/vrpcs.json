@@ -27,13 +27,10 @@
   "about": {
     "description": "VRPC-SemiYearly is R25's semi-annual-liquidity Variable Real Private Credit token on Pharos. Same exposure base as VRPC-Weekly but with twice-yearly redemption windows for higher target yield.",
     "logo": "https://icons.llamao.fi/icons/rwa/r25.png?w=48&h=48",
-    "registryInfo": "R25 is a decentralized RWA protocol building institutional-grade tokens backed by real-world assets. Founding member of the Pharos RealFi Alliance.",
     "links": {
       "website": [
         "https://www.r25.xyz/"
-      ],
-      "twitter": "https://x.com/R25Official",
-      "docs": "https://docs.r25.xyz/"
+      ]
     }
   },
   "review": {

@@ -26,12 +26,10 @@
   "about": {
     "description": "HAT is an XRPL-issued token representing participation in a Zao Yu Ren-managed SPV that holds an equity interest in Hanyu Aerospace Technology Co., Ltd., a private aerospace technology company specializing in avionics, embedded control systems, flight computers, mission processors, navigation modules, data acquisition systems, aerospace networks, and embedded control platforms. Hanyu Aerospace explicitly acknowledges the tokenization arrangement. The token is not redeemable and requires KYC to mint. Pricing is derived onchain from the XRPL AMM at rHqn3M9JT3SFfKXSiGZjQxiQK71k5ZLmCw using the ratio of its token reserves. As of the recent ledger, the issuer had minted 1,620,000 HAT, verified via XRPL gateway_balances.",
     "logo": "https://hanyuaerospace.com/assets/favicon.png",
-    "registryInfo": "ZYR Hanyu SPV — Zao Yu Ren Holdings-managed special purpose vehicle holding an equity interest in Hanyu Aerospace Technology Co., Ltd. (private aerospace technology company). XRPL token issuer: rKVBRCYxHx674PfsnZPbznmNuoJyQk4ALG. Issuer account Domain field decodes to hanyu.zaoyuren.com, confirming linkage. Hanyu Aerospace explicitly acknowledges the tokenization arrangement on its corporate website. XRPL infrastructure chosen for transparency, accessibility, and operational efficiency per Zao Yu Ren Holdings.",
     "links": {
       "website": [
         "https://hanyuaerospace.com/"
-      ],
-      "docs": "https://hanyuaerospace.com/tokenization/"
+      ]
     }
   },
   "review": {

@@ -37,14 +37,10 @@
   },
   "about": {
     "description": "Tokenized Strategy Inc share issued by Coinbase on Base under the Coinbase Tokenize platform, trading with the on-chain symbol MSTRc. Coinbase states the product is backed 1:1 by the underlying share with dividends passed through on-chain and corporate actions handled by the platform; access at launch was restricted to non-US users pending US regulatory clarity. Contract state on 2026-08-14 read totalSupply 0, so the contract is deployed but no tokens have been minted yet. Coinbase's on-chain name() returns \"Strategy Inc.\"; the Reference Asset uses our registry charter name \"Strategy Inc\". Reserve backing and redemption mechanics were not verifiable from a primary source at the time of listing: coinbase.com/tokenize was still a 'Coming soon' marketing page and no attestation or terms document was published. On-chain probe 2026-08-14 on Base: not an EIP-1967 proxy (both implementation and admin slots are zero) and paused(), owner(), isFrozen(address) and transferRestrictions() all revert, so none of the standard pause, ownership or blocklist patterns are present under those signatures. This is not proof the token is unrestricted, since a custom scheme could use different selectors. Issuer is recorded as the listed parent Coinbase Global, Inc.; the specific issuing or broker-dealer entity behind the Coinbase Tokenize programme has not been published and is unverified. Access model recorded as permissionless: the KYC obligation attaches to acquiring or redeeming through Coinbase's own venue, not to holding or moving the token, and the on-chain probe found no allowlist, freeze or transfer-restriction selectors on the contract. Issuer recorded as Coinbase Global, Inc.; the operating subsidiary is unpublished and is not Coinbase Capital Markets Corp, which is the US-only broker-dealer behind coinbase.com/stocks. Yield Bearing is set TRUE on Coinbase's stated automatic on-chain dividend pass-through, and Attestations TRUE provisionally on the stated 1:1 backing by custodied real shares; neither an attestation document nor a terms document had been published at the time of listing, so both should be re-checked once Coinbase Tokenize exits its 'coming soon' state.",
-    "registryInfo": "Recorded issuer is the listed parent, Coinbase Global, Inc. (NASDAQ: COIN). The specific issuing subsidiary for the tokenized-equity programme is not published as of 2026-08-14. It is NOT Coinbase Capital Markets Corp: CCM is the FINRA/SIPC broker-dealer behind coinbase.com/stocks, which serves US residents only, trades real shares with T+1 settlement and clears through Apex Clearing Corporation - the opposite jurisdiction and mechanism to the non-US tokenized product.",
     "links": {
       "website": [
         "https://www.coinbase.com/tokenize"
-      ],
-      "twitter": "https://x.com/coinbase",
-      "docs": "https://www.coinbase.com/tokenize",
-      "linkedin": "https://www.linkedin.com/company/coinbase"
+      ]
     }
   },
   "review": {

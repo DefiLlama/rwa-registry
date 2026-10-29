@@ -30,14 +30,10 @@
   "about": {
     "description": "Etherfuse CETES is a 1:1-backed tokenized representation of short-term Mexican government Treasury bills (Certificados de la Tesorería de la Federación). Yield from underlying bonds compounds into token NAV. Redeemable instantly via Etherfuse SDK or app. Custody held by BBVA (Banco Bilbao Vizcaya Argentaria) with crypto custody via Kuspit Casa de Bolsa. Native deployments on Stellar, Solana, Base, Polygon, and Monad.",
     "logo": "https://icons.llamao.fi/icons/rwa/cetes.png?w=48&h=48",
-    "registryInfo": "Etherfuse — regulated multichain issuer of tokenized sovereign debt. Domicile: United States. Primary-market eligibility: Non-U.S. investors only. Regulatory framework: Switzerland DLT Act (FINMA). Custody varies per stablebond (BBVA / Spiko SICAV / Archax / B3 / etc).",
     "links": {
       "website": [
         "https://www.etherfuse.com/"
-      ],
-      "twitter": "https://x.com/etherfuse",
-      "docs": "https://www.etherfuse.com/stablebonds",
-      "linkedin": "https://www.linkedin.com/company/etherfuse"
+      ]
     }
   },
   "review": {

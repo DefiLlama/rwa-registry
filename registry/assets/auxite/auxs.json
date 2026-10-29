@@ -28,14 +28,10 @@
   "about": {
     "description": "AUXS is a tokenized silver product issued by Auxite on Base. Each token is stated to represent 1 gram of allocated, vaulted physical silver, with KYC-gated minting and physical redemption available for larger holdings via the issuer.",
     "logo": "https://icons.llamao.fi/icons/rwa/auxs.png?w=48&h=48",
-    "registryInfo": "Operated by Aurum Ledger Ltd, Hong Kong.",
     "links": {
       "website": [
         "https://auxite.io"
-      ],
-      "twitter": "https://x.com/auxiteRWA",
-      "docs": "https://docs.auxite.com/",
-      "linkedin": "https://www.linkedin.com/company/auxite"
+      ]
     }
   },
   "review": {

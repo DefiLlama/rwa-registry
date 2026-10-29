@@ -31,14 +31,10 @@
   "about": {
     "description": "nOPAL is the receipt token for Nest’s BlackOpal vault providing tokenized exposure to Brazilian credit card receivables via LiquidStone II, where merchants receive upfront liquidity and returns accrue as receivables settle through card payment rails. Plume describes the vault as offering 24/7 redemptions, USD-hedged exposure, and a liquidity design that holds roughly half the vault in “blue-chip DeFi protocols” to support smooth withdrawals. The Nest vault page also indicates the allocation is primarily LiquidStone II (99.53%) with a small sleeve in Nest Treasury Vault (0.47%).",
     "logo": "https://icons.llamao.fi/icons/rwa/nopal.png?w=48&h=48",
-    "registryInfo": "Nest DAO LLC – legal address 852 Lagoon Road, Majuro, 96960, Marshall Islands, Legal Entity Identifier (LEI) 254900BB9T1QYAT04892 (status: ISSUED; managing LOU: Bloomberg Finance L.P.; next renewal date: 2026-10-14).",
     "links": {
       "website": [
         "https://nest.credit"
-      ],
-      "twitter": "https://x.com/nestcredit",
-      "docs": "https://docs.nestcredit.io/",
-      "linkedin": "https://www.linkedin.com/company/nestcredit"
+      ]
     }
   },
   "review": {

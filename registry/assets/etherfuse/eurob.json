@@ -27,14 +27,10 @@
   "about": {
     "description": "Etherfuse EUROB tokenizes a collection of fixed-income securities issued by European Union sovereign issuers (Eurobonds). Custody via Spiko SICAV. Deployed on Solana, Stellar, Base, Polygon, and Monad.",
     "logo": "https://icons.llamao.fi/icons/rwa/eurob.png?w=48&h=48",
-    "registryInfo": "Etherfuse — regulated multichain issuer of tokenized sovereign debt. Domicile: United States. Primary-market eligibility: Non-U.S. investors only. Regulatory framework: Switzerland DLT Act (FINMA). Custody varies per stablebond (BBVA / Spiko SICAV / Archax / B3 / etc).",
     "links": {
       "website": [
         "https://www.etherfuse.com/"
-      ],
-      "twitter": "https://x.com/etherfuse",
-      "docs": "https://www.etherfuse.com/stablebonds",
-      "linkedin": "https://www.linkedin.com/company/etherfuse"
+      ]
     }
   },
   "review": {

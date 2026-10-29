@@ -39,15 +39,10 @@
   "about": {
     "description": "CUMIU represents the Class I USD shares of ChinaAMC USD Digital Money Market Fund, a Hong Kong authorized money market fund investing in short-term deposits and high-quality money market instruments. ChinaAMC publishes offering documents and fund reporting, and the tokenized share class is serviced with Standard Chartered as custodian and tokenization agent.",
     "logo": "https://icons.llamao.fi/icons/rwa/cumiu.png?w=48&h=48",
-    "registryInfo": "Domicile: Hong Kong, Regulatory framework: Hong Kong Ordinance Professional Investor Exemption (HKMA), Custodian: Standard Chartered Trustee (Hong Kong) Limited (LEI: RILFO74KP1CM8P6PCT96), Auditor: KPMG",
     "links": {
       "website": [
         "https://www.chinaamc.com.hk"
-      ],
-      "twitter": "https://x.com/ChinaAMC_HK",
-      "docs": "https://libeara.com/",
-      "linkedin": "https://www.linkedin.com/company/libeara",
-      "github": "https://github.com/libeara"
+      ]
     }
   },
   "review": {

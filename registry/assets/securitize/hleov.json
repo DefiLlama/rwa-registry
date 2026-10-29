@@ -28,16 +28,10 @@
   "about": {
     "description": "HLEOV is the tokenized feeder share class for Hamilton Lane’s Equity Opportunities Fund V, a direct‑equity co‑investment strategy that invests in market‑leading private businesses alongside established general partners and investment partners. The fund provides a curated, diversified set of private equity deal exposure, focusing on individual transactions rather than broad fund‑of‑funds style exposure. The HLEOV token gives onchain representation of ownership in the feeder vehicle administered through Securitize. Returns are driven by the underlying private company investments and their exit outcomes. NAV is based on Hamilton Lane’s valuation and reporting process rather than onchain collateral.",
     "logo": "https://icons.llamao.fi/icons/rwa/hleov.png?w=48&h=48",
-    "registryInfo": "SEC/Registry: CIK 0001965971. Legal issuer: Securitize Hamilton Lane Equity Opportunities Fund V, LLC (Delaware). Exempt offering: Form D under Regulation D (Accession 0001965971-23-000001).",
     "links": {
       "website": [
         "https://id.securitize.io/primary-market/opportunities/277"
-      ],
-      "twitter": "https://x.com/Securitize",
-      "docs": "https://docs.securitize.io",
-      "linkedin": "https://www.linkedin.com/company/securitize",
-      "telegram": "https://t.me/securitize",
-      "github": "https://github.com/securitize-io"
+      ]
     }
   },
   "review": {

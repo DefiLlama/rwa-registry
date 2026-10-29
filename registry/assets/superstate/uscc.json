@@ -37,15 +37,10 @@
   "about": {
     "description": "USCC represents tokenized fund units of the Superstate Crypto Carry Fund, designed for qualified purchasers seeking a market-neutral yield profile derived from crypto basis trades, with additional components that can include staking and a Treasury sleeve for cash management. The fund is built around NAV-based share accounting and is offered with both tokenized delivery and traditional book-entry ownership, positioning it as an institutional-style alternative-return strategy with onchain settlement optionality.",
     "logo": "https://icons.llamao.fi/icons/rwa/uscc.png?w=48&h=48",
-    "registryInfo": "Superstate Asset Trust – Delaware statutory trust, Superstate Crypto Carry Fund (USCC) is a separate series of the trust offered under a U.S. Securities Act Regulation D private placement exemption. SEC Form D filer name: “Superstate Crypto Carry Fund, a series of Superstate Asset Trust”, CIK 0002030263, business address 251 Little Falls Drive, Wilmington, DE 19808.",
     "links": {
       "website": [
         "https://superstate.com/assets/uscc"
-      ],
-      "twitter": "https://x.com/superstateinc",
-      "docs": "https://docs.superstate.com/",
-      "linkedin": "https://www.linkedin.com/company/superstate-finance",
-      "github": "https://github.com/superstateinc"
+      ]
     }
   },
   "review": {

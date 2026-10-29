@@ -27,13 +27,10 @@
   "about": {
     "description": "rcUSD is R25's conservative yield-bearing tokenized dollar on Sui, designed to maintain a 1:1 USD peg, backed by a diversified portfolio of tokenized money market funds and short-duration US Treasury bills. Pairs with rcUSDp (yield-bearing version), rcHY (higher-yield PE/credit), and ibUSD (illiquid). Sui Audit Report available on R25 website.",
     "logo": "https://icons.llamao.fi/icons/rwa/rcusd.png?w=48&h=48",
-    "registryInfo": "R25 is a decentralized RWA protocol issuing rcTokens — RWA-backed stablecoin family. rcUSD is supported by a diversified portfolio of tokenized money market funds and stablecoins, designed to maintain a $1 peg. Also deployed on Polygon as rcUSD+. Founding member of Pharos RealFi Alliance.",
     "links": {
       "website": [
         "https://www.r25.xyz/"
-      ],
-      "twitter": "https://x.com/R25Official",
-      "docs": "https://docs.r25.xyz/"
+      ]
     }
   },
   "review": {

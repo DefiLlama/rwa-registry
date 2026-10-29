@@ -29,13 +29,10 @@
   "about": {
     "description": "DDSC (Dirham-Backed Stablecoin) is a UAE Dirham denominated stablecoin issued on ADI Chain by AEDC Stable Coin Network and Distribution L.L.C., regulated by the Central Bank of the UAE under the Payment Token Services Regulation and Stored Value Facilities framework. The issuer is backed by International Holding Company, First Abu Dhabi Bank, and Sirius International Holding, with reserves held under First Abu Dhabi Bank custody at a 1 to 1 backing to AED. The token is a private payment token that is distinct from the Central Bank of the UAE Digital Dirham Central Bank Digital Currency. CBUAE approved the operational launch in February 2026 and issued a No Objection Certificate for retail listing on VARA-regulated exchanges in July 2026. Reserves are audited monthly by Crowe with a public proof of reserves dashboard published on ddsc.ai. The contract is an EIP-1967 upgradeable proxy with six decimal places, supports pause and freeze compliance controls, and is deployed on ADI Chain, a zkSync OS Layer 2 operated by the ADI Foundation.",
     "logo": "https://icons.llamao.fi/icons/rwa/ddsc.png?w=48&h=48",
-    "registryInfo": "DDSC is a UAE Dirham backed stablecoin issued by AEDC Stable Coin Network and Distribution L.L.C., a Central Bank of the UAE licensed entity backed by International Holding Company, First Abu Dhabi Bank, and Sirius International Holding. The issuer holds Central Bank of the UAE Stored Value Facilities Licence No. 05.01.01.018.2026.01 and Payment Token Services Licence No. 09.01.01.004.2026.01 under the Payment Token Services Regulation Circular 2 of 2024. CBUAE approved the operational launch in February 2026, and in July 2026 the Central Bank issued a No Objection Certificate authorizing listing on VARA-regulated exchanges for retail use. Reserves are held under First Abu Dhabi Bank custody at a 1 to 1 backing to AED and are audited monthly by Crowe with an on-chain proof of reserves dashboard. DDSC is a private payment token that is distinct from the Central Bank of the UAE Digital Dirham Central Bank Digital Currency, which remains a direct liability of the Central Bank. The token contract is deployed on ADI Chain, an institutional Layer 2 built on the zkSync OS stack and operated by the ADI Foundation.",
     "links": {
       "website": [
         "https://www.ddsc.ai/"
-      ],
-      "twitter": "https://x.com/DDSCAI",
-      "docs": "https://www.ddsc.ai/DDSC_Whitepaper.pdf"
+      ]
     }
   },
   "review": {

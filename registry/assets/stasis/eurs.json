@@ -46,17 +46,10 @@
   "about": {
     "description": "EURS is STASIS’s euro-backed stablecoin, designed to track the euro through reserve-backed issuance and redemption. STASIS provides reserve transparency materials, including reserve statements and audit or verification artifacts intended to support verification of backing over time.",
     "logo": "https://icons.llamao.fi/icons/rwa/eurs.png?w=48&h=48",
-    "registryInfo": "STASIS – Malta-based fintech group operating the EURS stablecoin, reserves management performed by STSS (Malta) Limited as disclosed in EU transparency and partner documentation.",
     "links": {
       "website": [
         "https://stasis.net"
-      ],
-      "twitter": "https://x.com/stasisnet",
-      "docs": "https://docs.stasis.net/",
-      "linkedin": "https://www.linkedin.com/company/stasis-net",
-      "discord": "https://discord.com/invite/zSSp334dfy",
-      "telegram": "https://t.me/STASIS",
-      "github": "https://github.com/stasisnet"
+      ]
     }
   },
   "review": {

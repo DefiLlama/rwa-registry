@@ -32,12 +32,10 @@
   "about": {
     "description": "Euro stablecoin intended to be fully backed by EUR held with reserve banking partners. Issuer announced a wind-down and cessation of new issuance. direct redemptions are subject to issuer onboarding/KYC and minimum size requirements.",
     "logo": "https://icons.llamao.fi/icons/rwa/aeur.png?w=48&h=48",
-    "registryInfo": "Anchored Coins AG (Zug, Switzerland; company ID CHE-434.703.403) states membership in VQF (Swiss SRO).",
     "links": {
       "website": [
         "https://anchoredcoins.com/"
-      ],
-      "twitter": "https://x.com/AnchoredCoins"
+      ]
     }
   },
   "review": {

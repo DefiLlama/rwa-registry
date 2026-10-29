@@ -32,17 +32,10 @@
   "about": {
     "description": "Frax USD (frxUSD) is Frax’s newer fully‑collateralized dollar stablecoin designed to interface with off-chain rails and institutional-grade reserves, with transparency reporting on reserves. frxUSD is the non‑yielding base token. yield is accessed via ecosystem wrappers (e. g. , sfrxUSD) rather than through rebasing frxUSD itself.",
     "logo": "https://icons.llamao.fi/icons/rwa/frxusd.png?w=48&h=48",
-    "registryInfo": "Frax USD (frxUSD) is Frax’s fiat-redeemable, fully collateralized stablecoin.",
     "links": {
       "website": [
         "https://frax.com/frxUSD"
-      ],
-      "twitter": "https://twitter.com/fraxfinance",
-      "docs": "https://docs.frax.finance/",
-      "linkedin": "https://www.linkedin.com/company/frax-finance",
-      "discord": "https://discord.com/invite/fraxfinance",
-      "telegram": "https://t.me/fraxfinance",
-      "github": "https://github.com/FraxFinance"
+      ]
     }
   },
   "review": {

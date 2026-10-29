@@ -30,13 +30,10 @@
   "about": {
     "description": "PRIME is Hastra’s yield-bearing token built to represent staked exposure to wYLDS, with yield sourced from Figure’s Prime home equity line of credit lending pools. It is designed to be composable in DeFi while maintaining a reserves-first approach, publishing reserve and supply information through a dedicated proof-of-reserves dashboard. PRIME is intended for users who want a single token that packages underlying RWA-linked yield, onchain accounting, and transparent backing data.",
     "logo": "https://icons.llamao.fi/icons/rwa/prime.png?w=48&h=48",
-    "registryInfo": "Hastra Technologies Inc.",
     "links": {
       "website": [
         "https://hastra.io/prime"
-      ],
-      "twitter": "https://x.com/HastraFi",
-      "docs": "https://hastra.io/"
+      ]
     }
   },
   "review": {

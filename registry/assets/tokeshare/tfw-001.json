@@ -27,12 +27,10 @@
   "about": {
     "description": "TFW_001 is a tokenized fractional interest in a quad used for a transport/rental activity. Tokeshare lists 100 shares on Stellar at an indicative price of 50 USDC each, corresponding to a 5,000 USDC asset valuation. Tokeshare reports a net monthly distribution of 68.60 USDC across the asset, or 0.686 USDC per token, and a displayed annual net yield of 16.46%",
     "logo": "https://icons.llamao.fi/icons/rwa/tokeshare-forwill001.jpg?w=48&h=48",
-    "registryInfo": "Tokeshare tokenizes TFW_001 on Stellar as fractional economic shares in a quad used as a revenue-generating transport/rental vehicle. The public asset page lists 100 total shares at an indicative price of 50 USDC each",
     "links": {
       "website": [
         "https://tokeshare.co/stellar/tfw001"
-      ],
-      "twitter": "https://x.com/Tokeshare"
+      ]
     }
   },
   "review": {
