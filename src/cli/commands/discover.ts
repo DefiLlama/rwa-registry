@@ -7,7 +7,6 @@ import { discoverAddress, type AddressFacts } from '../../discover/discoverAddre
 import { discoverDates } from '../../discover/discoverDates';
 import { buildDiscoverDeps, type DiscoverDeps } from '../../discover/discoverDeps';
 import { CliError } from '../../errors';
-import { loadRegistry } from '../../registry';
 import type { CliCommand, CliDeps } from '../index';
 import { REGISTRY_FLAG, registryOf } from '../registryFlag';
 
@@ -27,13 +26,13 @@ const FACTS: (keyof AddressFacts)[] = [
   'detail',
 ];
 
-const address: Action = async ({ args, registry: root, json }, deps, print) => {
+const address: Action = async ({ args, json }, deps, print) => {
   const spec = args[1];
   if (!spec) {
     print('discover address needs <chain:address>');
     return 1;
   }
-  const facts = await discoverAddress(loadRegistry(registryOf(root)).registry, spec, deps);
+  const facts = await discoverAddress(spec, deps);
   if (json) print(JSON.stringify(facts, null, 2));
   else
     [`${facts.chain}:${facts.address}`, ...FACTS.map((field) => `  ${field}: ${facts[field] ?? 'null'}`)].forEach(

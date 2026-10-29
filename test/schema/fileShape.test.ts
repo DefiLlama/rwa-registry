@@ -11,6 +11,7 @@ const tslaxRow = {
   structure: 'stock-backed',
   type: 'asset',
   rwaClassification: 'true-rwa',
+  category: ['stocks-equities'],
   redeemable: true,
   coingeckoId: null,
   activeAumReviewed: true,
@@ -23,7 +24,7 @@ describe('fileShape', () => {
     expect(file).toEqual({
       identity: { slug: 'tslax', symbol: 'TSLAx', name: 'Tesla xStock', legacyId: 257, canonicalMarketId: 'TSLAx' },
       exposure: { underlying: 'tesla-inc' },
-      class: { structure: 'stock-backed', type: 'asset', rwaClassification: 'true-rwa' },
+      class: { structure: 'stock-backed', type: 'asset', rwaClassification: 'true-rwa', category: ['stocks-equities'] },
       terms: { redeemable: true },
       sources: { coingeckoId: null },
       review: { activeAumReviewed: true },

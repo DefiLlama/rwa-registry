@@ -17,11 +17,7 @@ describe('deriveFields', () => {
         { slug: 'stock-backed', label: 'Stock-Backed' },
         { slug: 'governance-token', label: 'Governance Token', impliesGovernance: true },
       ],
-      'reference/vocabularies/category-rules.json': [
-        { structure: 'stock-backed', exposure: 'public-equities', category: ['stocks-equities'] },
-        { structure: 'governance-token', exposure: 'public-equities', category: ['rwa-stablecoins'] },
-      ],
-      'assets/xstocks/sky.json': assetFile('sky', 64, { structure: 'governance-token' }),
+      'assets/xstocks/sky.json': assetFile('sky', 64, { structure: 'governance-token', category: ['rwa-stablecoins'] }),
     });
 
     expect(asset.find((row) => row.slug === 'sky')).toMatchObject({ stablecoin: true, governance: true, kind: 'governance' });
@@ -42,15 +38,11 @@ describe('deriveFields', () => {
         { slug: 'stock-backed', label: 'Stock-Backed' },
         { slug: 'stable-yield-wrapper', label: 'Stablecoin yield wrapper' },
       ],
-      'reference/vocabularies/category-rules.json': [
-        { structure: 'stock-backed', exposure: 'public-equities', category: ['stocks-equities'] },
-        { structure: 'stable-yield-wrapper', exposure: 'public-equities', category: ['rwa-stablecoins'] },
-      ],
-      'assets/xstocks/susde.json': withClass(assetFile('susde', 8818, { structure: 'stable-yield-wrapper' }), {
+      'assets/xstocks/susde.json': withClass(assetFile('susde', 8818, { category: ['rwa-stablecoins'] }), {
         stablecoin: false,
         flagReason: 'the server publishes false today',
       }),
-      'assets/xstocks/apyusd.json': assetFile('apyusd', 2994, { structure: 'stable-yield-wrapper' }),
+      'assets/xstocks/apyusd.json': assetFile('apyusd', 2994, { category: ['rwa-stablecoins'] }),
       'assets/xstocks/tslax.json': withClass(tslaxFile(), { stablecoin: true, flagReason: 'the server publishes true' }),
     });
     const flags = (slug: string) => {
@@ -107,32 +99,6 @@ describe('deriveFields', () => {
 
     expect(perp_market[0].id).toBe('xyz:tsla');
     expect(asset[0].chains).toEqual(['solana']);
-  });
-
-  it('shelves each asset under the categories of the rule its structure and its underlying exposure name', () => {
-    const { asset } = derive({
-      'reference/vocabularies/category.json': [
-        { slug: 'stocks-equities', label: 'Stocks & Equities' },
-        { slug: 'bond-mmf-funds', label: 'Bond & MMF Funds' },
-      ],
-      'reference/vocabularies/asset-group.json': [
-        { slug: 'public-equities', label: 'Public Equities' },
-        { slug: 'bonds', label: 'Bonds' },
-      ],
-      'reference/vocabularies/category-rules.json': [
-        { structure: 'stock-backed', exposure: 'public-equities', category: ['stocks-equities'] },
-        { structure: 'stock-backed', exposure: 'bonds', category: ['stocks-equities', 'bond-mmf-funds'] },
-      ],
-      'reference/underlyings/equity/us-treasuries.json': { slug: 'us-treasuries', name: 'US Treasuries', exposure: 'bonds' },
-      'assets/xstocks/tslay.json': assetFile('tslay', 9001),
-      'assets/xstocks/bil.json': assetFile('bil', 9002, { underlying: 'us-treasuries' }),
-    });
-
-    expect(asset.map((row) => [row.slug, row.category])).toEqual([
-      ['bil', ['stocks-equities', 'bond-mmf-funds']],
-      ['tslax', ['stocks-equities']],
-      ['tslay', ['stocks-equities']],
-    ]);
   });
 
   it("takes the primary chain from the primary deployment, else the platform's, and the protocol ids from the issuer roles", () => {

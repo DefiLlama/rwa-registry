@@ -1,6 +1,6 @@
 /**
  * set: one field of one registry file, the value parsed by its schema type, or the whole file with --file; every check runs on a copy.
- * An organization's kind and an underlying's class are its folder, so setting one moves the file to the new folder.
+ * An organization's kind is its folder, so setting it moves the file to the new folder.
  * @dev review: src/cli/fieldValue.ts, src/cli/writeCommand.ts
  */
 import { existsSync, readFileSync } from 'node:fs';
@@ -20,18 +20,18 @@ const insideRoot = (root: string, file: string) => {
 };
 
 // The field a table's folder names, which set moves the file for rather than writes.
-export const FOLDER_FIELDS: Partial<Record<TableName, string>> = { organization: 'kind', underlying: 'class' };
+export const FOLDER_FIELDS: Partial<Record<TableName, string>> = { organization: 'kind' };
 
 // Every reference names the row by slug, which the move keeps, so no other file changes; the checks then refuse a
-// kind the file's blocks, assets or venue do not fit, or a class that is not an underlying class.
+// kind the file's blocks, assets or venue do not fit.
 const moveFolder = (
-  table: 'organization' | 'underlying',
+  table: 'organization',
   path: string,
   before: unknown,
   value: string,
   note: (line: string) => void,
 ): FileToWrite[] => {
-  if (table === 'organization' && value === 'venue-operator')
+  if (value === 'venue-operator')
     throw new FlagFormatError({ file: 'set', message: 'a venue operator is added with add venue, beside its venue' });
   const field = FOLDER_FIELDS[table]!;
   const current = homeOf(path)!.implied!;
@@ -47,7 +47,7 @@ const moveFolder = (
 export const set = defineWriteCommand({
   name: 'set',
   description:
-    "set one field of one registry file, or replace the file with --file; an organization's kind or an underlying's class moves its file",
+    "set one field of one registry file, or replace the file with --file; an organization's kind moves its file",
   arguments: '<file> [field] [value]',
   fields: [{ flag: '--file <json>', description: 'a JSON file that replaces the whole registry file' }],
   files: (values, _registry, { args, root, read, note }) => {
@@ -57,7 +57,7 @@ export const set = defineWriteCommand({
     if (!home) throw new NoSuchRowError({ file: path, message: 'is not a registry file' });
     const before = read(path);
     const table = home.table;
-    if ((table === 'organization' || table === 'underlying') && field === FOLDER_FIELDS[table] && text !== undefined)
+    if (table === 'organization' && field === FOLDER_FIELDS[table] && text !== undefined)
       return moveFolder(table, path, before, text, note);
     let content: unknown;
     if (typeof values.file === 'string') {

@@ -45,18 +45,16 @@ describe('discoverDates', () => {
 
   it('sets the first stored day for a deployment no reader dates, and none for two that share a chain leg', async () => {
     const tree: Tree = { ...baseTree() };
-    tree['reference/chains/hedera.json'] = { slug: 'hedera', label: 'Hedera', addressFamily: 'hedera' };
-    tree['reference/chains/algorand.json'] = { slug: 'algorand', label: 'Algorand', addressFamily: 'algorand' };
     tree['assets/xstocks/hist.json'] = assetFile('hist', 950, {
       deployments: [
-        { chain: 'hedera', address: '0.0.1', deployedAt: null, primary: true },
+        { chain: 'near', address: 'hist.near', deployedAt: null, primary: true },
         { chain: 'algorand', address: 'ALGO1', deployedAt: null },
         { chain: 'algorand', address: 'ALGO2', deployedAt: '2024-01-01' },
       ],
     });
     const root = writeTree(tree);
     const http = answering(() => [
-      { timestamp: 1714521600, chains: { hedera: { totalSupply: 2 }, algorand: { totalSupply: 2 } } },
+      { timestamp: 1714521600, chains: { near: { totalSupply: 2 }, algorand: { totalSupply: 2 } } },
     ]);
     const deps = fakeDiscoverDeps({ http }, discoverConfig({ PRO_API_KEY: 'prokey' }));
 
@@ -152,8 +150,6 @@ describe('discoverDates', () => {
     // Three EVM chains on the Alchemy key and Solana, four deployments each, the way the full fill meets them.
     const ALCHEMY_CHAINS = ['bsc', 'base', 'ink'];
     const tree: Tree = { ...baseTree() };
-    for (const slug of ALCHEMY_CHAINS)
-      tree[`reference/chains/${slug}.json`] = { slug, label: slug, addressFamily: 'evm' };
     const hex = (chain: number, index: number) => `0x${String(chain + 1).repeat(39)}${index}`;
     const mint = (index: number) => `Mint${index}111111111111111111111111111111111111`.slice(0, 44);
     for (let index = 0; index < 4; index++)

@@ -71,6 +71,8 @@ const add = (
     'stock-backed',
     '--rwa-classification',
     'true-rwa',
+    '--category',
+    'stocks-equities',
     '--issuer',
     'backed-assets-je-limited',
     '--deployment',
@@ -90,6 +92,7 @@ const runWith = async (command: CliCommand, root: string, deployment: string[], 
     type: 'asset',
     structure: 'stock-backed',
     rwaClassification: 'true-rwa',
+    category: ['stocks-equities'],
     issuer: 'backed-assets-je-limited',
     deployment,
     ...flags,
@@ -112,7 +115,7 @@ describe('add asset', () => {
     expect(written).toEqual({
       identity: { slug: 'nvdax', symbol: 'NVDAx', name: 'NVIDIA xStock', legacyId: 9718, canonicalMarketId: 'NVDAx' },
       exposure: { underlying: 'nvidia-corporation' },
-      class: { structure: 'stock-backed', type: 'asset', rwaClassification: 'true-rwa' },
+      class: { structure: 'stock-backed', type: 'asset', rwaClassification: 'true-rwa', category: ['stocks-equities'] },
       review: { activeAumReviewed: false },
       deployments: [
         { chain: 'solana', address: SOLANA, deployedAt: '2025-06-30', primary: true },
@@ -136,6 +139,18 @@ describe('add asset', () => {
     expect(
       [pastAsset, pastMarket].map((root) => readJson(root, 'assets/xstocks/nvdax.json').identity.legacyId),
     ).toEqual([9726, 9801]);
+  });
+
+  it('refuses an asset given no category, and writes nothing', async () => {
+    const root = writeTree(tree());
+
+    const { code, lines } = await runWith(createAddAssetCommand(), root, [`solana:${SOLANA}:2025-06-30`], {
+      category: undefined,
+    });
+
+    expect(code).toBe(1);
+    expect(lines).toEqual(['add asset: --category is required']);
+    expect(existsSync(join(root, 'assets/xstocks/nvdax.json'))).toBe(false);
   });
 
   it('gives a case collision the -<legacyId> slug, as the lower id keeps the bare one', async () => {
@@ -267,7 +282,17 @@ describe('add asset', () => {
       [row.chain, row.address, row.deployedAt].join(':'),
     );
 
-    await runCli(['add', 'asset', '--registry', byFlags, ...flags, '--deployment', ...deployments]);
+    await runCli([
+      'add',
+      'asset',
+      '--registry',
+      byFlags,
+      ...flags,
+      '--category',
+      ...template.category,
+      '--deployment',
+      ...deployments,
+    ]);
     const { code } = await runCli(['add', 'asset', '--registry', byFile, '--from', flagsOnly]);
 
     expect(code).toBe(0);

@@ -26,12 +26,12 @@ describe('readDates', () => {
 
   it('asks the history source only for what no reader dated, never over a date a reader found', async () => {
     const queries: DateQuery[] = [
-      { chain: 'hedera', chainId: 'hedera', family: 'hedera', address: '0.0.1', asset },
+      { chain: 'icp', chainId: 'icp', family: 'icp', address: 'ryjl3-tyaaa-aaaaa-aaaba-cai', asset },
       { chain: 'tron', chainId: 'tron', family: 'tron', address: 'T1', asset },
       { chain: 'tron', chainId: 'tron', family: 'tron', address: 'Tgone', asset },
     ];
     const http = answering(({ url }) => {
-      if (url.startsWith(CHART)) return chartOf(['hedera', 'tron']);
+      if (url.startsWith(CHART)) return chartOf(['icp', 'tron']);
       return url.endsWith('T1') ? { data: [{ date_created: 1555400628000 }] } : {};
     });
     const results = await readDates(queries, fakeDiscoverDeps({ http }, discoverConfig({ PRO_API_KEY: 'prokey' })));
@@ -59,13 +59,19 @@ describe('readDates', () => {
       ),
     });
     const http = answering(({ url }) =>
-      url.endsWith('/9') ? Promise.reject(new Error('chart down')) : chartOf(['solana', 'cronos', 'hedera']),
+      url.endsWith('/9') ? Promise.reject(new Error('chart down')) : chartOf(['solana', 'cronos', 'icp']),
     );
     const results = await readDates(
       [
         { chain: 'solana', chainId: 'solana', family: 'solana', address: 'Mint1', asset },
         { chain: 'cronos', chainId: 'cronos', family: 'evm', address: '0x1', asset },
-        { chain: 'hedera', chainId: 'hedera', family: 'hedera', address: '0.0.2', asset: { ...asset, legacyId: 9 } },
+        {
+          chain: 'icp',
+          chainId: 'icp',
+          family: 'icp',
+          address: 'mxzaz-hqaaa-aaaar-qaada-cai',
+          asset: { ...asset, legacyId: 9 },
+        },
       ],
       fakeDiscoverDeps({ http, rpc }, capped),
     );

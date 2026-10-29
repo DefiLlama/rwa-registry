@@ -48,7 +48,7 @@ const typeAt = (schema: Schema, steps: Step[]): { def: Def; nullable: boolean } 
 
 const fileSchemaOf = (table: TableName): Schema => {
   const row = compileSchemas(tables, null).files[table] as unknown as Schema;
-  return table === 'vocabulary' || table === 'category_rule' ? { def: { type: 'array', element: row } } : row;
+  return table === 'vocabulary' ? { def: { type: 'array', element: row } } : row;
 };
 
 const scalar = (type: string, text: string, path: string): unknown => {

@@ -10,7 +10,7 @@ import { writeFile } from '../utils/writeFile';
 import { tables } from './index';
 
 // The tables whose file holds an array of rows.
-const ARRAY_FILES = new Set(['vocabulary', 'category_rule']);
+const ARRAY_FILES = new Set(['vocabulary']);
 
 export const exportJsonSchema = (dir: string): void => {
   const { files } = compileSchemas(tables, null);

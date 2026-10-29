@@ -227,9 +227,7 @@
                   "table": {
                     "type": "string",
                     "enum": [
-                      "chain",
                       "vocabulary",
-                      "category_rule",
                       "organization",
                       "underlying",
                       "instrument",

@@ -8,6 +8,7 @@ import type { DiscoverDeps } from './discoverDeps';
 
 export interface DateQuery {
   chain: string;
+  // The key the sdk's provider is fetched by: the chain key itself, since a chain is a DefiLlama chain key.
   chainId: string;
   family: AddressFamily;
   address: string;

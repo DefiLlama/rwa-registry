@@ -33,15 +33,13 @@ const SPECS = {
   },
   venue: { table: 'venue', beside: 'operator', needs: ['slug'] },
   market: { table: 'perp_market', implied: 'venue', needs: ['venue', 'symbol'] },
-  chain: { table: 'chain', assigned: ['slug'], needs: ['label'] },
-  underlying: { table: 'underlying', implied: 'class', assigned: ['slug'], needs: ['class', 'name'] },
+  underlying: { table: 'underlying', assigned: ['slug'], needs: ['name', 'exposure'] },
   'vocabulary-value': {
     table: 'vocabulary',
     implied: 'vocabulary',
     assigned: ['slug'],
     needs: ['vocabulary', 'label'],
   },
-  'category-rule': { table: 'category_rule', needs: ['structure', 'exposure', 'category'] },
 } satisfies Record<string, TemplateSpec>;
 
 export type TemplateName = keyof typeof SPECS;

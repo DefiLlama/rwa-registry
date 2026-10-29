@@ -6,7 +6,7 @@ import { templateFile } from '../../../src/cli/templates';
 import { readJson, readText, runCli } from '../runCli';
 
 describe('add underlying', () => {
-  it('writes reference/underlyings/<class>/<slug of the name>.json with its exposure, the class left to the folder', async () => {
+  it("writes reference/underlyings/<class>/<slug of the name>.json with its exposure, in the folder of the exposure's class", async () => {
     const root = writeTree(baseTree());
 
     const { code } = await runCli([
@@ -16,8 +16,6 @@ describe('add underlying', () => {
       root,
       '--name',
       'NVIDIA Corporation',
-      '--class',
-      'equity',
       '--exposure',
       'public-equities',
       '--ticker',
@@ -36,7 +34,7 @@ describe('add underlying', () => {
   it('writes from templates/underlying.json the file the flags write', async () => {
     const byFlags = writeTree(baseTree());
     const byFile = writeTree(baseTree());
-    const flags = ['--name', 'IonQ, Inc.', '--class', 'equity', '--exposure', 'public-equities', '--ticker', 'IONQ'];
+    const flags = ['--name', 'IonQ, Inc.', '--exposure', 'public-equities', '--ticker', 'IONQ'];
 
     await runCli(['add', 'underlying', '--registry', byFlags, ...flags]);
     const { code } = await runCli(['add', 'underlying', '--registry', byFile, '--from', templateFile('underlying')]);

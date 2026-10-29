@@ -5,8 +5,6 @@
 import { ack } from './ack';
 import { addressLabel } from './addressLabel';
 import { asset } from './asset';
-import { categoryRule } from './categoryRule';
-import { chain } from './chain';
 import type { AnyTableDefinition } from './defineTable';
 import type { TableName } from './enums';
 import { deployment } from './deployment';
@@ -20,9 +18,7 @@ import { venue } from './venue';
 import { vocabulary } from './vocabulary';
 
 export const tables = {
-  chain,
   vocabulary,
-  category_rule: categoryRule,
   organization,
   underlying,
   instrument,

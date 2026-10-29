@@ -86,6 +86,15 @@
           "type": "string",
           "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
         },
+        "category": {
+          "minItems": 1,
+          "type": "array",
+          "items": {
+            "description": "a slug of registry/reference/vocabularies/category.json",
+            "type": "string",
+            "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+          }
+        },
         "stablecoin": {
           "anyOf": [
             {
@@ -120,7 +129,8 @@
       "required": [
         "structure",
         "type",
-        "rwaClassification"
+        "rwaClassification",
+        "category"
       ],
       "additionalProperties": false
     },
@@ -732,9 +742,7 @@
                         "table": {
                           "type": "string",
                           "enum": [
-                            "chain",
                             "vocabulary",
-                            "category_rule",
                             "organization",
                             "underlying",
                             "instrument",
@@ -937,9 +945,7 @@
                   "table": {
                     "type": "string",
                     "enum": [
-                      "chain",
                       "vocabulary",
-                      "category_rule",
                       "organization",
                       "underlying",
                       "instrument",

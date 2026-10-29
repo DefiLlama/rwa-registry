@@ -1,13 +1,17 @@
 /**
- * references: every reference names a row of its table, and a role or an event targets a table its kind of row may target.
- * @dev review: src/registry/keys.ts
+ * references: every reference names a row of its table, a chain is a DefiLlama chain key, and a role or an event targets a table its kind of row may target.
+ * @dev review: src/registry/keys.ts, src/registry/chains.ts
  */
 import { DanglingReferenceError } from '../../errors';
 import type { Registry, TableName } from '../../schema';
+import { familyOf } from '../chains';
 import { keySets, rowsOf } from '../keys';
 import { report, type Problem } from '../problem';
 
-export const REFERENCES: Partial<Record<TableName, [field: string, table: TableName][]>> = {
+// A chain field names no table: it holds a DefiLlama chain key, which the sdk must know.
+type Target = TableName | 'chain';
+
+export const REFERENCES: Partial<Record<TableName, [field: string, table: Target][]>> = {
   organization: [
     ['parent', 'organization'],
     ['parentPlatform', 'organization'],
@@ -49,15 +53,18 @@ export const TARGETS: Partial<Record<TableName, Record<string, TableName[] | nul
 export const references = (registry: Registry): Problem[] => {
   const keys = keySets(registry);
   const problems: Problem[] = [];
-  for (const [table, fields] of Object.entries(REFERENCES) as [TableName, [string, TableName][]][]) {
+  for (const [table, fields] of Object.entries(REFERENCES) as [TableName, [string, Target][]][]) {
     for (const row of rowsOf(registry, table)) {
       for (const [field, target] of fields) {
         const value = row[field];
         const values = Array.isArray(value) ? value : [value];
         values.forEach((name, i) => {
-          if (name == null || keys[target].has(String(name))) return;
+          if (name == null) return;
+          const known = target === 'chain' ? familyOf(String(name)) !== null : keys[target].has(String(name));
+          if (known) return;
           const at = Array.isArray(value) ? `${field}[${i}]` : field;
-          problems.push(report(DanglingReferenceError, table, row, at, `${at} names ${target} ${name}, which does not exist`));
+          const why = target === 'chain' ? 'is not a DefiLlama chain' : 'does not exist';
+          problems.push(report(DanglingReferenceError, table, row, at, `${at} names ${target} ${name}, which ${why}`));
         });
       }
     }

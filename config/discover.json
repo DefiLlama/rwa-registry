@@ -63,7 +63,7 @@
           "sei": 1329,
           "stable": 988,
           "megaeth": 4326,
-          "arbitrum-nova": 42170,
+          "arbitrum_nova": 42170,
           "katana": 747474,
           "taiko": 167000,
           "abstract": 2741,
@@ -115,7 +115,7 @@
           "zksync": "zksync-mainnet",
           "era": "zksync-mainnet",
           "berachain": "berachain-mainnet",
-          "polygon-zkevm": "polygonzkevm-mainnet",
+          "polygon_zkevm": "polygonzkevm-mainnet",
           "zora": "zora-mainnet",
           "wc": "worldchain-mainnet",
           "soneium": "soneium-mainnet",
@@ -124,7 +124,7 @@
           "metis": "metis-mainnet",
           "astar": "astar-mainnet",
           "fraxtal": "frax-mainnet",
-          "arbitrum-nova": "arbnova-mainnet",
+          "arbitrum_nova": "arbnova-mainnet",
           "opbnb": "opbnb-mainnet"
         }
       },
@@ -160,13 +160,9 @@
         "chartKeys": {
           "gnosis": ["xdai"],
           "avalanche": ["avax"],
-          "exsat": ["xsat"],
           "kaia": ["klaytn"],
           "etherlink": ["etlk"],
-          "story": ["sty"],
-          "xrpl": ["ripple"],
-          "bitlayer": ["btr"],
-          "plume": ["plume_mainnet"]
+          "xrpl": ["ripple"]
         }
       },
       "horizon": {

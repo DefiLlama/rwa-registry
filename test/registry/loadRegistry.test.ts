@@ -18,18 +18,29 @@ describe('loadRegistry', () => {
     expect(registry.perp_market).toEqual([expect.objectContaining({ venue: 'xyz', symbol: 'TSLA' })]);
   });
 
-  it("takes an underlying's class from its folder, and fails a folder that is no class", () => {
+  it("takes an underlying's class from its folder, and fails a folder that is no class or not its exposure's", () => {
     const { registry, problems } = load({
       ...baseTree(),
-      'reference/underlyings/stocks/apple-inc.json': { slug: 'apple-inc', name: 'Apple Inc.', exposure: 'public-equities' },
+      'reference/underlyings/commodity/apple-inc.json': { slug: 'apple-inc', name: 'Apple Inc.', exposure: 'public-equities' },
+      'reference/underlyings/stocks/nvidia-corporation.json': { slug: 'nvidia-corporation', name: 'NVIDIA Corporation', exposure: 'public-equities' },
     });
 
     expect(registry.underlying.map((row) => [row.slug, row.class])).toEqual([
+      ['apple-inc', 'commodity'],
       ['tesla-inc', 'equity'],
-      ['apple-inc', 'stocks'],
+      ['nvidia-corporation', 'stocks'],
     ]);
     expect(problems).toEqual([
-      expect.objectContaining({ file: 'reference/underlyings/stocks/apple-inc.json', error: 'UnderlyingClassError' }),
+      expect.objectContaining({
+        file: 'reference/underlyings/commodity/apple-inc.json',
+        error: 'UnderlyingClassError',
+        message: 'exposure public-equities has class equity, so the file belongs in reference/underlyings/equity/',
+      }),
+      expect.objectContaining({
+        file: 'reference/underlyings/stocks/nvidia-corporation.json',
+        error: 'UnderlyingClassError',
+        message: 'reference/underlyings/stocks/ is not a class an asset-group value names; the classes are equity, commodity',
+      }),
     ]);
   });
 

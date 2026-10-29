@@ -9,7 +9,6 @@ import { report, type Problem } from '../problem';
 import { rwaSlug } from '../rwaSlug';
 
 const DISPLAY: [TableName, string][] = [
-  ['chain', 'label'],
   ['vocabulary', 'label'],
   ['organization', 'name'],
   ['underlying', 'name'],

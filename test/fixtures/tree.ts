@@ -15,7 +15,7 @@ const values = (...slugs: [string, string][]) => slugs.map(([slug, label]) => ({
 export const tslaxFile = () => ({
   identity: { slug: 'tslax', symbol: 'TSLAx', name: 'Tesla xStock', legacyId: 257, canonicalMarketId: 'TSLAx' },
   exposure: { underlying: 'tesla-inc' },
-  class: { structure: 'stock-backed', type: 'asset', rwaClassification: 'true-rwa' },
+  class: { structure: 'stock-backed', type: 'asset', rwaClassification: 'true-rwa', category: ['stocks-equities'] },
   review: { activeAumReviewed: true },
   deployments: [
     {
@@ -51,23 +51,22 @@ export const baseTree = (): Tree => ({
   'reference/vocabularies/type.json': values(['asset', 'Asset'], ['wrapper', 'Wrapper']),
   'reference/vocabularies/category.json': values(['stocks-equities', 'Stocks & Equities'], ['rwa-perps', 'RWA Perps']),
   'reference/vocabularies/asset-class.json': values(['stock-backed', 'Stock-Backed'], ['stock-perp', 'Stock Perp']),
-  'reference/vocabularies/asset-group.json': values(['public-equities', 'Public Equities']),
+  'reference/vocabularies/asset-group.json': [
+    { slug: 'public-equities', label: 'Public Equities', class: 'equity' },
+    { slug: 'precious-metals', label: 'Precious Metals', class: 'commodity' },
+  ],
   'reference/vocabularies/rwa-classification.json': values(
     ['true-rwa', 'True RWA'],
     ['programmable-finance', 'Programmable Finance'],
   ),
   'reference/vocabularies/access-model.json': values(['permissionless', 'Permissionless']),
   'reference/vocabularies/venue-type.json': values(['dex', 'dex'], ['cex', 'cex']),
-  'reference/vocabularies/underlying-class.json': values(['equity', 'equity']),
   'reference/vocabularies/organization-kind.json': values(
     ['issuer', 'issuer'],
     ['oracle', 'oracle'],
     ['platform', 'platform'],
     ['venue-operator', 'venue-operator'],
   ),
-  'reference/vocabularies/category-rules.json': [
-    { structure: 'stock-backed', exposure: 'public-equities', category: ['stocks-equities'] },
-  ],
   'reference/vocabularies/role-kind.json': values(['issuer', 'issuer'], ['oracle', 'oracle'], ['auditor', 'auditor']),
   'reference/vocabularies/event-kind.json': values(
     ['delisting', 'delisting'],
@@ -79,11 +78,6 @@ export const baseTree = (): Tree => ({
     ['merge', 'merge'],
   ),
   'reference/vocabularies/label-kind.json': values(['excluded-holder', 'excluded-holder']),
-  'reference/chains/solana.json': { slug: 'solana', label: 'Solana', addressFamily: 'solana' },
-  'reference/chains/ethereum.json': { slug: 'ethereum', label: 'Ethereum', addressFamily: 'evm' },
-  'reference/chains/hyperliquid.json': { slug: 'hyperliquid', label: 'Hyperliquid', addressFamily: 'evm' },
-  'reference/chains/xrpl.json': { slug: 'xrpl', label: 'XRPL', addressFamily: 'xrpl' },
-  'reference/chains/stellar.json': { slug: 'stellar', label: 'Stellar', addressFamily: 'stellar' },
   'reference/underlyings/equity/tesla-inc.json': {
     slug: 'tesla-inc',
     name: 'Tesla, Inc.',

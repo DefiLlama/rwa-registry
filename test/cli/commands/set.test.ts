@@ -81,18 +81,6 @@ describe('set', () => {
     });
   });
 
-  it('adds a category rule as the next item of the rules file', async () => {
-    const root = writeTree(baseTree());
-    const RULES = 'reference/vocabularies/category-rules.json';
-    const next = String(readJson(root, RULES).length);
-    const rule = { structure: 'stock-perp', exposure: 'public-equities', category: ['rwa-perps'] };
-
-    const { code } = await set(root, RULES, `[${next}]`, JSON.stringify(rule));
-
-    expect(code).toBe(0);
-    expect(readJson(root, RULES).at(-1)).toEqual(rule);
-  });
-
   it('writes a list of rows given as JSON as rows, so a roles cell lands whole', async () => {
     const root = writeTree(baseTree());
     const roles = [{ organization: 'backed-assets-je-limited', kind: 'issuer', protocolIds: [6378] }];

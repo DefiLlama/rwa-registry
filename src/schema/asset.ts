@@ -23,6 +23,8 @@ export const asset = defineTable({
     structure: v['asset-class'],
     type: v['type'],
     rwaClassification: v['rwa-classification'],
+    // The site's shelves it sits under, from the category vocabulary, first the main one.
+    category: z.array(v['category']).min(1),
     // Today's published flag where the derived one differs, with the reason; the build publishes it over the derived value.
     stablecoinOverride: optional(flag),
     governanceOverride: optional(flag),
@@ -61,7 +63,6 @@ export const asset = defineTable({
     suspicious: optional(z.literal(false)),
     delisted: optional(z.literal(false)),
     llamaGradeAttestation: optional(flag),
-    category: z.array(v['category']),
     primaryChain: ref,
     issuerProtocolIds: optional(z.array(protocolId)),
     kind: optional(enums.assetKind),
@@ -71,7 +72,7 @@ export const asset = defineTable({
     chains: optional(z.array(ref)),
   }),
   implied: 'platform',
-  build: ['category', 'primaryChain', 'issuerProtocolIds', 'kind', 'stablecoin', 'governance', 'status', 'chains'],
+  build: ['primaryChain', 'issuerProtocolIds', 'kind', 'stablecoin', 'governance', 'status', 'chains'],
   children: { deployments: 'deployment', roles: 'role', events: 'event' },
   blocks: {
     identity: ['slug', 'symbol', 'name', 'legacyId', 'canonicalMarketId'],
@@ -80,6 +81,7 @@ export const asset = defineTable({
       'structure',
       'type',
       'rwaClassification',
+      'category',
       ['stablecoin', 'stablecoinOverride'],
       ['governance', 'governanceOverride'],
       'flagReason',

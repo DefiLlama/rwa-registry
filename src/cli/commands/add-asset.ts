@@ -7,7 +7,7 @@ import { whyOf } from '../../discover/dateResult';
 import { discoverReads, type DiscoverReads } from '../../discover/discoverReads';
 import { FlagFormatError, MissingFieldError, NoSuchRowError } from '../../errors/cli';
 import { UndatedDeploymentError } from '../../errors/registry';
-import { chainIdOf, homeFile, nextAssetKeys } from '../../registry';
+import { familyOf, homeFile, nextAssetKeys } from '../../registry';
 import type { Registry } from '../../schema';
 import { defineAddCommand, fileContent, organizationChoices, vocabularyChoices, type FlagValues } from '../addCommand';
 import type { WriteContext } from '../writeCommand';
@@ -24,8 +24,8 @@ const deploymentOf = (item: string): Deployment => {
   return { chain: chain!, address: address!, deployedAt: deployedAt ?? null };
 };
 
-const inKeyForm = (deployment: Deployment, registry: Registry): Deployment => {
-  const evm = registry.chain.some((row) => row.slug === deployment.chain && row.addressFamily === 'evm');
+const inKeyForm = (deployment: Deployment): Deployment => {
+  const evm = familyOf(deployment.chain) === 'evm';
   return evm && typeof deployment.address === 'string'
     ? { ...deployment, address: deployment.address.toLowerCase() }
     : deployment;
@@ -34,12 +34,7 @@ const inKeyForm = (deployment: Deployment, registry: Registry): Deployment => {
 const named = (deployment: Deployment) => `${deployment.chain}:${deployment.address}`;
 
 // A deployment given without its date is dated from the chain, and refused when the chain does not say; with no reads it stays undated, noted once, and validate warns until the date is set.
-const dated = async (
-  deployments: Deployment[],
-  registry: Registry,
-  reads: DiscoverReads | null,
-  note: WriteContext['note'],
-) => {
+const dated = async (deployments: Deployment[], reads: DiscoverReads | null, note: WriteContext['note']) => {
   const undated = deployments.filter(({ deployedAt }) => !deployedAt);
   if (!undated.length) return deployments;
   if (!reads) {
@@ -47,14 +42,10 @@ const dated = async (
     note(`${names}: left undated under --no-discover; validate warns undated-deployment until deployedAt is set`);
     return deployments;
   }
-  const chains = new Map(registry.chain.map((chain) => [chain.slug, chain]));
-  const unknown = undated.find(({ chain }) => !chains.has(chain));
+  const unknown = undated.find(({ chain }) => familyOf(chain) === null);
   if (unknown)
-    throw new FlagFormatError({ file: FILE, message: `${named(unknown)}: no chain ${unknown.chain} in the registry` });
-  const queries = undated.map(({ chain, address }) => {
-    const row = chains.get(chain)!;
-    return { chain, chainId: chainIdOf(row), family: row.addressFamily, address };
-  });
+    throw new FlagFormatError({ file: FILE, message: `${named(unknown)}: ${unknown.chain} is not a DefiLlama chain` });
+  const queries = undated.map(({ chain, address }) => ({ chain, chainId: chain, family: familyOf(chain)!, address }));
   const results = await reads.dates(queries);
   const byDeployment = new Map(undated.map((deployment, index) => [deployment, results[index]!]));
   return deployments.map((deployment) => {
@@ -135,6 +126,13 @@ export const createAddAssetCommand = (
         choices: vocabularyChoices('rwa-classification'),
       },
       {
+        flag: '--category <slugs...>',
+        description: 'the categories it is shelved under, first the main one: stocks-equities',
+        required: true,
+        list: true,
+        choices: vocabularyChoices('category'),
+      },
+      {
         flag: '--issuer <slug>',
         description: 'the organization that issues it, backed-assets-je-limited',
         required: true,
@@ -165,6 +163,7 @@ export const createAddAssetCommand = (
       structure: values.structure,
       type: values.type,
       rwaClassification: values.rwaClassification,
+      category: values.category,
       primaryChain: values.primaryChain,
       coingeckoId: values.coingeckoId,
       deployments: (values.deployment as string[]).map(deploymentOf),
@@ -177,10 +176,10 @@ export const createAddAssetCommand = (
         legacyId: row.legacyId as number | null | undefined,
         slug: row.slug as string | null | undefined,
       });
-      const given = ((row.deployments ?? []) as Deployment[]).map((deployment) => inKeyForm(deployment, registry));
+      const given = ((row.deployments ?? []) as Deployment[]).map(inKeyForm);
       const reads =
         flags.discover === false ? null : (deps.reads ?? ((log) => discoverReads(deps.env ?? process.env, log)))(note);
-      const deployments = primaryOf(await dated(given, registry, reads, note), primaryChain);
+      const deployments = primaryOf(await dated(given, reads, note), primaryChain);
       const content = fileContent('asset', {
         ...row,
         slug,

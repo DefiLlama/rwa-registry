@@ -13,6 +13,8 @@ export const vocabulary = defineTable({
     label: text,
     description: optional(text),
     aliases: optional(z.array(text)),
+    // On an asset-group value only: the underlying class, the folder under reference/underlyings/ that holds this exposure.
+    class: optional(slug),
     impliesStablecoin: optional(flag),
     impliesGovernance: optional(flag),
     estimateRevenue: optional(flag),

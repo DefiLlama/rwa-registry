@@ -1,0 +1,20 @@
+[
+  {
+    "slug": "issuer-disclosed",
+    "label": "Issuer-Disclosed",
+    "estimateRevenue": true
+  },
+  {
+    "slug": "no-public-data",
+    "label": "No-public-data"
+  },
+  {
+    "slug": "public-filings",
+    "label": "Public Filings",
+    "estimateRevenue": true
+  },
+  {
+    "slug": "reasoned-estimate",
+    "label": "Reasoned Estimate"
+  }
+]

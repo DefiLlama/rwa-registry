@@ -7,11 +7,9 @@ import { Command } from 'commander';
 import type { Ask } from './ask';
 import { ack } from './commands/ack';
 import { addAsset } from './commands/add-asset';
-import { addChain } from './commands/add-chain';
 import { addMarket } from './commands/add-market';
 import { addOrganization } from './commands/add-organization';
 import { addPlatform } from './commands/add-platform';
-import { addRule } from './commands/add-rule';
 import { addUnderlying } from './commands/add-underlying';
 import { addValue } from './commands/add-value';
 import { addVenue } from './commands/add-venue';
@@ -49,10 +47,8 @@ const commands: CliCommand[] = [
   addVenue,
   addMarket,
   addOrganization,
-  addChain,
   addUnderlying,
   addValue,
-  addRule,
   delist,
   pause,
   resume,

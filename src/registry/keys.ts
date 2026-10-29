@@ -15,9 +15,7 @@ export const targetKey = (target: { table: string; key: string } | null | undefi
   target ? `${target.table}:${target.key}` : '';
 
 const KEYS: { [T in TableName]: (row: Row<T>) => string } = {
-  chain: (row) => row.slug,
   vocabulary: (row) => `${row.vocabulary}:${row.slug}`,
-  category_rule: (row) => `${row.structure}:${row.exposure}`,
   organization: (row) => row.slug,
   underlying: (row) => row.slug,
   instrument: (row) => row.slug,

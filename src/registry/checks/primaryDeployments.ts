@@ -13,6 +13,7 @@ export const primaryDeployments = (registry: Registry): Problem[] => {
     (row) => row.asset,
   );
   const platformChain = new Map(registry.organization.map((row) => [row.slug, row.primaryChain]));
+  const deployed = new Set(registry.deployment.map((row) => row.asset));
   // An asset folder without its platform is platformFolders' finding, so it is not reported twice.
   return registry.asset.flatMap((row) => {
     if (!platformChain.has(row.platform)) return [];
@@ -21,7 +22,8 @@ export const primaryDeployments = (registry: Registry): Problem[] => {
       const chains = own.map((deployment) => deployment.chain).join(', ');
       return [report(PrimaryDeploymentError, 'asset', row, '', `${own.length} deployments are primary (${chains}); mark one`)];
     }
-    if (own.length === 0 && platformChain.get(row.platform) == null) {
+    // An asset with no deployment at all has nothing to mark; it is published without a chain.
+    if (own.length === 0 && platformChain.get(row.platform) == null && deployed.has(row.slug)) {
       const message = `no deployment is primary and platform ${row.platform} has no primaryChain; mark one deployment primary`;
       return [report(PrimaryDeploymentError, 'asset', row, '', message)];
     }

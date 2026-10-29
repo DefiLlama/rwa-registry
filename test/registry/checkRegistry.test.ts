@@ -9,11 +9,11 @@ describe('checkRegistry', () => {
     const head = registryOf({ ...baseTree(), 'assets/xstocks/tslax.json': tslaxWith({ underlying: 'tesla-incc' }) });
     const [dangling] = checkRegistry(head, null);
     const base = registryOf(baseTree());
-    const roleOnChain = { organization: 'backed-assets-je-limited', kind: 'issuer', target: { table: 'chain' as const, key: 'solana' } };
+    const roleOnValue = { organization: 'backed-assets-je-limited', kind: 'issuer', target: { table: 'vocabulary' as const, key: 'type:asset' } };
 
     expect(checkRegistry(head, null)).toHaveLength(1);
     expect(dangling).toMatchObject({ error: 'DanglingReferenceError', file: 'assets/xstocks/tslax.json' });
-    expect(checkRegistry({ ...base, role: [...base.role, roleOnChain] }, null)).toEqual([
+    expect(checkRegistry({ ...base, role: [...base.role, roleOnValue] }, null)).toEqual([
       expect.objectContaining({ error: 'DanglingReferenceError' }),
     ]);
   });
@@ -288,7 +288,7 @@ describe('checkRegistry', () => {
     });
     const relabeled = registryOf({
       ...baseTree(),
-      'reference/chains/solana.json': { slug: 'solana', label: 'Solana Mainnet', addressFamily: 'solana' },
+      'reference/underlyings/equity/tesla-inc.json': { slug: 'tesla-inc', name: 'Tesla Inc', exposure: 'public-equities' },
     });
     const base = registryOf(baseTree());
 
@@ -308,7 +308,7 @@ describe('checkRegistry', () => {
           deployments: [
             tslax.deployments[0],
             { chain: 'ethereum', address: '0x8AD3C73F833D3F9A523AB01476625F269AEB7CF0' },
-            { chain: 'xrpl', address: 'RLUSD rMxCKbEDwqr76QuheSUMdEGf4B9xJ8m5De' },
+            { chain: 'ripple', address: 'RLUSD rMxCKbEDwqr76QuheSUMdEGf4B9xJ8m5De' },
             { chain: 'stellar', address: 'USDY-GAJMPX5NBOG6TQFPQGRABJEEB2YE7RFRLUKJDZAZGAD5GFX4J7TADAZ6-1' },
           ],
         },
@@ -331,7 +331,7 @@ describe('checkRegistry', () => {
         ...baseTree(),
         'assets/xstocks/tslax.json': {
           ...tslax,
-          deployments: [tslax.deployments[0], ...addresses.map((address) => ({ chain: 'xrpl', address, deployedAt: '2025-01-01' }))],
+          deployments: [tslax.deployments[0], ...addresses.map((address) => ({ chain: 'ripple', address, deployedAt: '2025-01-01' }))],
         },
       }),
       null,
@@ -354,32 +354,6 @@ describe('checkRegistry', () => {
 });
 
 describe('the taxonomy and the organization homes', () => {
-  it('fails a structure and exposure that two category rules name, so two such assets cannot derive two categories', () => {
-    const { problems } = load({
-      ...baseTree(),
-      'reference/vocabularies/category-rules.json': [
-        { structure: 'stock-backed', exposure: 'public-equities', category: ['stocks-equities'] },
-        { structure: 'stock-backed', exposure: 'public-equities', category: ['rwa-perps'] },
-      ],
-    });
-
-    expect(errorsIn(problems)).toEqual([
-      expect.objectContaining({
-        error: 'DuplicateKeyError',
-        file: 'reference/vocabularies/category-rules.json',
-        message: expect.stringContaining('stock-backed:public-equities'),
-      }),
-    ]);
-  });
-
-  it('fails an asset whose structure and exposure no category rule names', () => {
-    const { problems } = load({ ...baseTree(), 'reference/vocabularies/category-rules.json': [] });
-
-    expect(errorsIn(problems)).toEqual([
-      expect.objectContaining({ error: 'CategoryRuleError', file: 'assets/xstocks/tslax.json' }),
-    ]);
-  });
-
   it('only warns on a flag override whose value is the derived one, since the override no longer says anything', () => {
     const withClass = (fields: Record<string, unknown>) => ({ ...tslax, class: { ...tslax.class, ...fields } });
     const stale = load({ ...baseTree(), 'assets/xstocks/tslax.json': withClass({ stablecoin: false, flagReason: 'kept' }) });
@@ -439,26 +413,25 @@ describe('the taxonomy and the organization homes', () => {
     ]);
   });
 
-  it('fails a second row for one chain and a deployment that names a chain by its alias', () => {
+  it('fails a deployment on a chain key the sdk does not know, naming the key, and accepts a DefiLlama key the registry never saw', () => {
     const head = registryOf({
       ...baseTree(),
-      'reference/chains/avax.json': { slug: 'avax', label: 'Avalanche', aliases: ['avalanche'], addressFamily: 'evm' },
-      'reference/chains/avalanche.json': { slug: 'avalanche', label: 'Avalanche', addressFamily: 'evm' },
-      'reference/chains/gnosis-chain.json': { slug: 'gnosis-chain', label: 'Gnosis Chain', aliases: ['xdai'], addressFamily: 'evm' },
       'assets/xstocks/tslax.json': {
         ...tslax,
-        deployments: [...tslax.deployments, { chain: 'xdai', address: `0x${'2'.repeat(40)}`, deployedAt: '2025-06-30' }],
+        deployments: [
+          ...tslax.deployments,
+          { chain: 'gnosis-chain', address: `0x${'2'.repeat(40)}`, deployedAt: '2025-06-30' },
+          { chain: 'xdai', address: `0x${'3'.repeat(40)}`, deployedAt: '2025-06-30' },
+        ],
       },
     });
-    const found = checkRegistry(head, null)
-      .filter((problem) => ['ChainAliasError', 'DanglingReferenceError'].includes(problem.error))
-      .map((problem) => [problem.error, problem.file, problem.path]);
 
-    expect(found).toEqual([
-      ['DanglingReferenceError', 'assets/xstocks/tslax.json', 'deployments[2].chain'],
-      ['ChainAliasError', 'reference/chains/avalanche.json', 'slug'],
-      ['ChainAliasError', 'reference/chains/avax.json', 'label'],
-      ['ChainAliasError', 'assets/xstocks/tslax.json', 'deployments[2].chain'],
+    expect(checkRegistry(head, null)).toEqual([
+      expect.objectContaining({
+        error: 'DanglingReferenceError',
+        path: 'deployments[2].chain',
+        message: 'chain names chain gnosis-chain, which is not a DefiLlama chain',
+      }),
     ]);
   });
 });

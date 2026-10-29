@@ -1,6 +1,6 @@
 # Model
 
-The registry holds 14 tables in six layers, defined in `src/schema/`. A table points only at lower layers, and a pointer into its own table (organization `parent`, venue `parent`, asset `wraps`, deployment `bridgedFrom`) may not loop.
+The registry holds 12 tables in six layers, defined in `src/schema/`. A table points only at lower layers, and a pointer into its own table (organization `parent`, venue `parent`, asset `wraps`, deployment `bridgedFrom`) may not loop.
 The registry holds static facts only; supply, price, holders, DeFi use, open interest, volume and funding are computed on the server (`server.md`).
 A file groups its fields in named blocks (`registry.md`), and the loader flattens each file into one row, so `registry.json` and the server use the field names below, never the block names.
 
@@ -8,15 +8,13 @@ A file groups its fields in named blocks (`registry.md`), and the loader flatten
 
 | Layer | Table           | Key                                | Points at                                                          | One row is                                                         |
 | ----- | --------------- | ---------------------------------- | ------------------------------------------------------------------ | ------------------------------------------------------------------ |
-| 0     | `chain`         | `slug`                             | nothing                                                            | one blockchain or ledger, with its address family                  |
 | 0     | `vocabulary`    | vocabulary name and `slug`         | nothing                                                            | one value of one closed list                                       |
-| 0     | `category_rule` | `structure:exposure`               | vocabularies                                                       | the categories of every asset of one structure and one exposure    |
-| 1     | `organization`  | `slug`                             | a parent organization, chains                                      | one firm or brand of one kind: platform, issuer, oracle and others |
+| 1     | `organization`  | `slug`                             | a parent organization                                              | one firm or brand of one kind: platform, issuer, oracle and others |
 | 1     | `underlying`    | `slug`                             | vocabularies                                                       | one economic exposure, such as Tesla stock, gold or the US dollar  |
 | 2     | `instrument`    | `slug`                             | vocabularies                                                       | one legal product above one or more assets, such as a fund         |
-| 2     | `venue`         | `slug`                             | its organization, a parent venue, a chain                          | one exchange, perp protocol or HIP-3 dex                           |
+| 2     | `venue`         | `slug`                             | its organization, a parent venue                                   | one exchange, perp protocol or HIP-3 dex                           |
 | 3     | `asset`         | `slug`                             | its platform, underlying, instrument, the asset it wraps           | one fungible token class across all its chains                     |
-| 4     | `deployment`    | `chain:address`                    | its asset, its chain, the deployment it was bridged from           | one asset at one address on one chain                              |
+| 4     | `deployment`    | `chain:address`                    | its asset, the deployment it was bridged from                      | one asset at one address on one chain                              |
 | 4     | `perp_market`   | `venue:symbol`                     | its venue, the underlying or asset it tracks, its collateral asset | one perps market on one venue                                      |
 | 4     | `role`          | organization, kind, target, `from` | an organization and a target row                                   | one organization in one role on one row, for a period              |
 | 5     | `event`         | target, kind, `date`               | a target row and an optional successor                             | one dated change to one row                                        |
@@ -30,19 +28,20 @@ A file groups its fields in named blocks (`registry.md`), and the loader flatten
 - `legacyId` on an asset or market is the RWA ID, and `legacyPid` on an organization is the PID. Both keep today's links and saved charts working, so neither may change. `add asset` gives a new asset one above the highest legacy id and never below 9718; a new market or organization gets none.
 - An identifier (ISIN, FIGI or LEI) has `scheme`, `value`, `source` and `verified`. `verified` is true only when someone read the value at its source, so a verified identifier names that source. `validate` warns on each unverified identifier and fails one on a row that is new against `--base`.
 - An asset's `llamaAttestationProof` is its proof link, or `false` where none is held. Its `registryInfo` is its own registry text, which the server publishes before its issuer's. Oracle proof URLs sit as `sourceLinks` on its oracle roles.
-- A chain row is keyed by the sdk's chain key (avax, xdai, hyperliquid), with its other spellings in `aliases`; `sdkKey` is the name the server passes to the sdk.
+- A chain is a DefiLlama chain key, the key `@defillama/sdk` knows (ethereum, avax, plume_mainnet, ripple), on a deployment, a venue and a platform's `chains`; the registry holds no chain table, nobody adds a chain here, and `validate` fails a key the sdk does not know. The address family of a key comes from the sdk's chain modules (`src/registry/chains.ts`).
 
 ## Taxonomy
 
 The taxonomy has three layers, each on one row.
 
-| Layer     | Sits on                      | Values from | Example                                                             |
-| --------- | ---------------------------- | ----------- | ------------------------------------------------------------------- |
-| Exposure  | the underlying               | asset-group | `tesla-inc` is public-equities, `us-dollar` is fiat-currencies      |
-| Structure | the asset, or the market     | asset-class | stock-backed, synthetic-stock, mmf, t-bills; stock-perp on a market |
-| Category  | no file; the build writes it | category    | the site's shelf, stocks-equities                                   |
+| Layer     | Sits on                  | Values from | Example                                                             |
+| --------- | ------------------------ | ----------- | ------------------------------------------------------------------- |
+| Exposure  | the underlying           | asset-group | `tesla-inc` is public-equities, `us-dollar` is fiat-currencies      |
+| Structure | the asset, or the market | asset-class | stock-backed, synthetic-stock, mmf, t-bills; stock-perp on a market |
+| Category  | the asset                | category    | the site's shelves, stocks-equities, first the main one             |
 
-`reference/vocabularies/category-rules.json` holds one rule per structure and exposure pair, such as `{ "structure": "stock-backed", "exposure": "public-equities", "category": ["stocks-equities"] }`, and the build writes the rule's categories on every asset of that pair. An asset whose pair has no rule fails `validate`, so add the rule first with `add rule`.
+An asset names its categories itself, in `class.category`: a list of slugs of `reference/vocabularies/category.json`, the closed list of the site's shelves, first the main one. `add asset` takes them with `--category`, and `validate` fails an asset with none.
+Each asset-group value names a `class`, and an underlying sits in `reference/underlyings/<class>/` for the class of its exposure, so the class is never chosen by hand; `validate` fails a file in any other folder.
 An underlying's `aliases` hold the other spellings of its name, for people. They are never matched against a venue symbol.
 
 ## Organizations
@@ -79,7 +78,6 @@ An ending event ends its target from its date. The server reads no asset that is
 
 | Field                      | On                                 | Derived from                                                                                                                                                                                                                  |
 | -------------------------- | ---------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `category`                 | asset                              | its category rule                                                                                                                                                                                                             |
 | `primaryChain`             | asset                              | the chain of the deployment marked `primary`, else its platform's primary chain                                                                                                                                               |
 | `issuerProtocolIds`        | asset                              | the `protocolIds` of its issuer roles, else the asset's own `protocolIds`                                                                                                                                                     |
 | `stablecoin`, `governance` | asset                              | the `impliesStablecoin` and `impliesGovernance` flags of its category, structure and RWA classification; an override in its `class` block with a `flagReason` wins, and `validate` warns once the rule derives the same value |

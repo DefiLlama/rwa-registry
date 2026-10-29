@@ -1,0 +1,78 @@
+[
+  {
+    "slug": "bond-mmf-funds",
+    "label": "Bond & MMF Funds"
+  },
+  {
+    "slug": "carbon-environment",
+    "label": "Carbon & Environment"
+  },
+  {
+    "slug": "crypto-funds",
+    "label": "Crypto Funds"
+  },
+  {
+    "slug": "etfs",
+    "label": "ETFs"
+  },
+  {
+    "slug": "fiat-stablecoins",
+    "label": "Fiat Stablecoins",
+    "impliesStablecoin": true
+  },
+  {
+    "slug": "fx",
+    "label": "FX"
+  },
+  {
+    "slug": "gold-commodities",
+    "label": "Gold & Commodities"
+  },
+  {
+    "slug": "governance-tokens",
+    "label": "Governance Tokens",
+    "impliesGovernance": true
+  },
+  {
+    "slug": "non-rwa-stablecoins",
+    "label": "Non-RWA Stablecoins",
+    "impliesStablecoin": true
+  },
+  {
+    "slug": "other-rwas",
+    "label": "Other RWAs"
+  },
+  {
+    "slug": "perp-dex",
+    "label": "Perp DEX"
+  },
+  {
+    "slug": "private-credit",
+    "label": "Private Credit"
+  },
+  {
+    "slug": "real-estate",
+    "label": "Real Estate"
+  },
+  {
+    "slug": "rwa-perps",
+    "label": "RWA Perps"
+  },
+  {
+    "slug": "rwa-stablecoins",
+    "label": "RWA Stablecoins",
+    "impliesStablecoin": true
+  },
+  {
+    "slug": "rwa-wrappers",
+    "label": "RWA Wrappers"
+  },
+  {
+    "slug": "stocks-equities",
+    "label": "Stocks & Equities"
+  },
+  {
+    "slug": "tokenization-platform",
+    "label": "Tokenization Platform"
+  }
+]

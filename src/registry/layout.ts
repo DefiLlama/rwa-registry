@@ -7,7 +7,6 @@ import type { TableName } from '../schema';
 export const REGISTRY_DIR = 'registry';
 // The acks sit beside registry/ at the repository root, so a path names them from the registry folder.
 export const ACKS_DIR = '../acks';
-export const CATEGORY_RULES_FILE = 'reference/vocabularies/category-rules.json';
 
 type FileRow = Record<string, unknown>;
 export type FileTable = Exclude<TableName, 'deployment' | 'role' | 'event' | 'address_label'>;
@@ -38,10 +37,8 @@ const organizationFile = (row: FileRow): string =>
       ? venueOperatorFile(String(row.venue))
       : `reference/organizations/${row.kind}/${row.slug}.json`;
 
-// The order is the match order: the rules before the vocabularies, platform.json before an asset file, venue.json and organization.json before a market file.
+// The order is the match order: platform.json before an asset file, venue.json and organization.json before a market file.
 const LAYOUT: Home[] = [
-  { pattern: /^reference\/chains\/[^/]+\.json$/, table: 'chain', file: (row) => `reference/chains/${row.slug}.json` },
-  { pattern: /^reference\/vocabularies\/category-rules\.json$/, table: 'category_rule', many: true, file: () => CATEGORY_RULES_FILE },
   {
     pattern: /^reference\/vocabularies\/([^/]+)\.json$/,
     table: 'vocabulary',

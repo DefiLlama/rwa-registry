@@ -5,7 +5,7 @@
 import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { writeAtomic } from '../cli/writeAtomic';
-import { chainIdOf, loadRegistry } from '../registry';
+import { familyOf, loadRegistry } from '../registry';
 import { homeOf } from '../registry/layout';
 import { placeOf, type Place } from '../registry/place';
 import { inSchemaOrder, type Registry } from '../schema';
@@ -75,7 +75,6 @@ const deploymentWork = (
 ): Work<DateQuery>[] => {
   const platformOf = new Map(registry.asset.map((asset) => [asset.slug, asset.platform]));
   const legacyIdOf = new Map(registry.asset.map((asset) => [asset.slug, asset.legacyId]));
-  const chains = new Map(registry.chain.map((chain) => [chain.slug, chain]));
   // How many of an asset's deployments sit on one chain, dated or not, since the history source reads one leg per chain.
   const onChain = new Map<string, number>();
   for (const row of registry.deployment)
@@ -86,11 +85,10 @@ const deploymentWork = (
         !row.deployedAt &&
         (!platform || platformOf.get(row.asset) === platform) &&
         (!only || row.chain === only) &&
-        chains.has(row.chain),
+        familyOf(row.chain) !== null,
     )
     .map((row) => {
-      const chain = chains.get(row.chain)!;
-      const query = { chain: chain.slug, chainId: chainIdOf(chain), family: chain.addressFamily, address: row.address };
+      const query = { chain: row.chain, chainId: row.chain, family: familyOf(row.chain)!, address: row.address };
       const legacyId = legacyIdOf.get(row.asset);
       const asset =
         legacyId === undefined

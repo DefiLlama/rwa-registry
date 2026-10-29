@@ -35,8 +35,6 @@ export class UndatedEventError extends RegistryError {}
 export class MissingReasonError extends RegistryError {}
 export class UnderlyingClassError extends RegistryError {}
 export class UnverifiedIdentifierError extends RegistryError {}
-export class CategoryRuleError extends RegistryError {}
 export class OrganizationKindError extends RegistryError {}
 export class PrimaryDeploymentError extends RegistryError {}
 export class StaleFlagOverrideError extends RegistryError {}
-export class ChainAliasError extends RegistryError {}

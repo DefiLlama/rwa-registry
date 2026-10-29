@@ -11,6 +11,5 @@ export { keyOf, marketId } from './keys';
 export { ACKS_DIR, homeFile, marketFile, platformFile, REGISTRY_DIR } from './layout';
 export { fileOf } from './place';
 export { moveReferences, moveReferencesBy } from './moveReferences';
-export { chainIdOf, nameKey } from './chainNames';
-export { BURN_ADDRESSES } from './addressFamilies';
+export { familyOf } from './chains';
 export type { Problem, Severity } from './problem';

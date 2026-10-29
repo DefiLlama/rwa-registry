@@ -1,6 +1,5 @@
 import { describe, expect, it, vi } from 'vitest';
 import { discoverAddress } from '../../src/discover/discoverAddress';
-import { baseTree, registryOf } from '../fixtures/tree';
 import { fakeDiscoverDeps } from '../fakes/discover';
 import { fakeRpc } from '../fakes/rpc';
 
@@ -19,7 +18,6 @@ describe('discoverAddress', () => {
       evmBlockTime: vi.fn(async () => 1751241600),
     });
     const facts = await discoverAddress(
-      registryOf(baseTree()),
       'ethereum:0x8AD3C73F833D3F9A523AB01476625F269AEB7CF0',
       fakeDiscoverDeps({ rpc }),
     );
@@ -37,9 +35,9 @@ describe('discoverAddress', () => {
     });
   });
 
-  it('refuses a chain the registry does not hold', async () => {
-    await expect(discoverAddress(registryOf(baseTree()), 'nochain:0x1', fakeDiscoverDeps())).rejects.toThrow(
-      'no chain nochain',
+  it('refuses a chain key the sdk does not know', async () => {
+    await expect(discoverAddress('nochain:0x1', fakeDiscoverDeps())).rejects.toThrow(
+      'nochain is not a DefiLlama chain',
     );
   });
 
@@ -48,7 +46,7 @@ describe('discoverAddress', () => {
     const rpc = fakeRpc({
       solanaSignatures: vi.fn(async () => [{ signature: 'sig0', slot: 5, blockTime: 1751328000 }]),
     });
-    const facts = await discoverAddress(registryOf(baseTree()), 'solana:XsDoVfqeBukxuZHWhdvWHBhgEHjGNst4MLodqsJHzoB', {
+    const facts = await discoverAddress('solana:XsDoVfqeBukxuZHWhdvWHBhgEHjGNst4MLodqsJHzoB', {
       ...fakeDiscoverDeps({ rpc }),
       log,
     });

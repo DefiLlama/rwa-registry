@@ -5,8 +5,6 @@
 import type { Registry } from '../../schema';
 import type { Problem } from '../problem';
 import { addressFormats } from './addressFormats';
-import { categoryRules } from './categoryRules';
-import { chainAliases } from './chainAliases';
 import { cycles } from './cycles';
 import { datedDeployments } from './datedDeployments';
 import { dateOrder } from './dateOrder';
@@ -29,7 +27,6 @@ export type Check = (registry: Registry, base: Registry | null) => Problem[];
 
 export const checks: Check[] = [
   references,
-  chainAliases,
   cycles,
   datedDeployments,
   marketTracks,
@@ -39,7 +36,6 @@ export const checks: Check[] = [
   platformFolders,
   organizationKinds,
   underlyingClasses,
-  categoryRules,
   flagOverrides,
   primaryDeployments,
   fileNames,

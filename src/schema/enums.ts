@@ -5,9 +5,7 @@
 import { z } from 'zod';
 
 export const TABLE_NAMES = [
-  'chain',
   'vocabulary',
-  'category_rule',
   'organization',
   'underlying',
   'instrument',
@@ -36,7 +34,6 @@ export const VOCABULARY_NAMES = [
   'bridge-method',
   'value-model',
   'label-kind',
-  'underlying-class',
   'currency',
   'legal-form',
   'access-regime',
@@ -58,13 +55,16 @@ export const ADDRESS_FAMILIES = [
   'starknet',
   'cosmos',
   'icp',
-  'hedera',
   'algorand',
+  'utxo',
+  'substrate',
+  'near',
+  'tezos',
+  'cardano',
 ] as const;
 export type AddressFamily = (typeof ADDRESS_FAMILIES)[number];
 
 export const assetKind = z.enum(['claim', 'stablecoin', 'governance']);
-export const addressFamily = z.enum(ADDRESS_FAMILIES);
 export const sessionModel = z.enum(['24-5', '24-7', 'exchange-hours', 'futures-hours']);
 export const reviewOutcome = z.enum(['suspicious', 'cleared']);
 export const ackGuard = z.enum(['flows-hidden', 'asset-move']);

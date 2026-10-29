@@ -4,8 +4,7 @@
  */
 import { reasonOf } from '../errors/reasons';
 import { NoSuchRowError } from '../errors/cli';
-import { chainIdOf } from '../registry';
-import type { Registry } from '../schema';
+import { familyOf } from '../registry';
 import type { DateResult } from './dateResult';
 import type { DiscoverDeps } from './discoverDeps';
 import { readDates } from './readers';
@@ -48,27 +47,25 @@ const erc20Reads = async (chainId: string, family: string, address: string, deps
 const supplyOf = (raw: string | null, decimals: number | null) =>
   raw !== null && decimals !== null ? Number(raw) / 10 ** decimals : null;
 
-export const discoverAddress = async (registry: Registry, spec: string, deps: DiscoverDeps): Promise<AddressFacts> => {
+export const discoverAddress = async (spec: string, deps: DiscoverDeps): Promise<AddressFacts> => {
   const colon = spec.indexOf(':');
-  const slug = spec.slice(0, colon);
-  const chain = registry.chain.find((row) => row.slug === slug);
-  if (colon < 1 || !chain)
+  const chain = spec.slice(0, colon);
+  const family = familyOf(chain);
+  if (colon < 1 || !family)
     throw new NoSuchRowError({
       file: spec,
-      message: `no chain ${slug || spec} in the registry; write <chain>:<address>`,
+      message: `${chain || spec} is not a DefiLlama chain; write <chain>:<address>`,
     });
   const raw = spec.slice(colon + 1);
-  const address = chain.addressFamily === 'evm' ? raw.toLowerCase() : raw;
-  const chainId = chainIdOf(chain);
-  const family = chain.addressFamily;
+  const address = family === 'evm' ? raw.toLowerCase() : raw;
   const [[symbol, name, decimalsRaw, supplyRaw], [date]] = await Promise.all([
-    erc20Reads(chainId, family, address, deps),
-    readDates([{ chain: chain.slug, chainId, family, address }], deps),
+    erc20Reads(chain, family, address, deps),
+    readDates([{ chain, chainId: chain, family, address }], deps),
   ]);
   const decimals = decimalsRaw === null ? null : Number(decimalsRaw);
   const { date: deployedAt, ...dated } = date;
   return {
-    chain: chain.slug,
+    chain,
     address,
     symbol,
     name,

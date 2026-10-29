@@ -1,5 +1,5 @@
 /**
- * deriveFields: the fields the build writes at a build date: an asset's categories from its rule, its primary chain and issuer protocol ids, kind and flags (an override in its class block wins), status from events, the market id and live chains.
+ * deriveFields: the fields the build writes at a build date: an asset's primary chain and issuer protocol ids, kind and flags (an override in its class block wins), status from events, the market id and live chains.
  * @dev review: src/registry/keys.ts
  */
 import { EVENT_KINDS, type Registry, type Row, type TableName } from '../schema';
@@ -45,19 +45,11 @@ export const flagRule = (vocabulary: FlagRow[]) => {
   };
 };
 
-// The category rule of the asset's structure and its underlying's exposure; categoryRules fails an asset with none.
-const categoriesOf = (registry: Registry) => {
-  const rules = new Map(registry.category_rule.map((rule) => [`${rule.structure}:${rule.exposure}`, rule.category]));
-  const exposures = new Map(registry.underlying.map((row) => [row.slug, row.exposure]));
-  return (asset: Row<'asset'>) => rules.get(`${asset.structure}:${exposures.get(asset.underlying)}`) ?? [];
-};
-
-// The flags the asset's rule category, structure and classification imply, before any override.
+// The flags the asset's categories, structure and classification imply, before any override.
 export const derivedFlagsOf = (registry: Registry) => {
   const rule = flagRule(registry.vocabulary);
-  const categoryOf = categoriesOf(registry);
   return (asset: Row<'asset'>): Flags =>
-    rule({ category: categoryOf(asset), structures: [asset.structure], rwaClassification: asset.rwaClassification });
+    rule({ category: asset.category, structures: [asset.structure], rwaClassification: asset.rwaClassification });
 };
 
 // The chain of the primary deployment, else the platform's primary chain; primaryDeployments fails an asset with neither.
@@ -81,7 +73,6 @@ export const deriveFields = (registry: Registry, at: string): Registry => {
   const eventsOf = (table: TableName, row: object) => events.get(targetKey({ table, key: keyOf(table, row) })) ?? [];
   const ended = endedRows(registry, at);
   const flagsOf = derivedFlagsOf(registry);
-  const categoryOf = categoriesOf(registry);
   const primaryChainOf = primaryChainsOf(registry);
   const issuerProtocolIdsOf = protocolIdsOf(registry);
   const chains = new Map<string, string[]>();
@@ -93,7 +84,6 @@ export const deriveFields = (registry: Registry, at: string): Registry => {
   return {
     ...registry,
     asset: registry.asset.map((row) => {
-      const category = categoryOf(row);
       const derived = flagsOf(row);
       const stablecoin = row.stablecoinOverride ?? derived.stablecoin;
       const governance = row.governanceOverride ?? derived.governance;
@@ -101,7 +91,6 @@ export const deriveFields = (registry: Registry, at: string): Registry => {
       const status = statusOf(eventsOf('asset', row), at);
       return {
         ...row,
-        category,
         primaryChain: primaryChainOf(row),
         issuerProtocolIds: issuerProtocolIdsOf(row),
         kind,

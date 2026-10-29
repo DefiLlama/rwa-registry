@@ -72,7 +72,6 @@ describe('add venue', () => {
         identity: { slug: 'hibachi', name: 'Hibachi' },
         platform: { primaryChain: 'arbitrum' },
       },
-      'reference/chains/arbitrum.json': { slug: 'arbitrum', label: 'Arbitrum', addressFamily: 'evm' },
     });
     const byFlags = writeTree(tree());
     const byFile = writeTree(tree());
@@ -86,10 +85,7 @@ describe('add venue', () => {
   });
 
   it('writes the operator a template carries beside the venue when the registry has no organization of its slug', async () => {
-    const root = writeTree({
-      ...baseTree(),
-      'reference/chains/arbitrum.json': { slug: 'arbitrum', label: 'Arbitrum', addressFamily: 'evm' },
-    });
+    const root = writeTree(baseTree());
     const operator = { slug: 'hibachi', name: 'Hibachi', links: { website: ['https://hibachi.xyz'] } };
 
     const { code } = await runCli([

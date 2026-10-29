@@ -1,0 +1,23 @@
+[
+  {
+    "slug": "non-rwa-gov-utility",
+    "label": "Non-RWA (Gov/Utility)",
+    "impliesGovernance": true
+  },
+  {
+    "slug": "non-rwa-platform",
+    "label": "Non-RWA (Platform)"
+  },
+  {
+    "slug": "programmable-finance",
+    "label": "Programmable Finance"
+  },
+  {
+    "slug": "rwa",
+    "label": "RWA"
+  },
+  {
+    "slug": "true-rwa",
+    "label": "True RWA"
+  }
+]

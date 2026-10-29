@@ -1,0 +1,314 @@
+[
+  {
+    "slug": "active-vault",
+    "label": "Active Vault"
+  },
+  {
+    "slug": "algo-stable",
+    "label": "Algo Stable"
+  },
+  {
+    "slug": "blockchain-native-equity",
+    "label": "Blockchain-Native Equity"
+  },
+  {
+    "slug": "bond-perp",
+    "label": "Bond Perp"
+  },
+  {
+    "slug": "carbon-credit",
+    "label": "Carbon Credit"
+  },
+  {
+    "slug": "carbon-reserve",
+    "label": "Carbon Reserve"
+  },
+  {
+    "slug": "collectibles",
+    "label": "Collectibles"
+  },
+  {
+    "slug": "collectibles-venue",
+    "label": "Collectibles Venue"
+  },
+  {
+    "slug": "commodity-backed",
+    "label": "Commodity Backed"
+  },
+  {
+    "slug": "commodity-basket",
+    "label": "Commodity Basket"
+  },
+  {
+    "slug": "commodity-perp",
+    "label": "Commodity Perp"
+  },
+  {
+    "slug": "corp-bond-fund",
+    "label": "Corp Bond Fund"
+  },
+  {
+    "slug": "credit-pool",
+    "label": "Credit Pool"
+  },
+  {
+    "slug": "crypto-hedge-fund",
+    "label": "Crypto Hedge Fund"
+  },
+  {
+    "slug": "crypto-index-fund",
+    "label": "Crypto Index Fund"
+  },
+  {
+    "slug": "crypto-index-perp",
+    "label": "Crypto Index Perp"
+  },
+  {
+    "slug": "crypto-perp",
+    "label": "Crypto Perp"
+  },
+  {
+    "slug": "crypto-stable",
+    "label": "Crypto Stable"
+  },
+  {
+    "slug": "domain-venue",
+    "label": "Domain Venue"
+  },
+  {
+    "slug": "equity-basket",
+    "label": "Equity Basket"
+  },
+  {
+    "slug": "equity-etf",
+    "label": "Equity ETF"
+  },
+  {
+    "slug": "equity-index-perp",
+    "label": "Equity Index Perp"
+  },
+  {
+    "slug": "equity-perp",
+    "label": "Equity Perp"
+  },
+  {
+    "slug": "etf-backed",
+    "label": "ETF Backed"
+  },
+  {
+    "slug": "etf-perp",
+    "label": "ETF Perp"
+  },
+  {
+    "slug": "eur-stable",
+    "label": "EUR Stable"
+  },
+  {
+    "slug": "forex-perps",
+    "label": "Forex Perps"
+  },
+  {
+    "slug": "gold",
+    "label": "Gold"
+  },
+  {
+    "slug": "governance-token",
+    "label": "Governance Token"
+  },
+  {
+    "slug": "lending-venue",
+    "label": "Lending Venue"
+  },
+  {
+    "slug": "leveraged-rwa-vault",
+    "label": "Leveraged RWA Vault"
+  },
+  {
+    "slug": "mixed-rwa-fund",
+    "label": "Mixed RWA Fund"
+  },
+  {
+    "slug": "mmf",
+    "label": "MMF"
+  },
+  {
+    "slug": "multi-asset-rwa-stable",
+    "label": "Multi-Asset RWA Stable"
+  },
+  {
+    "slug": "other-commodity",
+    "label": "Other Commodity"
+  },
+  {
+    "slug": "other-credit",
+    "label": "Other Credit"
+  },
+  {
+    "slug": "other-exotic",
+    "label": "Other Exotic"
+  },
+  {
+    "slug": "other-fiat-stable",
+    "label": "Other Fiat Stable"
+  },
+  {
+    "slug": "palladium",
+    "label": "Palladium"
+  },
+  {
+    "slug": "pe-perp",
+    "label": "PE Perp"
+  },
+  {
+    "slug": "pe-venture",
+    "label": "PE / Venture"
+  },
+  {
+    "slug": "perp-dex",
+    "label": "Perp DEX"
+  },
+  {
+    "slug": "perp-venue",
+    "label": "Perp Venue"
+  },
+  {
+    "slug": "platinum",
+    "label": "Platinum"
+  },
+  {
+    "slug": "private-equity-tokens",
+    "label": "Private Equity Tokens"
+  },
+  {
+    "slug": "re-credit",
+    "label": "RE Credit"
+  },
+  {
+    "slug": "real-estate-perp",
+    "label": "Real Estate Perp"
+  },
+  {
+    "slug": "reinsurance-pool",
+    "label": "Reinsurance Pool"
+  },
+  {
+    "slug": "reit",
+    "label": "REIT"
+  },
+  {
+    "slug": "revenue-share",
+    "label": "Revenue Share"
+  },
+  {
+    "slug": "rwa-basket-vault",
+    "label": "RWA Basket Vault"
+  },
+  {
+    "slug": "rwa-fiat-stable",
+    "label": "RWA Fiat Stable"
+  },
+  {
+    "slug": "rwa-vaults",
+    "label": "RWA Vaults"
+  },
+  {
+    "slug": "silver",
+    "label": "Silver"
+  },
+  {
+    "slug": "single-asset-wrapper",
+    "label": "Single Asset Wrapper"
+  },
+  {
+    "slug": "single-property",
+    "label": "Single Property"
+  },
+  {
+    "slug": "sovereign-bond-fund",
+    "label": "Sovereign Bond Fund"
+  },
+  {
+    "slug": "stable-yield-wrapper",
+    "label": "Stable Yield Wrapper"
+  },
+  {
+    "slug": "stock-backed",
+    "label": "Stock Backed"
+  },
+  {
+    "slug": "stock-perp",
+    "label": "Stock Perp"
+  },
+  {
+    "slug": "structured-credit",
+    "label": "Structured Credit"
+  },
+  {
+    "slug": "structured-note",
+    "label": "Structured Note"
+  },
+  {
+    "slug": "synthetic-etf",
+    "label": "Synthetic ETF"
+  },
+  {
+    "slug": "synthetic-stable",
+    "label": "Synthetic Stable"
+  },
+  {
+    "slug": "synthetic-stock",
+    "label": "Synthetic Stock"
+  },
+  {
+    "slug": "t-bills",
+    "label": "T-Bills"
+  },
+  {
+    "slug": "tokenization-platform",
+    "label": "Tokenization Platform"
+  },
+  {
+    "slug": "tokenized-bond-funds",
+    "label": "Tokenized Bond Funds"
+  },
+  {
+    "slug": "tokenized-bonds",
+    "label": "Tokenized Bonds"
+  },
+  {
+    "slug": "tokenized-funds",
+    "label": "Tokenized Funds"
+  },
+  {
+    "slug": "tokenized-stocks",
+    "label": "Tokenized Stocks"
+  },
+  {
+    "slug": "tokenized-treasuries",
+    "label": "Tokenized Treasuries"
+  },
+  {
+    "slug": "trade-finance",
+    "label": "Trade Finance"
+  },
+  {
+    "slug": "uranium",
+    "label": "Uranium"
+  },
+  {
+    "slug": "usd-stable",
+    "label": "USD Stable"
+  },
+  {
+    "slug": "yield-fiat-stable",
+    "label": "Yield Fiat Stable"
+  },
+  {
+    "slug": "yield-pool",
+    "label": "Yield Pool"
+  },
+  {
+    "slug": "yield-rwa-stable",
+    "label": "Yield RWA Stable"
+  }
+]

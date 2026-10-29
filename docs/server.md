@@ -11,8 +11,8 @@ The DefiLlama server reads the registry and computes every number from it: suppl
 
 ## What registry.json holds
 
-The file is one line of JSON with sorted keys and no timestamp: `{ "commit", "tables", "version" }`. `version` is 1, `commit` is the `--commit` value, and `tables` holds every table's rows by table name, the 14 tables of `model.md`.
-Each row is flat: a row has `structure`, not `class.structure`, and a nested deployment, role, event or address label is a row of its own table. The build fills the derived fields `model.md` lists, so the server reads `category`, `primaryChain`, `issuerProtocolIds`, `kind`, `stablecoin`, `governance`, `status`, `chains` and a market's `id` as they are.
+The file is one line of JSON with sorted keys and no timestamp: `{ "commit", "tables", "version" }`. `version` is 1, `commit` is the `--commit` value, and `tables` holds every table's rows by table name, the 12 tables of `model.md`.
+Each row is flat: a row has `structure`, not `class.structure`, and a nested deployment, role, event or address label is a row of its own table. The build fills the derived fields `model.md` lists, so the server reads `primaryChain`, `issuerProtocolIds`, `kind`, `stablecoin`, `governance`, `status`, `chains` and a market's `id` as they are.
 
 ## The reader
 
@@ -23,15 +23,16 @@ Each row is flat: a row has `structure`, not `class.structure`, and a nested dep
 | The writer     | Asset rows as the published metadata rows, with each platform's fields beside them. `assetClass` is the label of the asset's `structure` as a one-item list, `assetGroup` the label of its underlying's `exposure`, `activeMcapData` comes from `activeAumReviewed`. |
 | The cron       | Platform rows by `legacyPid`, and the acks for the flows-hidden ids. Not an organization's kind.                                                                                                                                                                     |
 | The perps cron | The listed markets of each published venue, with the venue's type. A market's `assetClass` is the label of its `structure`, its `referenceAssetGroup` the exposure of the underlying it tracks, or of the tracked asset's underlying.                                |
-| The guards     | The asset-move acks, the retired ids, each asset's first `deployedAt`, the stablecoin and governance flags, each chain's burn addresses.                                                                                                                             |
+| The guards     | The asset-move acks, the retired ids, each asset's first `deployedAt`, the stablecoin and governance flags.                                                                                                                                                          |
 
-The server never reads the `category_rule` table; it reads the categories the build wrote on each asset. A field the reader maps is a published field, so rename or remove one on the server first.
+The server reads `category` on the asset row, the list the asset carries in its `class` block, first the main one. A field the reader maps is a published field, so rename or remove one on the server first.
+A chain is published as its DefiLlama chain key only; the server labels a chain and keeps the burn addresses per address family in its own code.
 
 ## What an adapter reads
 
 An adapter is server code under `rwa/adapters/`. From the registry's side it is the rows it reads and one field that names it.
 
-- A supply, price, exclusion or TVL reader claims rows by chain family. It reads a deployment's chain, address and `deployedAt`, the address labels in force as excluded holders, the chain's burn addresses, and an asset's CoinGecko id and canonical market id.
+- A supply, price, exclusion or TVL reader claims rows by chain family. It reads a deployment's chain, address and `deployedAt`, the address labels in force as excluded holders, and an asset's CoinGecko id and canonical market id.
 - A platform has no adapter of its own; its assets are read by the readers of their chains.
 - A venue's `adapter` field names the server's venue adapter that reads it. A HIP-3 dex with no `adapter` is read by its parent's. `validate` fails a published venue that names none, but it cannot see the server's list, so a wrong id shows up on the server as that venue's markets under `unclaimed` in the run report.
 - A venue adapter reads only markets that have a file. It matches a market by its symbol and `aliases`, and takes the venue's `deployerFeeShare` and fees.

@@ -24,6 +24,7 @@ const asset = (root: string, without: string[] = []) => {
     '--type': ['asset'],
     '--structure': ['stock-backed'],
     '--rwa-classification': ['true-rwa'],
+    '--category': ['stocks-equities'],
     '--issuer': ['backed-assets-je-limited'],
     '--deployment': ['solana:Xsc9qvGR1efVDFGLrVsmkzv3qi45LTBjeUKSPmx9qEh:2025-06-30'],
   };
@@ -107,18 +108,19 @@ describe('the add flow', () => {
 
     const { code, lines } = await runCli([
       'add',
-      'chain',
+      'underlying',
       '--registry',
       root,
       '--name',
-      'Solana',
-      '--family',
-      'solana',
+      'Tesla, Inc.',
+      '--exposure',
+      'public-equities',
     ]);
+    const path = 'reference/underlyings/equity/tesla-inc.json';
 
     expect(code).toBe(1);
-    expect(lines).toEqual([expect.stringMatching(new RegExp(`^${join(root, 'reference/chains/solana.json')}: `))]);
-    expect(readJson(root, 'reference/chains/solana.json')).toEqual(baseTree()['reference/chains/solana.json']);
+    expect(lines).toEqual([expect.stringMatching(new RegExp(`^${join(root, path)}: `))]);
+    expect(readJson(root, path)).toEqual(baseTree()[path]);
   });
 
   it('refuses a path a flag would put outside the registry', async () => {
@@ -173,8 +175,8 @@ const REFUSALS: [string, (root: string) => string[], string][] = [
   ],
   [
     'a template file that cannot be read',
-    () => ['add', 'chain', '--from', '/nonexistent/chain.json'],
-    '/nonexistent/chain.json: cannot read the template: ',
+    () => ['add', 'underlying', '--from', '/nonexistent/underlying.json'],
+    '/nonexistent/underlying.json: cannot read the template: ',
   ],
   [
     'a table flag given beside --from',
