@@ -1,7 +1,7 @@
 /**
  * solana: a mint's creation time from Solscan's token meta when SOLSCAN_API_KEY is set, one call per mint; otherwise the day of the mint's oldest signature, paged with the before cursor on the Alchemy node when the key is set and on the public nodes otherwise.
  * A mint that holds a cursor from an earlier run, or outruns this run's pages, first asks the oldest signature of its Metaplex metadata account, which sees only its creation and a few updates;
- * a Token-2022 mint that keeps its metadata inside the mint has no such account and goes on. A mint with a cursor then asks the history source before walking on; a mint still capped answers page-cap with the cursor the next run resumes from.
+ * a Token-2022 mint that keeps its metadata inside the mint has no such account and goes on. A mint with a cursor then asks the history source before walking on; a mint still capped answers page-cap with its cursor.
  * @dev review: src/clients/rpc/creation.ts, src/discover/readers/alchemy.ts, src/discover/discoverDates.ts
  */
 import type { Signature } from '../../clients/rpc/creation';

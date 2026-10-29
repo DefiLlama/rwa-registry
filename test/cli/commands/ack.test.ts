@@ -1,5 +1,3 @@
-import { readFileSync } from 'node:fs';
-import { dirname, join } from 'node:path';
 import { describe, expect, it } from 'vitest';
 import { baseTree, writeTree } from '../../fixtures/tree';
 import { readJson, runCli } from '../runCli';
@@ -19,12 +17,10 @@ const ack = (root: string) => [
   'mint spike on solana',
   '--resolve',
   'drop when the solana supply settles',
-  '--source',
-  'https://solscan.io/x',
 ];
 
 describe('ack', () => {
-  it('writes ../acks/<asset>-flows.json beside the registry in the ack shape and its source rows in the patch csv', async () => {
+  it('writes ../acks/<asset>-flows.json beside the registry in the ack shape', async () => {
     const root = writeTree(baseTree());
 
     const { code } = await runCli(ack(root));
@@ -39,11 +35,6 @@ describe('ack', () => {
       reason: 'mint spike on solana',
       resolve: 'drop when the solana supply settles',
     });
-    const fetchedAt = new Date().toISOString().slice(0, 10);
-    const patch = join(dirname(root), 'patches', `${fetchedAt}.csv`);
-    expect(readFileSync(patch, 'utf8')).toContain(
-      `../acks/tslax-flows.json,asset,,tslax,https://solscan.io/x,${fetchedAt},cli ack,\n`,
-    );
   });
 
   it('writes an open-ended ack with until null when --until is left out, and validate finds nothing new', async () => {

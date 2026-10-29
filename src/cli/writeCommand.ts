@@ -3,7 +3,7 @@
  * @dev review: src/cli/checkStaged.ts, then src/cli/addCommand.ts
  */
 import { existsSync, readFileSync } from 'node:fs';
-import { dirname, join, relative } from 'node:path';
+import { join, relative } from 'node:path';
 import { CliError, FlagFormatError, MissingFieldError, NoSuchRowError, RowExistsError } from '../errors/cli';
 import { ACKS_DIR, loadRegistry } from '../registry';
 import type { Registry } from '../schema';
@@ -11,10 +11,10 @@ import { dayOf } from '../utils/days';
 import { isObject } from '../utils/isObject';
 import { jsonText } from '../utils/writeFile';
 import { askInTerminal, type Ask, type Choice } from './ask';
+import { changeLine, changes } from './changes';
 import { checkStaged, type StagedFile } from './checkStaged';
 import { commaList } from './commaList';
 import type { CliCommand } from './index';
-import { appendPatchRows, changeRows, patchRows, type Change, type PatchRow, type PatchSource } from './patchRows';
 import { REGISTRY_FLAG, registryOf } from './registryFlag';
 import { writeAtomic } from './writeAtomic';
 
@@ -30,16 +30,15 @@ export interface Field {
   fallback?: () => FlagValue;
 }
 
-// replaces: the file may exist and is meant to change; remove: the file is deleted; log: its changes become patch rows;
-// logChanges: the rows to log in place of a diff, for a value the file's folder holds, such as an organization's kind.
+// replaces: the file may exist and is meant to change; remove: the file is deleted;
+// allows: the error kinds the file may bring, by error name, such as an undated deployment under --no-discover.
 export interface FileToWrite {
   path: string;
   content?: unknown;
   replaces?: boolean;
   remove?: boolean;
   conflict?: string;
-  log?: PatchSource;
-  logChanges?: Change[];
+  allows?: string[];
 }
 
 export interface WriteContext {
@@ -48,8 +47,6 @@ export interface WriteContext {
   read: (path: string) => unknown;
   // A line for the person running it, printed before the files, or kept in the JSON under --json.
   note: (line: string) => void;
-  // A row handed over in code, by migrate or apply, in place of the flags; only a command with fromInput takes one.
-  input?: unknown;
 }
 
 export interface WriteSpec {
@@ -58,25 +55,7 @@ export interface WriteSpec {
   arguments?: string;
   fields: Field[];
   files: (values: FlagValues, registry: Registry, context: WriteContext) => FileToWrite[] | Promise<FileToWrite[]>;
-  fromInput?: (input: unknown, registry: Registry, context: WriteContext) => FileToWrite[] | Promise<FileToWrite[]>;
 }
-
-// A command that writes registry files, and plan, the files it would write for its flags or an input with every refusal
-// of its own thrown as a CliError, so a caller in code runs the registry checks and the write itself.
-export interface WriteCommand extends CliCommand {
-  plan: (
-    options: FlagValues & { args?: string[] },
-    registry: Registry,
-    context: Omit<WriteContext, 'args'>,
-  ) => Promise<FileToWrite[]>;
-}
-
-export const PATCHES_FIELD: Field = {
-  flag: '--patches <dir>',
-  description: 'the folder of patch csv files the source rows go to, patches/ beside the registry by default',
-};
-
-const NO_SOURCE: PatchSource = { source: '', fetchedAt: '', agent: '' };
 
 const COMMON_FLAGS = [
   REGISTRY_FLAG,
@@ -115,28 +94,23 @@ const resolve = async (fields: Field[], options: FlagValues, registry: Registry,
   return { values, missing };
 };
 
-export const readerOf = (root: string) => (path: string) => {
+const readerOf = (root: string) => (path: string) => {
   const at = join(root, path);
   if (!existsSync(at)) throw new NoSuchRowError({ file: at, message: 'no such registry file' });
   return JSON.parse(readFileSync(at, 'utf8')) as unknown;
 };
 
-export type Staged = FileToWrite & StagedFile & { before: unknown };
+type Staged = FileToWrite & StagedFile & { before: unknown };
 
-// A file outside the registry, a removed file that is not there, or a new file that is: exists answers from disk, or
-// from the files a caller holds in memory.
-export const conflictsOf = (
-  root: string,
-  files: FileToWrite[],
-  existsIn = (path: string) => existsSync(join(root, path)),
-) =>
+// A file outside the registry, a removed file that is not there, or a new file that is.
+const conflictsOf = (root: string, files: FileToWrite[]) =>
   files.flatMap((file) => {
     const at = join(root, file.path);
     const inside = (dir: string) => !relative(dir, at).startsWith('..');
     if (!inside(root) && !inside(join(root, ACKS_DIR))) {
       return [new FlagFormatError({ file: at, message: 'is outside the registry; a slug flag holds no / or ..' })];
     }
-    const exists = existsIn(file.path);
+    const exists = existsSync(at);
     if (file.remove && !exists) return [new NoSuchRowError({ file: at, message: 'no such registry file' })];
     const message =
       file.conflict ?? (!file.replaces && !file.remove && exists ? 'already exists; edit the file instead' : null);
@@ -155,39 +129,14 @@ const withVerified = (content: unknown): unknown => {
 };
 
 // The planned files as they would be written: identifiers marked, the text, and the file they replace or remove.
-export const stagedOf = (
-  files: FileToWrite[],
-  exists: (path: string) => boolean,
-  read: (path: string) => unknown,
-): Staged[] =>
+const stagedOf = (files: FileToWrite[], exists: (path: string) => boolean, read: (path: string) => unknown): Staged[] =>
   files.map((file) => {
     const content = file.remove ? file.content : withVerified(file.content);
     const before = (file.replaces || file.remove) && exists(file.path) ? read(file.path) : undefined;
     return { ...file, content, text: file.remove ? '' : jsonText(content), before };
   });
 
-// The patch rows of one written file, by the source given.
-export const loggedRows = (file: FileToWrite & { before: unknown }, by: PatchSource): PatchRow[] =>
-  file.logChanges ? changeRows(file.path, file.logChanges, by) : patchRows(file.path, file.before, file.content, by);
-
-const rowsOf = (files: Staged[]): PatchRow[] => files.flatMap((file) => (file.log ? loggedRows(file, file.log) : []));
-
-// The flags resolved without a prompt, then the command's files for them, or for the input when one is given.
-const planOf =
-  (spec: WriteSpec): WriteCommand['plan'] =>
-  async (options, registry, context) => {
-    const full = { ...context, args: options.args ?? [] };
-    if (context.input !== undefined) {
-      if (!spec.fromInput) throw new FlagFormatError({ file: spec.name, message: 'takes no input row' });
-      return spec.fromInput(context.input, registry, full);
-    }
-    const { values, missing } = await resolve(spec.fields, options, registry, null);
-    if (missing.length) throw new MissingFieldError({ file: spec.name, message: `${missing.join(', ')} required` });
-    return spec.files(values, registry, full);
-  };
-
-export const defineWriteCommand = (spec: WriteSpec): WriteCommand => ({
-  plan: planOf(spec),
+export const defineWriteCommand = (spec: WriteSpec): CliCommand => ({
   name: spec.name,
   description: spec.description,
   arguments: spec.arguments,
@@ -219,22 +168,18 @@ export const defineWriteCommand = (spec: WriteSpec): WriteCommand => ({
     }
     const conflicts = conflictsOf(root, files);
     if (conflicts.length) return refuse(conflicts);
-    const problems = checkStaged(root, before, files);
+    const problems = checkStaged(root, before, files, { ignore: files.flatMap((file) => file.allows ?? []) });
     if (problems.length) return refuse(problems.map((problem) => ({ ...problem, file: join(root, problem.file) })));
 
     const dryRun = options.dryRun === true;
-    const patches = rowsOf(files);
-    const patchDir = typeof options.patches === 'string' ? options.patches : join(dirname(root), 'patches');
     if (!dryRun) writeAtomic(root, files);
-    const patchFile = !dryRun && patches.length ? appendPatchRows(patchDir, patches) : null;
     if (options.json === true) {
       const written = files.map((file) => ({
         path: join(root, file.path),
         content: file.remove ? null : file.content,
         ...(file.remove ? { removed: true } : {}),
       }));
-      const logged = patches.length ? { patches, patchFile } : {};
-      print(JSON.stringify({ dryRun, files: written, ...logged, ...(notes.length ? { notes } : {}) }, null, 2));
+      print(JSON.stringify({ dryRun, files: written, ...(notes.length ? { notes } : {}) }, null, 2));
       return 0;
     }
     for (const file of files) {
@@ -243,12 +188,10 @@ export const defineWriteCommand = (spec: WriteSpec): WriteCommand => ({
       if (!dryRun || file.remove) continue;
       if (!file.replaces) print(file.text.trimEnd());
       else
-        for (const row of patchRows(file.path, file.before, file.content, NO_SOURCE))
-          print(`  ${row.path}: ${row.old || '(none)'} -> ${row.new || '(none)'}`);
+        changes(file.before ?? {}, file.content)
+          .map(changeLine)
+          .forEach(print);
     }
-    if (patchFile) print(`appended ${patches.length} source rows to ${patchFile}`);
-    else if (patches.length)
-      print(`would append ${patches.length} source rows to ${join(patchDir, `${patches[0]!.fetchedAt}.csv`)}`);
     return 0;
   },
 });

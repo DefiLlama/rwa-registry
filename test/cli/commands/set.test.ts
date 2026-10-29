@@ -1,25 +1,20 @@
-import { existsSync, readFileSync, writeFileSync } from 'node:fs';
+import { existsSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { describe, expect, it } from 'vitest';
 import { baseTree, tslaxWith, writeTree } from '../../fixtures/tree';
 import { readJson, runCli } from '../runCli';
 
 const TSLAX = 'assets/xstocks/tslax.json';
-const source = ['--source', 'https://assets.backed.fi/products/tesla-xstock'];
-const set = (root: string, ...rest: string[]) => runCli(['set', ...rest, '--registry', root, ...source]);
-const patchFile = (root: string) => join(dirname(root), 'patches', `${new Date().toISOString().slice(0, 10)}.csv`);
+const set = (root: string, ...rest: string[]) => runCli(['set', ...rest, '--registry', root]);
 
 describe('set', () => {
-  it('writes a number parsed through the schema and its source row in the patch csv', async () => {
+  it('writes a number parsed through the schema', async () => {
     const root = writeTree({ ...baseTree(), [TSLAX]: tslaxWith({ minimumInvestment: 5000 }) });
 
-    const { code } = await set(root, TSLAX, 'terms.minimumInvestment', '1000', '--reason', 'new terms');
+    const { code } = await set(root, TSLAX, 'terms.minimumInvestment', '1000');
 
     expect(code).toBe(0);
     expect(readJson(root, TSLAX).terms.minimumInvestment).toBe(1000);
-    expect(readFileSync(patchFile(root), 'utf8').split('\n')[1]).toBe(
-      `${TSLAX},terms.minimumInvestment,5000,1000,https://assets.backed.fi/products/tesla-xstock; new terms,${new Date().toISOString().slice(0, 10)},cli set,`,
-    );
   });
 
   it('refuses a value that is not of the field type', async () => {
@@ -44,16 +39,13 @@ describe('set', () => {
     expect(path.split('.').reduce((at, key) => at[key], readJson(root, TSLAX))).toEqual(value);
   });
 
-  it('sets a nested field by its path and records that path', async () => {
+  it('sets a nested field by its path', async () => {
     const root = writeTree(baseTree());
 
     const { code } = await set(root, TSLAX, 'deployments[0].deployedAt', '2025-06-29');
 
     expect(code).toBe(0);
     expect(readJson(root, TSLAX).deployments[0].deployedAt).toBe('2025-06-29');
-    expect(readFileSync(patchFile(root), 'utf8')).toMatch(
-      /^assets\/xstocks\/tslax\.json,deployments\[0\]\.deployedAt,/m,
-    );
   });
 
   it('refuses a field the table does not have, and names the block of a field given without it', async () => {
@@ -67,7 +59,7 @@ describe('set', () => {
     expect(bare.lines.join('\n')).toMatch(/redeemable is at terms\.redeemable in an asset file/);
   });
 
-  it('--file replaces the whole file through the same checks, one source row per changed value', async () => {
+  it('--file replaces the whole file through the same checks', async () => {
     const root = writeTree(baseTree());
     const next = join(dirname(root), 'tslax.json');
     const before = readJson(root, TSLAX);
@@ -87,7 +79,6 @@ describe('set', () => {
       identity: { name: 'Tesla xStock (TSLAx)' },
       terms: { cexListed: false },
     });
-    expect(readFileSync(patchFile(root), 'utf8').trim().split('\n')).toHaveLength(3);
   });
 
   it('adds a category rule as the next item of the rules file', async () => {
@@ -128,7 +119,7 @@ describe('set', () => {
     ]);
   });
 
-  it('moves an organization to the folder of the kind it is set to, and logs the kind as one source row', async () => {
+  it('moves an organization to the folder of the kind it is set to', async () => {
     const root = writeTree(baseTree());
     const from = 'reference/organizations/issuer/backed-assets-je-limited.json';
     const file = readJson(root, from);
@@ -138,8 +129,5 @@ describe('set', () => {
     expect(code).toBe(0);
     expect(existsSync(join(root, from))).toBe(false);
     expect(readJson(root, 'reference/organizations/oracle/backed-assets-je-limited.json')).toEqual(file);
-    expect(readFileSync(patchFile(root), 'utf8').trim().split('\n').slice(1)).toEqual([
-      expect.stringMatching(/^reference\/organizations\/oracle\/backed-assets-je-limited\.json,kind,issuer,oracle,/),
-    ]);
   });
 });

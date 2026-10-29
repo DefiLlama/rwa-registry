@@ -1,20 +1,23 @@
-import { existsSync, mkdtempSync, readFileSync } from 'node:fs';
-import { tmpdir } from 'node:os';
+import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { describe, expect, it, vi } from 'vitest';
-import { discoverDates } from '../../src/discover/discoverDates';
-import { readPatches } from '../../src/utils/patchCsv';
-import { RateLimitedError } from '../../src/errors';
-import { assetFile, baseTree, registryOf, undatedTslax } from '../fixtures/tree';
 import type { HttpRequest } from '../../src/clients/http';
-import { evmNode } from './readers/jsonRpc';
-import { answering, discoverConfig, fakeDiscoverDeps } from '../fakes/discover';
+import { discoverDates } from '../../src/discover/discoverDates';
 import type { DiscoverDeps } from '../../src/discover/discoverDeps';
+import { RateLimitedError } from '../../src/errors';
+import { answering, discoverConfig, fakeDiscoverDeps } from '../fakes/discover';
 import { fakeRpc } from '../fakes/rpc';
+import { assetFile, baseTree, undatedTslax, writeTree, type Tree } from '../fixtures/tree';
+import { evmNode } from './readers/jsonRpc';
 
-const undated = () => registryOf({ ...baseTree(), 'assets/xstocks/tslax.json': undatedTslax() });
+const TSLAX = 'assets/xstocks/tslax.json';
+const MARKET = 'perps/xyz/tsla.json';
 
-const outFile = () => join(mkdtempSync(join(tmpdir(), 'rwa-discover-')), 'dates.csv');
+const undated = () => writeTree({ ...baseTree(), [TSLAX]: undatedTslax() });
+
+const fileAt = (root: string, path: string) => JSON.parse(readFileSync(join(root, path), 'utf8'));
+const datesOf = (root: string, path: string): (string | null)[] =>
+  fileAt(root, path).deployments.map(({ deployedAt }: { deployedAt: string | null }) => deployedAt);
 
 const chainRpc = () =>
   fakeRpc({
@@ -25,25 +28,23 @@ const chainRpc = () =>
   });
 
 describe('discoverDates', () => {
-  it("writes one deployedAt patch row per undated deployment, with its source and today's fetchedAt", async () => {
-    const out = outFile();
-    await discoverDates(undated(), { out, platform: 'xstocks' }, fakeDiscoverDeps({ rpc: chainRpc() }));
+  it('sets deployedAt in the asset file of every undated deployment it dates, with the source and basis in the summary', async () => {
+    const root = undated();
 
-    expect(readPatches(out)).toEqual([
-      expect.objectContaining({
-        file: 'assets/xstocks/tslax.json',
-        path: 'deployments[0].deployedAt',
-        old: '',
-        new: '2025-07-01',
-        source: 'https://explorer.solana.com/tx/sig0',
-        fetchedAt: '2026-10-25',
-      }),
-      expect.objectContaining({ path: 'deployments[1].deployedAt', new: '2025-06-30' }),
-    ]);
+    const summary = await discoverDates(root, { platform: 'xstocks' }, fakeDiscoverDeps({ rpc: chainRpc() }));
+
+    expect(datesOf(root, TSLAX)).toEqual(['2025-07-01', '2025-06-30']);
+    expect(summary.dated).toContainEqual({
+      file: TSLAX,
+      path: 'deployments[0].deployedAt',
+      date: '2025-07-01',
+      source: 'https://explorer.solana.com/tx/sig0',
+      basis: 'first-signature',
+    });
   });
 
-  it('writes the first stored day for a deployment no reader dates, and none for two that share a chain leg', async () => {
-    const tree: Record<string, unknown> = { ...baseTree() };
+  it('sets the first stored day for a deployment no reader dates, and none for two that share a chain leg', async () => {
+    const tree: Tree = { ...baseTree() };
     tree['reference/chains/hedera.json'] = { slug: 'hedera', label: 'Hedera', addressFamily: 'hedera' };
     tree['reference/chains/algorand.json'] = { slug: 'algorand', label: 'Algorand', addressFamily: 'algorand' };
     tree['assets/xstocks/hist.json'] = assetFile('hist', 950, {
@@ -53,54 +54,55 @@ describe('discoverDates', () => {
         { chain: 'algorand', address: 'ALGO2', deployedAt: '2024-01-01' },
       ],
     });
-    const out = outFile();
+    const root = writeTree(tree);
     const http = answering(() => [
       { timestamp: 1714521600, chains: { hedera: { totalSupply: 2 }, algorand: { totalSupply: 2 } } },
     ]);
     const deps = fakeDiscoverDeps({ http }, discoverConfig({ PRO_API_KEY: 'prokey' }));
-    const summary = await discoverDates(registryOf(tree), { out, platform: 'xstocks' }, deps);
 
-    expect(readPatches(out)).toEqual([
+    const summary = await discoverDates(root, { platform: 'xstocks' }, deps);
+
+    expect(datesOf(root, 'assets/xstocks/hist.json')).toEqual(['2024-05-01', null, '2024-01-01']);
+    expect(summary.dated).toEqual([
       expect.objectContaining({
-        file: 'assets/xstocks/hist.json',
         path: 'deployments[0].deployedAt',
-        new: '2024-05-01',
         source: 'https://pro-api.llama.fi/<key>/rwa/chart/asset/950',
-        agent: 'discover dates (first-stored-day)',
+        basis: 'first-stored-day',
       }),
     ]);
     expect(summary.lanes.algorand).toMatchObject({ asked: 1, found: 0, nulls: { 'no-reader': 1 } });
   });
 
-  it('skips the rows the patch file holds, so a rerun asks only for the rest', async () => {
-    const out = outFile();
+  it('asks only the deployments still undated on a rerun, and nothing once every one has its date', async () => {
+    const root = undated();
     const rpc = chainRpc();
-    await discoverDates(undated(), { out, platform: 'xstocks', limit: 1 }, fakeDiscoverDeps({ rpc }));
-    await discoverDates(undated(), { out, platform: 'xstocks' }, fakeDiscoverDeps({ rpc }));
 
-    expect(readPatches(out).map(({ path }) => path)).toEqual([
-      'deployments[0].deployedAt',
-      'deployments[1].deployedAt',
-    ]);
+    await discoverDates(root, { platform: 'xstocks', limit: 1 }, fakeDiscoverDeps({ rpc }));
+    const second = await discoverDates(root, { platform: 'xstocks' }, fakeDiscoverDeps({ rpc }));
+    const third = await discoverDates(root, { platform: 'xstocks' }, fakeDiscoverDeps({ rpc }));
+
+    expect(datesOf(root, TSLAX)).toEqual(['2025-07-01', '2025-06-30']);
+    expect([second.asked, third.asked]).toEqual([1, 0]);
     expect(vi.mocked(rpc.solanaSignatures)).toHaveBeenCalledTimes(1);
   });
 
-  it('leaves a rate-limited read out of the file as null with its reason, so a resume asks again', async () => {
-    const out = outFile();
+  it('leaves a rate-limited deployment undated with its reason, so the next run asks it again', async () => {
+    const root = undated();
     const rpc = fakeRpc({
       evmHead: vi.fn(async () =>
         Promise.reject(new RateLimitedError({ source: 'rpc', reason: 'rate-limited', message: '429' })),
       ),
       solanaSignatures: vi.fn(async () => [{ signature: 'sig0', slot: 5, blockTime: 1751328000 }]),
     });
-    const summary = await discoverDates(undated(), { out, platform: 'xstocks' }, fakeDiscoverDeps({ rpc }));
 
-    expect(readPatches(out).map(({ path }) => path)).toEqual(['deployments[0].deployedAt']);
-    expect(summary.nulls).toEqual({ 'rate-limited': { count: 1, fate: 'asked again', detail: 'rpc: 429' } });
+    const summary = await discoverDates(root, { platform: 'xstocks' }, fakeDiscoverDeps({ rpc }));
+
+    expect(datesOf(root, TSLAX)).toEqual(['2025-07-01', null]);
+    expect(summary.nulls).toEqual({ 'rate-limited': { count: 1, detail: 'rpc: 429' } });
   });
 
-  it('writes a capped Solana read as a cursor row, and the next run resumes from that cursor', async () => {
-    const out = outFile();
+  it('reports a capped Solana read as page-cap, leaves the mint undated, and the next run walks it from the head', async () => {
+    const root = undated();
     const discover = discoverConfig();
     const solana = { ...discover.sources.solana, pageSize: 2, pagesPerRun: 2 };
     const capped = { ...discover, sources: { ...discover.sources, solana } };
@@ -114,18 +116,20 @@ describe('discoverDates', () => {
       return all.slice(start, start + limit);
     });
     const deps = () => fakeDiscoverDeps({ rpc: { ...chainRpc(), solanaSignatures } }, capped);
-    await discoverDates(undated(), { out, platform: 'xstocks' }, deps());
-    await discoverDates(undated(), { out, platform: 'xstocks' }, deps());
 
-    const rows = readPatches(out).filter(({ path }) => path === 'deployments[0].deployedAt');
-    expect(rows.map(({ new: value, agent }) => [value, agent])).toEqual([
-      ['unknown', 'discover dates (resume before sig2)'],
-      ['2025-06-27', 'discover dates (first-signature)'],
+    const first = await discoverDates(root, { platform: 'xstocks' }, deps());
+    const second = await discoverDates(root, { platform: 'xstocks' }, deps());
+
+    expect(datesOf(root, TSLAX)[0]).toBeNull();
+    expect([first.nulls, second.nulls]).toEqual([
+      { 'page-cap': { count: 1, detail: expect.stringContaining('over 4 signatures this run') } },
+      { 'page-cap': { count: 1, detail: expect.stringContaining('over 4 signatures this run') } },
     ]);
+    expect(solanaSignatures.mock.calls.map(([call]) => call.before)).toEqual([null, 'sig1', null, 'sig1']);
   });
 
-  it("writes a fast chain's rows while a slow chain is still reading, since each chain is its own lane", async () => {
-    const out = outFile();
+  it("sets a fast chain's dates while a slow chain is still reading, since each chain is its own lane", async () => {
+    const root = undated();
     let release = () => {};
     const gate = new Promise<void>((resolve) => (release = resolve));
     const solanaSignatures = vi.fn(async () => {
@@ -133,26 +137,21 @@ describe('discoverDates', () => {
       return [{ signature: 'sig0', slot: 5, blockTime: 1751328000 }];
     });
     const run = discoverDates(
-      undated(),
-      { out, platform: 'xstocks' },
+      root,
+      { platform: 'xstocks' },
       fakeDiscoverDeps({ rpc: { ...chainRpc(), solanaSignatures } }),
     );
 
-    await vi.waitFor(() =>
-      expect(existsSync(out) && readPatches(out).map(({ path }) => path)).toEqual(['deployments[1].deployedAt']),
-    );
+    await vi.waitFor(() => expect(datesOf(root, TSLAX)).toEqual([null, '2025-06-30']));
     release();
     await run;
-    expect(readPatches(out).map(({ path }) => path)).toEqual([
-      'deployments[1].deployedAt',
-      'deployments[0].deployedAt',
-    ]);
+    expect(datesOf(root, TSLAX)).toEqual(['2025-07-01', '2025-06-30']);
   });
 
   it("keeps the Alchemy EVM lanes moving while Solana's pages on the same key hang, with rate limits mixed in", async () => {
     // Three EVM chains on the Alchemy key and Solana, four deployments each, the way the full fill meets them.
     const ALCHEMY_CHAINS = ['bsc', 'base', 'ink'];
-    const tree: Record<string, unknown> = { ...baseTree() };
+    const tree: Tree = { ...baseTree() };
     for (const slug of ALCHEMY_CHAINS)
       tree[`reference/chains/${slug}.json`] = { slug, label: slug, addressFamily: 'evm' };
     const hex = (chain: number, index: number) => `0x${String(chain + 1).repeat(39)}${index}`;
@@ -164,7 +163,7 @@ describe('discoverDates', () => {
           ...ALCHEMY_CHAINS.map((chain, at) => ({ chain, address: hex(at, index), deployedAt: null })),
         ],
       });
-    const out = outFile();
+    const root = writeTree(tree);
     let release = () => {};
     const gate = new Promise<void>((resolve) => (release = resolve));
     const node = evmNode(37);
@@ -182,11 +181,16 @@ describe('discoverDates', () => {
       }) as DiscoverDeps['clients']['http']['json'],
     };
     const keyed = discoverConfig({ ALCHEMY_KEY: 'test-key' });
-    const run = discoverDates(registryOf(tree), { out, platform: 'xstocks' }, fakeDiscoverDeps({ http }, keyed));
+    const run = discoverDates(root, { platform: 'xstocks' }, fakeDiscoverDeps({ http }, keyed));
 
     await vi.waitFor(() => {
-      const chains = new Set(readPatches(out).map(({ source }) => source.split(' ')[1]));
-      expect(chains).toEqual(new Set(ALCHEMY_CHAINS));
+      for (let index = 0; index < 4; index++)
+        expect(datesOf(root, `assets/xstocks/many${index}.json`)).toEqual([
+          null,
+          expect.any(String),
+          expect.any(String),
+          expect.any(String),
+        ]);
     });
     release();
     const summary = await run;
@@ -195,11 +199,7 @@ describe('discoverDates', () => {
   });
 
   it('sums each chain and each source for the end of the run', async () => {
-    const summary = await discoverDates(
-      undated(),
-      { out: outFile(), platform: 'xstocks' },
-      fakeDiscoverDeps({ rpc: chainRpc() }),
-    );
+    const summary = await discoverDates(undated(), { platform: 'xstocks' }, fakeDiscoverDeps({ rpc: chainRpc() }));
 
     expect(summary.lanes).toEqual({
       solana: { asked: 1, found: 1, nulls: {}, seconds: expect.any(Number) },
@@ -209,20 +209,29 @@ describe('discoverDates', () => {
     expect(summary.sources.solana).toMatchObject({ calls: 1, failed: {} });
   });
 
-  it("adds a market's listing as an event row and writes nothing on --dry-run", async () => {
-    const out = outFile();
+  it("appends a market's listing as its next event, and a dry run names it without touching the file", async () => {
     const http = answering(() => ({ symbols: [{ symbol: 'TSLA', onboardDate: Date.parse('2025-07-01T08:00:00Z') }] }));
     const deps = fakeDiscoverDeps({ http });
     const xyz = baseTree()['perps/xyz/venue.json'] as object;
-    const onBinance = registryOf({ ...baseTree(), 'perps/xyz/venue.json': { ...xyz, adapter: 'binance' } });
-    const dry = await discoverDates(onBinance, { out, venue: 'xyz', dryRun: true }, deps);
-    const wroteDry = existsSync(out);
-    await discoverDates(onBinance, { out, venue: 'xyz' }, deps);
+    const root = writeTree({ ...baseTree(), 'perps/xyz/venue.json': { ...xyz, adapter: 'binance' } });
+    const before = readFileSync(join(root, MARKET), 'utf8');
 
-    expect([dry.rows.length, wroteDry]).toEqual([1, false]);
-    const [row] = readPatches(out);
-    expect(row).toMatchObject({ file: 'perps/xyz/tsla.json', path: 'events[0]', old: '' });
-    expect(JSON.parse(row.new)).toMatchObject({ kind: 'listing', date: '2025-07-01' });
-    expect(readFileSync(out, 'utf8').split('\n')[0]).toBe('file,path,old,new,source,fetchedAt,agent,verified');
+    const dry = await discoverDates(root, { venue: 'xyz', dryRun: true }, deps);
+    const untouched = readFileSync(join(root, MARKET), 'utf8');
+    await discoverDates(root, { venue: 'xyz' }, deps);
+
+    expect(dry.dated).toEqual([
+      {
+        file: MARKET,
+        path: 'events[0]',
+        date: '2025-07-01',
+        source: expect.stringContaining('binance'),
+        basis: 'listing-field',
+      },
+    ]);
+    expect(untouched).toBe(before);
+    expect(fileAt(root, MARKET).events).toEqual([
+      { kind: 'listing', date: '2025-07-01', links: [expect.stringContaining('binance')] },
+    ]);
   });
 });

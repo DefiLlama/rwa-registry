@@ -91,3 +91,14 @@ export const toFile = (table: TableName, row: Json): Json => {
   for (const child of children) if (row[child] !== undefined) file[child] = row[child];
   return file;
 };
+
+// A file in its schema's order, nested rows too, so a field set where the file had none sits where add puts it.
+export const inSchemaOrder = (table: TableName, json: unknown): unknown => {
+  if (!isObject(json)) return json;
+  const row = toRow(table, json);
+  for (const [key, child] of Object.entries(tables[table].children ?? {}) as [string, TableName][]) {
+    const items = row[key];
+    if (Array.isArray(items)) row[key] = items.map((item: unknown) => inSchemaOrder(child, item));
+  }
+  return toFile(table, row);
+};

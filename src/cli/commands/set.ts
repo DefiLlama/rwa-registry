@@ -1,5 +1,5 @@
 /**
- * set: one field of one registry file, the value parsed by its schema type, or the whole file with --file; every check runs on a copy and the source goes to the patch csv.
+ * set: one field of one registry file, the value parsed by its schema type, or the whole file with --file; every check runs on a copy.
  * An organization's kind and an underlying's class are its folder, so setting one moves the file to the new folder.
  * @dev review: src/cli/fieldValue.ts, src/cli/writeCommand.ts
  */
@@ -8,28 +8,15 @@ import { isAbsolute, relative, resolve } from 'node:path';
 import { FlagFormatError, NoSuchRowError } from '../../errors/cli';
 import { homeFile } from '../../registry';
 import { homeOf } from '../../registry/layout';
-import { tables, toFile, toRow, type TableName } from '../../schema';
+import { inSchemaOrder, toRow, type TableName } from '../../schema';
 import { setAt, stepsOf } from '../../utils/fieldPath';
-import { isObject } from '../../utils/isObject';
 import { parseFieldValue, parseJson } from '../fieldValue';
-import { defineWriteCommand, PATCHES_FIELD, today, type FileToWrite } from '../writeCommand';
-import type { PatchSource } from '../patchRows';
+import { defineWriteCommand, type FileToWrite } from '../writeCommand';
 
 // The file as given from the working directory or from the registry folder, always as its path inside the registry.
 const insideRoot = (root: string, file: string) => {
   const fromCwd = relative(resolve(root), resolve(file));
   return isAbsolute(file) || !fromCwd.startsWith('..') ? fromCwd : file;
-};
-
-// The file in its schema's order, nested rows too, so a field set where the file had none sits where add puts it.
-const inSchemaOrder = (table: TableName, json: unknown): unknown => {
-  if (!isObject(json)) return json;
-  const row = toRow(table, json);
-  for (const [key, child] of Object.entries(tables[table].children ?? {}) as [string, TableName][]) {
-    const items = row[key];
-    if (Array.isArray(items)) row[key] = items.map((item: unknown) => inSchemaOrder(child, item));
-  }
-  return toFile(table, row);
 };
 
 // The field a table's folder names, which set moves the file for rather than writes.
@@ -42,42 +29,36 @@ const moveFolder = (
   path: string,
   before: unknown,
   value: string,
-  log: PatchSource,
-) => {
+  note: (line: string) => void,
+): FileToWrite[] => {
   if (table === 'organization' && value === 'venue-operator')
     throw new FlagFormatError({ file: 'set', message: 'a venue operator is added with add venue, beside its venue' });
   const field = FOLDER_FIELDS[table]!;
   const current = homeOf(path)!.implied!;
   const next = homeFile(table, { [field]: value, slug: toRow(table, before as Record<string, unknown>).slug });
-  if (next === path) return [{ path, content: before, replaces: true, log }];
+  if (next === path) return [{ path, content: before, replaces: true }];
+  note(`${path}: ${field} ${current} -> ${value}, so the file moves to ${next}`);
   return [
-    { path: next, content: before, log, logChanges: [[field, current, value]] },
+    { path: next, content: before },
     { path, remove: true },
-  ] satisfies FileToWrite[];
+  ];
 };
 
 export const set = defineWriteCommand({
   name: 'set',
   description:
-    "set one field of one registry file, or replace the file with --file, with the source it came from; an organization's kind or an underlying's class moves its file",
+    "set one field of one registry file, or replace the file with --file; an organization's kind or an underlying's class moves its file",
   arguments: '<file> [field] [value]',
-  fields: [
-    { flag: '--source <url>', description: 'the page or API answer the value was read from', required: true },
-    { flag: '--reason <text>', description: 'why it changed, kept beside the source' },
-    { flag: '--file <json>', description: 'a JSON file that replaces the whole registry file' },
-    PATCHES_FIELD,
-  ],
-  files: (values, _registry, { args, root, read }) => {
+  fields: [{ flag: '--file <json>', description: 'a JSON file that replaces the whole registry file' }],
+  files: (values, _registry, { args, root, read, note }) => {
     const [given, field, text] = args;
     const path = insideRoot(root, given!);
     const home = homeOf(path);
     if (!home) throw new NoSuchRowError({ file: path, message: 'is not a registry file' });
     const before = read(path);
-    const source = values.reason ? `${values.source}; ${values.reason}` : String(values.source);
-    const log = { source, fetchedAt: today(), agent: 'cli set' };
     const table = home.table;
     if ((table === 'organization' || table === 'underlying') && field === FOLDER_FIELDS[table] && text !== undefined)
-      return moveFolder(table, path, before, text, log);
+      return moveFolder(table, path, before, text, note);
     let content: unknown;
     if (typeof values.file === 'string') {
       if (field !== undefined)
@@ -93,6 +74,6 @@ export const set = defineWriteCommand({
       }
       content = inSchemaOrder(home.table, setAt(before, stepsOf(field), parseFieldValue(home.table, field, text)));
     }
-    return [{ path, content, replaces: true, log }];
+    return [{ path, content, replaces: true }];
   },
 });

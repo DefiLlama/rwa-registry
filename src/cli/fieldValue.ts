@@ -5,7 +5,6 @@
 import { FlagFormatError } from '../errors/cli';
 import { compileSchemas } from '../schema/compileSchemas';
 import { fieldPath, tables, type TableName } from '../schema';
-import { UNKNOWN } from '../utils/patchCsv';
 import { stepsOf, type Step } from '../utils/fieldPath';
 import { commaList } from './commaList';
 interface Def {
@@ -17,6 +16,9 @@ interface Def {
 interface Schema {
   def: Def;
 }
+
+// The value set accepts for null.
+const UNKNOWN = 'unknown';
 
 export const parseJson = (text: string, file: string): unknown => {
   try {

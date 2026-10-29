@@ -14,15 +14,3 @@ export const DISCOVER_REASONS = [
   'needs-history-dump',
 ] as const;
 export type DiscoverReason = (typeof DISCOVER_REASONS)[number];
-
-// A later run may read these differently, so the patch file never holds them and a resume asks again.
-export const TRANSIENT: ReadonlySet<DiscoverReason> = new Set([
-  'rate-limited',
-  'timeout',
-  'code-search-timeout',
-  'http-error',
-  'bad-response',
-  'source-failed',
-  'read-failed',
-  'history-unreadable',
-]);

@@ -25,5 +25,5 @@ export type { Vocabularies } from './compileSchemas';
 export { CHILD_KEYS } from './defineTable';
 export type { ChildKey } from './defineTable';
 export { parseRow } from './parseRow';
-export { blockFields, blockNames, fieldPath, rowField, toFile, toRow } from './fileShape';
+export { blockFields, blockNames, fieldPath, inSchemaOrder, rowField, toFile, toRow } from './fileShape';
 export { exportJsonSchema } from './exportJsonSchema';

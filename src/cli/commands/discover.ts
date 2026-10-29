@@ -1,5 +1,5 @@
 /**
- * discover: ask the chains and the venues; `discover address <chain:address>` prints one address, `discover dates` writes the deployedAt and listing patch rows.
+ * discover: ask the chains and the venues; `discover address <chain:address>` prints one address, `discover dates` sets the deployment dates and listing events it finds in the registry files.
  * @dev review: src/discover/discoverDates.ts, src/discover/discoverAddress.ts
  */
 import type { Env } from '../../config/loadConfig';
@@ -47,20 +47,15 @@ const counts = (byReason: Partial<Record<string, number>>) =>
     .map(([reason, count]) => `${reason} ${count}`)
     .join(', ') || 'none';
 
-const dates: Action = async ({ registry: root, out, platform, chain, venue, limit, dryRun, json }, deps, print) => {
-  if (typeof out !== 'string') {
-    print('discover dates needs --out <file.csv>');
-    return 1;
-  }
+const dates: Action = async ({ registry: root, platform, chain, venue, limit, dryRun, json }, deps, print) => {
   const cap = typeof limit === 'string' ? Number(limit) : undefined;
   if (cap !== undefined && !(Number.isInteger(cap) && cap > 0)) {
     print(`discover dates: --limit ${String(limit)} is not a count`);
     return 1;
   }
   const summary = await discoverDates(
-    loadRegistry(registryOf(root)).registry,
+    registryOf(root),
     {
-      out,
       platform: typeof platform === 'string' ? platform : undefined,
       chain: typeof chain === 'string' ? chain : undefined,
       venue: typeof venue === 'string' ? venue : undefined,
@@ -73,11 +68,12 @@ const dates: Action = async ({ registry: root, out, platform, chain, venue, limi
     print(JSON.stringify(summary, null, 2));
     return 0;
   }
-  print(
-    `asked ${summary.asked}, dated ${summary.found}, rows ${dryRun ? 'not written' : 'written'} ${summary.rows.length}, held before ${summary.held}`,
-  );
-  for (const [reason, { count, fate, detail }] of Object.entries(summary.nulls))
-    print(`null ${reason} ${count}, ${fate}: ${detail ?? 'no detail'}`);
+  for (const { file, path, date, source, basis } of summary.dated)
+    print(`${dryRun ? 'would set' : 'set'} ${file} ${path} ${date} from ${source} (${basis})`);
+  const files = new Set(summary.dated.map(({ file }) => file)).size;
+  print(`asked ${summary.asked}, dated ${summary.dated.length}, files written ${dryRun ? '0 (dry run)' : files}`);
+  for (const [reason, { count, detail }] of Object.entries(summary.nulls))
+    print(`null ${reason} ${count}: ${detail ?? 'no detail'}`);
   for (const [name, { asked, found, nulls, seconds }] of Object.entries(summary.lanes))
     print(`lane ${name}: asked ${asked}, dated ${found}, nulls ${counts(nulls)}, ${seconds} s`);
   for (const [name, { calls, failed, seconds }] of Object.entries(summary.sources))
@@ -92,7 +88,7 @@ export const createDiscoverCommand = (deps: {
   deps?: (env: Env, log: CliDeps['print']) => DiscoverDeps;
 }): CliCommand => ({
   name: 'discover',
-  description: 'ask the chains and venues: one address, or the deployment and listing dates as a patch file',
+  description: 'ask the chains and venues: one address, or the deployment and listing dates, set in the registry files',
   arguments: '[action] [target]',
   help: 'Keys, each optional: ETHERSCAN_API_KEY, ALCHEMY_KEY, SOLSCAN_API_KEY, TONCENTER_API_KEY, PRO_API_KEY; without one the next source answers.',
   flags: [
@@ -101,9 +97,8 @@ export const createDiscoverCommand = (deps: {
     { spec: '--chain <slug>', description: 'dates: only the deployments on this chain' },
     { spec: '--venue <slug>', description: 'dates: only the markets of this venue' },
     { spec: '--limit <n>', description: 'dates: at most n rows asked this run' },
-    { spec: '--out <file>', description: 'dates: the patch csv to append to; the rows it holds are skipped' },
     { spec: '--json', description: 'print JSON' },
-    { spec: '--dry-run', description: 'dates: read and print, write nothing' },
+    { spec: '--dry-run', description: 'dates: read and print what would be set, write nothing' },
   ],
   run: async (options, { print }) => {
     const action = ACTIONS[options.args[0] ?? ''];

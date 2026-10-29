@@ -1,6 +1,3 @@
-import { mkdtempSync } from 'node:fs';
-import { tmpdir } from 'node:os';
-import { join } from 'node:path';
 import { describe, expect, it, vi } from 'vitest';
 import { main } from '../../../src/cli';
 import { createDiscoverCommand } from '../../../src/cli/commands/discover';
@@ -53,27 +50,24 @@ describe('discover command', () => {
     expect(missing).toEqual({ code: 1, lines: ['discover needs address <chain:address> or dates'] });
   });
 
-  it('refuses dates without --out, or with a --limit that is not a count', async () => {
-    const unnamed = await run(['dates'], { platform: 'xstocks' });
-    const uncounted = await run(['dates'], { platform: 'xstocks', out: 'dates.csv', limit: 'ten' });
+  it('refuses a --limit that is not a count', async () => {
+    const uncounted = await run(['dates'], { platform: 'xstocks', limit: 'ten' });
 
-    expect(unnamed).toEqual({ code: 1, lines: ['discover dates needs --out <file.csv>'] });
     expect(uncounted).toEqual({ code: 1, lines: ['discover dates: --limit ten is not a count'] });
   });
 
-  it('ends a dates run with one line per kind of null, with its count and its fate', async () => {
-    const out = join(mkdtempSync(join(tmpdir(), 'rwa-discover-cli-')), 'dates.csv');
+  it('ends a dates run with one line per kind of null, with its count and its detail', async () => {
     const timedOut = new TimeoutError({ source: 'rpc', reason: 'timeout', message: 'ethereum head: no answer' });
     const rpc = chain({ evmHead: vi.fn(async () => Promise.reject(timedOut)) });
     const { lines } = await run(
       ['dates'],
-      { platform: 'xstocks', out, registry: writeTree({ ...baseTree(), 'assets/xstocks/tslax.json': undatedTslax() }) },
+      { platform: 'xstocks', registry: writeTree({ ...baseTree(), 'assets/xstocks/tslax.json': undatedTslax() }) },
       rpc,
     );
 
     expect(lines.filter((line) => line.startsWith('null '))).toEqual([
-      expect.stringMatching(/^null not-found 1, written unknown/),
-      expect.stringMatching(/^null code-search-timeout 1, asked again/),
+      expect.stringMatching(/^null not-found 1: /),
+      expect.stringMatching(/^null code-search-timeout 1: /),
     ]);
   });
 });
