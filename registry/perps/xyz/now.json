@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "NOW",
+    "name": "trade[XYZ] ServiceNow Perp",
+    "legacyId": 4401
+  },
+  "tracks": {
+    "underlying": "servicenow-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "NOW-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual market on trade[XYZ] tracking ServiceNow, cash-settled.",
+    "refLinks": [
+      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
+    ]
+  }
+}

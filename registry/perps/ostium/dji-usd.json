@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "symbol": "DJI-USD",
+    "name": "Ostium Dow Jones Perp",
+    "legacyId": 3046
+  },
+  "tracks": {
+    "underlying": "dow-jones-industrial-average",
+    "structure": "equity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "DJI-USD",
+    "makerFeeBps": 3,
+    "takerFeeBps": 3
+  },
+  "about": {
+    "description": "Dow Jones Industrial Average perpetual on Ostium, cash-settled in USDC on Arbitrum.",
+    "refLinks": [
+      "https://app.ostium.com/trade?from=DJI&to=USD&ref=6X17X"
+    ]
+  }
+}

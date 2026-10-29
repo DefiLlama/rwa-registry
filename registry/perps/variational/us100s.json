@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "US100S",
+    "name": "Variational US 100 Swap",
+    "legacyId": 9140
+  },
+  "tracks": {
+    "underlying": "nasdaq-100-index",
+    "structure": "equity-index-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "US100S-USDC"
+  },
+  "about": {
+    "description": "Cash-settled swap on Variational Omni tracking the Nasdaq-100 Index, priced off Variational Omni's OLP-aggregated mid-quotes. Unlike the venue's perpetual markets this contract pays no periodic funding — the cost of carry is quoted into the bid/ask spread instead. Positions are margined and cash-settled in USDC on Arbitrum."
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "identity": {
+    "symbol": "INTC",
+    "name": "ApeX Omni Intel Perp",
+    "legacyId": 3767
+  },
+  "tracks": {
+    "underlying": "intel-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "INTC-USDC"
+  },
+  "about": {
+    "description": "Intel Corp (NASDAQ:INTC) stock perpetual on ApeX Omni, cash-settled in USDT.",
+    "refLinks": [
+      "https://omni.apex.exchange/referral?referralCode=T0S8V482"
+    ]
+  },
+  "events": [
+    {
+      "kind": "review",
+      "outcome": "suspicious",
+      "reason": null
+    }
+  ]
+}

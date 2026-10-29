@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "EWY",
+    "name": "Variational Omni iShares MSCI South Korea ETF Perp",
+    "legacyId": 4422
+  },
+  "tracks": {
+    "underlying": "ishares-msci-south-korea-etf",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "EWY-USDC"
+  },
+  "about": {
+    "description": "Perpetual market on Variational Omni tracking iShares MSCI South Korea ETF, cash-settled."
+  }
+}

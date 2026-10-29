@@ -1,0 +1,24 @@
+{
+  "identity": {
+    "symbol": "BB",
+    "name": "trade[XYZ] BlackBerry Perp",
+    "legacyId": 3925
+  },
+  "tracks": {
+    "underlying": "blackberry-limited",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "BB-USDC"
+  },
+  "sources": {
+    "oracleProvider": "Pyth equity feed"
+  },
+  "about": {
+    "description": "trade[XYZ] perpetual market tracking BlackBerry Limited (cybersecurity software (formerly mobile phones)). Verified live on platform UI 2026-05-26 via browser.",
+    "refLinks": [
+      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
+    ]
+  }
+}

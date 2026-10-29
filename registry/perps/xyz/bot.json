@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "BOT",
+    "name": "trade[XYZ] RoboStrategy Perp",
+    "legacyId": 4481
+  },
+  "tracks": {
+    "underlying": "robostrategy-inc",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "BOT-USDC"
+  },
+  "sources": {
+    "oracleProvider": "Pyth equity feed"
+  },
+  "about": {
+    "description": "Single-fund perpetual market on trade[XYZ] tracking RoboStrategy Inc. (Nasdaq BOT), the first publicly-traded closed-end fund focused on robotics and automation strategies. Users get linear exposure to BOT share-price moves without owning shares, voting rights, or dividend claims, cash-settled in USDC."
+  }
+}

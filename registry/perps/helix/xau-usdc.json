@@ -1,0 +1,24 @@
+{
+  "identity": {
+    "symbol": "XAU-USDC",
+    "legacyId": 3070
+  },
+  "tracks": {
+    "underlying": "gold",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "XAU-USDT"
+  },
+  "about": {
+    "description": "Gold perpetual on Helix (Injective), cash-settled in USDT."
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

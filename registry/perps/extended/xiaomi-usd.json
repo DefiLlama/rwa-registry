@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "XIAOMI-USD",
+    "name": "Extended Xiaomi Perp",
+    "legacyId": 9121
+  },
+  "tracks": {
+    "underlying": "xiaomi-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "XIAOMI-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual on Extended (formerly X10) tracking Xiaomi Corporation (HKEX: 1810), with pricing referencing Extended oracle. Users gain linear exposure to Xiaomi Corporation share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Starknet.",
+    "refLinks": [
+      "https://app.extended.exchange/join/DEFILLAMAO"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "HOOD-USD",
+    "name": "Arcus Robinhood Markets Perp",
+    "legacyId": 4524
+  },
+  "tracks": {
+    "underlying": "robinhood-markets-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdg",
+    "pair": "HOOD-USDG"
+  },
+  "about": {
+    "description": "Arcus perpetual market tracking Robinhood Markets, Inc. (NASDAQ: HOOD) with 24/7 exposure to the underlying brokerage / fintech stock. Total-return tracking (dividends, splits, and futures rolls passed through funding), cash-settled in USDG on the Arcus off-chain CLOB with permissioned appchain re-verification and EVM rootchain custody.",
+    "refLinks": [
+      "https://app.arcus.xyz/ref/DEFILLAMA"
+    ]
+  }
+}

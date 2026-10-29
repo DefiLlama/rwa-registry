@@ -1,0 +1,24 @@
+{
+  "identity": {
+    "symbol": "IBM",
+    "name": "Lighter IBM Perp",
+    "legacyId": 3953
+  },
+  "tracks": {
+    "underlying": "international-business-machines-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "IBM-USDC"
+  },
+  "sources": {
+    "oracleProvider": "Lighter fair price oracle"
+  },
+  "about": {
+    "description": "Single-stock perpetual market on Lighter (zkLighter / ZKSync) tracking International Business Machines Corp. Users get linear exposure to share-price moves without owning shares, shareholder rights, or dividend claims, cash-settled in USDC on Lighter.",
+    "refLinks": [
+      "https://app.lighter.xyz/trade/IBM?referral=FHT1N8AYKHP4"
+    ]
+  }
+}

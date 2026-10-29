@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "STXX-USD",
+    "name": "Extended Seagate Technology Holdings Perp",
+    "legacyId": 8632
+  },
+  "tracks": {
+    "underlying": "seagate-technology-holdings-plc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "STXX-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual on Extended (formerly X10) tracking Seagate Technology Holdings plc (STX), with pricing referencing Extended oracle. Users gain linear exposure to Seagate Technology Holdings plc share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Starknet.",
+    "refLinks": [
+      "https://app.extended.exchange/join/DEFILLAMAO"
+    ]
+  }
+}

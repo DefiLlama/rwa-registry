@@ -1,0 +1,31 @@
+{
+  "identity": {
+    "symbol": "H100",
+    "name": "Paragon NVIDIA H100 GPU Perp",
+    "legacyId": 3929
+  },
+  "tracks": {
+    "underlying": "nvidia-h100-hourly",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "H100-USDC"
+  },
+  "sources": {
+    "oracleProvider": "Squaretower / GPU rental rate index"
+  },
+  "about": {
+    "description": "NVIDIA H100 GPU hourly rental rate perpetual on Paragon. HIP-3 builder-deployed market on Hyperliquid in the para namespace. Tracks the GPU compute rate index, cash-settled in USDC. Mirrors the trade[XYZ] H100 product on a different builder code.",
+    "refLinks": [
+      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
+    ]
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

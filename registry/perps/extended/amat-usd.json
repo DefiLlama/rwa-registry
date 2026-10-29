@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "AMAT-USD",
+    "name": "Extended Applied Materials Perp",
+    "legacyId": 9107
+  },
+  "tracks": {
+    "underlying": "applied-materials-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "AMAT-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual on Extended (formerly X10) tracking Applied Materials, Inc. (AMAT), with pricing referencing Extended oracle. Users gain linear exposure to Applied Materials, Inc. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Starknet.",
+    "refLinks": [
+      "https://app.extended.exchange/join/DEFILLAMAO"
+    ]
+  }
+}

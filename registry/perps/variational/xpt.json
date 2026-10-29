@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "XPT",
+    "name": "Variational Omni Platinum Perp",
+    "legacyId": 4425
+  },
+  "tracks": {
+    "underlying": "platinum",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "XPT-USDC"
+  },
+  "about": {
+    "description": "Perpetual market on Variational Omni tracking Platinum, cash-settled."
+  }
+}

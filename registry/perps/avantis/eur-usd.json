@@ -1,0 +1,24 @@
+{
+  "identity": {
+    "symbol": "EUR-USD",
+    "legacyId": 3726
+  },
+  "tracks": {
+    "underlying": "euro",
+    "structure": "forex-perps"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "EUR-USDC"
+  },
+  "sources": {
+    "oracleProvider": "Pyth"
+  },
+  "about": {
+    "description": "Forex perpetual on Avantis (Base) referencing the Euro/USD exchange rate, cash-settled in USDC. Source: docs.avantisfi.com.",
+    "refLinks": [
+      "https://www.avantisfi.com/referral?code=DefiLlama"
+    ],
+    "website": "https://avantisfi.com/"
+  }
+}

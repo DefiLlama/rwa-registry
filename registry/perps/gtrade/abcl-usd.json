@@ -1,0 +1,25 @@
+{
+  "identity": {
+    "symbol": "ABCL-USD",
+    "name": "gTrade ABCL Perp",
+    "legacyId": 4564
+  },
+  "tracks": {
+    "underlying": "abcellera-biologics-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "ABCL-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual on Gains Network tracking AbCellera Biologics, Inc. Users get linear exposure to the underlying without owning shares. Cash-settled in USDC."
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

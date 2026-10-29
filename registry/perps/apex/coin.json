@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "COIN",
+    "name": "ApeX Omni Coinbase Perp",
+    "legacyId": 3760
+  },
+  "tracks": {
+    "underlying": "coinbase-global-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "COIN-USDC"
+  },
+  "about": {
+    "description": "Coinbase (NASDAQ:COIN) stock perpetual on ApeX Omni, cash-settled in USDT.",
+    "refLinks": [
+      "https://omni.apex.exchange/referral?referralCode=T0S8V482"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "identity": {
+    "symbol": "VT-USD",
+    "name": "Arcus Vanguard Total World Stock ETF Perp",
+    "legacyId": 4531
+  },
+  "tracks": {
+    "underlying": "vanguard-total-world",
+    "structure": "equity-index-perp"
+  },
+  "terms": {
+    "collateral": "usdg",
+    "pair": "VT-USDG"
+  },
+  "about": {
+    "description": "Arcus perpetual market tracking Vanguard Total World Stock ETF (NYSE Arca: VT) with 24/7 exposure to the underlying global equity ETF. Total-return tracking (dividends, splits, and futures rolls passed through funding), cash-settled in USDG on the Arcus off-chain CLOB with permissioned appchain re-verification and EVM rootchain custody.",
+    "refLinks": [
+      "https://app.arcus.xyz/ref/DEFILLAMA"
+    ]
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

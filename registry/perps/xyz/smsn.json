@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "SMSN",
+    "name": "trade[XYZ] Samsung Perp",
+    "legacyId": 3249
+  },
+  "tracks": {
+    "underlying": "samsung-electronics-co-ltd",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "SMSN-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual market tracking Samsung. Users get linear exposure to Samsung share-price moves without owning Samsung shares, shareholder rights, or dividend claims, cash-settled in USDC on trade[XYZ].",
+    "refLinks": [
+      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
+    ]
+  }
+}

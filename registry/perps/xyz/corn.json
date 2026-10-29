@@ -1,0 +1,31 @@
+{
+  "identity": {
+    "symbol": "CORN",
+    "name": "trade[XYZ] Corn Perp",
+    "legacyId": 3265
+  },
+  "tracks": {
+    "underlying": "teucrium-corn-fund",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "CORN-USDC"
+  },
+  "sources": {
+    "oracleProvider": "Pyth / futures-based external reference methodology"
+  },
+  "about": {
+    "description": "Corn perpetual market. The contract tracks Corn price using the venue's reference methodology. Users get linear commodity-price exposure only, without title to physical inventory or delivery rights, cash-settled in USDC on trade[XYZ].",
+    "refLinks": [
+      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
+    ]
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

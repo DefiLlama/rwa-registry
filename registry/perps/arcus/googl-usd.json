@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "GOOGL-USD",
+    "name": "Arcus Alphabet Perp",
+    "legacyId": 4520
+  },
+  "tracks": {
+    "underlying": "alphabet-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdg",
+    "pair": "GOOGL-USDG"
+  },
+  "about": {
+    "description": "Arcus perpetual market tracking Alphabet Inc. (Class A) (NASDAQ: GOOGL) with 24/7 exposure to the underlying mega-cap technology stock. Total-return tracking (dividends, splits, and futures rolls passed through funding), cash-settled in USDG on the Arcus off-chain CLOB with permissioned appchain re-verification and EVM rootchain custody.",
+    "refLinks": [
+      "https://app.arcus.xyz/ref/DEFILLAMA"
+    ]
+  }
+}

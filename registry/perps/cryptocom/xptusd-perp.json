@@ -1,0 +1,16 @@
+{
+  "identity": {
+    "symbol": "XPTUSD-PERP",
+    "legacyId": 5038
+  },
+  "tracks": {
+    "underlying": "platinum",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "pair": "XPT-USD"
+  },
+  "about": {
+    "description": "XPT is a commodity perpetual listed on Crypto.com and tracking Platinum. The contract is cash settled in USD and does not convey ownership or delivery of the underlying. Funding is exchanged every 1h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

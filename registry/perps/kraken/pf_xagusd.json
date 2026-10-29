@@ -1,0 +1,19 @@
+{
+  "identity": {
+    "symbol": "PF_XAGUSD",
+    "legacyId": 5066
+  },
+  "tracks": {
+    "underlying": "silver",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "pair": "XAG-USD"
+  },
+  "sources": {
+    "oracleProvider": "Pyth 24/7 index, via Kraken"
+  },
+  "about": {
+    "description": "XAG is a commodity perpetual listed on Kraken and tracking Silver. The contract is cash settled in USD and does not convey ownership or delivery of the underlying. Funding is exchanged every 1h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "identity": {
+    "symbol": "NCSKRIOT2USD-USDT",
+    "legacyId": 8691
+  },
+  "tracks": {
+    "underlying": "riot-platforms-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "RIOT-USDT"
+  },
+  "about": {
+    "description": "RIOT is a single-stock perpetual listed on BingX, tracking Riot Platforms, Inc., margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 4h. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

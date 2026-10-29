@@ -1,0 +1,20 @@
+{
+  "identity": {
+    "symbol": "XPT-USD",
+    "legacyId": 3131
+  },
+  "tracks": {
+    "underlying": "platinum",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "XPT-USD"
+  },
+  "about": {
+    "description": "Platinum perpetual on Extended on Starknet, cash-settled in USDC.",
+    "refLinks": [
+      "https://app.extended.exchange/join/DEFILLAMAO"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "NBIS",
+    "name": "Lighter Nebius Perp",
+    "legacyId": 4385
+  },
+  "tracks": {
+    "underlying": "nebius-group-n-v",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "NBIS-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual market on Lighter tracking Nebius, cash-settled.",
+    "refLinks": [
+      "https://app.lighter.xyz/trade/NBIS?referral=FHT1N8AYKHP4"
+    ]
+  }
+}

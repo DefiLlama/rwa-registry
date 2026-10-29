@@ -1,0 +1,28 @@
+{
+  "identity": {
+    "symbol": "IBOV",
+    "name": "trade[XYZ] Bovespa Index Perp",
+    "legacyId": 3837
+  },
+  "tracks": {
+    "underlying": "bovespa-index-ibov",
+    "structure": "equity-index-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "IBOV-USDC"
+  },
+  "about": {
+    "description": "Bovespa Index (IBOV) perpetual on trade[XYZ] (Hyperliquid HIP-3 xyz namespace). Tracks the Brazilian B3 Bovespa index, USDC-margined. HIP-3 builder-deployed market. Standard XYZ maker/taker fees and hourly funding.",
+    "refLinks": [
+      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
+    ]
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

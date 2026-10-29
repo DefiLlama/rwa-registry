@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "BABA-USD",
+    "name": "Avantis Alibaba Perp",
+    "legacyId": 4433
+  },
+  "tracks": {
+    "underlying": "alibaba-group-holding-limited",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "BABA-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual on Avantis (Base) tracking Alibaba Group Holding Ltd (NYSE: BABA), USDC-margined. References equity oracle. Distinct from Aster, trade[XYZ], Extended, and Lighter BABA perps.",
+    "refLinks": [
+      "https://www.avantisfi.com/referral?code=DefiLlama"
+    ]
+  }
+}

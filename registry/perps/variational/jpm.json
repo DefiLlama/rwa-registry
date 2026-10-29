@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "JPM",
+    "name": "Variational Omni JPMorgan Chase & Co. Perp",
+    "legacyId": 4595
+  },
+  "tracks": {
+    "underlying": "jpmorgan-chase-co",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "JPM-USDC"
+  },
+  "about": {
+    "description": "JPM is a single-stock perpetual on Variational tracking JPMorgan Chase & Co. JPMorgan Chase & Co. is a US multinational financial services company and the largest US bank by assets (NYSE: JPM). The market is cash-settled with hourly funding, no shareholder rights, and no dividend rights in the underlying.",
+    "refLinks": [
+      "0"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "identity": {
+    "symbol": "IWM-USD",
+    "legacyId": 3855
+  },
+  "tracks": {
+    "underlying": "ishares-russell-2000-etf",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "IWM-USDC"
+  },
+  "about": {
+    "description": "iShares Russell 2000 ETF (IWM) perpetual on gTrade, USDC-margined. Verified live 2026-05-20."
+  }
+}

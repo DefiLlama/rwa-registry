@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "CRWD",
+    "name": "Variational CrowdStrike Perp",
+    "legacyId": 9127
+  },
+  "tracks": {
+    "underlying": "crowdstrike-holdings-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "CRWD-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual on Variational Omni tracking CrowdStrike Holdings, Inc. (CRWD), priced off Variational Omni's OLP-aggregated mid-quotes. Users gain linear exposure to CrowdStrike Holdings, Inc. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Arbitrum."
+  }
+}

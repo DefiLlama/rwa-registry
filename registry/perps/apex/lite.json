@@ -1,0 +1,26 @@
+{
+  "identity": {
+    "symbol": "LITE",
+    "name": "ApeX Omni Lumentum Perp",
+    "legacyId": 4369
+  },
+  "tracks": {
+    "underlying": "lumentum-holdings-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "marginAsset": "USDT",
+    "pair": "LITE-USDC"
+  },
+  "sources": {
+    "oracleProvider": "Chainlink Data Streams"
+  },
+  "about": {
+    "description": "Single-stock perpetual market on ApeX Omni tracking Lumentum, cash-settled.",
+    "refLinks": [
+      "https://omni.apex.exchange/referral?referralCode=T0S8V482"
+    ],
+    "issuer": "ApeX Protocol"
+  }
+}

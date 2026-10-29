@@ -1,0 +1,24 @@
+{
+  "identity": {
+    "symbol": "GME",
+    "name": "trade[XYZ] GameStop Perp",
+    "legacyId": 3252
+  },
+  "tracks": {
+    "underlying": "gamestop-corp",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "GME-USDC"
+  },
+  "sources": {
+    "oracleProvider": "Pyth equity feed"
+  },
+  "about": {
+    "description": "Single-stock perpetual market tracking GameStop. Users get linear exposure to GameStop share-price moves without owning GameStop shares, shareholder rights, or dividend claims, cash-settled in USDC on trade[XYZ].",
+    "refLinks": [
+      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
+    ]
+  }
+}

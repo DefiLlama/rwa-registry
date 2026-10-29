@@ -1,0 +1,26 @@
+{
+  "identity": {
+    "symbol": "USD-KRW",
+    "name": "Ostium KRW Perp",
+    "legacyId": 3647
+  },
+  "tracks": {
+    "underlying": "south-korean-won",
+    "structure": "forex-perps"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "KRW-USDC",
+    "makerFeeBps": 5,
+    "takerFeeBps": 5
+  },
+  "sources": {
+    "oracleProvider": "Stork / QUODD institutional FX feed"
+  },
+  "about": {
+    "description": "FX perpetual on Ostium Labs tracking South Korean Won (KRW) versus the US dollar, with pricing referencing Stork / QUODD institutional FX feed. Positions are margined and cash-settled in USDC on Arbitrum, giving users synthetic exposure to South Korean Won/USD price movement without holding either currency as cash.",
+    "refLinks": [
+      "https://app.ostium.com/trade?from=USD&to=KRW&ref=6X17X"
+    ]
+  }
+}

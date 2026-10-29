@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "US100",
+    "name": "Ondo Perps Nasdaq-100 Perp",
+    "legacyId": 4045
+  },
+  "tracks": {
+    "underlying": "nasdaq-100-index",
+    "structure": "equity-index-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "US100-USD"
+  },
+  "about": {
+    "description": "Equity Index perpetual market on Ondo Perps tracking Nasdaq-100 Index, cash-settled, 24/7, up to 20x leverage, hourly funding, launched 2026-06-09 (non-US users only). Verified live via adapter 2026-06-10.",
+    "refLinks": [
+      "https://app.ondoperps.xyz/trade/perps/US100-USD.P?ref=76ZCWB"
+    ]
+  }
+}

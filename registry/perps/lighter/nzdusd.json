@@ -1,0 +1,24 @@
+{
+  "identity": {
+    "symbol": "NZDUSD",
+    "name": "Lighter NZD Perp",
+    "legacyId": 3636
+  },
+  "tracks": {
+    "underlying": "new-zealand-dollar",
+    "structure": "forex-perps"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "NZDUSD-USDC"
+  },
+  "sources": {
+    "oracleProvider": "Lighter fair price oracle"
+  },
+  "about": {
+    "description": "FX perpetual on Lighter Labs tracking New Zealand Dollar (NZD) versus the US dollar, with pricing referencing Lighter fair price oracle. Positions are margined and cash-settled in USDC on Lighter ZK-rollup (Ethereum), giving users synthetic exposure to New Zealand Dollar/USD price movement without holding either currency as cash.",
+    "refLinks": [
+      "https://app.lighter.xyz/trade/NZDUSD?referral=FHT1N8AYKHP4"
+    ]
+  }
+}

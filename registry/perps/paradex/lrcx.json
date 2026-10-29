@@ -1,0 +1,20 @@
+{
+  "identity": {
+    "symbol": "LRCX",
+    "legacyId": 4784
+  },
+  "tracks": {
+    "underlying": "lam-research-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "LRCX-USD-PERP"
+  },
+  "about": {
+    "description": "LRCX is a single-stock perpetual on Paradex tracking Lam Research Corporation. Lam Research Corporation is a US semiconductor manufacturing equipment supplier (Nasdaq: LRCX). The market is cash-settled with hourly funding, no shareholder rights, and no dividend rights in the underlying.",
+    "refLinks": [
+      "0"
+    ]
+  }
+}

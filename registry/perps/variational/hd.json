@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "HD",
+    "name": "Variational Omni Home Depot Perp",
+    "legacyId": 4592
+  },
+  "tracks": {
+    "underlying": "the-home-depot-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "HD-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual on Variational Omni tracking The Home Depot, Inc. Users get linear exposure to the underlying without owning shares. Cash-settled in USDC (Arbitrum)."
+  }
+}

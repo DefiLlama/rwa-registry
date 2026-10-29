@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "MSFT_24_5-USD",
+    "name": "Extended Microsoft Perp",
+    "legacyId": 3142
+  },
+  "tracks": {
+    "underlying": "microsoft-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "MSFT-USD"
+  },
+  "about": {
+    "description": "Microsoft perpetual on Extended on Starknet, cash-settled in USDC.",
+    "refLinks": [
+      "https://app.extended.exchange/join/DEFILLAMAO"
+    ]
+  }
+}

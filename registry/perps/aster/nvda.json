@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "symbol": "NVDA",
+    "name": "Aster NVIDIA Perp",
+    "legacyId": 3559
+  },
+  "tracks": {
+    "underlying": "nvidia-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "NVDA-USDT",
+    "makerFeeBps": null,
+    "takerFeeBps": null
+  },
+  "about": {
+    "description": "Single-stock perpetual on Aster (YZi Labs-backed) tracking NVIDIA Corporation (NVDA), with pricing referencing Aster custom oracle (24/5 equity feed). Users gain linear exposure to NVIDIA Corporation share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USD1 on BNB Chain / Aster Chain.",
+    "refLinks": [
+      "https://www.asterdex.com/en/referral/c6eF10"
+    ]
+  }
+}

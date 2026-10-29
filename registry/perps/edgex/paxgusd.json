@@ -1,0 +1,22 @@
+{
+  "identity": {
+    "symbol": "PAXGUSD",
+    "legacyId": 3398
+  },
+  "tracks": {
+    "underlying": null,
+    "asset": "paxg",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "marginAsset": "USDT",
+    "pair": "PAXG-USD"
+  },
+  "about": {
+    "description": "Gold perpetual market quoted against PAX Gold (PAXG), where each PAXG token represents one troy ounce of London Good Delivery gold. The contract gives linear exposure to the PAXG/USD price (tracking gold) without owning PAXG, the underlying gold, or redemption rights, with pricing referencing an external feed via the Stork decentralized oracle. Positions are margined and cash-settled in USDT.",
+    "refLinks": [
+      "https://pro.edgex.exchange/referral/196451583"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "MASTOCKUSDT",
+    "name": "LBank Mastercard Inc. Perp",
+    "legacyId": 6587
+  },
+  "tracks": {
+    "underlying": "mastercard-incorporated",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "MA-USDT"
+  },
+  "about": {
+    "description": "MA is a single-stock perpetual listed on LBank, tracking Mastercard Inc., margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Up to 50× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

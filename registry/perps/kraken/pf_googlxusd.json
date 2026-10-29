@@ -1,0 +1,16 @@
+{
+  "identity": {
+    "symbol": "PF_GOOGLXUSD",
+    "legacyId": 6302
+  },
+  "tracks": {
+    "underlying": "alphabet-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "pair": "GOOGLX-USD"
+  },
+  "about": {
+    "description": "GOOGLX is a single-stock perpetual listed on Kraken, tracking Alphabet Inc., margined and cash-settled in USD. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Kraken prices this market off the Backed xStock token for Alphabet Inc., a tokenized representation of the listed shares rather than the shares themselves. Funding settles every 1h. Up to 20× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

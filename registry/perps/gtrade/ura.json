@@ -1,0 +1,25 @@
+{
+  "identity": {
+    "symbol": "URA",
+    "name": "gTrade URA Perp",
+    "legacyId": 3603
+  },
+  "tracks": {
+    "underlying": "global-x-uranium-etf",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "URA-USDC"
+  },
+  "about": {
+    "description": "Industrial-metals perpetual on Gains Network priced off the Global X Uranium ETF (URA), a uranium-mining-equity ETF, with pricing referencing Chainlink DON. Positions are margined and cash-settled in USDC / DAI / WETH on Arbitrum / Polygon / Base. Users get sector exposure without holding ETF shares or constituent equities."
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

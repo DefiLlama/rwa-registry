@@ -1,0 +1,31 @@
+{
+  "identity": {
+    "symbol": "BABA",
+    "name": "Markets by Kinetiq Alibaba ADR Perp",
+    "legacyId": 2969
+  },
+  "tracks": {
+    "underlying": "alibaba-group-holding-limited",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdh",
+    "pair": "BABA-USDH"
+  },
+  "sources": {
+    "oracleProvider": "Kaiko / NYSE:BABA"
+  },
+  "about": {
+    "description": "Single-stock perpetual market tracking the U.S.-listed Alibaba ADR. The contract gives synthetic exposure to Alibaba’s ADR price without ownership of depositary shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDH. The market is visible on Hyperliquid under the km namespace, but it is operated by Markets by Kinetiq rather than listed as a core Hyperliquid perp.",
+    "refLinks": [
+      "https://markets.xyz/join/llama"
+    ]
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

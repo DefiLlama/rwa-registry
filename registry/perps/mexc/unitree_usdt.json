@@ -1,0 +1,20 @@
+{
+  "identity": {
+    "symbol": "UNITREE_USDT",
+    "name": "MEXC Hangzhou Yushu Technology Co., Ltd. Perp",
+    "legacyId": 7805
+  },
+  "tracks": {
+    "underlying": "yushu-technology-co-ltd",
+    "structure": "pe-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "UNITREE-USDT",
+    "makerFeeBps": 0,
+    "takerFeeBps": 2
+  },
+  "about": {
+    "description": "UNITREE is a private-company perpetual listed on MEXC, tracking Hangzhou Yushu Technology Co., Ltd., margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 1h. Up to 25× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

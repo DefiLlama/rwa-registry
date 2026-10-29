@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "ukoilp",
+    "name": "Variational Brent Crude Oil Swap",
+    "legacyId": 9222
+  },
+  "tracks": {
+    "underlying": "crude-oil-brent",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "UKOILP-USDC"
+  },
+  "about": {
+    "description": "Cash-settled swap on Variational Omni tracking the spot price of Brent crude oil, priced off Variational Omni's OLP-aggregated mid-quotes. Unlike the venue's perpetual markets this contract pays no periodic funding — the cost of carry is quoted into the bid/ask spread instead. Positions are margined and cash-settled in USDC on Arbitrum."
+  }
+}

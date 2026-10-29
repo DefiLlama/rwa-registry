@@ -1,0 +1,17 @@
+{
+  "identity": {
+    "symbol": "SOXL-PERP",
+    "legacyId": 5299
+  },
+  "tracks": {
+    "underlying": "direxion-daily-semiconductor-bull-3x-etf",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "SOXL-USDC"
+  },
+  "about": {
+    "description": "SOXL is an exchange traded fund perpetual listed on Coinbase International Exchange and tracking Direxion Daily Semiconductor Bull 3X ETF. The contract is cash settled in USDC and does not convey ownership or redemption rights in the underlying. Funding is exchanged every 1h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

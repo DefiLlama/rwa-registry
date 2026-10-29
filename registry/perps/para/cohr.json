@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "COHR",
+    "name": "Paragon Coherent Perp",
+    "legacyId": 8786
+  },
+  "tracks": {
+    "underlying": "coherent-corp",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "COHR-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual market tracking Coherent Corp. (COHR) on Paragon. Users get linear exposure to COHR share-price moves without owning COHR shares, shareholder rights, or dividend claims. HIP-3 builder-deployed market on Hyperliquid in the para namespace, cash-settled in USDC.",
+    "refLinks": [
+      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
+    ]
+  }
+}

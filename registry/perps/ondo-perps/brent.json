@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "BRENT",
+    "name": "Ondo Perps Brent Crude Oil Perp",
+    "legacyId": 4780
+  },
+  "tracks": {
+    "underlying": "crude-oil-brent",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "BRENT-USD"
+  },
+  "about": {
+    "description": "BRENT is a commodity perpetual on Ondo Perps tracking Brent Crude Oil. Brent Crude Oil is the international light-sweet crude benchmark contract traded on the Intercontinental Exchange (ICE), priced in US dollars per barrel. The market is cash-settled with hourly funding and no delivery obligation.",
+    "refLinks": [
+      "https://app.ondoperps.xyz/trade/perps/BRENT"
+    ]
+  }
+}

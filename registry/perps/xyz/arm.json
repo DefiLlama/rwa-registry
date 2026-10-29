@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "symbol": "ARM",
+    "name": "trade[XYZ] Arm Holdings Perp",
+    "legacyId": 3745
+  },
+  "tracks": {
+    "underlying": "arm-holdings-plc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "marginAsset": "USDT",
+    "pair": "ARM-USDT"
+  },
+  "about": {
+    "description": "Arm Holdings (NASDAQ:ARM) stock perpetual on trade[XYZ]. HIP-3 deployer namespace on Hyperliquid, cash-settled in USDC.",
+    "refLinks": [
+      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
+    ],
+    "issuer": "trade[XYZ]"
+  }
+}

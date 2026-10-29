@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "WDC",
+    "name": "trade[XYZ] Western Digital Perp",
+    "legacyId": 4399
+  },
+  "tracks": {
+    "underlying": "western-digital-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "WDC-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual market on trade[XYZ] tracking Western Digital, cash-settled.",
+    "refLinks": [
+      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
+    ]
+  }
+}

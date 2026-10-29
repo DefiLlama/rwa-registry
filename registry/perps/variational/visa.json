@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "VISA",
+    "name": "Variational Omni Visa Inc. Class A Perp",
+    "legacyId": 7642
+  },
+  "tracks": {
+    "underlying": "visa-inc-class-a",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "VISA-USDC"
+  },
+  "about": {
+    "description": "VISA is a cash settled perpetual market on Variational Omni referencing Visa Inc. Class A. The market is quoted and margined in USDC on Arbitrum, marked against the Omni Liquidity Pool's aggregated reference price rather than a single venue, and it conveys no ownership of the underlying and no claim on the issuer. Variational lists this market under the symbol VISA rather than the issuer's own ticker V."
+  }
+}

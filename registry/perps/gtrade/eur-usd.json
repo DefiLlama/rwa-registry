@@ -1,0 +1,28 @@
+{
+  "identity": {
+    "symbol": "EUR-USD",
+    "name": "gTrade EUR Perp",
+    "legacyId": 3648
+  },
+  "tracks": {
+    "underlying": "euro",
+    "structure": "forex-perps"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "EUR-USDC"
+  },
+  "sources": {
+    "oracleProvider": "Chainlink DON FX feeds"
+  },
+  "about": {
+    "description": "FX perpetual on Gains Network tracking Euro (EUR) versus the US dollar, with pricing referencing Chainlink DON FX feeds. Positions are margined and cash-settled in USDC / DAI / WETH on Arbitrum / Polygon / Base, giving users synthetic exposure to Euro/USD price movement without holding either currency as cash."
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

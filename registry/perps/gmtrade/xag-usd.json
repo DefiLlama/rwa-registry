@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "symbol": "XAG-USD",
+    "legacyId": 3099
+  },
+  "tracks": {
+    "underlying": "silver",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "XAG-USD"
+  },
+  "sources": {
+    "oracleProvider": "Chainlink"
+  },
+  "about": {
+    "description": "Silver perpetual on GMTrade, cash-settled in USDC on Solana.",
+    "refLinks": [
+      "https://gmtrade.xyz/referrals/?ref=545"
+    ]
+  }
+}

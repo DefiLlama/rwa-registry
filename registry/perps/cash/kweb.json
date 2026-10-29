@@ -1,0 +1,31 @@
+{
+  "identity": {
+    "symbol": "KWEB",
+    "name": "CASH KWEB ETF Perp",
+    "legacyId": 3275
+  },
+  "tracks": {
+    "underlying": "kraneshares-csi-china-internet-etf",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "KWEB-USDT"
+  },
+  "sources": {
+    "oracleProvider": "Pyth + SEDA dated-futures conv."
+  },
+  "about": {
+    "description": "ETF perpetual market tracking KraneShares CSI China Internet ETF. Users get synthetic exposure to a listed fund rather than ownership of ETF shares or redemption rights in the fund, cash-settled in USDT on CASH.",
+    "refLinks": [
+      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
+    ]
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

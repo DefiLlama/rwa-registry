@@ -1,0 +1,33 @@
+{
+  "identity": {
+    "symbol": "H100",
+    "name": "trade[XYZ] NVIDIA H100 GPU Perp",
+    "legacyId": 3747
+  },
+  "tracks": {
+    "underlying": "nvidia-h100-hourly",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "marginAsset": "USDT",
+    "pair": "H100-USDT"
+  },
+  "sources": {
+    "oracleProvider": "Squaretower"
+  },
+  "about": {
+    "description": "NVIDIA H100 GPU hourly rental rate perpetual on trade[XYZ]. HIP-3 deployer namespace on Hyperliquid. Squaretower-priced compute index, cash-settled in USDC.",
+    "refLinks": [
+      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
+    ],
+    "issuer": "trade[XYZ]"
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

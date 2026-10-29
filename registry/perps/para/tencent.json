@@ -1,0 +1,28 @@
+{
+  "identity": {
+    "symbol": "TENCENT",
+    "name": "Paragon Tencent Perp",
+    "legacyId": 8802
+  },
+  "tracks": {
+    "underlying": "tencent-holdings-limited",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "TENCENT-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual market tracking Tencent Holdings Limited (TENCENT) on Paragon. Users get linear exposure to TENCENT share-price moves without owning TENCENT shares, shareholder rights, or dividend claims. HIP-3 builder-deployed market on Hyperliquid in the para namespace, cash-settled in USDC. Equity marks are sourced from Pyth equity feeds during covered sessions and bounded internally off-hours. Market is flagged isDelisted by the Hyperliquid API as of 2026-08-14, with zero open interest and zero 24h volume, and it no longer appears in Paragon's published equities table.",
+    "refLinks": [
+      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
+    ]
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

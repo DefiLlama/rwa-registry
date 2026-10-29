@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "PLTR",
+    "name": "Variational Omni Palantir Technologies Inc. Perp",
+    "legacyId": 4510
+  },
+  "tracks": {
+    "underlying": "palantir-technologies-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "PLTR-USDC"
+  },
+  "about": {
+    "description": "PLTR is a single-stock perpetual on Variational tracking Palantir Technologies Inc. Palantir Technologies Inc. is a US software company specializing in big-data analytics and AI platforms for government and enterprise (Nasdaq: PLTR). The market is cash-settled with hourly funding, no shareholder rights, and no dividend rights in the underlying.",
+    "refLinks": [
+      "0"
+    ]
+  }
+}

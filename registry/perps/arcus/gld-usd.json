@@ -1,0 +1,20 @@
+{
+  "identity": {
+    "symbol": "GLD-USD",
+    "legacyId": 4526
+  },
+  "tracks": {
+    "underlying": "spdr-gold-shares",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdg",
+    "pair": "GLD-USDG"
+  },
+  "about": {
+    "description": "Arcus perpetual market tracking SPDR Gold Shares (NYSE Arca: GLD) with 24/7 exposure to the underlying physical gold ETF. Total-return tracking (dividends, splits, and futures rolls passed through funding), cash-settled in USDG on the Arcus off-chain CLOB with permissioned appchain re-verification and EVM rootchain custody.",
+    "refLinks": [
+      "https://app.arcus.xyz/ref/DEFILLAMA"
+    ]
+  }
+}

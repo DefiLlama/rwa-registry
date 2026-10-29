@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "COIN-USD",
+    "name": "Ostium Coinbase Perp",
+    "legacyId": 3298
+  },
+  "tracks": {
+    "underlying": "coinbase-global-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "COIN-USD"
+  },
+  "about": {
+    "description": "Coinbase perpetual on Ostium, cash-settled in USDC on Arbitrum. Trades during U.S. stock market hours only (9:30 AM - 4:00 PM ET, Monday-Friday).",
+    "refLinks": [
+      "https://app.ostium.com/trade?from=COIN&to=USD&ref=6X17X"
+    ]
+  }
+}

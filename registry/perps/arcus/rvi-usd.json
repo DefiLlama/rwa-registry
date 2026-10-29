@@ -1,0 +1,27 @@
+{
+  "identity": {
+    "symbol": "RVI-USD",
+    "legacyId": 4533
+  },
+  "tracks": {
+    "underlying": "robinhood-ventures-fund-i",
+    "structure": "pe-perp"
+  },
+  "terms": {
+    "collateral": "usdg",
+    "pair": "RVI-USDG"
+  },
+  "about": {
+    "description": "Arcus perpetual market tracking Robinhood Ventures Fund I (RVI, private) with 24/7 exposure to the underlying private-market venture fund tokenized product. Total-return tracking (dividends, splits, and futures rolls passed through funding), cash-settled in USDG on the Arcus off-chain CLOB with permissioned appchain re-verification and EVM rootchain custody.",
+    "refLinks": [
+      "https://app.arcus.xyz/ref/DEFILLAMA"
+    ]
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

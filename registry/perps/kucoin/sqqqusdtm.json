@@ -1,0 +1,17 @@
+{
+  "identity": {
+    "symbol": "SQQQUSDTM",
+    "legacyId": 5404
+  },
+  "tracks": {
+    "underlying": "proshares-ultrapro-short-qqq",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "SQQQ-USDT"
+  },
+  "about": {
+    "description": "SQQQ is an exchange traded fund perpetual listed on KuCoin and tracking ProShares UltraPro Short QQQ. The contract is cash settled in USDT and does not convey ownership or redemption rights in the underlying. Funding is exchanged every 8h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

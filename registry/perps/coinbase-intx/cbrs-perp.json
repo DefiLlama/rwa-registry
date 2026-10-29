@@ -1,0 +1,17 @@
+{
+  "identity": {
+    "symbol": "CBRS-PERP",
+    "legacyId": 5923
+  },
+  "tracks": {
+    "underlying": "cerebras-systems-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "CBRS-USDC"
+  },
+  "about": {
+    "description": "CBRS is a single-stock perpetual listed on Coinbase International Exchange, tracking Cerebras Systems Inc., margined and cash-settled in USDC. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 1h. Up to 10× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

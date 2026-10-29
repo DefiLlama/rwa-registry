@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "symbol": "UBER",
+    "name": "Aster Uber Perp",
+    "legacyId": 3904
+  },
+  "tracks": {
+    "underlying": "uber-technologies-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "UBER-USDT",
+    "makerFeeBps": null,
+    "takerFeeBps": null
+  },
+  "about": {
+    "description": "Perpetual market on Aster tracking Uber Technologies Inc. (UBER), cash-settled in crypto. Asset Class: Stock Perp. (Original record. Delisted in favor of the refreshed market.)",
+    "refLinks": [
+      "https://www.asterdex.com/en/referral/c6eF10"
+    ]
+  }
+}

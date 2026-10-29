@@ -1,0 +1,17 @@
+{
+  "identity": {
+    "symbol": "XPD-USD",
+    "legacyId": 3857
+  },
+  "tracks": {
+    "underlying": "palladium",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "XPD-USDC"
+  },
+  "about": {
+    "description": "Palladium (XPD) perpetual on gTrade, USDC-margined. Verified live 2026-05-20."
+  }
+}

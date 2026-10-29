@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "coppp",
+    "name": "Variational Copper Swap",
+    "legacyId": 9585
+  },
+  "tracks": {
+    "underlying": "copper",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "COPPP-USDC"
+  },
+  "about": {
+    "description": "Cash-settled swap on Copper, quoted against USDC. No funding; cost of carry is in the spread."
+  }
+}

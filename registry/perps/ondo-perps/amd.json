@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "AMD",
+    "name": "Ondo Perps AMD Perp",
+    "legacyId": 4026
+  },
+  "tracks": {
+    "underlying": "advanced-micro-devices-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "AMD-USD"
+  },
+  "about": {
+    "description": "Single-stock perpetual market on Ondo Perps tracking ADVANCED MICRO DEVICES INC, cash-settled, 24/7, up to 10x leverage, hourly funding, launched 2026-06-09 (non-US users only). Verified live via adapter 2026-06-10.",
+    "refLinks": [
+      "https://app.ondoperps.xyz/trade/perps/AMD-USD.P?ref=76ZCWB"
+    ]
+  }
+}

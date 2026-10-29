@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "BA-USD",
+    "name": "gTrade BA Perp",
+    "legacyId": 3579
+  },
+  "tracks": {
+    "underlying": "the-boeing-co",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "BA-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual on Gains Network tracking The Boeing Company (BA), with pricing referencing Chainlink DON (24/5 equity feed). Users gain linear exposure to The Boeing Company share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC / DAI / WETH on Arbitrum / Polygon / Base."
+  }
+}

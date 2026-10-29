@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "GLW-USD",
+    "name": "Extended Corning Perp",
+    "legacyId": 9110
+  },
+  "tracks": {
+    "underlying": "corning-incorporated",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "GLW-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual on Extended (formerly X10) tracking Corning Incorporated (GLW), with pricing referencing Extended oracle. Users gain linear exposure to Corning Incorporated share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Starknet.",
+    "refLinks": [
+      "https://app.extended.exchange/join/DEFILLAMAO"
+    ]
+  }
+}

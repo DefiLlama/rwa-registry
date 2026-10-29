@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "ARMSTOCK_USDT",
+    "name": "MEXC Arm Holdings plc Perp (USDT)",
+    "legacyId": 5720
+  },
+  "tracks": {
+    "underlying": "arm-holdings-plc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "ARM-USDT"
+  },
+  "about": {
+    "description": "ARM is a single-stock perpetual listed on MEXC, tracking Arm Holdings plc, margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Up to 100× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

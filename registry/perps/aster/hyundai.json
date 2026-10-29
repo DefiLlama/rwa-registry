@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "HYUNDAI",
+    "name": "Aster Hyundai Perp",
+    "legacyId": 4375
+  },
+  "tracks": {
+    "underlying": "hyundai-motor-company",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "HYUNDAI-USDT"
+  },
+  "about": {
+    "description": "Single-stock perpetual market on Aster tracking Hyundai, cash-settled.",
+    "refLinks": [
+      "https://www.asterdex.com/en/referral/c6eF10"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "identity": {
+    "symbol": "AE-DXB",
+    "name": "Parcl Dubai Perp",
+    "legacyId": 3096
+  },
+  "tracks": {
+    "underlying": "dubai-housing-index",
+    "structure": "real-estate-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "DXB-USD"
+  },
+  "about": {
+    "description": "DELISTED 2026-05-26 (browser-verified). Parcl AE-DXB (Dubai). Confirmed delisted. Direct URL https://app.parcl.co/markets/AE-DXB returns 404. International market removed from Parcl."
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

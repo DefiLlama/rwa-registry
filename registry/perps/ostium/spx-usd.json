@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "symbol": "SPX-USD",
+    "name": "Ostium S&P 500 Perp",
+    "legacyId": 3044
+  },
+  "tracks": {
+    "underlying": "s-p-500-index",
+    "structure": "equity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "SPX-USD",
+    "makerFeeBps": 3,
+    "takerFeeBps": 3
+  },
+  "about": {
+    "description": "S&P 500 perpetual on Ostium, cash-settled in USDC on Arbitrum.",
+    "refLinks": [
+      "https://app.ostium.com/trade?from=SPX&to=USD&ref=6X17X"
+    ]
+  }
+}

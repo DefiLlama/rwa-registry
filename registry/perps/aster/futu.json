@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "symbol": "FUTU",
+    "name": "Aster Futu Perp",
+    "legacyId": 3916
+  },
+  "tracks": {
+    "underlying": "futu-holdings-limited",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "FUTU-USDT",
+    "makerFeeBps": null,
+    "takerFeeBps": null
+  },
+  "about": {
+    "description": "Aster perpetual market tracking Futu Holdings Ltd. (Hong Kong digital brokerage and wealth management). Verified live on platform UI 2026-05-26 via browser.",
+    "refLinks": [
+      "https://www.asterdex.com/en/referral/c6eF10"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "NCSKSITMUSDT-USDT",
+    "name": "BingX SiTime Corp. Perp",
+    "legacyId": 7679
+  },
+  "tracks": {
+    "underlying": "sitime-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "SITM-USDT"
+  },
+  "about": {
+    "description": "SITM is a single-stock perpetual listed on BingX, tracking SiTime Corp., margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

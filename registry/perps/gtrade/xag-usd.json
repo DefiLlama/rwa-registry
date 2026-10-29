@@ -1,0 +1,19 @@
+{
+  "identity": {
+    "symbol": "XAG-USD",
+    "legacyId": 3025
+  },
+  "tracks": {
+    "underlying": "silver",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "XAG-USDC",
+    "makerFeeBps": 5,
+    "takerFeeBps": 5
+  },
+  "about": {
+    "description": "Silver perpetual on gTrade, synthetic and cash-settled in USDC on Arbitrum."
+  }
+}

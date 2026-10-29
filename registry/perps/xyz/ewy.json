@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "EWY",
+    "name": "trade[XYZ] EWY ETF Perp",
+    "legacyId": 3258
+  },
+  "tracks": {
+    "underlying": "ishares-msci-south-korea-etf",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "EWY-USDC"
+  },
+  "about": {
+    "description": "ETF perpetual market tracking iShares MSCI South Korea ETF. Users get synthetic exposure to a listed fund rather than ownership of ETF shares or redemption rights in the fund, cash-settled in USDC on trade[XYZ].",
+    "refLinks": [
+      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
+    ]
+  }
+}

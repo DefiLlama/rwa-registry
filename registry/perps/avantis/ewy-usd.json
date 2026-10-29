@@ -1,0 +1,27 @@
+{
+  "identity": {
+    "symbol": "EWY-USD",
+    "legacyId": 4434
+  },
+  "tracks": {
+    "underlying": "ishares-msci-south-korea-etf",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "EWY-USDC"
+  },
+  "about": {
+    "description": "ETF perpetual on Avantis (Base) tracking the iShares MSCI South Korea ETF (EWY), a South Korean large/mid-cap equity index fund, USDC-margined. References equity oracle.",
+    "refLinks": [
+      "https://www.avantisfi.com/referral?code=DefiLlama"
+    ]
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

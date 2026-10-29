@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "HOOD",
+    "name": "Ondo Perps Robinhood Perp",
+    "legacyId": 4031
+  },
+  "tracks": {
+    "underlying": "robinhood-markets-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "HOOD-USD"
+  },
+  "about": {
+    "description": "Single-stock perpetual market on Ondo Perps tracking Robinhood Markets, Inc, cash-settled, 24/7, up to 10x leverage, hourly funding, launched 2026-06-09 (non-US users only). Verified live via adapter 2026-06-10.",
+    "refLinks": [
+      "https://app.ondoperps.xyz/trade/perps/HOOD-USD.P?ref=76ZCWB"
+    ]
+  }
+}

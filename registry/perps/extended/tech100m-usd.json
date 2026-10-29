@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "TECH100m-USD",
+    "name": "Extended Nasdaq-100 Perp",
+    "legacyId": 3137
+  },
+  "tracks": {
+    "underlying": "nasdaq-100-index",
+    "structure": "equity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "NDX-USD"
+  },
+  "about": {
+    "description": "Nasdaq-100 perpetual on Extended on Starknet, cash-settled in USDC.",
+    "refLinks": [
+      "https://app.extended.exchange/join/DEFILLAMAO"
+    ]
+  }
+}

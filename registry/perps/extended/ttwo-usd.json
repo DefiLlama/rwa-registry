@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "TTWO-USD",
+    "name": "Extended Take-Two Interactive Software Perp",
+    "legacyId": 8636
+  },
+  "tracks": {
+    "underlying": "take-two-interactive-software-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "TTWO-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual on Extended (formerly X10) tracking Take-Two Interactive Software, Inc. (TTWO), with pricing referencing Extended oracle. Users gain linear exposure to Take-Two Interactive Software, Inc. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Starknet.",
+    "refLinks": [
+      "https://app.extended.exchange/join/DEFILLAMAO"
+    ]
+  }
+}

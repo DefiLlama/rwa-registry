@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "BE-USD",
+    "name": "Arcus Bloom Energy Perp",
+    "legacyId": 4545
+  },
+  "tracks": {
+    "underlying": "bloom-energy-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdg",
+    "pair": "BE-USDG"
+  },
+  "about": {
+    "description": "Arcus perpetual market tracking Bloom Energy Corporation (NYSE: BE) with 24/7 exposure to the underlying clean-energy fuel-cell stock. Total-return tracking (dividends, splits, and futures rolls passed through funding), cash-settled in USDG on the Arcus off-chain CLOB with permissioned appchain re-verification and EVM rootchain custody.",
+    "refLinks": [
+      "https://app.arcus.xyz/ref/DEFILLAMA"
+    ]
+  }
+}

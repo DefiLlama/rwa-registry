@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "TSLA",
+    "name": "Ondo Perps Tesla Perp",
+    "legacyId": 4040
+  },
+  "tracks": {
+    "underlying": "tesla-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "TSLA-USD"
+  },
+  "about": {
+    "description": "Single-stock perpetual market on Ondo Perps tracking Tesla, Inc, cash-settled, 24/7, up to 10x leverage, hourly funding, launched 2026-06-09 (non-US users only). Verified live via adapter 2026-06-10.",
+    "refLinks": [
+      "https://app.ondoperps.xyz/trade/perps/TSLA-USD.P?ref=76ZCWB"
+    ]
+  }
+}

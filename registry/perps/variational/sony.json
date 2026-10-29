@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "SONY",
+    "name": "Variational Omni Sony Group Corporation (ADR) Perp",
+    "legacyId": 7637
+  },
+  "tracks": {
+    "underlying": "sony-group-corporation-adr",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "SONY-USDC"
+  },
+  "about": {
+    "description": "SONY is a cash settled perpetual market on Variational Omni referencing Sony Group Corporation (ADR). The market is quoted and margined in USDC on Arbitrum, marked against the Omni Liquidity Pool's aggregated reference price rather than a single venue, and it conveys no ownership of the underlying and no claim on the issuer."
+  }
+}

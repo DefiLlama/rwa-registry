@@ -1,0 +1,22 @@
+{
+  "identity": {
+    "symbol": "AAPLUSD",
+    "name": "edgeX Apple Perp",
+    "legacyId": 3384
+  },
+  "tracks": {
+    "underlying": "apple-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "marginAsset": "USDT",
+    "pair": "AAPL-USD"
+  },
+  "about": {
+    "description": "Single-stock perpetual market tracking Apple Inc. Users get linear exposure to Apple share-price moves without owning Apple shares, shareholder rights, or dividend claims, with pricing referencing an external 24/5 equity feed via the Stork decentralized oracle. Positions are margined and cash-settled in USDT.",
+    "refLinks": [
+      "https://pro.edgex.exchange/referral/196451583"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "identity": {
+    "symbol": "GIGADEV_USDT",
+    "legacyId": 7696
+  },
+  "tracks": {
+    "underlying": "gigadevice-semiconductor-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "GIGADEV-USDT"
+  },
+  "about": {
+    "description": "GIGADEV is a single-stock perpetual listed on Gate, tracking GigaDevice Semiconductor Inc., margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Up to 20× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  },
+  "events": [
+    {
+      "kind": "listing",
+      "date": "2026-08-03",
+      "links": [
+        "https://api.gateio.ws/api/v4/futures/usdt/contracts"
+      ]
+    }
+  ]
+}

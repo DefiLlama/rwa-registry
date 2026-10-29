@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "RIVN",
+    "name": "trade[XYZ] Rivian Perp",
+    "legacyId": 3245
+  },
+  "tracks": {
+    "underlying": "rivian-automotive-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "RIVN-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual market tracking Rivian. Users get linear exposure to Rivian share-price moves without owning Rivian shares, shareholder rights, or dividend claims, cash-settled in USDC on trade[XYZ].",
+    "refLinks": [
+      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
+    ]
+  }
+}

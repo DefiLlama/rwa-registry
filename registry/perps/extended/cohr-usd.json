@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "COHR-USD",
+    "name": "Extended Coherent Perp",
+    "legacyId": 8594
+  },
+  "tracks": {
+    "underlying": "coherent-corp",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "COHR-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual on Extended (formerly X10) tracking Coherent Corp. (COHR), with pricing referencing Extended oracle. Users gain linear exposure to Coherent Corp. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Starknet.",
+    "refLinks": [
+      "https://app.extended.exchange/join/DEFILLAMAO"
+    ]
+  }
+}

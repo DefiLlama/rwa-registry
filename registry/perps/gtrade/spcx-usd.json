@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "SPCX-USD",
+    "name": "gTrade SpaceX Perp",
+    "legacyId": 4459
+  },
+  "tracks": {
+    "underlying": "space-exploration-technologies-corp",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "SPCX-USDC"
+  },
+  "about": {
+    "description": "SpaceX (SPCX) perpetual on gTrade, synthetic and cash-settled in USDC on Arbitrum."
+  }
+}

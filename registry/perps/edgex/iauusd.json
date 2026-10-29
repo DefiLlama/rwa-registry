@@ -1,0 +1,22 @@
+{
+  "identity": {
+    "symbol": "IAUUSD",
+    "name": "edgeX Gold ETF Perp",
+    "legacyId": 3396
+  },
+  "tracks": {
+    "underlying": "ishares-gold-trust",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "marginAsset": "USDT",
+    "pair": "IAU-USD"
+  },
+  "about": {
+    "description": "ETF perpetual market tracking the iShares Gold Trust (IAU). Users get synthetic exposure to the IAU ETF's price rather than ownership of ETF shares or claims on the underlying gold, with pricing referencing the ETF's public market price via the Stork decentralized oracle. Positions are margined and cash-settled in USDT.",
+    "refLinks": [
+      "https://pro.edgex.exchange/referral/196451583"
+    ]
+  }
+}

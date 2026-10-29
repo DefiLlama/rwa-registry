@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "symbol": "ASTS",
+    "name": "Aster AST SpaceMobile Perp",
+    "legacyId": 3957
+  },
+  "tracks": {
+    "underlying": "ast-spacemobile-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "ASTS-USDT",
+    "makerFeeBps": null,
+    "takerFeeBps": null
+  },
+  "about": {
+    "description": "Single-stock perpetual market on Aster tracking AST SpaceMobile Inc. (ASTS). Users get linear exposure to share-price moves without owning shares, shareholder rights, or dividend claims, with pricing referencing an external 24/5 equity feed. Positions are margined and cash-settled in USDT on Aster.",
+    "refLinks": [
+      "https://www.asterdex.com/en/referral/c6eF10"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "identity": {
+    "symbol": "STRC",
+    "name": "Lighter Stretch Perp",
+    "legacyId": 3360
+  },
+  "tracks": {
+    "underlying": "strategy-inc-strc-stretch-preferred-stock",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "STRC-USDC"
+  },
+  "sources": {
+    "oracleProvider": "Pyth Lazer (per Lighter feed convention)"
+  },
+  "about": {
+    "description": "Single-stock perpetual market tracking Strategy's STRC Stretch perpetual preferred stock. Users get linear exposure to STRC price moves without owning the underlying preferred shares, shareholder rights, or dividend claims, with pricing referencing an external 24/5 equity feed via Lighter's fair price oracle. Positions are margined and cash-settled in USDC.",
+    "refLinks": [
+      "https://app.lighter.xyz/trade/STRC?referral=FHT1N8AYKHP4"
+    ]
+  }
+}

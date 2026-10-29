@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "SBUX-USD",
+    "name": "Extended Starbucks Perp",
+    "legacyId": 8627
+  },
+  "tracks": {
+    "underlying": "starbucks-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "SBUX-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual on Extended (formerly X10) tracking Starbucks Corporation (SBUX), with pricing referencing Extended oracle. Users gain linear exposure to Starbucks Corporation share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Starknet.",
+    "refLinks": [
+      "https://app.extended.exchange/join/DEFILLAMAO"
+    ]
+  }
+}

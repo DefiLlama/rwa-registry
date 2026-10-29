@@ -1,0 +1,17 @@
+{
+  "identity": {
+    "symbol": "BWET-USD",
+    "legacyId": 9283
+  },
+  "tracks": {
+    "underlying": "breakwave-tanker-shipping-etf",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "BWET-USD"
+  },
+  "about": {
+    "description": "Index or fund perpetual futures market on QFEX tracking Breakwave Tanker Shipping ETF, quoted in USD, cross-margined in USDC and trading 24/7 with up to 10x leverage. QFEX is a hybrid central-limit-order-book exchange for traditional assets only; positions are cash-settled and confer no ownership, dividend or voting rights in the underlying. Reference prices are consumed from primary venues during the instrument's published reference-price hours and funding is zero outside them. Adapter snapshot 2026-09-23: mark $689.11, open interest $23.78K, 24h volume $40.36K. Added 2026-09-23 from QFEX's own /refdata API, reconciling 186 live USD-quoted ACTIVE markets against the 175 already carrying a row."
+  }
+}

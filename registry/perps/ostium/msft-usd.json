@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "MSFT-USD",
+    "name": "Ostium Microsoft Perp",
+    "legacyId": 3048
+  },
+  "tracks": {
+    "underlying": "microsoft-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "MSFT-USD"
+  },
+  "about": {
+    "description": "Microsoft perpetual on Ostium, cash-settled in USDC on Arbitrum. Trades during U.S. stock market hours only (9:30 AM - 4:00 PM ET, Monday-Friday).",
+    "refLinks": [
+      "https://app.ostium.com/trade?from=MSFT&to=USD&ref=6X17X"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "identity": {
+    "symbol": "TSLA",
+    "name": "CASH Tesla Perp",
+    "legacyId": 2940
+  },
+  "tracks": {
+    "underlying": "tesla-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "TSLA-USDT"
+  },
+  "about": {
+    "description": "Single-stock perpetual market tracking Tesla, Inc. Users get linear exposure to Tesla share-price moves without owning Tesla shares, shareholder rights, or dividend claims, with pricing referencing an external 24/5 equity feed. Positions are margined and cash-settled in USDT. Markets are visible on Hyperliquid under the cash namespace, but are operated by Dreamcash rather than listed as core Hyperliquid perps.",
+    "refLinks": [
+      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
+    ]
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

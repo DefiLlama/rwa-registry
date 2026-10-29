@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "DDOG-USD",
+    "name": "Extended Datadog Perp",
+    "legacyId": 8596
+  },
+  "tracks": {
+    "underlying": "datadog-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "DDOG-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual on Extended (formerly X10) tracking Datadog, Inc. (DDOG), with pricing referencing Extended oracle. Users gain linear exposure to Datadog, Inc. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Starknet.",
+    "refLinks": [
+      "https://app.extended.exchange/join/DEFILLAMAO"
+    ]
+  }
+}

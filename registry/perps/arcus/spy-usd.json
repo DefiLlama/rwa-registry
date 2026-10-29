@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "SPY-USD",
+    "name": "Arcus SPDR S&P 500 ETF Trust Perp",
+    "legacyId": 4529
+  },
+  "tracks": {
+    "underlying": "state-street-spdr-s-p-500-etf-trust",
+    "structure": "equity-index-perp"
+  },
+  "terms": {
+    "collateral": "usdg",
+    "pair": "SPY-USDG"
+  },
+  "about": {
+    "description": "Arcus perpetual market tracking SPDR S&P 500 ETF Trust (NYSE Arca: SPY) with 24/7 exposure to the underlying S&P 500 index ETF. Total-return tracking (dividends, splits, and futures rolls passed through funding), cash-settled in USDG on the Arcus off-chain CLOB with permissioned appchain re-verification and EVM rootchain custody.",
+    "refLinks": [
+      "https://app.arcus.xyz/ref/DEFILLAMA"
+    ]
+  }
+}

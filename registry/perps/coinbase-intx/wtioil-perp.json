@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "WTIOIL-PERP",
+    "legacyId": 7705
+  },
+  "tracks": {
+    "underlying": "crude-oil-wti",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "marginAsset": "USDT",
+    "pair": "WTIOIL-USDT"
+  },
+  "about": {
+    "description": "WTIOIL is a commodity perpetual listed on Coinbase International Exchange, tracking Crude Oil (WTI), margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 1h. Up to 15× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

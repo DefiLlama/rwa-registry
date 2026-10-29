@@ -1,0 +1,19 @@
+{
+  "identity": {
+    "symbol": "USAR-USDT",
+    "legacyId": 7366
+  },
+  "tracks": {
+    "underlying": "usa-rare-earth-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "USAR-USDT",
+    "makerFeeBps": 2,
+    "takerFeeBps": 6
+  },
+  "about": {
+    "description": "USAR is a single-stock perpetual listed on HTX, tracking USA Rare Earth, Inc., margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

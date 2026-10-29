@@ -1,0 +1,28 @@
+{
+  "identity": {
+    "symbol": "ROBO",
+    "name": "Aster Robo Global Robotics ETF Perp",
+    "legacyId": 3737
+  },
+  "tracks": {
+    "underlying": "fabric-protocol",
+    "structure": "crypto-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "ROBO-USDT"
+  },
+  "about": {
+    "description": "Aster perpetual on ROBO Global Robotics & Automation Index ETF. Settles in USDT. Listed during 2026 RWA Sprint Season 1.",
+    "refLinks": [
+      "https://www.asterdex.com/en/referral/c6eF10"
+    ]
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

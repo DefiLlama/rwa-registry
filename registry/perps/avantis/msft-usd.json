@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "MSFT-USD",
+    "name": "Avantis Microsoft Perp",
+    "legacyId": 3064
+  },
+  "tracks": {
+    "underlying": "microsoft-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "MSFT-USD"
+  },
+  "about": {
+    "description": "Microsoft perpetual on Avantis, cash-settled in USDC on Base.",
+    "refLinks": [
+      "https://www.avantisfi.com/referral?code=DefiLlama"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "symbol": "AMD",
+    "name": "Aster AMD Perp",
+    "legacyId": 3910
+  },
+  "tracks": {
+    "underlying": "advanced-micro-devices-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "AMD-USDT",
+    "makerFeeBps": null,
+    "takerFeeBps": null
+  },
+  "about": {
+    "description": "Aster perpetual market tracking Advanced Micro Devices Inc. (AMD chipmaker). Verified live on platform UI 2026-05-26 via browser.",
+    "refLinks": [
+      "https://www.asterdex.com/en/referral/c6eF10"
+    ]
+  }
+}

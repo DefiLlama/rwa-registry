@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "MU-USD",
+    "name": "Arcus Micron Technology Perp",
+    "legacyId": 4522
+  },
+  "tracks": {
+    "underlying": "micron-technology-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdg",
+    "pair": "MU-USDG"
+  },
+  "about": {
+    "description": "Arcus perpetual market tracking Micron Technology, Inc. (NASDAQ: MU) with 24/7 exposure to the underlying semiconductor stock. Total-return tracking (dividends, splits, and futures rolls passed through funding), cash-settled in USDG on the Arcus off-chain CLOB with permissioned appchain re-verification and EVM rootchain custody.",
+    "refLinks": [
+      "https://app.arcus.xyz/ref/DEFILLAMA"
+    ]
+  }
+}

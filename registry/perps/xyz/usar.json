@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "USAR",
+    "name": "trade[XYZ] USAR Perp",
+    "legacyId": 3250
+  },
+  "tracks": {
+    "underlying": "usa-rare-earth-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "USAR-USDC"
+  },
+  "about": {
+    "description": "ETF perpetual market tracking USAR. Users get synthetic exposure to a listed fund rather than ownership of ETF shares or redemption rights in the fund, cash-settled in USDC on trade[XYZ].",
+    "refLinks": [
+      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
+    ]
+  }
+}

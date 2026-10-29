@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "symbol": "DELL",
+    "name": "Aster Dell Technologies Perp",
+    "legacyId": 3975
+  },
+  "tracks": {
+    "underlying": "dell-technologies-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "DELL-USDT",
+    "makerFeeBps": null,
+    "takerFeeBps": null
+  },
+  "about": {
+    "description": "Single-stock perpetual market on Aster tracking Dell Technologies Inc, cash-settled.",
+    "refLinks": [
+      "https://www.asterdex.com/en/referral/c6eF10"
+    ]
+  }
+}

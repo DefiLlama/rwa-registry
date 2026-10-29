@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "LRCX_24_5-USD",
+    "name": "Extended Lam Research Perp",
+    "legacyId": 9112
+  },
+  "tracks": {
+    "underlying": "lam-research-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "LRCX-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual on Extended (formerly X10) tracking Lam Research Corporation (LRCX), with pricing referencing Extended oracle (24/5 equity feed). Users gain linear exposure to Lam Research Corporation share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Starknet.",
+    "refLinks": [
+      "https://app.extended.exchange/join/DEFILLAMAO"
+    ]
+  }
+}

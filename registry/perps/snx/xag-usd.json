@@ -1,0 +1,24 @@
+{
+  "identity": {
+    "symbol": "XAG-USD",
+    "name": "Synthetix Silver Perp",
+    "legacyId": 3127
+  },
+  "tracks": {
+    "underlying": "silver",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "pair": "XAG-USD"
+  },
+  "about": {
+    "description": "Silver perpetual on Synthetix V3. Ethereum Mainnet. Delisted 2026-09-08: no such market on any live Synthetix deployment. V4 lists 10 crypto-only perps, V2 (Optimism) returns no markets, V3/Kwenta API is down."
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

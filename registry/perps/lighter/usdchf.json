@@ -1,0 +1,24 @@
+{
+  "identity": {
+    "symbol": "USDCHF",
+    "name": "Lighter CHF Perp",
+    "legacyId": 3638
+  },
+  "tracks": {
+    "underlying": "swiss-franc",
+    "structure": "forex-perps"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "USDCHF-USDC"
+  },
+  "sources": {
+    "oracleProvider": "Lighter fair price oracle"
+  },
+  "about": {
+    "description": "FX perpetual on Lighter Labs tracking Swiss Franc (CHF) versus the US dollar, with pricing referencing Lighter fair price oracle. Positions are margined and cash-settled in USDC on Lighter ZK-rollup (Ethereum), giving users synthetic exposure to Swiss Franc/USD price movement without holding either currency as cash.",
+    "refLinks": [
+      "https://app.lighter.xyz/trade/USDCHF?referral=FHT1N8AYKHP4"
+    ]
+  }
+}

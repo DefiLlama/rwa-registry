@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "APP_24_5-USD",
+    "name": "Extended AppLovin Perp",
+    "legacyId": 8578
+  },
+  "tracks": {
+    "underlying": "applovin-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "APP-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual on Extended (formerly X10) tracking AppLovin Corporation (APP), with pricing referencing Extended oracle. Users gain linear exposure to AppLovin Corporation share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Starknet.",
+    "refLinks": [
+      "https://app.extended.exchange/join/DEFILLAMAO"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "identity": {
+    "symbol": "TTF",
+    "legacyId": 3268
+  },
+  "tracks": {
+    "underlying": "ttf-natural-gas",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "TTF-USDC"
+  },
+  "sources": {
+    "oracleProvider": "Pyth / futures-based external reference methodology"
+  },
+  "about": {
+    "description": "TTF Natural Gas perpetual market. The contract tracks TTF Natural Gas price using the venue's reference methodology. Users get linear commodity-price exposure only, without title to physical inventory or delivery rights, cash-settled in USDC on trade[XYZ].",
+    "refLinks": [
+      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
+    ]
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

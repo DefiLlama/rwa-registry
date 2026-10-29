@@ -1,0 +1,24 @@
+{
+  "identity": {
+    "symbol": "CSOPSK2LHKDUSDT",
+    "legacyId": 8736
+  },
+  "tracks": {
+    "underlying": "csop-sk-hynix-daily-max-2x-leveraged-product",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "CSOPSK2LHKD-USDT"
+  },
+  "about": {
+    "description": "CSOPSK2LHKD is an exchange traded fund perpetual listed on Bitget, tracking CSOP SK Hynix Daily Max (2x) Leveraged Product, margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Up to 20× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

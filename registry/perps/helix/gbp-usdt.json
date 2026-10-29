@@ -1,0 +1,30 @@
+{
+  "identity": {
+    "symbol": "GBP-USDT",
+    "name": "Helix GBP Perp",
+    "legacyId": 3689
+  },
+  "tracks": {
+    "underlying": "british-pound",
+    "structure": "forex-perps"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "GBP-USDT",
+    "makerFeeBps": 1,
+    "takerFeeBps": 7
+  },
+  "sources": {
+    "oracleProvider": "Chainlink Data Streams (FX feed)"
+  },
+  "about": {
+    "description": "FX perpetual on Injective Labs tracking British Pound (GBP) versus the US dollar, with pricing referencing Chainlink Data Streams (FX feed). Positions are margined and cash-settled in USDT on Injective L1, giving users synthetic exposure to British Pound/USD price movement without holding either currency as cash."
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

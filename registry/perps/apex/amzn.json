@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "AMZN",
+    "name": "ApeX Omni Amazon Perp",
+    "legacyId": 3755
+  },
+  "tracks": {
+    "underlying": "amazon-com-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "AMZN-USDC"
+  },
+  "about": {
+    "description": "Amazon (NASDAQ:AMZN) stock perpetual on ApeX Omni, cash-settled in USDT.",
+    "refLinks": [
+      "https://omni.apex.exchange/referral?referralCode=T0S8V482"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "EWZ",
+    "name": "Variational Omni iShares MSCI Brazil ETF Perp",
+    "legacyId": 7629
+  },
+  "tracks": {
+    "underlying": "ishares-msci-brazil-etf",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "EWZ-USDC"
+  },
+  "about": {
+    "description": "EWZ is a cash settled perpetual market on Variational Omni referencing iShares MSCI Brazil ETF. The market is quoted and margined in USDC on Arbitrum, marked against the Omni Liquidity Pool's aggregated reference price rather than a single venue, and it conveys no ownership of the underlying and no claim on the issuer."
+  }
+}

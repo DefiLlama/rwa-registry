@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "IREN-USD",
+    "name": "gTrade IREN Perp",
+    "legacyId": 4572
+  },
+  "tracks": {
+    "underlying": "iren-limited",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "IREN-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual on Gains Network tracking IREN Limited. Users get linear exposure to the underlying without owning shares. Cash-settled in USDC."
+  }
+}

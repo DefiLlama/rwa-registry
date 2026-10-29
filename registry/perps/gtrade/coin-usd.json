@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "COIN-USD",
+    "name": "gTrade Coinbase Perp",
+    "legacyId": 3037
+  },
+  "tracks": {
+    "underlying": "coinbase-global-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "COIN-USDC"
+  },
+  "about": {
+    "description": "Coinbase perpetual on gTrade, synthetic and cash-settled in USDC on Arbitrum."
+  }
+}

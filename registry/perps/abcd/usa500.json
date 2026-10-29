@@ -1,0 +1,28 @@
+{
+  "identity": {
+    "symbol": "USA500",
+    "name": "ABCD S&P 500 Licensed Perp",
+    "legacyId": 3274
+  },
+  "tracks": {
+    "underlying": "s-p-500-index",
+    "structure": "equity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "USA500-USDC"
+  },
+  "about": {
+    "description": "First officially licensed S&P 500 perpetual on a decentralized exchange, operated by trade[XYZ] under the abcd namespace on Hyperliquid.",
+    "refLinks": [
+      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
+    ]
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

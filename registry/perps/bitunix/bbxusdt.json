@@ -1,0 +1,17 @@
+{
+  "identity": {
+    "symbol": "BBXUSDT",
+    "legacyId": 5812
+  },
+  "tracks": {
+    "underlying": "blackberry-limited",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "BBX-USDT"
+  },
+  "about": {
+    "description": "BBX is a single-stock perpetual listed on Bitunix, tracking BlackBerry Limited, margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Up to 20× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

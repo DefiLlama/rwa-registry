@@ -1,0 +1,26 @@
+{
+  "identity": {
+    "symbol": "GOLD",
+    "legacyId": 3273
+  },
+  "tracks": {
+    "underlying": "gold",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "pair": "GOLD-USDE"
+  },
+  "about": {
+    "description": "Gold perpetual market. The contract tracks Gold price using the venue's reference methodology. Users get linear commodity-price exposure only, without title to physical inventory or delivery rights, cash-settled in USDe on HyENA.",
+    "refLinks": [
+      "https://app.hyena.trade/ref/DEFILLAMA"
+    ]
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

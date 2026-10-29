@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "MINIMAX",
+    "name": "Lighter MiniMax AI Perp",
+    "legacyId": 4581
+  },
+  "tracks": {
+    "underlying": "minimax-group-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "MINIMAX-USDC"
+  },
+  "sources": {
+    "oracleProvider": "Lighter fair price oracle"
+  },
+  "about": {
+    "description": "Single-stock perpetual on Lighter tracking MiniMax AI. Users get linear exposure to the underlying without owning shares. Cash-settled in USDC."
+  }
+}

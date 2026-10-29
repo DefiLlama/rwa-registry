@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "WEN",
+    "name": "Variational Omni The Wendy's Company Perp",
+    "legacyId": 7643
+  },
+  "tracks": {
+    "underlying": "the-wendy-s-co",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "WEN-USDC"
+  },
+  "about": {
+    "description": "WEN is a cash settled perpetual market on Variational Omni referencing The Wendy's Company. The market is quoted and margined in USDC on Arbitrum, marked against the Omni Liquidity Pool's aggregated reference price rather than a single venue, and it conveys no ownership of the underlying and no claim on the issuer."
+  }
+}

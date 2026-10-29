@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "CRCL-USDC",
+    "name": "Helix Circle Perp",
+    "legacyId": 3735
+  },
+  "tracks": {
+    "underlying": "circle-internet-group-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "CRCL-USDT"
+  },
+  "about": {
+    "description": "Circle (NYSE:CRCL) stock perpetual on Helix, cash-settled in USDT."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "HOOD-USDC",
+    "name": "Helix Robinhood Perp",
+    "legacyId": 3082
+  },
+  "tracks": {
+    "underlying": "robinhood-markets-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "HOOD-USDT"
+  },
+  "about": {
+    "description": "Robinhood perpetual on Helix (Injective), cash-settled in USDT."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "symbol": "NDX-USD",
+    "name": "Ostium Nasdaq-100 Perp",
+    "legacyId": 3045
+  },
+  "tracks": {
+    "underlying": "nasdaq-100-index",
+    "structure": "equity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "NDX-USD",
+    "makerFeeBps": 3,
+    "takerFeeBps": 3
+  },
+  "about": {
+    "description": "Nasdaq-100 perpetual on Ostium, cash-settled in USDC on Arbitrum.",
+    "refLinks": [
+      "https://app.ostium.com/trade?from=NDX&to=USD&ref=6X17X"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "identity": {
+    "symbol": "TSLA-USD",
+    "name": "gTrade Tesla Perp",
+    "legacyId": 3031
+  },
+  "tracks": {
+    "underlying": "tesla-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "TSLA-USDC"
+  },
+  "about": {
+    "description": "DELISTED. GTrade reorganized its perp listings. The canonical gtrade:TSLA-USD is no longer the active market on gTrade (per may26 adapter, $0 OI / $0 24h vol). The active gTrade TSLA perp is at gtrade:TSLA_1-USD (separate RID). Marked Delisted=True on 2026-05-26."
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

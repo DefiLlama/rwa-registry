@@ -1,0 +1,31 @@
+{
+  "identity": {
+    "symbol": "USTECH",
+    "name": "Markets by Kinetiq USTECH Equity Index Perp",
+    "legacyId": 2965
+  },
+  "tracks": {
+    "underlying": "us-tech-equity-index",
+    "structure": "equity-perp"
+  },
+  "terms": {
+    "collateral": "usdh",
+    "pair": "USTECH-USDH"
+  },
+  "sources": {
+    "oracleProvider": "Kaiko / QQQ-derived index"
+  },
+  "about": {
+    "description": "Equity-index perpetual market tracking a U.S. technology-heavy public-equity benchmark. Users get synthetic index exposure rather than ownership of constituent shares. Pricing follows the market reference used by the km venue on Hyperliquid. Positions are margined and cash-settled in USDH. Markets are visible on Hyperliquid under the km namespace, but are operated by Markets by Kinetiq rather than listed as core Hyperliquid perps.",
+    "refLinks": [
+      "https://markets.xyz/join/llama"
+    ]
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

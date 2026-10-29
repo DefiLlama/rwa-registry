@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "SNDK-USD",
+    "name": "Ostium SanDisk Perp",
+    "legacyId": 3551
+  },
+  "tracks": {
+    "underlying": "sandisk-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "SNDK-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual on Ostium Labs tracking Sandisk Corporation (SNDK), with pricing referencing Stork / QUODD (24/5 equity feed). Users gain linear exposure to Sandisk Corporation share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Arbitrum.",
+    "refLinks": [
+      "https://app.ostium.com/trade?from=SNDK&to=USD&ref=6X17X"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "identity": {
+    "symbol": "GME_1-USD",
+    "name": "gTrade GME Perp",
+    "legacyId": 3575
+  },
+  "tracks": {
+    "underlying": "gamestop-corp",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "GME-USDC",
+    "makerFeeBps": 3,
+    "takerFeeBps": 3
+  },
+  "about": {
+    "description": "Single-stock perpetual on Gains Network tracking GameStop Corp. (GME), with pricing referencing Chainlink DON (24/5 equity feed). Users gain linear exposure to GameStop Corp. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC / DAI / WETH on Arbitrum / Polygon / Base."
+  }
+}

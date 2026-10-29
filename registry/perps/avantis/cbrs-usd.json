@@ -1,0 +1,28 @@
+{
+  "identity": {
+    "symbol": "CBRS-USD",
+    "name": "Avantis Cerebras Perp",
+    "legacyId": 3814
+  },
+  "tracks": {
+    "underlying": "cerebras-systems-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "CBRS-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual on Avantis (Base) tracking Cerebras Systems Inc. (NASDAQ: CBRS), USDC-margined. References equity oracle. Distinct from trade[XYZ] CBRS, Aster CBRS, and Lighter CBRS perps.",
+    "refLinks": [
+      "https://www.avantisfi.com/referral?code=DefiLlama"
+    ]
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

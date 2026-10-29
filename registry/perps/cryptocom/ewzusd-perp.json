@@ -1,0 +1,16 @@
+{
+  "identity": {
+    "symbol": "EWZUSD-PERP",
+    "legacyId": 7730
+  },
+  "tracks": {
+    "underlying": "ishares-msci-brazil-etf",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "pair": "EWZ-USD"
+  },
+  "about": {
+    "description": "EWZ is an exchange traded fund perpetual listed on Crypto.com, tracking iShares MSCI Brazil ETF, margined and cash-settled in USD. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 1h. Up to 50× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

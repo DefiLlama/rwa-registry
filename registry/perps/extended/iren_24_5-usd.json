@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "IREN_24_5-USD",
+    "name": "Extended IREN Perp",
+    "legacyId": 8605
+  },
+  "tracks": {
+    "underlying": "iren-limited",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "IREN-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual on Extended (formerly X10) tracking IREN Limited (IREN), with pricing referencing Extended oracle. Users gain linear exposure to IREN Limited share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Starknet.",
+    "refLinks": [
+      "https://app.extended.exchange/join/DEFILLAMAO"
+    ]
+  }
+}

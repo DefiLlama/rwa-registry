@@ -1,0 +1,20 @@
+{
+  "identity": {
+    "symbol": "XCU",
+    "legacyId": 4743
+  },
+  "tracks": {
+    "underlying": "copper",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "XCU-USD-PERP"
+  },
+  "about": {
+    "description": "XCU is a commodity perpetual on Paradex tracking Copper spot pricing. Paradex is a permissionless perp and options DEX operating on its own Starknet-based appchain (Paradex Chain / DimeVM), with zero-fee trading, unified cross-margin in USDC, and ZK-encrypted account privacy. The market is cash-settled in USDC.",
+    "refLinks": [
+      "0"
+    ]
+  }
+}

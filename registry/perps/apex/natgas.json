@@ -1,0 +1,27 @@
+{
+  "identity": {
+    "symbol": "NATGAS",
+    "legacyId": 3843
+  },
+  "tracks": {
+    "underlying": "natural-gas",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "NATGAS-USDC"
+  },
+  "about": {
+    "description": "Henry Hub Natural Gas (NATGAS) perpetual on ApeX Omni, USDC-margined.",
+    "refLinks": [
+      "https://omni.apex.exchange/referral?referralCode=T0S8V482"
+    ]
+  },
+  "events": [
+    {
+      "kind": "review",
+      "outcome": "suspicious",
+      "reason": null
+    }
+  ]
+}

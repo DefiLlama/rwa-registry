@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "NOW",
+    "name": "Aster ServiceNow Perp",
+    "legacyId": 4387
+  },
+  "tracks": {
+    "underlying": "servicenow-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "NOW-USDT"
+  },
+  "about": {
+    "description": "Single-stock perpetual market on Aster tracking ServiceNow, cash-settled.",
+    "refLinks": [
+      "https://www.asterdex.com/en/referral/c6eF10"
+    ]
+  }
+}

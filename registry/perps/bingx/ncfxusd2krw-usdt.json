@@ -1,0 +1,17 @@
+{
+  "identity": {
+    "symbol": "NCFXUSD2KRW-USDT",
+    "legacyId": 4991
+  },
+  "tracks": {
+    "underlying": "us-dollar-south-korean-won",
+    "structure": "forex-perps"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "USDKRW-USDT"
+  },
+  "about": {
+    "description": "USDKRW is a currency pair perpetual listed on BingX and tracking US Dollar / South Korean Won. The contract is cash settled in USDT and does not convey ownership or delivery of the underlying. Funding is exchanged every 8h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

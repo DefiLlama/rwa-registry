@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "CRWV",
+    "name": "Lighter CoreWeave Perp",
+    "legacyId": 3845
+  },
+  "tracks": {
+    "underlying": "coreweave-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "CRWV-USDC"
+  },
+  "about": {
+    "description": "CoreWeave (CRWV) perpetual on Lighter. Tracks the price of CoreWeave Inc. (NASDAQ: CRWV), an AI compute infrastructure company, USDC-margined.",
+    "refLinks": [
+      "https://app.lighter.xyz/trade/CRWV?referral=FHT1N8AYKHP4"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "identity": {
+    "symbol": "SPCX",
+    "name": "ApeX SpaceX Perp",
+    "legacyId": 3973
+  },
+  "tracks": {
+    "underlying": "space-exploration-technologies-corp",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "marginAsset": "USDT",
+    "pair": "SPCX-USD"
+  },
+  "sources": {
+    "oracleProvider": "Chainlink Data Streams"
+  },
+  "about": {
+    "description": "Single-stock perpetual market on ApeX tracking SpaceX (Space Exploration Technologies Corp.), publicly listed on Nasdaq (SPCX) since June 2026, cash-settled.",
+    "refLinks": [
+      "https://omni.apex.exchange/referral?referralCode=T0S8V482"
+    ],
+    "issuer": "ApeX Protocol"
+  }
+}

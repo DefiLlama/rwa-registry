@@ -1,0 +1,28 @@
+{
+  "identity": {
+    "symbol": "SEMI",
+    "name": "Markets by Kinetiq Semiconductors Perp",
+    "legacyId": 3278
+  },
+  "tracks": {
+    "underlying": "semiconductor-sector",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdh",
+    "pair": "SEMI-USDH"
+  },
+  "about": {
+    "description": "ETF perpetual market tracking Semiconductor Sector. Users get synthetic exposure to a listed fund rather than ownership of ETF shares or redemption rights in the fund, cash-settled in USDH on Markets by Kinetiq.",
+    "refLinks": [
+      "https://markets.xyz/join/llama"
+    ]
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

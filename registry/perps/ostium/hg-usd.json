@@ -1,0 +1,22 @@
+{
+  "identity": {
+    "symbol": "HG-USD",
+    "legacyId": 3043
+  },
+  "tracks": {
+    "underlying": "copper",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "HG-USD",
+    "makerFeeBps": 5,
+    "takerFeeBps": 5
+  },
+  "about": {
+    "description": "Copper perpetual on Ostium, cash-settled in USDC on Arbitrum.",
+    "refLinks": [
+      "https://app.ostium.com/trade?from=HG&to=USD&ref=6X17X"
+    ]
+  }
+}

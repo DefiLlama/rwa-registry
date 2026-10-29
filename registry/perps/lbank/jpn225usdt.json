@@ -1,0 +1,17 @@
+{
+  "identity": {
+    "symbol": "JPN225USDT",
+    "legacyId": 6473
+  },
+  "tracks": {
+    "underlying": "nikkei-225-stock-average",
+    "structure": "equity-index-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "JPN225-USDT"
+  },
+  "about": {
+    "description": "JPN225 is an index perpetual listed on LBank, tracking Nikkei 225 Stock Average, margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Up to 50× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

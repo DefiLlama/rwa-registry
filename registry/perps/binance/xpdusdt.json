@@ -1,0 +1,26 @@
+{
+  "identity": {
+    "symbol": "XPDUSDT",
+    "legacyId": 4936
+  },
+  "tracks": {
+    "underlying": "palladium",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "XPD-USDT"
+  },
+  "about": {
+    "description": "XPD is a commodity perpetual listed on Binance and tracking Palladium. The contract is cash settled in USDT against a Binance price index and does not convey ownership of the underlying. Funding is exchanged every 4h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  },
+  "events": [
+    {
+      "kind": "listing",
+      "date": "2026-01-30",
+      "links": [
+        "https://fapi.binance.com/fapi/v1/exchangeInfo"
+      ]
+    }
+  ]
+}

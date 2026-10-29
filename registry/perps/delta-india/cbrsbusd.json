@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "CBRSBUSD",
+    "legacyId": 5932
+  },
+  "tracks": {
+    "underlying": "cerebras-systems-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "pair": "CBRSB-USD",
+    "makerFeeBps": null,
+    "takerFeeBps": null
+  },
+  "about": {
+    "description": "CBRSB is a single-stock perpetual listed on Delta Exchange India, tracking Cerebras Systems Inc., margined and cash-settled in USD. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Delta Exchange India prices this market off the Binance bStock token for Cerebras Systems Inc., a tokenized representation of the listed shares rather than the shares themselves. Funding settles every 8h. Up to 25× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

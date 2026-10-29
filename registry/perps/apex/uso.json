@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "USO",
+    "name": "ApeX Omni US Oil Fund Perp",
+    "legacyId": 3749
+  },
+  "tracks": {
+    "underlying": "united-states-oil-fund-lp",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "USO-USDC"
+  },
+  "about": {
+    "description": "USO ETF (WTI proxy) perpetual on ApeX Omni, cash-settled in USDT.",
+    "refLinks": [
+      "https://omni.apex.exchange/referral?referralCode=T0S8V482"
+    ]
+  }
+}

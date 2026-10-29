@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "symbol": "HYG-USD",
+    "name": "Ostium HYG ETF Perp",
+    "legacyId": 3549
+  },
+  "tracks": {
+    "underlying": "ishares-iboxx-high-yield-corporate-bond-etf",
+    "structure": "bond-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "HYG-USDC",
+    "makerFeeBps": 5,
+    "takerFeeBps": 5
+  },
+  "about": {
+    "description": "Bond perpetual on Ostium Labs priced off the iShares iBoxx $ High Yield Corporate Bond ETF (HYG), a high-yield corporate bond ETF, with pricing referencing Stork / QUODD. Positions are margined and cash-settled in USDC on Arbitrum. Users get duration-and-credit exposure without holding ETF shares, accrued coupons, or distribution rights.",
+    "refLinks": [
+      "https://app.ostium.com/trade?from=HYG&to=USD&ref=6X17X"
+    ]
+  }
+}

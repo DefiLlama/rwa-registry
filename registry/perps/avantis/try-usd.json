@@ -1,0 +1,24 @@
+{
+  "identity": {
+    "symbol": "TRY-USD",
+    "legacyId": 3730
+  },
+  "tracks": {
+    "underlying": "turkish-lira",
+    "structure": "forex-perps"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "TRY-USDC"
+  },
+  "sources": {
+    "oracleProvider": "Pyth"
+  },
+  "about": {
+    "description": "Forex perpetual on Avantis (Base) referencing the Turkish Lira/USD exchange rate, cash-settled in USDC. Source: docs.avantisfi.com.",
+    "refLinks": [
+      "https://www.avantisfi.com/referral?code=DefiLlama"
+    ],
+    "website": "https://avantisfi.com/"
+  }
+}

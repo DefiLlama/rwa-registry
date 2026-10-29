@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "BE",
+    "name": "trade[XYZ] Bloom Energy Perp",
+    "legacyId": 4383
+  },
+  "tracks": {
+    "underlying": "bloom-energy-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "BE-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual market on trade[XYZ] tracking Bloom Energy, cash-settled.",
+    "refLinks": [
+      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
+    ]
+  }
+}

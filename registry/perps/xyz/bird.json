@@ -1,0 +1,20 @@
+{
+  "identity": {
+    "symbol": "BIRD",
+    "legacyId": 3288
+  },
+  "tracks": {
+    "underlying": "allbirds-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "BIRD-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual market tracking Allbirds, Inc. Users get linear exposure to Western Digital share-price moves without owning Allbirds, Inc. shares, shareholder rights, or dividend claims, cash-settled in USDC on trade[XYZ].",
+    "refLinks": [
+      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "F",
+    "name": "Variational Omni Ford Perp",
+    "legacyId": 4468
+  },
+  "tracks": {
+    "underlying": "synfutures",
+    "structure": "crypto-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "F-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual market on Variational Omni tracking Ford Motor Company, cash-settled."
+  }
+}

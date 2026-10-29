@@ -1,0 +1,17 @@
+{
+  "identity": {
+    "symbol": "NCSKHYUNDAI2USD-USDT",
+    "legacyId": 7474
+  },
+  "tracks": {
+    "underlying": "hyundai-motor-company",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "HYUNDAI-USDT"
+  },
+  "about": {
+    "description": "HYUNDAI is a single-stock perpetual listed on BingX, tracking Hyundai Motor Company, margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 4h. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

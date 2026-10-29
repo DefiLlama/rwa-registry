@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "GOOGL-USD",
+    "name": "GMTrade Alphabet Perp",
+    "legacyId": 3825
+  },
+  "tracks": {
+    "underlying": "alphabet-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "GOOGL-USDC"
+  },
+  "about": {
+    "description": "Alphabet (GOOGL) perpetual on GMTrade (Solana), USDC-margined.",
+    "refLinks": [
+      "https://gmtrade.xyz/referrals/?ref=545"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "WTI",
+    "name": "Lighter WTI Crude Oil Perp",
+    "legacyId": 3378
+  },
+  "tracks": {
+    "underlying": "crude-oil-wti",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "WTI-USDC"
+  },
+  "about": {
+    "description": "WTI crude oil perpetual market. The contract tracks West Texas Intermediate crude oil using a futures-based reference price. Users get linear oil price exposure only, without owning physical crude, inventory claims, or a deliverable futures position. Pricing uses a futures-based external reference via Lighter's fair price oracle. Positions are margined and cash-settled in USDC.",
+    "refLinks": [
+      "https://app.lighter.xyz/trade/WTI?referral=FHT1N8AYKHP4"
+    ]
+  }
+}

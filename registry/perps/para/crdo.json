@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "CRDO",
+    "name": "Paragon Credo Technology Group Perp",
+    "legacyId": 8789
+  },
+  "tracks": {
+    "underlying": "credo-technology-group-holding-ltd",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "CRDO-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual market tracking Credo Technology Group Holding Ltd (CRDO) on Paragon. Users get linear exposure to CRDO share-price moves without owning CRDO shares, shareholder rights, or dividend claims. HIP-3 builder-deployed market on Hyperliquid in the para namespace, cash-settled in USDC.",
+    "refLinks": [
+      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
+    ]
+  }
+}

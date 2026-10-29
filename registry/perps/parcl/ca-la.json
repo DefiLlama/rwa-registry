@@ -1,0 +1,25 @@
+{
+  "identity": {
+    "symbol": "CA-LA",
+    "name": "Parcl Los Angeles Perp",
+    "legacyId": 3088
+  },
+  "tracks": {
+    "underlying": "los-angeles-housing-index",
+    "structure": "real-estate-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "LA-USD"
+  },
+  "about": {
+    "description": "Los Angeles Housing Index perpetual on Parcl, cash-settled in USDC on Solana."
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "identity": {
+    "symbol": "NVDAXUSDT",
+    "name": "CoinEx NVIDIA Corp. Perp",
+    "legacyId": 7549
+  },
+  "tracks": {
+    "underlying": null,
+    "asset": "nvdax",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "NVDAX-USDT"
+  },
+  "about": {
+    "description": "NVDAX is a single-stock perpetual listed on CoinEx, tracking NVIDIA Corp., margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. CoinEx prices this market off the Backed xStock token for NVIDIA Corp., a tokenized representation of the listed shares rather than the shares themselves. Funding settles every 8h. Up to 20× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

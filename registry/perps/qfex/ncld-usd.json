@@ -1,0 +1,17 @@
+{
+  "identity": {
+    "symbol": "NCLD-USD",
+    "legacyId": 8929
+  },
+  "tracks": {
+    "underlying": "roundhill-neocloud-etf",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "NCLD-USD"
+  },
+  "about": {
+    "description": "Single-stock perpetual futures market on QFEX tracking Roundhill Neocloud ETF, quoted in USD, cross-margined in USDC and trading 24/7 with up to 10x leverage. QFEX is a hybrid central-limit-order-book exchange for traditional assets only; positions are cash-settled and confer no ownership, dividend or voting rights in the underlying. Reference prices are consumed from primary venues during the instrument's published reference-price hours and funding is zero outside them. Added 2026-08-19 from QFEX's own /refdata API, which reported 150 ACTIVE markets against the 141 in their published specification index. NCLD is the Roundhill Neocloud ETF, launched 2026-08-06, not a single company. It appears in QFEX's /refdata API as ACTIVE but not in their published specification index, which lists 141 markets against the API's 150."
+  }
+}

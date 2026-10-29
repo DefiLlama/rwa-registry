@@ -1,0 +1,31 @@
+{
+  "identity": {
+    "symbol": "USBOND",
+    "name": "Markets by Kinetiq U.S. Bond Perp",
+    "legacyId": 2971
+  },
+  "tracks": {
+    "underlying": "u-s-bond-benchmark",
+    "structure": "bond-perp"
+  },
+  "terms": {
+    "collateral": "usdh",
+    "pair": "USBOND-USDH"
+  },
+  "sources": {
+    "oracleProvider": "Kaiko / TLT-derived UST bond"
+  },
+  "about": {
+    "description": "Bond-linked perpetual market tracking a U.S. bond benchmark. The contract gives synthetic exposure to bond-market price moves without ownership of any Treasury, bond fund share, coupon stream, or redemption claim. Positions are margined and cash-settled in USDH. The market is visible on Hyperliquid under the km namespace, but it is operated by Markets by Kinetiq rather than listed as a core Hyperliquid perp.",
+    "refLinks": [
+      "https://markets.xyz/join/llama"
+    ]
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

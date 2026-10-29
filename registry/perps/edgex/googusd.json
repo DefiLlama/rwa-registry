@@ -1,0 +1,22 @@
+{
+  "identity": {
+    "symbol": "GOOGUSD",
+    "name": "edgeX Alphabet Perp",
+    "legacyId": 3387
+  },
+  "tracks": {
+    "underlying": "alphabet-inc-class-c",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "marginAsset": "USDT",
+    "pair": "GOOG-USD"
+  },
+  "about": {
+    "description": "Single-stock perpetual market tracking Alphabet Inc. (Class C, GOOG). Users get linear exposure to Alphabet share-price moves without owning Alphabet shares, shareholder rights, or dividend claims, with pricing referencing an external 24/5 equity feed via the Stork decentralized oracle. Positions are margined and cash-settled in USDT.",
+    "refLinks": [
+      "https://pro.edgex.exchange/referral/196451583"
+    ]
+  }
+}

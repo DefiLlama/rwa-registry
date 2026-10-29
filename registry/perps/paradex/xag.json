@@ -1,0 +1,20 @@
+{
+  "identity": {
+    "symbol": "XAG",
+    "legacyId": 4741
+  },
+  "tracks": {
+    "underlying": "silver",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "XAG-USD-PERP"
+  },
+  "about": {
+    "description": "XAG is a commodity perpetual on Paradex tracking Silver spot pricing. Paradex is a permissionless perp and options DEX operating on its own Starknet-based appchain (Paradex Chain / DimeVM), with zero-fee trading, unified cross-margin in USDC, and ZK-encrypted account privacy. The market is cash-settled in USDC.",
+    "refLinks": [
+      "0"
+    ]
+  }
+}

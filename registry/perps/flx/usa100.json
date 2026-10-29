@@ -1,0 +1,28 @@
+{
+  "identity": {
+    "symbol": "USA100",
+    "name": "Felix USA100 Equity Index Perp",
+    "legacyId": 3237
+  },
+  "tracks": {
+    "underlying": "nasdaq-100-index",
+    "structure": "equity-perp"
+  },
+  "terms": {
+    "collateral": "usdh",
+    "pair": "USA100-USDH"
+  },
+  "about": {
+    "description": "Equity-index perpetual market tracking Nasdaq-100 Index. Users get synthetic index exposure rather than ownership of constituent shares, cash-settled in USDH on Felix.",
+    "refLinks": [
+      "https://www.usefelix.xyz?ref=4BF702FF"
+    ]
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

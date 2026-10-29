@@ -1,0 +1,30 @@
+{
+  "identity": {
+    "symbol": "NIFTY",
+    "name": "trade[XYZ] Nifty 50 Perp",
+    "legacyId": 3748
+  },
+  "tracks": {
+    "underlying": "nifty-50-index",
+    "structure": "equity-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "marginAsset": "USDT",
+    "pair": "NIFTY-USDT"
+  },
+  "about": {
+    "description": "Nifty 50 (India) index perpetual on trade[XYZ]. HIP-3 deployer namespace on Hyperliquid, cash-settled in USDC.",
+    "refLinks": [
+      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
+    ],
+    "issuer": "trade[XYZ]"
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

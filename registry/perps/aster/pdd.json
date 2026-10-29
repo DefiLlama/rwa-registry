@@ -1,0 +1,30 @@
+{
+  "identity": {
+    "symbol": "PDD",
+    "name": "Aster PDD Holdings Perp",
+    "legacyId": 3707
+  },
+  "tracks": {
+    "underlying": "pdd-holdings-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "PDD-USDT",
+    "makerFeeBps": null,
+    "takerFeeBps": null
+  },
+  "about": {
+    "description": "Single-stock perpetual on Aster (YZi Labs-backed) tracking PDD Holdings (Pinduoduo) ADR, with pricing referencing Aster custom oracle (24/5 equity feed). Users gain linear exposure to share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USD1 on BNB Chain / Aster Chain.",
+    "refLinks": [
+      "https://www.asterdex.com/en/referral/c6eF10"
+    ]
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

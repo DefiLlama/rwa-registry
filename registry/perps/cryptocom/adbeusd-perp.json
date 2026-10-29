@@ -1,0 +1,16 @@
+{
+  "identity": {
+    "symbol": "ADBEUSD-PERP",
+    "legacyId": 7723
+  },
+  "tracks": {
+    "underlying": "adobe-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "pair": "ADBE-USD"
+  },
+  "about": {
+    "description": "ADBE is a single-stock perpetual listed on Crypto.com, tracking Adobe Inc., margined and cash-settled in USD. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 1h. Up to 50× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

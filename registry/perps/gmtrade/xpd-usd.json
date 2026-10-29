@@ -1,0 +1,20 @@
+{
+  "identity": {
+    "symbol": "XPD-USD",
+    "legacyId": 3835
+  },
+  "tracks": {
+    "underlying": "palladium",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "XPD-USDC"
+  },
+  "about": {
+    "description": "Palladium (XPD) perpetual on GMTrade (Solana), USDC-margined.",
+    "refLinks": [
+      "https://gmtrade.xyz/referrals/?ref=545"
+    ]
+  }
+}

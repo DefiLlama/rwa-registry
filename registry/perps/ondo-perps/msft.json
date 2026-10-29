@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "MSFT",
+    "name": "Ondo Perps Microsoft Perp",
+    "legacyId": 4034
+  },
+  "tracks": {
+    "underlying": "microsoft-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "MSFT-USD"
+  },
+  "about": {
+    "description": "Single-stock perpetual market on Ondo Perps tracking MICROSOFT CORP, cash-settled, 24/7, up to 10x leverage, hourly funding, launched 2026-06-09 (non-US users only). Verified live via adapter 2026-06-10.",
+    "refLinks": [
+      "https://app.ondoperps.xyz/trade/perps/MSFT-USD.P?ref=76ZCWB"
+    ]
+  }
+}

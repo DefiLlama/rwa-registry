@@ -1,0 +1,27 @@
+{
+  "identity": {
+    "symbol": "TTI-USDT",
+    "name": "Helix TradFi Tech Stock Index Perp (TTI)",
+    "legacyId": 3555
+  },
+  "tracks": {
+    "underlying": "tradfi-equity-index",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "TRADFI-USDT",
+    "makerFeeBps": 1,
+    "takerFeeBps": 7
+  },
+  "about": {
+    "description": "DELISTED 2026-05-26 (browser-verified). Helix TTI. Confirmed delisted. Browser shows \"No Items\" in search. Removed from Helix listings."
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

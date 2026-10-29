@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "MSFT",
+    "name": "ApeX Omni Microsoft Perp",
+    "legacyId": 3757
+  },
+  "tracks": {
+    "underlying": "microsoft-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "MSFT-USDC"
+  },
+  "about": {
+    "description": "Microsoft (NASDAQ:MSFT) stock perpetual on ApeX Omni, cash-settled in USDT.",
+    "refLinks": [
+      "https://omni.apex.exchange/referral?referralCode=T0S8V482"
+    ]
+  }
+}

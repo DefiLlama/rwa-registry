@@ -1,0 +1,25 @@
+{
+  "identity": {
+    "symbol": "USDMXN-USD",
+    "name": "Avantis USDMXN Perp",
+    "legacyId": 3866
+  },
+  "tracks": {
+    "underlying": "us-dollar-mexican-peso",
+    "structure": "forex-perps"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "USDMXN-USDC"
+  },
+  "sources": {
+    "oracleProvider": "Pyth"
+  },
+  "about": {
+    "description": "USDMXN perpetual on Avantis (Base), USDC-margined. Verified live 2026-05-20.",
+    "refLinks": [
+      "https://www.avantisfi.com/referral?code=DefiLlama"
+    ],
+    "website": "https://avantisfi.com/"
+  }
+}

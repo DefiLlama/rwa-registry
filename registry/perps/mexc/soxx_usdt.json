@@ -1,0 +1,17 @@
+{
+  "identity": {
+    "symbol": "SOXX_USDT",
+    "legacyId": 5465
+  },
+  "tracks": {
+    "underlying": "ishares-semiconductor-etf",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "SOXX-USDT"
+  },
+  "about": {
+    "description": "SOXX is an exchange traded fund perpetual listed on MEXC and tracking iShares Semiconductor ETF. The contract is cash settled in USDT and does not convey ownership or redemption rights in the underlying. Funding is exchanged every 8h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

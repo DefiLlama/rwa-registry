@@ -1,0 +1,26 @@
+{
+  "identity": {
+    "symbol": "GER40_USDT",
+    "legacyId": 6243
+  },
+  "tracks": {
+    "underlying": "dax-40-index",
+    "structure": "equity-index-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "GER40-USDT"
+  },
+  "about": {
+    "description": "GER40 is an index perpetual listed on Gate, tracking DAX 40 Index, margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Up to 50× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  },
+  "events": [
+    {
+      "kind": "listing",
+      "date": "2026-03-03",
+      "links": [
+        "https://api.gateio.ws/api/v4/futures/usdt/contracts"
+      ]
+    }
+  ]
+}

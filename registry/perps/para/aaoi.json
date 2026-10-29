@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "AAOI",
+    "name": "Paragon Applied Optoelectronics Perp",
+    "legacyId": 8784
+  },
+  "tracks": {
+    "underlying": "applied-optoelectronics-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "AAOI-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual market tracking Applied Optoelectronics, Inc. (AAOI) on Paragon. Users get linear exposure to AAOI share-price moves without owning AAOI shares, shareholder rights, or dividend claims. HIP-3 builder-deployed market on Hyperliquid in the para namespace, cash-settled in USDC.",
+    "refLinks": [
+      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
+    ]
+  }
+}

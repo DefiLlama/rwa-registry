@@ -1,0 +1,24 @@
+{
+  "identity": {
+    "symbol": "KIOXIA",
+    "name": "trade[XYZ] Kioxia Perp",
+    "legacyId": 3257
+  },
+  "tracks": {
+    "underlying": "kioxia-holdings-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "KIOXIA-USDC"
+  },
+  "sources": {
+    "oracleProvider": "Pyth equity feed"
+  },
+  "about": {
+    "description": "Single-stock perpetual market tracking Kioxia. Users get linear exposure to Kioxia share-price moves without owning Kioxia shares, shareholder rights, or dividend claims, cash-settled in USDC on trade[XYZ].",
+    "refLinks": [
+      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
+    ]
+  }
+}

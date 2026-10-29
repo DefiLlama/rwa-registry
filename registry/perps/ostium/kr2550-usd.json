@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "symbol": "KR2550-USD",
+    "name": "Ostium KOSPI 200 Perp",
+    "legacyId": 3541
+  },
+  "tracks": {
+    "underlying": "kospi-200-index",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "KR200-USDC",
+    "makerFeeBps": 5,
+    "takerFeeBps": 5
+  },
+  "about": {
+    "description": "Equity-index perpetual on Ostium Labs tracking KOSPI 200 Index (KR200), with pricing referencing Stork / QUODD. Users gain linear exposure to the index level without holding any underlying constituent stocks or futures. Positions are margined and cash-settled in USDC on Arbitrum.",
+    "refLinks": [
+      "https://app.ostium.com/trade?from=KR2550&to=USD&ref=6X17X"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "symbol": "DAX-EUR",
+    "name": "Ostium DAX Perp",
+    "legacyId": 3539
+  },
+  "tracks": {
+    "underlying": "dax-40-index",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "DAX-USDC",
+    "makerFeeBps": 3,
+    "takerFeeBps": 3
+  },
+  "about": {
+    "description": "Equity-index perpetual on Ostium Labs tracking DAX Index (DAX), with pricing referencing Stork / QUODD. Users gain linear exposure to the index level without holding any underlying constituent stocks or futures. Positions are margined and cash-settled in USDC on Arbitrum.",
+    "refLinks": [
+      "https://app.ostium.com/trade?from=DAX&to=EUR&ref=6X17X"
+    ]
+  }
+}

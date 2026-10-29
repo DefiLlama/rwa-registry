@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "DRAM",
+    "name": "Variational Omni Roundhill Memory ETF Perp",
+    "legacyId": 4421
+  },
+  "tracks": {
+    "underlying": "roundhill-memory-etf",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "DRAM-USDC"
+  },
+  "about": {
+    "description": "Perpetual market on Variational Omni tracking Roundhill Memory ETF, cash-settled."
+  }
+}

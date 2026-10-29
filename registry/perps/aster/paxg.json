@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "symbol": "PAXG",
+    "name": "Aster Pax Gold Perp",
+    "legacyId": 3706
+  },
+  "tracks": {
+    "asset": "paxg",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "PAXG-USDT",
+    "makerFeeBps": 1,
+    "takerFeeBps": 3.5
+  },
+  "about": {
+    "description": "Pax Gold perpetual on Aster, settled in USD1 on Aster Chain.",
+    "refLinks": [
+      "https://www.asterdex.com/en/referral/c6eF10"
+    ]
+  }
+}

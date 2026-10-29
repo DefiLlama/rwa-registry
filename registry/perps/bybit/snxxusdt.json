@@ -1,0 +1,26 @@
+{
+  "identity": {
+    "symbol": "SNXXUSDT",
+    "legacyId": 5280
+  },
+  "tracks": {
+    "underlying": "tradr-2x-long-sndk-daily-etf",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "SNXX-USDT"
+  },
+  "about": {
+    "description": "SNXX is an exchange traded fund perpetual listed on Bybit and tracking Tradr 2X Long SNDK Daily ETF. The contract is cash settled in USDT and does not convey ownership or redemption rights in the underlying. Funding is exchanged every 8h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  },
+  "events": [
+    {
+      "kind": "listing",
+      "date": "2026-07-14",
+      "links": [
+        "https://api.bybit.com/v5/market/instruments-info?category=linear"
+      ]
+    }
+  ]
+}

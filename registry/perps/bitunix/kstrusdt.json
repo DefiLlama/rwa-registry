@@ -1,0 +1,17 @@
+{
+  "identity": {
+    "symbol": "KSTRUSDT",
+    "legacyId": 5247
+  },
+  "tracks": {
+    "underlying": "kraneshares-china-technology-semiconductor-star-50-index-etf",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "KSTR-USDT"
+  },
+  "about": {
+    "description": "KSTR is an exchange traded fund perpetual listed on Bitunix and tracking KraneShares China Technology & Semiconductor STAR 50 Index ETF. The contract is cash settled in USDT and does not convey ownership or redemption rights in the underlying. Funding is exchanged every 8h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

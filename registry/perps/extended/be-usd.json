@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "BE-USD",
+    "name": "Extended Bloom Energy Perp",
+    "legacyId": 8586
+  },
+  "tracks": {
+    "underlying": "bloom-energy-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "BE-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual on Extended (formerly X10) tracking Bloom Energy Corporation (BE), with pricing referencing Extended oracle. Users gain linear exposure to Bloom Energy Corporation share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Starknet.",
+    "refLinks": [
+      "https://app.extended.exchange/join/DEFILLAMAO"
+    ]
+  }
+}

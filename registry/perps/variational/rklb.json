@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "RKLB",
+    "name": "Variational Omni Rocket Lab Perp",
+    "legacyId": 4410
+  },
+  "tracks": {
+    "underlying": "rocket-lab-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "RKLB-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual market on Variational Omni tracking Rocket Lab, cash-settled."
+  }
+}

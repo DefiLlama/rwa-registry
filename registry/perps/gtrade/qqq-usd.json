@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "QQQ-USD",
+    "name": "gTrade QQQ Perp",
+    "legacyId": 3585
+  },
+  "tracks": {
+    "underlying": "invesco-qqq-trust-series-1",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "QQQ-USDC"
+  },
+  "about": {
+    "description": "Equity-index perpetual on Gains Network tracking Invesco QQQ Trust (QQQ), with pricing referencing Chainlink DON. Users gain linear exposure to the index level without holding any underlying constituent stocks or futures. Positions are margined and cash-settled in USDC / DAI / WETH on Arbitrum / Polygon / Base."
+  }
+}

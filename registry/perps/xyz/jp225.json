@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "JP225",
+    "name": "trade[XYZ] Nikkei 225 Perp",
+    "legacyId": 3255
+  },
+  "tracks": {
+    "underlying": "nikkei-225-stock-average",
+    "structure": "equity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "JP225-USDC"
+  },
+  "about": {
+    "description": "Equity-index perpetual market tracking Nikkei 225 Index. Users get synthetic index exposure rather than ownership of constituent shares, cash-settled in USDC on trade[XYZ].",
+    "refLinks": [
+      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
+    ]
+  }
+}

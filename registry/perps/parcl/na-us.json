@@ -1,0 +1,25 @@
+{
+  "identity": {
+    "symbol": "NA-US",
+    "name": "Parcl US National Real Estate Perp",
+    "legacyId": 3884
+  },
+  "tracks": {
+    "underlying": "us-national-real-estate-index",
+    "structure": "real-estate-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "NA-US-USDC"
+  },
+  "about": {
+    "description": "US national real estate sales price index perpetual on Parcl. Tracks median price/sqft across all US metros. Verified live 2026-05-20."
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

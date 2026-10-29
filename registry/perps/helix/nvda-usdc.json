@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "NVDA-USDC",
+    "name": "Helix NVIDIA Perp",
+    "legacyId": 3074
+  },
+  "tracks": {
+    "underlying": "nvidia-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "NVDA-USDT"
+  },
+  "about": {
+    "description": "NVIDIA perpetual on Helix (Injective), cash-settled in USDT."
+  }
+}

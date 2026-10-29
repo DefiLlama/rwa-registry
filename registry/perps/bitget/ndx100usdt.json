@@ -1,0 +1,24 @@
+{
+  "identity": {
+    "symbol": "NDX100USDT",
+    "legacyId": 6731
+  },
+  "tracks": {
+    "underlying": "nasdaq-100-index",
+    "structure": "equity-index-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "NDX100-USDT"
+  },
+  "about": {
+    "description": "NDX100 is an index perpetual listed on Bitget, tracking Nasdaq-100 Index, margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Up to 50× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "XAUS",
+    "name": "Variational Gold Spot Swap",
+    "legacyId": 9142
+  },
+  "tracks": {
+    "underlying": "gold",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "XAUS-USDC"
+  },
+  "about": {
+    "description": "Cash-settled swap on Variational Omni tracking the spot price of gold (XAU/USD), priced off Variational Omni's OLP-aggregated mid-quotes. Unlike the venue's perpetual markets this contract pays no periodic funding — the cost of carry is quoted into the bid/ask spread instead. Positions are margined and cash-settled in USDC on Arbitrum."
+  }
+}

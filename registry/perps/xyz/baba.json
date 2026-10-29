@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "BABA",
+    "name": "trade[XYZ] Alibaba Perp",
+    "legacyId": 3246
+  },
+  "tracks": {
+    "underlying": "alibaba-group-holding-limited",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "BABA-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual market tracking Alibaba. Users get linear exposure to Alibaba share-price moves without owning Alibaba shares, shareholder rights, or dividend claims, cash-settled in USDC on trade[XYZ].",
+    "refLinks": [
+      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
+    ]
+  }
+}

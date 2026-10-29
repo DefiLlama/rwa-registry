@@ -1,0 +1,25 @@
+{
+  "identity": {
+    "symbol": "NA-US-RENT",
+    "name": "Parcl US National Rental Real Estate Perp",
+    "legacyId": 3885
+  },
+  "tracks": {
+    "underlying": "us-national-rental-index",
+    "structure": "real-estate-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "NA-US-RENT-USDC"
+  },
+  "about": {
+    "description": "US national rental price index perpetual on Parcl. Verified live 2026-05-20."
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

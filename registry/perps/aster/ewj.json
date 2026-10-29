@@ -1,0 +1,22 @@
+{
+  "identity": {
+    "symbol": "EWJ",
+    "legacyId": 4462
+  },
+  "tracks": {
+    "underlying": "ishares-msci-japan-etf",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "EWJ-USDT",
+    "makerFeeBps": null,
+    "takerFeeBps": null
+  },
+  "about": {
+    "description": "Perpetual on Aster (YZi Labs-backed) tracking the iShares MSCI Japan ETF, with pricing referencing Aster custom oracle (24/5 equity feed), margined and cash-settled in USDT.",
+    "refLinks": [
+      "https://www.asterdex.com/en/referral/c6eF10"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "STRC",
+    "name": "Aster Strategy STRC Perp",
+    "legacyId": 4557
+  },
+  "tracks": {
+    "underlying": "strategy-inc-strc-stretch-preferred-stock",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "STRC-USDT"
+  },
+  "about": {
+    "description": "Single-stock perpetual on Aster tracking Strategy Inc. STRC Stretch Preferred Stock. Users get linear exposure to the underlying without owning shares. Cash-settled in USDT."
+  }
+}

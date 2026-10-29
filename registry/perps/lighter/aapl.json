@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "AAPL",
+    "name": "Lighter Apple Perp",
+    "legacyId": 3344
+  },
+  "tracks": {
+    "underlying": "apple-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "AAPL-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual market tracking Apple Inc. Users get linear exposure to Apple share-price moves without owning Apple shares, shareholder rights, or dividend claims, with pricing referencing an external 24/5 equity feed via Lighter's fair price oracle. Positions are margined and cash-settled in USDC.",
+    "refLinks": [
+      "https://app.lighter.xyz/trade/AAPL?referral=FHT1N8AYKHP4"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "identity": {
+    "symbol": "PF_PAXGUSD",
+    "name": "Kraken Pax Gold Perp",
+    "legacyId": 5065
+  },
+  "tracks": {
+    "asset": "paxg",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "pair": "PAXG-USD"
+  },
+  "sources": {
+    "oracleProvider": "Kraken Real Time Index from crypto spot markets"
+  },
+  "about": {
+    "description": "PAXG is a commodity perpetual listed on Kraken and tracking Pax Gold. The contract is cash settled in USD and does not convey ownership or delivery of the underlying. Funding is exchanged every 1h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

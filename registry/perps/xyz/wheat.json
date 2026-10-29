@@ -1,0 +1,30 @@
+{
+  "identity": {
+    "symbol": "WHEAT",
+    "legacyId": 3267
+  },
+  "tracks": {
+    "underlying": "wheat",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "WHEAT-USDC"
+  },
+  "sources": {
+    "oracleProvider": "Pyth / futures-based external reference methodology"
+  },
+  "about": {
+    "description": "Wheat perpetual market. The contract tracks Wheat price using the venue's reference methodology. Users get linear commodity-price exposure only, without title to physical inventory or delivery rights, cash-settled in USDC on trade[XYZ].",
+    "refLinks": [
+      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
+    ]
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

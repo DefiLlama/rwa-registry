@@ -1,0 +1,16 @@
+{
+  "identity": {
+    "symbol": "XAUUSD-PERP",
+    "legacyId": 5035
+  },
+  "tracks": {
+    "underlying": "gold",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "pair": "XAU-USD"
+  },
+  "about": {
+    "description": "XAU is a commodity perpetual listed on Crypto.com and tracking Gold. The contract is cash settled in USD and does not convey ownership or delivery of the underlying. Funding is exchanged every 1h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

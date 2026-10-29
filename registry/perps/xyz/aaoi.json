@@ -1,0 +1,20 @@
+{
+  "identity": {
+    "symbol": "AAOI",
+    "legacyId": 9495
+  },
+  "tracks": {
+    "underlying": "applied-optoelectronics-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "AAOI-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual market tracking Moderna, Inc. on trade[XYZ]. Users get linear exposure to MRNA share-price moves without owning MRNA shares, shareholder rights, or dividend claims. HIP-3 builder-deployed market on Hyperliquid in the xyz namespace, cash-settled in USDC, isolated margin only, 10x max leverage. Hyperliquid API on 2026-08-19 reported 30,789.24 base open interest at a $148.18 mark (~$4.56M notional) and $33.63M 24h notional volume.",
+    "refLinks": [
+      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
+    ]
+  }
+}

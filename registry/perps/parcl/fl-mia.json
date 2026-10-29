@@ -1,0 +1,25 @@
+{
+  "identity": {
+    "symbol": "FL-MIA",
+    "name": "Parcl Miami Perp",
+    "legacyId": 3089
+  },
+  "tracks": {
+    "underlying": "miami-housing-index",
+    "structure": "real-estate-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "MIA-USD"
+  },
+  "about": {
+    "description": "Miami Housing Index perpetual on Parcl, cash-settled in USDC on Solana."
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

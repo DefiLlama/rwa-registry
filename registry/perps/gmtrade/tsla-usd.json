@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "TSLA-USD",
+    "name": "GMTrade Tesla Perp",
+    "legacyId": 3832
+  },
+  "tracks": {
+    "underlying": "tesla-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "TSLA-USDC"
+  },
+  "about": {
+    "description": "Tesla (TSLA) perpetual on GMTrade (Solana), USDC-margined.",
+    "refLinks": [
+      "https://gmtrade.xyz/referrals/?ref=545"
+    ]
+  }
+}

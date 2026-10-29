@@ -1,0 +1,22 @@
+{
+  "identity": {
+    "symbol": "XPT-USD",
+    "legacyId": 3543
+  },
+  "tracks": {
+    "underlying": "platinum",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "XPT-USDC",
+    "makerFeeBps": 5,
+    "takerFeeBps": 5
+  },
+  "about": {
+    "description": "Precious-metals perpetual on Ostium Labs tracking Platinum (XPT), with pricing referencing Stork / QUODD. Users gain linear exposure to spot platinum without holding bullion or warrant claims. Positions are margined and cash-settled in USDC on Arbitrum.",
+    "refLinks": [
+      "https://app.ostium.com/trade?from=XPT&to=USD&ref=6X17X"
+    ]
+  }
+}

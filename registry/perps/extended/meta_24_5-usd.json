@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "META_24_5-USD",
+    "name": "Extended Meta Perp",
+    "legacyId": 3144
+  },
+  "tracks": {
+    "underlying": "meta-platforms-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "META-USD"
+  },
+  "about": {
+    "description": "Meta perpetual on Extended on Starknet, cash-settled in USDC.",
+    "refLinks": [
+      "https://app.extended.exchange/join/DEFILLAMAO"
+    ]
+  }
+}

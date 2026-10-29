@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "NVDA",
+    "name": "Variational Omni NVIDIA Perp",
+    "legacyId": 4408
+  },
+  "tracks": {
+    "underlying": "nvidia-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "NVDA-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual market on Variational Omni tracking NVIDIA, cash-settled."
+  }
+}

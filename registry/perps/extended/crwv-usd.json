@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "CRWV-USD",
+    "name": "Extended CoreWeave Perp",
+    "legacyId": 8595
+  },
+  "tracks": {
+    "underlying": "coreweave-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "CRWV-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual on Extended (formerly X10) tracking CoreWeave, Inc. (CRWV), with pricing referencing Extended oracle. Users gain linear exposure to CoreWeave, Inc. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Starknet.",
+    "refLinks": [
+      "https://app.extended.exchange/join/DEFILLAMAO"
+    ]
+  }
+}

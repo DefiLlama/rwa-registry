@@ -1,0 +1,28 @@
+{
+  "identity": {
+    "symbol": "POPMARTUSDT",
+    "legacyId": 4887
+  },
+  "tracks": {
+    "underlying": "pop-mart-international-group-limited",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "POPMART-USDT",
+    "makerFeeBps": 0,
+    "takerFeeBps": 4
+  },
+  "about": {
+    "description": "POPMART is a single-stock perpetual listed on Binance and tracking Pop Mart International Group Limited. The contract is cash settled in USDT against a Binance price index and does not convey ownership of the underlying. Funding is exchanged every 8h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  },
+  "events": [
+    {
+      "kind": "listing",
+      "date": "2026-07-23",
+      "links": [
+        "https://fapi.binance.com/fapi/v1/exchangeInfo"
+      ]
+    }
+  ]
+}

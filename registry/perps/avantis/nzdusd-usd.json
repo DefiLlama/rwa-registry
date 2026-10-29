@@ -1,0 +1,25 @@
+{
+  "identity": {
+    "symbol": "NZDUSD-USD",
+    "name": "Avantis NZDUSD Perp",
+    "legacyId": 3862
+  },
+  "tracks": {
+    "underlying": "new-zealand-dollar",
+    "structure": "forex-perps"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "NZDUSD-USDC"
+  },
+  "sources": {
+    "oracleProvider": "Pyth"
+  },
+  "about": {
+    "description": "NZDUSD perpetual on Avantis (Base), USDC-margined. Verified live 2026-05-20.",
+    "refLinks": [
+      "https://www.avantisfi.com/referral?code=DefiLlama"
+    ],
+    "website": "https://avantisfi.com/"
+  }
+}

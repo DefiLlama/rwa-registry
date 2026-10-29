@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "HOOD",
+    "name": "ApeX Omni Robinhood Perp",
+    "legacyId": 3762
+  },
+  "tracks": {
+    "underlying": "robinhood-markets-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "HOOD-USDC"
+  },
+  "about": {
+    "description": "Robinhood (NASDAQ:HOOD) stock perpetual on ApeX Omni, cash-settled in USDT.",
+    "refLinks": [
+      "https://omni.apex.exchange/referral?referralCode=T0S8V482"
+    ]
+  }
+}

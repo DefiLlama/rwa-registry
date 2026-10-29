@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "EWY_24_5-USD",
+    "name": "Extended EWY ETF Perp",
+    "legacyId": 3138
+  },
+  "tracks": {
+    "underlying": "ishares-msci-south-korea-etf",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "EWY-USD"
+  },
+  "about": {
+    "description": "iShares MSCI South Korea ETF perpetual on Extended on Starknet, cash-settled in USDC.",
+    "refLinks": [
+      "https://app.extended.exchange/join/DEFILLAMAO"
+    ]
+  }
+}

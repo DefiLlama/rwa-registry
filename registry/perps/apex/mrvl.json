@@ -1,0 +1,26 @@
+{
+  "identity": {
+    "symbol": "MRVL",
+    "name": "ApeX Marvell Perp",
+    "legacyId": 3970
+  },
+  "tracks": {
+    "underlying": "marvell-technology-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "marginAsset": "USDT",
+    "pair": "MRVL-USD"
+  },
+  "sources": {
+    "oracleProvider": "Chainlink Data Streams"
+  },
+  "about": {
+    "description": "Single-stock perpetual market on ApeX tracking Marvell Technology Inc, cash-settled.",
+    "refLinks": [
+      "https://omni.apex.exchange/referral?referralCode=T0S8V482"
+    ],
+    "issuer": "ApeX Protocol"
+  }
+}

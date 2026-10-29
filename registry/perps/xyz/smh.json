@@ -1,0 +1,20 @@
+{
+  "identity": {
+    "symbol": "SMH",
+    "legacyId": 4400
+  },
+  "tracks": {
+    "underlying": "vaneck-semiconductor-etf",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "SMH-USDC"
+  },
+  "about": {
+    "description": "Perpetual market on trade[XYZ] tracking VanEck Semiconductor ETF, cash-settled.",
+    "refLinks": [
+      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
+    ]
+  }
+}

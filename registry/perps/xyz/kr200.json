@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "KR200",
+    "name": "trade[XYZ] KOSPI 200 Perp",
+    "legacyId": 3253
+  },
+  "tracks": {
+    "underlying": "kospi-200-index",
+    "structure": "equity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "KR200-USDC"
+  },
+  "about": {
+    "description": "Equity-index perpetual market tracking KOSPI 200 Index. Users get synthetic index exposure rather than ownership of constituent shares, cash-settled in USDC on trade[XYZ].",
+    "refLinks": [
+      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
+    ]
+  }
+}

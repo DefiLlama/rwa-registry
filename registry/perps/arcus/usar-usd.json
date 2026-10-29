@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "USAR-USD",
+    "name": "Arcus USA Rare Earth Perp",
+    "legacyId": 4546
+  },
+  "tracks": {
+    "underlying": "usa-rare-earth-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdg",
+    "pair": "USAR-USDG"
+  },
+  "about": {
+    "description": "Arcus perpetual market tracking USA Rare Earth, Inc. (NASDAQ: USAR) with 24/7 exposure to the underlying rare-earths mining and refining stock. Total-return tracking (dividends, splits, and futures rolls passed through funding), cash-settled in USDG on the Arcus off-chain CLOB with permissioned appchain re-verification and EVM rootchain custody.",
+    "refLinks": [
+      "https://app.arcus.xyz/ref/DEFILLAMA"
+    ]
+  }
+}

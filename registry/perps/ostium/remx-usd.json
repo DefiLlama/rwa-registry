@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "symbol": "REMX-USD",
+    "name": "Ostium REMX ETF Perp",
+    "legacyId": 4440
+  },
+  "tracks": {
+    "underlying": "vaneck-rare-earth-and-strategic-metals-etf",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "REMX-USDC",
+    "makerFeeBps": 5,
+    "takerFeeBps": 5
+  },
+  "about": {
+    "description": "ETF perpetual on Ostium Labs tracking VanEck Rare Earth and Strategic Metals ETF (REMX), with pricing referencing Stork / QUODD. Positions are margined and cash-settled in USDC on Arbitrum.",
+    "refLinks": [
+      "https://app.ostium.com/trade?from=REMX&to=USD&ref=6X17X"
+    ]
+  }
+}

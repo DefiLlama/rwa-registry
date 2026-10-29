@@ -1,0 +1,27 @@
+{
+  "identity": {
+    "symbol": "RTX_USDT",
+    "name": "Gate RTX Corp. Perp",
+    "legacyId": 7049
+  },
+  "tracks": {
+    "underlying": "rtx-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "RTX-USDT"
+  },
+  "about": {
+    "description": "RTX is a single-stock perpetual listed on Gate, tracking RTX Corp., margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Gate prices this market off the Backed xStock token for RTX Corp., a tokenized representation of the listed shares rather than the shares themselves. Funding settles every 8h. Up to 25× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  },
+  "events": [
+    {
+      "kind": "listing",
+      "date": "2026-03-03",
+      "links": [
+        "https://api.gateio.ws/api/v4/futures/usdt/contracts"
+      ]
+    }
+  ]
+}

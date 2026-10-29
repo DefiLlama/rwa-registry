@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "AMZN-USD",
+    "name": "Avantis Amazon Perp",
+    "legacyId": 3065
+  },
+  "tracks": {
+    "underlying": "amazon-com-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "AMZN-USD"
+  },
+  "about": {
+    "description": "Amazon perpetual on Avantis, cash-settled in USDC on Base.",
+    "refLinks": [
+      "https://www.avantisfi.com/referral?code=DefiLlama"
+    ]
+  }
+}

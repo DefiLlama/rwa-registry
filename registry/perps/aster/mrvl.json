@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "symbol": "MRVL",
+    "name": "Aster Marvell Perp",
+    "legacyId": 3903
+  },
+  "tracks": {
+    "underlying": "marvell-technology-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "MRVL-USDT",
+    "makerFeeBps": null,
+    "takerFeeBps": null
+  },
+  "about": {
+    "description": "Perpetual market on Aster tracking Marvell Technology Inc. (MRVL), cash-settled in crypto. Asset Class: Stock Perp. (Original record. Delisted in favor of the refreshed market.)",
+    "refLinks": [
+      "https://www.asterdex.com/en/referral/c6eF10"
+    ]
+  }
+}

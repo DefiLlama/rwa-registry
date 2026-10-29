@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "NET",
+    "name": "Paragon Cloudflare Perp",
+    "legacyId": 8793
+  },
+  "tracks": {
+    "underlying": "cloudflare-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "NET-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual market tracking Cloudflare, Inc. (NET) on Paragon. Users get linear exposure to NET share-price moves without owning NET shares, shareholder rights, or dividend claims. HIP-3 builder-deployed market on Hyperliquid in the para namespace, cash-settled in USDC.",
+    "refLinks": [
+      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
+    ]
+  }
+}

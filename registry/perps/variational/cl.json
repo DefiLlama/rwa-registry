@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "CL",
+    "name": "Variational Omni WTI Crude Oil Perp",
+    "legacyId": 3810
+  },
+  "tracks": {
+    "underlying": "crude-oil-wti",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "CL-USDC"
+  },
+  "about": {
+    "description": "WTI Crude Oil (CL futures) perpetual on Variational Omni (Arbitrum), USDC-margined RFQ perpetual quoted by the single Omni Liquidity Provider (OLP), which aggregates pricing from CEXs/DEXs/AMMs/OTC venues. Tracks the NYMEX WTI Crude Oil front-month contract price, with up to 50x leverage, with zero trading fees, with OLP capturing spread, cash-settled in USDC on Arbitrum, permissionless access, self-custody margin. Positions sit in an isolated onchain escrow with pre-defined margin and liquidation rules."
+  }
+}

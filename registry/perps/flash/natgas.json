@@ -1,0 +1,27 @@
+{
+  "identity": {
+    "symbol": "NATGAS",
+    "legacyId": 3118
+  },
+  "tracks": {
+    "underlying": "natural-gas",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "NATGAS-USD"
+  },
+  "about": {
+    "description": "Natural Gas perpetual on Flash Trade, cash-settled in USDC on Solana. Delisted 2026-09-08: Flash Trade entered an orderly wind-down (deadline 2026-09-02). Protocol-wide OI $36k; all RWA markets at zero long and short; dailyVolumeInUsd 0.",
+    "refLinks": [
+      "https://www.flash.trade/?referral=defillama"
+    ]
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

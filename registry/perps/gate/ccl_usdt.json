@@ -1,0 +1,27 @@
+{
+  "identity": {
+    "symbol": "CCL_USDT",
+    "name": "Gate Carnival Corp. Perp",
+    "legacyId": 5938
+  },
+  "tracks": {
+    "underlying": "carnival-corporation-ltd",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "CCL-USDT"
+  },
+  "about": {
+    "description": "CCL is a single-stock perpetual listed on Gate, tracking Carnival Corp., margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Up to 20× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  },
+  "events": [
+    {
+      "kind": "listing",
+      "date": "2026-07-02",
+      "links": [
+        "https://api.gateio.ws/api/v4/futures/usdt/contracts"
+      ]
+    }
+  ]
+}

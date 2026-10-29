@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "BB-USD",
+    "name": "Ostium BlackBerry Perp",
+    "legacyId": 3982
+  },
+  "tracks": {
+    "underlying": "blackberry-limited",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "BB-USD"
+  },
+  "about": {
+    "description": "Single-stock perpetual market on Ostium tracking BlackBerry Limited, cash-settled.",
+    "refLinks": [
+      "https://app.ostium.com/trade?from=BB&to=USD&ref=6X17X"
+    ]
+  }
+}

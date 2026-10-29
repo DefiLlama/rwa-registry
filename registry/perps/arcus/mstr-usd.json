@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "MSTR-USD",
+    "name": "Arcus Strategy Perp",
+    "legacyId": 8651
+  },
+  "tracks": {
+    "underlying": "strategy-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdg",
+    "pair": "MSTR-USDG"
+  },
+  "about": {
+    "description": "Arcus perpetual market tracking Strategy Inc. (NASDAQ: MSTR) with 24/7 exposure to the underlying bitcoin treasury and enterprise software company. Total-return tracking (dividends, splits, and futures rolls passed through funding), cash-settled in USDG on the Arcus off-chain CLOB with permissioned appchain re-verification and EVM rootchain custody.",
+    "refLinks": [
+      "https://app.arcus.xyz/ref/DEFILLAMA"
+    ]
+  }
+}

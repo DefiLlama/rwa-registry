@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "MU-USD",
+    "name": "Ostium Micron Perp",
+    "legacyId": 3550
+  },
+  "tracks": {
+    "underlying": "micron-technology-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "MU-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual on Ostium Labs tracking Micron Technology, Inc. (MU), with pricing referencing Stork / QUODD (24/5 equity feed). Users gain linear exposure to Micron Technology, Inc. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Arbitrum.",
+    "refLinks": [
+      "https://app.ostium.com/trade?from=MU&to=USD&ref=6X17X"
+    ]
+  }
+}

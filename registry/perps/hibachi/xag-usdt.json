@@ -1,0 +1,20 @@
+{
+  "identity": {
+    "symbol": "XAG-USDT",
+    "legacyId": 9675
+  },
+  "tracks": {
+    "underlying": "silver",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "XAG-USDT"
+  },
+  "about": {
+    "description": "Silver perpetual on Hibachi (Arbitrum) referencing the XAG/USD spot price per troy ounce, cash-settled in USDT, giving users synthetic exposure to silver price movement without holding the metal. Source: data-api.hibachi.xyz.",
+    "refLinks": [
+      "https://hibachi.xyz/r/YUKPTN36RM"
+    ]
+  }
+}

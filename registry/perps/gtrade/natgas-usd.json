@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "NATGAS-USD",
+    "name": "gTrade NATGAS Perp",
+    "legacyId": 3605
+  },
+  "tracks": {
+    "underlying": "natural-gas",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "NATGAS-USDC"
+  },
+  "about": {
+    "description": "Natural-gas perpetual on Gains Network tracking Natural Gas, with pricing referencing Chainlink DON. Users gain linear exposure to spot natural-gas prices without owning physical inventory or futures contracts. Positions are margined and cash-settled in USDC / DAI / WETH on Arbitrum / Polygon / Base."
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "identity": {
+    "symbol": "ANTHROPIC",
+    "name": "Lighter Anthropic Pre-IPO Perp",
+    "legacyId": 3979
+  },
+  "tracks": {
+    "underlying": "anthropic",
+    "structure": "pe-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "ANTHROPIC-USDC"
+  },
+  "sources": {
+    "oracleProvider": "Pyth"
+  },
+  "about": {
+    "description": "Pre-IPO valuation perpetual on Lighter tracking Anthropic, cash-settled.",
+    "refLinks": [
+      "https://app.lighter.xyz/trade/ANTHROPIC?referral=FHT1N8AYKHP4"
+    ]
+  }
+}

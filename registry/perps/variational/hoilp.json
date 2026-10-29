@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "hoilp",
+    "name": "Variational Heating Oil Swap",
+    "legacyId": 9592
+  },
+  "tracks": {
+    "underlying": "heating-oil",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "HOILP-USDC"
+  },
+  "about": {
+    "description": "Cash-settled swap on Heating Oil, quoted against USDC. No funding; cost of carry is in the spread."
+  }
+}

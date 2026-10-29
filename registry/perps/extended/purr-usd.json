@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "PURR-USD",
+    "name": "Extended Hyperliquid Strategies Perp",
+    "legacyId": 8620
+  },
+  "tracks": {
+    "underlying": "hyperliquid-strategies-inc-8620",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "PURR-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual on Extended (formerly X10) tracking Hyperliquid Strategies Inc. (PURR), with pricing referencing Extended oracle. Users gain linear exposure to Hyperliquid Strategies Inc. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Starknet.",
+    "refLinks": [
+      "https://app.extended.exchange/join/DEFILLAMAO"
+    ]
+  }
+}

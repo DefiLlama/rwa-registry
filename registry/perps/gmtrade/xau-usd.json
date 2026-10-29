@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "symbol": "XAU-USD",
+    "legacyId": 3098
+  },
+  "tracks": {
+    "underlying": "gold",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "XAU-USD"
+  },
+  "sources": {
+    "oracleProvider": "Chainlink"
+  },
+  "about": {
+    "description": "Gold perpetual on GMTrade, cash-settled in USDC on Solana.",
+    "refLinks": [
+      "https://gmtrade.xyz/referrals/?ref=545"
+    ]
+  }
+}

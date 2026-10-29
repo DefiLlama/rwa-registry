@@ -1,0 +1,25 @@
+{
+  "identity": {
+    "symbol": "DC-WAS",
+    "name": "Parcl Washington DC Perp",
+    "legacyId": 3095
+  },
+  "tracks": {
+    "underlying": "washington-dc-housing-index",
+    "structure": "real-estate-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "DC-USD"
+  },
+  "about": {
+    "description": "Washington DC Housing Index perpetual on Parcl, cash-settled in USDC on Solana."
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

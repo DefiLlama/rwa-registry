@@ -1,0 +1,16 @@
+{
+  "identity": {
+    "symbol": "TZAUSD-PERP",
+    "legacyId": 5313
+  },
+  "tracks": {
+    "underlying": "direxion-daily-small-cap-bear-3x-etf",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "pair": "TZA-USD"
+  },
+  "about": {
+    "description": "TZA is an exchange traded fund perpetual listed on Crypto.com and tracking Direxion Daily Small Cap Bear 3X ETF. The contract is cash settled in USD and does not convey ownership or redemption rights in the underlying. Funding is exchanged every 1h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

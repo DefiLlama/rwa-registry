@@ -1,0 +1,29 @@
+{
+  "identity": {
+    "symbol": "MSFTUSD",
+    "name": "edgeX Microsoft Perp",
+    "legacyId": 3623
+  },
+  "tracks": {
+    "underlying": "microsoft-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "marginAsset": "USDT",
+    "pair": "MSFT-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual on edgeX (Amber Group-incubated) tracking Microsoft Corporation (MSFT), with pricing referencing Stork decentralized oracle network (24/5 equity feed). Users gain linear exposure to Microsoft Corporation share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on StarkEx (migrating to EDGE Chain L2).",
+    "refLinks": [
+      "https://pro.edgex.exchange/referral/196451583"
+    ]
+  },
+  "events": [
+    {
+      "kind": "review",
+      "outcome": "suspicious",
+      "reason": null
+    }
+  ]
+}

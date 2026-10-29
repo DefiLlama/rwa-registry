@@ -1,0 +1,31 @@
+{
+  "identity": {
+    "symbol": "IBIDEN",
+    "name": "trade[XYZ] Ibiden Perp",
+    "legacyId": 4503
+  },
+  "tracks": {
+    "underlying": "ibiden-co-ltd-9543",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "IBIDEN-USDC"
+  },
+  "sources": {
+    "oracleProvider": "Pyth equity feed"
+  },
+  "about": {
+    "description": "trade[XYZ] perpetual market tracking Ibiden Co., Ltd. Verified live on the trade.xyz platform UI 2026-06-30 via browser check.",
+    "refLinks": [
+      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
+    ]
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

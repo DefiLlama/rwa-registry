@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "SMCI-USD",
+    "name": "Ostium Super Micro Perp",
+    "legacyId": 3315
+  },
+  "tracks": {
+    "underlying": "super-micro-computer-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "SMCI-USD"
+  },
+  "about": {
+    "description": "Super Micro Computer perpetual on Ostium, cash-settled in USDC on Arbitrum. Trades during U.S. stock market hours only (9:30 AM - 4:00 PM ET, Monday-Friday).",
+    "refLinks": [
+      "https://app.ostium.com/trade?from=SMCI&to=USD&ref=6X17X"
+    ]
+  }
+}

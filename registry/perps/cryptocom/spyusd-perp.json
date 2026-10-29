@@ -1,0 +1,16 @@
+{
+  "identity": {
+    "symbol": "SPYUSD-PERP",
+    "legacyId": 5310
+  },
+  "tracks": {
+    "underlying": "state-street-spdr-s-p-500-etf-trust",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "pair": "SPY-USD"
+  },
+  "about": {
+    "description": "SPY is an exchange traded fund perpetual listed on Crypto.com and tracking State Street SPDR S&P 500 ETF Trust. The contract is cash settled in USD and does not convey ownership or redemption rights in the underlying. Funding is exchanged every 1h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "symbol": "AVGO",
+    "name": "Aster Broadcom Perp",
+    "legacyId": 3911
+  },
+  "tracks": {
+    "underlying": "broadcom-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "AVGO-USDT",
+    "makerFeeBps": null,
+    "takerFeeBps": null
+  },
+  "about": {
+    "description": "Aster perpetual market tracking Broadcom Inc. (semiconductor and infrastructure software). Verified live on platform UI 2026-05-26 via browser.",
+    "refLinks": [
+      "https://www.asterdex.com/en/referral/c6eF10"
+    ]
+  }
+}

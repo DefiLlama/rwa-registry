@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "HIMS",
+    "name": "Variational Omni Hims Perp",
+    "legacyId": 4593
+  },
+  "tracks": {
+    "underlying": "hims-hers-health-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "HIMS-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual on Variational Omni tracking Hims & Hers Health, Inc. Users get linear exposure to the underlying without owning shares. Cash-settled in USDC (Arbitrum)."
+  }
+}

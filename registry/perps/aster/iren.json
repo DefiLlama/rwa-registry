@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "IREN",
+    "name": "Aster IREN Perp",
+    "legacyId": 4394
+  },
+  "tracks": {
+    "underlying": "iren-limited",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "IREN-USDT"
+  },
+  "about": {
+    "description": "Single-stock perpetual market on Aster tracking IREN, cash-settled.",
+    "refLinks": [
+      "https://www.asterdex.com/en/referral/c6eF10"
+    ]
+  }
+}

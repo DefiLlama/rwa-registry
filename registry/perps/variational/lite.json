@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "LITE",
+    "name": "Variational Omni Lumentum Perp",
+    "legacyId": 4452
+  },
+  "tracks": {
+    "underlying": "lumentum-holdings-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "LITE-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual market on Variational Omni tracking Lumentum Holdings, cash-settled."
+  }
+}

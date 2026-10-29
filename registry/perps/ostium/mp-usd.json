@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "MP-USD",
+    "name": "Ostium MP Materials Perp",
+    "legacyId": 4438
+  },
+  "tracks": {
+    "underlying": "mp-materials-corp",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "MP-USD"
+  },
+  "about": {
+    "description": "MP Materials perpetual on Ostium, cash-settled in USDC on Arbitrum. Trades during U.S. stock market hours only (9:30 AM - 4:00 PM ET, Monday-Friday).",
+    "refLinks": [
+      "https://app.ostium.com/trade?from=MP&to=USD&ref=6X17X"
+    ]
+  }
+}

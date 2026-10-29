@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "GME",
+    "name": "Aster GameStop Perp",
+    "legacyId": 4380
+  },
+  "tracks": {
+    "underlying": "gamestop-corp",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "GME-USDT"
+  },
+  "about": {
+    "description": "Single-stock perpetual market on Aster tracking GameStop, cash-settled.",
+    "refLinks": [
+      "https://www.asterdex.com/en/referral/c6eF10"
+    ]
+  }
+}

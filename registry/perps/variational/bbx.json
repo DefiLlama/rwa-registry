@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "BBX",
+    "name": "Variational Omni BBX Capital Perp",
+    "legacyId": 4469
+  },
+  "tracks": {
+    "underlying": "blackberry-limited",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "BBX-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual market on Variational Omni tracking BBX Capital, Inc, cash-settled."
+  }
+}

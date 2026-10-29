@@ -1,0 +1,20 @@
+{
+  "identity": {
+    "symbol": "XCU-USD",
+    "legacyId": 3834
+  },
+  "tracks": {
+    "underlying": "copper",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "XCU-USDC"
+  },
+  "about": {
+    "description": "Copper (XCU) perpetual on GMTrade (Solana), USDC-margined.",
+    "refLinks": [
+      "https://gmtrade.xyz/referrals/?ref=545"
+    ]
+  }
+}

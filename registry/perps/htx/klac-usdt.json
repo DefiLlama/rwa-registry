@@ -1,0 +1,20 @@
+{
+  "identity": {
+    "symbol": "KLAC-USDT",
+    "name": "HTX KLA Corp. Perp",
+    "legacyId": 6492
+  },
+  "tracks": {
+    "underlying": "kla-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "KLAC-USDT",
+    "makerFeeBps": 2,
+    "takerFeeBps": 6
+  },
+  "about": {
+    "description": "KLAC is a single-stock perpetual listed on HTX, tracking KLA Corp., margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

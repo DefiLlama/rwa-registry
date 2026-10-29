@@ -1,0 +1,26 @@
+{
+  "identity": {
+    "symbol": "AUD-USD",
+    "name": "Ostium AUD Perp",
+    "legacyId": 3645
+  },
+  "tracks": {
+    "underlying": "australian-dollar",
+    "structure": "forex-perps"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "AUD-USDC",
+    "makerFeeBps": 3,
+    "takerFeeBps": 3
+  },
+  "sources": {
+    "oracleProvider": "Stork / QUODD institutional FX feed"
+  },
+  "about": {
+    "description": "FX perpetual on Ostium Labs tracking Australian Dollar (AUD) versus the US dollar, with pricing referencing Stork / QUODD institutional FX feed. Positions are margined and cash-settled in USDC on Arbitrum, giving users synthetic exposure to Australian Dollar/USD price movement without holding either currency as cash.",
+    "refLinks": [
+      "https://app.ostium.com/trade?from=AUD&to=USD&ref=6X17X"
+    ]
+  }
+}

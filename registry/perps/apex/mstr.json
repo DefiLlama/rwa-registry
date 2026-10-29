@@ -1,0 +1,20 @@
+{
+  "identity": {
+    "symbol": "MSTR",
+    "legacyId": 3759
+  },
+  "tracks": {
+    "underlying": "microstrategy",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "MSTR-USDC"
+  },
+  "about": {
+    "description": "MicroStrategy (NASDAQ:MSTR) stock perpetual on ApeX Omni, cash-settled in USDT.",
+    "refLinks": [
+      "https://omni.apex.exchange/referral?referralCode=T0S8V482"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "identity": {
+    "symbol": "JP225_USDT",
+    "legacyId": 6462
+  },
+  "tracks": {
+    "underlying": "nikkei-225-stock-average",
+    "structure": "equity-index-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "JP225-USDT"
+  },
+  "about": {
+    "description": "JP225 is an index perpetual listed on MEXC, tracking Nikkei 225 Stock Average, margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Up to 50× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

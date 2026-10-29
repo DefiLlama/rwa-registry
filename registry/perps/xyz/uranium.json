@@ -1,0 +1,30 @@
+{
+  "identity": {
+    "symbol": "URANIUM",
+    "legacyId": 3247
+  },
+  "tracks": {
+    "underlying": "uranium",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "URANIUM-USDC"
+  },
+  "sources": {
+    "oracleProvider": "Pyth / futures-based external reference methodology"
+  },
+  "about": {
+    "description": "Uranium perpetual market. The contract tracks Uranium price using the venue's reference methodology. Users get linear commodity-price exposure only, without title to physical inventory or delivery rights, cash-settled in USDC on trade[XYZ].",
+    "refLinks": [
+      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
+    ]
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

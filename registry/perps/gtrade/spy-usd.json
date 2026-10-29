@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "SPY-USD",
+    "name": "gTrade SPY Perp",
+    "legacyId": 3584
+  },
+  "tracks": {
+    "underlying": "state-street-spdr-s-p-500-etf-trust",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "SPY-USDC"
+  },
+  "about": {
+    "description": "Equity-index perpetual on Gains Network tracking SPDR S&P 500 ETF Trust (SPY), with pricing referencing Chainlink DON. Users gain linear exposure to the index level without holding any underlying constituent stocks or futures. Positions are margined and cash-settled in USDC / DAI / WETH on Arbitrum / Polygon / Base."
+  }
+}

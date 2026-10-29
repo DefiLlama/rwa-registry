@@ -1,0 +1,20 @@
+{
+  "identity": {
+    "symbol": "EWY",
+    "legacyId": 4737
+  },
+  "tracks": {
+    "underlying": "ishares-msci-south-korea-etf",
+    "structure": "equity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "EWY-USD-PERP"
+  },
+  "about": {
+    "description": "EWY is an ETF-tracking perpetual on Paradex referencing iShares MSCI South Korea ETF. Paradex is a permissionless perp and options DEX operating on its own Starknet-based appchain (Paradex Chain / DimeVM), with zero-fee trading, unified cross-margin in USDC, and ZK-encrypted account privacy. The market is cash-settled in USDC.",
+    "refLinks": [
+      "0"
+    ]
+  }
+}

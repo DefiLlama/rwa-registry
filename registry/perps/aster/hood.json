@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "symbol": "HOOD",
+    "name": "Aster Robinhood Perp",
+    "legacyId": 3566
+  },
+  "tracks": {
+    "underlying": "robinhood-markets-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "HOOD-USDT",
+    "makerFeeBps": null,
+    "takerFeeBps": null
+  },
+  "about": {
+    "description": "Single-stock perpetual on Aster (YZi Labs-backed) tracking Robinhood Markets, Inc. (HOOD), with pricing referencing Aster custom oracle (24/5 equity feed). Users gain linear exposure to Robinhood Markets, Inc. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USD1 on BNB Chain / Aster Chain.",
+    "refLinks": [
+      "https://www.asterdex.com/en/referral/c6eF10"
+    ]
+  }
+}

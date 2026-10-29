@@ -1,0 +1,16 @@
+{
+  "identity": {
+    "symbol": "KORUUSD-PERP",
+    "legacyId": 5305
+  },
+  "tracks": {
+    "underlying": "direxion-daily-msci-south-korea-bull-3x-etf",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "pair": "KORU-USD"
+  },
+  "about": {
+    "description": "KORU is an exchange traded fund perpetual listed on Crypto.com and tracking Direxion Daily MSCI South Korea Bull 3X ETF. The contract is cash settled in USD and does not convey ownership or redemption rights in the underlying. Funding is exchanged every 1h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

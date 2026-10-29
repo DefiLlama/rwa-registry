@@ -1,0 +1,30 @@
+{
+  "identity": {
+    "symbol": "GOOG",
+    "name": "Aster Alphabet C Perp",
+    "legacyId": 3562
+  },
+  "tracks": {
+    "underlying": "alphabet-inc-class-c",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "GOOG-USDT",
+    "makerFeeBps": null,
+    "takerFeeBps": null
+  },
+  "about": {
+    "description": "Single-stock perpetual on Aster (YZi Labs-backed) tracking Alphabet Inc. Class C shares (GOOG). Delisted from Aster as of May 2026 in favor of GOOGL Class A. Pricing referenced Aster custom oracle. Was margined and cash-settled in USD1 on BNB Chain / Aster Chain.",
+    "refLinks": [
+      "https://www.asterdex.com/en/referral/c6eF10"
+    ]
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

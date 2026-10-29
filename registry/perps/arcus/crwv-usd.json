@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "CRWV-USD",
+    "name": "Arcus CoreWeave Perp",
+    "legacyId": 4542
+  },
+  "tracks": {
+    "underlying": "coreweave-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdg",
+    "pair": "CRWV-USDG"
+  },
+  "about": {
+    "description": "Arcus perpetual market tracking CoreWeave, Inc. (NASDAQ: CRWV) with 24/7 exposure to the underlying AI-cloud infrastructure stock. Total-return tracking (dividends, splits, and futures rolls passed through funding), cash-settled in USDG on the Arcus off-chain CLOB with permissioned appchain re-verification and EVM rootchain custody.",
+    "refLinks": [
+      "https://app.arcus.xyz/ref/DEFILLAMA"
+    ]
+  }
+}

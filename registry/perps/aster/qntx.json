@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "QNTX",
+    "name": "Aster Quantinuum Pre-IPO Perp",
+    "legacyId": 3949
+  },
+  "tracks": {
+    "underlying": "quantinuum-inc",
+    "structure": "pe-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "QNTX-USDT"
+  },
+  "about": {
+    "description": "Private-company valuation perpetual on Aster tracking Quantinuum Inc. (Pre-IPO). Pricing uses external valuation data. Users gain synthetic exposure to Quantinuum Inc.'s implied valuation without holding equity, SPV interests, or tender-offer access. Positions are margined and cash-settled in USDT on Aster.",
+    "refLinks": [
+      "https://www.asterdex.com/en/referral/c6eF10"
+    ]
+  }
+}

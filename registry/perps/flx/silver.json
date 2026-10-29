@@ -1,0 +1,27 @@
+{
+  "identity": {
+    "symbol": "SILVER",
+    "legacyId": 2952
+  },
+  "tracks": {
+    "underlying": "silver",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdh",
+    "pair": "SILVER-USDH"
+  },
+  "about": {
+    "description": "Silver perpetual market. The contract tracks the price of one troy ounce of silver. Users get linear exposure to silver price moves without owning bullion, vaulted metal, or redeemable claims on physical inventory. Pricing uses Felix’s external reference methodology for commodity markets. Positions are margined and cash-settled in USDH. Markets are visible on Hyperliquid under the flx namespace, but are operated by Felix rather than listed as core Hyperliquid perps.",
+    "refLinks": [
+      "https://www.usefelix.xyz?ref=4BF702FF"
+    ]
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

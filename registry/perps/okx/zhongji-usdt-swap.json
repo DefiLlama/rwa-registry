@@ -1,0 +1,26 @@
+{
+  "identity": {
+    "symbol": "ZHONGJI-USDT-SWAP",
+    "legacyId": 9511
+  },
+  "tracks": {
+    "underlying": "zhongji-innolight-co-ltd",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "ZHONGJI-USDT"
+  },
+  "about": {
+    "description": "KLAC is a single-stock perpetual listed on OKX, tracking KLA Corp., margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Up to 20× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  },
+  "events": [
+    {
+      "kind": "listing",
+      "date": "2026-09-09",
+      "links": [
+        "https://www.okx.com/api/v5/public/instruments?instType=SWAP"
+      ]
+    }
+  ]
+}

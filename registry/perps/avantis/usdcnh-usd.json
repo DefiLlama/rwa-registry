@@ -1,0 +1,25 @@
+{
+  "identity": {
+    "symbol": "USDCNH-USD",
+    "name": "Avantis USDCNH Perp",
+    "legacyId": 3865
+  },
+  "tracks": {
+    "underlying": "us-dollar-chinese-yuan-offshore",
+    "structure": "forex-perps"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "USDCNH-USDC"
+  },
+  "sources": {
+    "oracleProvider": "Pyth"
+  },
+  "about": {
+    "description": "USDCNH perpetual on Avantis (Base), USDC-margined. Verified live 2026-05-20.",
+    "refLinks": [
+      "https://www.avantisfi.com/referral?code=DefiLlama"
+    ],
+    "website": "https://avantisfi.com/"
+  }
+}

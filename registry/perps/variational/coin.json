@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "COIN",
+    "name": "Variational Omni Coinbase Perp",
+    "legacyId": 4448
+  },
+  "tracks": {
+    "underlying": "coinbase-global-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "COIN-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual market on Variational Omni tracking Coinbase Global, cash-settled."
+  }
+}

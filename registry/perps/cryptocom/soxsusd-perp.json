@@ -1,0 +1,16 @@
+{
+  "identity": {
+    "symbol": "SOXSUSD-PERP",
+    "legacyId": 5309
+  },
+  "tracks": {
+    "underlying": "direxion-daily-semiconductor-bear-3x-etf",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "pair": "SOXS-USD"
+  },
+  "about": {
+    "description": "SOXS is an exchange traded fund perpetual listed on Crypto.com and tracking Direxion Daily Semiconductor Bear 3X ETF. The contract is cash settled in USD and does not convey ownership or redemption rights in the underlying. Funding is exchanged every 1h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

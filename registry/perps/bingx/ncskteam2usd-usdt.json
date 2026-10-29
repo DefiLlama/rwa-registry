@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "NCSKTEAM2USD-USDT",
+    "name": "BingX Atlassian Corp. Perp",
+    "legacyId": 7251
+  },
+  "tracks": {
+    "underlying": "atlassian-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "TEAM-USDT"
+  },
+  "about": {
+    "description": "TEAM is a single-stock perpetual listed on BingX, tracking Atlassian Corp., margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

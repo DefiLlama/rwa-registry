@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "XAUT-USDT",
+    "name": "HTX Tether Gold (XAUT) Perp",
+    "legacyId": 5059
+  },
+  "tracks": {
+    "underlying": null,
+    "asset": "xaut",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "XAUT-USDT",
+    "makerFeeBps": 2,
+    "takerFeeBps": 6
+  },
+  "about": {
+    "description": "XAUT is a commodity perpetual listed on HTX and tracking Tether Gold (XAUT). The contract is cash settled in USDT and does not convey ownership or delivery of the underlying. Funding is exchanged every 4h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

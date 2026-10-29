@@ -1,0 +1,28 @@
+{
+  "identity": {
+    "symbol": "USENERGY",
+    "name": "Markets by Kinetiq US Energy Perp",
+    "legacyId": 3277
+  },
+  "tracks": {
+    "underlying": "us-energy-sector",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdh",
+    "pair": "USENERGY-USDH"
+  },
+  "about": {
+    "description": "ETF perpetual market tracking US Energy Sector. Users get synthetic exposure to a listed fund rather than ownership of ETF shares or redemption rights in the fund, cash-settled in USDH on Markets by Kinetiq.",
+    "refLinks": [
+      "https://markets.xyz/join/llama"
+    ]
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

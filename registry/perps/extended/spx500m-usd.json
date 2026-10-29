@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "SPX500m-USD",
+    "name": "Extended S&P 500 Perp",
+    "legacyId": 3136
+  },
+  "tracks": {
+    "underlying": "s-p-500-index",
+    "structure": "equity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "SPX-USD"
+  },
+  "about": {
+    "description": "S&P 500 perpetual on Extended on Starknet, cash-settled in USDC.",
+    "refLinks": [
+      "https://app.extended.exchange/join/DEFILLAMAO"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "symbol": "COIN",
+    "name": "Aster Coinbase Perp",
+    "legacyId": 3912
+  },
+  "tracks": {
+    "underlying": "coinbase-global-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "COIN-USDT",
+    "makerFeeBps": null,
+    "takerFeeBps": null
+  },
+  "about": {
+    "description": "Aster perpetual market tracking Coinbase Global Inc. (cryptocurrency exchange operator). Verified live on platform UI 2026-05-26 via browser.",
+    "refLinks": [
+      "https://www.asterdex.com/en/referral/c6eF10"
+    ]
+  }
+}

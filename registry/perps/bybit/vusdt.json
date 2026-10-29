@@ -1,0 +1,26 @@
+{
+  "identity": {
+    "symbol": "VUSDT",
+    "legacyId": 7377
+  },
+  "tracks": {
+    "underlying": "visa-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "V-USDT"
+  },
+  "about": {
+    "description": "V is a single-stock perpetual listed on Bybit, tracking Visa Inc., margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Up to 25× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  },
+  "events": [
+    {
+      "kind": "listing",
+      "date": "2026-07-27",
+      "links": [
+        "https://api.bybit.com/v5/market/instruments-info?category=linear"
+      ]
+    }
+  ]
+}

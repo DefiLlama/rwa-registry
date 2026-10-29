@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "NVDA-USD",
+    "name": "Avantis NVIDIA Perp",
+    "legacyId": 3062
+  },
+  "tracks": {
+    "underlying": "nvidia-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "NVDA-USD"
+  },
+  "about": {
+    "description": "NVIDIA perpetual on Avantis, cash-settled in USDC on Base.",
+    "refLinks": [
+      "https://www.avantisfi.com/referral?code=DefiLlama"
+    ]
+  }
+}

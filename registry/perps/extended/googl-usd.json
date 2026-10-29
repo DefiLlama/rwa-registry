@@ -1,0 +1,20 @@
+{
+  "identity": {
+    "symbol": "GOOGL-USD",
+    "legacyId": 8602
+  },
+  "tracks": {
+    "underlying": "alphabet-class-a",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "GOOGL-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual on Extended (formerly X10) tracking Alphabet Inc. Class A (GOOGL), with pricing referencing Extended oracle. Users gain linear exposure to Alphabet Inc. Class A share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Starknet.",
+    "refLinks": [
+      "https://app.extended.exchange/join/DEFILLAMAO"
+    ]
+  }
+}

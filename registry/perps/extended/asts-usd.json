@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "ASTS-USD",
+    "name": "Extended AST SpaceMobile Perp",
+    "legacyId": 8581
+  },
+  "tracks": {
+    "underlying": "ast-spacemobile-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "ASTS-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual on Extended (formerly X10) tracking AST SpaceMobile, Inc. (ASTS), with pricing referencing Extended oracle. Users gain linear exposure to AST SpaceMobile, Inc. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Starknet.",
+    "refLinks": [
+      "https://app.extended.exchange/join/DEFILLAMAO"
+    ]
+  }
+}

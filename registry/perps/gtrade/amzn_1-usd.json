@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "AMZN_1-USD",
+    "name": "gTrade Amazon Perp",
+    "legacyId": 3032
+  },
+  "tracks": {
+    "underlying": "amazon-com-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "AMZN-USDC"
+  },
+  "about": {
+    "description": "Amazon perpetual on gTrade, synthetic and cash-settled in USDC on Arbitrum."
+  }
+}

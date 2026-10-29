@@ -1,0 +1,16 @@
+{
+  "identity": {
+    "symbol": "EWJUSD-PERP",
+    "legacyId": 5301
+  },
+  "tracks": {
+    "underlying": "ishares-msci-japan-etf",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "pair": "EWJ-USD"
+  },
+  "about": {
+    "description": "EWJ is an exchange traded fund perpetual listed on Crypto.com and tracking iShares MSCI Japan ETF. The contract is cash settled in USD and does not convey ownership or redemption rights in the underlying. Funding is exchanged every 1h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "identity": {
+    "symbol": "BOTZ",
+    "name": "Lighter Robotics & AI ETF Perp",
+    "legacyId": 3370
+  },
+  "tracks": {
+    "underlying": "global-x-robotics-artificial-intelligence-etf",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "BOTZ-USDC"
+  },
+  "sources": {
+    "oracleProvider": "Chainlink"
+  },
+  "about": {
+    "description": "ETF perpetual market tracking the Global X Robotics & Artificial Intelligence ETF (BOTZ). Users get synthetic exposure to the BOTZ ETF's price rather than ownership of ETF shares or redemption rights, with pricing referencing the ETF's public market price via Lighter's fair price oracle. Positions are margined and cash-settled in USDC.",
+    "refLinks": [
+      "https://app.lighter.xyz/trade/BOTZ?referral=FHT1N8AYKHP4"
+    ]
+  }
+}

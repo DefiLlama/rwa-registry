@@ -1,0 +1,17 @@
+{
+  "identity": {
+    "symbol": "NCSKXBI2USD-USDT",
+    "legacyId": 5191
+  },
+  "tracks": {
+    "underlying": "state-street-spdr-s-p-biotech-etf",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "XBI-USDT"
+  },
+  "about": {
+    "description": "XBI is an exchange traded fund perpetual listed on BingX and tracking State Street SPDR S&P Biotech ETF. The contract is cash settled in USDT and does not convey ownership or redemption rights in the underlying. Funding is exchanged every 8h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

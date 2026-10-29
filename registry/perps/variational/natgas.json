@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "NATGAS",
+    "name": "Variational Omni Natural Gas Perp",
+    "legacyId": 4427
+  },
+  "tracks": {
+    "underlying": "natural-gas",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "NATGAS-USDC"
+  },
+  "about": {
+    "description": "Perpetual market on Variational Omni tracking Natural Gas, cash-settled."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "identity": {
+    "symbol": "XAU",
+    "legacyId": 3373
+  },
+  "tracks": {
+    "underlying": "gold",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "XAU-USDC"
+  },
+  "about": {
+    "description": "Gold perpetual market. The contract tracks the spot price of one troy ounce of gold (XAU/USD). Users get linear exposure to gold price moves without owning bullion, vaulted metal, or redeemable claims on physical inventory, with pricing referencing an external spot metal feed via Lighter's fair price oracle. Positions are margined and cash-settled in USDC.",
+    "refLinks": [
+      "https://app.lighter.xyz/trade/XAU?referral=FHT1N8AYKHP4"
+    ]
+  }
+}

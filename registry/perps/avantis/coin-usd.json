@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "COIN-USD",
+    "name": "Avantis Coinbase Perp",
+    "legacyId": 3068
+  },
+  "tracks": {
+    "underlying": "coinbase-global-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "COIN-USD"
+  },
+  "about": {
+    "description": "Coinbase perpetual on Avantis, cash-settled in USDC on Base.",
+    "refLinks": [
+      "https://www.avantisfi.com/referral?code=DefiLlama"
+    ]
+  }
+}

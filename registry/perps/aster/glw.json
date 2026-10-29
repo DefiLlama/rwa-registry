@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "symbol": "GLW",
+    "name": "Aster Corning Perp",
+    "legacyId": 4461
+  },
+  "tracks": {
+    "underlying": "corning-incorporated",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "GLW-USDT",
+    "makerFeeBps": null,
+    "takerFeeBps": null
+  },
+  "about": {
+    "description": "Single-stock perpetual on Aster (YZi Labs-backed) tracking Corning Incorporated, with pricing referencing Aster custom oracle (24/5 equity feed). Users get linear exposure without owning shares, margined and cash-settled in USDT.",
+    "refLinks": [
+      "https://www.asterdex.com/en/referral/c6eF10"
+    ]
+  }
+}

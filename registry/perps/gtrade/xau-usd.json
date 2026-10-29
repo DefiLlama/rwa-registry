@@ -1,0 +1,19 @@
+{
+  "identity": {
+    "symbol": "XAU-USD",
+    "legacyId": 3024
+  },
+  "tracks": {
+    "underlying": "gold",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "XAU-USDC",
+    "makerFeeBps": 3.5,
+    "takerFeeBps": 3.5
+  },
+  "about": {
+    "description": "Gold perpetual on gTrade, synthetic and cash-settled in USDC on Arbitrum."
+  }
+}

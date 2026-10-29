@@ -1,0 +1,30 @@
+{
+  "identity": {
+    "symbol": "SPCXUSD1",
+    "name": "Binance Space Exploration Technologies Corp. Perp (USD1)",
+    "legacyId": 4907
+  },
+  "tracks": {
+    "underlying": "space-exploration-technologies-corp",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usd1",
+    "marginAsset": "USD1",
+    "pair": "SPCX-USD1",
+    "makerFeeBps": 0,
+    "takerFeeBps": 4
+  },
+  "about": {
+    "description": "SPCX is a single-stock perpetual listed on Binance and tracking Space Exploration Technologies Corp. The contract is cash settled in USD1 against a Binance price index and does not convey ownership of the underlying. Funding is exchanged every 8h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  },
+  "events": [
+    {
+      "kind": "listing",
+      "date": "2026-07-20",
+      "links": [
+        "https://fapi.binance.com/fapi/v1/exchangeInfo"
+      ]
+    }
+  ]
+}

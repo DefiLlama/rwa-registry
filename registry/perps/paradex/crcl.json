@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "CRCL",
+    "name": "Paradex Circle Internet Group Inc. Perp",
+    "legacyId": 4735
+  },
+  "tracks": {
+    "underlying": "circle-internet-group-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "CRCL-USD-PERP"
+  },
+  "about": {
+    "description": "CRCL is a single-stock perpetual on Paradex tracking Circle Internet Group Inc. Paradex is a permissionless perp and options DEX operating on its own Starknet-based appchain (Paradex Chain / DimeVM), with zero-fee trading, unified cross-margin in USDC, and ZK-encrypted account privacy. The market is cash-settled in USDC and does not confer any shareholder rights in the underlying.",
+    "refLinks": [
+      "0"
+    ]
+  }
+}

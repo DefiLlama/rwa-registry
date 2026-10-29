@@ -1,0 +1,20 @@
+{
+  "identity": {
+    "symbol": "GOOGL-USD",
+    "name": "gTrade Alphabet Perp",
+    "legacyId": 4458
+  },
+  "tracks": {
+    "underlying": "alphabet-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "GOOGL-USDC",
+    "makerFeeBps": 5,
+    "takerFeeBps": 5
+  },
+  "about": {
+    "description": "Alphabet (Class A) perpetual on gTrade, synthetic and cash-settled in USDC on Arbitrum."
+  }
+}

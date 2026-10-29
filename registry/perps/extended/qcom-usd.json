@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "QCOM-USD",
+    "name": "Extended Qualcomm Perp",
+    "legacyId": 8621
+  },
+  "tracks": {
+    "underlying": "qualcomm-incorporated",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "QCOM-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual on Extended (formerly X10) tracking QUALCOMM Incorporated (QCOM), with pricing referencing Extended oracle. Users gain linear exposure to QUALCOMM Incorporated share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Starknet.",
+    "refLinks": [
+      "https://app.extended.exchange/join/DEFILLAMAO"
+    ]
+  }
+}

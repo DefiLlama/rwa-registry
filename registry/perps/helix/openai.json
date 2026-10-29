@@ -1,0 +1,24 @@
+{
+  "identity": {
+    "symbol": "OPENAI",
+    "legacyId": 3084
+  },
+  "tracks": {
+    "underlying": "openai",
+    "structure": "pe-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "OPENAI-USDT"
+  },
+  "about": {
+    "description": "OpenAI perpetual on Helix (Injective), cash-settled in USDT."
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

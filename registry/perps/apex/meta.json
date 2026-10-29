@@ -1,0 +1,33 @@
+{
+  "identity": {
+    "symbol": "META",
+    "name": "ApeX Omni Meta Perp",
+    "legacyId": 3107
+  },
+  "tracks": {
+    "underlying": "meta-platforms-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "marginAsset": "USDT",
+    "pair": "META-USDT"
+  },
+  "sources": {
+    "oracleProvider": "Chainlink Data Streams"
+  },
+  "about": {
+    "description": "Meta perpetual on ApeX Omni via zkLink, cash-settled in USDT.",
+    "refLinks": [
+      "https://omni.apex.exchange/referral?referralCode=T0S8V482"
+    ],
+    "issuer": "ApeX Protocol"
+  },
+  "events": [
+    {
+      "kind": "review",
+      "outcome": "suspicious",
+      "reason": null
+    }
+  ]
+}

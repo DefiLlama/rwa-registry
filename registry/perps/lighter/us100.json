@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "US100",
+    "name": "Lighter US100 (Nasdaq-100) Index Perp",
+    "legacyId": 3848
+  },
+  "tracks": {
+    "underlying": "nasdaq-100-index",
+    "structure": "equity-index-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "US100-USDC"
+  },
+  "about": {
+    "description": "Nasdaq-100 Index perpetual on Lighter. Tracks the Nasdaq-100 index (US100), USDC-margined. Distinct from lighter:QQQ which tracks the Invesco QQQ Trust ETF.",
+    "refLinks": [
+      "https://app.lighter.xyz/trade/US100?referral=FHT1N8AYKHP4"
+    ]
+  }
+}

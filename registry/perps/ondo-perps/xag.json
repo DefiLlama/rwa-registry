@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "XAG",
+    "name": "Ondo Perps Silver Perp",
+    "legacyId": 4041
+  },
+  "tracks": {
+    "underlying": "silver",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "XAG-USD"
+  },
+  "about": {
+    "description": "Commodity perpetual market on Ondo Perps tracking Silver, cash-settled, 24/7, up to 20x leverage, hourly funding, launched 2026-06-09 (non-US users only). Verified live via adapter 2026-06-10.",
+    "refLinks": [
+      "https://app.ondoperps.xyz/trade/perps/XAG-USD.P?ref=76ZCWB"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "RKLB-USD",
+    "name": "Extended Rocket Lab Perp",
+    "legacyId": 8626
+  },
+  "tracks": {
+    "underlying": "rocket-lab-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "RKLB-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual on Extended (formerly X10) tracking Rocket Lab Corporation (RKLB), with pricing referencing Extended oracle. Users gain linear exposure to Rocket Lab Corporation share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Starknet.",
+    "refLinks": [
+      "https://app.extended.exchange/join/DEFILLAMAO"
+    ]
+  }
+}

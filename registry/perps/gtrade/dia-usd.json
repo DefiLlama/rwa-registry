@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "DIA-USD",
+    "name": "gTrade SPDR Dow Jones ETF Perp",
+    "legacyId": 3854
+  },
+  "tracks": {
+    "underlying": "state-street-spdr-dow-jones-industrial-average-etf-trust",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "DIA-USDC"
+  },
+  "about": {
+    "description": "SPDR Dow Jones Industrial Average ETF Trust (DIA) perpetual on gTrade, USDC-margined. Verified live 2026-05-20."
+  }
+}

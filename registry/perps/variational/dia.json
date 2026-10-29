@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "DIA",
+    "name": "Variational Omni Dow Jones ETF Perp",
+    "legacyId": 4471
+  },
+  "tracks": {
+    "underlying": "diadata",
+    "structure": "crypto-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "DIA-USDC"
+  },
+  "about": {
+    "description": "ETF perpetual market on Variational Omni tracking the SPDR Dow Jones Industrial Average ETF (DIA), cash-settled."
+  }
+}

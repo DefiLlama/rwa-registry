@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "QNT-USD",
+    "name": "Arcus Quantum Perp",
+    "legacyId": 9154
+  },
+  "tracks": {
+    "underlying": "quantum-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdg",
+    "pair": "QNT-USDG"
+  },
+  "about": {
+    "description": "Arcus perpetual market tracking Quantum Corporation with 24/7 exposure to the underlying data-storage stock. Total-return tracking (dividends, splits, and futures rolls passed through funding), cash-settled in USDG on the Arcus off-chain CLOB with permissioned appchain re-verification and EVM rootchain custody.",
+    "refLinks": [
+      "https://app.arcus.xyz/ref/DEFILLAMA"
+    ]
+  }
+}

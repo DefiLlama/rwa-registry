@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "symbol": "ANTHROPIC",
+    "name": "Aster Anthropic Pre-IPO Perp",
+    "legacyId": 3974
+  },
+  "tracks": {
+    "underlying": "anthropic",
+    "structure": "pe-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "ANTHROPIC-USDT",
+    "makerFeeBps": null,
+    "takerFeeBps": null
+  },
+  "about": {
+    "description": "Pre-IPO valuation perpetual on Aster tracking Anthropic, cash-settled.",
+    "refLinks": [
+      "https://www.asterdex.com/en/referral/c6eF10"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "symbol": "TENCENT",
+    "name": "Aster Tencent Perp",
+    "legacyId": 3711
+  },
+  "tracks": {
+    "underlying": "tencent-holdings-limited",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "TENCENT-USDT",
+    "makerFeeBps": null,
+    "takerFeeBps": null
+  },
+  "about": {
+    "description": "Single-stock perpetual on Aster (YZi Labs-backed) tracking Tencent Holdings (HK: 0700), with pricing referencing Aster custom oracle (24/5 equity feed). Users gain linear exposure to share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USD1 on BNB Chain / Aster Chain.",
+    "refLinks": [
+      "https://www.asterdex.com/en/referral/c6eF10"
+    ]
+  }
+}

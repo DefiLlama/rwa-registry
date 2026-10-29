@@ -1,0 +1,26 @@
+{
+  "identity": {
+    "symbol": "QNTX_USDT",
+    "legacyId": 6969
+  },
+  "tracks": {
+    "underlying": "quantinuum-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "QNTX-USDT"
+  },
+  "about": {
+    "description": "QNTX is a single-stock perpetual listed on Gate, tracking Quantinuum Inc., margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Gate prices this market off the Backed xStock token for Quantinuum Inc., a tokenized representation of the listed shares rather than the shares themselves. Funding settles every 8h. Up to 10× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  },
+  "events": [
+    {
+      "kind": "listing",
+      "date": "2026-05-29",
+      "links": [
+        "https://api.gateio.ws/api/v4/futures/usdt/contracts"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "GEV-USD",
+    "name": "Ostium GE Vernova Perp",
+    "legacyId": 3307
+  },
+  "tracks": {
+    "underlying": "ge-vernova-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "GEV-USD"
+  },
+  "about": {
+    "description": "GE Vernova perpetual on Ostium, cash-settled in USDC on Arbitrum. Trades during U.S. stock market hours only (9:30 AM - 4:00 PM ET, Monday-Friday).",
+    "refLinks": [
+      "https://app.ostium.com/trade?from=GEV&to=USD&ref=6X17X"
+    ]
+  }
+}

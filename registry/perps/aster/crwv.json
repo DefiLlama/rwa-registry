@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "symbol": "CRWV",
+    "name": "Aster CoreWeave Perp",
+    "legacyId": 3913
+  },
+  "tracks": {
+    "underlying": "coreweave-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "CRWV-USDT",
+    "makerFeeBps": null,
+    "takerFeeBps": null
+  },
+  "about": {
+    "description": "Aster perpetual market tracking CoreWeave Inc. (AI cloud infrastructure provider). Verified live on platform UI 2026-05-26 via browser.",
+    "refLinks": [
+      "https://www.asterdex.com/en/referral/c6eF10"
+    ]
+  }
+}

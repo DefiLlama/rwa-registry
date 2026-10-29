@@ -1,0 +1,17 @@
+{
+  "identity": {
+    "symbol": "XLU_USDT",
+    "legacyId": 5480
+  },
+  "tracks": {
+    "underlying": "state-street-utilities-select-sector-spdr-etf",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "XLU-USDT"
+  },
+  "about": {
+    "description": "XLU is an exchange traded fund perpetual listed on MEXC and tracking State Street Utilities Select Sector SPDR ETF. The contract is cash settled in USDT and does not convey ownership or redemption rights in the underlying. Funding is exchanged every 8h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "dxip",
+    "name": "Variational Dollar Index Swap",
+    "legacyId": 9583
+  },
+  "tracks": {
+    "underlying": "us-dollar-index",
+    "structure": "forex-perps"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "DXIP-USDC"
+  },
+  "about": {
+    "description": "Cash-settled swap on US Dollar Index, quoted against USDC. No funding; cost of carry is in the spread."
+  }
+}

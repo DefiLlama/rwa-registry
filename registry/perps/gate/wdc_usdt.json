@@ -1,0 +1,26 @@
+{
+  "identity": {
+    "symbol": "WDC_USDT",
+    "legacyId": 7408
+  },
+  "tracks": {
+    "underlying": "western-digital-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "WDC-USDT"
+  },
+  "about": {
+    "description": "WDC is a single-stock perpetual listed on Gate, tracking Western Digital Corporation, margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Up to 50× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  },
+  "events": [
+    {
+      "kind": "listing",
+      "date": "2026-04-24",
+      "links": [
+        "https://api.gateio.ws/api/v4/futures/usdt/contracts"
+      ]
+    }
+  ]
+}

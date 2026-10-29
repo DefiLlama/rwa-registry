@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "SNDK-PERP",
+    "name": "Coinbase International Exchange Sandisk Corp. Perp",
+    "legacyId": 7149
+  },
+  "tracks": {
+    "underlying": "sandisk-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "SNDK-USDC"
+  },
+  "about": {
+    "description": "SNDK is a single-stock perpetual listed on Coinbase International Exchange, tracking Sandisk Corp., margined and cash-settled in USDC. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 1h. Up to 10× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

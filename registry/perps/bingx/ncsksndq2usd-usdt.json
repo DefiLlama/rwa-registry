@@ -1,0 +1,17 @@
+{
+  "identity": {
+    "symbol": "NCSKSNDQ2USD-USDT",
+    "legacyId": 7742
+  },
+  "tracks": {
+    "underlying": "tradr-2x-short-sndk-daily-etf",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "SNDQ-USDT"
+  },
+  "about": {
+    "description": "SNDQ is an exchange traded fund perpetual listed on BingX, tracking Tradr 2X Short SNDK Daily ETF, margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

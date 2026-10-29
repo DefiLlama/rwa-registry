@@ -1,0 +1,20 @@
+{
+  "identity": {
+    "symbol": "ANT",
+    "legacyId": 9718
+  },
+  "tracks": {
+    "underlying": "anthropic",
+    "structure": "pe-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "ANT-USDC"
+  },
+  "about": {
+    "description": "Pre-IPO perpetual on trade[XYZ], the HIP-3 builder-deployed dex 'xyz' on Hyperliquid, tracking Anthropic, cash-settled in USDC. Listed 2026-10-26. 10x max leverage, isolated margin only (marginMode noCross), szDecimals 2. Per the venue's pre-IPO specification index it references 1 share of Anthropic, PBC Class A common stock (anticipated Nasdaq: ANT), quoted in USD, initial price $125, discovery bound +/-50%, anticipated listing 2026-11-20 with grace to 2027-01-19. SCALE NOTE: that is a PER-SHARE quote (~115), while Entropy io:anth and the other five Anthropic venues quote ~1878-1934 on a different basis (Entropy's is implied valuation in USD billions). Same underlying, different unit — the ratio held constant across trade[XYZ]'s first two days. Open interest and volume are USD notional and unaffected, and reference-asset rollups aggregate notional only, never price, so both sit under Reference Asset 'Anthropic' deliberately.",
+    "refLinks": [
+      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "symbol": "NBIS",
+    "name": "Aster Nebius Perp",
+    "legacyId": 3941
+  },
+  "tracks": {
+    "underlying": "nebius-group-n-v",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "NBIS-USDT",
+    "makerFeeBps": null,
+    "takerFeeBps": null
+  },
+  "about": {
+    "description": "Single-stock perpetual market on Aster tracking Nebius Group N.V. Users get linear exposure to share-price moves without owning shares, shareholder rights, or dividend claims, with pricing referencing an external 24/5 equity feed. Positions are margined and cash-settled in USDT on Aster.",
+    "refLinks": [
+      "https://www.asterdex.com/en/referral/c6eF10"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "identity": {
+    "symbol": "IOVA-USD",
+    "name": "gTrade IOVA Perp",
+    "legacyId": 4571
+  },
+  "tracks": {
+    "underlying": "iovance-biotherapeutics-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "IOVA-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual on Gains Network tracking Iovance Biotherapeutics, Inc. Users get linear exposure to the underlying without owning shares. Cash-settled in USDC."
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

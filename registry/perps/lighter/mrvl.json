@@ -1,0 +1,24 @@
+{
+  "identity": {
+    "symbol": "MRVL",
+    "name": "Lighter Marvell Technology Perp",
+    "legacyId": 3740
+  },
+  "tracks": {
+    "underlying": "marvell-technology-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "MRVL-USDC"
+  },
+  "sources": {
+    "oracleProvider": "Pyth"
+  },
+  "about": {
+    "description": "Marvell Technology (NASDAQ:MRVL) stock perpetual on Lighter, cash-settled in USDC.",
+    "refLinks": [
+      "https://app.lighter.xyz/trade/MRVL?referral=FHT1N8AYKHP4"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "identity": {
+    "symbol": "NCSKCONL2USD-USDT",
+    "legacyId": 5135
+  },
+  "tracks": {
+    "underlying": "graniteshares-2x-long-coin-daily-etf",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "CONL-USDT"
+  },
+  "about": {
+    "description": "CONL is an exchange traded fund perpetual listed on BingX and tracking GraniteShares 2x Long COIN Daily ETF. The contract is cash settled in USDT and does not convey ownership or redemption rights in the underlying. Funding is exchanged every 8h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

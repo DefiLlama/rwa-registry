@@ -1,0 +1,30 @@
+{
+  "identity": {
+    "symbol": "WHEAT",
+    "legacyId": 3238
+  },
+  "tracks": {
+    "underlying": "wheat",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdh",
+    "pair": "WHEAT-USDH"
+  },
+  "sources": {
+    "oracleProvider": "Ventuals weighted oracle (Notice + 2h mark EMA)"
+  },
+  "about": {
+    "description": "Wheat perpetual market. The contract tracks Wheat price using the venue's reference methodology. Users get linear commodity-price exposure only, without title to physical inventory or delivery rights, cash-settled in USDH on Ventuals.",
+    "refLinks": [
+      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
+    ]
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "TSLA-USD",
+    "name": "Avantis Tesla Perp",
+    "legacyId": 3061
+  },
+  "tracks": {
+    "underlying": "tesla-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "TSLA-USD"
+  },
+  "about": {
+    "description": "Tesla perpetual on Avantis, cash-settled in USDC on Base.",
+    "refLinks": [
+      "https://www.avantisfi.com/referral?code=DefiLlama"
+    ]
+  }
+}

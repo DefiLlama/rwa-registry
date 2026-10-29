@@ -1,0 +1,28 @@
+{
+  "identity": {
+    "symbol": "TSMUSDT",
+    "legacyId": 4919
+  },
+  "tracks": {
+    "underlying": "taiwan-semiconductor-manufacturing-company-limited",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "TSM-USDT",
+    "makerFeeBps": 0,
+    "takerFeeBps": 4
+  },
+  "about": {
+    "description": "TSM is a single-stock perpetual listed on Binance and tracking Taiwan Semiconductor Manufacturing Company Limited. The contract is cash settled in USDT against a Binance price index and does not convey ownership of the underlying. Funding is exchanged every 8h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  },
+  "events": [
+    {
+      "kind": "listing",
+      "date": "2026-04-06",
+      "links": [
+        "https://fapi.binance.com/fapi/v1/exchangeInfo"
+      ]
+    }
+  ]
+}

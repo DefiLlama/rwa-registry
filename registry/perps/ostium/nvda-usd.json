@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "NVDA-USD",
+    "name": "Ostium NVIDIA Perp",
+    "legacyId": 3051
+  },
+  "tracks": {
+    "underlying": "nvidia-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "NVDA-USD"
+  },
+  "about": {
+    "description": "NVIDIA perpetual on Ostium, cash-settled in USDC on Arbitrum. Trades during U.S. stock market hours only (9:30 AM - 4:00 PM ET, Monday-Friday).",
+    "refLinks": [
+      "https://app.ostium.com/trade?from=NVDA&to=USD&ref=6X17X"
+    ]
+  }
+}

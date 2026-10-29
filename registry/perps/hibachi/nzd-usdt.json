@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "NZD-USDT",
+    "name": "Hibachi NZD Perp",
+    "legacyId": 9672
+  },
+  "tracks": {
+    "underlying": "new-zealand-dollar",
+    "structure": "forex-perps"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "NZD-USDT"
+  },
+  "about": {
+    "description": "Forex perpetual on Hibachi (Arbitrum) referencing the New Zealand Dollar/USD exchange rate, cash-settled in USDT, giving users synthetic exposure to New Zealand Dollar/USD price movement without holding either currency as cash. Source: docs.hibachi.xyz.",
+    "refLinks": [
+      "https://hibachi.xyz/r/YUKPTN36RM"
+    ]
+  }
+}

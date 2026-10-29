@@ -1,0 +1,26 @@
+{
+  "identity": {
+    "symbol": "BABA_USDT",
+    "legacyId": 5793
+  },
+  "tracks": {
+    "underlying": "alibaba-group-holding-limited",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "BABA-USDT"
+  },
+  "about": {
+    "description": "BABA is a single-stock perpetual listed on Gate, tracking Alibaba Group Holding Limited, margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Up to 50× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  },
+  "events": [
+    {
+      "kind": "listing",
+      "date": "2026-01-26",
+      "links": [
+        "https://api.gateio.ws/api/v4/futures/usdt/contracts"
+      ]
+    }
+  ]
+}

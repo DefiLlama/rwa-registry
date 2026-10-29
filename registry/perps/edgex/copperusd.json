@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "COPPERUSD",
+    "legacyId": 3401
+  },
+  "tracks": {
+    "underlying": "copper",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "marginAsset": "USDT",
+    "pair": "COPPER-USD"
+  },
+  "about": {
+    "description": "Copper perpetual market. The contract tracks copper pricing referenced to the COMEX HG benchmark. Users get linear exposure to copper price moves without owning physical metal, warehouse claims, or a deliverable futures position, with pricing referencing an external metals feed via the Stork decentralized oracle. Positions are margined and cash-settled in USDT.",
+    "refLinks": [
+      "https://pro.edgex.exchange/referral/196451583"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "MRNA",
+    "name": "Variational Moderna Perp",
+    "legacyId": 9132
+  },
+  "tracks": {
+    "underlying": "moderna-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "MRNA-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual on Variational Omni tracking Moderna, Inc. (MRNA), priced off Variational Omni's OLP-aggregated mid-quotes. Users gain linear exposure to Moderna, Inc. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Arbitrum."
+  }
+}

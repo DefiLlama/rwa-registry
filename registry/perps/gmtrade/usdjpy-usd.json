@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "symbol": "USDJPY-USD",
+    "name": "GMTrade USDJPY Perp",
+    "legacyId": 3822
+  },
+  "tracks": {
+    "underlying": "us-dollar-japanese-yen",
+    "structure": "forex-perps"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "USDJPY-USDC",
+    "makerFeeBps": 1,
+    "takerFeeBps": 1.2
+  },
+  "about": {
+    "description": "USDJPY perpetual on GMTrade (Solana), USDC-margined. Tracks USD/JPY FX rate.",
+    "refLinks": [
+      "https://gmtrade.xyz/referrals/?ref=545"
+    ]
+  }
+}

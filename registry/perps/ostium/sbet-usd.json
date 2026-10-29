@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "SBET-USD",
+    "name": "Ostium SharpLink Perp",
+    "legacyId": 3313
+  },
+  "tracks": {
+    "underlying": "sharplink-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "SBET-USD"
+  },
+  "about": {
+    "description": "SharpLink Gaming perpetual on Ostium, cash-settled in USDC on Arbitrum. Trades during U.S. stock market hours only (9:30 AM - 4:00 PM ET, Monday-Friday).",
+    "refLinks": [
+      "https://app.ostium.com/trade?from=SBET&to=USD&ref=6X17X"
+    ]
+  }
+}

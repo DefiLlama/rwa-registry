@@ -1,0 +1,20 @@
+{
+  "identity": {
+    "symbol": "XAU-USD",
+    "legacyId": 3129
+  },
+  "tracks": {
+    "underlying": "gold",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "XAU-USD"
+  },
+  "about": {
+    "description": "Gold perpetual on Extended on Starknet, cash-settled in USDC.",
+    "refLinks": [
+      "https://app.extended.exchange/join/DEFILLAMAO"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "identity": {
+    "symbol": "PF_AMZNXUSD",
+    "legacyId": 7721
+  },
+  "tracks": {
+    "underlying": "amazon-com-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "pair": "AMZNX-USD"
+  },
+  "sources": {
+    "oracleProvider": "dxFeed Composite Forex, via Kraken"
+  },
+  "about": {
+    "description": "AMZNX is a single-stock perpetual listed on Kraken, tracking Amazon.com, Inc., margined and cash-settled in USD. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 1h. Up to 20× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

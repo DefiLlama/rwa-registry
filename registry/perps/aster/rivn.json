@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "RIVN",
+    "name": "Aster Rivian Perp",
+    "legacyId": 4377
+  },
+  "tracks": {
+    "underlying": "rivian-automotive-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "RIVN-USDT"
+  },
+  "about": {
+    "description": "Single-stock perpetual market on Aster tracking Rivian, cash-settled.",
+    "refLinks": [
+      "https://www.asterdex.com/en/referral/c6eF10"
+    ]
+  }
+}

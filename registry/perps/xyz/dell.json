@@ -1,0 +1,24 @@
+{
+  "identity": {
+    "symbol": "DELL",
+    "name": "trade[XYZ] Dell Perp",
+    "legacyId": 3930
+  },
+  "tracks": {
+    "underlying": "dell-technologies-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "DELL-USDC"
+  },
+  "sources": {
+    "oracleProvider": "Pyth equity feed"
+  },
+  "about": {
+    "description": "Single-stock perpetual market tracking Dell Technologies Inc. Users get linear exposure to Dell's share-price moves without owning shares, shareholder rights, or dividend claims, with pricing referencing an external 24/5 equity feed. Positions are margined and cash-settled in USDC on Hyperliquid (xyz namespace).",
+    "refLinks": [
+      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
+    ]
+  }
+}

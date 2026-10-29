@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "SHOP-USD",
+    "name": "Extended Shopify Perp",
+    "legacyId": 8628
+  },
+  "tracks": {
+    "underlying": "shopify-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "SHOP-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual on Extended (formerly X10) tracking Shopify Inc. (SHOP), with pricing referencing Extended oracle. Users gain linear exposure to Shopify Inc. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Starknet.",
+    "refLinks": [
+      "https://app.extended.exchange/join/DEFILLAMAO"
+    ]
+  }
+}

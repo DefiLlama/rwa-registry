@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "symbol": "EBAY",
+    "name": "trade[XYZ] eBay Perp",
+    "legacyId": 3746
+  },
+  "tracks": {
+    "underlying": "ebay-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "marginAsset": "USDT",
+    "pair": "EBAY-USDT"
+  },
+  "about": {
+    "description": "eBay Inc (NASDAQ:EBAY) stock perpetual on trade[XYZ]. HIP-3 deployer namespace on Hyperliquid, cash-settled in USDC.",
+    "refLinks": [
+      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
+    ],
+    "issuer": "trade[XYZ]"
+  }
+}

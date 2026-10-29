@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "BABA",
+    "name": "Aster Alibaba Perp",
+    "legacyId": 3104
+  },
+  "tracks": {
+    "underlying": "alibaba-group-holding-limited",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "BABA-USDT"
+  },
+  "about": {
+    "description": "Single-stock perpetual on Aster (YZi Labs-backed) tracking Alibaba Group Holding Ltd ADR (BABA), with pricing referencing Aster custom oracle (24/5 equity feed). Users gain linear exposure to Alibaba ADR share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USD1 on BNB Chain / Aster Chain.",
+    "refLinks": [
+      "https://www.asterdex.com/en/referral/c6eF10"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "identity": {
+    "symbol": "USDZAR-USD",
+    "name": "Avantis USDZAR Perp",
+    "legacyId": 3867
+  },
+  "tracks": {
+    "underlying": "us-dollar-south-african-rand",
+    "structure": "forex-perps"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "USDZAR-USDC"
+  },
+  "sources": {
+    "oracleProvider": "Pyth"
+  },
+  "about": {
+    "description": "USDZAR perpetual on Avantis (Base), USDC-margined. Verified live 2026-05-20.",
+    "refLinks": [
+      "https://www.avantisfi.com/referral?code=DefiLlama"
+    ],
+    "website": "https://avantisfi.com/"
+  }
+}

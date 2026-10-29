@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "XLE",
+    "name": "Variational Omni Energy Select Sector SPDR Fund Perp",
+    "legacyId": 7645
+  },
+  "tracks": {
+    "underlying": "energy-select-sector-spdr-fund",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "XLE-USDC"
+  },
+  "about": {
+    "description": "XLE is a cash settled perpetual market on Variational Omni referencing Energy Select Sector SPDR Fund. The market is quoted and margined in USDC on Arbitrum, marked against the Omni Liquidity Pool's aggregated reference price rather than a single venue, and it conveys no ownership of the underlying and no claim on the issuer."
+  }
+}

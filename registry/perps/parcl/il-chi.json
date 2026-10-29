@@ -1,0 +1,25 @@
+{
+  "identity": {
+    "symbol": "IL-CHI",
+    "name": "Parcl Chicago Perp",
+    "legacyId": 3091
+  },
+  "tracks": {
+    "underlying": "chicago-housing-index",
+    "structure": "real-estate-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "CHI-USD"
+  },
+  "about": {
+    "description": "Chicago Housing Index perpetual on Parcl, cash-settled in USDC on Solana."
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

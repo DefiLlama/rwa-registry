@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "SPY",
+    "name": "Lighter S&P 500 ETF Perp",
+    "legacyId": 3365
+  },
+  "tracks": {
+    "underlying": "state-street-spdr-s-p-500-etf-trust",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "SPY-USDC"
+  },
+  "about": {
+    "description": "ETF perpetual market tracking the SPDR S&P 500 ETF Trust (SPY). Users get synthetic exposure to the SPY ETF's price rather than ownership of ETF shares or redemption rights, with pricing referencing the ETF's public market price via Lighter's fair price oracle. Positions are margined and cash-settled in USDC.",
+    "refLinks": [
+      "https://app.lighter.xyz/trade/SPY?referral=FHT1N8AYKHP4"
+    ]
+  }
+}

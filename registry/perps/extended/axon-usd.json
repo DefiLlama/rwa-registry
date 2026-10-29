@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "AXON-USD",
+    "name": "Extended Axon Enterprise Perp",
+    "legacyId": 8583
+  },
+  "tracks": {
+    "underlying": "axon-enterprise-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "AXON-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual on Extended (formerly X10) tracking Axon Enterprise, Inc. (AXON), with pricing referencing Extended oracle. Users gain linear exposure to Axon Enterprise, Inc. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Starknet.",
+    "refLinks": [
+      "https://app.extended.exchange/join/DEFILLAMAO"
+    ]
+  }
+}

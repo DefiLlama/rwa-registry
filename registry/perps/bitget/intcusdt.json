@@ -1,0 +1,25 @@
+{
+  "identity": {
+    "symbol": "INTCUSDT",
+    "name": "Bitget Intel Corp. Perp",
+    "legacyId": 6409
+  },
+  "tracks": {
+    "underlying": "intel-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "INTC-USDT"
+  },
+  "about": {
+    "description": "INTC is a single-stock perpetual listed on Bitget, tracking Intel Corp., margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Up to 50× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

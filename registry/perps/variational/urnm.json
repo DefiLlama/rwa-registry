@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "URNM",
+    "name": "Variational Omni Sprott Uranium Miners ETF Perp",
+    "legacyId": 4455
+  },
+  "tracks": {
+    "underlying": "sprott-uranium-miners-etf",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "URNM-USDC"
+  },
+  "about": {
+    "description": "Perpetual market on Variational Omni tracking Sprott Uranium Miners ETF, cash-settled."
+  }
+}

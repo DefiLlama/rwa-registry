@@ -1,0 +1,27 @@
+{
+  "identity": {
+    "symbol": "GAS",
+    "legacyId": 3235
+  },
+  "tracks": {
+    "underlying": "natural-gas",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdh",
+    "pair": "GAS-USDH"
+  },
+  "about": {
+    "description": "Natural Gas perpetual market. The contract tracks Natural Gas price using the venue's reference methodology. Users get linear commodity-price exposure only, without title to physical inventory or delivery rights, cash-settled in USDH on Felix.",
+    "refLinks": [
+      "https://www.usefelix.xyz?ref=4BF702FF"
+    ]
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "BZ",
+    "name": "Variational Omni Brent Crude Oil Perp",
+    "legacyId": 4424
+  },
+  "tracks": {
+    "underlying": "crude-oil-brent",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "BZ-USDC"
+  },
+  "about": {
+    "description": "Perpetual market on Variational Omni tracking Crude Oil (Brent), cash-settled."
+  }
+}

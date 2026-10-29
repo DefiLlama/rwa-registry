@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "CRCL",
+    "name": "Lighter Circle Perp",
+    "legacyId": 3352
+  },
+  "tracks": {
+    "underlying": "circle-internet-group-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "CRCL-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual market tracking Circle Internet Group, Inc. Users get linear exposure to Circle share-price moves without owning Circle shares, shareholder rights, or dividend claims, with pricing referencing an external 24/5 equity feed via Lighter's fair price oracle. Positions are margined and cash-settled in USDC.",
+    "refLinks": [
+      "https://app.lighter.xyz/trade/CRCL?referral=FHT1N8AYKHP4"
+    ]
+  }
+}

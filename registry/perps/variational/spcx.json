@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "SPCX",
+    "name": "Variational Omni SpaceX Perp",
+    "legacyId": 4417
+  },
+  "tracks": {
+    "underlying": "space-exploration-technologies-corp",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "SPCX-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual market on Variational Omni tracking SpaceX (Space Exploration Technologies Corp.), publicly listed on Nasdaq (SPCX) since June 2026, cash-settled."
+  }
+}

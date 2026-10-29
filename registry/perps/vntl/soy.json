@@ -1,0 +1,32 @@
+{
+  "identity": {
+    "symbol": "SOY",
+    "name": "Ventuals Soybean Perp",
+    "legacyId": 3529
+  },
+  "tracks": {
+    "underlying": "soybeans",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "marginAsset": "USDC",
+    "pair": "SOY-USDC"
+  },
+  "sources": {
+    "oracleProvider": "Ventuals weighted oracle (Notice + 2h mark EMA)"
+  },
+  "about": {
+    "description": "Agricultural-commodity perpetual on Ventuals tracking Soybeans (SOY), with pricing referencing Ventuals weighted oracle (Notice + 2h mark EMA). Users gain linear exposure to soybeans prices without owning physical inventory or futures contracts. Positions are margined and cash-settled in USDC on Hyperliquid (vntl namespace).",
+    "refLinks": [
+      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
+    ]
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

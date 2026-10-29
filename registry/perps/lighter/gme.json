@@ -1,0 +1,31 @@
+{
+  "identity": {
+    "symbol": "GME",
+    "name": "Lighter GameStop Perp",
+    "legacyId": 3739
+  },
+  "tracks": {
+    "underlying": "gamestop-corp",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "GME-USDC"
+  },
+  "sources": {
+    "oracleProvider": "Pyth"
+  },
+  "about": {
+    "description": "GameStop (NYSE:GME) stock perpetual on Lighter, cash-settled in USDC.",
+    "refLinks": [
+      "https://app.lighter.xyz/trade/GME?referral=FHT1N8AYKHP4"
+    ]
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

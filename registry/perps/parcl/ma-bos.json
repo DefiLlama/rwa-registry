@@ -1,0 +1,25 @@
+{
+  "identity": {
+    "symbol": "MA-BOS",
+    "name": "Parcl Boston Perp",
+    "legacyId": 3092
+  },
+  "tracks": {
+    "underlying": "boston-housing-index",
+    "structure": "real-estate-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "BOS-USD"
+  },
+  "about": {
+    "description": "Boston Housing Index perpetual on Parcl, cash-settled in USDC on Solana."
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

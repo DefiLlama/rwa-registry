@@ -1,0 +1,17 @@
+{
+  "identity": {
+    "symbol": "SNDK-USD",
+    "legacyId": 4480
+  },
+  "tracks": {
+    "underlying": "sandisk-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "SNDK-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual market on gTrade tracking Sandisk Corporation. The market is synthetic and cash-settled in USDC on Arbitrum."
+  }
+}

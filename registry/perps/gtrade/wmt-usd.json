@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "WMT-USD",
+    "name": "gTrade WMT Perp",
+    "legacyId": 3581
+  },
+  "tracks": {
+    "underlying": "walmart-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "WMT-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual on Gains Network tracking Walmart Inc. (WMT), with pricing referencing Chainlink DON (24/5 equity feed). Users gain linear exposure to Walmart Inc. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC / DAI / WETH on Arbitrum / Polygon / Base."
+  }
+}

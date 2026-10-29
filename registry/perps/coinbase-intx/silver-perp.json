@@ -1,0 +1,17 @@
+{
+  "identity": {
+    "symbol": "SILVER-PERP",
+    "legacyId": 5025
+  },
+  "tracks": {
+    "underlying": "silver",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "SILVER-USDC"
+  },
+  "about": {
+    "description": "SILVER is a commodity perpetual listed on Coinbase International Exchange and tracking Silver. The contract is cash settled in USDC and does not convey ownership or delivery of the underlying. Funding is exchanged every 1h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

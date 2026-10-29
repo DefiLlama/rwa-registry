@@ -1,0 +1,24 @@
+{
+  "identity": {
+    "symbol": "ORCL",
+    "name": "trade[XYZ] Oracle Perp",
+    "legacyId": 2926
+  },
+  "tracks": {
+    "underlying": "oracle-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "ORCL-USDC"
+  },
+  "sources": {
+    "oracleProvider": "Pyth equity feed"
+  },
+  "about": {
+    "description": "Single-stock perpetual market tracking Oracle Corporation. Users get linear exposure to Oracle share-price moves without owning shares, voting rights, or dividend claims, with pricing referencing an external 24/5 equity feed. Positions are margined and cash-settled in USDC. Markets are visible on Hyperliquid under the xyz namespace, but are operated by trade[XYZ] rather than listed as core Hyperliquid perps.",
+    "refLinks": [
+      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
+    ]
+  }
+}

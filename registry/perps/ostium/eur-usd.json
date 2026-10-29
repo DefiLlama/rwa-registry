@@ -1,0 +1,26 @@
+{
+  "identity": {
+    "symbol": "EUR-USD",
+    "name": "Ostium EUR Perp",
+    "legacyId": 3639
+  },
+  "tracks": {
+    "underlying": "euro",
+    "structure": "forex-perps"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "EUR-USDC",
+    "makerFeeBps": 3,
+    "takerFeeBps": 3
+  },
+  "sources": {
+    "oracleProvider": "Stork / QUODD institutional FX feed"
+  },
+  "about": {
+    "description": "FX perpetual on Ostium Labs tracking Euro (EUR) versus the US dollar, with pricing referencing Stork / QUODD institutional FX feed. Positions are margined and cash-settled in USDC on Arbitrum, giving users synthetic exposure to Euro/USD price movement without holding either currency as cash.",
+    "refLinks": [
+      "https://app.ostium.com/trade?from=EUR&to=USD&ref=6X17X"
+    ]
+  }
+}

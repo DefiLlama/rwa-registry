@@ -1,0 +1,20 @@
+{
+  "identity": {
+    "symbol": "XPT",
+    "legacyId": 4742
+  },
+  "tracks": {
+    "underlying": "platinum",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "XPT-USD-PERP"
+  },
+  "about": {
+    "description": "XPT is a commodity perpetual on Paradex tracking Platinum spot pricing. Paradex is a permissionless perp and options DEX operating on its own Starknet-based appchain (Paradex Chain / DimeVM), with zero-fee trading, unified cross-margin in USDC, and ZK-encrypted account privacy. The market is cash-settled in USDC.",
+    "refLinks": [
+      "0"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "vxip",
+    "name": "Variational Volatility Index Swap",
+    "legacyId": 9590
+  },
+  "tracks": {
+    "underlying": "cboe-volatility-index",
+    "structure": "equity-index-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "VXIP-USDC"
+  },
+  "about": {
+    "description": "Cash-settled swap on Cboe Volatility Index, quoted against USDC. No funding; cost of carry is in the spread."
+  }
+}

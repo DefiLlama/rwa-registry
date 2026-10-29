@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "symbol": "ASML",
+    "name": "Aster ASML Perp",
+    "legacyId": 4460
+  },
+  "tracks": {
+    "underlying": "asml-holding-nv",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "ASML-USDT",
+    "makerFeeBps": null,
+    "takerFeeBps": null
+  },
+  "about": {
+    "description": "Single-stock perpetual on Aster (YZi Labs-backed) tracking ASML Holding N.V, with pricing referencing Aster custom oracle (24/5 equity feed). Users get linear exposure without owning shares, margined and cash-settled in USDT.",
+    "refLinks": [
+      "https://www.asterdex.com/en/referral/c6eF10"
+    ]
+  }
+}

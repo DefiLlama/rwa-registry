@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "RTX",
+    "name": "Aster RTX Perp",
+    "legacyId": 4556
+  },
+  "tracks": {
+    "underlying": "rtx-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "RTX-USDT"
+  },
+  "about": {
+    "description": "Single-stock perpetual on Aster tracking RTX Corp. Users get linear exposure to the underlying without owning shares. Cash-settled in USDT."
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "NOK",
+    "name": "trade[XYZ] Nokia Perp",
+    "legacyId": 4382
+  },
+  "tracks": {
+    "underlying": "nokia-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "NOK-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual market on trade[XYZ] tracking Nokia, cash-settled.",
+    "refLinks": [
+      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
+    ]
+  }
+}

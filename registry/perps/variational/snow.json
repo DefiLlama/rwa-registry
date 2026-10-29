@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "SNOW",
+    "name": "Variational Omni Snowflake Inc. Perp",
+    "legacyId": 7636
+  },
+  "tracks": {
+    "underlying": "snowflake-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "SNOW-USDC"
+  },
+  "about": {
+    "description": "SNOW is a cash settled perpetual market on Variational Omni referencing Snowflake Inc.. The market is quoted and margined in USDC on Arbitrum, marked against the Omni Liquidity Pool's aggregated reference price rather than a single venue, and it conveys no ownership of the underlying and no claim on the issuer."
+  }
+}

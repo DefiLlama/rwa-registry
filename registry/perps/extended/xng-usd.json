@@ -1,0 +1,22 @@
+{
+  "identity": {
+    "symbol": "XNG-USD",
+    "legacyId": 3135
+  },
+  "tracks": {
+    "underlying": "natural-gas",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "XNG-USDC",
+    "makerFeeBps": null,
+    "takerFeeBps": null
+  },
+  "about": {
+    "description": "Natural-gas perpetual on Extended (formerly X10) tracking Natural Gas, with pricing referencing Extended oracle. Users gain linear exposure to spot natural-gas prices without owning physical inventory or futures contracts. Positions are margined and cash-settled in USDC on Starknet.",
+    "refLinks": [
+      "https://app.extended.exchange/join/DEFILLAMAO"
+    ]
+  }
+}

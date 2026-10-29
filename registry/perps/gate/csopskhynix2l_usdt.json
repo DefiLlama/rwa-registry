@@ -1,0 +1,26 @@
+{
+  "identity": {
+    "symbol": "CSOPSKHYNIX2L_USDT",
+    "legacyId": 8734
+  },
+  "tracks": {
+    "underlying": "csop-sk-hynix-daily-max-2x-leveraged-product",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "CSOPSKHYNIX2L-USDT"
+  },
+  "about": {
+    "description": "CSOPSKHYNIX2L is an exchange traded fund perpetual listed on Gate, tracking CSOP SK Hynix Daily Max (2x) Leveraged Product, margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Up to 20× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  },
+  "events": [
+    {
+      "kind": "listing",
+      "date": "2026-08-12",
+      "links": [
+        "https://api.gateio.ws/api/v4/futures/usdt/contracts"
+      ]
+    }
+  ]
+}

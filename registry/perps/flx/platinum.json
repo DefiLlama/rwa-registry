@@ -1,0 +1,27 @@
+{
+  "identity": {
+    "symbol": "PLATINUM",
+    "legacyId": 2954
+  },
+  "tracks": {
+    "underlying": "platinum",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdh",
+    "pair": "PLATINUM-USDH"
+  },
+  "about": {
+    "description": "Platinum perpetual market. The contract tracks the price of one troy ounce of platinum. Users get linear exposure to platinum price moves without owning physical metal or redeemable commodity claims. Pricing uses Felix’s external reference methodology for commodity markets. Positions are margined and cash-settled in USDH. Markets are visible on Hyperliquid under the flx namespace, but are operated by Felix rather than listed as core Hyperliquid perps.",
+    "refLinks": [
+      "https://www.usefelix.xyz?ref=4BF702FF"
+    ]
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

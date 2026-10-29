@@ -1,0 +1,17 @@
+{
+  "identity": {
+    "symbol": "NCSKASMG2USD-USDT",
+    "legacyId": 7734
+  },
+  "tracks": {
+    "underlying": "leverage-shares-2x-long-asml-daily-etf",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "ASMG-USDT"
+  },
+  "about": {
+    "description": "ASMG is an exchange traded fund perpetual listed on BingX, tracking Leverage Shares 2X Long ASML Daily ETF, margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

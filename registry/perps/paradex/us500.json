@@ -1,0 +1,20 @@
+{
+  "identity": {
+    "symbol": "US500",
+    "legacyId": 4739
+  },
+  "tracks": {
+    "underlying": "s-p-500-index",
+    "structure": "equity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "US500-USD-PERP"
+  },
+  "about": {
+    "description": "US500 is an equity index perpetual on Paradex tracking the S&P 500 Index. Paradex is a permissionless perp and options DEX operating on its own Starknet-based appchain (Paradex Chain / DimeVM), with zero-fee trading, unified cross-margin in USDC, and ZK-encrypted account privacy. The market is cash-settled in USDC.",
+    "refLinks": [
+      "0"
+    ]
+  }
+}

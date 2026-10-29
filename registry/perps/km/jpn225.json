@@ -1,0 +1,30 @@
+{
+  "identity": {
+    "symbol": "JPN225",
+    "name": "Markets by Kinetiq Nikkei 225 Perp",
+    "legacyId": 3281
+  },
+  "tracks": {
+    "underlying": "nikkei-225-stock-average",
+    "structure": "equity-perp"
+  },
+  "terms": {
+    "collateral": "usdh",
+    "pair": "JPN225-USDH",
+    "makerFeeBps": 3,
+    "takerFeeBps": 9
+  },
+  "about": {
+    "description": "Equity-index perpetual market tracking Nikkei 225 Index. Users get synthetic index exposure rather than ownership of constituent shares, cash-settled in USDH on Markets by Kinetiq.",
+    "refLinks": [
+      "https://markets.xyz/join/llama"
+    ]
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

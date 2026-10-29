@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "SPY",
+    "name": "RISEx SPDR S&P 500 ETF Perp",
+    "legacyId": 9104
+  },
+  "tracks": {
+    "underlying": "state-street-spdr-s-p-500-etf-trust",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "SPY-USDC"
+  },
+  "about": {
+    "description": "ETF perpetual on RISEx tracking the State Street SPDR S&P 500 ETF Trust, cash-settled and margined in USDC, up to 20x leverage. RISEx is a fully onchain orderbook perp DEX on RISE Chain, where the orderbook shares state with DeFi protocols in the same block. Index price from Stork (median CEX spot); mark price is the median of an index-anchored premium, the raw book signal and a Stork anchor. Trades 24/7 including nights, weekends and holidays when the underlying market is closed, so liquidity thins during off-hours.",
+    "refLinks": [
+      "https://www.rise.trade/en/trade/SPY"
+    ]
+  }
+}

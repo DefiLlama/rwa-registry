@@ -1,0 +1,16 @@
+{
+  "identity": {
+    "symbol": "QQQUSD-PERP",
+    "legacyId": 5306
+  },
+  "tracks": {
+    "underlying": "invesco-qqq-trust-series-1",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "pair": "QQQ-USD"
+  },
+  "about": {
+    "description": "QQQ is an exchange traded fund perpetual listed on Crypto.com and tracking Invesco QQQ Trust, Series 1. The contract is cash settled in USD and does not convey ownership or redemption rights in the underlying. Funding is exchanged every 1h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

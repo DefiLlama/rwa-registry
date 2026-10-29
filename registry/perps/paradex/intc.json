@@ -1,0 +1,20 @@
+{
+  "identity": {
+    "symbol": "INTC",
+    "legacyId": 4733
+  },
+  "tracks": {
+    "underlying": "intel-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "INTC-USD-PERP"
+  },
+  "about": {
+    "description": "INTC is a single-stock perpetual on Paradex tracking Intel Corporation. Paradex is a permissionless perp and options DEX operating on its own Starknet-based appchain (Paradex Chain / DimeVM), with zero-fee trading, unified cross-margin in USDC, and ZK-encrypted account privacy. The market is cash-settled in USDC and does not confer any shareholder rights in the underlying.",
+    "refLinks": [
+      "0"
+    ]
+  }
+}

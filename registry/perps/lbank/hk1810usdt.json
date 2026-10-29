@@ -1,0 +1,17 @@
+{
+  "identity": {
+    "symbol": "HK1810USDT",
+    "legacyId": 6340
+  },
+  "tracks": {
+    "underlying": "xiaomi-corporation-hkd",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "HK1810-USDT"
+  },
+  "about": {
+    "description": "HK1810 is a single-stock perpetual listed on LBank, tracking Xiaomi Corporation, margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Up to 25× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

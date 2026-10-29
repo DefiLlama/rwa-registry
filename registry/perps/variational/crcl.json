@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "CRCL",
+    "name": "Variational Omni Circle Perp",
+    "legacyId": 4449
+  },
+  "tracks": {
+    "underlying": "circle-internet-group-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "CRCL-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual market on Variational Omni tracking Circle Internet Group, cash-settled."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "identity": {
+    "symbol": "NBIS_PERP",
+    "legacyId": 6727
+  },
+  "tracks": {
+    "underlying": "nebius-group-n-v",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "NBIS-USDT",
+    "makerFeeBps": 1,
+    "takerFeeBps": 5.5
+  },
+  "about": {
+    "description": "NBIS is a single-stock perpetual listed on WhiteBIT, tracking Nebius Group N.V., margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Up to 20× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

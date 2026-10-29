@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "SPCX",
+    "name": "Lighter SpaceX Perp",
+    "legacyId": 4384
+  },
+  "tracks": {
+    "underlying": "space-exploration-technologies-corp",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "SPCX-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual market on Lighter tracking SpaceX (Space Exploration Technologies Corp.), publicly listed on Nasdaq (SPCX) since June 2026, cash-settled.",
+    "refLinks": [
+      "https://app.lighter.xyz/trade/SPCX?referral=FHT1N8AYKHP4"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "symbol": "XPT",
+    "legacyId": 3375
+  },
+  "tracks": {
+    "underlying": "platinum",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "XPT-USDC"
+  },
+  "sources": {
+    "oracleProvider": "Chainlink"
+  },
+  "about": {
+    "description": "Platinum perpetual market. The contract tracks the spot price of one troy ounce of platinum (XPT/USD). Users get linear exposure to platinum price moves without owning bullion, vaulted metal, or redeemable claims on physical inventory, with pricing referencing an external spot metal feed via Lighter's fair price oracle. Positions are margined and cash-settled in USDC.",
+    "refLinks": [
+      "https://app.lighter.xyz/trade/XPT?referral=FHT1N8AYKHP4"
+    ]
+  }
+}

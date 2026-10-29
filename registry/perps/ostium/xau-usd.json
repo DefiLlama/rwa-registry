@@ -1,0 +1,22 @@
+{
+  "identity": {
+    "symbol": "XAU-USD",
+    "legacyId": 3040
+  },
+  "tracks": {
+    "underlying": "gold",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "XAU-USD",
+    "makerFeeBps": 3,
+    "takerFeeBps": 3
+  },
+  "about": {
+    "description": "Gold perpetual on Ostium, cash-settled in USDC on Arbitrum.",
+    "refLinks": [
+      "https://app.ostium.com/trade?from=XAU&to=USD&ref=6X17X"
+    ]
+  }
+}

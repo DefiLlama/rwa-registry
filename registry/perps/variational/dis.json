@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "DIS",
+    "name": "Variational Omni The Walt Disney Company Perp",
+    "legacyId": 7627
+  },
+  "tracks": {
+    "underlying": "the-walt-disney-co",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "DIS-USDC"
+  },
+  "about": {
+    "description": "DIS is a cash settled perpetual market on Variational Omni referencing The Walt Disney Company. The market is quoted and margined in USDC on Arbitrum, marked against the Omni Liquidity Pool's aggregated reference price rather than a single venue, and it conveys no ownership of the underlying and no claim on the issuer."
+  }
+}

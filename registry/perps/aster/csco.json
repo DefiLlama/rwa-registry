@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "symbol": "CSCO",
+    "name": "Aster Cisco Perp",
+    "legacyId": 3914
+  },
+  "tracks": {
+    "underlying": "cisco-systems-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "CSCO-USDT",
+    "makerFeeBps": null,
+    "takerFeeBps": null
+  },
+  "about": {
+    "description": "Aster perpetual market tracking Cisco Systems Inc. (networking equipment). Verified live on platform UI 2026-05-26 via browser.",
+    "refLinks": [
+      "https://www.asterdex.com/en/referral/c6eF10"
+    ]
+  }
+}

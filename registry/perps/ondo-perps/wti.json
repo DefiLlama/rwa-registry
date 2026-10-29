@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "WTI",
+    "name": "Ondo Perps WTI Crude Oil Perp",
+    "legacyId": 4043
+  },
+  "tracks": {
+    "underlying": "crude-oil-wti",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "WTI-USD"
+  },
+  "about": {
+    "description": "Commodity perpetual market on Ondo Perps tracking Crude Oil (WTI), cash-settled, 24/7, up to 20x leverage, hourly funding, launched 2026-06-09 (non-US users only). Verified live via adapter 2026-06-10.",
+    "refLinks": [
+      "https://app.ondoperps.xyz/trade/perps/WTI-USD.P?ref=76ZCWB"
+    ]
+  }
+}

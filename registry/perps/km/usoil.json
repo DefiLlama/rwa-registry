@@ -1,0 +1,30 @@
+{
+  "identity": {
+    "symbol": "USOIL",
+    "legacyId": 2960
+  },
+  "tracks": {
+    "underlying": "u-s-oil",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdh",
+    "pair": "USOIL-USDH"
+  },
+  "sources": {
+    "oracleProvider": "Kaiko / USO-derived WTI"
+  },
+  "about": {
+    "description": "WTI crude oil perpetual market. The contract tracks West Texas Intermediate crude oil using a futures-based reference price with scheduled contract rolls. Users get linear oil price exposure only, without owning physical crude, inventory claims, or a deliverable futures position. Pricing follows the market reference used by the km venue on Hyperliquid. Positions are margined and cash-settled in USDH. Markets are visible on Hyperliquid under the km namespace, but are operated by Markets by Kinetiq rather than listed as core Hyperliquid perps.",
+    "refLinks": [
+      "https://markets.xyz/join/llama"
+    ]
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

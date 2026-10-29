@@ -1,0 +1,22 @@
+{
+  "identity": {
+    "symbol": "CLUSD",
+    "name": "edgeX WTI Crude Oil Perp",
+    "legacyId": 3402
+  },
+  "tracks": {
+    "underlying": "crude-oil-wti",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "marginAsset": "USDT",
+    "pair": "CL-USD"
+  },
+  "about": {
+    "description": "WTI crude oil perpetual market. The contract tracks West Texas Intermediate crude oil using a futures-based reference price. Users get linear oil price exposure only, without owning physical crude, inventory claims, or a deliverable futures position. Pricing uses a futures-based external reference via the Stork decentralized oracle. Positions are margined and cash-settled in USDT.",
+    "refLinks": [
+      "https://pro.edgex.exchange/referral/196451583"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "VST",
+    "name": "Paragon Vistra Perp",
+    "legacyId": 8792
+  },
+  "tracks": {
+    "underlying": "vistra-corp",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "VST-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual market tracking Vistra Corp. (VST) on Paragon. Users get linear exposure to VST share-price moves without owning VST shares, shareholder rights, or dividend claims. HIP-3 builder-deployed market on Hyperliquid in the para namespace, cash-settled in USDC.",
+    "refLinks": [
+      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
+    ]
+  }
+}

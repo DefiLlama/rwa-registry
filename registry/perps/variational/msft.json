@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "MSFT",
+    "name": "Variational Omni Microsoft Corporation Perp",
+    "legacyId": 4508
+  },
+  "tracks": {
+    "underlying": "microsoft-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "MSFT-USDC"
+  },
+  "about": {
+    "description": "MSFT is a single-stock perpetual on Variational tracking Microsoft Corporation. Microsoft Corporation is a US enterprise software, cloud, gaming, and AI infrastructure company (Nasdaq: MSFT). The market is cash-settled with hourly funding, no shareholder rights, and no dividend rights in the underlying.",
+    "refLinks": [
+      "0"
+    ]
+  }
+}

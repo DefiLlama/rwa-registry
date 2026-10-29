@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "symbol": "WHEAT",
+    "legacyId": 3743
+  },
+  "tracks": {
+    "underlying": "wheat",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "WHEAT-USDC"
+  },
+  "sources": {
+    "oracleProvider": "Pyth"
+  },
+  "about": {
+    "description": "Wheat futures-equivalent perpetual on Lighter, cash-settled in USDC.",
+    "refLinks": [
+      "https://app.lighter.xyz/trade/WHEAT?referral=FHT1N8AYKHP4"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "identity": {
+    "symbol": "DRAM",
+    "legacyId": 4386
+  },
+  "tracks": {
+    "underlying": "roundhill-memory-etf",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "DRAM-USDC"
+  },
+  "about": {
+    "description": "Perpetual market on Lighter tracking Roundhill Memory ETF, cash-settled.",
+    "refLinks": [
+      "https://app.lighter.xyz/trade/DRAM?referral=FHT1N8AYKHP4"
+    ]
+  }
+}

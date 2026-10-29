@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "GOOGL",
+    "name": "ApeX Omni Alphabet Perp",
+    "legacyId": 3756
+  },
+  "tracks": {
+    "underlying": "alphabet-class-a",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "GOOGL-USDC"
+  },
+  "about": {
+    "description": "Alphabet Class A (NASDAQ:GOOGL) stock perpetual on ApeX Omni, cash-settled in USDT.",
+    "refLinks": [
+      "https://omni.apex.exchange/referral?referralCode=T0S8V482"
+    ]
+  }
+}

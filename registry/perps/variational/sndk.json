@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "SNDK",
+    "name": "Variational Omni SanDisk Perp",
+    "legacyId": 4406
+  },
+  "tracks": {
+    "underlying": "sandisk-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "SNDK-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual market on Variational Omni tracking SanDisk, cash-settled."
+  }
+}

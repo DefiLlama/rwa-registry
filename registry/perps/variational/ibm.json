@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "IBM",
+    "name": "Variational Omni International Business Machines Corporation Perp",
+    "legacyId": 4765
+  },
+  "tracks": {
+    "underlying": "international-business-machines-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "IBM-USDC"
+  },
+  "about": {
+    "description": "IBM is a single-stock perpetual on Variational tracking International Business Machines Corporation. International Business Machines Corporation is a US multinational technology and consulting company (NYSE: IBM). The market is cash-settled with hourly funding, no shareholder rights, and no dividend rights in the underlying.",
+    "refLinks": [
+      "0"
+    ]
+  }
+}

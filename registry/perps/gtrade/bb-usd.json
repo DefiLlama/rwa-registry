@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "BB-USD",
+    "name": "gTrade BB Perp",
+    "legacyId": 4566
+  },
+  "tracks": {
+    "underlying": "blackberry-limited",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "BB-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual on Gains Network tracking BlackBerry Limited. Users get linear exposure to the underlying without owning shares. Cash-settled in USDC."
+  }
+}

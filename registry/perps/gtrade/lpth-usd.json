@@ -1,0 +1,25 @@
+{
+  "identity": {
+    "symbol": "LPTH-USD",
+    "name": "gTrade LPTH Perp",
+    "legacyId": 4573
+  },
+  "tracks": {
+    "underlying": "lightpath-technologies",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "LPTH-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual on Gains Network tracking LightPath Technologies Inc. Users get linear exposure to the underlying without owning shares. Cash-settled in USDC."
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

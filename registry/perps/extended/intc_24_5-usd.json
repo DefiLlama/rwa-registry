@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "symbol": "INTC_24_5-USD",
+    "name": "Extended INTC Perp",
+    "legacyId": 3608
+  },
+  "tracks": {
+    "underlying": "intel-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "INTC-USDC",
+    "makerFeeBps": null,
+    "takerFeeBps": null
+  },
+  "about": {
+    "description": "Single-stock perpetual on Extended (formerly X10) tracking Intel Corporation (INTC), with pricing referencing Extended oracle (24/5 equity feed). Users gain linear exposure to Intel Corporation share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Starknet.",
+    "refLinks": [
+      "https://app.extended.exchange/join/DEFILLAMAO"
+    ]
+  }
+}

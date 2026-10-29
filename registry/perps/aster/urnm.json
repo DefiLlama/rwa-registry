@@ -1,0 +1,20 @@
+{
+  "identity": {
+    "symbol": "URNM",
+    "legacyId": 4374
+  },
+  "tracks": {
+    "underlying": "sprott-uranium-miners-etf",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "URNM-USDT"
+  },
+  "about": {
+    "description": "Perpetual market on Aster tracking Sprott Uranium Miners ETF, cash-settled.",
+    "refLinks": [
+      "https://www.asterdex.com/en/referral/c6eF10"
+    ]
+  }
+}

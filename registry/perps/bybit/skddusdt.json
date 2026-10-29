@@ -1,0 +1,26 @@
+{
+  "identity": {
+    "symbol": "SKDDUSDT",
+    "legacyId": 8677
+  },
+  "tracks": {
+    "underlying": "graniteshares-2x-short-sk-hynix-daily-etf",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "SKDD-USDT"
+  },
+  "about": {
+    "description": "SKDD is an exchange traded fund perpetual listed on Bybit, tracking GraniteShares 2x Short SK Hynix Daily ETF, margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Up to 25× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  },
+  "events": [
+    {
+      "kind": "listing",
+      "date": "2026-08-10",
+      "links": [
+        "https://api.bybit.com/v5/market/instruments-info?category=linear"
+      ]
+    }
+  ]
+}

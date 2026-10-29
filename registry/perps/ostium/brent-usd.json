@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "symbol": "BRENT-USD",
+    "name": "Ostium Brent Crude Oil Perp",
+    "legacyId": 3293
+  },
+  "tracks": {
+    "underlying": "crude-oil-brent",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "BRENT-USD",
+    "makerFeeBps": 5,
+    "takerFeeBps": 5
+  },
+  "about": {
+    "description": "Brent Crude Oil perpetual on Ostium, cash-settled in USDC on Arbitrum.",
+    "refLinks": [
+      "https://app.ostium.com/trade?from=BRENT&to=USD&ref=6X17X"
+    ]
+  }
+}

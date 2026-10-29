@@ -1,0 +1,24 @@
+{
+  "identity": {
+    "symbol": "BABA",
+    "name": "Lighter Alibaba Perp",
+    "legacyId": 3951
+  },
+  "tracks": {
+    "underlying": "alibaba-group-holding-limited",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "BABA-USDC"
+  },
+  "sources": {
+    "oracleProvider": "Lighter fair price oracle"
+  },
+  "about": {
+    "description": "Single-stock perpetual market on Lighter (zkLighter / ZKSync) tracking Alibaba Group Holding Ltd. Users get linear exposure to share-price moves without owning shares, shareholder rights, or dividend claims, cash-settled in USDC on Lighter.",
+    "refLinks": [
+      "https://app.lighter.xyz/trade/BABA?referral=FHT1N8AYKHP4"
+    ]
+  }
+}

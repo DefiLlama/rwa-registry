@@ -1,0 +1,17 @@
+{
+  "identity": {
+    "symbol": "NCFXEURSGD2USD-USDT",
+    "legacyId": 4976
+  },
+  "tracks": {
+    "underlying": "euro-singapore-dollar",
+    "structure": "forex-perps"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "EURSGD-USDT"
+  },
+  "about": {
+    "description": "EURSGD is a currency pair perpetual listed on BingX and tracking Euro / Singapore Dollar. The contract is cash settled in USDT and does not convey ownership or delivery of the underlying. Funding is exchanged every 8h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

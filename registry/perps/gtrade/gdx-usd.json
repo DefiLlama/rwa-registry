@@ -1,0 +1,24 @@
+{
+  "identity": {
+    "symbol": "GDX-USD",
+    "legacyId": 3853
+  },
+  "tracks": {
+    "underlying": "vaneck-gold-miners-etf",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "GDX-USDC"
+  },
+  "about": {
+    "description": "VanEck Gold Miners ETF (GDX) perpetual on gTrade, USDC-margined. Verified live 2026-05-20."
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

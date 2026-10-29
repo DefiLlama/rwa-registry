@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "MRVL-USD",
+    "name": "gTrade Marvell Perp",
+    "legacyId": 4499
+  },
+  "tracks": {
+    "underlying": "marvell-technology-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "MRVL-USD"
+  },
+  "about": {
+    "description": "gTrade perpetual market tracking Marvell Technology. Cash-settled USDC pair on Arbitrum with Chainlink DON oracle pricing."
+  }
+}

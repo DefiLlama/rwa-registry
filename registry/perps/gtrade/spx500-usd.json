@@ -1,0 +1,20 @@
+{
+  "identity": {
+    "symbol": "SPX500-USD",
+    "name": "gTrade S&P 500 Perp",
+    "legacyId": 3027
+  },
+  "tracks": {
+    "underlying": "s-p-500-index",
+    "structure": "equity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "SPX-USDC",
+    "makerFeeBps": 5,
+    "takerFeeBps": 5
+  },
+  "about": {
+    "description": "S&P 500 perpetual on gTrade, synthetic and cash-settled in USDC on Arbitrum."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "identity": {
+    "symbol": "AMD",
+    "name": "ApeX Omni AMD Perp",
+    "legacyId": 3921
+  },
+  "tracks": {
+    "underlying": "advanced-micro-devices-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "AMD-USDC"
+  },
+  "about": {
+    "description": "ApeX Omni perpetual market tracking Advanced Micro Devices Inc. (AMD chipmaker). Verified live on platform UI 2026-05-26 via browser.",
+    "refLinks": [
+      "https://omni.apex.exchange/referral?referralCode=T0S8V482"
+    ],
+    "website": "https://omni.apex.exchange/"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "identity": {
+    "symbol": "CBRS",
+    "name": "ApeX Omni Cerebras Perp",
+    "legacyId": 3922
+  },
+  "tracks": {
+    "underlying": "cerebras-systems-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "CBRS-USDC"
+  },
+  "about": {
+    "description": "ApeX Omni perpetual market tracking Cerebras Systems Inc., publicly listed on Nasdaq (CBRS) since May 2026, cash-settled.",
+    "refLinks": [
+      "https://omni.apex.exchange/referral?referralCode=T0S8V482"
+    ],
+    "website": "https://omni.apex.exchange/"
+  },
+  "events": [
+    {
+      "kind": "review",
+      "outcome": "suspicious",
+      "reason": null
+    }
+  ]
+}

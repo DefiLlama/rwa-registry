@@ -1,0 +1,22 @@
+{
+  "identity": {
+    "symbol": "COINUSD",
+    "name": "edgeX Coinbase Perp",
+    "legacyId": 3390
+  },
+  "tracks": {
+    "underlying": "coinbase-global-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "marginAsset": "USDT",
+    "pair": "COIN-USD"
+  },
+  "about": {
+    "description": "Single-stock perpetual market tracking Coinbase Global, Inc. Users get linear exposure to Coinbase share-price moves without owning Coinbase shares, shareholder rights, or dividend claims, with pricing referencing an external 24/5 equity feed via the Stork decentralized oracle. Positions are margined and cash-settled in USDT.",
+    "refLinks": [
+      "https://pro.edgex.exchange/referral/196451583"
+    ]
+  }
+}

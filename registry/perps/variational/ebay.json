@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "EBAY",
+    "name": "Variational Omni eBay Inc. Perp",
+    "legacyId": 4762
+  },
+  "tracks": {
+    "underlying": "ebay-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "EBAY-USDC"
+  },
+  "about": {
+    "description": "EBAY is a single-stock perpetual on Variational tracking eBay Inc. eBay Inc. is a US e-commerce marketplace connecting buyers and sellers globally (Nasdaq: EBAY). The market is cash-settled with hourly funding, no shareholder rights, and no dividend rights in the underlying.",
+    "refLinks": [
+      "0"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "TMUS-USD",
+    "name": "Extended T-Mobile US Perp",
+    "legacyId": 8633
+  },
+  "tracks": {
+    "underlying": "t-mobile-us-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "TMUS-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual on Extended (formerly X10) tracking T-Mobile US, Inc. (TMUS), with pricing referencing Extended oracle. Users gain linear exposure to T-Mobile US, Inc. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Starknet.",
+    "refLinks": [
+      "https://app.extended.exchange/join/DEFILLAMAO"
+    ]
+  }
+}

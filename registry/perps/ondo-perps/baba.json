@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "BABA",
+    "name": "Ondo Perps Alibaba Perp",
+    "legacyId": 9043
+  },
+  "tracks": {
+    "underlying": "alibaba-group-holding-limited",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "BABA-USD"
+  },
+  "about": {
+    "description": "Single-stock perpetual market on Ondo Perps tracking Alibaba Group Holding Limited, cash-settled, 24/7, up to 10x leverage, margined in USDC, hourly funding. Users get linear price exposure only - no ownership, dividend or voting rights in the underlying. Adapter snapshot 2026-08-25: mark $118.88, open interest $415.01K, 24h volume $15.64K. Added 2026-08-25 in the second Ondo Perps expansion batch, taking the registry from 35 to 45 RWA markets; the adapter's 50 live rows include 5 crypto perps (BTC, ETH, SOL, HYPE, ONDO) that are out of scope.",
+    "refLinks": [
+      "https://app.ondoperps.xyz/trade/perps/BABA-USD.P?ref=76ZCWB"
+    ]
+  }
+}

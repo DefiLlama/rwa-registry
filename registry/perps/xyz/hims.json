@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "HIMS",
+    "name": "trade[XYZ] Hims & Hers Perp",
+    "legacyId": 3261
+  },
+  "tracks": {
+    "underlying": "hims-hers-health-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "HIMS-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual market tracking Hims & Hers Health. Users get linear exposure to Hims & Hers Health share-price moves without owning Hims & Hers Health shares, shareholder rights, or dividend claims, cash-settled in USDC on trade[XYZ].",
+    "refLinks": [
+      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
+    ]
+  }
+}

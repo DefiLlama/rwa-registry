@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "AMD-USD",
+    "name": "Avantis AMD Perp",
+    "legacyId": 3813
+  },
+  "tracks": {
+    "underlying": "advanced-micro-devices-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "AMD-USDC"
+  },
+  "about": {
+    "description": "AMD perpetual on Avantis (Base). Tracks Advanced Micro Devices stock price, USDC-margined. Oracle-priced via Pyth Lazer. Distinct from edgeX AMD perp.",
+    "refLinks": [
+      "https://www.avantisfi.com/referral?code=DefiLlama"
+    ]
+  }
+}

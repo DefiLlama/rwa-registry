@@ -1,0 +1,24 @@
+{
+  "identity": {
+    "symbol": "MINIMAX",
+    "name": "trade[XYZ] MiniMax AI Perp",
+    "legacyId": 3926
+  },
+  "tracks": {
+    "underlying": "minimax-group-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "MINIMAX-USDC"
+  },
+  "sources": {
+    "oracleProvider": "Pyth equity feed"
+  },
+  "about": {
+    "description": "trade[XYZ] perpetual market tracking MiniMax AI (Chinese AI/LLM company. Pre-IPO synthetic perp). Verified live on platform UI 2026-05-26 via browser.",
+    "refLinks": [
+      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
+    ]
+  }
+}

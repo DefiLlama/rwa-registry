@@ -1,0 +1,24 @@
+{
+  "identity": {
+    "symbol": "MRVL",
+    "name": "trade[XYZ] Marvell Perp",
+    "legacyId": 3270
+  },
+  "tracks": {
+    "underlying": "marvell-technology-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "MRVL-USDC"
+  },
+  "sources": {
+    "oracleProvider": "Pyth equity feed"
+  },
+  "about": {
+    "description": "Single-stock perpetual market tracking Marvell Technology. Users get linear exposure to Marvell Technology share-price moves without owning Marvell Technology shares, shareholder rights, or dividend claims, cash-settled in USDC on trade[XYZ].",
+    "refLinks": [
+      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "identity": {
+    "symbol": "TERUSD-PERP",
+    "legacyId": 8721
+  },
+  "tracks": {
+    "underlying": "teradyne-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "pair": "TER-USD"
+  },
+  "about": {
+    "description": "TER is a single-stock perpetual listed on Crypto.com, tracking Teradyne, Inc., margined and cash-settled in USD. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 1h. Up to 50× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

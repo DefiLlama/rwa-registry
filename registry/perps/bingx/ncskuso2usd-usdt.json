@@ -1,0 +1,17 @@
+{
+  "identity": {
+    "symbol": "NCSKUSO2USD-USDT",
+    "legacyId": 5187
+  },
+  "tracks": {
+    "underlying": "united-states-oil-fund-lp",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "USO-USDT"
+  },
+  "about": {
+    "description": "USO is an exchange traded fund perpetual listed on BingX and tracking United States Oil Fund, LP. The contract is cash settled in USDT and does not convey ownership or redemption rights in the underlying. Funding is exchanged every 8h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

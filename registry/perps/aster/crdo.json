@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "CRDO",
+    "name": "Aster Credo Perp",
+    "legacyId": 4398
+  },
+  "tracks": {
+    "underlying": "credo-technology-group-holding-ltd",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "CRDO-USDT"
+  },
+  "about": {
+    "description": "Single-stock perpetual market on Aster tracking Credo, cash-settled.",
+    "refLinks": [
+      "https://www.asterdex.com/en/referral/c6eF10"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "identity": {
+    "symbol": "CO-DEN-RENT",
+    "name": "Parcl Denver Rental Real Estate Perp",
+    "legacyId": 3888
+  },
+  "tracks": {
+    "underlying": "denver-rental-index",
+    "structure": "real-estate-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "CO-DEN-RENT-USDC"
+  },
+  "about": {
+    "description": "Denver rental price perpetual on Parcl. Verified live 2026-05-20."
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

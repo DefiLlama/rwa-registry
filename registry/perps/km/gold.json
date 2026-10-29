@@ -1,0 +1,32 @@
+{
+  "identity": {
+    "symbol": "GOLD",
+    "legacyId": 2961
+  },
+  "tracks": {
+    "underlying": "gold",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdh",
+    "pair": "GOLD-USDH",
+    "makerFeeBps": 3,
+    "takerFeeBps": 9
+  },
+  "sources": {
+    "oracleProvider": "Kaiko / GLD-derived gold"
+  },
+  "about": {
+    "description": "Gold perpetual market. The contract tracks the price of one troy ounce of gold. Users get linear exposure to gold price moves without owning bullion, vaulted metal, or redeemable claims on physical inventory. Pricing follows the market reference used by the km venue on Hyperliquid. Positions are margined and cash-settled in USDH. Markets are visible on Hyperliquid under the km namespace, but are operated by Markets by Kinetiq rather than listed as core Hyperliquid perps.",
+    "refLinks": [
+      "https://markets.xyz/join/llama"
+    ]
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

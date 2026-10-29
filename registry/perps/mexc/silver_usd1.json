@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "SILVER_USD1",
+    "name": "MEXC Silver Perp (USD1)",
+    "legacyId": 5091
+  },
+  "tracks": {
+    "underlying": "silver",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usd1",
+    "marginAsset": "USD1",
+    "pair": "SILVER-USD1",
+    "makerFeeBps": 0,
+    "takerFeeBps": 2
+  },
+  "about": {
+    "description": "SILVER is a commodity perpetual listed on MEXC and tracking Silver. The contract is cash settled in USD1 and does not convey ownership or delivery of the underlying. Funding is exchanged every 4h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "SILVER_USDC",
+    "name": "MEXC Silver Perp (USDC)",
+    "legacyId": 5092
+  },
+  "tracks": {
+    "underlying": "silver",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "marginAsset": "USDC",
+    "pair": "SILVER-USDC",
+    "makerFeeBps": 0,
+    "takerFeeBps": 2
+  },
+  "about": {
+    "description": "SILVER is a commodity perpetual listed on MEXC and tracking Silver. The contract is cash settled in USDC and does not convey ownership or delivery of the underlying. Funding is exchanged every 8h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

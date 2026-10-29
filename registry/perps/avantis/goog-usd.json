@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "GOOG-USD",
+    "name": "Avantis Alphabet Perp",
+    "legacyId": 3067
+  },
+  "tracks": {
+    "underlying": "alphabet-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "GOOGL-USD"
+  },
+  "about": {
+    "description": "Alphabet perpetual on Avantis, cash-settled in USDC on Base.",
+    "refLinks": [
+      "https://www.avantisfi.com/referral?code=DefiLlama"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "identity": {
+    "symbol": "USDCAD-USD",
+    "name": "Avantis USDCAD Perp",
+    "legacyId": 3859
+  },
+  "tracks": {
+    "underlying": "us-dollar-canadian-dollar",
+    "structure": "forex-perps"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "USDCAD-USDC"
+  },
+  "sources": {
+    "oracleProvider": "Pyth"
+  },
+  "about": {
+    "description": "USDCAD perpetual on Avantis (Base), USDC-margined. Verified live 2026-05-20.",
+    "refLinks": [
+      "https://www.avantisfi.com/referral?code=DefiLlama"
+    ],
+    "website": "https://avantisfi.com/"
+  }
+}

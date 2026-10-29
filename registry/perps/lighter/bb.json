@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "BB",
+    "name": "Lighter BlackBerry Perp",
+    "legacyId": 4580
+  },
+  "tracks": {
+    "underlying": "blackberry-limited",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "BB-USDC"
+  },
+  "sources": {
+    "oracleProvider": "Lighter fair price oracle"
+  },
+  "about": {
+    "description": "Single-stock perpetual on Lighter tracking BlackBerry Limited. Users get linear exposure to the underlying without owning shares. Cash-settled in USDC."
+  }
+}

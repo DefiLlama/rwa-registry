@@ -1,0 +1,22 @@
+{
+  "identity": {
+    "symbol": "SLVUSD",
+    "name": "edgeX Silver ETF Perp",
+    "legacyId": 3397
+  },
+  "tracks": {
+    "underlying": "ishares-silver-trust",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "marginAsset": "USDT",
+    "pair": "SLV-USD"
+  },
+  "about": {
+    "description": "ETF perpetual market tracking the iShares Silver Trust (SLV). Users get synthetic exposure to the SLV ETF's price rather than ownership of ETF shares or claims on the underlying silver, with pricing referencing the ETF's public market price via the Stork decentralized oracle. Positions are margined and cash-settled in USDT.",
+    "refLinks": [
+      "https://pro.edgex.exchange/referral/196451583"
+    ]
+  }
+}

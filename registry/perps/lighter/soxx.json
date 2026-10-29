@@ -1,0 +1,30 @@
+{
+  "identity": {
+    "symbol": "SOXX",
+    "legacyId": 3741
+  },
+  "tracks": {
+    "underlying": "ishares-semiconductor-etf",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "SOXX-USDC"
+  },
+  "sources": {
+    "oracleProvider": "Pyth"
+  },
+  "about": {
+    "description": "iShares Semiconductor ETF (SOXX) perpetual on Lighter, cash-settled in USDC.",
+    "refLinks": [
+      "https://app.lighter.xyz/trade/SOXX?referral=FHT1N8AYKHP4"
+    ]
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

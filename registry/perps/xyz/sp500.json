@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "SP500",
+    "name": "trade[XYZ] S&P 500 Perp",
+    "legacyId": 3262
+  },
+  "tracks": {
+    "underlying": "s-p-500-index",
+    "structure": "equity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "SP500-USDC"
+  },
+  "about": {
+    "description": "Equity-index perpetual market tracking S&P 500 Index. Users get synthetic index exposure rather than ownership of constituent shares, cash-settled in USDC on trade[XYZ].",
+    "refLinks": [
+      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
+    ]
+  }
+}

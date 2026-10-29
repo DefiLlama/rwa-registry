@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "AMZN-USD",
+    "name": "Arcus Amazon.com Perp",
+    "legacyId": 4537
+  },
+  "tracks": {
+    "underlying": "amazon-com-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdg",
+    "pair": "AMZN-USDG"
+  },
+  "about": {
+    "description": "Arcus perpetual market tracking Amazon.com, Inc. (NASDAQ: AMZN) with 24/7 exposure to the underlying mega-cap e-commerce & cloud stock. Total-return tracking (dividends, splits, and futures rolls passed through funding), cash-settled in USDG on the Arcus off-chain CLOB with permissioned appchain re-verification and EVM rootchain custody.",
+    "refLinks": [
+      "https://app.arcus.xyz/ref/DEFILLAMA"
+    ]
+  }
+}

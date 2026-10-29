@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "symbol": "PAXG",
+    "legacyId": 3744
+  },
+  "tracks": {
+    "asset": "paxg",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "PAXG-USDC"
+  },
+  "sources": {
+    "oracleProvider": "Pyth"
+  },
+  "about": {
+    "description": "PAX Gold-backed token perpetual on Lighter, cash-settled in USDC.",
+    "refLinks": [
+      "https://app.lighter.xyz/trade/PAXG?referral=FHT1N8AYKHP4"
+    ]
+  }
+}

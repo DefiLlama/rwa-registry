@@ -1,0 +1,20 @@
+{
+  "identity": {
+    "symbol": "XAG-USD",
+    "legacyId": 3056
+  },
+  "tracks": {
+    "underlying": "silver",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "XAG-USD"
+  },
+  "about": {
+    "description": "Silver perpetual on Avantis, cash-settled in USDC on Base.",
+    "refLinks": [
+      "https://www.avantisfi.com/referral?code=DefiLlama"
+    ]
+  }
+}

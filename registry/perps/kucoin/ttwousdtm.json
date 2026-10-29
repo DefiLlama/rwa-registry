@@ -1,0 +1,17 @@
+{
+  "identity": {
+    "symbol": "TTWOUSDTM",
+    "legacyId": 7322
+  },
+  "tracks": {
+    "underlying": "take-two-interactive-software-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "TTWO-USDT"
+  },
+  "about": {
+    "description": "TTWO is a single-stock perpetual listed on KuCoin, tracking Take-Two Interactive Software, Inc., margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Up to 20× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

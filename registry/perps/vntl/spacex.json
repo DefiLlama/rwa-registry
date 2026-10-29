@@ -1,0 +1,31 @@
+{
+  "identity": {
+    "symbol": "SPACEX",
+    "name": "Ventuals SpaceX Valuation Perp",
+    "legacyId": 3010
+  },
+  "tracks": {
+    "underlying": "space-exploration-technologies-corp",
+    "structure": "pe-perp"
+  },
+  "terms": {
+    "collateral": "usdh",
+    "pair": "SPACEX-USDH"
+  },
+  "sources": {
+    "oracleProvider": "Ventuals weighted oracle (Notice + 2h mark EMA)"
+  },
+  "about": {
+    "description": "Settled and delisted June 2026 - Ventuals wound down all of its HIP-3 pre-IPO valuation markets and settled open positions following SpaceX's June 12 Nasdaq listing.",
+    "refLinks": [
+      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
+    ]
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

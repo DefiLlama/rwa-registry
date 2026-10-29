@@ -1,0 +1,22 @@
+{
+  "identity": {
+    "symbol": "GBP-USD",
+    "legacyId": 3732
+  },
+  "tracks": {
+    "underlying": "british-pound",
+    "structure": "forex-perps"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "GBP-USDC",
+    "makerFeeBps": 1,
+    "takerFeeBps": 1.2
+  },
+  "about": {
+    "description": "Forex perpetual on GMTrade (Solana) referencing the British Pound/USD exchange rate, cash-settled in USDC. Source: fxdailyreport.com (GMTrade FX launch).",
+    "refLinks": [
+      "https://gmtrade.xyz/referrals/?ref=545"
+    ]
+  }
+}

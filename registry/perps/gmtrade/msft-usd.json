@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "MSFT-USD",
+    "name": "GMTrade Microsoft Perp",
+    "legacyId": 3827
+  },
+  "tracks": {
+    "underlying": "microsoft-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "MSFT-USDC"
+  },
+  "about": {
+    "description": "Microsoft (MSFT) perpetual on GMTrade (Solana), USDC-margined.",
+    "refLinks": [
+      "https://gmtrade.xyz/referrals/?ref=545"
+    ]
+  }
+}

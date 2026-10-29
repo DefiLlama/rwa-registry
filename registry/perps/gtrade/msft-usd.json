@@ -1,0 +1,20 @@
+{
+  "identity": {
+    "symbol": "MSFT-USD",
+    "name": "gTrade Microsoft Perp",
+    "legacyId": 3030
+  },
+  "tracks": {
+    "underlying": "microsoft-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "MSFT-USDC",
+    "makerFeeBps": 5,
+    "takerFeeBps": 5
+  },
+  "about": {
+    "description": "Microsoft perpetual on gTrade, synthetic and cash-settled in USDC on Arbitrum."
+  }
+}

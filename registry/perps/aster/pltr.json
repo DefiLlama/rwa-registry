@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "symbol": "PLTR",
+    "name": "Aster Palantir Perp",
+    "legacyId": 3919
+  },
+  "tracks": {
+    "underlying": "palantir-technologies-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "PLTR-USDT",
+    "makerFeeBps": null,
+    "takerFeeBps": null
+  },
+  "about": {
+    "description": "Aster perpetual market tracking Palantir Technologies Inc. (data analytics software). Verified live on platform UI 2026-05-26 via browser.",
+    "refLinks": [
+      "https://www.asterdex.com/en/referral/c6eF10"
+    ]
+  }
+}

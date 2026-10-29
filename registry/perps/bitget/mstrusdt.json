@@ -1,0 +1,25 @@
+{
+  "identity": {
+    "symbol": "MSTRUSDT",
+    "name": "Bitget Strategy Inc. Perp",
+    "legacyId": 6668
+  },
+  "tracks": {
+    "underlying": "strategy-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "MSTR-USDT"
+  },
+  "about": {
+    "description": "MSTR is a single-stock perpetual listed on Bitget, tracking Strategy Inc., margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Up to 25× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

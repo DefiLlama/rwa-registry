@@ -1,0 +1,19 @@
+{
+  "identity": {
+    "symbol": "KORU-USDT",
+    "legacyId": 5369
+  },
+  "tracks": {
+    "underlying": "direxion-daily-msci-south-korea-bull-3x-etf",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "KORU-USDT",
+    "makerFeeBps": 2,
+    "takerFeeBps": 6
+  },
+  "about": {
+    "description": "KORU is an exchange traded fund perpetual listed on HTX and tracking Direxion Daily MSCI South Korea Bull 3X ETF. The contract is cash settled in USDT and does not convey ownership or redemption rights in the underlying. Funding is exchanged every 8h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

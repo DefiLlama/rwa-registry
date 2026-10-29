@@ -1,0 +1,22 @@
+{
+  "identity": {
+    "symbol": "XAG-USD",
+    "legacyId": 3041
+  },
+  "tracks": {
+    "underlying": "silver",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "XAG-USD",
+    "makerFeeBps": 5,
+    "takerFeeBps": 5
+  },
+  "about": {
+    "description": "Silver perpetual on Ostium, cash-settled in USDC on Arbitrum.",
+    "refLinks": [
+      "https://app.ostium.com/trade?from=XAG&to=USD&ref=6X17X"
+    ]
+  }
+}

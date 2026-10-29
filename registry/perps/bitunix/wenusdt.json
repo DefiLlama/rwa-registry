@@ -1,0 +1,17 @@
+{
+  "identity": {
+    "symbol": "WENUSDT",
+    "legacyId": 7418
+  },
+  "tracks": {
+    "underlying": "the-wendy-s-co",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "WEN-USDT"
+  },
+  "about": {
+    "description": "WEN is a single-stock perpetual listed on Bitunix, tracking The Wendy's Co., margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Up to 50× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

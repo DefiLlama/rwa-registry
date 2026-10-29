@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "AAPL-USD",
+    "name": "Arcus Apple Perp",
+    "legacyId": 4536
+  },
+  "tracks": {
+    "underlying": "apple-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdg",
+    "pair": "AAPL-USDG"
+  },
+  "about": {
+    "description": "Arcus perpetual market tracking Apple Inc. (NASDAQ: AAPL) with 24/7 exposure to the underlying mega-cap consumer technology stock. Total-return tracking (dividends, splits, and futures rolls passed through funding), cash-settled in USDG on the Arcus off-chain CLOB with permissioned appchain re-verification and EVM rootchain custody.",
+    "refLinks": [
+      "https://app.arcus.xyz/ref/DEFILLAMA"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "TSM",
+    "name": "Lighter Taiwan Semiconductor Perp",
+    "legacyId": 3847
+  },
+  "tracks": {
+    "underlying": "taiwan-semiconductor-manufacturing-company-limited",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "TSM-USDC"
+  },
+  "about": {
+    "description": "Taiwan Semiconductor (TSM) perpetual on Lighter. Tracks the NYSE-listed ADR of Taiwan Semiconductor Manufacturing Company (NYSE: TSM), USDC-margined.",
+    "refLinks": [
+      "https://app.lighter.xyz/trade/TSM?referral=FHT1N8AYKHP4"
+    ]
+  }
+}

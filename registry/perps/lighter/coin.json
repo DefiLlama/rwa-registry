@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "COIN",
+    "name": "Lighter Coinbase Perp",
+    "legacyId": 3351
+  },
+  "tracks": {
+    "underlying": "coinbase-global-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "COIN-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual market tracking Coinbase Global, Inc. Users get linear exposure to Coinbase share-price moves without owning Coinbase shares, shareholder rights, or dividend claims, with pricing referencing an external 24/5 equity feed via Lighter's fair price oracle. Positions are margined and cash-settled in USDC.",
+    "refLinks": [
+      "https://app.lighter.xyz/trade/COIN?referral=FHT1N8AYKHP4"
+    ]
+  }
+}

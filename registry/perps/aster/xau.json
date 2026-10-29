@@ -1,0 +1,20 @@
+{
+  "identity": {
+    "symbol": "XAU",
+    "legacyId": 3101
+  },
+  "tracks": {
+    "underlying": "gold",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "XAU-USDT"
+  },
+  "about": {
+    "description": "Gold perpetual on Aster, settled in USD1 on Aster Chain.",
+    "refLinks": [
+      "https://www.asterdex.com/en/referral/c6eF10"
+    ]
+  }
+}

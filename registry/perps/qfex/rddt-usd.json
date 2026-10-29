@@ -1,0 +1,17 @@
+{
+  "identity": {
+    "symbol": "RDDT-USD",
+    "legacyId": 8972
+  },
+  "tracks": {
+    "underlying": "reddit-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "RDDT-USD"
+  },
+  "about": {
+    "description": "Single-stock perpetual futures market on QFEX tracking Reddit, Inc., quoted in USD, cross-margined in USDC and trading 24/7 with up to 10x leverage. QFEX is a hybrid central-limit-order-book exchange for traditional assets only; positions are cash-settled and confer no ownership, dividend or voting rights in the underlying. Reference prices are consumed from primary venues during the instrument's published reference-price hours and funding is zero outside them. Added 2026-08-19 from QFEX's own /refdata API, which reported 150 ACTIVE markets against the 141 in their published specification index."
+  }
+}

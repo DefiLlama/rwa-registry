@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "SOXL-USD",
+    "name": "Extended SOXL ETF Perp",
+    "legacyId": 8645
+  },
+  "tracks": {
+    "underlying": "direxion-daily-semiconductor-bull-3x-shares",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "SOXL-USDC"
+  },
+  "about": {
+    "description": "Exchange-traded-fund perpetual on Extended (formerly X10) tracking Direxion Daily Semiconductor Bull 3X Shares (SOXL), with pricing referencing Extended oracle. Users gain linear exposure to the fund share price without owning fund shares or receiving fund distributions. Positions are margined and cash-settled in USDC on Starknet.",
+    "refLinks": [
+      "https://app.extended.exchange/join/DEFILLAMAO"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "identity": {
+    "symbol": "DRAM-USD",
+    "legacyId": 4540
+  },
+  "tracks": {
+    "underlying": "roundhill-memory-etf",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdg",
+    "pair": "DRAM-USDG"
+  },
+  "about": {
+    "description": "Arcus perpetual market tracking Roundhill DRAMS ETF (NASDAQ: DRAM) with 24/7 exposure to the underlying memory-semiconductor thematic ETF. Total-return tracking (dividends, splits, and futures rolls passed through funding), cash-settled in USDG on the Arcus off-chain CLOB with permissioned appchain re-verification and EVM rootchain custody.",
+    "refLinks": [
+      "https://app.arcus.xyz/ref/DEFILLAMA"
+    ]
+  }
+}

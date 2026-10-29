@@ -1,0 +1,17 @@
+{
+  "identity": {
+    "symbol": "NCSKOSCR2USD-USDT",
+    "legacyId": 6860
+  },
+  "tracks": {
+    "underlying": "oscar-health-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "OSCR-USDT"
+  },
+  "about": {
+    "description": "OSCR is a single-stock perpetual listed on BingX, tracking Oscar Health, Inc., margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

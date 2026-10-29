@@ -1,0 +1,24 @@
+{
+  "identity": {
+    "symbol": "SKHY",
+    "name": "Lighter SK Hynix Inc. Perp",
+    "legacyId": 4782
+  },
+  "tracks": {
+    "underlying": "sk-hynix-inc-adr",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "SKHY-USDC"
+  },
+  "sources": {
+    "oracleProvider": "Lighter fair price oracle"
+  },
+  "about": {
+    "description": "SKHY is a single-stock perpetual on Lighter tracking SK Hynix Inc. SK Hynix Inc. is a South Korean semiconductor company and one of the world's largest memory chip manufacturers, listed on the Korea Exchange (KRX: 000660). The market is cash-settled with hourly funding, no shareholder rights, and no dividend rights in the underlying.",
+    "refLinks": [
+      "https://app.lighter.xyz/trade/SKHY?referral=FHT1N8AYKHP4"
+    ]
+  }
+}

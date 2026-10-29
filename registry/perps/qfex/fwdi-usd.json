@@ -1,0 +1,17 @@
+{
+  "identity": {
+    "symbol": "FWDI-USD",
+    "legacyId": 9158
+  },
+  "tracks": {
+    "underlying": "forward-industries-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "FWDI-USD"
+  },
+  "about": {
+    "description": "Single-stock perpetual futures market on QFEX tracking Forward Industries, Inc., quoted in USD, cross-margined in USDC and trading 24/7 with up to 10x leverage. QFEX is a hybrid central-limit-order-book exchange for traditional assets only; positions are cash-settled and confer no ownership, dividend or voting rights in the underlying. Reference prices are consumed from primary venues during the instrument's published reference-price hours and funding is zero outside them. Added 2026-09-09 from QFEX's own /refdata API, reconciling 174 live USD-quoted ACTIVE markets against the 146 already carrying a row."
+  }
+}

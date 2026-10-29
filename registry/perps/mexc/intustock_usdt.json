@@ -1,0 +1,17 @@
+{
+  "identity": {
+    "symbol": "INTUSTOCK_USDT",
+    "legacyId": 6424
+  },
+  "tracks": {
+    "underlying": "intuit-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "INTU-USDT"
+  },
+  "about": {
+    "description": "INTU is a single-stock perpetual listed on MEXC, tracking Intuit Inc., margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Up to 50× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

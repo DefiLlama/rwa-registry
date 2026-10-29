@@ -1,0 +1,24 @@
+{
+  "identity": {
+    "symbol": "USDKRW",
+    "name": "Lighter KRW Perp",
+    "legacyId": 3634
+  },
+  "tracks": {
+    "underlying": "south-korean-won",
+    "structure": "forex-perps"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "USDKRW-USDC"
+  },
+  "sources": {
+    "oracleProvider": "Lighter fair price oracle"
+  },
+  "about": {
+    "description": "FX perpetual on Lighter Labs tracking South Korean Won (KRW) versus the US dollar, with pricing referencing Lighter fair price oracle. Positions are margined and cash-settled in USDC on Lighter ZK-rollup (Ethereum), giving users synthetic exposure to South Korean Won/USD price movement without holding either currency as cash.",
+    "refLinks": [
+      "https://app.lighter.xyz/trade/USDKRW?referral=FHT1N8AYKHP4"
+    ]
+  }
+}

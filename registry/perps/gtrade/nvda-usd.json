@@ -1,0 +1,20 @@
+{
+  "identity": {
+    "symbol": "NVDA-USD",
+    "name": "gTrade NVIDIA Perp",
+    "legacyId": 3033
+  },
+  "tracks": {
+    "underlying": "nvidia-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "NVDA-USDC",
+    "makerFeeBps": 4,
+    "takerFeeBps": 4
+  },
+  "about": {
+    "description": "NVIDIA perpetual on gTrade, synthetic and cash-settled in USDC on Arbitrum."
+  }
+}

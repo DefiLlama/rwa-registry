@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "BABA-USD",
+    "name": "Arcus Alibaba Group Perp",
+    "legacyId": 4523
+  },
+  "tracks": {
+    "underlying": "alibaba-group-holding-limited",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdg",
+    "pair": "BABA-USDG"
+  },
+  "about": {
+    "description": "Arcus perpetual market tracking Alibaba Group Holding Limited (ADR) (NYSE: BABA) with 24/7 exposure to the underlying Chinese e-commerce ADR. Total-return tracking (dividends, splits, and futures rolls passed through funding), cash-settled in USDG on the Arcus off-chain CLOB with permissioned appchain re-verification and EVM rootchain custody.",
+    "refLinks": [
+      "https://app.arcus.xyz/ref/DEFILLAMA"
+    ]
+  }
+}

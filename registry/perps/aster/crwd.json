@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "CRWD",
+    "name": "Aster CrowdStrike Perp",
+    "legacyId": 4391
+  },
+  "tracks": {
+    "underlying": "crowdstrike-holdings-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "CRWD-USDT"
+  },
+  "about": {
+    "description": "Single-stock perpetual market on Aster tracking CrowdStrike, cash-settled.",
+    "refLinks": [
+      "https://www.asterdex.com/en/referral/c6eF10"
+    ]
+  }
+}

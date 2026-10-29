@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "NFLX",
+    "name": "Ondo Perps Netflix Perp",
+    "legacyId": 4036
+  },
+  "tracks": {
+    "underlying": "netflix-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "NFLX-USD"
+  },
+  "about": {
+    "description": "Single-stock perpetual market on Ondo Perps tracking NETFLIX INC, cash-settled, 24/7, up to 10x leverage, hourly funding, launched 2026-06-09 (non-US users only). Verified live via adapter 2026-06-10.",
+    "refLinks": [
+      "https://app.ondoperps.xyz/trade/perps/NFLX-USD.P?ref=76ZCWB"
+    ]
+  }
+}

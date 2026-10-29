@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "SBET-USD",
+    "name": "gTrade SBET Perp",
+    "legacyId": 3594
+  },
+  "tracks": {
+    "underlying": "sharplink-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "SBET-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual on Gains Network tracking Sharplink, Inc. (SBET), with pricing referencing Chainlink DON (24/5 equity feed). Users gain linear exposure to Sharplink, Inc. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC / DAI / WETH on Arbitrum / Polygon / Base."
+  }
+}

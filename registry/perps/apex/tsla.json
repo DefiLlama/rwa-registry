@@ -1,0 +1,26 @@
+{
+  "identity": {
+    "symbol": "TSLA",
+    "name": "ApeX Omni Tesla Perp",
+    "legacyId": 3106
+  },
+  "tracks": {
+    "underlying": "tesla-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "marginAsset": "USDT",
+    "pair": "TSLA-USDT"
+  },
+  "sources": {
+    "oracleProvider": "Chainlink Data Streams"
+  },
+  "about": {
+    "description": "Tesla perpetual on ApeX Omni via zkLink, cash-settled in USDT.",
+    "refLinks": [
+      "https://omni.apex.exchange/referral?referralCode=T0S8V482"
+    ],
+    "issuer": "ApeX Protocol"
+  }
+}

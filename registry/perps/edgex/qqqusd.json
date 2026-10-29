@@ -1,0 +1,22 @@
+{
+  "identity": {
+    "symbol": "QQQUSD",
+    "name": "edgeX Nasdaq-100 ETF Perp",
+    "legacyId": 3395
+  },
+  "tracks": {
+    "underlying": "invesco-qqq-trust-series-1",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "marginAsset": "USDT",
+    "pair": "QQQ-USD"
+  },
+  "about": {
+    "description": "ETF perpetual market tracking the Invesco QQQ Trust (QQQ), which tracks the Nasdaq-100 Index. Users get synthetic exposure to the QQQ ETF's price rather than ownership of ETF shares or redemption rights, with pricing referencing the ETF's public market price via the Stork decentralized oracle. Positions are margined and cash-settled in USDT.",
+    "refLinks": [
+      "https://pro.edgex.exchange/referral/196451583"
+    ]
+  }
+}

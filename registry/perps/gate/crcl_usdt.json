@@ -1,0 +1,26 @@
+{
+  "identity": {
+    "symbol": "CRCL_USDT",
+    "legacyId": 9433
+  },
+  "tracks": {
+    "underlying": "circle-internet-group-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "CRCL-USDT"
+  },
+  "about": {
+    "description": "PAXG is a commodity perpetual listed on Gate and tracking Pax Gold. The contract is cash settled in USDT and does not convey ownership or delivery of the underlying. Funding is exchanged every 8h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  },
+  "events": [
+    {
+      "kind": "listing",
+      "date": "2026-09-02",
+      "links": [
+        "https://api.gateio.ws/api/v4/futures/usdt/contracts"
+      ]
+    }
+  ]
+}

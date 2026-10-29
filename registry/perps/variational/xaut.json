@@ -1,0 +1,19 @@
+{
+  "identity": {
+    "symbol": "XAUT",
+    "name": "Variational Omni Tether Gold Perp",
+    "legacyId": 3812
+  },
+  "tracks": {
+    "underlying": null,
+    "asset": "xaut",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "XAUT-USDC"
+  },
+  "about": {
+    "description": "Tether Gold (XAUT) perpetual on Variational Omni (Arbitrum), USDC-margined RFQ perpetual quoted by the single Omni Liquidity Provider (OLP), which aggregates pricing from CEXs/DEXs/AMMs/OTC venues. Tracks the XAUT token price (each XAUT represents one troy ounce of physical gold custodied by TG Commodities S.A. de C.V., a Tether subsidiary), with up to 50x leverage, with zero trading fees, with OLP capturing spread, cash-settled in USDC. Distinct from variational:XAU (which tracks spot gold). This perpetual references the on-chain Tether Gold RWA token specifically."
+  }
+}

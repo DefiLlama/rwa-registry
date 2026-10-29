@@ -1,0 +1,26 @@
+{
+  "identity": {
+    "symbol": "COPPERUSDT",
+    "legacyId": 4821
+  },
+  "tracks": {
+    "underlying": "copper",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "COPPER-USDT"
+  },
+  "about": {
+    "description": "COPPER is a commodity perpetual listed on Binance and tracking Copper. The contract is cash settled in USDT against a Binance price index and does not convey ownership of the underlying. Funding is exchanged every 4h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  },
+  "events": [
+    {
+      "kind": "listing",
+      "date": "2026-03-06",
+      "links": [
+        "https://fapi.binance.com/fapi/v1/exchangeInfo"
+      ]
+    }
+  ]
+}

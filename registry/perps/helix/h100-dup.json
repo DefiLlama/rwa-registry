@@ -1,0 +1,28 @@
+{
+  "identity": {
+    "symbol": "H100-dup",
+    "legacyId": 3725
+  },
+  "tracks": {
+    "underlying": "nvidia-h100-hourly",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "H100-USDT"
+  },
+  "sources": {
+    "oracleProvider": "Squaretower"
+  },
+  "about": {
+    "description": "DUPLICATE of the active Helix H100 NVIDIA GPU hourly rental perp. Delisted to preserve audit trail. Canonical marked -dup.",
+    "website": "https://helixapp.com/futures/h100-usdt-perp"
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

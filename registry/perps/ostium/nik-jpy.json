@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "symbol": "NIK-JPY",
+    "name": "Ostium Nikkei 225 Perp",
+    "legacyId": 3537
+  },
+  "tracks": {
+    "underlying": "nikkei-225-stock-average",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "JP225-USDC",
+    "makerFeeBps": 3,
+    "takerFeeBps": 3
+  },
+  "about": {
+    "description": "Equity-index perpetual on Ostium Labs tracking Nikkei 225 Index (JP225), with pricing referencing Stork / QUODD. Users gain linear exposure to the index level without holding any underlying constituent stocks or futures. Positions are margined and cash-settled in USDC on Arbitrum.",
+    "refLinks": [
+      "https://app.ostium.com/trade?from=NIK&to=JPY&ref=6X17X"
+    ]
+  }
+}

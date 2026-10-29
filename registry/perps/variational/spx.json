@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "SPX",
+    "name": "Variational Omni S&P 500 Perp",
+    "legacyId": 4473
+  },
+  "tracks": {
+    "underlying": "spx6900",
+    "structure": "crypto-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "SPX-USDC"
+  },
+  "about": {
+    "description": "Equity-index perpetual on Variational Omni tracking the S&P 500 Index, cash-settled."
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "XEL-USD",
+    "name": "Extended Xcel Energy Perp",
+    "legacyId": 8640
+  },
+  "tracks": {
+    "underlying": "xcel-energy-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "XEL-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual on Extended (formerly X10) tracking Xcel Energy Inc. (XEL), with pricing referencing Extended oracle. Users gain linear exposure to Xcel Energy Inc. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Starknet.",
+    "refLinks": [
+      "https://app.extended.exchange/join/DEFILLAMAO"
+    ]
+  }
+}

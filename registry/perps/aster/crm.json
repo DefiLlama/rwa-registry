@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "CRM",
+    "name": "Aster Salesforce Perp",
+    "legacyId": 4392
+  },
+  "tracks": {
+    "underlying": "salesforce-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "CRM-USDT"
+  },
+  "about": {
+    "description": "Single-stock perpetual market on Aster tracking Salesforce, cash-settled.",
+    "refLinks": [
+      "https://www.asterdex.com/en/referral/c6eF10"
+    ]
+  }
+}

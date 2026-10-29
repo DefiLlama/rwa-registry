@@ -1,0 +1,31 @@
+{
+  "identity": {
+    "symbol": "KRW",
+    "name": "trade[XYZ] KRW Perp",
+    "legacyId": 3629
+  },
+  "tracks": {
+    "underlying": "south-korean-won",
+    "structure": "forex-perps"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "KRW-USDC"
+  },
+  "sources": {
+    "oracleProvider": "Pyth / external FX reference methodology"
+  },
+  "about": {
+    "description": "FX perpetual on trade[XYZ] (Hyperunit) tracking South Korean Won (KRW) versus the US dollar, with pricing referencing Pyth / external FX reference methodology. Positions are margined and cash-settled in USDC on Hyperliquid (xyz namespace), giving users synthetic exposure to South Korean Won/USD price movement without holding either currency as cash.",
+    "refLinks": [
+      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
+    ]
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

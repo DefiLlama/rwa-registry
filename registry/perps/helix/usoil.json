@@ -1,0 +1,27 @@
+{
+  "identity": {
+    "symbol": "USOIL",
+    "name": "Helix USOIL (WTI) Perp",
+    "legacyId": 3552
+  },
+  "tracks": {
+    "underlying": "crude-oil-wti",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "USOIL-USDT",
+    "makerFeeBps": 1,
+    "takerFeeBps": 7
+  },
+  "about": {
+    "description": "West Texas Intermediate (WTI) crude oil perpetual on Helix (Injective), traded under the on-venue symbol USOIL, cash-settled in USDT."
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "TMF",
+    "name": "Variational 20+ Year Treasury Bull 3X Perp",
+    "legacyId": 9138
+  },
+  "tracks": {
+    "underlying": "direxion-daily-20-year-treasury-bull-3x-etf",
+    "structure": "bond-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "TMF-USDC"
+  },
+  "about": {
+    "description": "Perpetual on Variational Omni tracking Direxion Daily 20+ Year Treasury Bull 3X ETF (TMF), priced off Variational Omni's OLP-aggregated mid-quotes. Users gain linear exposure to the fund's share-price moves without holding fund shares or any claim on its distributions. Positions are margined and cash-settled in USDC on Arbitrum."
+  }
+}

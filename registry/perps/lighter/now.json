@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "NOW",
+    "name": "Lighter ServiceNow Perp",
+    "legacyId": 4402
+  },
+  "tracks": {
+    "underlying": "servicenow-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "NOW-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual market on Lighter tracking ServiceNow, cash-settled.",
+    "refLinks": [
+      "https://app.lighter.xyz/trade/NOW?referral=FHT1N8AYKHP4"
+    ]
+  }
+}

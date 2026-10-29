@@ -1,0 +1,19 @@
+{
+  "identity": {
+    "symbol": "XPT-USD",
+    "legacyId": 3858
+  },
+  "tracks": {
+    "underlying": "platinum",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "XPT-USDC",
+    "makerFeeBps": 5,
+    "takerFeeBps": 5
+  },
+  "about": {
+    "description": "Platinum (XPT) perpetual on gTrade, USDC-margined. Verified live 2026-05-20."
+  }
+}

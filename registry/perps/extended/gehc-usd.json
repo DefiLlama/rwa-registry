@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "GEHC-USD",
+    "name": "Extended GE HealthCare Technologies Perp",
+    "legacyId": 8600
+  },
+  "tracks": {
+    "underlying": "ge-healthcare-technologies-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "GEHC-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual on Extended (formerly X10) tracking GE HealthCare Technologies Inc. (GEHC), with pricing referencing Extended oracle. Users gain linear exposure to GE HealthCare Technologies Inc. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Starknet.",
+    "refLinks": [
+      "https://app.extended.exchange/join/DEFILLAMAO"
+    ]
+  }
+}

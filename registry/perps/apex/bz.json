@@ -1,0 +1,28 @@
+{
+  "identity": {
+    "symbol": "BZ",
+    "name": "ApeX Omni Brent Crude Oil Perp",
+    "legacyId": 3841
+  },
+  "tracks": {
+    "underlying": "crude-oil-brent",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "BZ-USDC"
+  },
+  "about": {
+    "description": "Brent Crude Oil (BZ) perpetual on ApeX Omni, USDC-margined. Tracks the ICE Brent Crude futures.",
+    "refLinks": [
+      "https://omni.apex.exchange/referral?referralCode=T0S8V482"
+    ]
+  },
+  "events": [
+    {
+      "kind": "review",
+      "outcome": "suspicious",
+      "reason": null
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "identity": {
+    "symbol": "ON-USDT-SWAP",
+    "name": "OKX ON Semiconductor Corp. Perp",
+    "legacyId": 6822
+  },
+  "tracks": {
+    "underlying": "on-semiconductor-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "ON-USDT"
+  },
+  "about": {
+    "description": "ON is a single-stock perpetual listed on OKX, tracking ON Semiconductor Corp., margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Up to 10× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  },
+  "events": [
+    {
+      "kind": "listing",
+      "date": "2026-07-06",
+      "links": [
+        "https://www.okx.com/api/v5/public/instruments?instType=SWAP"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "identity": {
+    "symbol": "NCFXCAD2JPY-USDT",
+    "legacyId": 4970
+  },
+  "tracks": {
+    "underlying": "canadian-dollar-japanese-yen",
+    "structure": "forex-perps"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "CADJPY-USDT"
+  },
+  "about": {
+    "description": "CADJPY is a currency pair perpetual listed on BingX and tracking Canadian Dollar / Japanese Yen. The contract is cash settled in USDT and does not convey ownership or delivery of the underlying. Funding is exchanged every 8h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

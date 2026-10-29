@@ -1,0 +1,16 @@
+{
+  "identity": {
+    "symbol": "UVXYUSD-PERP",
+    "legacyId": 5314
+  },
+  "tracks": {
+    "underlying": "proshares-ultra-vix-short-term-futures-etf",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "pair": "UVXY-USD"
+  },
+  "about": {
+    "description": "UVXY is an exchange traded fund perpetual listed on Crypto.com and tracking ProShares Ultra VIX Short-Term Futures ETF. The contract is cash settled in USD and does not convey ownership or redemption rights in the underlying. Funding is exchanged every 1h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

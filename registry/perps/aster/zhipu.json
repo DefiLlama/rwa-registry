@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "ZHIPU",
+    "name": "Aster Zhipu AI Perp",
+    "legacyId": 4559
+  },
+  "tracks": {
+    "underlying": "z-ai-co-ltd",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "ZHIPU-USDT"
+  },
+  "about": {
+    "description": "Single-stock perpetual on Aster tracking Zhipu AI (Knowledge Atlas Technology). Users get linear exposure to the underlying without owning shares. Cash-settled in USDT."
+  }
+}

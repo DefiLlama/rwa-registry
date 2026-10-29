@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "XAUTUSD-PERP",
+    "name": "Crypto.com Tether Gold (XAUT) Perp",
+    "legacyId": 5034
+  },
+  "tracks": {
+    "underlying": null,
+    "asset": "xaut",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "pair": "XAUT-USD"
+  },
+  "about": {
+    "description": "XAUT is a commodity perpetual listed on Crypto.com and tracking Tether Gold (XAUT). The contract is cash settled in USD and does not convey ownership or delivery of the underlying. Funding is exchanged every 1h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

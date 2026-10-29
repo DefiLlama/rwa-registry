@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "GFS-USD",
+    "name": "Extended GlobalFoundries Perp",
+    "legacyId": 8601
+  },
+  "tracks": {
+    "underlying": "globalfoundries-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "GFS-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual on Extended (formerly X10) tracking GlobalFoundries Inc. (GFS), with pricing referencing Extended oracle. Users gain linear exposure to GlobalFoundries Inc. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Starknet.",
+    "refLinks": [
+      "https://app.extended.exchange/join/DEFILLAMAO"
+    ]
+  }
+}

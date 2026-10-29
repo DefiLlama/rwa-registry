@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "BOTZ",
+    "name": "ApeX Omni Global X Robotics & AI ETF Perp",
+    "legacyId": 3752
+  },
+  "tracks": {
+    "underlying": "global-x-robotics-artificial-intelligence-etf",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "BOTZ-USDC"
+  },
+  "about": {
+    "description": "BOTZ ETF (robotics & AI thematic) perpetual on ApeX Omni, cash-settled in USDT.",
+    "refLinks": [
+      "https://omni.apex.exchange/referral?referralCode=T0S8V482"
+    ]
+  }
+}

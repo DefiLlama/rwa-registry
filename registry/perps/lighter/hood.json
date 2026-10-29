@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "HOOD",
+    "name": "Lighter Robinhood Perp",
+    "legacyId": 3350
+  },
+  "tracks": {
+    "underlying": "robinhood-markets-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "HOOD-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual market tracking Robinhood Markets, Inc. Users get linear exposure to Robinhood share-price moves without owning Robinhood shares, shareholder rights, or dividend claims, with pricing referencing an external 24/5 equity feed via Lighter's fair price oracle. Positions are margined and cash-settled in USDC.",
+    "refLinks": [
+      "https://app.lighter.xyz/trade/HOOD?referral=FHT1N8AYKHP4"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "identity": {
+    "symbol": "USA30-USD",
+    "name": "gTrade DJIA Perp",
+    "legacyId": 3601
+  },
+  "tracks": {
+    "underlying": "dow-jones-industrial-average",
+    "structure": "equity-index-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "USA30-USDC",
+    "makerFeeBps": 5,
+    "takerFeeBps": 5
+  },
+  "about": {
+    "description": "Equity-index perpetual on Gains Network tracking Dow Jones Industrial Average (DJIA), with pricing referencing Chainlink DON. Users gain linear exposure to the index level without holding any underlying constituent stocks or futures. Positions are margined and cash-settled in USDC / DAI / WETH on Arbitrum / Polygon / Base."
+  }
+}

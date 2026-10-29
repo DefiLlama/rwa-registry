@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "gasolp",
+    "name": "Variational Gasoline Swap",
+    "legacyId": 9591
+  },
+  "tracks": {
+    "underlying": "gasoline",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "GASOLP-USDC"
+  },
+  "about": {
+    "description": "Cash-settled swap on Gasoline, quoted against USDC. No funding; cost of carry is in the spread."
+  }
+}

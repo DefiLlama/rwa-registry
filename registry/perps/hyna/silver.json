@@ -1,0 +1,28 @@
+{
+  "identity": {
+    "symbol": "SILVER",
+    "legacyId": 3272
+  },
+  "tracks": {
+    "underlying": "silver",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "pair": "SILVER-USDE",
+    "makerFeeBps": 0.1667,
+    "takerFeeBps": 0.5
+  },
+  "about": {
+    "description": "Silver perpetual market. The contract tracks Silver price using the venue's reference methodology. Users get linear commodity-price exposure only, without title to physical inventory or delivery rights, cash-settled in USDe on HyENA.",
+    "refLinks": [
+      "https://app.hyena.trade/ref/DEFILLAMA"
+    ]
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

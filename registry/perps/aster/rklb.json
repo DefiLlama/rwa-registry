@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "symbol": "RKLB",
+    "name": "Aster Rocket Lab Perp",
+    "legacyId": 3920
+  },
+  "tracks": {
+    "underlying": "rocket-lab-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "RKLB-USDT",
+    "makerFeeBps": null,
+    "takerFeeBps": null
+  },
+  "about": {
+    "description": "Aster perpetual market tracking Rocket Lab USA Inc. (small-launch aerospace company). Verified live on platform UI 2026-05-26 via browser.",
+    "refLinks": [
+      "https://www.asterdex.com/en/referral/c6eF10"
+    ]
+  }
+}

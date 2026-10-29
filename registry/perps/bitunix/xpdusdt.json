@@ -1,0 +1,17 @@
+{
+  "identity": {
+    "symbol": "XPDUSDT",
+    "legacyId": 5017
+  },
+  "tracks": {
+    "underlying": "palladium",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "XPD-USDT"
+  },
+  "about": {
+    "description": "XPD is a commodity perpetual listed on Bitunix and tracking Palladium. The contract is cash settled in USDT and does not convey ownership or delivery of the underlying. Funding is exchanged every 4h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

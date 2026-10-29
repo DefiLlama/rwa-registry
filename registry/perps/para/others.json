@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "symbol": "OTHERS",
+    "legacyId": 3285
+  },
+  "tracks": {
+    "underlying": "altcoin-market-cap",
+    "structure": "crypto-index-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "OTHERS-USDC"
+  },
+  "sources": {
+    "oracleProvider": "Chaos Labs / HL published oracles"
+  },
+  "about": {
+    "description": "Crypto market-index perpetual tracking Altcoin Market Cap. Users get synthetic exposure to broad crypto-market movements rather than ownership of any constituent tokens, cash-settled in USDC on Paragon.",
+    "refLinks": [
+      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "NFLX",
+    "name": "Variational Omni Netflix Inc. Perp",
+    "legacyId": 4509
+  },
+  "tracks": {
+    "underlying": "netflix-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "NFLX-USDC"
+  },
+  "about": {
+    "description": "NFLX is a single-stock perpetual on Variational tracking Netflix Inc. Netflix Inc. is a US streaming media and content production company (Nasdaq: NFLX). The market is cash-settled with hourly funding, no shareholder rights, and no dividend rights in the underlying.",
+    "refLinks": [
+      "0"
+    ]
+  }
+}

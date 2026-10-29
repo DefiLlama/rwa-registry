@@ -1,0 +1,31 @@
+{
+  "identity": {
+    "symbol": "PLTR",
+    "name": "Markets by Kinetiq Palantir Perp",
+    "legacyId": 3282
+  },
+  "tracks": {
+    "underlying": "palantir-technologies-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdh",
+    "pair": "PLTR-USDH"
+  },
+  "sources": {
+    "oracleProvider": "Kaiko equity feed"
+  },
+  "about": {
+    "description": "Single-stock perpetual market tracking Palantir. Users get linear exposure to Palantir share-price moves without owning Palantir shares, shareholder rights, or dividend claims, cash-settled in USDH on Markets by Kinetiq.",
+    "refLinks": [
+      "https://markets.xyz/join/llama"
+    ]
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

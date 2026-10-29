@@ -1,0 +1,20 @@
+{
+  "identity": {
+    "symbol": "XAG-USD",
+    "legacyId": 3130
+  },
+  "tracks": {
+    "underlying": "silver",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "XAG-USD"
+  },
+  "about": {
+    "description": "Silver perpetual on Extended on Starknet, cash-settled in USDC.",
+    "refLinks": [
+      "https://app.extended.exchange/join/DEFILLAMAO"
+    ]
+  }
+}

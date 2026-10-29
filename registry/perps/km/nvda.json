@@ -1,0 +1,31 @@
+{
+  "identity": {
+    "symbol": "NVDA",
+    "name": "Markets by Kinetiq NVIDIA Perp",
+    "legacyId": 2963
+  },
+  "tracks": {
+    "underlying": "nvidia-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdh",
+    "pair": "NVDA-USDH"
+  },
+  "sources": {
+    "oracleProvider": "Kaiko / NASDAQ:NVDA"
+  },
+  "about": {
+    "description": "Single-stock perpetual market tracking NVIDIA Corporation. Users get linear exposure to NVIDIA share-price moves without owning NVIDIA shares, shareholder rights, or dividend claims. Pricing follows the market reference used by the km venue on Hyperliquid. Positions are margined and cash-settled in USDH. Markets are visible on Hyperliquid under the km namespace, but are operated by Markets by Kinetiq rather than listed as core Hyperliquid perps.",
+    "refLinks": [
+      "https://markets.xyz/join/llama"
+    ]
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

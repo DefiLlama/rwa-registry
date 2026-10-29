@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "GME",
+    "name": "Variational Omni GameStop Corp. Perp",
+    "legacyId": 4764
+  },
+  "tracks": {
+    "underlying": "gamestop-corp",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "GME-USDC"
+  },
+  "about": {
+    "description": "GME is a single-stock perpetual on Variational tracking GameStop Corp. GameStop Corp. is a US video game and consumer electronics retailer (NYSE: GME). The market is cash-settled with hourly funding, no shareholder rights, and no dividend rights in the underlying.",
+    "refLinks": [
+      "0"
+    ]
+  }
+}

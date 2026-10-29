@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "AAPL_24_5-USD",
+    "name": "Extended Apple Perp",
+    "legacyId": 3141
+  },
+  "tracks": {
+    "underlying": "apple-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "AAPL-USD"
+  },
+  "about": {
+    "description": "Apple perpetual on Extended on Starknet, cash-settled in USDC.",
+    "refLinks": [
+      "https://app.extended.exchange/join/DEFILLAMAO"
+    ]
+  }
+}

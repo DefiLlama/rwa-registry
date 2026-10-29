@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "SPCX",
+    "name": "Paradex Procure Space ETF Perp",
+    "legacyId": 4736
+  },
+  "tracks": {
+    "underlying": "space-exploration-technologies-corp",
+    "structure": "equity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "SPCX-USD-PERP"
+  },
+  "about": {
+    "description": "SPCX is an ETF-tracking perpetual on Paradex referencing Procure Space ETF. Paradex is a permissionless perp and options DEX operating on its own Starknet-based appchain (Paradex Chain / DimeVM), with zero-fee trading, unified cross-margin in USDC, and ZK-encrypted account privacy. The market is cash-settled in USDC.",
+    "refLinks": [
+      "0"
+    ]
+  }
+}

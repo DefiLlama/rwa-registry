@@ -1,0 +1,33 @@
+{
+  "identity": {
+    "symbol": "SPX",
+    "name": "Lighter S&P 500 Perp",
+    "legacyId": 3364
+  },
+  "tracks": {
+    "underlying": "spx6900",
+    "structure": "crypto-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "SPX-USDC"
+  },
+  "about": {
+    "description": "DELISTED and mislabeled. The canonical ID \"lighter:SPX\" on Lighter actually maps to SPX6900, a crypto memecoin trading at approximately $0.36 on Lighter perps, not the S&P 500 Index. The real Lighter S&P 500 perp is at canonical lighter:US500. This entry was erroneously categorized as an S&P 500 Perp and was removed from active tracking on 2026-05-26 after adapter QA.",
+    "refLinks": [
+      "https://app.lighter.xyz/trade/ETH?referral=FHT1N8AYKHP4"
+    ]
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    },
+    {
+      "kind": "review",
+      "outcome": "suspicious",
+      "reason": "Mislabeled: the Lighter market SPX is SPX6900, a crypto memecoin, not the S&P 500 Index; the Lighter S&P 500 perp is lighter:US500. Removed from active tracking on 2026-05-26 after adapter QA."
+    }
+  ]
+}

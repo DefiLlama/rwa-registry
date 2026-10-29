@@ -1,0 +1,28 @@
+{
+  "identity": {
+    "symbol": "NOK",
+    "name": "Lighter Nokia Perp",
+    "legacyId": 4582
+  },
+  "tracks": {
+    "underlying": "nokia-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "NOK-USDC"
+  },
+  "sources": {
+    "oracleProvider": "Lighter fair price oracle"
+  },
+  "about": {
+    "description": "Single-stock perpetual on Lighter tracking Nokia Corporation (Oyj). Users get linear exposure to the underlying without owning shares. Cash-settled in USDC."
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

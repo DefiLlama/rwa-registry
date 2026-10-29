@@ -1,0 +1,27 @@
+{
+  "identity": {
+    "symbol": "TM_USDT",
+    "name": "Gate Toyota Motor Corp. Perp",
+    "legacyId": 7277
+  },
+  "tracks": {
+    "underlying": "toyota-motor-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "TM-USDT"
+  },
+  "about": {
+    "description": "TM is a single-stock perpetual listed on Gate, tracking Toyota Motor Corp., margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Up to 20× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  },
+  "events": [
+    {
+      "kind": "listing",
+      "date": "2026-07-22",
+      "links": [
+        "https://api.gateio.ws/api/v4/futures/usdt/contracts"
+      ]
+    }
+  ]
+}

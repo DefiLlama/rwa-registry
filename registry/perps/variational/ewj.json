@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "EWJ",
+    "name": "Variational Omni iShares MSCI Japan ETF Perp",
+    "legacyId": 4423
+  },
+  "tracks": {
+    "underlying": "ishares-msci-japan-etf",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "EWJ-USDC"
+  },
+  "about": {
+    "description": "Perpetual market on Variational Omni tracking iShares MSCI Japan ETF, cash-settled."
+  }
+}

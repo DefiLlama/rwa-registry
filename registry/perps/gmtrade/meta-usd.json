@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "META-USD",
+    "name": "GMTrade Meta Perp",
+    "legacyId": 3826
+  },
+  "tracks": {
+    "underlying": "meta-platforms-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "META-USDC"
+  },
+  "about": {
+    "description": "Meta (META) perpetual on GMTrade (Solana), USDC-margined.",
+    "refLinks": [
+      "https://gmtrade.xyz/referrals/?ref=545"
+    ]
+  }
+}

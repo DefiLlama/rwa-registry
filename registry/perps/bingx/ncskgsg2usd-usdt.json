@@ -1,0 +1,17 @@
+{
+  "identity": {
+    "symbol": "NCSKGSG2USD-USDT",
+    "legacyId": 7737
+  },
+  "tracks": {
+    "underlying": "ishares-s-p-gsci-commodity-indexed-trust",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "GSG-USDT"
+  },
+  "about": {
+    "description": "GSG is an exchange traded fund perpetual listed on BingX, tracking iShares S&P GSCI Commodity-Indexed Trust, margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

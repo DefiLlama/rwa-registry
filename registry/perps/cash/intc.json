@@ -1,0 +1,28 @@
+{
+  "identity": {
+    "symbol": "INTC",
+    "name": "CASH Intel Perp",
+    "legacyId": 2947
+  },
+  "tracks": {
+    "underlying": "intel-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "INTC-USDT"
+  },
+  "about": {
+    "description": "Single-stock perpetual market tracking Intel Corporation. Users get linear exposure to Intel share-price moves without owning shares, voting rights, or dividend claims, with pricing referencing an external 24/5 equity feed. Positions are margined and cash-settled in USDT. Markets are visible on Hyperliquid under the cash namespace, but are operated by Dreamcash rather than listed as core Hyperliquid perps.",
+    "refLinks": [
+      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
+    ]
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

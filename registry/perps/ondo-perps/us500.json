@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "US500",
+    "name": "Ondo Perps S&P 500 Perp",
+    "legacyId": 4046
+  },
+  "tracks": {
+    "underlying": "s-p-500-index",
+    "structure": "equity-index-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "US500-USD"
+  },
+  "about": {
+    "description": "Equity Index perpetual market on Ondo Perps tracking S&P 500 Index, cash-settled, 24/7, up to 20x leverage, hourly funding, launched 2026-06-09 (non-US users only). Verified live via adapter 2026-06-10.",
+    "refLinks": [
+      "https://app.ondoperps.xyz/trade/perps/US500-USD.P?ref=76ZCWB"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "symbol": "SNDK_24_5-USD",
+    "name": "Extended SNDK Perp",
+    "legacyId": 3611
+  },
+  "tracks": {
+    "underlying": "sandisk-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "SNDK-USDC",
+    "makerFeeBps": null,
+    "takerFeeBps": null
+  },
+  "about": {
+    "description": "Single-stock perpetual on Extended (formerly X10) tracking Sandisk Corporation (SNDK), with pricing referencing Extended oracle (24/5 equity feed). Users gain linear exposure to Sandisk Corporation share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Starknet.",
+    "refLinks": [
+      "https://app.extended.exchange/join/DEFILLAMAO"
+    ]
+  }
+}

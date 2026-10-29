@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "NFLX_1-USD",
+    "name": "gTrade Netflix Perp",
+    "legacyId": 3036
+  },
+  "tracks": {
+    "underlying": "netflix-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "NFLX-USDC"
+  },
+  "about": {
+    "description": "Netflix perpetual on gTrade, synthetic and cash-settled in USDC on Arbitrum."
+  }
+}

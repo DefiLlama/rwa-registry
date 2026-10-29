@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "TSM",
+    "name": "Ondo Perps Taiwan Semiconductor Perp",
+    "legacyId": 9038
+  },
+  "tracks": {
+    "underlying": "taiwan-semiconductor-manufacturing-company-limited",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "TSM-USD"
+  },
+  "about": {
+    "description": "Single-stock perpetual market on Ondo Perps tracking Taiwan Semiconductor Manufacturing Company Limited, cash-settled, 24/7, up to 10x leverage, margined in USDC, hourly funding. Users get linear price exposure only - no ownership, dividend or voting rights in the underlying. Adapter snapshot 2026-08-25: mark $416.79, open interest $107.69K, 24h volume $38.08K. Added 2026-08-25 in the second Ondo Perps expansion batch, taking the registry from 35 to 45 RWA markets; the adapter's 50 live rows include 5 crypto perps (BTC, ETH, SOL, HYPE, ONDO) that are out of scope.",
+    "refLinks": [
+      "https://app.ondoperps.xyz/trade/perps/TSM-USD.P?ref=76ZCWB"
+    ]
+  }
+}

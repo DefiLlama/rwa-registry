@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "INTC-PERP",
+    "name": "Coinbase International Exchange Intel Corp. Perp",
+    "legacyId": 6412
+  },
+  "tracks": {
+    "underlying": "intel-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "INTC-USDC"
+  },
+  "about": {
+    "description": "INTC is a single-stock perpetual listed on Coinbase International Exchange, tracking Intel Corp., margined and cash-settled in USDC. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 1h. Up to 10× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

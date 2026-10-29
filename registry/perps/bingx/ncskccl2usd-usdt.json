@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "NCSKCCL2USD-USDT",
+    "name": "BingX Carnival Corp. Perp",
+    "legacyId": 5936
+  },
+  "tracks": {
+    "underlying": "carnival-corporation-ltd",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "CCL-USDT"
+  },
+  "about": {
+    "description": "CCL is a single-stock perpetual listed on BingX, tracking Carnival Corp., margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "identity": {
+    "symbol": "SNXX-USDT",
+    "legacyId": 5376
+  },
+  "tracks": {
+    "underlying": "tradr-2x-long-sndk-daily-etf",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "SNXX-USDT",
+    "makerFeeBps": 2,
+    "takerFeeBps": 6
+  },
+  "about": {
+    "description": "SNXX is an exchange traded fund perpetual listed on HTX and tracking Tradr 2X Long SNDK Daily ETF. The contract is cash settled in USDT and does not convey ownership or redemption rights in the underlying. Funding is exchanged every 8h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

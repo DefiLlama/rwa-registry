@@ -1,0 +1,28 @@
+{
+  "identity": {
+    "symbol": "KUAISHOUUSDT",
+    "legacyId": 8666
+  },
+  "tracks": {
+    "underlying": "kuaishou-technology",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "KUAISHOU-USDT",
+    "makerFeeBps": 0,
+    "takerFeeBps": 4
+  },
+  "about": {
+    "description": "KUAISHOU is a single-stock perpetual listed on Binance, tracking Kuaishou Technology, margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  },
+  "events": [
+    {
+      "kind": "listing",
+      "date": "2026-08-11",
+      "links": [
+        "https://fapi.binance.com/fapi/v1/exchangeInfo"
+      ]
+    }
+  ]
+}

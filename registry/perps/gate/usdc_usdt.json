@@ -1,0 +1,31 @@
+{
+  "identity": {
+    "symbol": "USDC_USDT",
+    "legacyId": 7783
+  },
+  "tracks": {
+    "asset": "usdc",
+    "structure": "crypto-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "USDC-USDT"
+  },
+  "about": {
+    "description": "USDC is a single-stock perpetual listed on Gate, tracking USD Coin, margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Up to 50× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    },
+    {
+      "kind": "listing",
+      "date": "2023-03-12",
+      "links": [
+        "https://api.gateio.ws/api/v4/futures/usdt/contracts"
+      ]
+    }
+  ]
+}

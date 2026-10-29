@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "CSCO",
+    "name": "Variational Cisco Perp",
+    "legacyId": 9129
+  },
+  "tracks": {
+    "underlying": "cisco-systems-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "CSCO-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual on Variational Omni tracking Cisco Systems, Inc. (CSCO), priced off Variational Omni's OLP-aggregated mid-quotes. Users gain linear exposure to Cisco Systems, Inc. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Arbitrum."
+  }
+}

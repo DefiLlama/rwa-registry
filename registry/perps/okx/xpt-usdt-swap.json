@@ -1,0 +1,26 @@
+{
+  "identity": {
+    "symbol": "XPT-USDT-SWAP",
+    "legacyId": 5114
+  },
+  "tracks": {
+    "underlying": "platinum",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "XPT-USDT"
+  },
+  "about": {
+    "description": "XPT is a commodity perpetual listed on OKX and tracking Platinum. The contract is cash settled in USDT and does not convey ownership or delivery of the underlying. Funding is exchanged every 8h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  },
+  "events": [
+    {
+      "kind": "listing",
+      "date": "2026-02-02",
+      "links": [
+        "https://www.okx.com/api/v5/public/instruments?instType=SWAP"
+      ]
+    }
+  ]
+}

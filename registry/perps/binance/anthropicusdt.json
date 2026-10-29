@@ -1,0 +1,31 @@
+{
+  "identity": {
+    "symbol": "ANTHROPICUSDT",
+    "legacyId": 4797
+  },
+  "tracks": {
+    "underlying": "anthropic",
+    "structure": "pe-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "ANTHROPIC-USDT",
+    "makerFeeBps": 0,
+    "takerFeeBps": 4
+  },
+  "sources": {
+    "oracleProvider": "Binance pre-IPO order flow, no external price index"
+  },
+  "about": {
+    "description": "ANTHROPIC is a private-company perpetual listed on Binance and tracking Anthropic. The contract is cash settled in USDT against a Binance price index and does not convey ownership of the underlying. Funding is exchanged every 8h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  },
+  "events": [
+    {
+      "kind": "listing",
+      "date": "2026-06-02",
+      "links": [
+        "https://fapi.binance.com/fapi/v1/exchangeInfo"
+      ]
+    }
+  ]
+}

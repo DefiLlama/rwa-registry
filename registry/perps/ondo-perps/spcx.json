@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "SPCX",
+    "name": "Ondo Perps SpaceX Perp",
+    "legacyId": 4432
+  },
+  "tracks": {
+    "underlying": "space-exploration-technologies-corp",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "SPCX-USD"
+  },
+  "about": {
+    "description": "Single-stock perpetual market on Ondo Perps tracking SpaceX (Space Exploration Technologies Corp.), publicly listed on Nasdaq (SPCX) since June 2026, cash-settled, 24/7, up to 10x leverage, hourly funding (non-US users only). Verified live via adapter 2026-06-17.",
+    "refLinks": [
+      "https://app.ondoperps.xyz/trade/perps/SPCX-USD.P?ref=76ZCWB"
+    ]
+  }
+}

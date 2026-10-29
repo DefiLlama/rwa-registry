@@ -1,0 +1,26 @@
+{
+  "identity": {
+    "symbol": "SAMSUNG_USDT",
+    "legacyId": 7059
+  },
+  "tracks": {
+    "underlying": "samsung-electronics-co-ltd",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "SAMSUNG-USDT"
+  },
+  "about": {
+    "description": "SAMSUNG is a single-stock perpetual listed on Gate, tracking Samsung Electronics Co., Ltd., margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 4h. Up to 50× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  },
+  "events": [
+    {
+      "kind": "listing",
+      "date": "2026-06-02",
+      "links": [
+        "https://api.gateio.ws/api/v4/futures/usdt/contracts"
+      ]
+    }
+  ]
+}

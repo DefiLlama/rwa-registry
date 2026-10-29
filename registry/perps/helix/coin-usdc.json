@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "COIN-USDC",
+    "name": "Helix Coinbase Perp",
+    "legacyId": 3080
+  },
+  "tracks": {
+    "underlying": "coinbase-global-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "COIN-USDT"
+  },
+  "about": {
+    "description": "Coinbase perpetual on Helix (Injective), cash-settled in USDT."
+  }
+}

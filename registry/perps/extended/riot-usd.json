@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "RIOT-USD",
+    "name": "Extended Riot Platforms Perp",
+    "legacyId": 8625
+  },
+  "tracks": {
+    "underlying": "riot-platforms-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "RIOT-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual on Extended (formerly X10) tracking Riot Platforms, Inc. (RIOT), with pricing referencing Extended oracle. Users gain linear exposure to Riot Platforms, Inc. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Starknet.",
+    "refLinks": [
+      "https://app.extended.exchange/join/DEFILLAMAO"
+    ]
+  }
+}

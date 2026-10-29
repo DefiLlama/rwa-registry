@@ -1,0 +1,22 @@
+{
+  "identity": {
+    "symbol": "SPYUSD",
+    "name": "edgeX S&P 500 ETF Perp",
+    "legacyId": 3394
+  },
+  "tracks": {
+    "underlying": "state-street-spdr-s-p-500-etf-trust",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "marginAsset": "USDT",
+    "pair": "SPY-USD"
+  },
+  "about": {
+    "description": "ETF perpetual market tracking the SPDR S&P 500 ETF Trust (SPY). Users get synthetic exposure to the SPY ETF's price rather than ownership of ETF shares or redemption rights, with pricing referencing the ETF's public market price via the Stork decentralized oracle. Positions are margined and cash-settled in USDT.",
+    "refLinks": [
+      "https://pro.edgex.exchange/referral/196451583"
+    ]
+  }
+}

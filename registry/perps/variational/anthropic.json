@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "ANTHROPIC",
+    "name": "Variational Omni Anthropic Pre-IPO Perp",
+    "legacyId": 4446
+  },
+  "tracks": {
+    "underlying": "anthropic",
+    "structure": "pe-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "ANTHROPIC-USDC"
+  },
+  "about": {
+    "description": "Pre-IPO valuation perpetual on Variational Omni tracking Anthropic, cash-settled."
+  }
+}

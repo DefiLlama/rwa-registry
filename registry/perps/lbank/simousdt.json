@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "SIMOUSDT",
+    "name": "LBank Silicon Motion Technology Corporation (ADR) Perp",
+    "legacyId": 7095
+  },
+  "tracks": {
+    "underlying": "silicon-motion-technology-corporation-adr",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "SIMO-USDT"
+  },
+  "about": {
+    "description": "SIMO is a single-stock perpetual listed on LBank, tracking Silicon Motion Technology Corporation (ADR), margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Up to 50× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "identity": {
+    "symbol": "OIL",
+    "name": "Felix WTI Crude Oil Perp",
+    "legacyId": 2950
+  },
+  "tracks": {
+    "underlying": "crude-oil-wti",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdh",
+    "pair": "OIL-USDH"
+  },
+  "about": {
+    "description": "WTI crude oil perpetual market. The contract tracks West Texas Intermediate crude oil using a futures-based reference price with scheduled contract rolls. Users get linear oil price exposure only, without owning physical crude, inventory claims, or a deliverable futures position. Pricing uses Felix’s external reference methodology for commodity markets. Positions are margined and cash-settled in USDH. Markets are visible on Hyperliquid under the flx namespace, but are operated by Felix rather than listed as core Hyperliquid perps.",
+    "refLinks": [
+      "https://www.usefelix.xyz?ref=4BF702FF"
+    ]
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

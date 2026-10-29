@@ -1,0 +1,28 @@
+{
+  "identity": {
+    "symbol": "USOILSPOT-USD",
+    "name": "Avantis US Oil Spot Perp",
+    "legacyId": 3819
+  },
+  "tracks": {
+    "underlying": "crude-oil-wti",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "USOILSPOT-USDC"
+  },
+  "about": {
+    "description": "US Oil Spot perpetual on Avantis (Base). Tracks the spot price of WTI crude oil (rather than the front-month futures contract used by avantis:WTI-USD), USDC-margined. Oracle-priced via Pyth Lazer.",
+    "refLinks": [
+      "https://www.avantisfi.com/referral?code=DefiLlama"
+    ]
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

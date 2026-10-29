@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "QQQ-USD",
+    "name": "GMTrade QQQ ETF Perp",
+    "legacyId": 3830
+  },
+  "tracks": {
+    "underlying": "invesco-qqq-trust-series-1",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "QQQ-USDC"
+  },
+  "about": {
+    "description": "QQQ ETF perpetual on GMTrade (Solana). Tracks Invesco QQQ Trust ETF, USDC-margined.",
+    "refLinks": [
+      "https://gmtrade.xyz/referrals/?ref=545"
+    ]
+  }
+}

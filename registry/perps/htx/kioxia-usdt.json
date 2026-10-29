@@ -1,0 +1,19 @@
+{
+  "identity": {
+    "symbol": "KIOXIA-USDT",
+    "legacyId": 6482
+  },
+  "tracks": {
+    "underlying": "kioxia-holdings-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "KIOXIA-USDT",
+    "makerFeeBps": 2,
+    "takerFeeBps": 6
+  },
+  "about": {
+    "description": "KIOXIA is a single-stock perpetual listed on HTX, tracking Kioxia Holdings Corporation, margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 1h. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

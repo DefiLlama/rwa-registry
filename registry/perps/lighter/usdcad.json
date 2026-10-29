@@ -1,0 +1,24 @@
+{
+  "identity": {
+    "symbol": "USDCAD",
+    "name": "Lighter CAD Perp",
+    "legacyId": 3637
+  },
+  "tracks": {
+    "underlying": "canadian-dollar",
+    "structure": "forex-perps"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "USDCAD-USDC"
+  },
+  "sources": {
+    "oracleProvider": "Lighter fair price oracle"
+  },
+  "about": {
+    "description": "FX perpetual on Lighter Labs tracking Canadian Dollar (CAD) versus the US dollar, with pricing referencing Lighter fair price oracle. Positions are margined and cash-settled in USDC on Lighter ZK-rollup (Ethereum), giving users synthetic exposure to Canadian Dollar/USD price movement without holding either currency as cash.",
+    "refLinks": [
+      "https://app.lighter.xyz/trade/USDCAD?referral=FHT1N8AYKHP4"
+    ]
+  }
+}

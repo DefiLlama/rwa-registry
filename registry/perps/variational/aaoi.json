@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "AAOI",
+    "name": "Variational Omni Applied Optoelectronics Perp",
+    "legacyId": 4451
+  },
+  "tracks": {
+    "underlying": "applied-optoelectronics-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "AAOI-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual market on Variational Omni tracking Applied Optoelectronics, cash-settled."
+  }
+}

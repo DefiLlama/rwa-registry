@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "EBAY",
+    "name": "Aster eBay Perp",
+    "legacyId": 4376
+  },
+  "tracks": {
+    "underlying": "ebay-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "EBAY-USDT"
+  },
+  "about": {
+    "description": "Single-stock perpetual market on Aster tracking eBay, cash-settled.",
+    "refLinks": [
+      "https://www.asterdex.com/en/referral/c6eF10"
+    ]
+  }
+}

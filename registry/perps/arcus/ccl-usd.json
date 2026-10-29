@@ -1,0 +1,28 @@
+{
+  "identity": {
+    "symbol": "CCL-USD",
+    "name": "Arcus Carnival Perp",
+    "legacyId": 4519
+  },
+  "tracks": {
+    "underlying": "carnival-corporation-ltd",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdg",
+    "pair": "CCL-USDG"
+  },
+  "about": {
+    "description": "Arcus perpetual market tracking Carnival Corporation & plc (NYSE: CCL) with 24/7 exposure to the underlying consumer travel stock. Total-return tracking (dividends, splits, and futures rolls passed through funding), cash-settled in USDG on the Arcus off-chain CLOB with permissioned appchain re-verification and EVM rootchain custody.",
+    "refLinks": [
+      "https://app.arcus.xyz/ref/DEFILLAMA"
+    ]
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

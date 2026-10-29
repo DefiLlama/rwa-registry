@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "DRAM-USD",
+    "name": "Extended DRAM ETF Perp",
+    "legacyId": 8643
+  },
+  "tracks": {
+    "underlying": "roundhill-memory-etf",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "DRAM-USDC"
+  },
+  "about": {
+    "description": "Exchange-traded-fund perpetual on Extended (formerly X10) tracking Roundhill Memory ETF (DRAM), with pricing referencing Extended oracle. Users gain linear exposure to the fund share price without owning fund shares or receiving fund distributions. Positions are margined and cash-settled in USDC on Starknet.",
+    "refLinks": [
+      "https://app.extended.exchange/join/DEFILLAMAO"
+    ]
+  }
+}

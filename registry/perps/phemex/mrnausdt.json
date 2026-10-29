@@ -1,0 +1,17 @@
+{
+  "identity": {
+    "symbol": "MRNAUSDT",
+    "legacyId": 9485
+  },
+  "tracks": {
+    "underlying": "moderna-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "MRNA-USDT"
+  },
+  "about": {
+    "description": "SOXL is an exchange traded fund perpetual listed on Phemex and tracking Direxion Daily Semiconductor Bull 3X ETF. The contract is cash settled in USDT and does not convey ownership or redemption rights in the underlying. Funding is exchanged every 8h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

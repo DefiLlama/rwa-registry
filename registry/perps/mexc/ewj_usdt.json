@@ -1,0 +1,17 @@
+{
+  "identity": {
+    "symbol": "EWJ_USDT",
+    "legacyId": 5445
+  },
+  "tracks": {
+    "underlying": "ishares-msci-japan-etf",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "EWJ-USDT"
+  },
+  "about": {
+    "description": "EWJ is an exchange traded fund perpetual listed on MEXC and tracking iShares MSCI Japan ETF. The contract is cash settled in USDT and does not convey ownership or redemption rights in the underlying. Funding is exchanged every 8h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "identity": {
+    "symbol": "XNI_USDT",
+    "legacyId": 7543
+  },
+  "tracks": {
+    "underlying": "nickel",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "XNI-USDT"
+  },
+  "about": {
+    "description": "XNI is a commodity perpetual listed on Gate, tracking Nickel, margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Up to 75× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  },
+  "events": [
+    {
+      "kind": "listing",
+      "date": "2026-01-27",
+      "links": [
+        "https://api.gateio.ws/api/v4/futures/usdt/contracts"
+      ]
+    }
+  ]
+}

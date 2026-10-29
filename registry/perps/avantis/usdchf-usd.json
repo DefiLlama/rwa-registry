@@ -1,0 +1,25 @@
+{
+  "identity": {
+    "symbol": "USDCHF-USD",
+    "name": "Avantis USDCHF Perp",
+    "legacyId": 3860
+  },
+  "tracks": {
+    "underlying": "us-dollar-swiss-franc",
+    "structure": "forex-perps"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "USDCHF-USDC"
+  },
+  "sources": {
+    "oracleProvider": "Pyth"
+  },
+  "about": {
+    "description": "USDCHF perpetual on Avantis (Base), USDC-margined. Verified live 2026-05-20.",
+    "refLinks": [
+      "https://www.avantisfi.com/referral?code=DefiLlama"
+    ],
+    "website": "https://avantisfi.com/"
+  }
+}

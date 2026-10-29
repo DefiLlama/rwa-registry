@@ -1,0 +1,17 @@
+{
+  "identity": {
+    "symbol": "URA-USD",
+    "legacyId": 3851
+  },
+  "tracks": {
+    "underlying": "global-x-uranium-etf",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "URA-USDC"
+  },
+  "about": {
+    "description": "Global X Uranium ETF (URA) perpetual on gTrade, USDC-margined. Tracks uranium mining equities ETF. Verified live 2026-05-20."
+  }
+}

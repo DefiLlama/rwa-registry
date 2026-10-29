@@ -1,0 +1,20 @@
+{
+  "identity": {
+    "symbol": "XAU",
+    "legacyId": 3750
+  },
+  "tracks": {
+    "underlying": "gold",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "XAU-USDC"
+  },
+  "about": {
+    "description": "Gold (XAU/USD) perpetual on ApeX Omni, cash-settled in USDT.",
+    "refLinks": [
+      "https://omni.apex.exchange/referral?referralCode=T0S8V482"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "symbol": "JPM",
+    "name": "Aster JPMorgan Chase Perp",
+    "legacyId": 3938
+  },
+  "tracks": {
+    "underlying": "jpmorgan-chase-co",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "JPM-USDT",
+    "makerFeeBps": null,
+    "takerFeeBps": null
+  },
+  "about": {
+    "description": "Single-stock perpetual market on Aster tracking JPMorgan Chase & Co. Users get linear exposure to share-price moves without owning shares, shareholder rights, or dividend claims, with pricing referencing an external 24/5 equity feed. Positions are margined and cash-settled in USDT on Aster.",
+    "refLinks": [
+      "https://www.asterdex.com/en/referral/c6eF10"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "identity": {
+    "symbol": "SSPCUSDT",
+    "legacyId": 7649
+  },
+  "tracks": {
+    "underlying": "leverage-shares-2x-short-spcx-daily-etf",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "SSPC-USDT"
+  },
+  "about": {
+    "description": "SSPC is an exchange traded fund perpetual listed on Bitget, tracking Leverage Shares 2X Short SPCX Daily ETF, margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Up to 20× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

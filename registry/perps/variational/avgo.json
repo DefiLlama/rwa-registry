@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "AVGO",
+    "name": "Variational Omni Broadcom Inc. Perp",
+    "legacyId": 4758
+  },
+  "tracks": {
+    "underlying": "broadcom-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "AVGO-USDC"
+  },
+  "about": {
+    "description": "AVGO is a single-stock perpetual on Variational tracking Broadcom Inc. Broadcom Inc. is a US semiconductor and infrastructure software company (Nasdaq: AVGO). The market is cash-settled with hourly funding, no shareholder rights, and no dividend rights in the underlying.",
+    "refLinks": [
+      "0"
+    ]
+  }
+}

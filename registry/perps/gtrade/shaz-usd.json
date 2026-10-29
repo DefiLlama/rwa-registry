@@ -1,0 +1,25 @@
+{
+  "identity": {
+    "symbol": "SHAZ-USD",
+    "name": "gTrade SHAZ Perp",
+    "legacyId": 4576
+  },
+  "tracks": {
+    "underlying": "sharonai-holdings-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "SHAZ-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual on Gains Network tracking SharonAI Holdings Inc. Users get linear exposure to the underlying without owning shares. Cash-settled in USDC."
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

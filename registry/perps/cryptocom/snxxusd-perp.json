@@ -1,0 +1,16 @@
+{
+  "identity": {
+    "symbol": "SNXXUSD-PERP",
+    "legacyId": 5307
+  },
+  "tracks": {
+    "underlying": "tradr-2x-long-sndk-daily-etf",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "pair": "SNXX-USD"
+  },
+  "about": {
+    "description": "SNXX is an exchange traded fund perpetual listed on Crypto.com and tracking Tradr 2X Long SNDK Daily ETF. The contract is cash settled in USD and does not convey ownership or redemption rights in the underlying. Funding is exchanged every 1h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

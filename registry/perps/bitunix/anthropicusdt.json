@@ -1,0 +1,17 @@
+{
+  "identity": {
+    "symbol": "ANTHROPICUSDT",
+    "legacyId": 5673
+  },
+  "tracks": {
+    "underlying": "anthropic",
+    "structure": "pe-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "ANTHROPIC-USDT"
+  },
+  "about": {
+    "description": "ANTHROPIC is a private-company perpetual listed on Bitunix, tracking Anthropic, margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Up to 20× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

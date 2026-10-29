@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "twis",
+    "name": "Variational Taiwan Index Swap",
+    "legacyId": 9584
+  },
+  "tracks": {
+    "underlying": "msci-taiwan-index",
+    "structure": "equity-index-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "TWIS-USDC"
+  },
+  "about": {
+    "description": "Cash-settled swap on MSCI Taiwan Index, quoted against USDC. No funding; cost of carry is in the spread."
+  }
+}

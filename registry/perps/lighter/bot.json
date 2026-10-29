@@ -1,0 +1,24 @@
+{
+  "identity": {
+    "symbol": "BOT",
+    "name": "Lighter RoboStrategy CEF Perp",
+    "legacyId": 3969
+  },
+  "tracks": {
+    "underlying": "robostrategy-inc",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "BOT-USDC"
+  },
+  "sources": {
+    "oracleProvider": "Lighter fair price oracle"
+  },
+  "about": {
+    "description": "RoboStrategy perpetual market on Lighter: RoboStrategy, Inc. (NASDAQ: BOT) is the first publicly-traded closed-end fund (CEF) dedicated to robotics and physical AI, listed on NASDAQ May 11, 2026. The fund provides public-market investors exposure to a concentrated portfolio of private, pre-IPO, and public robotics companies (disclosed holdings include Figure AI, Apptronik, Dyna Robotics, Standard Bots, and Dexmate), effectively bridging venture capital and public markets in a single ticker. The Lighter perp gives synthetic exposure to BOT's share price without owning fund shares or redemption rights. Max 3x leverage, cash-settled in USDC.",
+    "refLinks": [
+      "https://app.lighter.xyz/trade/BOT?referral=FHT1N8AYKHP4"
+    ]
+  }
+}

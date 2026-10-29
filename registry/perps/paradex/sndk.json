@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "SNDK",
+    "name": "Paradex SanDisk Corporation Perp",
+    "legacyId": 4728
+  },
+  "tracks": {
+    "underlying": "sandisk-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "SNDK-USD-PERP"
+  },
+  "about": {
+    "description": "SNDK is a single-stock perpetual on Paradex tracking SanDisk Corporation. Paradex is a permissionless perp and options DEX operating on its own Starknet-based appchain (Paradex Chain / DimeVM), with zero-fee trading, unified cross-margin in USDC, and ZK-encrypted account privacy. The market is cash-settled in USDC and does not confer any shareholder rights in the underlying.",
+    "refLinks": [
+      "0"
+    ]
+  }
+}

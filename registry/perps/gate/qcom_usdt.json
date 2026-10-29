@@ -1,0 +1,27 @@
+{
+  "identity": {
+    "symbol": "QCOM_USDT",
+    "name": "Gate QUALCOMM Inc. Perp",
+    "legacyId": 6953
+  },
+  "tracks": {
+    "underlying": "qualcomm-incorporated",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "QCOM-USDT"
+  },
+  "about": {
+    "description": "QCOM is a single-stock perpetual listed on Gate, tracking QUALCOMM Inc., margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Up to 50× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  },
+  "events": [
+    {
+      "kind": "listing",
+      "date": "2026-05-04",
+      "links": [
+        "https://api.gateio.ws/api/v4/futures/usdt/contracts"
+      ]
+    }
+  ]
+}

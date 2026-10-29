@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "JPY-USDT",
+    "name": "Hibachi JPY Perp",
+    "legacyId": 9673
+  },
+  "tracks": {
+    "underlying": "japanese-yen",
+    "structure": "forex-perps"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "JPY-USDT"
+  },
+  "about": {
+    "description": "Forex perpetual on Hibachi (Arbitrum) referencing the Japanese Yen/USD exchange rate, cash-settled in USDT, giving users synthetic exposure to Japanese Yen/USD price movement without holding either currency as cash. Source: docs.hibachi.xyz.",
+    "refLinks": [
+      "https://hibachi.xyz/r/YUKPTN36RM"
+    ]
+  }
+}

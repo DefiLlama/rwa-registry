@@ -1,0 +1,28 @@
+{
+  "identity": {
+    "symbol": "CAD-CHF",
+    "name": "gTrade CADCHF Perp",
+    "legacyId": 3673
+  },
+  "tracks": {
+    "underlying": "canadian-dollar-swiss-franc",
+    "structure": "forex-perps"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "CADCHF-USDC"
+  },
+  "sources": {
+    "oracleProvider": "Chainlink DON FX feeds"
+  },
+  "about": {
+    "description": "Cross-pair FX perpetual on Gains Network tracking Canadian Dollar / Swiss Franc (CADCHF), with pricing referencing Chainlink DON FX feeds. Positions are margined and cash-settled in USDC / DAI / WETH on Arbitrum / Polygon / Base, giving users synthetic exposure to the relative value of two foreign currencies without holding either as cash."
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

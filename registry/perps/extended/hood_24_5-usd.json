@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "symbol": "HOOD_24_5-USD",
+    "name": "Extended HOOD Perp",
+    "legacyId": 3614
+  },
+  "tracks": {
+    "underlying": "robinhood-markets-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "HOOD-USDC",
+    "makerFeeBps": null,
+    "takerFeeBps": null
+  },
+  "about": {
+    "description": "Single-stock perpetual on Extended (formerly X10) tracking Robinhood Markets, Inc. (HOOD), with pricing referencing Extended oracle (24/5 equity feed). Users gain linear exposure to Robinhood Markets, Inc. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Starknet.",
+    "refLinks": [
+      "https://app.extended.exchange/join/DEFILLAMAO"
+    ]
+  }
+}

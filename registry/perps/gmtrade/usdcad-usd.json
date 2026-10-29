@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "symbol": "USDCAD-USD",
+    "name": "GMTrade USDCAD Perp",
+    "legacyId": 3820
+  },
+  "tracks": {
+    "underlying": "us-dollar-canadian-dollar",
+    "structure": "forex-perps"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "USDCAD-USDC",
+    "makerFeeBps": 1,
+    "takerFeeBps": 1.2
+  },
+  "about": {
+    "description": "USDCAD perpetual on GMTrade (Solana), USDC-margined. Tracks USD/CAD FX rate.",
+    "refLinks": [
+      "https://gmtrade.xyz/referrals/?ref=545"
+    ]
+  }
+}

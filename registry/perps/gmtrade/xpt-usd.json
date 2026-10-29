@@ -1,0 +1,20 @@
+{
+  "identity": {
+    "symbol": "XPT-USD",
+    "legacyId": 3836
+  },
+  "tracks": {
+    "underlying": "platinum",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "XPT-USDC"
+  },
+  "about": {
+    "description": "Platinum (XPT) perpetual on GMTrade (Solana), USDC-margined.",
+    "refLinks": [
+      "https://gmtrade.xyz/referrals/?ref=545"
+    ]
+  }
+}

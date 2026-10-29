@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "NBIS",
+    "name": "Variational Omni Nebius Perp",
+    "legacyId": 4412
+  },
+  "tracks": {
+    "underlying": "nebius-group-n-v",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "NBIS-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual market on Variational Omni tracking Nebius, cash-settled."
+  }
+}

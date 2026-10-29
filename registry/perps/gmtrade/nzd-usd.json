@@ -1,0 +1,22 @@
+{
+  "identity": {
+    "symbol": "NZD-USD",
+    "legacyId": 3734
+  },
+  "tracks": {
+    "underlying": "new-zealand-dollar",
+    "structure": "forex-perps"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "NZD-USDC",
+    "makerFeeBps": 1,
+    "takerFeeBps": 1.2
+  },
+  "about": {
+    "description": "Forex perpetual on GMTrade (Solana) referencing the New Zealand Dollar/USD exchange rate, cash-settled in USDC. Source: fxdailyreport.com (GMTrade FX launch).",
+    "refLinks": [
+      "https://gmtrade.xyz/referrals/?ref=545"
+    ]
+  }
+}

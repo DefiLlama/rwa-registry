@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "AMZN_24_5-USD",
+    "name": "Extended Amazon Perp",
+    "legacyId": 3143
+  },
+  "tracks": {
+    "underlying": "amazon-com-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "AMZN-USD"
+  },
+  "about": {
+    "description": "Amazon perpetual on Extended on Starknet, cash-settled in USDC.",
+    "refLinks": [
+      "https://app.extended.exchange/join/DEFILLAMAO"
+    ]
+  }
+}

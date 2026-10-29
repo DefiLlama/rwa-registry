@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "META-USD",
+    "name": "Avantis Meta Perp",
+    "legacyId": 3066
+  },
+  "tracks": {
+    "underlying": "meta-platforms-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "META-USD"
+  },
+  "about": {
+    "description": "Meta perpetual on Avantis, cash-settled in USDC on Base.",
+    "refLinks": [
+      "https://www.avantisfi.com/referral?code=DefiLlama"
+    ]
+  }
+}

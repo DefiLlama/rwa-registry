@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "symbol": "DRAM-USD",
+    "name": "Ostium DRAM ETF Perp",
+    "legacyId": 4439
+  },
+  "tracks": {
+    "underlying": "roundhill-memory-etf",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "DRAM-USDC",
+    "makerFeeBps": 5,
+    "takerFeeBps": 5
+  },
+  "about": {
+    "description": "ETF perpetual on Ostium Labs tracking Roundhill Memory ETF (DRAM), a thematic memory-chip equity basket, with pricing referencing Stork / QUODD. Positions are margined and cash-settled in USDC on Arbitrum.",
+    "refLinks": [
+      "https://app.ostium.com/trade?from=DRAM&to=USD&ref=6X17X"
+    ]
+  }
+}

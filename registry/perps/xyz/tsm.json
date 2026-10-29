@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "TSM",
+    "name": "trade[XYZ] TSMC Perp",
+    "legacyId": 3244
+  },
+  "tracks": {
+    "underlying": "taiwan-semiconductor-manufacturing-company-limited",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "TSM-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual market tracking TSMC. Users get linear exposure to TSMC share-price moves without owning TSMC shares, shareholder rights, or dividend claims, cash-settled in USDC on trade[XYZ].",
+    "refLinks": [
+      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
+    ]
+  }
+}

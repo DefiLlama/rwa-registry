@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "PLTR",
+    "name": "ApeX Omni Palantir Perp",
+    "legacyId": 3764
+  },
+  "tracks": {
+    "underlying": "palantir-technologies-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "PLTR-USDC"
+  },
+  "about": {
+    "description": "Palantir Technologies (NASDAQ:PLTR) stock perpetual on ApeX Omni, cash-settled in USDT.",
+    "refLinks": [
+      "https://omni.apex.exchange/referral?referralCode=T0S8V482"
+    ]
+  }
+}

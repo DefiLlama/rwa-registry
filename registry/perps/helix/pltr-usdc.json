@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "PLTR-USDC",
+    "name": "Helix Palantir Perp",
+    "legacyId": 3736
+  },
+  "tracks": {
+    "underlying": "palantir-technologies-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "PLTR-USDT"
+  },
+  "about": {
+    "description": "Palantir Technologies (NASDAQ:PLTR) stock perpetual on Helix, cash-settled in USDT."
+  }
+}

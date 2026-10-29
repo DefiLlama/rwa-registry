@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "NCSKUMC2USD-USDT",
+    "name": "BingX United Microelectronics Corp. Perp",
+    "legacyId": 7352
+  },
+  "tracks": {
+    "underlying": "united-microelectronics-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "UMC-USDT"
+  },
+  "about": {
+    "description": "UMC is a single-stock perpetual listed on BingX, tracking United Microelectronics Corp., margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

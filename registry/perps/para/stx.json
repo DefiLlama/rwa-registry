@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "STX",
+    "name": "Paragon Seagate Technology Perp",
+    "legacyId": 8791
+  },
+  "tracks": {
+    "underlying": "seagate-technology-holdings-plc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "STX-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual market tracking Seagate Technology Holdings plc (STX) on Paragon. Users get linear exposure to STX share-price moves without owning STX shares, shareholder rights, or dividend claims. HIP-3 builder-deployed market on Hyperliquid in the para namespace, cash-settled in USDC.",
+    "refLinks": [
+      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
+    ]
+  }
+}

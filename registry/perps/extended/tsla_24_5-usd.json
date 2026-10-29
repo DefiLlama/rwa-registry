@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "TSLA_24_5-USD",
+    "name": "Extended Tesla Perp",
+    "legacyId": 3139
+  },
+  "tracks": {
+    "underlying": "tesla-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "TSLA-USD"
+  },
+  "about": {
+    "description": "Tesla perpetual on Extended on Starknet, cash-settled in USDC.",
+    "refLinks": [
+      "https://app.extended.exchange/join/DEFILLAMAO"
+    ]
+  }
+}

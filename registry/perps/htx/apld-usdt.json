@@ -1,0 +1,20 @@
+{
+  "identity": {
+    "symbol": "APLD-USDT",
+    "name": "HTX Applied Digital Corp. Perp",
+    "legacyId": 5691
+  },
+  "tracks": {
+    "underlying": "applied-digital-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "APLD-USDT",
+    "makerFeeBps": 2,
+    "takerFeeBps": 6
+  },
+  "about": {
+    "description": "APLD is a single-stock perpetual listed on HTX, tracking Applied Digital Corp., margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

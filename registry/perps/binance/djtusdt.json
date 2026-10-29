@@ -1,0 +1,28 @@
+{
+  "identity": {
+    "symbol": "DJTUSDT",
+    "legacyId": 9331
+  },
+  "tracks": {
+    "underlying": "trump-media-technology-group-corp",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "DJT-USDT",
+    "makerFeeBps": 0,
+    "takerFeeBps": 4
+  },
+  "about": {
+    "description": "UVXY is an exchange traded fund perpetual listed on Binance and tracking ProShares Ultra VIX Short-Term Futures ETF. The contract is cash settled in USDT against a Binance price index and does not convey ownership of the underlying. Funding is exchanged every 8h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  },
+  "events": [
+    {
+      "kind": "listing",
+      "date": "2026-08-25",
+      "links": [
+        "https://fapi.binance.com/fapi/v1/exchangeInfo"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "symbol": "AAPL",
+    "name": "Aster Apple Perp",
+    "legacyId": 3557
+  },
+  "tracks": {
+    "underlying": "apple-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "AAPL-USDT",
+    "makerFeeBps": null,
+    "takerFeeBps": null
+  },
+  "about": {
+    "description": "Single-stock perpetual on Aster (YZi Labs-backed) tracking Apple Inc. (AAPL), with pricing referencing Aster custom oracle (24/5 equity feed). Users gain linear exposure to Apple Inc. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USD1 on BNB Chain / Aster Chain.",
+    "refLinks": [
+      "https://www.asterdex.com/en/referral/c6eF10"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "symbol": "FTSE-GBP",
+    "name": "Ostium FTSE 100 Perp",
+    "legacyId": 3538
+  },
+  "tracks": {
+    "underlying": "ftse-100-index",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "FTSE100-USDC",
+    "makerFeeBps": 3,
+    "takerFeeBps": 3
+  },
+  "about": {
+    "description": "Equity-index perpetual on Ostium Labs tracking FTSE 100 Index (FTSE100), with pricing referencing Stork / QUODD. Users gain linear exposure to the index level without holding any underlying constituent stocks or futures. Positions are margined and cash-settled in USDC on Arbitrum.",
+    "refLinks": [
+      "https://app.ostium.com/trade?from=FTSE&to=GBP&ref=6X17X"
+    ]
+  }
+}

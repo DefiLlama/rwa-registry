@@ -1,0 +1,25 @@
+{
+  "identity": {
+    "symbol": "MRVL-USD",
+    "name": "Avantis Marvell Perp",
+    "legacyId": 4562
+  },
+  "tracks": {
+    "underlying": "marvell-technology-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "MRVL-USD"
+  },
+  "about": {
+    "description": "Single-stock perpetual on Avantis tracking Marvell Technology, Inc. Users get linear exposure to the underlying without owning shares. Cash-settled in USDC."
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

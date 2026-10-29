@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "INTC-USD",
+    "name": "Avantis Intel Perp",
+    "legacyId": 3816
+  },
+  "tracks": {
+    "underlying": "intel-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "INTC-USDC"
+  },
+  "about": {
+    "description": "Intel (INTC) perpetual on Avantis (Base). Tracks Intel stock price, USDC-margined. Oracle-priced via Pyth Lazer.",
+    "refLinks": [
+      "https://www.avantisfi.com/referral?code=DefiLlama"
+    ]
+  }
+}

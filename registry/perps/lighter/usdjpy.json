@@ -1,0 +1,24 @@
+{
+  "identity": {
+    "symbol": "USDJPY",
+    "name": "Lighter JPY Perp",
+    "legacyId": 3633
+  },
+  "tracks": {
+    "underlying": "japanese-yen",
+    "structure": "forex-perps"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "USDJPY-USDC"
+  },
+  "sources": {
+    "oracleProvider": "Lighter fair price oracle"
+  },
+  "about": {
+    "description": "FX perpetual on Lighter Labs tracking Japanese Yen (JPY) versus the US dollar, with pricing referencing Lighter fair price oracle. Positions are margined and cash-settled in USDC on Lighter ZK-rollup (Ethereum), giving users synthetic exposure to Japanese Yen/USD price movement without holding either currency as cash.",
+    "refLinks": [
+      "https://app.lighter.xyz/trade/USDJPY?referral=FHT1N8AYKHP4"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "FWDI",
+    "name": "Variational Omni Forward Industries, Inc. Perp",
+    "legacyId": 7630
+  },
+  "tracks": {
+    "underlying": "forward-industries-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "FWDI-USDC"
+  },
+  "about": {
+    "description": "FWDI is a cash settled perpetual market on Variational Omni referencing Forward Industries, Inc.. The market is quoted and margined in USDC on Arbitrum, marked against the Omni Liquidity Pool's aggregated reference price rather than a single venue, and it conveys no ownership of the underlying and no claim on the issuer."
+  }
+}

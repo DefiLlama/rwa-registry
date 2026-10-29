@@ -1,0 +1,26 @@
+{
+  "identity": {
+    "symbol": "NVDA",
+    "name": "ApeX Omni NVIDIA Perp",
+    "legacyId": 3108
+  },
+  "tracks": {
+    "underlying": "nvidia-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "marginAsset": "USDT",
+    "pair": "NVDA-USDT"
+  },
+  "sources": {
+    "oracleProvider": "Chainlink Data Streams"
+  },
+  "about": {
+    "description": "NVIDIA perpetual on ApeX Omni via zkLink, cash-settled in USDT.",
+    "refLinks": [
+      "https://omni.apex.exchange/referral?referralCode=T0S8V482"
+    ],
+    "issuer": "ApeX Protocol"
+  }
+}

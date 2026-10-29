@@ -1,0 +1,17 @@
+{
+  "identity": {
+    "symbol": "NCCOPALLADIUM2USD-USDT",
+    "legacyId": 4953
+  },
+  "tracks": {
+    "underlying": "palladium",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "PALLADIUM-USDT"
+  },
+  "about": {
+    "description": "PALLADIUM is a commodity perpetual listed on BingX and tracking Palladium. The contract is cash settled in USDT and does not convey ownership or delivery of the underlying. Funding is exchanged every 4h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

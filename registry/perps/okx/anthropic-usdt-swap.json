@@ -1,0 +1,26 @@
+{
+  "identity": {
+    "symbol": "ANTHROPIC-USDT-SWAP",
+    "legacyId": 5680
+  },
+  "tracks": {
+    "underlying": "anthropic",
+    "structure": "pe-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "ANTHROPIC-USDT"
+  },
+  "about": {
+    "description": "ANTHROPIC is a private-company perpetual listed on OKX, tracking Anthropic, margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Up to 20× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification. OKX quotes this market as an implied per-share value against an assumed 10 billion share count following its 2026-06-30 rebase, so the price is about a tenth of the same market on venues that assume roughly 1 billion shares."
+  },
+  "events": [
+    {
+      "kind": "listing",
+      "date": "2026-05-07",
+      "links": [
+        "https://www.okx.com/api/v5/public/instruments?instType=SWAP"
+      ]
+    }
+  ]
+}

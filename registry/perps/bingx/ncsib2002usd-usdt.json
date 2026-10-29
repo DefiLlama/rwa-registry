@@ -1,0 +1,17 @@
+{
+  "identity": {
+    "symbol": "NCSIB2002USD-USDT",
+    "legacyId": 9525
+  },
+  "tracks": {
+    "underlying": "nvidia-b200-hourly",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "B200-USDT"
+  },
+  "about": {
+    "description": "TOST is a single-stock perpetual listed on BingX, tracking Toast, Inc., margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

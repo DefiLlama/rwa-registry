@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "GBP-USDT",
+    "name": "Hibachi GBP Perp",
+    "legacyId": 9670
+  },
+  "tracks": {
+    "underlying": "british-pound",
+    "structure": "forex-perps"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "GBP-USDT"
+  },
+  "about": {
+    "description": "Forex perpetual on Hibachi (Arbitrum) referencing the British Pound/USD exchange rate, cash-settled in USDT, giving users synthetic exposure to British Pound/USD price movement without holding either currency as cash. Source: docs.hibachi.xyz.",
+    "refLinks": [
+      "https://hibachi.xyz/r/YUKPTN36RM"
+    ]
+  }
+}

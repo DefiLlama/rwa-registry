@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "CRDO",
+    "name": "Variational Credo Technology Perp",
+    "legacyId": 9126
+  },
+  "tracks": {
+    "underlying": "credo-technology-group-holding-ltd",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "CRDO-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual on Variational Omni tracking Credo Technology Group Holding Ltd (CRDO), priced off Variational Omni's OLP-aggregated mid-quotes. Users gain linear exposure to Credo Technology Group Holding Ltd share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Arbitrum."
+  }
+}

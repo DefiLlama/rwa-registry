@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "SKHY-USD",
+    "name": "Extended SK hynix ADR Perp",
+    "legacyId": 9116
+  },
+  "tracks": {
+    "underlying": "sk-hynix-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "SKHY-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual on Extended (formerly X10) tracking American depositary receipt of SK hynix Inc. (OTC: HXSCL), with pricing referencing Extended oracle. Users gain linear exposure to SK hynix Inc. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Starknet.",
+    "refLinks": [
+      "https://app.extended.exchange/join/DEFILLAMAO"
+    ]
+  }
+}

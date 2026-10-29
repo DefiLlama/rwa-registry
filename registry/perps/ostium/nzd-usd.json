@@ -1,0 +1,26 @@
+{
+  "identity": {
+    "symbol": "NZD-USD",
+    "name": "Ostium NZD Perp",
+    "legacyId": 3646
+  },
+  "tracks": {
+    "underlying": "new-zealand-dollar",
+    "structure": "forex-perps"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "NZD-USDC",
+    "makerFeeBps": 3,
+    "takerFeeBps": 3
+  },
+  "sources": {
+    "oracleProvider": "Stork / QUODD institutional FX feed"
+  },
+  "about": {
+    "description": "FX perpetual on Ostium Labs tracking New Zealand Dollar (NZD) versus the US dollar, with pricing referencing Stork / QUODD institutional FX feed. Positions are margined and cash-settled in USDC on Arbitrum, giving users synthetic exposure to New Zealand Dollar/USD price movement without holding either currency as cash.",
+    "refLinks": [
+      "https://app.ostium.com/trade?from=NZD&to=USD&ref=6X17X"
+    ]
+  }
+}

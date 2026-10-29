@@ -1,0 +1,19 @@
+{
+  "identity": {
+    "symbol": "BITO-USDT",
+    "legacyId": 5362
+  },
+  "tracks": {
+    "underlying": "proshares-bitcoin-etf",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "BITO-USDT",
+    "makerFeeBps": 2,
+    "takerFeeBps": 6
+  },
+  "about": {
+    "description": "BITO is an exchange traded fund perpetual listed on HTX and tracking ProShares Bitcoin ETF. The contract is cash settled in USDT and does not convey ownership or redemption rights in the underlying. Funding is exchanged every 8h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

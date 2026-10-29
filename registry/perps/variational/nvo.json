@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "NVO",
+    "name": "Variational Omni Novo Nordisk Perp",
+    "legacyId": 4596
+  },
+  "tracks": {
+    "underlying": "novo-nordisk-a-s",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "NVO-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual on Variational Omni tracking Novo Nordisk A/S. Users get linear exposure to the underlying without owning shares. Cash-settled in USDC (Arbitrum)."
+  }
+}

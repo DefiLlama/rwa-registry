@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "MSTR-USD",
+    "name": "Avantis Strategy Perp",
+    "legacyId": 4563
+  },
+  "tracks": {
+    "underlying": "strategy-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "MSTR-USD"
+  },
+  "about": {
+    "description": "Single-stock perpetual on Avantis tracking Strategy Inc. Users get linear exposure to the underlying without owning shares. Cash-settled in USDC."
+  }
+}

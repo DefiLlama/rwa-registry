@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "ONSTOCK_USDT",
+    "name": "MEXC ON Semiconductor Corp. Perp",
+    "legacyId": 6835
+  },
+  "tracks": {
+    "underlying": "on-semiconductor-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "ON-USDT"
+  },
+  "about": {
+    "description": "ON is a single-stock perpetual listed on MEXC, tracking ON Semiconductor Corp., margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Up to 20× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

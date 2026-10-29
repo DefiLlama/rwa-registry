@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "CVXSTOCK_USDT",
+    "name": "MEXC Chevron Corp. Perp",
+    "legacyId": 6101
+  },
+  "tracks": {
+    "underlying": "chevron-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "CVX-USDT"
+  },
+  "about": {
+    "description": "CVX is a single-stock perpetual listed on MEXC, tracking Chevron Corp., margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Up to 50× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

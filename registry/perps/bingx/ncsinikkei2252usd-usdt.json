@@ -1,0 +1,17 @@
+{
+  "identity": {
+    "symbol": "NCSINIKKEI2252USD-USDT",
+    "legacyId": 6749
+  },
+  "tracks": {
+    "underlying": "nikkei-225-stock-average",
+    "structure": "equity-index-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "NIKKEI225-USDT"
+  },
+  "about": {
+    "description": "NIKKEI225 is an index perpetual listed on BingX, tracking Nikkei 225 Stock Average, margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

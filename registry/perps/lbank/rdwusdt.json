@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "RDWUSDT",
+    "name": "LBank Redwire Corp. Perp",
+    "legacyId": 7004
+  },
+  "tracks": {
+    "underlying": "redwire-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "RDW-USDT"
+  },
+  "about": {
+    "description": "RDW is a single-stock perpetual listed on LBank, tracking Redwire Corp., margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Up to 50× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

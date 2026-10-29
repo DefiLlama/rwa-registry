@@ -1,0 +1,26 @@
+{
+  "identity": {
+    "symbol": "SPY",
+    "name": "ApeX Omni SPY ETF Perp",
+    "legacyId": 3110
+  },
+  "tracks": {
+    "underlying": "state-street-spdr-s-p-500-etf-trust",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "marginAsset": "USDT",
+    "pair": "SPY-USDT"
+  },
+  "sources": {
+    "oracleProvider": "Chainlink Data Streams"
+  },
+  "about": {
+    "description": "SPDR S&P 500 ETF Trust perpetual on ApeX Omni via zkLink, cash-settled in USDT.",
+    "refLinks": [
+      "https://omni.apex.exchange/referral?referralCode=T0S8V482"
+    ],
+    "issuer": "ApeX Protocol"
+  }
+}

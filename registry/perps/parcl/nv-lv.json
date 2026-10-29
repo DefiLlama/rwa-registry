@@ -1,0 +1,25 @@
+{
+  "identity": {
+    "symbol": "NV-LV",
+    "name": "Parcl Las Vegas Real Estate Perp",
+    "legacyId": 3880
+  },
+  "tracks": {
+    "underlying": "las-vegas-real-estate-index",
+    "structure": "real-estate-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "NV-LV-USDC"
+  },
+  "about": {
+    "description": "Las Vegas metro real estate perpetual on Parcl. Verified live 2026-05-20."
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

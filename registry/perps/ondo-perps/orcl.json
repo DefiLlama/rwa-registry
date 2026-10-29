@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "ORCL",
+    "name": "Ondo Perps Oracle Perp",
+    "legacyId": 4038
+  },
+  "tracks": {
+    "underlying": "oracle-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "ORCL-USD"
+  },
+  "about": {
+    "description": "Single-stock perpetual market on Ondo Perps tracking ORACLE CORP, cash-settled, 24/7, up to 10x leverage, hourly funding, launched 2026-06-09 (non-US users only). Verified live via adapter 2026-06-10.",
+    "refLinks": [
+      "https://app.ondoperps.xyz/trade/perps/ORCL-USD.P?ref=76ZCWB"
+    ]
+  }
+}

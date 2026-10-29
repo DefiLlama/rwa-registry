@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "HOOD",
+    "name": "RISEx Robinhood Markets Perp",
+    "legacyId": 9240
+  },
+  "tracks": {
+    "underlying": "robinhood-markets-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "HOOD-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual on RISEx tracking Robinhood Markets, Inc. (NASDAQ: HOOD), cash-settled and margined in USDC, up to 10x leverage. RISEx is a fully onchain orderbook perp DEX on RISE Chain, where the orderbook shares state with DeFi protocols in the same block. Index price from Stork (median CEX spot); mark price is the median of an index-anchored premium, the raw book signal and a Stork anchor. Trades 24/7 including nights, weekends and holidays when the underlying market is closed, so liquidity thins during off-hours.",
+    "refLinks": [
+      "https://www.rise.trade/en/trade/HOOD"
+    ]
+  }
+}

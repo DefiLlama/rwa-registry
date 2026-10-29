@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "cna50s",
+    "name": "Variational China Index Swap",
+    "legacyId": 9586
+  },
+  "tracks": {
+    "underlying": "ftse-china-a50-index",
+    "structure": "equity-index-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "CNA50S-USDC"
+  },
+  "about": {
+    "description": "Cash-settled swap on FTSE China A50 Index, quoted against USDC. No funding; cost of carry is in the spread."
+  }
+}

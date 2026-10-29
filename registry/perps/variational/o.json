@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "O",
+    "name": "Variational Omni Realty Income Perp",
+    "legacyId": 4597
+  },
+  "tracks": {
+    "underlying": "o1-exchange",
+    "structure": "crypto-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "O-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual on Variational Omni tracking Realty Income Corp. Users get linear exposure to the underlying without owning shares. Cash-settled in USDC (Arbitrum)."
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "IBM-USD",
+    "name": "Extended IBM Perp",
+    "legacyId": 8604
+  },
+  "tracks": {
+    "underlying": "international-business-machines-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "IBM-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual on Extended (formerly X10) tracking International Business Machines Corporation (IBM), with pricing referencing Extended oracle. Users gain linear exposure to International Business Machines Corporation share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Starknet.",
+    "refLinks": [
+      "https://app.extended.exchange/join/DEFILLAMAO"
+    ]
+  }
+}

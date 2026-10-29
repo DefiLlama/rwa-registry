@@ -1,0 +1,26 @@
+{
+  "identity": {
+    "symbol": "NVDL_USDT",
+    "legacyId": 5338
+  },
+  "tracks": {
+    "underlying": "graniteshares-2x-long-nvda-daily-etf",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "NVDL-USDT"
+  },
+  "about": {
+    "description": "NVDL is an exchange traded fund perpetual listed on Gate and tracking GraniteShares 2x Long NVDA Daily ETF. The contract is cash settled in USDT and does not convey ownership or redemption rights in the underlying. Funding is exchanged every 8h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  },
+  "events": [
+    {
+      "kind": "listing",
+      "date": "2026-07-23",
+      "links": [
+        "https://api.gateio.ws/api/v4/futures/usdt/contracts"
+      ]
+    }
+  ]
+}

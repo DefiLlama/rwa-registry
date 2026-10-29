@@ -1,0 +1,22 @@
+{
+  "identity": {
+    "symbol": "AMDUSD",
+    "name": "edgeX AMD Perp",
+    "legacyId": 3393
+  },
+  "tracks": {
+    "underlying": "advanced-micro-devices-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "marginAsset": "USDT",
+    "pair": "AMD-USD"
+  },
+  "about": {
+    "description": "Single-stock perpetual market tracking Advanced Micro Devices, Inc. Users get linear exposure to AMD share-price moves without owning AMD shares, shareholder rights, or dividend claims, with pricing referencing an external 24/5 equity feed via the Stork decentralized oracle. Positions are margined and cash-settled in USDT.",
+    "refLinks": [
+      "https://pro.edgex.exchange/referral/196451583"
+    ]
+  }
+}

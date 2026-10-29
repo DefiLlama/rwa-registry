@@ -1,0 +1,28 @@
+{
+  "identity": {
+    "symbol": "F-USD",
+    "name": "Arcus Ford Motor Company Perp",
+    "legacyId": 4517
+  },
+  "tracks": {
+    "underlying": "ford-motor-co",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdg",
+    "pair": "F-USDG"
+  },
+  "about": {
+    "description": "Arcus perpetual market tracking Ford Motor Company (NYSE: F) with 24/7 exposure to the underlying automotive stock. Total-return tracking (dividends, splits, and futures rolls passed through funding), cash-settled in USDG on the Arcus off-chain CLOB with permissioned appchain re-verification and EVM rootchain custody.",
+    "refLinks": [
+      "https://app.arcus.xyz/ref/DEFILLAMA"
+    ]
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

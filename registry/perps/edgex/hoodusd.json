@@ -1,0 +1,22 @@
+{
+  "identity": {
+    "symbol": "HOODUSD",
+    "name": "edgeX Robinhood Perp",
+    "legacyId": 3389
+  },
+  "tracks": {
+    "underlying": "robinhood-markets-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "marginAsset": "USDT",
+    "pair": "HOOD-USD"
+  },
+  "about": {
+    "description": "Single-stock perpetual market tracking Robinhood Markets, Inc. Users get linear exposure to Robinhood share-price moves without owning Robinhood shares, shareholder rights, or dividend claims, with pricing referencing an external 24/5 equity feed via the Stork decentralized oracle. Positions are margined and cash-settled in USDT.",
+    "refLinks": [
+      "https://pro.edgex.exchange/referral/196451583"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "symbol": "IWM",
+    "name": "Aster Russell 2000 ETF Perp",
+    "legacyId": 4437
+  },
+  "tracks": {
+    "underlying": "ishares-russell-2000-etf",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "IWM-USDT",
+    "makerFeeBps": null,
+    "takerFeeBps": null
+  },
+  "about": {
+    "description": "ETF perpetual on Aster tracking the iShares Russell 2000 ETF (IWM), a small-cap U.S. equity index fund, cash-settled on Aster Chain.",
+    "refLinks": [
+      "https://www.asterdex.com/en/referral/c6eF10"
+    ]
+  }
+}

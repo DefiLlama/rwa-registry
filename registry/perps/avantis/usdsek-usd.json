@@ -1,0 +1,25 @@
+{
+  "identity": {
+    "symbol": "USDSEK-USD",
+    "name": "Avantis USDSEK Perp",
+    "legacyId": 3861
+  },
+  "tracks": {
+    "underlying": "us-dollar-swedish-krona",
+    "structure": "forex-perps"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "USDSEK-USDC"
+  },
+  "sources": {
+    "oracleProvider": "Pyth"
+  },
+  "about": {
+    "description": "USDSEK perpetual on Avantis (Base), USDC-margined. Verified live 2026-05-20.",
+    "refLinks": [
+      "https://www.avantisfi.com/referral?code=DefiLlama"
+    ],
+    "website": "https://avantisfi.com/"
+  }
+}

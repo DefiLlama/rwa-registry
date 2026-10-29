@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "us2ks",
+    "name": "Variational US2K Swap",
+    "legacyId": 9587
+  },
+  "tracks": {
+    "underlying": "russell-2000-index",
+    "structure": "equity-index-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "US2KS-USDC"
+  },
+  "about": {
+    "description": "Cash-settled swap on Russell 2000 Index, quoted against USDC. No funding; cost of carry is in the spread."
+  }
+}

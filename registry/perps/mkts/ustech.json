@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "USTECH",
+    "name": "Markets by Kinetiq Nasdaq-100 Tech Index Perp",
+    "legacyId": 4774
+  },
+  "tracks": {
+    "underlying": "nasdaq-100-index",
+    "structure": "equity-perp"
+  },
+  "terms": {
+    "collateral": "usdh",
+    "pair": "USTECH-USDH"
+  },
+  "about": {
+    "description": "USTECH is an equity-index perpetual on Markets by Kinetiq tracking the Nasdaq-100 Tech Index. The US Tech index tracks large-cap US technology equities and typically references the Nasdaq-100 (NDX). The market is cash-settled with hourly funding.",
+    "refLinks": [
+      "https://markets.xyz/join/llama"
+    ]
+  }
+}

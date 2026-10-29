@@ -1,0 +1,17 @@
+{
+  "identity": {
+    "symbol": "NCSKREMX2USD-USDT",
+    "legacyId": 5165
+  },
+  "tracks": {
+    "underlying": "vaneck-rare-earth-and-strategic-metals-etf",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "REMX-USDT"
+  },
+  "about": {
+    "description": "REMX is an exchange traded fund perpetual listed on BingX and tracking VanEck Rare Earth and Strategic Metals ETF. The contract is cash settled in USDT and does not convey ownership or redemption rights in the underlying. Funding is exchanged every 8h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

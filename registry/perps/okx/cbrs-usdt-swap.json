@@ -1,0 +1,26 @@
+{
+  "identity": {
+    "symbol": "CBRS-USDT-SWAP",
+    "legacyId": 5929
+  },
+  "tracks": {
+    "underlying": "cerebras-systems-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "CBRS-USDT"
+  },
+  "about": {
+    "description": "CBRS is a single-stock perpetual listed on OKX, tracking Cerebras Systems Inc., margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Up to 20× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  },
+  "events": [
+    {
+      "kind": "listing",
+      "date": "2026-05-15",
+      "links": [
+        "https://www.okx.com/api/v5/public/instruments?instType=SWAP"
+      ]
+    }
+  ]
+}

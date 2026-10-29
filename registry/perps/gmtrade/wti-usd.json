@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "WTI-USD",
+    "name": "GMTrade WTI Crude Oil Perp",
+    "legacyId": 3833
+  },
+  "tracks": {
+    "underlying": "crude-oil-wti",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "WTI-USDC"
+  },
+  "about": {
+    "description": "WTI Crude Oil perpetual on GMTrade (Solana), USDC-margined.",
+    "refLinks": [
+      "https://gmtrade.xyz/referrals/?ref=545"
+    ]
+  }
+}

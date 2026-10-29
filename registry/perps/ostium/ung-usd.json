@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "symbol": "UNG-USD",
+    "name": "Ostium UNG ETF Perp",
+    "legacyId": 3546
+  },
+  "tracks": {
+    "underlying": "united-states-natural-gas-fund-lp",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "UNG-USDC",
+    "makerFeeBps": 5,
+    "takerFeeBps": 5
+  },
+  "about": {
+    "description": "Natural-gas perpetual on Ostium Labs priced off the United States Natural Gas Fund (UNG), a natural-gas spot ETF that gives users on-chain exposure to natural-gas price movement, with pricing referencing Stork / QUODD. Positions are margined and cash-settled in USDC on Arbitrum. No ETF shares, fund creation/redemption, or physical inventory are held.",
+    "refLinks": [
+      "https://app.ostium.com/trade?from=UNG&to=USD&ref=6X17X"
+    ]
+  }
+}

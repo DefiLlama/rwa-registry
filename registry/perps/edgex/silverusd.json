@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "SILVERUSD",
+    "legacyId": 3400
+  },
+  "tracks": {
+    "underlying": "silver",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "marginAsset": "USDT",
+    "pair": "SILVER-USD"
+  },
+  "about": {
+    "description": "Silver perpetual market. The contract tracks the spot price of one troy ounce of silver (XAG/USD). Users get linear exposure to silver price moves without owning bullion, vaulted metal, or redeemable claims on physical inventory, with pricing referencing an external spot metal feed via the Stork decentralized oracle. Positions are margined and cash-settled in USDT.",
+    "refLinks": [
+      "https://pro.edgex.exchange/referral/196451583"
+    ]
+  }
+}

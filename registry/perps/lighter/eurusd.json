@@ -1,0 +1,24 @@
+{
+  "identity": {
+    "symbol": "EURUSD",
+    "name": "Lighter EUR Perp",
+    "legacyId": 3631
+  },
+  "tracks": {
+    "underlying": "euro",
+    "structure": "forex-perps"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "EURUSD-USDC"
+  },
+  "sources": {
+    "oracleProvider": "Lighter fair price oracle"
+  },
+  "about": {
+    "description": "FX perpetual on Lighter Labs tracking Euro (EUR) versus the US dollar, with pricing referencing Lighter fair price oracle. Positions are margined and cash-settled in USDC on Lighter ZK-rollup (Ethereum), giving users synthetic exposure to Euro/USD price movement without holding either currency as cash.",
+    "refLinks": [
+      "https://app.lighter.xyz/trade/EURUSD?referral=FHT1N8AYKHP4"
+    ]
+  }
+}

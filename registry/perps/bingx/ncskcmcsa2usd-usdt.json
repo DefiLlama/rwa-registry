@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "NCSKCMCSA2USD-USDT",
+    "name": "BingX Comcast Corp. Perp",
+    "legacyId": 5968
+  },
+  "tracks": {
+    "underlying": "comcast-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "CMCSA-USDT"
+  },
+  "about": {
+    "description": "CMCSA is a single-stock perpetual listed on BingX, tracking Comcast Corp., margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

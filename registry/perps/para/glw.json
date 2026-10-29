@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "GLW",
+    "name": "Paragon Corning Perp",
+    "legacyId": 8788
+  },
+  "tracks": {
+    "underlying": "corning-incorporated",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "GLW-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual market tracking Corning Incorporated (GLW) on Paragon. Users get linear exposure to GLW share-price moves without owning GLW shares, shareholder rights, or dividend claims. HIP-3 builder-deployed market on Hyperliquid in the para namespace, cash-settled in USDC.",
+    "refLinks": [
+      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
+    ]
+  }
+}

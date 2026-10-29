@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "HPE",
+    "name": "Variational Omni Hewlett Packard Enterprise Company Perp",
+    "legacyId": 7631
+  },
+  "tracks": {
+    "underlying": "hewlett-packard-enterprise-co",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "HPE-USDC"
+  },
+  "about": {
+    "description": "HPE is a cash settled perpetual market on Variational Omni referencing Hewlett Packard Enterprise Company. The market is quoted and margined in USDC on Arbitrum, marked against the Omni Liquidity Pool's aggregated reference price rather than a single venue, and it conveys no ownership of the underlying and no claim on the issuer."
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "ZHIPU",
+    "name": "Lighter Zhipu AI Perp",
+    "legacyId": 4586
+  },
+  "tracks": {
+    "underlying": "z-ai-co-ltd",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "ZHIPU-USDC"
+  },
+  "sources": {
+    "oracleProvider": "Lighter fair price oracle"
+  },
+  "about": {
+    "description": "Single-stock perpetual on Lighter tracking Zhipu AI (Knowledge Atlas Technology). Users get linear exposure to the underlying without owning shares. Cash-settled in USDC."
+  }
+}

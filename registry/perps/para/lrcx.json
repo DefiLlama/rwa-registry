@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "LRCX",
+    "name": "Paragon Lam Research Perp",
+    "legacyId": 8785
+  },
+  "tracks": {
+    "underlying": "lam-research-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "LRCX-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual market tracking Lam Research Corporation (LRCX) on Paragon. Users get linear exposure to LRCX share-price moves without owning LRCX shares, shareholder rights, or dividend claims. HIP-3 builder-deployed market on Hyperliquid in the para namespace, cash-settled in USDC.",
+    "refLinks": [
+      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
+    ]
+  }
+}

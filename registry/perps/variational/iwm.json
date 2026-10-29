@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "IWM",
+    "name": "Variational Omni iShares Russell 2000 ETF Perp",
+    "legacyId": 7632
+  },
+  "tracks": {
+    "underlying": "ishares-russell-2000-etf",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "IWM-USDC"
+  },
+  "about": {
+    "description": "IWM is a cash settled perpetual market on Variational Omni referencing iShares Russell 2000 ETF. The market is quoted and margined in USDC on Arbitrum, marked against the Omni Liquidity Pool's aggregated reference price rather than a single venue, and it conveys no ownership of the underlying and no claim on the issuer."
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "identity": {
+    "symbol": "QQQ",
+    "name": "ApeX Omni QQQ ETF Perp",
+    "legacyId": 3109
+  },
+  "tracks": {
+    "underlying": "invesco-qqq-trust-series-1",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "marginAsset": "USDT",
+    "pair": "QQQ-USDT"
+  },
+  "sources": {
+    "oracleProvider": "Chainlink Data Streams"
+  },
+  "about": {
+    "description": "Invesco QQQ Trust perpetual on ApeX Omni via zkLink, cash-settled in USDT.",
+    "refLinks": [
+      "https://omni.apex.exchange/referral?referralCode=T0S8V482"
+    ],
+    "issuer": "ApeX Protocol"
+  }
+}

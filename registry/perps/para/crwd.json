@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "CRWD",
+    "name": "Paragon CrowdStrike Perp",
+    "legacyId": 8797
+  },
+  "tracks": {
+    "underlying": "crowdstrike-holdings-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "CRWD-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual market tracking CrowdStrike Holdings, Inc. (CRWD) on Paragon. Users get linear exposure to CRWD share-price moves without owning CRWD shares, shareholder rights, or dividend claims. HIP-3 builder-deployed market on Hyperliquid in the para namespace, cash-settled in USDC. Equity marks are sourced from Pyth equity feeds during covered sessions and bounded internally off-hours.",
+    "refLinks": [
+      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
+    ]
+  }
+}

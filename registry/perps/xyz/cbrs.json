@@ -1,0 +1,24 @@
+{
+  "identity": {
+    "symbol": "CBRS",
+    "name": "trade[XYZ] Cerebras Perp",
+    "legacyId": 3522
+  },
+  "tracks": {
+    "underlying": "cerebras-systems-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "CBRS-USDC"
+  },
+  "sources": {
+    "oracleProvider": "Internal (Hyperp-style); 30-min EWMA of prior-day mark prices"
+  },
+  "about": {
+    "description": "Single-stock perpetual market on trade[XYZ] (Hyperunit) tracking Cerebras Systems Inc. (NASDAQ: CBRS), cash-settled in USDC on Hyperliquid (xyz namespace). References Pyth equity feed.",
+    "refLinks": [
+      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
+    ]
+  }
+}

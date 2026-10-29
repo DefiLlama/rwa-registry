@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "LIN-USD",
+    "name": "Extended Linde Perp",
+    "legacyId": 8608
+  },
+  "tracks": {
+    "underlying": "linde-plc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "LIN-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual on Extended (formerly X10) tracking Linde plc (LIN), with pricing referencing Extended oracle. Users gain linear exposure to Linde plc share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Starknet.",
+    "refLinks": [
+      "https://app.extended.exchange/join/DEFILLAMAO"
+    ]
+  }
+}

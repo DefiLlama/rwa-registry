@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "BX",
+    "name": "Aster Blackstone Perp",
+    "legacyId": 4373
+  },
+  "tracks": {
+    "underlying": "blackstone-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "BX-USDT"
+  },
+  "about": {
+    "description": "Single-stock perpetual market on Aster tracking Blackstone, cash-settled.",
+    "refLinks": [
+      "https://www.asterdex.com/en/referral/c6eF10"
+    ]
+  }
+}

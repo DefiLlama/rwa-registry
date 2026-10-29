@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "INTC-USD",
+    "name": "gTrade INTC Perp",
+    "legacyId": 3582
+  },
+  "tracks": {
+    "underlying": "intel-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "INTC-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual on Gains Network tracking Intel Corporation (INTC), with pricing referencing Chainlink DON (24/5 equity feed). Users gain linear exposure to Intel Corporation share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC / DAI / WETH on Arbitrum / Polygon / Base."
+  }
+}

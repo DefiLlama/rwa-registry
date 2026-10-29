@@ -1,0 +1,20 @@
+{
+  "identity": {
+    "symbol": "XAG",
+    "legacyId": 3102
+  },
+  "tracks": {
+    "underlying": "silver",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "XAG-USDT"
+  },
+  "about": {
+    "description": "Silver perpetual on Aster, settled in USD1 on Aster Chain.",
+    "refLinks": [
+      "https://www.asterdex.com/en/referral/c6eF10"
+    ]
+  }
+}

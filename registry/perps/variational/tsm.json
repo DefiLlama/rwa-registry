@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "TSM",
+    "name": "Variational Omni Taiwan Semiconductor Perp",
+    "legacyId": 4414
+  },
+  "tracks": {
+    "underlying": "taiwan-semiconductor-manufacturing-company-limited",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "TSM-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual market on Variational Omni tracking Taiwan Semiconductor, cash-settled."
+  }
+}

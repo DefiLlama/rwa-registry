@@ -1,0 +1,17 @@
+{
+  "identity": {
+    "symbol": "NCSKHYG2USD-USDT",
+    "legacyId": 5147
+  },
+  "tracks": {
+    "underlying": "ishares-iboxx-high-yield-corporate-bond-etf",
+    "structure": "bond-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "HYG-USDT"
+  },
+  "about": {
+    "description": "HYG is a bond fund perpetual listed on BingX and tracking iShares iBoxx $ High Yield Corporate Bond ETF. The contract is cash settled in USDT and does not convey ownership or redemption rights in the underlying. Funding is exchanged every 8h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

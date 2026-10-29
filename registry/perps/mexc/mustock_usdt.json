@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "MUSTOCK_USDT",
+    "name": "MEXC Micron Technology, Inc. Perp (USDT)",
+    "legacyId": 6702
+  },
+  "tracks": {
+    "underlying": "micron-technology-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "MU-USDT"
+  },
+  "about": {
+    "description": "MU is a single-stock perpetual listed on MEXC, tracking Micron Technology, Inc., margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Up to 200× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

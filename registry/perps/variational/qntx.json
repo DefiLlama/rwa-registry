@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "QNTX",
+    "name": "Variational Omni Quantinuum Pre-IPO Perp",
+    "legacyId": 4428
+  },
+  "tracks": {
+    "underlying": "quantinuum-inc",
+    "structure": "pe-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "QNTX-USDC"
+  },
+  "about": {
+    "description": "Pre-IPO valuation perpetual on Variational Omni tracking Quantinuum, cash-settled."
+  }
+}

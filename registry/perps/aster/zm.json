@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "ZM",
+    "name": "Aster Zoom Perp",
+    "legacyId": 4436
+  },
+  "tracks": {
+    "underlying": "zoom-communications-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "ZM-USDT"
+  },
+  "about": {
+    "description": "Single-stock perpetual market on Aster tracking Zoom Communications, Inc. (NASDAQ: ZM), cash-settled.",
+    "refLinks": [
+      "https://www.asterdex.com/en/referral/c6eF10"
+    ]
+  }
+}

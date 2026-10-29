@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "STXX",
+    "name": "Variational Omni Tradr 2X Long STX Daily ETF Perp",
+    "legacyId": 7638
+  },
+  "tracks": {
+    "underlying": "tradr-2x-long-stx-daily-etf",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "STXX-USDC"
+  },
+  "about": {
+    "description": "STXX is a cash settled perpetual market on Variational Omni referencing Tradr 2X Long STX Daily ETF. The market is quoted and margined in USDC on Arbitrum, marked against the Omni Liquidity Pool's aggregated reference price rather than a single venue, and it conveys no ownership of the underlying and no claim on the issuer. The underlying is a two times leveraged daily exposure product rather than a direct holding."
+  }
+}

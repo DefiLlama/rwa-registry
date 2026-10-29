@@ -1,0 +1,26 @@
+{
+  "identity": {
+    "symbol": "KWEB_USDT",
+    "legacyId": 6516
+  },
+  "tracks": {
+    "underlying": "kraneshares-csi-china-internet-etf",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "KWEB-USDT"
+  },
+  "about": {
+    "description": "KWEB is an ETF perpetual listed on Gate, tracking KraneShares CSI China Internet ETF, margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 4h. Up to 25× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  },
+  "events": [
+    {
+      "kind": "listing",
+      "date": "2026-03-25",
+      "links": [
+        "https://api.gateio.ws/api/v4/futures/usdt/contracts"
+      ]
+    }
+  ]
+}

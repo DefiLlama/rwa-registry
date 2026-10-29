@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "usfngs",
+    "name": "Variational FANG+ Swap",
+    "legacyId": 9589
+  },
+  "tracks": {
+    "underlying": "nyse-fang-index",
+    "structure": "equity-index-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "USFNGS-USDC"
+  },
+  "about": {
+    "description": "Cash-settled swap on NYSE FANG+ Index, quoted against USDC. No funding; cost of carry is in the spread."
+  }
+}

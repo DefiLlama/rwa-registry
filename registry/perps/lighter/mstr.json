@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "MSTR",
+    "name": "Lighter Strategy Perp",
+    "legacyId": 3353
+  },
+  "tracks": {
+    "underlying": "strategy-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "MSTR-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual market tracking Strategy (formerly MicroStrategy Incorporated). Users get linear exposure to Strategy share-price moves without owning Strategy shares, shareholder rights, or dividend claims, with pricing referencing an external 24/5 equity feed via Lighter's fair price oracle. Positions are margined and cash-settled in USDC.",
+    "refLinks": [
+      "https://app.lighter.xyz/trade/MSTR?referral=FHT1N8AYKHP4"
+    ]
+  }
+}

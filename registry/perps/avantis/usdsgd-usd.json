@@ -1,0 +1,25 @@
+{
+  "identity": {
+    "symbol": "USDSGD-USD",
+    "name": "Avantis USDSGD Perp",
+    "legacyId": 3864
+  },
+  "tracks": {
+    "underlying": "us-dollar-singapore-dollar",
+    "structure": "forex-perps"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "USDSGD-USDC"
+  },
+  "sources": {
+    "oracleProvider": "Pyth"
+  },
+  "about": {
+    "description": "USDSGD perpetual on Avantis (Base), USDC-margined. Verified live 2026-05-20.",
+    "refLinks": [
+      "https://www.avantisfi.com/referral?code=DefiLlama"
+    ],
+    "website": "https://avantisfi.com/"
+  }
+}

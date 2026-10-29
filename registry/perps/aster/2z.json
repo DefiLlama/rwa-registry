@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "2Z",
+    "name": "Aster Zillow Perp",
+    "legacyId": 4371
+  },
+  "tracks": {
+    "underlying": "doublezero",
+    "structure": "crypto-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "2Z-USDT"
+  },
+  "about": {
+    "description": "Single-stock perpetual market on Aster tracking Zillow, cash-settled.",
+    "refLinks": [
+      "https://www.asterdex.com/en/referral/c6eF10"
+    ]
+  }
+}

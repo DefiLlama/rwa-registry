@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "usoilp",
+    "name": "Variational WTI Crude Oil Swap",
+    "legacyId": 9221
+  },
+  "tracks": {
+    "underlying": "crude-oil-wti",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "USOILP-USDC"
+  },
+  "about": {
+    "description": "Cash-settled swap on Variational Omni tracking the spot price of WTI crude oil, priced off Variational Omni's OLP-aggregated mid-quotes. Unlike the venue's perpetual markets this contract pays no periodic funding — the cost of carry is quoted into the bid/ask spread instead. Positions are margined and cash-settled in USDC on Arbitrum."
+  }
+}

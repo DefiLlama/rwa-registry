@@ -1,0 +1,17 @@
+{
+  "identity": {
+    "symbol": "NCSKUPRO2USD-USDT",
+    "legacyId": 7747
+  },
+  "tracks": {
+    "underlying": "proshares-ultrapro-s-p500",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "UPRO-USDT"
+  },
+  "about": {
+    "description": "UPRO is an exchange traded fund perpetual listed on BingX, tracking ProShares UltraPro S&P500, margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

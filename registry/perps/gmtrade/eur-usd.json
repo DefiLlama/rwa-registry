@@ -1,0 +1,22 @@
+{
+  "identity": {
+    "symbol": "EUR-USD",
+    "legacyId": 3731
+  },
+  "tracks": {
+    "underlying": "euro",
+    "structure": "forex-perps"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "EUR-USDC",
+    "makerFeeBps": 1,
+    "takerFeeBps": 1.2
+  },
+  "about": {
+    "description": "Forex perpetual on GMTrade (Solana) referencing the Euro/USD exchange rate, cash-settled in USDC. Source: fxdailyreport.com (GMTrade FX launch).",
+    "refLinks": [
+      "https://gmtrade.xyz/referrals/?ref=545"
+    ]
+  }
+}

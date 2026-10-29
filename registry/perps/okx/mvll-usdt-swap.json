@@ -1,0 +1,26 @@
+{
+  "identity": {
+    "symbol": "MVLL-USDT-SWAP",
+    "legacyId": 5490
+  },
+  "tracks": {
+    "underlying": "graniteshares-2x-long-mrvl-daily-etf",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "MVLL-USDT"
+  },
+  "about": {
+    "description": "MVLL is an exchange traded fund perpetual listed on OKX and tracking GraniteShares 2x Long MRVL Daily ETF. The contract is cash settled in USDT and does not convey ownership or redemption rights in the underlying. Funding is exchanged every 8h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  },
+  "events": [
+    {
+      "kind": "listing",
+      "date": "2026-07-02",
+      "links": [
+        "https://www.okx.com/api/v5/public/instruments?instType=SWAP"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "identity": {
+    "symbol": "XAG-USDC",
+    "legacyId": 3071
+  },
+  "tracks": {
+    "underlying": "silver",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "XAG-USDT"
+  },
+  "about": {
+    "description": "Silver perpetual on Helix (Injective), cash-settled in USDT."
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

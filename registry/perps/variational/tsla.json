@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "TSLA",
+    "name": "Variational Omni Tesla Perp",
+    "legacyId": 4409
+  },
+  "tracks": {
+    "underlying": "tesla-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "TSLA-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual market on Variational Omni tracking Tesla, cash-settled."
+  }
+}

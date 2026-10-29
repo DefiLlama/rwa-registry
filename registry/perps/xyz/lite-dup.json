@@ -1,0 +1,31 @@
+{
+  "identity": {
+    "symbol": "LITE-dup",
+    "name": "trade[XYZ] LITE Perp",
+    "legacyId": 3694
+  },
+  "tracks": {
+    "underlying": "lumentum-holdings-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "LITE-USDC"
+  },
+  "sources": {
+    "oracleProvider": "Pyth"
+  },
+  "about": {
+    "description": "Equity perpetual on trade[XYZ] (Hyperunit) tracking the value of 1 share of Lumentum Holdings Inc. (NASDAQ: LITE) common stock. Lumentum develops optical and photonic technologies used in cloud networking, AI data centers, telecommunications, industrial applications, and sensing systems. Listed via HIP-3 on Hyperliquid, settled in USDC.",
+    "refLinks": [
+      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
+    ]
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

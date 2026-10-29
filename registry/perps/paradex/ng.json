@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "NG",
+    "name": "Paradex Henry Hub Natural Gas Perp",
+    "legacyId": 4746
+  },
+  "tracks": {
+    "underlying": "natural-gas",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "NG-USD-PERP"
+  },
+  "about": {
+    "description": "NG is a commodity perpetual on Paradex tracking Henry Hub Natural Gas spot pricing. Paradex is a permissionless perp and options DEX operating on its own Starknet-based appchain (Paradex Chain / DimeVM), with zero-fee trading, unified cross-margin in USDC, and ZK-encrypted account privacy. The market is cash-settled in USDC.",
+    "refLinks": [
+      "0"
+    ]
+  }
+}

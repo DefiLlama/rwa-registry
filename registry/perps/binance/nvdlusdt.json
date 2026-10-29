@@ -1,0 +1,28 @@
+{
+  "identity": {
+    "symbol": "NVDLUSDT",
+    "legacyId": 9339
+  },
+  "tracks": {
+    "underlying": "graniteshares-2x-long-nvda-daily-etf",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "NVDL-USDT",
+    "makerFeeBps": 0,
+    "takerFeeBps": 4
+  },
+  "about": {
+    "description": "UVXY is an exchange traded fund perpetual listed on Binance and tracking ProShares Ultra VIX Short-Term Futures ETF. The contract is cash settled in USDT against a Binance price index and does not convey ownership of the underlying. Funding is exchanged every 8h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  },
+  "events": [
+    {
+      "kind": "listing",
+      "date": "2026-09-02",
+      "links": [
+        "https://fapi.binance.com/fapi/v1/exchangeInfo"
+      ]
+    }
+  ]
+}

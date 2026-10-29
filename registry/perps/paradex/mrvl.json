@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "MRVL",
+    "name": "Paradex Marvell Technology Inc. Perp",
+    "legacyId": 4734
+  },
+  "tracks": {
+    "underlying": "marvell-technology-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "MRVL-USD-PERP"
+  },
+  "about": {
+    "description": "MRVL is a single-stock perpetual on Paradex tracking Marvell Technology Inc. Paradex is a permissionless perp and options DEX operating on its own Starknet-based appchain (Paradex Chain / DimeVM), with zero-fee trading, unified cross-margin in USDC, and ZK-encrypted account privacy. The market is cash-settled in USDC and does not confer any shareholder rights in the underlying.",
+    "refLinks": [
+      "0"
+    ]
+  }
+}

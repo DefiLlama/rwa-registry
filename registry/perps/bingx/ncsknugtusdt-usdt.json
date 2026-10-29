@@ -1,0 +1,17 @@
+{
+  "identity": {
+    "symbol": "NCSKNUGTUSDT-USDT",
+    "legacyId": 7488
+  },
+  "tracks": {
+    "underlying": "direxion-daily-gold-miners-index-bull-2x-etf",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "NUGT-USDT"
+  },
+  "about": {
+    "description": "NUGT is an ETF perpetual listed on BingX, tracking Direxion Daily Gold Miners Index Bull 2X ETF, margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

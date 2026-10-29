@@ -1,0 +1,20 @@
+{
+  "identity": {
+    "symbol": "RKLB-USDT",
+    "name": "HTX Rocket Lab Corp. Perp",
+    "legacyId": 7032
+  },
+  "tracks": {
+    "underlying": "rocket-lab-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "RKLB-USDT",
+    "makerFeeBps": 2,
+    "takerFeeBps": 6
+  },
+  "about": {
+    "description": "RKLB is a single-stock perpetual listed on HTX, tracking Rocket Lab Corp., margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

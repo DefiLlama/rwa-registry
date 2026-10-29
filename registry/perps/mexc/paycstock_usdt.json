@@ -1,0 +1,19 @@
+{
+  "identity": {
+    "symbol": "PAYCSTOCK_USDT",
+    "legacyId": 8758
+  },
+  "tracks": {
+    "underlying": "paycom-software-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "PAYC-USDT",
+    "makerFeeBps": 0,
+    "takerFeeBps": 2
+  },
+  "about": {
+    "description": "PAYC is a single-stock perpetual listed on MEXC, tracking Paycom Software, Inc., margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Up to 20× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

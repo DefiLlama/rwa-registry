@@ -1,0 +1,20 @@
+{
+  "identity": {
+    "symbol": "EWT",
+    "legacyId": 3838
+  },
+  "tracks": {
+    "underlying": "ishares-msci-taiwan-etf",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "EWT-USDC"
+  },
+  "about": {
+    "description": "iShares MSCI Taiwan ETF (EWT) perpetual on trade[XYZ] (Hyperliquid HIP-3 xyz namespace). Tracks the iShares MSCI Taiwan ETF, USDC-margined. HIP-3 builder-deployed.",
+    "refLinks": [
+      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
+    ]
+  }
+}

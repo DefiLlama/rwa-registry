@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "MINIMAX-USD",
+    "name": "Extended MiniMax Perp",
+    "legacyId": 9113
+  },
+  "tracks": {
+    "underlying": "minimax-group-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "MINIMAX-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual on Extended (formerly X10) tracking MiniMax Group Inc (HKEX: 0100), with pricing referencing Extended oracle. Users gain linear exposure to MiniMax Group Inc share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Starknet.",
+    "refLinks": [
+      "https://app.extended.exchange/join/DEFILLAMAO"
+    ]
+  }
+}

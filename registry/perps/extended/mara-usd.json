@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "MARA-USD",
+    "name": "Extended MARA Holdings Perp",
+    "legacyId": 8610
+  },
+  "tracks": {
+    "underlying": "mara-holdings-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "MARA-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual on Extended (formerly X10) tracking MARA Holdings, Inc. (MARA), with pricing referencing Extended oracle. Users gain linear exposure to MARA Holdings, Inc. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Starknet.",
+    "refLinks": [
+      "https://app.extended.exchange/join/DEFILLAMAO"
+    ]
+  }
+}

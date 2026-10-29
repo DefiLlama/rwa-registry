@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "HYUNDAI",
+    "name": "trade[XYZ] Hyundai Perp",
+    "legacyId": 3256
+  },
+  "tracks": {
+    "underlying": "hyundai-motor-company",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "HYUNDAI-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual market tracking Hyundai Motor. Users get linear exposure to Hyundai Motor share-price moves without owning Hyundai Motor shares, shareholder rights, or dividend claims, cash-settled in USDC on trade[XYZ].",
+    "refLinks": [
+      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
+    ]
+  }
+}

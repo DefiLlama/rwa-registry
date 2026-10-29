@@ -1,0 +1,27 @@
+{
+  "identity": {
+    "symbol": "MSTR-USDT-SWAP",
+    "name": "OKX Strategy Inc. Perp",
+    "legacyId": 6675
+  },
+  "tracks": {
+    "underlying": "strategy-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "MSTR-USDT"
+  },
+  "about": {
+    "description": "MSTR is a single-stock perpetual listed on OKX, tracking Strategy Inc., margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Up to 20× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  },
+  "events": [
+    {
+      "kind": "listing",
+      "date": "2026-02-25",
+      "links": [
+        "https://www.okx.com/api/v5/public/instruments?instType=SWAP"
+      ]
+    }
+  ]
+}

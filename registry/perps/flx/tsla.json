@@ -1,0 +1,31 @@
+{
+  "identity": {
+    "symbol": "TSLA",
+    "name": "Felix Tesla Perp",
+    "legacyId": 2955
+  },
+  "tracks": {
+    "underlying": "tesla-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdh",
+    "pair": "TSLA-USDH"
+  },
+  "sources": {
+    "oracleProvider": "Felix external equity reference methodology"
+  },
+  "about": {
+    "description": "Single-stock perpetual market tracking Tesla, Inc. Users get linear exposure to Tesla share-price moves without owning Tesla shares, shareholder rights, or dividend claims. Pricing uses Felix’s external reference methodology for equity markets. Positions are margined and cash-settled in USDH. Markets are visible on Hyperliquid under the flx namespace, but are operated by Felix rather than listed as core Hyperliquid perps.",
+    "refLinks": [
+      "https://www.usefelix.xyz?ref=4BF702FF"
+    ]
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

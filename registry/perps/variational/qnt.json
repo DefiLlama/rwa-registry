@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "QNT",
+    "name": "Variational Omni Quantinuum Perp",
+    "legacyId": 4472
+  },
+  "tracks": {
+    "underlying": "quant",
+    "structure": "pe-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "QNT-USDC"
+  },
+  "about": {
+    "description": "Pre-IPO valuation perpetual on Variational Omni tracking Quantinuum Inc. Quantum computing hardware/software, cash-settled."
+  }
+}

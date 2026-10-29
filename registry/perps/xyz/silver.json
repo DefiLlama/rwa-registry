@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "symbol": "SILVER",
+    "legacyId": 2915
+  },
+  "tracks": {
+    "underlying": "silver",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "SILVER-USDC"
+  },
+  "sources": {
+    "oracleProvider": "Pyth spot metal feed"
+  },
+  "about": {
+    "description": "Silver perpetual market. The contract tracks the price of one troy ounce of silver. Users get linear exposure to silver price moves without owning bullion, vaulted metal, or redeemable claims on physical inventory, with pricing referencing an external silver price feed. Positions are margined and cash-settled in USDC. Markets are visible on Hyperliquid under the xyz namespace, but are operated by trade[XYZ] rather than listed as core Hyperliquid perps.",
+    "refLinks": [
+      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
+    ]
+  }
+}

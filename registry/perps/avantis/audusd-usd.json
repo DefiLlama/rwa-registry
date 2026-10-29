@@ -1,0 +1,25 @@
+{
+  "identity": {
+    "symbol": "AUDUSD-USD",
+    "name": "Avantis AUDUSD Perp",
+    "legacyId": 3863
+  },
+  "tracks": {
+    "underlying": "australian-dollar",
+    "structure": "forex-perps"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "AUDUSD-USDC"
+  },
+  "sources": {
+    "oracleProvider": "Pyth"
+  },
+  "about": {
+    "description": "AUDUSD perpetual on Avantis (Base), USDC-margined. Verified live 2026-05-20.",
+    "refLinks": [
+      "https://www.avantisfi.com/referral?code=DefiLlama"
+    ],
+    "website": "https://avantisfi.com/"
+  }
+}

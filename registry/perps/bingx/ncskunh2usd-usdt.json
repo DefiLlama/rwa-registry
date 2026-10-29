@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "NCSKUNH2USD-USDT",
+    "name": "BingX UnitedHealth Group Inc. Perp",
+    "legacyId": 7353
+  },
+  "tracks": {
+    "underlying": "unitedhealth-group-incorporated",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "UNH-USDT"
+  },
+  "about": {
+    "description": "UNH is a single-stock perpetual listed on BingX, tracking UnitedHealth Group Inc., margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

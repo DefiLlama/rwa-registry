@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "symbol": "DIS",
+    "name": "Aster Disney Perp",
+    "legacyId": 3915
+  },
+  "tracks": {
+    "underlying": "the-walt-disney-co",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "DIS-USDT",
+    "makerFeeBps": null,
+    "takerFeeBps": null
+  },
+  "about": {
+    "description": "Aster perpetual market tracking The Walt Disney Company (media and entertainment). Verified live on platform UI 2026-05-26 via browser.",
+    "refLinks": [
+      "https://www.asterdex.com/en/referral/c6eF10"
+    ]
+  }
+}

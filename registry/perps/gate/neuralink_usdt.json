@@ -1,0 +1,26 @@
+{
+  "identity": {
+    "symbol": "NEURALINK_USDT",
+    "legacyId": 6737
+  },
+  "tracks": {
+    "underlying": "neuralink",
+    "structure": "pe-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "NEURALINK-USDT"
+  },
+  "about": {
+    "description": "NEURALINK is a private-company perpetual listed on Gate, tracking Neuralink, margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Up to 10× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  },
+  "events": [
+    {
+      "kind": "listing",
+      "date": "2026-07-15",
+      "links": [
+        "https://api.gateio.ws/api/v4/futures/usdt/contracts"
+      ]
+    }
+  ]
+}

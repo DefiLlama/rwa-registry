@@ -1,0 +1,27 @@
+{
+  "identity": {
+    "symbol": "INTCUSDT",
+    "name": "Bybit Intel Corp. Perp",
+    "legacyId": 6411
+  },
+  "tracks": {
+    "underlying": "intel-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "INTC-USDT"
+  },
+  "about": {
+    "description": "INTC is a single-stock perpetual listed on Bybit, tracking Intel Corp., margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Up to 25× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  },
+  "events": [
+    {
+      "kind": "listing",
+      "date": "2026-04-22",
+      "links": [
+        "https://api.bybit.com/v5/market/instruments-info?category=linear"
+      ]
+    }
+  ]
+}

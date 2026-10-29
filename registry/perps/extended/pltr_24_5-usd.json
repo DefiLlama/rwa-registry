@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "symbol": "PLTR_24_5-USD",
+    "name": "Extended PLTR Perp",
+    "legacyId": 3612
+  },
+  "tracks": {
+    "underlying": "palantir-technologies-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "PLTR-USDC",
+    "makerFeeBps": null,
+    "takerFeeBps": null
+  },
+  "about": {
+    "description": "Single-stock perpetual on Extended (formerly X10) tracking Palantir Technologies Inc. (PLTR), with pricing referencing Extended oracle (24/5 equity feed). Users gain linear exposure to Palantir Technologies Inc. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Starknet.",
+    "refLinks": [
+      "https://app.extended.exchange/join/DEFILLAMAO"
+    ]
+  }
+}

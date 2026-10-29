@@ -1,0 +1,20 @@
+{
+  "identity": {
+    "symbol": "US500",
+    "legacyId": 4775
+  },
+  "tracks": {
+    "underlying": "s-p-500-index",
+    "structure": "equity-perp"
+  },
+  "terms": {
+    "collateral": "usdh",
+    "pair": "US500-USDH"
+  },
+  "about": {
+    "description": "US500 is an equity-index perpetual on Markets by Kinetiq tracking the S&P 500 Index. The S&P 500 is a US large-cap equity index of 500 leading publicly traded companies weighted by float-adjusted market capitalization. The market is cash-settled with hourly funding.",
+    "refLinks": [
+      "https://markets.xyz/join/llama"
+    ]
+  }
+}

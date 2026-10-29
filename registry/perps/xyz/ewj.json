@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "EWJ",
+    "name": "trade[XYZ] EWJ ETF Perp",
+    "legacyId": 3259
+  },
+  "tracks": {
+    "underlying": "ishares-msci-japan-etf",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "EWJ-USDC"
+  },
+  "about": {
+    "description": "ETF perpetual market tracking iShares MSCI Japan ETF. Users get synthetic exposure to a listed fund rather than ownership of ETF shares or redemption rights in the fund, cash-settled in USDC on trade[XYZ].",
+    "refLinks": [
+      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
+    ]
+  }
+}

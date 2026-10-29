@@ -1,0 +1,25 @@
+{
+  "identity": {
+    "symbol": "NAS100",
+    "name": "ADEN Nasdaq-100 Perp",
+    "legacyId": 3113
+  },
+  "tracks": {
+    "underlying": "nasdaq-100-index",
+    "structure": "equity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "NAS100-PERPUSDC"
+  },
+  "about": {
+    "description": "Nasdaq-100 perpetual on ADEN (Orderly), cash-settled in USDC."
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

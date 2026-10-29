@@ -1,0 +1,19 @@
+{
+  "identity": {
+    "symbol": "CSOPSAMSUNG2L_USDT",
+    "legacyId": 8727
+  },
+  "tracks": {
+    "underlying": "csop-samsung-electronics-daily-max-2x-leveraged-product",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "CSOPSAMSUNG2L-USDT",
+    "makerFeeBps": 0,
+    "takerFeeBps": 2
+  },
+  "about": {
+    "description": "CSOPSAMSUNG2L is an exchange traded fund perpetual listed on MEXC, tracking CSOP Samsung Electronics Daily Max (2x) Leveraged Product, margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Up to 10× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

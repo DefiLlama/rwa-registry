@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "QQQ",
+    "name": "Variational Omni Invesco QQQ Perp",
+    "legacyId": 4418
+  },
+  "tracks": {
+    "underlying": "invesco-qqq-trust-series-1",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "QQQ-USDC"
+  },
+  "about": {
+    "description": "Perpetual market on Variational Omni tracking INVESCO QQQ TRUST, SERIES 1, cash-settled."
+  }
+}

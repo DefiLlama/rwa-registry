@@ -1,0 +1,17 @@
+{
+  "identity": {
+    "symbol": "FLUTSTOCK_USDT",
+    "legacyId": 6212
+  },
+  "tracks": {
+    "underlying": "flutter-entertainment-plc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "FLUT-USDT"
+  },
+  "about": {
+    "description": "FLUT is a single-stock perpetual listed on MEXC, tracking Flutter Entertainment plc, margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Up to 20× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

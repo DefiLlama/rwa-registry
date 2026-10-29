@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "symbol": "BB",
+    "name": "Aster BlackBerry Perp",
+    "legacyId": 4466
+  },
+  "tracks": {
+    "underlying": "bouncebit",
+    "structure": "crypto-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "BB-USDT",
+    "makerFeeBps": null,
+    "takerFeeBps": null
+  },
+  "about": {
+    "description": "Single-stock perpetual on Aster (YZi Labs-backed) tracking BlackBerry Limited (NYSE: BB). Cybersecurity & IoT software, with pricing referencing Aster custom oracle (24/5 equity feed), USDT-margined, cash-settled.",
+    "refLinks": [
+      "https://www.asterdex.com/en/referral/c6eF10"
+    ]
+  }
+}

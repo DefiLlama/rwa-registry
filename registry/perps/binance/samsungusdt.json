@@ -1,0 +1,28 @@
+{
+  "identity": {
+    "symbol": "SAMSUNGUSDT",
+    "legacyId": 4894
+  },
+  "tracks": {
+    "underlying": "samsung-electronics-co-ltd",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "SAMSUNG-USDT",
+    "makerFeeBps": 0,
+    "takerFeeBps": 4
+  },
+  "about": {
+    "description": "SAMSUNG is a single-stock perpetual listed on Binance and tracking Samsung Electronics Co., Ltd. The contract is cash settled in USDT against a Binance price index and does not convey ownership of the underlying. Funding is exchanged every 4h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  },
+  "events": [
+    {
+      "kind": "listing",
+      "date": "2026-06-02",
+      "links": [
+        "https://fapi.binance.com/fapi/v1/exchangeInfo"
+      ]
+    }
+  ]
+}

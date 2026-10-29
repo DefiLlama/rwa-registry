@@ -1,0 +1,25 @@
+{
+  "identity": {
+    "symbol": "WPM",
+    "name": "gTrade WPM Perp",
+    "legacyId": 3604
+  },
+  "tracks": {
+    "underlying": "wheaton-precious-metals-corp",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "WPM-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual on Gains Network tracking Wheaton Precious Metals Corp. (WPM), with pricing referencing Chainlink DON (24/5 equity feed). Users gain linear exposure to Wheaton Precious Metals Corp. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC / DAI / WETH on Arbitrum / Polygon / Base."
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

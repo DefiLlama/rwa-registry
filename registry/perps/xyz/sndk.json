@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "SNDK",
+    "name": "trade[XYZ] SanDisk Perp",
+    "legacyId": 3240
+  },
+  "tracks": {
+    "underlying": "sandisk-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "SNDK-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual market tracking Western Digital. Users get linear exposure to Western Digital share-price moves without owning Western Digital shares, shareholder rights, or dividend claims, cash-settled in USDC on trade[XYZ].",
+    "refLinks": [
+      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
+    ]
+  }
+}

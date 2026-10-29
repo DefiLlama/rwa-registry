@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "QQQ-USD",
+    "name": "Arcus Invesco QQQ Trust Perp",
+    "legacyId": 4530
+  },
+  "tracks": {
+    "underlying": "invesco-qqq-trust-series-1",
+    "structure": "equity-index-perp"
+  },
+  "terms": {
+    "collateral": "usdg",
+    "pair": "QQQ-USDG"
+  },
+  "about": {
+    "description": "Arcus perpetual market tracking Invesco QQQ Trust (NASDAQ: QQQ) with 24/7 exposure to the underlying NASDAQ-100 index ETF. Total-return tracking (dividends, splits, and futures rolls passed through funding), cash-settled in USDG on the Arcus off-chain CLOB with permissioned appchain re-verification and EVM rootchain custody.",
+    "refLinks": [
+      "https://app.arcus.xyz/ref/DEFILLAMA"
+    ]
+  }
+}

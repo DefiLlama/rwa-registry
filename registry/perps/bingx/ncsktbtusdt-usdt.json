@@ -1,0 +1,17 @@
+{
+  "identity": {
+    "symbol": "NCSKTBTUSDT-USDT",
+    "legacyId": 7515
+  },
+  "tracks": {
+    "underlying": "proshares-ultrashort-20-year-treasury",
+    "structure": "bond-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "TBT-USDT"
+  },
+  "about": {
+    "description": "TBT is a bond fund perpetual listed on BingX, tracking ProShares UltraShort 20+ Year Treasury, margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

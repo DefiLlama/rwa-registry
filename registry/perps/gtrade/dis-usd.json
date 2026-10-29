@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "DIS-USD",
+    "name": "gTrade DIS Perp",
+    "legacyId": 3574
+  },
+  "tracks": {
+    "underlying": "the-walt-disney-co",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "DIS-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual on Gains Network tracking The Walt Disney Company (DIS), with pricing referencing Chainlink DON (24/5 equity feed). Users gain linear exposure to The Walt Disney Company share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC / DAI / WETH on Arbitrum / Polygon / Base."
+  }
+}

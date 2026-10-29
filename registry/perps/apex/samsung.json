@@ -1,0 +1,26 @@
+{
+  "identity": {
+    "symbol": "SAMSUNG",
+    "name": "ApeX Samsung Perp",
+    "legacyId": 3971
+  },
+  "tracks": {
+    "underlying": "samsung-electronics-co-ltd",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "marginAsset": "USDT",
+    "pair": "SAMSUNG-USD"
+  },
+  "sources": {
+    "oracleProvider": "Chainlink Data Streams"
+  },
+  "about": {
+    "description": "Single-stock perpetual market on ApeX tracking Samsung Electronics Co. Ltd, cash-settled.",
+    "refLinks": [
+      "https://omni.apex.exchange/referral?referralCode=T0S8V482"
+    ],
+    "issuer": "ApeX Protocol"
+  }
+}

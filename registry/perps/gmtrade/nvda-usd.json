@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "NVDA-USD",
+    "name": "GMTrade NVIDIA Perp",
+    "legacyId": 3829
+  },
+  "tracks": {
+    "underlying": "nvidia-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "NVDA-USDC"
+  },
+  "about": {
+    "description": "NVIDIA (NVDA) perpetual on GMTrade (Solana), USDC-margined.",
+    "refLinks": [
+      "https://gmtrade.xyz/referrals/?ref=545"
+    ]
+  }
+}

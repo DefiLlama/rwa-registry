@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "SOXS",
+    "name": "Variational Semiconductor Bear 3X Perp",
+    "legacyId": 9136
+  },
+  "tracks": {
+    "underlying": "direxion-daily-semiconductor-bear-3x-etf",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "SOXS-USDC"
+  },
+  "about": {
+    "description": "Perpetual on Variational Omni tracking Direxion Daily Semiconductor Bear 3X ETF (SOXS), priced off Variational Omni's OLP-aggregated mid-quotes. Users gain linear exposure to the fund's share-price moves without holding fund shares or any claim on its distributions. Positions are margined and cash-settled in USDC on Arbitrum."
+  }
+}

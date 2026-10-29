@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "ARM",
+    "name": "Variational Omni Arm Holdings Perp",
+    "legacyId": 4416
+  },
+  "tracks": {
+    "underlying": "arm-holdings-plc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "ARM-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual market on Variational Omni tracking Arm Holdings, cash-settled."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "identity": {
+    "symbol": "NCSKNASA2USD-USDT",
+    "legacyId": 6712
+  },
+  "tracks": {
+    "underlying": "tema-space-innovators-etf",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "NASA-USDT"
+  },
+  "about": {
+    "description": "NASA is an ETF perpetual listed on BingX, tracking Tema Space Innovators ETF, margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

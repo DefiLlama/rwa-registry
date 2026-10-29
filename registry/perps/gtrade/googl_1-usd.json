@@ -1,0 +1,20 @@
+{
+  "identity": {
+    "symbol": "GOOGL_1-USD",
+    "name": "gTrade Alphabet Perp",
+    "legacyId": 3034
+  },
+  "tracks": {
+    "underlying": "alphabet-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "GOOGL-USDC",
+    "makerFeeBps": 5,
+    "takerFeeBps": 5
+  },
+  "about": {
+    "description": "Canonical Market ID updated from gtrade:GOOGL-USD to gtrade:GOOGL_1-USD on 2026-05-26 after may26 adapter QA. gTrade restructured its perp listings. The active GOOGL market is now at gtrade:GOOGL_1-USD (non-suffix version dead in adapter with $0 OI/vol)."
+  }
+}

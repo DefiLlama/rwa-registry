@@ -1,0 +1,29 @@
+{
+  "identity": {
+    "symbol": "INTCUSD",
+    "name": "edgeX Intel Perp",
+    "legacyId": 3849
+  },
+  "tracks": {
+    "underlying": "intel-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "marginAsset": "USDT",
+    "pair": "INTC-USD"
+  },
+  "about": {
+    "description": "Intel Corp (INTC) perpetual on edgeX. 10x leverage, USD-margined. Verified live 2026-05-20.",
+    "refLinks": [
+      "https://pro.edgex.exchange/referral/196451583"
+    ]
+  },
+  "events": [
+    {
+      "kind": "review",
+      "outcome": "suspicious",
+      "reason": null
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "identity": {
+    "symbol": "mrna",
+    "legacyId": 9320
+  },
+  "tracks": {
+    "underlying": "moderna-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "MRNA-USDT",
+    "makerFeeBps": null,
+    "takerFeeBps": null
+  },
+  "about": {
+    "description": "Single-stock perpetual on Aster (YZi Labs-backed) tracking Realty Income Corp (NYSE: O). Monthly-dividend REIT, with pricing referencing Aster custom oracle (24/5 equity feed). Users gain synthetic exposure to O share-price moves without holding equity, USDT-margined, cash-settled.",
+    "refLinks": [
+      "https://www.asterdex.com/en/referral/c6eF10"
+    ]
+  }
+}

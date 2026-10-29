@@ -1,0 +1,28 @@
+{
+  "identity": {
+    "symbol": "US500-USD",
+    "name": "Avantis SPY Index Perp",
+    "legacyId": 3059
+  },
+  "tracks": {
+    "underlying": "state-street-spdr-s-p-500-etf-trust",
+    "structure": "equity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "SPY-USD"
+  },
+  "about": {
+    "description": "S&P 500 perpetual on Avantis, cash-settled in USDC on Base.",
+    "refLinks": [
+      "https://www.avantisfi.com/referral?code=DefiLlama"
+    ]
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

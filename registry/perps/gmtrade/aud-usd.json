@@ -1,0 +1,22 @@
+{
+  "identity": {
+    "symbol": "AUD-USD",
+    "legacyId": 3733
+  },
+  "tracks": {
+    "underlying": "australian-dollar",
+    "structure": "forex-perps"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "AUD-USDC",
+    "makerFeeBps": 1,
+    "takerFeeBps": 1.2
+  },
+  "about": {
+    "description": "Forex perpetual on GMTrade (Solana) referencing the Australian Dollar/USD exchange rate, cash-settled in USDC. Source: fxdailyreport.com (GMTrade FX launch).",
+    "refLinks": [
+      "https://gmtrade.xyz/referrals/?ref=545"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "BX",
+    "name": "Variational Omni Blackstone Perp",
+    "legacyId": 4589
+  },
+  "tracks": {
+    "underlying": "blackstone-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "BX-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual on Variational Omni tracking Blackstone Inc. Users get linear exposure to the underlying without owning shares. Cash-settled in USDC (Arbitrum)."
+  }
+}

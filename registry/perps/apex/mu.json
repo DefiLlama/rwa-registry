@@ -1,0 +1,28 @@
+{
+  "identity": {
+    "symbol": "MU",
+    "name": "ApeX Omni Micron Technology Perp",
+    "legacyId": 3766
+  },
+  "tracks": {
+    "underlying": "micron-technology-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "MU-USDC"
+  },
+  "about": {
+    "description": "Micron Technology (NASDAQ:MU) stock perpetual on ApeX Omni, cash-settled in USDT.",
+    "refLinks": [
+      "https://omni.apex.exchange/referral?referralCode=T0S8V482"
+    ]
+  },
+  "events": [
+    {
+      "kind": "review",
+      "outcome": "suspicious",
+      "reason": null
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "META",
+    "name": "Lighter Meta Perp",
+    "legacyId": 3346
+  },
+  "tracks": {
+    "underlying": "meta-platforms-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "META-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual market tracking Meta Platforms, Inc. Users get linear exposure to Meta share-price moves without owning Meta shares, shareholder rights, or dividend claims, with pricing referencing an external 24/5 equity feed via Lighter's fair price oracle. Positions are margined and cash-settled in USDC.",
+    "refLinks": [
+      "https://app.lighter.xyz/trade/META?referral=FHT1N8AYKHP4"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "CBRS",
+    "name": "Lighter Cerebras Perp",
+    "legacyId": 3844
+  },
+  "tracks": {
+    "underlying": "cerebras-systems-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "CBRS-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual on Lighter (zk-rollup on Arbitrum) tracking Cerebras Systems Inc. (NASDAQ: CBRS), USDC-margined. Distinct from trade[XYZ] CBRS, Avantis CBRS, and Aster CBRS perps.",
+    "refLinks": [
+      "https://app.lighter.xyz/trade/CBRS?referral=FHT1N8AYKHP4"
+    ]
+  }
+}

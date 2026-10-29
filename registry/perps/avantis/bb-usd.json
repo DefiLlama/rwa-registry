@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "BB-USD",
+    "name": "Avantis BlackBerry Perp",
+    "legacyId": 4560
+  },
+  "tracks": {
+    "underlying": "blackberry-limited",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "BB-USD"
+  },
+  "about": {
+    "description": "Single-stock perpetual on Avantis tracking BlackBerry Limited. Users get linear exposure to the underlying without owning shares. Cash-settled in USDC."
+  }
+}

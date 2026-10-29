@@ -1,0 +1,28 @@
+{
+  "identity": {
+    "symbol": "US100-USD",
+    "name": "Avantis QQQ Index Perp",
+    "legacyId": 3060
+  },
+  "tracks": {
+    "underlying": "invesco-qqq-trust-series-1",
+    "structure": "equity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "QQQ-USD"
+  },
+  "about": {
+    "description": "Nasdaq-100 perpetual on Avantis, cash-settled in USDC on Base.",
+    "refLinks": [
+      "https://www.avantisfi.com/referral?code=DefiLlama"
+    ]
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

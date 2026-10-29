@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "EWZ",
+    "name": "Aster iShares MSCI Brazil Perp",
+    "legacyId": 4555
+  },
+  "tracks": {
+    "underlying": "ishares-msci-brazil-etf",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "EWZ-USDT"
+  },
+  "about": {
+    "description": "Single-fund perpetual on Aster tracking iShares MSCI Brazil ETF. Users get linear exposure to the underlying without owning shares. Cash-settled in USDT."
+  }
+}

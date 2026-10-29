@@ -1,0 +1,19 @@
+{
+  "identity": {
+    "symbol": "MSTRBUSD",
+    "name": "Delta Exchange India Strategy Inc. Perp",
+    "legacyId": 6678
+  },
+  "tracks": {
+    "underlying": "strategy-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "pair": "MSTRB-USD",
+    "makerFeeBps": null,
+    "takerFeeBps": null
+  },
+  "about": {
+    "description": "MSTRB is a single-stock perpetual listed on Delta Exchange India, tracking Strategy Inc., margined and cash-settled in USD. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Delta Exchange India prices this market off the Binance bStock token for Strategy Inc., a tokenized representation of the listed shares rather than the shares themselves. Funding settles every 8h. Up to 25× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

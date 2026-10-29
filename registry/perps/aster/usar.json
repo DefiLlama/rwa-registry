@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "symbol": "USAR",
+    "name": "Aster USA Rare Earth Perp",
+    "legacyId": 3905
+  },
+  "tracks": {
+    "underlying": "usa-rare-earth-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "USAR-USDT",
+    "makerFeeBps": null,
+    "takerFeeBps": null
+  },
+  "about": {
+    "description": "Perpetual market on Aster tracking USA Rare Earth Inc. (USAR), cash-settled in crypto. Asset Class: Stock Perp. (Original record. Delisted in favor of the refreshed market.)",
+    "refLinks": [
+      "https://www.asterdex.com/en/referral/c6eF10"
+    ]
+  }
+}

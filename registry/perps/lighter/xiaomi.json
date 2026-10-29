@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "XIAOMI",
+    "name": "Lighter Xiaomi Perp",
+    "legacyId": 4585
+  },
+  "tracks": {
+    "underlying": "xiaomi-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "XIAOMI-USDC"
+  },
+  "sources": {
+    "oracleProvider": "Lighter fair price oracle"
+  },
+  "about": {
+    "description": "Single-stock perpetual on Lighter tracking Xiaomi. Users get linear exposure to the underlying without owning shares. Cash-settled in USDC."
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "identity": {
+    "symbol": "HK1810USDT",
+    "legacyId": 4849
+  },
+  "tracks": {
+    "underlying": "xiaomi-corporation-hkd",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "HK1810-USDT",
+    "makerFeeBps": 0,
+    "takerFeeBps": 4
+  },
+  "about": {
+    "description": "HK1810 is a single-stock perpetual listed on Binance and tracking Xiaomi Corporation. The contract is cash settled in USDT against a Binance price index and does not convey ownership of the underlying. Funding is exchanged every 8h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification. This is a Quanto contract in which the Hong Kong dollar quote is treated one to one as USDT with no currency conversion."
+  },
+  "events": [
+    {
+      "kind": "listing",
+      "date": "2026-07-22",
+      "links": [
+        "https://fapi.binance.com/fapi/v1/exchangeInfo"
+      ]
+    }
+  ]
+}

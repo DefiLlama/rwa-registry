@@ -1,0 +1,20 @@
+{
+  "identity": {
+    "symbol": "NAS100-USD",
+    "name": "gTrade Nasdaq-100 Perp",
+    "legacyId": 3028
+  },
+  "tracks": {
+    "underlying": "nasdaq-100-index",
+    "structure": "equity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "NDX-USDC",
+    "makerFeeBps": 5,
+    "takerFeeBps": 5
+  },
+  "about": {
+    "description": "Nasdaq-100 perpetual on gTrade, synthetic and cash-settled in USDC on Arbitrum."
+  }
+}

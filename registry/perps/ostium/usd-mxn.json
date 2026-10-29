@@ -1,0 +1,26 @@
+{
+  "identity": {
+    "symbol": "USD-MXN",
+    "name": "Ostium MXN Perp",
+    "legacyId": 3643
+  },
+  "tracks": {
+    "underlying": "mexican-peso",
+    "structure": "forex-perps"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "MXN-USDC",
+    "makerFeeBps": 5,
+    "takerFeeBps": 5
+  },
+  "sources": {
+    "oracleProvider": "Stork / QUODD institutional FX feed"
+  },
+  "about": {
+    "description": "FX perpetual on Ostium Labs tracking Mexican Peso (MXN) versus the US dollar, with pricing referencing Stork / QUODD institutional FX feed. Positions are margined and cash-settled in USDC on Arbitrum, giving users synthetic exposure to Mexican Peso/USD price movement without holding either currency as cash.",
+    "refLinks": [
+      "https://app.ostium.com/trade?from=USD&to=MXN&ref=6X17X"
+    ]
+  }
+}

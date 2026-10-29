@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "COIN-USD",
+    "name": "Arcus Coinbase Global Perp",
+    "legacyId": 4547
+  },
+  "tracks": {
+    "underlying": "coinbase-global-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdg",
+    "pair": "COIN-USDG"
+  },
+  "about": {
+    "description": "Arcus perpetual market tracking Coinbase Global, Inc. (NASDAQ: COIN) with 24/7 exposure to the underlying crypto exchange stock. Total-return tracking (dividends, splits, and futures rolls passed through funding), cash-settled in USDG on the Arcus off-chain CLOB with permissioned appchain re-verification and EVM rootchain custody.",
+    "refLinks": [
+      "https://app.arcus.xyz/ref/DEFILLAMA"
+    ]
+  }
+}

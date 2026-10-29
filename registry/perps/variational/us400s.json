@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "us400s",
+    "name": "Variational US MidCap Swap",
+    "legacyId": 9588
+  },
+  "tracks": {
+    "underlying": "s-p-midcap-400-index",
+    "structure": "equity-index-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "US400S-USDC"
+  },
+  "about": {
+    "description": "Cash-settled swap on S&P MidCap 400 Index, quoted against USDC. No funding; cost of carry is in the spread."
+  }
+}

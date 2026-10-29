@@ -1,0 +1,17 @@
+{
+  "identity": {
+    "symbol": "BABAUSDT",
+    "legacyId": 5796
+  },
+  "tracks": {
+    "underlying": "alibaba-group-holding-limited",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "BABA-USDT"
+  },
+  "about": {
+    "description": "BABA is a single-stock perpetual listed on LBank, tracking Alibaba Group Holding Limited, margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Up to 20× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "identity": {
+    "symbol": "XPD",
+    "name": "Variational Omni Palladium Perp",
+    "legacyId": 4426
+  },
+  "tracks": {
+    "underlying": "palladium",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "XPD-USDC"
+  },
+  "about": {
+    "description": "Perpetual market on Variational Omni tracking Palladium, cash-settled."
+  }
+}

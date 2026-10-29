@@ -1,0 +1,20 @@
+{
+  "identity": {
+    "symbol": "XCU-USD",
+    "legacyId": 3132
+  },
+  "tracks": {
+    "underlying": "copper",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "XCU-USD"
+  },
+  "about": {
+    "description": "Copper perpetual on Extended on Starknet, cash-settled in USDC.",
+    "refLinks": [
+      "https://app.extended.exchange/join/DEFILLAMAO"
+    ]
+  }
+}

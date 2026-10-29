@@ -1,0 +1,25 @@
+{
+  "identity": {
+    "symbol": "BE-USD",
+    "name": "gTrade BE Perp",
+    "legacyId": 4567
+  },
+  "tracks": {
+    "underlying": "bloom-energy-corporation",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "BE-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual on Gains Network tracking Bloom Energy Corporation. Users get linear exposure to the underlying without owning shares. Cash-settled in USDC."
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": null,
+      "note": "last stored day not given at import"
+    }
+  ]
+}

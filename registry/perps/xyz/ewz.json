@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "EWZ",
+    "name": "trade[XYZ] EWZ ETF Perp",
+    "legacyId": 3524
+  },
+  "tracks": {
+    "underlying": "ishares-msci-brazil-etf",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "EWZ-USDC"
+  },
+  "about": {
+    "description": "Perpetual market on trade[XYZ] tracking the iShares MSCI Brazil ETF (EWZ), which provides exposure to a market-cap-weighted index of large- and mid-cap Brazilian equities. Positions are linear, margined and cash-settled in USDC on Hyperliquid under the xyz namespace, operated by trade[XYZ] rather than listed as core Hyperliquid perps.",
+    "refLinks": [
+      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
+    ]
+  }
+}

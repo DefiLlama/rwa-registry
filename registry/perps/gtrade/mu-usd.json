@@ -1,0 +1,17 @@
+{
+  "identity": {
+    "symbol": "MU-USD",
+    "legacyId": 4479
+  },
+  "tracks": {
+    "underlying": "micron-technology-inc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "MU-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual market on gTrade tracking Micron Technology, Inc. The market is synthetic and cash-settled in USDC on Arbitrum."
+  }
+}

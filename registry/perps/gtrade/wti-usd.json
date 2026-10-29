@@ -1,0 +1,20 @@
+{
+  "identity": {
+    "symbol": "WTI-USD",
+    "name": "gTrade WTI Crude Oil Perp",
+    "legacyId": 3026
+  },
+  "tracks": {
+    "underlying": "crude-oil-wti",
+    "structure": "commodity-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "WTI-USDC",
+    "makerFeeBps": 4,
+    "takerFeeBps": 4
+  },
+  "about": {
+    "description": "Crude Oil (WTI) perpetual on gTrade, synthetic and cash-settled in USDC on Arbitrum."
+  }
+}

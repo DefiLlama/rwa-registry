@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "LLY",
+    "name": "trade[XYZ] Eli Lilly Perp",
+    "legacyId": 3242
+  },
+  "tracks": {
+    "underlying": "eli-lilly-and-company",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "LLY-USDC"
+  },
+  "about": {
+    "description": "Single-stock perpetual market tracking Eli Lilly. Users get linear exposure to Eli Lilly share-price moves without owning Eli Lilly shares, shareholder rights, or dividend claims, cash-settled in USDC on trade[XYZ].",
+    "refLinks": [
+      "https://app.hyperliquid.xyz/join/DEFILLAMAS"
+    ]
+  }
+}

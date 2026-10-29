@@ -1,0 +1,17 @@
+{
+  "identity": {
+    "symbol": "NCSKVGT2USD-USDT",
+    "legacyId": 7750
+  },
+  "tracks": {
+    "underlying": "vanguard-information-technology-etf",
+    "structure": "etf-perp"
+  },
+  "terms": {
+    "collateral": "usdt",
+    "pair": "VGT-USDT"
+  },
+  "about": {
+    "description": "VGT is an exchange traded fund perpetual listed on BingX, tracking Vanguard Information Technology ETF, margined and cash-settled in USDT. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  }
+}

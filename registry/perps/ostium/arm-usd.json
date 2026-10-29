@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "symbol": "ARM-USD",
+    "name": "Ostium Arm Perp",
+    "legacyId": 3301
+  },
+  "tracks": {
+    "underlying": "arm-holdings-plc",
+    "structure": "stock-perp"
+  },
+  "terms": {
+    "collateral": "usdc",
+    "pair": "ARM-USD"
+  },
+  "about": {
+    "description": "Arm Holdings perpetual on Ostium, cash-settled in USDC on Arbitrum. Trades during U.S. stock market hours only (9:30 AM - 4:00 PM ET, Monday-Friday).",
+    "refLinks": [
+      "https://app.ostium.com/trade?from=ARM&to=USD&ref=6X17X"
+    ]
+  }
+}
