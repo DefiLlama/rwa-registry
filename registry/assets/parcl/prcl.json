@@ -25,7 +25,13 @@
     "yieldBearing": false
   },
   "sources": {
-    "coingeckoId": "parcl"
+    "coingeckoId": "parcl",
+    "yieldPoolIds": [
+      "a390bc8a-b3c3-4d5f-8d08-06a9a79b1b40",
+      "ef4b6a4b-da27-4bef-9b65-e30600bcbb40",
+      "20bbb2b6-1152-4c19-813e-3534ebf35fa8",
+      "b3bd021a-269e-46aa-bb05-2dfb8a1c656e"
+    ]
   },
   "about": {
     "description": "Parcl provides real estate market exposure through price indexes designed to track housing markets, enabling users to take positions on regional real estate performance without direct property ownership. PRCL is used for governance and incentives across the ecosystem, aligning participation around index integrity, liquidity, and product expansion.",

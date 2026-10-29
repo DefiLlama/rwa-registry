@@ -27,7 +27,10 @@
     "attestationFrequency": "Daily"
   },
   "sources": {
-    "coingeckoId": "ousg"
+    "coingeckoId": "ousg",
+    "yieldPoolIds": [
+      "a5453ca0-7ec4-44b8-81c8-9154ce8465f7"
+    ]
   },
   "about": {
     "description": "OUSG is Ondo’s tokenized U.S. Treasury exposure designed for eligible users seeking short-duration government yield in an onchain form. It is structured around NAV-based accounting and is commonly used as a conservative yield sleeve for treasury management and collateral workflows where access and transfer are eligibility-gated.",

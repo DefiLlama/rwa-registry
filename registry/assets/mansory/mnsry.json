@@ -24,6 +24,11 @@
     "selfCustody": true,
     "yieldBearing": false
   },
+  "sources": {
+    "yieldPoolIds": [
+      "b167895a-90bb-47ec-82af-8a5322bfbc24"
+    ]
+  },
   "about": {
     "description": "MNSRY is presented as the official ecosystem token associated with the Mansory brand, centered on community access, perks, and participation around a luxury automotive identity. The project frames itself as a bridge between a real-world luxury brand and onchain fan engagement, using the token for gated experiences, rewards, and brand-driven programs rather than representing a direct claim on vehicles or operating cash flows.",
     "logo": "https://icons.llamao.fi/icons/rwa/mansory.png?w=48&h=48",

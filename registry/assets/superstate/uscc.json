@@ -28,7 +28,11 @@
     "attestationFrequency": "Continuous NAV + periodic holdings disclosure (EY audit)"
   },
   "sources": {
-    "coingeckoId": "superstate-uscc"
+    "coingeckoId": "superstate-uscc",
+    "yieldPoolIds": [
+      "aff74ce8-4fe3-462b-af11-542cc16d24b2",
+      "ea1d8316-9160-48f0-ad18-a1298473f826"
+    ]
   },
   "about": {
     "description": "USCC represents tokenized fund units of the Superstate Crypto Carry Fund, designed for qualified purchasers seeking a market-neutral yield profile derived from crypto basis trades, with additional components that can include staking and a Treasury sleeve for cash management. The fund is built around NAV-based share accounting and is offered with both tokenized delivery and traditional book-entry ownership, positioning it as an institutional-style alternative-return strategy with onchain settlement optionality.",

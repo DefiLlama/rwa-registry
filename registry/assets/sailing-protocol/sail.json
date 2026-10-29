@@ -25,6 +25,11 @@
     "selfCustody": true,
     "yieldBearing": false
   },
+  "sources": {
+    "yieldPoolIds": [
+      "5dba395b-1629-4435-9768-e8f42f3113f5"
+    ]
+  },
   "about": {
     "description": "SAIL is the ecosystem token for Sailing Protocol, a tokenized equities platform designed to make stock-linked tokens usable across DeFi applications. The project positions these assets as fully backed exposures intended for trading, liquidity provisioning, and collateral-style use cases, with compliance controls integrated into issuance and access. SAIL supports governance and ecosystem incentives across market expansion and product integrations.",
     "logo": "https://icons.llamao.fi/icons/rwa/sail.png?w=48&h=48",

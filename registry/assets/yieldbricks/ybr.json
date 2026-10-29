@@ -24,6 +24,15 @@
     "selfCustody": true,
     "yieldBearing": false
   },
+  "sources": {
+    "yieldPoolIds": [
+      "cd24920c-7e1f-4473-81de-b6fccd7ecdfd",
+      "233dd762-aaee-4546-b3da-20acb75368c4",
+      "fab4c4b9-3f48-4822-9d75-09b3f114a5f5",
+      "2d7978f1-e52b-4129-9e8d-67d686173a28",
+      "4509fe0f-aa21-4486-a3e0-63178f26d700"
+    ]
+  },
   "about": {
     "description": "YieldBricks is an RWA yield platform that packages real estate opportunities into time-bound pools and investment products, aiming to give users access to deal-driven returns typically associated with private real estate markets. The platform highlights screening, valuation, and audit-oriented diligence as part of how opportunities are selected and structured, and it frames its product suite around shorter-duration commitments compared to traditional property funds.",
     "logo": "https://icons.llamao.fi/icons/rwa/yieldbricks.png?w=48&h=48",

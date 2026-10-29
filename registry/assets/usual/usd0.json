@@ -24,7 +24,27 @@
     "yieldBearing": false
   },
   "sources": {
-    "coingeckoId": "usual-usd"
+    "coingeckoId": "usual-usd",
+    "yieldPoolIds": [
+      "4d48ed69-2a14-4609-91c0-bc129a6dc586",
+      "fe640713-4aae-4130-a31b-a8a6e32289ec",
+      "bc58a174-05f8-4e41-8f77-be9c13a614bf",
+      "68b5db86-a34a-443a-92b1-1fd2fb51c739",
+      "7a7752f4-266c-4669-a0c5-93fbf7d1d4e8",
+      "77afcb22-c93d-4baf-8d73-6f2904f06b50",
+      "9668364f-f6af-491d-bc35-319ba119b25c",
+      "97bd40a6-c57e-4c32-8ee3-3fcfdc1faf9f",
+      "23a68630-c706-4ed3-bb31-92868a15050b",
+      "752413a7-1a7e-4d76-9f34-89568ba026ee",
+      "8ad4f827-e49a-4ffc-b527-471a8536131a",
+      "dd5dd52a-a766-4783-bac0-e7124e152af9",
+      "1521eeea-36c6-46ff-a9de-f24e81fe6f20",
+      "f669d6be-5041-48ce-907d-190af6f69d6d",
+      "d0e041c4-036e-4fdb-ae81-f113494cf1e1",
+      "807223e2-8c69-452b-a0fc-f812e7d40b2e",
+      "0aea1d26-b4f9-43f5-8a1d-a10775aef89f",
+      "a1471682-63d7-44c3-a7b5-4c588a131a4e"
+    ]
   },
   "about": {
     "description": "USD0 is the Usual ecosystem’s USD-pegged stablecoin designed as a settlement asset for DeFi. It is positioned as fully collateralized by short-duration, high-quality liquid RWAs, primarily tokenized U.S. Treasury exposure and repo-style cash equivalents, with collateral sourced across multiple institutional providers. USD0 itself is non-yielding, while the ecosystem routes yield and incentives through separate products in the Usual stack.",

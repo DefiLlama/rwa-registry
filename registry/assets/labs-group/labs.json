@@ -24,6 +24,13 @@
     "selfCustody": true,
     "yieldBearing": false
   },
+  "sources": {
+    "yieldPoolIds": [
+      "954604c9-149f-4e84-8239-29aec7f53f19",
+      "19776df0-8b0e-4b43-a945-748b6b9efdcc",
+      "d5c94269-dab2-41f7-9a52-7ba76ae6dce1"
+    ]
+  },
   "about": {
     "description": "LABS Group is a real estate investment platform focused on fractional property exposure through tokenized structures. It targets smaller minimums than traditional real estate investing and has emphasized a pipeline approach to onboarding properties, enabling diversified access across regions and property types while packaging ownership economics into transferable units.",
     "logo": "https://icons.llamao.fi/icons/rwa/labs-group.png?w=48&h=48",

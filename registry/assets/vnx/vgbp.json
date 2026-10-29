@@ -28,7 +28,13 @@
     "attestationFrequency": "Regular (periodic)"
   },
   "sources": {
-    "coingeckoId": "vnx-british-pound"
+    "coingeckoId": "vnx-british-pound",
+    "yieldPoolIds": [
+      "f2dd630b-0c62-401d-8309-09c1a9f2c754",
+      "3b836569-3b7d-4ec4-a366-a553594ba7ae",
+      "0aad3eaf-2230-4cc5-8cba-6d218daac65f",
+      "d66ff513-1d87-4b32-b424-60a5bda76e34"
+    ]
   },
   "about": {
     "description": "VNX British Pound (VGBP) is a GBP-referenced token designed to maintain a 1:1 relationship with underlying pound reserves held in traditional banking rails. It targets GBP-denominated settlement and liquidity use cases while providing reserve audit reporting through the VNX transparency portal.",

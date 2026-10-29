@@ -24,7 +24,10 @@
     "yieldBearing": false
   },
   "sources": {
-    "coingeckoId": "gaib"
+    "coingeckoId": "gaib",
+    "yieldPoolIds": [
+      "92f2bb87-82ab-4b4b-b676-85add63367b7"
+    ]
   },
   "about": {
     "description": "GAIB is the governance and coordination token for a protocol focused on financializing AI infrastructure, including productive assets like GPUs and related hardware. The project frames these assets as RWAs that can be funded, leased, and monetized through tokenized structures, with yield driven by compute demand and utilization. GAIB is used for governance, staking, and ecosystem alignment across the network’s infrastructure layer.",

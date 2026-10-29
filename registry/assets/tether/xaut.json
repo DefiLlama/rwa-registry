@@ -27,7 +27,25 @@
     "attestationFrequency": "Quarterly"
   },
   "sources": {
-    "coingeckoId": "tether-gold"
+    "coingeckoId": "tether-gold",
+    "yieldPoolIds": [
+      "49585253-1f0d-46df-9284-6ece1880fbef",
+      "4eb6bb50-3d3a-4211-afef-aade21696f8d",
+      "3e968a65-0256-46ee-933f-20366fb1983f",
+      "83495af8-03ba-47fd-9aec-026b7270ce97",
+      "0cac1346-20c3-4f9d-b968-d30a522c325c",
+      "7907f3cf-ad6c-475c-b0c0-14426778b959",
+      "babdbf78-8daf-4e01-8904-d52e20401c23",
+      "a8782f8d-c32b-4497-a74f-1297d807a96e",
+      "5cb413e1-6478-4b0c-9bd9-c817b8eb035a",
+      "dab77475-487b-418e-bf9e-7fc337a51de1",
+      "be2d3040-1888-4b9a-936c-becabab6009f",
+      "ab009818-418c-4b4a-a454-75407412bb02",
+      "bbd0d765-21aa-440b-91bb-0207f08bc316",
+      "6fdb798f-cde1-47f8-b5bc-260b0c36fc8f",
+      "83039080-185e-41a6-ba8f-514fcc6f6907",
+      "84794337-7f7a-45b2-b86e-84072cb0f076"
+    ]
   },
   "about": {
     "description": "Tether Gold (XAUt/XAU₮) is a tokenized gold product designed to represent allocated physical gold, with holder verification supported through published reserve reporting and a lookup workflow intended to map holdings to specific gold bar details. It targets investors who want gold exposure in a transferable form while retaining a link to identifiable vaulted bullion.",

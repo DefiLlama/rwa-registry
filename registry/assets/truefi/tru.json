@@ -24,7 +24,14 @@
     "yieldBearing": false
   },
   "sources": {
-    "coingeckoId": "truefi"
+    "coingeckoId": "truefi",
+    "yieldPoolIds": [
+      "4eba96b1-fa95-4da8-b819-832081d4e232",
+      "596e7d21-e634-485c-9cb5-d60621f858e6",
+      "14f3d73c-4c77-44ac-829e-6e97d8f3710c",
+      "973c42a1-f16c-40d9-bd05-ca7427badb22",
+      "71ec4f7a-1f69-40e4-9825-3698c8b80fcf"
+    ]
   },
   "about": {
     "description": "TRU is the governance and utility token for TrueFi, a credit marketplace that connects stablecoin lenders with borrowers and managed credit strategies. The protocol is known for structured lending products where underwriting and risk management are central, aiming to deliver predictable yield from credit rather than relying on volatile leverage. TRU coordinates governance, incentives, and risk framework evolution across TrueFi’s lending products and partners.",

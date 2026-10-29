@@ -28,7 +28,10 @@
     "attestationFrequency": "Daily"
   },
   "sources": {
-    "coingeckoId": "ousg"
+    "coingeckoId": "ousg",
+    "yieldPoolIds": [
+      "a5453ca0-7ec4-44b8-81c8-9154ce8465f7"
+    ]
   },
   "about": {
     "description": "OUSG is a qualified-access tokenized fund exposure to short-term U.S. Treasuries and money market funds. Eligibility is restricted (accredited investor + qualified purchaser). NAV is calculated daily with a fund administrator (NAV Consulting) and daily fund update reports are published, qualified-access funds are audited annually. KYC/KYB required for onboarding and primary-market mint/redemption, transfers are restricted to onboarded/eligible investors.",

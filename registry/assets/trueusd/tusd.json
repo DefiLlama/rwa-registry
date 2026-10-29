@@ -27,7 +27,21 @@
     "attestationFrequency": "Daily"
   },
   "sources": {
-    "coingeckoId": "true-usd"
+    "coingeckoId": "true-usd",
+    "yieldPoolIds": [
+      "535daca1-b457-48be-b93f-82b7a7fa1e0a",
+      "948eb56a-b8fa-4b08-8c0d-453d8a6b787f",
+      "1a4e4b4e-d839-4d72-a1a1-b6e0d8c3cb61",
+      "f02223ca-a69e-47df-8795-6657a8f829ee",
+      "91c10355-5240-4c71-89d4-dccf03dd20cd",
+      "a29db313-6acc-4bae-867d-d49a139a2a96",
+      "7d4e3d43-cd8a-4c93-a358-a6ea14c60e53",
+      "1fa83187-d7b4-43ff-9ade-4b7b299f241b",
+      "769afb9b-870d-4c50-9ce3-c597089a5622",
+      "b7089f84-a3da-4ae8-85ee-ea96e78384c7",
+      "b7129d30-ea43-4ff8-aa02-ee85798d4d12",
+      "93d0c21c-908a-4851-943c-4f656916faf7"
+    ]
   },
   "about": {
     "description": "TUSD is a USD stablecoin that emphasizes high-frequency reserve verification. It provides daily reserve attestation reporting and also supports a Chainlink Proof of Reserve feed for public monitoring of reported reserve data.",

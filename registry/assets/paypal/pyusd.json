@@ -27,7 +27,40 @@
     "attestationFrequency": "Monthly"
   },
   "sources": {
-    "coingeckoId": "paypal-usd"
+    "coingeckoId": "paypal-usd",
+    "yieldPoolIds": [
+      "eaece65e-ffb2-4631-a95e-7f267cb2f1ba",
+      "d118f505-e75f-4152-bad3-49a2dc7482bf",
+      "fa55aa2b-e244-4ce4-ab00-9e96b39df32b",
+      "995b269a-8409-4c55-b97e-868f443b432e",
+      "67e98cc5-1d63-4351-a361-8adaa3955cb7",
+      "66bbe7c0-f052-4d63-9d0f-2a47e283d3cd",
+      "99203560-4a69-4a67-9dbc-70b78a68a2b9",
+      "5147b468-e863-45fb-a8d6-592f413f24c6",
+      "4c87b4d3-3bfc-422e-b2e7-a8178d9ab2f1",
+      "14681aee-05c9-4733-acd0-7b2c84616209",
+      "93a073c9-0870-44a2-a5a6-d6091573be08",
+      "bea9d677-edb6-4afc-81ec-47a63f795210",
+      "01146cce-9140-4e03-9a2e-82c99ccc42f1",
+      "443f0162-635e-493c-bc2b-4985f8f790e3",
+      "ead3bca3-40b4-4a5d-809a-2b5e997a4f65",
+      "47fa5208-3236-43c9-84a4-ab3f2cdcd42a",
+      "95e65933-57eb-4f78-82d8-52f0f8b24804",
+      "8f331633-47cd-4ee6-a231-e0dba8978f9a",
+      "dc5f53bf-64ad-4a42-9a0e-7b1535553f15",
+      "42ad9489-34bc-4419-bf98-39d7f48bec71",
+      "78b0e621-7e39-412f-9e38-8171ec7284d5",
+      "8298e97f-83bf-4bc2-a853-f0735aab802d",
+      "6edcbfbe-30fd-4b36-a9d0-020d6333514f",
+      "e1fa7e55-6795-4e0f-bd5a-0f67d0d9d120",
+      "5739a323-b835-48d4-8d4b-80b6c2bc70a3",
+      "cfed75d4-11f4-466f-9195-81df4213798b",
+      "ace01b44-f418-4aaa-a9e9-bf3230ecc241",
+      "2e3614b4-aed0-48ac-955f-fea1039ce30d",
+      "96923c5e-d3ac-475b-bec0-b2f4dd03d63e",
+      "74619a87-d52f-45b7-b67d-4e5ac0789e78",
+      "5b336391-6a8e-4f11-b1f5-780b295baafb"
+    ]
   },
   "about": {
     "description": "PYUSD is PayPal USD, issued by Paxos. Issuer disclosures describe PYUSD as a USD-redeemable stablecoin backed by U.S. dollar deposits and cash equivalents, including U.S. Treasury securities, with monthly reserve composition reporting and independent attestation reporting.",

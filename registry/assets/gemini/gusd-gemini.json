@@ -27,7 +27,12 @@
     "attestationFrequency": "Monthly"
   },
   "sources": {
-    "coingeckoId": "gemini-dollar"
+    "coingeckoId": "gemini-dollar",
+    "yieldPoolIds": [
+      "ce225565-9411-4e75-afdb-b0df6e14066b",
+      "9c91165e-1575-4f97-bfbb-287d6a5d2735",
+      "54ef1d4f-8650-4b05-a253-e019e6eec2ab"
+    ]
   },
   "about": {
     "description": "GUSD is Gemini’s USD stablecoin designed for 1:1 redemption. Gemini states it is issued by a regulated entity and that outstanding tokens are supported by reserves held in cash or cash equivalents, with monthly third-party reserve examinations published for public review.",

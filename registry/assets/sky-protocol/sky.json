@@ -25,7 +25,18 @@
     "yieldBearing": false
   },
   "sources": {
-    "coingeckoId": "sky"
+    "coingeckoId": "sky",
+    "yieldPoolIds": [
+      "592b3ae7-1a5c-4e80-90c4-99e25c160f7e",
+      "347e4a35-892c-4b55-b8ba-f1473409c91c",
+      "ed6e98fd-4b80-4a20-be23-ada51a647547",
+      "dd44a83e-12b1-406c-9dff-8f082dc793d4",
+      "4b51822a-05dc-4fa8-ae06-963ba010d7e1",
+      "0238a455-cd4d-448e-9529-0d0d0beee660",
+      "7fe1b874-94b1-4772-b1bd-fffc716699b7",
+      "2d087d1c-84d7-4e1b-9e40-9298094dba6f",
+      "ee77ea57-d806-4832-ae64-2ee1706fa086"
+    ]
   },
   "about": {
     "description": "SKY is the governance token for the Sky Protocol ecosystem, which includes a decentralized stablecoin stack and savings products supported by diversified collateral. The system’s collateral framework has historically included both crypto collateral and real-world asset exposure through structured allocations, aiming to support scalable stablecoin liquidity with risk-managed backing. SKY governs parameters such as collateral policy, risk limits, and incentive design across the Sky ecosystem.",

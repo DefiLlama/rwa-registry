@@ -26,7 +26,25 @@
     "attestationFrequency": "Monthly"
   },
   "sources": {
-    "coingeckoId": "ripple-usd"
+    "coingeckoId": "ripple-usd",
+    "yieldPoolIds": [
+      "e107a3d2-6097-434e-bfed-8e6f5cdcca14",
+      "85fc6934-c94d-4ebe-9c60-66beb363669f",
+      "73e933a7-73b2-43ec-b1e9-d5d1d42ce2de",
+      "b9c2067b-f491-4dfa-bedf-59194c4c7aa0",
+      "408a92e7-0150-4b19-b5e4-e8261b248d16",
+      "ee5d5899-3a82-4660-ba9f-a1d8cc7dbd5b",
+      "e91e23af-9099-45d9-8ba5-ea5b4638e453",
+      "d826a92b-2bd2-4fae-8483-db1ef8888aee",
+      "6a577feb-5115-4185-9b55-f9c02bca9399",
+      "4df8be17-df55-47cf-b72b-6ef844f62200",
+      "ee131494-d9fe-4bbe-9238-615de767328d",
+      "1b238618-4771-453f-977f-8e04a9d1ee70",
+      "674cd21d-9b95-44b5-9b1e-e2b3e63236bb",
+      "498b3203-4c25-409c-a69a-0cf35ad67a9e",
+      "dc6cdd0d-d52e-4a14-aaed-16b0447b157a",
+      "ad551c47-a086-43d5-bd0a-c386773907e4"
+    ]
   },
   "about": {
     "description": "RLUSD is Ripple’s USD stablecoin issued across XRP Ledger and Ethereum. Ripple states RLUSD is backed by a segregated reserve of cash and cash equivalents, and its transparency program includes monthly independent CPA attestations covering RLUSD in circulation and reserve composition.",

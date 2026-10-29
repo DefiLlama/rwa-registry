@@ -25,6 +25,13 @@
     "yieldBearing": false,
     "attestationFrequency": "Monthly"
   },
+  "sources": {
+    "yieldPoolIds": [
+      "6da6f63f-8ebb-49ab-9125-c5a429d49c98",
+      "1bc3e824-810f-4a05-bb65-bb43f515f16f",
+      "7ae60661-3dac-4900-9ae3-88d3d0b37dab"
+    ]
+  },
   "about": {
     "description": "GOLD is Oro Finance’s tokenized gold product, designed to represent fully backed vaulted bullion in a transferable format. The product emphasizes 1:1 physical backing, custody with institutional vault providers, and a reserve verification cadence intended to demonstrate that the circulating supply is covered by audited holdings. It targets users who want gold exposure that can move between wallets and DeFi venues while remaining anchored to physical metal in storage.",
     "logo": "https://icons.llamao.fi/icons/rwa/gold.png?w=48&h=48",

@@ -27,7 +27,21 @@
     "attestationFrequency": "Weekly (cash verification); Quarterly & Annual (statutory audit)"
   },
   "sources": {
-    "coingeckoId": "stasis-eurs"
+    "coingeckoId": "stasis-eurs",
+    "yieldPoolIds": [
+      "e95cadc3-0ea7-4932-9b80-a8baba80eff4",
+      "3c5a46f4-4586-4c06-b2e5-6676733de7b2",
+      "4dbfda50-4474-4ef1-9f59-b5cf5ad7413c",
+      "efa8dc4f-03df-4633-95bf-db188292d9a3",
+      "2563e1a8-a8da-4b8d-9598-ece8028b95ec",
+      "257941f5-0b07-47f0-853c-b4cc656a4f8b",
+      "7dd11dd0-ce13-4cd2-bc1e-230224289337",
+      "d0f19455-628f-4634-a997-886050c17ea5",
+      "f186d87c-ea0e-42b9-b234-92f231ac909f",
+      "c82677d9-1003-4ec1-ab75-87945020e4a8",
+      "e988c7fd-ef5c-47cb-b59a-fb86870b775a",
+      "e98be7f1-8d9e-4bf7-8a37-fafcd67d623d"
+    ]
   },
   "about": {
     "description": "EURS is STASIS’s euro-backed stablecoin, designed to track the euro through reserve-backed issuance and redemption. STASIS provides reserve transparency materials, including reserve statements and audit or verification artifacts intended to support verification of backing over time.",

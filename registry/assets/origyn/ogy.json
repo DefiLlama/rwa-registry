@@ -25,7 +25,11 @@
     "yieldBearing": false
   },
   "sources": {
-    "coingeckoId": "origyn-foundation"
+    "coingeckoId": "origyn-foundation",
+    "yieldPoolIds": [
+      "cb5e63fe-221b-4735-91e8-c5251693e511",
+      "4c788b73-89d9-4c17-9273-64572d8ad065"
+    ]
   },
   "about": {
     "description": "OGY is the utility and governance token of ORIGYN, a provenance and authenticity infrastructure focused on high-value real-world assets such as luxury goods, art, and collectibles. ORIGYN centers on creating tamper-resistant digital certificates that track an item’s identity, history, and ownership, enabling verification and more credible secondary-market trading. OGY is used across the ecosystem for participation, incentives, and governance over how certification and marketplace primitives evolve.",

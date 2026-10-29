@@ -27,6 +27,11 @@
   },
   "sources": {
     "coingeckoId": "blackrock-usd-institutional-digital-liquidity-fund",
+    "yieldPoolIds": [
+      "1f8d795e-ee42-4ca6-baa1-706e9105b900",
+      "fbac01e6-1f12-4758-8aad-84abc785e4a5",
+      "6bb5d467-65bf-4402-b015-21b8f47ab82d"
+    ],
     "identifiers": [
       {
         "scheme": "isin",

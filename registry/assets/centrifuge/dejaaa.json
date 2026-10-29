@@ -28,6 +28,12 @@
     "yieldBearing": true,
     "attestationFrequency": "Not publicly disclosed (per-pool basis)"
   },
+  "sources": {
+    "yieldPoolIds": [
+      "a354ddc4-91b2-441c-807e-40b774920445",
+      "1013bd79-ab43-46a4-a889-bc36200b284a"
+    ]
+  },
   "about": {
     "description": "deJAAA is a wrapper designed to make JAAA more usable across DeFi venues by packaging fund exposure into a DeFi-oriented format while keeping the underlying economics tied to the Janus Henderson Anemoy AAA CLO Fund. It is designed for collateral and liquidity use cases that benefit from standardized DeFi token handling, while relying on the underlying JAAA fund’s holdings transparency and fund-level reporting for reserve visibility.",
     "logo": "https://icons.llamao.fi/icons/rwa/dejaaa.png?w=48&h=48",

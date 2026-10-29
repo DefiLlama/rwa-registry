@@ -27,7 +27,23 @@
     "attestationFrequency": "Monthly (KPMG LLP; self-published portfolio reports discontinued)"
   },
   "sources": {
-    "coingeckoId": "paxos-standard"
+    "coingeckoId": "paxos-standard",
+    "yieldPoolIds": [
+      "6c2b7a5c-6c4f-49ea-a08c-0366b772f2c2",
+      "84dc03df-f8f6-45f7-8e95-767099156e97",
+      "e7414ac9-06ee-4e06-9571-900c82802716",
+      "b91387ff-4563-4d46-8e5d-3f685d057945",
+      "20ddfc9a-5fc5-4060-894f-84d57cc36a73",
+      "2b35e8d0-7707-43c0-8728-2aa9a05f4934",
+      "9ccb72c2-03e0-425b-8ebb-1ea60e8f8ade",
+      "ee9b9b5e-bf2f-4c57-817d-02fbba56ac79",
+      "ff225cd1-3277-4370-a970-6d17f38f575a",
+      "8a7543a7-7995-4559-8195-fa5342947bfb",
+      "260ca0d9-db10-438f-a3ef-7805a77e77b9",
+      "9133abd1-3183-47e1-842f-afde24290c41",
+      "ea49024e-942d-4e68-987a-9bd4bbe124c5",
+      "728b0a54-57bd-40b7-beff-967ac78f4fbc"
+    ]
   },
   "about": {
     "description": "USDP is Paxos’s USD stablecoin designed for 1:1 redemption. Paxos positions USDP as issued by a regulated entity, backed by cash and cash equivalents, with monthly reserve reports intended to disclose reserve composition and coverage.",

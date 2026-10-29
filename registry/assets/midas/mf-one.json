@@ -27,7 +27,10 @@
     "attestationFrequency": "Continuous (Midas Attestation Engine, Chainlink + vlayer)"
   },
   "sources": {
-    "coingeckoId": "midas-mf-one"
+    "coingeckoId": "midas-mf-one",
+    "yieldPoolIds": [
+      "c8cd5399-a721-45c4-86c4-047aac57e872"
+    ]
   },
   "about": {
     "description": "mF-ONE is a tokenized certificate issued by Midas designed to track the performance of Fasanara Capital’s F-ONE strategy, which blends private credit style exposures with additional diversified sleeves as structured by the manager. It is positioned as a way to access institutional credit returns through a transferable token format, with integrations that allow the position to be used as collateral in onchain lending markets.",

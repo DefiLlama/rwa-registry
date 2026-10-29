@@ -24,7 +24,11 @@
     "attestationFrequency": "Monthly"
   },
   "sources": {
-    "coingeckoId": "kuma-protocol-wrapped-frk"
+    "coingeckoId": "kuma-protocol-wrapped-frk",
+    "yieldPoolIds": [
+      "c266e9e5-65f7-412f-9730-5a348dfdeb59",
+      "a08695e4-a616-4332-99c2-dc5c05160ffa"
+    ]
   },
   "about": {
     "description": "KUMA is a protocol that packages short-dated sovereign fixed-income exposure into onchain instruments designed to earn yield while remaining more accessible than traditional bond rails. It uses structured products that represent government-bill style risk and return, aiming to make sovereign yield usable within onchain liquidity, savings, and collateral workflows.",

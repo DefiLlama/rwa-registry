@@ -27,7 +27,20 @@
     "attestationFrequency": "Not publicly disclosed"
   },
   "sources": {
-    "coingeckoId": "theo-short-duration-us-treasury-fund"
+    "coingeckoId": "theo-short-duration-us-treasury-fund",
+    "yieldPoolIds": [
+      "358f48dd-d161-4eb2-b256-6808fe80dacb",
+      "a323a51b-a18e-4821-99b8-489396913454",
+      "3b845582-8ddc-441c-9011-5b3bcc3f5f6b",
+      "4354c23a-834a-41e1-b4aa-e438175a6763",
+      "a4096510-2caa-4629-a577-9f3ebd29ce1e",
+      "7605d60d-7654-4472-911e-f419efbb2700",
+      "6bc0ba8d-4c5d-4d34-bd66-990692f75c3f",
+      "05309d18-3255-46a7-99d1-4eeb7d7fd3cc",
+      "ac5217ce-934f-4ad3-a6da-66bdb0f0b9fb",
+      "afb75ddc-fdc1-4e11-bf1f-da1ea8918018",
+      "fae0ac23-be87-44b7-80d1-1d314fc4751d"
+    ]
   },
   "about": {
     "description": "thBILL is a tokenized Treasury-bill product designed to give onchain users access to short-duration U.S. government yield through a single, transferable position. It is positioned as a cash-management building block that can be held directly or integrated into DeFi strategies, with tooling focused on portfolio visibility, liquidity access, and distribution.",

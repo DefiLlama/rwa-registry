@@ -26,7 +26,14 @@
     "attestationFrequency": "Monthly (Apex fund administrator)"
   },
   "sources": {
-    "coingeckoId": "onyc"
+    "coingeckoId": "onyc",
+    "yieldPoolIds": [
+      "cb268c37-d05c-4f1e-a889-ace0488f46e0",
+      "92d30c54-b6c6-436d-b93d-c17f09268d0a",
+      "233415e5-e0cf-49b8-8a70-975aaa8689a1",
+      "6fdd4fb3-f911-42da-969c-77cb8550d651",
+      "21f9fe4b-8bab-42b4-9bf9-3d18fbb90763"
+    ]
   },
   "about": {
     "description": "ONyc is a liquid, composable, yield‑bearing dollar asset issued by OnRe that provides direct exposure to property and casualty reinsurance yield. ONyc represents a proportional share of a regulated segregated account held in a legally ring‑fenced structure in Bermuda and used exclusively to collateralize reinsurance underwriting. The account earns contractual premium income and is adjusted for claims, and ONyc’s NAV updates to reflect that performance (plus collateral returns). ONyc is designed to be driven by real‑world cash flows rather than market‑cycle-dependent incentive mechanics, and it does not rely on staking, leverage, delta‑neutral strategies, liquidity mining, or funding‑rate dynamics. It is not a stablecoin, corporate credit, or a tokenized hedge fund.",

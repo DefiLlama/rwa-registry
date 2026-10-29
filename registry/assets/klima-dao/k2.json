@@ -24,7 +24,11 @@
     "yieldBearing": false
   },
   "sources": {
-    "coingeckoId": "klima-dao-2"
+    "coingeckoId": "klima-dao-2",
+    "yieldPoolIds": [
+      "6ce6646c-c1e4-49fc-8dc6-458519e9881d",
+      "ca95ba5d-c0f0-4eed-bcb4-9c2fdc6f32d9"
+    ]
   },
   "about": {
     "description": "K2 is the governance and incentive token of Klima Protocol’s dual-token architecture on Base. It helps coordinate emissions and liquidity incentives and complements kVCM, the carbon-backed asset used by the protocol for acquiring and retiring carbon credits.",

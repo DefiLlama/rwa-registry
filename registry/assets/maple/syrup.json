@@ -24,7 +24,14 @@
     "yieldBearing": false
   },
   "sources": {
-    "coingeckoId": "syrup"
+    "coingeckoId": "syrup",
+    "yieldPoolIds": [
+      "03dabd4a-6d0e-4a6b-a9ea-10e348ef8a0f",
+      "7f1c4126-3998-4334-9ce3-c640e869d682",
+      "7113cbce-92d1-469c-9fe4-9dbfa9f1618e",
+      "987c68a4-0b31-41d4-8884-03503862ee42",
+      "9c71b73c-3158-41f2-8465-2550aa44b4c1"
+    ]
   },
   "about": {
     "description": "SYRUP is the ecosystem token for Maple, an onchain credit and asset-management platform that structures curated lending and yield products. Maple is known for professionally managed pools with defined underwriting and risk frameworks, targeting borrowers and strategies that resemble private credit and structured lending rather than overcollateralized retail DeFi. SYRUP aligns governance and incentive design across the platform’s pools and product suite, including liquidity growth and protocol economics.",

@@ -26,6 +26,11 @@
     "yieldBearing": true,
     "attestationFrequency": "Not publicly disclosed"
   },
+  "sources": {
+    "yieldPoolIds": [
+      "70b0cdb6-91eb-44cd-a478-eb7b6fe91cba"
+    ]
+  },
   "about": {
     "description": "ULTRA is a tokenized ultra-short Treasury strategy designed to deliver stable yield and high liquidity through regulated fund operations paired with onchain settlement. It is positioned for treasury allocation and collateral use cases where NAV-based accounting and conservative duration risk are preferred, enabling scalable onchain cash management.",
     "logo": "https://icons.llamao.fi/icons/rwa/ultra.png?w=48&h=48",

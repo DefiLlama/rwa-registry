@@ -28,7 +28,21 @@
     "attestationFrequency": "Regular (periodic)"
   },
   "sources": {
-    "coingeckoId": "vnx-swiss-franc"
+    "coingeckoId": "vnx-swiss-franc",
+    "yieldPoolIds": [
+      "8f3e0a00-3b1c-4e87-ac0d-117c3e057248",
+      "b530516f-3574-44f0-be80-f6dbe6597304",
+      "4f407ce1-6415-4729-9917-5c6057344618",
+      "0305fcf7-ae22-4d91-a1d1-eb8da4ce9109",
+      "7cebdd53-f8b1-4d1c-a079-45c540d409dd",
+      "3f767229-77ad-486f-a2f1-0d7aa2914cb7",
+      "692b0fe5-cd44-4f1c-be07-d6ccb434b4e0",
+      "3f95cd27-888e-4ffd-a6d8-7886b76cc6a9",
+      "9e9f5ab2-173f-4c3b-8fa7-cd07290133a2",
+      "5ab4ea25-c7a3-4612-9b31-ba13d1fa88ce",
+      "43cbdcd0-3504-43df-be6e-f04260ac8a78",
+      "3399541c-0d1c-4f0e-803f-ea498478acee"
+    ]
   },
   "about": {
     "description": "VNX Swiss Franc (VCHF) is a fully regulated stablecoin referencing the Swiss franc. The token is issued by VNX Global Ltd., which is licensed to conduct digital asset business activities under a Class M digital assets business licence issued by the Bermuda Monetary Authority. Each VCHF token is designed to be fully backed 1:1 by Swiss francs and redeemable against the underlying Swiss franc reserve",

@@ -27,7 +27,31 @@
     "attestationFrequency": "Monthly"
   },
   "sources": {
-    "coingeckoId": "first-digital-usd"
+    "coingeckoId": "first-digital-usd",
+    "yieldPoolIds": [
+      "6679b470-7a53-4b96-88c8-262ea927b4b5",
+      "b9f24e0c-95ad-4c97-9a5c-7a3943e99b7d",
+      "c7704352-eb71-47dd-9a81-d57f7cd60c7e",
+      "4734c292-5e38-4962-b7a9-e1e265254c1b",
+      "28436660-b165-4d03-a9fe-b7ba54af3a56",
+      "56f32a9d-0c7f-4bfa-a599-eadce239765c",
+      "dea5bf19-4b1d-4453-bf91-48c187ff8727",
+      "db8a595d-e43d-4a78-979e-6c4b1fb877d2",
+      "5be28493-8a3c-492c-a3d4-494ae1fecf7e",
+      "66239a2d-3fd1-458b-b5b5-ca4a058b6061",
+      "50f19aad-d71d-4218-8d63-8c6bfcd153c1",
+      "bfbf68da-07eb-48e3-b1ad-271bc4f22959",
+      "a7b9339b-7dc0-4547-b2ea-c099616ee4c3",
+      "be81a5e4-2edd-486e-99c6-9236fe08ef83",
+      "b2843992-7f29-4f7e-b5ab-c213848f48c4",
+      "e76512bf-bd4d-4a2d-bc55-55f4adffe3ef",
+      "12fe2273-f1fa-4b1d-84f4-8464ff914a80",
+      "f6adc97a-8d58-431d-8013-8d8b1bc99e6d",
+      "f842b1cd-0f9f-4540-9ec4-c0b5a30b8d48",
+      "adb23842-5815-473e-a482-9cf540539103",
+      "081ee482-1cdd-4cb2-a7a1-fa4219812a09",
+      "a67fa3d8-902e-42d7-ad2b-83c768e506b3"
+    ]
   },
   "about": {
     "description": "FDUSD is a USD stablecoin issued by First Digital Labs. The issuer states FDUSD is redeemable 1:1 for U.S. dollars and backed by cash and cash equivalents, with reserve reporting and independent attestation provided for verification.",

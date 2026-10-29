@@ -26,7 +26,12 @@
     "attestationFrequency": "Periodic"
   },
   "sources": {
-    "coingeckoId": "comtech-gold"
+    "coingeckoId": "comtech-gold",
+    "yieldPoolIds": [
+      "46972e30-7fe5-4b0a-a111-af437f160871",
+      "3f59ea86-9309-4bf0-b9c5-36553881a065",
+      "32fac20d-9d9b-47ba-a81b-ba828291b52d"
+    ]
   },
   "about": {
     "description": "ComTech Gold (CGO) is a tokenized gold product designed to represent physical gold held with a custody provider, marketed for transfer and settlement while keeping backing tied to vaulted bullion. The issuer provides a transparency section intended to support verification of reserves and related documentation for outstanding supply versus custodied gold.",

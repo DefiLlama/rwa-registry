@@ -25,7 +25,11 @@
     "attestationFrequency": "Not publicly disclosed"
   },
   "sources": {
-    "coingeckoId": "anzen-finance"
+    "coingeckoId": "anzen-finance",
+    "yieldPoolIds": [
+      "46560a92-4eae-47c9-b1dd-934df9c23a5c",
+      "8410bda4-8bdb-4f8e-8a87-6e1f2b5a8314"
+    ]
   },
   "about": {
     "description": "ANZ is the utility and governance token for Anzen Finance, the issuer behind the USDz stablecoin and related yield products. The protocol centers on bringing cash-flowing private credit exposures onchain, with USDz positioned as a dollar-linked asset supported by a diversified collateral portfolio. ANZ aligns incentives across liquidity, governance, and protocol economics, including vote-escrow style participation.",

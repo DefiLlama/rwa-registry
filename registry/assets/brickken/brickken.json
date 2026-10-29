@@ -27,7 +27,10 @@
     "yieldBearing": false
   },
   "sources": {
-    "coingeckoId": "brickken"
+    "coingeckoId": "brickken",
+    "yieldPoolIds": [
+      "945b0ce8-df62-4d91-8b33-3ffe5380056c"
+    ]
   },
   "about": {
     "description": "Brickken is tokenization infrastructure designed to help issuers structure, launch, and manage tokenized offerings for real-world assets, covering workflows such as issuance setup, investor onboarding integrations, and ongoing lifecycle administration. BKN is the ecosystem token used across the Brickken suite for fees and participation incentives tied to platform usage.",

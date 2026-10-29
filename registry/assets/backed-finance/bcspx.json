@@ -27,6 +27,10 @@
   },
   "sources": {
     "coingeckoId": "backed-cspx-core-s-p-500",
+    "yieldPoolIds": [
+      "b8b26441-4a0c-47c4-aa62-913f9e731018",
+      "e5dbbf55-7502-41d5-927c-9ae84519d24f"
+    ],
     "identifiers": [
       {
         "scheme": "isin",

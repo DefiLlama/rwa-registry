@@ -24,7 +24,10 @@
     "yieldBearing": false
   },
   "sources": {
-    "coingeckoId": "goldfinch"
+    "coingeckoId": "goldfinch",
+    "yieldPoolIds": [
+      "de1f9212-286f-42f9-8a4b-6536e0ceb359"
+    ]
   },
   "about": {
     "description": "GFI is the governance and utility token for Goldfinch, a private credit protocol that channels crypto liquidity to real-world borrowers via underwritten credit lines and lending pools. The system is built around borrower performance, repayment behavior, and risk management rather than overcollateralized crypto positions, with loan originators and auditors coordinating access to pools. GFI is used for governance and incentive alignment across the Goldfinch ecosystem.",

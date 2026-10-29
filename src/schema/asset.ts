@@ -45,6 +45,8 @@ export const asset = defineTable({
     coingeckoId: optional(text),
     // The sheet's protocol ids of an asset with no issuer role to hold them; the build publishes them as issuerProtocolIds.
     protocolIds: optional(z.array(protocolId)),
+    // The DefiLlama yields pool ids the server's native-yield match may use as an override.
+    yieldPoolIds: optional(z.array(z.uuid())),
     identifiers: optional(z.array(identifier)),
     // The sheet's ISIN cell as written where it holds more than its codes; the server published the cell.
     isinNote: optional(text),
@@ -101,7 +103,7 @@ export const asset = defineTable({
       'accessRegime',
       'attestationFrequency',
     ],
-    sources: ['coingeckoId', 'protocolIds', 'identifiers', 'isinNote', 'llamaAttestationProof'],
+    sources: ['coingeckoId', 'protocolIds', 'yieldPoolIds', 'identifiers', 'isinNote', 'llamaAttestationProof'],
     about: ['description', 'logo', 'registryInfo', 'links'],
     review: ['activeAumReviewed', 'suspicious', 'delisted', 'llamaGradeAttestation'],
   },

@@ -26,7 +26,20 @@
     "attestationFrequency": "Monthly"
   },
   "sources": {
-    "coingeckoId": "mountain-protocol-usdm"
+    "coingeckoId": "mountain-protocol-usdm",
+    "yieldPoolIds": [
+      "ce3021c9-af52-46b0-a61a-3e92acdfd79b",
+      "e3dc3d1e-d095-4372-bcd9-6dc187c7b4bf",
+      "eb21dc22-0b56-4dad-90df-331373f26d34",
+      "c929657b-fc8e-4444-b04a-bebe18d8fac0",
+      "d66c9dc4-6ce4-41ba-b446-edb89e19cce6",
+      "2162ebbd-b442-45d6-a949-62394b2e8986",
+      "456cdfbc-ceb3-4c6a-9e70-7da74517d291",
+      "d641a839-6aa9-4040-a956-ff38ac25827a",
+      "ad187e8e-87e1-4ad4-b650-48500e3e7cb9",
+      "74490b7c-c03f-4209-a96c-ddb8f9a0649e",
+      "80a8bf67-d49e-4732-8718-db61a062ccfe"
+    ]
   },
   "about": {
     "description": "USDM is a yield-bearing USD stablecoin designed for cash management where holders receive a return sourced from a conservative reserve portfolio. It is positioned as a stable-yield building block for DeFi and treasury use cases, supported by recurring third-party reserve attestations intended to demonstrate reserve coverage and composition.",

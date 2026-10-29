@@ -27,7 +27,30 @@
     "attestationFrequency": "Monthly (KPMG LLP, since Feb 2025)"
   },
   "sources": {
-    "coingeckoId": "pax-gold"
+    "coingeckoId": "pax-gold",
+    "yieldPoolIds": [
+      "bb730db9-6de4-4450-90f6-d4e7ff27ccb4",
+      "c12c0174-6fbf-4286-9e71-d5770f7141cf",
+      "c1442958-9db9-45c1-a860-912dfc30fc21",
+      "40ac1aaf-26f1-4a04-b908-539f37672ef2",
+      "af5844bd-59e8-4dbf-be0c-f855a860a426",
+      "5cb413e1-6478-4b0c-9bd9-c817b8eb035a",
+      "dab77475-487b-418e-bf9e-7fc337a51de1",
+      "be2d3040-1888-4b9a-936c-becabab6009f",
+      "86ba0bac-8c30-49e6-9a64-9657d4bfed75",
+      "55ca984e-eb22-4ab2-8be7-656288b2022b",
+      "ab009818-418c-4b4a-a454-75407412bb02",
+      "83039080-185e-41a6-ba8f-514fcc6f6907",
+      "aee73464-6081-4dcd-94c8-4f715878320b",
+      "459e731e-60a0-45fa-8b49-092468ab14f5",
+      "84794337-7f7a-45b2-b86e-84072cb0f076",
+      "d0a3c2c4-cb25-4ed6-9f4b-b41307f16348",
+      "b013a4b4-0631-474b-90db-237a49c9245c",
+      "88e05acb-f3de-4d82-b5cf-915cad5a8161",
+      "f45020d0-7f3d-4da2-8432-155a9a4e1aa1",
+      "a6deee82-c970-4821-ad6c-745defadcfb0",
+      "fa9b6a9e-c30a-46fd-b08f-bd59e9b90223"
+    ]
   },
   "about": {
     "description": "PAX Gold (PAXG) is a tokenized gold product issued by Paxos, designed so each token corresponds to allocated physical gold held in custody. It is built for fractional ownership and transferability while maintaining backing in LBMA-quality bullion, supported by recurring transparency reporting intended to reconcile token supply and underlying gold holdings.",

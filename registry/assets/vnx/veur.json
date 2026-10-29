@@ -28,7 +28,18 @@
     "attestationFrequency": "Regular (periodic)"
   },
   "sources": {
-    "coingeckoId": "vnx-euro"
+    "coingeckoId": "vnx-euro",
+    "yieldPoolIds": [
+      "4474e130-e889-4ad9-996b-7ceb7efbbfc0",
+      "f88d192d-7cec-4a60-aff0-71ed4fe4ccd9",
+      "d4610c9b-cab1-47f8-b282-c26a47ee4984",
+      "44198fe0-7189-4e65-96ce-dd26d48635d2",
+      "5b3d524f-35a9-409b-b5f2-e27d06a32acd",
+      "6cb320bb-0112-487a-8155-92f5e4b1bb8f",
+      "f3b13695-58d5-45fa-a88a-3911aa8b43ba",
+      "4bd60c1f-1202-405a-9b44-58f0c7fa0fbe",
+      "d63dcb54-38f8-4204-8e58-6e29fae3d30a"
+    ]
   },
   "about": {
     "description": "VEUR exchange services provided by VNX Commodities AG were fully discontinued on 22 May 2026. Existing holders were asked to address any arrangements relating to their holdings by that date",

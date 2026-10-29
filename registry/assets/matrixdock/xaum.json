@@ -26,7 +26,13 @@
     "attestationFrequency": "Biannual"
   },
   "sources": {
-    "coingeckoId": "matrixdock-gold"
+    "coingeckoId": "matrixdock-gold",
+    "yieldPoolIds": [
+      "ea11be00-2f1a-4c8c-93d4-345769aea238",
+      "57313a36-1a31-48d6-965a-51bdb00213e6",
+      "c03f4a14-b0f0-4b91-a184-ce82f28332b3",
+      "a8d6bfc5-a8dd-404b-9963-8a8369219bae"
+    ]
   },
   "about": {
     "description": "XAUm is a tokenized gold product built for bar-level transparency, designed so holdings map to allocated physical bullion with a lookup workflow that lets holders verify backing at the bar level. It is positioned for institutional-grade gold exposure with an emphasis on reserve visibility, independent physical audits, and custody with established vault providers.",

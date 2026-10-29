@@ -24,7 +24,12 @@
     "yieldBearing": true
   },
   "sources": {
-    "coingeckoId": "staked-usdt"
+    "coingeckoId": "staked-usdt",
+    "yieldPoolIds": [
+      "11e29b13-2042-403a-ab27-d27f23b37c33",
+      "e1b9420a-30d4-4c27-8e01-2d6cd240e1b9",
+      "9ee8c46f-4ab1-4970-8eb4-ab8049b1813f"
+    ]
   },
   "about": {
     "description": "stUSDT is a yield-bearing receipt token minted when users stake USDT into the stUSDT protocol. The token balance is designed to increase over time via rebases that reflect portfolio earnings, targeting a price that stays close to USDT while distributing RWA-linked yield. It is commonly used as a transferable, compounding stable-yield position rather than a cash-backed stablecoin.",

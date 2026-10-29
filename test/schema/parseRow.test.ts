@@ -31,6 +31,15 @@ describe('parseRow', () => {
     expect(errors).toEqual([expect.objectContaining({ path: 'sources.identifiers[0].source' })]);
   });
 
+  it('keeps the yields pool ids and fails one that is not a UUID', () => {
+    const pools = ['fda10983-9dcd-49e9-9332-b227dc244d5d', 'dde4e536-0f20-4a73-b9b4-42ec2e24dc2b'];
+    const parsed = parseRow('asset', tslaxWith({ yieldPoolIds: pools }), file, { vocabularies });
+    const errors = parseRow('asset', tslaxWith({ yieldPoolIds: [pools[0], 'cana-pool'] }), file, { vocabularies });
+
+    expect(parsed).toMatchObject({ sources: { yieldPoolIds: pools } });
+    expect(errors).toEqual([expect.objectContaining({ path: 'sources.yieldPoolIds[1]' })]);
+  });
+
   it('fails an identifier marked verified that names no source', () => {
     const identifiers = [{ scheme: 'isin', value: 'US88160R1014', source: null, verified: true }];
     const errors = parseRow('asset', tslaxWith({ identifiers }), file, { vocabularies });

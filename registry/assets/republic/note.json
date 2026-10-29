@@ -25,7 +25,10 @@
     "yieldBearing": false
   },
   "sources": {
-    "coingeckoId": "republic-note"
+    "coingeckoId": "republic-note",
+    "yieldPoolIds": [
+      "f37dffea-05d1-4f3e-8a83-f5436a9106c7"
+    ]
   },
   "about": {
     "description": "Republic Note is a structured investment product linked to Republic’s broader venture ecosystem, designed to provide holders exposure to a revenue-sharing style payout stream under defined program terms. The product is distributed through Republic’s regulated offering workflow, with offering documents and legal terms surfaced directly on the product page for investor review.",

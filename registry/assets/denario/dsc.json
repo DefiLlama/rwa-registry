@@ -25,6 +25,11 @@
     "yieldBearing": false,
     "attestationFrequency": "Semi-annual"
   },
+  "sources": {
+    "yieldPoolIds": [
+      "0dc75bea-cf7c-4a87-a89b-006770ae0d6b"
+    ]
+  },
   "about": {
     "description": "Denario Silver Coin (DSC) is positioned as a tokenized claim on physical silver granules, with each unit pegged to one ounce of 999.9 fine silver held in Swiss storage. The product is designed for onchain exposure to spot silver without requiring direct handling of bullion, while keeping the unit-of-account tied to a fixed weight of metal. Reserve verification is supported through published inventory audit reporting.",
     "logo": "https://icons.llamao.fi/icons/rwa/dsc.png?w=48&h=48",

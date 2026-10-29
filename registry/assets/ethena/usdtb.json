@@ -27,7 +27,19 @@
     "attestationFrequency": "Monthly"
   },
   "sources": {
-    "coingeckoId": "ethena-ustb"
+    "coingeckoId": "ethena-ustb",
+    "yieldPoolIds": [
+      "baee0253-eb6e-4a08-a579-a2acd4f034b2",
+      "de1e601d-d589-4a66-91b7-d4ac8bdcecac",
+      "a3a7fb56-b19a-4dc8-a3f1-285cb38c5885",
+      "fa91389d-ab0f-43e5-8921-9c9a462d97d2",
+      "0ab47792-0cc7-41e8-9438-8872c3c37fef",
+      "9696b3ec-da4a-4081-8311-3a48e538fd11",
+      "13d3a428-6e93-4939-85d1-682ca3f3852f",
+      "05d0b144-35ae-4d5d-b8a9-809494265c1c",
+      "057bab32-26e7-414b-ad95-4debda8e887f",
+      "f1f5a17d-2c8b-4d84-bf78-ea12d5d43dbb"
+    ]
   },
   "about": {
     "description": "USDtb (USDTB) is a USD stablecoin issued by Anchorage Digital Bank in partnership with Ethena Labs. Anchorage publishes monthly reserve attestations prepared by Deloitte under AICPA attestation standards. The reserve reporting covers assets held for USDtb relative to USDtb outstanding at the report date.",

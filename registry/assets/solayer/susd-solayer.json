@@ -25,7 +25,29 @@
     "yieldBearing": true
   },
   "sources": {
-    "coingeckoId": "solayer-usd"
+    "coingeckoId": "solayer-usd",
+    "yieldPoolIds": [
+      "fa740a7c-430b-4521-8890-22b22e601be6",
+      "5eb84bc0-3c50-473c-adab-2ce33a3682e5",
+      "68206090-8f0a-405c-8206-ab0c7defa3dc",
+      "d448cf9d-9dcb-4d3f-9a7a-e750ddb870fa",
+      "38b93f9e-c119-4550-806f-f8f7a315a575",
+      "bd3149be-ddd0-40e2-a75d-9d94cd1290bf",
+      "9d4a4ef4-dfb1-4c89-8daf-66aa70ca8586",
+      "4919a3fd-6766-4623-a702-20cbf3f2f0e8",
+      "9650b37d-b250-4b25-ba63-0a5d599e2fc7",
+      "7313896a-20da-41ea-a3b7-baca043685a8",
+      "95c05804-c6ce-4579-8f47-849eade9283f",
+      "5f0b117f-310c-4d96-8a92-d92b796c464d",
+      "9221dffc-7e30-43e0-9c69-e32531faf58b",
+      "c10f1ec3-0826-4eb6-b535-f8339587b005",
+      "cd2d83dc-b1ae-4461-b11c-cd97bbefa951",
+      "b8c19da5-e439-4fd7-9a28-d5cf3a2184f5",
+      "15cbe783-dc40-4533-aa60-94b8d338aa7c",
+      "7f7052ee-b097-4cea-8be1-c6a58b6b5905",
+      "08f60b57-44e0-42ea-88ba-b5d159819ffa",
+      "d382c9a6-430b-4aaa-bf9a-2964a904d8eb"
+    ]
   },
   "about": {
     "description": "Solayer USD (sUSD) is a yield-bearing USD stablecoin on Solana. Solayer describes sUSD as backed by U.S. Treasury bills and structured so holders accrue Treasury-linked yield while using sUSD as a dollar-denominated settlement asset in Solana DeFi. Yield accrues using Solana Token-2022 interest-bearing mechanics.",

@@ -25,7 +25,14 @@
     "attestationFrequency": "Not publicly disclosed (on-chain carbon credit verification)"
   },
   "sources": {
-    "coingeckoId": "toucan-protocol-nature-carbon-tonne"
+    "coingeckoId": "toucan-protocol-nature-carbon-tonne",
+    "yieldPoolIds": [
+      "64b3bc15-50e6-4a56-bed1-7145bce162b8",
+      "31ea2566-a51d-44fa-909e-56309ca7173d",
+      "3bb5f2a9-2a69-485d-820f-daccf914bb3a",
+      "fa5e8e68-89c9-4b18-acba-4438ede5f44c",
+      "175d514f-ae4e-4682-9555-571c9a7c712f"
+    ]
   },
   "about": {
     "description": "NCT is Toucan’s pooled reference token focused on nature-based carbon credits. It is minted 1:1 when eligible project-specific carbon tokens are deposited into the Nature Carbon Pool and can be redeemed for underlying tokens under the pool’s rules and eligibility criteria.",

@@ -26,7 +26,14 @@
     "attestationFrequency": "Regular (periodic)"
   },
   "sources": {
-    "coingeckoId": "vnx-gold"
+    "coingeckoId": "vnx-gold",
+    "yieldPoolIds": [
+      "a26d57e4-7e35-4113-9e94-1f4c5127c34e",
+      "7a8ccf66-c2c2-45fc-b206-59225cdd91ff",
+      "38e307a9-7fea-4365-a968-ef46bdd333b9",
+      "0de20dae-61a8-418f-8cf3-3580f5f286aa",
+      "90b7d5cf-2d04-45e8-9e3b-d192186296ce"
+    ]
   },
   "about": {
     "description": "VNX Gold (VNXAU) is a tokenized gold product representing physical gold held in custody, with on-chain supply reconcilable against vaulted reserves. The token is now deployed on seven chains: Ethereum, Solana, Polygon, Stellar, Base, Tezos, and Etherlink. The issuer publishes a transparency page with circulation data and periodic third-party reserve reports. The most recent \"Gold Reserve Report on VNXAU-Gold Tokens\" is dated December 31, 2025, and a VNX Commodity Token smart contract security audit (v1.0.2) is also published.",

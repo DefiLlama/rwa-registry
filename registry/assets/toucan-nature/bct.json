@@ -25,7 +25,11 @@
     "attestationFrequency": "Not publicly disclosed (on-chain carbon credit verification)"
   },
   "sources": {
-    "coingeckoId": "toucan-protocol-base-carbon-tonne"
+    "coingeckoId": "toucan-protocol-base-carbon-tonne",
+    "yieldPoolIds": [
+      "3d2867c5-91b8-4bf9-86f7-b9b5ab063002",
+      "12396796-a41b-4da4-9de1-12a7fc771fba"
+    ]
   },
   "about": {
     "description": "BCT is Toucan’s pooled carbon reference token, minted 1:1 when eligible project-specific carbon tokens are deposited into the Base Carbon Pool. BCT can be redeemed for underlying carbon tokens under the pool’s rules and used for on-chain retirement.",

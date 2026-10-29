@@ -24,7 +24,12 @@
     "yieldBearing": true
   },
   "sources": {
-    "coingeckoId": "international-stable-currency"
+    "coingeckoId": "international-stable-currency",
+    "yieldPoolIds": [
+      "96cb74ae-4c8e-41e0-b659-daccbb55a7a2",
+      "cfbb649c-7188-4ee6-840e-c602937579fc",
+      "6fec08b5-7447-4e2c-9abf-a478920f9970"
+    ]
   },
   "about": {
     "description": "International Stable Currency (ISC) is presented as a basket-referenced stable asset designed to track the value of a diversified set of financial assets instead of a single fiat currency. The design aims to reduce exposure to any one currency’s inflation by referencing multiple asset classes.",

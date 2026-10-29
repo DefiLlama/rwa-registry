@@ -27,6 +27,20 @@
     "yieldBearing": true,
     "attestationFrequency": "Daily"
   },
+  "sources": {
+    "yieldPoolIds": [
+      "4b6d66f2-704a-4b97-885e-d71ebaa55e12",
+      "619788e6-31c3-4c9e-804b-10054b9cd7a3",
+      "8be26613-25bf-4fa2-b2cd-206975a9b389",
+      "87482230-5390-44a2-b54f-9510fd3ae6e5",
+      "f375d061-8cd0-4652-a03e-913f8372d38c",
+      "2390b74a-8e4d-4275-bb1e-cc8b9cb88174",
+      "aa0e1647-583f-4b82-a10a-e659f65263f6",
+      "f4c8b47c-1a28-450a-ab8e-eed15c884f14",
+      "3d5a0f12-4a68-4429-a109-df4a3fafddc5",
+      "accc1706-d001-44bb-9434-2c8b9a134e22"
+    ]
+  },
   "about": {
     "description": "Distributing (rebasing) form of USDY on Mantle, pegged to $1, with yield paid via additional mUSD tokens. Convertible to/from accumulating USDY on Mantle via the Ondo Token Converter.",
     "logo": "https://icons.llamao.fi/icons/rwa/usdy.png?w=48&h=48",
