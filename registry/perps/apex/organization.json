@@ -31,18 +31,7 @@
     "platformType": [
       "perp-venue"
     ],
-    "accessModel": "permissionless",
-    "primaryChain": "ethereum",
-    "chains": [
-      "ethereum",
-      "arbitrum",
-      "base",
-      "bsc",
-      "mantle"
-    ],
     "attestationFrequency": "N/A (Perp Venue)",
-    "marginSettlementAsset": "USDT (multi-chain via zkLink Nova)",
-    "parentPlatform": "apex-omni",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false,

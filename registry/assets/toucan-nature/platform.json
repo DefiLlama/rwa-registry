@@ -14,6 +14,7 @@
       "twitter": "https://x.com/ToucanProtocol",
       "docs": "https://docs.toucan.earth/",
       "linkedin": "https://www.linkedin.com/company/toucan-protocol",
+      "discord": "https://discord.com/invite/r8DZqeJMFE",
       "github": "https://github.com/ToucanProtocol"
     },
     "registryInfo": "Toucan Protocol GmbH (Berlin, Germany). Tokenization platform for voluntary carbon credits. Issues TCO2, BCT, NCT carbon-credit pools backed by retired carbon credits held in Verra registry. Launched 2021; partnered with KlimaDAO and others."
@@ -30,7 +31,6 @@
     "chains": [
       "polygon"
     ],
-    "parentPlatform": "toucan-nature",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false,

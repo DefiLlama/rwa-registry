@@ -11,7 +11,8 @@
       "website": [
         "https://www.blackopal.finance/liquidstone"
       ],
-      "twitter": "https://x.com/blackopal_fi"
+      "twitter": "https://x.com/blackopal_fi",
+      "github": "https://github.com/enzymefinance/protocol-onyx"
     }
   },
   "platform": {
@@ -28,7 +29,6 @@
     "chains": [
       "plume_mainnet"
     ],
-    "parentPlatform": "blackopal",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false

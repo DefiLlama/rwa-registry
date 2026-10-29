@@ -13,7 +13,8 @@
       ],
       "twitter": "https://x.com/untangledfi",
       "docs": "https://docs.untangled.finance/",
-      "linkedin": "https://www.linkedin.com/company/untangled-finance"
+      "linkedin": "https://www.linkedin.com/company/untangled-finance",
+      "github": "https://github.com/untangled-finance"
     }
   },
   "platform": {
@@ -28,7 +29,6 @@
     "chains": [
       "celo"
     ],
-    "parentPlatform": "untangled-finance",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false

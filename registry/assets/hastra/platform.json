@@ -13,8 +13,10 @@
         "https://hastra.io/prime"
       ],
       "twitter": "https://x.com/HastraFi",
-      "docs": "https://hastra.io/"
+      "docs": "https://hastra.io/",
+      "discord": "https://discord.gg/provenance"
     },
+    "registryInfo": "Hastra Technologies Inc.",
     "foundedYear": 2025,
     "regulatoryStatus": "Hastra is operated by Signum Ltd., a British Virgin Islands company wholly owned by Provenance Cayman Foundation, and holds no disclosed registration with any financial regulator. Its own site states wYLDS is not registered with the SEC or any securities regulator. The underlying YLDS reserve asset is an SEC registered security issued by Figure Certificate Company, which is independent of Hastra.",
     "keyMilestones": "2026-03: auto loans added to Democratized Prime via Agora Data with Ethereum expansion | 2025-12: Figure led RWA Consortium launched supporting PRIME on Solana | 2025-11: Chainlink named official oracle and CCIP bridge for wYLDS and PRIME | 2025-03: hastra.io first live | 2025-02: underlying YLDS launched by Figure Certificate Company",
@@ -33,7 +35,6 @@
     "chains": [
       "solana"
     ],
-    "parentPlatform": "hastra",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false,

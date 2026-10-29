@@ -13,7 +13,10 @@
       ],
       "twitter": "https://x.com/DigixGlobal",
       "docs": "https://digix.global/",
-      "linkedin": "https://www.linkedin.com/company/digix-global"
+      "linkedin": "https://www.linkedin.com/company/digix-global",
+      "discord": "https://discord.gg/CCDBJJC",
+      "telegram": "https://t.me/digixofficial",
+      "github": "https://github.com/digixglobal"
     }
   },
   "platform": {
@@ -28,7 +31,6 @@
     "chains": [
       "ethereum"
     ],
-    "parentPlatform": "digix",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false

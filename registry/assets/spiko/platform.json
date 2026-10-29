@@ -14,7 +14,9 @@
       ],
       "twitter": "https://x.com/Spiko_finance",
       "docs": "https://docs.spiko.io/",
-      "linkedin": "https://www.linkedin.com/company/spiko-finance"
+      "linkedin": "https://www.linkedin.com/company/spiko-finance",
+      "telegram": "https://t.me/+VOVTcX2Ax0o5MGE8",
+      "github": "https://github.com/spiko-tech"
     },
     "registryInfo": "Spiko SAS (France, AMF-licensed under MiCA & SFDR). European tokenized money-market platform launched 2024. Issues fund tokens for treasuries (USTBL — US T-Bills) and Euro short-term debt (EUTBL). Co-founded by Paul-Adrien Hyppolite and Antoine Michon.",
     "foundedYear": 2023,
@@ -37,7 +39,6 @@
       "ethereum"
     ],
     "attestationFrequency": "Daily NAV (UCITS-equivalent)",
-    "parentPlatform": "spiko",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false,

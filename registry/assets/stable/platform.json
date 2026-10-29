@@ -35,8 +35,6 @@
       "monad"
     ],
     "attestationFrequency": "N/A (Tokenization Platform)",
-    "marginSettlementAsset": "USDC; EURC",
-    "parentPlatform": "stable",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false

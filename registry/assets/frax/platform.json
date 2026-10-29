@@ -38,7 +38,6 @@
       "ethereum"
     ],
     "attestationFrequency": "Continuous (on-chain) + monthly attestation",
-    "parentPlatform": "frax",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false,

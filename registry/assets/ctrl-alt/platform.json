@@ -11,8 +11,10 @@
       "website": [
         "https://ctrl-alt.co/press-releases/billiton-ctrl-alt-diamond-tokenization"
       ],
-      "twitter": "https://x.com/CtrlAltCo"
-    }
+      "twitter": "https://x.com/CtrlAltCo",
+      "docs": "https://www.ctrl-alt.co"
+    },
+    "registryInfo": "Domicile: United Arab Emirates, Regulatory framework: Dubai Virtual Assets Regulatory Authority (VARA) VASP Licence Number VL/25/05/002, Network: XRP Ledger, Custody: Ripple custody technology"
   },
   "platform": {
     "category": [
@@ -26,7 +28,6 @@
     "chains": [
       "ripple"
     ],
-    "parentPlatform": "ctrl-alt",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false

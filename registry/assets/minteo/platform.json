@@ -12,7 +12,8 @@
         "https://minteo.com"
       ],
       "twitter": "https://x.com/minteocom"
-    }
+    },
+    "registryInfo": "Domicile: Bermuda, Auditor: BDO. Minteo states"
   },
   "platform": {
     "category": [
@@ -26,7 +27,6 @@
     "chains": [
       "polygon"
     ],
-    "parentPlatform": "minteo",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false

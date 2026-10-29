@@ -8,8 +8,6 @@
   "accessModel": "permissionless",
   "rwaClassification": "programmable-finance",
   "conventionNote": "Flash Trade pools have no funding: open positions pay a margin fee that accrues continuously from pool utilization, and the open and the close fee are one flat rate (2 bps, AMD 5 bps) held as both maker and taker.",
-  "website": "https://flash.trade/",
-  "issuer": "Flash Trade",
   "marginAsset": "USDC",
   "events": [
     {

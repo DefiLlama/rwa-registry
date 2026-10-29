@@ -12,7 +12,5 @@
   "accessModel": "permissionless",
   "rwaClassification": "programmable-finance",
   "conventionNote": "Funding settles every 8 hours on most stock perps and every 4 hours on some markets such as XAU, SPX and PAXG, from a premium index with a zero interest rate on stock perps, and RWA perps pay 0 bps maker and 1.25 bps taker since 2026-09-07 with a 5% discount when fees are paid in ASTER.",
-  "website": "https://asterdex.com/",
-  "issuer": "Aster",
   "marginAsset": "USDT"
 }

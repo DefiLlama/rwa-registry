@@ -13,7 +13,10 @@
       ],
       "twitter": "https://x.com/aave",
       "docs": "https://docs.aave.com/",
-      "linkedin": "https://www.linkedin.com/company/aaveaave"
+      "linkedin": "https://www.linkedin.com/company/aaveaave",
+      "discord": "https://discord.com/invite/aave",
+      "telegram": "https://t.me/Aavesome",
+      "github": "https://github.com/aave"
     }
   },
   "platform": {
@@ -29,7 +32,6 @@
       "ethereum"
     ],
     "attestationFrequency": "N/A (Lending Venue)",
-    "parentPlatform": "aave",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false

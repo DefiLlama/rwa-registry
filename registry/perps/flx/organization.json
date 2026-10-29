@@ -17,6 +17,7 @@
       "linkedin": "https://www.linkedin.com/company/felixprotocol",
       "discord": "https://discord.gg/felixprotocol",
       "telegram": "https://t.me/felixprotocol",
+      "github": "https://github.com/felixprotocol/felix-contracts",
       "refLinks": [
         "https://www.usefelix.xyz?ref=4BF702FF"
       ]
@@ -30,14 +31,7 @@
     "platformType": [
       "perp-venue"
     ],
-    "accessModel": "permissionless",
-    "primaryChain": "hyperliquid",
-    "chains": [
-      "hyperliquid"
-    ],
     "attestationFrequency": "N/A (Perp Venue)",
-    "marginSettlementAsset": "USDH; feUSD (Hyperliquid)",
-    "parentPlatform": "felix",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false,

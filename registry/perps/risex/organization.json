@@ -9,13 +9,12 @@
       "website": [
         "https://www.rise.trade"
       ],
-      "docs": "https://docs.risechain.com/docs/risex"
+      "twitter": "https://x.com/risextrade",
+      "docs": "https://docs.risechain.com/docs/risex",
+      "discord": "https://discord.gg/kvfj6e35UW",
+      "refLinks": [
+        "https://www.rise.trade/en/trade/SPCX"
+      ]
     }
-  },
-  "platform": {
-    "primaryChain": "rise",
-    "chains": [
-      "rise"
-    ]
   }
 }

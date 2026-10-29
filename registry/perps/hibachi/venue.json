@@ -12,7 +12,5 @@
   "accessModel": "permissionless",
   "rwaClassification": "programmable-finance",
   "conventionNote": "Funding settles every hour from the mid-index premium, and the fee is tiered on rolling 14-day volume, taker down to 2 bps and maker 0 at every tier.",
-  "website": "https://hibachi.xyz/",
-  "issuer": "Hibachi",
   "marginAsset": "USDT"
 }

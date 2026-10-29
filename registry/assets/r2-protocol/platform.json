@@ -11,8 +11,10 @@
       "website": [
         "https://www.r2.money"
       ],
-      "twitter": "https://x.com/r2yield"
-    }
+      "twitter": "https://x.com/r2yield",
+      "discord": "https://discord.gg/r2yield"
+    },
+    "registryInfo": "R2 Labs describes the protocol as a fund-of-funds model for stablecoin yield across Treasuries, money markets, and tokenized credit."
   },
   "platform": {
     "category": [
@@ -26,7 +28,6 @@
     "chains": [
       "ethereum"
     ],
-    "parentPlatform": "r2-protocol",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false

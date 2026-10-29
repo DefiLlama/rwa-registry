@@ -30,7 +30,6 @@
       "telos"
     ],
     "attestationFrequency": "Daily NAV via Chainlink Proof-of-Reserve",
-    "parentPlatform": "kuma-protocol",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false,

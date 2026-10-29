@@ -13,10 +13,7 @@
       ],
       "twitter": "https://x.com/cameron_arc_ai",
       "linkedin": "https://www.linkedin.com/company/trinityprotocol",
-      "telegram": "https://t.me/cameroncurriden01",
-      "refLinks": [
-        "Mirrored from the asset-level reasons on canonical IDs GVLT, TBUND, HYDRO and TART. No independent reserve attestation exists for any of the four tokens. The Proof of Reserve attestation is signed by the platform's own authorised representative with no auditor named and the contract's attestorName field is empty. The gold metadata record leaves every supporting document, including the custody attestation, the safekeeping receipt and the bar list, pointing at the placeholder path ipfs://CID-B. The bond token's only custody document is a form whose custodian, signatory and notary blocks are left blank and whose attesting party is named Charles Garret, matching the issuing entity Garret INC, and whose custodian field carries a line reading ***FOR APPROVED  ENTITIES ONLLY*** rather than naming a custodian, describing physical 1924 German bearer certificates while the platform's website presents that token as AAA rated German sovereign bonds. The art token's appraisal states a three month validity that had lapsed before the token was deployed. The Proof of Reserve contract derives its reserve total from the issuer's own token holdings valued at oracle prices, so it does not evidence any underlying asset. The identifier published as the issuer LEI is the string TRINITY-PROTOCOL-RWA, which is not a code issued under ISO 17442, and neither the issuer nor the platform appears in the GLEIF registry. The price adapters for two of the eight collateral markets return values scaled for an eighteen decimal loan asset while those markets settle in a six decimal asset, which overstates collateral value in them by a factor of one trillion. The gold and art tokens are each deployed at six separate addresses carrying identical supply."
-      ]
+      "telegram": "https://t.me/cameroncurriden01"
     },
     "registryInfo": "No public registry record for the issuer could be located. The issuer is identified as Garret INC, a United States corporation, with an EIN of 87-1576956, neither of which appears on the project website, in either document published through the Proof of Reserve contract, or in the token metadata records. The surname appears once in the issuer's published material, as an annotation reading Charles Garret filling the attestor line of the custody document published for the bond token. Neither the entity name nor the EIN can be independently confirmed, because no public registry of employer identification numbers exists for for-profit entities and no record for Garret INC or Trinity Protocol appears in the GLEIF registry or in SEC EDGAR. The metadata records the issuer publishes name no issuing entity, although the gold record does name a custodian and a marking entity. The identifier the Proof of Reserve contract publishes as an issuer LEI is the string TRINITY-PROTOCOL-RWA, which is exactly twenty characters but contains hyphens and ends in letters where ISO 17442 requires alphanumeric characters throughout and two check digits calculated under ISO 7064.",
     "foundedYear": 2026,
@@ -41,7 +38,6 @@
       "arbitrum"
     ],
     "attestationFrequency": "On-demand",
-    "parentPlatform": "trinity-protocol",
     "delisted": false,
     "llamaGradeAttestation": false,
     "fees": {

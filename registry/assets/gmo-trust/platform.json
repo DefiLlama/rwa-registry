@@ -11,7 +11,8 @@
       "website": [
         "https://stablecoin.z.com"
       ],
-      "twitter": "https://x.com/GMOTrust"
+      "twitter": "https://x.com/GMOTrust",
+      "github": "https://github.com/trust-zcom"
     }
   },
   "platform": {
@@ -26,7 +27,6 @@
     "chains": [
       "ethereum"
     ],
-    "parentPlatform": "gmo-trust",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false

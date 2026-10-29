@@ -14,6 +14,7 @@
       "twitter": "https://x.com/theo_network",
       "docs": "https://docs.theo.xyz/",
       "linkedin": "https://www.linkedin.com/company/theo-network",
+      "discord": "https://discord.gg/theo-network",
       "refLinks": [
         "https://app.theo.xyz/invite?invite=defillama"
       ]
@@ -31,7 +32,6 @@
     "chains": [
       "ethereum"
     ],
-    "parentPlatform": "theo",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false

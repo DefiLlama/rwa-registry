@@ -10,7 +10,8 @@
         "https://www.coinbase.com/international-exchange"
       ],
       "twitter": "https://x.com/CoinbaseIntExch",
-      "docs": "https://docs.cdp.coinbase.com/international-exchange/introduction/welcome"
+      "docs": "https://docs.cdp.coinbase.com/international-exchange/introduction/welcome",
+      "linkedin": "https://www.linkedin.com/company/coinbase"
     }
   },
   "platform": {
@@ -20,8 +21,6 @@
     "platformType": [
       "stock-perp"
     ],
-    "accessModel": "permissioned",
-    "parentPlatform": "coinbase-international-exchange",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false

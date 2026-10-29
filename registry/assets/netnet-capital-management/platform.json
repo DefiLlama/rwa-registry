@@ -10,8 +10,18 @@
         "https://netnet.capital/"
       ],
       "twitter": "https://x.com/netnetcap",
-      "docs": "https://docs.netnet.capital/"
-    }
+      "docs": "https://docs.netnet.capital/",
+      "telegram": "https://t.me/netnetcap",
+      "refLinks": [
+        "https://docs.netnet.capital/mechanism",
+        "https://docs.netnet.capital/treasury",
+        "https://docs.netnet.capital/rwa-desk",
+        "https://docs.netnet.capital/risks",
+        "https://docs.netnet.capital/team",
+        "https://robinhoodchain.blockscout.com/token/0xCA9c78Dd337A67F6e0077F65F5E9218719d30eDf"
+      ]
+    },
+    "registryInfo": "NetNet Capital Management publishes no legal entity name, company registration, incorporation detail or jurisdiction in its documentation, and no individual team members are named, so the operator is effectively anonymous. The only permissioned surface is a guardian key held in Gnosis Safe proxy 0x3bb7a23316f82c0e984fa2e784846d8928a35f42 running Safe 1.4.1 with threshold 1 and a single owner 0xe7e867518c5b3d929ca63622f314ff9dc60e96f6. It can add pools to the trading-fee mapping and queue exemptions but cannot mint, pause, seize, change emissions or change the fee rate, and there are no removal functions and no owner functions on the emissions path. Deployed 2026-07-16 at block 11439688 on Robinhood Chain (chain id 4663, Arbitrum Orbit L2) from 0xCfBd7e12A0f154a45576a73C1E409200068507B9 and source-verified on Blockscout. System contracts: token 0xCA9c78Dd337A67F6e0077F65F5E9218719d30eDf; Treasury 0x04822ea321a0dee6f40656172f29312104855d66; Staking 0xb078cc304a0b264c5f3680dc0488954accd02e87; sNET 0xb773ec2C326B7f98a5a83fc098825492F020a4c7; BondDepository 0xff32a969a0c567129eecd926d04657728e1980c1; GenesisBond 0x575b7b7c97ef3e21c82daeb427899d583e1e913f; TaxCollector 0x086c58400b8708ef993f256e12e752dcf0ac918e; guardian Safe 0x3bb7a23316f82c0e984fa2e784846d8928a35f42; TWAP oracle 0x929631b33f4070d6f54477fba3fd27566567daca; NET/USDG Uniswap v2 pair 0x59F95461E68e0c77605299791E1449f175165B54; reserve asset USDG 0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168; Morpho vault steakUSDG 0xBeEff033F34C046626B8D0A041844C5d1A5409dd. No third-party code audit is disclosed."
   },
   "platform": {
     "category": [
@@ -25,7 +35,6 @@
     "chains": [
       "robinhood"
     ],
-    "parentPlatform": "netnet-capital-management",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false

@@ -14,7 +14,10 @@
       ],
       "twitter": "https://x.com/arcus_xyz",
       "docs": "https://docs.arcus.xyz",
-      "linkedin": "https://www.linkedin.com/company/arcus-xyz"
+      "linkedin": "https://www.linkedin.com/company/arcus-xyz",
+      "refLinks": [
+        "https://app.arcus.xyz/ref/DEFILLAMA"
+      ]
     },
     "foundedYear": 2026,
     "founders": "Eddie Zhang (Founder, CEO), Antonio Juliano (board, dYdX founder)",
@@ -27,13 +30,6 @@
     "platformType": [
       "perp-venue"
     ],
-    "accessModel": "permissionless",
-    "primaryChain": "robinhood",
-    "chains": [
-      "robinhood"
-    ],
-    "marginSettlementAsset": "USDG",
-    "parentPlatform": "arcus",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false,

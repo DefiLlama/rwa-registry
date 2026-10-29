@@ -14,7 +14,10 @@
       ],
       "twitter": "https://x.com/lista_dao",
       "docs": "https://docs.bsc.lista.org/",
-      "linkedin": "https://sg.linkedin.com/company/listadao"
+      "linkedin": "https://sg.linkedin.com/company/listadao",
+      "discord": "https://discord.gg/listadao",
+      "telegram": "https://t.me/ListaDAO",
+      "github": "https://github.com/lista-dao"
     }
   },
   "platform": {
@@ -29,7 +32,6 @@
     "chains": [
       "bsc"
     ],
-    "parentPlatform": "lista-dao",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false

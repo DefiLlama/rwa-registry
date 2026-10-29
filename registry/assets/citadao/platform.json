@@ -13,7 +13,9 @@
       ],
       "twitter": "https://x.com/citadao_io",
       "docs": "https://docs.citadao.io/",
-      "linkedin": "https://www.linkedin.com/company/citadao"
+      "linkedin": "https://www.linkedin.com/company/citadao",
+      "discord": "https://discord.gg/citadao",
+      "github": "https://github.com/citadao"
     }
   },
   "platform": {
@@ -29,7 +31,6 @@
     "chains": [
       "ethereum"
     ],
-    "parentPlatform": "citadao",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false

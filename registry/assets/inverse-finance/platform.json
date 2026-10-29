@@ -12,7 +12,10 @@
         "https://www.inverse.finance/"
       ],
       "twitter": "https://x.com/InverseFinance",
-      "docs": "https://docs.inverse.finance/"
+      "docs": "https://docs.inverse.finance/",
+      "discord": "https://discord.com/invite/ESWrBHqC8C",
+      "telegram": "https://t.me/inversefinance",
+      "github": "https://github.com/inversefinance"
     }
   },
   "platform": {
@@ -27,7 +30,6 @@
     "chains": [
       "ethereum"
     ],
-    "parentPlatform": "inverse-finance",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false

@@ -16,7 +16,11 @@
       "docs": "https://docs.ventuals.com/",
       "linkedin": "https://www.linkedin.com/company/ventuals",
       "discord": "https://discord.gg/ventuals",
-      "telegram": "https://t.me/ventuals"
+      "telegram": "https://t.me/ventuals",
+      "github": "https://github.com/ventuals/ventuals-contracts",
+      "refLinks": [
+        "https://app.hyperliquid.xyz/join/DEFILLAMAS"
+      ]
     },
     "registryInfo": "Ventuals was founded by sibling duo Alvin Hsia and Emily Hsia, who previously built Shadow (an on-chain data extraction project). The platform was incubated by Paradigm and is the first production application of Hyperliquid's HIP-3 builder-deployed perpetuals standard, with Privy providing embedded wallet/custody infrastructure."
   },
@@ -27,14 +31,7 @@
     "platformType": [
       "perp-venue"
     ],
-    "accessModel": "permissionless",
-    "primaryChain": "hyperliquid",
-    "chains": [
-      "hyperliquid"
-    ],
     "attestationFrequency": "N/A (Perp Venue)",
-    "marginSettlementAsset": "USDC (Hyperliquid)",
-    "parentPlatform": "ventuals",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false,

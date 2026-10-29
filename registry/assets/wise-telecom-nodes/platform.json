@@ -17,10 +17,7 @@
       "linkedin": "https://www.linkedin.com/company/wise-defi",
       "discord": "https://discord.gg/FaAJP3pJu4",
       "telegram": "https://t.me/WiseTokenCommunity; https://t.me/WiseToken",
-      "github": "https://github.com/wise-foundation",
-      "refLinks": [
-        "Admin authority over every vault on every chain rests with a single externally owned account rather than a multisig or timelock, and that account can mint and burn receipt balances, set the interest rate and pause deposits. No withdraw selector of any signature is registered on the diamonds, so there is no issuer redemption and exit depends on a peer funded sell order queue at a seller set discount. Deposits are forwarded to an externally owned account rather than held in the vault, so the receipt tokens are not backed by assets observable on chain. The yield is a configuration value set by the admin key rather than a measured return on the underlying infrastructure. The interface adds a fixed manual amount to the Ethereum vault figure it displays, and the issuer's public data endpoint reports a total value locked figure inconsistent with its own prior week figure by several orders of magnitude. The total deposit cap stored on chain is set well above the capacity advertised on the interface. No audit covers the Telecom Nodes contracts. The audits the issuer publishes cover the unrelated lending product. Issuer jurisdiction is undisclosed."
-      ]
+      "github": "https://github.com/wise-foundation"
     },
     "registryInfo": "WiseSoft, LLC, formed January 2021 per the issuer's own documentation, operating publicly as WISE Token and Wise Lending. Founder and chief executive named publicly as Peter Girr. State of formation, company registration number and registered address are not disclosed in the issuer's documentation and could not be located in registry or trademark records, so jurisdiction is treated as unknown. The WISE LENDING trademark, serial 98811807, is registered to WiseSoft LLC. No money transmitter, e-money, VASP or other financial licence was located.",
     "foundedYear": 2021,
@@ -44,7 +41,6 @@
       "base",
       "arbitrum"
     ],
-    "parentPlatform": "wise-telecom-nodes",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false,

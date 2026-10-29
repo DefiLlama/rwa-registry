@@ -10,8 +10,10 @@
         "https://dominion.market/"
       ],
       "twitter": "https://x.com/Dominion_Market",
-      "docs": "https://dominion.market/whitepaper.html"
-    }
+      "docs": "https://dominion.market/whitepaper.html",
+      "telegram": "https://t.me/DominionSilverCommunity"
+    },
+    "registryInfo": "Dominion Market operates the SILV silver tokenization programme and publishes its website under CMB Consulting FCZO. The issuer describes the backing as one troy ounce of LBMA grade physical silver per token, held in United States vault custody with Brink's acting as custodian."
   },
   "platform": {
     "category": [
@@ -25,7 +27,6 @@
     "chains": [
       "solana"
     ],
-    "parentPlatform": "dominion-market",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false

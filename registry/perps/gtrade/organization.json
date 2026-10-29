@@ -28,16 +28,7 @@
     "platformType": [
       "perp-venue"
     ],
-    "accessModel": "permissionless",
-    "primaryChain": "arbitrum",
-    "chains": [
-      "arbitrum",
-      "polygon",
-      "base"
-    ],
     "attestationFrequency": "N/A (Perp Venue)",
-    "marginSettlementAsset": "USDC; DAI; WETH (Arbitrum/Polygon/Base)",
-    "parentPlatform": "gtrade",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false,

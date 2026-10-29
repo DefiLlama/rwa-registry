@@ -13,7 +13,9 @@
       ],
       "twitter": "https://x.com/labsgroupio",
       "docs": "https://docs.labsgroup.io/",
-      "linkedin": "https://www.linkedin.com/company/labs-group"
+      "linkedin": "https://www.linkedin.com/company/labs-group",
+      "discord": "https://discord.gg/3pYb3MTg",
+      "telegram": "https://t.me/labsgroupio"
     }
   },
   "platform": {
@@ -29,7 +31,6 @@
     "chains": [
       "bsc"
     ],
-    "parentPlatform": "labs-group",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false

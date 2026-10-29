@@ -31,14 +31,7 @@
     "platformType": [
       "perp-venue"
     ],
-    "accessModel": "permissionless",
-    "primaryChain": "ethereum",
-    "chains": [
-      "ethereum"
-    ],
     "attestationFrequency": "N/A (Perp Venue)",
-    "marginSettlementAsset": "USDC (Lighter ZK-rollup)",
-    "parentPlatform": "lighter",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false,

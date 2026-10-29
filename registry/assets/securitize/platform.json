@@ -16,7 +16,12 @@
       "docs": "https://docs.securitize.io",
       "linkedin": "https://www.linkedin.com/company/securitize",
       "telegram": "https://t.me/securitize",
-      "github": "https://github.com/securitize-io"
+      "github": "https://github.com/securitize-io",
+      "refLinks": [
+        "https://www.theblock.co/post/410469/blackrock-launches-two-tokenized-money-market-funds-stablecoin-reserves",
+        "https://decrypt.co/374865/blackrock-tokenized-money-market-funds-solana-ethereum",
+        "https://genfinity.io/2026/08/03/zerohash-stablecoin-conversion-rails-blackrock-brsrv/"
+      ]
     },
     "registryInfo": "Securitize, Inc., Delaware C-corporation. SEC- and FINRA-regulated subsidiaries: Securitize Markets, LLC (FINRA-registered broker-dealer and SEC-registered Alternative Trading System. formerly Distributed Technology Markets LLC, acquired 2020), Securitize Fund Services (digital transfer agent and fund administrator), and Securitize Capital (asset-management arm). Headquartered at 78 SW 7th Street, Suite 500, Miami, FL 33130. Founded 2017. CEO Carlos Domingo. Announced October 2025 SPAC merger with Cantor Equity Partners II at $1.25B valuation.",
     "foundedYear": 2017,
@@ -48,7 +53,6 @@
       "bsc",
       "solana"
     ],
-    "parentPlatform": "securitize",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false,
@@ -57,7 +61,6 @@
       "assetManagerTakeBps": null,
       "tokenizationPlatformTakeBps": null,
       "performanceFeePct": 0,
-      "yieldSpreadRetainedBps": null,
       "mintFeeBps": 0,
       "redemptionFeeBps": 0,
       "underlyingFundExpenseBps": null,

@@ -10,7 +10,5 @@
   "accessModel": "permissioned",
   "rwaClassification": "programmable-finance",
   "conventionNote": "Funding settles every 8 hours on most markets, every 4 hours on 14 and every hour on 1, and every perp pays 2 bps maker and 5 bps taker at non-VIP.",
-  "website": "https://bingx.com",
-  "issuer": "BingX",
   "marginAsset": "USDT"
 }

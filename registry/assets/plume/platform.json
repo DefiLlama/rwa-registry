@@ -13,7 +13,10 @@
       ],
       "twitter": "https://x.com/plumenetwork",
       "docs": "https://docs.plumenetwork.xyz/",
-      "linkedin": "https://www.linkedin.com/company/plume-network"
+      "linkedin": "https://www.linkedin.com/company/plume-network",
+      "discord": "https://discord.com/invite/plume-network",
+      "telegram": "https://t.me/plumenetwork",
+      "github": "https://github.com/plumenetwork"
     }
   },
   "platform": {
@@ -28,7 +31,6 @@
     "chains": [
       "plume_mainnet"
     ],
-    "parentPlatform": "plume",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false

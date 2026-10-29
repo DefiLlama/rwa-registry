@@ -10,8 +10,6 @@
   "accessModel": "permissionless",
   "rwaClassification": "programmable-finance",
   "conventionNote": "Funding settles every hour as on every Hyperliquid perp, with the HIP-3 premium formula; Felix shut down on 2026-06-19 and its markets were liquidated.",
-  "website": "https://usefelix.gitbook.io/perps",
-  "issuer": "Felix",
   "marginAsset": "USDH",
   "events": [
     {

@@ -13,7 +13,8 @@
       ],
       "twitter": "https://x.com/cashlinkBerlin",
       "docs": "https://cashlink.de/en/",
-      "linkedin": "https://de.linkedin.com/company/cashlink"
+      "linkedin": "https://de.linkedin.com/company/cashlink",
+      "github": "https://github.com/cashlink"
     },
     "registryInfo": "Cashlink Technologies GmbH is a German fintech (Frankfurt) holding a BaFin license as a Crypto Securities Registrar under the German Electronic Securities Act (eWpG), the first such license issued in Germany. The NRW1 electronic bond is issued by NRW.BANK, the AAA-rated development bank of the German state of North Rhine-Westphalia, with explicit guarantee from the state. Cashlink serves as the registrar of the NRW1 tokens on Polygon. Cashlink founders: Michael Duttlinger and Daniel Loewer."
   },
@@ -30,7 +31,6 @@
       "polygon"
     ],
     "attestationFrequency": "On-issuance prospectus, BaFin-supervised",
-    "parentPlatform": "cashlink",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false,

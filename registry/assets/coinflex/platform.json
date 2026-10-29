@@ -11,7 +11,9 @@
       "website": [
         "https://coinflex.com/"
       ],
-      "twitter": "https://x.com/CoinFLEXdotcom"
+      "twitter": "https://x.com/CoinFLEXdotcom",
+      "telegram": "https://t.me/coinflex_EN",
+      "github": "https://github.com/coinflex-exchange"
     }
   },
   "platform": {
@@ -26,7 +28,6 @@
     "chains": [
       "ethereum"
     ],
-    "parentPlatform": "coinflex",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false

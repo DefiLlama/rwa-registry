@@ -15,7 +15,8 @@
       "twitter": "https://x.com/reental_co",
       "docs": "https://docs.reental.co/",
       "linkedin": "https://www.linkedin.com/company/reental"
-    }
+    },
+    "registryInfo": "Reental (tokenized real estate investment platform)."
   },
   "platform": {
     "category": [
@@ -30,7 +31,6 @@
       "ethereum"
     ],
     "attestationFrequency": "N/A (Lending Venue)",
-    "parentPlatform": "reental",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false

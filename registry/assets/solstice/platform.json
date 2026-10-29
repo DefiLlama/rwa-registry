@@ -11,8 +11,12 @@
       "website": [
         "https://solstice.finance/"
       ],
-      "twitter": "https://x.com/solsticefi"
+      "twitter": "https://x.com/solsticefi",
+      "docs": "https://docs.solstice.finance/solstice-for-users/yieldvault/strcusx",
+      "discord": "https://discord.gg/TSmeMaYty2",
+      "telegram": "https://t.me/Solstice_TG"
     },
+    "registryInfo": "Solstice Labs operates the Solstice protocol and the YieldVault framework. Issuing entities and user terms are set out in the legal section of the Solstice documentation.",
     "foundedYear": 2023,
     "headquarters": "Lisbon, Portugal",
     "founders": "Ben Nadareski (Founder, CEO), Tim Grant (Co-Founder, Chairman), David Plisek (COO)",
@@ -32,7 +36,6 @@
     "chains": [
       "solana"
     ],
-    "parentPlatform": "solstice",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false,

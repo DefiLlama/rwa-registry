@@ -14,7 +14,10 @@
       ],
       "twitter": "https://x.com/entropyio",
       "docs": "https://docs.entropy.io/",
-      "discord": "https://discord.gg/uFCymbuae"
+      "discord": "https://discord.gg/uFCymbuae",
+      "refLinks": [
+        "https://app.hyperliquid.xyz/join/DEFILLAMAS"
+      ]
     },
     "registryInfo": "Publicly announced a $14M raise led by Ribbit Capital plus a $40M HYPE stake (issuer claim, not independently verified as of 2026-08-25). Operates the 'io' HIP-3 namespace on Hyperliquid."
   },
@@ -25,14 +28,7 @@
     "platformType": [
       "perp-venue"
     ],
-    "accessModel": "permissionless",
-    "primaryChain": "hyperliquid",
-    "chains": [
-      "hyperliquid"
-    ],
     "attestationFrequency": "N/A (Perp Venue)",
-    "marginSettlementAsset": "USDC (Hyperliquid)",
-    "parentPlatform": "entropy",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false,

@@ -13,7 +13,9 @@
       ],
       "twitter": "https://x.com/Brickken",
       "docs": "https://docs.brickken.com/",
-      "linkedin": "https://www.linkedin.com/company/brickken"
+      "linkedin": "https://www.linkedin.com/company/brickken",
+      "telegram": "https://t.me/Brickken",
+      "github": "https://github.com/brickken"
     }
   },
   "platform": {
@@ -30,7 +32,6 @@
     "chains": [
       "ethereum"
     ],
-    "parentPlatform": "brickken",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false

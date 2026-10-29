@@ -16,7 +16,10 @@
       "docs": "https://docs.dreamcash.xyz/",
       "linkedin": "https://www.linkedin.com/company/dreamcash",
       "discord": "https://discord.gg/dreamcash",
-      "telegram": "https://t.me/dreamcash"
+      "telegram": "https://t.me/dreamcash",
+      "refLinks": [
+        "https://app.hyperliquid.xyz/join/DEFILLAMAS"
+      ]
     },
     "registryInfo": "Dreamcash is operated by Supreme Liquid Labs. Tether (USDT0 issuer) holds a strategic investment alongside Selini Capital, with both backing the rollout of USDT0-collateralized RWA perpetual markets on Hyperliquid. Markets are deployed under the cash namespace via Hyperliquid HIP-3."
   },
@@ -33,8 +36,6 @@
       "hyperliquid"
     ],
     "attestationFrequency": "N/A (Perp Venue)",
-    "marginSettlementAsset": "USDT0 (Hyperliquid)",
-    "parentPlatform": "cash",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false,

@@ -13,7 +13,10 @@
       ],
       "twitter": "https://x.com/SolvProtocol",
       "docs": "https://docs.solv.finance/",
-      "linkedin": "https://www.linkedin.com/company/solv-protocol"
+      "linkedin": "https://www.linkedin.com/company/solv-protocol",
+      "discord": "https://discord.com/invite/solvprotocol",
+      "telegram": "https://t.me/Solv_Protocol",
+      "github": "https://github.com/solv-finance"
     },
     "registryInfo": "Solv Protocol is operated by the Solv Foundation, a Cayman Islands not-for-profit foundation. The SOLV token is the protocol's governance and utility token. Founders: Ryan Chow (CEO), Meng Yan, Will Wang. Backed by Binance Labs, Blockchain Capital, IOSG Ventures, Mirana Ventures, and others. Solv pioneered the ERC-3525 semi-fungible token standard. The protocol's flagship product is SolvBTC, a Bitcoin yield aggregator with $1B+ TVL."
   },
@@ -31,7 +34,6 @@
     "chains": [
       "ethereum"
     ],
-    "parentPlatform": "solv-protocol",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false,

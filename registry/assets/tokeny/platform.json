@@ -13,7 +13,8 @@
       ],
       "twitter": "https://x.com/tokeny",
       "docs": "https://docs.tokeny.com/",
-      "linkedin": "https://www.linkedin.com/company/tokeny-solutions"
+      "linkedin": "https://www.linkedin.com/company/tokeny-solutions",
+      "github": "https://github.com/tokeny"
     },
     "registryInfo": "Tokeny Solutions SA is a Luxembourg-based tokenization-infrastructure company, founded in 2017 by Luc Falempin (CEO). Tokeny developed the ERC-3643 (formerly T-REX) permissioned-token standard, widely used by institutional tokenization issuers. Backed by Euronext (acquired majority stake in 2024). Tokeny's clients include hundreds of issuers across MMFs, equities, bonds, and real estate. For Legion Strategies / SkyBridge tokenized hedge fund, Tokeny provided the issuance platform. RCS Luxembourg: B205697."
   },
@@ -29,7 +30,6 @@
     "chains": [
       "avax"
     ],
-    "parentPlatform": "tokeny",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false,

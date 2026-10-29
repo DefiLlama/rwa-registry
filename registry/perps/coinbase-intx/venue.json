@@ -10,7 +10,5 @@
   "accessModel": "permissioned",
   "rwaClassification": "programmable-finance",
   "conventionNote": "Funding settles every hour from the predicted funding rate, and fees are 2 bps maker and 4 bps taker at the base tier.",
-  "website": "https://www.coinbase.com/international-exchange",
-  "issuer": "Coinbase International Exchange",
   "marginAsset": "USDC"
 }

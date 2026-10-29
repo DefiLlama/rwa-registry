@@ -30,14 +30,7 @@
     "platformType": [
       "perp-venue"
     ],
-    "accessModel": "permissionless",
-    "primaryChain": "hyperliquid",
-    "chains": [
-      "hyperliquid"
-    ],
     "attestationFrequency": "N/A (Perp Venue)",
-    "marginSettlementAsset": "USDC (Hyperliquid)",
-    "parentPlatform": "hyperliquid",
     "suspicious": false,
     "llamaGradeAttestation": false,
     "fees": {

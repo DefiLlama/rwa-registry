@@ -13,7 +13,9 @@
       ],
       "twitter": "https://x.com/CygnusDAO",
       "docs": "https://docs.cygnus.finance/",
-      "linkedin": "https://www.linkedin.com/company/cygnus-finance"
+      "linkedin": "https://www.linkedin.com/company/cygnus-finance",
+      "telegram": "https://t.me/CygnusFinanceBot",
+      "github": "https://github.com/CygnusDAO"
     }
   },
   "platform": {
@@ -28,7 +30,6 @@
     "chains": [
       "base"
     ],
-    "parentPlatform": "cygnus-finance",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false

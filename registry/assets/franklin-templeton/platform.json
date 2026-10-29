@@ -39,7 +39,6 @@
       "stellar"
     ],
     "attestationFrequency": "Daily",
-    "parentPlatform": "franklin-templeton",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false,
@@ -55,7 +54,6 @@
       "floatIncome": false,
       "revenueConfidence": "public-filings",
       "feeLastVerified": "2026-07-09",
-      "feeWaiverEndDate": "2026-07-31",
       "revenueNotes": "Total annual operating expenses are contractually capped at 20 bps net via fee waiver running to 2026-07-31 per the latest 485BPOS, with a materially higher gross expense ratio before waivers. The waiver renews annually so the effective fee could change."
     }
   },

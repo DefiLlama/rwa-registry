@@ -13,7 +13,9 @@
       ],
       "twitter": "https://x.com/paretocredit",
       "docs": "https://docs.pareto.credit/",
-      "linkedin": "https://www.linkedin.com/company/pareto-credit"
+      "linkedin": "https://www.linkedin.com/company/pareto-credit",
+      "telegram": "https://t.me/paretocredit",
+      "github": "https://github.com/pareto-credit"
     }
   },
   "platform": {
@@ -28,7 +30,6 @@
     "chains": [
       "ethereum"
     ],
-    "parentPlatform": "pareto",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false

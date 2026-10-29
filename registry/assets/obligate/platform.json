@@ -10,7 +10,9 @@
         "https://www.obligate.com/otfy"
       ],
       "twitter": "https://x.com/obligatecom",
-      "docs": "https://www.obligate.com/otfy"
+      "docs": "https://www.obligate.com/otfy",
+      "linkedin": "https://ch.linkedin.com/company/obligatecom",
+      "telegram": "https://t.me/obligatecom"
     }
   },
   "platform": {
@@ -25,7 +27,6 @@
     "chains": [
       "solana"
     ],
-    "parentPlatform": "obligate",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false

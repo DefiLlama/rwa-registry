@@ -11,7 +11,9 @@
       "website": [
         "https://cap.app/"
       ],
-      "twitter": "https://x.com/capmoney_"
+      "twitter": "https://x.com/capmoney_",
+      "discord": "https://discord.gg/XAYrRY6hfB",
+      "github": "https://github.com/cap-labs-dev"
     }
   },
   "platform": {
@@ -26,7 +28,6 @@
     "chains": [
       "celo"
     ],
-    "parentPlatform": "cap",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false

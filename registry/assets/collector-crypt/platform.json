@@ -28,7 +28,6 @@
     "chains": [
       "solana"
     ],
-    "parentPlatform": "collector-crypt",
     "suspicious": false,
     "llamaGradeAttestation": false
   },

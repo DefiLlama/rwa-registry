@@ -17,7 +17,10 @@
       "linkedin": "https://www.linkedin.com/company/ondofinance",
       "discord": "https://discord.gg/ondofinance",
       "telegram": "https://t.me/ondofinance",
-      "github": "https://github.com/ondoprotocol"
+      "github": "https://github.com/ondoprotocol",
+      "refLinks": [
+        "https://app.ondoperps.xyz/?ref=76ZCWB"
+      ]
     },
     "registryInfo": "Ondo Finance Inc., Delaware C-corporation. Operates regulated subsidiaries Ondo Capital Management LLC (SEC-registered investment adviser) and Ondo I LP (Cayman SPV) for OUSG, plus an SPC structure for USDY (Ankura Trust). Headquartered in New York, NY. Founded 2021 by Nathan Allman (CEO. ex-Goldman Sachs Digital Assets, Stanford MBA, Brown BA) and Pinku Surana (CTO. ex-Goldman). Backed by Pantera Capital, Founders Fund, Coinbase Ventures, Tiger Global, Wintermute, BlockTower, and others (~$50M+ raised across rounds).",
     "foundedYear": 2021,
@@ -48,7 +51,6 @@
       "arbitrum"
     ],
     "attestationFrequency": "Continuous (NAV-rebasing) + quarterly audited financials",
-    "parentPlatform": "ondo",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false,
@@ -57,12 +59,9 @@
       "assetManagerTakeBps": 25,
       "tokenizationPlatformTakeBps": 25,
       "performanceFeePct": 0,
-      "yieldSpreadRetainedBps": 0,
       "mintFeeBps": 25,
       "redemptionFeeBps": 0,
       "underlyingFundExpenseBps": 0,
-      "platformSetupFeeUsd": null,
-      "platformRecurringServiceFeeUsdPerYr": 0,
       "issuerDocsUrl": "https://docs.ondo.finance/qualified-access-products/ousg/fees-and-taxes ; https://docs.ondo.finance/ondo-global-markets/fees-and-taxes",
       "tcsUrl": "https://docs.ondo.finance/",
       "governanceWhitepaperUrl": "https://docs.ondo.finance/legal/terms-of-service",

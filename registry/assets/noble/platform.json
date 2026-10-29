@@ -12,7 +12,8 @@
         "https://dollar.noble.xyz/"
       ],
       "twitter": "https://x.com/noble_xyz",
-      "docs": "https://docs.noble.xyz/"
+      "docs": "https://docs.noble.xyz/",
+      "github": "https://github.com/noble-assets"
     }
   },
   "platform": {
@@ -27,7 +28,6 @@
     "chains": [
       "noble"
     ],
-    "parentPlatform": "noble",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false

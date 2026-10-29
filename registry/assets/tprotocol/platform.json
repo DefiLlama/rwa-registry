@@ -13,7 +13,8 @@
       ],
       "twitter": "https://x.com/TProtocol_",
       "docs": "https://docs.tprotocol.io/",
-      "linkedin": "https://www.linkedin.com/company/t-protocol"
+      "linkedin": "https://www.linkedin.com/company/t-protocol",
+      "github": "https://github.com/tprotocol"
     }
   },
   "platform": {
@@ -28,7 +29,6 @@
     "chains": [
       "bsc"
     ],
-    "parentPlatform": "tprotocol",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false

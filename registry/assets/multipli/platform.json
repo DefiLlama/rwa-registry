@@ -12,8 +12,11 @@
         "https://multipli.fi/"
       ],
       "twitter": "https://x.com/multiplifi",
-      "docs": "https://multipli.fi/"
-    }
+      "docs": "https://multipli.fi/",
+      "discord": "https://discord.gg/F6gjSB3f78",
+      "telegram": "https://t.me/+gy8Qtyh5rdBiNDM9"
+    },
+    "registryInfo": "Reviewed public materials describe rwaUSDi as a Multipli-issued institutional, permissioned credit layer for tokenized private markets. Specific corporate registry details for the operating entity behind rwaUSDi were not clearly disclosed in the reviewed public materials."
   },
   "platform": {
     "category": [
@@ -27,7 +30,6 @@
     "chains": [
       "ethereum"
     ],
-    "parentPlatform": "multipli",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false

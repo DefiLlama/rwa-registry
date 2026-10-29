@@ -17,6 +17,7 @@
       "linkedin": "https://www.linkedin.com/company/kinetiq-xyz",
       "discord": "https://discord.kinetiq.xyz",
       "telegram": "https://t.me/kinetiq_announcements",
+      "github": "https://github.com/kinetiq-research",
       "refLinks": [
         "https://markets.xyz/join/llama"
       ]
@@ -30,14 +31,7 @@
     "platformType": [
       "perp-venue"
     ],
-    "accessModel": "permissionless",
-    "primaryChain": "hyperliquid",
-    "chains": [
-      "hyperliquid"
-    ],
     "attestationFrequency": "N/A (Perp Venue)",
-    "marginSettlementAsset": "USDH (Hyperliquid)",
-    "parentPlatform": "markets-by-kinetiq",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false,

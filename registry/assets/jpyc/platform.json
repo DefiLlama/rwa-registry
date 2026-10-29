@@ -13,7 +13,8 @@
       ],
       "twitter": "https://x.com/jpyc_official",
       "docs": "https://corporate.jpyc.co.jp/en",
-      "linkedin": "https://www.linkedin.com/company/jpycinc"
+      "linkedin": "https://www.linkedin.com/company/jpycinc",
+      "github": "https://github.com/jpyc"
     }
   },
   "platform": {
@@ -28,7 +29,6 @@
     "chains": [
       "ethereum"
     ],
-    "parentPlatform": "jpyc",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false

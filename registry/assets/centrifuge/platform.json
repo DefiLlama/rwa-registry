@@ -15,6 +15,8 @@
       "twitter": "https://x.com/centrifuge",
       "docs": "https://docs.centrifuge.io/",
       "linkedin": "https://www.linkedin.com/company/centrifuge-io",
+      "discord": "https://discord.com/invite/yEzyUq5gxF",
+      "telegram": "https://t.me/centrifuge_chat",
       "github": "https://github.com/centrifuge"
     },
     "registryInfo": "Centrifuge (Centrifuge Foundation, Switzerland; Centrifuge Inc., US). Decentralized RWA tokenization protocol launched 2017 by Lucas Vogelsang, Martin Quensel et al. Tinlake / Centrifuge Pools enable structured-credit issuance. CFG governance token live on Coinbase, Bybit, KuCoin. Backed by BlockTower, Galaxy, Coinbase Ventures.",
@@ -38,7 +40,6 @@
     "chains": [
       "ethereum"
     ],
-    "parentPlatform": "centrifuge",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false,

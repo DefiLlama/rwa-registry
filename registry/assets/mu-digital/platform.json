@@ -15,7 +15,8 @@
       "docs": "https://www.mudigital.io/",
       "linkedin": "https://www.linkedin.com/company/mu-digital",
       "discord": "N/A (institutional)",
-      "telegram": "N/A (institutional)"
+      "telegram": "N/A (institutional)",
+      "github": "https://github.com/Mu-Digital"
     },
     "registryInfo": "Mu Digital is a UK-based RWA tokenization platform issuing tokenized real-estate and trade-finance instruments under FCA-supervised structures."
   },
@@ -33,7 +34,6 @@
     "chains": [
       "monad"
     ],
-    "parentPlatform": "mu-digital",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false,

@@ -31,9 +31,6 @@
     "platformType": [
       "perp-venue"
     ],
-    "accessModel": "permissioned",
-    "marginSettlementAsset": "USD multi-collateral",
-    "parentPlatform": "kraken",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false,

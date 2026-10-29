@@ -11,7 +11,9 @@
       "website": [
         "https://www.bailliegifford.com/digital-assets"
       ],
-      "twitter": "https://x.com/BGDA_UK"
+      "twitter": "https://x.com/BGDA_UK",
+      "docs": "https://www.bailliegifford.com/digital-assets",
+      "linkedin": "https://www.linkedin.com/company/baillie-gifford-&-co"
     },
     "foundedYear": 1908,
     "headquarters": "Edinburgh, UK",
@@ -31,7 +33,6 @@
       "ethereum",
       "solana"
     ],
-    "parentPlatform": "baillie-gifford",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false,

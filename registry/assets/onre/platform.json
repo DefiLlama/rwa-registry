@@ -14,6 +14,7 @@
       "twitter": "https://x.com/onrefinance",
       "docs": "https://docs.onre.io/",
       "linkedin": "https://www.linkedin.com/company/onre-finance",
+      "github": "https://github.com/onre-finance/onre-sol",
       "refLinks": [
         "https://app.onre.finance/earn/leaderboard?ref=FDHRTE658"
       ]
@@ -38,7 +39,6 @@
     "chains": [
       "solana"
     ],
-    "parentPlatform": "onre",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false,

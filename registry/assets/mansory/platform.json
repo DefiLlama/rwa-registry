@@ -13,7 +13,8 @@
       ],
       "twitter": "https://x.com/MANSORYofficial",
       "docs": "https://www.mansorymotors.com/",
-      "linkedin": "https://www.linkedin.com/company/mansoryusa"
+      "linkedin": "https://www.linkedin.com/company/mansoryusa",
+      "telegram": "https://t.me/MansoryToken"
     }
   },
   "platform": {
@@ -29,7 +30,6 @@
     "chains": [
       "solana"
     ],
-    "parentPlatform": "mansory",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false

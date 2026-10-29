@@ -8,8 +8,6 @@
   "oracleProvider": "Pyth / Parcl Labs housing feed",
   "accessModel": "permissionless",
   "rwaClassification": "programmable-finance",
-  "website": "https://app.parcl.co/",
-  "issuer": "Parcl Labs",
   "marginAsset": "USDC",
   "events": [
     {

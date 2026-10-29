@@ -31,7 +31,6 @@
       "ethereum"
     ],
     "attestationFrequency": "Per-issuance prospectus + monthly position attestation",
-    "parentPlatform": "pv01",
     "suspicious": false,
     "llamaGradeAttestation": false,
     "fees": {

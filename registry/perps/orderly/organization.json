@@ -28,14 +28,7 @@
     "platformType": [
       "perp-venue"
     ],
-    "accessModel": "permissionless",
-    "primaryChain": "gatelayer",
-    "chains": [
-      "gatelayer"
-    ],
     "attestationFrequency": "N/A (Perp Venue)",
-    "marginSettlementAsset": "USDC (Gate Layer / Orderly)",
-    "parentPlatform": "aden",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false,

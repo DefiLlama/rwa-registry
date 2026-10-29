@@ -13,7 +13,10 @@
       ],
       "twitter": "https://x.com/goldfinch_fi",
       "docs": "https://docs.goldfinch.finance/",
-      "linkedin": "https://www.linkedin.com/company/goldfinch-finance"
+      "linkedin": "https://www.linkedin.com/company/goldfinch-finance",
+      "discord": "https://discord.com/invite/UCdYWTJzD5",
+      "telegram": "https://t.me/goldfinch_finance",
+      "github": "https://github.com/goldfinch-eng"
     }
   },
   "platform": {
@@ -29,7 +32,6 @@
     "chains": [
       "ethereum"
     ],
-    "parentPlatform": "goldfinch",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false

@@ -13,7 +13,10 @@
       ],
       "twitter": "https://x.com/TrueFiDAO",
       "docs": "https://docs.truefi.io/",
-      "linkedin": "https://www.linkedin.com/company/truefi-protocol"
+      "linkedin": "https://www.linkedin.com/company/truefi-protocol",
+      "discord": "https://discord.com/invite/truefi-dao-768936623684714517",
+      "telegram": "https://t.me/jointruefi",
+      "github": "https://github.com/TrueFi-Protocol"
     }
   },
   "platform": {
@@ -29,7 +32,6 @@
     "chains": [
       "ethereum"
     ],
-    "parentPlatform": "truefi",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false

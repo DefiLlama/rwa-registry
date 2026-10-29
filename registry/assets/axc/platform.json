@@ -12,6 +12,7 @@
         "https://axc.xyz/en"
       ],
       "twitter": "https://x.com/AXCLabs",
+      "docs": "https://docs.axc.xyz/",
       "linkedin": "https://www.linkedin.com/company/axc-labs"
     },
     "registryInfo": "AXC is operated by RWAfi DAO LLC, a Wyoming DAO LLC. AXC Labs is the development team. The GIFT (Grow Institutional Fund Token) is the platform's flagship mixed-RWA fund on BSC. Wyoming DAO LLC framework provides limited-liability protection for DAO members under Wyoming's 2021 DAO LLC law."
@@ -28,7 +29,6 @@
     "chains": [
       "bsc"
     ],
-    "parentPlatform": "axc",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false,

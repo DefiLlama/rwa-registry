@@ -14,7 +14,9 @@
       "twitter": "https://x.com/StoboxCompany",
       "docs": "https://docs.stobox.io/",
       "linkedin": "https://www.linkedin.com/company/stobox-platform",
-      "telegram": "https://t.me/stobox_official"
+      "discord": "https://dsc.gg/stobox",
+      "telegram": "https://t.me/stobox_official",
+      "github": "https://github.com/StoboxTechnologies"
     },
     "registryInfo": "Stobox Technologies Inc. (Estonia, registered ICO/STO advisor). Provides white-label tokenization SaaS for security-token issuance, KYC/AML compliance, and trading-venue setup. STBU governance/utility token live on multiple DEXs."
   },
@@ -35,7 +37,6 @@
       "arbitrum"
     ],
     "attestationFrequency": "N/A (Lending Venue)",
-    "parentPlatform": "stobox",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false,

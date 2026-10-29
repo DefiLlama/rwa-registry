@@ -12,7 +12,9 @@
         "https://curve.fi/"
       ],
       "twitter": "https://x.com/CurveFinance",
-      "docs": "https://docs.curve.fi/"
+      "docs": "https://docs.curve.fi/",
+      "telegram": "https://t.me/curvefi",
+      "github": "https://github.com/curvefi"
     }
   },
   "platform": {
@@ -27,7 +29,6 @@
     "chains": [
       "ethereum"
     ],
-    "parentPlatform": "curve",
     "suspicious": false,
     "llamaGradeAttestation": false
   },

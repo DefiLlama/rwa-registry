@@ -40,7 +40,6 @@
       "plume_mainnet"
     ],
     "attestationFrequency": "On audit + monthly investor reporting per operation",
-    "parentPlatform": "lend",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false

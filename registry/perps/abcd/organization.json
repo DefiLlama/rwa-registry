@@ -17,7 +17,10 @@
       "linkedin": "https://www.linkedin.com/company/hyperunit",
       "discord": "https://discord.gg/tradexyz",
       "telegram": "https://t.me/tradexyz",
-      "github": "https://github.com/tradexyz"
+      "github": "https://github.com/tradexyz",
+      "refLinks": [
+        "https://app.hyperliquid.xyz/join/DEFILLAMAS"
+      ]
     },
     "registryInfo": "ABCD is a HIP-3 deployment operated by trade[XYZ] (Hyperunit team) and was the first decentralized exchange to receive an official S&P Dow Jones Indices license to offer S&P 500® perpetual contracts (announced March 18, 2026). Markets appear under the abcd namespace on Hyperliquid and use real-time data sourced from S&P Dow Jones Indices."
   },
@@ -28,14 +31,7 @@
     "platformType": [
       "perp-venue"
     ],
-    "accessModel": "permissionless",
-    "primaryChain": "hyperliquid",
-    "chains": [
-      "hyperliquid"
-    ],
     "attestationFrequency": "N/A (Perp Venue)",
-    "marginSettlementAsset": "USDC (Hyperliquid)",
-    "parentPlatform": "abcd",
     "suspicious": false,
     "llamaGradeAttestation": false,
     "fees": {

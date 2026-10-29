@@ -40,7 +40,6 @@
       "ethereum"
     ],
     "attestationFrequency": "Monthly",
-    "parentPlatform": "circle",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false,
@@ -51,7 +50,6 @@
       "mintFeeBps": 0,
       "redemptionFeeBps": 0,
       "floatIncome": true,
-      "prospectusUrl": "https://investor.circle.com/financials/sec-filings/default.aspx",
       "feeScheduleUrl": "https://help.circle.com/s/article/USDC-redemption-structure",
       "issuerDocsUrl": "https://www.circle.com/transparency",
       "tcsUrl": "https://www.circle.com/legal/usdc-terms",

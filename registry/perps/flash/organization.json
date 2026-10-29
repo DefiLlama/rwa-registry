@@ -31,14 +31,7 @@
     "platformType": [
       "perp-venue"
     ],
-    "accessModel": "permissionless",
-    "primaryChain": "solana",
-    "chains": [
-      "solana"
-    ],
     "attestationFrequency": "N/A (Perp Venue)",
-    "marginSettlementAsset": "USDC (Solana)",
-    "parentPlatform": "flash-trade",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false,

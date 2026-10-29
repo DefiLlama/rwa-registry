@@ -13,6 +13,7 @@
         "https://tenbinlabs.xyz/"
       ],
       "twitter": "https://x.com/tenbinlabs",
+      "docs": "https://docs.tenbinlabs.xyz",
       "telegram": "https://t.me/liquid_and_yield_bearing",
       "github": "https://github.com/tenbinlabs/tenbin-contracts"
     },
@@ -31,7 +32,6 @@
     "chains": [
       "ethereum"
     ],
-    "parentPlatform": "tenbin-labs",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false,

@@ -13,7 +13,10 @@
       ],
       "twitter": "https://x.com/ClearpoolFin",
       "docs": "https://docs.clearpool.finance/",
-      "linkedin": "https://www.linkedin.com/company/clearpool"
+      "linkedin": "https://www.linkedin.com/company/clearpool",
+      "discord": "https://discord.com/invite/YYzxscA4nu",
+      "telegram": "https://t.me/clearpoolofficial",
+      "github": "https://github.com/clearpool-finance"
     }
   },
   "platform": {
@@ -29,7 +32,6 @@
     "chains": [
       "ethereum"
     ],
-    "parentPlatform": "clearpool",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false

@@ -30,9 +30,6 @@
     "platformType": [
       "perp-venue"
     ],
-    "accessModel": "permissioned",
-    "marginSettlementAsset": "USD (INR rails, fixed 85 INR per USD)",
-    "parentPlatform": "delta-exchange-india",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false,

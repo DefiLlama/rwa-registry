@@ -15,6 +15,7 @@
       "twitter": "https://x.com/brale_xyz",
       "docs": "https://docs.brale.xyz",
       "linkedin": "https://www.linkedin.com/company/brale",
+      "telegram": "https://t.me/bralecommunity",
       "github": "https://github.com/brale-xyz"
     },
     "registryInfo": "Brale Inc. — US-domiciled, State Money Transmitter Licensed (NMLS ID #2376957) regulated stablecoin issuance and orchestration platform. Issues stablecoins for partners (e.g. MXNe in partnership with Etherfuse; cfUSD for Coinflow; supports USDC issuance flows on Base, Arbitrum, Celo). Bankruptcy-remote reserve segregation. SOC 2 compliant."
@@ -38,7 +39,6 @@
       "celo"
     ],
     "attestationFrequency": "Ongoing (per-stablecoin attestations + reserve transparency)",
-    "parentPlatform": "brale",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false,

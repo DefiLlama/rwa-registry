@@ -13,7 +13,8 @@
       ],
       "twitter": "https://x.com/withAUSD",
       "docs": "https://docs.agora.finance/",
-      "linkedin": "https://www.linkedin.com/company/agora-money"
+      "linkedin": "https://www.linkedin.com/company/agora-money",
+      "github": "https://github.com/agora-finance"
     },
     "foundedYear": 2023,
     "headquarters": "New York, USA",
@@ -34,7 +35,6 @@
     "chains": [
       "ethereum"
     ],
-    "parentPlatform": "agora",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false,

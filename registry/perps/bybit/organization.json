@@ -32,9 +32,6 @@
     "platformType": [
       "perp-venue"
     ],
-    "accessModel": "permissioned",
-    "marginSettlementAsset": "USDT; USDC",
-    "parentPlatform": "bybit",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false,

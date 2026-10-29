@@ -13,8 +13,11 @@
       ],
       "twitter": "https://x.com/solayer_labs",
       "docs": "https://docs.solayer.org/",
-      "linkedin": "https://www.linkedin.com/company/solayer-labs"
-    }
+      "linkedin": "https://www.linkedin.com/company/solayer-labs",
+      "telegram": "https://t.me/solayer_discussion",
+      "github": "https://github.com/solayer-labs"
+    },
+    "registryInfo": "Solayer Labs Inc. – U.S.-based company building the Solayer restaking platform and sUSD income-based stablecoin (per Solayer documentation and press coverage)."
   },
   "platform": {
     "category": [
@@ -28,7 +31,6 @@
     "chains": [
       "solana"
     ],
-    "parentPlatform": "solayer",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false

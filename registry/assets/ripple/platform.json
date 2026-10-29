@@ -13,7 +13,9 @@
       ],
       "twitter": "https://x.com/Ripple",
       "docs": "https://ripple.com/developers/",
-      "linkedin": "https://www.linkedin.com/company/ripple-labs"
+      "linkedin": "https://www.linkedin.com/company/ripple-labs",
+      "discord": "https://discord.com/invite/qgfVERN",
+      "telegram": "https://t.me/Ripple"
     },
     "foundedYear": 2012,
     "headquarters": "San Francisco, USA",
@@ -34,7 +36,6 @@
     "chains": [
       "ripple"
     ],
-    "parentPlatform": "ripple",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false,

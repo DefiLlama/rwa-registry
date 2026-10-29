@@ -13,7 +13,10 @@
       ],
       "twitter": "https://x.com/landxfinance",
       "docs": "https://docs.landx.fi/",
-      "linkedin": "https://www.linkedin.com/company/landxfinance"
+      "linkedin": "https://www.linkedin.com/company/landxfinance",
+      "discord": "https://discord.gg/landx",
+      "telegram": "https://t.me/landxfinance",
+      "github": "https://github.com/LandXit/land-x-smart-contracts"
     },
     "registryInfo": "LandX Finance (BVI / Cayman). Tokenized agricultural-yield protocol launched 2023. Issues commodity-yield tokens (xCORN, xSOY, xWHEAT, xRICE, etc.) representing perpetual cashflows from real farmland production. LNDX governance token."
   },
@@ -30,7 +33,6 @@
     "chains": [
       "ethereum"
     ],
-    "parentPlatform": "landx-finance",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false,

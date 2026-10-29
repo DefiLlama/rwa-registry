@@ -10,7 +10,5 @@
   "accessModel": "permissioned",
   "rwaClassification": "programmable-finance",
   "conventionNote": "Funding settles every 8 hours on equities and every 4 hours on commodities and metals, read per market from funding_interval_minutes.",
-  "website": "https://whitebit.com",
-  "issuer": "WhiteBIT",
   "marginAsset": "USDT"
 }

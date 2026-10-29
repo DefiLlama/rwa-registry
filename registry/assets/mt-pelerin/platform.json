@@ -13,7 +13,9 @@
       ],
       "twitter": "https://x.com/mtpelerin",
       "docs": "https://www.mtpelerin.com/",
-      "linkedin": "https://www.linkedin.com/company/mt-pelerin"
+      "linkedin": "https://www.linkedin.com/company/mt-pelerin",
+      "telegram": "https://t.me/mtpelerin",
+      "github": "https://github.com/MtPelerin/bridge-v1"
     }
   },
   "platform": {
@@ -28,7 +30,6 @@
     "chains": [
       "ethereum"
     ],
-    "parentPlatform": "mt-pelerin",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false

@@ -12,7 +12,8 @@
         "https://www.groma.com/"
       ],
       "twitter": "https://x.com/GromaCorp"
-    }
+    },
+    "registryInfo": "Groma Real Estate Trust (Groma). Contact address: 31 New Chardon St, Boston, MA 02114, United States."
   },
   "platform": {
     "category": [
@@ -26,7 +27,6 @@
     "chains": [
       "base"
     ],
-    "parentPlatform": "groma",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false

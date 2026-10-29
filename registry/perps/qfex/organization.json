@@ -21,8 +21,6 @@
     "platformType": [
       "stock-perp"
     ],
-    "accessModel": "permissioned",
-    "parentPlatform": "qfex",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false

@@ -12,6 +12,10 @@
         "https://www.gate.com/gusd"
       ],
       "twitter": "https://x.com/gate_io",
+      "docs": "https://www.gate.com/docs/developers/apiv4/",
+      "linkedin": "https://www.linkedin.com/company/gateio",
+      "discord": "https://discord.gg/93WU6kt29u",
+      "telegram": "https://t.me/GateCom_EN",
       "refLinks": [
         "https://www.gatesite.casa/web3/ref?code=nufLft0L"
       ]
@@ -29,7 +33,6 @@
     "chains": [
       "ethereum"
     ],
-    "parentPlatform": "gate",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false

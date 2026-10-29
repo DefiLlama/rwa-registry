@@ -13,7 +13,8 @@
       ],
       "twitter": "https://x.com/mountainusdm",
       "docs": "https://docs.mountainprotocol.com/",
-      "linkedin": "https://www.linkedin.com/company/mountain-protocol"
+      "linkedin": "https://www.linkedin.com/company/mountain-protocol",
+      "github": "https://github.com/mountainprotocol"
     },
     "registryInfo": "Mountain Protocol Ltd is a Bermuda-incorporated company regulated by the Bermuda Monetary Authority (BMA) under a Class F Digital Asset Business Act (DABA) license, granted 2023. USDM is fully backed by short-duration US Treasuries and cash held at qualified Bermuda banks. Founders: Martin Carrica (CEO, ex-Buenbit) and Manuel Pacheco. Backed by Coinbase Ventures, Multicoin Capital, Castle Island Ventures, Bankless Ventures, Distributed Global, and others. Auditor: The Network Firm LLP (proof-of-reserves). USDM was the first BMA-licensed yield-bearing stablecoin; non-US-only access model. Tether-style reserve attestations published monthly."
   },
@@ -30,7 +31,6 @@
       "ethereum"
     ],
     "attestationFrequency": "Monthly proof-of-reserves attestation by The Network Firm LLP",
-    "parentPlatform": "mountain-protocol",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false,
@@ -39,7 +39,6 @@
       "holderTotalFeeBps": 50,
       "assetManagerTakeBps": 50,
       "tokenizationPlatformTakeBps": 0,
-      "yieldSpreadRetainedBps": 50,
       "mintFeeBps": 0,
       "redemptionFeeBps": 0,
       "floatIncome": false,

@@ -8,8 +8,12 @@
     "links": {
       "website": [
         "https://tokeshare.co/"
-      ]
-    }
+      ],
+      "twitter": "https://x.com/Tokeshare",
+      "docs": "https://tokeshare.co/marketplace/other/french-tacos",
+      "linkedin": "https://www.linkedin.com/company/tokeshare"
+    },
+    "registryInfo": "Tokeshare tokenizes TFW_001 on Stellar as fractional economic shares in a quad used as a revenue-generating transport/rental vehicle. The public asset page lists 100 total shares at an indicative price of 50 USDC each"
   },
   "platform": {
     "primaryChain": null,

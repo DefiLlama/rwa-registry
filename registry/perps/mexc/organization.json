@@ -32,9 +32,6 @@
     "platformType": [
       "perp-venue"
     ],
-    "accessModel": "permissioned",
-    "marginSettlementAsset": "USDT; USDC; USD1",
-    "parentPlatform": "mexc",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false,

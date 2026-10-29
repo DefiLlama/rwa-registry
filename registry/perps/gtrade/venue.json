@@ -10,8 +10,6 @@
   "accessModel": "permissionless",
   "rwaClassification": "programmable-finance",
   "conventionNote": "gTrade has no maker and taker split: one fee per pair group is charged on opening and on closing, so a market carries it as both maker and taker, and holding costs are a funding fee charged per second plus a borrowing fee per block paid by the dominant side.",
-  "website": "https://gains.trade/",
-  "issuer": "Gains Network",
   "marginAsset": "USDC",
   "makerFeeBps": null,
   "takerFeeBps": null

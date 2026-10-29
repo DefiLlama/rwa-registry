@@ -10,7 +10,8 @@
         "https://www.coinbase.com/tokenize"
       ],
       "twitter": "https://x.com/coinbase",
-      "docs": "https://www.coinbase.com/tokenize"
+      "docs": "https://www.coinbase.com/tokenize",
+      "linkedin": "https://www.linkedin.com/company/coinbase"
     }
   },
   "platform": {
@@ -25,7 +26,6 @@
     "chains": [
       "base"
     ],
-    "parentPlatform": "coinbase",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false

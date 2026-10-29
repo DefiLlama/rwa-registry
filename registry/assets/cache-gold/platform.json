@@ -13,7 +13,8 @@
       ],
       "twitter": "https://x.com/cache_token",
       "docs": "https://docs.cache.gold/",
-      "linkedin": "https://www.linkedin.com/company/cache-gold"
+      "linkedin": "https://www.linkedin.com/company/cache-gold",
+      "github": "https://github.com/cache-token"
     }
   },
   "platform": {
@@ -28,7 +29,6 @@
     "chains": [
       "ethereum"
     ],
-    "parentPlatform": "cache-gold",
     "suspicious": false,
     "llamaGradeAttestation": false
   },

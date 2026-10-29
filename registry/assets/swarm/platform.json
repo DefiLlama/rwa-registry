@@ -14,6 +14,7 @@
       "twitter": "https://x.com/SwarmMarkets",
       "docs": "https://docs.swarm.com/",
       "linkedin": "https://www.linkedin.com/company/swarmmarkets",
+      "telegram": "https://t.me/swarmfund",
       "github": "https://github.com/swarmmarkets"
     },
     "registryInfo": "Swarm Markets GmbH (Germany), BaFin-regulated tokenization platform and decentralized regulated exchange. Launched 2017, headquartered in Berlin. Issues tokenized stocks, ETFs, and treasuries with full MiFID II compliance and German securities regulator oversight. SMT governance token."
@@ -31,7 +32,6 @@
       "polygon"
     ],
     "attestationFrequency": "Annual audit + on-demand BaFin reporting",
-    "parentPlatform": "swarm",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false,

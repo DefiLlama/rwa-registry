@@ -30,14 +30,7 @@
     "platformType": [
       "perp-venue"
     ],
-    "accessModel": "permissionless",
-    "primaryChain": "ethereum",
-    "chains": [
-      "ethereum"
-    ],
     "attestationFrequency": "N/A (Perp Venue)",
-    "marginSettlementAsset": "USDC (StarkEx → EDGE Chain)",
-    "parentPlatform": "edgex",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false,

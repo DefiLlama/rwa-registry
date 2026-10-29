@@ -14,10 +14,13 @@
       "twitter": "https://x.com/apyx_fi",
       "docs": "https://apyx.app/",
       "linkedin": "https://www.linkedin.com/company/apyx-asset",
+      "discord": "https://discord.gg/apyx-fi",
+      "telegram": "https://t.me/apyx_announcements",
       "refLinks": [
         "https://app.apyx.fi/join/3ve1q9l"
       ]
     },
+    "registryInfo": "Apyx public docs describe apyUSD as a protocol-generated ERC-4626 vault share within the APYX Protocol. The site and protocol are made available by Preference Capital (BVI) Ltd. and its affiliates under British Virgin Islands-governed terms, and public docs also state the protocol is supported by the team behind DeFi Development Corp. (Nasdaq: DFDV). No separate public corporate registry filing specific to the apyUSD vault issuer was identified in the reviewed materials.",
     "foundedYear": 2026,
     "founders": "Parker White (Founding Contributor, ex DFDV COO), Joseph Onorati (Founding Contributor, DFDV CEO)",
     "regulatoryStatus": "Apyx discloses no licenses or registrations in any jurisdiction. The protocol is made available by Preference Capital (BVI) Ltd. under BVI law with the US, EU, UK, and Canada prohibited. The only third party oversight is monthly examination level attestations by Wolf and Company P.C., a PCAOB registered audit firm, plus an Accountable proof of solvency dashboard.",
@@ -36,7 +39,6 @@
     "chains": [
       "ethereum"
     ],
-    "parentPlatform": "apyx",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false,

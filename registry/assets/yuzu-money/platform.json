@@ -14,6 +14,7 @@
       "docs": "https://yuzu-money.gitbook.io/yuzu-money",
       "linkedin": "https://www.linkedin.com/company/yuzu-money"
     },
+    "registryInfo": "Yuzu Money is an institutional-grade tokenized yield infrastructure with product suites spanning tokenized RWAs (Yuzu Prime) and DeFi structured products (Yuzu Alpha, comprising yzUSD senior tranche, staked syzUSD, and yzPP junior tranche). The platform runs on Pashov and Dedaub audited smart contracts, Fordefi MPC key management, and Hypernative real-time threat monitoring. The ERC-4626 vault issued on Monad operates under this risk framework with reserves continuously verified via Accountable's Proof of Solvency at yuzu.accountable.capital.",
     "foundedYear": 2025,
     "regulatoryStatus": "Yuzu Fintech LLC is a Virtual Asset Service Provider licensed under the Kutaisi Free Industrial Zone rules of the Republic of Georgia. Not authorized by any other regulator. Primary mint and redeem is gated to accredited and institutional investors."
   },
@@ -29,7 +30,6 @@
     "chains": [
       "monad"
     ],
-    "parentPlatform": "yuzu-money",
     "suspicious": false,
     "llamaGradeAttestation": false,
     "fees": {

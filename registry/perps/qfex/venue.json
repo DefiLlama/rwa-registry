@@ -7,8 +7,6 @@
   "accessModel": "permissioned",
   "rwaClassification": "programmable-finance",
   "conventionNote": "Funding settles every 60 minutes with no interest-rate term and only during each symbol's market hours, being zero outside them, and base-tier fees are 5 bps maker and 10 bps taker on single stocks and 2 bps maker and 5 bps taker on the commodity, index and ETF markets.",
-  "website": "https://www.qfex.com",
-  "issuer": "QFEX",
   "marginAsset": "USDC",
   "makerFeeBps": 5,
   "takerFeeBps": 10,

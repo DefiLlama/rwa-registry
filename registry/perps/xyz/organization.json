@@ -17,7 +17,10 @@
       "linkedin": "https://www.linkedin.com/company/hyperunit",
       "discord": "https://discord.gg/tradexyz",
       "telegram": "https://t.me/tradexyz",
-      "github": "https://github.com/tradexyz"
+      "github": "https://github.com/tradexyz",
+      "refLinks": [
+        "https://app.hyperliquid.xyz/join/DEFILLAMAS"
+      ]
     },
     "registryInfo": "Operated by the Hyperunit team (also behind Hyperliquid asset-tokenization layer Unit). Core team brings expertise from HRT, Jump Trading, Fortress Investment Group, and US cyber units; founder remains pseudonymous. Markets are deployed under the xyz namespace on Hyperliquid via HIP-3 builder-deployed perpetuals."
   },
@@ -28,14 +31,7 @@
     "platformType": [
       "perp-venue"
     ],
-    "accessModel": "permissionless",
-    "primaryChain": "hyperliquid",
-    "chains": [
-      "hyperliquid"
-    ],
     "attestationFrequency": "N/A (Perp Venue)",
-    "marginSettlementAsset": "USDC (Hyperliquid)",
-    "parentPlatform": "trade-xyz",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false,

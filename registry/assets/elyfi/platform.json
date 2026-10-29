@@ -13,7 +13,8 @@
       ],
       "twitter": "https://x.com/ELYSIA_HQ",
       "docs": "https://docs.elyfi.world/",
-      "linkedin": "https://www.linkedin.com/company/elyfi"
+      "linkedin": "https://www.linkedin.com/company/elyfi",
+      "github": "https://github.com/elysia-dev"
     }
   },
   "platform": {
@@ -29,7 +30,6 @@
     "chains": [
       "ethereum"
     ],
-    "parentPlatform": "elyfi",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false

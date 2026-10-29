@@ -11,7 +11,8 @@
       "website": [
         "https://www.finlooprwa.com/"
       ],
-      "twitter": "https://x.com/FinloopHK"
+      "twitter": "https://x.com/FinloopHK",
+      "docs": "https://www.finlooprwa.com/"
     }
   },
   "platform": {
@@ -29,7 +30,6 @@
       "revenueModel": "Mint/Redeem Fees plus underlying fund fees",
       "revenueConfidence": "issuer-disclosed",
       "feeLastVerified": "2026-07-02",
-      "feeWaiverEndDate": null,
       "revenueNotes": "A launch promotion currently waives subscription and redemption fees. The waiver end date is unknown and promotional."
     }
   },

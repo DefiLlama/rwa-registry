@@ -15,6 +15,7 @@
       "twitter": "https://x.com/bitget",
       "docs": "https://www.bitget.com/api-doc/common/intro",
       "linkedin": "https://www.linkedin.com/company/bitget-global",
+      "discord": "https://discord.com/invite/bitget",
       "telegram": "https://t.me/BitgetENOfficial"
     },
     "foundedYear": 2018,
@@ -31,9 +32,6 @@
     "platformType": [
       "perp-venue"
     ],
-    "accessModel": "permissioned",
-    "marginSettlementAsset": "USDT",
-    "parentPlatform": "bitget",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false,

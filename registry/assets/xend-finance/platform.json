@@ -13,7 +13,10 @@
       ],
       "twitter": "https://x.com/xendfinance",
       "docs": "https://docs.xend.finance/",
-      "linkedin": "https://www.linkedin.com/company/xend-finance"
+      "linkedin": "https://www.linkedin.com/company/xend-finance",
+      "discord": "https://discord.com/invite/QGHb7jp2GV",
+      "telegram": "https://t.me/xendFinance",
+      "github": "https://github.com/xendfinance"
     }
   },
   "platform": {
@@ -29,7 +32,6 @@
     "chains": [
       "bsc"
     ],
-    "parentPlatform": "xend-finance",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false,

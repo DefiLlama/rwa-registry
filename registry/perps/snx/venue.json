@@ -9,8 +9,6 @@
   "oracleProvider": "Chainlink + Pyth",
   "accessModel": "permissionless",
   "rwaClassification": "programmable-finance",
-  "website": "https://synthetix.io/",
-  "issuer": "Synthetix",
   "marginAsset": "sUSD",
   "events": [
     {

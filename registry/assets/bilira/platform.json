@@ -12,7 +12,8 @@
         "https://bilira.co"
       ],
       "twitter": "https://x.com/BiLira_Kripto"
-    }
+    },
+    "registryInfo": "BiLira - issuer/brand of the TRYB Turkish lira stablecoin. Public documentation indicates TRYB is designed to track TRY via a centralized issuer model with offchain reserves; legal/entity disclosures depend on issuer-provided documentation."
   },
   "platform": {
     "category": [
@@ -26,7 +27,6 @@
     "chains": [
       "ethereum"
     ],
-    "parentPlatform": "bilira",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false

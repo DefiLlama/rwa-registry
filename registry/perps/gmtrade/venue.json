@@ -8,8 +8,6 @@
   "oracleProvider": "Pyth",
   "accessModel": "permissionless",
   "rwaClassification": "programmable-finance",
-  "website": "https://gmtrade.xyz/",
-  "issuer": "GMTrade",
   "marginAsset": "USDC",
   "makerFeeBps": 2,
   "takerFeeBps": 2.4,

@@ -30,7 +30,6 @@
       "ethereum"
     ],
     "attestationFrequency": "Daily NAV via Chainlink Proof-of-Reserves",
-    "parentPlatform": "bloom",
     "suspicious": false,
     "llamaGradeAttestation": false,
     "fees": {
@@ -38,7 +37,6 @@
       "holderTotalFeeBps": 20,
       "assetManagerTakeBps": 20,
       "tokenizationPlatformTakeBps": 0,
-      "yieldSpreadRetainedBps": 20,
       "mintFeeBps": 0,
       "redemptionFeeBps": 0,
       "floatIncome": false,

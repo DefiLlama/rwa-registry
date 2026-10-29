@@ -10,7 +10,5 @@
   "accessModel": "permissioned",
   "rwaClassification": "programmable-finance",
   "conventionNote": "Funding settles every 8 hours on 168 of 170 markets and every 4 hours on 2, derived per market from the funding timestamps, and fees are the Lv1 tier of 0.02% maker and 0.05% taker.",
-  "website": "https://www.okx.com",
-  "issuer": "OKX",
   "marginAsset": "USDT"
 }

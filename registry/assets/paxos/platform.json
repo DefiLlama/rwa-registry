@@ -15,6 +15,7 @@
       "twitter": "https://x.com/PaxosGlobal",
       "docs": "https://docs.paxos.com/",
       "linkedin": "https://www.linkedin.com/company/paxos",
+      "telegram": "https://t.me/PaxosGlobal",
       "github": "https://github.com/paxosglobal"
     },
     "registryInfo": "Paxos Trust Company, LLC (New York; NYDFS-chartered trust). Founded 2012 by Charles Cascarilla and Rich Teo. Issuer of PAXG (gold-backed), USDP (Paxos Standard), and historically BUSD (Binance USD, discontinued Feb-2024 by NYDFS order). PayPal's USDC custody partner. Backed by Oak Hill Capital, Founders Fund, Mithril.",
@@ -38,7 +39,6 @@
       "ethereum"
     ],
     "attestationFrequency": "Monthly",
-    "parentPlatform": "paxos",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false,

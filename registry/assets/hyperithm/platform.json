@@ -12,7 +12,9 @@
         "https://www.hyperithm.com/"
       ],
       "twitter": "https://x.com/hyperithm",
-      "linkedin": "https://www.linkedin.com/company/hyperithm/"
+      "docs": "https://www.hyperithm.com/",
+      "linkedin": "https://www.linkedin.com/company/hyperithm/",
+      "github": "https://accountable.hyperithm.com/"
     },
     "foundedYear": 2018,
     "headquarters": "Tokyo, Japan",
@@ -31,7 +33,6 @@
     "chains": [
       "monad"
     ],
-    "parentPlatform": "hyperithm",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false,

@@ -11,7 +11,9 @@
       "website": [
         "https://afiprotocol.xyz/"
       ],
-      "twitter": "https://x.com/afiprotocol_xyz"
+      "twitter": "https://x.com/afiprotocol_xyz",
+      "discord": "https://discord.gg/afiprotocol",
+      "github": "https://github.com/AFI-Protocol"
     }
   },
   "platform": {
@@ -28,7 +30,6 @@
     "chains": [
       "ethereum"
     ],
-    "parentPlatform": "afi-protocol",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false

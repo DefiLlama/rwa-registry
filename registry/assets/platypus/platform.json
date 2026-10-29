@@ -12,7 +12,9 @@
         "https://platypus.finance/"
       ],
       "twitter": "https://x.com/PlatypusDefi",
-      "docs": "https://platypus.finance/"
+      "docs": "https://platypus.finance/",
+      "telegram": "https://t.me/Platypusdefi",
+      "github": "https://github.com/platypus-finance"
     }
   },
   "platform": {
@@ -27,7 +29,6 @@
     "chains": [
       "avax"
     ],
-    "parentPlatform": "platypus",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false

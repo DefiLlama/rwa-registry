@@ -31,14 +31,7 @@
     "platformType": [
       "perp-venue"
     ],
-    "accessModel": "permissionless",
-    "primaryChain": "base",
-    "chains": [
-      "base"
-    ],
     "attestationFrequency": "N/A (Perp Venue)",
-    "marginSettlementAsset": "USDC (Base)",
-    "parentPlatform": "avantis",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false,

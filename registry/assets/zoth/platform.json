@@ -13,7 +13,10 @@
       ],
       "twitter": "https://x.com/zothdotio",
       "docs": "https://docs.zoth.io/",
-      "linkedin": "https://www.linkedin.com/company/zoth-fi"
+      "linkedin": "https://www.linkedin.com/company/zoth-fi",
+      "discord": "https://discord.gg/2Rtq6t4a52",
+      "telegram": "https://t.me/zothio",
+      "github": "https://github.com/0xZothio"
     }
   },
   "platform": {
@@ -30,7 +33,6 @@
     "chains": [
       "ethereum"
     ],
-    "parentPlatform": "zoth",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false,

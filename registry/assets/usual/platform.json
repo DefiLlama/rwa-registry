@@ -14,7 +14,9 @@
       ],
       "twitter": "https://x.com/usualmoney",
       "docs": "https://docs.usual.money/",
-      "linkedin": "https://www.linkedin.com/company/usual-money"
+      "linkedin": "https://www.linkedin.com/company/usual-money",
+      "telegram": "https://t.me/usualmoney",
+      "github": "https://github.com/usual-dao"
     },
     "foundedYear": 2022,
     "headquarters": "Paris, France",
@@ -35,7 +37,6 @@
     "chains": [
       "ethereum"
     ],
-    "parentPlatform": "usual",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false,

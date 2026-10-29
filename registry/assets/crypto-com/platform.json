@@ -15,7 +15,8 @@
       "twitter": "https://x.com/cryptocom",
       "docs": "https://exchange-developer.crypto.com/exchange/v1/",
       "linkedin": "https://www.linkedin.com/company/cryptocom",
-      "discord": "https://discord.gg/cryptocom"
+      "discord": "https://discord.gg/cryptocom",
+      "telegram": "https://t.me/CryptocomOfficial"
     },
     "foundedYear": 2016,
     "headquarters": "Singapore",
@@ -32,8 +33,6 @@
       "perp-venue"
     ],
     "accessModel": "permissioned",
-    "marginSettlementAsset": "USD-stablecoin",
-    "parentPlatform": "crypto-com",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false,

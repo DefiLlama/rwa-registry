@@ -28,16 +28,7 @@
     "platformType": [
       "perp-venue"
     ],
-    "accessModel": "permissionless",
-    "primaryChain": "ethereum",
-    "chains": [
-      "ethereum",
-      "optimism",
-      "base"
-    ],
     "attestationFrequency": "N/A (Perp Venue)",
-    "marginSettlementAsset": "sUSD; USDC (Ethereum/Optimism/Base)",
-    "parentPlatform": "synthetix-perps",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false,

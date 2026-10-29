@@ -14,7 +14,9 @@
       "twitter": "https://x.com/strato_net",
       "docs": "https://docs.strato.nexus/",
       "linkedin": "https://www.linkedin.com/company/blockapps",
-      "telegram": "https://t.me/strato_net"
+      "discord": "https://discord.com/invite/Nwv83vw4up",
+      "telegram": "https://t.me/strato_net",
+      "github": "https://github.com/strato-net/strato-platform"
     },
     "registryInfo": "BlockApps Inc. (Delaware) is the developer of STRATO, an Ethereum-compatible Layer 1 designed for real-world asset tokenization, with public materials describing BA Gold Enterprises Inc. as the New York vaulting partner for the precious-metals products."
   },
@@ -32,7 +34,6 @@
       "strato"
     ],
     "attestationFrequency": "Monthly vaulting confirmations; periodic independent CPA audit",
-    "parentPlatform": "strato",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false,

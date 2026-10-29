@@ -12,7 +12,8 @@
         "https://asteroidx.io"
       ],
       "twitter": "https://x.com/Asteroid_AU"
-    }
+    },
+    "registryInfo": "Powered by Web3in Tech-Lab Pty Ltd., parent company of Asteroid X; Web3in states it has AUSTRAC IRD and DCE registration in Australia."
   },
   "platform": {
     "category": [
@@ -26,7 +27,6 @@
     "chains": [
       "hsk"
     ],
-    "parentPlatform": "asteroidx",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false

@@ -12,7 +12,9 @@
         "https://blast.io/"
       ],
       "twitter": "https://x.com/Blast_L2",
-      "docs": "https://docs.blast.io/"
+      "docs": "https://docs.blast.io/",
+      "discord": "https://discord.com/invite/blast",
+      "github": "https://github.com/blast-io"
     }
   },
   "platform": {
@@ -27,7 +29,6 @@
     "chains": [
       "blast"
     ],
-    "parentPlatform": "blast",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false

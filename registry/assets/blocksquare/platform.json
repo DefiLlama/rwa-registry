@@ -16,10 +16,7 @@
       "linkedin": "https://www.linkedin.com/company/blocksquare/",
       "discord": "https://discord.com/invite/blocksquare",
       "telegram": "https://t.me/blocksquare",
-      "github": "https://github.com/blocksquare",
-      "refLinks": [
-        "Property valuations are written on chain by the operator and revised by corporate resolution rather than by an independent appraisal feed or a market, so the reported value of each property rests on the operator's own assertion. No attestation, audit or proof of reserve was supplied for the property tokens. The submission named a registered issuing entity for only three of the one hundred and seventy two properties, so for the remainder the counterparty a holder actually faces is not established from the material provided. Two of those three name a company established by the chief executive of Blocksquare itself, so the operator and the property owning entity are not always independent of each other. Token holders hold an economic interest through the property owning entity rather than registered legal title, and no issuer redemption facility exists, so exit depends on locating an approved buyer. On a sample of tokens the valuation held in the registry is ten percent below the valuation held on the token itself, and the reason for the difference is not documented."
-      ]
+      "github": "https://github.com/blocksquare"
     },
     "registryInfo": "Blocksquare is the tokenization framework operator. The properties are held by separate property owning entities onboarded as Certified Partners, and the submission did not identify the registered company name, number or jurisdiction for any of them. Property records including address, coordinates and valuation are held in the Blocksquare property registry at 0x05325C1Ab1440df7214dB38F676F95999729267B on Ethereum, alongside a property factory at 0x1Ae91a263A690BF2129cf0b3aCAc92bBB67E6685.",
     "foundedYear": 2017,
@@ -41,7 +38,6 @@
     "chains": [
       "ethereum"
     ],
-    "parentPlatform": "blocksquare",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false,

@@ -11,7 +11,8 @@
       "website": [
         "https://goldfishgold.com/"
       ],
-      "twitter": "https://x.com/goldfishggbr"
+      "twitter": "https://x.com/goldfishggbr",
+      "discord": "https://discord.gg/goldfish"
     }
   },
   "platform": {
@@ -26,7 +27,6 @@
     "chains": [
       "ethereum"
     ],
-    "parentPlatform": "goldfish",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false

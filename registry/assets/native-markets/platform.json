@@ -12,7 +12,8 @@
         "https://nativemarkets.com/usdh"
       ],
       "twitter": "https://x.com/nativemarkets",
-      "docs": "https://nativemarkets.com/"
+      "docs": "https://nativemarkets.com/",
+      "github": "https://github.com/native-markets"
     }
   },
   "platform": {
@@ -27,7 +28,6 @@
     "chains": [
       "hyperliquid"
     ],
-    "parentPlatform": "native-markets",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false

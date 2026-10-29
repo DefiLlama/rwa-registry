@@ -13,7 +13,8 @@
       ],
       "twitter": "https://x.com/m0",
       "docs": "https://docs.m0.org/",
-      "linkedin": "https://www.linkedin.com/company/m-zero-labs"
+      "linkedin": "https://www.linkedin.com/company/m-zero-labs",
+      "github": "https://github.com/m0-foundation"
     },
     "foundedYear": 2023,
     "headquarters": "Zug, Switzerland",
@@ -34,7 +35,6 @@
     "chains": [
       "ethereum"
     ],
-    "parentPlatform": "m-0",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false,

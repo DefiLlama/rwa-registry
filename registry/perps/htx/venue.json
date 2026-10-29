@@ -10,7 +10,5 @@
   "accessModel": "permissioned",
   "rwaClassification": "programmable-finance",
   "conventionNote": "Funding settles every 8 hours on most markets (every 4 hours or every hour on some, per the contract settlement_period), and the base Prime 0 taker fee is unresolved between 5 bps (Platforms tab, htx.ts) and 6 bps (the market rows).",
-  "website": "https://www.htx.com",
-  "issuer": "HTX",
   "marginAsset": "USDT"
 }

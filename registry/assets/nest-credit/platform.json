@@ -14,7 +14,9 @@
       ],
       "twitter": "https://x.com/nestcredit",
       "docs": "https://docs.nest.credit/",
-      "linkedin": "https://www.linkedin.com/company/nestcredit"
+      "linkedin": "https://www.linkedin.com/company/nestcredit",
+      "discord": "https://discord.gg/t9HpeFvUwS",
+      "telegram": "https://t.me/NestCredit"
     },
     "registryInfo": "Nest is created and managed by the Plume Foundation, the entity that stewards the Plume RWA-focused public blockchain. Plume Foundation co-founders include Teddy Pornprinya (CBO). Backed by Brevan Howard Digital, Haun Ventures, Galaxy Ventures, Lightspeed Faction, and other institutional investors. Vaults integrate third-party credit evaluations and tokenized risk disclosures from issuers including Securitize, Superstate, WisdomTree, Hamilton Lane, BlackOpal, and others."
   },
@@ -35,7 +37,6 @@
       "bsc",
       "plasma"
     ],
-    "parentPlatform": "nest-credit",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false

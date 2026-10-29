@@ -14,8 +14,10 @@
       ],
       "twitter": "https://x.com/tangibleDAO",
       "docs": "https://docs.tangible.store/",
-      "linkedin": "https://www.linkedin.com/company/tangible-store"
-    }
+      "linkedin": "https://www.linkedin.com/company/tangible-store",
+      "discord": "https://discord.com/invite/tMQ9WjVBuS"
+    },
+    "registryInfo": "BTS TNFT Limited – identified in third‑party legal and risk assessments as Tangible’s legal entity, described as incorporated in the United Kingdom with an additional entity of the same name registered in the British Virgin Islands. No official company number disclosed in public docs reviewed."
   },
   "platform": {
     "category": [
@@ -31,7 +33,6 @@
     "chains": [
       "polygon"
     ],
-    "parentPlatform": "tangible",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false

@@ -15,6 +15,7 @@
       "twitter": "https://x.com/BingXOfficial",
       "docs": "https://bingx-api.github.io/docs/",
       "linkedin": "https://www.linkedin.com/company/bingxofficial/",
+      "discord": "https://discord.com/invite/bingx",
       "telegram": "https://t.me/BingXOfficial"
     },
     "foundedYear": 2018,
@@ -31,9 +32,6 @@
     "platformType": [
       "perp-venue"
     ],
-    "accessModel": "permissioned",
-    "marginSettlementAsset": "USDT",
-    "parentPlatform": "bingx",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false,

@@ -13,7 +13,9 @@
       ],
       "twitter": "https://x.com/uranium_io",
       "docs": "https://uranium.io/",
-      "linkedin": "https://www.linkedin.com/company/uranium-io"
+      "linkedin": "https://www.linkedin.com/company/uranium-io",
+      "discord": "https://discord.com/invite/FAEGEhZh5A",
+      "telegram": "https://t.me/Uranium_Community"
     }
   },
   "platform": {
@@ -28,7 +30,6 @@
     "chains": [
       "ethereum"
     ],
-    "parentPlatform": "uranium-io",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false

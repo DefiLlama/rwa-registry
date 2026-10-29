@@ -13,7 +13,9 @@
       ],
       "twitter": "https://x.com/binaryx_io",
       "docs": "https://docs.binaryx.com/",
-      "linkedin": "https://www.linkedin.com/company/binaryx-platform"
+      "linkedin": "https://www.linkedin.com/company/binaryx-platform",
+      "discord": "https://discord.com/invite/f4mTchBKC8",
+      "telegram": "https://t.me/binaryxprotocol"
     }
   },
   "platform": {
@@ -29,7 +31,6 @@
     "chains": [
       "polygon"
     ],
-    "parentPlatform": "binaryx",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false

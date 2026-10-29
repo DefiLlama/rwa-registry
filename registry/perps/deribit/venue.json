@@ -10,7 +10,5 @@
   "accessModel": "permissioned",
   "rwaClassification": "programmable-finance",
   "conventionNote": "Funding is quoted as an 8-hour rate, and the fee is the Standard tier effective 2026-08-01, where the 0.00% maker now starts at VIP 1.",
-  "website": "https://www.deribit.com",
-  "issuer": "Deribit",
   "marginAsset": "USDC"
 }

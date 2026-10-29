@@ -13,7 +13,8 @@
       ],
       "twitter": "https://x.com/moss_earth",
       "docs": "https://moss.earth/",
-      "linkedin": "https://www.linkedin.com/company/moss-earth"
+      "linkedin": "https://www.linkedin.com/company/moss-earth",
+      "telegram": "https://t.me/MCO2token"
     }
   },
   "platform": {
@@ -28,7 +29,6 @@
     "chains": [
       "ethereum"
     ],
-    "parentPlatform": "moss",
     "suspicious": false,
     "delisted": false,
     "llamaGradeAttestation": false
