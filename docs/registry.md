@@ -53,7 +53,7 @@ Some rows live inside their parent's file, in an array, and leave out the field 
 
 ## Checks
 
-`validate` loads every file against its table's schema, then runs these checks.
+`validate` loads every file against its table's schema, then runs these checks; `validate <path>` loads the same registry and prints only the problems of that one file, a key another file shares with it included.
 
 | Check                     | Fails when                                                                                                                                                                                                                                                                                                                                                       |
 | ------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
