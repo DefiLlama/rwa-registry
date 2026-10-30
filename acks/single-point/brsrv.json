@@ -1,0 +1,9 @@
+{
+  "slug": "brsrv",
+  "asset": "brsrv",
+  "from": "2026-09-03",
+  "until": null,
+  "maxValueUsd": 65000000,
+  "reason": "Securitize #7551: real day-1 mint on 2026-08-11 (50,033,507 units x ~$1 NAV = $50.03M); daily_rwa_data zero Aug04-10 then non-zero Aug11, so single-point only because it is day 1.",
+  "resolve": "remove once the asset has two or more days of data, when it stops being single-point"
+}

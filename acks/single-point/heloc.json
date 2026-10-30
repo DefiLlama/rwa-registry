@@ -1,0 +1,9 @@
+{
+  "slug": "heloc",
+  "asset": "heloc",
+  "from": "2026-07-23",
+  "until": null,
+  "maxValueUsd": 25000000000,
+  "reason": "Figure HELOC #189: CG-mcap fallback, verified ~$20.4B on 2026-07-23.",
+  "resolve": "remove once the asset has two or more days of data, when it stops being single-point"
+}

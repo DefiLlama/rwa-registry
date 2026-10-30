@@ -1,0 +1,15 @@
+{
+  "slug": "usfr-d",
+  "asset": "usfr-d",
+  "from": "2026-09-03",
+  "until": null,
+  "metrics": [
+    "onChainMcap",
+    "activeMcap"
+  ],
+  "direction": "down",
+  "maxCurrentUsd": 1000,
+  "minPreviousUsd": 100000,
+  "reason": "USFR.d Dinari dShare: no fills >14d (MAX_FILL_AGE) → unpriced by design.",
+  "resolve": "remove when the asset is priced again"
+}

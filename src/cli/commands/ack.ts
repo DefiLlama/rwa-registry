@@ -1,50 +1,135 @@
 /**
- * ack: one guard exception file, acks/<asset>-<guard>.json at the repository root, beside registry/, in the ack shape.
- * An ack without --until is open-ended, written with until null, as the server's code lists hold theirs.
- * @dev review: src/cli/writeCommand.ts, src/schema/ack.ts
+ * ack: one guard exception, acks/<kind>/<slug>.json beside registry/, holding the fields its kind names in src/schema/ack.ts.
+ * The target is an asset, a venue, a series or a contract by kind; the slug is the target, with the day for a kind scoped to days.
+ * @dev review: src/cli/writeCommand.ts, src/schema/ack.ts, docs/acks.md
  */
+import { FlagFormatError, MissingFieldError } from '../../errors/cli';
 import { homeFile } from '../../registry';
+import { toFile, type Registry } from '../../schema';
+import { ACK_KIND_FIELDS, isRequiredAckField, type AckField } from '../../schema/ack';
+import { ACK_KINDS, type AckKind } from '../../schema/enums';
+import type { CliCommand } from '../index';
 import { targetRow } from '../targetRow';
-import { defineWriteCommand, today } from '../writeCommand';
+import { defineWriteCommand, optionKey, today, type Field, type FlagValue } from '../writeCommand';
 
-// The suffix the acks in acks/ already use per guard.
-const SUFFIX: Record<string, string> = { 'flows-hidden': 'flows', 'asset-move': 'asset-move' };
+const usd = (flag: string, text: string): number => {
+  const value = Number(text);
+  if (text.trim() === '' || !Number.isFinite(value) || value < 0) {
+    throw new FlagFormatError({ file: flag, message: `${text} is not a USD amount` });
+  }
+  return value;
+};
 
-export const ack = defineWriteCommand({
+const range = (flag: string, text: string): number[] => {
+  const parts = text.split(':');
+  if (parts.length !== 2)
+    throw new FlagFormatError({ file: flag, message: `${text} is not a range; give <low>:<high>` });
+  return parts.map((part) => usd(flag, part));
+};
+
+interface FlagSpec extends Field {
+  read?: (flag: string, text: string) => unknown;
+}
+
+// The flag that fills each field a kind may hold beside its target.
+const FLAGS: Partial<Record<AckField, FlagSpec>> = {
+  from: { flag: '--from <date>', description: 'the first day the ack holds, YYYY-MM-DD, today by default' },
+  until: {
+    flag: '--until <date>',
+    description: 'the last day it holds; left out, it holds until the resolve step is done',
+  },
+  day: { flag: '--day <date>', description: 'the series day it covers, for aggregate-jump and head-move' },
+  firstDay: { flag: '--first-day <date>', description: 'the first series day a drift ack covers' },
+  lastDay: { flag: '--last-day <date>', description: 'the last series day a drift ack covers' },
+  metrics: { flag: '--metrics <list>', description: 'onChainMcap, activeMcap or both', list: true },
+  direction: { flag: '--direction <direction>', description: 'up or down' },
+  maxCurrentUsd: { flag: '--max-current <usd>', description: 'the most the blocked value may be', read: usd },
+  minPreviousUsd: { flag: '--min-previous <usd>', description: 'the least the last good value may be', read: usd },
+  currentUsd: { flag: '--current <low:high>', description: 'the verified value a release lets through', read: range },
+  previousUsd: { flag: '--previous <low:high>', description: 'the frozen value a release is aimed at', read: range },
+  maxValueUsd: { flag: '--max-value <usd>', description: 'the most a single-point value may be', read: usd },
+};
+
+const flagOf = (field: AckField) => FLAGS[field]!.flag.split(' ')[0]!;
+
+// The band of every asset-move ack on the server's master: a drop to about 0 USD from at least 100k USD.
+const DROP_TO_ZERO: Partial<Record<AckField, unknown>> = {
+  metrics: ['onChainMcap', 'activeMcap'],
+  direction: 'down',
+  maxCurrentUsd: 1000,
+  minPreviousUsd: 100_000,
+};
+
+const fallbackOf = (kind: AckKind, field: AckField): unknown =>
+  field === 'from' ? today() : field === 'until' ? null : kind === 'asset-move' ? DROP_TO_ZERO[field] : undefined;
+
+const TARGETS: Partial<Record<AckField, (registry: Registry, given: string) => string>> = {
+  asset: (registry, given) => targetRow(registry, 'asset', given).key,
+  venue: (registry, given) => targetRow(registry, 'venue', given).key,
+  series: (_registry, given) => given,
+  contract: (_registry, given) => given.toLowerCase(),
+};
+
+// A series or a contract as a file name: lowercase, every run of other characters one hyphen; * is every series.
+const fileSlug = (target: string): string =>
+  target === '*'
+    ? 'every-series'
+    : target
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, '-')
+        .replace(/^-|-$/g, '');
+
+const help = [
+  'Kinds, the target each names, and the flags it takes beside --reason and --resolve (docs/acks.md):',
+  ...ACK_KINDS.map((kind) => {
+    const [target, ...rest] = ACK_KIND_FIELDS[kind];
+    return `  ${`${kind} <${target}>`.padEnd(36)}${rest.map(flagOf).join(' ')}`;
+  }),
+  'An asset-move ack left without its band takes the band of every master ack: --metrics onChainMcap,activeMcap',
+  '--direction down --max-current 1000 --min-previous 100000.',
+].join('\n');
+
+const command = defineWriteCommand({
   name: 'ack',
-  description: 'add one guard exception for an asset, with its reason, resolve step and end date, or open-ended',
-  arguments: '<asset>',
+  description: 'add one guard exception of a kind, with its reason and resolve step, open-ended without --until',
+  arguments: '<kind> <target>',
   fields: [
     {
-      flag: '--guard <guard>',
-      description: 'flows-hidden or asset-move',
-      required: true,
-      choices: () => Object.keys(SUFFIX),
-    },
-    {
-      flag: '--until <date>',
-      description: 'the last day the exception holds, YYYY-MM-DD; left out, it holds until the resolve step is done',
-    },
-    {
       flag: '--reason <text>',
-      description: 'what the guard would flag and why it is fine, naming the page or API answer that shows it',
+      description: 'what the guard flags and why it is fine, naming the evidence',
       required: true,
     },
     { flag: '--resolve <text>', description: 'the step that ends the exception', required: true },
-    { flag: '--from <date>', description: 'the first day it holds, today by default', fallback: () => today() },
+    ...Object.values(FLAGS),
   ],
   files: (values, registry, { args }) => {
-    const asset = targetRow(registry, 'asset', args[0]!).key;
-    const slug = `${asset}-${SUFFIX[String(values.guard)] ?? values.guard}`;
-    const content = {
-      slug,
-      guard: values.guard,
-      asset,
-      from: values.from,
-      until: values.until ?? null,
-      reason: values.reason,
-      resolve: values.resolve,
-    };
-    return [{ path: homeFile('ack', { slug }), content }];
+    const [kind, given] = args as [AckKind, string];
+    if (!ACK_KINDS.includes(kind)) {
+      throw new FlagFormatError({ file: kind, message: `is not an ack kind; use ${ACK_KINDS.join(', ')}` });
+    }
+    const [target, ...fields] = ACK_KIND_FIELDS[kind];
+    const stray = (Object.keys(FLAGS) as AckField[]).filter(
+      (field) => !fields.includes(field) && values[optionKey(FLAGS[field]!.flag)] !== undefined,
+    );
+    if (stray.length) {
+      const message = `${stray.map(flagOf).join(', ')} ${stray.length > 1 ? 'are not flags' : 'is not a flag'} of ${kind} acks`;
+      throw new FlagFormatError({ file: 'ack', message });
+    }
+    const row: Record<string, unknown> = { kind, [target]: TARGETS[target]!(registry, given) };
+    for (const field of fields) {
+      const value: FlagValue | undefined = values[optionKey(FLAGS[field]!.flag)];
+      const read = FLAGS[field]!.read;
+      row[field] = value === undefined ? fallbackOf(kind, field) : read ? read(flagOf(field), String(value)) : value;
+    }
+    const missing = fields.filter((field) => row[field] === undefined && isRequiredAckField(field));
+    if (missing.length) {
+      const message = `${missing.map(flagOf).join(', ')} ${missing.length > 1 ? 'are' : 'is'} required for ${kind} acks`;
+      throw new MissingFieldError({ file: 'ack', message });
+    }
+    const slug = [fileSlug(String(row[target])), row.day ?? row.firstDay].filter(Boolean).join('-');
+    const content = toFile('ack', { slug, ...row, reason: values.reason, resolve: values.resolve });
+    return [{ path: homeFile('ack', { kind, slug }), content }];
   },
 });
+
+export const ack: CliCommand = { ...command, help };

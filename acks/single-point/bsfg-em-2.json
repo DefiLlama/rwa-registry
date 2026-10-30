@@ -1,0 +1,9 @@
+{
+  "slug": "bsfg-em-2",
+  "asset": "bsfg-em-2",
+  "from": "2026-09-03",
+  "until": null,
+  "maxValueUsd": 235000000,
+  "reason": "PACT #3901: day-1 pricing on 2026-09-03, activePrincipal $179,718,491 on 2026-09-01.",
+  "resolve": "remove once the asset has two or more days of data, when it stops being single-point"
+}

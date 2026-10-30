@@ -1,0 +1,8 @@
+{
+  "slug": "brz",
+  "asset": "brz",
+  "from": "2026-09-03",
+  "until": null,
+  "reason": "BRZ phantom mcap, about 1e17 spikes, hidden from flows per asset and in the aggregates",
+  "resolve": "drop when the stablecoins API mcap for BRZ is sane"
+}

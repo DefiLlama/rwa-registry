@@ -1,0 +1,7 @@
+{
+  "slug": "tbill-2026-09-07",
+  "asset": "tbill",
+  "day": "2026-09-07",
+  "reason": "OpenEden TBILL #90: XRPL leg re-entered the pipeline, +$11.45B gross. Real ledger supply (gateway_balances obligations for TBL.rJNE2NNz... = 9,911,948,753) but 99.8% is the rB56JZ... distributor, so the distributor is now sent to gateway_balances as a `hotwallet` and never counted as supply at all.",
+  "resolve": "remove once the step has aged out of the lookback window"
+}

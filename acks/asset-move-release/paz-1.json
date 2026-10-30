@@ -1,0 +1,20 @@
+{
+  "slug": "paz-1",
+  "asset": "paz-1",
+  "from": "2026-10-23",
+  "until": null,
+  "metrics": [
+    "activeMcap"
+  ],
+  "direction": "down",
+  "currentUsd": [
+    1000000,
+    3000000
+  ],
+  "previousUsd": [
+    20000000,
+    24000000
+  ],
+  "reason": "PAZ-1 #2728: $22.41M baseline was published pre-exclusion; $1.50M = supply minus holdersToRemove.",
+  "resolve": "none needed: it goes inert once the write lands and the baseline leaves the previous band"
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "mnrl",
+  "asset": "mnrl",
+  "from": "2026-07-23",
+  "until": null,
+  "metrics": [
+    "onChainMcap",
+    "activeMcap"
+  ],
+  "direction": "down",
+  "maxCurrentUsd": 1000,
+  "minPreviousUsd": 100000,
+  "reason": "MNRL (Plume): alive on-chain, no live price source → recurring feed-zero; block keeps last-good.",
+  "resolve": "remove when the asset is priced again"
+}

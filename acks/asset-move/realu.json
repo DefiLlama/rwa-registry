@@ -1,0 +1,15 @@
+{
+  "slug": "realu",
+  "asset": "realu",
+  "from": "2026-07-23",
+  "until": null,
+  "metrics": [
+    "onChainMcap",
+    "activeMcap"
+  ],
+  "direction": "down",
+  "maxCurrentUsd": 1000,
+  "minPreviousUsd": 100000,
+  "reason": "REALU (Aktionariat): under CHF10k buy-depth liquidity filter → unpriced; recurring drop-to-$0.",
+  "resolve": "remove when the asset is priced again"
+}

@@ -1,53 +1,116 @@
+import { existsSync } from 'node:fs';
+import { join } from 'node:path';
 import { describe, expect, it } from 'vitest';
 import { baseTree, writeTree } from '../../fixtures/tree';
 import { readJson, runCli } from '../runCli';
 
-const ack = (root: string) => [
-  'ack',
-  'tslax',
-  '--registry',
-  root,
-  '--guard',
-  'flows-hidden',
-  '--from',
-  '2026-10-24',
-  '--until',
-  '2026-11-30',
-  '--reason',
-  'mint spike on solana',
-  '--resolve',
-  'drop when the solana supply settles',
-];
+const why = ['--reason', 'test', '--resolve', 'test'];
+const life = { from: '2026-10-24', until: null };
 
-describe('ack', () => {
-  it('writes ../acks/<asset>-flows.json beside the registry in the ack shape', async () => {
-    const root = writeTree(baseTree());
-
-    const { code } = await runCli(ack(root));
-
-    expect(code).toBe(0);
-    expect(readJson(root, '../acks/tslax-flows.json')).toEqual({
-      slug: 'tslax-flows',
-      guard: 'flows-hidden',
+const CASES: [kind: string, target: string, flags: string[], file: string, content: Record<string, unknown>][] = [
+  [
+    'asset-move',
+    'tslax',
+    ['--from', '2026-10-24'],
+    'asset-move/tslax.json',
+    {
+      slug: 'tslax',
+      asset: 'tslax',
+      ...life,
+      metrics: ['onChainMcap', 'activeMcap'],
+      direction: 'down',
+      maxCurrentUsd: 1000,
+      minPreviousUsd: 100000,
+    },
+  ],
+  [
+    'asset-move-release',
+    'tslax',
+    [
+      ...['--from', '2026-10-24', '--until', '2026-11-30', '--metrics', 'activeMcap', '--direction', 'up'],
+      ...['--current', '11000000:14000000', '--previous', '1400000:1800000'],
+    ],
+    'asset-move-release/tslax.json',
+    {
+      slug: 'tslax',
       asset: 'tslax',
       from: '2026-10-24',
       until: '2026-11-30',
-      reason: 'mint spike on solana',
-      resolve: 'drop when the solana supply settles',
-    });
-  });
+      metrics: ['activeMcap'],
+      direction: 'up',
+      currentUsd: [11000000, 14000000],
+      previousUsd: [1400000, 1800000],
+    },
+  ],
+  [
+    'flows-hidden',
+    'tslax',
+    ['--from', '2026-10-24'],
+    'flows-hidden/tslax.json',
+    { slug: 'tslax', asset: 'tslax', ...life },
+  ],
+  [
+    'single-point',
+    'tslax',
+    ['--from', '2026-10-24', '--max-value', '300000000'],
+    'single-point/tslax.json',
+    { slug: 'tslax', asset: 'tslax', ...life, maxValueUsd: 300000000 },
+  ],
+  [
+    'aggregate-jump',
+    'tslax',
+    ['--day', '2026-09-07'],
+    'aggregate-jump/tslax-2026-09-07.json',
+    { slug: 'tslax-2026-09-07', asset: 'tslax', day: '2026-09-07' },
+  ],
+  [
+    'head-move',
+    'chain/robinhood-chain',
+    ['--day', '2026-10-15'],
+    'head-move/chain-robinhood-chain-2026-10-15.json',
+    { slug: 'chain-robinhood-chain-2026-10-15', series: 'chain/robinhood-chain', day: '2026-10-15' },
+  ],
+  [
+    'drift',
+    'chain/ethereum',
+    ['--first-day', '2026-10-01', '--last-day', '2026-10-02'],
+    'drift/chain-ethereum-2026-10-01.json',
+    { slug: 'chain-ethereum-2026-10-01', series: 'chain/ethereum', firstDay: '2026-10-01', lastDay: '2026-10-02' },
+  ],
+  ['perps-venue', 'xyz', ['--from', '2026-10-24'], 'perps-venue/xyz.json', { slug: 'xyz', venue: 'xyz', ...life }],
+  [
+    'perps-market',
+    'xyz:AERO',
+    ['--from', '2026-10-24'],
+    'perps-market/xyz-aero.json',
+    { slug: 'xyz-aero', contract: 'xyz:aero', ...life },
+  ],
+];
 
-  it('writes an open-ended ack with until null when --until is left out, and validate finds nothing new', async () => {
+describe('ack', () => {
+  it.each(CASES)(
+    'writes a %s ack on %s in acks/<kind>/, in schema order, and validate finds nothing new',
+    async (kind, target, flags, file, content) => {
+      const root = writeTree(baseTree());
+      const before = await runCli(['validate', '--registry', root]);
+
+      const { code } = await runCli(['ack', kind, target, '--registry', root, ...flags, ...why]);
+      const after = await runCli(['validate', '--registry', root]);
+
+      expect(code).toBe(0);
+      expect(Object.entries(readJson(root, `../acks/${file}`))).toEqual(
+        Object.entries({ ...content, reason: 'test', resolve: 'test' }),
+      );
+      expect(after.lines).toEqual(before.lines);
+    },
+  );
+
+  it('refuses a flag its kind does not take and writes nothing', async () => {
     const root = writeTree(baseTree());
-    const args = ack(root);
-    args.splice(args.indexOf('--until'), 2);
-    const before = await runCli(['validate', '--registry', root]);
 
-    const { code } = await runCli(args);
-    const after = await runCli(['validate', '--registry', root]);
+    const { code } = await runCli(['ack', 'flows-hidden', 'tslax', '--registry', root, '--day', '2026-09-07', ...why]);
 
-    expect(code).toBe(0);
-    expect(readJson(root, '../acks/tslax-flows.json')).toMatchObject({ until: null, reason: 'mint spike on solana' });
-    expect(after.lines).toEqual(before.lines);
+    expect(code).toBe(1);
+    expect(existsSync(join(root, '../acks/flows-hidden/tslax.json'))).toBe(false);
   });
 });

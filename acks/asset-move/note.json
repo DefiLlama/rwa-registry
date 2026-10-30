@@ -1,0 +1,15 @@
+{
+  "slug": "note",
+  "asset": "note",
+  "from": "2026-09-03",
+  "until": null,
+  "metrics": [
+    "onChainMcap",
+    "activeMcap"
+  ],
+  "direction": "down",
+  "maxCurrentUsd": 1000,
+  "minPreviousUsd": 100000,
+  "reason": "NOTE (Republic Note): CG-only source ($0.043, ~$2k/day vol) whose last_updated routinely lags >6h, so coins stale-deletes it → zeroes mcap; no on-chain liquidity. Self-heals when CG refreshes.",
+  "resolve": "remove when the asset is priced again"
+}

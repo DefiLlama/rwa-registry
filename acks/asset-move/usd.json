@@ -1,0 +1,15 @@
+{
+  "slug": "usd",
+  "asset": "usd",
+  "from": "2026-09-03",
+  "until": null,
+  "metrics": [
+    "onChainMcap",
+    "activeMcap"
+  ],
+  "direction": "down",
+  "maxCurrentUsd": 1000,
+  "minPreviousUsd": 100000,
+  "reason": "USD+ ($1 peg) price-feed gap.",
+  "resolve": "remove when the asset is priced again"
+}

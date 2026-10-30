@@ -1,0 +1,20 @@
+{
+  "slug": "jaaa",
+  "asset": "jaaa",
+  "from": "2026-09-24",
+  "until": null,
+  "metrics": [
+    "activeMcap"
+  ],
+  "direction": "down",
+  "currentUsd": [
+    250000000,
+    330000000
+  ],
+  "previousUsd": [
+    395000000,
+    415000000
+  ],
+  "reason": "JAAA #169: real eth/base redemptions; blocked value == live supply minus holdersToRemove.",
+  "resolve": "none needed: it goes inert once the write lands and the baseline leaves the previous band"
+}

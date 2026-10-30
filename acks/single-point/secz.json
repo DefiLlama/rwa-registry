@@ -1,0 +1,9 @@
+{
+  "slug": "secz",
+  "asset": "secz",
+  "from": "2026-09-03",
+  "until": null,
+  "maxValueUsd": 300000000,
+  "reason": "Securitize #4514: corroborated real new listing on 2026-07-07 (~$239M); single-point only because it is day 1.",
+  "resolve": "remove once the asset has two or more days of data, when it stops being single-point"
+}

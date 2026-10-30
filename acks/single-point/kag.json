@@ -1,0 +1,9 @@
+{
+  "slug": "kag",
+  "asset": "kag",
+  "from": "2026-07-23",
+  "until": null,
+  "maxValueUsd": 400000000,
+  "reason": "Kinesis Silver #108: CG-mcap fallback, verified ~$217M on 2026-07-23.",
+  "resolve": "remove once the asset has two or more days of data, when it stops being single-point"
+}

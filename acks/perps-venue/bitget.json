@@ -1,0 +1,8 @@
+{
+  "slug": "bitget",
+  "venue": "bitget",
+  "from": "2026-10-02",
+  "until": null,
+  "reason": "Wash trading (Wayne, 2026-10-02). Published 2026-08-26..27 only (278 markets, ~$792M OI, ~$1.65B/day volume), then all 280 sheet rows were set Delisted. The venue is still live and now lists 346 RWA markets; none of them is a coverage gap. Note the aggregate data does NOT show the problem: Bitget's turnover and volume concentration both sit mid-pack, so do not expect a screen to re-derive this.",
+  "resolve": "remove only when the venue is back in scope, never to quiet an alert; removing it re-opens the whole catalogue as coverage backlog"
+}

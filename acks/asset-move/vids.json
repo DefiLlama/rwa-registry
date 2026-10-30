@@ -1,0 +1,15 @@
+{
+  "slug": "vids",
+  "asset": "vids",
+  "from": "2026-07-23",
+  "until": null,
+  "metrics": [
+    "onChainMcap",
+    "activeMcap"
+  ],
+  "direction": "down",
+  "maxCurrentUsd": 1000,
+  "minPreviousUsd": 100000,
+  "reason": "VIDS (Aktionariat): verified genuinely illiquid (getLiquidity 0 on every field); recurring drop-to-$0.",
+  "resolve": "remove when the asset is priced again"
+}

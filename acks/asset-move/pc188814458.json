@@ -1,0 +1,15 @@
+{
+  "slug": "pc188814458",
+  "asset": "pc188814458",
+  "from": "2026-07-23",
+  "until": null,
+  "metrics": [
+    "onChainMcap",
+    "activeMcap"
+  ],
+  "direction": "down",
+  "maxCurrentUsd": 1000,
+  "minPreviousUsd": 100000,
+  "reason": "PC188814458 (Tradable, zksync): phantom eth leg → recurring drop-to-$0; block keeps last-good.",
+  "resolve": "remove when the asset is priced again"
+}

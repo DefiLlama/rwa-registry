@@ -1,0 +1,15 @@
+{
+  "slug": "bernx",
+  "asset": "bernx",
+  "from": "2026-09-03",
+  "until": null,
+  "metrics": [
+    "onChainMcap",
+    "activeMcap"
+  ],
+  "direction": "down",
+  "maxCurrentUsd": 1000,
+  "minPreviousUsd": 100000,
+  "reason": "bERNX (Backed) price-feed gap; a Backed equity to ~$0 is a feed dropout.",
+  "resolve": "remove when the asset is priced again"
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "pallx",
+  "asset": "pallx",
+  "from": "2026-09-03",
+  "until": null,
+  "metrics": [
+    "onChainMcap",
+    "activeMcap"
+  ],
+  "direction": "down",
+  "maxCurrentUsd": 1000,
+  "minPreviousUsd": 100000,
+  "reason": "PALLx (Backed palladium xStock): Backed NAV null + no liquid pool, so xstocks.ts has no seed price → dropout. No honest source until Backed publishes NAV or a pool forms.",
+  "resolve": "remove when the asset is priced again"
+}
