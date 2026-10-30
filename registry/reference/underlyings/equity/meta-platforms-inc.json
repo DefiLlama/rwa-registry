@@ -3,5 +3,11 @@
   "name": "Meta Platforms, Inc.",
   "ticker": "META",
   "logo": "https://icons.llamao.fi/icons/rwa/meta.png?w=48&h=48",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US30303M1027"
+    }
+  ]
 }

@@ -3,5 +3,11 @@
   "name": "Teradyne, Inc.",
   "ticker": "TER",
   "logo": "https://icons.llamao.fi/icons/rwa/ter.png?w=48&h=48",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US8807701029"
+    }
+  ]
 }

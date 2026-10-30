@@ -3,5 +3,11 @@
   "name": "IREN Limited",
   "ticker": "IREN",
   "logo": "https://icons.llamao.fi/icons/rwa/iren.png?w=48&h=48",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "AU0000185993"
+    }
+  ]
 }

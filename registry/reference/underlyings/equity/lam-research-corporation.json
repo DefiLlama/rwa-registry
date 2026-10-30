@@ -3,5 +3,11 @@
   "name": "Lam Research Corporation",
   "ticker": "LRCX",
   "logo": "https://icons.llamao.fi/icons/rwa/lrcx.png?w=48&h=48",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US5128071082"
+    }
+  ]
 }

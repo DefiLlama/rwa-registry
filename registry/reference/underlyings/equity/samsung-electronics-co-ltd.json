@@ -3,5 +3,11 @@
   "name": "Samsung Electronics Co., Ltd.",
   "ticker": "005930.KR",
   "logo": "https://icons.llamao.fi/icons/rwa/samsung.png?w=48&h=48",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US7960508882"
+    }
+  ]
 }

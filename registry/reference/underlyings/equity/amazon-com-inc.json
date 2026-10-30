@@ -3,5 +3,11 @@
   "name": "Amazon.com, Inc.",
   "ticker": "AMZN",
   "logo": "https://icons.llamao.fi/icons/rwa/amzn.png?w=48&h=48",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US0231351067"
+    }
+  ]
 }

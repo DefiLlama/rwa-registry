@@ -3,5 +3,11 @@
   "name": "Alibaba Group Holding Limited",
   "ticker": "BABA",
   "logo": "https://icons.llamao.fi/icons/rwa/baba.png?w=48&h=48",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US01609W1027"
+    }
+  ]
 }

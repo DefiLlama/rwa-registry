@@ -1,15 +1,27 @@
 {
   "slug": "twist-bioscience-corp",
   "name": "TWIST BIOSCIENCE CORP",
+  "aliases": [
+    "Twist Bioscience Corporation"
+  ],
   "ticker": "TWST",
   "logo": "https://icons.llamao.fi/icons/rwa/mtsi.png?w=48&h=48",
   "exposure": "public-equities",
   "identifiers": [
     {
       "scheme": "isin",
-      "value": "US90184D1000",
-      "source": null,
-      "verified": false
+      "value": "US90184D1000"
+    }
+  ],
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-30",
+      "reason": "one company: ticker TWST on both, the names differ only by case and legal suffix (decision 5.7)",
+      "note": "merged twist-bioscience-corporation (Twist Bioscience Corporation)",
+      "links": [
+        "https://www.sec.gov/files/company_tickers.json"
+      ]
     }
   ]
 }

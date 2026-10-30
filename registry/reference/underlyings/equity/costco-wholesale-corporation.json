@@ -3,5 +3,11 @@
   "name": "Costco Wholesale Corporation",
   "ticker": "COST",
   "logo": "https://icons.llamao.fi/icons/rwa/cost.png?w=48&h=48",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US22160K1051"
+    }
+  ]
 }

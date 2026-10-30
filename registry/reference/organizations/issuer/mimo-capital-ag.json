@@ -4,14 +4,12 @@
     "name": "Mimo Capital AG"
   },
   "about": {
-    "registryInfo": "Mimo Capital AG – Liechtenstein joint-stock company (Aktiengesellschaft) domiciled in Vaduz, trade register number FL-0002.584.786-1, registered as a Token Generator and Token Issuer under the Liechtenstein Blockchain Act (TVTG) by the FMA, Legal Entity Identifier (LEI) 254900E7ZUXDELL0LV43."
+    "registryInfo": "Mimo Capital AG - Liechtenstein joint-stock company (Aktiengesellschaft) domiciled in Vaduz, trade register number FL-0002.584.786-1, registered as a Token Generator and Token Issuer under the Liechtenstein Blockchain Act (TVTG) by the FMA, Legal Entity Identifier (LEI) 254900E7ZUXDELL0LV43."
   },
   "identifiers": [
     {
       "scheme": "lei",
-      "value": "254900E7ZUXDELL0LV43",
-      "source": "https://search.gleif.org/#/record/254900E7ZUXDELL0LV43",
-      "verified": true
+      "value": "254900E7ZUXDELL0LV43"
     }
   ]
 }

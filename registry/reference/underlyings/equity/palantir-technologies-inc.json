@@ -3,5 +3,11 @@
   "name": "Palantir Technologies Inc.",
   "ticker": "PLTR",
   "logo": "https://icons.llamao.fi/icons/rwa/pltr.png?w=48&h=48",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US69608A1088"
+    }
+  ]
 }

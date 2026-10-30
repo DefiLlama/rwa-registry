@@ -3,5 +3,11 @@
   "name": "Berkshire Hathaway Inc. Class B",
   "ticker": "BRK.B",
   "logo": "https://icons.llamao.fi/icons/rwa/brkb.png?w=48&h=48",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US0846707026"
+    }
+  ]
 }

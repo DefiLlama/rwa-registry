@@ -3,5 +3,11 @@
   "name": "International Business Machines Corporation",
   "ticker": "IBM",
   "logo": "https://icons.llamao.fi/icons/rwa/ibm.png?w=48&h=48",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US4592001014"
+    }
+  ]
 }

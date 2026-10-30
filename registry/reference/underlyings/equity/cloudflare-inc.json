@@ -3,5 +3,11 @@
   "name": "Cloudflare, Inc.",
   "ticker": "NET",
   "logo": "https://icons.llamao.fi/icons/rwa/net.png?w=48&h=48",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US18915M1071"
+    }
+  ]
 }

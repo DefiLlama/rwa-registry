@@ -3,5 +3,11 @@
   "name": "CrowdStrike Holdings, Inc.",
   "ticker": "CRWD",
   "logo": "https://icons.llamao.fi/icons/rwa/crwd.png?w=48&h=48",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US22788C1053"
+    }
+  ]
 }

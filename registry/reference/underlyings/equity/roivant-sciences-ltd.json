@@ -1,14 +1,26 @@
 {
   "slug": "roivant-sciences-ltd",
   "name": "ROIVANT SCIENCES LTD",
+  "aliases": [
+    "Roivant Sciences Ltd."
+  ],
   "ticker": "ROIV",
   "exposure": "public-equities",
   "identifiers": [
     {
       "scheme": "isin",
-      "value": "USG762791014",
-      "source": null,
-      "verified": false
+      "value": "USG762791014"
+    }
+  ],
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-30",
+      "reason": "one company: ticker ROIV on both, the names differ only by case and legal suffix (decision 5.7)",
+      "note": "merged roivant-sciences-ltd-9739 (Roivant Sciences Ltd.)",
+      "links": [
+        "https://www.sec.gov/files/company_tickers.json"
+      ]
     }
   ]
 }

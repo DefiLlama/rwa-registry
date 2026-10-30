@@ -3,5 +3,11 @@
   "name": "JPMorgan Chase & Co.",
   "ticker": "JPM",
   "logo": "https://icons.llamao.fi/icons/rwa/jpm.png?w=48&h=48",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US46625H1005"
+    }
+  ]
 }

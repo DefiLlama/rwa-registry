@@ -3,5 +3,11 @@
   "name": "Robinhood Markets, Inc.",
   "ticker": "HOOD",
   "logo": "https://icons.llamao.fi/icons/rwa/hood.png?w=48&h=48",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US7707001027"
+    }
+  ]
 }
