@@ -18,6 +18,7 @@
       "discord": "https://discord.com/invite/bitget",
       "telegram": "https://t.me/BitgetENOfficial"
     },
+    "registryInfo": "BTG Technology Holdings Limited, named in Bitget's Terms of Use as the operator of the platform. No jurisdiction of incorporation, registration number or derivatives licence is published, and the Futures Services Agreement names no entity of its own.",
     "foundedYear": 2018,
     "headquarters": "Victoria, Seychelles (founded in Singapore)",
     "founders": "Sandra Lou (Founder, former CEO), Gracy Chen (CEO since 2024-05)",
@@ -46,7 +47,10 @@
   "roles": [
     {
       "organization": "btg-technology-holdings-limited-platform-operator-per-terms-of-use-with-bgr-tech-limited-seychelles-for-specific-users",
-      "kind": "issuer"
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.bitget.com"
+      ]
     }
   ]
 }

@@ -18,6 +18,7 @@
       "discord": "https://discord.gg/htx-official",
       "telegram": "https://t.me/htxglobalofficial"
     },
+    "registryInfo": "No operating entity published. HTX's Platform User Agreement defines the counterparty as the HTX Operators, a group term, and names no company, jurisdiction or registration number.",
     "foundedYear": 2013,
     "headquarters": "Not disclosed. Commonly described as Seychelles-based. UK FCA court filings name Huobi Global S.A., a Panama company, and unidentified persons as owners and operators.",
     "founders": "Leon Li (Founder, exited 2022), Justin Sun (Advisor and reported owner)",
@@ -46,7 +47,10 @@
   "roles": [
     {
       "organization": "not-disclosed-the-htx-platform-user-agreement-refers-to-unnamed-htx-operators-uk-fca-filings-name-huobi-global-s-a-panama-and-persons-unknown",
-      "kind": "issuer"
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.htx.com"
+      ]
     }
   ]
 }

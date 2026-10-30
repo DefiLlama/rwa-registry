@@ -18,6 +18,7 @@
       "discord": "https://discord.gg/bitunix",
       "telegram": "https://t.me/bitunixglobal"
     },
+    "registryInfo": "No operating entity published. Bitunix's User Agreement refers only to Bitunix and its affiliates, naming no company, jurisdiction or registration number. Confirmed against its user agreement, privacy policy and legal pages.",
     "foundedYear": 2021,
     "headquarters": "No disclosed operational headquarters. Incorporated in Saint Vincent and the Grenadines.",
     "founders": "Arron Lee (Co-Founder). CEO not clearly disclosed, company communications are signed by a CEO identified only as Allen",
@@ -46,7 +47,10 @@
   "roles": [
     {
       "organization": "not-clearly-disclosed-corporate-registration-in-saint-vincent-and-the-grenadines",
-      "kind": "issuer"
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.bitunix.com"
+      ]
     }
   ]
 }

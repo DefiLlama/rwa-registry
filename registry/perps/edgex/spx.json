@@ -12,7 +12,7 @@
     "pair": "SPX-USDC"
   },
   "about": {
-    "description": "Equity-index perpetual on edgeX (Amber Group-incubated) tracking S&P 500 Index (SPX), with pricing referencing Stork decentralized oracle network. Users gain linear exposure to the index level without holding any underlying constituent stocks or futures. Positions are margined and cash-settled in USDC on StarkEx (migrating to EDGE Chain L2)."
+    "description": "SPX is a perpetual on S&P 500 Index listed on edgeX, settled in USDT."
   },
   "events": [
     {

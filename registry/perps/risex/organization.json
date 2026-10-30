@@ -16,5 +16,14 @@
         "https://www.rise.trade/en/trade/SPCX"
       ]
     }
-  }
+  },
+  "roles": [
+    {
+      "organization": "risex",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.risechain.com/docs/risex"
+      ]
+    }
+  ]
 }

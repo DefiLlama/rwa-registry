@@ -8,11 +8,11 @@
     "structure": "stock-perp"
   },
   "terms": {
-    "collateral": "usdt",
+    "collateral": "usdc",
     "pair": "EBAY-USDT"
   },
   "about": {
-    "description": "eBay Inc (NASDAQ:EBAY) stock perpetual on trade[XYZ]. HIP-3 deployer namespace on Hyperliquid, cash-settled in USDC.",
+    "description": "EBAY is a perpetual on eBay Inc. listed on trade[XYZ], settled in USDC.",
     "issuer": "trade[XYZ]"
   }
 }

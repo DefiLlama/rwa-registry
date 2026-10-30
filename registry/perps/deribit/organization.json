@@ -17,6 +17,7 @@
       "linkedin": "https://www.linkedin.com/company/deribit/",
       "telegram": "https://t.me/deribit"
     },
+    "registryInfo": "Deribit FZE, Dubai World Trade Centre free zone, UAE, registration 2994, a subsidiary of DRB Group B.V. Holds a Dubai VARA virtual asset service provider licence covering exchange services including virtual asset derivatives trading, reference VL/23/12/002, restricted to institutional and qualified investors. The 2025 Coinbase acquisition did not change the contracting entity.",
     "foundedYear": 2016,
     "headquarters": "Dubai, United Arab Emirates",
     "founders": "John Jansen (Co-founder, former CEO), Marius Jansen (Co-founder), Sebastian Smyczynski (Co-founder), Luuk Strijers (CEO)",
@@ -45,7 +46,10 @@
   "roles": [
     {
       "organization": "deribit-fze-dubai-vara-licensed-part-of-coinbase-global-since-august-2025",
-      "kind": "issuer"
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.deribit.com"
+      ]
     }
   ]
 }

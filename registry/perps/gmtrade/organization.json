@@ -15,9 +15,6 @@
       "twitter": "https://x.com/gmtrade_xyz",
       "docs": "https://docs.gmtrade.xyz/",
       "linkedin": "https://www.linkedin.com/company/gmtrade",
-      "discord": "N/A (no public Discord)",
-      "telegram": "N/A (no public Telegram)",
-      "github": "N/A (closed source)",
       "refLinks": [
         "https://gmtrade.xyz/referrals/?ref=545"
       ]
@@ -31,7 +28,6 @@
     "platformType": [
       "perp-venue"
     ],
-    "attestationFrequency": "N/A (Perp Venue)",
     "suspicious": false,
     "delisted": false,
     "fees": {
@@ -48,12 +44,6 @@
       "sourceLinks": [
         "https://gmtrade.xyz/"
       ]
-    }
-  ],
-  "events": [
-    {
-      "kind": "attestation",
-      "note": "N/A (Perp Venue)"
     }
   ]
 }

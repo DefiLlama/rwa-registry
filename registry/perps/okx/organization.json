@@ -18,6 +18,7 @@
       "discord": "https://discord.gg/okx",
       "telegram": "https://t.me/OKXOfficial_English"
     },
+    "registryInfo": "Aux Cayes FinTech Co. Ltd., Seychelles, named in OKX's Terms of Service as the entity offering futures, options, index tracker and margin lending. Holds Seychelles Financial Services Authority virtual asset service provider approval covering virtual asset exchange, broking and investment provision, approved 2025-07-18 under the transitional provisions of the VASP Act 2024.",
     "foundedYear": 2017,
     "headquarters": "No single disclosed global headquarters. The global platform is operated by Seychelles-incorporated Aux Cayes FinTech Co. Ltd, with regional hubs including San Jose, United States and Malta",
     "founders": "Star Xu (Founder and CEO), Hong Fang (President)",
@@ -46,7 +47,10 @@
   "roles": [
     {
       "organization": "aux-cayes-fintech-co-ltd-seychelles",
-      "kind": "issuer"
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.okx.com"
+      ]
     }
   ]
 }

@@ -2,6 +2,7 @@
   "slug": "helix",
   "organization": "helix",
   "venueType": "dex",
+  "chain": "injective",
   "adapter": "helix",
   "published": true,
   "makerFeeBps": -0.5,

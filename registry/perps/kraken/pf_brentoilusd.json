@@ -12,6 +12,6 @@
     "pair": "BRENTOIL-USD"
   },
   "about": {
-    "description": "PAXG is a commodity perpetual listed on Kraken and tracking Pax Gold. The contract is cash settled in USD and does not convey ownership or delivery of the underlying. Funding is exchanged every 1h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+    "description": "BRENTOIL is a perpetual on Crude Oil (Brent) listed on Kraken, settled in USD."
   }
 }

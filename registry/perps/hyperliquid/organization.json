@@ -30,7 +30,6 @@
     "platformType": [
       "perp-venue"
     ],
-    "attestationFrequency": "N/A (Perp Venue)",
     "suspicious": false,
     "fees": {
       "revenueModel": "Maker/Taker Fees + Funding Skim",
@@ -79,10 +78,6 @@
       "kind": "delisting",
       "date": null,
       "note": "last stored day not given at import"
-    },
-    {
-      "kind": "attestation",
-      "note": "N/A (Perp Venue)"
     }
   ]
 }

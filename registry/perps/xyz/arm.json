@@ -8,11 +8,11 @@
     "structure": "stock-perp"
   },
   "terms": {
-    "collateral": "usdt",
+    "collateral": "usdc",
     "pair": "ARM-USDT"
   },
   "about": {
-    "description": "Arm Holdings (NASDAQ:ARM) stock perpetual on trade[XYZ]. HIP-3 deployer namespace on Hyperliquid, cash-settled in USDC.",
+    "description": "ARM is a perpetual on Arm Holdings plc listed on trade[XYZ], settled in USDC.",
     "issuer": "trade[XYZ]"
   }
 }

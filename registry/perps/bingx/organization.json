@@ -18,6 +18,7 @@
       "discord": "https://discord.com/invite/bingx",
       "telegram": "https://t.me/BingXOfficial"
     },
+    "registryInfo": "Nieve Cruz PA Corporation, Panama, folio 155764276, named as the contracting party in BingX's Customer Agreement. No derivatives licence published. Jurisdiction and folio come from a registry mirror rather than a primary register.",
     "foundedYear": 2018,
     "headquarters": "No declared HQ. Contracting entity Nieve Cruz PA Corporation, with regional entities in Australia (Adelaide) and Lithuania",
     "founders": "Founders not officially disclosed (third-party registries attribute founding to Josh Lu). No publicly named group CEO. Vivien Lin (Chief Product Officer, Global Spokesperson) is the most senior publicly identified executive",
@@ -46,7 +47,10 @@
   "roles": [
     {
       "organization": "nieve-cruz-pa-corporation-counterparty-named-in-the-bingx-customer-agreement",
-      "kind": "issuer"
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://bingx.com"
+      ]
     }
   ]
 }

@@ -14,6 +14,6 @@
     "takerFeeBps": null
   },
   "about": {
-    "description": "Single-stock perpetual on Aster (YZi Labs-backed) tracking Realty Income Corp (NYSE: O). Monthly-dividend REIT, with pricing referencing Aster custom oracle (24/5 equity feed). Users gain synthetic exposure to O share-price moves without holding equity, USDT-margined, cash-settled."
+    "description": "Single-stock perpetual market on Aster tracking Hewlett Packard Enterprise Co. Users get linear exposure to share-price moves without owning shares, shareholder rights, or dividend claims, with pricing referencing an external 24/5 equity feed. Positions are margined and cash-settled in USDT on Aster."
   }
 }

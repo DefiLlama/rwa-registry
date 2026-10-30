@@ -18,6 +18,7 @@
       "discord": "https://discord.com/invite/sHj2NrKacq",
       "telegram": "https://t.me/MEXCEnglish"
     },
+    "registryInfo": "MX Global Ltd, Seychelles, registration 238047. MEXC itself publishes no operating entity — its User Agreement is concluded with the MEXC Trading Platform and names no company or jurisdiction. The entity is identifiable only through a Seychelles Financial Services Authority enforcement release, and the former MEXC Global Ltd is dissolved.",
     "foundedYear": 2018,
     "headquarters": "Not disclosed. Historically associated with Seychelles registration, with the Seychelles FSA identifying Seychelles company MX Global Ltd as the platform operator in 2026, and operations commonly reported in Singapore.",
     "founders": "Founders not disclosed. Vugar Usi (CEO since April 2026), Cecilia Hsueh (Chief Strategy Officer). Former CEO John Chen left in 2022 per MEXC statements",
@@ -47,7 +48,10 @@
   "roles": [
     {
       "organization": "not-disclosed-by-mexc-the-seychelles-fsa-identified-mx-global-ltd-seychelles-ibc-no-238047-as-the-entity-operating-the-platform-in-may-2026",
-      "kind": "issuer"
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.mexc.com"
+      ]
     }
   ]
 }

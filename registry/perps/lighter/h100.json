@@ -8,10 +8,16 @@
     "structure": "commodity-perp"
   },
   "terms": {
-    "collateral": "usdt",
+    "collateral": "usdc",
     "pair": "H100-USDC"
   },
   "about": {
-    "description": "NVIDIA H100 GPU hourly rental rate perpetual on Lighter. Tracks the GPU compute rate index, cash-settled in USDC. Mirrors the trade[XYZ]/Paragon H100 product on a different venue."
-  }
+    "description": "H100 is a perpetual on NVIDIA H100 Hourly listed on Lighter, settled in USDC."
+  },
+  "roles": [
+    {
+      "organization": "squaretower",
+      "kind": "oracle"
+    }
+  ]
 }

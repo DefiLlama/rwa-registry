@@ -18,6 +18,7 @@
       "discord": "https://discord.gg/DuNSzgf6bU",
       "telegram": "https://t.me/WhiteBIT"
     },
+    "registryInfo": "Peak Horizon Corp., Panama. WhiteBIT's User Agreement routes futures and margin trading operations to this Panamanian entity. No registration number or derivatives licence published.",
     "foundedYear": 2018,
     "headquarters": "Vilnius, Lithuania",
     "founders": "Volodymyr Nosov (Founder, President of W Group)",
@@ -46,7 +47,10 @@
   "roles": [
     {
       "organization": "peak-horizon-corp-panama-per-the-whitebit-com-user-agreement-the-entity-conducting-futures-and-other-crypto-operations",
-      "kind": "issuer"
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://whitebit.com"
+      ]
     }
   ]
 }

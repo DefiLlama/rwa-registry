@@ -17,6 +17,7 @@
       "discord": "https://discord.gg/krakenexchange",
       "telegram": "https://t.me/kraken_exchange_official"
     },
+    "registryInfo": "Payward Digital Solutions Ltd., Bermuda, registration 202403268, the counterparty for Kraken's perpetual contracts. Holds a Bermuda Monetary Authority Class F digital asset business licence under the Digital Assets Business Act 2018. Kraken's fixed-maturity futures sit with a separate entity, Crypto Facilities Ltd, FCA firm reference 757895.",
     "foundedYear": 2011,
     "headquarters": "San Francisco, United States (remote-first company, parent Payward, Inc.)",
     "founders": "Jesse Powell (Co-founder and Chairman), Arjun Sethi (Co-CEO), David Ripley (Co-CEO)",
@@ -45,7 +46,10 @@
   "roles": [
     {
       "organization": "payward-digital-solutions-ltd-bermuda",
-      "kind": "issuer"
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.kraken.com"
+      ]
     }
   ]
 }

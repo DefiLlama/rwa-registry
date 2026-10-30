@@ -14,7 +14,7 @@
     "takerFeeBps": 4
   },
   "about": {
-    "description": "UVXY is an exchange traded fund perpetual listed on Binance and tracking ProShares Ultra VIX Short-Term Futures ETF. The contract is cash settled in USDT against a Binance price index and does not convey ownership of the underlying. Funding is exchanged every 8h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+    "description": "BWET is an exchange traded fund perpetual listed on Binance and tracking Breakwave Tanker Shipping ETF. The contract is cash settled in USDT against a Binance price index and does not convey ownership of the underlying. Funding is exchanged every 8h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
   },
   "events": [
     {

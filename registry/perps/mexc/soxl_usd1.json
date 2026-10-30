@@ -14,6 +14,6 @@
     "takerFeeBps": 2
   },
   "about": {
-    "description": "MTSI is a single-stock perpetual listed on MEXC, tracking MACOM Technology Solutions Holdings, Inc., margined and cash-settled in USDT. Traders get synthetic price exposure only - no ownership, dividend or voting rights in the underlying. Funding settles every 8h. Up to 20x leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+    "description": "SOXL is an exchange traded fund perpetual listed on MEXC and tracking Direxion Daily Semiconductor Bull 3X ETF. The contract is cash settled in USD1 and does not convey ownership or redemption rights in the underlying. Funding is exchanged every 8h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
   }
 }

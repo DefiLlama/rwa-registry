@@ -30,7 +30,6 @@
     "platformType": [
       "perp-venue"
     ],
-    "attestationFrequency": "N/A (Perp Venue)",
     "suspicious": false,
     "delisted": false,
     "fees": {
@@ -47,12 +46,6 @@
       "sourceLinks": [
         "https://docs.hyena.trade/"
       ]
-    }
-  ],
-  "events": [
-    {
-      "kind": "attestation",
-      "note": "N/A (Perp Venue)"
     }
   ]
 }

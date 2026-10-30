@@ -42,7 +42,10 @@
   "roles": [
     {
       "organization": "arcus-labs-ltd",
-      "kind": "issuer"
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.arcus.xyz"
+      ]
     }
   ]
 }

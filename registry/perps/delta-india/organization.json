@@ -16,6 +16,7 @@
       "linkedin": "https://www.linkedin.com/company/deltaexchangein/",
       "telegram": "https://t.me/DeltaExchangeIndia"
     },
+    "registryInfo": "Excelium Technologies Private Limited, India, CIN U72900MH2023PTC396686 (Registrar of Companies, Mumbai). Registered with the Financial Intelligence Unit of India as a reporting entity and virtual digital asset service provider, registration VA00041101. That is an anti-money-laundering registration rather than a derivatives licence.",
     "foundedYear": 2018,
     "headquarters": "Mumbai, India (registered address of Excelium Technologies Private Limited, Powai, Mumbai)",
     "founders": "Pankaj Balani (Co-founder, CEO), Jitender Tokas (Co-founder, Chief Business Officer), Saurabh Goyal (Co-founder, CTO)",
@@ -45,7 +46,10 @@
   "roles": [
     {
       "organization": "excelium-technologies-private-limited",
-      "kind": "issuer"
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.delta.exchange"
+      ]
     }
   ]
 }

@@ -16,8 +16,7 @@
       "docs": "https://aden-perp-api-docs.aden.io/",
       "linkedin": "https://www.linkedin.com/company/aden-io",
       "discord": "https://discord.gg/aden",
-      "telegram": "https://t.me/adenofficial",
-      "github": "N/A (closed source)"
+      "telegram": "https://t.me/adenofficial"
     },
     "registryInfo": "ADEN was founded by INBUM, founder of the Bugscoin (BGSC) project and a veteran derivatives trader. Acquired by Gate Ventures in October 2025; INBUM continues to lead as Founder. The platform is deployed on Gate Layer (an OP-Stack - based EVM-compatible Layer 2) and uses Orderly Network as its underlying orderbook/settlement infrastructure."
   },
@@ -28,7 +27,6 @@
     "platformType": [
       "perp-venue"
     ],
-    "attestationFrequency": "N/A (Perp Venue)",
     "suspicious": false,
     "delisted": false,
     "fees": {
@@ -45,12 +43,6 @@
       "sourceLinks": [
         "https://aden.io/"
       ]
-    }
-  ],
-  "events": [
-    {
-      "kind": "attestation",
-      "note": "N/A (Perp Venue)"
     }
   ]
 }

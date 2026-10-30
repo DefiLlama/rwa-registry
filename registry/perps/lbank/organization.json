@@ -18,6 +18,7 @@
       "discord": "https://discord.com/invite/YdmGwEhuN8",
       "telegram": "https://t.me/LBank_en"
     },
+    "registryInfo": "LBK Blockchain Co., Limited, British Virgin Islands, registered at Meadow House, P.O. Box 116, Road Town, Tortola, named in LBank's User Service Agreement. LBank's futures agreement names only the brand. No derivatives licence published.",
     "foundedYear": 2015,
     "headquarters": "No operational headquarters disclosed. The user agreement names a registered address in Road Town, Tortola, British Virgin Islands.",
     "founders": "Allen Wei (Co-Founder), Eric He (Co-Founder, stepped back to advisory roles in September 2024). No current executive team publicly disclosed",
@@ -46,7 +47,10 @@
   "roles": [
     {
       "organization": "lbk-blockchain-co-limited-british-virgin-islands",
-      "kind": "issuer"
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.lbank.com"
+      ]
     }
   ]
 }

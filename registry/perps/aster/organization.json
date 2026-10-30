@@ -37,6 +37,7 @@
       "revenueModel": "Maker/Taker Fees + Funding Skim",
       "revenueConfidence": "issuer-disclosed",
       "feeLastVerified": "2026-05-11",
+      "feeWaiverEndDate": "2026-06-07",
       "revenueNotes": "Aster RWA fee schedule during RWA Sprint Season 1 (May 7 - June 7, 2026): 0 bps maker (waived) / 0.9 bps taker on stock, ETF, and commodity perpetual pairs. Standard schedule (post-Sprint): 1 bp maker / 3.5 bps taker. USD1-settled commodity perps charge 1 bp taker with a 0.5 bp maker rebate. Crypto markets (not on this RWA page) charge 1 bp maker / 3.5 bps taker. Source: https://docs.asterdex.com/product/aster-perpetuals/fees-and-specs/perpetual-fees"
     }
   },
@@ -47,12 +48,6 @@
       "sourceLinks": [
         "https://www.asterdex.com/"
       ]
-    }
-  ],
-  "events": [
-    {
-      "kind": "attestation",
-      "note": "N/A (perp venue, not asset issuer)"
     }
   ]
 }

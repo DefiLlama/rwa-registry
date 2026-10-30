@@ -8,11 +8,11 @@
     "structure": "equity-perp"
   },
   "terms": {
-    "collateral": "usdt",
+    "collateral": "usdc",
     "pair": "NIFTY-USDT"
   },
   "about": {
-    "description": "Nifty 50 (India) index perpetual on trade[XYZ]. HIP-3 deployer namespace on Hyperliquid, cash-settled in USDC.",
+    "description": "Equity-index perpetual market tracking Nifty 50 Index. Users get synthetic index exposure rather than ownership of constituent shares, cash-settled in USDC on trade[XYZ].",
     "issuer": "trade[XYZ]"
   },
   "events": [

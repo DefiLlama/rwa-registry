@@ -12,7 +12,7 @@
     "pair": "ROBO-USDC"
   },
   "about": {
-    "description": "ETF perpetual market tracking the ROBO Global Robotics & Automation Index ETF (ROBO). Users get synthetic exposure to the ROBO ETF's price rather than ownership of ETF shares or redemption rights, with pricing referencing the ETF's public market price via Lighter's fair price oracle. Positions are margined and cash-settled in USDC."
+    "description": "ROBO is a perpetual on Fabric Protocol listed on Lighter, settled in USDC."
   },
   "roles": [
     {

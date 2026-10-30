@@ -17,6 +17,12 @@
     "description": "World's first on-chain perpetual market on NVIDIA H100 GPU hourly rental rates. Built by Helix on Injective in collaboration with Squaretower, which aggregates and normalizes pricing from leading cloud providers (AWS/Azure/GCP-class platforms) and specialized AI compute marketplaces. The index reflects on-demand GPU rental rates across global providers, updated hourly, with up to 5x leverage. Allows AI labs and compute consumers to hedge GPU cost exposure, and traders to express directional views on AI demand and GPU supply constraints, cash-settled in USDT.",
     "website": "https://helixapp.com/futures/h100-usdt-perp"
   },
+  "roles": [
+    {
+      "organization": "squaretower",
+      "kind": "oracle"
+    }
+  ],
   "events": [
     {
       "kind": "delisting",

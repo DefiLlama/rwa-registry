@@ -17,7 +17,6 @@
       "linkedin": "https://www.linkedin.com/company/paragontrade",
       "discord": "https://discord.gg/paragontrade",
       "telegram": "https://t.me/paragontrade",
-      "github": "N/A (closed source)",
       "refLinks": [
         "https://app.hyperliquid.xyz/join/DEFILLAMAS"
       ]
@@ -31,7 +30,6 @@
     "platformType": [
       "perp-venue"
     ],
-    "attestationFrequency": "N/A (Perp Venue)",
     "suspicious": false,
     "delisted": false,
     "fees": {
@@ -48,12 +46,6 @@
       "sourceLinks": [
         "https://docs.paragon.trade/"
       ]
-    }
-  ],
-  "events": [
-    {
-      "kind": "attestation",
-      "note": "N/A (Perp Venue)"
     }
   ]
 }

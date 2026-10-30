@@ -27,7 +27,10 @@
   "roles": [
     {
       "organization": "qfex",
-      "kind": "issuer"
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://docs.qfex.com/qfex/about"
+      ]
     }
   ]
 }

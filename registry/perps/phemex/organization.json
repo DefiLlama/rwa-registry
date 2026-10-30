@@ -18,6 +18,7 @@
       "discord": "https://discord.gg/phemex",
       "telegram": "https://t.me/Phemex_EN"
     },
+    "registryInfo": "No unambiguous derivatives counterparty published. Phemex's Terms of Use define Phemex as an open-ended group and name only Phemex Poland sp. z o.o., Katowice, KRS 0001121869, a software company rather than a stated exchange operator.",
     "foundedYear": 2019,
     "headquarters": "Widely described as founded in Singapore, and its terms apply Singapore governing law, but no operational headquarters is formally disclosed. The only entity named in its terms is registered in Katowice, Poland.",
     "founders": "Jack Tao (Founder), Federico Variola (CEO)",
@@ -46,7 +47,10 @@
   "roles": [
     {
       "organization": "not-specifically-disclosed-terms-name-phemex-poland-sp-z-o-o-katowice-poland-as-a-group-entity",
-      "kind": "issuer"
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://phemex.com"
+      ]
     }
   ]
 }

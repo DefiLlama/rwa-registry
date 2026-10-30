@@ -18,6 +18,7 @@
       "discord": "https://discord.com/invite/kucoinofficialserver",
       "telegram": "https://t.me/Kucoin_Exchange"
     },
+    "registryInfo": "Peken Global Limited, Turks and Caicos Islands. KuCoin itself publishes no operating entity — its Futures Terms of Use contract the user with KuCoin and name no company, address or registration number. The entity is identifiable only through a CFTC consent order.",
     "foundedYear": 2017,
     "headquarters": "Historically operated from Victoria, Seychelles through Peken Global Limited. Current terms of use name no entity and state Turks and Caicos Islands as governing jurisdiction.",
     "founders": "Chun Gan \"Michael Gan\" (Co-Founder, exited management 2025), Ke Tang \"Eric\" (Co-Founder, exited management 2025), BC Wong (CEO)",
@@ -46,7 +47,10 @@
   "roles": [
     {
       "organization": "not-disclosed-in-current-terms-peken-global-limited-seychelles-operated-the-exchange-per-us-doj-filings",
-      "kind": "issuer"
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.kucoin.com"
+      ]
     }
   ]
 }

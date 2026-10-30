@@ -18,6 +18,7 @@
       "discord": "https://discord.com/invite/bybit",
       "telegram": "https://t.me/BybitEnglish"
     },
+    "registryInfo": "Bybit Technology Limited, Seychelles, registration 226958, named as the provider of the platform in Bybit's Global Platform Terms and Conditions. No derivatives licence published.",
     "foundedYear": 2018,
     "headquarters": "Dubai, United Arab Emirates",
     "founders": "Ben Zhou (Co-Founder and CEO)",
@@ -46,7 +47,10 @@
   "roles": [
     {
       "organization": "bybit-fintech-limited",
-      "kind": "issuer"
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.bybit.com"
+      ]
     }
   ]
 }

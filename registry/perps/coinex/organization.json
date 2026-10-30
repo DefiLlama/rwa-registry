@@ -18,6 +18,7 @@
       "discord": "https://discord.gg/9aTtZBwrbQ",
       "telegram": "https://t.me/CoinExOfficialEN"
     },
+    "registryInfo": "Algebraiex Global Limited, named in CoinEx's Terms of Service as the contracting entity providing the CoinEx services. No jurisdiction of incorporation, registration number or derivatives licence is published.",
     "foundedYear": 2017,
     "headquarters": "Founded in Hong Kong, current headquarters city not officially disclosed",
     "founders": "Haipo Yang (Founder and CEO)",
@@ -46,7 +47,10 @@
   "roles": [
     {
       "organization": "algebraiex-global-limited-contracting-entity-per-coinex-terms-of-service",
-      "kind": "issuer"
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.coinex.com"
+      ]
     }
   ]
 }
