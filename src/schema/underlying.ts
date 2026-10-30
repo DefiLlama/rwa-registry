@@ -11,7 +11,6 @@ export const underlying = defineTable({
   fields: (v) => ({
     slug: slug,
     name: text,
-    aliases: optional(z.array(text)),
     ticker: optional(text),
     // The logo a market that tracks it shows.
     logo: optional(text),

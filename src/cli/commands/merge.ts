@@ -1,11 +1,11 @@
 /**
- * merge: one organization or underlying folded into another: references moved, drop's name kept, a merge event on keep, drop's file removed.
+ * merge: one organization or underlying folded into another: references moved, drop's name kept in a merge event on keep, drop's file removed, a dropped platform's assets moved into keep's folder.
  * @dev review: src/registry/moveReferences.ts, src/cli/writeCommand.ts
  */
 import { join } from 'node:path';
 import { FlagFormatError, LegacyIdError, NoSuchRowError } from '../../errors/cli';
 import { fileOf, moveReferences } from '../../registry';
-import { homeOf } from '../../registry/layout';
+import { homeFile, homeOf } from '../../registry/layout';
 import { blockNames, TABLE_NAMES, toFile, toRow, type Registry, type TableName } from '../../schema';
 import type { FileToWrite } from '../writeCommand';
 import { defineWriteCommand, today } from '../writeCommand';
@@ -64,7 +64,19 @@ export const merge = defineWriteCommand({
         return moveReferences(home, json, table as TableName, drop, keep) as Json;
       return toFile(home, moveReferences(home, toRow(home, json as Json), table as TableName, drop, keep) as Json);
     };
-    const others: FileToWrite[] = referencing(registry, drop, [kept.file, dropped.file]).flatMap((file) => {
+    // A platform's assets sit in its folder, so a dropped platform's asset files move into the kept platform's folder.
+    const platforms = table === 'organization' && kept.row.kind === 'platform' && dropped.row.kind === 'platform';
+    const assets = platforms ? registry.asset.filter((asset) => asset.platform === drop) : [];
+    const moved: FileToWrite[] = assets.flatMap((asset) => {
+      const file = fileOf(asset)!;
+      const path = homeFile('asset', { ...asset, platform: keep });
+      return [
+        { path, content: move(file, read(file)) },
+        { path: file, remove: true },
+      ];
+    });
+    const skip = [kept.file, dropped.file, ...assets.map((asset) => fileOf(asset)!)];
+    const others: FileToWrite[] = referencing(registry, drop, skip).flatMap((file) => {
       const before = read(file);
       const content = move(file, before);
       return JSON.stringify(content) === JSON.stringify(before) ? [] : [{ path: file, content, replaces: true }];
@@ -79,13 +91,9 @@ export const merge = defineWriteCommand({
       note: `merged ${drop} (${name})`,
       links: [values.source],
     };
-    const aliases = [...new Set([...list(keepJson.aliases), name, ...list(dropJson.aliases)])].filter(
-      (alias) => alias !== keepJson.name,
-    );
     const identifiers = [...list(keepJson.identifiers), ...list(dropJson.identifiers)];
     const content: Json = {
       ...keepJson,
-      ...(table === 'underlying' ? { aliases } : {}),
       ...(identifiers.length ? { identifiers } : {}),
       ...(list(keepJson.roles).length + list(dropJson.roles).length
         ? { roles: [...list(keepJson.roles), ...list(dropJson.roles)] }
@@ -94,6 +102,7 @@ export const merge = defineWriteCommand({
     };
     return [
       ...others,
+      ...moved,
       { path: kept.file, content: toFile(table as TableName, content), replaces: true },
       { path: dropped.file, remove: true },
     ];

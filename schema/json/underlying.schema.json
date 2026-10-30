@@ -9,19 +9,6 @@
     "name": {
       "type": "string"
     },
-    "aliases": {
-      "anyOf": [
-        {
-          "type": "array",
-          "items": {
-            "type": "string"
-          }
-        },
-        {
-          "type": "null"
-        }
-      ]
-    },
     "ticker": {
       "anyOf": [
         {
