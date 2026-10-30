@@ -11,11 +11,8 @@
     "collateral": "usdh",
     "pair": "GOOGL-USDH"
   },
-  "sources": {
-    "oracleProvider": "Kaiko / NASDAQ:GOOGL"
-  },
   "about": {
-    "description": "Single-stock perpetual market tracking Alphabet Inc. Class A. The contract gives synthetic exposure to Alphabet’s share price without ownership of the underlying shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDH. The market is visible on Hyperliquid under the km namespace, but it is operated by Markets by Kinetiq rather than listed as a core Hyperliquid perp."
+    "description": "Single-stock perpetual market tracking Alphabet Inc. Class A. The contract gives synthetic exposure to Alphabet's share price without ownership of the underlying shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDH. The market is visible on Hyperliquid under the km namespace, but it is operated by Markets by Kinetiq rather than listed as a core Hyperliquid perp."
   },
   "events": [
     {

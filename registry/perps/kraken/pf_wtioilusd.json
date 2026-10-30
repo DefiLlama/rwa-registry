@@ -8,12 +8,16 @@
     "structure": "commodity-perp"
   },
   "terms": {
+    "collateral": "us-dollar",
     "pair": "WTIOIL-USD"
   },
-  "sources": {
-    "oracleProvider": "Pyth 24/7 index, via Kraken"
-  },
   "about": {
-    "description": "WTIOIL is a commodity perpetual listed on Kraken, tracking Crude Oil (WTI), margined and cash-settled in USD. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 1h. Up to 20× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
-  }
+    "description": "WTIOIL is a commodity perpetual listed on Kraken, tracking Crude Oil (WTI), margined and cash-settled in USD. Traders get synthetic price exposure only - no ownership, dividend or voting rights in the underlying. Funding settles every 1h. Up to 20x leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  },
+  "roles": [
+    {
+      "organization": "pyth-network",
+      "kind": "oracle"
+    }
+  ]
 }

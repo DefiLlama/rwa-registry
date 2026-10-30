@@ -9,14 +9,16 @@
   },
   "terms": {
     "collateral": "usdt",
-    "marginAsset": "USDT",
     "pair": "SPCX-USD"
-  },
-  "sources": {
-    "oracleProvider": "Chainlink Data Streams"
   },
   "about": {
     "description": "Single-stock perpetual market on ApeX tracking SpaceX (Space Exploration Technologies Corp.), publicly listed on Nasdaq (SPCX) since June 2026, cash-settled.",
     "issuer": "ApeX Protocol"
-  }
+  },
+  "roles": [
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    }
+  ]
 }

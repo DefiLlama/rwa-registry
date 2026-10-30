@@ -11,11 +11,14 @@
     "collateral": "usdc",
     "pair": "NZDUSD-USDC"
   },
-  "sources": {
-    "oracleProvider": "Pyth"
-  },
   "about": {
     "description": "NZDUSD perpetual on Avantis (Base), USDC-margined. Verified live 2026-05-20.",
     "website": "https://avantisfi.com/"
-  }
+  },
+  "roles": [
+    {
+      "organization": "pyth-network",
+      "kind": "oracle"
+    }
+  ]
 }

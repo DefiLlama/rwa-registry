@@ -11,10 +11,13 @@
     "collateral": "usdc",
     "pair": "URA-USDC"
   },
-  "sources": {
-    "oracleProvider": "Chainlink"
-  },
   "about": {
     "description": "ETF perpetual market tracking the Global X Uranium ETF (URA). Users get synthetic exposure to the URA ETF's price rather than ownership of ETF shares or redemption rights, with pricing referencing the ETF's public market price via Lighter's fair price oracle. Positions are margined and cash-settled in USDC."
-  }
+  },
+  "roles": [
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    }
+  ]
 }

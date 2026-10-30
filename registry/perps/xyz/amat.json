@@ -11,9 +11,6 @@
     "collateral": "usdc",
     "pair": "AMAT-USDC"
   },
-  "sources": {
-    "oracleProvider": "Pyth equity feed"
-  },
   "about": {
     "description": "AMAT is a single-stock perpetual on trade[XYZ] tracking Applied Materials Inc. Applied Materials Inc. is a US supplier of semiconductor manufacturing equipment and services (Nasdaq: AMAT). The market is cash-settled with hourly funding, no shareholder rights, and no dividend rights in the underlying."
   }

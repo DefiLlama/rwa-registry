@@ -11,9 +11,6 @@
     "collateral": "usdc",
     "pair": "TSLA-USDC"
   },
-  "sources": {
-    "oracleProvider": "Pyth equity feed"
-  },
   "about": {
     "description": "Single-stock perpetual market tracking Tesla, Inc. Users get linear exposure to Tesla share-price moves without owning Tesla shares, shareholder rights, or dividend claims, with pricing referencing an external 24/5 equity feed. Positions are margined and cash-settled in USDC. Markets are visible on Hyperliquid under the xyz namespace, but are operated by trade[XYZ] rather than listed as core Hyperliquid perps."
   }

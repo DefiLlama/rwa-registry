@@ -11,9 +11,6 @@
     "collateral": "usdc",
     "pair": "CAD-USDC"
   },
-  "sources": {
-    "oracleProvider": "Chainlink DON FX feeds"
-  },
   "about": {
     "description": "FX perpetual on Gains Network tracking Canadian Dollar (CAD) versus the US dollar, with pricing referencing Chainlink DON FX feeds. Positions are margined and cash-settled in USDC / DAI / WETH on Arbitrum / Polygon / Base, giving users synthetic exposure to Canadian Dollar/USD price movement without holding either currency as cash."
   },

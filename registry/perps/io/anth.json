@@ -11,9 +11,6 @@
     "collateral": "usdc",
     "pair": "ANTH-USDC"
   },
-  "sources": {
-    "oracleProvider": "Entropy pre-IPO oracle (private-market aggregate blended with order-book EMA, depth-gated)"
-  },
   "about": {
     "description": "Pre-IPO valuation perpetual on Entropy, the HIP-3 builder-deployed dex 'io' on Hyperliquid, tracking Anthropic's private-market valuation and cash-settled in USDC. Quoted in market-cap units (USD billions of implied valuation), NOT a per-share price - do not reconcile against per-share Anthropic references. Oracle blends an order-book EMA with a robustness-scored aggregate of private-market sources, weighted by executable two-sided depth. Catastrophic bounds L=300 / U=4,200. 3x max leverage, isolated margin, $3M open-interest cap. If Anthropic has not listed by the 2028-08-18 no-IPO resolution date the contract cash-settles to the 30-day trailing TWAP of the mark."
   }

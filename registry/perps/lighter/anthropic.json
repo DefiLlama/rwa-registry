@@ -11,9 +11,6 @@
     "collateral": "usdc",
     "pair": "ANTHROPIC-USDC"
   },
-  "sources": {
-    "oracleProvider": "Pyth"
-  },
   "about": {
     "description": "Pre-IPO valuation perpetual on Lighter tracking Anthropic, cash-settled."
   }

@@ -11,10 +11,13 @@
     "collateral": "usdc",
     "pair": "DELL-USDC"
   },
-  "sources": {
-    "oracleProvider": "Lighter fair price oracle"
-  },
   "about": {
     "description": "Single-stock perpetual market on Lighter (zkLighter / ZKSync) tracking Dell Technologies Inc. Users get linear exposure to share-price moves without owning shares, shareholder rights, or dividend claims, cash-settled in USDC on Lighter."
-  }
+  },
+  "roles": [
+    {
+      "organization": "lighter",
+      "kind": "oracle"
+    }
+  ]
 }

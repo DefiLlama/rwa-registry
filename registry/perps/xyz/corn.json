@@ -11,9 +11,6 @@
     "collateral": "usdc",
     "pair": "CORN-USDC"
   },
-  "sources": {
-    "oracleProvider": "Pyth / futures-based external reference methodology"
-  },
   "about": {
     "description": "Corn perpetual market. The contract tracks Corn price using the venue's reference methodology. Users get linear commodity-price exposure only, without title to physical inventory or delivery rights, cash-settled in USDC on trade[XYZ]."
   },

@@ -11,10 +11,13 @@
     "collateral": "usdc",
     "pair": "GBPUSD-USDC"
   },
-  "sources": {
-    "oracleProvider": "Lighter fair price oracle"
-  },
   "about": {
     "description": "FX perpetual on Lighter Labs tracking British Pound (GBP) versus the US dollar, with pricing referencing Lighter fair price oracle. Positions are margined and cash-settled in USDC on Lighter ZK-rollup (Ethereum), giving users synthetic exposure to British Pound/USD price movement without holding either currency as cash."
-  }
+  },
+  "roles": [
+    {
+      "organization": "lighter",
+      "kind": "oracle"
+    }
+  ]
 }

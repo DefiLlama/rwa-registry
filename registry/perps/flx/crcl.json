@@ -11,11 +11,8 @@
     "collateral": "usdh",
     "pair": "CRCL-USDH"
   },
-  "sources": {
-    "oracleProvider": "Felix external equity reference methodology"
-  },
   "about": {
-    "description": "Single-stock perpetual market tracking Circle Internet Group, Inc. Users get linear exposure to Circle share-price moves without owning shares, voting rights, or dividend claims. Pricing uses Felix’s external reference methodology for equity markets. Positions are margined and cash-settled in USDH. Markets are visible on Hyperliquid under the flx namespace, but are operated by Felix rather than listed as core Hyperliquid perps."
+    "description": "Single-stock perpetual market tracking Circle Internet Group, Inc. Users get linear exposure to Circle share-price moves without owning shares, voting rights, or dividend claims. Pricing uses Felix's external reference methodology for equity markets. Positions are margined and cash-settled in USDH. Markets are visible on Hyperliquid under the flx namespace, but are operated by Felix rather than listed as core Hyperliquid perps."
   },
   "events": [
     {

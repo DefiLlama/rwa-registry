@@ -11,10 +11,17 @@
     "collateral": "usdc",
     "pair": "AVGO-USDC"
   },
-  "sources": {
-    "oracleProvider": "Chaos Labs / HL published oracles"
-  },
   "about": {
     "description": "Single-stock perpetual market tracking Broadcom Inc. (AVGO) on Paragon. Users get linear exposure to AVGO share-price moves without owning AVGO shares, shareholder rights, or dividend claims. HIP-3 builder-deployed market on Hyperliquid in the para namespace, cash-settled in USDC."
-  }
+  },
+  "roles": [
+    {
+      "organization": "chaos-labs",
+      "kind": "oracle"
+    },
+    {
+      "organization": "hyperliquid",
+      "kind": "oracle"
+    }
+  ]
 }

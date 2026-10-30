@@ -11,9 +11,6 @@
     "collateral": "usdc",
     "pair": "SPCX-USDC"
   },
-  "sources": {
-    "oracleProvider": "Pyth / futures-based external reference\n  methodology"
-  },
   "about": {
     "description": "Single-stock perpetual market on trade[XYZ] tracking SpaceX (Space Exploration Technologies Corp.), publicly listed on Nasdaq (SPCX) since June 2026, cash-settled."
   }

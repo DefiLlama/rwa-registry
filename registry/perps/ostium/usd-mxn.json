@@ -13,9 +13,6 @@
     "makerFeeBps": 5,
     "takerFeeBps": 5
   },
-  "sources": {
-    "oracleProvider": "Stork / QUODD institutional FX feed"
-  },
   "about": {
     "description": "FX perpetual on Ostium Labs tracking Mexican Peso (MXN) versus the US dollar, with pricing referencing Stork / QUODD institutional FX feed. Positions are margined and cash-settled in USDC on Arbitrum, giving users synthetic exposure to Mexican Peso/USD price movement without holding either currency as cash."
   }

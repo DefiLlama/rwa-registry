@@ -11,12 +11,15 @@
     "collateral": "usdc",
     "pair": "DIA-USDC"
   },
-  "sources": {
-    "oracleProvider": "Chainlink"
-  },
   "about": {
     "description": "ETF perpetual market tracking the SPDR Dow Jones Industrial Average ETF Trust (DIA). Users get synthetic exposure to the DIA ETF's price rather than ownership of ETF shares or redemption rights, with pricing referencing the ETF's public market price via Lighter's fair price oracle. Positions are margined and cash-settled in USDC."
   },
+  "roles": [
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    }
+  ],
   "events": [
     {
       "kind": "delisting",

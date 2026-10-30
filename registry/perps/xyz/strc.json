@@ -11,9 +11,6 @@
     "collateral": "usdc",
     "pair": "STRC-USDC"
   },
-  "sources": {
-    "oracleProvider": "Pyth equity feed"
-  },
   "about": {
     "description": "STRC is a single-stock perpetual on trade[XYZ] tracking Strategy Inc. Variable Rate Series A Perpetual Stretch Preferred Stock. Strategy Inc. Variable Rate Series A Perpetual Stretch Preferred Stock is a preferred security paying variable-rate dividends, issued by the company formerly known as MicroStrategy (Nasdaq: STRC). The market is cash-settled with hourly funding, no shareholder rights, and no dividend rights in the underlying."
   }

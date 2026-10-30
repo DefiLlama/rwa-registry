@@ -8,12 +8,10 @@
     "structure": "stock-perp"
   },
   "terms": {
+    "collateral": "us-dollar",
     "pair": "METAX-USD"
   },
-  "sources": {
-    "oracleProvider": "dxFeed Composite Forex, via Kraken"
-  },
   "about": {
-    "description": "METAX is a single-stock perpetual listed on Kraken, tracking Meta Platforms, Inc., margined and cash-settled in USD. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 1h. Up to 20× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+    "description": "METAX is a single-stock perpetual listed on Kraken, tracking Meta Platforms, Inc., margined and cash-settled in USD. Traders get synthetic price exposure only - no ownership, dividend or voting rights in the underlying. Funding settles every 1h. Up to 20x leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
   }
 }

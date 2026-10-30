@@ -11,9 +11,6 @@
     "collateral": "usdc",
     "pair": "NBIS-USD"
   },
-  "sources": {
-    "oracleProvider": "Pyth equity feed"
-  },
   "about": {
     "description": "Single-stock perpetual market on trade[XYZ] tracking Nebius Group N.V, cash-settled."
   }

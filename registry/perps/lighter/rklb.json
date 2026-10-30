@@ -11,10 +11,13 @@
     "collateral": "usdc",
     "pair": "RKLB-USDC"
   },
-  "sources": {
-    "oracleProvider": "Lighter fair price oracle"
-  },
   "about": {
     "description": "Single-stock perpetual market on Lighter (zkLighter / ZKSync) tracking Rocket Lab USA Inc. Users get linear exposure to share-price moves without owning shares, shareholder rights, or dividend claims, cash-settled in USDC on Lighter."
-  }
+  },
+  "roles": [
+    {
+      "organization": "lighter",
+      "kind": "oracle"
+    }
+  ]
 }

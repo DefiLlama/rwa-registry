@@ -13,9 +13,6 @@
     "makerFeeBps": 3,
     "takerFeeBps": 3
   },
-  "sources": {
-    "oracleProvider": "Stork / QUODD institutional FX feed"
-  },
   "about": {
     "description": "FX perpetual on Ostium Labs tracking Canadian Dollar (CAD) versus the US dollar, with pricing referencing Stork / QUODD institutional FX feed. Positions are margined and cash-settled in USDC on Arbitrum, giving users synthetic exposure to Canadian Dollar/USD price movement without holding either currency as cash."
   }

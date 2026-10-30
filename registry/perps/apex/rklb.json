@@ -9,14 +9,16 @@
   },
   "terms": {
     "collateral": "usdt",
-    "marginAsset": "USDT",
     "pair": "RKLB-USDC"
-  },
-  "sources": {
-    "oracleProvider": "Chainlink Data Streams"
   },
   "about": {
     "description": "Single-stock perpetual market on ApeX Omni tracking Rocket Lab, cash-settled.",
     "issuer": "ApeX Protocol"
-  }
+  },
+  "roles": [
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    }
+  ]
 }

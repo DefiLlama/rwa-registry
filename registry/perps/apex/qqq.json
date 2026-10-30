@@ -9,14 +9,16 @@
   },
   "terms": {
     "collateral": "usdt",
-    "marginAsset": "USDT",
     "pair": "QQQ-USDT"
-  },
-  "sources": {
-    "oracleProvider": "Chainlink Data Streams"
   },
   "about": {
     "description": "Invesco QQQ Trust perpetual on ApeX Omni via zkLink, cash-settled in USDT.",
     "issuer": "ApeX Protocol"
-  }
+  },
+  "roles": [
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    }
+  ]
 }

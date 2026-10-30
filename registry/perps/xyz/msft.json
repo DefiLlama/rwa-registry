@@ -11,9 +11,6 @@
     "collateral": "usdc",
     "pair": "MSFT-USDC"
   },
-  "sources": {
-    "oracleProvider": "Pyth equity feed"
-  },
   "about": {
     "description": "Single-stock perpetual market tracking Microsoft Corporation. Users get linear exposure to Microsoft share-price moves without owning shares, voting rights, or dividend claims, with pricing referencing an external 24/5 equity feed. Positions are margined and cash-settled in USDC. Markets are visible on Hyperliquid under the xyz namespace, but are operated by trade[XYZ] rather than listed as core Hyperliquid perps."
   }

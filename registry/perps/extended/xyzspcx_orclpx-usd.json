@@ -13,9 +13,6 @@
     "makerFeeBps": 2.5,
     "takerFeeBps": 5
   },
-  "sources": {
-    "oracleProvider": "trade[XYZ] (XYZSPCX) external valuation reference"
-  },
   "about": {
     "description": "Single-stock perpetual market on Extended tracking SpaceX (Space Exploration Technologies Corp.), publicly listed on Nasdaq (SPCX) since June 2026, cash-settled."
   },

@@ -11,9 +11,6 @@
     "collateral": "usdc",
     "pair": "PAXG-USDC"
   },
-  "sources": {
-    "oracleProvider": "Pyth"
-  },
   "about": {
     "description": "PAX Gold-backed token perpetual on Lighter, cash-settled in USDC."
   }

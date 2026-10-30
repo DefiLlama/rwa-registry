@@ -11,9 +11,6 @@
     "collateral": "usdc",
     "pair": "IBM-USDC"
   },
-  "sources": {
-    "oracleProvider": "Pyth equity feed"
-  },
   "about": {
     "description": "Single-stock perpetual market tracking International Business Machines Corp. (IBM). Users get linear exposure to IBM share-price moves without owning shares, shareholder rights, or dividend claims, with pricing referencing an external 24/5 equity feed. Positions are margined and cash-settled in USDC on Hyperliquid (xyz namespace)."
   }

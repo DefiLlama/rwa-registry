@@ -11,9 +11,6 @@
     "collateral": "usdt",
     "pair": "CAR-USDC"
   },
-  "sources": {
-    "oracleProvider": "Pyth + SEDA dated-futures conv."
-  },
   "about": {
     "description": "Single-stock perpetual on Dreamcash (CASH) tracking Avis Budget Group, Inc. (CAR), with pricing referencing Pyth + SEDA dated-futures conv. (24/5 equity feed). Users gain linear exposure to Avis Budget Group, Inc. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDT0 on Hyperliquid (cash namespace)."
   },

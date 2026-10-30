@@ -11,9 +11,6 @@
     "collateral": "usdc",
     "pair": "SOXX-USDC"
   },
-  "sources": {
-    "oracleProvider": "Pyth"
-  },
   "about": {
     "description": "iShares Semiconductor ETF (SOXX) perpetual on Lighter, cash-settled in USDC."
   },

@@ -11,9 +11,6 @@
     "collateral": "usdc",
     "pair": "PLATINUM-USDC"
   },
-  "sources": {
-    "oracleProvider": "Pyth spot metal feed"
-  },
   "about": {
     "description": "Platinum perpetual market. The contract tracks the price of one troy ounce of platinum. Users get linear exposure to platinum price moves without owning physical metal or redeemable commodity claims, with pricing referencing an external platinum price feed. Positions are margined and cash-settled in USDC. Markets are visible on Hyperliquid under the xyz namespace, but are operated by trade[XYZ] rather than listed as core Hyperliquid perps."
   }

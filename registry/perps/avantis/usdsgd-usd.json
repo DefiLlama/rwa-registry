@@ -11,11 +11,14 @@
     "collateral": "usdc",
     "pair": "USDSGD-USDC"
   },
-  "sources": {
-    "oracleProvider": "Pyth"
-  },
   "about": {
     "description": "USDSGD perpetual on Avantis (Base), USDC-margined. Verified live 2026-05-20.",
     "website": "https://avantisfi.com/"
-  }
+  },
+  "roles": [
+    {
+      "organization": "pyth-network",
+      "kind": "oracle"
+    }
+  ]
 }

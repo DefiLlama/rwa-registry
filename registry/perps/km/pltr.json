@@ -11,9 +11,6 @@
     "collateral": "usdh",
     "pair": "PLTR-USDH"
   },
-  "sources": {
-    "oracleProvider": "Kaiko equity feed"
-  },
   "about": {
     "description": "Single-stock perpetual market tracking Palantir. Users get linear exposure to Palantir share-price moves without owning Palantir shares, shareholder rights, or dividend claims, cash-settled in USDH on Markets by Kinetiq."
   },

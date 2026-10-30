@@ -13,9 +13,6 @@
     "makerFeeBps": 1,
     "takerFeeBps": 7
   },
-  "sources": {
-    "oracleProvider": "Chainlink Data Streams (FX feed)"
-  },
   "about": {
     "description": "FX perpetual on Injective Labs tracking Euro (EUR) versus the US dollar, with pricing referencing Chainlink Data Streams (FX feed). Positions are margined and cash-settled in USDT on Injective L1, giving users synthetic exposure to Euro/USD price movement without holding either currency as cash."
   },

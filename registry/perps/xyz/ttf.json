@@ -11,9 +11,6 @@
     "collateral": "usdc",
     "pair": "TTF-USDC"
   },
-  "sources": {
-    "oracleProvider": "Pyth / futures-based external reference methodology"
-  },
   "about": {
     "description": "TTF Natural Gas perpetual market. The contract tracks TTF Natural Gas price using the venue's reference methodology. Users get linear commodity-price exposure only, without title to physical inventory or delivery rights, cash-settled in USDC on trade[XYZ]."
   },

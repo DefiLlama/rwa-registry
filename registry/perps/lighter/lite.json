@@ -11,10 +11,13 @@
     "collateral": "usdc",
     "pair": "LITE-USDC"
   },
-  "sources": {
-    "oracleProvider": "Lighter fair price oracle"
-  },
   "about": {
     "description": "Single-stock perpetual market on Lighter tracking Lumentum Holdings Inc, cash-settled."
-  }
+  },
+  "roles": [
+    {
+      "organization": "lighter",
+      "kind": "oracle"
+    }
+  ]
 }

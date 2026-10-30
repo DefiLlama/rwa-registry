@@ -9,14 +9,16 @@
   },
   "terms": {
     "collateral": "usdt",
-    "marginAsset": "USDT",
     "pair": "MRVL-USD"
-  },
-  "sources": {
-    "oracleProvider": "Chainlink Data Streams"
   },
   "about": {
     "description": "Single-stock perpetual market on ApeX tracking Marvell Technology Inc, cash-settled.",
     "issuer": "ApeX Protocol"
-  }
+  },
+  "roles": [
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    }
+  ]
 }

@@ -11,12 +11,15 @@
     "collateral": "usdh",
     "pair": "WHEAT-USDH"
   },
-  "sources": {
-    "oracleProvider": "Ventuals weighted oracle (Notice + 2h mark EMA)"
-  },
   "about": {
     "description": "Wheat perpetual market. The contract tracks Wheat price using the venue's reference methodology. Users get linear commodity-price exposure only, without title to physical inventory or delivery rights, cash-settled in USDH on Ventuals."
   },
+  "roles": [
+    {
+      "organization": "ventuals",
+      "kind": "oracle"
+    }
+  ],
   "events": [
     {
       "kind": "delisting",

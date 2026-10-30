@@ -9,14 +9,16 @@
   },
   "terms": {
     "collateral": "usdt",
-    "marginAsset": "USDT",
     "pair": "SKHYNIX-USD"
-  },
-  "sources": {
-    "oracleProvider": "Chainlink Data Streams"
   },
   "about": {
     "description": "Single-stock perpetual market on ApeX tracking SK Hynix Inc, cash-settled.",
     "issuer": "ApeX Protocol"
-  }
+  },
+  "roles": [
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    }
+  ]
 }

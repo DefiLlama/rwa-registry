@@ -11,9 +11,6 @@
     "collateral": "usdc",
     "pair": "VIX-USDC"
   },
-  "sources": {
-    "oracleProvider": "Ext. institutional feeds / 1h EMA"
-  },
   "about": {
     "description": "Equity-index perpetual market tracking CBOE Volatility Index. Users get synthetic index exposure rather than ownership of constituent shares, cash-settled in USDC on trade[XYZ]."
   },

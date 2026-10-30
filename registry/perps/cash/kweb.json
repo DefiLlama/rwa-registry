@@ -11,9 +11,6 @@
     "collateral": "usdt",
     "pair": "KWEB-USDT"
   },
-  "sources": {
-    "oracleProvider": "Pyth + SEDA dated-futures conv."
-  },
   "about": {
     "description": "ETF perpetual market tracking KraneShares CSI China Internet ETF. Users get synthetic exposure to a listed fund rather than ownership of ETF shares or redemption rights in the fund, cash-settled in USDT on CASH."
   },

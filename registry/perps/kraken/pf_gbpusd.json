@@ -8,10 +8,8 @@
     "structure": "forex-perps"
   },
   "terms": {
+    "collateral": "us-dollar",
     "pair": "GBP-USD"
-  },
-  "sources": {
-    "oracleProvider": "dxFeed Composite Forex, via Kraken"
   },
   "about": {
     "description": "GBP is a currency pair perpetual listed on Kraken and tracking British Pound. The contract is cash settled in USD and does not convey ownership or delivery of the underlying. Funding is exchanged every 1h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."

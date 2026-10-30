@@ -11,10 +11,13 @@
     "collateral": "usdc",
     "pair": "XIAOMI-USDC"
   },
-  "sources": {
-    "oracleProvider": "Lighter fair price oracle"
-  },
   "about": {
     "description": "Single-stock perpetual on Lighter tracking Xiaomi. Users get linear exposure to the underlying without owning shares. Cash-settled in USDC."
-  }
+  },
+  "roles": [
+    {
+      "organization": "lighter",
+      "kind": "oracle"
+    }
+  ]
 }

@@ -11,9 +11,6 @@
     "collateral": "usdc",
     "pair": "SOFTBANK-USDC"
   },
-  "sources": {
-    "oracleProvider": "Pyth equity feed"
-  },
   "about": {
     "description": "Single-stock perpetual market tracking SoftBank Group. Users get linear exposure to SoftBank Group share-price moves without owning SoftBank Group shares, shareholder rights, or dividend claims, cash-settled in USDC on trade[XYZ]."
   }

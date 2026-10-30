@@ -11,9 +11,6 @@
     "collateral": "usdc",
     "pair": "GME-USDC"
   },
-  "sources": {
-    "oracleProvider": "Pyth equity feed"
-  },
   "about": {
     "description": "Single-stock perpetual market tracking GameStop. Users get linear exposure to GameStop share-price moves without owning GameStop shares, shareholder rights, or dividend claims, cash-settled in USDC on trade[XYZ]."
   }

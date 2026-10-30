@@ -9,15 +9,17 @@
   },
   "terms": {
     "collateral": "usdc",
-    "marginAsset": "USDC",
     "pair": "SOY-USDC"
-  },
-  "sources": {
-    "oracleProvider": "Ventuals weighted oracle (Notice + 2h mark EMA)"
   },
   "about": {
     "description": "Agricultural-commodity perpetual on Ventuals tracking Soybeans (SOY), with pricing referencing Ventuals weighted oracle (Notice + 2h mark EMA). Users gain linear exposure to soybeans prices without owning physical inventory or futures contracts. Positions are margined and cash-settled in USDC on Hyperliquid (vntl namespace)."
   },
+  "roles": [
+    {
+      "organization": "ventuals",
+      "kind": "oracle"
+    }
+  ],
   "events": [
     {
       "kind": "delisting",

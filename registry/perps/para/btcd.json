@@ -11,10 +11,17 @@
     "collateral": "usdc",
     "pair": "BTCD-USDC"
   },
-  "sources": {
-    "oracleProvider": "Chaos Labs / HL published oracles"
-  },
   "about": {
     "description": "Crypto market-index perpetual tracking Bitcoin Dominance. Users get synthetic exposure to broad crypto-market movements rather than ownership of any constituent tokens, cash-settled in USDC on Paragon."
-  }
+  },
+  "roles": [
+    {
+      "organization": "chaos-labs",
+      "kind": "oracle"
+    },
+    {
+      "organization": "hyperliquid",
+      "kind": "oracle"
+    }
+  ]
 }

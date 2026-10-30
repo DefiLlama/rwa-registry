@@ -11,12 +11,15 @@
     "collateral": "usdh",
     "pair": "SPACEX-USDH"
   },
-  "sources": {
-    "oracleProvider": "Ventuals weighted oracle (Notice + 2h mark EMA)"
-  },
   "about": {
     "description": "Settled and delisted June 2026 - Ventuals wound down all of its HIP-3 pre-IPO valuation markets and settled open positions following SpaceX's June 12 Nasdaq listing."
   },
+  "roles": [
+    {
+      "organization": "ventuals",
+      "kind": "oracle"
+    }
+  ],
   "events": [
     {
       "kind": "delisting",

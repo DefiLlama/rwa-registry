@@ -11,10 +11,13 @@
     "collateral": "usdc",
     "pair": "10Y-USDC"
   },
-  "sources": {
-    "oracleProvider": "Paragon oracle updater; institutional rate data providers"
-  },
   "about": {
     "description": "Perpetual market on the on-the-run 10-year US Treasury yield, deployed by Paragon via Hyperliquid HIP-3 and cash-settled in USDC. The index is the rate itself expressed in percent, not a bond price, so a one-basis-point move is 0.01 index points at any level and the payoff is linear in the rate with no convexity. Yields are sourced from institutional data providers while a source is publishing; off-hours the oracle advances internally and the mark is held within the market's bounds. Holding a contract confers no bond ownership or coupon entitlement."
-  }
+  },
+  "roles": [
+    {
+      "organization": "paragon",
+      "kind": "oracle"
+    }
+  ]
 }

@@ -11,9 +11,6 @@
     "collateral": "usdc",
     "pair": "MXN-USDC"
   },
-  "sources": {
-    "oracleProvider": "Chainlink DON FX feeds"
-  },
   "about": {
     "description": "FX perpetual on Gains Network tracking Mexican Peso (MXN) versus the US dollar, with pricing referencing Chainlink DON FX feeds. Positions are margined and cash-settled in USDC / DAI / WETH on Arbitrum / Polygon / Base, giving users synthetic exposure to Mexican Peso/USD price movement without holding either currency as cash."
   },

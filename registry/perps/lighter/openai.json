@@ -11,9 +11,6 @@
     "collateral": "usdc",
     "pair": "OPENAI-USDC"
   },
-  "sources": {
-    "oracleProvider": "Pyth"
-  },
   "about": {
     "description": "Pre-IPO valuation perpetual on Lighter tracking OpenAI, cash-settled."
   }

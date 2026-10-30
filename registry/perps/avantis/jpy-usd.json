@@ -11,11 +11,14 @@
     "collateral": "usdc",
     "pair": "JPY-USDC"
   },
-  "sources": {
-    "oracleProvider": "Pyth"
-  },
   "about": {
     "description": "Forex perpetual on Avantis (Base) referencing the Japanese Yen/USD exchange rate, cash-settled in USDC. Source: docs.avantisfi.com.",
     "website": "https://avantisfi.com/"
-  }
+  },
+  "roles": [
+    {
+      "organization": "pyth-network",
+      "kind": "oracle"
+    }
+  ]
 }

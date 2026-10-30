@@ -8,6 +8,7 @@
     "structure": "commodity-perp"
   },
   "terms": {
+    "collateral": "usde",
     "pair": "SILVER-USDE",
     "makerFeeBps": 0.1667,
     "takerFeeBps": 0.5

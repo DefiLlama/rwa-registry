@@ -8,11 +8,12 @@
     "structure": "stock-perp"
   },
   "terms": {
+    "collateral": "us-dollar",
     "pair": "TSMB-USD",
     "makerFeeBps": null,
     "takerFeeBps": null
   },
   "about": {
-    "description": "TSMB is a single-stock perpetual listed on Delta Exchange India, tracking Taiwan Semiconductor Manufacturing Company Limited, margined and cash-settled in USD. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Delta Exchange India prices this market off the Binance bStock token for Taiwan Semiconductor Manufacturing Company Limited, a tokenized representation of the listed shares rather than the shares themselves. Funding settles every 8h. Up to 25× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+    "description": "TSMB is a single-stock perpetual listed on Delta Exchange India, tracking Taiwan Semiconductor Manufacturing Company Limited, margined and cash-settled in USD. Traders get synthetic price exposure only - no ownership, dividend or voting rights in the underlying. Delta Exchange India prices this market off the Binance bStock token for Taiwan Semiconductor Manufacturing Company Limited, a tokenized representation of the listed shares rather than the shares themselves. Funding settles every 8h. Up to 25x leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
   }
 }

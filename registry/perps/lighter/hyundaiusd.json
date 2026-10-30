@@ -11,9 +11,6 @@
     "collateral": "usdc",
     "pair": "HYUNDAIUSD-USDC"
   },
-  "sources": {
-    "oracleProvider": "KRX feed (005380.KS, USD-converted)"
-  },
   "about": {
     "description": "Single-stock perpetual market tracking Hyundai Motor Company (KRX: 005380), USD-quoted. Users get linear exposure to Hyundai share-price moves without owning Hyundai shares, shareholder rights, or dividend claims, with pricing referencing an external Korean equity feed via Lighter's fair price oracle, converted to USD. Positions are margined and cash-settled in USDC."
   }

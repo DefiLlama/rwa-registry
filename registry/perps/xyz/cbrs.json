@@ -11,9 +11,6 @@
     "collateral": "usdc",
     "pair": "CBRS-USDC"
   },
-  "sources": {
-    "oracleProvider": "Internal (Hyperp-style); 30-min EWMA of prior-day mark prices"
-  },
   "about": {
     "description": "Single-stock perpetual market on trade[XYZ] (Hyperunit) tracking Cerebras Systems Inc. (NASDAQ: CBRS), cash-settled in USDC on Hyperliquid (xyz namespace). References Pyth equity feed."
   }

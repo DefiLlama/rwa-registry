@@ -11,11 +11,8 @@
     "collateral": "usdt",
     "pair": "EWY-USDT"
   },
-  "sources": {
-    "oracleProvider": "Pyth + SEDA idx feed / overnight sm."
-  },
   "about": {
-    "description": "ETF perpetual market tracking the iShares MSCI South Korea ETF. Users get synthetic exposure to the fund’s price movements rather than ownership of ETF shares or redemption rights in the fund, with pricing referencing an external market feed with smoothing during thinner overnight conditions. Positions are margined and cash-settled in USDT. Markets are visible on Hyperliquid under the cash namespace, but are operated by Dreamcash rather than listed as core Hyperliquid perps."
+    "description": "ETF perpetual market tracking the iShares MSCI South Korea ETF. Users get synthetic exposure to the fund's price movements rather than ownership of ETF shares or redemption rights in the fund, with pricing referencing an external market feed with smoothing during thinner overnight conditions. Positions are margined and cash-settled in USDT. Markets are visible on Hyperliquid under the cash namespace, but are operated by Dreamcash rather than listed as core Hyperliquid perps."
   },
   "events": [
     {

@@ -11,9 +11,6 @@
     "collateral": "usdh",
     "pair": "XIAOMI-USDH"
   },
-  "sources": {
-    "oracleProvider": "Kaiko equity feed"
-  },
   "about": {
     "description": "Single-stock perpetual market tracking Xiaomi. Users get linear exposure to Xiaomi share-price moves without owning Xiaomi shares, shareholder rights, or dividend claims, cash-settled in USDH on Markets by Kinetiq."
   },

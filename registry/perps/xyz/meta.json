@@ -11,9 +11,6 @@
     "collateral": "usdc",
     "pair": "META-USDC"
   },
-  "sources": {
-    "oracleProvider": "Pyth equity feed"
-  },
   "about": {
     "description": "Single-stock perpetual market tracking Meta Platforms, Inc. Users get linear exposure to Meta share-price moves without owning shares, voting rights, or dividend claims, with pricing referencing an external 24/5 equity feed. Positions are margined and cash-settled in USDC. Markets are visible on Hyperliquid under the xyz namespace, but are operated by trade[XYZ] rather than listed as core Hyperliquid perps."
   }

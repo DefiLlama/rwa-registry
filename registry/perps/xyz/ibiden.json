@@ -11,9 +11,6 @@
     "collateral": "usdc",
     "pair": "IBIDEN-USDC"
   },
-  "sources": {
-    "oracleProvider": "Pyth equity feed"
-  },
   "about": {
     "description": "trade[XYZ] perpetual market tracking Ibiden Co., Ltd. Verified live on the trade.xyz platform UI 2026-06-30 via browser check."
   },

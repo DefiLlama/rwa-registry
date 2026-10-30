@@ -11,9 +11,6 @@
     "collateral": "usdc",
     "pair": "BRENTOIL-USDC"
   },
-  "sources": {
-    "oracleProvider": "Pyth / futures-based external reference methodology"
-  },
   "about": {
     "description": "Brent crude oil perpetual market. The contract tracks Brent, the main international crude benchmark, using a futures-based reference price with scheduled contract rolls. Users get linear oil price exposure only, without owning physical crude, inventory claims, or a deliverable futures position. Pricing uses a futures-based external reference with scheduled contract rolls. Positions are margined and cash-settled in USDC. Markets are visible on Hyperliquid under the xyz namespace, but are operated by trade[XYZ] rather than listed as core Hyperliquid perps."
   }

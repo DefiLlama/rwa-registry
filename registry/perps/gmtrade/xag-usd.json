@@ -11,10 +11,13 @@
     "collateral": "usdc",
     "pair": "XAG-USD"
   },
-  "sources": {
-    "oracleProvider": "Chainlink"
-  },
   "about": {
     "description": "Silver perpetual on GMTrade, cash-settled in USDC on Solana."
-  }
+  },
+  "roles": [
+    {
+      "organization": "chainlink",
+      "kind": "oracle"
+    }
+  ]
 }

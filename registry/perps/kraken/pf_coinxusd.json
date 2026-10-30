@@ -8,12 +8,10 @@
     "structure": "stock-perp"
   },
   "terms": {
+    "collateral": "us-dollar",
     "pair": "COINX-USD"
   },
-  "sources": {
-    "oracleProvider": "dxFeed Composite Forex, via Kraken"
-  },
   "about": {
-    "description": "COINX is a single-stock perpetual listed on Kraken, tracking Coinbase Global, Inc., margined and cash-settled in USD. Traders get synthetic price exposure only — no ownership, dividend or voting rights in the underlying. Funding settles every 1h. Up to 20× leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+    "description": "COINX is a single-stock perpetual listed on Kraken, tracking Coinbase Global, Inc., margined and cash-settled in USD. Traders get synthetic price exposure only - no ownership, dividend or voting rights in the underlying. Funding settles every 1h. Up to 20x leverage. Margin is custodied by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
   }
 }

@@ -11,10 +11,13 @@
     "collateral": "usdc",
     "pair": "ORCL-USDC"
   },
-  "sources": {
-    "oracleProvider": "Lighter fair price oracle"
-  },
   "about": {
     "description": "Single-stock perpetual on Lighter Labs tracking Oracle Corporation (ORCL), with pricing referencing Lighter fair price oracle (24/5 equity feed). Users gain linear exposure to Oracle Corporation share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Lighter ZK-rollup (Ethereum)."
-  }
+  },
+  "roles": [
+    {
+      "organization": "lighter",
+      "kind": "oracle"
+    }
+  ]
 }

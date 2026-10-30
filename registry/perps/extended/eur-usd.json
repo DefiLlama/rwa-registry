@@ -13,9 +13,6 @@
     "makerFeeBps": null,
     "takerFeeBps": null
   },
-  "sources": {
-    "oracleProvider": "Extended oracle (FX feed)"
-  },
   "about": {
     "description": "FX perpetual on Extended (formerly X10) tracking Euro (EUR) versus the US dollar, with pricing referencing Extended oracle (FX feed). Positions are margined and cash-settled in USDC on Starknet, giving users synthetic exposure to Euro/USD price movement without holding either currency as cash."
   }

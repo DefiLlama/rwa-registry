@@ -11,9 +11,6 @@
     "collateral": "usdc",
     "pair": "SAMSUNGUSD-USDC"
   },
-  "sources": {
-    "oracleProvider": "KRX feed (005930.KS, USD-converted)"
-  },
   "about": {
     "description": "Single-stock perpetual market tracking Samsung Electronics Co., Ltd. (KRX: 005930), USD-quoted. Users get linear exposure to Samsung share-price moves without owning Samsung shares, shareholder rights, or dividend claims, with pricing referencing an external Korean equity feed via Lighter's fair price oracle, converted to USD. Positions are margined and cash-settled in USDC."
   }

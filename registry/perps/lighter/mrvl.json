@@ -11,9 +11,6 @@
     "collateral": "usdc",
     "pair": "MRVL-USDC"
   },
-  "sources": {
-    "oracleProvider": "Pyth"
-  },
   "about": {
     "description": "Marvell Technology (NASDAQ:MRVL) stock perpetual on Lighter, cash-settled in USDC."
   }

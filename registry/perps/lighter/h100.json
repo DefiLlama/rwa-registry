@@ -9,11 +9,7 @@
   },
   "terms": {
     "collateral": "usdt",
-    "marginAsset": "USDT",
     "pair": "H100-USDC"
-  },
-  "sources": {
-    "oracleProvider": "Squaretower / GPU rental rate index"
   },
   "about": {
     "description": "NVIDIA H100 GPU hourly rental rate perpetual on Lighter. Tracks the GPU compute rate index, cash-settled in USDC. Mirrors the trade[XYZ]/Paragon H100 product on a different venue."
