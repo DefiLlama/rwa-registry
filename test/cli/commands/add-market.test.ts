@@ -4,6 +4,7 @@ import type { VenueTarget } from '../../../src/discover/listings/listingReader';
 import { found, missing, type DateResult } from '../../../src/discover/dateResult';
 import { baseTree, writeTree } from '../../fixtures/tree';
 import { templateFile } from '../../../src/cli/templates';
+import { fakeAsk } from '../../fakes/prompter';
 import { readJson, readText, runCli } from '../runCli';
 
 const add = async (listing: DateResult, flags = {}) => {
@@ -86,5 +87,44 @@ describe('add market', () => {
 
     expect(code).toBe(0);
     expect(readText(byFile, 'perps/xyz/ionq.json')).toBe(readText(byFlags, 'perps/xyz/ionq.json'));
+  });
+});
+
+describe('add market, asked', () => {
+  it('asks the venue and what it tracks before the symbol, offers the venue listing day, and keeps its source', async () => {
+    const { 'perps/xyz/tsla.json': _, ...tree } = baseTree();
+    const root = writeTree(tree);
+    const source = 'https://api.hyperliquid.xyz/info';
+    const listings = vi.fn(async (targets: VenueTarget[]) =>
+      targets.map(() => found(1763712000, null, source, 'listing-field')),
+    );
+    const command = createAddMarketCommand({ reads: () => ({ dates: vi.fn(), listings }) });
+    const prompter = fakeAsk({ venue: 'xyz', tracks: 'tesla-inc', structure: 'stock-perp' });
+
+    const code = await command.run(
+      { args: [], registry: root, discover: true },
+      { print: () => undefined, ask: prompter.ask },
+    );
+    const symbol = prompter.asked.find((question) => question.key === 'symbol')!;
+
+    expect(code).toBe(0);
+    expect(prompter.keys()).toEqual([
+      'venue',
+      'tracksAsset',
+      'tracks',
+      'symbol',
+      'structure',
+      'pair',
+      'collateral',
+      'oracle',
+      'listed',
+      'confirm',
+    ]);
+    expect(symbol.default).toBe('TSLA');
+    expect(listings).toHaveBeenCalledTimes(1);
+    expect(prompter.asked.at(-1)!.message).toContain('id: xyz:tsla (assigned)');
+    expect(readJson(root, 'perps/xyz/tsla.json').events).toEqual([
+      { kind: 'listing', date: '2025-11-21', links: [source] },
+    ]);
   });
 });

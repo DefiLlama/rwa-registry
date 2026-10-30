@@ -7,6 +7,7 @@ import type { CliCommand } from '../../../src/cli';
 import type { DateQuery } from '../../../src/discover/dateReader';
 import { found, missing } from '../../../src/discover/dateResult';
 import { assetFile, baseTree, marketWith, writeTree, type Tree } from '../../fixtures/tree';
+import { fakeAsk } from '../../fakes/prompter';
 import { readJson, readText, runCli, templateCopy } from '../runCli';
 
 const SOLANA = 'Xsc9qvGR1efVDFGLrVsmkzv3qi45LTBjeUKSPmx9qEh';
@@ -223,6 +224,20 @@ describe('add asset', () => {
     expect(validated.lines).toEqual([expect.stringMatching(/^warning: undated-deployment: 1 /)]);
   });
 
+  it('leaves a deployment given as unknown undated, asks no chain, and notes it', async () => {
+    const root = writeTree(tree());
+    const dates = vi.fn();
+    const command = createAddAssetCommand({ reads: () => ({ dates, listings: vi.fn() }) });
+
+    const { code, lines } = await runWith(command, root, [`solana:${SOLANA}:unknown`]);
+
+    expect(code).toBe(0);
+    expect(dates).not.toHaveBeenCalled();
+    expect(JSON.parse(lines.join('\n')).notes).toEqual([
+      `solana:${SOLANA}: left undated as given; validate warns undated-deployment until deployedAt is set`,
+    ]);
+  });
+
   it('writes from templates/asset.json the file the flags write, roles included', async () => {
     const byFlags = writeTree(tree(IONQ));
     const byFile = writeTree(tree(IONQ));
@@ -297,5 +312,77 @@ describe('add asset', () => {
     expect(code).toBe(0);
     expect(written.deployments[0].labels).toEqual([{ address: expect.any(String), kind: 'excluded-holder' }]);
     expect(written.events).toEqual([{ kind: 'listing', date: expect.any(String), links: [expect.any(String)] }]);
+  });
+});
+
+describe('add asset, asked', () => {
+  it('asks in dependency order, the chain and address before the day discover offers, and writes the answers', async () => {
+    const root = writeTree(tree());
+    const dated = found(1751155200, 5, 'https://explorer.solana.com/tx/sig0', 'first-signature');
+    const dates = vi.fn(async (queries: DateQuery[]) => queries.map(() => dated));
+    const command = createAddAssetCommand({ reads: () => ({ dates, listings: vi.fn() }) });
+    const prompter = fakeAsk({
+      platform: 'xstocks',
+      underlying: 'nvidia-corporation',
+      symbol: 'NVDAx',
+      name: 'NVIDIA xStock',
+      'deployment.chain': 'solana',
+      'deployment.address': SOLANA,
+      category: ['stocks-equities'],
+      type: 'asset',
+      structure: 'stock-backed',
+      rwaClassification: 'rwa',
+      redeemable: 'true',
+      issuer: 'backed-assets-je-limited',
+    });
+
+    const code = await command.run(
+      { args: [], registry: root, discover: true },
+      { print: () => undefined, ask: prompter.ask },
+    );
+    const offered = prompter.asked.find((question) => question.key === 'deployment.deployedAt')!;
+
+    expect(code).toBe(0);
+    expect(prompter.keys()).toEqual([
+      'platform',
+      'underlying',
+      'symbol',
+      'name',
+      'deployment.chain',
+      'deployment.address',
+      'deployment.deployedAt',
+      'deployment.more',
+      'category',
+      'type',
+      'structure',
+      'rwaClassification',
+      'redeemable',
+      'cexListed',
+      'kycForMintRedeem',
+      'kycToTransferHold',
+      'transferable',
+      'selfCustody',
+      'yieldBearing',
+      'attestationFrequency',
+      'stablecoinOverride',
+      'governanceOverride',
+      'flagReason',
+      'issuer',
+      'issuerSource',
+      'tokenizer',
+      'oracle',
+      'auditor',
+      'coingeckoId',
+      'canonicalMarketId',
+      'confirm',
+    ]);
+    expect(offered).toMatchObject({ default: '2025-06-29' });
+    expect(dates).toHaveBeenCalledWith([{ chain: 'solana', address: SOLANA }]);
+    expect(prompter.asked.at(-1)!.message).toContain('legacy id: 9718 (assigned)');
+    expect(readJson(root, 'assets/xstocks/nvdax.json')).toMatchObject({
+      identity: { slug: 'nvdax', legacyId: 9718, canonicalMarketId: 'NVDAx' },
+      terms: { redeemable: true },
+      deployments: [{ chain: 'solana', address: SOLANA, deployedAt: '2025-06-29', primary: true }],
+    });
   });
 });

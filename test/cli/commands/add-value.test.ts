@@ -1,6 +1,7 @@
 import { join } from 'node:path';
 import { describe, expect, it } from 'vitest';
 import { baseTree, writeTree } from '../../fixtures/tree';
+import { fakeAsk } from '../../fakes/prompter';
 import { readJson, runCli } from '../runCli';
 
 const FILE = 'reference/vocabularies/asset-class.json';
@@ -44,5 +45,19 @@ describe('add value', () => {
 
     expect(code).toBe(1);
     expect(lines).toEqual([expect.stringMatching(new RegExp(`^${join(root, FILE)}: `))]);
+  });
+});
+
+describe('add value, asked', () => {
+  it('asks the vocabulary and the label before the slug it derives from the label', async () => {
+    const root = writeTree(baseTree());
+    const prompter = fakeAsk({ vocabulary: 'asset-class', label: 'Bond Backed' });
+
+    const { code } = await runCli(['add', 'value', '--registry', root], prompter.ask);
+    const slug = prompter.asked.find((question) => question.key === 'slug')!;
+
+    expect(code).toBe(0);
+    expect(prompter.keys()).toEqual(['vocabulary', 'label', 'slug', 'confirm']);
+    expect(slug.default).toBe('bond-backed');
   });
 });

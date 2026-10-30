@@ -2,6 +2,7 @@ import { existsSync } from 'node:fs';
 import { join } from 'node:path';
 import { describe, expect, it } from 'vitest';
 import { baseTree, writeTree } from '../../fixtures/tree';
+import { fakeAsk } from '../../fakes/prompter';
 import { templateFile } from '../../../src/cli/templates';
 import { readJson, readText, runCli, templateCopy } from '../runCli';
 
@@ -103,5 +104,37 @@ describe('add venue', () => {
       identity: { slug: 'hibachi', name: 'Hibachi' },
       about: { links: { website: ['https://hibachi.xyz'] } },
     });
+  });
+});
+
+describe('add venue, asked', () => {
+  it('asks the name before the slug it derives, the operator before the parent, and publishing yes or no', async () => {
+    const root = writeTree(baseTree());
+    const prompter = fakeAsk({
+      name: 'Hibachi',
+      venueType: 'dex',
+      accessModel: 'permissionless',
+      rwaClassification: 'programmable-finance',
+    });
+
+    const { code } = await runCli(['add', 'venue', '--registry', root], prompter.ask);
+    const published = prompter.asked.find((question) => question.key === 'published')!;
+
+    expect(code).toBe(0);
+    expect(prompter.keys()).toEqual([
+      'name',
+      'slug',
+      'organization',
+      'venueType',
+      'accessModel',
+      'rwaClassification',
+      'parent',
+      'chain',
+      'adapter',
+      'published',
+      'confirm',
+    ]);
+    expect(published).toMatchObject({ confirm: true, default: false });
+    expect(readJson(root, 'perps/hibachi/venue.json').published).toBe(false);
   });
 });

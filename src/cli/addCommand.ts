@@ -6,7 +6,8 @@ import { FlagFormatError } from '../errors/cli';
 import { tables, toFile, type ChildKey, type Registry, type TableName, type VocabularyName } from '../schema';
 import { isObject } from '../utils/isObject';
 import type { CliCommand } from './index';
-import { readTemplate, TEMPLATES, type Template, type TemplateName } from './templates';
+import { isEmpty, type Assigned } from './questionnaire';
+import { readTemplate, templateRow, TEMPLATES, type Template, type TemplateName } from './templates';
 import {
   defineWriteCommand,
   optionKey,
@@ -23,11 +24,16 @@ export interface AddContext extends WriteContext {
   flags: FlagValues;
 }
 
+// row: the template field that gives it, when the row names it otherwise, as --deployment fills deployments.
+export type AddField = Field & { row?: string };
+
 export interface AddSpec {
   name: string;
   description: string;
   template: TemplateName;
-  fields: Field[];
+  // In the order they are asked: a field after the fields it derives from or refers to.
+  fields: AddField[];
+  assigned?: Assigned[];
   fromFlags: (values: FlagValues) => Template;
   files: (template: Template, registry: Registry, context: AddContext) => FileToWrite[] | Promise<FileToWrite[]>;
 }
@@ -71,24 +77,51 @@ const unlessFrom = (field: Field): Field => ({
     (typeof field.required === 'function' ? field.required(values) : field.required === true),
 });
 
-export const defineAddCommand = (spec: AddSpec): CliCommand =>
-  defineWriteCommand({
+const flagName = (field: Field) => field.flag.split(' ')[0]!;
+
+// A flag beside --from is refused, so a field comes from one place; the template's fields skip their questions.
+const templateGiven = (spec: AddSpec, options: FlagValues): Record<string, unknown> => {
+  if (options.from === undefined) return {};
+  const beside = spec.fields
+    .map(flagName)
+    .filter((flag) => !flag.startsWith('--no-') && options[optionKey(flag)] !== undefined);
+  if (beside.length) {
+    const message = `${beside.join(', ')} ${beside.length > 1 ? 'are' : 'is'} given beside --from; put it in the file`;
+    throw new FlagFormatError({ file: spec.name, message });
+  }
+  const template = templateRow(String(options.from), TEMPLATES[spec.template]);
+  return Object.fromEntries(
+    spec.fields.flatMap((field) => {
+      const value = template[field.row ?? optionKey(field.flag)];
+      return isEmpty(value) ? [] : [[optionKey(field.flag), value]];
+    }),
+  );
+};
+
+const HELP =
+  'In a terminal it asks every field no flag or --from file gives, in the order above, then lists them all for a yes or no; --no-input and --json never ask.';
+
+export const defineAddCommand = (spec: AddSpec): CliCommand => ({
+  help: HELP,
+  ...defineWriteCommand({
     name: spec.name,
     description: spec.description,
+    every: true,
+    assigned: spec.assigned,
     fields: [
-      { flag: '--from <file>', description: `a filled copy of templates/${spec.template}.json, in place of the flags` },
+      {
+        flag: '--from <file>',
+        description: `a filled copy of templates/${spec.template}.json; the fields it leaves empty are asked`,
+        asked: () => false,
+      },
       ...spec.fields.map(unlessFrom),
     ],
+    given: (options) => templateGiven(spec, options),
     files: (values, registry, context) => {
-      if (values.from === undefined) return spec.files(spec.fromFlags(values), registry, { ...context, flags: values });
-      const beside = spec.fields
-        .map((field) => field.flag.split(' ')[0]!)
-        .filter((flag) => !flag.startsWith('--no-') && values[optionKey(flag)] !== undefined);
-      if (beside.length) {
-        const message = `${beside.join(', ')} ${beside.length > 1 ? 'are' : 'is'} given beside --from; put it in the file`;
-        throw new FlagFormatError({ file: spec.name, message });
-      }
-      const template = readTemplate(String(values.from), TEMPLATES[spec.template]);
-      return spec.files(template, registry, { ...context, flags: values });
+      const addContext = { ...context, flags: values };
+      if (values.from === undefined) return spec.files(spec.fromFlags(values), registry, addContext);
+      const template = readTemplate(String(values.from), TEMPLATES[spec.template], spec.fromFlags(values));
+      return spec.files(template, registry, addContext);
     },
-  });
+  }),
+});

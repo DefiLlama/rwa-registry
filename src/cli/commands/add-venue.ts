@@ -4,7 +4,14 @@
  */
 import { homeFile, rowSlug, rwaSlug } from '../../registry';
 import { isObject } from '../../utils/isObject';
-import { defineAddCommand, fileContent, vocabularyChoices, type FlagValues, type Template } from '../addCommand';
+import {
+  defineAddCommand,
+  fileContent,
+  organizationChoices,
+  vocabularyChoices,
+  type FlagValues,
+  type Template,
+} from '../addCommand';
 
 // The operator a new venue brings: the template's operator object, or the flags' name under the slug rwaSlug makes when no --organization names one.
 const operatorOf = (template: Template, flags: FlagValues): Template | null => {
@@ -18,10 +25,15 @@ export const addVenue = defineAddCommand({
   template: 'venue',
   fields: [
     { flag: '--name <text>', description: 'the venue name, Hibachi', required: true },
-    { flag: '--slug <slug>', description: 'the venue folder, the slug of the name by default' },
+    {
+      flag: '--slug <slug>',
+      description: 'the venue folder, the slug of the name by default',
+      derive: (values) => (values.name === undefined ? undefined : { value: rowSlug(String(values.name)) }),
+    },
     {
       flag: '--organization <slug>',
       description: 'the organization that runs it, which must exist; left out, rwaSlug of the name, added when new',
+      choices: organizationChoices,
     },
     {
       flag: '--venue-type <slug>',
@@ -41,14 +53,23 @@ export const addVenue = defineAddCommand({
       required: true,
       choices: vocabularyChoices('rwa-classification'),
     },
-    { flag: '--parent <slug>', description: 'the parent venue, for a HIP-3 dex' },
-    { flag: '--chain <slug>', description: 'the chain it settles on' },
+    {
+      flag: '--parent <slug>',
+      description: 'the parent venue, for a HIP-3 dex',
+      choices: (registry) => registry.venue.map((row) => row.slug).sort(),
+    },
+    {
+      flag: '--chain <slug>',
+      description: 'the chain it settles on',
+      open: true,
+      choices: (registry) => [...new Set(registry.deployment.map((row) => row.chain))].sort(),
+    },
     { flag: '--adapter <id>', description: 'the adapter id that reads it' },
     { flag: '--published', description: 'publish its markets now; off until the adapter is merged' },
   ],
   fromFlags: (values) => ({
-    slug: values.slug ?? rowSlug(String(values.name)),
-    organization: values.organization ?? rwaSlug(String(values.name)),
+    slug: values.slug ?? (values.name === undefined ? undefined : rowSlug(String(values.name))),
+    organization: values.organization ?? (values.name === undefined ? undefined : rwaSlug(String(values.name))),
     parent: values.parent,
     venueType: values.venueType,
     chain: values.chain,

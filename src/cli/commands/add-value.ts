@@ -18,7 +18,11 @@ export const addValue = defineAddCommand({
       choices: () => [...VOCABULARY_NAMES],
     },
     { flag: '--label <text>', description: 'the label the app shows, Stock Backed', required: true },
-    { flag: '--slug <slug>', description: 'the slug, rwaSlug of the label by default' },
+    {
+      flag: '--slug <slug>',
+      description: 'the slug, rwaSlug of the label by default',
+      derive: (values) => (values.label === undefined ? undefined : { value: rwaSlug(String(values.label)) }),
+    },
   ],
   fromFlags: (values) => ({
     vocabulary: values.vocabulary,

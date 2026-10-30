@@ -5,7 +5,7 @@
 import { FlagFormatError } from '../../errors/cli';
 import { homeFile, rwaSlug } from '../../registry';
 import type { Registry } from '../../schema';
-import { defineAddCommand, fileContent, type FileToWrite, type Template } from '../addCommand';
+import { defineAddCommand, fileContent, organizationChoices, type FileToWrite, type Template } from '../addCommand';
 
 // The kind decides the home and is left to it: a platform names an asset folder, any other kind a folder of reference/organizations/.
 export const organizationFiles = (template: Template): FileToWrite[] => {
@@ -36,8 +36,12 @@ export const addOrganization = defineAddCommand({
       required: true,
       choices: kindChoices,
     },
-    { flag: '--slug <slug>', description: 'the file name, rwaSlug of the name by default' },
-    { flag: '--parent <slug>', description: 'the organization it belongs to' },
+    {
+      flag: '--slug <slug>',
+      description: 'the file name, rwaSlug of the name by default',
+      derive: (values) => (values.name === undefined ? undefined : { value: rwaSlug(String(values.name)) }),
+    },
+    { flag: '--parent <slug>', description: 'the organization it belongs to', choices: organizationChoices },
   ],
   fromFlags: (values) => ({ slug: values.slug, name: values.name, kind: values.kind, parent: values.parent }),
   files: organizationFiles,

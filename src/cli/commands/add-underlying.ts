@@ -4,7 +4,14 @@
  */
 import { NoSuchRowError } from '../../errors/cli';
 import { homeFile, rowSlug } from '../../registry';
+import type { Registry } from '../../schema';
 import { defineAddCommand, fileContent, vocabularyChoices } from '../addCommand';
+
+// The file of an underlying: its slug in the folder of the class its asset group names, or null for a group with no class.
+const fileOf = (registry: Registry, exposure: unknown, slug: string) => {
+  const group = registry.vocabulary.find((row) => row.vocabulary === 'asset-group' && row.slug === exposure);
+  return group?.class ? homeFile('underlying', { slug, class: group.class }) : null;
+};
 
 export const addUnderlying = defineAddCommand({
   name: 'add underlying',
@@ -20,15 +27,21 @@ export const addUnderlying = defineAddCommand({
     },
     { flag: '--ticker <text>', description: 'the ticker, TSLA' },
   ],
+  assigned: [
+    {
+      name: 'file',
+      derive: (values, { registry }) =>
+        values.name === undefined ? undefined : fileOf(registry, values.exposure, rowSlug(String(values.name))),
+    },
+  ],
   fromFlags: (values) => ({ name: values.name, ticker: values.ticker, exposure: values.exposure }),
   files: (template, registry) => {
-    const group = registry.vocabulary.find((row) => row.vocabulary === 'asset-group' && row.slug === template.exposure);
-    if (!group?.class) {
+    const slug = String(template.slug ?? rowSlug(String(template.name)));
+    const path = fileOf(registry, template.exposure, slug);
+    if (!path) {
       const message = `exposure ${String(template.exposure)} is not an asset-group value with a class`;
       throw new NoSuchRowError({ file: 'add underlying', message });
     }
-    const slug = template.slug ?? rowSlug(String(template.name));
-    const path = homeFile('underlying', { slug, class: group.class });
     return [{ path, content: fileContent('underlying', { ...template, slug }) }];
   },
 });

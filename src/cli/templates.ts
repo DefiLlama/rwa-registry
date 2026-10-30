@@ -6,6 +6,7 @@ import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { FlagFormatError, MissingFieldError } from '../errors/cli';
 import { toRow, type TableName } from '../schema';
+import { isEmpty } from './questionnaire';
 
 export interface TemplateSpec {
   table: TableName;
@@ -49,14 +50,21 @@ export type Template = Record<string, unknown>;
 // src/cli and dist/cli both sit two folders below the repository root.
 export const templateFile = (name: TemplateName): string => join(__dirname, '../../templates', `${name}.json`);
 
-// A template is written as its file, in named blocks; it is read back as the row, so the commands name fields as the row does. It names what its path needs; a key it leaves null, the command assigns.
-export const readTemplate = (path: string, spec: TemplateSpec): Template => {
-  let template: Template;
+// A template is written as its file, in named blocks; it is read back as the row, so the commands name fields as the row does.
+export const templateRow = (path: string, spec: TemplateSpec): Template => {
   try {
-    template = toRow(spec.table, JSON.parse(readFileSync(path, 'utf8')) as Template);
+    return toRow(spec.table, JSON.parse(readFileSync(path, 'utf8')) as Template);
   } catch (error) {
     throw new FlagFormatError({ file: path, message: `cannot read the template: ${(error as Error).message}` });
   }
+};
+
+// The answers fill what the template leaves blank; it names what its path needs, and a key it leaves null, the command assigns.
+export const readTemplate = (path: string, spec: TemplateSpec, answers: Template = {}): Template => {
+  const written = templateRow(path, spec);
+  const template = { ...written };
+  for (const [key, value] of Object.entries(answers))
+    if (value !== undefined && isEmpty(written[key])) template[key] = value;
   const missing = spec.needs.find((key) => template[key] == null);
   if (missing) throw new MissingFieldError({ file: path, message: `${missing} is required` });
   return template;
