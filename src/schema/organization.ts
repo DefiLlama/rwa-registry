@@ -10,8 +10,8 @@ import { identifier } from './identifier';
 import { links } from './links';
 import { integer, optional, ref, slug, text } from './primitives';
 
-// The blocks only some kinds hold; identity, about and identifiers are every organization's.
-export const KIND_BLOCKS: Record<string, readonly string[]> = { platform: ['platform', 'venue-operator'] };
+// The kinds with a home of their own and the platform block, both published as platforms.
+export const PLATFORM_KINDS: readonly string[] = ['platform', 'venue-operator'];
 
 export const organization = defineTable({
   fields: (v) => ({

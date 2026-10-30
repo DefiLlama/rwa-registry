@@ -13,6 +13,8 @@ export const integer = z.number().int();
 export const flag = z.boolean();
 export const date = z.iso.date();
 export const ref = z.string().min(1);
+// A web link: http or https, as a document link must open in a browser.
+export const url = z.url({ protocol: /^https?$/ });
 // A DefiLlama protocol id, or a parent protocol as the sheet writes it (parent#aave).
 export const protocolId = z.union([
   integer,

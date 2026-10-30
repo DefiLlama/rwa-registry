@@ -38,41 +38,6 @@
         }
       ]
     },
-    "standard": {
-      "anyOf": [
-        {
-          "description": "a slug of registry/reference/vocabularies/token-standard.json",
-          "type": "string",
-          "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
-        },
-        {
-          "type": "null"
-        }
-      ]
-    },
-    "bridgedFrom": {
-      "anyOf": [
-        {
-          "type": "string",
-          "minLength": 1
-        },
-        {
-          "type": "null"
-        }
-      ]
-    },
-    "bridgeMethod": {
-      "anyOf": [
-        {
-          "description": "a slug of registry/reference/vocabularies/bridge-method.json",
-          "type": "string",
-          "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
-        },
-        {
-          "type": "null"
-        }
-      ]
-    },
     "labels": {
       "type": "array",
       "items": {
@@ -127,7 +92,6 @@
                       "vocabulary",
                       "organization",
                       "underlying",
-                      "instrument",
                       "venue",
                       "asset",
                       "deployment",
@@ -135,8 +99,7 @@
                       "role",
                       "event",
                       "address_label",
-                      "ack",
-                      "key_change"
+                      "ack"
                     ]
                   },
                   "key": {

@@ -47,10 +47,8 @@ const errorsOf = (issue: z.core.$ZodIssue, file: string, prefix: string): Schema
   }
   if (issue.code === 'invalid_value') {
     const values = issue.values.map(String);
-    const didYouMean = nearest(String(issue.input), values);
-    return [
-      new SchemaError({ file, path, message: `${path}: ${issue.message}, did you mean ${didYouMean}`, didYouMean }),
-    ];
+    const message = `${path}: ${issue.message}, did you mean ${nearest(String(issue.input), values)}`;
+    return [new SchemaError({ file, path, message })];
   }
   return [new SchemaError({ file, path, message: `${path}: ${issue.message}` })];
 };

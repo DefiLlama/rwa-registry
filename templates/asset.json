@@ -34,7 +34,8 @@
     "coingeckoId": null,
     "protocolIds": null,
     "yieldPoolIds": null,
-    "identifiers": null
+    "identifiers": null,
+    "documents": null
   },
   "about": {
     "description": null,
@@ -54,9 +55,6 @@
       "address": "XsExampLeMint11111111111111111111111111111",
       "deployedAt": "2026-10-20",
       "primary": true,
-      "standard": null,
-      "bridgedFrom": null,
-      "bridgeMethod": null,
       "labels": [
         {
           "address": "ExampLeHo1der111111111111111111111111111",
@@ -70,9 +68,6 @@
       "address": "0x1234567890abcdef1234567890abcdef12345678",
       "deployedAt": "2026-10-20",
       "primary": null,
-      "standard": null,
-      "bridgedFrom": null,
-      "bridgeMethod": null,
       "labels": [],
       "events": []
     },
@@ -81,9 +76,6 @@
       "address": null,
       "deployedAt": null,
       "primary": null,
-      "standard": null,
-      "bridgedFrom": null,
-      "bridgeMethod": null,
       "labels": [],
       "events": []
     }

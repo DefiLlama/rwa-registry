@@ -8,7 +8,6 @@ export const TABLE_NAMES = [
   'vocabulary',
   'organization',
   'underlying',
-  'instrument',
   'venue',
   'asset',
   'deployment',
@@ -17,9 +16,10 @@ export const TABLE_NAMES = [
   'event',
   'address_label',
   'ack',
-  'key_change',
 ] as const;
 export type TableName = (typeof TABLE_NAMES)[number];
+// The tables whose file holds an array of rows rather than one row.
+export const ARRAY_TABLES: readonly TableName[] = ['vocabulary'];
 
 export const VOCABULARY_NAMES = [
   'asset-class',
@@ -33,12 +33,8 @@ export const VOCABULARY_NAMES = [
   'role-kind',
   'token-standard',
   'bridge-method',
-  'value-model',
   'label-kind',
-  'currency',
   'legal-form',
-  'access-regime',
-  'redemption-frequency',
   'revenue-confidence',
   'organization-kind',
 ] as const;
@@ -81,10 +77,6 @@ export const ACK_KINDS = [
 ] as const;
 export type AckKind = (typeof ACK_KINDS)[number];
 export const ackKind = z.enum(ACK_KINDS);
-// The tables whose published id is frozen, and how a key-changes.json entry ends one.
-export const FROZEN_TABLES = ['asset', 'organization', 'perp_market'] as const;
-export type FrozenTable = (typeof FROZEN_TABLES)[number];
-export const keyChangeKind = z.enum(['deleted', 'moved']);
 export const mcapBasis = z.enum(['onchain', 'active']);
 export const status = z.enum(['listed', 'delisted', 'retired']);
 export const identifierScheme = z.enum(['isin', 'figi', 'lei']);

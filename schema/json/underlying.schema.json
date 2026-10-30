@@ -203,7 +203,6 @@
                       "vocabulary",
                       "organization",
                       "underlying",
-                      "instrument",
                       "venue",
                       "asset",
                       "deployment",
@@ -211,8 +210,7 @@
                       "role",
                       "event",
                       "address_label",
-                      "ack",
-                      "key_change"
+                      "ack"
                     ]
                   },
                   "key": {

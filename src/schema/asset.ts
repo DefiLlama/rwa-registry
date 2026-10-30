@@ -7,7 +7,7 @@ import { defineTable } from './defineTable';
 import * as enums from './enums';
 import { identifier } from './identifier';
 import { assetLinks } from './links';
-import { flag, integer, optional, protocolId, ref, slug, text } from './primitives';
+import { flag, integer, optional, protocolId, ref, slug, text, url } from './primitives';
 
 export const asset = defineTable({
   fields: (v) => ({
@@ -42,6 +42,8 @@ export const asset = defineTable({
     // The DefiLlama yields pool ids the server's native-yield match may use as an override.
     yieldPoolIds: optional(z.array(z.uuid())),
     identifiers: optional(z.array(identifier)),
+    // The issuer's documents for this one asset, such as a property's deed or offering memorandum.
+    documents: optional(z.array(url)),
     description: optional(text),
     logo: optional(text),
     links: optional(assetLinks),
@@ -83,7 +85,7 @@ export const asset = defineTable({
       'yieldBearing',
       'attestationFrequency',
     ],
-    sources: ['coingeckoId', 'protocolIds', 'yieldPoolIds', 'identifiers'],
+    sources: ['coingeckoId', 'protocolIds', 'yieldPoolIds', 'identifiers', 'documents'],
     about: ['description', 'logo', 'links'],
     review: ['activeAumReviewed', 'suspicious', 'delisted'],
   },

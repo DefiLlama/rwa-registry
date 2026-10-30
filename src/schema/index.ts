@@ -19,11 +19,11 @@ export const schemas = compileSchemas(tables, null).rows as {
   [T in TableName]: z.ZodObject<ReturnType<Tables[T]['fields']>>;
 };
 
-export { TABLE_NAMES, VOCABULARY_NAMES, ADDRESS_FAMILIES, EVENT_KINDS, FROZEN_TABLES } from './enums';
-export type { TableName, VocabularyName, AddressFamily, FrozenTable } from './enums';
+export { ARRAY_TABLES, TABLE_NAMES, VOCABULARY_NAMES, ADDRESS_FAMILIES, EVENT_KINDS } from './enums';
+export type { TableName, VocabularyName, AddressFamily } from './enums';
 export type { Vocabularies } from './compileSchemas';
 export { CHILD_KEYS } from './defineTable';
 export type { ChildKey } from './defineTable';
 export { parseRow } from './parseRow';
-export { blockFields, blockNames, fieldPath, inSchemaOrder, rowField, toFile, toRow } from './fileShape';
+export { blockFields, blockNames, fieldPath, inSchemaOrder, toFile, toRow } from './fileShape';
 export { exportJsonSchema } from './exportJsonSchema';

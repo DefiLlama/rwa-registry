@@ -1,5 +1,5 @@
 /**
- * underlying: one economic exposure that spot assets and perps markets share, with the asset group it is (what a stablecoin's backing is), written in reference/underlyings/<class>/<slug>.json, where the class is the one its exposure's asset-group value names.
+ * underlying: one economic exposure that spot assets and perps markets share, in reference/underlyings/<class>/<slug>.json.
  * @dev review: src/schema/asset.ts
  */
 import { z } from 'zod';

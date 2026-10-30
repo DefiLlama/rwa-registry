@@ -6,16 +6,13 @@ import { defineTable } from './defineTable';
 import { date, flag, optional, ref, text } from './primitives';
 
 export const deployment = defineTable({
-  fields: (v) => ({
+  fields: () => ({
     asset: ref,
     chain: ref,
     // null: a chain the sheet names with no known contract.
     address: optional(text),
     deployedAt: optional(date),
     primary: optional(flag),
-    standard: optional(v['token-standard']),
-    bridgedFrom: optional(ref),
-    bridgeMethod: optional(v['bridge-method']),
   }),
   implied: 'asset',
   children: { labels: 'address_label', events: 'event' },

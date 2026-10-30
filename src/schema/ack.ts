@@ -1,6 +1,5 @@
 /**
- * ack: one guard exception, acks/<kind>/<slug>.json, its kind named by its folder, with its reason and the step that resolves it.
- * ackKinds is the discriminated union of the kinds; the table holds every field a kind may hold, and ackFields checks a row against its kind.
+ * ack: one guard exception, acks/<kind>/<slug>.json, and ackKinds, the union ackFields checks each row against.
  * @dev review: src/registry/checks/ackFields.ts, docs/acks.md
  */
 import { z } from 'zod';
