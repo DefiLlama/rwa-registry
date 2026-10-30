@@ -102,7 +102,6 @@ const HELP =
   'In a terminal it asks every field no flag or --from file gives, in the order above, then lists them all for a yes or no; --no-input and --json never ask.';
 
 export const defineAddCommand = (spec: AddSpec): CliCommand => ({
-  help: HELP,
   ...defineWriteCommand({
     name: spec.name,
     description: spec.description,
@@ -124,4 +123,5 @@ export const defineAddCommand = (spec: AddSpec): CliCommand => ({
       return spec.files(template, registry, addContext);
     },
   }),
+  help: HELP,
 });

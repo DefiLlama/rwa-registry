@@ -70,7 +70,7 @@ Each section is one thing a maintainer does, with the command as run, what must 
 
 ## Ack
 
-`pnpm rwa ack asset-move tslax --reason "<evidence>" --resolve "<the step that ends it>"` writes `acks/asset-move/tslax.json`, open-ended without `--until`. An asset or venue target must exist (`<slug>: no asset <slug> in the registry`), and a perps-market target is `<venue>:<symbol>`. A flag the kind lacks is refused (`ack: --day is not a flag of asset-move acks`), and so is a missing one it requires (`ack: --day is required for aggregate-jump acks`). `ack --help` lists each kind's flags and `docs/acks.md` their fields; check the file and run `validate`.
+`pnpm rwa ack asset-move tslax --reason "<evidence>" --resolve "<the step that ends it>"` writes `acks/asset-move/tslax.json`, open-ended without `--until`. An asset or venue target must exist (`<slug>: no asset <slug> in the registry`), and a perps-market target is `<venue>:<symbol>`. A flag the kind lacks is refused (`ack: --day is not a flag of asset-move acks`), and so is a missing one it requires (`ack: --day is required`). `ack --help` lists each kind's flags and `docs/acks.md` their fields; check the file and run `validate`.
 
 ## Set a field
 

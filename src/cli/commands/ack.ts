@@ -2,14 +2,22 @@
  * ack: one guard exception, acks/<kind>/<slug>.json, with the fields its kind names and a slug from its target.
  * @dev review: src/cli/writeCommand.ts, src/schema/ack.ts, docs/acks.md
  */
-import { FlagFormatError, MissingFieldError } from '../../errors/cli';
+import { FlagFormatError } from '../../errors/cli';
 import { homeFile, rowSlug } from '../../registry';
 import { toFile, type Registry } from '../../schema';
 import { ACK_KIND_FIELDS, isRequiredAckField, type AckField } from '../../schema/ack';
 import { ACK_KINDS, type AckKind } from '../../schema/enums';
 import type { CliCommand } from '../index';
-import { targetRow } from '../targetRow';
-import { defineWriteCommand, optionKey, today, type Field, type FlagValue } from '../writeCommand';
+import { targetRow, targetSlugs } from '../targetRow';
+import {
+  ASKS,
+  defineWriteCommand,
+  optionKey,
+  today,
+  type Field,
+  type FlagValue,
+  type FlagValues,
+} from '../writeCommand';
 
 const usd = (flag: string, text: string): number => {
   const value = Number(text);
@@ -30,23 +38,29 @@ interface FlagSpec extends Field {
   read?: (flag: string, text: string) => unknown;
 }
 
-// The flag that fills each field a kind may hold beside its target.
+// The flag that fills each field a kind may hold beside its target, in the order they are asked: the band, the days, the life.
 const FLAGS: Partial<Record<AckField, FlagSpec>> = {
-  from: { flag: '--from <date>', description: 'the first day the ack holds, YYYY-MM-DD, today by default' },
-  until: {
-    flag: '--until <date>',
-    description: 'the last day it holds; left out, it holds until the resolve step is done',
+  metrics: {
+    flag: '--metrics <list>',
+    description: 'onChainMcap, activeMcap or both',
+    list: true,
+    choices: () => ['onChainMcap', 'activeMcap'],
   },
-  day: { flag: '--day <date>', description: 'the series day it covers, for aggregate-jump and head-move' },
-  firstDay: { flag: '--first-day <date>', description: 'the first series day a drift ack covers' },
-  lastDay: { flag: '--last-day <date>', description: 'the last series day a drift ack covers' },
-  metrics: { flag: '--metrics <list>', description: 'onChainMcap, activeMcap or both', list: true },
-  direction: { flag: '--direction <direction>', description: 'up or down' },
+  direction: { flag: '--direction <direction>', description: 'up or down', choices: () => ['up', 'down'] },
   maxCurrentUsd: { flag: '--max-current <usd>', description: 'the most the blocked value may be', read: usd },
   minPreviousUsd: { flag: '--min-previous <usd>', description: 'the least the last good value may be', read: usd },
   currentUsd: { flag: '--current <low:high>', description: 'the verified value a release lets through', read: range },
   previousUsd: { flag: '--previous <low:high>', description: 'the frozen value a release is aimed at', read: range },
   maxValueUsd: { flag: '--max-value <usd>', description: 'the most a single-point value may be', read: usd },
+  day: { flag: '--day <date>', description: 'the series day it covers, for aggregate-jump and head-move', date: true },
+  firstDay: { flag: '--first-day <date>', description: 'the first series day a drift ack covers', date: true },
+  lastDay: { flag: '--last-day <date>', description: 'the last series day a drift ack covers', date: true },
+  from: { flag: '--from <date>', description: 'the first day the ack holds, YYYY-MM-DD, today by default', date: true },
+  until: {
+    flag: '--until <date>',
+    description: 'the last day it holds; left out, it holds until the resolve step is done',
+    date: true,
+  },
 };
 
 const flagOf = (field: AckField) => FLAGS[field]!.flag.split(' ')[0]!;
@@ -61,6 +75,34 @@ const DROP_TO_ZERO: Partial<Record<AckField, unknown>> = {
 
 const fallbackOf = (kind: AckKind, field: AckField): unknown =>
   field === 'from' ? today() : field === 'until' ? null : kind === 'asset-move' ? DROP_TO_ZERO[field] : undefined;
+
+// The fields of the kind the answers name, none for a kind that is not one.
+const fieldsOf = (values: FlagValues): AckField[] => {
+  const kind = String(values.kind) as AckKind;
+  return ACK_KINDS.includes(kind) ? ACK_KIND_FIELDS[kind] : [];
+};
+
+// A kind's own field is asked, required unless it has a default, and offers that default.
+const asked = (field: AckField, spec: FlagSpec): FlagSpec => ({
+  ...spec,
+  asked: (values) => fieldsOf(values).includes(field),
+  required: (values) =>
+    fieldsOf(values).includes(field) &&
+    isRequiredAckField(field) &&
+    fallbackOf(values.kind as AckKind, field) === undefined,
+  derive: (values) => {
+    const offered = fieldsOf(values).includes(field) ? fallbackOf(values.kind as AckKind, field) : undefined;
+    if (offered == null) return undefined;
+    return { value: Array.isArray(offered) ? offered.map(String) : String(offered) };
+  },
+});
+
+const HINTS: Partial<Record<AckField, string>> = {
+  asset: 'an asset slug',
+  venue: 'a venue slug',
+  series: '<dimension>/<key>, or * for every series',
+  contract: '<venue>:<symbol>',
+};
 
 const TARGETS: Partial<Record<AckField, (registry: Registry, given: string) => string>> = {
   asset: (registry, given) => targetRow(registry, 'asset', given).key,
@@ -83,14 +125,29 @@ const command = defineWriteCommand({
   name: 'ack',
   description: 'add one guard exception of a kind, with its reason and resolve step, open-ended without --until',
   arguments: '<kind> <target>',
+  every: true,
   fields: [
+    { flag: '<kind>', description: 'the ack kind', required: true, choices: () => [...ACK_KINDS] },
+    {
+      flag: '<target>',
+      description: 'what it covers',
+      required: true,
+      choices: (registry, values) => {
+        const [target] = fieldsOf(values);
+        return target === 'asset' || target === 'venue' ? targetSlugs(registry, target) : [];
+      },
+      derive: (values) => {
+        const [target] = fieldsOf(values);
+        return target ? { why: HINTS[target] } : undefined;
+      },
+    },
     {
       flag: '--reason <text>',
       description: 'what the guard flags and why it is fine, naming the evidence',
       required: true,
     },
     { flag: '--resolve <text>', description: 'the step that ends the exception', required: true },
-    ...Object.values(FLAGS),
+    ...(Object.entries(FLAGS) as [AckField, FlagSpec][]).map(([field, spec]) => asked(field, spec)),
   ],
   files: (values, registry, { args }) => {
     const [kind, given] = args as [AckKind, string];
@@ -111,11 +168,6 @@ const command = defineWriteCommand({
       const read = FLAGS[field]!.read;
       row[field] = value === undefined ? fallbackOf(kind, field) : read ? read(flagOf(field), String(value)) : value;
     }
-    const missing = fields.filter((field) => row[field] === undefined && isRequiredAckField(field));
-    if (missing.length) {
-      const message = `${missing.map(flagOf).join(', ')} ${missing.length > 1 ? 'are' : 'is'} required for ${kind} acks`;
-      throw new MissingFieldError({ file: 'ack', message });
-    }
     const named = String(row[target]);
     const slug = [named === '*' ? 'every-series' : rowSlug(named), row.day ?? row.firstDay].filter(Boolean).join('-');
     const content = toFile('ack', { slug, ...row, reason: values.reason, resolve: values.resolve });
@@ -123,4 +175,4 @@ const command = defineWriteCommand({
   },
 });
 
-export const ack: CliCommand = { ...command, help };
+export const ack: CliCommand = { ...command, help: `${ASKS}\n\n${help}` };

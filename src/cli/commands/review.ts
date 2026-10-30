@@ -3,15 +3,20 @@
  * @dev review: src/cli/eventCommand.ts
  */
 import { defineEventCommand } from '../eventCommand';
-import { targetRow } from '../targetRow';
+import { targetRow, targetSlugs } from '../targetRow';
 import { today } from '../writeCommand';
 
 export const review = defineEventCommand({
   name: 'review',
   description: "record a review of an asset's data, suspicious or cleared, with a dated event",
-  arguments: '<asset>',
   kind: 'review',
   fields: [
+    {
+      flag: '<asset>',
+      description: 'the asset reviewed',
+      required: true,
+      choices: (registry) => targetSlugs(registry, 'asset'),
+    },
     {
       flag: '--outcome <outcome>',
       description: 'suspicious or cleared',
@@ -24,8 +29,13 @@ export const review = defineEventCommand({
       required: (values) => values.outcome === 'suspicious',
     },
     { flag: '--source <url>', description: 'the page or API answer the review read', required: true },
-    { flag: '--at <date>', description: 'the day of the review, today by default', fallback: () => today() },
     { flag: '--reviewer <handle>', description: 'who reviewed it' },
+    {
+      flag: '--at <date>',
+      description: 'the day of the review, today by default',
+      date: true,
+      fallback: () => today(),
+    },
   ],
   target: (args, registry) => targetRow(registry, 'asset', args[0]!),
   event: (values) => ({

@@ -1,7 +1,9 @@
 import { existsSync } from 'node:fs';
 import { join } from 'node:path';
 import { describe, expect, it } from 'vitest';
+import { today } from '../../../src/cli/writeCommand';
 import { baseTree, writeTree } from '../../fixtures/tree';
+import { fakeAsk } from '../../fakes/prompter';
 import { readJson, runCli } from '../runCli';
 
 const why = ['--reason', 'test', '--resolve', 'test'];
@@ -112,5 +114,77 @@ describe('ack', () => {
 
     expect(code).toBe(1);
     expect(existsSync(join(root, '../acks/flows-hidden/tslax.json'))).toBe(false);
+  });
+});
+
+describe('ack, asked', () => {
+  const answers = { reason: 'test', resolve: 'test' };
+
+  it('asks the kind, the target, the reason, the resolve step, the band and the dates, offering the master band', async () => {
+    const root = writeTree(baseTree());
+    const prompter = fakeAsk({ kind: 'asset-move', target: 'tslax', ...answers });
+
+    const { code } = await runCli(['ack', '--registry', root], prompter.ask);
+    const question = (key: string) => prompter.asked.find((asked) => asked.key === key)!;
+
+    expect(code).toBe(0);
+    expect(prompter.keys()).toEqual([
+      ...['kind', 'target', 'reason', 'resolve', 'metrics', 'direction', 'maxCurrent', 'minPrevious'],
+      ...['from', 'until', 'confirm'],
+    ]);
+    expect(question('target').choices).toEqual(['tslax']);
+    expect(question('from').default).toBe(today());
+    expect(prompter.asked.at(-1)!.message).toContain('max-current: 1000');
+    expect(readJson(root, '../acks/asset-move/tslax.json')).toEqual({
+      slug: 'tslax',
+      asset: 'tslax',
+      from: today(),
+      until: null,
+      metrics: ['onChainMcap', 'activeMcap'],
+      direction: 'down',
+      maxCurrentUsd: 1000,
+      minPreviousUsd: 100000,
+      ...answers,
+    });
+  });
+
+  it('asks the ranges of a release and the day of an aggregate jump, each kind only its own fields', async () => {
+    const root = writeTree(baseTree());
+    const release = fakeAsk({ ...answers, metrics: ['activeMcap'], direction: 'up' });
+    const jump = fakeAsk({ ...answers, day: '2026-09-07' });
+
+    await runCli(['ack', 'asset-move-release', 'tslax', '--registry', root, '--dry-run'], release.ask);
+    const { code } = await runCli(['ack', 'aggregate-jump', 'tslax', '--registry', root], jump.ask);
+
+    expect(release.keys()).toEqual([
+      ...['reason', 'resolve', 'metrics', 'direction', 'current', 'previous', 'from', 'until'],
+    ]);
+    expect(jump.keys()).toEqual(['reason', 'resolve', 'day', 'confirm']);
+    expect(code).toBe(0);
+    expect(readJson(root, '../acks/aggregate-jump/tslax-2026-09-07.json').day).toBe('2026-09-07');
+  });
+
+  it('asks a series target as text and the two days of a drift', async () => {
+    const root = writeTree(baseTree());
+    const prompter = fakeAsk({ target: 'chain/ethereum', ...answers, firstDay: '2026-10-01', lastDay: '2026-10-02' });
+
+    const { code } = await runCli(['ack', 'drift', '--registry', root], prompter.ask);
+
+    expect(code).toBe(0);
+    expect(prompter.keys()).toEqual(['target', 'reason', 'resolve', 'firstDay', 'lastDay', 'confirm']);
+    expect(prompter.asked[0]).toMatchObject({
+      choices: [],
+      message: 'what it covers (<dimension>/<key>, or * for every series)',
+    });
+    expect(existsSync(join(root, '../acks/drift/chain-ethereum-2026-10-01.json'))).toBe(true);
+  });
+
+  it('refuses a field its kind requires under --no-input', async () => {
+    const root = writeTree(baseTree());
+
+    const { code, lines } = await runCli(['ack', 'aggregate-jump', 'tslax', '--registry', root, '--no-input', ...why]);
+
+    expect(code).toBe(1);
+    expect(lines).toEqual(['ack: --day is required']);
   });
 });

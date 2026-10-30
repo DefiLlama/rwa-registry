@@ -1,5 +1,5 @@
 /**
- * askFields: a command's fields turned into its questions, asked in the order they are listed, a flag or a template field skipping its own, then one confirmation that lists every value.
+ * askFields: a command's fields turned into its questions, asked in the order they are listed, a flag, an argument or a template field skipping its own, then one confirmation that lists every value.
  * @dev review: src/cli/writeCommand.ts, then src/cli/commands/add-asset.ts
  */
 import type { Registry } from '../schema';
@@ -36,7 +36,8 @@ export type Derive = (values: FlagValues, context: DeriveContext) => Derived | u
 interface Asked {
   description: string;
   required?: boolean | ((values: FlagValues) => boolean);
-  choices?: (registry: Registry) => Choice[];
+  // The choices may hang on the earlier answers, as a slug on its target's kind.
+  choices?: (registry: Registry, values: FlagValues) => Choice[];
   // The choices are suggestions; any typed text is an answer.
   open?: boolean;
   date?: boolean;
@@ -55,9 +56,11 @@ export interface Legs {
   more: string;
 }
 
+// flag is a positional argument when written <name>, as delist's <target>.
 export interface Field extends Asked {
   flag: string;
   list?: boolean;
+  // The value when none is given or answered, offered as the default when asked.
   fallback?: () => FlagValue;
   // A field asked only when this holds; otherwise it takes what it derives, as the primary chain of a single deployment.
   asked?: (values: FlagValues) => boolean;
@@ -73,7 +76,7 @@ export interface Assigned {
 export interface Questionnaire {
   fields: Field[];
   assigned?: Assigned[];
-  // Every field is asked; otherwise only a missing required one, as the commands that are not adds ask.
+  // Every field is asked; otherwise only a missing required one, as set asks.
   every?: boolean;
 }
 
@@ -86,11 +89,15 @@ export interface Answers {
 // commander keeps --no-discover as discover: false.
 export const optionKey = (flag: string) =>
   flag
-    .split(' ')[0]
-    .replace(/^--(no-)?/, '')
+    .split(' ')[0]!
+    .replace(/^--(no-)?|^<|>$/g, '')
     .replace(/-([a-z])/g, (_, letter: string) => letter.toUpperCase());
 
+export const isArgument = (field: Field) => field.flag.startsWith('<');
+
 const flagName = (field: Field) => field.flag.split(' ')[0]!;
+
+const nameOf = (field: Field) => flagName(field).replace(/^--|^<|>$/g, '');
 
 export const isEmpty = (value: unknown) =>
   value === undefined || value === null || value === '' || (Array.isArray(value) && !value.length);
@@ -111,7 +118,7 @@ const summary = (
   origins: Map<string, Origin>,
   assigned: [string, unknown][],
 ): string => {
-  const keys = fields.map((field) => [optionKey(field.flag), flagName(field).slice(2)] as const);
+  const keys = fields.map((field) => [optionKey(field.flag), nameOf(field)] as const);
   const set = keys.filter(([key]) => !isEmpty(values[key]));
   const skipped = keys.filter(([key]) => isEmpty(values[key]) && origins.get(key) === 'answer');
   return [
@@ -129,10 +136,11 @@ const questionOf = (
   required: boolean,
   derived: Derived | undefined,
   context: DeriveContext,
+  values: FlagValues,
 ) => ({
   key,
   message: derived?.why ? `${field.description} (${derived.why})` : field.description,
-  choices: field.choices?.(context.registry),
+  choices: field.choices?.(context.registry, values),
   optional: !required,
   open: field.open,
   date: field.date,
@@ -150,7 +158,9 @@ const askLegs = async (key: string, legs: Legs, values: FlagValues, context: Der
     for (const field of legs.fields) {
       const required = requiredOf(field, leg);
       const derived = await field.derive?.({ ...values, ...leg }, context);
-      const answer = await ask(questionOf(`${key}.${field.key}`, field, required, derived, context));
+      const answer = await ask(
+        questionOf(`${key}.${field.key}`, field, required, derived, context, { ...values, ...leg }),
+      );
       leg[field.key] = isEmpty(answer) ? undefined : (answer as FlagValue);
     }
     items.push(legs.item(leg));
@@ -176,20 +186,25 @@ export const askFields = async (
       continue;
     }
     const required = requiredOf(field, values);
-    let value = input.flags[key] ?? field.fallback?.();
+    let value = input.flags[key];
     if (isEmpty(value) && ask && (every || required) && !flagName(field).startsWith('--no-')) {
       const derived = await field.derive?.(values, context);
+      const offered = derived ?? (field.fallback ? { value: field.fallback() } : undefined);
       const unasked = field.asked?.(values) === false;
       if (unasked) value = derived?.value;
       else {
         asked = true;
         value = field.legs
           ? await askLegs(key, field.legs, values, context, ask)
-          : ((await ask({ ...questionOf(key, field, required, derived, context), ...switchOf(field) })) as FlagValue);
+          : ((await ask({
+              ...questionOf(key, field, required, offered, context, values),
+              ...switchOf(field),
+            })) as FlagValue);
       }
       const same = !isEmpty(value) && shown(value) === shown(derived?.value);
       if (same || !unasked) origins.set(key, same ? 'derived' : 'answer');
     }
+    if (isEmpty(value)) value = field.fallback?.();
     if (field.list && value !== undefined) value = commaList(value as string | string[]);
     if (isEmpty(value) && required) missing.push(flagName(field));
     values[key] = isEmpty(value) ? undefined : value;

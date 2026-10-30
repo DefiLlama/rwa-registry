@@ -7,16 +7,16 @@ import { RowStateError } from '../errors/cli';
 import { targetKey } from '../registry/keys';
 import type { Registry, Row } from '../schema';
 import type { CliCommand } from './index';
-import { targetRow, type TargetRow } from './targetRow';
-import { defineWriteCommand, type Field, type FlagValues } from './writeCommand';
+import { TARGETS, targetRow, targetSlugs, type TargetRow } from './targetRow';
+import { defineWriteCommand, today, type Field, type FlagValues } from './writeCommand';
 
 type Event = Row<'event'>;
 
 export interface EventSpec {
   name: string;
   description: string;
-  arguments?: string;
   kind: string;
+  // In the order they are asked, the target's <name> arguments first.
   fields?: Field[];
   target?: (args: string[], registry: Registry) => TargetRow;
   // A message when the target's events forbid this one, such as a second pause.
@@ -25,8 +25,21 @@ export interface EventSpec {
   change?: (file: Record<string, unknown>, target: TargetRow) => Record<string, unknown>;
 }
 
-const WHY_FIELDS: Field[] = [
-  { flag: '--at <date>', description: 'the day it happened, YYYY-MM-DD', required: true },
+const FIELDS: Field[] = [
+  { flag: '<target>', description: 'what it names', required: true, choices: () => TARGETS },
+  {
+    flag: '<slug>',
+    description: 'its slug, a market as venue:symbol',
+    required: true,
+    choices: (registry, values) => targetSlugs(registry, String(values.target)),
+  },
+  {
+    flag: '--at <date>',
+    description: 'the day it happened, YYYY-MM-DD',
+    required: true,
+    date: true,
+    derive: () => ({ value: today(), why: 'today' }),
+  },
   { flag: '--reason <text>', description: 'why, in one sentence', required: true },
   { flag: '--source <url>', description: 'the page or API answer that shows it', required: true },
 ];
@@ -35,8 +48,8 @@ export const defineEventCommand = (spec: EventSpec): CliCommand =>
   defineWriteCommand({
     name: spec.name,
     description: spec.description,
-    arguments: spec.arguments ?? '<target> <slug>',
-    fields: spec.fields ?? WHY_FIELDS,
+    every: true,
+    fields: spec.fields ?? FIELDS,
     files: (values, registry, { args, root, read }) => {
       const target = (spec.target ?? ((given, rows) => targetRow(rows, given[0]!, given[1]!)))(args, registry);
       const events = registry.event.filter(

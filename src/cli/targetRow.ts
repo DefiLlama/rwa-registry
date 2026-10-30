@@ -30,6 +30,20 @@ const FINDERS: Record<TargetKind, (registry: Registry, slug: string) => object |
     registry.organization.find((row) => row.slug === slug && PLATFORM_KINDS.includes(row.kind)),
 };
 
+export const TARGETS = Object.keys(TARGET_KINDS);
+
+const SLUGS: Record<TargetKind, (registry: Registry) => string[]> = {
+  asset: (registry) => registry.asset.map((row) => row.slug),
+  market: (registry) => registry.perp_market.map(marketId),
+  venue: (registry) => registry.venue.map((row) => row.slug),
+  platform: (registry) =>
+    registry.organization.filter((row) => PLATFORM_KINDS.includes(row.kind)).map((row) => row.slug),
+};
+
+// The slugs a kind's target may name, sorted; none for a kind that is not a target.
+export const targetSlugs = (registry: Registry, kind: string): string[] =>
+  kind in SLUGS ? SLUGS[kind as TargetKind](registry).sort() : [];
+
 export const targetRow = (registry: Registry, kind: string, slug: string): TargetRow => {
   if (!(kind in TARGET_KINDS)) {
     throw new FlagFormatError({ file: kind, message: `is not a target; use ${Object.keys(TARGET_KINDS).join(', ')}` });

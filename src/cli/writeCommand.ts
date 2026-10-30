@@ -16,6 +16,8 @@ import type { CliCommand } from './index';
 import { REGISTRY_FLAG, registryOf } from './registryFlag';
 import {
   askFields,
+  isArgument,
+  optionKey,
   type Answers,
   type Assigned,
   type Field,
@@ -39,7 +41,9 @@ export interface FileToWrite {
 export interface WriteSpec {
   name: string;
   description: string;
+  // The usage of arguments no <name> field asks, as set's <file> [field] [value].
   arguments?: string;
+  // In the order they are asked, the <name> arguments first.
   fields: Field[];
   // Every field is asked in a terminal, then confirmed with what the command assigns; otherwise only a missing required one.
   every?: boolean;
@@ -57,6 +61,9 @@ const COMMON_FLAGS = [
 ];
 
 export const today = (): string => dayOf(new Date());
+
+export const ASKS =
+  'In a terminal it asks for every argument and flag it is not given, in the order above, then lists them all for a yes or no; --no-input and --json never ask.';
 
 // --help marks a flag required with no other flag given, which the README's command table reads into its own column.
 const helpFlag = (field: Field) => {
@@ -94,11 +101,17 @@ const stagedOf = (files: FileToWrite[], exists: (path: string) => boolean, read:
     return { ...file, text: file.remove ? '' : jsonText(file.content), before };
   });
 
+const argumentsOf = (spec: WriteSpec) => {
+  const asked = spec.fields.filter(isArgument).map((field) => `[${optionKey(field.flag)}]`);
+  return asked.length ? asked.join(' ') : spec.arguments;
+};
+
 export const defineWriteCommand = (spec: WriteSpec): CliCommand => ({
   name: spec.name,
   description: spec.description,
-  arguments: spec.arguments,
-  flags: [...spec.fields.map(helpFlag), ...COMMON_FLAGS],
+  arguments: argumentsOf(spec),
+  ...(spec.every ? { help: ASKS } : {}),
+  flags: [...spec.fields.filter((field) => !isArgument(field)).map(helpFlag), ...COMMON_FLAGS],
   run: async (options, { print, ask }) => {
     const refuse = (errors: { file: string; message: string }[]) => {
       errors.forEach((error) => print(`${error.file}: ${error.message}`));
@@ -113,7 +126,11 @@ export const defineWriteCommand = (spec: WriteSpec): CliCommand => ({
     const notes: string[] = [];
     const note = (line: string) => (options.json === true ? notes.push(line) : print(line));
     const context: WriteContext = { args: options.args, root, read, note, memo: new Map() };
-    const flags = options as FlagValues;
+    const positional = spec.fields.filter(isArgument).map((field) => optionKey(field.flag));
+    const flags: FlagValues = {
+      ...(options as FlagValues),
+      ...Object.fromEntries(positional.map((key, i) => [key, options.args[i]])),
+    };
     let answers: Answers;
     try {
       const given = spec.given?.(flags) ?? {};
@@ -131,9 +148,10 @@ export const defineWriteCommand = (spec: WriteSpec): CliCommand => ({
     if (missing.length) {
       return refuse(missing.map((flag) => new MissingFieldError({ file: spec.name, message: `${flag} is required` })));
     }
+    const args = positional.length ? positional.map((key) => String(values[key])) : options.args;
     let files: Staged[];
     try {
-      const wanted = await spec.files(values, before.registry, context);
+      const wanted = await spec.files(values, before.registry, { ...context, args });
       files = stagedOf(wanted, (path) => existsSync(join(root, path)), read);
     } catch (error) {
       if (error instanceof CliError) return refuse([error]);

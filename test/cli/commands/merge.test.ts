@@ -2,6 +2,7 @@ import { existsSync } from 'node:fs';
 import { join } from 'node:path';
 import { describe, expect, it } from 'vitest';
 import { assetFile, baseTree, marketWith, tslaxWith, writeTree, type Tree } from '../../fixtures/tree';
+import { fakeAsk } from '../../fakes/prompter';
 import { readJson, runCli } from '../runCli';
 
 const why = ['--at', '2026-10-25', '--reason', 'one issuer under two spellings', '--source', 'https://x.example/m'];
@@ -120,5 +121,48 @@ describe('merge', () => {
 
     expect(code).toBe(1);
     expect(lines.join('\n')).toMatch(/merges organization or underlying/);
+  });
+});
+
+describe('merge, asked', () => {
+  const answers = { reason: 'one issuer under two spellings', source: 'https://x.example/m', at: '2026-10-25' };
+  const withTesla = () =>
+    writeTree({
+      ...baseTree(),
+      'reference/underlyings/equity/tesla.json': { slug: 'tesla', name: 'Tesla', exposure: 'public-equities' },
+    });
+
+  it('asks the table, keep, drop among the others, the reason, the source, the day and --force, then merges', async () => {
+    const root = withTesla();
+    const prompter = fakeAsk({ table: 'underlying', keep: 'tesla-inc', drop: 'tesla', ...answers });
+
+    const { code } = await runCli(['merge', '--registry', root], prompter.ask);
+    const question = (key: string) => prompter.asked.find((asked) => asked.key === key)!;
+
+    expect(code).toBe(0);
+    expect(prompter.keys()).toEqual(['table', 'keep', 'drop', 'reason', 'source', 'at', 'force', 'confirm']);
+    expect(question('keep').choices).toEqual(['tesla', 'tesla-inc']);
+    expect(question('drop').choices).toEqual(['tesla']);
+    expect(prompter.asked.at(-1)!.message).toContain('drop: tesla');
+    expect(existsSync(join(root, 'reference/underlyings/equity/tesla.json'))).toBe(false);
+  });
+
+  it('skips the question of each argument given', async () => {
+    const root = withTesla();
+    const prompter = fakeAsk({ drop: 'tesla', ...answers });
+
+    const { code } = await runCli(['merge', 'underlying', 'tesla-inc', '--registry', root], prompter.ask);
+
+    expect(code).toBe(0);
+    expect(prompter.keys()).toEqual(['drop', 'reason', 'source', 'at', 'force', 'confirm']);
+  });
+
+  it('refuses missing arguments under --no-input', async () => {
+    const root = withTesla();
+
+    const { code, lines } = await runCli(['merge', 'underlying', '--registry', root, '--no-input', ...why]);
+
+    expect(code).toBe(1);
+    expect(lines).toEqual(['merge: <keep> is required', 'merge: <drop> is required']);
   });
 });

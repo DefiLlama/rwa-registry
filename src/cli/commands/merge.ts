@@ -23,6 +23,12 @@ const rowOf = (registry: Registry, table: Mergeable, slug: string) => {
   return { row, file };
 };
 
+// The slugs of a mergeable table, sorted; none for another table.
+const slugsOf = (registry: Registry, table: unknown): string[] =>
+  MERGEABLE.includes(table as Mergeable)
+    ? (registry[table as Mergeable] as Json[]).map((row) => String(row.slug)).sort()
+    : [];
+
 // The files of every row whose fields name drop, read and moved; keep's and drop's own files are built apart.
 const referencing = (registry: Registry, drop: string, skip: string[]) => {
   const needle = `"${drop}"`;
@@ -38,11 +44,29 @@ const referencing = (registry: Registry, drop: string, skip: string[]) => {
 export const merge = defineWriteCommand({
   name: 'merge',
   description: 'merge one organization or underlying into another and remove the dropped file',
-  arguments: '<table> <keep> <drop>',
+  every: true,
   fields: [
+    { flag: '<table>', description: 'the table of the two rows', required: true, choices: () => [...MERGEABLE] },
+    {
+      flag: '<keep>',
+      description: 'the row that stays',
+      required: true,
+      choices: (registry, values) => slugsOf(registry, values.table),
+    },
+    {
+      flag: '<drop>',
+      description: 'the row folded into it and removed',
+      required: true,
+      choices: (registry, values) => slugsOf(registry, values.table).filter((slug) => slug !== values.keep),
+    },
     { flag: '--reason <text>', description: 'why the two rows are one', required: true },
     { flag: '--source <url>', description: 'the page that shows they are one', required: true },
-    { flag: '--at <date>', description: 'the day of the merge, today by default', fallback: () => today() },
+    {
+      flag: '--at <date>',
+      description: 'the day of the merge, today by default',
+      date: true,
+      fallback: () => today(),
+    },
     { flag: '--force', description: 'merge although a row holds a legacy id the app keys on' },
   ],
   files: (values, registry, { args, root, read }) => {
