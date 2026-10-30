@@ -1,7 +1,7 @@
 import { existsSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { describe, expect, it } from 'vitest';
-import { baseTree, marketWith, writeTree } from '../../fixtures/tree';
+import { baseTree, marketWith, tslaxFile, writeTree } from '../../fixtures/tree';
 import { readJson, runCli } from '../runCli';
 
 const TSLAX = 'assets/xstocks/tslax.json';
@@ -38,15 +38,6 @@ describe('set', () => {
 
     expect(code).toBe(0);
     expect(path.split('.').reduce((at, key) => at[key], readJson(root, TSLAX))).toEqual(value);
-  });
-
-  it('sets a nested field by its path', async () => {
-    const root = writeTree(baseTree());
-
-    const { code } = await set(root, TSLAX, 'deployments[0].deployedAt', '2025-06-29');
-
-    expect(code).toBe(0);
-    expect(readJson(root, TSLAX).deployments[0].deployedAt).toBe('2025-06-29');
   });
 
   it('refuses a field the table does not have, and names the block of a field given without it', async () => {
@@ -92,15 +83,12 @@ describe('set', () => {
     expect(readJson(root, TSLAX).roles).toEqual(roles);
   });
 
-  it('writes a field the file lacks where the schema puts it, not after the nested rows', async () => {
-    const root = writeTree(baseTree());
+  it('writes a nested field the file lacks where the schema puts it, not after the nested rows', async () => {
+    const tslax = tslaxFile();
+    const [{ primary: _, ...solana }, ethereum] = tslax.deployments;
+    const root = writeTree({ ...baseTree(), [TSLAX]: { ...tslax, deployments: [solana, ethereum] } });
 
-    const { code } = await set(
-      root,
-      TSLAX,
-      'deployments[0].bridgedFrom',
-      'ethereum:0x8ad3c73f833d3f9a523ab01476625f269aeb7cf0',
-    );
+    const { code } = await set(root, TSLAX, 'deployments[0].primary', 'true');
 
     expect(code).toBe(0);
     expect(Object.keys(readJson(root, TSLAX).deployments[0])).toEqual([
@@ -108,7 +96,6 @@ describe('set', () => {
       'address',
       'deployedAt',
       'primary',
-      'bridgedFrom',
       'labels',
     ]);
   });

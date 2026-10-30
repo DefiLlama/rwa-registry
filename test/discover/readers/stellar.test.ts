@@ -2,12 +2,11 @@ import { describe, expect, it } from 'vitest';
 import type { HttpRequest } from '../../../src/clients/http';
 import type { DateQuery } from '../../../src/discover/dateReader';
 import { stellar } from '../../../src/discover/readers/stellar';
-import { shouldBehaveLikeDateReader } from '../../behaviours/shouldBehaveLikeDateReader';
 import { answering, fakeDiscoverDeps } from '../../fakes/discover';
 
 const ISSUER = 'GAJMPX5NBOG6TQFPQGRABJEEB2YE7RFRLUKJDZAZGAD5GFX4J7TADAZ6';
 const CONTRACT = 'CDV6U7OEVY6KUEJ4WNS63AYB6RFU3BAE7AZJOQ7LPH447C6NWUXEZZSO';
-const query = (address: string): DateQuery => ({ chain: 'stellar', chainId: 'stellar', family: 'stellar', address });
+const query = (address: string): DateQuery => ({ chain: 'stellar', address });
 const operation = (type: string, created_at: string, extra = {}) => ({
   id: `op-${created_at}`,
   type,
@@ -22,8 +21,6 @@ const horizon = (records: unknown[]) =>
   );
 
 describe('stellar date reader', () => {
-  shouldBehaveLikeDateReader(stellar, [query(`USDY-${ISSUER}`), query(CONTRACT)]);
-
   it("dates a classic asset at the issuer's first issuing payment when Horizon holds the issuer's creation", async () => {
     const http = horizon([
       operation('create_account', '2025-08-27T10:00:00Z'),

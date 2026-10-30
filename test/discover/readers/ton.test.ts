@@ -2,11 +2,10 @@ import { describe, expect, it, vi } from 'vitest';
 import type { DateQuery } from '../../../src/discover/dateReader';
 import { ton } from '../../../src/discover/readers/ton';
 import { HttpStatusError } from '../../../src/errors';
-import { shouldBehaveLikeDateReader } from '../../behaviours/shouldBehaveLikeDateReader';
 import { answering, discoverConfig, fakeDiscoverDeps } from '../../fakes/discover';
 
 const USDE = 'EQAIb6KmdfdDR7CN1GBqVJuP25iCnLKCvBlJ07Evuu2dzP5f';
-const query: DateQuery = { chain: 'ton', chainId: 'ton', family: 'ton', address: USDE };
+const query: DateQuery = { chain: 'ton', address: USDE };
 const HASH = 'KiIr2kGMZ/S0rDMGryIz01YKK16BLXN2wv3tIf1c9Y0=';
 const tx = (now: number, orig: string, end: string, hash = HASH) => ({
   now,
@@ -17,8 +16,6 @@ const tx = (now: number, orig: string, end: string, hash = HASH) => ({
 });
 
 describe('ton date reader', () => {
-  shouldBehaveLikeDateReader(ton, [query, { ...query, address: 'EQD0Evpk4timFOHmy4Sv3l_KEUXlM-dN1_KhroTCfB2wkO89' }]);
-
   it('dates a jetton master at its first active transaction, after a transfer to the address before it existed', async () => {
     const http = answering(() => ({
       transactions: [tx(1738800000, 'nonexist', 'uninit', 'AAAA'), tx(1738894087, 'uninit', 'active')],

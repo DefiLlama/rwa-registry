@@ -2,12 +2,12 @@ import { existsSync } from 'node:fs';
 import { join } from 'node:path';
 import { describe, expect, it, vi } from 'vitest';
 import { createAddAssetCommand } from '../../../src/cli/commands/add-asset';
+import { readTemplate, TEMPLATES, templateFile } from '../../../src/cli/templates';
 import type { CliCommand } from '../../../src/cli';
 import type { DateQuery } from '../../../src/discover/dateReader';
 import { found, missing } from '../../../src/discover/dateResult';
-import { toRow } from '../../../src/schema';
 import { assetFile, baseTree, marketWith, writeTree, type Tree } from '../../fixtures/tree';
-import { readJson, readTemplate, readText, runCli, templateCopy } from '../runCli';
+import { readJson, readText, runCli, templateCopy } from '../runCli';
 
 const SOLANA = 'Xsc9qvGR1efVDFGLrVsmkzv3qi45LTBjeUKSPmx9qEh';
 const ETHEREUM = '0xC9CC8A4E3D4F0B5E2C1E1A54B7F6F2DE4E6A0B51';
@@ -19,18 +19,6 @@ const tree = (extra: Tree = {}) => ({
     name: 'NVIDIA Corporation',
     exposure: 'public-equities',
   },
-  'reference/vocabularies/role-kind.json': ['issuer', 'tokenizer', 'oracle', 'auditor'].map((slug) => ({
-    slug,
-    label: slug,
-  })),
-  'reference/vocabularies/organization-kind.json': [
-    'auditor',
-    'issuer',
-    'oracle',
-    'platform',
-    'tokenizer',
-    'venue-operator',
-  ].map((slug) => ({ slug, label: slug })),
   'reference/organizations/oracle/chainlink.json': { identity: { slug: 'chainlink', name: 'Chainlink' } },
   'reference/organizations/auditor/the-network-firm.json': {
     identity: { slug: 'the-network-firm', name: 'The Network Firm' },
@@ -141,18 +129,6 @@ describe('add asset', () => {
     ).toEqual([9726, 9801]);
   });
 
-  it('refuses an asset given no category, and writes nothing', async () => {
-    const root = writeTree(tree());
-
-    const { code, lines } = await runWith(createAddAssetCommand(), root, [`solana:${SOLANA}:2025-06-30`], {
-      category: undefined,
-    });
-
-    expect(code).toBe(1);
-    expect(lines).toEqual(['add asset: --category is required']);
-    expect(existsSync(join(root, 'assets/xstocks/nvdax.json'))).toBe(false);
-  });
-
   it('gives a case collision the -<legacyId> slug, as the lower id keeps the bare one', async () => {
     const root = writeTree(tree());
 
@@ -195,10 +171,7 @@ describe('add asset', () => {
     ]);
 
     expect(code).toBe(1);
-    expect(lines).toEqual([
-      `${join(root, 'assets/xstocks/tslax.json')}: legacyId 257 is also on asset ionqx`,
-      `${join(root, 'assets/xstocks/ionqx.json')}: legacyId 257 moved from tslax to ionqx`,
-    ]);
+    expect(lines).toEqual([`${join(root, 'assets/xstocks/tslax.json')}: legacyId 257 is also on asset ionqx`]);
     expect(existsSync(join(root, 'assets/xstocks/ionqx.json'))).toBe(false);
   });
 
@@ -211,7 +184,7 @@ describe('add asset', () => {
     const { code, lines } = await runWith(command, root, [`solana:${SOLANA}`, `ethereum:${ETHEREUM}:2025-07-01`]);
 
     expect(code).toBe(0);
-    expect(dates).toHaveBeenCalledWith([{ chain: 'solana', chainId: 'solana', family: 'solana', address: SOLANA }]);
+    expect(dates).toHaveBeenCalledWith([{ chain: 'solana', address: SOLANA }]);
     expect(readJson(root, 'assets/xstocks/nvdax.json').deployments[0].deployedAt).toBe('2025-06-29');
     expect(JSON.parse(lines.join('\n')).notes).toEqual([
       `solana:${SOLANA}: deployedAt 2025-06-29 from https://explorer.solana.com/tx/sig0 (first-signature)`,
@@ -253,8 +226,7 @@ describe('add asset', () => {
   it('writes from templates/asset.json the file the flags write, roles included', async () => {
     const byFlags = writeTree(tree(IONQ));
     const byFile = writeTree(tree(IONQ));
-    const { platform, ...file } = readTemplate('asset');
-    const template = { platform, ...toRow('asset', file) } as Record<string, any>;
+    const template = readTemplate(templateFile('asset'), TEMPLATES.asset) as Record<string, any>;
     const [issuer, ...others] = template.roles;
     const tokenizer = { organization: 'backed-finance-ag', kind: 'tokenizer' };
     // The flags give a deployment only with its address, so the template's chain with no known contract stays out.

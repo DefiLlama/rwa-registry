@@ -7,8 +7,6 @@ import { fakeRpc } from '../../fakes/rpc';
 
 const query = (chain: string, address = '0x8ad3c73f833d3f9a523ab01476625f269aeb7cf0'): DateQuery => ({
   chain,
-  chainId: chain,
-  family: 'evm',
   address,
 });
 

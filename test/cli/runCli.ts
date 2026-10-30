@@ -19,10 +19,8 @@ export const readText = (root: string, path: string) => readFileSync(join(root, 
 
 export const readJson = (root: string, path: string) => JSON.parse(readText(root, path));
 
-export const readTemplate = (name: TemplateName) => JSON.parse(readFileSync(templateFile(name), 'utf8'));
-
 export const templateCopy = (name: TemplateName, change: (template: Record<string, any>) => Record<string, any>) => {
   const path = join(mkdtempSync(join(tmpdir(), 'rwa-template-')), `${name}.json`);
-  writeFileSync(path, JSON.stringify(change(readTemplate(name)), null, 2));
+  writeFileSync(path, JSON.stringify(change(JSON.parse(readFileSync(templateFile(name), 'utf8'))), null, 2));
   return path;
 };

@@ -4,12 +4,9 @@
  */
 import { vi } from 'vitest';
 import type { HttpClient, HttpRequest } from '../../src/clients/http';
-import { loadConfig } from '../../src/config/loadConfig';
 import { loadDiscoverConfig, type DiscoverConfig } from '../../src/discover/discoverConfig';
 import { pacersOf, type DiscoverClients, type DiscoverDeps } from '../../src/discover/discoverDeps';
 import { fakeRpc } from './rpc';
-
-export const NOW = new Date('2026-10-25T12:00:00Z');
 
 export const discoverConfig = (env: Record<string, string> = {}): DiscoverConfig => {
   const config = loadDiscoverConfig(env);
@@ -20,11 +17,15 @@ export const fakeDiscoverDeps = (
   clients: Partial<DiscoverClients> = {},
   discover: DiscoverConfig = discoverConfig(),
 ): DiscoverDeps => ({
-  clients: { http: unanswering(), rpc: fakeRpc(), ...clients },
-  config: loadConfig(),
+  // A request no test answers fails by its URL, so a reader that reaches it is seen.
+  clients: {
+    http: answering(({ url }) => Promise.reject(new Error(`no fake answer for ${url}`))),
+    rpc: fakeRpc(),
+    ...clients,
+  },
   discover,
   paced: pacersOf(discover, async () => {}),
-  now: NOW,
+  now: new Date('2026-10-25T12:00:00Z'),
   log: () => {},
 });
 
@@ -32,6 +33,3 @@ export const fakeDiscoverDeps = (
 export const answering = (handler: (request: HttpRequest) => unknown): HttpClient => ({
   json: vi.fn(async (request: HttpRequest) => handler(request)) as HttpClient['json'],
 });
-
-// The http client a test gives no answers: every request fails by its URL, so a reader that reaches it is seen.
-const unanswering = () => answering(({ url }) => Promise.reject(new Error(`no fake answer for ${url}`)));

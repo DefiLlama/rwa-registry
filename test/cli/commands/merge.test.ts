@@ -1,7 +1,7 @@
 import { existsSync } from 'node:fs';
 import { join } from 'node:path';
 import { describe, expect, it } from 'vitest';
-import { baseTree, marketWith, tslaxWith, writeTree, type Tree } from '../../fixtures/tree';
+import { assetFile, baseTree, marketWith, tslaxWith, writeTree, type Tree } from '../../fixtures/tree';
 import { readJson, runCli } from '../runCli';
 
 const why = ['--at', '2026-10-25', '--reason', 'one issuer under two spellings', '--source', 'https://x.example/m'];
@@ -11,7 +11,7 @@ const withLtd = (extra: Tree = {}) =>
   writeTree({ ...baseTree(), [LTD]: { identity: { slug: 'xstocks-ltd', name: 'xStocks Ltd.' } }, ...extra });
 
 describe('merge', () => {
-  it('moves every reference from drop to keep, keeps the name as an alias, writes the event and removes drop', async () => {
+  it('moves every reference from drop to keep, keeps the dropped name in the merge event, and removes drop', async () => {
     const root = writeTree({
       ...baseTree(),
       'reference/underlyings/equity/tesla.json': { slug: 'tesla', name: 'Tesla', exposure: 'public-equities' },
@@ -28,7 +28,8 @@ describe('merge', () => {
     ]);
     expect(readJson(root, 'perps/xyz/tsla.json').tracks.underlying).toBe('tesla-inc');
     const keep = readJson(root, 'reference/underlyings/equity/tesla-inc.json');
-    expect(keep.aliases).toEqual(['Tesla']);
+    expect(keep.name).toBe('Tesla, Inc.');
+    expect(keep).not.toHaveProperty('aliases');
     expect(keep.events).toEqual([
       {
         kind: 'merge',
@@ -78,6 +79,38 @@ describe('merge', () => {
     expect(code).toBe(0);
     expect(readJson(root, 'assets/xstocks/tslax.json').roles).toEqual([{ organization: 'xstocks', kind: 'issuer' }]);
     expect(readJson(root, 'assets/xstocks/platform.json').events.at(-1).note).toBe('merged xstocks-ltd (xStocks Ltd.)');
+  });
+
+  it('with --force merges two platforms and moves the assets of the dropped one into the kept folder', async () => {
+    const root = writeTree({
+      ...baseTree(),
+      'assets/backed/platform.json': { identity: { slug: 'backed', name: 'Backed Finance', legacyPid: 31 } },
+      'assets/backed/wtslax.json': assetFile('wtslax', 300, {
+        roles: [{ organization: 'backed-assets-je-limited', kind: 'issuer' }],
+      }),
+    });
+
+    const { code, lines } = await runCli([
+      'merge',
+      'organization',
+      'xstocks',
+      'backed',
+      '--registry',
+      root,
+      ...why,
+      '--force',
+    ]);
+
+    expect(code).toBe(0);
+    expect(lines).toEqual([
+      `wrote ${join(root, 'assets/xstocks/wtslax.json')}`,
+      `removed ${join(root, 'assets/backed/wtslax.json')}`,
+      `wrote ${join(root, 'assets/xstocks/platform.json')}`,
+      `removed ${join(root, 'assets/backed/platform.json')}`,
+    ]);
+    expect(readJson(root, 'assets/xstocks/wtslax.json').identity).toMatchObject({ slug: 'wtslax', legacyId: 300 });
+    expect(existsSync(join(root, 'assets/backed/wtslax.json'))).toBe(false);
+    expect((await runCli(['validate', '--registry', root])).code).toBe(0);
   });
 
   it('refuses a table other than organization and underlying', async () => {

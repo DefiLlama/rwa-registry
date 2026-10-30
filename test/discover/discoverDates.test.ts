@@ -6,8 +6,9 @@ import { discoverDates } from '../../src/discover/discoverDates';
 import type { DiscoverDeps } from '../../src/discover/discoverDeps';
 import { RateLimitedError } from '../../src/errors';
 import { answering, discoverConfig, fakeDiscoverDeps } from '../fakes/discover';
-import { fakeRpc } from '../fakes/rpc';
-import { assetFile, baseTree, undatedTslax, writeTree, type Tree } from '../fixtures/tree';
+import { fakeChain, fakeRpc } from '../fakes/rpc';
+import { readJson } from '../cli/runCli';
+import { assetFile, baseTree, undatedTslax, writeTree, xyzVenue, type Tree } from '../fixtures/tree';
 import { evmNode } from './readers/jsonRpc';
 
 const TSLAX = 'assets/xstocks/tslax.json';
@@ -15,17 +16,11 @@ const MARKET = 'perps/xyz/tsla.json';
 
 const undated = () => writeTree({ ...baseTree(), [TSLAX]: undatedTslax() });
 
-const fileAt = (root: string, path: string) => JSON.parse(readFileSync(join(root, path), 'utf8'));
 const datesOf = (root: string, path: string): (string | null)[] =>
-  fileAt(root, path).deployments.map(({ deployedAt }: { deployedAt: string | null }) => deployedAt);
+  readJson(root, path).deployments.map(({ deployedAt }: { deployedAt: string | null }) => deployedAt);
 
 const chainRpc = () =>
-  fakeRpc({
-    evmHead: vi.fn(async () => 100),
-    evmHasCode: vi.fn(async ({ block }: { block: number }) => block >= 37),
-    evmBlockTime: vi.fn(async () => 1751241600),
-    solanaSignatures: vi.fn(async () => [{ signature: 'sig0', slot: 5, blockTime: 1751328000 }]),
-  });
+  fakeChain(37, { solanaSignatures: vi.fn(async () => [{ signature: 'sig0', slot: 5, blockTime: 1751328000 }]) });
 
 describe('discoverDates', () => {
   it('sets deployedAt in the asset file of every undated deployment it dates, with the source and basis in the summary', async () => {
@@ -208,8 +203,7 @@ describe('discoverDates', () => {
   it("appends a market's listing as its next event, and a dry run names it without touching the file", async () => {
     const http = answering(() => ({ symbols: [{ symbol: 'TSLA', onboardDate: Date.parse('2025-07-01T08:00:00Z') }] }));
     const deps = fakeDiscoverDeps({ http });
-    const xyz = baseTree()['perps/xyz/venue.json'] as object;
-    const root = writeTree({ ...baseTree(), 'perps/xyz/venue.json': { ...xyz, adapter: 'binance' } });
+    const root = writeTree({ ...baseTree(), 'perps/xyz/venue.json': { ...xyzVenue(), adapter: 'binance' } });
     const before = readFileSync(join(root, MARKET), 'utf8');
 
     const dry = await discoverDates(root, { venue: 'xyz', dryRun: true }, deps);
@@ -226,7 +220,7 @@ describe('discoverDates', () => {
       },
     ]);
     expect(untouched).toBe(before);
-    expect(fileAt(root, MARKET).events).toEqual([
+    expect(readJson(root, MARKET).events).toEqual([
       { kind: 'listing', date: '2025-07-01', links: [expect.stringContaining('binance')] },
     ]);
   });

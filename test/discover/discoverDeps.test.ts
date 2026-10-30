@@ -28,7 +28,7 @@ describe('discoverDeps', () => {
   });
 
   it('reads every key placeholder of the discover sources from the env, and leaves a missing one null', () => {
-    const { sources } = loadDiscoverConfig({
+    const { sources, http, venues } = loadDiscoverConfig({
       ALCHEMY_KEY: 'a-key',
       TONCENTER_API_KEY: 't-key',
       SOLSCAN_API_KEY: 's-key',
@@ -40,5 +40,6 @@ describe('discoverDeps', () => {
     expect(sources.solscan.apiKey).toBe('s-key');
     expect(sources.history.apiKey).toBe('p-key');
     expect(sources.etherscan.apiKey).toBeNull();
+    expect([http.timeoutMs > 0, venues.binance?.urls.api.startsWith('https://')]).toEqual([true, true]);
   });
 });

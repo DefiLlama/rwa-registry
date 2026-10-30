@@ -15,8 +15,8 @@ const asset = { legacyId: 7, deploymentsOnChain: 1 };
 describe('readDates', () => {
   it('answers no-reader for a family without a reader and keeps the order of the queries', async () => {
     const queries: DateQuery[] = [
-      { chain: 'cosmos', chainId: 'cosmos', family: 'cosmos', address: 'cosmos1' },
-      { chain: 'tron', chainId: 'tron', family: 'tron', address: 'T1' },
+      { chain: 'cosmos', address: 'cosmos1' },
+      { chain: 'tron', address: 'T1' },
     ];
     const http = answering(() => ({ data: [{ date_created: 1555400628000 }] }));
     const results = await readDates(queries, fakeDiscoverDeps({ http }));
@@ -26,7 +26,7 @@ describe('readDates', () => {
 
   it('answers unknown-chain for a chain the sdk does not know and asks no source, the history included', async () => {
     const http = answering(() => chartOf(['zksync']));
-    const query: DateQuery = { chain: 'zksync', chainId: 'zksync', family: null, address: '0x1', asset };
+    const query: DateQuery = { chain: 'zksync', address: '0x1', asset };
     const results = await readDates([query], fakeDiscoverDeps({ http }, discoverConfig({ PRO_API_KEY: 'prokey' })));
 
     expect(results.map(({ reason }) => reason)).toEqual(['unknown-chain']);
@@ -35,9 +35,9 @@ describe('readDates', () => {
 
   it('asks the history source only for what no reader dated, never over a date a reader found', async () => {
     const queries: DateQuery[] = [
-      { chain: 'icp', chainId: 'icp', family: 'icp', address: 'ryjl3-tyaaa-aaaaa-aaaba-cai', asset },
-      { chain: 'tron', chainId: 'tron', family: 'tron', address: 'T1', asset },
-      { chain: 'tron', chainId: 'tron', family: 'tron', address: 'Tgone', asset },
+      { chain: 'icp', address: 'ryjl3-tyaaa-aaaaa-aaaba-cai', asset },
+      { chain: 'tron', address: 'T1', asset },
+      { chain: 'tron', address: 'Tgone', asset },
     ];
     const http = answering(({ url }) => {
       if (url.startsWith(CHART)) return chartOf(['icp', 'tron']);
@@ -52,7 +52,7 @@ describe('readDates', () => {
     ]);
   });
 
-  it("keeps the reader's null for a capped read with a cursor or a chart that fails, and dates a rate-limited one", async () => {
+  it("dates a capped read and a rate-limited one at the first stored day, and keeps the reader's null when the chart fails", async () => {
     const solana = { ...discoverConfig({ PRO_API_KEY: 'prokey' }) };
     const capped = {
       ...solana,
@@ -72,12 +72,10 @@ describe('readDates', () => {
     );
     const results = await readDates(
       [
-        { chain: 'solana', chainId: 'solana', family: 'solana', address: 'Mint1', asset },
-        { chain: 'cronos', chainId: 'cronos', family: 'evm', address: '0x1', asset },
+        { chain: 'solana', address: 'Mint1', asset },
+        { chain: 'cronos', address: '0x1', asset },
         {
           chain: 'icp',
-          chainId: 'icp',
-          family: 'icp',
           address: 'mxzaz-hqaaa-aaaar-qaada-cai',
           asset: { ...asset, legacyId: 9 },
         },
@@ -86,17 +84,9 @@ describe('readDates', () => {
     );
 
     expect(results.map(({ date, reason }) => [date, reason])).toEqual([
-      [null, 'page-cap'],
+      ['2024-01-01', null],
       ['2024-01-01', null],
       [null, 'no-reader'],
     ]);
-  });
-});
-
-describe('the datable families', () => {
-  it('are exactly the families a reader exists for', async () => {
-    const { dateReaders } = await import('../../../src/discover/readers');
-    const { DATABLE_FAMILIES } = await import('../../../src/registry/chains');
-    expect([...DATABLE_FAMILIES].sort()).toEqual(dateReaders.map((reader) => reader.family).sort());
   });
 });

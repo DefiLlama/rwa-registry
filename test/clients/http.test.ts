@@ -14,7 +14,7 @@ describe('createHttp', () => {
       .catch((caught: unknown) => caught);
 
     expect(error).toBeInstanceOf(RateLimitedError);
-    expect(error).toMatchObject({ reason: 'rate-limited', source: 'stablecoins' });
+    expect(error).toMatchObject({ reason: 'rate-limited', message: expect.stringMatching(/^stablecoins: /) });
     expect((error as Error).message).not.toContain('secret-key');
   });
 
@@ -57,6 +57,6 @@ describe('createHttp', () => {
     const error = await http.json({ label: 'etherscan', url: `https://127.0.0.1:${port}/` }).catch((caught) => caught);
 
     expect(error).toBeInstanceOf(TimeoutError);
-    expect(error).toMatchObject({ reason: 'timeout', source: 'etherscan' });
+    expect(error).toMatchObject({ reason: 'timeout', message: expect.stringMatching(/^etherscan: /) });
   });
 });

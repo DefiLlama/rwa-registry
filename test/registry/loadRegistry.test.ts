@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { assetFile, baseTree, load } from '../fixtures/tree';
+import { ackFile, assetFile, baseTree, load } from '../fixtures/tree';
 
 describe('loadRegistry', () => {
   it('reads an asset file into asset, deployment, label and role rows, and a market venue from its folder', () => {
@@ -45,7 +45,7 @@ describe('loadRegistry', () => {
   });
 
   it('reads an ack from acks/<kind>/ beside the registry with its kind from the folder, and refuses a flat ack and one inside the registry', () => {
-    const ack = { slug: 'tslax', asset: 'tslax', from: '2026-01-01', reason: 'r', resolve: 'r' };
+    const ack = ackFile();
     const { registry, problems } = load({
       ...baseTree(),
       '../acks/flows-hidden/tslax.json': ack,
@@ -70,15 +70,18 @@ describe('loadRegistry', () => {
     ]);
   });
 
-  it('needs a platform.json of kind platform in every asset folder, in one home only', () => {
+  it('needs a platform.json of kind platform in every asset folder, in one home only, one error each', () => {
     const { problems } = load({
       ...baseTree(),
       'assets/foo/foo-token.json': assetFile('foo-token', 9001),
       'reference/organizations/issuer/xstocks.json': { identity: { slug: 'xstocks', name: 'xStocks' } },
+      'assets/bar/bar-token.json': assetFile('bar-token', 9002),
+      'reference/organizations/issuer/bar.json': { identity: { slug: 'bar', name: 'Bar' } },
     });
 
     expect(problems.map((problem) => problem.error).sort()).toEqual([
       'DuplicateKeyError',
+      'PlatformFolderError',
       'PlatformFolderError',
       'PlatformFolderError',
     ]);

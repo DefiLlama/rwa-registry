@@ -5,19 +5,12 @@ import { alchemyUrl } from '../../../src/discover/readers/alchemy';
 import { evm } from '../../../src/discover/readers/evm';
 import { solana } from '../../../src/discover/readers/solana';
 import { answering, discoverConfig, fakeDiscoverDeps } from '../../fakes/discover';
-import { fakeRpc } from '../../fakes/rpc';
+import { fakeChain, fakeRpc } from '../../fakes/rpc';
 import { evmNode } from './jsonRpc';
 
 const ADDRESS = '0x6604b5da093f3f35066c6c79e51d581a44c35288';
-const evmQuery = (chain: string): DateQuery => ({ chain, chainId: chain, family: 'evm', address: ADDRESS });
+const evmQuery = (chain: string): DateQuery => ({ chain, address: ADDRESS });
 const keyed = discoverConfig({ ALCHEMY_KEY: 'test-key' });
-
-const publicCode = (first: number) =>
-  fakeRpc({
-    evmHead: vi.fn(async () => 100),
-    evmHasCode: vi.fn(async ({ block }: { block: number }) => block >= first),
-    evmBlockTime: vi.fn(async (_chain: string, block: number) => 1751241600 + block * 86_400),
-  });
 
 describe('alchemy node', () => {
   it("builds a chain's URL from the ALCHEMY_KEY placeholder and its subdomain, and none without either", () => {
@@ -31,11 +24,11 @@ describe('alchemy node', () => {
 
   it('runs the code search on the Alchemy node of a chain it serves, with a source that holds no key', async () => {
     const http = evmNode(37);
-    const rpc = publicCode(37);
+    const rpc = fakeChain(37);
     const [result] = await evm.read([evmQuery('base')], fakeDiscoverDeps({ http, rpc }, keyed));
     const urls = vi.mocked(http.json).mock.calls.map(([request]: [HttpRequest]) => request.url);
 
-    expect(result).toMatchObject({ date: '2025-08-06', block: 37, basis: 'first-code' });
+    expect(result).toMatchObject({ date: '2025-06-30', block: 37, basis: 'first-code' });
     expect(result.source).toContain('alchemy');
     expect(result.source).not.toContain('test-key');
     expect(new Set(urls)).toEqual(new Set(['https://base-mainnet.g.alchemy.com/v2/test-key']));
@@ -44,8 +37,8 @@ describe('alchemy node', () => {
 
   it('falls back to the public node for a chain with no subdomain, or when the key is missing', async () => {
     const http = evmNode(37);
-    const [unserved] = await evm.read([evmQuery('cronos')], fakeDiscoverDeps({ http, rpc: publicCode(37) }, keyed));
-    const [unkeyed] = await evm.read([evmQuery('base')], fakeDiscoverDeps({ http, rpc: publicCode(37) }));
+    const [unserved] = await evm.read([evmQuery('cronos')], fakeDiscoverDeps({ http, rpc: fakeChain(37) }, keyed));
+    const [unkeyed] = await evm.read([evmQuery('base')], fakeDiscoverDeps({ http, rpc: fakeChain(37) }));
 
     expect(unserved).toMatchObject({ block: 37, basis: 'first-code', source: expect.not.stringContaining('alchemy') });
     expect(unkeyed).toMatchObject({ block: 37, basis: 'first-code' });
@@ -74,7 +67,7 @@ describe('alchemy node', () => {
       ...keyed,
       sources: { ...keyed.sources, solana: { ...keyed.sources.solana, pageSize: 2, pagesPerRun: 5 } },
     };
-    const query: DateQuery = { chain: 'solana', chainId: 'solana', family: 'solana', address: 'Mint111' };
+    const query: DateQuery = { chain: 'solana', address: 'Mint111' };
     const [result] = await solana.read([query], fakeDiscoverDeps({ http, rpc }, config));
 
     expect(result).toMatchObject({ block: 996, basis: 'first-signature' });

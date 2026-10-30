@@ -5,8 +5,8 @@
 import { mkdtempSync, mkdirSync, writeFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { dirname, join } from 'node:path';
-import { loadRegistry, type Problem } from '../../src/registry';
-import { toFile, toRow, type Registry } from '../../src/schema';
+import { loadRegistry } from '../../src/registry';
+import { EVENT_KINDS, toFile, toRow } from '../../src/schema';
 
 export type Tree = Record<string, unknown>;
 
@@ -41,6 +41,12 @@ export const contractlessTslax = () => {
   return { ...tslax, deployments: [...tslax.deployments, { chain: 'base' }] };
 };
 
+// An asset file with fields of its class block changed, as an override is written.
+export const withClass = (file: Record<string, unknown>, fields: Record<string, unknown>) => ({
+  ...file,
+  class: { ...(file.class as object), ...fields },
+});
+
 // TSLAx with some fields changed, the fields named as the row names them, written back in the file shape.
 export const tslaxWith = (fields: Record<string, unknown>) =>
   toFile('asset', { ...toRow('asset', tslaxFile()), ...fields });
@@ -52,6 +58,32 @@ export const tslaMarketFile = () => ({
 
 export const marketWith = (fields: Record<string, unknown>) =>
   toFile('perp_market', { ...toRow('perp_market', tslaMarketFile()), ...fields });
+
+export const xstocksPlatform = () => ({
+  identity: { slug: 'xstocks', name: 'xStocks', legacyPid: 12 },
+  platform: { primaryChain: 'solana' },
+});
+
+export const xyzVenue = () => ({
+  slug: 'xyz',
+  organization: 'trade-xyz',
+  venueType: 'dex',
+  chain: 'hyperliquid',
+  adapter: 'hyperliquid',
+  published: true,
+  accessModel: 'permissionless',
+  rwaClassification: 'programmable-finance',
+});
+
+// A flows-hidden ack on TSLAx, the shape most kinds share.
+export const ackFile = (fields: Record<string, unknown> = {}) => ({
+  slug: 'tslax',
+  asset: 'tslax',
+  from: '2026-06-01',
+  reason: 'test',
+  resolve: 'test',
+  ...fields,
+});
 
 export const baseTree = (): Tree => ({
   'reference/vocabularies/type.json': values(['asset', 'Asset'], ['wrapper', 'Wrapper']),
@@ -68,20 +100,21 @@ export const baseTree = (): Tree => ({
   'reference/vocabularies/access-model.json': values(['permissionless', 'Permissionless']),
   'reference/vocabularies/venue-type.json': values(['dex', 'dex'], ['cex', 'cex']),
   'reference/vocabularies/organization-kind.json': values(
+    ['auditor', 'auditor'],
     ['issuer', 'issuer'],
     ['oracle', 'oracle'],
     ['platform', 'platform'],
+    ['tokenizer', 'tokenizer'],
     ['venue-operator', 'venue-operator'],
   ),
-  'reference/vocabularies/role-kind.json': values(['issuer', 'issuer'], ['oracle', 'oracle'], ['auditor', 'auditor']),
+  'reference/vocabularies/role-kind.json': values(
+    ['issuer', 'issuer'],
+    ['tokenizer', 'tokenizer'],
+    ['oracle', 'oracle'],
+    ['auditor', 'auditor'],
+  ),
   'reference/vocabularies/event-kind.json': values(
-    ['delisting', 'delisting'],
-    ['listing', 'listing'],
-    ['split', 'split'],
-    ['paused', 'paused'],
-    ['resumed', 'resumed'],
-    ['review', 'review'],
-    ['merge', 'merge'],
+    ...Object.keys(EVENT_KINDS).map((kind): [string, string] => [kind, kind]),
   ),
   'reference/vocabularies/label-kind.json': values(['excluded-holder', 'excluded-holder']),
   'reference/underlyings/equity/tesla-inc.json': {
@@ -94,21 +127,9 @@ export const baseTree = (): Tree => ({
     identity: { slug: 'backed-assets-je-limited', name: 'Backed Assets (JE) Limited' },
   },
   'perps/xyz/organization.json': { identity: { slug: 'trade-xyz', name: 'trade[XYZ]', legacyPid: 219 } },
-  'assets/xstocks/platform.json': {
-    identity: { slug: 'xstocks', name: 'xStocks', legacyPid: 12 },
-    platform: { primaryChain: 'solana' },
-  },
+  'assets/xstocks/platform.json': xstocksPlatform(),
   'assets/xstocks/tslax.json': tslaxFile(),
-  'perps/xyz/venue.json': {
-    slug: 'xyz',
-    organization: 'trade-xyz',
-    venueType: 'dex',
-    chain: 'hyperliquid',
-    adapter: 'hyperliquid',
-    published: true,
-    accessModel: 'permissionless',
-    rwaClassification: 'programmable-finance',
-  },
+  'perps/xyz/venue.json': xyzVenue(),
   'perps/xyz/tsla.json': tslaMarketFile(),
 });
 
@@ -126,6 +147,5 @@ export const writeTree = (tree: Tree): string => {
 export const assetFile = (slug: string, legacyId: number, fields: Record<string, unknown> = {}) =>
   tslaxWith({ slug, legacyId, canonicalMarketId: slug.toUpperCase(), deployments: [], roles: [], ...fields });
 
-export const load = (tree: Tree, base: Registry | null = null) => loadRegistry(writeTree(tree), base);
+export const load = (tree: Tree) => loadRegistry(writeTree(tree));
 export const registryOf = (tree: Tree) => load(tree).registry;
-export const errorsIn = (problems: Problem[]) => problems.filter((problem) => problem.severity === 'error');

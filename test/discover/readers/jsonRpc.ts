@@ -6,7 +6,7 @@ import type { HttpRequest } from '../../../src/clients/http';
 import { answering } from '../../fakes/discover';
 
 const hex = (value: number) => `0x${value.toString(16)}`;
-// A day a block, so the code search runs to the exact block.
+// A day a block from block 37 on 2025-06-30, as fakeChain, so the code search runs to the exact block.
 const DAY = 86_400;
 
 interface Call {
@@ -19,6 +19,7 @@ export const evmNode = (first: number, head = 100) =>
     const { method, params } = body as Call;
     if (method === 'eth_blockNumber') return { result: hex(head) };
     if (method === 'eth_getCode') return { result: Number(params[1]) >= first ? '0x6080' : '0x' };
-    if (method === 'eth_getBlockByNumber') return { result: { timestamp: hex(1751241600 + Number(params[0]) * DAY) } };
+    if (method === 'eth_getBlockByNumber')
+      return { result: { timestamp: hex(1751241600 + (Number(params[0]) - 37) * DAY) } };
     return { error: { code: -32601, message: `no ${method}` } };
   });

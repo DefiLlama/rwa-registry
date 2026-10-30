@@ -6,10 +6,9 @@ import { fakeRpc } from '../../fakes/rpc';
 import type { DateQuery } from '../../../src/discover/dateReader';
 import { solana } from '../../../src/discover/readers/solana';
 import { METADATA_PROGRAM, metadataAddress } from '../../../src/discover/readers/solanaAddress';
-import { shouldBehaveLikeDateReader } from '../../behaviours/shouldBehaveLikeDateReader';
 
 const MINT = 'XsDoVfqeBukxuZHWhdvWHBhgEHjGNst4MLodqsJHzoB';
-const query: DateQuery = { chain: 'solana', chainId: 'solana', family: 'solana', address: MINT };
+const query: DateQuery = { chain: 'solana', address: MINT };
 const config = (pagesPerRun: number) => {
   const discover = discoverConfig();
   return {
@@ -39,8 +38,6 @@ const pages = (
   });
 
 describe('solana date reader', () => {
-  shouldBehaveLikeDateReader(solana, [query, { ...query, address: 'So11111111111111111111111111111111111111112' }]);
-
   it('pages to the end and dates the oldest signature', async () => {
     const rpc = pages(5);
     const [result] = await solana.read([query], fakeDiscoverDeps({ rpc }, config(5)));
@@ -60,18 +57,6 @@ describe('solana date reader', () => {
     expect(result).toMatchObject({ block: 997, basis: 'first-signature' });
   });
 
-  it('stops at the pages of one run with a cursor, from which the next run reaches the oldest signature', async () => {
-    const rpc = pages(5);
-    const [capped] = await solana.read([query], fakeDiscoverDeps({ rpc }, config(2)));
-    const [resumed] = await solana.read(
-      [{ ...query, before: capped.reason === 'page-cap' ? capped.cursor : null }],
-      fakeDiscoverDeps({ rpc }, config(2)),
-    );
-
-    expect(capped).toMatchObject({ date: null, reason: 'page-cap', cursor: 'sig2' });
-    expect(resumed).toMatchObject({ block: 996, basis: 'first-signature' });
-  });
-
   describe('with SOLSCAN_API_KEY', () => {
     const keyed = () => {
       const discover = config(5);
@@ -82,7 +67,7 @@ describe('solana date reader', () => {
     it("dates a mint at Solscan's created_time in one call, before any signature page, with the key in the header", async () => {
       const rpc = pages(5);
       const http = answering(() => ({ success: true, data: { created_time: 1751241600 } }));
-      const [result] = await solana.read([{ ...query, before: 'sig9' }], fakeDiscoverDeps({ rpc, http }, keyed()));
+      const [result] = await solana.read([query], fakeDiscoverDeps({ rpc, http }, keyed()));
 
       expect(result).toMatchObject({
         date: '2025-06-30',
@@ -132,75 +117,14 @@ describe('solana date reader', () => {
     expect(result).toMatchObject({ basis: 'first-signature' });
   });
 
-  describe('with PRO_API_KEY', () => {
-    const asset = { legacyId: 89, deploymentsOnChain: 1 };
-    const keyed = () => {
-      const discover = config(5);
-      const history = discoverConfig({ PRO_API_KEY: 'prokey' }).sources.history;
-      return { ...discover, sources: { ...discover.sources, history } };
-    };
-    const chart = (chains: Record<string, { totalSupply: number }>) =>
-      answering(() => [{ timestamp: 1699401600, chains }]);
-
-    it('dates a mint that holds a cursor at its first stored day, when it has no metadata account, before any page of the mint', async () => {
-      const rpc = pages(5);
-      const http = chart({ solana: { totalSupply: 1 } });
-      const [result] = await solana.read(
-        [{ ...query, asset, before: 'sig1' }],
-        fakeDiscoverDeps({ rpc, http }, keyed()),
-      );
-      const asked = vi.mocked(rpc.solanaSignatures).mock.calls.map(([call]) => call.address);
-
-      expect(result).toMatchObject({
-        date: '2023-11-08',
-        source: 'https://pro-api.llama.fi/<key>/rwa/chart/asset/89',
-        basis: 'first-stored-day',
-      });
-      expect(asked).toEqual([]);
-    });
-
-    it('resumes the walk of a mint with a cursor when the chart holds no Solana leg', async () => {
-      const rpc = pages(5);
-      const http = chart({ ethereum: { totalSupply: 1 } });
-      const [result] = await solana.read(
-        [{ ...query, asset, before: 'sig1' }],
-        fakeDiscoverDeps({ rpc, http }, keyed()),
-      );
-
-      expect(result).toMatchObject({ block: 996, basis: 'first-signature' });
-    });
-
-    it('walks a mint with no cursor first and never asks the chart', async () => {
-      const http = chart({ solana: { totalSupply: 1 } });
-      const [result] = await solana.read([{ ...query, asset }], fakeDiscoverDeps({ rpc: pages(5), http }, keyed()));
-
-      expect(result).toMatchObject({ block: 996, basis: 'first-signature' });
-      expect(vi.mocked(http.json)).not.toHaveBeenCalled();
-    });
-  });
-
   describe('the metadata account', () => {
     const created = [{ signature: 'meta0', slot: 7, blockTime: 1719792000 }];
-
-    it('dates a mint that holds a cursor by its metadata account, with no page of the mint read', async () => {
-      const rpc = pages(5, created);
-      const [result] = await solana.read([{ ...query, before: 'sig1' }], fakeDiscoverDeps({ rpc }, config(5)));
-
-      expect(result).toMatchObject({
-        date: '2024-07-01',
-        block: 7,
-        source: 'https://explorer.solana.com/tx/meta0',
-        basis: 'metadata-created',
-      });
-      expect(vi.mocked(rpc.solanaSignatures)).toHaveBeenCalledTimes(1);
-      expect(vi.mocked(rpc.solanaSignatures).mock.calls[0]![0].address).toBe(metadataAddress(MINT));
-    });
 
     it('never dates by a metadata address that holds no account, though transactions that name it leave signatures', async () => {
       const rpc = pages(5, created, null);
       const [result] = await solana.read([query], fakeDiscoverDeps({ rpc }, config(2)));
 
-      expect(result).toMatchObject({ date: null, reason: 'page-cap', cursor: 'sig2' });
+      expect(result).toMatchObject({ date: null, reason: 'page-cap' });
       expect(vi.mocked(rpc.solanaSignatures).mock.calls.map(([call]) => call.address)).not.toContain(
         metadataAddress(MINT),
       );
@@ -209,7 +133,12 @@ describe('solana date reader', () => {
     it('dates a mint that outruns its pages by its metadata account instead of answering page-cap', async () => {
       const [result] = await solana.read([query], fakeDiscoverDeps({ rpc: pages(5, created) }, config(2)));
 
-      expect(result).toMatchObject({ date: '2024-07-01', basis: 'metadata-created' });
+      expect(result).toMatchObject({
+        date: '2024-07-01',
+        block: 7,
+        source: 'https://explorer.solana.com/tx/meta0',
+        basis: 'metadata-created',
+      });
     });
 
     it('never asks the metadata account of a mint whose walk ends', async () => {

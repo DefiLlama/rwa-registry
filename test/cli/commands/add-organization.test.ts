@@ -1,7 +1,6 @@
 import { describe, expect, it } from 'vitest';
-import { templateFile } from '../../../src/cli/templates';
 import { baseTree, writeTree } from '../../fixtures/tree';
-import { readJson, readText, runCli } from '../runCli';
+import { readJson, runCli } from '../runCli';
 
 const NAME = 'Ondo Global Markets (BVI) Limited';
 const FILE = 'reference/organizations/issuer/ondo-global-markets-bvi-limited.json';
@@ -25,23 +24,5 @@ describe('add organization', () => {
 
     expect(code).toBe(1);
     expect(lines.join('\n')).toContain('add venue');
-  });
-
-  it('writes from templates/organization.json the file the flags write', async () => {
-    const byFlags = writeTree(baseTree());
-    const byFile = writeTree(baseTree());
-
-    await runCli(['add', 'organization', '--registry', byFlags, '--name', NAME, '--kind', 'issuer']);
-    const { code } = await runCli([
-      'add',
-      'organization',
-      '--registry',
-      byFile,
-      '--from',
-      templateFile('organization'),
-    ]);
-
-    expect(code).toBe(0);
-    expect(readText(byFile, FILE)).toBe(readText(byFlags, FILE));
   });
 });

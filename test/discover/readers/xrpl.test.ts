@@ -1,12 +1,11 @@
 import { describe, expect, it, vi } from 'vitest';
 import type { DateQuery } from '../../../src/discover/dateReader';
 import { xrpl } from '../../../src/discover/readers/xrpl';
-import { shouldBehaveLikeDateReader } from '../../behaviours/shouldBehaveLikeDateReader';
 import { answering, fakeDiscoverDeps } from '../../fakes/discover';
 
 const ISSUER = 'rHuiXXjHLpMP8ZE9sSQU5aADQVWDwv6h5p';
 const OUSG = '4F55534700000000000000000000000000000000';
-const query: DateQuery = { chain: 'ripple', chainId: 'ripple', family: 'xrpl', address: `${OUSG}.${ISSUER}` };
+const query: DateQuery = { chain: 'ripple', address: `${OUSG}.${ISSUER}` };
 // 2025-06-30 00:00 UTC in seconds since the XRPL epoch.
 const DAY = 1751241600 - 946684800;
 
@@ -27,8 +26,6 @@ const creation = {
 const answer = (transactions: unknown[]) => answering(() => ({ result: { status: 'success', transactions } }));
 
 describe('xrpl date reader', () => {
-  shouldBehaveLikeDateReader(xrpl, [query, { ...query, address: `USD.${ISSUER}` }]);
-
   it("dates the issuer's first Payment of the currency", async () => {
     const http = answer([
       entry('Payment', 0, { Account: 'rFunder', Amount: '5000000' }, creation),

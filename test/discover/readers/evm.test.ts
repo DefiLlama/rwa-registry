@@ -2,14 +2,13 @@ import { describe, expect, it, vi } from 'vitest';
 import type { HttpRequest } from '../../../src/clients/http';
 import type { DateQuery } from '../../../src/discover/dateReader';
 import { evm } from '../../../src/discover/readers/evm';
-import { shouldBehaveLikeDateReader } from '../../behaviours/shouldBehaveLikeDateReader';
 import { answering, discoverConfig, fakeDiscoverDeps } from '../../fakes/discover';
-import { fakeRpc } from '../../fakes/rpc';
+import { fakeChain, fakeRpc } from '../../fakes/rpc';
 import { RateLimitedError, TimeoutError } from '../../../src/errors';
 import { evmNode } from './jsonRpc';
 
 const ETH = '0x8ad3c73f833d3f9a523ab01476625f269aeb7cf0';
-const query = (chain: string, address = ETH): DateQuery => ({ chain, chainId: chain, family: 'evm', address });
+const query = (chain: string, address = ETH): DateQuery => ({ chain, address });
 const keyed = discoverConfig({ ETHERSCAN_API_KEY: 'test-key' });
 const created = (address: string, timestamp: string) => ({
   contractAddress: address,
@@ -17,15 +16,15 @@ const created = (address: string, timestamp: string) => ({
   timestamp,
 });
 
-const codeFrom = (first: number) =>
-  fakeRpc({
-    evmHead: vi.fn(async () => 100),
-    evmHasCode: vi.fn(async ({ block }: { block: number }) => block >= first),
-    evmBlockTime: vi.fn(async (_chain: string, block: number) => 1751241600 + block * 86_400),
-  });
-
 describe('evm date reader', () => {
-  shouldBehaveLikeDateReader(evm, [query('ethereum'), query('ink')]);
+  it('answers a failed source with null and a reason for every query', async () => {
+    const results = await evm.read([query('ethereum'), query('ink')], fakeDiscoverDeps());
+
+    expect(results).toEqual([
+      expect.objectContaining({ date: null, reason: expect.any(String) }),
+      expect.objectContaining({ date: null, reason: expect.any(String) }),
+    ]);
+  });
 
   it('dates five addresses of a covered chain in one Etherscan call, with a source that holds no key', async () => {
     const addresses = Array.from({ length: 6 }, (_, index) => `0x${String(index).repeat(40)}`);
@@ -47,7 +46,7 @@ describe('evm date reader', () => {
   });
 
   it('finds the first block with code by binary search when there is no key, or the chain is not covered', async () => {
-    const rpc = codeFrom(37);
+    const rpc = fakeChain(37);
     const http = answering(() => ({
       status: '0',
       message: 'NOTOK',
@@ -56,12 +55,12 @@ describe('evm date reader', () => {
     const [unkeyed] = await evm.read([query('ethereum')], fakeDiscoverDeps({ rpc }));
     const [uncovered] = await evm.read([query('ethereum')], fakeDiscoverDeps({ rpc, http }, keyed));
 
-    expect(unkeyed).toMatchObject({ date: '2025-08-06', block: 37, basis: 'first-code' });
+    expect(unkeyed).toMatchObject({ date: '2025-06-30', block: 37, basis: 'first-code' });
     expect(uncovered).toMatchObject({ block: 37, basis: 'first-code' });
   });
 
   it('reads a rate-limit answer as rate-limited and never searches the code instead', async () => {
-    const rpc = codeFrom(37);
+    const rpc = fakeChain(37);
     const http = answering(() => ({
       status: '0',
       message: 'NOTOK',
@@ -74,7 +73,7 @@ describe('evm date reader', () => {
   });
 
   it('answers no-code for an address with no code at the head', async () => {
-    const [result] = await evm.read([query('ink')], fakeDiscoverDeps({ rpc: codeFrom(101) }));
+    const [result] = await evm.read([query('ink')], fakeDiscoverDeps({ rpc: fakeChain(101) }));
 
     expect(result).toMatchObject({ date: null, reason: 'no-code' });
   });
@@ -97,7 +96,7 @@ describe('evm date reader', () => {
 
   it('asks Etherscan once for a chain it refuses and names the refusal once per run, not once per batch', async () => {
     const http = answering(() => ({ status: '0', message: 'NOTOK', result: 'Free API access is not supported' }));
-    const deps = { ...fakeDiscoverDeps({ rpc: codeFrom(37), http }, keyed), log: vi.fn() };
+    const deps = { ...fakeDiscoverDeps({ rpc: fakeChain(37), http }, keyed), log: vi.fn() };
     const addresses = Array.from({ length: 12 }, (_, index) => `0x${String(index % 10).repeat(39)}${index}`);
     await evm.read(
       addresses.slice(0, 6).map((address) => query('arbitrum', address)),
@@ -164,7 +163,7 @@ describe('evm date reader on a Blockscout explorer', () => {
   it('answers a rate-limited explorer with null rate-limited and never searches the code instead', async () => {
     const limited = new RateLimitedError({ source: 'blockscout', reason: 'rate-limited', message: 'HTTP 429' });
     const http = answering(() => Promise.reject(limited));
-    const rpc = codeFrom(37);
+    const rpc = fakeChain(37);
     const [result] = await evm.read([query('robinhood')], fakeDiscoverDeps({ http, rpc }));
 
     expect(result).toMatchObject({ date: null, reason: 'rate-limited' });

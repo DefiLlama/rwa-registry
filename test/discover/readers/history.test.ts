@@ -7,8 +7,6 @@ import { answering, discoverConfig, fakeDiscoverDeps } from '../../fakes/discove
 const DAY = 86_400;
 const query: DateQuery = {
   chain: 'avax',
-  chainId: 'avax',
-  family: 'evm',
   address: '0xb3a66127ccb143bfb01d3aecd3ce9d17381b130d',
   asset: { legacyId: 621, deploymentsOnChain: 1 },
 };

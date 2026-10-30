@@ -1,10 +1,8 @@
 import { describe, expect, it } from 'vitest';
 import { deriveFields } from '../../src/registry/deriveFields';
-import { assetFile, baseTree, contractlessTslax, registryOf, tslaMarketFile, tslaxFile } from '../fixtures/tree';
+import { assetFile, baseTree, contractlessTslax, registryOf, tslaMarketFile, tslaxFile, withClass, xstocksPlatform, xyzVenue } from '../fixtures/tree';
 
-const eventKinds = ['listing', 'delisting', 'retirement', 'migration', 'split'].map((slug) => ({ slug, label: slug }));
-const derive = (tree: Record<string, unknown>, at = '2026-10-25') =>
-  deriveFields(registryOf({ ...baseTree(), 'reference/vocabularies/event-kind.json': eventKinds, ...tree }), at);
+const derive = (tree: Record<string, unknown>, at = '2026-10-25') => deriveFields(registryOf({ ...baseTree(), ...tree }), at);
 
 describe('deriveFields', () => {
   it('makes SKY both a stablecoin and a governance token, of kind governance', () => {
@@ -25,10 +23,6 @@ describe('deriveFields', () => {
   });
 
   it('publishes an override from the class block over the derived flag, and the kind follows the published flags', () => {
-    const withClass = (file: Record<string, unknown>, fields: Record<string, unknown>) => ({
-      ...file,
-      class: { ...(file.class as object), ...fields },
-    });
     const { asset } = derive({
       'reference/vocabularies/category.json': [
         { slug: 'stocks-equities', label: 'Stocks & Equities' },
@@ -65,14 +59,10 @@ describe('deriveFields', () => {
   it('derives status from the events at the build date', () => {
     const { asset, perp_market, venue, organization } = derive({
       'assets/xstocks/tslax.json': { ...tslaxFile(), events: [{ kind: 'retirement', date: '2026-10-24' }] },
-      'assets/xstocks/platform.json': {
-        identity: { slug: 'xstocks', name: 'xStocks', legacyPid: 12 },
-        platform: { primaryChain: 'solana' },
-        events: [{ kind: 'delisting', date: '2026-11-01' }],
-      },
+      'assets/xstocks/platform.json': { ...xstocksPlatform(), events: [{ kind: 'delisting', date: '2026-11-01' }] },
       'perps/xyz/tsla.json': { ...tslaMarketFile(), events: [{ kind: 'delisting', date: null }] },
       'perps/xyz/venue.json': {
-        ...(baseTree()['perps/xyz/venue.json'] as object),
+        ...xyzVenue(),
         events: [
           { kind: 'delisting', date: '2026-03-01' },
           { kind: 'listing', date: '2026-06-01' },
@@ -110,10 +100,7 @@ describe('deriveFields', () => {
 
   it("takes the primary chain from the primary deployment, else the platform's, and the protocol ids from the issuer roles", () => {
     const { asset } = derive({
-      'assets/xstocks/platform.json': {
-        identity: { slug: 'xstocks', name: 'xStocks', legacyPid: 12 },
-        platform: { primaryChain: 'ethereum' },
-      },
+      'assets/xstocks/platform.json': { ...xstocksPlatform(), platform: { primaryChain: 'ethereum' } },
       'assets/xstocks/tslay.json': assetFile('tslay', 9001, {
         roles: [{ organization: 'backed-assets-je-limited', kind: 'issuer', protocolIds: [6378] }],
       }),

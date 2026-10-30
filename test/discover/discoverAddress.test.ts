@@ -1,7 +1,7 @@
 import { describe, expect, it, vi } from 'vitest';
 import { discoverAddress } from '../../src/discover/discoverAddress';
 import { fakeDiscoverDeps } from '../fakes/discover';
-import { fakeRpc } from '../fakes/rpc';
+import { fakeChain, fakeRpc } from '../fakes/rpc';
 
 describe('discoverAddress', () => {
   it('reads what the chain says of an address: symbol, name, decimals, supply now and the deployment date', async () => {
@@ -11,12 +11,7 @@ describe('discoverAddress', () => {
       'erc20:decimals': '18',
       'erc20:totalSupply': '45000000000000000000000',
     };
-    const rpc = fakeRpc({
-      evmCall: vi.fn(async ({ abi, calls }) => calls.map(() => answers[abi])),
-      evmHead: vi.fn(async () => 100),
-      evmHasCode: vi.fn(async ({ block }: { block: number }) => block >= 37),
-      evmBlockTime: vi.fn(async () => 1751241600),
-    });
+    const rpc = fakeChain(37, { evmCall: vi.fn(async ({ abi, calls }) => calls.map(() => answers[abi])) });
     const facts = await discoverAddress(
       'ethereum:0x8AD3C73F833D3F9A523AB01476625F269AEB7CF0',
       fakeDiscoverDeps({ rpc }),

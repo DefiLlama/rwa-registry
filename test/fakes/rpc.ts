@@ -1,5 +1,5 @@
 /**
- * The fake chain reads discover asks: every read rejects as not faked unless a test gives it; failingRpc is the source every shared suite runs against.
+ * The fake chain reads discover asks, each rejecting unless a test fakes it, and fakeChain, the one fake EVM chain.
  * @dev review: src/discover/discoverDeps.ts
  */
 import { vi } from 'vitest';
@@ -16,14 +16,18 @@ const CHAIN_READS = [
   'solanaOwner',
 ] as const satisfies readonly (keyof ChainReads)[];
 
-const rejectingWith = (message: (method: string) => string): ChainReads =>
-  Object.fromEntries(
-    CHAIN_READS.map((method) => [method, vi.fn(async () => Promise.reject(new Error(message(method))))]),
-  ) as unknown as ChainReads;
-
 export const fakeRpc = (reads: Partial<ChainReads> = {}): ChainReads => ({
-  ...rejectingWith((method) => `${method} is not faked`),
+  ...(Object.fromEntries(
+    CHAIN_READS.map((method) => [method, vi.fn(async () => Promise.reject(new Error(`${method} is not faked`)))]),
+  ) as unknown as ChainReads),
   ...reads,
 });
 
-export const failingRpc = (): ChainReads => rejectingWith(() => 'source down');
+// Head 100, code from block first, and one block a day with block 37 on 2025-06-30.
+export const fakeChain = (first = 37, reads: Partial<ChainReads> = {}): ChainReads =>
+  fakeRpc({
+    evmHead: vi.fn(async () => 100),
+    evmHasCode: vi.fn(async ({ block }: { block: number }) => block >= first),
+    evmBlockTime: vi.fn(async (_chain: string, block: number) => 1751241600 + (block - 37) * 86_400),
+    ...reads,
+  });
