@@ -2,7 +2,7 @@
   "identity": {
     "slug": "vgshrh",
     "symbol": "VGSH",
-    "name": "Vanguard Short-Term Government Bond ETF • Robinhood Token",
+    "name": "Vanguard Short-Term Government Bond ETF - Robinhood Token",
     "legacyId": 2543,
     "canonicalMarketId": "VGSHrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

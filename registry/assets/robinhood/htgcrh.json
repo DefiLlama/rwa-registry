@@ -2,7 +2,7 @@
   "identity": {
     "slug": "htgcrh",
     "symbol": "HTGC",
-    "name": "Hercules Capital, Inc. • Robinhood Token",
+    "name": "Hercules Capital, Inc. - Robinhood Token",
     "legacyId": 1547,
     "canonicalMarketId": "HTGCrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

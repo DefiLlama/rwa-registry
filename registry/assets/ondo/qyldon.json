@@ -12,7 +12,7 @@
   "class": {
     "structure": "etf-backed",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "etfs"
     ]
@@ -29,9 +29,7 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "US37954Y4834",
-        "source": null,
-        "verified": false
+        "value": "US37954Y4834"
       }
     ]
   },
@@ -47,8 +45,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

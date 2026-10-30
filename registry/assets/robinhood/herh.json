@@ -2,7 +2,7 @@
   "identity": {
     "slug": "herh",
     "symbol": "HE",
-    "name": "Hawaiian Electric Industries, Inc. • Robinhood Token",
+    "name": "Hawaiian Electric Industries, Inc. - Robinhood Token",
     "legacyId": 1517,
     "canonicalMarketId": "HErh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

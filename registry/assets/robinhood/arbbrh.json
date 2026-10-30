@@ -2,7 +2,7 @@
   "identity": {
     "slug": "arbbrh",
     "symbol": "ARBB",
-    "name": "ARB IOT Group Ltd. • Robinhood Token",
+    "name": "ARB IOT Group Ltd. - Robinhood Token",
     "legacyId": 893,
     "canonicalMarketId": "ARBBrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

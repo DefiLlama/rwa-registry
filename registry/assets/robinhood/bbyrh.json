@@ -2,7 +2,7 @@
   "identity": {
     "slug": "bbyrh",
     "symbol": "BBY",
-    "name": "Best Buy Co., Inc. • Robinhood Token",
+    "name": "Best Buy Co., Inc. - Robinhood Token",
     "legacyId": 961,
     "canonicalMarketId": "BBYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "idrrh",
     "symbol": "IDR",
-    "name": "Idaho Strategic Resources, Inc. • Robinhood Token",
+    "name": "Idaho Strategic Resources, Inc. - Robinhood Token",
     "legacyId": 1575,
     "canonicalMarketId": "IDRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "trmdrh",
     "symbol": "TRMD",
-    "name": "TORM plc • Robinhood Token",
+    "name": "TORM plc - Robinhood Token",
     "legacyId": 2424,
     "canonicalMarketId": "TRMDrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -12,7 +12,7 @@
   "class": {
     "structure": "stock-backed",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "stocks-equities"
     ]
@@ -26,15 +26,7 @@
     "attestationFrequency": "Daily"
   },
   "sources": {
-    "coingeckoId": "amazon-astock",
-    "identifiers": [
-      {
-        "scheme": "isin",
-        "value": "US0231351067",
-        "source": null,
-        "verified": false
-      }
-    ]
+    "coingeckoId": "amazon-astock"
   },
   "about": {
     "description": "Tokenized Amazon. Each token is backed 1:1 by the underlying share, purchased through a FINRA-registered broker-dealer and held in regulated custody, and is redeemable for stablecoins.",
@@ -48,8 +40,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

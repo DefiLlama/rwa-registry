@@ -2,7 +2,7 @@
   "identity": {
     "slug": "vbrh",
     "symbol": "VB",
-    "name": "Vanguard Small-Cap ETF • Robinhood Token",
+    "name": "Vanguard Small-Cap ETF - Robinhood Token",
     "legacyId": 2525,
     "canonicalMarketId": "VBrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

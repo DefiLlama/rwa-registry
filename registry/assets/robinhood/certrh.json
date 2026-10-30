@@ -2,7 +2,7 @@
   "identity": {
     "slug": "certrh",
     "symbol": "CERT",
-    "name": "Certara, Inc. • Robinhood Token",
+    "name": "Certara, Inc. - Robinhood Token",
     "legacyId": 1079,
     "canonicalMarketId": "CERTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

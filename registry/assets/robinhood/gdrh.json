@@ -2,7 +2,7 @@
   "identity": {
     "slug": "gdrh",
     "symbol": "GD",
-    "name": "General Dynamics Corp. • Robinhood Token",
+    "name": "General Dynamics Corp. - Robinhood Token",
     "legacyId": 1434,
     "canonicalMarketId": "GDrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

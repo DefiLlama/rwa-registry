@@ -2,7 +2,7 @@
   "identity": {
     "slug": "acglrh",
     "symbol": "ACGL",
-    "name": "Arch Capital Group Ltd. • Robinhood Token",
+    "name": "Arch Capital Group Ltd. - Robinhood Token",
     "legacyId": 793,
     "canonicalMarketId": "ACGLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

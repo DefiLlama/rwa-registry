@@ -2,7 +2,7 @@
   "identity": {
     "slug": "pstvrh",
     "symbol": "PSTV",
-    "name": "Plus Therapeutics, Inc. • Robinhood Token",
+    "name": "Plus Therapeutics, Inc. - Robinhood Token",
     "legacyId": 2083,
     "canonicalMarketId": "PSTVrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

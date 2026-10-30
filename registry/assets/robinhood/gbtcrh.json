@@ -2,7 +2,7 @@
   "identity": {
     "slug": "gbtcrh",
     "symbol": "GBTC",
-    "name": "Grayscale Bitcoin Trust ETF • Robinhood Token",
+    "name": "Grayscale Bitcoin Trust ETF - Robinhood Token",
     "legacyId": 1424,
     "canonicalMarketId": "GBTCrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

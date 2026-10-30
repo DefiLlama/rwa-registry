@@ -2,7 +2,7 @@
   "identity": {
     "slug": "opairh",
     "symbol": "OPAI",
-    "name": "OpenAI Holdings ETF • Robinhood Token",
+    "name": "OpenAI Holdings ETF - Robinhood Token",
     "legacyId": 1972,
     "canonicalMarketId": "OPAIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

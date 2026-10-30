@@ -2,7 +2,7 @@
   "identity": {
     "slug": "itotrh",
     "symbol": "ITOT",
-    "name": "iShares Core S&P Total US Stock Market ETF • Robinhood Token",
+    "name": "iShares Core S&P Total US Stock Market ETF - Robinhood Token",
     "legacyId": 1624,
     "canonicalMarketId": "ITOTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ppltrh",
     "symbol": "PPLT",
-    "name": "abrdn Platinum ETF Trust • Robinhood Token",
+    "name": "abrdn Platinum ETF Trust - Robinhood Token",
     "legacyId": 2063,
     "canonicalMarketId": "PPLTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

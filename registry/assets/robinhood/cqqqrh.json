@@ -2,7 +2,7 @@
   "identity": {
     "slug": "cqqqrh",
     "symbol": "CQQQ",
-    "name": "ProShares UltraShort Nasdaq-100 • Robinhood Token",
+    "name": "ProShares UltraShort Nasdaq-100 - Robinhood Token",
     "legacyId": 1159,
     "canonicalMarketId": "CQQQrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

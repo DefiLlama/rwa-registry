@@ -2,7 +2,7 @@
   "identity": {
     "slug": "kmxrh",
     "symbol": "KMX",
-    "name": "CarMax, Inc. • Robinhood Token",
+    "name": "CarMax, Inc. - Robinhood Token",
     "legacyId": 1683,
     "canonicalMarketId": "KMXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

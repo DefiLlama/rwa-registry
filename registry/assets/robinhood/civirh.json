@@ -2,7 +2,7 @@
   "identity": {
     "slug": "civirh",
     "symbol": "CIVI",
-    "name": "SM Energy • Robinhood Token",
+    "name": "SM Energy - Robinhood Token",
     "legacyId": 1107,
     "canonicalMarketId": "CIVIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

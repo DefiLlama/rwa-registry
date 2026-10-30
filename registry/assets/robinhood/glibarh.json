@@ -2,7 +2,7 @@
   "identity": {
     "slug": "glibarh",
     "symbol": "GLIBA",
-    "name": "GCI Liberty, Inc. • Robinhood Token",
+    "name": "GCI Liberty, Inc. - Robinhood Token",
     "legacyId": 1457,
     "canonicalMarketId": "GLIBArh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

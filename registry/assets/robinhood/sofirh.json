@@ -2,7 +2,7 @@
   "identity": {
     "slug": "sofirh",
     "symbol": "SOFI",
-    "name": "SoFi Technologies, Inc. • Robinhood Token",
+    "name": "SoFi Technologies, Inc. - Robinhood Token",
     "legacyId": 2281,
     "canonicalMarketId": "SOFIrh"
   },
@@ -35,8 +35,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -67,6 +66,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://robinhood.com/eu/en/about/"
+      ],
+      "protocolIds": [
+        3732
       ]
     },
     {

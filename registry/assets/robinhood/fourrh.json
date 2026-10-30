@@ -2,7 +2,7 @@
   "identity": {
     "slug": "fourrh",
     "symbol": "FOUR",
-    "name": "Shift4 Payments, Inc. • Robinhood Token",
+    "name": "Shift4 Payments, Inc. - Robinhood Token",
     "legacyId": 1397,
     "canonicalMarketId": "FOURrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

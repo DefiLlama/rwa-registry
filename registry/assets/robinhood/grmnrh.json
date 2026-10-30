@@ -2,7 +2,7 @@
   "identity": {
     "slug": "grmnrh",
     "symbol": "GRMN",
-    "name": "Garmin Ltd. • Robinhood Token",
+    "name": "Garmin Ltd. - Robinhood Token",
     "legacyId": 1488,
     "canonicalMarketId": "GRMNrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

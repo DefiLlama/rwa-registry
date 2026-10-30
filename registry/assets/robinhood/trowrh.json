@@ -2,7 +2,7 @@
   "identity": {
     "slug": "trowrh",
     "symbol": "TROW",
-    "name": "T. Rowe Price Group, Inc. • Robinhood Token",
+    "name": "T. Rowe Price Group, Inc. - Robinhood Token",
     "legacyId": 2426,
     "canonicalMarketId": "TROWrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

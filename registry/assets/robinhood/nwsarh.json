@@ -2,7 +2,7 @@
   "identity": {
     "slug": "nwsarh",
     "symbol": "NWSA",
-    "name": "News Corp. • Robinhood Token",
+    "name": "News Corp. - Robinhood Token",
     "legacyId": 1941,
     "canonicalMarketId": "NWSArh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

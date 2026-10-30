@@ -2,7 +2,7 @@
   "identity": {
     "slug": "stairh",
     "symbol": "STAI",
-    "name": "ScanTech AI Systems Inc. • Robinhood Token",
+    "name": "ScanTech AI Systems Inc. - Robinhood Token",
     "legacyId": 2332,
     "canonicalMarketId": "STAIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "egrh",
     "symbol": "EG",
-    "name": "Everest Group, Ltd. • Robinhood Token",
+    "name": "Everest Group, Ltd. - Robinhood Token",
     "legacyId": 1280,
     "canonicalMarketId": "EGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

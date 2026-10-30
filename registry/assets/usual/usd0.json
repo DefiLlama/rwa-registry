@@ -47,7 +47,7 @@
     ]
   },
   "about": {
-    "description": "USD0 is the Usual ecosystem’s USD-pegged stablecoin designed as a settlement asset for DeFi. It is positioned as fully collateralized by short-duration, high-quality liquid RWAs, primarily tokenized U.S. Treasury exposure and repo-style cash equivalents, with collateral sourced across multiple institutional providers. USD0 itself is non-yielding, while the ecosystem routes yield and incentives through separate products in the Usual stack.",
+    "description": "USD0 is the Usual ecosystem's USD-pegged stablecoin designed as a settlement asset for DeFi. It is positioned as fully collateralized by short-duration, high-quality liquid RWAs, primarily tokenized U.S. Treasury exposure and repo-style cash equivalents, with collateral sourced across multiple institutional providers. USD0 itself is non-yielding, while the ecosystem routes yield and incentives through separate products in the Usual stack.",
     "logo": "https://icons.llamao.fi/icons/rwa/usual.png?w=48&h=48",
     "links": {
       "website": [
@@ -58,8 +58,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

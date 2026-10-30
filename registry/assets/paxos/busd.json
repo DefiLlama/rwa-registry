@@ -12,7 +12,7 @@
   "class": {
     "structure": "usd-stable",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "fiat-stablecoins"
     ]
@@ -41,8 +41,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -276,6 +275,46 @@
       "chain": "xpla",
       "address": "ibc/a71fc27aa5a7fed3d451c0010962727a89f4ef183edf694e15c1f67e8fc1e51e",
       "deployedAt": null
+    },
+    {
+      "chain": "aura",
+      "address": null
+    },
+    {
+      "chain": "eti",
+      "address": null
+    },
+    {
+      "chain": "evmos",
+      "address": null
+    },
+    {
+      "chain": "injective",
+      "address": null
+    },
+    {
+      "chain": "iris",
+      "address": null
+    },
+    {
+      "chain": "tron",
+      "address": null
+    },
+    {
+      "chain": "axelar",
+      "address": "busd-wei"
+    },
+    {
+      "chain": "ibc",
+      "address": "6329dd8cf31a334dd5be3f68c846c9fe313281362b37686a62343bac1eb1546d"
+    },
+    {
+      "chain": "icon",
+      "address": "cxb49d82c46be6b61cab62aaf9824b597c6cf8a25d"
+    },
+    {
+      "chain": "waves",
+      "address": "8dliyzjo3uuarbthu7ayoqg4ihwb6yh1afxrrhdjq7k1"
     }
   ],
   "roles": [

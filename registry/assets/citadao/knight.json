@@ -24,7 +24,7 @@
     "yieldBearing": false
   },
   "about": {
-    "description": "KNIGHT is the governance and coordination token for CitaDAO, a real estate-focused protocol that structures property-linked positions into onchain assets designed for composability and collateral-style use cases. The platform’s framing is centered on making premium real estate exposure more accessible through fractional units and protocol-governed vault mechanics, with KNIGHT used for governance, incentives, and ecosystem alignment.",
+    "description": "KNIGHT is the governance and coordination token for CitaDAO, a real estate-focused protocol that structures property-linked positions into onchain assets designed for composability and collateral-style use cases. The platform's framing is centered on making premium real estate exposure more accessible through fractional units and protocol-governed vault mechanics, with KNIGHT used for governance, incentives, and ecosystem alignment.",
     "logo": "https://icons.llamao.fi/icons/rwa/citadao.png?w=48&h=48",
     "links": {
       "website": [
@@ -35,8 +35,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -58,6 +57,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://docs.citadao.io/intro/privacy"
+      ],
+      "protocolIds": [
+        2482
       ]
     }
   ]

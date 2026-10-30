@@ -2,7 +2,7 @@
   "identity": {
     "slug": "airh",
     "symbol": "AI",
-    "name": "C3.ai, Inc. • Robinhood Token",
+    "name": "C3.ai, Inc. - Robinhood Token",
     "legacyId": 832,
     "canonicalMarketId": "AIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

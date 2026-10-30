@@ -2,7 +2,7 @@
   "identity": {
     "slug": "hpqrh",
     "symbol": "HPQ",
-    "name": "HP Inc. • Robinhood Token",
+    "name": "HP Inc. - Robinhood Token",
     "legacyId": 1541,
     "canonicalMarketId": "HPQrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

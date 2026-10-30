@@ -2,7 +2,7 @@
   "identity": {
     "slug": "tslqrh",
     "symbol": "TSLQ",
-    "name": "Tradr 2X Short TSLA Daily ETF • Robinhood Token",
+    "name": "Tradr 2X Short TSLA Daily ETF - Robinhood Token",
     "legacyId": 2436,
     "canonicalMarketId": "TSLQrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

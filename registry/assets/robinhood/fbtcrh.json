@@ -2,7 +2,7 @@
   "identity": {
     "slug": "fbtcrh",
     "symbol": "FBTC",
-    "name": "Fidelity Wise Origin Bitcoin Fund • Robinhood Token",
+    "name": "Fidelity Wise Origin Bitcoin Fund - Robinhood Token",
     "legacyId": 2748,
     "canonicalMarketId": "FBTCrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

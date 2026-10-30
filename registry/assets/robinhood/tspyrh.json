@@ -2,7 +2,7 @@
   "identity": {
     "slug": "tspyrh",
     "symbol": "TSPY",
-    "name": "Tactical S&P 500 ETF • Robinhood Token",
+    "name": "Tactical S&P 500 ETF - Robinhood Token",
     "legacyId": 2447,
     "canonicalMarketId": "TSPYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

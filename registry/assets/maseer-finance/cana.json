@@ -29,11 +29,10 @@
     "yieldPoolIds": [
       "fda10983-9dcd-49e9-9332-b227dc244d5d",
       "dde4e536-0f20-4a73-b9b4-42ec2e24dc2b"
-    ],
-    "llamaAttestationProof": false
+    ]
   },
   "about": {
-    "description": "CANA is designed to provide tokenized price exposure to California Carbon Allowances (CCAs), the compliance instrument used in California’s cap-and-trade program. CCAs are issued and auctioned under a regulated framework, and their market price reflects compliance demand for emissions. CANA positions itself as a tokenized access point to that compliance carbon market rather than a voluntary offset product.",
+    "description": "CANA is designed to provide tokenized price exposure to California Carbon Allowances (CCAs), the compliance instrument used in California's cap-and-trade program. CCAs are issued and auctioned under a regulated framework, and their market price reflects compliance demand for emissions. CANA positions itself as a tokenized access point to that compliance carbon market rather than a voluntary offset product.",
     "logo": "https://icons.llamao.fi/icons/rwa/cana-holdings-california-carbon-credits.png?w=48&h=48",
     "links": {
       "website": [
@@ -44,13 +43,13 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
       "chain": "ethereum",
       "address": "0x01995a697752266d8e748738aaa3f06464b8350b",
+      "deployedAt": "2025-06-20",
       "primary": true,
       "labels": [
         {

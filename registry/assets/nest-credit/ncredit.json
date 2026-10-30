@@ -32,7 +32,7 @@
     ]
   },
   "about": {
-    "description": "nCREDIT is the receipt token for Nest’s credit vault, positioned as a blended credit allocation with additional yield components. Nest discloses a composition of private credit (70%), U.S. Treasuries (20%), and crypto basis strategy (10%), implemented via Goldfinch Prime (70%), Nest Treasury Vault (20%), and mBASIS (10%). NAV accrues as the underlying credit, treasury, and basis components earn yield. Redemptions follow vault settlement and liquidity rules (the vault description references monthly settlements)",
+    "description": "nCREDIT is the receipt token for Nest's credit vault, positioned as a blended credit allocation with additional yield components. Nest discloses a composition of private credit (70%), U.S. Treasuries (20%), and crypto basis strategy (10%), implemented via Goldfinch Prime (70%), Nest Treasury Vault (20%), and mBASIS (10%). NAV accrues as the underlying credit, treasury, and basis components earn yield. Redemptions follow vault settlement and liquidity rules (the vault description references monthly settlements)",
     "logo": "https://icons.llamao.fi/icons/rwa/ncredit.png?w=48&h=48",
     "links": {
       "website": [
@@ -43,8 +43,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

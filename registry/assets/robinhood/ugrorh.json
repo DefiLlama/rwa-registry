@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ugrorh",
     "symbol": "UGRO",
-    "name": "urban-gro, Inc. • Robinhood Token",
+    "name": "urban-gro, Inc. - Robinhood Token",
     "legacyId": 2479,
     "canonicalMarketId": "UGROrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

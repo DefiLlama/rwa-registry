@@ -2,7 +2,7 @@
   "identity": {
     "slug": "qyldrh",
     "symbol": "QYLD",
-    "name": "Global X NASDAQ 100 Covered Call ETF • Robinhood Token",
+    "name": "Global X NASDAQ 100 Covered Call ETF - Robinhood Token",
     "legacyId": 2116,
     "canonicalMarketId": "QYLDrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

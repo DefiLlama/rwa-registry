@@ -2,7 +2,7 @@
   "identity": {
     "slug": "pbfrh",
     "symbol": "PBF",
-    "name": "PBF Energy Inc. • Robinhood Token",
+    "name": "PBF Energy Inc. - Robinhood Token",
     "legacyId": 2002,
     "canonicalMarketId": "PBFrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

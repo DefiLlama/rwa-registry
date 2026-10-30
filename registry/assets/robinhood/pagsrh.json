@@ -2,7 +2,7 @@
   "identity": {
     "slug": "pagsrh",
     "symbol": "PAGS",
-    "name": "PagSeguro Digital Ltd. • Robinhood Token",
+    "name": "PagSeguro Digital Ltd. - Robinhood Token",
     "legacyId": 1995,
     "canonicalMarketId": "PAGSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

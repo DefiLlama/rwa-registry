@@ -2,7 +2,7 @@
   "identity": {
     "slug": "tbllrh",
     "symbol": "TBLL",
-    "name": "Invesco Short Term Treasury ETF • Robinhood Token",
+    "name": "Invesco Short Term Treasury ETF - Robinhood Token",
     "legacyId": 2370,
     "canonicalMarketId": "TBLLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

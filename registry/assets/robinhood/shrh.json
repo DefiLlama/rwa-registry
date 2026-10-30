@@ -2,7 +2,7 @@
   "identity": {
     "slug": "shrh",
     "symbol": "SH",
-    "name": "ProShares Short S&P 500 • Robinhood Token",
+    "name": "ProShares Short S&P 500 - Robinhood Token",
     "legacyId": 2235,
     "canonicalMarketId": "SHrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "xersrh",
     "symbol": "XERS",
-    "name": "Xeris Biopharma Holdings, Inc. • Robinhood Token",
+    "name": "Xeris Biopharma Holdings, Inc. - Robinhood Token",
     "legacyId": 2644,
     "canonicalMarketId": "XERSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

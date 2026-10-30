@@ -2,7 +2,7 @@
   "identity": {
     "slug": "gpcrh",
     "symbol": "GPC",
-    "name": "Genuine Parts Co. • Robinhood Token",
+    "name": "Genuine Parts Co. - Robinhood Token",
     "legacyId": 1479,
     "canonicalMarketId": "GPCrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

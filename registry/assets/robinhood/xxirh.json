@@ -2,7 +2,7 @@
   "identity": {
     "slug": "xxirh",
     "symbol": "XXI",
-    "name": "Twenty One Capital, Inc. • Robinhood Token",
+    "name": "Twenty One Capital, Inc. - Robinhood Token",
     "legacyId": 2667,
     "canonicalMarketId": "XXIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

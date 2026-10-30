@@ -2,7 +2,7 @@
   "identity": {
     "slug": "pcarrh",
     "symbol": "PCAR",
-    "name": "PACCAR Inc. • Robinhood Token",
+    "name": "PACCAR Inc. - Robinhood Token",
     "legacyId": 2004,
     "canonicalMarketId": "PCARrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

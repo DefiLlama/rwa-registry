@@ -2,7 +2,7 @@
   "identity": {
     "slug": "efarh",
     "symbol": "EFA",
-    "name": "iShares MSCI EAFE ETF • Robinhood Token",
+    "name": "iShares MSCI EAFE ETF - Robinhood Token",
     "legacyId": 1277,
     "canonicalMarketId": "EFArh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

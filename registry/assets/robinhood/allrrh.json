@@ -2,7 +2,7 @@
   "identity": {
     "slug": "allrrh",
     "symbol": "ALLR",
-    "name": "Allarity Therapeutics, Inc. • Robinhood Token",
+    "name": "Allarity Therapeutics, Inc. - Robinhood Token",
     "legacyId": 845,
     "canonicalMarketId": "ALLRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

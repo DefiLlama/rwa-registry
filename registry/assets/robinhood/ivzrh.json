@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ivzrh",
     "symbol": "IVZ",
-    "name": "Invesco Ltd. • Robinhood Token",
+    "name": "Invesco Ltd. - Robinhood Token",
     "legacyId": 1633,
     "canonicalMarketId": "IVZrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

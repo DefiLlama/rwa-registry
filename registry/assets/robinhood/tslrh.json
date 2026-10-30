@@ -2,7 +2,7 @@
   "identity": {
     "slug": "tslrh",
     "symbol": "TSL",
-    "name": "Tesla, Inc. • Robinhood Token",
+    "name": "Tesla, Inc. - Robinhood Token",
     "legacyId": 2443,
     "canonicalMarketId": "TSLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "vcitrh",
     "symbol": "VCIT",
-    "name": "Vanguard Intermediate-Term Corporate Bond ETF • Robinhood Token",
+    "name": "Vanguard Intermediate-Term Corporate Bond ETF - Robinhood Token",
     "legacyId": 2526,
     "canonicalMarketId": "VCITrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

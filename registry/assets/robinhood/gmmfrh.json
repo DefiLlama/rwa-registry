@@ -2,7 +2,7 @@
   "identity": {
     "slug": "gmmfrh",
     "symbol": "GMMF",
-    "name": "Grayscale Bitcoin Mini Trust • Robinhood Token",
+    "name": "Grayscale Bitcoin Mini Trust - Robinhood Token",
     "legacyId": 1467,
     "canonicalMarketId": "GMMFrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "tgtxrh",
     "symbol": "TGTX",
-    "name": "TG Therapeutics, Inc. • Robinhood Token",
+    "name": "TG Therapeutics, Inc. - Robinhood Token",
     "legacyId": 2391,
     "canonicalMarketId": "TGTXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

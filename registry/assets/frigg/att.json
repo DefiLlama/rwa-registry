@@ -12,7 +12,7 @@
   "class": {
     "structure": "structured-credit",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "private-credit",
       "carbon-environment"
@@ -33,7 +33,7 @@
     ]
   },
   "about": {
-    "description": "ATT is a tokenized green bond linked to the AgaTobwe hydropower project in Rwanda, enabled by Frigg.eco. Public project materials describe a small hydropower plant supplying a local mini-grid. The token represents fractional bond exposure tied to the project’s financing, structured under Swiss ledger-based securities concepts.",
+    "description": "ATT is a tokenized green bond linked to the AgaTobwe hydropower project in Rwanda, enabled by Frigg.eco. Public project materials describe a small hydropower plant supplying a local mini-grid. The token represents fractional bond exposure tied to the project's financing, structured under Swiss ledger-based securities concepts.",
     "logo": "https://icons.llamao.fi/icons/rwa/agatobwe-token-bond.png?w=48&h=48",
     "links": {
       "website": [
@@ -45,8 +45,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "vorh",
     "symbol": "VO",
-    "name": "Vanguard Mid-Cap ETF • Robinhood Token",
+    "name": "Vanguard Mid-Cap ETF - Robinhood Token",
     "legacyId": 2569,
     "canonicalMarketId": "VOrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

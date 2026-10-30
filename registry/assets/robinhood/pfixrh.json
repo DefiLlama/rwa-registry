@@ -2,7 +2,7 @@
   "identity": {
     "slug": "pfixrh",
     "symbol": "PFIX",
-    "name": "Principal Preferred Stock ETF • Robinhood Token",
+    "name": "Principal Preferred Stock ETF - Robinhood Token",
     "legacyId": 2024,
     "canonicalMarketId": "PFIXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

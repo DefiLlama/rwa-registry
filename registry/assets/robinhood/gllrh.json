@@ -2,7 +2,7 @@
   "identity": {
     "slug": "gllrh",
     "symbol": "GLL",
-    "name": "ProShares UltraShort Gold • Robinhood Token",
+    "name": "ProShares UltraShort Gold - Robinhood Token",
     "legacyId": 1458,
     "canonicalMarketId": "GLLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

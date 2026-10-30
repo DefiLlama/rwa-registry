@@ -2,7 +2,7 @@
   "identity": {
     "slug": "bcerh",
     "symbol": "BCE",
-    "name": "BCE Inc. • Robinhood Token",
+    "name": "BCE Inc. - Robinhood Token",
     "legacyId": 963,
     "canonicalMarketId": "BCErh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

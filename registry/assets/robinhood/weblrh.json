@@ -2,7 +2,7 @@
   "identity": {
     "slug": "weblrh",
     "symbol": "WEBL",
-    "name": "Direxion Daily Dow Jones Internet Bull 3X ETF • Robinhood Token",
+    "name": "Direxion Daily Dow Jones Internet Bull 3X ETF - Robinhood Token",
     "legacyId": 2608,
     "canonicalMarketId": "WEBLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

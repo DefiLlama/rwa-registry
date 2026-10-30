@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ezbcrh",
     "symbol": "EZBC",
-    "name": "Franklin Templeton Digital Holdings Trust • Robinhood Token",
+    "name": "Franklin Templeton Digital Holdings Trust - Robinhood Token",
     "legacyId": 1344,
     "canonicalMarketId": "EZBCrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

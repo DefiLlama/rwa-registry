@@ -24,7 +24,7 @@
     "attestationFrequency": "Not publicly disclosed"
   },
   "about": {
-    "description": "AXPT provides platinum exposure through Altai’s tokenized commodities framework, enabling portfolio allocations to platinum in a transferable format designed for exchange settlement and onchain strategy integration.",
+    "description": "AXPT provides platinum exposure through Altai's tokenized commodities framework, enabling portfolio allocations to platinum in a transferable format designed for exchange settlement and onchain strategy integration.",
     "logo": "https://icons.llamao.fi/icons/rwa/axpt.png?w=48&h=48",
     "links": {
       "website": [
@@ -35,8 +35,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

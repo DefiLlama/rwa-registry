@@ -2,7 +2,7 @@
   "identity": {
     "slug": "itrh",
     "symbol": "IT",
-    "name": "Gartner, Inc. • Robinhood Token",
+    "name": "Gartner, Inc. - Robinhood Token",
     "legacyId": 1628,
     "canonicalMarketId": "ITrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

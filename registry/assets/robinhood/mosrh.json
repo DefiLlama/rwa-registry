@@ -2,7 +2,7 @@
   "identity": {
     "slug": "mosrh",
     "symbol": "MOS",
-    "name": "The Mosaic Co. • Robinhood Token",
+    "name": "The Mosaic Co. - Robinhood Token",
     "legacyId": 1818,
     "canonicalMarketId": "MOSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

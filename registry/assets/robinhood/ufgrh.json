@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ufgrh",
     "symbol": "UFG",
-    "name": "Uni-Fuels Holdings Ltd. • Robinhood Token",
+    "name": "Uni-Fuels Holdings Ltd. - Robinhood Token",
     "legacyId": 2477,
     "canonicalMarketId": "UFGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -12,7 +12,7 @@
   "class": {
     "structure": "usd-stable",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "fiat-stablecoins"
     ]
@@ -46,7 +46,7 @@
     ]
   },
   "about": {
-    "description": "USDP is Paxos’s USD stablecoin designed for 1:1 redemption. Paxos positions USDP as issued by a regulated entity, backed by cash and cash equivalents, with monthly reserve reports intended to disclose reserve composition and coverage.",
+    "description": "USDP is Paxos's USD stablecoin designed for 1:1 redemption. Paxos positions USDP as issued by a regulated entity, backed by cash and cash equivalents, with monthly reserve reports intended to disclose reserve composition and coverage.",
     "logo": "https://icons.llamao.fi/icons/rwa/usdp.png?w=48&h=48",
     "links": {
       "website": [
@@ -57,8 +57,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

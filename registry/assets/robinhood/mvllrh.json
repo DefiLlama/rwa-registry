@@ -2,7 +2,7 @@
   "identity": {
     "slug": "mvllrh",
     "symbol": "MVLL",
-    "name": "GraniteShares 2x Long MRVL Daily ETF • Robinhood Token",
+    "name": "GraniteShares 2x Long MRVL Daily ETF - Robinhood Token",
     "legacyId": 1860,
     "canonicalMarketId": "MVLLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

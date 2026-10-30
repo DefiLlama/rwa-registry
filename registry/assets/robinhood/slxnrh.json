@@ -2,7 +2,7 @@
   "identity": {
     "slug": "slxnrh",
     "symbol": "SLXN",
-    "name": "Silexion Therapeutics Corp. • Robinhood Token",
+    "name": "Silexion Therapeutics Corp. - Robinhood Token",
     "legacyId": 2252,
     "canonicalMarketId": "SLXNrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

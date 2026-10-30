@@ -2,7 +2,7 @@
   "identity": {
     "slug": "gtlbrh",
     "symbol": "GTLB",
-    "name": "GitLab Inc. • Robinhood Token",
+    "name": "GitLab Inc. - Robinhood Token",
     "legacyId": 1498,
     "canonicalMarketId": "GTLBrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

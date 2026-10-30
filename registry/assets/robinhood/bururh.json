@@ -2,7 +2,7 @@
   "identity": {
     "slug": "bururh",
     "symbol": "BURU",
-    "name": "Nuburu, Inc. • Robinhood Token",
+    "name": "Nuburu, Inc. - Robinhood Token",
     "legacyId": 1042,
     "canonicalMarketId": "BURUrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

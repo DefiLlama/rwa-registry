@@ -2,7 +2,7 @@
   "identity": {
     "slug": "amcrrh",
     "symbol": "AMCR",
-    "name": "Amcor plc • Robinhood Token",
+    "name": "Amcor plc - Robinhood Token",
     "legacyId": 853,
     "canonicalMarketId": "AMCRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

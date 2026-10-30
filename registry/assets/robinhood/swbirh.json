@@ -2,7 +2,7 @@
   "identity": {
     "slug": "swbirh",
     "symbol": "SWBI",
-    "name": "Smith & Wesson Brands, Inc. • Robinhood Token",
+    "name": "Smith & Wesson Brands, Inc. - Robinhood Token",
     "legacyId": 2354,
     "canonicalMarketId": "SWBIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

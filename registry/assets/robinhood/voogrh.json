@@ -2,7 +2,7 @@
   "identity": {
     "slug": "voogrh",
     "symbol": "VOOG",
-    "name": "Vanguard S&P 500 Growth ETF • Robinhood Token",
+    "name": "Vanguard S&P 500 Growth ETF - Robinhood Token",
     "legacyId": 2566,
     "canonicalMarketId": "VOOGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

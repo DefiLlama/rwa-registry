@@ -2,7 +2,7 @@
   "identity": {
     "slug": "chdnrh",
     "symbol": "CHDN",
-    "name": "Churchill Downs Inc. • Robinhood Token",
+    "name": "Churchill Downs Inc. - Robinhood Token",
     "legacyId": 1091,
     "canonicalMarketId": "CHDNrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

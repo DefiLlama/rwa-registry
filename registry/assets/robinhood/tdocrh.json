@@ -2,7 +2,7 @@
   "identity": {
     "slug": "tdocrh",
     "symbol": "TDOC",
-    "name": "Teladoc Health, Inc. • Robinhood Token",
+    "name": "Teladoc Health, Inc. - Robinhood Token",
     "legacyId": 2374,
     "canonicalMarketId": "TDOCrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

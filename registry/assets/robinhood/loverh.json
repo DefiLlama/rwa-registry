@@ -2,7 +2,7 @@
   "identity": {
     "slug": "loverh",
     "symbol": "LOVE",
-    "name": "Lovesac Co. • Robinhood Token",
+    "name": "Lovesac Co. - Robinhood Token",
     "legacyId": 1740,
     "canonicalMarketId": "LOVErh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

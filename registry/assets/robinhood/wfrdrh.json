@@ -2,7 +2,7 @@
   "identity": {
     "slug": "wfrdrh",
     "symbol": "WFRD",
-    "name": "Weatherford International plc • Robinhood Token",
+    "name": "Weatherford International plc - Robinhood Token",
     "legacyId": 2612,
     "canonicalMarketId": "WFRDrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

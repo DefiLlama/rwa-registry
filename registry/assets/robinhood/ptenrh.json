@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ptenrh",
     "symbol": "PTEN",
-    "name": "Patterson-UTI Energy, Inc. • Robinhood Token",
+    "name": "Patterson-UTI Energy, Inc. - Robinhood Token",
     "legacyId": 2086,
     "canonicalMarketId": "PTENrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

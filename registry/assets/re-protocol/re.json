@@ -12,7 +12,7 @@
   "class": {
     "structure": "reinsurance-pool",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "private-credit"
     ]
@@ -27,7 +27,7 @@
     "attestationFrequency": "Not publicly disclosed"
   },
   "about": {
-    "description": "RE is the tokenized interest in Re Member Fund A LP, an insurance‑linked strategy that provides exposure to a diversified book of lower‑volatility reinsurance business. The fund participates by providing senior‑tranche capital through participating quota‑share notes tied to a basket of insurance programs (for example auto, homeowners, and workers’ compensation), aiming to earn premium‑derived yield that is typically less correlated to traditional equity and bond markets. Returns for RE are driven by the performance of the underlying insurance portfolio (premiums, losses, and expense ratios) and the structuring of the quota‑share notes. The onchain token serves as a digital ownership record while the underlying cashflows come from the off‑chain reinsurance positions.",
+    "description": "RE is the tokenized interest in Re Member Fund A LP, an insurance-linked strategy that provides exposure to a diversified book of lower-volatility reinsurance business. The fund participates by providing senior-tranche capital through participating quota-share notes tied to a basket of insurance programs (for example auto, homeowners, and workers' compensation), aiming to earn premium-derived yield that is typically less correlated to traditional equity and bond markets. Returns for RE are driven by the performance of the underlying insurance portfolio (premiums, losses, and expense ratios) and the structuring of the quota-share notes. The onchain token serves as a digital ownership record while the underlying cashflows come from the off-chain reinsurance positions.",
     "logo": "https://icons.llamao.fi/icons/rwa/re.png?w=48&h=48",
     "links": {
       "website": [
@@ -38,8 +38,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

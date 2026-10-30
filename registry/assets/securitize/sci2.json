@@ -25,7 +25,7 @@
     "yieldBearing": false
   },
   "about": {
-    "description": "SCI2 is the tokenized security for Science Blockchain, a venture fund and incubator that backs early‑stage blockchain startups and provides hands‑on support beyond capital (for example regulatory guidance, operational help, and technical development resources). The fund has been an early adopter of security‑token issuance, with SCI2 enabling compliant digital ownership and secondary market transfers through Securitize. Token value is tied to the net asset value of the underlying venture portfolio and any distributions from realized exits, rather than any onchain collateral. Science operates a dedicated investor dashboard for token management and has historically run upgrade/migration processes for legacy SCI tokens to ensure compatibility with current market infrastructure.",
+    "description": "SCI2 is the tokenized security for Science Blockchain, a venture fund and incubator that backs early-stage blockchain startups and provides hands-on support beyond capital (for example regulatory guidance, operational help, and technical development resources). The fund has been an early adopter of security-token issuance, with SCI2 enabling compliant digital ownership and secondary market transfers through Securitize. Token value is tied to the net asset value of the underlying venture portfolio and any distributions from realized exits, rather than any onchain collateral. Science operates a dedicated investor dashboard for token management and has historically run upgrade/migration processes for legacy SCI tokens to ensure compatibility with current market infrastructure.",
     "logo": "https://icons.llamao.fi/icons/rwa/sci2.png?w=48&h=48",
     "links": {
       "website": [
@@ -39,8 +39,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "uuprh",
     "symbol": "UUP",
-    "name": "Invesco DB US Dollar Index Bullish Fund • Robinhood Token",
+    "name": "Invesco DB US Dollar Index Bullish Fund - Robinhood Token",
     "legacyId": 2514,
     "canonicalMarketId": "UUPrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

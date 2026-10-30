@@ -2,7 +2,7 @@
   "identity": {
     "slug": "tsddrh",
     "symbol": "TSDD",
-    "name": "Tesla 3X Inverse ETF • Robinhood Token",
+    "name": "Tesla 3X Inverse ETF - Robinhood Token",
     "legacyId": 2430,
     "canonicalMarketId": "TSDDrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

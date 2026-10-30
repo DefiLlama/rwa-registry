@@ -12,7 +12,7 @@
   "class": {
     "structure": "usd-stable",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "fiat-stablecoins"
     ]
@@ -35,7 +35,7 @@
     ]
   },
   "about": {
-    "description": "GUSD is Gemini’s USD stablecoin designed for 1:1 redemption. Gemini states it is issued by a regulated entity and that outstanding tokens are supported by reserves held in cash or cash equivalents, with monthly third-party reserve examinations published for public review.",
+    "description": "GUSD is Gemini's USD stablecoin designed for 1:1 redemption. Gemini states it is issued by a regulated entity and that outstanding tokens are supported by reserves held in cash or cash equivalents, with monthly third-party reserve examinations published for public review.",
     "logo": "https://icons.llamao.fi/icons/rwa/gusd.png?w=48&h=48",
     "links": {
       "website": [
@@ -46,8 +46,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -69,6 +68,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://www.gemini.com/legal"
+      ],
+      "protocolIds": [
+        6469
       ]
     }
   ],

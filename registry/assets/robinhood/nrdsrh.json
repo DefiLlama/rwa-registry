@@ -2,7 +2,7 @@
   "identity": {
     "slug": "nrdsrh",
     "symbol": "NRDS",
-    "name": "NerdWallet, Inc. • Robinhood Token",
+    "name": "NerdWallet, Inc. - Robinhood Token",
     "legacyId": 1910,
     "canonicalMarketId": "NRDSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

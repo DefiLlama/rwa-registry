@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ibrxrh",
     "symbol": "IBRX",
-    "name": "ImmunityBio, Inc. • Robinhood Token",
+    "name": "ImmunityBio, Inc. - Robinhood Token",
     "legacyId": 1570,
     "canonicalMarketId": "IBRXrh"
   },
@@ -27,9 +27,7 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "US45256X1037",
-        "source": null,
-        "verified": false
+        "value": "US45256X1037"
       }
     ]
   },
@@ -45,8 +43,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -77,6 +74,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://robinhood.com/eu/en/about/"
+      ],
+      "protocolIds": [
+        3732
       ]
     },
     {

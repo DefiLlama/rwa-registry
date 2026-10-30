@@ -2,7 +2,7 @@
   "identity": {
     "slug": "mkcrh",
     "symbol": "MKC",
-    "name": "McCormick & Co., Inc. • Robinhood Token",
+    "name": "McCormick & Co., Inc. - Robinhood Token",
     "legacyId": 1803,
     "canonicalMarketId": "MKCrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

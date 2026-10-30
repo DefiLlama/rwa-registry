@@ -12,7 +12,7 @@
   "class": {
     "structure": "eur-stable",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "fiat-stablecoins"
     ]
@@ -99,7 +99,7 @@
     ]
   },
   "about": {
-    "description": "EURC is Circle’s euro-denominated stablecoin issued on Ethereum, designed for 1:1 redemption for euros under a reserve-backed model. Circle states reserves are held in cash and cash equivalents and provides reserve attestations and disclosures intended to allow independent review of backing quality over time.",
+    "description": "EURC is Circle's euro-denominated stablecoin issued on Ethereum, designed for 1:1 redemption for euros under a reserve-backed model. Circle states reserves are held in cash and cash equivalents and provides reserve attestations and disclosures intended to allow independent review of backing quality over time.",
     "logo": "https://icons.llamao.fi/icons/rwa/eurc.png?w=48&h=48",
     "links": {
       "website": [
@@ -110,8 +110,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

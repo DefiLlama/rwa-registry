@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ccrh",
     "symbol": "CC",
-    "name": "The Chemours Company • Robinhood Token",
+    "name": "The Chemours Company - Robinhood Token",
     "legacyId": 1069,
     "canonicalMarketId": "CCrh"
   },
@@ -34,9 +34,15 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
+  "deployments": [
+    {
+      "chain": "arbitrum",
+      "address": null,
+      "primary": true
+    }
+  ],
   "roles": [
     {
       "organization": "robinhood-markets-inc",

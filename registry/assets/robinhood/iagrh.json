@@ -2,7 +2,7 @@
   "identity": {
     "slug": "iagrh",
     "symbol": "IAG",
-    "name": "IAMGOLD Corp. • Robinhood Token",
+    "name": "IAMGOLD Corp. - Robinhood Token",
     "legacyId": 1562,
     "canonicalMarketId": "IAGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

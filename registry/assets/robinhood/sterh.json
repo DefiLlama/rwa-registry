@@ -2,7 +2,7 @@
   "identity": {
     "slug": "sterh",
     "symbol": "STE",
-    "name": "STERIS plc • Robinhood Token",
+    "name": "STERIS plc - Robinhood Token",
     "legacyId": 2334,
     "canonicalMarketId": "STErh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

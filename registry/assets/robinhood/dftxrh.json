@@ -2,7 +2,7 @@
   "identity": {
     "slug": "dftxrh",
     "symbol": "DFTX",
-    "name": "Definium Therapeutics, Inc. • Robinhood Token",
+    "name": "Definium Therapeutics, Inc. - Robinhood Token",
     "legacyId": 1222,
     "canonicalMarketId": "DFTXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

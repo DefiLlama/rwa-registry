@@ -2,7 +2,7 @@
   "identity": {
     "slug": "mararh",
     "symbol": "MARA",
-    "name": "MARA Holdings, Inc. • Robinhood Token",
+    "name": "MARA Holdings, Inc. - Robinhood Token",
     "legacyId": 1770,
     "canonicalMarketId": "MARArh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

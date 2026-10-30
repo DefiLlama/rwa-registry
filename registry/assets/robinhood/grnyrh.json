@@ -2,7 +2,7 @@
   "identity": {
     "slug": "grnyrh",
     "symbol": "GRNY",
-    "name": "Greenery Investments ETF • Robinhood Token",
+    "name": "Greenery Investments ETF - Robinhood Token",
     "legacyId": 1489,
     "canonicalMarketId": "GRNYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

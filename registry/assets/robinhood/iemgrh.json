@@ -2,7 +2,7 @@
   "identity": {
     "slug": "iemgrh",
     "symbol": "IEMG",
-    "name": "iShares Core MSCI Emerging Markets ETF • Robinhood Token",
+    "name": "iShares Core MSCI Emerging Markets ETF - Robinhood Token",
     "legacyId": 1580,
     "canonicalMarketId": "IEMGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

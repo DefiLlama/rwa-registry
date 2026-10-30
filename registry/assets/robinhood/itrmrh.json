@@ -2,7 +2,7 @@
   "identity": {
     "slug": "itrmrh",
     "symbol": "ITRM",
-    "name": "Iterum Therapeutics • Robinhood Token",
+    "name": "Iterum Therapeutics - Robinhood Token",
     "legacyId": 1626,
     "canonicalMarketId": "ITRMrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

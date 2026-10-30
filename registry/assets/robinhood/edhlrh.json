@@ -2,7 +2,7 @@
   "identity": {
     "slug": "edhlrh",
     "symbol": "EDHL",
-    "name": "Everbright Digital Holding Ltd. • Robinhood Token",
+    "name": "Everbright Digital Holding Ltd. - Robinhood Token",
     "legacyId": 1271,
     "canonicalMarketId": "EDHLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

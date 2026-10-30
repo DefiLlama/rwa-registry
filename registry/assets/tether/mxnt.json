@@ -12,7 +12,7 @@
   "class": {
     "structure": "other-fiat-stable",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "fiat-stablecoins"
     ]
@@ -38,8 +38,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -61,6 +60,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://tether.to/transparency"
+      ],
+      "protocolIds": [
+        5009
       ]
     }
   ],

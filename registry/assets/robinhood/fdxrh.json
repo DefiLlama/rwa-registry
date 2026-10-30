@@ -2,7 +2,7 @@
   "identity": {
     "slug": "fdxrh",
     "symbol": "FDX",
-    "name": "FedEx Corp. • Robinhood Token",
+    "name": "FedEx Corp. - Robinhood Token",
     "legacyId": 1361,
     "canonicalMarketId": "FDXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

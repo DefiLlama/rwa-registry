@@ -2,7 +2,7 @@
   "identity": {
     "slug": "lacrh",
     "symbol": "LAC",
-    "name": "Lithium Americas Corp. • Robinhood Token",
+    "name": "Lithium Americas Corp. - Robinhood Token",
     "legacyId": 1707,
     "canonicalMarketId": "LACrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

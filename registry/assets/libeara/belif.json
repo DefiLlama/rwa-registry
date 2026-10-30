@@ -26,7 +26,7 @@
     "yieldBearing": true
   },
   "about": {
-    "description": "BELIF represents a tokenized share in Bosera Liquidity Income Fund SP, designed to provide USD-denominated income from a portfolio of short-duration, high-quality fixed income and money market instruments. The digital share format is intended to support more programmable subscriptions, redemptions, and potential secondary transfers than conventional fund shares, while preserving a familiar fund wrapper for the underlying exposure. It is positioned as an onchain-accessible cash management and income sleeve backed by Bosera’s regulated asset management platform.",
+    "description": "BELIF represents a tokenized share in Bosera Liquidity Income Fund SP, designed to provide USD-denominated income from a portfolio of short-duration, high-quality fixed income and money market instruments. The digital share format is intended to support more programmable subscriptions, redemptions, and potential secondary transfers than conventional fund shares, while preserving a familiar fund wrapper for the underlying exposure. It is positioned as an onchain-accessible cash management and income sleeve backed by Bosera's regulated asset management platform.",
     "logo": "https://icons.llamao.fi/icons/rwa/belif.png?w=48&h=48",
     "links": {
       "website": [
@@ -37,8 +37,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "spcerh",
     "symbol": "SPCE",
-    "name": "Virgin Galactic Holdings, Inc. • Robinhood Token",
+    "name": "Virgin Galactic Holdings, Inc. - Robinhood Token",
     "legacyId": 2295,
     "canonicalMarketId": "SPCErh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

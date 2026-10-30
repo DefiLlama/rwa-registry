@@ -25,7 +25,7 @@
     "yieldBearing": false
   },
   "about": {
-    "description": "SKHC is a tokenized fund interest designed to provide eligible investors exposure to KKR’s Health Care Strategic Growth Fund II through a digitized fund structure. It is positioned as a bridge between institutional alternative fund access and a more streamlined digital subscription experience, with offering documentation and regulatory filings available through official disclosure channels.",
+    "description": "SKHC is a tokenized fund interest designed to provide eligible investors exposure to KKR's Health Care Strategic Growth Fund II through a digitized fund structure. It is positioned as a bridge between institutional alternative fund access and a more streamlined digital subscription experience, with offering documentation and regulatory filings available through official disclosure channels.",
     "logo": "https://icons.llamao.fi/icons/rwa/skhc.png?w=48&h=48",
     "links": {
       "website": [
@@ -36,8 +36,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

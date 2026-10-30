@@ -2,7 +2,7 @@
   "identity": {
     "slug": "rfixrh",
     "symbol": "RFIX",
-    "name": "Relative Value Fixed Income ETF • Robinhood Token",
+    "name": "Relative Value Fixed Income ETF - Robinhood Token",
     "legacyId": 2132,
     "canonicalMarketId": "RFIXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

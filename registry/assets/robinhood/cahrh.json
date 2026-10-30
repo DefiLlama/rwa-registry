@@ -2,7 +2,7 @@
   "identity": {
     "slug": "cahrh",
     "symbol": "CAH",
-    "name": "Cardinal Health, Inc. • Robinhood Token",
+    "name": "Cardinal Health, Inc. - Robinhood Token",
     "legacyId": 1053,
     "canonicalMarketId": "CAHrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

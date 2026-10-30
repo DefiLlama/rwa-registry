@@ -2,7 +2,7 @@
   "identity": {
     "slug": "qsirh",
     "symbol": "QSI",
-    "name": "Quantum-Si Inc. • Robinhood Token",
+    "name": "Quantum-Si Inc. - Robinhood Token",
     "legacyId": 2110,
     "canonicalMarketId": "QSIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

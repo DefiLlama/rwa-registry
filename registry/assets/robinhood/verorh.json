@@ -2,7 +2,7 @@
   "identity": {
     "slug": "verorh",
     "symbol": "VERO",
-    "name": "Venus Concept • Robinhood Token",
+    "name": "Venus Concept - Robinhood Token",
     "legacyId": 2534,
     "canonicalMarketId": "VEROrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

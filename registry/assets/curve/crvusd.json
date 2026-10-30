@@ -27,7 +27,7 @@
     "coingeckoId": "crvusd"
   },
   "about": {
-    "description": "crvUSD is Curve’s stablecoin minted through Curve Lending/LlamaLend. It uses LLAMMA (Lending‑Liquidating AMM Algorithm) for ‘soft liquidation’ - gradual rebalancing of collateral into crvUSD as prices move - aiming to reduce liquidation shocks and improve peg resiliency compared with cliff liquidations.",
+    "description": "crvUSD is Curve's stablecoin minted through Curve Lending/LlamaLend. It uses LLAMMA (Lending-Liquidating AMM Algorithm) for 'soft liquidation' - gradual rebalancing of collateral into crvUSD as prices move - aiming to reduce liquidation shocks and improve peg resiliency compared with cliff liquidations.",
     "logo": "https://icons.llamao.fi/icons/rwa/crvusd.png?w=48&h=48",
     "links": {
       "website": [
@@ -37,8 +37,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {
@@ -174,6 +173,10 @@
           "kind": "excluded-holder"
         }
       ]
+    },
+    {
+      "chain": "waves",
+      "address": "5ga8ejdr5pobwlc2xaq6f6pagcm5hwvnhuyycgsnn4jr"
     }
   ],
   "roles": [

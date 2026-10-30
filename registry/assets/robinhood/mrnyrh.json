@@ -2,7 +2,7 @@
   "identity": {
     "slug": "mrnyrh",
     "symbol": "MRNY",
-    "name": "Morningstar Inverse ETF • Robinhood Token",
+    "name": "Morningstar Inverse ETF - Robinhood Token",
     "legacyId": 1826,
     "canonicalMarketId": "MRNYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

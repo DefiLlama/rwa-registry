@@ -2,7 +2,7 @@
   "identity": {
     "slug": "txrh",
     "symbol": "TX",
-    "name": "Ternium S.A. • Robinhood Token",
+    "name": "Ternium S.A. - Robinhood Token",
     "legacyId": 2463,
     "canonicalMarketId": "TXrh"
   },
@@ -34,9 +34,15 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
+  "deployments": [
+    {
+      "chain": "arbitrum",
+      "address": null,
+      "primary": true
+    }
+  ],
   "roles": [
     {
       "organization": "robinhood-markets-inc",

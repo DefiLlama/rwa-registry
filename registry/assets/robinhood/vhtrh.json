@@ -2,7 +2,7 @@
   "identity": {
     "slug": "vhtrh",
     "symbol": "VHT",
-    "name": "Vanguard Healthcare ETF • Robinhood Token",
+    "name": "Vanguard Healthcare ETF - Robinhood Token",
     "legacyId": 2547,
     "canonicalMarketId": "VHTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

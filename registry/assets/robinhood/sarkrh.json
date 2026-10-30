@@ -2,7 +2,7 @@
   "identity": {
     "slug": "sarkrh",
     "symbol": "SARK",
-    "name": "ProShares Decline of the Spinoffs ETF • Robinhood Token",
+    "name": "ProShares Decline of the Spinoffs ETF - Robinhood Token",
     "legacyId": 2758,
     "canonicalMarketId": "SARKrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

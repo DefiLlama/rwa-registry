@@ -29,7 +29,7 @@
     "coingeckoId": "resolv-usr"
   },
   "about": {
-    "description": "USR is Resolv’s delta‑neutral stablecoin: it is minted against liquid collateral (e.g., ETH) that is hedged with perpetual futures to target USD stability. Protocol risk is buffered by an insurance fund token (RLP), and users can stake into stUSR for yield. Mint/redemption has been operated through allowlisted addresses during early rollout.",
+    "description": "USR is Resolv's delta-neutral stablecoin: it is minted against liquid collateral (e.g., ETH) that is hedged with perpetual futures to target USD stability. Protocol risk is buffered by an insurance fund token (RLP), and users can stake into stUSR for yield. Mint/redemption has been operated through allowlisted addresses during early rollout.",
     "logo": "https://icons.llamao.fi/icons/rwa/resolv-usd.png?w=48&h=48",
     "links": {
       "website": [
@@ -40,8 +40,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

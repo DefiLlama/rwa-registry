@@ -2,7 +2,7 @@
   "identity": {
     "slug": "smmtrh",
     "symbol": "SMMT",
-    "name": "Summit Therapeutics Inc. • Robinhood Token",
+    "name": "Summit Therapeutics Inc. - Robinhood Token",
     "legacyId": 2262,
     "canonicalMarketId": "SMMTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

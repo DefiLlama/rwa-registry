@@ -2,7 +2,7 @@
   "identity": {
     "slug": "trh",
     "symbol": "T",
-    "name": "AT&T Inc. • Robinhood Token",
+    "name": "AT&T Inc. - Robinhood Token",
     "legacyId": 2465,
     "canonicalMarketId": "Trh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

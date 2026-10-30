@@ -2,7 +2,7 @@
   "identity": {
     "slug": "tgtrh",
     "symbol": "TGT",
-    "name": "Target Corp. • Robinhood Token",
+    "name": "Target Corp. - Robinhood Token",
     "legacyId": 2392,
     "canonicalMarketId": "TGTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

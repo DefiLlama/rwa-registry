@@ -30,14 +30,12 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "US30209R1068",
-        "source": null,
-        "verified": false
+        "value": "US30209R1068"
       }
     ]
   },
   "about": {
-    "description": "EXOD is the tokenized form of Exodus Movement, Inc.’s Class A common stock issued natively on Algorand through Securitize’s digital securities infrastructure. Each token is intended to represent one share of the issuer’s Class A common stock, enabling shareholders to hold and transfer a regulated equity security in a self‑custodied wallet while keeping the corporate share register and transfer controls aligned with securities law. Holders of EXOD have the economic exposure and shareholder rights of the underlying Class A security. This is a tokenized/security‑token form of Exodus equity rather than a “regular” exchange‑traded stock wrapper.",
+    "description": "EXOD is the tokenized form of Exodus Movement, Inc.'s Class A common stock issued natively on Algorand through Securitize's digital securities infrastructure. Each token is intended to represent one share of the issuer's Class A common stock, enabling shareholders to hold and transfer a regulated equity security in a self-custodied wallet while keeping the corporate share register and transfer controls aligned with securities law. Holders of EXOD have the economic exposure and shareholder rights of the underlying Class A security. This is a tokenized/security-token form of Exodus equity rather than a \"regular\" exchange-traded stock wrapper.",
     "logo": "https://icons.llamao.fi/icons/rwa/exod.png?w=48&h=48",
     "links": {
       "website": [
@@ -48,8 +46,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "aarh",
     "symbol": "AA",
-    "name": "Alcoa Corp. • Robinhood Token",
+    "name": "Alcoa Corp. - Robinhood Token",
     "legacyId": 783,
     "canonicalMarketId": "AArh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

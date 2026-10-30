@@ -2,7 +2,7 @@
   "identity": {
     "slug": "bnsrh",
     "symbol": "BNS",
-    "name": "Bank of Nova Scotia • Robinhood Token",
+    "name": "Bank of Nova Scotia - Robinhood Token",
     "legacyId": 1015,
     "canonicalMarketId": "BNSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

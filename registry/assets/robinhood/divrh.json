@@ -2,7 +2,7 @@
   "identity": {
     "slug": "divrh",
     "symbol": "DIV",
-    "name": "iShares Preferred Stock ETF • Robinhood Token",
+    "name": "iShares Preferred Stock ETF - Robinhood Token",
     "legacyId": 1234,
     "canonicalMarketId": "DIVrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

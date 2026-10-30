@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -63,6 +62,10 @@
       "chain": "avax",
       "address": "0x3fea1cb36d2c5523c062d0e060eac253608b4daf",
       "deployedAt": "2026-08-28"
+    },
+    {
+      "chain": "solana",
+      "address": null
     }
   ],
   "roles": [

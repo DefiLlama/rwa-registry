@@ -2,7 +2,7 @@
   "identity": {
     "slug": "evgorh",
     "symbol": "EVGO",
-    "name": "EVgo Inc. • Robinhood Token",
+    "name": "EVgo Inc. - Robinhood Token",
     "legacyId": 1322,
     "canonicalMarketId": "EVGOrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

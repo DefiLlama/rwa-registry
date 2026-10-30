@@ -2,7 +2,7 @@
   "identity": {
     "slug": "atairh",
     "symbol": "ATAI",
-    "name": "AtaiBeckley Inc. • Robinhood Token",
+    "name": "AtaiBeckley Inc. - Robinhood Token",
     "legacyId": 921,
     "canonicalMarketId": "ATAIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

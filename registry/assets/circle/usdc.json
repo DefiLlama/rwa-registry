@@ -12,7 +12,7 @@
   "class": {
     "structure": "usd-stable",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "fiat-stablecoins"
     ]
@@ -30,7 +30,7 @@
     "coingeckoId": "usd-coin"
   },
   "about": {
-    "description": "USDC is Circle’s USD stablecoin designed for 1:1 redemption. Circle states USDC is fully backed by highly liquid cash and cash-equivalent assets, and that the majority of reserves are held in the Circle Reserve Fund (USDXX), an SEC-registered 2a-7 government money market fund. Circle provides reserve attestations and disclosures intended to allow independent review of reserve coverage and composition.",
+    "description": "USDC is Circle's USD stablecoin designed for 1:1 redemption. Circle states USDC is fully backed by highly liquid cash and cash-equivalent assets, and that the majority of reserves are held in the Circle Reserve Fund (USDXX), an SEC-registered 2a-7 government money market fund. Circle provides reserve attestations and disclosures intended to allow independent review of reserve coverage and composition.",
     "logo": "https://icons.llamao.fi/icons/rwa/usdc.png?w=48&h=48",
     "links": {
       "website": [
@@ -41,8 +41,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -383,7 +382,7 @@
       "deployedAt": "2025-04-01"
     },
     {
-      "chain": "era",
+      "chain": "zksync",
       "address": "0x3355df6d4c9c303574423030e489b223f12ee7f4",
       "deployedAt": "2021-09-04"
     },
@@ -391,6 +390,334 @@
       "chain": "zora",
       "address": "0x1c413069493c4d5d2105a96329206c33c9ffbb84",
       "deployedAt": null
+    },
+    {
+      "chain": "0g",
+      "address": null
+    },
+    {
+      "chain": "ace",
+      "address": null
+    },
+    {
+      "chain": "airdao",
+      "address": null
+    },
+    {
+      "chain": "assetchain",
+      "address": null
+    },
+    {
+      "chain": "besc",
+      "address": null
+    },
+    {
+      "chain": "bittensor_evm",
+      "address": null
+    },
+    {
+      "chain": "bittorrent",
+      "address": null
+    },
+    {
+      "chain": "camp",
+      "address": null
+    },
+    {
+      "chain": "celo",
+      "address": null
+    },
+    {
+      "chain": "coti",
+      "address": null
+    },
+    {
+      "chain": "crossfi",
+      "address": null
+    },
+    {
+      "chain": "defichain_evm",
+      "address": null
+    },
+    {
+      "chain": "defiverse",
+      "address": null
+    },
+    {
+      "chain": "echelon_initia",
+      "address": null
+    },
+    {
+      "chain": "eon",
+      "address": null
+    },
+    {
+      "chain": "etlk",
+      "address": null
+    },
+    {
+      "chain": "evmos",
+      "address": null
+    },
+    {
+      "chain": "findora",
+      "address": null
+    },
+    {
+      "chain": "formnetwork",
+      "address": null
+    },
+    {
+      "chain": "godwoken",
+      "address": null
+    },
+    {
+      "chain": "godwoken_v1",
+      "address": null
+    },
+    {
+      "chain": "heco",
+      "address": null
+    },
+    {
+      "chain": "hedera",
+      "address": null
+    },
+    {
+      "chain": "hsk",
+      "address": null
+    },
+    {
+      "chain": "hydradx",
+      "address": null
+    },
+    {
+      "chain": "hyperliquid",
+      "address": null
+    },
+    {
+      "chain": "idex",
+      "address": null
+    },
+    {
+      "chain": "imx",
+      "address": null
+    },
+    {
+      "chain": "inevm",
+      "address": null
+    },
+    {
+      "chain": "iotex",
+      "address": null
+    },
+    {
+      "chain": "islm",
+      "address": null
+    },
+    {
+      "chain": "jbc",
+      "address": null
+    },
+    {
+      "chain": "karak",
+      "address": null
+    },
+    {
+      "chain": "katana",
+      "address": null
+    },
+    {
+      "chain": "kava",
+      "address": null
+    },
+    {
+      "chain": "kopi",
+      "address": null
+    },
+    {
+      "chain": "lac",
+      "address": null
+    },
+    {
+      "chain": "lightlink_phoenix",
+      "address": null
+    },
+    {
+      "chain": "mantra",
+      "address": null
+    },
+    {
+      "chain": "map",
+      "address": null
+    },
+    {
+      "chain": "mint",
+      "address": null
+    },
+    {
+      "chain": "monad",
+      "address": null
+    },
+    {
+      "chain": "moonbeam",
+      "address": null
+    },
+    {
+      "chain": "occ",
+      "address": null
+    },
+    {
+      "chain": "orai",
+      "address": null
+    },
+    {
+      "chain": "planq",
+      "address": null
+    },
+    {
+      "chain": "plume_mainnet",
+      "address": null
+    },
+    {
+      "chain": "rari",
+      "address": null
+    },
+    {
+      "chain": "rbn",
+      "address": null
+    },
+    {
+      "chain": "redstone",
+      "address": null
+    },
+    {
+      "chain": "sapphire",
+      "address": null
+    },
+    {
+      "chain": "secret",
+      "address": null
+    },
+    {
+      "chain": "sei",
+      "address": null
+    },
+    {
+      "chain": "shido",
+      "address": null
+    },
+    {
+      "chain": "shimmer_evm",
+      "address": null
+    },
+    {
+      "chain": "silicon_zk",
+      "address": null
+    },
+    {
+      "chain": "spn",
+      "address": null
+    },
+    {
+      "chain": "sui",
+      "address": null
+    },
+    {
+      "chain": "titan",
+      "address": null
+    },
+    {
+      "chain": "tomochain",
+      "address": null
+    },
+    {
+      "chain": "unit0",
+      "address": null
+    },
+    {
+      "chain": "wc",
+      "address": null
+    },
+    {
+      "chain": "winr",
+      "address": null
+    },
+    {
+      "chain": "xai",
+      "address": null
+    },
+    {
+      "chain": "xrplevm",
+      "address": null
+    },
+    {
+      "chain": "zircuit",
+      "address": null
+    },
+    {
+      "chain": "zkfair",
+      "address": null
+    },
+    {
+      "chain": "zklink",
+      "address": null
+    },
+    {
+      "chain": "cosmos",
+      "address": null
+    },
+    {
+      "chain": "near",
+      "address": null
+    },
+    {
+      "chain": "ton",
+      "address": null
+    },
+    {
+      "chain": "aonea-v-chain",
+      "address": "0x1c413069493c4d5d2105a96329206c33c9ffbb84"
+    },
+    {
+      "chain": "boba_moonbeam",
+      "address": "0x66a2a913e447d6b4bf33efbec43aaef87890fbb7"
+    },
+    {
+      "chain": "loopring",
+      "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+    },
+    {
+      "chain": "neo",
+      "address": "0x0a46e395640366113b638977227d8964724a2c42"
+    },
+    {
+      "chain": "defichain",
+      "address": null
+    },
+    {
+      "chain": "fuel",
+      "address": null
+    },
+    {
+      "chain": "mantrachain",
+      "address": null
+    },
+    {
+      "chain": "namada",
+      "address": null
+    },
+    {
+      "chain": "supra",
+      "address": null
+    },
+    {
+      "chain": "eos",
+      "address": "eosio.token"
+    },
+    {
+      "chain": "era",
+      "address": null
     }
   ],
   "roles": [

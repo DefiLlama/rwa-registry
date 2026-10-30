@@ -2,7 +2,7 @@
   "identity": {
     "slug": "qurerh",
     "symbol": "QURE",
-    "name": "uniQure N.V. • Robinhood Token",
+    "name": "uniQure N.V. - Robinhood Token",
     "legacyId": 2114,
     "canonicalMarketId": "QURErh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

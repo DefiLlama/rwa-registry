@@ -2,7 +2,7 @@
   "identity": {
     "slug": "pnwrh",
     "symbol": "PNW",
-    "name": "Pinnacle West Capital Corp. • Robinhood Token",
+    "name": "Pinnacle West Capital Corp. - Robinhood Token",
     "legacyId": 2056,
     "canonicalMarketId": "PNWrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

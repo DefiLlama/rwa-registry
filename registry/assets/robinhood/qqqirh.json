@@ -2,7 +2,7 @@
   "identity": {
     "slug": "qqqirh",
     "symbol": "QQQI",
-    "name": "Invesco QQQ Plus ETF • Robinhood Token",
+    "name": "Invesco QQQ Plus ETF - Robinhood Token",
     "legacyId": 2777,
     "canonicalMarketId": "QQQIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

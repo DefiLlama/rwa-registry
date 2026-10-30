@@ -2,7 +2,7 @@
   "identity": {
     "slug": "navnrh",
     "symbol": "NAVN",
-    "name": "Navan, Inc. • Robinhood Token",
+    "name": "Navan, Inc. - Robinhood Token",
     "legacyId": 8775,
     "canonicalMarketId": "NAVNrh"
   },
@@ -27,9 +27,7 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "US6391931010",
-        "source": null,
-        "verified": false
+        "value": "US6391931010"
       }
     ]
   },
@@ -45,8 +43,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -62,6 +59,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://robinhood.com/eu/en/about/"
+      ],
+      "protocolIds": [
+        3732
       ]
     },
     {

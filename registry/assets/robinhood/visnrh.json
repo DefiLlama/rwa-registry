@@ -2,7 +2,7 @@
   "identity": {
     "slug": "visnrh",
     "symbol": "VISN",
-    "name": "Vistance Networks, Inc. • Robinhood Token",
+    "name": "Vistance Networks, Inc. - Robinhood Token",
     "legacyId": 2551,
     "canonicalMarketId": "VISNrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

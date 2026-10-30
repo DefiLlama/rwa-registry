@@ -2,7 +2,7 @@
   "identity": {
     "slug": "bklcrh",
     "symbol": "BKLC",
-    "name": "BNY Mellon US Large Cap Core Equity ETF • Robinhood Token",
+    "name": "BNY Mellon US Large Cap Core Equity ETF - Robinhood Token",
     "legacyId": 994,
     "canonicalMarketId": "BKLCrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

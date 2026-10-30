@@ -2,7 +2,7 @@
   "identity": {
     "slug": "swrh",
     "symbol": "SW",
-    "name": "Smurfit Westrock plc • Robinhood Token",
+    "name": "Smurfit Westrock plc - Robinhood Token",
     "legacyId": 2358,
     "canonicalMarketId": "SWrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

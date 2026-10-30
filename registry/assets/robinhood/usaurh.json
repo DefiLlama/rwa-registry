@@ -2,7 +2,7 @@
   "identity": {
     "slug": "usaurh",
     "symbol": "USAU",
-    "name": "U.S. Gold Corp. • Robinhood Token",
+    "name": "U.S. Gold Corp. - Robinhood Token",
     "legacyId": 2503,
     "canonicalMarketId": "USAUrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

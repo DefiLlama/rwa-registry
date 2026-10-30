@@ -2,7 +2,7 @@
   "identity": {
     "slug": "spryrh",
     "symbol": "SPRY",
-    "name": "ARS Pharmaceuticals, Inc. • Robinhood Token",
+    "name": "ARS Pharmaceuticals, Inc. - Robinhood Token",
     "legacyId": 2307,
     "canonicalMarketId": "SPRYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

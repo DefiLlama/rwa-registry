@@ -2,7 +2,7 @@
   "identity": {
     "slug": "cronrh",
     "symbol": "CRON",
-    "name": "Cronos Group Inc. • Robinhood Token",
+    "name": "Cronos Group Inc. - Robinhood Token",
     "legacyId": 1169,
     "canonicalMarketId": "CRONrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

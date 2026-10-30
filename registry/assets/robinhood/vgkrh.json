@@ -2,7 +2,7 @@
   "identity": {
     "slug": "vgkrh",
     "symbol": "VGK",
-    "name": "Vanguard FTSE Europe ETF • Robinhood Token",
+    "name": "Vanguard FTSE Europe ETF - Robinhood Token",
     "legacyId": 2541,
     "canonicalMarketId": "VGKrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

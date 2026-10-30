@@ -2,7 +2,7 @@
   "identity": {
     "slug": "mgmrh",
     "symbol": "MGM",
-    "name": "MGM Resorts International • Robinhood Token",
+    "name": "MGM Resorts International - Robinhood Token",
     "legacyId": 1796,
     "canonicalMarketId": "MGMrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

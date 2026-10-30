@@ -2,7 +2,7 @@
   "identity": {
     "slug": "gladrh",
     "symbol": "GLAD",
-    "name": "Gladstone Capital Corp. • Robinhood Token",
+    "name": "Gladstone Capital Corp. - Robinhood Token",
     "legacyId": 1453,
     "canonicalMarketId": "GLADrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "gororh",
     "symbol": "GORO",
-    "name": "Gold Resource Corp. • Robinhood Token",
+    "name": "Gold Resource Corp. - Robinhood Token",
     "legacyId": 1475,
     "canonicalMarketId": "GOROrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

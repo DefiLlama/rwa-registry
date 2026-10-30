@@ -2,7 +2,7 @@
   "identity": {
     "slug": "borrrh",
     "symbol": "BORR",
-    "name": "Borr Drilling Ltd. • Robinhood Token",
+    "name": "Borr Drilling Ltd. - Robinhood Token",
     "legacyId": 1020,
     "canonicalMarketId": "BORRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "tuarh",
     "symbol": "TUA",
-    "name": "Simplify Short Term Treasury Futures Strategy ETF • Robinhood Token",
+    "name": "Simplify Short Term Treasury Futures Strategy ETF - Robinhood Token",
     "legacyId": 2453,
     "canonicalMarketId": "TUArh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

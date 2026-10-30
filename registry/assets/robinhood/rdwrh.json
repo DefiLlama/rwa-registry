@@ -2,7 +2,7 @@
   "identity": {
     "slug": "rdwrh",
     "symbol": "RDW",
-    "name": "Redwire Corp. • Robinhood Token",
+    "name": "Redwire Corp. - Robinhood Token",
     "legacyId": 2127,
     "canonicalMarketId": "RDWrh"
   },
@@ -27,9 +27,7 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "US75776W1036",
-        "source": null,
-        "verified": false
+        "value": "US75776W1036"
       }
     ]
   },
@@ -45,8 +43,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -77,6 +74,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://robinhood.com/eu/en/about/"
+      ],
+      "protocolIds": [
+        3732
       ]
     },
     {

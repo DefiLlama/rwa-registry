@@ -2,7 +2,7 @@
   "identity": {
     "slug": "irrh",
     "symbol": "IR",
-    "name": "Ingersoll Rand Inc. • Robinhood Token",
+    "name": "Ingersoll Rand Inc. - Robinhood Token",
     "legacyId": 1619,
     "canonicalMarketId": "IRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

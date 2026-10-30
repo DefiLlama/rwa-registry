@@ -25,7 +25,7 @@
     "attestationFrequency": "Real-time onchain dashboard (quarterly treasury reports discontinued after Q4 2024)"
   },
   "about": {
-    "description": "syrupUSDT is a yield-bearing receipt token for USDT deposited into Maple’s Syrup lending vaults. The token’s exchange rate increases as interest accrues from overcollateralized lending to institutional borrowers, with withdrawals processed at the smart contract exchange rate.",
+    "description": "syrupUSDT is a yield-bearing receipt token for USDT deposited into Maple's Syrup lending vaults. The token's exchange rate increases as interest accrues from overcollateralized lending to institutional borrowers, with withdrawals processed at the smart contract exchange rate.",
     "logo": "https://icons.llamao.fi/icons/rwa/syrup-usdt.png?w=48&h=48",
     "links": {
       "website": [
@@ -36,8 +36,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "zbhrh",
     "symbol": "ZBH",
-    "name": "Zimmer Biomet Holdings, Inc. • Robinhood Token",
+    "name": "Zimmer Biomet Holdings, Inc. - Robinhood Token",
     "legacyId": 2686,
     "canonicalMarketId": "ZBHrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

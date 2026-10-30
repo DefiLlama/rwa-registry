@@ -26,7 +26,7 @@
     "attestationFrequency": "Not publicly disclosed"
   },
   "about": {
-    "description": "Fiat-backed USD stablecoin issued by Hex Trust’s HT Digital Assets brand, intended for onchain settlement and payments. Issuer presents reserve and supply figures on its website and supports mint/redeem via KYC-enabled channels.",
+    "description": "Fiat-backed USD stablecoin issued by Hex Trust's HT Digital Assets brand, intended for onchain settlement and payments. Issuer presents reserve and supply figures on its website and supports mint/redeem via KYC-enabled channels.",
     "logo": "https://icons.llamao.fi/icons/rwa/usdx.png?w=48&h=48",
     "links": {
       "website": [
@@ -37,10 +37,19 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
-  "deployments": [],
+  "deployments": [
+    {
+      "chain": "kava",
+      "address": null
+    },
+    {
+      "chain": "ibc",
+      "address": "c78f65e1648a3dfe0baeb6c4cda69cc2a75437f1793c0e6386dfda26393790ae",
+      "primary": true
+    }
+  ],
   "roles": [
     {
       "organization": "ht-digital-assets-hex-trust",

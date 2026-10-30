@@ -2,7 +2,7 @@
   "identity": {
     "slug": "bugrh",
     "symbol": "BUG",
-    "name": "Global X Insects & Agriculture ETF • Robinhood Token",
+    "name": "Global X Insects & Agriculture ETF - Robinhood Token",
     "legacyId": 1039,
     "canonicalMarketId": "BUGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

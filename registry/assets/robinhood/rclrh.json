@@ -2,7 +2,7 @@
   "identity": {
     "slug": "rclrh",
     "symbol": "RCL",
-    "name": "Royal Caribbean Cruises Ltd. • Robinhood Token",
+    "name": "Royal Caribbean Cruises Ltd. - Robinhood Token",
     "legacyId": 2123,
     "canonicalMarketId": "RCLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

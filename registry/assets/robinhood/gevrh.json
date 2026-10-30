@@ -2,7 +2,7 @@
   "identity": {
     "slug": "gevrh",
     "symbol": "GEV",
-    "name": "GE Vernova Inc. • Robinhood Token",
+    "name": "GE Vernova Inc. - Robinhood Token",
     "legacyId": 1443,
     "canonicalMarketId": "GEVrh"
   },
@@ -27,9 +27,7 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "US36828A1016",
-        "source": null,
-        "verified": false
+        "value": "US36828A1016"
       }
     ]
   },
@@ -45,8 +43,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -77,6 +74,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://robinhood.com/eu/en/about/"
+      ],
+      "protocolIds": [
+        3732
       ]
     },
     {

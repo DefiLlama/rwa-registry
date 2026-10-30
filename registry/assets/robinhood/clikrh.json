@@ -2,7 +2,7 @@
   "identity": {
     "slug": "clikrh",
     "symbol": "CLIK",
-    "name": "Click Holdings Ltd. • Robinhood Token",
+    "name": "Click Holdings Ltd. - Robinhood Token",
     "legacyId": 1110,
     "canonicalMarketId": "CLIKrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

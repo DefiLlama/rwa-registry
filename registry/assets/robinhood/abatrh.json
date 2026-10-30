@@ -2,7 +2,7 @@
   "identity": {
     "slug": "abatrh",
     "symbol": "ABAT",
-    "name": "American Battery Technology Company • Robinhood Token",
+    "name": "American Battery Technology Company - Robinhood Token",
     "legacyId": 784,
     "canonicalMarketId": "ABATrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

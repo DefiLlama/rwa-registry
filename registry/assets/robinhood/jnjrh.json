@@ -2,7 +2,7 @@
   "identity": {
     "slug": "jnjrh",
     "symbol": "JNJ",
-    "name": "Johnson & Johnson • Robinhood Token",
+    "name": "Johnson & Johnson - Robinhood Token",
     "legacyId": 1656,
     "canonicalMarketId": "JNJrh"
   },
@@ -27,9 +27,7 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "US4781601046",
-        "source": null,
-        "verified": false
+        "value": "US4781601046"
       }
     ]
   },
@@ -45,8 +43,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -77,6 +74,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://robinhood.com/eu/en/about/"
+      ],
+      "protocolIds": [
+        3732
       ]
     },
     {

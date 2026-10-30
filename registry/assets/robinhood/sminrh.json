@@ -2,7 +2,7 @@
   "identity": {
     "slug": "sminrh",
     "symbol": "SMIN",
-    "name": "Semiconductor & Technology Inverse ETF • Robinhood Token",
+    "name": "Semiconductor & Technology Inverse ETF - Robinhood Token",
     "legacyId": 2260,
     "canonicalMarketId": "SMINrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

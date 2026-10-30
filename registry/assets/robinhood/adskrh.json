@@ -2,7 +2,7 @@
   "identity": {
     "slug": "adskrh",
     "symbol": "ADSK",
-    "name": "Autodesk, Inc. • Robinhood Token",
+    "name": "Autodesk, Inc. - Robinhood Token",
     "legacyId": 805,
     "canonicalMarketId": "ADSKrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

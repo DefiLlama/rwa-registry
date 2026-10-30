@@ -2,7 +2,7 @@
   "identity": {
     "slug": "bdxrh",
     "symbol": "BDX",
-    "name": "Becton Dickinson & Co. • Robinhood Token",
+    "name": "Becton Dickinson & Co. - Robinhood Token",
     "legacyId": 967,
     "canonicalMarketId": "BDXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

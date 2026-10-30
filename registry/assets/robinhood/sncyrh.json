@@ -2,7 +2,7 @@
   "identity": {
     "slug": "sncyrh",
     "symbol": "SNCY",
-    "name": "Sun Country Airlines Holdings, Inc. • Robinhood Token",
+    "name": "Sun Country Airlines Holdings, Inc. - Robinhood Token",
     "legacyId": 2272,
     "canonicalMarketId": "SNCYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

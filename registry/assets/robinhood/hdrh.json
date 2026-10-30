@@ -2,7 +2,7 @@
   "identity": {
     "slug": "hdrh",
     "symbol": "HD",
-    "name": "The Home Depot, Inc. • Robinhood Token",
+    "name": "The Home Depot, Inc. - Robinhood Token",
     "legacyId": 1514,
     "canonicalMarketId": "HDrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

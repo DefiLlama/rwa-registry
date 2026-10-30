@@ -2,7 +2,7 @@
   "identity": {
     "slug": "cortrh",
     "symbol": "CORT",
-    "name": "Corcept Therapeutics Inc. • Robinhood Token",
+    "name": "Corcept Therapeutics Inc. - Robinhood Token",
     "legacyId": 1146,
     "canonicalMarketId": "CORTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

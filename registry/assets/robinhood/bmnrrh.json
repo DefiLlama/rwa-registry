@@ -2,7 +2,7 @@
   "identity": {
     "slug": "bmnrrh",
     "symbol": "BMNR",
-    "name": "Bitmine Immersion Technologies, Inc. • Robinhood Token",
+    "name": "Bitmine Immersion Technologies, Inc. - Robinhood Token",
     "legacyId": 1010,
     "canonicalMarketId": "BMNRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ndaqrh",
     "symbol": "NDAQ",
-    "name": "Nasdaq, Inc. • Robinhood Token",
+    "name": "Nasdaq, Inc. - Robinhood Token",
     "legacyId": 1876,
     "canonicalMarketId": "NDAQrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

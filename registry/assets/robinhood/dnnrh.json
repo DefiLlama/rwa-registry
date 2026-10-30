@@ -2,7 +2,7 @@
   "identity": {
     "slug": "dnnrh",
     "symbol": "DNN",
-    "name": "Denison Mines Corp. • Robinhood Token",
+    "name": "Denison Mines Corp. - Robinhood Token",
     "legacyId": 1241,
     "canonicalMarketId": "DNNrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

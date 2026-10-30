@@ -2,7 +2,7 @@
   "identity": {
     "slug": "iaurh",
     "symbol": "IAU",
-    "name": "iShares Gold Trust • Robinhood Token",
+    "name": "iShares Gold Trust - Robinhood Token",
     "legacyId": 2742,
     "canonicalMarketId": "IAUrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

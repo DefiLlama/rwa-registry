@@ -2,7 +2,7 @@
   "identity": {
     "slug": "vgrh",
     "symbol": "VG",
-    "name": "Venture Global, Inc. • Robinhood Token",
+    "name": "Venture Global, Inc. - Robinhood Token",
     "legacyId": 2546,
     "canonicalMarketId": "VGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

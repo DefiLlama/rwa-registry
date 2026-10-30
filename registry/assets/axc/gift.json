@@ -37,13 +37,13 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
       "chain": "bsc",
       "address": "0x6eca9d3b1ef79f5b45572fb8204835c6a4502be9",
+      "deployedAt": "2025-12-22",
       "primary": true
     }
   ],

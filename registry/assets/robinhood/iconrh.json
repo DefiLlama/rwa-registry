@@ -2,7 +2,7 @@
   "identity": {
     "slug": "iconrh",
     "symbol": "ICON",
-    "name": "Icon Energy Corp. • Robinhood Token",
+    "name": "Icon Energy Corp. - Robinhood Token",
     "legacyId": 1573,
     "canonicalMarketId": "ICONrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

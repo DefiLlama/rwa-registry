@@ -2,7 +2,7 @@
   "identity": {
     "slug": "worxrh",
     "symbol": "WORX",
-    "name": "SCWorx Corp. • Robinhood Token",
+    "name": "SCWorx Corp. - Robinhood Token",
     "legacyId": 2628,
     "canonicalMarketId": "WORXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "rfrh",
     "symbol": "RF",
-    "name": "Regions Financial Corp. • Robinhood Token",
+    "name": "Regions Financial Corp. - Robinhood Token",
     "legacyId": 2133,
     "canonicalMarketId": "RFrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

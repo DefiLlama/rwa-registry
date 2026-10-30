@@ -30,7 +30,7 @@
     "coingeckoId": "nest-alpha-vault-lp"
   },
   "about": {
-    "description": "inALPHA is the receipt token for Nest’s Institutional Alpha vault. Public token listings identify the asset as Nest Alpha Vault (LP), while the attached source sheet labels it Nest Institutional Alpha Vault. Based on the public materials available, it is best understood as an LP or institutional share class tied to Nest’s broader diversified nALPHA strategy, where value accrues through NAV inside the vault rather than through separate distributions.",
+    "description": "inALPHA is the receipt token for Nest's Institutional Alpha vault. Public token listings identify the asset as Nest Alpha Vault (LP), while the attached source sheet labels it Nest Institutional Alpha Vault. Based on the public materials available, it is best understood as an LP or institutional share class tied to Nest's broader diversified nALPHA strategy, where value accrues through NAV inside the vault rather than through separate distributions.",
     "logo": "https://icons.llamao.fi/icons/rwa/inalpha.png?w=48&h=48",
     "links": {
       "website": [
@@ -40,8 +40,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

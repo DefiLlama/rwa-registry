@@ -2,7 +2,7 @@
   "identity": {
     "slug": "strh",
     "symbol": "ST",
-    "name": "Sensata Technologies Holding plc • Robinhood Token",
+    "name": "Sensata Technologies Holding plc - Robinhood Token",
     "legacyId": 2347,
     "canonicalMarketId": "STrh"
   },
@@ -34,9 +34,15 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
+  "deployments": [
+    {
+      "chain": "arbitrum",
+      "address": null,
+      "primary": true
+    }
+  ],
   "roles": [
     {
       "organization": "robinhood-markets-inc",

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "oberh",
     "symbol": "OBE",
-    "name": "Obsidian Energy Ltd. • Robinhood Token",
+    "name": "Obsidian Energy Ltd. - Robinhood Token",
     "legacyId": 1948,
     "canonicalMarketId": "OBErh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

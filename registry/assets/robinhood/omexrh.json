@@ -2,7 +2,7 @@
   "identity": {
     "slug": "omexrh",
     "symbol": "OMEX",
-    "name": "Odyssey Marine Exploration, Inc. • Robinhood Token",
+    "name": "Odyssey Marine Exploration, Inc. - Robinhood Token",
     "legacyId": 1964,
     "canonicalMarketId": "OMEXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "sphrrh",
     "symbol": "SPHR",
-    "name": "Sphere Entertainment Co. • Robinhood Token",
+    "name": "Sphere Entertainment Co. - Robinhood Token",
     "legacyId": 2300,
     "canonicalMarketId": "SPHRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

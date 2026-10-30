@@ -2,7 +2,7 @@
   "identity": {
     "slug": "zbrarh",
     "symbol": "ZBRA",
-    "name": "Zebra Technologies Corp. • Robinhood Token",
+    "name": "Zebra Technologies Corp. - Robinhood Token",
     "legacyId": 2687,
     "canonicalMarketId": "ZBRArh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

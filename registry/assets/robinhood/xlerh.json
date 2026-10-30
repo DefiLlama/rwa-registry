@@ -2,7 +2,7 @@
   "identity": {
     "slug": "xlerh",
     "symbol": "XLE",
-    "name": "State Street Energy Select Sector SPDR ETF • Robinhood Token",
+    "name": "State Street Energy Select Sector SPDR ETF - Robinhood Token",
     "legacyId": 2649,
     "canonicalMarketId": "XLErh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

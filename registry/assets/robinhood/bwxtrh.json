@@ -2,7 +2,7 @@
   "identity": {
     "slug": "bwxtrh",
     "symbol": "BWXT",
-    "name": "BWX Technologies, Inc. • Robinhood Token",
+    "name": "BWX Technologies, Inc. - Robinhood Token",
     "legacyId": 1044,
     "canonicalMarketId": "BWXTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

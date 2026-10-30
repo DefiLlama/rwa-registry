@@ -11,7 +11,7 @@
   },
   "class": {
     "structure": "lending-venue",
-    "type": "platform",
+    "type": "asset",
     "rwaClassification": "non-rwa-gov-utility",
     "category": [
       "real-estate"
@@ -39,14 +39,18 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
       "chain": "polygon",
       "address": "0x27ab6e82f3458edbc0703db2756391b899ce6324",
       "deployedAt": "2023-10-23"
+    },
+    {
+      "chain": "ethereum",
+      "address": null,
+      "primary": true
     }
   ],
   "roles": [

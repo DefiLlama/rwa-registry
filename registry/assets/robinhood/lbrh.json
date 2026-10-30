@@ -2,7 +2,7 @@
   "identity": {
     "slug": "lbrh",
     "symbol": "LB",
-    "name": "LandBridge Co LLC • Robinhood Token",
+    "name": "LandBridge Co LLC - Robinhood Token",
     "legacyId": 1713,
     "canonicalMarketId": "LBrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

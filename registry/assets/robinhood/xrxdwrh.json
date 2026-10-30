@@ -2,7 +2,7 @@
   "identity": {
     "slug": "xrxdwrh",
     "symbol": "XRXDW",
-    "name": "Xerox Holdings Corp. • Robinhood Token",
+    "name": "Xerox Holdings Corp. - Robinhood Token",
     "legacyId": 2663,
     "canonicalMarketId": "XRXDWrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

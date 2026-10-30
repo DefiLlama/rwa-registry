@@ -2,7 +2,7 @@
   "identity": {
     "slug": "walrh",
     "symbol": "WAL",
-    "name": "Western Alliance Bancorporation • Robinhood Token",
+    "name": "Western Alliance Bancorporation - Robinhood Token",
     "legacyId": 2601,
     "canonicalMarketId": "WALrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "vbkrh",
     "symbol": "VBK",
-    "name": "Vanguard Small-Cap Growth ETF • Robinhood Token",
+    "name": "Vanguard Small-Cap Growth ETF - Robinhood Token",
     "legacyId": 2523,
     "canonicalMarketId": "VBKrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

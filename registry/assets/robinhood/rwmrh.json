@@ -2,7 +2,7 @@
   "identity": {
     "slug": "rwmrh",
     "symbol": "RWM",
-    "name": "ProShares Short Russell 2000 • Robinhood Token",
+    "name": "ProShares Short Russell 2000 - Robinhood Token",
     "legacyId": 2170,
     "canonicalMarketId": "RWMrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

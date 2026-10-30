@@ -2,7 +2,7 @@
   "identity": {
     "slug": "tsmyrh",
     "symbol": "TSMY",
-    "name": "TSMC Inverse ETF • Robinhood Token",
+    "name": "TSMC Inverse ETF - Robinhood Token",
     "legacyId": 2445,
     "canonicalMarketId": "TSMYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

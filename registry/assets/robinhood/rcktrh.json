@@ -2,7 +2,7 @@
   "identity": {
     "slug": "rcktrh",
     "symbol": "RCKT",
-    "name": "Rocket Pharmaceuticals, Inc. • Robinhood Token",
+    "name": "Rocket Pharmaceuticals, Inc. - Robinhood Token",
     "legacyId": 2122,
     "canonicalMarketId": "RCKTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

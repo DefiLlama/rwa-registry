@@ -2,7 +2,7 @@
   "identity": {
     "slug": "psxrh",
     "symbol": "PSX",
-    "name": "Phillips 66 • Robinhood Token",
+    "name": "Phillips 66 - Robinhood Token",
     "legacyId": 2084,
     "canonicalMarketId": "PSXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

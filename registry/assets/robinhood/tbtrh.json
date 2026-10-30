@@ -2,7 +2,7 @@
   "identity": {
     "slug": "tbtrh",
     "symbol": "TBT",
-    "name": "ProShares UltraShort 20+ Year Treasury • Robinhood Token",
+    "name": "ProShares UltraShort 20+ Year Treasury - Robinhood Token",
     "legacyId": 2371,
     "canonicalMarketId": "TBTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

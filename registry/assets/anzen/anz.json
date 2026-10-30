@@ -43,8 +43,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -58,6 +57,14 @@
           "kind": "excluded-holder"
         }
       ]
+    },
+    {
+      "chain": "ethereum",
+      "address": null
+    },
+    {
+      "chain": "arbitrum",
+      "address": null
     }
   ],
   "roles": [

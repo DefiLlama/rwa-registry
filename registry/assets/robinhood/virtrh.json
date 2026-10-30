@@ -2,7 +2,7 @@
   "identity": {
     "slug": "virtrh",
     "symbol": "VIRT",
-    "name": "Virtu Financial, Inc. • Robinhood Token",
+    "name": "Virtu Financial, Inc. - Robinhood Token",
     "legacyId": 2550,
     "canonicalMarketId": "VIRTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

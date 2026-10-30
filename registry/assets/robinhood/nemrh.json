@@ -2,7 +2,7 @@
   "identity": {
     "slug": "nemrh",
     "symbol": "NEM",
-    "name": "Newmont Corp. • Robinhood Token",
+    "name": "Newmont Corp. - Robinhood Token",
     "legacyId": 1880,
     "canonicalMarketId": "NEMrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "prphrh",
     "symbol": "PRPH",
-    "name": "ProPhase Labs, Inc. • Robinhood Token",
+    "name": "ProPhase Labs, Inc. - Robinhood Token",
     "legacyId": 2073,
     "canonicalMarketId": "PRPHrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

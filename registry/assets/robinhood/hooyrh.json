@@ -2,7 +2,7 @@
   "identity": {
     "slug": "hooyrh",
     "symbol": "HOOY",
-    "name": "Hootsuite Inverse ETF • Robinhood Token",
+    "name": "Hootsuite Inverse ETF - Robinhood Token",
     "legacyId": 1539,
     "canonicalMarketId": "HOOYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

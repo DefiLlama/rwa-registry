@@ -2,7 +2,7 @@
   "identity": {
     "slug": "gddyrh",
     "symbol": "GDDY",
-    "name": "GoDaddy Inc. • Robinhood Token",
+    "name": "GoDaddy Inc. - Robinhood Token",
     "legacyId": 1427,
     "canonicalMarketId": "GDDYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

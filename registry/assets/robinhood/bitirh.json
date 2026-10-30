@@ -2,7 +2,7 @@
   "identity": {
     "slug": "bitirh",
     "symbol": "BITI",
-    "name": "ProShares Short Bitcoin Strategy ETF • Robinhood Token",
+    "name": "ProShares Short Bitcoin Strategy ETF - Robinhood Token",
     "legacyId": 986,
     "canonicalMarketId": "BITIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

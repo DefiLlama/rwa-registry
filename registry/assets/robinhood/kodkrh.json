@@ -2,7 +2,7 @@
   "identity": {
     "slug": "kodkrh",
     "symbol": "KODK",
-    "name": "Eastman Kodak Co. • Robinhood Token",
+    "name": "Eastman Kodak Co. - Robinhood Token",
     "legacyId": 1686,
     "canonicalMarketId": "KODKrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

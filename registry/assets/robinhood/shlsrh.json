@@ -2,7 +2,7 @@
   "identity": {
     "slug": "shlsrh",
     "symbol": "SHLS",
-    "name": "Shoals Technologies Group, Inc. • Robinhood Token",
+    "name": "Shoals Technologies Group, Inc. - Robinhood Token",
     "legacyId": 2230,
     "canonicalMarketId": "SHLSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

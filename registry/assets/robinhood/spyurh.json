@@ -2,7 +2,7 @@
   "identity": {
     "slug": "spyurh",
     "symbol": "SPYU",
-    "name": "MAX S&P 500 4X Leveraged ETNs due October 30, 2043 • Robinhood Token",
+    "name": "MAX S&P 500 4X Leveraged ETNs due October 30, 2043 - Robinhood Token",
     "legacyId": 2321,
     "canonicalMarketId": "SPYUrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

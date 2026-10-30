@@ -2,7 +2,7 @@
   "identity": {
     "slug": "pltdrh",
     "symbol": "PLTD",
-    "name": "Direxion Daily PLTR Bear 1X ETF • Robinhood Token",
+    "name": "Direxion Daily PLTR Bear 1X ETF - Robinhood Token",
     "legacyId": 2042,
     "canonicalMarketId": "PLTDrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

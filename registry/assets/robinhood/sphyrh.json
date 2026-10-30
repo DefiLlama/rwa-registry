@@ -2,7 +2,7 @@
   "identity": {
     "slug": "sphyrh",
     "symbol": "SPHY",
-    "name": "Invesco S&P High Yield Municipal Bond ETF • Robinhood Token",
+    "name": "Invesco S&P High Yield Municipal Bond ETF - Robinhood Token",
     "legacyId": 2301,
     "canonicalMarketId": "SPHYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

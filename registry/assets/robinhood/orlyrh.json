@@ -2,7 +2,7 @@
   "identity": {
     "slug": "orlyrh",
     "symbol": "ORLY",
-    "name": "O'Reilly Automotive, Inc. • Robinhood Token",
+    "name": "O'Reilly Automotive, Inc. - Robinhood Token",
     "legacyId": 1982,
     "canonicalMarketId": "ORLYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

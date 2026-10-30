@@ -2,7 +2,7 @@
   "identity": {
     "slug": "murarh",
     "symbol": "MURA",
-    "name": "Mural Oncology • Robinhood Token",
+    "name": "Mural Oncology - Robinhood Token",
     "legacyId": 1855,
     "canonicalMarketId": "MURArh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

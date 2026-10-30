@@ -2,7 +2,7 @@
   "identity": {
     "slug": "maxnrh",
     "symbol": "MAXN",
-    "name": "Maxeon Solar Technologies, Ltd. • Robinhood Token",
+    "name": "Maxeon Solar Technologies, Ltd. - Robinhood Token",
     "legacyId": 1775,
     "canonicalMarketId": "MAXNrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

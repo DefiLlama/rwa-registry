@@ -2,7 +2,7 @@
   "identity": {
     "slug": "fdnrh",
     "symbol": "FDN",
-    "name": "iShares NYSE FANG+ ETF • Robinhood Token",
+    "name": "iShares NYSE FANG+ ETF - Robinhood Token",
     "legacyId": 1358,
     "canonicalMarketId": "FDNrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

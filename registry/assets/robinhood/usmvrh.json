@@ -2,7 +2,7 @@
   "identity": {
     "slug": "usmvrh",
     "symbol": "USMV",
-    "name": "iShares MSCI USA Min Vol Factor ETF • Robinhood Token",
+    "name": "iShares MSCI USA Min Vol Factor ETF - Robinhood Token",
     "legacyId": 2508,
     "canonicalMarketId": "USMVrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

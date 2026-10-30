@@ -2,7 +2,7 @@
   "identity": {
     "slug": "arberh",
     "symbol": "ARBE",
-    "name": "Arbe Robotics Ltd. • Robinhood Token",
+    "name": "Arbe Robotics Ltd. - Robinhood Token",
     "legacyId": 894,
     "canonicalMarketId": "ARBErh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "prchrh",
     "symbol": "PRCH",
-    "name": "Porch Group, Inc. • Robinhood Token",
+    "name": "Porch Group, Inc. - Robinhood Token",
     "legacyId": 2066,
     "canonicalMarketId": "PRCHrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

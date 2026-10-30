@@ -2,7 +2,7 @@
   "identity": {
     "slug": "xlfrh",
     "symbol": "XLF",
-    "name": "State Street Financial Select Sector SPDR ETF • Robinhood Token",
+    "name": "State Street Financial Select Sector SPDR ETF - Robinhood Token",
     "legacyId": 2650,
     "canonicalMarketId": "XLFrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

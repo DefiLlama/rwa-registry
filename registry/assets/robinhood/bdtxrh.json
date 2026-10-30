@@ -2,7 +2,7 @@
   "identity": {
     "slug": "bdtxrh",
     "symbol": "BDTX",
-    "name": "Black Diamond Therapeutics, Inc. • Robinhood Token",
+    "name": "Black Diamond Therapeutics, Inc. - Robinhood Token",
     "legacyId": 966,
     "canonicalMarketId": "BDTXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

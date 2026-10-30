@@ -2,7 +2,7 @@
   "identity": {
     "slug": "vikrh",
     "symbol": "VIK",
-    "name": "Viking Holdings Ltd. • Robinhood Token",
+    "name": "Viking Holdings Ltd. - Robinhood Token",
     "legacyId": 2549,
     "canonicalMarketId": "VIKrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

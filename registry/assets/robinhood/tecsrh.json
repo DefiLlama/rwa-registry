@@ -2,7 +2,7 @@
   "identity": {
     "slug": "tecsrh",
     "symbol": "TECS",
-    "name": "Direxion Daily Technology Bear 3X ETF • Robinhood Token",
+    "name": "Direxion Daily Technology Bear 3X ETF - Robinhood Token",
     "legacyId": 2381,
     "canonicalMarketId": "TECSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

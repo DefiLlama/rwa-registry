@@ -2,7 +2,7 @@
   "identity": {
     "slug": "oxsqrh",
     "symbol": "OXSQ",
-    "name": "Oxford Square Capital Corp. • Robinhood Token",
+    "name": "Oxford Square Capital Corp. - Robinhood Token",
     "legacyId": 1989,
     "canonicalMarketId": "OXSQrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

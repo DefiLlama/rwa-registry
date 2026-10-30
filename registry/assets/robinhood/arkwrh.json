@@ -2,7 +2,7 @@
   "identity": {
     "slug": "arkwrh",
     "symbol": "ARKW",
-    "name": "ARK Next Generation Internet ETF • Robinhood Token",
+    "name": "ARK Next Generation Internet ETF - Robinhood Token",
     "legacyId": 907,
     "canonicalMarketId": "ARKWrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

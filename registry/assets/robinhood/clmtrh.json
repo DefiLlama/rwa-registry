@@ -2,7 +2,7 @@
   "identity": {
     "slug": "clmtrh",
     "symbol": "CLMT",
-    "name": "Calumet, Inc. • Robinhood Token",
+    "name": "Calumet, Inc. - Robinhood Token",
     "legacyId": 1112,
     "canonicalMarketId": "CLMTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "etsyrh",
     "symbol": "ETSY",
-    "name": "Etsy, Inc. • Robinhood Token",
+    "name": "Etsy, Inc. - Robinhood Token",
     "legacyId": 1317,
     "canonicalMarketId": "ETSYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

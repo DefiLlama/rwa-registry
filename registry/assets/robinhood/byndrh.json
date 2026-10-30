@@ -2,7 +2,7 @@
   "identity": {
     "slug": "byndrh",
     "symbol": "BYND",
-    "name": "Beyond Meat, Inc. • Robinhood Token",
+    "name": "Beyond Meat, Inc. - Robinhood Token",
     "legacyId": 1048,
     "canonicalMarketId": "BYNDrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

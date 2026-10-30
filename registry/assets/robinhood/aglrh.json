@@ -2,7 +2,7 @@
   "identity": {
     "slug": "aglrh",
     "symbol": "AGL",
-    "name": "agilon health, inc. • Robinhood Token",
+    "name": "agilon health, inc. - Robinhood Token",
     "legacyId": 820,
     "canonicalMarketId": "AGLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

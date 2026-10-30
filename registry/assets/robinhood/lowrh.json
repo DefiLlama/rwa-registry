@@ -2,7 +2,7 @@
   "identity": {
     "slug": "lowrh",
     "symbol": "LOW",
-    "name": "Lowe's Companies, Inc. • Robinhood Token",
+    "name": "Lowe's Companies, Inc. - Robinhood Token",
     "legacyId": 1741,
     "canonicalMarketId": "LOWrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

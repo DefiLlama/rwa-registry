@@ -2,7 +2,7 @@
   "identity": {
     "slug": "clfrh",
     "symbol": "CLF",
-    "name": "Cleveland-Cliffs Inc. • Robinhood Token",
+    "name": "Cleveland-Cliffs Inc. - Robinhood Token",
     "legacyId": 1109,
     "canonicalMarketId": "CLFrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

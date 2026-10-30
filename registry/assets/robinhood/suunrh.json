@@ -2,7 +2,7 @@
   "identity": {
     "slug": "suunrh",
     "symbol": "SUUN",
-    "name": "PowerBank Corp. • Robinhood Token",
+    "name": "PowerBank Corp. - Robinhood Token",
     "legacyId": 2349,
     "canonicalMarketId": "SUUNrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ultyrh",
     "symbol": "ULTY",
-    "name": "Ultra Technology ETF • Robinhood Token",
+    "name": "Ultra Technology ETF - Robinhood Token",
     "legacyId": 2768,
     "canonicalMarketId": "ULTYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

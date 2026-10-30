@@ -2,7 +2,7 @@
   "identity": {
     "slug": "mscirh",
     "symbol": "MSCI",
-    "name": "MSCI Inc. • Robinhood Token",
+    "name": "MSCI Inc. - Robinhood Token",
     "legacyId": 1830,
     "canonicalMarketId": "MSCIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

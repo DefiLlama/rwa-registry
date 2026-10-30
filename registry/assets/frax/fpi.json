@@ -26,7 +26,7 @@
     "coingeckoId": "frax-price-index"
   },
   "about": {
-    "description": "FPI is Frax’s onchain price-index token designed to track the U. S. Consumer Price Index (a “CPI-adjusted dollar”) rather than a fixed $1. Peg behavior depends on Frax protocol collateral/AMO liquidity management and governance. key risks include index-peg deviation, DeFi liquidity, and governance/strategy risk.",
+    "description": "FPI is Frax's onchain price-index token designed to track the U. S. Consumer Price Index (a \"CPI-adjusted dollar\") rather than a fixed $1. Peg behavior depends on Frax protocol collateral/AMO liquidity management and governance. key risks include index-peg deviation, DeFi liquidity, and governance/strategy risk.",
     "logo": "https://icons.llamao.fi/icons/rwa/frax-price-index.png?w=48&h=48",
     "links": {
       "website": [
@@ -37,8 +37,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -227,6 +226,9 @@
         "https://frax.com/",
         "https://docs.frax.com/",
         "https://www.coingecko.com/en/coins/frax-price-index"
+      ],
+      "protocolIds": [
+        359
       ]
     }
   ]

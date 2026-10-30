@@ -2,7 +2,7 @@
   "identity": {
     "slug": "nscrh",
     "symbol": "NSC",
-    "name": "Norfolk Southern Corp. • Robinhood Token",
+    "name": "Norfolk Southern Corp. - Robinhood Token",
     "legacyId": 1913,
     "canonicalMarketId": "NSCrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

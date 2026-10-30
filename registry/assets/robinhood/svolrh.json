@@ -2,7 +2,7 @@
   "identity": {
     "slug": "svolrh",
     "symbol": "SVOL",
-    "name": "Volatility Focused ETF • Robinhood Token",
+    "name": "Volatility Focused ETF - Robinhood Token",
     "legacyId": 2352,
     "canonicalMarketId": "SVOLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

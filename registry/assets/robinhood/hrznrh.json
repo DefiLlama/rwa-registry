@@ -2,7 +2,7 @@
   "identity": {
     "slug": "hrznrh",
     "symbol": "HRZN",
-    "name": "Horizon Technology Finance Corp. • Robinhood Token",
+    "name": "Horizon Technology Finance Corp. - Robinhood Token",
     "legacyId": 1544,
     "canonicalMarketId": "HRZNrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

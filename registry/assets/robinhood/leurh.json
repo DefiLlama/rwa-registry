@@ -2,7 +2,7 @@
   "identity": {
     "slug": "leurh",
     "symbol": "LEU",
-    "name": "Centrus Energy Corp. • Robinhood Token",
+    "name": "Centrus Energy Corp. - Robinhood Token",
     "legacyId": 1721,
     "canonicalMarketId": "LEUrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

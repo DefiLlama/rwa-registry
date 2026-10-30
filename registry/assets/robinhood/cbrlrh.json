@@ -2,7 +2,7 @@
   "identity": {
     "slug": "cbrlrh",
     "symbol": "CBRL",
-    "name": "Cracker Barrel Old Country Store, Inc. • Robinhood Token",
+    "name": "Cracker Barrel Old Country Store, Inc. - Robinhood Token",
     "legacyId": 1064,
     "canonicalMarketId": "CBRLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

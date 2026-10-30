@@ -2,7 +2,7 @@
   "identity": {
     "slug": "magxrh",
     "symbol": "MAGX",
-    "name": "Magnificent Seven Inverse ETF • Robinhood Token",
+    "name": "Magnificent Seven Inverse ETF - Robinhood Token",
     "legacyId": 1767,
     "canonicalMarketId": "MAGXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "satsrh",
     "symbol": "SATS",
-    "name": "EchoStar Corp. • Robinhood Token",
+    "name": "EchoStar Corp. - Robinhood Token",
     "legacyId": 2182,
     "canonicalMarketId": "SATSrh"
   },
@@ -27,9 +27,7 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "US2787681061",
-        "source": null,
-        "verified": false
+        "value": "US2787681061"
       }
     ]
   },
@@ -45,8 +43,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -77,6 +74,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://robinhood.com/eu/en/about/"
+      ],
+      "protocolIds": [
+        3732
       ]
     },
     {

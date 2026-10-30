@@ -2,7 +2,7 @@
   "identity": {
     "slug": "arebrh",
     "symbol": "AREB",
-    "name": "American Rebel Holdings, Inc. • Robinhood Token",
+    "name": "American Rebel Holdings, Inc. - Robinhood Token",
     "legacyId": 898,
     "canonicalMarketId": "AREBrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

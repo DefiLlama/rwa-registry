@@ -2,7 +2,7 @@
   "identity": {
     "slug": "plugrh",
     "symbol": "PLUG",
-    "name": "Plug Power Inc. • Robinhood Token",
+    "name": "Plug Power Inc. - Robinhood Token",
     "legacyId": 2048,
     "canonicalMarketId": "PLUGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

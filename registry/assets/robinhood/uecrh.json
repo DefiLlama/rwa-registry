@@ -2,7 +2,7 @@
   "identity": {
     "slug": "uecrh",
     "symbol": "UEC",
-    "name": "Uranium Energy Corp. • Robinhood Token",
+    "name": "Uranium Energy Corp. - Robinhood Token",
     "legacyId": 2476,
     "canonicalMarketId": "UECrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

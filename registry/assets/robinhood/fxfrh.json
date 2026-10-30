@@ -2,7 +2,7 @@
   "identity": {
     "slug": "fxfrh",
     "symbol": "FXF",
-    "name": "Invesco CurrencyShares Swiss Franc Trust • Robinhood Token",
+    "name": "Invesco CurrencyShares Swiss Franc Trust - Robinhood Token",
     "legacyId": 1417,
     "canonicalMarketId": "FXFrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

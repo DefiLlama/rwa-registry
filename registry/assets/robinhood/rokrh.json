@@ -2,7 +2,7 @@
   "identity": {
     "slug": "rokrh",
     "symbol": "ROK",
-    "name": "Rockwell Automation, Inc. • Robinhood Token",
+    "name": "Rockwell Automation, Inc. - Robinhood Token",
     "legacyId": 2155,
     "canonicalMarketId": "ROKrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

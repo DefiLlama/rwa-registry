@@ -2,7 +2,7 @@
   "identity": {
     "slug": "amdlrh",
     "symbol": "AMDL",
-    "name": "GraniteShares 2x Long AMD Daily ETF • Robinhood Token",
+    "name": "GraniteShares 2x Long AMD Daily ETF - Robinhood Token",
     "legacyId": 855,
     "canonicalMarketId": "AMDLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

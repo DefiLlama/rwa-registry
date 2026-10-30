@@ -2,7 +2,7 @@
   "identity": {
     "slug": "mndyrh",
     "symbol": "MNDY",
-    "name": "monday.com Ltd. • Robinhood Token",
+    "name": "monday.com Ltd. - Robinhood Token",
     "legacyId": 1811,
     "canonicalMarketId": "MNDYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

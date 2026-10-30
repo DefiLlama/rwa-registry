@@ -7,12 +7,12 @@
     "canonicalMarketId": "TWSTon"
   },
   "exposure": {
-    "underlying": "twist-bioscience-corporation"
+    "underlying": "twist-bioscience-corp"
   },
   "class": {
     "structure": "stock-backed",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "stocks-equities"
     ]
@@ -29,9 +29,7 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "US90184D1000",
-        "source": null,
-        "verified": false
+        "value": "US90184D1000"
       }
     ]
   },
@@ -47,8 +45,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

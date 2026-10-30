@@ -12,7 +12,7 @@
   "class": {
     "structure": "pe-venture",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "stocks-equities"
     ]
@@ -21,7 +21,8 @@
     "redeemable": true,
     "transferable": true,
     "selfCustody": true,
-    "yieldBearing": false
+    "yieldBearing": false,
+    "attestationFrequency": "No attestation found"
   },
   "sources": {
     "coingeckoId": "aktionariat-green-consensus-ag-tokenized-shares"
@@ -38,8 +39,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -55,13 +55,16 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://www.aktionariat.com/impressum"
+      ],
+      "protocolIds": [
+        2782
       ]
     }
   ],
   "events": [
     {
       "kind": "attestation",
-      "note": "No attestation found"
+      "note": "no date in the export"
     }
   ]
 }

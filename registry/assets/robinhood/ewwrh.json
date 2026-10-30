@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ewwrh",
     "symbol": "EWW",
-    "name": "iShares MSCI Mexico ETF • Robinhood Token",
+    "name": "iShares MSCI Mexico ETF - Robinhood Token",
     "legacyId": 1332,
     "canonicalMarketId": "EWWrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

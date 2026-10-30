@@ -2,7 +2,7 @@
   "identity": {
     "slug": "dpstrh",
     "symbol": "DPST",
-    "name": "Direxion Daily Regional Banks Bull 3X ETF • Robinhood Token",
+    "name": "Direxion Daily Regional Banks Bull 3X ETF - Robinhood Token",
     "legacyId": 1248,
     "canonicalMarketId": "DPSTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

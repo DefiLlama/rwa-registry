@@ -2,7 +2,7 @@
   "identity": {
     "slug": "alhcrh",
     "symbol": "ALHC",
-    "name": "Alignment Healthcare, Inc. • Robinhood Token",
+    "name": "Alignment Healthcare, Inc. - Robinhood Token",
     "legacyId": 841,
     "canonicalMarketId": "ALHCrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

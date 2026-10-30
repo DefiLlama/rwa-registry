@@ -2,7 +2,7 @@
   "identity": {
     "slug": "opttrh",
     "symbol": "OPTT",
-    "name": "Ocean Power Technologies, Inc. • Robinhood Token",
+    "name": "Ocean Power Technologies, Inc. - Robinhood Token",
     "legacyId": 1979,
     "canonicalMarketId": "OPTTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

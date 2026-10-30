@@ -2,7 +2,7 @@
   "identity": {
     "slug": "nirh",
     "symbol": "NI",
-    "name": "NiSource Inc. • Robinhood Token",
+    "name": "NiSource Inc. - Robinhood Token",
     "legacyId": 1896,
     "canonicalMarketId": "NIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

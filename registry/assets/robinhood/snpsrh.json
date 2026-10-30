@@ -2,7 +2,7 @@
   "identity": {
     "slug": "snpsrh",
     "symbol": "SNPS",
-    "name": "Synopsys, Inc. • Robinhood Token",
+    "name": "Synopsys, Inc. - Robinhood Token",
     "legacyId": 2277,
     "canonicalMarketId": "SNPSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

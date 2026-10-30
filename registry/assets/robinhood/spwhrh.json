@@ -2,7 +2,7 @@
   "identity": {
     "slug": "spwhrh",
     "symbol": "SPWH",
-    "name": "Sportsman's Warehouse Holdings, Inc. • Robinhood Token",
+    "name": "Sportsman's Warehouse Holdings, Inc. - Robinhood Token",
     "legacyId": 2312,
     "canonicalMarketId": "SPWHrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

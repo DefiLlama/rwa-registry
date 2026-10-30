@@ -12,7 +12,7 @@
   "class": {
     "structure": "mixed-rwa-fund",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "other-rwas"
     ]
@@ -37,8 +37,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

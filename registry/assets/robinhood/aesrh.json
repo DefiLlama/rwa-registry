@@ -2,7 +2,7 @@
   "identity": {
     "slug": "aesrh",
     "symbol": "AES",
-    "name": "The AES Corp. • Robinhood Token",
+    "name": "The AES Corp. - Robinhood Token",
     "legacyId": 813,
     "canonicalMarketId": "AESrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

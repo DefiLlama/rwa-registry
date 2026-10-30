@@ -2,7 +2,7 @@
   "identity": {
     "slug": "gossrh",
     "symbol": "GOSS",
-    "name": "Gossamer Bio, Inc. • Robinhood Token",
+    "name": "Gossamer Bio, Inc. - Robinhood Token",
     "legacyId": 1476,
     "canonicalMarketId": "GOSSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "gme-wsrh",
     "symbol": "GME.WS",
-    "name": "GameStop warrants • Robinhood Token",
+    "name": "GameStop warrants - Robinhood Token",
     "legacyId": 1464,
     "canonicalMarketId": "GME.WSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

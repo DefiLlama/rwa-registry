@@ -2,7 +2,7 @@
   "identity": {
     "slug": "awkrh",
     "symbol": "AWK",
-    "name": "American Water Works Company, Inc. • Robinhood Token",
+    "name": "American Water Works Company, Inc. - Robinhood Token",
     "legacyId": 944,
     "canonicalMarketId": "AWKrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "arccrh",
     "symbol": "ARCC",
-    "name": "Ares Capital Corp. • Robinhood Token",
+    "name": "Ares Capital Corp. - Robinhood Token",
     "legacyId": 895,
     "canonicalMarketId": "ARCCrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -42,8 +42,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -59,6 +58,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://mcag.mimo.capital/legal/Mimo_Capital_AG_Financial_Statements_2022_EN.pdf"
+      ],
+      "protocolIds": [
+        4003
       ]
     }
   ],

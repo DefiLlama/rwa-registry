@@ -2,7 +2,7 @@
   "identity": {
     "slug": "mohrh",
     "symbol": "MOH",
-    "name": "Molina Healthcare, Inc. • Robinhood Token",
+    "name": "Molina Healthcare, Inc. - Robinhood Token",
     "legacyId": 1816,
     "canonicalMarketId": "MOHrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

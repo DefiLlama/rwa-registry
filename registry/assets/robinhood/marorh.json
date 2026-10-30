@@ -2,7 +2,7 @@
   "identity": {
     "slug": "marorh",
     "symbol": "MARO",
-    "name": "Maro Leverage ETF • Robinhood Token",
+    "name": "Maro Leverage ETF - Robinhood Token",
     "legacyId": 1771,
     "canonicalMarketId": "MAROrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "openrh",
     "symbol": "OPEN",
-    "name": "Opendoor Technologies Inc. • Robinhood Token",
+    "name": "Opendoor Technologies Inc. - Robinhood Token",
     "legacyId": 1976,
     "canonicalMarketId": "OPENrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

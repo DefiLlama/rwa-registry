@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ocgnrh",
     "symbol": "OCGN",
-    "name": "Ocugen, Inc. • Robinhood Token",
+    "name": "Ocugen, Inc. - Robinhood Token",
     "legacyId": 1950,
     "canonicalMarketId": "OCGNrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

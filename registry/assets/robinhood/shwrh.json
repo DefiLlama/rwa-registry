@@ -2,7 +2,7 @@
   "identity": {
     "slug": "shwrh",
     "symbol": "SHW",
-    "name": "The Sherwin-Williams Co. • Robinhood Token",
+    "name": "The Sherwin-Williams Co. - Robinhood Token",
     "legacyId": 2233,
     "canonicalMarketId": "SHWrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

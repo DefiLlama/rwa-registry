@@ -25,7 +25,7 @@
     "yieldBearing": true
   },
   "about": {
-    "description": "hyTB is HiYield’s ERC-4626 treasury-bill vault deposit token. HiYield documentation describes a permissioned onboarding flow (KYC/KYB) for vault access, users deposit USDC to the vault and receive deposit tokens that accrue via a configurable rate mechanism and can be held or used with approved DeFi integrations. Withdrawals are processed via the vault’s redemption mechanics as described in HiYield docs.",
+    "description": "hyTB is HiYield's ERC-4626 treasury-bill vault deposit token. HiYield documentation describes a permissioned onboarding flow (KYC/KYB) for vault access, users deposit USDC to the vault and receive deposit tokens that accrue via a configurable rate mechanism and can be held or used with approved DeFi integrations. Withdrawals are processed via the vault's redemption mechanics as described in HiYield docs.",
     "logo": "https://icons.llamao.fi/icons/rwa/hytb.png?w=48&h=48",
     "links": {
       "website": [
@@ -36,8 +36,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -74,6 +73,9 @@
       "sourceLinks": [
         "https://docs.hiyield.xyz/technical/contract-addresses",
         "https://docs.hiyield.xyz/legal-structure"
+      ],
+      "protocolIds": [
+        4331
       ]
     }
   ]

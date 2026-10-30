@@ -12,7 +12,7 @@
   "class": {
     "structure": "mmf",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "bond-mmf-funds"
     ]
@@ -24,7 +24,7 @@
     "yieldBearing": true
   },
   "about": {
-    "description": "HKD share class of ChinaAMC’s HKD Digital Money Market Fund. It invests in short-term deposits and high-quality money-market instruments seeking HKD money market returns, with daily dealing and tokenized administration supported by Standard Chartered in Hong Kong.",
+    "description": "HKD share class of ChinaAMC's HKD Digital Money Market Fund. It invests in short-term deposits and high-quality money-market instruments seeking HKD money market returns, with daily dealing and tokenized administration supported by Standard Chartered in Hong Kong.",
     "logo": "https://icons.llamao.fi/icons/rwa/aicht.png?w=48&h=48",
     "links": {
       "website": [
@@ -35,8 +35,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

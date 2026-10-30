@@ -2,7 +2,7 @@
   "identity": {
     "slug": "etnrh",
     "symbol": "ETN",
-    "name": "Eaton Corp. plc • Robinhood Token",
+    "name": "Eaton Corp. plc - Robinhood Token",
     "legacyId": 1315,
     "canonicalMarketId": "ETNrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "qbtsrh",
     "symbol": "QBTS",
-    "name": "D-Wave Quantum Inc. • Robinhood Token",
+    "name": "D-Wave Quantum Inc. - Robinhood Token",
     "legacyId": 2095,
     "canonicalMarketId": "QBTSrh"
   },
@@ -27,9 +27,7 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "US26740W1099",
-        "source": null,
-        "verified": false
+        "value": "US26740W1099"
       }
     ]
   },
@@ -45,8 +43,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -77,6 +74,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://robinhood.com/eu/en/about/"
+      ],
+      "protocolIds": [
+        3732
       ]
     },
     {

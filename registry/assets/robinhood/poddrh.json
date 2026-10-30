@@ -2,7 +2,7 @@
   "identity": {
     "slug": "poddrh",
     "symbol": "PODD",
-    "name": "Insulet Corp. • Robinhood Token",
+    "name": "Insulet Corp. - Robinhood Token",
     "legacyId": 2057,
     "canonicalMarketId": "PODDrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

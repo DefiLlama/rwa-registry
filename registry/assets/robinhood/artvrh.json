@@ -2,7 +2,7 @@
   "identity": {
     "slug": "artvrh",
     "symbol": "ARTV",
-    "name": "Artiva Biotherapeutics, Inc. • Robinhood Token",
+    "name": "Artiva Biotherapeutics, Inc. - Robinhood Token",
     "legacyId": 913,
     "canonicalMarketId": "ARTVrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

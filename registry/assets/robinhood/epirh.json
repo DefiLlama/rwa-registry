@@ -2,7 +2,7 @@
   "identity": {
     "slug": "epirh",
     "symbol": "EPI",
-    "name": "iShares MSCI Global Macro ETF • Robinhood Token",
+    "name": "iShares MSCI Global Macro ETF - Robinhood Token",
     "legacyId": 1298,
     "canonicalMarketId": "EPIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

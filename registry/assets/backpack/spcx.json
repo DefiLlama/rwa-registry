@@ -30,9 +30,7 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "US84615Q1031",
-        "source": null,
-        "verified": false
+        "value": "US84615Q1031"
       }
     ]
   },
@@ -48,8 +46,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -65,6 +62,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://backpack.exchange/"
+      ],
+      "protocolIds": [
+        4266
       ]
     }
   ]

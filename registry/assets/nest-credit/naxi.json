@@ -26,7 +26,7 @@
     "attestationFrequency": "Not publicly disclosed"
   },
   "about": {
-    "description": "nAXI is the receipt token for Nest’s USDC PayFi Lending vault, a PayFi and receivables-financing strategy that provides real-time financing for global payment flows and reduces traditional pre-funding requirements for money service businesses. Nest describes the strategy as leveraging AXI’s InterFi infrastructure and native payment integrations to route fiat and stablecoin liquidity where needed while targeting strong risk-adjusted returns.",
+    "description": "nAXI is the receipt token for Nest's USDC PayFi Lending vault, a PayFi and receivables-financing strategy that provides real-time financing for global payment flows and reduces traditional pre-funding requirements for money service businesses. Nest describes the strategy as leveraging AXI's InterFi infrastructure and native payment integrations to route fiat and stablecoin liquidity where needed while targeting strong risk-adjusted returns.",
     "logo": "https://icons.llamao.fi/icons/rwa/naxi.png?w=48&h=48",
     "links": {
       "website": [
@@ -37,8 +37,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

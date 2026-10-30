@@ -2,7 +2,7 @@
   "identity": {
     "slug": "hlfrh",
     "symbol": "HLF",
-    "name": "Herbalife Ltd. • Robinhood Token",
+    "name": "Herbalife Ltd. - Robinhood Token",
     "legacyId": 1528,
     "canonicalMarketId": "HLFrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

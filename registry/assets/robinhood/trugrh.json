@@ -2,7 +2,7 @@
   "identity": {
     "slug": "trugrh",
     "symbol": "TRUG",
-    "name": "TruGolf Holdings, Inc. • Robinhood Token",
+    "name": "TruGolf Holdings, Inc. - Robinhood Token",
     "legacyId": 2427,
     "canonicalMarketId": "TRUGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -37,8 +37,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -70,6 +69,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://www.gate.com/gusd"
+      ],
+      "protocolIds": [
+        2314
       ]
     }
   ]

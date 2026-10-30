@@ -2,7 +2,7 @@
   "identity": {
     "slug": "absirh",
     "symbol": "ABSI",
-    "name": "Absci Corp. • Robinhood Token",
+    "name": "Absci Corp. - Robinhood Token",
     "legacyId": 789,
     "canonicalMarketId": "ABSIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

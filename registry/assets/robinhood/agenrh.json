@@ -2,7 +2,7 @@
   "identity": {
     "slug": "agenrh",
     "symbol": "AGEN",
-    "name": "Agenus Inc. • Robinhood Token",
+    "name": "Agenus Inc. - Robinhood Token",
     "legacyId": 2801,
     "canonicalMarketId": "AGENrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "bsxrh",
     "symbol": "BSX",
-    "name": "Boston Scientific Corp. • Robinhood Token",
+    "name": "Boston Scientific Corp. - Robinhood Token",
     "legacyId": 1031,
     "canonicalMarketId": "BSXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

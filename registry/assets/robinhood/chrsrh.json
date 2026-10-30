@@ -2,7 +2,7 @@
   "identity": {
     "slug": "chrsrh",
     "symbol": "CHRS",
-    "name": "Coherus Oncology, Inc. • Robinhood Token",
+    "name": "Coherus Oncology, Inc. - Robinhood Token",
     "legacyId": 1099,
     "canonicalMarketId": "CHRSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

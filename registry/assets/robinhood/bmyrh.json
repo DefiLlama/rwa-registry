@@ -2,7 +2,7 @@
   "identity": {
     "slug": "bmyrh",
     "symbol": "BMY",
-    "name": "Bristol-Myers Squibb Co. • Robinhood Token",
+    "name": "Bristol-Myers Squibb Co. - Robinhood Token",
     "legacyId": 1011,
     "canonicalMarketId": "BMYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

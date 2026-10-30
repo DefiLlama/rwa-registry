@@ -2,7 +2,7 @@
   "identity": {
     "slug": "aztrrh",
     "symbol": "AZTR",
-    "name": "Azitra, Inc. • Robinhood Token",
+    "name": "Azitra, Inc. - Robinhood Token",
     "legacyId": 949,
     "canonicalMarketId": "AZTRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

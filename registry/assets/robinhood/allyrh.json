@@ -2,7 +2,7 @@
   "identity": {
     "slug": "allyrh",
     "symbol": "ALLY",
-    "name": "Ally Financial Inc. • Robinhood Token",
+    "name": "Ally Financial Inc. - Robinhood Token",
     "legacyId": 847,
     "canonicalMarketId": "ALLYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "psqrh",
     "symbol": "PSQ",
-    "name": "ProShares Short QQQ • Robinhood Token",
+    "name": "ProShares Short QQQ - Robinhood Token",
     "legacyId": 2081,
     "canonicalMarketId": "PSQrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

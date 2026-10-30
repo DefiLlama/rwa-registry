@@ -2,7 +2,7 @@
   "identity": {
     "slug": "morh",
     "symbol": "MO",
-    "name": "Altria Group, Inc. • Robinhood Token",
+    "name": "Altria Group, Inc. - Robinhood Token",
     "legacyId": 1819,
     "canonicalMarketId": "MOrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

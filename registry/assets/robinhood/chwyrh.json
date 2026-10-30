@@ -2,7 +2,7 @@
   "identity": {
     "slug": "chwyrh",
     "symbol": "CHWY",
-    "name": "Chewy, Inc. • Robinhood Token",
+    "name": "Chewy, Inc. - Robinhood Token",
     "legacyId": 1102,
     "canonicalMarketId": "CHWYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

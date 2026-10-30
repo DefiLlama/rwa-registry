@@ -2,7 +2,7 @@
   "identity": {
     "slug": "hnrgrh",
     "symbol": "HNRG",
-    "name": "Hallador Energy Co. • Robinhood Token",
+    "name": "Hallador Energy Co. - Robinhood Token",
     "legacyId": 1532,
     "canonicalMarketId": "HNRGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

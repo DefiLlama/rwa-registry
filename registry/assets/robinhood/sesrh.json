@@ -2,7 +2,7 @@
   "identity": {
     "slug": "sesrh",
     "symbol": "SES",
-    "name": "SES AI Corp. • Robinhood Token",
+    "name": "SES AI Corp. - Robinhood Token",
     "legacyId": 2218,
     "canonicalMarketId": "SESrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

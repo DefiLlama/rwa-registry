@@ -2,7 +2,7 @@
   "identity": {
     "slug": "halrh",
     "symbol": "HAL",
-    "name": "Halliburton Co. • Robinhood Token",
+    "name": "Halliburton Co. - Robinhood Token",
     "legacyId": 1507,
     "canonicalMarketId": "HALrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

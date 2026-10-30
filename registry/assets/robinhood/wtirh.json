@@ -2,7 +2,7 @@
   "identity": {
     "slug": "wtirh",
     "symbol": "WTI",
-    "name": "W&T Offshore, Inc. • Robinhood Token",
+    "name": "W&T Offshore, Inc. - Robinhood Token",
     "legacyId": 2634,
     "canonicalMarketId": "WTIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

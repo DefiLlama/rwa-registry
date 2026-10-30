@@ -41,8 +41,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -86,6 +85,9 @@
         "https://pmusd.raac.io/",
         "https://raac.io/terms-and-conditions/",
         "https://iondigitalcorp.com/"
+      ],
+      "protocolIds": [
+        7178
       ]
     },
     {

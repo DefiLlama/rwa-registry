@@ -2,7 +2,7 @@
   "identity": {
     "slug": "wncrh",
     "symbol": "WNC",
-    "name": "Wabash National Corp. • Robinhood Token",
+    "name": "Wabash National Corp. - Robinhood Token",
     "legacyId": 2624,
     "canonicalMarketId": "WNCrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

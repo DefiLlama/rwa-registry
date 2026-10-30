@@ -2,7 +2,7 @@
   "identity": {
     "slug": "fmcrh",
     "symbol": "FMC",
-    "name": "FMC Corp. • Robinhood Token",
+    "name": "FMC Corp. - Robinhood Token",
     "legacyId": 1387,
     "canonicalMarketId": "FMCrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

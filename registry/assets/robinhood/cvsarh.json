@@ -2,7 +2,7 @@
   "identity": {
     "slug": "cvsarh",
     "symbol": "CVSA",
-    "name": "Covista • Robinhood Token",
+    "name": "Covista - Robinhood Token",
     "legacyId": 2809,
     "canonicalMarketId": "CVSArh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

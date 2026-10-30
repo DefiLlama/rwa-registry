@@ -2,7 +2,7 @@
   "identity": {
     "slug": "jpmrh",
     "symbol": "JPM",
-    "name": "JPMorgan Chase & Co. • Robinhood Token",
+    "name": "JPMorgan Chase & Co. - Robinhood Token",
     "legacyId": 1661,
     "canonicalMarketId": "JPMrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

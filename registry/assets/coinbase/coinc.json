@@ -29,9 +29,7 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "US19260Q1076",
-        "source": null,
-        "verified": false
+        "value": "US19260Q1076"
       }
     ]
   },
@@ -46,8 +44,7 @@
   "review": {
     "activeAumReviewed": false,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

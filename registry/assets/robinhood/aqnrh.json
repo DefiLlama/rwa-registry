@@ -2,7 +2,7 @@
   "identity": {
     "slug": "aqnrh",
     "symbol": "AQN",
-    "name": "Algonquin Power & Utilities Corp. • Robinhood Token",
+    "name": "Algonquin Power & Utilities Corp. - Robinhood Token",
     "legacyId": 891,
     "canonicalMarketId": "AQNrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

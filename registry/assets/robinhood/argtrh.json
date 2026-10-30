@@ -2,7 +2,7 @@
   "identity": {
     "slug": "argtrh",
     "symbol": "ARGT",
-    "name": "Global X MSCI Argentina ETF • Robinhood Token",
+    "name": "Global X MSCI Argentina ETF - Robinhood Token",
     "legacyId": 901,
     "canonicalMarketId": "ARGTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

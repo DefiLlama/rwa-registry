@@ -2,7 +2,7 @@
   "identity": {
     "slug": "moatrh",
     "symbol": "MOAT",
-    "name": "VanEck Moat ETF • Robinhood Token",
+    "name": "VanEck Moat ETF - Robinhood Token",
     "legacyId": 1814,
     "canonicalMarketId": "MOATrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

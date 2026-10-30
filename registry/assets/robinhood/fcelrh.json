@@ -2,7 +2,7 @@
   "identity": {
     "slug": "fcelrh",
     "symbol": "FCEL",
-    "name": "FuelCell Energy, Inc. • Robinhood Token",
+    "name": "FuelCell Energy, Inc. - Robinhood Token",
     "legacyId": 1355,
     "canonicalMarketId": "FCELrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

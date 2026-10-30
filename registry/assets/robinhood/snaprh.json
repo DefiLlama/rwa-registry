@@ -2,7 +2,7 @@
   "identity": {
     "slug": "snaprh",
     "symbol": "SNAP",
-    "name": "Snap Inc. • Robinhood Token",
+    "name": "Snap Inc. - Robinhood Token",
     "legacyId": 2269,
     "canonicalMarketId": "SNAPrh"
   },
@@ -27,9 +27,7 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "US83304A1060",
-        "source": null,
-        "verified": false
+        "value": "US83304A1060"
       }
     ]
   },
@@ -45,8 +43,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -77,6 +74,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://robinhood.com/eu/en/about/"
+      ],
+      "protocolIds": [
+        3732
       ]
     },
     {

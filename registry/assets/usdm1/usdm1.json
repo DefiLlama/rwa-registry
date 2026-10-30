@@ -12,7 +12,7 @@
   "class": {
     "structure": "yield-rwa-stable",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "rwa-stablecoins"
     ]
@@ -29,7 +29,7 @@
     "coingeckoId": "usdm1"
   },
   "about": {
-    "description": "USDM1 is a digital, fully collateralized, USD-denominated sovereign bond issued natively onchain by the Republic of the Marshall Islands. Each unit represents 1 Marshall Islands bond backed by short-dated U.S. Treasuries, with 100% collateralization maintained through a U.S. trust structure. Interest is paid in additional USDM1, accrues continuously, and capitalizes monthly. Holders can redeem principal plus the past month’s pro-rated accrued interest at par. Secondary transfers are permissionless, while direct minting and redemption require registered-bondholder onboarding and KYC/KYB review by MIFS. Official docs also state that Surus publishes monthly reserve statements and that collateral is limited by policy to very short-duration U.S. Treasuries, with a current maximum maturity of 30 days.",
+    "description": "USDM1 is a digital, fully collateralized, USD-denominated sovereign bond issued natively onchain by the Republic of the Marshall Islands. Each unit represents 1 Marshall Islands bond backed by short-dated U.S. Treasuries, with 100% collateralization maintained through a U.S. trust structure. Interest is paid in additional USDM1, accrues continuously, and capitalizes monthly. Holders can redeem principal plus the past month's pro-rated accrued interest at par. Secondary transfers are permissionless, while direct minting and redemption require registered-bondholder onboarding and KYC/KYB review by MIFS. Official docs also state that Surus publishes monthly reserve statements and that collateral is limited by policy to very short-duration U.S. Treasuries, with a current maximum maturity of 30 days.",
     "logo": "https://icons.llamao.fi/icons/rwa/usdm1.png?w=48&h=48",
     "links": {
       "website": [
@@ -40,8 +40,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -77,6 +76,10 @@
           "kind": "excluded-holder"
         }
       ]
+    },
+    {
+      "chain": "canton",
+      "address": null
     }
   ],
   "roles": [

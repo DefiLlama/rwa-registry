@@ -2,7 +2,7 @@
   "identity": {
     "slug": "axsmrh",
     "symbol": "AXSM",
-    "name": "Axsome Therapeutics, Inc. • Robinhood Token",
+    "name": "Axsome Therapeutics, Inc. - Robinhood Token",
     "legacyId": 947,
     "canonicalMarketId": "AXSMrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

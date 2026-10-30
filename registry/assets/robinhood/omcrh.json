@@ -2,7 +2,7 @@
   "identity": {
     "slug": "omcrh",
     "symbol": "OMC",
-    "name": "Omnicom Group Inc. • Robinhood Token",
+    "name": "Omnicom Group Inc. - Robinhood Token",
     "legacyId": 1963,
     "canonicalMarketId": "OMCrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

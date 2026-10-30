@@ -2,7 +2,7 @@
   "identity": {
     "slug": "rlrh",
     "symbol": "RL",
-    "name": "Ralph Lauren Corp. • Robinhood Token",
+    "name": "Ralph Lauren Corp. - Robinhood Token",
     "legacyId": 2149,
     "canonicalMarketId": "RLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

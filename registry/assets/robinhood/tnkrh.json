@@ -2,7 +2,7 @@
   "identity": {
     "slug": "tnkrh",
     "symbol": "TNK",
-    "name": "Teekay Tankers Ltd. • Robinhood Token",
+    "name": "Teekay Tankers Ltd. - Robinhood Token",
     "legacyId": 2409,
     "canonicalMarketId": "TNKrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

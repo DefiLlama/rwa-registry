@@ -27,7 +27,7 @@
     "coingeckoId": "dola-usd"
   },
   "about": {
-    "description": "DOLA is Inverse Finance’s overcollateralized stablecoin, minted through FiRM/Frontier by depositing accepted collateral to borrow DOLA. When borrowers repay to retrieve collateral, DOLA is burned - making supply primarily credit-driven rather than fiat-issued.",
+    "description": "DOLA is Inverse Finance's overcollateralized stablecoin, minted through FiRM/Frontier by depositing accepted collateral to borrow DOLA. When borrowers repay to retrieve collateral, DOLA is burned - making supply primarily credit-driven rather than fiat-issued.",
     "logo": "https://icons.llamao.fi/icons/rwa/dola.png?w=48&h=48",
     "links": {
       "website": [
@@ -38,8 +38,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

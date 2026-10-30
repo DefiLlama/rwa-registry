@@ -2,7 +2,7 @@
   "identity": {
     "slug": "avuvrh",
     "symbol": "AVUV",
-    "name": "Avantis U.S. Small Cap Value ETF • Robinhood Token",
+    "name": "Avantis U.S. Small Cap Value ETF - Robinhood Token",
     "legacyId": 941,
     "canonicalMarketId": "AVUVrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

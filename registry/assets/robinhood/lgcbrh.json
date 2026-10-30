@@ -2,7 +2,7 @@
   "identity": {
     "slug": "lgcbrh",
     "symbol": "LGCB",
-    "name": "Linkage Global Inc. • Robinhood Token",
+    "name": "Linkage Global Inc. - Robinhood Token",
     "legacyId": 1725,
     "canonicalMarketId": "LGCBrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "sanarh",
     "symbol": "SANA",
-    "name": "Sana Biotechnology, Inc. • Robinhood Token",
+    "name": "Sana Biotechnology, Inc. - Robinhood Token",
     "legacyId": 2181,
     "canonicalMarketId": "SANArh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

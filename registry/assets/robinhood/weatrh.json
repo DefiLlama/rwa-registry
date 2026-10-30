@@ -2,7 +2,7 @@
   "identity": {
     "slug": "weatrh",
     "symbol": "WEAT",
-    "name": "Teucrium Wheat Fund • Robinhood Token",
+    "name": "Teucrium Wheat Fund - Robinhood Token",
     "legacyId": 2606,
     "canonicalMarketId": "WEATrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

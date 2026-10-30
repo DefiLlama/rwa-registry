@@ -12,7 +12,7 @@
   "class": {
     "structure": "usd-stable",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "fiat-stablecoins"
     ]
@@ -30,7 +30,7 @@
     "coingeckoId": "straitsx-xusd"
   },
   "about": {
-    "description": "XUSD is a MAS-regulated USD stablecoin issued by StraitsX USD Issuance Pte. Ltd. It is intended to be fully backed by USD reserve assets held with regulated financial institutions, supporting dollar settlement for payments, treasury, and exchange workflows across supported blockchains. Minting and redemption are conducted through StraitsX’s regulated rails (typically with KYC), while the token itself can be held in self-custody and transferred onchain. Key risks include issuer/custodian and regulatory risk, and reliance on StraitsX’s redemption operations.",
+    "description": "XUSD is a MAS-regulated USD stablecoin issued by StraitsX USD Issuance Pte. Ltd. It is intended to be fully backed by USD reserve assets held with regulated financial institutions, supporting dollar settlement for payments, treasury, and exchange workflows across supported blockchains. Minting and redemption are conducted through StraitsX's regulated rails (typically with KYC), while the token itself can be held in self-custody and transferred onchain. Key risks include issuer/custodian and regulatory risk, and reliance on StraitsX's redemption operations.",
     "logo": "https://icons.llamao.fi/icons/rwa/xusd.png?w=48&h=48",
     "links": {
       "website": [
@@ -41,8 +41,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

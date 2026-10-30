@@ -2,7 +2,7 @@
   "identity": {
     "slug": "tlnrh",
     "symbol": "TLN",
-    "name": "Talen Energy Corp. • Robinhood Token",
+    "name": "Talen Energy Corp. - Robinhood Token",
     "legacyId": 2398,
     "canonicalMarketId": "TLNrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

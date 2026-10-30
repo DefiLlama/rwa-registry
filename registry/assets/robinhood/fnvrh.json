@@ -2,7 +2,7 @@
   "identity": {
     "slug": "fnvrh",
     "symbol": "FNV",
-    "name": "Franco-Nevada Corp. • Robinhood Token",
+    "name": "Franco-Nevada Corp. - Robinhood Token",
     "legacyId": 1395,
     "canonicalMarketId": "FNVrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

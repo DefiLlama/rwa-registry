@@ -2,7 +2,7 @@
   "identity": {
     "slug": "atyrrh",
     "symbol": "ATYR",
-    "name": "aTyr Pharma, Inc. • Robinhood Token",
+    "name": "aTyr Pharma, Inc. - Robinhood Token",
     "legacyId": 928,
     "canonicalMarketId": "ATYRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

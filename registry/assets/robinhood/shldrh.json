@@ -2,7 +2,7 @@
   "identity": {
     "slug": "shldrh",
     "symbol": "SHLD",
-    "name": "Global X Defense Tech ETF • Robinhood Token",
+    "name": "Global X Defense Tech ETF - Robinhood Token",
     "legacyId": 2229,
     "canonicalMarketId": "SHLDrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

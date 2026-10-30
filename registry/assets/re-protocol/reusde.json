@@ -12,7 +12,7 @@
   "class": {
     "structure": "reinsurance-pool",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "private-credit"
     ]
@@ -29,7 +29,7 @@
     "coingeckoId": "re-protocol-reusde"
   },
   "about": {
-    "description": "reUSDe is Re Protocol’s “insurance alpha” performance token. It absorbs first‑loss risk across the reinsurance portfolio in exchange for underwriting profit participation (docs cite ~16-25% historical net annual returns). Price compounds daily based on a quarterly refreshed target NAV (tNAV), redemptions are processed quarterly on a pro‑rata basis, subject to actuarial release of surplus capital. Current protocol docs further describe reUSDe as the junior “Insurance Alpha” sleeve, sitting below reUSD in the capital stack and deployed via the same §114 trust structure as stop-gap or first-loss capital. Docs say target NAV (tNAV) is refreshed quarterly via public API / Chainlink while token price updates daily at 00:00 UTC, that idle undeployed balances can earn the sUSDe rate, and that custody reporting includes daily trust-bank statements hashed and posted onchain.",
+    "description": "reUSDe is Re Protocol's \"insurance alpha\" performance token. It absorbs first-loss risk across the reinsurance portfolio in exchange for underwriting profit participation (docs cite ~16-25% historical net annual returns). Price compounds daily based on a quarterly refreshed target NAV (tNAV), redemptions are processed quarterly on a pro-rata basis, subject to actuarial release of surplus capital. Current protocol docs further describe reUSDe as the junior \"Insurance Alpha\" sleeve, sitting below reUSD in the capital stack and deployed via the same §114 trust structure as stop-gap or first-loss capital. Docs say target NAV (tNAV) is refreshed quarterly via public API / Chainlink while token price updates daily at 00:00 UTC, that idle undeployed balances can earn the sUSDe rate, and that custody reporting includes daily trust-bank statements hashed and posted onchain.",
     "logo": "https://icons.llamao.fi/icons/rwa/reusde.png?w=48&h=48",
     "links": {
       "website": [
@@ -40,8 +40,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

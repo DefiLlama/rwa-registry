@@ -2,7 +2,7 @@
   "identity": {
     "slug": "bhatrh",
     "symbol": "BHAT",
-    "name": "Blue Hat Interactive • Robinhood Token",
+    "name": "Blue Hat Interactive - Robinhood Token",
     "legacyId": 976,
     "canonicalMarketId": "BHATrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

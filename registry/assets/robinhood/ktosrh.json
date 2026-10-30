@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ktosrh",
     "symbol": "KTOS",
-    "name": "Kratos Defense & Security Solutions, Inc. • Robinhood Token",
+    "name": "Kratos Defense & Security Solutions, Inc. - Robinhood Token",
     "legacyId": 1698,
     "canonicalMarketId": "KTOSrh"
   },
@@ -27,9 +27,7 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "US50077B2079",
-        "source": null,
-        "verified": false
+        "value": "US50077B2079"
       }
     ]
   },
@@ -45,8 +43,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -77,6 +74,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://robinhood.com/eu/en/about/"
+      ],
+      "protocolIds": [
+        3732
       ]
     },
     {

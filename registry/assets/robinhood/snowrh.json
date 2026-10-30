@@ -2,7 +2,7 @@
   "identity": {
     "slug": "snowrh",
     "symbol": "SNOW",
-    "name": "Snowflake Inc. • Robinhood Token",
+    "name": "Snowflake Inc. - Robinhood Token",
     "legacyId": 2275,
     "canonicalMarketId": "SNOWrh"
   },
@@ -35,8 +35,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -67,6 +66,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://robinhood.com/eu/en/about/"
+      ],
+      "protocolIds": [
+        3732
       ]
     },
     {

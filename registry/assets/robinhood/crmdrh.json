@@ -2,7 +2,7 @@
   "identity": {
     "slug": "crmdrh",
     "symbol": "CRMD",
-    "name": "CorMedix Inc. • Robinhood Token",
+    "name": "CorMedix Inc. - Robinhood Token",
     "legacyId": 1165,
     "canonicalMarketId": "CRMDrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

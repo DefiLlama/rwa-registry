@@ -2,7 +2,7 @@
   "identity": {
     "slug": "fngsrh",
     "symbol": "FNGS",
-    "name": "MicroSectors FANG+ Index ETN • Robinhood Token",
+    "name": "MicroSectors FANG+ Index ETN - Robinhood Token",
     "legacyId": 1392,
     "canonicalMarketId": "FNGSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

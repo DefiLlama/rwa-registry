@@ -2,7 +2,7 @@
   "identity": {
     "slug": "fuborh",
     "symbol": "FUBO",
-    "name": "FuboTV Inc. • Robinhood Token",
+    "name": "FuboTV Inc. - Robinhood Token",
     "legacyId": 1414,
     "canonicalMarketId": "FUBOrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

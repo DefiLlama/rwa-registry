@@ -2,7 +2,7 @@
   "identity": {
     "slug": "cinfrh",
     "symbol": "CINF",
-    "name": "Cincinnati Financial Corp. • Robinhood Token",
+    "name": "Cincinnati Financial Corp. - Robinhood Token",
     "legacyId": 1105,
     "canonicalMarketId": "CINFrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

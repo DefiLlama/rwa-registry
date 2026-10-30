@@ -2,7 +2,7 @@
   "identity": {
     "slug": "pacsrh",
     "symbol": "PACS",
-    "name": "PACS Group, Inc. • Robinhood Token",
+    "name": "PACS Group, Inc. - Robinhood Token",
     "legacyId": 1994,
     "canonicalMarketId": "PACSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

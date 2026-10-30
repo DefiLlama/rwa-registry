@@ -2,7 +2,7 @@
   "identity": {
     "slug": "hygrh",
     "symbol": "HYG",
-    "name": "iShares iBoxx $ High Yield Corporate Bond ETF • Robinhood Token",
+    "name": "iShares iBoxx $ High Yield Corporate Bond ETF - Robinhood Token",
     "legacyId": 1558,
     "canonicalMarketId": "HYGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

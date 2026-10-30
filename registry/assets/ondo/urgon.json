@@ -12,7 +12,7 @@
   "class": {
     "structure": "stock-backed",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "stocks-equities"
     ]
@@ -29,9 +29,7 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "CA91688R1082",
-        "source": null,
-        "verified": false
+        "value": "CA91688R1082"
       }
     ]
   },
@@ -47,8 +45,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

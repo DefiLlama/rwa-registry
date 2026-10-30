@@ -2,7 +2,7 @@
   "identity": {
     "slug": "imstrh",
     "symbol": "IMST",
-    "name": "iShares MSCI India Small-Cap ETF • Robinhood Token",
+    "name": "iShares MSCI India Small-Cap ETF - Robinhood Token",
     "legacyId": 1592,
     "canonicalMarketId": "IMSTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

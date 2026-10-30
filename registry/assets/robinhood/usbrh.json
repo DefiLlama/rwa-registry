@@ -2,7 +2,7 @@
   "identity": {
     "slug": "usbrh",
     "symbol": "USB",
-    "name": "U.S. Bancorp • Robinhood Token",
+    "name": "U.S. Bancorp - Robinhood Token",
     "legacyId": 2504,
     "canonicalMarketId": "USBrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

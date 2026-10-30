@@ -2,7 +2,7 @@
   "identity": {
     "slug": "nclhrh",
     "symbol": "NCLH",
-    "name": "Norwegian Cruise Line Holdings Ltd. • Robinhood Token",
+    "name": "Norwegian Cruise Line Holdings Ltd. - Robinhood Token",
     "legacyId": 1874,
     "canonicalMarketId": "NCLHrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

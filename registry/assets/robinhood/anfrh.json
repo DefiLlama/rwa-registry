@@ -2,7 +2,7 @@
   "identity": {
     "slug": "anfrh",
     "symbol": "ANF",
-    "name": "Abercrombie & Fitch Co. • Robinhood Token",
+    "name": "Abercrombie & Fitch Co. - Robinhood Token",
     "legacyId": 874,
     "canonicalMarketId": "ANFrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

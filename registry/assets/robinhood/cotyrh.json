@@ -2,7 +2,7 @@
   "identity": {
     "slug": "cotyrh",
     "symbol": "COTY",
-    "name": "Coty Inc. • Robinhood Token",
+    "name": "Coty Inc. - Robinhood Token",
     "legacyId": 1150,
     "canonicalMarketId": "COTYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "pennrh",
     "symbol": "PENN",
-    "name": "PENN Entertainment, Inc. • Robinhood Token",
+    "name": "PENN Entertainment, Inc. - Robinhood Token",
     "legacyId": 2016,
     "canonicalMarketId": "PENNrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

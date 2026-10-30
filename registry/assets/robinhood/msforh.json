@@ -2,7 +2,7 @@
   "identity": {
     "slug": "msforh",
     "symbol": "MSFO",
-    "name": "Morgan Stanley Dividend ETF • Robinhood Token",
+    "name": "Morgan Stanley Dividend ETF - Robinhood Token",
     "legacyId": 1833,
     "canonicalMarketId": "MSFOrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

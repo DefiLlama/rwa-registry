@@ -2,7 +2,7 @@
   "identity": {
     "slug": "spotrh",
     "symbol": "SPOT",
-    "name": "Spotify Technology S.A. • Robinhood Token",
+    "name": "Spotify Technology S.A. - Robinhood Token",
     "legacyId": 2306,
     "canonicalMarketId": "SPOTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "sttrh",
     "symbol": "STT",
-    "name": "State Street Corp. • Robinhood Token",
+    "name": "State Street Corp. - Robinhood Token",
     "legacyId": 2344,
     "canonicalMarketId": "STTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

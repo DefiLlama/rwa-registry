@@ -2,7 +2,7 @@
   "identity": {
     "slug": "goosrh",
     "symbol": "GOOS",
-    "name": "Canada Goose Holdings Inc. • Robinhood Token",
+    "name": "Canada Goose Holdings Inc. - Robinhood Token",
     "legacyId": 1473,
     "canonicalMarketId": "GOOSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

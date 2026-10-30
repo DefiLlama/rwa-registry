@@ -2,7 +2,7 @@
   "identity": {
     "slug": "iwbrh",
     "symbol": "IWB",
-    "name": "iShares Russell 1000 ETF • Robinhood Token",
+    "name": "iShares Russell 1000 ETF - Robinhood Token",
     "legacyId": 1634,
     "canonicalMarketId": "IWBrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

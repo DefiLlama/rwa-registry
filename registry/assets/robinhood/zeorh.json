@@ -2,7 +2,7 @@
   "identity": {
     "slug": "zeorh",
     "symbol": "ZEO",
-    "name": "Zeo Energy Corp. • Robinhood Token",
+    "name": "Zeo Energy Corp. - Robinhood Token",
     "legacyId": 2689,
     "canonicalMarketId": "ZEOrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

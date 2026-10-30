@@ -2,7 +2,7 @@
   "identity": {
     "slug": "gsmrh",
     "symbol": "GSM",
-    "name": "Ferroglobe plc • Robinhood Token",
+    "name": "Ferroglobe plc - Robinhood Token",
     "legacyId": 1495,
     "canonicalMarketId": "GSMrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -12,7 +12,7 @@
   "class": {
     "structure": "mmf",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "bond-mmf-funds"
     ]
@@ -29,7 +29,7 @@
     "coingeckoId": "vaneck-treasury-fund"
   },
   "about": {
-    "description": "VBILL represents tokenized fund units of the VanEck Treasury Fund, designed for qualified investors seeking short-duration U.S. Treasury exposure with daily liquidity conventions. The product is distributed through Securitize’s regulated tokenization stack, pairing NAV-based fund operations with tokenized delivery so the position can be held and transferred through digital asset rails while maintaining a traditional fund-style structure and disclosure workflow.",
+    "description": "VBILL represents tokenized fund units of the VanEck Treasury Fund, designed for qualified investors seeking short-duration U.S. Treasury exposure with daily liquidity conventions. The product is distributed through Securitize's regulated tokenization stack, pairing NAV-based fund operations with tokenized delivery so the position can be held and transferred through digital asset rails while maintaining a traditional fund-style structure and disclosure workflow.",
     "logo": "https://icons.llamao.fi/icons/rwa/vbill.png?w=48&h=48",
     "links": {
       "website": [
@@ -40,8 +40,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

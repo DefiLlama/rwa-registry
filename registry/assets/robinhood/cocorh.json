@@ -2,7 +2,7 @@
   "identity": {
     "slug": "cocorh",
     "symbol": "COCO",
-    "name": "Vita Coco Company, Inc. • Robinhood Token",
+    "name": "Vita Coco Company, Inc. - Robinhood Token",
     "legacyId": 1134,
     "canonicalMarketId": "COCOrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

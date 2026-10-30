@@ -2,7 +2,7 @@
   "identity": {
     "slug": "srlnrh",
     "symbol": "SRLN",
-    "name": "State Street Blackstone Senior Loan ETF • Robinhood Token",
+    "name": "State Street Blackstone Senior Loan ETF - Robinhood Token",
     "legacyId": 2811,
     "canonicalMarketId": "SRLNrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "eolsrh",
     "symbol": "EOLS",
-    "name": "Evolus, Inc. • Robinhood Token",
+    "name": "Evolus, Inc. - Robinhood Token",
     "legacyId": 1295,
     "canonicalMarketId": "EOLSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

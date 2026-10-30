@@ -2,7 +2,7 @@
   "identity": {
     "slug": "pgrh",
     "symbol": "PG",
-    "name": "The Procter & Gamble Co. • Robinhood Token",
+    "name": "The Procter & Gamble Co. - Robinhood Token",
     "legacyId": 2029,
     "canonicalMarketId": "PGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

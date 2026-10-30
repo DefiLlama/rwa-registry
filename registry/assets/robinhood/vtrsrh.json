@@ -2,7 +2,7 @@
   "identity": {
     "slug": "vtrsrh",
     "symbol": "VTRS",
-    "name": "Viatris Inc. • Robinhood Token",
+    "name": "Viatris Inc. - Robinhood Token",
     "legacyId": 2585,
     "canonicalMarketId": "VTRSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

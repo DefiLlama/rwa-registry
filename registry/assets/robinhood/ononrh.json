@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ononrh",
     "symbol": "ONON",
-    "name": "On Holding AG • Robinhood Token",
+    "name": "On Holding AG - Robinhood Token",
     "legacyId": 1969,
     "canonicalMarketId": "ONONrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

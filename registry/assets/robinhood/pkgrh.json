@@ -2,7 +2,7 @@
   "identity": {
     "slug": "pkgrh",
     "symbol": "PKG",
-    "name": "Packaging Corp. of America • Robinhood Token",
+    "name": "Packaging Corp. of America - Robinhood Token",
     "legacyId": 2039,
     "canonicalMarketId": "PKGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

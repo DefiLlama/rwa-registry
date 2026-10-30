@@ -2,7 +2,7 @@
   "identity": {
     "slug": "iclnrh",
     "symbol": "ICLN",
-    "name": "iShares Global Clean Energy ETF • Robinhood Token",
+    "name": "iShares Global Clean Energy ETF - Robinhood Token",
     "legacyId": 1571,
     "canonicalMarketId": "ICLNrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

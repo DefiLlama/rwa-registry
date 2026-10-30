@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ybitrh",
     "symbol": "YBIT",
-    "name": "YieldMax Bitcoin Option Income Strategy ETF • Robinhood Token",
+    "name": "YieldMax Bitcoin Option Income Strategy ETF - Robinhood Token",
     "legacyId": 2674,
     "canonicalMarketId": "YBITrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

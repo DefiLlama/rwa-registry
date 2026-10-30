@@ -29,9 +29,7 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "US80004C2008",
-        "source": null,
-        "verified": false
+        "value": "US80004C2008"
       }
     ]
   },
@@ -47,8 +45,7 @@
   "review": {
     "activeAumReviewed": false,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

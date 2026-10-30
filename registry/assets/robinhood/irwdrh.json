@@ -2,7 +2,7 @@
   "identity": {
     "slug": "irwdrh",
     "symbol": "IRWD",
-    "name": "Ironwood Pharmaceuticals, Inc. • Robinhood Token",
+    "name": "Ironwood Pharmaceuticals, Inc. - Robinhood Token",
     "legacyId": 1618,
     "canonicalMarketId": "IRWDrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

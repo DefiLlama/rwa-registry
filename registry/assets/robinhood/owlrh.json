@@ -2,7 +2,7 @@
   "identity": {
     "slug": "owlrh",
     "symbol": "OWL",
-    "name": "Blue Owl Capital Corp. • Robinhood Token",
+    "name": "Blue Owl Capital Corp. - Robinhood Token",
     "legacyId": 1987,
     "canonicalMarketId": "OWLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "fepirh",
     "symbol": "FEPI",
-    "name": "FEP Leveraged ETF • Robinhood Token",
+    "name": "FEP Leveraged ETF - Robinhood Token",
     "legacyId": 2789,
     "canonicalMarketId": "FEPIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

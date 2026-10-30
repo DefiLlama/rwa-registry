@@ -2,7 +2,7 @@
   "identity": {
     "slug": "aflrh",
     "symbol": "AFL",
-    "name": "Aflac Inc. • Robinhood Token",
+    "name": "Aflac Inc. - Robinhood Token",
     "legacyId": 815,
     "canonicalMarketId": "AFLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

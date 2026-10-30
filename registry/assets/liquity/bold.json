@@ -27,7 +27,7 @@
     "coingeckoId": "bold-2"
   },
   "about": {
-    "description": "Liquity V2’s USD-pegged stablecoin minted by borrowing against ETH and liquid-staking collateral. Peg support comes from overcollateralization plus a built-in redemption mechanism that lets users swap BOLD for underlying collateral at face value, incentivizing arbitrage back to $1.",
+    "description": "Liquity V2's USD-pegged stablecoin minted by borrowing against ETH and liquid-staking collateral. Peg support comes from overcollateralization plus a built-in redemption mechanism that lets users swap BOLD for underlying collateral at face value, incentivizing arbitrage back to $1.",
     "logo": "https://icons.llamao.fi/icons/rwa/liquity-bold.png?w=48&h=48",
     "links": {
       "website": [
@@ -38,8 +38,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

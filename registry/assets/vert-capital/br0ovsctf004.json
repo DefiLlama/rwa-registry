@@ -29,14 +29,12 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "BR0OVSCTF004",
-        "source": null,
-        "verified": false
+        "value": "BR0OVSCTF004"
       }
     ]
   },
   "about": {
-    "description": "BR0OVSCTF004 represents the senior tranche of VERT’s BYX Mozart FIDC, a structured credit fund backed by Brazilian public-pension receivables (INSS). The senior class benefits from subordination from mezzanine and junior tranches, aiming for the most protected exposure within the vehicle, with lifecycle events and documents tracked via VERT Tokens infrastructure.",
+    "description": "BR0OVSCTF004 represents the senior tranche of VERT's BYX Mozart FIDC, a structured credit fund backed by Brazilian public-pension receivables (INSS). The senior class benefits from subordination from mezzanine and junior tranches, aiming for the most protected exposure within the vehicle, with lifecycle events and documents tracked via VERT Tokens infrastructure.",
     "logo": "https://icons.llamao.fi/icons/rwa/verts-fidc-byx-mozart---senior.png?w=48&h=48",
     "links": {
       "website": [
@@ -47,8 +45,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

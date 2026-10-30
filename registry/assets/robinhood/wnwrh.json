@@ -2,7 +2,7 @@
   "identity": {
     "slug": "wnwrh",
     "symbol": "WNW",
-    "name": "Meiwu Technology Co Ltd. • Robinhood Token",
+    "name": "Meiwu Technology Co Ltd. - Robinhood Token",
     "legacyId": 2626,
     "canonicalMarketId": "WNWrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

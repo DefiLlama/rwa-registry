@@ -2,7 +2,7 @@
   "identity": {
     "slug": "aspnrh",
     "symbol": "ASPN",
-    "name": "Aspen Aerogels, Inc. • Robinhood Token",
+    "name": "Aspen Aerogels, Inc. - Robinhood Token",
     "legacyId": 919,
     "canonicalMarketId": "ASPNrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

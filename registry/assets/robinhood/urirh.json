@@ -2,7 +2,7 @@
   "identity": {
     "slug": "urirh",
     "symbol": "URI",
-    "name": "United Rentals, Inc. • Robinhood Token",
+    "name": "United Rentals, Inc. - Robinhood Token",
     "legacyId": 2496,
     "canonicalMarketId": "URIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "hasrh",
     "symbol": "HAS",
-    "name": "Hasbro, Inc. • Robinhood Token",
+    "name": "Hasbro, Inc. - Robinhood Token",
     "legacyId": 1508,
     "canonicalMarketId": "HASrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

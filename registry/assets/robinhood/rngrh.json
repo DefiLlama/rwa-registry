@@ -2,7 +2,7 @@
   "identity": {
     "slug": "rngrh",
     "symbol": "RNG",
-    "name": "RingCentral, Inc. • Robinhood Token",
+    "name": "RingCentral, Inc. - Robinhood Token",
     "legacyId": 2152,
     "canonicalMarketId": "RNGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

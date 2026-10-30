@@ -2,7 +2,7 @@
   "identity": {
     "slug": "prurh",
     "symbol": "PRU",
-    "name": "Prudential Financial, Inc. • Robinhood Token",
+    "name": "Prudential Financial, Inc. - Robinhood Token",
     "legacyId": 2075,
     "canonicalMarketId": "PRUrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

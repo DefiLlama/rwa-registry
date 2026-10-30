@@ -2,7 +2,7 @@
   "identity": {
     "slug": "iyrirh",
     "symbol": "IYRI",
-    "name": "iShares U.S. Real Estate ETF • Robinhood Token",
+    "name": "iShares U.S. Real Estate ETF - Robinhood Token",
     "legacyId": 1641,
     "canonicalMarketId": "IYRIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

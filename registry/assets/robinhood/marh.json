@@ -2,7 +2,7 @@
   "identity": {
     "slug": "marh",
     "symbol": "MA",
-    "name": "Mastercard Inc. • Robinhood Token",
+    "name": "Mastercard Inc. - Robinhood Token",
     "legacyId": 1776,
     "canonicalMarketId": "MArh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

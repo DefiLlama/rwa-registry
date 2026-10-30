@@ -2,7 +2,7 @@
   "identity": {
     "slug": "erxrh",
     "symbol": "ERX",
-    "name": "Direxion Daily Energy Bull 2X ETF • Robinhood Token",
+    "name": "Direxion Daily Energy Bull 2X ETF - Robinhood Token",
     "legacyId": 1304,
     "canonicalMarketId": "ERXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

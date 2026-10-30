@@ -2,7 +2,7 @@
   "identity": {
     "slug": "agirh",
     "symbol": "AGI",
-    "name": "Alamos Gold Inc. • Robinhood Token",
+    "name": "Alamos Gold Inc. - Robinhood Token",
     "legacyId": 819,
     "canonicalMarketId": "AGIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "luvrh",
     "symbol": "LUV",
-    "name": "Southwest Airlines Co. • Robinhood Token",
+    "name": "Southwest Airlines Co. - Robinhood Token",
     "legacyId": 1756,
     "canonicalMarketId": "LUVrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

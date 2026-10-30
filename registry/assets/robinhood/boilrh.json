@@ -2,7 +2,7 @@
   "identity": {
     "slug": "boilrh",
     "symbol": "BOIL",
-    "name": "ProShares Ultra Bloomberg Natural Gas • Robinhood Token",
+    "name": "ProShares Ultra Bloomberg Natural Gas - Robinhood Token",
     "legacyId": 1018,
     "canonicalMarketId": "BOILrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

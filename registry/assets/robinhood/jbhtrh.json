@@ -2,7 +2,7 @@
   "identity": {
     "slug": "jbhtrh",
     "symbol": "JBHT",
-    "name": "J.B. Hunt Transport Services, Inc. • Robinhood Token",
+    "name": "J.B. Hunt Transport Services, Inc. - Robinhood Token",
     "legacyId": 1646,
     "canonicalMarketId": "JBHTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

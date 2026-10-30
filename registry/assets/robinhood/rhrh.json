@@ -2,7 +2,7 @@
   "identity": {
     "slug": "rhrh",
     "symbol": "RH",
-    "name": "RH • Robinhood Token",
+    "name": "RH - Robinhood Token",
     "legacyId": 2138,
     "canonicalMarketId": "RHrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "flrnrh",
     "symbol": "FLRN",
-    "name": "State Street SPDR Bloomberg Investment Grade Floating Rate ETF • Robinhood Token",
+    "name": "State Street SPDR Bloomberg Investment Grade Floating Rate ETF - Robinhood Token",
     "legacyId": 1384,
     "canonicalMarketId": "FLRNrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

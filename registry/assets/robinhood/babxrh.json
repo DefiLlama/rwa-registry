@@ -2,7 +2,7 @@
   "identity": {
     "slug": "babxrh",
     "symbol": "BABX",
-    "name": "General Dynamics Inverse ETF • Robinhood Token",
+    "name": "General Dynamics Inverse ETF - Robinhood Token",
     "legacyId": 952,
     "canonicalMarketId": "BABXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

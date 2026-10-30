@@ -2,7 +2,7 @@
   "identity": {
     "slug": "glberh",
     "symbol": "GLBE",
-    "name": "Global-E Online Ltd. • Robinhood Token",
+    "name": "Global-E Online Ltd. - Robinhood Token",
     "legacyId": 1454,
     "canonicalMarketId": "GLBErh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "vscorh",
     "symbol": "VSCO",
-    "name": "Victoria's Secret & Co. • Robinhood Token",
+    "name": "Victoria's Secret & Co. - Robinhood Token",
     "legacyId": 2577,
     "canonicalMarketId": "VSCOrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

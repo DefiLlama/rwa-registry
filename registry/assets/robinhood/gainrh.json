@@ -2,7 +2,7 @@
   "identity": {
     "slug": "gainrh",
     "symbol": "GAIN",
-    "name": "Gladstone Investment Corporation • Robinhood Token",
+    "name": "Gladstone Investment Corporation - Robinhood Token",
     "legacyId": 1421,
     "canonicalMarketId": "GAINrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

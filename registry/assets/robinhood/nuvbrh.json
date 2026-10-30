@@ -2,7 +2,7 @@
   "identity": {
     "slug": "nuvbrh",
     "symbol": "NUVB",
-    "name": "Nuvation Bio Inc. • Robinhood Token",
+    "name": "Nuvation Bio Inc. - Robinhood Token",
     "legacyId": 1923,
     "canonicalMarketId": "NUVBrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

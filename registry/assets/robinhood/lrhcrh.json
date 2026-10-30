@@ -2,7 +2,7 @@
   "identity": {
     "slug": "lrhcrh",
     "symbol": "LRHC",
-    "name": "La Rosa Holdings Corp. • Robinhood Token",
+    "name": "La Rosa Holdings Corp. - Robinhood Token",
     "legacyId": 1746,
     "canonicalMarketId": "LRHCrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

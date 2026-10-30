@@ -2,7 +2,7 @@
   "identity": {
     "slug": "jaaarh",
     "symbol": "JAAA",
-    "name": "Janus Henderson AAA CLO ETF • Robinhood Token",
+    "name": "Janus Henderson AAA CLO ETF - Robinhood Token",
     "legacyId": 1643,
     "canonicalMarketId": "JAAArh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

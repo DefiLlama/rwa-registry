@@ -2,7 +2,7 @@
   "identity": {
     "slug": "pptarh",
     "symbol": "PPTA",
-    "name": "Perpetua Resources Corp. • Robinhood Token",
+    "name": "Perpetua Resources Corp. - Robinhood Token",
     "legacyId": 2065,
     "canonicalMarketId": "PPTArh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

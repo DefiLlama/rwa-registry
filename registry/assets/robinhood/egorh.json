@@ -2,7 +2,7 @@
   "identity": {
     "slug": "egorh",
     "symbol": "EGO",
-    "name": "Eldorado Gold Corp. • Robinhood Token",
+    "name": "Eldorado Gold Corp. - Robinhood Token",
     "legacyId": 1279,
     "canonicalMarketId": "EGOrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "krusrh",
     "symbol": "KRUS",
-    "name": "Kura Sushi USA, Inc. • Robinhood Token",
+    "name": "Kura Sushi USA, Inc. - Robinhood Token",
     "legacyId": 1694,
     "canonicalMarketId": "KRUSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

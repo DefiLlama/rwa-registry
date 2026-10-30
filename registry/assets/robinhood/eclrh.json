@@ -2,7 +2,7 @@
   "identity": {
     "slug": "eclrh",
     "symbol": "ECL",
-    "name": "Ecolab Inc. • Robinhood Token",
+    "name": "Ecolab Inc. - Robinhood Token",
     "legacyId": 1269,
     "canonicalMarketId": "ECLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "iovarh",
     "symbol": "IOVA",
-    "name": "Iovance Biotherapeutics, Inc. • Robinhood Token",
+    "name": "Iovance Biotherapeutics, Inc. - Robinhood Token",
     "legacyId": 1611,
     "canonicalMarketId": "IOVArh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "csgprh",
     "symbol": "CSGP",
-    "name": "CoStar Group, Inc. • Robinhood Token",
+    "name": "CoStar Group, Inc. - Robinhood Token",
     "legacyId": 1181,
     "canonicalMarketId": "CSGPrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "mrshrh",
     "symbol": "MRSH",
-    "name": "Marsh & McLennan Companies, Inc. • Robinhood Token",
+    "name": "Marsh & McLennan Companies, Inc. - Robinhood Token",
     "legacyId": 1827,
     "canonicalMarketId": "MRSHrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

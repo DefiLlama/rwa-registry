@@ -2,7 +2,7 @@
   "identity": {
     "slug": "treerh",
     "symbol": "TREE",
-    "name": "LendingTree, Inc. • Robinhood Token",
+    "name": "LendingTree, Inc. - Robinhood Token",
     "legacyId": 2420,
     "canonicalMarketId": "TREErh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

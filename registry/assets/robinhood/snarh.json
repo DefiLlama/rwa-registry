@@ -2,7 +2,7 @@
   "identity": {
     "slug": "snarh",
     "symbol": "SNA",
-    "name": "Snap-on Inc. • Robinhood Token",
+    "name": "Snap-on Inc. - Robinhood Token",
     "legacyId": 2270,
     "canonicalMarketId": "SNArh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

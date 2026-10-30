@@ -2,7 +2,7 @@
   "identity": {
     "slug": "tarkrh",
     "symbol": "TARK",
-    "name": "Ark Technology Inverse ETF • Robinhood Token",
+    "name": "Ark Technology Inverse ETF - Robinhood Token",
     "legacyId": 2367,
     "canonicalMarketId": "TARKrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

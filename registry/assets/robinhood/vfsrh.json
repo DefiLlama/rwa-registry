@@ -2,7 +2,7 @@
   "identity": {
     "slug": "vfsrh",
     "symbol": "VFS",
-    "name": "VinFast Auto Ltd. • Robinhood Token",
+    "name": "VinFast Auto Ltd. - Robinhood Token",
     "legacyId": 2539,
     "canonicalMarketId": "VFSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

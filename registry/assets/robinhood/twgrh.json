@@ -2,7 +2,7 @@
   "identity": {
     "slug": "twgrh",
     "symbol": "TWG",
-    "name": "Top Wealth Group Holding Ltd. • Robinhood Token",
+    "name": "Top Wealth Group Holding Ltd. - Robinhood Token",
     "legacyId": 2457,
     "canonicalMarketId": "TWGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

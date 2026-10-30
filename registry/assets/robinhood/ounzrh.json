@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ounzrh",
     "symbol": "OUNZ",
-    "name": "VanEck Merk Gold ETF • Robinhood Token",
+    "name": "VanEck Merk Gold ETF - Robinhood Token",
     "legacyId": 1985,
     "canonicalMarketId": "OUNZrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

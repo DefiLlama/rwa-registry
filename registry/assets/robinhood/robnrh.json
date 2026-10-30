@@ -2,7 +2,7 @@
   "identity": {
     "slug": "robnrh",
     "symbol": "ROBN",
-    "name": "Robinhood Markets, Inc. • Robinhood Token",
+    "name": "Robinhood Markets, Inc. - Robinhood Token",
     "legacyId": 2153,
     "canonicalMarketId": "ROBNrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

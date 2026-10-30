@@ -2,7 +2,7 @@
   "identity": {
     "slug": "xhlfrh",
     "symbol": "XHLF",
-    "name": "BondBloxx Bloomberg Six Month Target Duration US Treasury ETF • Robinhood Token",
+    "name": "BondBloxx Bloomberg Six Month Target Duration US Treasury ETF - Robinhood Token",
     "legacyId": 2646,
     "canonicalMarketId": "XHLFrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

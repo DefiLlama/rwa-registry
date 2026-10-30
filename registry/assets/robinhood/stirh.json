@@ -2,7 +2,7 @@
   "identity": {
     "slug": "stirh",
     "symbol": "STI",
-    "name": "Solidion Technology, Inc. • Robinhood Token",
+    "name": "Solidion Technology, Inc. - Robinhood Token",
     "legacyId": 2337,
     "canonicalMarketId": "STIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

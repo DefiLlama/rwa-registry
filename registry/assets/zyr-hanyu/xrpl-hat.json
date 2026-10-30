@@ -35,8 +35,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -53,6 +52,13 @@
       "sourceLinks": [
         "https://hanyuaerospace.com/tokenization/",
         "https://hanyu.zaoyuren.com/"
+      ]
+    },
+    {
+      "organization": "xrpl-amm",
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://hanyuaerospace.com/tokenization/"
       ]
     }
   ],

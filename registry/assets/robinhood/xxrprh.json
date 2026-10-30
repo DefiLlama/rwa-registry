@@ -2,7 +2,7 @@
   "identity": {
     "slug": "xxrprh",
     "symbol": "XXRP",
-    "name": "3X Inverse Ripple Token • Robinhood Token",
+    "name": "3X Inverse Ripple Token - Robinhood Token",
     "legacyId": 2668,
     "canonicalMarketId": "XXRPrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

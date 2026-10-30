@@ -2,7 +2,7 @@
   "identity": {
     "slug": "bxrh",
     "symbol": "BX",
-    "name": "Blackstone Inc. • Robinhood Token",
+    "name": "Blackstone Inc. - Robinhood Token",
     "legacyId": 1047,
     "canonicalMarketId": "BXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "qntmrh",
     "symbol": "QNTM",
-    "name": "Quantum BioPharma Ltd. • Robinhood Token",
+    "name": "Quantum BioPharma Ltd. - Robinhood Token",
     "legacyId": 2103,
     "canonicalMarketId": "QNTMrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

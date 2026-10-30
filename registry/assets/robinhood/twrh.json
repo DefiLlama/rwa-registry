@@ -2,7 +2,7 @@
   "identity": {
     "slug": "twrh",
     "symbol": "TW",
-    "name": "Tradeweb Markets Inc. • Robinhood Token",
+    "name": "Tradeweb Markets Inc. - Robinhood Token",
     "legacyId": 2459,
     "canonicalMarketId": "TWrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

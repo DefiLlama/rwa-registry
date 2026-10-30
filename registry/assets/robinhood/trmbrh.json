@@ -2,7 +2,7 @@
   "identity": {
     "slug": "trmbrh",
     "symbol": "TRMB",
-    "name": "Trimble Inc. • Robinhood Token",
+    "name": "Trimble Inc. - Robinhood Token",
     "legacyId": 2423,
     "canonicalMarketId": "TRMBrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

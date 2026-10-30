@@ -2,7 +2,7 @@
   "identity": {
     "slug": "vnmrh",
     "symbol": "VNM",
-    "name": "Vanguard FTSE Vietnam ETF • Robinhood Token",
+    "name": "Vanguard FTSE Vietnam ETF - Robinhood Token",
     "legacyId": 2561,
     "canonicalMarketId": "VNMrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

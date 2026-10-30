@@ -2,7 +2,7 @@
   "identity": {
     "slug": "fixrh",
     "symbol": "FIX",
-    "name": "Comfort Systems USA, Inc. • Robinhood Token",
+    "name": "Comfort Systems USA, Inc. - Robinhood Token",
     "legacyId": 1377,
     "canonicalMarketId": "FIXrh"
   },
@@ -35,8 +35,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -67,6 +66,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://robinhood.com/eu/en/about/"
+      ],
+      "protocolIds": [
+        3732
       ]
     },
     {

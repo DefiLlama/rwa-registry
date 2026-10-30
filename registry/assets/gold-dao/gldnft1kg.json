@@ -12,7 +12,7 @@
   "class": {
     "structure": "gold",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "gold-commodities"
     ]
@@ -37,6 +37,7 @@
     {
       "chain": "icp",
       "address": "7i7jl-6qaaa-aaaam-abjma-cai",
+      "deployedAt": "2026-09-25",
       "primary": true,
       "labels": [
         {
@@ -49,7 +50,10 @@
   "roles": [
     {
       "organization": "bity-tokenisation-sa",
-      "kind": "issuer"
+      "kind": "issuer",
+      "protocolIds": [
+        4476
+      ]
     }
   ],
   "events": [

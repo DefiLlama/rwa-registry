@@ -2,7 +2,7 @@
   "identity": {
     "slug": "rioxrh",
     "symbol": "RIOX",
-    "name": "Rio Holdings ETF • Robinhood Token",
+    "name": "Rio Holdings ETF - Robinhood Token",
     "legacyId": 2142,
     "canonicalMarketId": "RIOXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

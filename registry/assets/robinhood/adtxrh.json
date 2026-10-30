@@ -2,7 +2,7 @@
   "identity": {
     "slug": "adtxrh",
     "symbol": "ADTX",
-    "name": "Aditxt, Inc. • Robinhood Token",
+    "name": "Aditxt, Inc. - Robinhood Token",
     "legacyId": 806,
     "canonicalMarketId": "ADTXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

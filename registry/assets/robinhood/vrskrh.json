@@ -2,7 +2,7 @@
   "identity": {
     "slug": "vrskrh",
     "symbol": "VRSK",
-    "name": "Verisk Analytics, Inc. • Robinhood Token",
+    "name": "Verisk Analytics, Inc. - Robinhood Token",
     "legacyId": 2572,
     "canonicalMarketId": "VRSKrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

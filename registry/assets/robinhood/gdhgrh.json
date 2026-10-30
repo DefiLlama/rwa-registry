@@ -2,7 +2,7 @@
   "identity": {
     "slug": "gdhgrh",
     "symbol": "GDHG",
-    "name": "Golden Heaven Group Holdings Ltd. • Robinhood Token",
+    "name": "Golden Heaven Group Holdings Ltd. - Robinhood Token",
     "legacyId": 1428,
     "canonicalMarketId": "GDHGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

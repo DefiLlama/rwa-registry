@@ -2,7 +2,7 @@
   "identity": {
     "slug": "oddrh",
     "symbol": "ODD",
-    "name": "Oddity Tech Ltd. • Robinhood Token",
+    "name": "Oddity Tech Ltd. - Robinhood Token",
     "legacyId": 1952,
     "canonicalMarketId": "ODDrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "sofxrh",
     "symbol": "SOFX",
-    "name": "SoFi Technology ETF • Robinhood Token",
+    "name": "SoFi Technology ETF - Robinhood Token",
     "legacyId": 2282,
     "canonicalMarketId": "SOFXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "cnkrh",
     "symbol": "CNK",
-    "name": "Cinemark Holdings, Inc. • Robinhood Token",
+    "name": "Cinemark Holdings, Inc. - Robinhood Token",
     "legacyId": 1130,
     "canonicalMarketId": "CNKrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

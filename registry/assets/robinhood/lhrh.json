@@ -2,7 +2,7 @@
   "identity": {
     "slug": "lhrh",
     "symbol": "LH",
-    "name": "Labcorp Holdings Inc. • Robinhood Token",
+    "name": "Labcorp Holdings Inc. - Robinhood Token",
     "legacyId": 1728,
     "canonicalMarketId": "LHrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

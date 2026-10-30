@@ -2,7 +2,7 @@
   "identity": {
     "slug": "algnrh",
     "symbol": "ALGN",
-    "name": "Align Technology, Inc. • Robinhood Token",
+    "name": "Align Technology, Inc. - Robinhood Token",
     "legacyId": 839,
     "canonicalMarketId": "ALGNrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

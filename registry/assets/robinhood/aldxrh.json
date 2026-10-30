@@ -2,7 +2,7 @@
   "identity": {
     "slug": "aldxrh",
     "symbol": "ALDX",
-    "name": "Aldeyra Therapeutics, Inc. • Robinhood Token",
+    "name": "Aldeyra Therapeutics, Inc. - Robinhood Token",
     "legacyId": 837,
     "canonicalMarketId": "ALDXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

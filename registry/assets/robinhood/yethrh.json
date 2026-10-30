@@ -2,7 +2,7 @@
   "identity": {
     "slug": "yethrh",
     "symbol": "YETH",
-    "name": "Purpose Ether ETF • Robinhood Token",
+    "name": "Purpose Ether ETF - Robinhood Token",
     "legacyId": 2677,
     "canonicalMarketId": "YETHrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

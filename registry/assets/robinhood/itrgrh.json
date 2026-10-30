@@ -2,7 +2,7 @@
   "identity": {
     "slug": "itrgrh",
     "symbol": "ITRG",
-    "name": "Integra Resources Corp. • Robinhood Token",
+    "name": "Integra Resources Corp. - Robinhood Token",
     "legacyId": 1625,
     "canonicalMarketId": "ITRGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "uberrh",
     "symbol": "UBER",
-    "name": "Uber Technologies, Inc. • Robinhood Token",
+    "name": "Uber Technologies, Inc. - Robinhood Token",
     "legacyId": 2471,
     "canonicalMarketId": "UBERrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

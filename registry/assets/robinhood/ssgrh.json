@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ssgrh",
     "symbol": "SSG",
-    "name": "Invesco S&P 500 ESG ETF • Robinhood Token",
+    "name": "Invesco S&P 500 ESG ETF - Robinhood Token",
     "legacyId": 2328,
     "canonicalMarketId": "SSGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

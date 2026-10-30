@@ -2,7 +2,7 @@
   "identity": {
     "slug": "bndxrh",
     "symbol": "BNDX",
-    "name": "iShares Core MSCI International Bond ETF • Robinhood Token",
+    "name": "iShares Core MSCI International Bond ETF - Robinhood Token",
     "legacyId": 1012,
     "canonicalMarketId": "BNDXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

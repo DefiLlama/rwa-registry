@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ftairh",
     "symbol": "FTAI",
-    "name": "FTAI Aviation Ltd. • Robinhood Token",
+    "name": "FTAI Aviation Ltd. - Robinhood Token",
     "legacyId": 1409,
     "canonicalMarketId": "FTAIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

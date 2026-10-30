@@ -2,7 +2,7 @@
   "identity": {
     "slug": "cepirh",
     "symbol": "CEPI",
-    "name": "Citigroup Leveraged ETF • Robinhood Token",
+    "name": "Citigroup Leveraged ETF - Robinhood Token",
     "legacyId": 1077,
     "canonicalMarketId": "CEPIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

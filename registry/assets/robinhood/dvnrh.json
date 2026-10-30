@@ -2,7 +2,7 @@
   "identity": {
     "slug": "dvnrh",
     "symbol": "DVN",
-    "name": "Devon Energy Corporation • Robinhood Token",
+    "name": "Devon Energy Corporation - Robinhood Token",
     "legacyId": 1259,
     "canonicalMarketId": "DVNrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

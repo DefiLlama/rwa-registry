@@ -2,7 +2,7 @@
   "identity": {
     "slug": "mpcrh",
     "symbol": "MPC",
-    "name": "Marathon Petroleum Corporation • Robinhood Token",
+    "name": "Marathon Petroleum Corporation - Robinhood Token",
     "legacyId": 1820,
     "canonicalMarketId": "MPCrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

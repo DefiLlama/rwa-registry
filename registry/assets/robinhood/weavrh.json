@@ -2,7 +2,7 @@
   "identity": {
     "slug": "weavrh",
     "symbol": "WEAV",
-    "name": "Weave Communications, Inc. • Robinhood Token",
+    "name": "Weave Communications, Inc. - Robinhood Token",
     "legacyId": 2607,
     "canonicalMarketId": "WEAVrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

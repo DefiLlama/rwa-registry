@@ -2,7 +2,7 @@
   "identity": {
     "slug": "levirh",
     "symbol": "LEVI",
-    "name": "Levi Strauss & Co. • Robinhood Token",
+    "name": "Levi Strauss & Co. - Robinhood Token",
     "legacyId": 1722,
     "canonicalMarketId": "LEVIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "fldrh",
     "symbol": "FLD",
-    "name": "Fold Holdings, Inc. • Robinhood Token",
+    "name": "Fold Holdings, Inc. - Robinhood Token",
     "legacyId": 1379,
     "canonicalMarketId": "FLDrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

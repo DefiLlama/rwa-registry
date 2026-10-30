@@ -2,7 +2,7 @@
   "identity": {
     "slug": "aosrh",
     "symbol": "AOS",
-    "name": "A. O. Smith Corp. • Robinhood Token",
+    "name": "A. O. Smith Corp. - Robinhood Token",
     "legacyId": 878,
     "canonicalMarketId": "AOSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

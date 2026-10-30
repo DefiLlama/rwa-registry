@@ -2,7 +2,7 @@
   "identity": {
     "slug": "rzlvrh",
     "symbol": "RZLV",
-    "name": "Rezolve AI plc • Robinhood Token",
+    "name": "Rezolve AI plc - Robinhood Token",
     "legacyId": 2177,
     "canonicalMarketId": "RZLVrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

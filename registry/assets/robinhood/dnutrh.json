@@ -2,7 +2,7 @@
   "identity": {
     "slug": "dnutrh",
     "symbol": "DNUT",
-    "name": "Krispy Kreme, Inc. • Robinhood Token",
+    "name": "Krispy Kreme, Inc. - Robinhood Token",
     "legacyId": 1242,
     "canonicalMarketId": "DNUTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "neogrh",
     "symbol": "NEOG",
-    "name": "Neogen Corp. • Robinhood Token",
+    "name": "Neogen Corp. - Robinhood Token",
     "legacyId": 1881,
     "canonicalMarketId": "NEOGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

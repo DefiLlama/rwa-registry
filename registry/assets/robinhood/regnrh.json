@@ -2,7 +2,7 @@
   "identity": {
     "slug": "regnrh",
     "symbol": "REGN",
-    "name": "Regeneron Pharmaceuticals, Inc. • Robinhood Token",
+    "name": "Regeneron Pharmaceuticals, Inc. - Robinhood Token",
     "legacyId": 2128,
     "canonicalMarketId": "REGNrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

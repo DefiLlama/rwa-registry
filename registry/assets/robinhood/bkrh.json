@@ -2,7 +2,7 @@
   "identity": {
     "slug": "bkrh",
     "symbol": "BK",
-    "name": "The Bank of New York Mellon Corp. • Robinhood Token",
+    "name": "The Bank of New York Mellon Corp. - Robinhood Token",
     "legacyId": 999,
     "canonicalMarketId": "BKrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

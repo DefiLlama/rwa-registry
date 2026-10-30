@@ -2,7 +2,7 @@
   "identity": {
     "slug": "uaarh",
     "symbol": "UAA",
-    "name": "Under Armour, Inc. • Robinhood Token",
+    "name": "Under Armour, Inc. - Robinhood Token",
     "legacyId": 2466,
     "canonicalMarketId": "UAArh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

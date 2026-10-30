@@ -2,7 +2,7 @@
   "identity": {
     "slug": "wrbrh",
     "symbol": "WRB",
-    "name": "W. R. Berkley Corp. • Robinhood Token",
+    "name": "W. R. Berkley Corp. - Robinhood Token",
     "legacyId": 2630,
     "canonicalMarketId": "WRBrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

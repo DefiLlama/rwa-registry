@@ -2,7 +2,7 @@
   "identity": {
     "slug": "nvaxrh",
     "symbol": "NVAX",
-    "name": "Novavax, Inc. • Robinhood Token",
+    "name": "Novavax, Inc. - Robinhood Token",
     "legacyId": 1926,
     "canonicalMarketId": "NVAXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -12,7 +12,7 @@
   "class": {
     "structure": "credit-pool",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "private-credit",
       "bond-mmf-funds"
@@ -33,7 +33,7 @@
     ]
   },
   "about": {
-    "description": "mF-ONE is a tokenized certificate issued by Midas designed to track the performance of Fasanara Capital’s F-ONE strategy, which blends private credit style exposures with additional diversified sleeves as structured by the manager. It is positioned as a way to access institutional credit returns through a transferable token format, with integrations that allow the position to be used as collateral in onchain lending markets.",
+    "description": "mF-ONE is a tokenized certificate issued by Midas designed to track the performance of Fasanara Capital's F-ONE strategy, which blends private credit style exposures with additional diversified sleeves as structured by the manager. It is positioned as a way to access institutional credit returns through a transferable token format, with integrations that allow the position to be used as collateral in onchain lending markets.",
     "logo": "https://icons.llamao.fi/icons/rwa/mf-one.png?w=48&h=48",
     "links": {
       "website": [
@@ -44,8 +44,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

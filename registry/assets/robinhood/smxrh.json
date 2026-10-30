@@ -2,7 +2,7 @@
   "identity": {
     "slug": "smxrh",
     "symbol": "SMX",
-    "name": "SMX (Security Matters) Public Ltd Co. • Robinhood Token",
+    "name": "SMX (Security Matters) Public Ltd Co. - Robinhood Token",
     "legacyId": 2267,
     "canonicalMarketId": "SMXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "tjxrh",
     "symbol": "TJX",
-    "name": "The TJX Companies, Inc. • Robinhood Token",
+    "name": "The TJX Companies, Inc. - Robinhood Token",
     "legacyId": 2396,
     "canonicalMarketId": "TJXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

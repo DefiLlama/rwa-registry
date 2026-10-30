@@ -2,7 +2,7 @@
   "identity": {
     "slug": "gdxjrh",
     "symbol": "GDXJ",
-    "name": "VanEck Junior Gold Miners ETF • Robinhood Token",
+    "name": "VanEck Junior Gold Miners ETF - Robinhood Token",
     "legacyId": 1430,
     "canonicalMarketId": "GDXJrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

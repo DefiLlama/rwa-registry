@@ -2,7 +2,7 @@
   "identity": {
     "slug": "dpzrh",
     "symbol": "DPZ",
-    "name": "Domino's Pizza, Inc. • Robinhood Token",
+    "name": "Domino's Pizza, Inc. - Robinhood Token",
     "legacyId": 1249,
     "canonicalMarketId": "DPZrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

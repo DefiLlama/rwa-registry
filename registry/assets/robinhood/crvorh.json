@@ -2,7 +2,7 @@
   "identity": {
     "slug": "crvorh",
     "symbol": "CRVO",
-    "name": "CervoMed Inc. • Robinhood Token",
+    "name": "CervoMed Inc. - Robinhood Token",
     "legacyId": 1175,
     "canonicalMarketId": "CRVOrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

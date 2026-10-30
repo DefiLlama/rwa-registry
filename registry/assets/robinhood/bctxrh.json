@@ -2,7 +2,7 @@
   "identity": {
     "slug": "bctxrh",
     "symbol": "BCTX",
-    "name": "BriaCell Therapeutics Corp. • Robinhood Token",
+    "name": "BriaCell Therapeutics Corp. - Robinhood Token",
     "legacyId": 964,
     "canonicalMarketId": "BCTXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

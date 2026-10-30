@@ -2,7 +2,7 @@
   "identity": {
     "slug": "chemoursrh",
     "symbol": "CHEMOURS",
-    "name": "The Chemours Company • Robinhood Token",
+    "name": "The Chemours Company - Robinhood Token",
     "legacyId": 2810,
     "canonicalMarketId": "CHEMOURSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

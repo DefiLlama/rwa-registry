@@ -2,7 +2,7 @@
   "identity": {
     "slug": "upxirh",
     "symbol": "UPXI",
-    "name": "Upexi, Inc. • Robinhood Token",
+    "name": "Upexi, Inc. - Robinhood Token",
     "legacyId": 2492,
     "canonicalMarketId": "UPXIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

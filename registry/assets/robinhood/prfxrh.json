@@ -2,7 +2,7 @@
   "identity": {
     "slug": "prfxrh",
     "symbol": "PRFX",
-    "name": "PRF Technologies Ltd. • Robinhood Token",
+    "name": "PRF Technologies Ltd. - Robinhood Token",
     "legacyId": 2068,
     "canonicalMarketId": "PRFXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

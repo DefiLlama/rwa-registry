@@ -2,7 +2,7 @@
   "identity": {
     "slug": "fivnrh",
     "symbol": "FIVN",
-    "name": "Five9, Inc. • Robinhood Token",
+    "name": "Five9, Inc. - Robinhood Token",
     "legacyId": 1376,
     "canonicalMarketId": "FIVNrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

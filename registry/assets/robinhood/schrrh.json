@@ -2,7 +2,7 @@
   "identity": {
     "slug": "schrrh",
     "symbol": "SCHR",
-    "name": "Schwab Intermediate-Term U.S. Treasury ETF • Robinhood Token",
+    "name": "Schwab Intermediate-Term U.S. Treasury ETF - Robinhood Token",
     "legacyId": 2202,
     "canonicalMarketId": "SCHRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "chatrh",
     "symbol": "CHAT",
-    "name": "Global X Internet Equity ETF • Robinhood Token",
+    "name": "Global X Internet Equity ETF - Robinhood Token",
     "legacyId": 1089,
     "canonicalMarketId": "CHATrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

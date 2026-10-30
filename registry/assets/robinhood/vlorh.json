@@ -2,7 +2,7 @@
   "identity": {
     "slug": "vlorh",
     "symbol": "VLO",
-    "name": "Valero Energy Corporation • Robinhood Token",
+    "name": "Valero Energy Corporation - Robinhood Token",
     "legacyId": 2556,
     "canonicalMarketId": "VLOrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

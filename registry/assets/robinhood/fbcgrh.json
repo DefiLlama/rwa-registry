@@ -2,7 +2,7 @@
   "identity": {
     "slug": "fbcgrh",
     "symbol": "FBCG",
-    "name": "Fidelity Blue Chip Growth ETF • Robinhood Token",
+    "name": "Fidelity Blue Chip Growth ETF - Robinhood Token",
     "legacyId": 1351,
     "canonicalMarketId": "FBCGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

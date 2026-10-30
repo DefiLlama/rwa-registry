@@ -2,7 +2,7 @@
   "identity": {
     "slug": "sgolrh",
     "symbol": "SGOL",
-    "name": "abrdn Gold ETF Trust • Robinhood Token",
+    "name": "abrdn Gold ETF Trust - Robinhood Token",
     "legacyId": 2224,
     "canonicalMarketId": "SGOLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

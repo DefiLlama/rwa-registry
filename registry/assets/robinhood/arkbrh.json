@@ -2,7 +2,7 @@
   "identity": {
     "slug": "arkbrh",
     "symbol": "ARKB",
-    "name": "Ark 21Shares Bitcoin ETF • Robinhood Token",
+    "name": "Ark 21Shares Bitcoin ETF - Robinhood Token",
     "legacyId": 902,
     "canonicalMarketId": "ARKBrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

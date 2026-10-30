@@ -2,7 +2,7 @@
   "identity": {
     "slug": "arkkrh",
     "symbol": "ARKK",
-    "name": "ARK Innovation ETF • Robinhood Token",
+    "name": "ARK Innovation ETF - Robinhood Token",
     "legacyId": 905,
     "canonicalMarketId": "ARKKrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

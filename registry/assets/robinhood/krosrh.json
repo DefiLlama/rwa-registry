@@ -2,7 +2,7 @@
   "identity": {
     "slug": "krosrh",
     "symbol": "KROS",
-    "name": "Keros Therapeutics, Inc. • Robinhood Token",
+    "name": "Keros Therapeutics, Inc. - Robinhood Token",
     "legacyId": 1693,
     "canonicalMarketId": "KROSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

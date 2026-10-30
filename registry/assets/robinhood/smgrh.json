@@ -2,7 +2,7 @@
   "identity": {
     "slug": "smgrh",
     "symbol": "SMG",
-    "name": "Scotts Miracle-Gro Co. • Robinhood Token",
+    "name": "Scotts Miracle-Gro Co. - Robinhood Token",
     "legacyId": 2258,
     "canonicalMarketId": "SMGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

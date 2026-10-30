@@ -2,7 +2,7 @@
   "identity": {
     "slug": "svmrh",
     "symbol": "SVM",
-    "name": "Silvercorp Metals Inc. • Robinhood Token",
+    "name": "Silvercorp Metals Inc. - Robinhood Token",
     "legacyId": 2351,
     "canonicalMarketId": "SVMrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

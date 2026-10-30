@@ -2,7 +2,7 @@
   "identity": {
     "slug": "cpsrh",
     "symbol": "CPS",
-    "name": "Cooper-Standard Holdings Inc. • Robinhood Token",
+    "name": "Cooper-Standard Holdings Inc. - Robinhood Token",
     "legacyId": 1158,
     "canonicalMarketId": "CPSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

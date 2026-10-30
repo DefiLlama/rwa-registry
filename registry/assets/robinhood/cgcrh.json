@@ -2,7 +2,7 @@
   "identity": {
     "slug": "cgcrh",
     "symbol": "CGC",
-    "name": "Canopy Growth Corp. • Robinhood Token",
+    "name": "Canopy Growth Corp. - Robinhood Token",
     "legacyId": 1083,
     "canonicalMarketId": "CGCrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

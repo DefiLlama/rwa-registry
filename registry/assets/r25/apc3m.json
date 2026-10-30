@@ -36,8 +36,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -54,6 +53,9 @@
       "sourceLinks": [
         "https://www.r25.xyz/",
         "https://r25-public.oss-cn-hongkong.aliyuncs.com/docs/1.%20Portal%20Terms%20of%20Use.pdf"
+      ],
+      "protocolIds": [
+        7766
       ]
     },
     {

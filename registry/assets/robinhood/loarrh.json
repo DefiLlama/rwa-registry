@@ -2,7 +2,7 @@
   "identity": {
     "slug": "loarrh",
     "symbol": "LOAR",
-    "name": "Loar Holdings Inc. • Robinhood Token",
+    "name": "Loar Holdings Inc. - Robinhood Token",
     "legacyId": 1739,
     "canonicalMarketId": "LOARrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

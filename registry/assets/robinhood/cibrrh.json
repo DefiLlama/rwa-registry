@@ -2,7 +2,7 @@
   "identity": {
     "slug": "cibrrh",
     "symbol": "CIBR",
-    "name": "First Trust Nasdaq Cybersecurity ETF • Robinhood Token",
+    "name": "First Trust Nasdaq Cybersecurity ETF - Robinhood Token",
     "legacyId": 1103,
     "canonicalMarketId": "CIBRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

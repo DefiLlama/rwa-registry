@@ -2,7 +2,7 @@
   "identity": {
     "slug": "vgtrh",
     "symbol": "VGT",
-    "name": "Vanguard Information Technology ETF • Robinhood Token",
+    "name": "Vanguard Information Technology ETF - Robinhood Token",
     "legacyId": 2544,
     "canonicalMarketId": "VGTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

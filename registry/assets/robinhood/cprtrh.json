@@ -2,7 +2,7 @@
   "identity": {
     "slug": "cprtrh",
     "symbol": "CPRT",
-    "name": "Copart, Inc. • Robinhood Token",
+    "name": "Copart, Inc. - Robinhood Token",
     "legacyId": 1156,
     "canonicalMarketId": "CPRTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

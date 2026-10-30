@@ -2,7 +2,7 @@
   "identity": {
     "slug": "arrh",
     "symbol": "AR",
-    "name": "Antero Resources Corp. • Robinhood Token",
+    "name": "Antero Resources Corp. - Robinhood Token",
     "legacyId": 914,
     "canonicalMarketId": "ARrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "gehcrh",
     "symbol": "GEHC",
-    "name": "GE HealthCare Technologies Inc. • Robinhood Token",
+    "name": "GE HealthCare Technologies Inc. - Robinhood Token",
     "legacyId": 1435,
     "canonicalMarketId": "GEHCrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

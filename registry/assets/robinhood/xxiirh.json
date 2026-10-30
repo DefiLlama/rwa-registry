@@ -2,7 +2,7 @@
   "identity": {
     "slug": "xxiirh",
     "symbol": "XXII",
-    "name": "22nd Century Group, Inc. • Robinhood Token",
+    "name": "22nd Century Group, Inc. - Robinhood Token",
     "legacyId": 2666,
     "canonicalMarketId": "XXIIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

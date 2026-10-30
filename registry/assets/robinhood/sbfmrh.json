@@ -2,7 +2,7 @@
   "identity": {
     "slug": "sbfmrh",
     "symbol": "SBFM",
-    "name": "Sunshine Biopharma Inc. • Robinhood Token",
+    "name": "Sunshine Biopharma Inc. - Robinhood Token",
     "legacyId": 2185,
     "canonicalMarketId": "SBFMrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

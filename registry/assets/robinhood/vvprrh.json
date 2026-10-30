@@ -2,7 +2,7 @@
   "identity": {
     "slug": "vvprrh",
     "symbol": "VVPR",
-    "name": "VivoPower International • Robinhood Token",
+    "name": "VivoPower International - Robinhood Token",
     "legacyId": 2590,
     "canonicalMarketId": "VVPRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

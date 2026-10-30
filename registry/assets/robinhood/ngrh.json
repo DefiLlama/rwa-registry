@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ngrh",
     "symbol": "NG",
-    "name": "NovaGold Resources Inc. • Robinhood Token",
+    "name": "NovaGold Resources Inc. - Robinhood Token",
     "legacyId": 1893,
     "canonicalMarketId": "NGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

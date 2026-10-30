@@ -2,7 +2,7 @@
   "identity": {
     "slug": "vtebrh",
     "symbol": "VTEB",
-    "name": "Vanguard Tax-Exempt Bond ETF • Robinhood Token",
+    "name": "Vanguard Tax-Exempt Bond ETF - Robinhood Token",
     "legacyId": 2581,
     "canonicalMarketId": "VTEBrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

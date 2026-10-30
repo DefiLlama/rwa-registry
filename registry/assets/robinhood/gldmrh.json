@@ -2,7 +2,7 @@
   "identity": {
     "slug": "gldmrh",
     "symbol": "GLDM",
-    "name": "World Gold Trust • Robinhood Token",
+    "name": "World Gold Trust - Robinhood Token",
     "legacyId": 1455,
     "canonicalMarketId": "GLDMrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

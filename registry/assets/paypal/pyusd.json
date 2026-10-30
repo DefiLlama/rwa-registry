@@ -12,7 +12,7 @@
   "class": {
     "structure": "usd-stable",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "fiat-stablecoins"
     ]
@@ -74,8 +74,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -114,6 +113,15 @@
           "kind": "excluded-holder"
         }
       ]
+    },
+    {
+      "chain": "flow",
+      "address": "0x99af3eea856556646c98c8b9b2548fe815240750",
+      "deployedAt": "2025-12-18"
+    },
+    {
+      "chain": "plume_mainnet",
+      "address": null
     }
   ],
   "roles": [

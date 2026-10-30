@@ -2,7 +2,7 @@
   "identity": {
     "slug": "zslrh",
     "symbol": "ZSL",
-    "name": "ProShares UltraShort Silver • Robinhood Token",
+    "name": "ProShares UltraShort Silver - Robinhood Token",
     "legacyId": 2694,
     "canonicalMarketId": "ZSLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

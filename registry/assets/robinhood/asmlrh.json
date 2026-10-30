@@ -2,7 +2,7 @@
   "identity": {
     "slug": "asmlrh",
     "symbol": "ASML",
-    "name": "ASML Holding NV • Robinhood Token",
+    "name": "ASML Holding NV - Robinhood Token",
     "legacyId": 4490,
     "canonicalMarketId": "ASMLrh"
   },
@@ -27,9 +27,7 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "USN070592100",
-        "source": null,
-        "verified": false
+        "value": "USN070592100"
       }
     ]
   },
@@ -45,8 +43,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -62,6 +59,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://robinhood.com/eu/en/about/"
+      ],
+      "protocolIds": [
+        3732
       ]
     },
     {

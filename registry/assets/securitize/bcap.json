@@ -25,7 +25,7 @@
     "yieldBearing": false
   },
   "about": {
-    "description": "BCAP is the tokenized limited partner interest for Blockchain Capital III Digital Liquid Venture Fund, LP. It is a venture capital vehicle that invests across blockchain and crypto infrastructure, applications, and protocols, launched in 2017, BCAP was structured alongside Blockchain Capital III, LP as one of the earliest examples of a venture fund raising capital through an Ethereum‑based security token, with Securitize supporting digital issuance and compliant ownership records. Token holders receive pro‑rata economic exposure to the fund’s underlying portfolio and any distributions from realized exits. As a venture strategy, returns are driven by portfolio company performance and the timing of liquidity events. NAV is derived from the manager’s valuation of the underlying holdings rather than on‑chain collateral.",
+    "description": "BCAP is the tokenized limited partner interest for Blockchain Capital III Digital Liquid Venture Fund, LP. It is a venture capital vehicle that invests across blockchain and crypto infrastructure, applications, and protocols, launched in 2017, BCAP was structured alongside Blockchain Capital III, LP as one of the earliest examples of a venture fund raising capital through an Ethereum-based security token, with Securitize supporting digital issuance and compliant ownership records. Token holders receive pro-rata economic exposure to the fund's underlying portfolio and any distributions from realized exits. As a venture strategy, returns are driven by portfolio company performance and the timing of liquidity events. NAV is derived from the manager's valuation of the underlying holdings rather than on-chain collateral.",
     "logo": "https://icons.llamao.fi/icons/rwa/bcap.png?w=48&h=48",
     "links": {
       "website": [
@@ -37,8 +37,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

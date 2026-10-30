@@ -2,7 +2,7 @@
   "identity": {
     "slug": "nakrh",
     "symbol": "NAK",
-    "name": "Northern Dynasty Minerals Ltd. • Robinhood Token",
+    "name": "Northern Dynasty Minerals Ltd. - Robinhood Token",
     "legacyId": 1868,
     "canonicalMarketId": "NAKrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

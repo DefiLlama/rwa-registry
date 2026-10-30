@@ -2,7 +2,7 @@
   "identity": {
     "slug": "legrh",
     "symbol": "LEG",
-    "name": "Leggett & Platt, Inc. • Robinhood Token",
+    "name": "Leggett & Platt, Inc. - Robinhood Token",
     "legacyId": 2805,
     "canonicalMarketId": "LEGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

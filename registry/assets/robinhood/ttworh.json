@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ttworh",
     "symbol": "TTWO",
-    "name": "Take-Two Interactive Software, Inc. • Robinhood Token",
+    "name": "Take-Two Interactive Software, Inc. - Robinhood Token",
     "legacyId": 2452,
     "canonicalMarketId": "TTWOrh"
   },
@@ -27,9 +27,7 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "US8740541094",
-        "source": null,
-        "verified": false
+        "value": "US8740541094"
       }
     ]
   },
@@ -45,8 +43,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -77,6 +74,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://robinhood.com/eu/en/about/"
+      ],
+      "protocolIds": [
+        3732
       ]
     },
     {

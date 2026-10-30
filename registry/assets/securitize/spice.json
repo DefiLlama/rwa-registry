@@ -25,7 +25,7 @@
     "yieldBearing": false
   },
   "about": {
-    "description": "SPICE is the security token for the SPiCE Venture Capital fund, a tokenized venture strategy focused on blockchain and digital‑asset infrastructure. The fund’s mandate has historically targeted early‑stage equity positions in crypto and tokenization companies, alongside selective exposure to token projects and the broader crypto ecosystem. Rather than representing a single onchain collateral pool, SPICE reflects the net asset value of the underlying venture portfolio as marked by the manager and reported through periodic NAV updates. As with most venture vehicles, liquidity and return realization depend on the timing and outcomes of portfolio company financings, token unlocks, and exits.",
+    "description": "SPICE is the security token for the SPiCE Venture Capital fund, a tokenized venture strategy focused on blockchain and digital-asset infrastructure. The fund's mandate has historically targeted early-stage equity positions in crypto and tokenization companies, alongside selective exposure to token projects and the broader crypto ecosystem. Rather than representing a single onchain collateral pool, SPICE reflects the net asset value of the underlying venture portfolio as marked by the manager and reported through periodic NAV updates. As with most venture vehicles, liquidity and return realization depend on the timing and outcomes of portfolio company financings, token unlocks, and exits.",
     "logo": "https://icons.llamao.fi/icons/rwa/spice.png?w=48&h=48",
     "links": {
       "website": [
@@ -36,8 +36,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

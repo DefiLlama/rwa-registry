@@ -2,7 +2,7 @@
   "identity": {
     "slug": "emerh",
     "symbol": "EME",
-    "name": "EMCOR Group, Inc. • Robinhood Token",
+    "name": "EMCOR Group, Inc. - Robinhood Token",
     "legacyId": 1287,
     "canonicalMarketId": "EMErh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "atgerh",
     "symbol": "ATGE",
-    "name": "Covista • Robinhood Token",
+    "name": "Covista - Robinhood Token",
     "legacyId": 923,
     "canonicalMarketId": "ATGErh"
   },
@@ -34,9 +34,15 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
+  "deployments": [
+    {
+      "chain": "arbitrum",
+      "address": null,
+      "primary": true
+    }
+  ],
   "roles": [
     {
       "organization": "robinhood-markets-inc",

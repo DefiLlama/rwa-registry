@@ -12,7 +12,7 @@
   "class": {
     "structure": "equity-basket",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "stocks-equities"
     ]
@@ -30,9 +30,7 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "CH1564487333",
-        "source": null,
-        "verified": false
+        "value": "CH1564487333"
       }
     ]
   },
@@ -48,8 +46,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -189,6 +186,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://assets.backed.fi/products/ishares-msci-south-korea-xstock"
+      ],
+      "protocolIds": [
+        6378
       ]
     },
     {

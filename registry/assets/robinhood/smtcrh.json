@@ -2,7 +2,7 @@
   "identity": {
     "slug": "smtcrh",
     "symbol": "SMTC",
-    "name": "Semtech Corp. • Robinhood Token",
+    "name": "Semtech Corp. - Robinhood Token",
     "legacyId": 2265,
     "canonicalMarketId": "SMTCrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

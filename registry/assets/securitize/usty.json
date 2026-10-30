@@ -26,7 +26,7 @@
     "yieldBearing": true
   },
   "about": {
-    "description": "USTY is a tokenized U.S. Treasury exposure product issued by Yieldteq, designed as a cash‑management building block for onchain portfolios. The tokens provide exposure to a short‑maturity U.S. government bond ETF (with the significant majority of proceeds allocated to the iShares $ Treasury Bond 0‑1yr UCITS ETF, alongside small USD/USDC allocations for liquidity operations) and are issued as transferable tokens on the XDC Network. Because USTY’s economic exposure is to short‑dated government bonds, returns are primarily a function of prevailing short‑term interest rates and the ETF’s duration/holdings, while token settlement allows faster transfer and composability compared to traditional ETF settlement rails.",
+    "description": "USTY is a tokenized U.S. Treasury exposure product issued by Yieldteq, designed as a cash-management building block for onchain portfolios. The tokens provide exposure to a short-maturity U.S. government bond ETF (with the significant majority of proceeds allocated to the iShares $ Treasury Bond 0-1yr UCITS ETF, alongside small USD/USDC allocations for liquidity operations) and are issued as transferable tokens on the XDC Network. Because USTY's economic exposure is to short-dated government bonds, returns are primarily a function of prevailing short-term interest rates and the ETF's duration/holdings, while token settlement allows faster transfer and composability compared to traditional ETF settlement rails.",
     "logo": "https://icons.llamao.fi/icons/rwa/usty.png?w=48&h=48",
     "links": {
       "website": [
@@ -37,8 +37,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

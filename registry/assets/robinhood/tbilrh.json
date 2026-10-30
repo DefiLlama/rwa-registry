@@ -2,7 +2,7 @@
   "identity": {
     "slug": "tbilrh",
     "symbol": "TBIL",
-    "name": "F/m US Treasury 3 Month Bill Fund • Robinhood Token",
+    "name": "F/m US Treasury 3 Month Bill Fund - Robinhood Token",
     "legacyId": 2369,
     "canonicalMarketId": "TBILrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

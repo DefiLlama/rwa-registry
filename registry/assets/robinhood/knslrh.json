@@ -2,7 +2,7 @@
   "identity": {
     "slug": "knslrh",
     "symbol": "KNSL",
-    "name": "Kinsale Capital Group, Inc. • Robinhood Token",
+    "name": "Kinsale Capital Group, Inc. - Robinhood Token",
     "legacyId": 1684,
     "canonicalMarketId": "KNSLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

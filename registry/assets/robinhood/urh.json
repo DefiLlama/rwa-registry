@@ -2,7 +2,7 @@
   "identity": {
     "slug": "urh",
     "symbol": "U",
-    "name": "Unity Software Inc. • Robinhood Token",
+    "name": "Unity Software Inc. - Robinhood Token",
     "legacyId": 2520,
     "canonicalMarketId": "Urh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

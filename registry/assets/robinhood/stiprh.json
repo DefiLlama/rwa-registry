@@ -2,7 +2,7 @@
   "identity": {
     "slug": "stiprh",
     "symbol": "STIP",
-    "name": "iShares TIPS Bond ETF • Robinhood Token",
+    "name": "iShares TIPS Bond ETF - Robinhood Token",
     "legacyId": 2336,
     "canonicalMarketId": "STIPrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

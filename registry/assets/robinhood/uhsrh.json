@@ -2,7 +2,7 @@
   "identity": {
     "slug": "uhsrh",
     "symbol": "UHS",
-    "name": "Universal Health Services, Inc. • Robinhood Token",
+    "name": "Universal Health Services, Inc. - Robinhood Token",
     "legacyId": 2480,
     "canonicalMarketId": "UHSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

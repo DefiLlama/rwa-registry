@@ -2,7 +2,7 @@
   "identity": {
     "slug": "tdwrh",
     "symbol": "TDW",
-    "name": "Tidewater Inc. • Robinhood Token",
+    "name": "Tidewater Inc. - Robinhood Token",
     "legacyId": 2376,
     "canonicalMarketId": "TDWrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

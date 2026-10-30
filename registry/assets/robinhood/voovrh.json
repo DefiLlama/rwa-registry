@@ -2,7 +2,7 @@
   "identity": {
     "slug": "voovrh",
     "symbol": "VOOV",
-    "name": "Vanguard S&P 500 Value ETF • Robinhood Token",
+    "name": "Vanguard S&P 500 Value ETF - Robinhood Token",
     "legacyId": 2567,
     "canonicalMarketId": "VOOVrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

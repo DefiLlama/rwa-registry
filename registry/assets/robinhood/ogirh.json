@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ogirh",
     "symbol": "OGI",
-    "name": "Organigram Global Inc. • Robinhood Token",
+    "name": "Organigram Global Inc. - Robinhood Token",
     "legacyId": 1954,
     "canonicalMarketId": "OGIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

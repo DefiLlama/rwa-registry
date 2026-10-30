@@ -2,7 +2,7 @@
   "identity": {
     "slug": "xlyrh",
     "symbol": "XLY",
-    "name": "State Street Consumer Discretionary Select Sector SPDR ETF • Robinhood Token",
+    "name": "State Street Consumer Discretionary Select Sector SPDR ETF - Robinhood Token",
     "legacyId": 2656,
     "canonicalMarketId": "XLYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "cisorh",
     "symbol": "CISO",
-    "name": "CISO Global, Inc. • Robinhood Token",
+    "name": "CISO Global, Inc. - Robinhood Token",
     "legacyId": 1106,
     "canonicalMarketId": "CISOrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

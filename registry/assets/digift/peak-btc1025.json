@@ -35,8 +35,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -58,6 +57,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://insights.digift.io/digift-pilgrim-partners-launch-peakwater-btc-focused-volatility-fund/"
+      ],
+      "protocolIds": [
+        3580
       ]
     },
     {

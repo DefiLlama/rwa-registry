@@ -2,7 +2,7 @@
   "identity": {
     "slug": "annxrh",
     "symbol": "ANNX",
-    "name": "Annexon, Inc. • Robinhood Token",
+    "name": "Annexon, Inc. - Robinhood Token",
     "legacyId": 875,
     "canonicalMarketId": "ANNXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

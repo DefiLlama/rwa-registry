@@ -2,7 +2,7 @@
   "identity": {
     "slug": "cytkrh",
     "symbol": "CYTK",
-    "name": "Cytokinetics, Inc. • Robinhood Token",
+    "name": "Cytokinetics, Inc. - Robinhood Token",
     "legacyId": 1202,
     "canonicalMarketId": "CYTKrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

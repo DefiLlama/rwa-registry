@@ -2,7 +2,7 @@
   "identity": {
     "slug": "crlrh",
     "symbol": "CRL",
-    "name": "Charles River Laboratories International, Inc. • Robinhood Token",
+    "name": "Charles River Laboratories International, Inc. - Robinhood Token",
     "legacyId": 1164,
     "canonicalMarketId": "CRLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -37,8 +37,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -69,6 +68,9 @@
       "sourceLinks": [
         "https://tokens.liqi.com.br/tokens/ROB2/sobre",
         "https://www.liqi.com.br/para-empresas/liqi-securitizadora"
+      ],
+      "protocolIds": [
+        6839
       ]
     }
   ],

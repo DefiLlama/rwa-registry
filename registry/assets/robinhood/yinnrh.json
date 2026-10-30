@@ -2,7 +2,7 @@
   "identity": {
     "slug": "yinnrh",
     "symbol": "YINN",
-    "name": "Direxion Daily FTSE China Bull 3X ETF • Robinhood Token",
+    "name": "Direxion Daily FTSE China Bull 3X ETF - Robinhood Token",
     "legacyId": 2679,
     "canonicalMarketId": "YINNrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "yangrh",
     "symbol": "YANG",
-    "name": "Direxion Daily FTSE China Bear 3X ETF • Robinhood Token",
+    "name": "Direxion Daily FTSE China Bear 3X ETF - Robinhood Token",
     "legacyId": 2673,
     "canonicalMarketId": "YANGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "shnyrh",
     "symbol": "SHNY",
-    "name": "MicroSectors Gold 3X Leveraged ETN • Robinhood Token",
+    "name": "MicroSectors Gold 3X Leveraged ETN - Robinhood Token",
     "legacyId": 2231,
     "canonicalMarketId": "SHNYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

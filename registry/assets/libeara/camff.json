@@ -12,7 +12,7 @@
   "class": {
     "structure": "mmf",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "bond-mmf-funds"
     ]
@@ -30,9 +30,7 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "HK0001124582",
-        "source": null,
-        "verified": false
+        "value": "HK0001124582"
       }
     ]
   },
@@ -48,8 +46,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

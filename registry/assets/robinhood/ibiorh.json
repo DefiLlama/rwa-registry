@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ibiorh",
     "symbol": "IBIO",
-    "name": "iBio, Inc. • Robinhood Token",
+    "name": "iBio, Inc. - Robinhood Token",
     "legacyId": 1566,
     "canonicalMarketId": "IBIOrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

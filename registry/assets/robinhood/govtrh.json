@@ -2,7 +2,7 @@
   "identity": {
     "slug": "govtrh",
     "symbol": "GOVT",
-    "name": "iShares U.S. Treasury Bond ETF • Robinhood Token",
+    "name": "iShares U.S. Treasury Bond ETF - Robinhood Token",
     "legacyId": 1477,
     "canonicalMarketId": "GOVTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "mdyrh",
     "symbol": "MDY",
-    "name": "State Street SPDR S&P MIDCAP 400 ETF Trust • Robinhood Token",
+    "name": "State Street SPDR S&P MIDCAP 400 ETF Trust - Robinhood Token",
     "legacyId": 1786,
     "canonicalMarketId": "MDYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

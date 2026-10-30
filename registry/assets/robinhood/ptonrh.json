@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ptonrh",
     "symbol": "PTON",
-    "name": "Peloton Interactive, Inc. • Robinhood Token",
+    "name": "Peloton Interactive, Inc. - Robinhood Token",
     "legacyId": 2089,
     "canonicalMarketId": "PTONrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "kittrh",
     "symbol": "KITT",
-    "name": "Nauticus Robotics, Inc. • Robinhood Token",
+    "name": "Nauticus Robotics, Inc. - Robinhood Token",
     "legacyId": 1676,
     "canonicalMarketId": "KITTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

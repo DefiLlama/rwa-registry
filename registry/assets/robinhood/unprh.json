@@ -2,7 +2,7 @@
   "identity": {
     "slug": "unprh",
     "symbol": "UNP",
-    "name": "Union Pacific Corp. • Robinhood Token",
+    "name": "Union Pacific Corp. - Robinhood Token",
     "legacyId": 2488,
     "canonicalMarketId": "UNPrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

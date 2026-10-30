@@ -2,7 +2,7 @@
   "identity": {
     "slug": "aorrh",
     "symbol": "AOR",
-    "name": "iShares Growth Allocation ETF • Robinhood Token",
+    "name": "iShares Growth Allocation ETF - Robinhood Token",
     "legacyId": 877,
     "canonicalMarketId": "AORrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

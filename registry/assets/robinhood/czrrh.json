@@ -2,7 +2,7 @@
   "identity": {
     "slug": "czrrh",
     "symbol": "CZR",
-    "name": "Caesars Entertainment, Inc. • Robinhood Token",
+    "name": "Caesars Entertainment, Inc. - Robinhood Token",
     "legacyId": 1203,
     "canonicalMarketId": "CZRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "wmbrh",
     "symbol": "WMB",
-    "name": "The Williams Companies, Inc. • Robinhood Token",
+    "name": "The Williams Companies, Inc. - Robinhood Token",
     "legacyId": 2621,
     "canonicalMarketId": "WMBrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

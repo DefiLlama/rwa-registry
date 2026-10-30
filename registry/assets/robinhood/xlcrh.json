@@ -2,7 +2,7 @@
   "identity": {
     "slug": "xlcrh",
     "symbol": "XLC",
-    "name": "State Street Communication Services Select Sector SPDR ETF • Robinhood Token",
+    "name": "State Street Communication Services Select Sector SPDR ETF - Robinhood Token",
     "legacyId": 2648,
     "canonicalMarketId": "XLCrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

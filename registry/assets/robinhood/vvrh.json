@@ -2,7 +2,7 @@
   "identity": {
     "slug": "vvrh",
     "symbol": "VV",
-    "name": "Vanguard Large-Cap ETF • Robinhood Token",
+    "name": "Vanguard Large-Cap ETF - Robinhood Token",
     "legacyId": 2591,
     "canonicalMarketId": "VVrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

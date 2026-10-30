@@ -2,7 +2,7 @@
   "identity": {
     "slug": "usfrrh",
     "symbol": "USFR",
-    "name": "WisdomTree Floating Rate Treasury Fund • Robinhood Token",
+    "name": "WisdomTree Floating Rate Treasury Fund - Robinhood Token",
     "legacyId": 2506,
     "canonicalMarketId": "USFRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

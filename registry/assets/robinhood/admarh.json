@@ -2,7 +2,7 @@
   "identity": {
     "slug": "admarh",
     "symbol": "ADMA",
-    "name": "ADMA Biologics, Inc. • Robinhood Token",
+    "name": "ADMA Biologics, Inc. - Robinhood Token",
     "legacyId": 803,
     "canonicalMarketId": "ADMArh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

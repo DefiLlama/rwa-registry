@@ -2,7 +2,7 @@
   "identity": {
     "slug": "hibsrh",
     "symbol": "HIBS",
-    "name": "High Beta Small-Cap ETF • Robinhood Token",
+    "name": "High Beta Small-Cap ETF - Robinhood Token",
     "legacyId": 1520,
     "canonicalMarketId": "HIBSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

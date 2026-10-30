@@ -35,8 +35,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -52,6 +51,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://www.bnbchain.org/en/blog/cmb-international-and-bnb-chain-bring-3-8b-money-market-fund-onchain"
+      ],
+      "protocolIds": [
+        3580
       ]
     },
     {

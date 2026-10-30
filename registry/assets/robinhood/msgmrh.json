@@ -2,7 +2,7 @@
   "identity": {
     "slug": "msgmrh",
     "symbol": "MSGM",
-    "name": "Motorsport Games Inc. • Robinhood Token",
+    "name": "Motorsport Games Inc. - Robinhood Token",
     "legacyId": 1836,
     "canonicalMarketId": "MSGMrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

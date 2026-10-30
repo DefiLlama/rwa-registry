@@ -2,7 +2,7 @@
   "identity": {
     "slug": "cdnsrh",
     "symbol": "CDNS",
-    "name": "Cadence Design Systems, Inc. • Robinhood Token",
+    "name": "Cadence Design Systems, Inc. - Robinhood Token",
     "legacyId": 1071,
     "canonicalMarketId": "CDNSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "qcomrh",
     "symbol": "QCOM",
-    "name": "QUALCOMM Inc. • Robinhood Token",
+    "name": "QUALCOMM Inc. - Robinhood Token",
     "legacyId": 2097,
     "canonicalMarketId": "QCOMrh"
   },
@@ -35,8 +35,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -67,6 +66,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://robinhood.com/eu/en/about/"
+      ],
+      "protocolIds": [
+        3732
       ]
     },
     {

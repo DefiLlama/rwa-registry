@@ -2,7 +2,7 @@
   "identity": {
     "slug": "qidrh",
     "symbol": "QID",
-    "name": "ProShares UltraShort Nasdaq-100 • Robinhood Token",
+    "name": "ProShares UltraShort Nasdaq-100 - Robinhood Token",
     "legacyId": 2100,
     "canonicalMarketId": "QIDrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "invzrh",
     "symbol": "INVZ",
-    "name": "Innoviz Technologies Ltd. • Robinhood Token",
+    "name": "Innoviz Technologies Ltd. - Robinhood Token",
     "legacyId": 1609,
     "canonicalMarketId": "INVZrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

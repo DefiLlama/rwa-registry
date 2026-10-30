@@ -2,7 +2,7 @@
   "identity": {
     "slug": "allrh",
     "symbol": "ALL",
-    "name": "The Allstate Corp. • Robinhood Token",
+    "name": "The Allstate Corp. - Robinhood Token",
     "legacyId": 848,
     "canonicalMarketId": "ALLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

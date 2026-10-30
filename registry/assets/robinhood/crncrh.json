@@ -2,7 +2,7 @@
   "identity": {
     "slug": "crncrh",
     "symbol": "CRNC",
-    "name": "Cerence Inc. • Robinhood Token",
+    "name": "Cerence Inc. - Robinhood Token",
     "legacyId": 1168,
     "canonicalMarketId": "CRNCrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

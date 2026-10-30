@@ -2,7 +2,7 @@
   "identity": {
     "slug": "trgprh",
     "symbol": "TRGP",
-    "name": "Targa Resources Corp. • Robinhood Token",
+    "name": "Targa Resources Corp. - Robinhood Token",
     "legacyId": 2421,
     "canonicalMarketId": "TRGPrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

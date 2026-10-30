@@ -2,7 +2,7 @@
   "identity": {
     "slug": "krh",
     "symbol": "K",
-    "name": "Kellanova • Robinhood Token",
+    "name": "Kellanova - Robinhood Token",
     "legacyId": 1704,
     "canonicalMarketId": "Krh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

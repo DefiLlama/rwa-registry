@@ -2,7 +2,7 @@
   "identity": {
     "slug": "jblurh",
     "symbol": "JBLU",
-    "name": "JetBlue Airways Corp. • Robinhood Token",
+    "name": "JetBlue Airways Corp. - Robinhood Token",
     "legacyId": 1648,
     "canonicalMarketId": "JBLUrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

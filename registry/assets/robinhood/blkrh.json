@@ -2,7 +2,7 @@
   "identity": {
     "slug": "blkrh",
     "symbol": "BLK",
-    "name": "BlackRock, Inc. • Robinhood Token",
+    "name": "BlackRock, Inc. - Robinhood Token",
     "legacyId": 1002,
     "canonicalMarketId": "BLKrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

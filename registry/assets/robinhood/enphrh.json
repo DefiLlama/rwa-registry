@@ -2,7 +2,7 @@
   "identity": {
     "slug": "enphrh",
     "symbol": "ENPH",
-    "name": "Enphase Energy, Inc. • Robinhood Token",
+    "name": "Enphase Energy, Inc. - Robinhood Token",
     "legacyId": 1290,
     "canonicalMarketId": "ENPHrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

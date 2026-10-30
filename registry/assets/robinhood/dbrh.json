@@ -2,7 +2,7 @@
   "identity": {
     "slug": "dbrh",
     "symbol": "DB",
-    "name": "Deutsche Bank Aktiengesellschaft • Robinhood Token",
+    "name": "Deutsche Bank Aktiengesellschaft - Robinhood Token",
     "legacyId": 1211,
     "canonicalMarketId": "DBrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

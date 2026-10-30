@@ -2,7 +2,7 @@
   "identity": {
     "slug": "wecrh",
     "symbol": "WEC",
-    "name": "WEC Energy Group, Inc. • Robinhood Token",
+    "name": "WEC Energy Group, Inc. - Robinhood Token",
     "legacyId": 2609,
     "canonicalMarketId": "WECrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

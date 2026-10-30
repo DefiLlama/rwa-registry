@@ -2,7 +2,7 @@
   "identity": {
     "slug": "abbvrh",
     "symbol": "ABBV",
-    "name": "AbbVie Inc. • Robinhood Token",
+    "name": "AbbVie Inc. - Robinhood Token",
     "legacyId": 785,
     "canonicalMarketId": "ABBVrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -12,7 +12,7 @@
   "class": {
     "structure": "stock-backed",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "stocks-equities"
     ]
@@ -24,16 +24,6 @@
     "selfCustody": true,
     "yieldBearing": false,
     "attestationFrequency": "Daily"
-  },
-  "sources": {
-    "identifiers": [
-      {
-        "scheme": "isin",
-        "value": "US8807701029",
-        "source": null,
-        "verified": false
-      }
-    ]
   },
   "about": {
     "description": "TERon is an Ondo Global Markets tokenized stock exposure designed to provide economic exposure to Teradyne in an onchain format. The token is designed to be fully backed by the underlying publicly traded asset, together with cash in transit, held with regulated custodial broker-dealers. Holdings attestations and ongoing reporting are surfaced through Ondo trust and transparency materials and the product asset page. Tokenholders are not shareholders of the underlying and do not receive shareholder voting rights. Dividend value is reflected through total return mechanics. Ondo Global Markets adjusts the token to account for dividends net of withholding taxes and reinvests that value into additional shares, increasing the shares per token over time instead of paying cash dividends directly to tokenholders.",
@@ -47,8 +37,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

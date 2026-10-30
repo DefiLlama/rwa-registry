@@ -2,7 +2,7 @@
   "identity": {
     "slug": "trvrh",
     "symbol": "TRV",
-    "name": "The Travelers Companies, Inc. • Robinhood Token",
+    "name": "The Travelers Companies, Inc. - Robinhood Token",
     "legacyId": 2428,
     "canonicalMarketId": "TRVrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

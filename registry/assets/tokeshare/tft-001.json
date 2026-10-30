@@ -12,7 +12,7 @@
   "class": {
     "structure": "pe-venture",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "stocks-equities"
     ]
@@ -35,8 +35,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -62,6 +61,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://tokeshare.co/marketplace/other/french-tacos"
+      ],
+      "protocolIds": [
+        8438
       ]
     }
   ],

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "helerh",
     "symbol": "HELE",
-    "name": "Helen of Troy Ltd. • Robinhood Token",
+    "name": "Helen of Troy Ltd. - Robinhood Token",
     "legacyId": 1515,
     "canonicalMarketId": "HELErh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

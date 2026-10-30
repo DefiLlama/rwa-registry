@@ -2,7 +2,7 @@
   "identity": {
     "slug": "xoprh",
     "symbol": "XOP",
-    "name": "State Street SPDR S&P Oil & Gas Exploration & Production ETF • Robinhood Token",
+    "name": "State Street SPDR S&P Oil & Gas Exploration & Production ETF - Robinhood Token",
     "legacyId": 2659,
     "canonicalMarketId": "XOPrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

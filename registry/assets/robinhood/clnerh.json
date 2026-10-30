@@ -2,7 +2,7 @@
   "identity": {
     "slug": "clnerh",
     "symbol": "CLNE",
-    "name": "Clean Energy Fuels Corp. • Robinhood Token",
+    "name": "Clean Energy Fuels Corp. - Robinhood Token",
     "legacyId": 1113,
     "canonicalMarketId": "CLNErh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

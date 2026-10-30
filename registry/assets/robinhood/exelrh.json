@@ -2,7 +2,7 @@
   "identity": {
     "slug": "exelrh",
     "symbol": "EXEL",
-    "name": "Exelixis, Inc. • Robinhood Token",
+    "name": "Exelixis, Inc. - Robinhood Token",
     "legacyId": 1338,
     "canonicalMarketId": "EXELrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

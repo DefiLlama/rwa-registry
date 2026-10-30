@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ampxrh",
     "symbol": "AMPX",
-    "name": "Amprius Technologies, Inc. • Robinhood Token",
+    "name": "Amprius Technologies, Inc. - Robinhood Token",
     "legacyId": 861,
     "canonicalMarketId": "AMPXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

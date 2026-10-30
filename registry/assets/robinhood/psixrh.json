@@ -2,7 +2,7 @@
   "identity": {
     "slug": "psixrh",
     "symbol": "PSIX",
-    "name": "Power Solutions International, Inc. • Robinhood Token",
+    "name": "Power Solutions International, Inc. - Robinhood Token",
     "legacyId": 2078,
     "canonicalMarketId": "PSIXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

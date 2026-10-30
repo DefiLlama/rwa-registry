@@ -2,7 +2,7 @@
   "identity": {
     "slug": "pgyrh",
     "symbol": "PGY",
-    "name": "Pagaya Technologies Ltd. • Robinhood Token",
+    "name": "Pagaya Technologies Ltd. - Robinhood Token",
     "legacyId": 2028,
     "canonicalMarketId": "PGYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

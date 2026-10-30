@@ -2,7 +2,7 @@
   "identity": {
     "slug": "snoarh",
     "symbol": "SNOA",
-    "name": "Sonoma Pharmaceuticals, Inc. • Robinhood Token",
+    "name": "Sonoma Pharmaceuticals, Inc. - Robinhood Token",
     "legacyId": 2274,
     "canonicalMarketId": "SNOArh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

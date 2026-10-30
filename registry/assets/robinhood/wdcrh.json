@@ -2,7 +2,7 @@
   "identity": {
     "slug": "wdcrh",
     "symbol": "WDC",
-    "name": "Western Digital Corporation • Robinhood Token",
+    "name": "Western Digital Corporation - Robinhood Token",
     "legacyId": 2605,
     "canonicalMarketId": "WDCrh"
   },
@@ -35,8 +35,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -67,6 +66,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://robinhood.com/eu/en/about/"
+      ],
+      "protocolIds": [
+        3732
       ]
     },
     {

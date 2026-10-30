@@ -2,7 +2,7 @@
   "identity": {
     "slug": "xyzrh",
     "symbol": "XYZ",
-    "name": "Block, Inc. • Robinhood Token",
+    "name": "Block, Inc. - Robinhood Token",
     "legacyId": 2671,
     "canonicalMarketId": "XYZrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

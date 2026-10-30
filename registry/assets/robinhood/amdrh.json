@@ -2,7 +2,7 @@
   "identity": {
     "slug": "amdrh",
     "symbol": "AMD",
-    "name": "Advanced Micro Devices, Inc. • Robinhood Token",
+    "name": "Advanced Micro Devices, Inc. - Robinhood Token",
     "legacyId": 857,
     "canonicalMarketId": "AMDrh"
   },
@@ -27,9 +27,7 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "US0079031078",
-        "source": null,
-        "verified": false
+        "value": "US0079031078"
       }
     ]
   },
@@ -45,8 +43,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -77,6 +74,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://robinhood.com/eu/en/about/"
+      ],
+      "protocolIds": [
+        3732
       ]
     },
     {

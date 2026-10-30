@@ -2,7 +2,7 @@
   "identity": {
     "slug": "kvyorh",
     "symbol": "KVYO",
-    "name": "Klaviyo, Inc. • Robinhood Token",
+    "name": "Klaviyo, Inc. - Robinhood Token",
     "legacyId": 1702,
     "canonicalMarketId": "KVYOrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

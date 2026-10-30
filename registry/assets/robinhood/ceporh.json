@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ceporh",
     "symbol": "CEPO",
-    "name": "Cantor Equity Partners I, Inc. • Robinhood Token",
+    "name": "Cantor Equity Partners I, Inc. - Robinhood Token",
     "legacyId": 1078,
     "canonicalMarketId": "CEPOrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

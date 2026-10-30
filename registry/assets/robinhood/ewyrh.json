@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ewyrh",
     "symbol": "EWY",
-    "name": "iShares MSCI South Korea ETF • Robinhood Token",
+    "name": "iShares MSCI South Korea ETF - Robinhood Token",
     "legacyId": 1333,
     "canonicalMarketId": "EWYrh"
   },
@@ -27,9 +27,7 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "US4642867729",
-        "source": null,
-        "verified": false
+        "value": "US4642867729"
       }
     ]
   },
@@ -45,8 +43,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -77,6 +74,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://robinhood.com/eu/en/about/"
+      ],
+      "protocolIds": [
+        3732
       ]
     },
     {

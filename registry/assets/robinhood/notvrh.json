@@ -2,7 +2,7 @@
   "identity": {
     "slug": "notvrh",
     "symbol": "NOTV",
-    "name": "Inotiv, Inc. • Robinhood Token",
+    "name": "Inotiv, Inc. - Robinhood Token",
     "legacyId": 1907,
     "canonicalMarketId": "NOTVrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

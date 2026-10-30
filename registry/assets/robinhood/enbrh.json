@@ -2,7 +2,7 @@
   "identity": {
     "slug": "enbrh",
     "symbol": "ENB",
-    "name": "Enbridge Inc. • Robinhood Token",
+    "name": "Enbridge Inc. - Robinhood Token",
     "legacyId": 1289,
     "canonicalMarketId": "ENBrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "schdrh",
     "symbol": "SCHD",
-    "name": "Schwab U.S. Dividend Equity ETF • Robinhood Token",
+    "name": "Schwab U.S. Dividend Equity ETF - Robinhood Token",
     "legacyId": 2195,
     "canonicalMarketId": "SCHDrh"
   },
@@ -27,9 +27,7 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "US8085247976",
-        "source": null,
-        "verified": false
+        "value": "US8085247976"
       }
     ]
   },
@@ -45,8 +43,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -77,6 +74,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://robinhood.com/eu/en/about/"
+      ],
+      "protocolIds": [
+        3732
       ]
     },
     {

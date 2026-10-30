@@ -2,7 +2,7 @@
   "identity": {
     "slug": "kscprh",
     "symbol": "KSCP",
-    "name": "Knightscope, Inc. • Robinhood Token",
+    "name": "Knightscope, Inc. - Robinhood Token",
     "legacyId": 1696,
     "canonicalMarketId": "KSCPrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

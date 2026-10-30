@@ -2,7 +2,7 @@
   "identity": {
     "slug": "vpurh",
     "symbol": "VPU",
-    "name": "Vanguard Utilities ETF • Robinhood Token",
+    "name": "Vanguard Utilities ETF - Robinhood Token",
     "legacyId": 2571,
     "canonicalMarketId": "VPUrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

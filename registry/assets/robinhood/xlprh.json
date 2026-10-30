@@ -2,7 +2,7 @@
   "identity": {
     "slug": "xlprh",
     "symbol": "XLP",
-    "name": "State Street Consumer Staples Select Sector SPDR ETF • Robinhood Token",
+    "name": "State Street Consumer Staples Select Sector SPDR ETF - Robinhood Token",
     "legacyId": 2653,
     "canonicalMarketId": "XLPrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

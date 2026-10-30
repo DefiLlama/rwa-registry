@@ -2,7 +2,7 @@
   "identity": {
     "slug": "vearh",
     "symbol": "VEA",
-    "name": "Vanguard FTSE Developed Markets ETF • Robinhood Token",
+    "name": "Vanguard FTSE Developed Markets ETF - Robinhood Token",
     "legacyId": 2531,
     "canonicalMarketId": "VEArh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

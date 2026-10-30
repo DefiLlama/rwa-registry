@@ -2,7 +2,7 @@
   "identity": {
     "slug": "blivrh",
     "symbol": "BLIV",
-    "name": "BeLive Holdings • Robinhood Token",
+    "name": "BeLive Holdings - Robinhood Token",
     "legacyId": 1001,
     "canonicalMarketId": "BLIVrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

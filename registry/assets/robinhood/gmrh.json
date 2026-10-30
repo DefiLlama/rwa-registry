@@ -2,7 +2,7 @@
   "identity": {
     "slug": "gmrh",
     "symbol": "GM",
-    "name": "General Motors Co. • Robinhood Token",
+    "name": "General Motors Co. - Robinhood Token",
     "legacyId": 1468,
     "canonicalMarketId": "GMrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "tsllrh",
     "symbol": "TSLL",
-    "name": "Direxion Daily TSLA Bull 2X ETF • Robinhood Token",
+    "name": "Direxion Daily TSLA Bull 2X ETF - Robinhood Token",
     "legacyId": 2434,
     "canonicalMarketId": "TSLLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

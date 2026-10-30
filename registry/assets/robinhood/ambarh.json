@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ambarh",
     "symbol": "AMBA",
-    "name": "Ambarella, Inc. • Robinhood Token",
+    "name": "Ambarella, Inc. - Robinhood Token",
     "legacyId": 852,
     "canonicalMarketId": "AMBArh"
   },
@@ -27,9 +27,7 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "KYG037AX1015",
-        "source": null,
-        "verified": false
+        "value": "KYG037AX1015"
       }
     ]
   },
@@ -45,8 +43,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -77,6 +74,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://robinhood.com/eu/en/about/"
+      ],
+      "protocolIds": [
+        3732
       ]
     },
     {

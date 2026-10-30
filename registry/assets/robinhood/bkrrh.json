@@ -2,7 +2,7 @@
   "identity": {
     "slug": "bkrrh",
     "symbol": "BKR",
-    "name": "Baker Hughes Company • Robinhood Token",
+    "name": "Baker Hughes Company - Robinhood Token",
     "legacyId": 997,
     "canonicalMarketId": "BKRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

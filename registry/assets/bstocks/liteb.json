@@ -12,7 +12,7 @@
   "class": {
     "structure": "stock-backed",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "stocks-equities"
     ]
@@ -31,9 +31,7 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "AE000A4AVFV7",
-        "source": null,
-        "verified": false
+        "value": "AE000A4AVFV7"
       }
     ]
   },

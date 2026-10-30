@@ -28,7 +28,7 @@
     "coingeckoId": "nusd"
   },
   "about": {
-    "description": "sUSD is Synthetix’s onchain synthetic USD (a “synth”) minted against staked collateral in the Synthetix system. Instead of representing a claim on fiat reserves, it represents system debt and relies on overcollateralization, liquidations, and exchange mechanisms within Synthetix (notably on L2s) to support its peg. Key risks include collateral volatility, systemic debt/solvency dynamics, oracle and liquidation parameter risk, and smart-contract risk across deployments.",
+    "description": "sUSD is Synthetix's onchain synthetic USD (a \"synth\") minted against staked collateral in the Synthetix system. Instead of representing a claim on fiat reserves, it represents system debt and relies on overcollateralization, liquidations, and exchange mechanisms within Synthetix (notably on L2s) to support its peg. Key risks include collateral volatility, systemic debt/solvency dynamics, oracle and liquidation parameter risk, and smart-contract risk across deployments.",
     "logo": "https://icons.llamao.fi/icons/rwa/synthetix-usd.png?w=48&h=48",
     "links": {
       "website": [
@@ -39,8 +39,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

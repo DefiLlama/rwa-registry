@@ -2,7 +2,7 @@
   "identity": {
     "slug": "sabrrh",
     "symbol": "SABR",
-    "name": "Sabre Corp. • Robinhood Token",
+    "name": "Sabre Corp. - Robinhood Token",
     "legacyId": 2178,
     "canonicalMarketId": "SABRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

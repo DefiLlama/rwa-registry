@@ -2,7 +2,7 @@
   "identity": {
     "slug": "botzrh",
     "symbol": "BOTZ",
-    "name": "Global X Robotics & Artificial Intelligence ETF • Robinhood Token",
+    "name": "Global X Robotics & Artificial Intelligence ETF - Robinhood Token",
     "legacyId": 1021,
     "canonicalMarketId": "BOTZrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

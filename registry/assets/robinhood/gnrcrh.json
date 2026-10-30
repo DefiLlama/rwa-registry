@@ -2,7 +2,7 @@
   "identity": {
     "slug": "gnrcrh",
     "symbol": "GNRC",
-    "name": "Generac Holdings Inc. • Robinhood Token",
+    "name": "Generac Holdings Inc. - Robinhood Token",
     "legacyId": 1470,
     "canonicalMarketId": "GNRCrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

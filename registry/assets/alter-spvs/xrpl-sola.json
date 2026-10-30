@@ -35,8 +35,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -50,6 +49,13 @@
     {
       "organization": "alter-spv-investments",
       "kind": "issuer",
+      "sourceLinks": [
+        "https://solarisia.id/digital-asset-disclosure/"
+      ]
+    },
+    {
+      "organization": "xrpl-amm",
+      "kind": "oracle",
       "sourceLinks": [
         "https://solarisia.id/digital-asset-disclosure/"
       ]

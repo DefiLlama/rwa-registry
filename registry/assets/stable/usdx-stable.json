@@ -35,8 +35,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -68,6 +67,9 @@
       "sourceLinks": [
         "https://trystable.co/",
         "https://www.trystable.co/whitepaper"
+      ],
+      "protocolIds": [
+        7086
       ]
     },
     {

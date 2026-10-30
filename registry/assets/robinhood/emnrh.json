@@ -2,7 +2,7 @@
   "identity": {
     "slug": "emnrh",
     "symbol": "EMN",
-    "name": "Eastman Chemical Co. • Robinhood Token",
+    "name": "Eastman Chemical Co. - Robinhood Token",
     "legacyId": 1288,
     "canonicalMarketId": "EMNrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

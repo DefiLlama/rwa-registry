@@ -2,7 +2,7 @@
   "identity": {
     "slug": "fiatrh",
     "symbol": "FIAT",
-    "name": "Fiat Holdings ETF • Robinhood Token",
+    "name": "Fiat Holdings ETF - Robinhood Token",
     "legacyId": 1370,
     "canonicalMarketId": "FIATrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

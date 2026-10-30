@@ -2,7 +2,7 @@
   "identity": {
     "slug": "esprrh",
     "symbol": "ESPR",
-    "name": "Esperion Therapeutics, Inc. • Robinhood Token",
+    "name": "Esperion Therapeutics, Inc. - Robinhood Token",
     "legacyId": 1308,
     "canonicalMarketId": "ESPRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

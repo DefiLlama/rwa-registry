@@ -2,7 +2,7 @@
   "identity": {
     "slug": "eixrh",
     "symbol": "EIX",
-    "name": "Edison International • Robinhood Token",
+    "name": "Edison International - Robinhood Token",
     "legacyId": 1281,
     "canonicalMarketId": "EIXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

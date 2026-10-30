@@ -2,7 +2,7 @@
   "identity": {
     "slug": "lybrh",
     "symbol": "LYB",
-    "name": "LyondellBasell Industries N.V. • Robinhood Token",
+    "name": "LyondellBasell Industries N.V. - Robinhood Token",
     "legacyId": 1761,
     "canonicalMarketId": "LYBrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "spygrh",
     "symbol": "SPYG",
-    "name": "Invesco S&P 500 Growth ETF • Robinhood Token",
+    "name": "Invesco S&P 500 Growth ETF - Robinhood Token",
     "legacyId": 2317,
     "canonicalMarketId": "SPYGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

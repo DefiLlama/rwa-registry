@@ -2,7 +2,7 @@
   "identity": {
     "slug": "vuzirh",
     "symbol": "VUZI",
-    "name": "Vuzix Corp. • Robinhood Token",
+    "name": "Vuzix Corp. - Robinhood Token",
     "legacyId": 2808,
     "canonicalMarketId": "VUZIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

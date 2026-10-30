@@ -2,7 +2,7 @@
   "identity": {
     "slug": "aisprh",
     "symbol": "AISP",
-    "name": "Airship AI Holdings, Inc. • Robinhood Token",
+    "name": "Airship AI Holdings, Inc. - Robinhood Token",
     "legacyId": 829,
     "canonicalMarketId": "AISPrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

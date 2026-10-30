@@ -2,7 +2,7 @@
   "identity": {
     "slug": "iefarh",
     "symbol": "IEFA",
-    "name": "iShares Core MSCI EAFE ETF • Robinhood Token",
+    "name": "iShares Core MSCI EAFE ETF - Robinhood Token",
     "legacyId": 1577,
     "canonicalMarketId": "IEFArh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

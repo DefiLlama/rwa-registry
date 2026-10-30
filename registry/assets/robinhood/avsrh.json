@@ -2,7 +2,7 @@
   "identity": {
     "slug": "avsrh",
     "symbol": "AVS",
-    "name": "Avanos Medical, Inc. • Robinhood Token",
+    "name": "Avanos Medical, Inc. - Robinhood Token",
     "legacyId": 939,
     "canonicalMarketId": "AVSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

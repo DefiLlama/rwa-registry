@@ -2,7 +2,7 @@
   "identity": {
     "slug": "nlrrh",
     "symbol": "NLR",
-    "name": "VanEck Uranium and Nuclear ETF • Robinhood Token",
+    "name": "VanEck Uranium and Nuclear ETF - Robinhood Token",
     "legacyId": 1899,
     "canonicalMarketId": "NLRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

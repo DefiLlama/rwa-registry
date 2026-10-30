@@ -2,7 +2,7 @@
   "identity": {
     "slug": "kulrrh",
     "symbol": "KULR",
-    "name": "KULR Technology Group, Inc. • Robinhood Token",
+    "name": "KULR Technology Group, Inc. - Robinhood Token",
     "legacyId": 1700,
     "canonicalMarketId": "KULRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

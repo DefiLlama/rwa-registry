@@ -2,7 +2,7 @@
   "identity": {
     "slug": "yetirh",
     "symbol": "YETI",
-    "name": "YETI Holdings, Inc. • Robinhood Token",
+    "name": "YETI Holdings, Inc. - Robinhood Token",
     "legacyId": 2678,
     "canonicalMarketId": "YETIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

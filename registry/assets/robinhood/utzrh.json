@@ -2,7 +2,7 @@
   "identity": {
     "slug": "utzrh",
     "symbol": "UTZ",
-    "name": "Utz Brands, Inc. • Robinhood Token",
+    "name": "Utz Brands, Inc. - Robinhood Token",
     "legacyId": 2513,
     "canonicalMarketId": "UTZrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

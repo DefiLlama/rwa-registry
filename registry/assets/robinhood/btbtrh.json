@@ -2,7 +2,7 @@
   "identity": {
     "slug": "btbtrh",
     "symbol": "BTBT",
-    "name": "Bit Digital, Inc. • Robinhood Token",
+    "name": "Bit Digital, Inc. - Robinhood Token",
     "legacyId": 2783,
     "canonicalMarketId": "BTBTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

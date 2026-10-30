@@ -2,7 +2,7 @@
   "identity": {
     "slug": "gctkrh",
     "symbol": "GCTK",
-    "name": "Glucotrack, Inc. • Robinhood Token",
+    "name": "Glucotrack, Inc. - Robinhood Token",
     "legacyId": 1425,
     "canonicalMarketId": "GCTKrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

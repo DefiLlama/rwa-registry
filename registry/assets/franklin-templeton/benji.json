@@ -12,7 +12,7 @@
   "class": {
     "structure": "mmf",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "bond-mmf-funds"
     ]
@@ -34,14 +34,12 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "US35473R1041",
-        "source": null,
-        "verified": false
+        "value": "US35473R1041"
       }
     ]
   },
   "about": {
-    "description": "BENJI represents shares of Franklin Templeton’s Franklin OnChain U.S. Government Money Fund (FOBXX), with 1 share of FOBXX represented by 1 BENJI token. Franklin Templeton states BENJI accrues yield daily through newly minted BENJI tokens distributed to shareholders. Coverage includes the BENJI fund-token deployments plus the iBENJI fund-token contracts on Ethereum and BNB Smart Chain, while gBENJI and sgBENJI remain tracked separately in their own rows. Benji is available for retail and institutional investors on Stellar, and for institutional investors across Polygon, Arbitrum, Avalanche, Aptos, Ethereum, Base, Solana, and BNB Smart Chain. Franklin Templeton also announced Benji platform expansion to Canton, but no public contract address was listed on the official contracts page.",
+    "description": "BENJI represents shares of Franklin Templeton's Franklin OnChain U.S. Government Money Fund (FOBXX), with 1 share of FOBXX represented by 1 BENJI token. Franklin Templeton states BENJI accrues yield daily through newly minted BENJI tokens distributed to shareholders. Coverage includes the BENJI fund-token deployments plus the iBENJI fund-token contracts on Ethereum and BNB Smart Chain, while gBENJI and sgBENJI remain tracked separately in their own rows. Benji is available for retail and institutional investors on Stellar, and for institutional investors across Polygon, Arbitrum, Avalanche, Aptos, Ethereum, Base, Solana, and BNB Smart Chain. Franklin Templeton also announced Benji platform expansion to Canton, but no public contract address was listed on the official contracts page.",
     "logo": "https://icons.llamao.fi/icons/rwa/benji.png?w=48&h=48",
     "links": {
       "website": [
@@ -52,8 +50,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -130,6 +127,10 @@
       "chain": "solana",
       "address": "5Tu84fKBpe9vfXeotjvfvWdWbAjy3hqsExvuHgFqFxA1",
       "deployedAt": "2025-02-11"
+    },
+    {
+      "chain": "canton",
+      "address": null
     }
   ],
   "roles": [

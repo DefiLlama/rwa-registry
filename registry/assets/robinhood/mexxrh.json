@@ -2,7 +2,7 @@
   "identity": {
     "slug": "mexxrh",
     "symbol": "MEXX",
-    "name": "Direxion Daily MSCI Mexico Bull 3X ETF • Robinhood Token",
+    "name": "Direxion Daily MSCI Mexico Bull 3X ETF - Robinhood Token",
     "legacyId": 1794,
     "canonicalMarketId": "MEXXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

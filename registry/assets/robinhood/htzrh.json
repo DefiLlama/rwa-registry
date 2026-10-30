@@ -2,7 +2,7 @@
   "identity": {
     "slug": "htzrh",
     "symbol": "HTZ",
-    "name": "Hertz Global Holdings, Inc. • Robinhood Token",
+    "name": "Hertz Global Holdings, Inc. - Robinhood Token",
     "legacyId": 1548,
     "canonicalMarketId": "HTZrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

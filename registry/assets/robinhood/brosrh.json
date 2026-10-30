@@ -2,7 +2,7 @@
   "identity": {
     "slug": "brosrh",
     "symbol": "BROS",
-    "name": "Dutch Bros Inc. • Robinhood Token",
+    "name": "Dutch Bros Inc. - Robinhood Token",
     "legacyId": 1026,
     "canonicalMarketId": "BROSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

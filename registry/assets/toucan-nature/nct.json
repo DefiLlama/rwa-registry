@@ -12,7 +12,7 @@
   "class": {
     "structure": "carbon-credit",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "carbon-environment"
     ]
@@ -35,7 +35,7 @@
     ]
   },
   "about": {
-    "description": "NCT is Toucan’s pooled reference token focused on nature-based carbon credits. It is minted 1:1 when eligible project-specific carbon tokens are deposited into the Nature Carbon Pool and can be redeemed for underlying tokens under the pool’s rules and eligibility criteria.",
+    "description": "NCT is Toucan's pooled reference token focused on nature-based carbon credits. It is minted 1:1 when eligible project-specific carbon tokens are deposited into the Nature Carbon Pool and can be redeemed for underlying tokens under the pool's rules and eligibility criteria.",
     "logo": "https://icons.llamao.fi/icons/rwa/toucan-nature-carbon-tonne.png?w=48&h=48",
     "links": {
       "website": [
@@ -46,8 +46,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "aeerh",
     "symbol": "AEE",
-    "name": "Ameren Corp. • Robinhood Token",
+    "name": "Ameren Corp. - Robinhood Token",
     "legacyId": 807,
     "canonicalMarketId": "AEErh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

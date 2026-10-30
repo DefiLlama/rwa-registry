@@ -2,7 +2,7 @@
   "identity": {
     "slug": "crhrh",
     "symbol": "CRH",
-    "name": "CRH plc • Robinhood Token",
+    "name": "CRH plc - Robinhood Token",
     "legacyId": 1161,
     "canonicalMarketId": "CRHrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

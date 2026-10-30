@@ -2,7 +2,7 @@
   "identity": {
     "slug": "phunrh",
     "symbol": "PHUN",
-    "name": "Phunware, Inc. • Robinhood Token",
+    "name": "Phunware, Inc. - Robinhood Token",
     "legacyId": 2034,
     "canonicalMarketId": "PHUNrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "bkktrh",
     "symbol": "BKKT",
-    "name": "Bakkt, Inc. • Robinhood Token",
+    "name": "Bakkt, Inc. - Robinhood Token",
     "legacyId": 993,
     "canonicalMarketId": "BKKTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

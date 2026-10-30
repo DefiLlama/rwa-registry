@@ -2,7 +2,7 @@
   "identity": {
     "slug": "esrh",
     "symbol": "ES",
-    "name": "Eversource Energy • Robinhood Token",
+    "name": "Eversource Energy - Robinhood Token",
     "legacyId": 1310,
     "canonicalMarketId": "ESrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

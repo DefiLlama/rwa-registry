@@ -2,7 +2,7 @@
   "identity": {
     "slug": "srerh",
     "symbol": "SRE",
-    "name": "Sempra • Robinhood Token",
+    "name": "Sempra - Robinhood Token",
     "legacyId": 2325,
     "canonicalMarketId": "SRErh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

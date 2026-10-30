@@ -2,7 +2,7 @@
   "identity": {
     "slug": "cwhrh",
     "symbol": "CWH",
-    "name": "Camping World Holdings, Inc. • Robinhood Token",
+    "name": "Camping World Holdings, Inc. - Robinhood Token",
     "legacyId": 1197,
     "canonicalMarketId": "CWHrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

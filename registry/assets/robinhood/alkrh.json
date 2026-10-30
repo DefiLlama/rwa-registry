@@ -2,7 +2,7 @@
   "identity": {
     "slug": "alkrh",
     "symbol": "ALK",
-    "name": "Alaska Air Group, Inc. • Robinhood Token",
+    "name": "Alaska Air Group, Inc. - Robinhood Token",
     "legacyId": 843,
     "canonicalMarketId": "ALKrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

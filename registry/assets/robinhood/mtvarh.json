@@ -2,7 +2,7 @@
   "identity": {
     "slug": "mtvarh",
     "symbol": "MTVA",
-    "name": "MetaVia Inc. • Robinhood Token",
+    "name": "MetaVia Inc. - Robinhood Token",
     "legacyId": 1853,
     "canonicalMarketId": "MTVArh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

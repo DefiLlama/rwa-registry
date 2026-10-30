@@ -2,7 +2,7 @@
   "identity": {
     "slug": "lrnrh",
     "symbol": "LRN",
-    "name": "Stride, Inc. • Robinhood Token",
+    "name": "Stride, Inc. - Robinhood Token",
     "legacyId": 1747,
     "canonicalMarketId": "LRNrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

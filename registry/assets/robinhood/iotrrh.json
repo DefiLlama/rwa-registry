@@ -2,7 +2,7 @@
   "identity": {
     "slug": "iotrrh",
     "symbol": "IOTR",
-    "name": "iOThree Ltd. • Robinhood Token",
+    "name": "iOThree Ltd. - Robinhood Token",
     "legacyId": 1610,
     "canonicalMarketId": "IOTRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

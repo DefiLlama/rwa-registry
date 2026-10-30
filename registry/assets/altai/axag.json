@@ -24,7 +24,7 @@
     "attestationFrequency": "Not publicly disclosed"
   },
   "about": {
-    "description": "AXAG is Altai’s tokenized silver exposure, built for users who want silver positioning with onchain transferability and an exchange workflow tailored to commodity markets. It is designed as a complement to AXAU, enabling rotation and portfolio construction across precious metals within the Altai ecosystem.",
+    "description": "AXAG is Altai's tokenized silver exposure, built for users who want silver positioning with onchain transferability and an exchange workflow tailored to commodity markets. It is designed as a complement to AXAU, enabling rotation and portfolio construction across precious metals within the Altai ecosystem.",
     "logo": "https://icons.llamao.fi/icons/rwa/axag.png?w=48&h=48",
     "links": {
       "website": [
@@ -35,8 +35,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

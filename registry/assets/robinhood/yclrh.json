@@ -2,7 +2,7 @@
   "identity": {
     "slug": "yclrh",
     "symbol": "YCL",
-    "name": "ProShares Ultra Yen • Robinhood Token",
+    "name": "ProShares Ultra Yen - Robinhood Token",
     "legacyId": 2676,
     "canonicalMarketId": "YCLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

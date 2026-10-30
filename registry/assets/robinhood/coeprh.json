@@ -2,7 +2,7 @@
   "identity": {
     "slug": "coeprh",
     "symbol": "COEP",
-    "name": "Coeptis Therapeutics Holdings, Inc. • Robinhood Token",
+    "name": "Coeptis Therapeutics Holdings, Inc. - Robinhood Token",
     "legacyId": 1135,
     "canonicalMarketId": "COEPrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

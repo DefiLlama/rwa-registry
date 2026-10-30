@@ -2,7 +2,7 @@
   "identity": {
     "slug": "pmaxrh",
     "symbol": "PMAX",
-    "name": "Powell Max Ltd. • Robinhood Token",
+    "name": "Powell Max Ltd. - Robinhood Token",
     "legacyId": 2050,
     "canonicalMarketId": "PMAXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

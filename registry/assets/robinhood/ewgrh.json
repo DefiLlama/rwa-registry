@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ewgrh",
     "symbol": "EWG",
-    "name": "iShares MSCI Germany ETF • Robinhood Token",
+    "name": "iShares MSCI Germany ETF - Robinhood Token",
     "legacyId": 1327,
     "canonicalMarketId": "EWGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

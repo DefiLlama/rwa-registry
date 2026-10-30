@@ -2,7 +2,7 @@
   "identity": {
     "slug": "esgvrh",
     "symbol": "ESGV",
-    "name": "Vanguard ESG U.S. Stock ETF • Robinhood Token",
+    "name": "Vanguard ESG U.S. Stock ETF - Robinhood Token",
     "legacyId": 1306,
     "canonicalMarketId": "ESGVrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

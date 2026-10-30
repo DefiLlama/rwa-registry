@@ -2,7 +2,7 @@
   "identity": {
     "slug": "chdrh",
     "symbol": "CHD",
-    "name": "Church & Dwight Co., Inc. • Robinhood Token",
+    "name": "Church & Dwight Co., Inc. - Robinhood Token",
     "legacyId": 1092,
     "canonicalMarketId": "CHDrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

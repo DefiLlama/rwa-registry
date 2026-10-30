@@ -12,7 +12,7 @@
   "class": {
     "structure": "mmf",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "bond-mmf-funds"
     ]
@@ -31,9 +31,7 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "FR001400ODM9",
-        "source": null,
-        "verified": false
+        "value": "FR001400ODM9"
       }
     ]
   },
@@ -49,8 +47,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

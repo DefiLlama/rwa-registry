@@ -2,7 +2,7 @@
   "identity": {
     "slug": "gsrh",
     "symbol": "GS",
-    "name": "The Goldman Sachs Group, Inc. • Robinhood Token",
+    "name": "The Goldman Sachs Group, Inc. - Robinhood Token",
     "legacyId": 1497,
     "canonicalMarketId": "GSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

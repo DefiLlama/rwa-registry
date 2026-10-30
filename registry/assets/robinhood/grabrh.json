@@ -2,7 +2,7 @@
   "identity": {
     "slug": "grabrh",
     "symbol": "GRAB",
-    "name": "Grab Holdings Ltd. • Robinhood Token",
+    "name": "Grab Holdings Ltd. - Robinhood Token",
     "legacyId": 1484,
     "canonicalMarketId": "GRABrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

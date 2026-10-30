@@ -26,7 +26,7 @@
     "yieldBearing": true
   },
   "about": {
-    "description": "HLSCOPE is the tokenized feeder share class providing access to Hamilton Lane’s Senior Credit Opportunities Fund (SCOPE), an evergreen private credit strategy focused on senior secured loans to established borrowers in North America and Europe. The fund is positioned as a short‑duration, income‑oriented portfolio designed to deliver steady monthly yield while prioritizing capital preservation typical of senior‑secured lending. Through Securitize, HLSCOPE is issued as digital fund shares onchain (with Polygon as the primary issuance rail and additional networks supported). Hamilton Lane has highlighted a fully digital subscription experience and on‑demand redemptions for the tokenized share class, bringing private credit mechanics closer to “cash‑management‑like” usability without changing the underlying credit risk.",
+    "description": "HLSCOPE is the tokenized feeder share class providing access to Hamilton Lane's Senior Credit Opportunities Fund (SCOPE), an evergreen private credit strategy focused on senior secured loans to established borrowers in North America and Europe. The fund is positioned as a short-duration, income-oriented portfolio designed to deliver steady monthly yield while prioritizing capital preservation typical of senior-secured lending. Through Securitize, HLSCOPE is issued as digital fund shares onchain (with Polygon as the primary issuance rail and additional networks supported). Hamilton Lane has highlighted a fully digital subscription experience and on-demand redemptions for the tokenized share class, bringing private credit mechanics closer to \"cash-management-like\" usability without changing the underlying credit risk.",
     "logo": "https://icons.llamao.fi/icons/rwa/hamilton-lane-senior-credit-opportunities-securitize-fund.png?w=48&h=48",
     "links": {
       "website": [
@@ -37,8 +37,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

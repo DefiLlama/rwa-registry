@@ -2,7 +2,7 @@
   "identity": {
     "slug": "dksrh",
     "symbol": "DKS",
-    "name": "Dick's Sporting Goods, Inc. • Robinhood Token",
+    "name": "Dick's Sporting Goods, Inc. - Robinhood Token",
     "legacyId": 1237,
     "canonicalMarketId": "DKSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

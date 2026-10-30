@@ -2,7 +2,7 @@
   "identity": {
     "slug": "fsmrh",
     "symbol": "FSM",
-    "name": "Fortuna Mining Corp. • Robinhood Token",
+    "name": "Fortuna Mining Corp. - Robinhood Token",
     "legacyId": 1408,
     "canonicalMarketId": "FSMrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

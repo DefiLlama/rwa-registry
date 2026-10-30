@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ibbrh",
     "symbol": "IBB",
-    "name": "iShares Biotechnology ETF • Robinhood Token",
+    "name": "iShares Biotechnology ETF - Robinhood Token",
     "legacyId": 1564,
     "canonicalMarketId": "IBBrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

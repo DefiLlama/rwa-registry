@@ -2,7 +2,7 @@
   "identity": {
     "slug": "agqrh",
     "symbol": "AGQ",
-    "name": "ProShares Ultra Silver • Robinhood Token",
+    "name": "ProShares Ultra Silver - Robinhood Token",
     "legacyId": 822,
     "canonicalMarketId": "AGQrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "yourh",
     "symbol": "YOU",
-    "name": "Clear Secure, Inc. • Robinhood Token",
+    "name": "Clear Secure, Inc. - Robinhood Token",
     "legacyId": 2682,
     "canonicalMarketId": "YOUrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

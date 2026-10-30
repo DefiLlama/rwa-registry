@@ -2,7 +2,7 @@
   "identity": {
     "slug": "mblyrh",
     "symbol": "MBLY",
-    "name": "Mobileye Global Inc. • Robinhood Token",
+    "name": "Mobileye Global Inc. - Robinhood Token",
     "legacyId": 1777,
     "canonicalMarketId": "MBLYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

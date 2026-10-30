@@ -2,7 +2,7 @@
   "identity": {
     "slug": "jpierh",
     "symbol": "JPIE",
-    "name": "JPMorgan Equity Premium Income ETF • Robinhood Token",
+    "name": "JPMorgan Equity Premium Income ETF - Robinhood Token",
     "legacyId": 1660,
     "canonicalMarketId": "JPIErh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

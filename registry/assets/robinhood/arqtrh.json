@@ -2,7 +2,7 @@
   "identity": {
     "slug": "arqtrh",
     "symbol": "ARQT",
-    "name": "Arcutis Biotherapeutics, Inc. • Robinhood Token",
+    "name": "Arcutis Biotherapeutics, Inc. - Robinhood Token",
     "legacyId": 910,
     "canonicalMarketId": "ARQTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

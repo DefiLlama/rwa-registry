@@ -2,7 +2,7 @@
   "identity": {
     "slug": "pplrh",
     "symbol": "PPL",
-    "name": "PPL Corp. • Robinhood Token",
+    "name": "PPL Corp. - Robinhood Token",
     "legacyId": 2064,
     "canonicalMarketId": "PPLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

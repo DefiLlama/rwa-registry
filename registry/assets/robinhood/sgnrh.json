@@ -2,7 +2,7 @@
   "identity": {
     "slug": "sgnrh",
     "symbol": "SGN",
-    "name": "BlockchAIn Inc. • Robinhood Token",
+    "name": "BlockchAIn Inc. - Robinhood Token",
     "legacyId": 2223,
     "canonicalMarketId": "SGNrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

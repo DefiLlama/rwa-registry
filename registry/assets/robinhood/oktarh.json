@@ -2,7 +2,7 @@
   "identity": {
     "slug": "oktarh",
     "symbol": "OKTA",
-    "name": "Okta, Inc. • Robinhood Token",
+    "name": "Okta, Inc. - Robinhood Token",
     "legacyId": 1959,
     "canonicalMarketId": "OKTArh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

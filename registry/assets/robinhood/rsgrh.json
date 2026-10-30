@@ -2,7 +2,7 @@
   "identity": {
     "slug": "rsgrh",
     "symbol": "RSG",
-    "name": "Republic Services, Inc. • Robinhood Token",
+    "name": "Republic Services, Inc. - Robinhood Token",
     "legacyId": 2162,
     "canonicalMarketId": "RSGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

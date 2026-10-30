@@ -2,7 +2,7 @@
   "identity": {
     "slug": "berzrh",
     "symbol": "BERZ",
-    "name": "MicroSectors Solactive FANG & Innovation -3X Inverse Leveraged ETN • Robinhood Token",
+    "name": "MicroSectors Solactive FANG & Innovation -3X Inverse Leveraged ETN - Robinhood Token",
     "legacyId": 969,
     "canonicalMarketId": "BERZrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

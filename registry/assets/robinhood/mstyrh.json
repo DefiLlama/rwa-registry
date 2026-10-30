@@ -2,7 +2,7 @@
   "identity": {
     "slug": "mstyrh",
     "symbol": "MSTY",
-    "name": "Morgan Stanley Dividend ETF • Robinhood Token",
+    "name": "Morgan Stanley Dividend ETF - Robinhood Token",
     "legacyId": 1843,
     "canonicalMarketId": "MSTYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

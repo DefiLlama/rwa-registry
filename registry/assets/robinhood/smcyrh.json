@@ -2,7 +2,7 @@
   "identity": {
     "slug": "smcyrh",
     "symbol": "SMCY",
-    "name": "Small-Cap Inverse ETF • Robinhood Token",
+    "name": "Small-Cap Inverse ETF - Robinhood Token",
     "legacyId": 2256,
     "canonicalMarketId": "SMCYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

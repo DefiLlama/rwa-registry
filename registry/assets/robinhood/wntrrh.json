@@ -2,7 +2,7 @@
   "identity": {
     "slug": "wntrrh",
     "symbol": "WNTR",
-    "name": "Invesco Dividend Achievers ETF • Robinhood Token",
+    "name": "Invesco Dividend Achievers ETF - Robinhood Token",
     "legacyId": 2625,
     "canonicalMarketId": "WNTRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

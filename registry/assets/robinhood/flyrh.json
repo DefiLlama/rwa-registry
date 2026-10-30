@@ -2,7 +2,7 @@
   "identity": {
     "slug": "flyrh",
     "symbol": "FLY",
-    "name": "Firefly Aerospace Inc. • Robinhood Token",
+    "name": "Firefly Aerospace Inc. - Robinhood Token",
     "legacyId": 8772,
     "canonicalMarketId": "FLYrh"
   },
@@ -27,9 +27,7 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "US31816X1063",
-        "source": null,
-        "verified": false
+        "value": "US31816X1063"
       }
     ]
   },
@@ -45,8 +43,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -62,6 +59,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://robinhood.com/eu/en/about/"
+      ],
+      "protocolIds": [
+        3732
       ]
     },
     {

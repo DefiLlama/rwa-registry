@@ -2,7 +2,7 @@
   "identity": {
     "slug": "qbtxrh",
     "symbol": "QBTX",
-    "name": "Invesco Bitcoin Mini Trust • Robinhood Token",
+    "name": "Invesco Bitcoin Mini Trust - Robinhood Token",
     "legacyId": 2096,
     "canonicalMarketId": "QBTXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

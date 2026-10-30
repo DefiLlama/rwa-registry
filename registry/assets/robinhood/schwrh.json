@@ -2,7 +2,7 @@
   "identity": {
     "slug": "schwrh",
     "symbol": "SCHW",
-    "name": "The Charles Schwab Corp. • Robinhood Token",
+    "name": "The Charles Schwab Corp. - Robinhood Token",
     "legacyId": 2203,
     "canonicalMarketId": "SCHWrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

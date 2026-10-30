@@ -2,7 +2,7 @@
   "identity": {
     "slug": "rootrh",
     "symbol": "ROOT",
-    "name": "Root, Inc. • Robinhood Token",
+    "name": "Root, Inc. - Robinhood Token",
     "legacyId": 2157,
     "canonicalMarketId": "ROOTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

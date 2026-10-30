@@ -30,7 +30,7 @@
     "coingeckoId": "figure-heloc"
   },
   "about": {
-    "description": "Figure HELOC is a home-equity line of credit product offered through Figure’s lending stack, designed to originate consumer credit secured by residential property. It represents a real-economy credit rail that can be funded, warehoused, or structured into longer-term financing and securitization workflows, anchoring yield to borrower repayment and collateral performance rather than crypto leverage. https://explorer.provenance.io/nft/scope1qrm5d0wjzamyywvjuws6774ljmrqu8kh9x",
+    "description": "Figure HELOC is a home-equity line of credit product offered through Figure's lending stack, designed to originate consumer credit secured by residential property. It represents a real-economy credit rail that can be funded, warehoused, or structured into longer-term financing and securitization workflows, anchoring yield to borrower repayment and collateral performance rather than crypto leverage. https://explorer.provenance.io/nft/scope1qrm5d0wjzamyywvjuws6774ljmrqu8kh9x",
     "logo": "https://icons.llamao.fi/icons/rwa/heloc.png?w=48&h=48",
     "links": {
       "website": [
@@ -40,8 +40,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

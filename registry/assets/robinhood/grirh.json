@@ -2,7 +2,7 @@
   "identity": {
     "slug": "grirh",
     "symbol": "GRI",
-    "name": "GRI Bio, Inc. • Robinhood Token",
+    "name": "GRI Bio, Inc. - Robinhood Token",
     "legacyId": 1487,
     "canonicalMarketId": "GRIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

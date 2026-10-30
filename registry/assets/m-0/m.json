@@ -12,7 +12,7 @@
   "class": {
     "structure": "usd-stable",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "fiat-stablecoins"
     ]
@@ -29,7 +29,7 @@
     "coingeckoId": "wrappedm-by-m0"
   },
   "about": {
-    "description": "M is the base stablecoin of the M^0 network, a ‘stablecoin infrastructure’ model where authorized minters issue M against short-dated Treasury/cash-equivalent reserves held with custodians. M can be held and transferred permissionlessly on-chain, while issuance/redemption is conducted by approved institutions - enabling multiple distribution brands to build on the same reserve-backed base.",
+    "description": "M is the base stablecoin of the M^0 network, a 'stablecoin infrastructure' model where authorized minters issue M against short-dated Treasury/cash-equivalent reserves held with custodians. M can be held and transferred permissionlessly on-chain, while issuance/redemption is conducted by approved institutions - enabling multiple distribution brands to build on the same reserve-backed base.",
     "logo": "https://icons.llamao.fi/icons/rwa/m.png?w=48&h=48",
     "links": {
       "website": [
@@ -40,8 +40,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

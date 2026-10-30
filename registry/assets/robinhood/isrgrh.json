@@ -2,7 +2,7 @@
   "identity": {
     "slug": "isrgrh",
     "symbol": "ISRG",
-    "name": "Intuitive Surgical, Inc. • Robinhood Token",
+    "name": "Intuitive Surgical, Inc. - Robinhood Token",
     "legacyId": 1621,
     "canonicalMarketId": "ISRGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

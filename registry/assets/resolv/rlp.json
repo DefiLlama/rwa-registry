@@ -12,7 +12,7 @@
   "class": {
     "structure": "crypto-hedge-fund",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "crypto-funds"
     ]
@@ -28,7 +28,7 @@
     "coingeckoId": "resolv-rlp"
   },
   "about": {
-    "description": "RLP is Resolv’s liquidity provider token for the collateral pool that backs USR. RLP holders supply the overcollateralization buffer and take first-loss risk ahead of USR holders, earning returns from protocol fees and strategy performance in exchange. The token is a way to obtain exposure to the protocol’s collateral engine and risk premium while supporting USR’s stability through a dedicated, transparently reported collateral pool.",
+    "description": "RLP is Resolv's liquidity provider token for the collateral pool that backs USR. RLP holders supply the overcollateralization buffer and take first-loss risk ahead of USR holders, earning returns from protocol fees and strategy performance in exchange. The token is a way to obtain exposure to the protocol's collateral engine and risk premium while supporting USR's stability through a dedicated, transparently reported collateral pool.",
     "logo": "https://icons.llamao.fi/icons/rwa/resolv-liquidity-provider-token.png?w=48&h=48",
     "links": {
       "website": [
@@ -39,8 +39,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

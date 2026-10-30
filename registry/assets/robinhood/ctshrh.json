@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ctshrh",
     "symbol": "CTSH",
-    "name": "Cognizant Technology Solutions Corp. • Robinhood Token",
+    "name": "Cognizant Technology Solutions Corp. - Robinhood Token",
     "legacyId": 1188,
     "canonicalMarketId": "CTSHrh"
   },
@@ -27,9 +27,7 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "US1924461023",
-        "source": null,
-        "verified": false
+        "value": "US1924461023"
       }
     ]
   },
@@ -45,8 +43,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -77,6 +74,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://robinhood.com/eu/en/about/"
+      ],
+      "protocolIds": [
+        3732
       ]
     },
     {

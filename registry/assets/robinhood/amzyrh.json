@@ -2,7 +2,7 @@
   "identity": {
     "slug": "amzyrh",
     "symbol": "AMZY",
-    "name": "Amazon Leveraged ETF • Robinhood Token",
+    "name": "Amazon Leveraged ETF - Robinhood Token",
     "legacyId": 870,
     "canonicalMarketId": "AMZYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

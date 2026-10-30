@@ -28,7 +28,7 @@
     "coingeckoId": "cap-usd"
   },
   "about": {
-    "description": "Cap USD (cUSD) is Cap’s fully collateralized on-chain dollar stablecoin. It is minted and redeemed against a transparent reserve of ‘blue‑chip’ dollar assets (stablecoins and tokenized cash equivalents) and can be staked into stcUSD for yield. The protocol uses an operator model and on-chain accounting to support principal protection and verifiable recourse.",
+    "description": "Cap USD (cUSD) is Cap's fully collateralized on-chain dollar stablecoin. It is minted and redeemed against a transparent reserve of 'blue-chip' dollar assets (stablecoins and tokenized cash equivalents) and can be staked into stcUSD for yield. The protocol uses an operator model and on-chain accounting to support principal protection and verifiable recourse.",
     "logo": "https://icons.llamao.fi/icons/rwa/cap-cusd.png?w=48&h=48",
     "links": {
       "website": [
@@ -39,10 +39,23 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
-  "deployments": [],
+  "deployments": [
+    {
+      "chain": "celo",
+      "address": null,
+      "primary": true
+    },
+    {
+      "chain": "near",
+      "address": null
+    },
+    {
+      "chain": "axelar",
+      "address": "cusd-wei"
+    }
+  ],
   "roles": [
     {
       "organization": "cap-protocol",
@@ -50,6 +63,9 @@
       "sourceLinks": [
         "https://cap.app/",
         "https://docs.cap.app/"
+      ],
+      "protocolIds": [
+        6579
       ]
     }
   ]

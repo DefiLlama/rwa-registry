@@ -2,7 +2,7 @@
   "identity": {
     "slug": "mainrh",
     "symbol": "MAIN",
-    "name": "Main Street Capital Corp. • Robinhood Token",
+    "name": "Main Street Capital Corp. - Robinhood Token",
     "legacyId": 1768,
     "canonicalMarketId": "MAINrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

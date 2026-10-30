@@ -2,7 +2,7 @@
   "identity": {
     "slug": "tmdxrh",
     "symbol": "TMDX",
-    "name": "TransMedics Group, Inc. • Robinhood Token",
+    "name": "TransMedics Group, Inc. - Robinhood Token",
     "legacyId": 2403,
     "canonicalMarketId": "TMDXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

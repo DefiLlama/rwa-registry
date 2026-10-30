@@ -2,7 +2,7 @@
   "identity": {
     "slug": "udnrh",
     "symbol": "UDN",
-    "name": "Invesco DB US Dollar Index Bearish Fund • Robinhood Token",
+    "name": "Invesco DB US Dollar Index Bearish Fund - Robinhood Token",
     "legacyId": 2474,
     "canonicalMarketId": "UDNrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

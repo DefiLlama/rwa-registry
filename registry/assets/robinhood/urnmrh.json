@@ -2,7 +2,7 @@
   "identity": {
     "slug": "urnmrh",
     "symbol": "URNM",
-    "name": "Global X Uranium ETF • Robinhood Token",
+    "name": "Global X Uranium ETF - Robinhood Token",
     "legacyId": 2498,
     "canonicalMarketId": "URNMrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

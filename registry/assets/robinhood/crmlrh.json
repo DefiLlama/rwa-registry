@@ -2,7 +2,7 @@
   "identity": {
     "slug": "crmlrh",
     "symbol": "CRML",
-    "name": "Critical Metals Corp. • Robinhood Token",
+    "name": "Critical Metals Corp. - Robinhood Token",
     "legacyId": 1166,
     "canonicalMarketId": "CRMLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

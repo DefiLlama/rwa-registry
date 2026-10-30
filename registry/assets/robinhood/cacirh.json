@@ -2,7 +2,7 @@
   "identity": {
     "slug": "cacirh",
     "symbol": "CACI",
-    "name": "CACI International Inc. • Robinhood Token",
+    "name": "CACI International Inc. - Robinhood Token",
     "legacyId": 1051,
     "canonicalMarketId": "CACIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

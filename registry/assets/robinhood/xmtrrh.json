@@ -2,7 +2,7 @@
   "identity": {
     "slug": "xmtrrh",
     "symbol": "XMTR",
-    "name": "Xometry, Inc. • Robinhood Token",
+    "name": "Xometry, Inc. - Robinhood Token",
     "legacyId": 2657,
     "canonicalMarketId": "XMTRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

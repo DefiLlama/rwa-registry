@@ -2,7 +2,7 @@
   "identity": {
     "slug": "gpixrh",
     "symbol": "GPIX",
-    "name": "Global X Guru Insider ETF • Robinhood Token",
+    "name": "Global X Guru Insider ETF - Robinhood Token",
     "legacyId": 1481,
     "canonicalMarketId": "GPIXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "cienrh",
     "symbol": "CIEN",
-    "name": "Ciena Corporation • Robinhood Token",
+    "name": "Ciena Corporation - Robinhood Token",
     "legacyId": 8771,
     "canonicalMarketId": "CIENrh"
   },
@@ -35,8 +35,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -52,6 +51,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://robinhood.com/eu/en/about/"
+      ],
+      "protocolIds": [
+        3732
       ]
     },
     {

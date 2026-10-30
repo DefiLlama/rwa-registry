@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ntrsrh",
     "symbol": "NTRS",
-    "name": "Northern Trust Corp. • Robinhood Token",
+    "name": "Northern Trust Corp. - Robinhood Token",
     "legacyId": 1919,
     "canonicalMarketId": "NTRSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

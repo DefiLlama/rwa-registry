@@ -2,7 +2,7 @@
   "identity": {
     "slug": "eqxrh",
     "symbol": "EQX",
-    "name": "Equinox Gold Corp. • Robinhood Token",
+    "name": "Equinox Gold Corp. - Robinhood Token",
     "legacyId": 1302,
     "canonicalMarketId": "EQXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

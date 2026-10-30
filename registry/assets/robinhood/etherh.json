@@ -2,7 +2,7 @@
   "identity": {
     "slug": "etherh",
     "symbol": "ETHE",
-    "name": "Grayscale Ethereum Staking ETF • Robinhood Token",
+    "name": "Grayscale Ethereum Staking ETF - Robinhood Token",
     "legacyId": 1312,
     "canonicalMarketId": "ETHErh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

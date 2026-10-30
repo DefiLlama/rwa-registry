@@ -2,7 +2,7 @@
   "identity": {
     "slug": "dxdrh",
     "symbol": "DXD",
-    "name": "ProShares UltraShort Dow Jones Industrial Average • Robinhood Token",
+    "name": "ProShares UltraShort Dow Jones Industrial Average - Robinhood Token",
     "legacyId": 1263,
     "canonicalMarketId": "DXDrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

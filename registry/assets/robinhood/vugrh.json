@@ -2,7 +2,7 @@
   "identity": {
     "slug": "vugrh",
     "symbol": "VUG",
-    "name": "Vanguard Growth ETF • Robinhood Token",
+    "name": "Vanguard Growth ETF - Robinhood Token",
     "legacyId": 2589,
     "canonicalMarketId": "VUGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

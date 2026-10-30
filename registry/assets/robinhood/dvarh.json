@@ -2,7 +2,7 @@
   "identity": {
     "slug": "dvarh",
     "symbol": "DVA",
-    "name": "DaVita Inc. • Robinhood Token",
+    "name": "DaVita Inc. - Robinhood Token",
     "legacyId": 1258,
     "canonicalMarketId": "DVArh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

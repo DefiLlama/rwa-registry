@@ -2,7 +2,7 @@
   "identity": {
     "slug": "bbiorh",
     "symbol": "BBIO",
-    "name": "BridgeBio Pharma, Inc. • Robinhood Token",
+    "name": "BridgeBio Pharma, Inc. - Robinhood Token",
     "legacyId": 959,
     "canonicalMarketId": "BBIOrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

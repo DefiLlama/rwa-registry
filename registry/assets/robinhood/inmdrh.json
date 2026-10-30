@@ -2,7 +2,7 @@
   "identity": {
     "slug": "inmdrh",
     "symbol": "INMD",
-    "name": "InMode Ltd. • Robinhood Token",
+    "name": "InMode Ltd. - Robinhood Token",
     "legacyId": 1601,
     "canonicalMarketId": "INMDrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

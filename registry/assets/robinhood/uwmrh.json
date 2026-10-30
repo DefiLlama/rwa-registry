@@ -2,7 +2,7 @@
   "identity": {
     "slug": "uwmrh",
     "symbol": "UWM",
-    "name": "ProShares Ultra Russell 2000 • Robinhood Token",
+    "name": "ProShares Ultra Russell 2000 - Robinhood Token",
     "legacyId": 2519,
     "canonicalMarketId": "UWMrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

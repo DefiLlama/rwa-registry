@@ -2,7 +2,7 @@
   "identity": {
     "slug": "nnerh",
     "symbol": "NNE",
-    "name": "Nano Nuclear Energy Inc. • Robinhood Token",
+    "name": "Nano Nuclear Energy Inc. - Robinhood Token",
     "legacyId": 1901,
     "canonicalMarketId": "NNErh"
   },
@@ -27,9 +27,7 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "US63010H1086",
-        "source": null,
-        "verified": false
+        "value": "US63010H1086"
       }
     ]
   },
@@ -45,8 +43,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -77,6 +74,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://robinhood.com/eu/en/about/"
+      ],
+      "protocolIds": [
+        3732
       ]
     },
     {

@@ -33,9 +33,15 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
+  "deployments": [
+    {
+      "chain": "plume_mainnet",
+      "address": null,
+      "primary": true
+    }
+  ],
   "roles": [
     {
       "organization": "mineral-vault-llc",

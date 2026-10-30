@@ -2,7 +2,7 @@
   "identity": {
     "slug": "zrozrh",
     "symbol": "ZROZ",
-    "name": "PIMCO 25 Year Zero Coupon U.S. Treasury Index Exchange-Traded Fund • Robinhood Token",
+    "name": "PIMCO 25 Year Zero Coupon U.S. Treasury Index Exchange-Traded Fund - Robinhood Token",
     "legacyId": 2693,
     "canonicalMarketId": "ZROZrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

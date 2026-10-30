@@ -12,7 +12,7 @@
   "class": {
     "structure": "carbon-reserve",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "carbon-environment"
     ]
@@ -22,7 +22,8 @@
     "cexListed": true,
     "transferable": true,
     "selfCustody": true,
-    "yieldBearing": false
+    "yieldBearing": false,
+    "attestationFrequency": "N/A (protocol governance token)"
   },
   "sources": {
     "coingeckoId": "klima-dao-old"
@@ -39,8 +40,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -75,7 +75,7 @@
         "https://docs.klimaprotocol.com/links/contract-addresses",
         "https://www.klimadao.finance/resources/what-you-need-to-know-about-klima-klimax-and-kusd"
       ],
-      "note": "N/A (protocol governance token)"
+      "note": "no date in the export"
     }
   ]
 }

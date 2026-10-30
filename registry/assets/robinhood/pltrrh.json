@@ -2,7 +2,7 @@
   "identity": {
     "slug": "pltrrh",
     "symbol": "PLTR",
-    "name": "Palantir Technologies Inc. • Robinhood Token",
+    "name": "Palantir Technologies Inc. - Robinhood Token",
     "legacyId": 2043,
     "canonicalMarketId": "PLTRrh"
   },
@@ -23,16 +23,6 @@
     "kycToTransferHold": true,
     "yieldBearing": false
   },
-  "sources": {
-    "identifiers": [
-      {
-        "scheme": "isin",
-        "value": "US69608A1088",
-        "source": null,
-        "verified": false
-      }
-    ]
-  },
   "about": {
     "description": "PLTR is a tokenized tracker certificate issued by Robinhood Markets, Inc. through its European subsidiary Robinhood Europe UAB, deployed as an ERC-20 token on Arbitrum One. It is designed to provide synthetic price exposure to PLTR rather than direct share ownership, operating under MiFID II regulatory oversight. The token is available to EU/EEA customers with 24/5 commission-free trading, and on-chain pricing is supplied through Chainlink oracle feeds.",
     "logo": "https://icons.llamao.fi/icons/rwa/pltr.png?w=48&h=48",
@@ -45,8 +35,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -77,6 +66,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://robinhood.com/eu/en/about/"
+      ],
+      "protocolIds": [
+        3732
       ]
     },
     {

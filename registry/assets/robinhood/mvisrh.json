@@ -2,7 +2,7 @@
   "identity": {
     "slug": "mvisrh",
     "symbol": "MVIS",
-    "name": "MicroVision, Inc. • Robinhood Token",
+    "name": "MicroVision, Inc. - Robinhood Token",
     "legacyId": 1859,
     "canonicalMarketId": "MVISrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "kopnrh",
     "symbol": "KOPN",
-    "name": "Kopin Corp. • Robinhood Token",
+    "name": "Kopin Corp. - Robinhood Token",
     "legacyId": 1688,
     "canonicalMarketId": "KOPNrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

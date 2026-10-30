@@ -12,7 +12,7 @@
   "class": {
     "structure": "equity-basket",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "stocks-equities",
       "bond-mmf-funds"
@@ -32,9 +32,7 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "US4642871762",
-        "source": null,
-        "verified": false
+        "value": "US4642871762"
       }
     ]
   },
@@ -50,8 +48,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

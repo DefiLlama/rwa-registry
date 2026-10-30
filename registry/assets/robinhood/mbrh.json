@@ -2,7 +2,7 @@
   "identity": {
     "slug": "mbrh",
     "symbol": "MB",
-    "name": "MasterBeef Group • Robinhood Token",
+    "name": "MasterBeef Group - Robinhood Token",
     "legacyId": 1778,
     "canonicalMarketId": "MBrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

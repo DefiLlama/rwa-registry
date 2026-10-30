@@ -2,7 +2,7 @@
   "identity": {
     "slug": "avgxrh",
     "symbol": "AVGX",
-    "name": "Avantis Global Equity ETF • Robinhood Token",
+    "name": "Avantis Global Equity ETF - Robinhood Token",
     "legacyId": 937,
     "canonicalMarketId": "AVGXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

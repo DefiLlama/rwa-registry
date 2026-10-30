@@ -2,7 +2,7 @@
   "identity": {
     "slug": "mktxrh",
     "symbol": "MKTX",
-    "name": "MarketAxess Holdings Inc. • Robinhood Token",
+    "name": "MarketAxess Holdings Inc. - Robinhood Token",
     "legacyId": 1806,
     "canonicalMarketId": "MKTXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

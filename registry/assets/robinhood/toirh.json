@@ -2,7 +2,7 @@
   "identity": {
     "slug": "toirh",
     "symbol": "TOI",
-    "name": "Oncology Institute, Inc. • Robinhood Token",
+    "name": "Oncology Institute, Inc. - Robinhood Token",
     "legacyId": 2414,
     "canonicalMarketId": "TOIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

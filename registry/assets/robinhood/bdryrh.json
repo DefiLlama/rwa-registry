@@ -2,7 +2,7 @@
   "identity": {
     "slug": "bdryrh",
     "symbol": "BDRY",
-    "name": "Amplify Commodity Trust • Robinhood Token",
+    "name": "Amplify Commodity Trust - Robinhood Token",
     "legacyId": 965,
     "canonicalMarketId": "BDRYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

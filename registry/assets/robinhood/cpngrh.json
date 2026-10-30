@@ -2,7 +2,7 @@
   "identity": {
     "slug": "cpngrh",
     "symbol": "CPNG",
-    "name": "Coupang, Inc. • Robinhood Token",
+    "name": "Coupang, Inc. - Robinhood Token",
     "legacyId": 1154,
     "canonicalMarketId": "CPNGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

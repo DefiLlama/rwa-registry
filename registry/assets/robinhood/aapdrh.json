@@ -2,7 +2,7 @@
   "identity": {
     "slug": "aapdrh",
     "symbol": "AAPD",
-    "name": "Direxion Daily AAPL Bear 1X ETF • Robinhood Token",
+    "name": "Direxion Daily AAPL Bear 1X ETF - Robinhood Token",
     "legacyId": 778,
     "canonicalMarketId": "AAPDrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

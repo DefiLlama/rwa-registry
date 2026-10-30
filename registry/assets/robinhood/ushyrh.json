@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ushyrh",
     "symbol": "USHY",
-    "name": "iShares Broad USD High Yield Corporate Bond ETF • Robinhood Token",
+    "name": "iShares Broad USD High Yield Corporate Bond ETF - Robinhood Token",
     "legacyId": 2507,
     "canonicalMarketId": "USHYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

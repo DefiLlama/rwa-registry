@@ -2,7 +2,7 @@
   "identity": {
     "slug": "neerh",
     "symbol": "NEE",
-    "name": "NextEra Energy, Inc. • Robinhood Token",
+    "name": "NextEra Energy, Inc. - Robinhood Token",
     "legacyId": 1879,
     "canonicalMarketId": "NEErh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -28,7 +28,7 @@
     "coingeckoId": "mu-digital-mubond"
   },
   "about": {
-    "description": "muBOND is Mu Digital’s junior, first-loss credit tranche that provides insurance to AZND holders. It targets higher returns in exchange for absorbing losses before AZND, with yield reflected through periodic repricing.",
+    "description": "muBOND is Mu Digital's junior, first-loss credit tranche that provides insurance to AZND holders. It targets higher returns in exchange for absorbing losses before AZND, with yield reflected through periodic repricing.",
     "logo": "https://icons.llamao.fi/icons/rwa/mu-digital-mubond.png?w=48&h=48",
     "links": {
       "website": [
@@ -39,8 +39,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

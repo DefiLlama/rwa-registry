@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ballrh",
     "symbol": "BALL",
-    "name": "Ball Corp. • Robinhood Token",
+    "name": "Ball Corp. - Robinhood Token",
     "legacyId": 955,
     "canonicalMarketId": "BALLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

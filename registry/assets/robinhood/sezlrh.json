@@ -2,7 +2,7 @@
   "identity": {
     "slug": "sezlrh",
     "symbol": "SEZL",
-    "name": "Sezzle Inc. • Robinhood Token",
+    "name": "Sezzle Inc. - Robinhood Token",
     "legacyId": 2219,
     "canonicalMarketId": "SEZLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

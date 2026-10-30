@@ -2,7 +2,7 @@
   "identity": {
     "slug": "rktrh",
     "symbol": "RKT",
-    "name": "Rocket Companies, Inc. • Robinhood Token",
+    "name": "Rocket Companies, Inc. - Robinhood Token",
     "legacyId": 2147,
     "canonicalMarketId": "RKTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

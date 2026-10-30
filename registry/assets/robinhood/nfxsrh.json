@@ -2,7 +2,7 @@
   "identity": {
     "slug": "nfxsrh",
     "symbol": "NFXS",
-    "name": "Netflix Inverse ETF • Robinhood Token",
+    "name": "Netflix Inverse ETF - Robinhood Token",
     "legacyId": 1890,
     "canonicalMarketId": "NFXSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

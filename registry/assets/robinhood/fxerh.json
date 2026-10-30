@@ -2,7 +2,7 @@
   "identity": {
     "slug": "fxerh",
     "symbol": "FXE",
-    "name": "Invesco CurrencyShares Euro Trust • Robinhood Token",
+    "name": "Invesco CurrencyShares Euro Trust - Robinhood Token",
     "legacyId": 2793,
     "canonicalMarketId": "FXErh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

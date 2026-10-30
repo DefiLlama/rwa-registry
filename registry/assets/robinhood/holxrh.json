@@ -2,7 +2,7 @@
   "identity": {
     "slug": "holxrh",
     "symbol": "HOLX",
-    "name": "Hologic • Robinhood Token",
+    "name": "Hologic - Robinhood Token",
     "legacyId": 2775,
     "canonicalMarketId": "HOLXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

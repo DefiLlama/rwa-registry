@@ -2,7 +2,7 @@
   "identity": {
     "slug": "orclrh",
     "symbol": "ORCL",
-    "name": "Oracle Corp. • Robinhood Token",
+    "name": "Oracle Corp. - Robinhood Token",
     "legacyId": 2751,
     "canonicalMarketId": "ORCLrh"
   },
@@ -23,16 +23,6 @@
     "kycToTransferHold": true,
     "yieldBearing": false
   },
-  "sources": {
-    "identifiers": [
-      {
-        "scheme": "isin",
-        "value": "US68389X1054",
-        "source": null,
-        "verified": false
-      }
-    ]
-  },
   "about": {
     "description": "ORCL is a tokenized tracker certificate issued by Robinhood Markets, Inc. through its European subsidiary Robinhood Europe UAB, deployed as an ERC-20 token on Arbitrum One. It is designed to provide synthetic price exposure to ORCL rather than direct ownership, operating under MiFID II regulatory oversight. The token is available to EU/EEA customers with 24/5 commission-free trading, and on-chain pricing is supplied through Chainlink oracle feeds.",
     "logo": "https://icons.llamao.fi/icons/rwa/orcl.png?w=48&h=48",
@@ -45,8 +35,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -77,6 +66,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://robinhood.com/eu/en/about/"
+      ],
+      "protocolIds": [
+        3732
       ]
     },
     {

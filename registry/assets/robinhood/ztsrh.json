@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ztsrh",
     "symbol": "ZTS",
-    "name": "Zoetis Inc. • Robinhood Token",
+    "name": "Zoetis Inc. - Robinhood Token",
     "legacyId": 2696,
     "canonicalMarketId": "ZTSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

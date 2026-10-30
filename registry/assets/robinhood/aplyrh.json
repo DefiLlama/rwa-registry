@@ -2,7 +2,7 @@
   "identity": {
     "slug": "aplyrh",
     "symbol": "APLY",
-    "name": "AppHarvest, Inc. • Robinhood Token",
+    "name": "AppHarvest, Inc. - Robinhood Token",
     "legacyId": 884,
     "canonicalMarketId": "APLYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

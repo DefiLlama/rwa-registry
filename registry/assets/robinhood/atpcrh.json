@@ -2,7 +2,7 @@
   "identity": {
     "slug": "atpcrh",
     "symbol": "ATPC",
-    "name": "Agape ATP Corp. • Robinhood Token",
+    "name": "Agape ATP Corp. - Robinhood Token",
     "legacyId": 927,
     "canonicalMarketId": "ATPCrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

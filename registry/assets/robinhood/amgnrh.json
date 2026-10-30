@@ -2,7 +2,7 @@
   "identity": {
     "slug": "amgnrh",
     "symbol": "AMGN",
-    "name": "Amgen Inc. • Robinhood Token",
+    "name": "Amgen Inc. - Robinhood Token",
     "legacyId": 859,
     "canonicalMarketId": "AMGNrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

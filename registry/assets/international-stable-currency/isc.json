@@ -32,7 +32,7 @@
     ]
   },
   "about": {
-    "description": "International Stable Currency (ISC) is presented as a basket-referenced stable asset designed to track the value of a diversified set of financial assets instead of a single fiat currency. The design aims to reduce exposure to any one currency’s inflation by referencing multiple asset classes.",
+    "description": "International Stable Currency (ISC) is presented as a basket-referenced stable asset designed to track the value of a diversified set of financial assets instead of a single fiat currency. The design aims to reduce exposure to any one currency's inflation by referencing multiple asset classes.",
     "logo": "https://icons.llamao.fi/icons/rwa/international-stable-currency.png?w=48&h=48",
     "links": {
       "website": [
@@ -43,8 +43,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "aehlrh",
     "symbol": "AEHL",
-    "name": "Antelope Enterprise Holdings Ltd. • Robinhood Token",
+    "name": "Antelope Enterprise Holdings Ltd. - Robinhood Token",
     "legacyId": 2778,
     "canonicalMarketId": "AEHLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

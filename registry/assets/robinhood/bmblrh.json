@@ -2,7 +2,7 @@
   "identity": {
     "slug": "bmblrh",
     "symbol": "BMBL",
-    "name": "Bumble Inc. • Robinhood Token",
+    "name": "Bumble Inc. - Robinhood Token",
     "legacyId": 1009,
     "canonicalMarketId": "BMBLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

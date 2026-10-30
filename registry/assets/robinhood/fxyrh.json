@@ -2,7 +2,7 @@
   "identity": {
     "slug": "fxyrh",
     "symbol": "FXY",
-    "name": "Invesco CurrencyShares Swiss Franc Trust • Robinhood Token",
+    "name": "Invesco CurrencyShares Swiss Franc Trust - Robinhood Token",
     "legacyId": 1419,
     "canonicalMarketId": "FXYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

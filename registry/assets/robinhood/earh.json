@@ -2,7 +2,7 @@
   "identity": {
     "slug": "earh",
     "symbol": "EA",
-    "name": "Electronic Arts Inc. • Robinhood Token",
+    "name": "Electronic Arts Inc. - Robinhood Token",
     "legacyId": 1265,
     "canonicalMarketId": "EArh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

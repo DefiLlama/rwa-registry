@@ -28,7 +28,7 @@
     "coingeckoId": "liquity-usd"
   },
   "about": {
-    "description": "LUSD is Liquity’s decentralized USD stablecoin minted by borrowing against ETH collateral via non-custodial Troves. The peg is supported by an ETH-only collateral design, liquidation via the Stability Pool, and a built-in redemption mechanism that allows LUSD to be redeemed for ETH at face value. Key risks include ETH price shocks and liquidation dynamics, Stability Pool liquidity/absorptive capacity, and smart-contract risk.",
+    "description": "LUSD is Liquity's decentralized USD stablecoin minted by borrowing against ETH collateral via non-custodial Troves. The peg is supported by an ETH-only collateral design, liquidation via the Stability Pool, and a built-in redemption mechanism that allows LUSD to be redeemed for ETH at face value. Key risks include ETH price shocks and liquidation dynamics, Stability Pool liquidity/absorptive capacity, and smart-contract risk.",
     "logo": "https://icons.llamao.fi/icons/rwa/liquity-usd.png?w=48&h=48",
     "links": {
       "website": [
@@ -39,8 +39,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

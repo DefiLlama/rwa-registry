@@ -2,7 +2,7 @@
   "identity": {
     "slug": "mrh",
     "symbol": "M",
-    "name": "Macy's, Inc. • Robinhood Token",
+    "name": "Macy's, Inc. - Robinhood Token",
     "legacyId": 1865,
     "canonicalMarketId": "Mrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

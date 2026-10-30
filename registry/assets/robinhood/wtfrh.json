@@ -2,7 +2,7 @@
   "identity": {
     "slug": "wtfrh",
     "symbol": "WTF",
-    "name": "Waton Financial Ltd. • Robinhood Token",
+    "name": "Waton Financial Ltd. - Robinhood Token",
     "legacyId": 2633,
     "canonicalMarketId": "WTFrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -12,7 +12,7 @@
   "class": {
     "structure": "gold",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "gold-commodities"
     ]
@@ -47,8 +47,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -93,6 +92,10 @@
       "chain": "etlk",
       "address": "0x93f5475da60143c50e8be3fed10c143b0cf8b9e9",
       "deployedAt": "2026-03-20"
+    },
+    {
+      "chain": "tezos",
+      "address": "KT1LSH97386CURN9FgRNqdQJoHaHY6e1vxUv"
     }
   ],
   "roles": [

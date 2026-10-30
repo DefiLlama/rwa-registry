@@ -2,7 +2,7 @@
   "identity": {
     "slug": "feedrh",
     "symbol": "FEED",
-    "name": "ENvue Medical, Inc. • Robinhood Token",
+    "name": "ENvue Medical, Inc. - Robinhood Token",
     "legacyId": 1363,
     "canonicalMarketId": "FEEDrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

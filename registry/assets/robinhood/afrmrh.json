@@ -2,7 +2,7 @@
   "identity": {
     "slug": "afrmrh",
     "symbol": "AFRM",
-    "name": "Affirm Holdings, Inc. • Robinhood Token",
+    "name": "Affirm Holdings, Inc. - Robinhood Token",
     "legacyId": 816,
     "canonicalMarketId": "AFRMrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

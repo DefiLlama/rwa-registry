@@ -2,7 +2,7 @@
   "identity": {
     "slug": "mtnrh",
     "symbol": "MTN",
-    "name": "Vail Resorts, Inc. • Robinhood Token",
+    "name": "Vail Resorts, Inc. - Robinhood Token",
     "legacyId": 1851,
     "canonicalMarketId": "MTNrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "xyldrh",
     "symbol": "XYLD",
-    "name": "Global X S&P 500 Covered Call ETF • Robinhood Token",
+    "name": "Global X S&P 500 Covered Call ETF - Robinhood Token",
     "legacyId": 2669,
     "canonicalMarketId": "XYLDrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

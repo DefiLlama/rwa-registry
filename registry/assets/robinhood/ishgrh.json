@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ishgrh",
     "symbol": "ISHG",
-    "name": "iShares 1-3 Year International Treasury Bond ETF • Robinhood Token",
+    "name": "iShares 1-3 Year International Treasury Bond ETF - Robinhood Token",
     "legacyId": 1620,
     "canonicalMarketId": "ISHGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

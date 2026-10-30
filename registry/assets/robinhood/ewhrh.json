@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ewhrh",
     "symbol": "EWH",
-    "name": "iShares MSCI Hong Kong ETF • Robinhood Token",
+    "name": "iShares MSCI Hong Kong ETF - Robinhood Token",
     "legacyId": 1328,
     "canonicalMarketId": "EWHrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

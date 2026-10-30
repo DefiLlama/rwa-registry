@@ -2,7 +2,7 @@
   "identity": {
     "slug": "kvuerh",
     "symbol": "KVUE",
-    "name": "Kenvue Inc. • Robinhood Token",
+    "name": "Kenvue Inc. - Robinhood Token",
     "legacyId": 1701,
     "canonicalMarketId": "KVUErh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

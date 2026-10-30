@@ -2,7 +2,7 @@
   "identity": {
     "slug": "cartrh",
     "symbol": "CART",
-    "name": "Maplebear Inc. • Robinhood Token",
+    "name": "Maplebear Inc. - Robinhood Token",
     "legacyId": 1058,
     "canonicalMarketId": "CARTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

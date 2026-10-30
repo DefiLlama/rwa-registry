@@ -12,7 +12,7 @@
   "class": {
     "structure": "pe-venture",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "stocks-equities"
     ]
@@ -21,7 +21,8 @@
     "redeemable": true,
     "transferable": true,
     "selfCustody": true,
-    "yieldBearing": false
+    "yieldBearing": false,
+    "attestationFrequency": "No public attestation date found"
   },
   "about": {
     "description": "Tokenized shares of Revario SA, a Swiss sustainable-fashion brand promoting local production and lower-impact apparel, issued on Ethereum via Aktionariat.",
@@ -35,8 +36,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -59,6 +59,9 @@
       "sourceLinks": [
         "https://www.revario.ch/pages/crowdinvesting",
         "https://www.aktionariat.com/"
+      ],
+      "protocolIds": [
+        2782
       ]
     },
     {
@@ -73,7 +76,7 @@
   "events": [
     {
       "kind": "attestation",
-      "note": "No public attestation date found"
+      "note": "no date in the export"
     }
   ]
 }

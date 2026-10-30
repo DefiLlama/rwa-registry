@@ -35,8 +35,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -50,6 +49,13 @@
     {
       "organization": "alter-spvs",
       "kind": "issuer",
+      "sourceLinks": [
+        "https://carbovanta.com/tokenization-disclaimer"
+      ]
+    },
+    {
+      "organization": "xrpl-amm",
+      "kind": "oracle",
       "sourceLinks": [
         "https://carbovanta.com/tokenization-disclaimer"
       ]

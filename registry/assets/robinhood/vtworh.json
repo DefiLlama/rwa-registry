@@ -2,7 +2,7 @@
   "identity": {
     "slug": "vtworh",
     "symbol": "VTWO",
-    "name": "Vanguard Russell 2000 ETF • Robinhood Token",
+    "name": "Vanguard Russell 2000 ETF - Robinhood Token",
     "legacyId": 2587,
     "canonicalMarketId": "VTWOrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

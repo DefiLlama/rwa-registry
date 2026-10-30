@@ -2,7 +2,7 @@
   "identity": {
     "slug": "wingrh",
     "symbol": "WING",
-    "name": "Wingstop Inc. • Robinhood Token",
+    "name": "Wingstop Inc. - Robinhood Token",
     "legacyId": 2617,
     "canonicalMarketId": "WINGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

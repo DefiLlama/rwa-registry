@@ -2,7 +2,7 @@
   "identity": {
     "slug": "cliprh",
     "symbol": "CLIP",
-    "name": "ClipperTIC Holdings ETF • Robinhood Token",
+    "name": "ClipperTIC Holdings ETF - Robinhood Token",
     "legacyId": 1111,
     "canonicalMarketId": "CLIPrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

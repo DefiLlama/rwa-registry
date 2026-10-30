@@ -2,7 +2,7 @@
   "identity": {
     "slug": "eatrh",
     "symbol": "EAT",
-    "name": "Brinker International, Inc. • Robinhood Token",
+    "name": "Brinker International, Inc. - Robinhood Token",
     "legacyId": 1264,
     "canonicalMarketId": "EATrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

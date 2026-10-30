@@ -2,7 +2,7 @@
   "identity": {
     "slug": "siljrh",
     "symbol": "SILJ",
-    "name": "Amplify Junior Silver Miners ETF • Robinhood Token",
+    "name": "Amplify Junior Silver Miners ETF - Robinhood Token",
     "legacyId": 2760,
     "canonicalMarketId": "SILJrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "psqhrh",
     "symbol": "PSQH",
-    "name": "PSQ Holdings, Inc. • Robinhood Token",
+    "name": "PSQ Holdings, Inc. - Robinhood Token",
     "legacyId": 2080,
     "canonicalMarketId": "PSQHrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

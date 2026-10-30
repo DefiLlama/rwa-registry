@@ -2,7 +2,7 @@
   "identity": {
     "slug": "csxrh",
     "symbol": "CSX",
-    "name": "CSX Corp. • Robinhood Token",
+    "name": "CSX Corp. - Robinhood Token",
     "legacyId": 1184,
     "canonicalMarketId": "CSXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "usoyrh",
     "symbol": "USOY",
-    "name": "ProShares Ultra Oil & Gas • Robinhood Token",
+    "name": "ProShares Ultra Oil & Gas - Robinhood Token",
     "legacyId": 2510,
     "canonicalMarketId": "USOYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ctvarh",
     "symbol": "CTVA",
-    "name": "Corteva, Inc. • Robinhood Token",
+    "name": "Corteva, Inc. - Robinhood Token",
     "legacyId": 1189,
     "canonicalMarketId": "CTVArh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

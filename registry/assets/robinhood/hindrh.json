@@ -2,7 +2,7 @@
   "identity": {
     "slug": "hindrh",
     "symbol": "HIND",
-    "name": "Vyome Holdings, Inc. • Robinhood Token",
+    "name": "Vyome Holdings, Inc. - Robinhood Token",
     "legacyId": 1525,
     "canonicalMarketId": "HINDrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

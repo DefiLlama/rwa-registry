@@ -2,7 +2,7 @@
   "identity": {
     "slug": "dfdvrh",
     "symbol": "DFDV",
-    "name": "DeFi Development Corp. • Robinhood Token",
+    "name": "DeFi Development Corp. - Robinhood Token",
     "legacyId": 1219,
     "canonicalMarketId": "DFDVrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "frorh",
     "symbol": "FRO",
-    "name": "Frontline plc • Robinhood Token",
+    "name": "Frontline plc - Robinhood Token",
     "legacyId": 1402,
     "canonicalMarketId": "FROrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

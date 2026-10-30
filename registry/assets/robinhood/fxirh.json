@@ -2,7 +2,7 @@
   "identity": {
     "slug": "fxirh",
     "symbol": "FXI",
-    "name": "iShares China Large-Cap ETF • Robinhood Token",
+    "name": "iShares China Large-Cap ETF - Robinhood Token",
     "legacyId": 1418,
     "canonicalMarketId": "FXIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

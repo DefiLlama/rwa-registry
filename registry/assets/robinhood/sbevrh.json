@@ -2,7 +2,7 @@
   "identity": {
     "slug": "sbevrh",
     "symbol": "SBEV",
-    "name": "Splash Beverage Group, Inc. • Robinhood Token",
+    "name": "Splash Beverage Group, Inc. - Robinhood Token",
     "legacyId": 2184,
     "canonicalMarketId": "SBEVrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

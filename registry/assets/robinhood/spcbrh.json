@@ -2,7 +2,7 @@
   "identity": {
     "slug": "spcbrh",
     "symbol": "SPCB",
-    "name": "SuperCom Ltd. • Robinhood Token",
+    "name": "SuperCom Ltd. - Robinhood Token",
     "legacyId": 2294,
     "canonicalMarketId": "SPCBrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

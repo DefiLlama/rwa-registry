@@ -2,7 +2,7 @@
   "identity": {
     "slug": "vfcrh",
     "symbol": "VFC",
-    "name": "V.F. Corp. • Robinhood Token",
+    "name": "V.F. Corp. - Robinhood Token",
     "legacyId": 2537,
     "canonicalMarketId": "VFCrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

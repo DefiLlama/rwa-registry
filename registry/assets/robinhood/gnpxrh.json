@@ -2,7 +2,7 @@
   "identity": {
     "slug": "gnpxrh",
     "symbol": "GNPX",
-    "name": "Genprex, Inc. • Robinhood Token",
+    "name": "Genprex, Inc. - Robinhood Token",
     "legacyId": 1469,
     "canonicalMarketId": "GNPXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

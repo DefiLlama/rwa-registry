@@ -30,9 +30,7 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "US0258161092",
-        "source": null,
-        "verified": false
+        "value": "US0258161092"
       }
     ]
   },
@@ -48,8 +46,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -71,6 +68,22 @@
           "kind": "excluded-holder"
         }
       ]
+    },
+    {
+      "chain": "ethereum",
+      "address": null
+    },
+    {
+      "chain": "base",
+      "address": null
+    },
+    {
+      "chain": "blast",
+      "address": null
+    },
+    {
+      "chain": "plume_mainnet",
+      "address": null
     }
   ],
   "roles": [
@@ -80,6 +93,9 @@
       "sourceLinks": [
         "https://www.sec.gov/Archives/edgar/data/1915430/0001915430-23-000003-index.htm",
         "https://dinari.com/dshares"
+      ],
+      "protocolIds": [
+        4196
       ]
     }
   ]

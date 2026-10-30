@@ -2,7 +2,7 @@
   "identity": {
     "slug": "spdnrh",
     "symbol": "SPDN",
-    "name": "Inverse S&P 500 ETF • Robinhood Token",
+    "name": "Inverse S&P 500 ETF - Robinhood Token",
     "legacyId": 2296,
     "canonicalMarketId": "SPDNrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

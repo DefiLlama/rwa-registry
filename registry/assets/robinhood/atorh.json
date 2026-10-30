@@ -2,7 +2,7 @@
   "identity": {
     "slug": "atorh",
     "symbol": "ATO",
-    "name": "Atmos Energy Corp. • Robinhood Token",
+    "name": "Atmos Energy Corp. - Robinhood Token",
     "legacyId": 926,
     "canonicalMarketId": "ATOrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

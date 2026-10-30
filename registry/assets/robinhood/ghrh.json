@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ghrh",
     "symbol": "GH",
-    "name": "Guardant Health, Inc. • Robinhood Token",
+    "name": "Guardant Health, Inc. - Robinhood Token",
     "legacyId": 1449,
     "canonicalMarketId": "GHrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

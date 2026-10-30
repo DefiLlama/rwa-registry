@@ -2,7 +2,7 @@
   "identity": {
     "slug": "mmmrh",
     "symbol": "MMM",
-    "name": "3M CO • Robinhood Token",
+    "name": "3M CO - Robinhood Token",
     "legacyId": 1809,
     "canonicalMarketId": "MMMrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

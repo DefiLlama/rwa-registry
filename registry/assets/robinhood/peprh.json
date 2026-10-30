@@ -2,7 +2,7 @@
   "identity": {
     "slug": "peprh",
     "symbol": "PEP",
-    "name": "PepsiCo, Inc. • Robinhood Token",
+    "name": "PepsiCo, Inc. - Robinhood Token",
     "legacyId": 2018,
     "canonicalMarketId": "PEPrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

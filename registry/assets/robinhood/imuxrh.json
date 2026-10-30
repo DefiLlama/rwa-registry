@@ -2,7 +2,7 @@
   "identity": {
     "slug": "imuxrh",
     "symbol": "IMUX",
-    "name": "Immunic, Inc. • Robinhood Token",
+    "name": "Immunic, Inc. - Robinhood Token",
     "legacyId": 1593,
     "canonicalMarketId": "IMUXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

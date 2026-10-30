@@ -2,7 +2,7 @@
   "identity": {
     "slug": "pnbkrh",
     "symbol": "PNBK",
-    "name": "Patriot National Bancorp, Inc. • Robinhood Token",
+    "name": "Patriot National Bancorp, Inc. - Robinhood Token",
     "legacyId": 2053,
     "canonicalMarketId": "PNBKrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

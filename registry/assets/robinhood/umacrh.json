@@ -2,7 +2,7 @@
   "identity": {
     "slug": "umacrh",
     "symbol": "UMAC",
-    "name": "Unusual Machines, Inc. • Robinhood Token",
+    "name": "Unusual Machines, Inc. - Robinhood Token",
     "legacyId": 2485,
     "canonicalMarketId": "UMACrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "mcdrh",
     "symbol": "MCD",
-    "name": "McDonald's Corp. • Robinhood Token",
+    "name": "McDonald's Corp. - Robinhood Token",
     "legacyId": 1779,
     "canonicalMarketId": "MCDrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

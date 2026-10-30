@@ -2,7 +2,7 @@
   "identity": {
     "slug": "tsnrh",
     "symbol": "TSN",
-    "name": "Tyson Foods, Inc. • Robinhood Token",
+    "name": "Tyson Foods, Inc. - Robinhood Token",
     "legacyId": 2446,
     "canonicalMarketId": "TSNrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

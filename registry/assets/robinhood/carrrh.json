@@ -2,7 +2,7 @@
   "identity": {
     "slug": "carrrh",
     "symbol": "CARR",
-    "name": "Carrier Global Corp. • Robinhood Token",
+    "name": "Carrier Global Corp. - Robinhood Token",
     "legacyId": 1057,
     "canonicalMarketId": "CARRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

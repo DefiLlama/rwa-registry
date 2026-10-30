@@ -2,7 +2,7 @@
   "identity": {
     "slug": "mgkrh",
     "symbol": "MGK",
-    "name": "Vanguard Mega Cap Growth ETF • Robinhood Token",
+    "name": "Vanguard Mega Cap Growth ETF - Robinhood Token",
     "legacyId": 1795,
     "canonicalMarketId": "MGKrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

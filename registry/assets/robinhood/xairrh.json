@@ -2,7 +2,7 @@
   "identity": {
     "slug": "xairrh",
     "symbol": "XAIR",
-    "name": "Beyond Air, Inc. • Robinhood Token",
+    "name": "Beyond Air, Inc. - Robinhood Token",
     "legacyId": 2640,
     "canonicalMarketId": "XAIRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

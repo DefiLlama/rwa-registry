@@ -2,7 +2,7 @@
   "identity": {
     "slug": "schprh",
     "symbol": "SCHP",
-    "name": "Schwab U.S. Aggregate Bond ETF • Robinhood Token",
+    "name": "Schwab U.S. Aggregate Bond ETF - Robinhood Token",
     "legacyId": 2201,
     "canonicalMarketId": "SCHPrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

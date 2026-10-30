@@ -2,7 +2,7 @@
   "identity": {
     "slug": "jobyrh",
     "symbol": "JOBY",
-    "name": "Joby Aviation, Inc. • Robinhood Token",
+    "name": "Joby Aviation, Inc. - Robinhood Token",
     "legacyId": 1659,
     "canonicalMarketId": "JOBYrh"
   },
@@ -27,9 +27,7 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "KYG651631007",
-        "source": null,
-        "verified": false
+        "value": "KYG651631007"
       }
     ]
   },
@@ -45,8 +43,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -77,6 +74,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://robinhood.com/eu/en/about/"
+      ],
+      "protocolIds": [
+        3732
       ]
     },
     {

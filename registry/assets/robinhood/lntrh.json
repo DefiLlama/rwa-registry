@@ -2,7 +2,7 @@
   "identity": {
     "slug": "lntrh",
     "symbol": "LNT",
-    "name": "Alliant Energy Corp. • Robinhood Token",
+    "name": "Alliant Energy Corp. - Robinhood Token",
     "legacyId": 1738,
     "canonicalMarketId": "LNTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

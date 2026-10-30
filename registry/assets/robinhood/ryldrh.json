@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ryldrh",
     "symbol": "RYLD",
-    "name": "Global X Russell 2000 Covered Call ETF • Robinhood Token",
+    "name": "Global X Russell 2000 Covered Call ETF - Robinhood Token",
     "legacyId": 2173,
     "canonicalMarketId": "RYLDrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

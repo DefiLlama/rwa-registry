@@ -2,7 +2,7 @@
   "identity": {
     "slug": "hnstrh",
     "symbol": "HNST",
-    "name": "Honest Company, Inc. • Robinhood Token",
+    "name": "Honest Company, Inc. - Robinhood Token",
     "legacyId": 1533,
     "canonicalMarketId": "HNSTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

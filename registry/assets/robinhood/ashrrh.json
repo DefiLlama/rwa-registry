@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ashrrh",
     "symbol": "ASHR",
-    "name": "Ares Shield ETF • Robinhood Token",
+    "name": "Ares Shield ETF - Robinhood Token",
     "legacyId": 916,
     "canonicalMarketId": "ASHRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

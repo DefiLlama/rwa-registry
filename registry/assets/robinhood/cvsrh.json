@@ -2,7 +2,7 @@
   "identity": {
     "slug": "cvsrh",
     "symbol": "CVS",
-    "name": "CVS Health Corp. • Robinhood Token",
+    "name": "CVS Health Corp. - Robinhood Token",
     "legacyId": 1195,
     "canonicalMarketId": "CVSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

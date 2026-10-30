@@ -29,7 +29,7 @@
     "coingeckoId": "nest-blackopal-liquidstone-ii-vault"
   },
   "about": {
-    "description": "nOPAL is the receipt token for Nest’s BlackOpal vault providing tokenized exposure to Brazilian credit card receivables via LiquidStone II, where merchants receive upfront liquidity and returns accrue as receivables settle through card payment rails. Plume describes the vault as offering 24/7 redemptions, USD-hedged exposure, and a liquidity design that holds roughly half the vault in “blue-chip DeFi protocols” to support smooth withdrawals. The Nest vault page also indicates the allocation is primarily LiquidStone II (99.53%) with a small sleeve in Nest Treasury Vault (0.47%).",
+    "description": "nOPAL is the receipt token for Nest's BlackOpal vault providing tokenized exposure to Brazilian credit card receivables via LiquidStone II, where merchants receive upfront liquidity and returns accrue as receivables settle through card payment rails. Plume describes the vault as offering 24/7 redemptions, USD-hedged exposure, and a liquidity design that holds roughly half the vault in \"blue-chip DeFi protocols\" to support smooth withdrawals. The Nest vault page also indicates the allocation is primarily LiquidStone II (99.53%) with a small sleeve in Nest Treasury Vault (0.47%).",
     "logo": "https://icons.llamao.fi/icons/rwa/nopal.png?w=48&h=48",
     "links": {
       "website": [
@@ -40,8 +40,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

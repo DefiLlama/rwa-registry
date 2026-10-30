@@ -2,7 +2,7 @@
   "identity": {
     "slug": "triprh",
     "symbol": "TRIP",
-    "name": "TripAdvisor, Inc. • Robinhood Token",
+    "name": "TripAdvisor, Inc. - Robinhood Token",
     "legacyId": 2422,
     "canonicalMarketId": "TRIPrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

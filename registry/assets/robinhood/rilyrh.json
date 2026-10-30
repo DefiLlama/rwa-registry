@@ -2,7 +2,7 @@
   "identity": {
     "slug": "rilyrh",
     "symbol": "RILY",
-    "name": "BRC Group Holdings, Inc. • Robinhood Token",
+    "name": "BRC Group Holdings, Inc. - Robinhood Token",
     "legacyId": 2140,
     "canonicalMarketId": "RILYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

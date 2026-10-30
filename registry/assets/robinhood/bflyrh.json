@@ -2,7 +2,7 @@
   "identity": {
     "slug": "bflyrh",
     "symbol": "BFLY",
-    "name": "Butterfly Network, Inc. • Robinhood Token",
+    "name": "Butterfly Network, Inc. - Robinhood Token",
     "legacyId": 972,
     "canonicalMarketId": "BFLYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

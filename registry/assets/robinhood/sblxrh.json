@@ -2,7 +2,7 @@
   "identity": {
     "slug": "sblxrh",
     "symbol": "SBLX",
-    "name": "StableX Technologies, Inc. • Robinhood Token",
+    "name": "StableX Technologies, Inc. - Robinhood Token",
     "legacyId": 2189,
     "canonicalMarketId": "SBLXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

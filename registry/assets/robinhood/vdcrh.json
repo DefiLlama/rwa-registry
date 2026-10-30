@@ -2,7 +2,7 @@
   "identity": {
     "slug": "vdcrh",
     "symbol": "VDC",
-    "name": "Vanguard Consumer Discretionary ETF • Robinhood Token",
+    "name": "Vanguard Consumer Discretionary ETF - Robinhood Token",
     "legacyId": 2529,
     "canonicalMarketId": "VDCrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

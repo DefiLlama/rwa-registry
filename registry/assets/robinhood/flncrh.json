@@ -2,7 +2,7 @@
   "identity": {
     "slug": "flncrh",
     "symbol": "FLNC",
-    "name": "Fluence Energy, Inc. • Robinhood Token",
+    "name": "Fluence Energy, Inc. - Robinhood Token",
     "legacyId": 1382,
     "canonicalMarketId": "FLNCrh"
   },
@@ -27,9 +27,7 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "US34379V1035",
-        "source": null,
-        "verified": false
+        "value": "US34379V1035"
       }
     ]
   },
@@ -45,8 +43,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -77,6 +74,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://robinhood.com/eu/en/about/"
+      ],
+      "protocolIds": [
+        3732
       ]
     },
     {

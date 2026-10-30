@@ -2,7 +2,7 @@
   "identity": {
     "slug": "koldrh",
     "symbol": "KOLD",
-    "name": "ProShares UltraShort Bloomberg Natural Gas • Robinhood Token",
+    "name": "ProShares UltraShort Bloomberg Natural Gas - Robinhood Token",
     "legacyId": 1687,
     "canonicalMarketId": "KOLDrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

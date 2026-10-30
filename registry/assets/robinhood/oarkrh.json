@@ -2,7 +2,7 @@
   "identity": {
     "slug": "oarkrh",
     "symbol": "OARK",
-    "name": "Ark Technology Inverse ETF • Robinhood Token",
+    "name": "Ark Technology Inverse ETF - Robinhood Token",
     "legacyId": 1946,
     "canonicalMarketId": "OARKrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ondsrh",
     "symbol": "ONDS",
-    "name": "Ondas Inc. • Robinhood Token",
+    "name": "Ondas Inc. - Robinhood Token",
     "legacyId": 1967,
     "canonicalMarketId": "ONDSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

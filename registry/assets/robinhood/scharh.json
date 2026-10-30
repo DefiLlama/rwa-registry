@@ -2,7 +2,7 @@
   "identity": {
     "slug": "scharh",
     "symbol": "SCHA",
-    "name": "Schwab U.S. Small-Cap ETF • Robinhood Token",
+    "name": "Schwab U.S. Small-Cap ETF - Robinhood Token",
     "legacyId": 2193,
     "canonicalMarketId": "SCHArh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

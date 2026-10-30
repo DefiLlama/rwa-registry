@@ -2,7 +2,7 @@
   "identity": {
     "slug": "kidzrh",
     "symbol": "KIDZ",
-    "name": "Classover Holdings, Inc. • Robinhood Token",
+    "name": "Classover Holdings, Inc. - Robinhood Token",
     "legacyId": 1674,
     "canonicalMarketId": "KIDZrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "appsrh",
     "symbol": "APPS",
-    "name": "Digital Turbine, Inc. • Robinhood Token",
+    "name": "Digital Turbine, Inc. - Robinhood Token",
     "legacyId": 887,
     "canonicalMarketId": "APPSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

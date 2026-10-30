@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ulccrh",
     "symbol": "ULCC",
-    "name": "Frontier Group Holdings, Inc. • Robinhood Token",
+    "name": "Frontier Group Holdings, Inc. - Robinhood Token",
     "legacyId": 2482,
     "canonicalMarketId": "ULCCrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

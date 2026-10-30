@@ -2,7 +2,7 @@
   "identity": {
     "slug": "fblrh",
     "symbol": "FBL",
-    "name": "Franklin Electric Co., Inc. • Robinhood Token",
+    "name": "Franklin Electric Co., Inc. - Robinhood Token",
     "legacyId": 1353,
     "canonicalMarketId": "FBLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

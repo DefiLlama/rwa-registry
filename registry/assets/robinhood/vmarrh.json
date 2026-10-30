@@ -2,7 +2,7 @@
   "identity": {
     "slug": "vmarrh",
     "symbol": "VMAR",
-    "name": "Vision Marine Technologies Inc. • Robinhood Token",
+    "name": "Vision Marine Technologies Inc. - Robinhood Token",
     "legacyId": 2559,
     "canonicalMarketId": "VMARrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

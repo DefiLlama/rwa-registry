@@ -2,7 +2,7 @@
   "identity": {
     "slug": "hrlrh",
     "symbol": "HRL",
-    "name": "Hormel Foods Corp. • Robinhood Token",
+    "name": "Hormel Foods Corp. - Robinhood Token",
     "legacyId": 1543,
     "canonicalMarketId": "HRLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

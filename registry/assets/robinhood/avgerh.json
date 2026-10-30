@@ -2,7 +2,7 @@
   "identity": {
     "slug": "avgerh",
     "symbol": "AVGE",
-    "name": "Average ETF • Robinhood Token",
+    "name": "Average ETF - Robinhood Token",
     "legacyId": 935,
     "canonicalMarketId": "AVGErh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

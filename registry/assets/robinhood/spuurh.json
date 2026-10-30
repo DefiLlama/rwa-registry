@@ -2,7 +2,7 @@
   "identity": {
     "slug": "spuurh",
     "symbol": "SPUU",
-    "name": "Invesco S&P 500 Unlevered ETF • Robinhood Token",
+    "name": "Invesco S&P 500 Unlevered ETF - Robinhood Token",
     "legacyId": 2311,
     "canonicalMarketId": "SPUUrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

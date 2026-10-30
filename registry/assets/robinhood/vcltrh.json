@@ -2,7 +2,7 @@
   "identity": {
     "slug": "vcltrh",
     "symbol": "VCLT",
-    "name": "Vanguard Long-Term Corporate Bond ETF • Robinhood Token",
+    "name": "Vanguard Long-Term Corporate Bond ETF - Robinhood Token",
     "legacyId": 2527,
     "canonicalMarketId": "VCLTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

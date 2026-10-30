@@ -2,7 +2,7 @@
   "identity": {
     "slug": "hiblrh",
     "symbol": "HIBL",
-    "name": "High Beta ETF • Robinhood Token",
+    "name": "High Beta ETF - Robinhood Token",
     "legacyId": 1519,
     "canonicalMarketId": "HIBLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

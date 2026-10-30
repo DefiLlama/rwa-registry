@@ -2,7 +2,7 @@
   "identity": {
     "slug": "figrrh",
     "symbol": "FIGR",
-    "name": "Figure Technology Solutions, Inc. • Robinhood Token",
+    "name": "Figure Technology Solutions, Inc. - Robinhood Token",
     "legacyId": 1372,
     "canonicalMarketId": "FIGRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "higrh",
     "symbol": "HIG",
-    "name": "The Hartford Insurance Group, Inc. • Robinhood Token",
+    "name": "The Hartford Insurance Group, Inc. - Robinhood Token",
     "legacyId": 1521,
     "canonicalMarketId": "HIGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

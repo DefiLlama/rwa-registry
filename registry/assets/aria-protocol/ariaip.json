@@ -27,7 +27,7 @@
     "coingeckoId": "aria-2"
   },
   "about": {
-    "description": "ARIAIP is the coordination token for Aria Protocol, a platform focused on tokenized intellectual property, starting with music rights and royalty-like cash flows. Aria’s design is aimed at turning historically illiquid IP ownership into onchain, tradable exposures, with ARIAIP used for governance, ecosystem incentives, and liquidity alignment around IP-based RWAs. The protocol is built to interface with the Story ecosystem for IP primitives.",
+    "description": "ARIAIP is the coordination token for Aria Protocol, a platform focused on tokenized intellectual property, starting with music rights and royalty-like cash flows. Aria's design is aimed at turning historically illiquid IP ownership into onchain, tradable exposures, with ARIAIP used for governance, ecosystem incentives, and liquidity alignment around IP-based RWAs. The protocol is built to interface with the Story ecosystem for IP primitives.",
     "logo": "https://icons.llamao.fi/icons/rwa/aria-protocol.png?w=48&h=48",
     "links": {
       "website": [
@@ -38,8 +38,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -55,6 +54,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://ariaprotocol.xyz"
+      ],
+      "protocolIds": [
+        6375
       ]
     }
   ]

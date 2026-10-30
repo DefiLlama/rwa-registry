@@ -2,7 +2,7 @@
   "identity": {
     "slug": "vzlarh",
     "symbol": "VZLA",
-    "name": "Vizsla Silver Corp. • Robinhood Token",
+    "name": "Vizsla Silver Corp. - Robinhood Token",
     "legacyId": 2598,
     "canonicalMarketId": "VZLArh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

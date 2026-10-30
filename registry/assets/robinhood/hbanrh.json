@@ -2,7 +2,7 @@
   "identity": {
     "slug": "hbanrh",
     "symbol": "HBAN",
-    "name": "Huntington Bancshares Inc. • Robinhood Token",
+    "name": "Huntington Bancshares Inc. - Robinhood Token",
     "legacyId": 1509,
     "canonicalMarketId": "HBANrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

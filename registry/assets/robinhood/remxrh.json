@@ -2,7 +2,7 @@
   "identity": {
     "slug": "remxrh",
     "symbol": "REMX",
-    "name": "VanEck Rare Earth and Strategic Metals ETF • Robinhood Token",
+    "name": "VanEck Rare Earth and Strategic Metals ETF - Robinhood Token",
     "legacyId": 2130,
     "canonicalMarketId": "REMXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

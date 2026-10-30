@@ -2,7 +2,7 @@
   "identity": {
     "slug": "plgrh",
     "symbol": "PLG",
-    "name": "Platinum Group Metals Ltd. • Robinhood Token",
+    "name": "Platinum Group Metals Ltd. - Robinhood Token",
     "legacyId": 2041,
     "canonicalMarketId": "PLGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

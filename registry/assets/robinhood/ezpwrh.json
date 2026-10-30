@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ezpwrh",
     "symbol": "EZPW",
-    "name": "EZCORP, Inc. • Robinhood Token",
+    "name": "EZCORP, Inc. - Robinhood Token",
     "legacyId": 1345,
     "canonicalMarketId": "EZPWrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

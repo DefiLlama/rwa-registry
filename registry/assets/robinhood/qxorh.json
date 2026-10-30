@@ -2,7 +2,7 @@
   "identity": {
     "slug": "qxorh",
     "symbol": "QXO",
-    "name": "QXO, Inc. • Robinhood Token",
+    "name": "QXO, Inc. - Robinhood Token",
     "legacyId": 2115,
     "canonicalMarketId": "QXOrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

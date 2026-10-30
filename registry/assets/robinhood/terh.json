@@ -2,7 +2,7 @@
   "identity": {
     "slug": "terh",
     "symbol": "TE",
-    "name": "T1 Energy Inc. • Robinhood Token",
+    "name": "T1 Energy Inc. - Robinhood Token",
     "legacyId": 2385,
     "canonicalMarketId": "TErh"
   },
@@ -35,14 +35,18 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
       "chain": "robinhood",
       "address": "0xb1969f6604ca1ae7a2cd3f1827876e914594ca2d",
       "deployedAt": "2026-07-27"
+    },
+    {
+      "chain": "arbitrum",
+      "address": null,
+      "primary": true
     }
   ],
   "roles": [
@@ -51,6 +55,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://robinhood.com/eu/en/about/"
+      ],
+      "protocolIds": [
+        3732
       ]
     },
     {

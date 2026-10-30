@@ -2,7 +2,7 @@
   "identity": {
     "slug": "dinrh",
     "symbol": "DIN",
-    "name": "Dine Brands Global, Inc. • Robinhood Token",
+    "name": "Dine Brands Global, Inc. - Robinhood Token",
     "legacyId": 1230,
     "canonicalMarketId": "DINrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

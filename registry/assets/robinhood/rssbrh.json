@@ -2,7 +2,7 @@
   "identity": {
     "slug": "rssbrh",
     "symbol": "RSSB",
-    "name": "Russell 2000 Small-Cap Value ETF • Robinhood Token",
+    "name": "Russell 2000 Small-Cap Value ETF - Robinhood Token",
     "legacyId": 2164,
     "canonicalMarketId": "RSSBrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

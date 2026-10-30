@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ethtrh",
     "symbol": "ETHT",
-    "name": "Purpose Ether ETF • Robinhood Token",
+    "name": "Purpose Ether ETF - Robinhood Token",
     "legacyId": 1313,
     "canonicalMarketId": "ETHTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

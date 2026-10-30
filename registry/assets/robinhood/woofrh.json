@@ -2,7 +2,7 @@
   "identity": {
     "slug": "woofrh",
     "symbol": "WOOF",
-    "name": "Petco Health & Wellness Company, Inc. • Robinhood Token",
+    "name": "Petco Health & Wellness Company, Inc. - Robinhood Token",
     "legacyId": 2627,
     "canonicalMarketId": "WOOFrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

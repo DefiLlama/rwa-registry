@@ -12,7 +12,7 @@
   "class": {
     "structure": "usd-stable",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "fiat-stablecoins"
     ]
@@ -30,7 +30,7 @@
     "coingeckoId": "global-dollar"
   },
   "about": {
-    "description": "Global Dollar (USDG) is a regulated USD stablecoin issued by Paxos (including Paxos Digital Singapore and Paxos Issuance Europe for EU distribution). USDG is positioned as a compliant, institution‑grade settlement token backed by high‑quality USD reserves with periodic attestation reporting and an ecosystem of distribution partners.",
+    "description": "Global Dollar (USDG) is a regulated USD stablecoin issued by Paxos (including Paxos Digital Singapore and Paxos Issuance Europe for EU distribution). USDG is positioned as a compliant, institution-grade settlement token backed by high-quality USD reserves with periodic attestation reporting and an ecosystem of distribution partners.",
     "logo": "https://icons.llamao.fi/icons/rwa/usdg.png?w=48&h=48",
     "links": {
       "website": [
@@ -41,8 +41,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -93,6 +92,14 @@
       "chain": "arbitrum",
       "address": "0x004b506865409877c9fa29bfb1eba929984b9bbc",
       "deployedAt": "2026-02-12"
+    },
+    {
+      "chain": "eti",
+      "address": null
+    },
+    {
+      "chain": "hyperliquid",
+      "address": null
     }
   ],
   "roles": [

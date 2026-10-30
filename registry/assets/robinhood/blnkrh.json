@@ -2,7 +2,7 @@
   "identity": {
     "slug": "blnkrh",
     "symbol": "BLNK",
-    "name": "Blink Charging Co. • Robinhood Token",
+    "name": "Blink Charging Co. - Robinhood Token",
     "legacyId": 1006,
     "canonicalMarketId": "BLNKrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

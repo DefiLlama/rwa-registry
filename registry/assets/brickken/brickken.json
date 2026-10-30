@@ -44,8 +44,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -78,6 +77,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://www.brickken.com/es/aviso-legal"
+      ],
+      "protocolIds": [
+        4058
       ]
     }
   ]

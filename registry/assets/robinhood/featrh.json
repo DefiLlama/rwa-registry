@@ -2,7 +2,7 @@
   "identity": {
     "slug": "featrh",
     "symbol": "FEAT",
-    "name": "Feather Diversified ETF • Robinhood Token",
+    "name": "Feather Diversified ETF - Robinhood Token",
     "legacyId": 1362,
     "canonicalMarketId": "FEATrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

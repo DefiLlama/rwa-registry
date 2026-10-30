@@ -12,7 +12,7 @@
   "class": {
     "structure": "crypto-hedge-fund",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "crypto-funds"
     ]
@@ -31,9 +31,7 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "FR0014010OM9",
-        "source": null,
-        "verified": false
+        "value": "FR0014010OM9"
       }
     ]
   },
@@ -49,8 +47,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

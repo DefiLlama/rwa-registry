@@ -2,7 +2,7 @@
   "identity": {
     "slug": "hltrh",
     "symbol": "HLT",
-    "name": "Hilton Worldwide Holdings Inc. • Robinhood Token",
+    "name": "Hilton Worldwide Holdings Inc. - Robinhood Token",
     "legacyId": 1529,
     "canonicalMarketId": "HLTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

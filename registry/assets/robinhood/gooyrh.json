@@ -2,7 +2,7 @@
   "identity": {
     "slug": "gooyrh",
     "symbol": "GOOY",
-    "name": "Global X Inverse Google ETF • Robinhood Token",
+    "name": "Global X Inverse Google ETF - Robinhood Token",
     "legacyId": 1474,
     "canonicalMarketId": "GOOYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

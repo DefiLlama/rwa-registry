@@ -37,8 +37,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -119,6 +118,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://uranium.io"
+      ],
+      "protocolIds": [
+        6033
       ]
     }
   ]

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "vrsnrh",
     "symbol": "VRSN",
-    "name": "VeriSign, Inc. • Robinhood Token",
+    "name": "VeriSign, Inc. - Robinhood Token",
     "legacyId": 2573,
     "canonicalMarketId": "VRSNrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

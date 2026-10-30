@@ -2,7 +2,7 @@
   "identity": {
     "slug": "stemrh",
     "symbol": "STEM",
-    "name": "Stem, Inc. • Robinhood Token",
+    "name": "Stem, Inc. - Robinhood Token",
     "legacyId": 2333,
     "canonicalMarketId": "STEMrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

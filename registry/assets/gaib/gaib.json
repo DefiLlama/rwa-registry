@@ -30,7 +30,7 @@
     ]
   },
   "about": {
-    "description": "GAIB is the governance and coordination token for a protocol focused on financializing AI infrastructure, including productive assets like GPUs and related hardware. The project frames these assets as RWAs that can be funded, leased, and monetized through tokenized structures, with yield driven by compute demand and utilization. GAIB is used for governance, staking, and ecosystem alignment across the network’s infrastructure layer.",
+    "description": "GAIB is the governance and coordination token for a protocol focused on financializing AI infrastructure, including productive assets like GPUs and related hardware. The project frames these assets as RWAs that can be funded, leased, and monetized through tokenized structures, with yield driven by compute demand and utilization. GAIB is used for governance, staking, and ecosystem alignment across the network's infrastructure layer.",
     "logo": "https://icons.llamao.fi/icons/rwa/gaib.png?w=48&h=48",
     "links": {
       "website": [
@@ -41,8 +41,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

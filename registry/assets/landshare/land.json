@@ -39,8 +39,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -62,6 +61,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://docs.landshare.io/landshare-platform/landshare-holdings-llc-and-legal-structure"
+      ],
+      "protocolIds": [
+        4865
       ]
     }
   ]

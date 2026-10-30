@@ -2,7 +2,7 @@
   "identity": {
     "slug": "sxtprh",
     "symbol": "SXTP",
-    "name": "60 Degrees Pharmaceuticals, Inc. • Robinhood Token",
+    "name": "60 Degrees Pharmaceuticals, Inc. - Robinhood Token",
     "legacyId": 2359,
     "canonicalMarketId": "SXTPrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

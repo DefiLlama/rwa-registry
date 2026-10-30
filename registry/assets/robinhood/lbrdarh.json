@@ -2,7 +2,7 @@
   "identity": {
     "slug": "lbrdarh",
     "symbol": "LBRDA",
-    "name": "Liberty Broadband Corp. • Robinhood Token",
+    "name": "Liberty Broadband Corp. - Robinhood Token",
     "legacyId": 1711,
     "canonicalMarketId": "LBRDArh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

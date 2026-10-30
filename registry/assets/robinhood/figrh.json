@@ -2,7 +2,7 @@
   "identity": {
     "slug": "figrh",
     "symbol": "FIG",
-    "name": "Figma, Inc. • Robinhood Token",
+    "name": "Figma, Inc. - Robinhood Token",
     "legacyId": 1373,
     "canonicalMarketId": "FIGrh"
   },
@@ -27,9 +27,7 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "US3168411052",
-        "source": null,
-        "verified": false
+        "value": "US3168411052"
       }
     ]
   },
@@ -45,8 +43,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -77,6 +74,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://robinhood.com/eu/en/about/"
+      ],
+      "protocolIds": [
+        3732
       ]
     },
     {

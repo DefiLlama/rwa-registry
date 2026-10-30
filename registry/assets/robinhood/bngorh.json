@@ -2,7 +2,7 @@
   "identity": {
     "slug": "bngorh",
     "symbol": "BNGO",
-    "name": "Bionano Genomics, Inc. • Robinhood Token",
+    "name": "Bionano Genomics, Inc. - Robinhood Token",
     "legacyId": 1014,
     "canonicalMarketId": "BNGOrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ltbrrh",
     "symbol": "LTBR",
-    "name": "Lightbridge Corp. • Robinhood Token",
+    "name": "Lightbridge Corp. - Robinhood Token",
     "legacyId": 1749,
     "canonicalMarketId": "LTBRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

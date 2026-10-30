@@ -12,7 +12,7 @@
   "class": {
     "structure": "rwa-fiat-stable",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "rwa-stablecoins",
       "gold-commodities"
@@ -56,8 +56,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

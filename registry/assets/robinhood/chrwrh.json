@@ -2,7 +2,7 @@
   "identity": {
     "slug": "chrwrh",
     "symbol": "CHRW",
-    "name": "C. H. Robinson Worldwide, Inc. • Robinhood Token",
+    "name": "C. H. Robinson Worldwide, Inc. - Robinhood Token",
     "legacyId": 1100,
     "canonicalMarketId": "CHRWrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

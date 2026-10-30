@@ -22,9 +22,6 @@
     "selfCustody": true,
     "yieldBearing": false
   },
-  "sources": {
-    "llamaAttestationProof": false
-  },
   "about": {
     "description": "TART is an Arbitrum ERC-20 that the issuer presents as fractionalised exposure to a single fine art work. The token contract carries an on-chain inventory with one entry together with an appraisal reference. Supply is minted against a declared appraised value at a rate of one token per dollar, and the owner key can both raise the declared appraisal through updateAppraisal and mint further supply up to that figure through mintAgainstAppraisal, so supply is bounded only by a number the issuer sets. The work described in the issuer's appraisal document is a papal portrait of Saint Paul VI, oil on canvas, 136 by 207 centimetres, executed in 1970 and attributed to an anonymous French master associated with the Franciscan Missionaries of Mary. The contract's own inventory entry instead records the title as St. Paul IV and the artist as Unknown from the Renaissance era. No pope named Paul IV was ever canonised, so no Saint Paul IV exists. There is no holder-facing redemption function. Transfers are unrestricted, with no allowlist, blacklist or transfer hook. An issuer-controlled adapter returns a fixed price of one dollar per token, and a Morpho Blue market accepts TART as collateral against USDC at a 62.5% liquidation loan-to-value.",
     "logo": "https://icons.llamao.fi/icons/rwa/tart.png?w=48&h=48",
@@ -35,8 +32,7 @@
     }
   },
   "review": {
-    "activeAumReviewed": false,
-    "llamaGradeAttestation": false
+    "activeAumReviewed": false
   },
   "deployments": [
     {

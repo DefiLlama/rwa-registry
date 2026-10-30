@@ -2,7 +2,7 @@
   "identity": {
     "slug": "khcrh",
     "symbol": "KHC",
-    "name": "The Kraft Heinz Co. • Robinhood Token",
+    "name": "The Kraft Heinz Co. - Robinhood Token",
     "legacyId": 1673,
     "canonicalMarketId": "KHCrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

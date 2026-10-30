@@ -2,7 +2,7 @@
   "identity": {
     "slug": "cyhrh",
     "symbol": "CYH",
-    "name": "Community Health Systems, Inc. • Robinhood Token",
+    "name": "Community Health Systems, Inc. - Robinhood Token",
     "legacyId": 1201,
     "canonicalMarketId": "CYHrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "wxmrh",
     "symbol": "WXM",
-    "name": "WF International Ltd. • Robinhood Token",
+    "name": "WF International Ltd. - Robinhood Token",
     "legacyId": 2639,
     "canonicalMarketId": "WXMrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

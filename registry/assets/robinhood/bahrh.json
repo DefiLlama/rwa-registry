@@ -2,7 +2,7 @@
   "identity": {
     "slug": "bahrh",
     "symbol": "BAH",
-    "name": "Booz Allen Hamilton Holding Corp. • Robinhood Token",
+    "name": "Booz Allen Hamilton Holding Corp. - Robinhood Token",
     "legacyId": 954,
     "canonicalMarketId": "BAHrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -24,7 +24,7 @@
     "attestationFrequency": "Not publicly disclosed"
   },
   "about": {
-    "description": "AXPD provides palladium exposure through Altai’s tokenized commodities framework, designed for users who want access to thinner, specialized metals markets without traditional brokerage friction. It is positioned for trading and allocation alongside other Altai-listed precious metals.",
+    "description": "AXPD provides palladium exposure through Altai's tokenized commodities framework, designed for users who want access to thinner, specialized metals markets without traditional brokerage friction. It is positioned for trading and allocation alongside other Altai-listed precious metals.",
     "logo": "https://icons.llamao.fi/icons/rwa/axpd.png?w=48&h=48",
     "links": {
       "website": [
@@ -35,8 +35,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

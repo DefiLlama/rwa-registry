@@ -34,9 +34,21 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
+  "deployments": [
+    {
+      "chain": "stellar",
+      "address": "CDH2A7S4J6ECQDL4K4BB5JCBF37DYYYFNNKM2VIRZV3IVZ5VAT55BVFR",
+      "deployedAt": "2025-09-19",
+      "primary": true
+    },
+    {
+      "chain": "stellar",
+      "address": "CBJKR3NVPIL4REW75PG7M7ZJIJJ62U7I4K52Y634G7AX5C4L5ADGDKLC",
+      "deployedAt": "2025-09-19"
+    }
+  ],
   "roles": [
     {
       "organization": "olympus-capital-real-estate-llc",

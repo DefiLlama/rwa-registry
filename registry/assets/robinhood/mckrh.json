@@ -2,7 +2,7 @@
   "identity": {
     "slug": "mckrh",
     "symbol": "MCK",
-    "name": "McKesson Corp. • Robinhood Token",
+    "name": "McKesson Corp. - Robinhood Token",
     "legacyId": 1782,
     "canonicalMarketId": "MCKrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

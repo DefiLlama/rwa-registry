@@ -2,7 +2,7 @@
   "identity": {
     "slug": "apvorh",
     "symbol": "APVO",
-    "name": "Aptevo Therapeutics Inc. • Robinhood Token",
+    "name": "Aptevo Therapeutics Inc. - Robinhood Token",
     "legacyId": 890,
     "canonicalMarketId": "APVOrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

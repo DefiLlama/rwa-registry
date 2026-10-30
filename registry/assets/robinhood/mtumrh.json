@@ -2,7 +2,7 @@
   "identity": {
     "slug": "mtumrh",
     "symbol": "MTUM",
-    "name": "iShares MSCI USA Momentum Factor ETF • Robinhood Token",
+    "name": "iShares MSCI USA Momentum Factor ETF - Robinhood Token",
     "legacyId": 1852,
     "canonicalMarketId": "MTUMrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

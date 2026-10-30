@@ -2,7 +2,7 @@
   "identity": {
     "slug": "bjdxrh",
     "symbol": "BJDX",
-    "name": "Bluejay Diagnostics, Inc. • Robinhood Token",
+    "name": "Bluejay Diagnostics, Inc. - Robinhood Token",
     "legacyId": 991,
     "canonicalMarketId": "BJDXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

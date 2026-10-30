@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ethurh",
     "symbol": "ETHU",
-    "name": "Grayscale Ethereum Mini Trust • Robinhood Token",
+    "name": "Grayscale Ethereum Mini Trust - Robinhood Token",
     "legacyId": 1314,
     "canonicalMarketId": "ETHUrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

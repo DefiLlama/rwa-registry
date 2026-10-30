@@ -40,8 +40,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -73,6 +72,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://hastra.io/wylds"
+      ],
+      "protocolIds": [
+        7266
       ]
     }
   ],

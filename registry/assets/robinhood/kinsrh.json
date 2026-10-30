@@ -2,7 +2,7 @@
   "identity": {
     "slug": "kinsrh",
     "symbol": "KINS",
-    "name": "Kingstone Companies, Inc. • Robinhood Token",
+    "name": "Kingstone Companies, Inc. - Robinhood Token",
     "legacyId": 1675,
     "canonicalMarketId": "KINSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

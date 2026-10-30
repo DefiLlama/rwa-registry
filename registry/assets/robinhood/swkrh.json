@@ -2,7 +2,7 @@
   "identity": {
     "slug": "swkrh",
     "symbol": "SWK",
-    "name": "Stanley Black & Decker, Inc. • Robinhood Token",
+    "name": "Stanley Black & Decker, Inc. - Robinhood Token",
     "legacyId": 2357,
     "canonicalMarketId": "SWKrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

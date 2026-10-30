@@ -2,7 +2,7 @@
   "identity": {
     "slug": "cpbrh",
     "symbol": "CPB",
-    "name": "The Campbell's Co. • Robinhood Token",
+    "name": "The Campbell's Co. - Robinhood Token",
     "legacyId": 1152,
     "canonicalMarketId": "CPBrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

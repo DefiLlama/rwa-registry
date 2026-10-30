@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ptirrh",
     "symbol": "PTIR",
-    "name": "Platinum Investment ETF • Robinhood Token",
+    "name": "Platinum Investment ETF - Robinhood Token",
     "legacyId": 2087,
     "canonicalMarketId": "PTIRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "tnxprh",
     "symbol": "TNXP",
-    "name": "Tonix Pharmaceuticals Holding Corp. • Robinhood Token",
+    "name": "Tonix Pharmaceuticals Holding Corp. - Robinhood Token",
     "legacyId": 2412,
     "canonicalMarketId": "TNXPrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

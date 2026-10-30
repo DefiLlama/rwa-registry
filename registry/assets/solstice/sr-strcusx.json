@@ -35,8 +35,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -53,6 +52,9 @@
       "sourceLinks": [
         "https://solstice.finance/",
         "https://docs.solstice.finance/"
+      ],
+      "protocolIds": [
+        6789
       ]
     }
   ],

@@ -12,7 +12,7 @@
   "class": {
     "structure": "eur-stable",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "fiat-stablecoins"
     ]
@@ -44,7 +44,7 @@
     ]
   },
   "about": {
-    "description": "EURS is STASIS’s euro-backed stablecoin, designed to track the euro through reserve-backed issuance and redemption. STASIS provides reserve transparency materials, including reserve statements and audit or verification artifacts intended to support verification of backing over time.",
+    "description": "EURS is STASIS's euro-backed stablecoin, designed to track the euro through reserve-backed issuance and redemption. STASIS provides reserve transparency materials, including reserve statements and audit or verification artifacts intended to support verification of backing over time.",
     "logo": "https://icons.llamao.fi/icons/rwa/eurs.png?w=48&h=48",
     "links": {
       "website": [
@@ -55,8 +55,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

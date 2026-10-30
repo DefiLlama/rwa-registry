@@ -2,7 +2,7 @@
   "identity": {
     "slug": "pdynrh",
     "symbol": "PDYN",
-    "name": "Palladyne AI Corp. • Robinhood Token",
+    "name": "Palladyne AI Corp. - Robinhood Token",
     "legacyId": 2012,
     "canonicalMarketId": "PDYNrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

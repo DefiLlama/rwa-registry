@@ -2,7 +2,7 @@
   "identity": {
     "slug": "hmrrh",
     "symbol": "HMR",
-    "name": "Heidmar Maritime Holdings Corp. • Robinhood Token",
+    "name": "Heidmar Maritime Holdings Corp. - Robinhood Token",
     "legacyId": 1531,
     "canonicalMarketId": "HMRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "saiarh",
     "symbol": "SAIA",
-    "name": "Saia, Inc. • Robinhood Token",
+    "name": "Saia, Inc. - Robinhood Token",
     "legacyId": 2782,
     "canonicalMarketId": "SAIArh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

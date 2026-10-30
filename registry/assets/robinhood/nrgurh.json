@@ -2,7 +2,7 @@
   "identity": {
     "slug": "nrgurh",
     "symbol": "NRGU",
-    "name": "MicroSectors U.S. Big Oil Index 3X Leveraged ETN • Robinhood Token",
+    "name": "MicroSectors U.S. Big Oil Index 3X Leveraged ETN - Robinhood Token",
     "legacyId": 1911,
     "canonicalMarketId": "NRGUrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

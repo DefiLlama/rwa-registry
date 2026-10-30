@@ -2,7 +2,7 @@
   "identity": {
     "slug": "aapxrh",
     "symbol": "AAPX",
-    "name": "Apple Leveraged ETF • Robinhood Token",
+    "name": "Apple Leveraged ETF - Robinhood Token",
     "legacyId": 781,
     "canonicalMarketId": "AAPXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

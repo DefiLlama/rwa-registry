@@ -2,7 +2,7 @@
   "identity": {
     "slug": "coprh",
     "symbol": "COP",
-    "name": "ConocoPhillips • Robinhood Token",
+    "name": "ConocoPhillips - Robinhood Token",
     "legacyId": 1145,
     "canonicalMarketId": "COPrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

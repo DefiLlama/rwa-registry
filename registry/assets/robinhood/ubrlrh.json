@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ubrlrh",
     "symbol": "UBRL",
-    "name": "Invesco Brazilian Real ETF • Robinhood Token",
+    "name": "Invesco Brazilian Real ETF - Robinhood Token",
     "legacyId": 2472,
     "canonicalMarketId": "UBRLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

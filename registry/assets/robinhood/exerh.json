@@ -2,7 +2,7 @@
   "identity": {
     "slug": "exerh",
     "symbol": "EXE",
-    "name": "Expand Energy Corp. • Robinhood Token",
+    "name": "Expand Energy Corp. - Robinhood Token",
     "legacyId": 1339,
     "canonicalMarketId": "EXErh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

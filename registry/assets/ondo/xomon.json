@@ -12,7 +12,7 @@
   "class": {
     "structure": "stock-backed",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "stocks-equities"
     ]
@@ -31,9 +31,7 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "US30231G1022",
-        "source": null,
-        "verified": false
+        "value": "US30231G1022"
       }
     ]
   },
@@ -49,8 +47,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

@@ -12,7 +12,7 @@
   "class": {
     "structure": "stock-backed",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "stocks-equities"
     ]
@@ -38,8 +38,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -101,6 +100,30 @@
           "kind": "excluded-holder"
         }
       ]
+    },
+    {
+      "chain": "ethereum",
+      "address": null
+    },
+    {
+      "chain": "mantle",
+      "address": null
+    },
+    {
+      "chain": "ink",
+      "address": null
+    },
+    {
+      "chain": "hyperliquid",
+      "address": null
+    },
+    {
+      "chain": "optimism",
+      "address": null
+    },
+    {
+      "chain": "xlayer",
+      "address": null
     }
   ],
   "roles": [

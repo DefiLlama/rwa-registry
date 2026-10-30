@@ -2,7 +2,7 @@
   "identity": {
     "slug": "nuerh",
     "symbol": "NUE",
-    "name": "Nucor Corp. • Robinhood Token",
+    "name": "Nucor Corp. - Robinhood Token",
     "legacyId": 1920,
     "canonicalMarketId": "NUErh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

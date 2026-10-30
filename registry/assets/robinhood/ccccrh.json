@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ccccrh",
     "symbol": "CCCC",
-    "name": "C4 Therapeutics, Inc. • Robinhood Token",
+    "name": "C4 Therapeutics, Inc. - Robinhood Token",
     "legacyId": 1066,
     "canonicalMarketId": "CCCCrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

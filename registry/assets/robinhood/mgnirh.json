@@ -2,7 +2,7 @@
   "identity": {
     "slug": "mgnirh",
     "symbol": "MGNI",
-    "name": "Magnite, Inc. • Robinhood Token",
+    "name": "Magnite, Inc. - Robinhood Token",
     "legacyId": 1797,
     "canonicalMarketId": "MGNIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

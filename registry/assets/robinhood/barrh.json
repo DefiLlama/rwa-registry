@@ -2,7 +2,7 @@
   "identity": {
     "slug": "barrh",
     "symbol": "BAR",
-    "name": "GraniteShares Gold Trust • Robinhood Token",
+    "name": "GraniteShares Gold Trust - Robinhood Token",
     "legacyId": 956,
     "canonicalMarketId": "BARrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

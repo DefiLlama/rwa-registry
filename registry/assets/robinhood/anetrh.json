@@ -2,7 +2,7 @@
   "identity": {
     "slug": "anetrh",
     "symbol": "ANET",
-    "name": "Arista Networks, Inc. • Robinhood Token",
+    "name": "Arista Networks, Inc. - Robinhood Token",
     "legacyId": 873,
     "canonicalMarketId": "ANETrh"
   },
@@ -27,9 +27,7 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "US0404132054",
-        "source": null,
-        "verified": false
+        "value": "US0404132054"
       }
     ]
   },
@@ -45,8 +43,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -77,6 +74,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://robinhood.com/eu/en/about/"
+      ],
+      "protocolIds": [
+        3732
       ]
     },
     {

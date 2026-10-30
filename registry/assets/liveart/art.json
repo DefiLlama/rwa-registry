@@ -40,8 +40,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -138,6 +137,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://docs.liveart.xyz/liveart/art-token/what-is-usdart"
+      ],
+      "protocolIds": [
+        7007
       ]
     }
   ],

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "pewrh",
     "symbol": "PEW",
-    "name": "GrabAGun Digital Holdings Inc. • Robinhood Token",
+    "name": "GrabAGun Digital Holdings Inc. - Robinhood Token",
     "legacyId": 2019,
     "canonicalMarketId": "PEWrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

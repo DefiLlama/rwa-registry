@@ -2,7 +2,7 @@
   "identity": {
     "slug": "shakrh",
     "symbol": "SHAK",
-    "name": "Shake Shack Inc. • Robinhood Token",
+    "name": "Shake Shack Inc. - Robinhood Token",
     "legacyId": 2227,
     "canonicalMarketId": "SHAKrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

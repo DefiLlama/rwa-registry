@@ -2,7 +2,7 @@
   "identity": {
     "slug": "kwrh",
     "symbol": "KW",
-    "name": "Kennedy-Wilson Holdings, Inc. • Robinhood Token",
+    "name": "Kennedy-Wilson Holdings, Inc. - Robinhood Token",
     "legacyId": 1703,
     "canonicalMarketId": "KWrh"
   },
@@ -34,9 +34,15 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
+  "deployments": [
+    {
+      "chain": "arbitrum",
+      "address": null,
+      "primary": true
+    }
+  ],
   "roles": [
     {
       "organization": "robinhood-markets-inc",

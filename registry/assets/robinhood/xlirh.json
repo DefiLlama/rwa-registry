@@ -2,7 +2,7 @@
   "identity": {
     "slug": "xlirh",
     "symbol": "XLI",
-    "name": "State Street Industrial Select Sector SPDR ETF • Robinhood Token",
+    "name": "State Street Industrial Select Sector SPDR ETF - Robinhood Token",
     "legacyId": 2652,
     "canonicalMarketId": "XLIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

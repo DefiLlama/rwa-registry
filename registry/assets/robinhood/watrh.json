@@ -2,7 +2,7 @@
   "identity": {
     "slug": "watrh",
     "symbol": "WAT",
-    "name": "Waters Corp. • Robinhood Token",
+    "name": "Waters Corp. - Robinhood Token",
     "legacyId": 2602,
     "canonicalMarketId": "WATrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

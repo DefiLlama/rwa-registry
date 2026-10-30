@@ -2,7 +2,7 @@
   "identity": {
     "slug": "nvdurh",
     "symbol": "NVDU",
-    "name": "NVIDIA Inverse ETF • Robinhood Token",
+    "name": "NVIDIA Inverse ETF - Robinhood Token",
     "legacyId": 1933,
     "canonicalMarketId": "NVDUrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "hafnrh",
     "symbol": "HAFN",
-    "name": "Hafnia Ltd. • Robinhood Token",
+    "name": "Hafnia Ltd. - Robinhood Token",
     "legacyId": 1505,
     "canonicalMarketId": "HAFNrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "009cvr044rh",
     "symbol": "009CVR044",
-    "name": "009CVR044 Contingent Value Right • Robinhood Token",
+    "name": "009CVR044 Contingent Value Right - Robinhood Token",
     "legacyId": 773,
     "canonicalMarketId": "009CVR044rh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

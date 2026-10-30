@@ -2,7 +2,7 @@
   "identity": {
     "slug": "acirh",
     "symbol": "ACI",
-    "name": "Albertsons Companies, Inc. • Robinhood Token",
+    "name": "Albertsons Companies, Inc. - Robinhood Token",
     "legacyId": 795,
     "canonicalMarketId": "ACIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

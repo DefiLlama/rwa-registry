@@ -2,7 +2,7 @@
   "identity": {
     "slug": "cprirh",
     "symbol": "CPRI",
-    "name": "Capri Holdings Ltd. • Robinhood Token",
+    "name": "Capri Holdings Ltd. - Robinhood Token",
     "legacyId": 1155,
     "canonicalMarketId": "CPRIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

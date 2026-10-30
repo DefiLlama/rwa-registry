@@ -2,7 +2,7 @@
   "identity": {
     "slug": "tostrh",
     "symbol": "TOST",
-    "name": "Toast, Inc. • Robinhood Token",
+    "name": "Toast, Inc. - Robinhood Token",
     "legacyId": 2416,
     "canonicalMarketId": "TOSTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

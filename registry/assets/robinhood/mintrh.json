@@ -2,7 +2,7 @@
   "identity": {
     "slug": "mintrh",
     "symbol": "MINT",
-    "name": "PIMCO Enhanced Short Maturity Active ETF • Robinhood Token",
+    "name": "PIMCO Enhanced Short Maturity Active ETF - Robinhood Token",
     "legacyId": 1800,
     "canonicalMarketId": "MINTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

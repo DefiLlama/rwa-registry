@@ -2,7 +2,7 @@
   "identity": {
     "slug": "epsmrh",
     "symbol": "EPSM",
-    "name": "Epsium Enterprise Ltd. • Robinhood Token",
+    "name": "Epsium Enterprise Ltd. - Robinhood Token",
     "legacyId": 1299,
     "canonicalMarketId": "EPSMrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

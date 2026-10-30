@@ -2,7 +2,7 @@
   "identity": {
     "slug": "fasrh",
     "symbol": "FAS",
-    "name": "Direxion Daily Financial Bull 3X ETF • Robinhood Token",
+    "name": "Direxion Daily Financial Bull 3X ETF - Robinhood Token",
     "legacyId": 1349,
     "canonicalMarketId": "FASrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

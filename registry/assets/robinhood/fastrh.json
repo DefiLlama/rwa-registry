@@ -2,7 +2,7 @@
   "identity": {
     "slug": "fastrh",
     "symbol": "FAST",
-    "name": "Fastenal Co. • Robinhood Token",
+    "name": "Fastenal Co. - Robinhood Token",
     "legacyId": 1348,
     "canonicalMarketId": "FASTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

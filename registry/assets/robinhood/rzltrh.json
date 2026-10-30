@@ -2,7 +2,7 @@
   "identity": {
     "slug": "rzltrh",
     "symbol": "RZLT",
-    "name": "Rezolute, Inc. • Robinhood Token",
+    "name": "Rezolute, Inc. - Robinhood Token",
     "legacyId": 2176,
     "canonicalMarketId": "RZLTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

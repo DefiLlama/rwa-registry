@@ -2,7 +2,7 @@
   "identity": {
     "slug": "fitbrh",
     "symbol": "FITB",
-    "name": "Fifth Third Bancorp • Robinhood Token",
+    "name": "Fifth Third Bancorp - Robinhood Token",
     "legacyId": 2773,
     "canonicalMarketId": "FITBrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

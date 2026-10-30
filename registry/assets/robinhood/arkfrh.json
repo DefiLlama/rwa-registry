@@ -2,7 +2,7 @@
   "identity": {
     "slug": "arkfrh",
     "symbol": "ARKF",
-    "name": "ARK Fintech Innovation ETF • Robinhood Token",
+    "name": "ARK Fintech Innovation ETF - Robinhood Token",
     "legacyId": 903,
     "canonicalMarketId": "ARKFrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

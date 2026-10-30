@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ldirh",
     "symbol": "LDI",
-    "name": "loanDepot, Inc. • Robinhood Token",
+    "name": "loanDepot, Inc. - Robinhood Token",
     "legacyId": 1717,
     "canonicalMarketId": "LDIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

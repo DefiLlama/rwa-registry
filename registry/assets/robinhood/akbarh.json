@@ -2,7 +2,7 @@
   "identity": {
     "slug": "akbarh",
     "symbol": "AKBA",
-    "name": "Akebia Therapeutics, Inc. • Robinhood Token",
+    "name": "Akebia Therapeutics, Inc. - Robinhood Token",
     "legacyId": 835,
     "canonicalMarketId": "AKBArh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

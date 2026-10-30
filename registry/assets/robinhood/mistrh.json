@@ -2,7 +2,7 @@
   "identity": {
     "slug": "mistrh",
     "symbol": "MIST",
-    "name": "Milestone Pharmaceuticals Inc. • Robinhood Token",
+    "name": "Milestone Pharmaceuticals Inc. - Robinhood Token",
     "legacyId": 1802,
     "canonicalMarketId": "MISTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

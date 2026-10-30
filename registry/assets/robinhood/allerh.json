@@ -2,7 +2,7 @@
   "identity": {
     "slug": "allerh",
     "symbol": "ALLE",
-    "name": "Allegion plc • Robinhood Token",
+    "name": "Allegion plc - Robinhood Token",
     "legacyId": 844,
     "canonicalMarketId": "ALLErh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

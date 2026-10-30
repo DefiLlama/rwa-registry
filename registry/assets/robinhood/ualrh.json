@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ualrh",
     "symbol": "UAL",
-    "name": "United Airlines Holdings, Inc. • Robinhood Token",
+    "name": "United Airlines Holdings, Inc. - Robinhood Token",
     "legacyId": 2467,
     "canonicalMarketId": "UALrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

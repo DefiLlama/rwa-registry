@@ -2,7 +2,7 @@
   "identity": {
     "slug": "appfrh",
     "symbol": "APPF",
-    "name": "AppFolio, Inc. • Robinhood Token",
+    "name": "AppFolio, Inc. - Robinhood Token",
     "legacyId": 886,
     "canonicalMarketId": "APPFrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

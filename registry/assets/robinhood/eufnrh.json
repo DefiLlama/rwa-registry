@@ -2,7 +2,7 @@
   "identity": {
     "slug": "eufnrh",
     "symbol": "EUFN",
-    "name": "iShares MSCI Emerging Markets Finance ETF • Robinhood Token",
+    "name": "iShares MSCI Emerging Markets Finance ETF - Robinhood Token",
     "legacyId": 1319,
     "canonicalMarketId": "EUFNrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

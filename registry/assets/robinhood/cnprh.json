@@ -2,7 +2,7 @@
   "identity": {
     "slug": "cnprh",
     "symbol": "CNP",
-    "name": "CenterPoint Energy, Inc. • Robinhood Token",
+    "name": "CenterPoint Energy, Inc. - Robinhood Token",
     "legacyId": 1131,
     "canonicalMarketId": "CNPrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

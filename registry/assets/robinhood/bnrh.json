@@ -2,7 +2,7 @@
   "identity": {
     "slug": "bnrh",
     "symbol": "BN",
-    "name": "Brookfield Corporation • Robinhood Token",
+    "name": "Brookfield Corporation - Robinhood Token",
     "legacyId": 1017,
     "canonicalMarketId": "BNrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

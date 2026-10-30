@@ -2,7 +2,7 @@
   "identity": {
     "slug": "rtxrh",
     "symbol": "RTX",
-    "name": "RTX Corp. • Robinhood Token",
+    "name": "RTX Corp. - Robinhood Token",
     "legacyId": 2165,
     "canonicalMarketId": "RTXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

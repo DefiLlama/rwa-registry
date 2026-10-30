@@ -2,7 +2,7 @@
   "identity": {
     "slug": "fnrh",
     "symbol": "FN",
-    "name": "Fabrinet • Robinhood Token",
+    "name": "Fabrinet - Robinhood Token",
     "legacyId": 1396,
     "canonicalMarketId": "FNrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -12,7 +12,7 @@
   "class": {
     "structure": "corp-bond-fund",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "bond-mmf-funds"
     ]
@@ -31,9 +31,7 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "CH1173294302",
-        "source": null,
-        "verified": false
+        "value": "CH1173294302"
       }
     ]
   },
@@ -49,8 +47,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

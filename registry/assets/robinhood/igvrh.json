@@ -2,7 +2,7 @@
   "identity": {
     "slug": "igvrh",
     "symbol": "IGV",
-    "name": "iShares Expanded Tech-Software Sector ETF • Robinhood Token",
+    "name": "iShares Expanded Tech-Software Sector ETF - Robinhood Token",
     "legacyId": 1584,
     "canonicalMarketId": "IGVrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

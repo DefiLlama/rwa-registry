@@ -2,7 +2,7 @@
   "identity": {
     "slug": "aalrh",
     "symbol": "AAL",
-    "name": "American Airlines Group Inc. • Robinhood Token",
+    "name": "American Airlines Group Inc. - Robinhood Token",
     "legacyId": 775,
     "canonicalMarketId": "AALrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

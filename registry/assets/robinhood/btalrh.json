@@ -2,7 +2,7 @@
   "identity": {
     "slug": "btalrh",
     "symbol": "BTAL",
-    "name": "Bluetooth Technology ETF • Robinhood Token",
+    "name": "Bluetooth Technology ETF - Robinhood Token",
     "legacyId": 1032,
     "canonicalMarketId": "BTALrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

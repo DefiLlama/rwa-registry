@@ -2,7 +2,7 @@
   "identity": {
     "slug": "msosrh",
     "symbol": "MSOS",
-    "name": "AdvisorShares Pure US Cannabis ETF • Robinhood Token",
+    "name": "AdvisorShares Pure US Cannabis ETF - Robinhood Token",
     "legacyId": 1838,
     "canonicalMarketId": "MSOSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

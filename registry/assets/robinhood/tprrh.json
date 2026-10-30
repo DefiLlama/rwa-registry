@@ -2,7 +2,7 @@
   "identity": {
     "slug": "tprrh",
     "symbol": "TPR",
-    "name": "Tapestry, Inc. • Robinhood Token",
+    "name": "Tapestry, Inc. - Robinhood Token",
     "legacyId": 2418,
     "canonicalMarketId": "TPRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

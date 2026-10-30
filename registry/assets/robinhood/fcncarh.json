@@ -2,7 +2,7 @@
   "identity": {
     "slug": "fcncarh",
     "symbol": "FCNCA",
-    "name": "First Citizens BancShares, Inc. • Robinhood Token",
+    "name": "First Citizens BancShares, Inc. - Robinhood Token",
     "legacyId": 1356,
     "canonicalMarketId": "FCNCArh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

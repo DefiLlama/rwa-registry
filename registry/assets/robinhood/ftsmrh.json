@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ftsmrh",
     "symbol": "FTSM",
-    "name": "Fidelity Total Market Index ETF • Robinhood Token",
+    "name": "Fidelity Total Market Index ETF - Robinhood Token",
     "legacyId": 1412,
     "canonicalMarketId": "FTSMrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

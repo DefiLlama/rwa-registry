@@ -12,7 +12,7 @@
   "class": {
     "structure": "gold",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "gold-commodities"
     ]
@@ -39,8 +39,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -91,6 +90,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://docs.gold-dao.org/how-to/redeem-physical-gold"
+      ],
+      "protocolIds": [
+        4476
       ]
     }
   ],

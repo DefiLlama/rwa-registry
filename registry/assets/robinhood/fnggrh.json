@@ -2,7 +2,7 @@
   "identity": {
     "slug": "fnggrh",
     "symbol": "FNGG",
-    "name": "Direxion Daily NYSE FANG+ Bull 2X ETF • Robinhood Token",
+    "name": "Direxion Daily NYSE FANG+ Bull 2X ETF - Robinhood Token",
     "legacyId": 1390,
     "canonicalMarketId": "FNGGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

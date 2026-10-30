@@ -2,7 +2,7 @@
   "identity": {
     "slug": "vltorh",
     "symbol": "VLTO",
-    "name": "Veralto Corp. • Robinhood Token",
+    "name": "Veralto Corp. - Robinhood Token",
     "legacyId": 2557,
     "canonicalMarketId": "VLTOrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

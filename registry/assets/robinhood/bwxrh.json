@@ -2,7 +2,7 @@
   "identity": {
     "slug": "bwxrh",
     "symbol": "BWX",
-    "name": "State Street SPDR Bloomberg International Treasury Bond ETF • Robinhood Token",
+    "name": "State Street SPDR Bloomberg International Treasury Bond ETF - Robinhood Token",
     "legacyId": 1045,
     "canonicalMarketId": "BWXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

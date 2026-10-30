@@ -33,8 +33,7 @@
   },
   "review": {
     "activeAumReviewed": true,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "roles": [
     {
@@ -55,6 +54,13 @@
       "kind": "review",
       "outcome": "suspicious",
       "reason": "Issuance recorded on Intain's permissioned Avalanche Layer-1 with no public explorer, RPC, or contract addresses: supply, holders, and deal terms cannot be independently verified on-chain (platform-reported data only). Issuer attribution to Cogent Bank unconfirmed by any primary source (the bank is real: FDIC cert 34908, Orlando FL, with a blockchain banking practice, but no publication names it as the bank behind these pools). The platform itself is credible (FIS Digital Liquidity Gateway partnership, AvaCloud, Nov 2025 launch). Verified 2026-06-11."
+    }
+  ],
+  "deployments": [
+    {
+      "chain": "intain",
+      "address": null,
+      "primary": true
     }
   ]
 }

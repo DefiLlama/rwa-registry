@@ -2,7 +2,7 @@
   "identity": {
     "slug": "tslsrh",
     "symbol": "TSLS",
-    "name": "Direxion Daily TSLA Bear 1X ETF • Robinhood Token",
+    "name": "Direxion Daily TSLA Bear 1X ETF - Robinhood Token",
     "legacyId": 2438,
     "canonicalMarketId": "TSLSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "iexrh",
     "symbol": "IEX",
-    "name": "IDEX Corp. • Robinhood Token",
+    "name": "IDEX Corp. - Robinhood Token",
     "legacyId": 2776,
     "canonicalMarketId": "IEXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

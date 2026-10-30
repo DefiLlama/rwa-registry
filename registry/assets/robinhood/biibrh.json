@@ -2,7 +2,7 @@
   "identity": {
     "slug": "biibrh",
     "symbol": "BIIB",
-    "name": "Biogen Inc. • Robinhood Token",
+    "name": "Biogen Inc. - Robinhood Token",
     "legacyId": 979,
     "canonicalMarketId": "BIIBrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

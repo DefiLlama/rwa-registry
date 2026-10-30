@@ -2,7 +2,7 @@
   "identity": {
     "slug": "dgrorh",
     "symbol": "DGRO",
-    "name": "iShares Core Dividend Growth ETF • Robinhood Token",
+    "name": "iShares Core Dividend Growth ETF - Robinhood Token",
     "legacyId": 1225,
     "canonicalMarketId": "DGROrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

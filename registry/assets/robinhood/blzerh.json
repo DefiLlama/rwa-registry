@@ -2,7 +2,7 @@
   "identity": {
     "slug": "blzerh",
     "symbol": "BLZE",
-    "name": "Backblaze, Inc. • Robinhood Token",
+    "name": "Backblaze, Inc. - Robinhood Token",
     "legacyId": 1008,
     "canonicalMarketId": "BLZErh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

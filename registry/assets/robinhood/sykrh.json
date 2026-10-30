@@ -2,7 +2,7 @@
   "identity": {
     "slug": "sykrh",
     "symbol": "SYK",
-    "name": "Stryker Corp. • Robinhood Token",
+    "name": "Stryker Corp. - Robinhood Token",
     "legacyId": 2361,
     "canonicalMarketId": "SYKrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "dvyrh",
     "symbol": "DVY",
-    "name": "iShares Select Dividend ETF • Robinhood Token",
+    "name": "iShares Select Dividend ETF - Robinhood Token",
     "legacyId": 1260,
     "canonicalMarketId": "DVYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

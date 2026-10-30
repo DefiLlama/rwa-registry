@@ -2,7 +2,7 @@
   "identity": {
     "slug": "lcidrh",
     "symbol": "LCID",
-    "name": "Lucid Group, Inc. • Robinhood Token",
+    "name": "Lucid Group, Inc. - Robinhood Token",
     "legacyId": 1714,
     "canonicalMarketId": "LCIDrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "bacrh",
     "symbol": "BAC",
-    "name": "Bank of America Corporation • Robinhood Token",
+    "name": "Bank of America Corporation - Robinhood Token",
     "legacyId": 953,
     "canonicalMarketId": "BACrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

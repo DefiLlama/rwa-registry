@@ -2,7 +2,7 @@
   "identity": {
     "slug": "soxsrh",
     "symbol": "SOXS",
-    "name": "Direxion Daily Semiconductor Bear 3X ETF • Robinhood Token",
+    "name": "Direxion Daily Semiconductor Bear 3X ETF - Robinhood Token",
     "legacyId": 2290,
     "canonicalMarketId": "SOXSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

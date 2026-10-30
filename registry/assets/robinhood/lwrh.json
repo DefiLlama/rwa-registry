@@ -2,7 +2,7 @@
   "identity": {
     "slug": "lwrh",
     "symbol": "LW",
-    "name": "Lamb Weston Holdings, Inc. • Robinhood Token",
+    "name": "Lamb Weston Holdings, Inc. - Robinhood Token",
     "legacyId": 1758,
     "canonicalMarketId": "LWrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

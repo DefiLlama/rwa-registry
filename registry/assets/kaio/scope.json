@@ -26,7 +26,7 @@
     "yieldBearing": true
   },
   "about": {
-    "description": "SCOPE on KAIO provides regulated, tokenized access to Hamilton Lane’s senior private credit strategy (SCOPE), designed for eligible investors with embedded compliance controls. The tokenized position is intended to be usable onchain where permitted, while maintaining institutional fund operations such as subscriptions, redemptions, and reporting.",
+    "description": "SCOPE on KAIO provides regulated, tokenized access to Hamilton Lane's senior private credit strategy (SCOPE), designed for eligible investors with embedded compliance controls. The tokenized position is intended to be usable onchain where permitted, while maintaining institutional fund operations such as subscriptions, redemptions, and reporting.",
     "logo": "https://icons.llamao.fi/icons/rwa/hamilton-lane-senior-credit-opportunities-fund-access-kaio.png?w=48&h=48",
     "links": {
       "website": [
@@ -37,15 +37,28 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
+  "deployments": [
+    {
+      "chain": "solana",
+      "address": null,
+      "primary": true
+    },
+    {
+      "chain": "sei",
+      "address": null
+    }
+  ],
   "roles": [
     {
       "organization": "kaio-tokenization-provider",
       "kind": "issuer",
       "sourceLinks": [
         "https://www.kaio.xyz/"
+      ],
+      "protocolIds": [
+        5689
       ]
     }
   ]

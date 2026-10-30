@@ -2,7 +2,7 @@
   "identity": {
     "slug": "txrhrh",
     "symbol": "TXRH",
-    "name": "Texas Roadhouse, Inc. • Robinhood Token",
+    "name": "Texas Roadhouse, Inc. - Robinhood Token",
     "legacyId": 2785,
     "canonicalMarketId": "TXRHrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

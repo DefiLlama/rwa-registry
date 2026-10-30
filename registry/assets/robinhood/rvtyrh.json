@@ -2,7 +2,7 @@
   "identity": {
     "slug": "rvtyrh",
     "symbol": "RVTY",
-    "name": "Revvity, Inc. • Robinhood Token",
+    "name": "Revvity, Inc. - Robinhood Token",
     "legacyId": 2169,
     "canonicalMarketId": "RVTYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "tdgrh",
     "symbol": "TDG",
-    "name": "TransDigm Group INC • Robinhood Token",
+    "name": "TransDigm Group INC - Robinhood Token",
     "legacyId": 2373,
     "canonicalMarketId": "TDGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

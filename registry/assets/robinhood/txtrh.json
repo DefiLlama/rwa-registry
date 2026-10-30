@@ -2,7 +2,7 @@
   "identity": {
     "slug": "txtrh",
     "symbol": "TXT",
-    "name": "Textron Inc. • Robinhood Token",
+    "name": "Textron Inc. - Robinhood Token",
     "legacyId": 2462,
     "canonicalMarketId": "TXTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

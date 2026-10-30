@@ -27,7 +27,7 @@
     "attestationFrequency": "Continuous / verification-app based"
   },
   "about": {
-    "description": "afi-rwaUSDi is AFI’s institutional ERC-4626 Proof-of-Reserve receipt token for locked rwaUSDi issued by Multipli. AFI docs say the vault locks rwaUSDi as non-circulating collateral and mints 1 afi-rwaUSDi per rwaUSDi deposited, creating a provable onchain wrapper for institutional DeFi use. The underlying rwaUSDi targets private credit, structured finance, project finance, asset-backed lending, and market-neutral strategies. Reserve status and attestation history are exposed through AFI’s verification app. Vault access is institutionally gated / deposit-closed, approved entities are required for access, transfers are disabled per project submission, and AFI’s public custody docs describe the protocol as non-custodial.",
+    "description": "afi-rwaUSDi is AFI's institutional ERC-4626 Proof-of-Reserve receipt token for locked rwaUSDi issued by Multipli. AFI docs say the vault locks rwaUSDi as non-circulating collateral and mints 1 afi-rwaUSDi per rwaUSDi deposited, creating a provable onchain wrapper for institutional DeFi use. The underlying rwaUSDi targets private credit, structured finance, project finance, asset-backed lending, and market-neutral strategies. Reserve status and attestation history are exposed through AFI's verification app. Vault access is institutionally gated / deposit-closed, approved entities are required for access, transfers are disabled per project submission, and AFI's public custody docs describe the protocol as non-custodial.",
     "logo": "https://icons.llamao.fi/icons/rwa/afi-rwausdi.png?w=48&h=48",
     "links": {
       "website": [
@@ -37,8 +37,7 @@
   },
   "review": {
     "activeAumReviewed": true,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {
@@ -108,8 +107,8 @@
   "events": [
     {
       "kind": "delisting",
-      "date": null,
-      "note": "last stored day not given at import"
+      "date": "2026-09-02",
+      "note": "dated from the last day daily_rwa_data stored the asset"
     },
     {
       "kind": "attestation",

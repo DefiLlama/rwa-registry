@@ -2,7 +2,7 @@
   "identity": {
     "slug": "klarrh",
     "symbol": "KLAR",
-    "name": "Klarna Group plc • Robinhood Token",
+    "name": "Klarna Group plc - Robinhood Token",
     "legacyId": 1679,
     "canonicalMarketId": "KLARrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "cycurh",
     "symbol": "CYCU",
-    "name": "Cycurion, Inc. • Robinhood Token",
+    "name": "Cycurion, Inc. - Robinhood Token",
     "legacyId": 1200,
     "canonicalMarketId": "CYCUrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ttanrh",
     "symbol": "TTAN",
-    "name": "ServiceTitan, Inc. • Robinhood Token",
+    "name": "ServiceTitan, Inc. - Robinhood Token",
     "legacyId": 2449,
     "canonicalMarketId": "TTANrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

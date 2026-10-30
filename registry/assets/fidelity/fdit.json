@@ -12,7 +12,7 @@
   "class": {
     "structure": "mmf",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "bond-mmf-funds"
     ]
@@ -31,14 +31,12 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "US31617H8135",
-        "source": null,
-        "verified": false
+        "value": "US31617H8135"
       }
     ]
   },
   "about": {
-    "description": "FDIT represents a tokenized share exposure tied to Fidelity’s Treasury-focused digital fund share class, designed to provide current income consistent with liquidity and principal preservation. It is structured as a NAV-based cash-management instrument where performance is driven by short-duration U.S. government and cash-equivalent holdings rather than crypto market beta.",
+    "description": "FDIT represents a tokenized share exposure tied to Fidelity's Treasury-focused digital fund share class, designed to provide current income consistent with liquidity and principal preservation. It is structured as a NAV-based cash-management instrument where performance is driven by short-duration U.S. government and cash-equivalent holdings rather than crypto market beta.",
     "logo": "https://icons.llamao.fi/icons/rwa/fdit.png?w=48&h=48",
     "links": {
       "website": [
@@ -49,8 +47,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

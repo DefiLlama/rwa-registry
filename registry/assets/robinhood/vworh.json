@@ -2,7 +2,7 @@
   "identity": {
     "slug": "vworh",
     "symbol": "VWO",
-    "name": "Vanguard FTSE Emerging Markets ETF • Robinhood Token",
+    "name": "Vanguard FTSE Emerging Markets ETF - Robinhood Token",
     "legacyId": 2593,
     "canonicalMarketId": "VWOrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

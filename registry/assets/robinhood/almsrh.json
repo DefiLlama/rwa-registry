@@ -2,7 +2,7 @@
   "identity": {
     "slug": "almsrh",
     "symbol": "ALMS",
-    "name": "Alumis Inc. • Robinhood Token",
+    "name": "Alumis Inc. - Robinhood Token",
     "legacyId": 849,
     "canonicalMarketId": "ALMSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

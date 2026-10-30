@@ -2,7 +2,7 @@
   "identity": {
     "slug": "sbuxrh",
     "symbol": "SBUX",
-    "name": "Starbucks Corp. • Robinhood Token",
+    "name": "Starbucks Corp. - Robinhood Token",
     "legacyId": 2190,
     "canonicalMarketId": "SBUXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

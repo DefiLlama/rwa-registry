@@ -2,7 +2,7 @@
   "identity": {
     "slug": "usd-etfrh",
     "symbol": "USD_ETF",
-    "name": "United States Dollar ETF • Robinhood Token",
+    "name": "United States Dollar ETF - Robinhood Token",
     "legacyId": 2505,
     "canonicalMarketId": "USD_ETFrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

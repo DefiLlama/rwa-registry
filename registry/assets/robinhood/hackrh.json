@@ -2,7 +2,7 @@
   "identity": {
     "slug": "hackrh",
     "symbol": "HACK",
-    "name": "iShares Global Tech ETF • Robinhood Token",
+    "name": "iShares Global Tech ETF - Robinhood Token",
     "legacyId": 1504,
     "canonicalMarketId": "HACKrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

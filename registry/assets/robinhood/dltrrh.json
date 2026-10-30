@@ -2,7 +2,7 @@
   "identity": {
     "slug": "dltrrh",
     "symbol": "DLTR",
-    "name": "Dollar Tree, Inc. • Robinhood Token",
+    "name": "Dollar Tree, Inc. - Robinhood Token",
     "legacyId": 1239,
     "canonicalMarketId": "DLTRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

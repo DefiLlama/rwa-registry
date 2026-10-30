@@ -2,7 +2,7 @@
   "identity": {
     "slug": "itwrh",
     "symbol": "ITW",
-    "name": "Illinois Tool Works Inc. • Robinhood Token",
+    "name": "Illinois Tool Works Inc. - Robinhood Token",
     "legacyId": 1627,
     "canonicalMarketId": "ITWrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "aiyyrh",
     "symbol": "AIYY",
-    "name": "AI Yield ETF • Robinhood Token",
+    "name": "AI Yield ETF - Robinhood Token",
     "legacyId": 830,
     "canonicalMarketId": "AIYYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

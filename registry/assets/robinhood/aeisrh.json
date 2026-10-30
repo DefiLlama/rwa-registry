@@ -2,7 +2,7 @@
   "identity": {
     "slug": "aeisrh",
     "symbol": "AEIS",
-    "name": "Advanced Energy Industries, Inc. • Robinhood Token",
+    "name": "Advanced Energy Industries, Inc. - Robinhood Token",
     "legacyId": 8768,
     "canonicalMarketId": "AEISrh"
   },
@@ -27,9 +27,7 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "US0079731008",
-        "source": null,
-        "verified": false
+        "value": "US0079731008"
       }
     ]
   },
@@ -45,8 +43,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -62,6 +59,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://robinhood.com/eu/en/about/"
+      ],
+      "protocolIds": [
+        3732
       ]
     },
     {

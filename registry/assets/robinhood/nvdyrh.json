@@ -2,7 +2,7 @@
   "identity": {
     "slug": "nvdyrh",
     "symbol": "NVDY",
-    "name": "NVIDIA Leveraged ETF • Robinhood Token",
+    "name": "NVIDIA Leveraged ETF - Robinhood Token",
     "legacyId": 2740,
     "canonicalMarketId": "NVDYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

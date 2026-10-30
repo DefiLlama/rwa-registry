@@ -2,7 +2,7 @@
   "identity": {
     "slug": "iwfrh",
     "symbol": "IWF",
-    "name": "iShares Russell 1000 Growth ETF • Robinhood Token",
+    "name": "iShares Russell 1000 Growth ETF - Robinhood Token",
     "legacyId": 2797,
     "canonicalMarketId": "IWFrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

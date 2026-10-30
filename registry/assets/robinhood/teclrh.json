@@ -2,7 +2,7 @@
   "identity": {
     "slug": "teclrh",
     "symbol": "TECL",
-    "name": "Direxion Daily Technology Bull 3X ETF • Robinhood Token",
+    "name": "Direxion Daily Technology Bull 3X ETF - Robinhood Token",
     "legacyId": 2744,
     "canonicalMarketId": "TECLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

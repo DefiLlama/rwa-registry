@@ -2,7 +2,7 @@
   "identity": {
     "slug": "hogrh",
     "symbol": "HOG",
-    "name": "Harley-Davidson, Inc. • Robinhood Token",
+    "name": "Harley-Davidson, Inc. - Robinhood Token",
     "legacyId": 1535,
     "canonicalMarketId": "HOGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

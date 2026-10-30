@@ -2,7 +2,7 @@
   "identity": {
     "slug": "googrh",
     "symbol": "GOOG",
-    "name": "Alphabet Inc. • Robinhood Token",
+    "name": "Alphabet Inc. - Robinhood Token",
     "legacyId": 2737,
     "canonicalMarketId": "GOOGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "scvlrh",
     "symbol": "SCVL",
-    "name": "Shoe Station Group, Inc. • Robinhood Token",
+    "name": "Shoe Station Group, Inc. - Robinhood Token",
     "legacyId": 2208,
     "canonicalMarketId": "SCVLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

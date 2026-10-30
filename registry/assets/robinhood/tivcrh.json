@@ -2,7 +2,7 @@
   "identity": {
     "slug": "tivcrh",
     "symbol": "TIVC",
-    "name": "Tivic Health Systems, Inc. • Robinhood Token",
+    "name": "Tivic Health Systems, Inc. - Robinhood Token",
     "legacyId": 2395,
     "canonicalMarketId": "TIVCrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

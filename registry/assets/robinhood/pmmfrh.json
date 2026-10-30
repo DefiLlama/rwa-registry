@@ -2,7 +2,7 @@
   "identity": {
     "slug": "pmmfrh",
     "symbol": "PMMF",
-    "name": "Precious Metals Mini Fund ETF • Robinhood Token",
+    "name": "Precious Metals Mini Fund ETF - Robinhood Token",
     "legacyId": 2051,
     "canonicalMarketId": "PMMFrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

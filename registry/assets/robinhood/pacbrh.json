@@ -2,7 +2,7 @@
   "identity": {
     "slug": "pacbrh",
     "symbol": "PACB",
-    "name": "Pacific Biosciences of California, Inc. • Robinhood Token",
+    "name": "Pacific Biosciences of California, Inc. - Robinhood Token",
     "legacyId": 1993,
     "canonicalMarketId": "PACBrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

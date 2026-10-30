@@ -2,7 +2,7 @@
   "identity": {
     "slug": "kgcrh",
     "symbol": "KGC",
-    "name": "Kinross Gold Corp. • Robinhood Token",
+    "name": "Kinross Gold Corp. - Robinhood Token",
     "legacyId": 1672,
     "canonicalMarketId": "KGCrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

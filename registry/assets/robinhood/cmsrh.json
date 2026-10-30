@@ -2,7 +2,7 @@
   "identity": {
     "slug": "cmsrh",
     "symbol": "CMS",
-    "name": "CMS Energy Corp. • Robinhood Token",
+    "name": "CMS Energy Corp. - Robinhood Token",
     "legacyId": 1127,
     "canonicalMarketId": "CMSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

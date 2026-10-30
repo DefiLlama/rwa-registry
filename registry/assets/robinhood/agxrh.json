@@ -2,7 +2,7 @@
   "identity": {
     "slug": "agxrh",
     "symbol": "AGX",
-    "name": "Argan, Inc. • Robinhood Token",
+    "name": "Argan, Inc. - Robinhood Token",
     "legacyId": 823,
     "canonicalMarketId": "AGXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

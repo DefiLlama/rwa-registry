@@ -2,7 +2,7 @@
   "identity": {
     "slug": "dukrh",
     "symbol": "DUK",
-    "name": "Duke Energy Corp. • Robinhood Token",
+    "name": "Duke Energy Corp. - Robinhood Token",
     "legacyId": 1255,
     "canonicalMarketId": "DUKrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "nflurh",
     "symbol": "NFLU",
-    "name": "Influenza Vaccine ETF • Robinhood Token",
+    "name": "Influenza Vaccine ETF - Robinhood Token",
     "legacyId": 1886,
     "canonicalMarketId": "NFLUrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "aevarh",
     "symbol": "AEVA",
-    "name": "Aeva Technologies, Inc. • Robinhood Token",
+    "name": "Aeva Technologies, Inc. - Robinhood Token",
     "legacyId": 814,
     "canonicalMarketId": "AEVArh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

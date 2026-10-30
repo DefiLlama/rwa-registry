@@ -2,7 +2,7 @@
   "identity": {
     "slug": "tvgnrh",
     "symbol": "TVGN",
-    "name": "Tevogen Inc. • Robinhood Token",
+    "name": "Tevogen Inc. - Robinhood Token",
     "legacyId": 2455,
     "canonicalMarketId": "TVGNrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

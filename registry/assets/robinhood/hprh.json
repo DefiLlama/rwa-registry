@@ -2,7 +2,7 @@
   "identity": {
     "slug": "hprh",
     "symbol": "HP",
-    "name": "Helmerich & Payne, Inc. • Robinhood Token",
+    "name": "Helmerich & Payne, Inc. - Robinhood Token",
     "legacyId": 1542,
     "canonicalMarketId": "HPrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

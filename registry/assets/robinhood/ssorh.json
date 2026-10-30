@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ssorh",
     "symbol": "SSO",
-    "name": "ProShares Ultra S&P 500 • Robinhood Token",
+    "name": "ProShares Ultra S&P 500 - Robinhood Token",
     "legacyId": 2330,
     "canonicalMarketId": "SSOrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "spusrh",
     "symbol": "SPUS",
-    "name": "SP Funds S&P 500 Sharia ETF • Robinhood Token",
+    "name": "SP Funds S&P 500 Sharia ETF - Robinhood Token",
     "legacyId": 2310,
     "canonicalMarketId": "SPUSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

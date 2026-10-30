@@ -2,7 +2,7 @@
   "identity": {
     "slug": "crirh",
     "symbol": "CRI",
-    "name": "Carter's, Inc. • Robinhood Token",
+    "name": "Carter's, Inc. - Robinhood Token",
     "legacyId": 1162,
     "canonicalMarketId": "CRIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

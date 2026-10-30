@@ -2,7 +2,7 @@
   "identity": {
     "slug": "rdterh",
     "symbol": "RDTE",
-    "name": "Relative Value Distribution ETF • Robinhood Token",
+    "name": "Relative Value Distribution ETF - Robinhood Token",
     "legacyId": 2125,
     "canonicalMarketId": "RDTErh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -25,8 +25,7 @@
     "yieldBearing": true
   },
   "sources": {
-    "coingeckoId": "netnet",
-    "llamaAttestationProof": false
+    "coingeckoId": "netnet"
   },
   "about": {
     "description": "NET is the reserve-backed share token of NetNet Capital Management, a fund deployed on Robinhood Chain and built in the architectural lineage of OlympusDAO v1. Every NET is backed by at least one Global Dollar of risk-free value held in the protocol treasury, and that floor is enforced in code because the distributor reverts any mint that would push total supply above the treasury risk-free value. The treasury holds Global Dollar directly, a Steakhouse USDG position on Morpho that is valued at a two percent haircut, and protocol-owned Uniswap v2 NET to USDG liquidity. Global Dollar is issued by Paxos and reserve backed, so the economic backing of the fund resolves to cash and short-term instruments held off chain rather than to any tokenized asset held directly. Shareholders stake NET for sNET, a rebasing receipt whose index begins at 1.0 at launch and compounds every eight hour epoch. The dividend rate is zero at or below net asset value, scales linearly with the market premium, and reaches its maximum of 0.45 percent per epoch only at a premium of 1.75 times or higher, so the token can trade at a large multiple of its backing while demand persists. A five percent transfer fee applies on mapped pools and its split decays linearly over thirty days, beginning at four percent to management with one percent to the treasury and ending at zero and five percent. Management is otherwise paid only through pTEAM options struck at one Global Dollar and capped at fifteen percent of circulating supply. The epoch length, the maximum dividend rate, the premium threshold, the total fee, the fee split formula and the pTEAM strike, cap and vesting schedule are all fixed at deployment and cannot be changed by any key. A separate RWA Desk offers tokenized Nvidia, SpaceX and Apple exposure to subscribers through Rialto with Chainlink price feeds, but that sleeve is team custodied in a dedicated Safe and the documentation states it is not part of the on-chain reserves or backing of the fund.",
@@ -40,8 +39,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -67,6 +65,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://docs.netnet.capital/"
+      ],
+      "protocolIds": [
+        8518
       ]
     },
     {

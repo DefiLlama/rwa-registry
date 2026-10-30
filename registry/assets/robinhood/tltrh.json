@@ -2,7 +2,7 @@
   "identity": {
     "slug": "tltrh",
     "symbol": "TLT",
-    "name": "iShares 20+ Year Treasury Bond ETF • Robinhood Token",
+    "name": "iShares 20+ Year Treasury Bond ETF - Robinhood Token",
     "legacyId": 2746,
     "canonicalMarketId": "TLTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

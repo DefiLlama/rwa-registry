@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ndrarh",
     "symbol": "NDRA",
-    "name": "ENDRA Life Sciences Inc. • Robinhood Token",
+    "name": "ENDRA Life Sciences Inc. - Robinhood Token",
     "legacyId": 1877,
     "canonicalMarketId": "NDRArh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

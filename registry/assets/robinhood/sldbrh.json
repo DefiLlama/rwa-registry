@@ -2,7 +2,7 @@
   "identity": {
     "slug": "sldbrh",
     "symbol": "SLDB",
-    "name": "Solid Biosciences Inc. • Robinhood Token",
+    "name": "Solid Biosciences Inc. - Robinhood Token",
     "legacyId": 2245,
     "canonicalMarketId": "SLDBrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

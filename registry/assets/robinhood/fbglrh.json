@@ -2,7 +2,7 @@
   "identity": {
     "slug": "fbglrh",
     "symbol": "FBGL",
-    "name": "FBS Global Ltd. • Robinhood Token",
+    "name": "FBS Global Ltd. - Robinhood Token",
     "legacyId": 1352,
     "canonicalMarketId": "FBGLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

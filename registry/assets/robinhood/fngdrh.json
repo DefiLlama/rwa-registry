@@ -2,7 +2,7 @@
   "identity": {
     "slug": "fngdrh",
     "symbol": "FNGD",
-    "name": "MicroSectors FANG+ Index -3X Inverse Leveraged ETN • Robinhood Token",
+    "name": "MicroSectors FANG+ Index -3X Inverse Leveraged ETN - Robinhood Token",
     "legacyId": 1389,
     "canonicalMarketId": "FNGDrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -12,7 +12,7 @@
   "class": {
     "structure": "pe-venture",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "stocks-equities"
     ]
@@ -22,7 +22,8 @@
     "kycForMintRedeem": true,
     "transferable": true,
     "selfCustody": true,
-    "yieldBearing": false
+    "yieldBearing": false,
+    "attestationFrequency": "No public attestation date found"
   },
   "sources": {
     "coingeckoId": "aktionariat-realunit-schweiz-ag-tokenized-shares"
@@ -39,8 +40,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -63,6 +63,9 @@
       "sourceLinks": [
         "https://realunit.ch/token-kaufen/",
         "https://www.aktionariat.com/"
+      ],
+      "protocolIds": [
+        2782
       ]
     },
     {
@@ -77,7 +80,7 @@
   "events": [
     {
       "kind": "attestation",
-      "note": "No public attestation date found"
+      "note": "no date in the export"
     }
   ]
 }

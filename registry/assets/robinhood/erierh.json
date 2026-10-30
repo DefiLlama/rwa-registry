@@ -2,7 +2,7 @@
   "identity": {
     "slug": "erierh",
     "symbol": "ERIE",
-    "name": "Erie Indemnity Co. • Robinhood Token",
+    "name": "Erie Indemnity Co. - Robinhood Token",
     "legacyId": 1303,
     "canonicalMarketId": "ERIErh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

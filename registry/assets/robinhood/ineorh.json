@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ineorh",
     "symbol": "INEO",
-    "name": "INNEOVA Holdings Ltd. • Robinhood Token",
+    "name": "INNEOVA Holdings Ltd. - Robinhood Token",
     "legacyId": 1599,
     "canonicalMarketId": "INEOrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

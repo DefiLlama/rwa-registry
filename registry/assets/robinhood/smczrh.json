@@ -2,7 +2,7 @@
   "identity": {
     "slug": "smczrh",
     "symbol": "SMCZ",
-    "name": "Small-Cap 3X Leveraged ETF • Robinhood Token",
+    "name": "Small-Cap 3X Leveraged ETF - Robinhood Token",
     "legacyId": 2257,
     "canonicalMarketId": "SMCZrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

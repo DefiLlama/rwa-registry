@@ -2,7 +2,7 @@
   "identity": {
     "slug": "hiverh",
     "symbol": "HIVE",
-    "name": "HIVE Digital Technologies Ltd. • Robinhood Token",
+    "name": "HIVE Digital Technologies Ltd. - Robinhood Token",
     "legacyId": 1526,
     "canonicalMarketId": "HIVErh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

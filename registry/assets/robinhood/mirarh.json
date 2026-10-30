@@ -2,7 +2,7 @@
   "identity": {
     "slug": "mirarh",
     "symbol": "MIRA",
-    "name": "Mira Pharmaceuticals, Inc. • Robinhood Token",
+    "name": "Mira Pharmaceuticals, Inc. - Robinhood Token",
     "legacyId": 1801,
     "canonicalMarketId": "MIRArh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

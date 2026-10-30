@@ -2,7 +2,7 @@
   "identity": {
     "slug": "pzzarh",
     "symbol": "PZZA",
-    "name": "Papa John's International, Inc. • Robinhood Token",
+    "name": "Papa John's International, Inc. - Robinhood Token",
     "legacyId": 2094,
     "canonicalMarketId": "PZZArh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

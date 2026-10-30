@@ -2,7 +2,7 @@
   "identity": {
     "slug": "lrh",
     "symbol": "L",
-    "name": "Loews Corp. • Robinhood Token",
+    "name": "Loews Corp. - Robinhood Token",
     "legacyId": 1765,
     "canonicalMarketId": "Lrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

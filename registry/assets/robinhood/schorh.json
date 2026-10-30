@@ -2,7 +2,7 @@
   "identity": {
     "slug": "schorh",
     "symbol": "SCHO",
-    "name": "Schwab Short-Term U.S. Treasury ETF • Robinhood Token",
+    "name": "Schwab Short-Term U.S. Treasury ETF - Robinhood Token",
     "legacyId": 2200,
     "canonicalMarketId": "SCHOrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "nxerh",
     "symbol": "NXE",
-    "name": "NexGen Energy Ltd. • Robinhood Token",
+    "name": "NexGen Energy Ltd. - Robinhood Token",
     "legacyId": 1944,
     "canonicalMarketId": "NXErh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

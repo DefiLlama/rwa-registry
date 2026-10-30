@@ -2,7 +2,7 @@
   "identity": {
     "slug": "lenrh",
     "symbol": "LEN",
-    "name": "Lennar Corp. • Robinhood Token",
+    "name": "Lennar Corp. - Robinhood Token",
     "legacyId": 1719,
     "canonicalMarketId": "LENrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

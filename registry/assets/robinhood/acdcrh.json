@@ -2,7 +2,7 @@
   "identity": {
     "slug": "acdcrh",
     "symbol": "ACDC",
-    "name": "ProFrac Holding Corp. • Robinhood Token",
+    "name": "ProFrac Holding Corp. - Robinhood Token",
     "legacyId": 792,
     "canonicalMarketId": "ACDCrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

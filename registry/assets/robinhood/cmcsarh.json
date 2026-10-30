@@ -2,7 +2,7 @@
   "identity": {
     "slug": "cmcsarh",
     "symbol": "CMCSA",
-    "name": "Comcast Corp. • Robinhood Token",
+    "name": "Comcast Corp. - Robinhood Token",
     "legacyId": 1122,
     "canonicalMarketId": "CMCSArh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

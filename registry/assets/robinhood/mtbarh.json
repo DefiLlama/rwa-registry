@@ -2,7 +2,7 @@
   "identity": {
     "slug": "mtbarh",
     "symbol": "MTBA",
-    "name": "Mortgage-Backed Securities ETF • Robinhood Token",
+    "name": "Mortgage-Backed Securities ETF - Robinhood Token",
     "legacyId": 1846,
     "canonicalMarketId": "MTBArh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

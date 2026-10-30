@@ -2,7 +2,7 @@
   "identity": {
     "slug": "wbdrh",
     "symbol": "WBD",
-    "name": "Warner Bros. Discovery, Inc. • Robinhood Token",
+    "name": "Warner Bros. Discovery, Inc. - Robinhood Token",
     "legacyId": 2603,
     "canonicalMarketId": "WBDrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

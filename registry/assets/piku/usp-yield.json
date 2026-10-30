@@ -31,7 +31,7 @@
     ]
   },
   "about": {
-    "description": "USP is a yield-optimized dollar unit designed to grow in value over time rather than remaining perfectly fixed at $1.00, using a managed strategy framework that targets compounding returns while keeping a stablecoin-like user experience. It is positioned for users who want a single-token cash management style position where yield is embedded directly into the token’s economics.",
+    "description": "USP is a yield-optimized dollar unit designed to grow in value over time rather than remaining perfectly fixed at $1.00, using a managed strategy framework that targets compounding returns while keeping a stablecoin-like user experience. It is positioned for users who want a single-token cash management style position where yield is embedded directly into the token's economics.",
     "logo": "https://icons.llamao.fi/icons/rwa/usp-yield-optimized-stablecoin.png?w=48&h=48",
     "links": {
       "website": [
@@ -42,8 +42,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

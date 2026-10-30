@@ -12,7 +12,7 @@
   "class": {
     "structure": "equity-basket",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "stocks-equities"
     ]
@@ -34,9 +34,7 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "CH1173294237",
-        "source": null,
-        "verified": false
+        "value": "CH1173294237"
       }
     ]
   },
@@ -52,8 +50,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "dgprh",
     "symbol": "DGP",
-    "name": "DB Gold Double Long Exchange Traded Notes • Robinhood Token",
+    "name": "DB Gold Double Long Exchange Traded Notes - Robinhood Token",
     "legacyId": 1224,
     "canonicalMarketId": "DGPrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

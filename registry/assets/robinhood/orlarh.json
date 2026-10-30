@@ -2,7 +2,7 @@
   "identity": {
     "slug": "orlarh",
     "symbol": "ORLA",
-    "name": "Orla Mining Ltd. • Robinhood Token",
+    "name": "Orla Mining Ltd. - Robinhood Token",
     "legacyId": 1981,
     "canonicalMarketId": "ORLArh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

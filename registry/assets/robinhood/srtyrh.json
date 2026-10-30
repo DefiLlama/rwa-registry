@@ -2,7 +2,7 @@
   "identity": {
     "slug": "srtyrh",
     "symbol": "SRTY",
-    "name": "ProShares UltraShort Russell 2000 • Robinhood Token",
+    "name": "ProShares UltraShort Russell 2000 - Robinhood Token",
     "legacyId": 2327,
     "canonicalMarketId": "SRTYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

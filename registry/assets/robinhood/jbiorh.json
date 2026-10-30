@@ -2,7 +2,7 @@
   "identity": {
     "slug": "jbiorh",
     "symbol": "JBIO",
-    "name": "Jade Biosciences, Inc. • Robinhood Token",
+    "name": "Jade Biosciences, Inc. - Robinhood Token",
     "legacyId": 1647,
     "canonicalMarketId": "JBIOrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

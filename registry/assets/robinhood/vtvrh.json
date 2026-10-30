@@ -2,7 +2,7 @@
   "identity": {
     "slug": "vtvrh",
     "symbol": "VTV",
-    "name": "Vanguard Value ETF • Robinhood Token",
+    "name": "Vanguard Value ETF - Robinhood Token",
     "legacyId": 2586,
     "canonicalMarketId": "VTVrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

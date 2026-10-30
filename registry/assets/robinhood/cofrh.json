@@ -2,7 +2,7 @@
   "identity": {
     "slug": "cofrh",
     "symbol": "COF",
-    "name": "Capital One Financial Corp. • Robinhood Token",
+    "name": "Capital One Financial Corp. - Robinhood Token",
     "legacyId": 1136,
     "canonicalMarketId": "COFrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

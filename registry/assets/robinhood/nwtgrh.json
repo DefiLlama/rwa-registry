@@ -2,7 +2,7 @@
   "identity": {
     "slug": "nwtgrh",
     "symbol": "NWTG",
-    "name": "Newton Golf Company, Inc. • Robinhood Token",
+    "name": "Newton Golf Company, Inc. - Robinhood Token",
     "legacyId": 1943,
     "canonicalMarketId": "NWTGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "savarh",
     "symbol": "SAVA",
-    "name": "Cassava Sciences • Robinhood Token",
+    "name": "Cassava Sciences - Robinhood Token",
     "legacyId": 2183,
     "canonicalMarketId": "SAVArh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

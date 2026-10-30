@@ -2,7 +2,7 @@
   "identity": {
     "slug": "vwobrh",
     "symbol": "VWOB",
-    "name": "Vanguard Emerging Markets Government Bond ETF • Robinhood Token",
+    "name": "Vanguard Emerging Markets Government Bond ETF - Robinhood Token",
     "legacyId": 2592,
     "canonicalMarketId": "VWOBrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

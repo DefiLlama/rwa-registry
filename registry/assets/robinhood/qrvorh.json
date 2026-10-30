@@ -2,7 +2,7 @@
   "identity": {
     "slug": "qrvorh",
     "symbol": "QRVO",
-    "name": "Qorvo, Inc. • Robinhood Token",
+    "name": "Qorvo, Inc. - Robinhood Token",
     "legacyId": 2109,
     "canonicalMarketId": "QRVOrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

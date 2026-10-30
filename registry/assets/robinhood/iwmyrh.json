@@ -2,7 +2,7 @@
   "identity": {
     "slug": "iwmyrh",
     "symbol": "IWMY",
-    "name": "iShares MSCI India Emerging Markets ETF • Robinhood Token",
+    "name": "iShares MSCI India Emerging Markets ETF - Robinhood Token",
     "legacyId": 1636,
     "canonicalMarketId": "IWMYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

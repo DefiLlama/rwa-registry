@@ -2,7 +2,7 @@
   "identity": {
     "slug": "lbrtrh",
     "symbol": "LBRT",
-    "name": "Liberty Energy Inc. • Robinhood Token",
+    "name": "Liberty Energy Inc. - Robinhood Token",
     "legacyId": 1712,
     "canonicalMarketId": "LBRTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

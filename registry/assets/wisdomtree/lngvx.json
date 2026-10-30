@@ -12,7 +12,7 @@
   "class": {
     "structure": "mixed-rwa-fund",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "stocks-equities"
     ]
@@ -30,9 +30,7 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "US97717K8247",
-        "source": null,
-        "verified": false
+        "value": "US97717K8247"
       }
     ]
   },
@@ -48,8 +46,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -101,6 +98,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://www.sec.gov/cgi-bin/browse-edgar?CIK=0001859001&owner=include&action=getcompany"
+      ],
+      "protocolIds": [
+        6516
       ]
     }
   ],

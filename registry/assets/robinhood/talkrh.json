@@ -2,7 +2,7 @@
   "identity": {
     "slug": "talkrh",
     "symbol": "TALK",
-    "name": "Talkspace, Inc. • Robinhood Token",
+    "name": "Talkspace, Inc. - Robinhood Token",
     "legacyId": 2364,
     "canonicalMarketId": "TALKrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

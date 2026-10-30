@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ollirh",
     "symbol": "OLLI",
-    "name": "Ollie's Bargain Outlet Holdings, Inc. • Robinhood Token",
+    "name": "Ollie's Bargain Outlet Holdings, Inc. - Robinhood Token",
     "legacyId": 2814,
     "canonicalMarketId": "OLLIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

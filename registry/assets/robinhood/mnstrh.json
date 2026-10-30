@@ -2,7 +2,7 @@
   "identity": {
     "slug": "mnstrh",
     "symbol": "MNST",
-    "name": "Monster Beverage Corp. • Robinhood Token",
+    "name": "Monster Beverage Corp. - Robinhood Token",
     "legacyId": 1813,
     "canonicalMarketId": "MNSTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

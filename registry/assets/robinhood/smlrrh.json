@@ -2,7 +2,7 @@
   "identity": {
     "slug": "smlrrh",
     "symbol": "SMLR",
-    "name": "Semler Scientific • Robinhood Token",
+    "name": "Semler Scientific - Robinhood Token",
     "legacyId": 2261,
     "canonicalMarketId": "SMLRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

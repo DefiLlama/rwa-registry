@@ -36,8 +36,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -53,6 +52,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://blog.stobox.io/stobox-welcomes-atmosphera-bringing-event-investments-on-chain/"
+      ],
+      "protocolIds": [
+        7403
       ]
     }
   ]

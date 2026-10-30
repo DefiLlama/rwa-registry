@@ -2,7 +2,7 @@
   "identity": {
     "slug": "litmrh",
     "symbol": "LITM",
-    "name": "Snow Lake Resources • Robinhood Token",
+    "name": "Snow Lake Resources - Robinhood Token",
     "legacyId": 1731,
     "canonicalMarketId": "LITMrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

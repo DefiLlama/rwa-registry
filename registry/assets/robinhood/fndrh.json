@@ -2,7 +2,7 @@
   "identity": {
     "slug": "fndrh",
     "symbol": "FND",
-    "name": "Floor & Decor Holdings, Inc. • Robinhood Token",
+    "name": "Floor & Decor Holdings, Inc. - Robinhood Token",
     "legacyId": 1388,
     "canonicalMarketId": "FNDrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

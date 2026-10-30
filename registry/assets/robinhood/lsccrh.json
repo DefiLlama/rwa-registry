@@ -2,7 +2,7 @@
   "identity": {
     "slug": "lsccrh",
     "symbol": "LSCC",
-    "name": "Lattice Semiconductor Corp. • Robinhood Token",
+    "name": "Lattice Semiconductor Corp. - Robinhood Token",
     "legacyId": 1748,
     "canonicalMarketId": "LSCCrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

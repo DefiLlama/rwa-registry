@@ -2,7 +2,7 @@
   "identity": {
     "slug": "aggrh",
     "symbol": "AGG",
-    "name": "iShares Core U.S. Aggregate Bond ETF • Robinhood Token",
+    "name": "iShares Core U.S. Aggregate Bond ETF - Robinhood Token",
     "legacyId": 817,
     "canonicalMarketId": "AGGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

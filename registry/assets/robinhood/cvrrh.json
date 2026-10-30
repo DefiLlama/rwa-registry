@@ -2,7 +2,7 @@
   "identity": {
     "slug": "cvrrh",
     "symbol": "CVR",
-    "name": "Chicago Rivet & Machine Co. • Robinhood Token",
+    "name": "Chicago Rivet & Machine Co. - Robinhood Token",
     "legacyId": 1194,
     "canonicalMarketId": "CVRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

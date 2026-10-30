@@ -2,7 +2,7 @@
   "identity": {
     "slug": "spmorh",
     "symbol": "SPMO",
-    "name": "Invesco S&P 500 Momentum ETF • Robinhood Token",
+    "name": "Invesco S&P 500 Momentum ETF - Robinhood Token",
     "legacyId": 2305,
     "canonicalMarketId": "SPMOrh"
   },
@@ -27,9 +27,7 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "US46138E3392",
-        "source": null,
-        "verified": false
+        "value": "US46138E3392"
       }
     ]
   },
@@ -45,8 +43,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -77,6 +74,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://robinhood.com/eu/en/about/"
+      ],
+      "protocolIds": [
+        3732
       ]
     },
     {

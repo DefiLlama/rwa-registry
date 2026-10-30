@@ -2,7 +2,7 @@
   "identity": {
     "slug": "tssirh",
     "symbol": "TSSI",
-    "name": "TSS, Inc. • Robinhood Token",
+    "name": "TSS, Inc. - Robinhood Token",
     "legacyId": 2448,
     "canonicalMarketId": "TSSIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

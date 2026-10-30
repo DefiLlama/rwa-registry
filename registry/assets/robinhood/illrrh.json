@@ -2,7 +2,7 @@
   "identity": {
     "slug": "illrrh",
     "symbol": "ILLR",
-    "name": "Triller Group Inc. • Robinhood Token",
+    "name": "Triller Group Inc. - Robinhood Token",
     "legacyId": 1589,
     "canonicalMarketId": "ILLRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

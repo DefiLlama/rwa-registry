@@ -2,7 +2,7 @@
   "identity": {
     "slug": "mdlzrh",
     "symbol": "MDLZ",
-    "name": "Mondelez International, Inc. • Robinhood Token",
+    "name": "Mondelez International, Inc. - Robinhood Token",
     "legacyId": 1785,
     "canonicalMarketId": "MDLZrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

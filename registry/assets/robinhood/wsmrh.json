@@ -2,7 +2,7 @@
   "identity": {
     "slug": "wsmrh",
     "symbol": "WSM",
-    "name": "Williams-Sonoma, Inc. • Robinhood Token",
+    "name": "Williams-Sonoma, Inc. - Robinhood Token",
     "legacyId": 2631,
     "canonicalMarketId": "WSMrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

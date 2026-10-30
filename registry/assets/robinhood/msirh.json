@@ -2,7 +2,7 @@
   "identity": {
     "slug": "msirh",
     "symbol": "MSI",
-    "name": "Motorola Solutions, Inc. • Robinhood Token",
+    "name": "Motorola Solutions, Inc. - Robinhood Token",
     "legacyId": 1837,
     "canonicalMarketId": "MSIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

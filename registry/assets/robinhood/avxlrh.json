@@ -2,7 +2,7 @@
   "identity": {
     "slug": "avxlrh",
     "symbol": "AVXL",
-    "name": "Anavex Life Sciences Corp. • Robinhood Token",
+    "name": "Anavex Life Sciences Corp. - Robinhood Token",
     "legacyId": 942,
     "canonicalMarketId": "AVXLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

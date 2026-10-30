@@ -2,7 +2,7 @@
   "identity": {
     "slug": "spyirh",
     "symbol": "SPYI",
-    "name": "S&P 500 Index ETF • Robinhood Token",
+    "name": "S&P 500 Index ETF - Robinhood Token",
     "legacyId": 2318,
     "canonicalMarketId": "SPYIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

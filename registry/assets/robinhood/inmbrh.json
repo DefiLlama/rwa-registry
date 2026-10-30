@@ -2,7 +2,7 @@
   "identity": {
     "slug": "inmbrh",
     "symbol": "INMB",
-    "name": "Inmune Bio, Inc. • Robinhood Token",
+    "name": "Inmune Bio, Inc. - Robinhood Token",
     "legacyId": 1600,
     "canonicalMarketId": "INMBrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

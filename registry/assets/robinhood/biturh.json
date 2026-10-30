@@ -2,7 +2,7 @@
   "identity": {
     "slug": "biturh",
     "symbol": "BITU",
-    "name": "Grayscale Bitcoin Mini Trust • Robinhood Token",
+    "name": "Grayscale Bitcoin Mini Trust - Robinhood Token",
     "legacyId": 988,
     "canonicalMarketId": "BITUrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

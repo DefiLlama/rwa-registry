@@ -2,7 +2,7 @@
   "identity": {
     "slug": "cverh",
     "symbol": "CVE",
-    "name": "Cenovus Energy Inc. • Robinhood Token",
+    "name": "Cenovus Energy Inc. - Robinhood Token",
     "legacyId": 1191,
     "canonicalMarketId": "CVErh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "cmbtrh",
     "symbol": "CMBT",
-    "name": "CMB.TECH NV • Robinhood Token",
+    "name": "CMB.TECH NV - Robinhood Token",
     "legacyId": 1121,
     "canonicalMarketId": "CMBTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

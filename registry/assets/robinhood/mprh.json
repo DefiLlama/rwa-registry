@@ -2,7 +2,7 @@
   "identity": {
     "slug": "mprh",
     "symbol": "MP",
-    "name": "MP Materials Corp. • Robinhood Token",
+    "name": "MP Materials Corp. - Robinhood Token",
     "legacyId": 2754,
     "canonicalMarketId": "MPrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

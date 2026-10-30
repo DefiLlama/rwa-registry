@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ttecrh",
     "symbol": "TTEC",
-    "name": "TTEC Holdings, Inc. • Robinhood Token",
+    "name": "TTEC Holdings, Inc. - Robinhood Token",
     "legacyId": 2451,
     "canonicalMarketId": "TTECrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "veurh",
     "symbol": "VEU",
-    "name": "Vanguard FTSE Emerging Markets ETF • Robinhood Token",
+    "name": "Vanguard FTSE Emerging Markets ETF - Robinhood Token",
     "legacyId": 2536,
     "canonicalMarketId": "VEUrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

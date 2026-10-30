@@ -2,7 +2,7 @@
   "identity": {
     "slug": "aonrh",
     "symbol": "AON",
-    "name": "Aon plc • Robinhood Token",
+    "name": "Aon plc - Robinhood Token",
     "legacyId": 876,
     "canonicalMarketId": "AONrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

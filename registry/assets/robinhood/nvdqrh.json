@@ -2,7 +2,7 @@
   "identity": {
     "slug": "nvdqrh",
     "symbol": "NVDQ",
-    "name": "NVIDIA Inverse ETF • Robinhood Token",
+    "name": "NVIDIA Inverse ETF - Robinhood Token",
     "legacyId": 1931,
     "canonicalMarketId": "NVDQrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

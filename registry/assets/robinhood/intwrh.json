@@ -2,7 +2,7 @@
   "identity": {
     "slug": "intwrh",
     "symbol": "INTW",
-    "name": "GraniteShares 2x Long INTC Daily ETF • Robinhood Token",
+    "name": "GraniteShares 2x Long INTC Daily ETF - Robinhood Token",
     "legacyId": 1608,
     "canonicalMarketId": "INTWrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "etrrh",
     "symbol": "ETR",
-    "name": "Entergy Corp. • Robinhood Token",
+    "name": "Entergy Corp. - Robinhood Token",
     "legacyId": 1316,
     "canonicalMarketId": "ETRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

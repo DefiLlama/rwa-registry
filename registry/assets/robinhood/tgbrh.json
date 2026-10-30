@@ -2,7 +2,7 @@
   "identity": {
     "slug": "tgbrh",
     "symbol": "TGB",
-    "name": "Trekor Metals Ltd. • Robinhood Token",
+    "name": "Trekor Metals Ltd. - Robinhood Token",
     "legacyId": 2390,
     "canonicalMarketId": "TGBrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

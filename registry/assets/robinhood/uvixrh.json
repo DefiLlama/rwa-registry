@@ -2,7 +2,7 @@
   "identity": {
     "slug": "uvixrh",
     "symbol": "UVIX",
-    "name": "2x Long VIX Futures ETF • Robinhood Token",
+    "name": "2x Long VIX Futures ETF - Robinhood Token",
     "legacyId": 2516,
     "canonicalMarketId": "UVIXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

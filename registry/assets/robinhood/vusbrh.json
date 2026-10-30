@@ -2,7 +2,7 @@
   "identity": {
     "slug": "vusbrh",
     "symbol": "VUSB",
-    "name": "Vanguard US Bond ETF • Robinhood Token",
+    "name": "Vanguard US Bond ETF - Robinhood Token",
     "legacyId": 2791,
     "canonicalMarketId": "VUSBrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

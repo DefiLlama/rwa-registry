@@ -2,7 +2,7 @@
   "identity": {
     "slug": "xarrh",
     "symbol": "XAR",
-    "name": "State Street SPDR S&P Aerospace & Defense ETF • Robinhood Token",
+    "name": "State Street SPDR S&P Aerospace & Defense ETF - Robinhood Token",
     "legacyId": 2641,
     "canonicalMarketId": "XARrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

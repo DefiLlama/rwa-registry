@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ngnerh",
     "symbol": "NGNE",
-    "name": "Neurogene Inc. • Robinhood Token",
+    "name": "Neurogene Inc. - Robinhood Token",
     "legacyId": 1892,
     "canonicalMarketId": "NGNErh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

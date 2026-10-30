@@ -2,7 +2,7 @@
   "identity": {
     "slug": "dnarh",
     "symbol": "DNA",
-    "name": "Ginkgo Bioworks Holdings, Inc. • Robinhood Token",
+    "name": "Ginkgo Bioworks Holdings, Inc. - Robinhood Token",
     "legacyId": 1240,
     "canonicalMarketId": "DNArh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -30,14 +30,12 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "IE00BNKLND78",
-        "source": null,
-        "verified": false
+        "value": "IE00BNKLND78"
       }
     ]
   },
   "about": {
-    "description": "FIUSD represents a tokenized unit exposure linked to Fidelity International’s Institutional Liquidity Fund, structured as a USD money market style product designed for liquidity and capital preservation. It targets conservative, short-duration performance consistent with institutional cash management, distributed through regulated digital asset banking and tokenization infrastructure.",
+    "description": "FIUSD represents a tokenized unit exposure linked to Fidelity International's Institutional Liquidity Fund, structured as a USD money market style product designed for liquidity and capital preservation. It targets conservative, short-duration performance consistent with institutional cash management, distributed through regulated digital asset banking and tokenization infrastructure.",
     "logo": "https://icons.llamao.fi/icons/rwa/fiusd.png?w=48&h=48",
     "links": {
       "website": [
@@ -48,8 +46,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -59,7 +56,7 @@
       "primary": true
     },
     {
-      "chain": "era",
+      "chain": "zksync",
       "address": "0xcded6b899edba762d793f44ed295248049440e1e",
       "deployedAt": null
     }

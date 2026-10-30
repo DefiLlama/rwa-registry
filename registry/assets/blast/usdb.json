@@ -28,7 +28,7 @@
     "coingeckoId": "usdb"
   },
   "about": {
-    "description": "USDB is Blast’s native dollar stablecoin used for settlement on the Blast L2. It is minted when users bridge supported stablecoins into Blast, creating a chain-native representation intended to remain $1-pegged while enabling protocol-level yield distribution on Blast. Key risks include bridge/issuer and L2 risk, reliance on the underlying backing assets and conversion mechanics, and smart-contract risk in the minting/bridging pipeline.",
+    "description": "USDB is Blast's native dollar stablecoin used for settlement on the Blast L2. It is minted when users bridge supported stablecoins into Blast, creating a chain-native representation intended to remain $1-pegged while enabling protocol-level yield distribution on Blast. Key risks include bridge/issuer and L2 risk, reliance on the underlying backing assets and conversion mechanics, and smart-contract risk in the minting/bridging pipeline.",
     "logo": "https://icons.llamao.fi/icons/rwa/usdb.png?w=48&h=48",
     "links": {
       "website": [
@@ -39,8 +39,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

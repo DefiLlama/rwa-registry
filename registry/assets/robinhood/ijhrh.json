@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ijhrh",
     "symbol": "IJH",
-    "name": "iShares Core S&P Mid-Cap ETF • Robinhood Token",
+    "name": "iShares Core S&P Mid-Cap ETF - Robinhood Token",
     "legacyId": 1587,
     "canonicalMarketId": "IJHrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

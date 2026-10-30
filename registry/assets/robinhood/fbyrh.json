@@ -2,7 +2,7 @@
   "identity": {
     "slug": "fbyrh",
     "symbol": "FBY",
-    "name": "Fiserv Inverse ETF • Robinhood Token",
+    "name": "Fiserv Inverse ETF - Robinhood Token",
     "legacyId": 1354,
     "canonicalMarketId": "FBYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

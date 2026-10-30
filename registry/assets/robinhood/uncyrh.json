@@ -2,7 +2,7 @@
   "identity": {
     "slug": "uncyrh",
     "symbol": "UNCY",
-    "name": "Unicycive Therapeutics, Inc. • Robinhood Token",
+    "name": "Unicycive Therapeutics, Inc. - Robinhood Token",
     "legacyId": 2486,
     "canonicalMarketId": "UNCYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

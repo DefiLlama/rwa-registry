@@ -2,7 +2,7 @@
   "identity": {
     "slug": "lcrh",
     "symbol": "LC",
-    "name": "Happen, Inc. • Robinhood Token",
+    "name": "Happen, Inc. - Robinhood Token",
     "legacyId": 1715,
     "canonicalMarketId": "LCrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

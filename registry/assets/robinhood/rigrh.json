@@ -2,7 +2,7 @@
   "identity": {
     "slug": "rigrh",
     "symbol": "RIG",
-    "name": "Transocean Ltd. • Robinhood Token",
+    "name": "Transocean Ltd. - Robinhood Token",
     "legacyId": 2139,
     "canonicalMarketId": "RIGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

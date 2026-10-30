@@ -2,7 +2,7 @@
   "identity": {
     "slug": "aporh",
     "symbol": "APO",
-    "name": "Apollo Global Management, Inc. • Robinhood Token",
+    "name": "Apollo Global Management, Inc. - Robinhood Token",
     "legacyId": 885,
     "canonicalMarketId": "APOrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

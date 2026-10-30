@@ -2,7 +2,7 @@
   "identity": {
     "slug": "payxrh",
     "symbol": "PAYX",
-    "name": "Paychex, Inc. • Robinhood Token",
+    "name": "Paychex, Inc. - Robinhood Token",
     "legacyId": 2001,
     "canonicalMarketId": "PAYXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "nvdwrh",
     "symbol": "NVDW",
-    "name": "NVIDIA Leveraged ETF • Robinhood Token",
+    "name": "NVIDIA Leveraged ETF - Robinhood Token",
     "legacyId": 1934,
     "canonicalMarketId": "NVDWrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

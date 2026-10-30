@@ -28,7 +28,7 @@
     "coingeckoId": "tether-eurt"
   },
   "about": {
-    "description": "EUR₮ / EURt is Tether’s euro-denominated stablecoin. Note: Tether announced a wind-down and stated EUR₮ redemptions ceased on 2025-11-27 (no new issuance requests, last acquisition request processed in 2022). Token remains transferable on supported chains but is no longer redeemable via Tether.",
+    "description": "EUR₮ / EURt is Tether's euro-denominated stablecoin. Note: Tether announced a wind-down and stated EUR₮ redemptions ceased on 2025-11-27 (no new issuance requests, last acquisition request processed in 2022). Token remains transferable on supported chains but is no longer redeemable via Tether.",
     "logo": "https://icons.llamao.fi/icons/rwa/eurt.png?w=48&h=48",
     "links": {
       "website": [
@@ -39,8 +39,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

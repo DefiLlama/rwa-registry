@@ -2,7 +2,7 @@
   "identity": {
     "slug": "wfcrh",
     "symbol": "WFC",
-    "name": "Wells Fargo & Company • Robinhood Token",
+    "name": "Wells Fargo & Company - Robinhood Token",
     "legacyId": 2611,
     "canonicalMarketId": "WFCrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

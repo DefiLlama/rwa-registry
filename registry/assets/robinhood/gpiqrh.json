@@ -2,7 +2,7 @@
   "identity": {
     "slug": "gpiqrh",
     "symbol": "GPIQ",
-    "name": "Global X Guru Index ETF • Robinhood Token",
+    "name": "Global X Guru Index ETF - Robinhood Token",
     "legacyId": 1480,
     "canonicalMarketId": "GPIQrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

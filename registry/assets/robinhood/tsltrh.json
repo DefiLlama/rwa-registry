@@ -2,7 +2,7 @@
   "identity": {
     "slug": "tsltrh",
     "symbol": "TSLT",
-    "name": "T-REX 2X Long Tesla Daily Target ETF • Robinhood Token",
+    "name": "T-REX 2X Long Tesla Daily Target ETF - Robinhood Token",
     "legacyId": 2439,
     "canonicalMarketId": "TSLTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

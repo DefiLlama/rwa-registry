@@ -2,7 +2,7 @@
   "identity": {
     "slug": "gernrh",
     "symbol": "GERN",
-    "name": "Geron Corp. • Robinhood Token",
+    "name": "Geron Corp. - Robinhood Token",
     "legacyId": 1440,
     "canonicalMarketId": "GERNrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

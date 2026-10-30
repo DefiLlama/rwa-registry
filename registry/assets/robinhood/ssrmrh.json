@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ssrmrh",
     "symbol": "SSRM",
-    "name": "SSR Mining Inc. • Robinhood Token",
+    "name": "SSR Mining Inc. - Robinhood Token",
     "legacyId": 2331,
     "canonicalMarketId": "SSRMrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

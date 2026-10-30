@@ -26,7 +26,7 @@
     "attestationFrequency": "Not publicly disclosed"
   },
   "about": {
-    "description": "CRISP-C is Solid World’s cookstove-focused forward carbon token, designed to represent exposure to future delivery of cookstove carbon credits priced via Solid World’s CRISP risk-scoring framework. The token is intended to converge toward 1:1 exchangeability for underlying supply at maturity. Solid World later announced a wind-down with a token buyback program that ran through April 30, 2025.",
+    "description": "CRISP-C is Solid World's cookstove-focused forward carbon token, designed to represent exposure to future delivery of cookstove carbon credits priced via Solid World's CRISP risk-scoring framework. The token is intended to converge toward 1:1 exchangeability for underlying supply at maturity. Solid World later announced a wind-down with a token buyback program that ran through April 30, 2025.",
     "logo": "https://icons.llamao.fi/icons/rwa/crisp-scored-cookstoves.png?w=48&h=48",
     "links": {
       "website": [
@@ -37,8 +37,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -54,6 +53,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://www.inforegister.ee/en/80612616-SOLID-WORLD-MTU"
+      ],
+      "protocolIds": [
+        3267
       ]
     }
   ]

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "phrh",
     "symbol": "PH",
-    "name": "Parker-Hannifin Corp. • Robinhood Token",
+    "name": "Parker-Hannifin Corp. - Robinhood Token",
     "legacyId": 2035,
     "canonicalMarketId": "PHrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

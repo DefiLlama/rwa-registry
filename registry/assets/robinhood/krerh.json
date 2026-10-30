@@ -2,7 +2,7 @@
   "identity": {
     "slug": "krerh",
     "symbol": "KRE",
-    "name": "State Street SPDR S&P Regional Banking ETF • Robinhood Token",
+    "name": "State Street SPDR S&P Regional Banking ETF - Robinhood Token",
     "legacyId": 1692,
     "canonicalMarketId": "KRErh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

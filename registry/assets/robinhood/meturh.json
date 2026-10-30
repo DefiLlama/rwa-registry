@@ -2,7 +2,7 @@
   "identity": {
     "slug": "meturh",
     "symbol": "METU",
-    "name": "Direxion Daily META Bull 2X ETF • Robinhood Token",
+    "name": "Direxion Daily META Bull 2X ETF - Robinhood Token",
     "legacyId": 1792,
     "canonicalMarketId": "METUrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "scmrh",
     "symbol": "SCM",
-    "name": "Stellus Capital Investment Corp. • Robinhood Token",
+    "name": "Stellus Capital Investment Corp. - Robinhood Token",
     "legacyId": 2206,
     "canonicalMarketId": "SCMrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

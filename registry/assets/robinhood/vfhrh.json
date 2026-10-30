@@ -2,7 +2,7 @@
   "identity": {
     "slug": "vfhrh",
     "symbol": "VFH",
-    "name": "Vanguard Financials ETF • Robinhood Token",
+    "name": "Vanguard Financials ETF - Robinhood Token",
     "legacyId": 2538,
     "canonicalMarketId": "VFHrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

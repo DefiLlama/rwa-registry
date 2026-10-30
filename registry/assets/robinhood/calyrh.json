@@ -2,7 +2,7 @@
   "identity": {
     "slug": "calyrh",
     "symbol": "CALY",
-    "name": "Callaway Golf Co. • Robinhood Token",
+    "name": "Callaway Golf Co. - Robinhood Token",
     "legacyId": 1055,
     "canonicalMarketId": "CALYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

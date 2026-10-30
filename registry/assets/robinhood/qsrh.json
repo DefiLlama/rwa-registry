@@ -2,7 +2,7 @@
   "identity": {
     "slug": "qsrh",
     "symbol": "QS",
-    "name": "QuantumScape Corp. • Robinhood Token",
+    "name": "QuantumScape Corp. - Robinhood Token",
     "legacyId": 2111,
     "canonicalMarketId": "QSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

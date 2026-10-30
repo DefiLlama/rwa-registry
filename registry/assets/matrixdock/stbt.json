@@ -12,7 +12,7 @@
   "class": {
     "structure": "t-bills",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "bond-mmf-funds"
     ]
@@ -33,7 +33,7 @@
     ]
   },
   "about": {
-    "description": "STBT is Matrixdock’s tokenized short-term U.S. Treasury bill product built for conservative onchain cash management. It targets a stable $1.00 NAV experience while distributing Treasury-linked yield through daily accrual mechanics, and it is designed to give investors low-duration exposure that behaves more like cash plus T-bill carry than a price-volatile bond fund. Matrixdock positions STBT for treasury parking, collateral use, and integrations where transparent reserve monitoring is required.",
+    "description": "STBT is Matrixdock's tokenized short-term U.S. Treasury bill product built for conservative onchain cash management. It targets a stable $1.00 NAV experience while distributing Treasury-linked yield through daily accrual mechanics, and it is designed to give investors low-duration exposure that behaves more like cash plus T-bill carry than a price-volatile bond fund. Matrixdock positions STBT for treasury parking, collateral use, and integrations where transparent reserve monitoring is required.",
     "logo": "https://icons.llamao.fi/icons/rwa/stbt.png?w=48&h=48",
     "links": {
       "website": [
@@ -44,8 +44,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "biyarh",
     "symbol": "BIYA",
-    "name": "Baiya International Group Inc. • Robinhood Token",
+    "name": "Baiya International Group Inc. - Robinhood Token",
     "legacyId": 989,
     "canonicalMarketId": "BIYArh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

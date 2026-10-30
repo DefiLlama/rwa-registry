@@ -2,7 +2,7 @@
   "identity": {
     "slug": "sjmrh",
     "symbol": "SJM",
-    "name": "J. M. Smucker Co. • Robinhood Token",
+    "name": "J. M. Smucker Co. - Robinhood Token",
     "legacyId": 2240,
     "canonicalMarketId": "SJMrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

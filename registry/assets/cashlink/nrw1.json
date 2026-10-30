@@ -28,14 +28,12 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "DE000NWB2Z08",
-        "source": null,
-        "verified": false
+        "value": "DE000NWB2Z08"
       }
     ]
   },
   "about": {
-    "description": "NRW1 is an electronic bond issued by NRW.BANK under Germany’s electronic securities framework. It demonstrates how a traditional fixed-income instrument can be issued and registered digitally, targeting more efficient settlement and post-trade operations while preserving direct issuer credit exposure.",
+    "description": "NRW1 is an electronic bond issued by NRW.BANK under Germany's electronic securities framework. It demonstrates how a traditional fixed-income instrument can be issued and registered digitally, targeting more efficient settlement and post-trade operations while preserving direct issuer credit exposure.",
     "logo": "https://icons.llamao.fi/icons/rwa/nrw1.png?w=48&h=48",
     "links": {
       "website": [
@@ -46,8 +44,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

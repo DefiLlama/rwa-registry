@@ -2,7 +2,7 @@
   "identity": {
     "slug": "cgdvrh",
     "symbol": "CGDV",
-    "name": "Goldman Sachs Dividend ETF • Robinhood Token",
+    "name": "Goldman Sachs Dividend ETF - Robinhood Token",
     "legacyId": 1084,
     "canonicalMarketId": "CGDVrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

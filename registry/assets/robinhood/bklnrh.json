@@ -2,7 +2,7 @@
   "identity": {
     "slug": "bklnrh",
     "symbol": "BKLN",
-    "name": "Invesco Senior Loan ETF • Robinhood Token",
+    "name": "Invesco Senior Loan ETF - Robinhood Token",
     "legacyId": 995,
     "canonicalMarketId": "BKLNrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

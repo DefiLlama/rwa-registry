@@ -2,7 +2,7 @@
   "identity": {
     "slug": "jetsrh",
     "symbol": "JETS",
-    "name": "U.S. Global Jets ETF • Robinhood Token",
+    "name": "U.S. Global Jets ETF - Robinhood Token",
     "legacyId": 1654,
     "canonicalMarketId": "JETSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

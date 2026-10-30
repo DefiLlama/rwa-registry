@@ -2,7 +2,7 @@
   "identity": {
     "slug": "cmerh",
     "symbol": "CME",
-    "name": "CME Group Inc. • Robinhood Token",
+    "name": "CME Group Inc. - Robinhood Token",
     "legacyId": 1123,
     "canonicalMarketId": "CMErh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

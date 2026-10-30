@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ewtrh",
     "symbol": "EWT",
-    "name": "iShares MSCI Taiwan ETF • Robinhood Token",
+    "name": "iShares MSCI Taiwan ETF - Robinhood Token",
     "legacyId": 1331,
     "canonicalMarketId": "EWTrh"
   },
@@ -27,9 +27,7 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "US46434G7723",
-        "source": null,
-        "verified": false
+        "value": "US46434G7723"
       }
     ]
   },
@@ -45,8 +43,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -77,6 +74,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://robinhood.com/eu/en/about/"
+      ],
+      "protocolIds": [
+        3732
       ]
     },
     {

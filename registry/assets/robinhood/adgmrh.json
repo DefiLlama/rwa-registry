@@ -2,7 +2,7 @@
   "identity": {
     "slug": "adgmrh",
     "symbol": "ADGM",
-    "name": "Adagio Medical Holdings, Inc. • Robinhood Token",
+    "name": "Adagio Medical Holdings, Inc. - Robinhood Token",
     "legacyId": 802,
     "canonicalMarketId": "ADGMrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

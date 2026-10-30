@@ -2,7 +2,7 @@
   "identity": {
     "slug": "arkgrh",
     "symbol": "ARKG",
-    "name": "ARK Genomic Revolution ETF • Robinhood Token",
+    "name": "ARK Genomic Revolution ETF - Robinhood Token",
     "legacyId": 904,
     "canonicalMarketId": "ARKGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

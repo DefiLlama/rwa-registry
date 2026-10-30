@@ -2,7 +2,7 @@
   "identity": {
     "slug": "nutxrh",
     "symbol": "NUTX",
-    "name": "Nutex Health Inc. • Robinhood Token",
+    "name": "Nutex Health Inc. - Robinhood Token",
     "legacyId": 1922,
     "canonicalMarketId": "NUTXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "sailrh",
     "symbol": "SAIL",
-    "name": "SailPoint, Inc. • Robinhood Token",
+    "name": "SailPoint, Inc. - Robinhood Token",
     "legacyId": 2179,
     "canonicalMarketId": "SAILrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "sccorh",
     "symbol": "SCCO",
-    "name": "Southern Copper Corp. • Robinhood Token",
+    "name": "Southern Copper Corp. - Robinhood Token",
     "legacyId": 2191,
     "canonicalMarketId": "SCCOrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

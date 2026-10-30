@@ -2,7 +2,7 @@
   "identity": {
     "slug": "fslrrh",
     "symbol": "FSLR",
-    "name": "First Solar, Inc. • Robinhood Token",
+    "name": "First Solar, Inc. - Robinhood Token",
     "legacyId": 1406,
     "canonicalMarketId": "FSLRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

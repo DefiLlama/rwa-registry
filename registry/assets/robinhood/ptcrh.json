@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ptcrh",
     "symbol": "PTC",
-    "name": "PTC Inc. • Robinhood Token",
+    "name": "PTC Inc. - Robinhood Token",
     "legacyId": 2085,
     "canonicalMarketId": "PTCrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

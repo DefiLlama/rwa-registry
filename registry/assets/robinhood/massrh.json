@@ -2,7 +2,7 @@
   "identity": {
     "slug": "massrh",
     "symbol": "MASS",
-    "name": "908 Devices Inc. • Robinhood Token",
+    "name": "908 Devices Inc. - Robinhood Token",
     "legacyId": 1773,
     "canonicalMarketId": "MASSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

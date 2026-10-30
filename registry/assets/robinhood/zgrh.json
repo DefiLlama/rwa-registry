@@ -2,7 +2,7 @@
   "identity": {
     "slug": "zgrh",
     "symbol": "ZG",
-    "name": "Zillow Group, Inc. • Robinhood Token",
+    "name": "Zillow Group, Inc. - Robinhood Token",
     "legacyId": 2690,
     "canonicalMarketId": "ZGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

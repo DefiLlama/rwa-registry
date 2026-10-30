@@ -2,7 +2,7 @@
   "identity": {
     "slug": "mtdrrh",
     "symbol": "MTDR",
-    "name": "Matador Resources Co. • Robinhood Token",
+    "name": "Matador Resources Co. - Robinhood Token",
     "legacyId": 1849,
     "canonicalMarketId": "MTDRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

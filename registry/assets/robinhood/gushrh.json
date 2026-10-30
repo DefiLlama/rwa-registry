@@ -2,7 +2,7 @@
   "identity": {
     "slug": "gushrh",
     "symbol": "GUSH",
-    "name": "Direxion Daily S&P Oil & Gas Exp. & Prod. Bull 2X ETF • Robinhood Token",
+    "name": "Direxion Daily S&P Oil & Gas Exp. & Prod. Bull 2X ETF - Robinhood Token",
     "legacyId": 1500,
     "canonicalMarketId": "GUSHrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

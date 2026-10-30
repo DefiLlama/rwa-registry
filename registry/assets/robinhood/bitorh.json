@@ -2,7 +2,7 @@
   "identity": {
     "slug": "bitorh",
     "symbol": "BITO",
-    "name": "ProShares Bitcoin ETF • Robinhood Token",
+    "name": "ProShares Bitcoin ETF - Robinhood Token",
     "legacyId": 987,
     "canonicalMarketId": "BITOrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

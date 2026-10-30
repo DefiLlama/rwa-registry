@@ -2,7 +2,7 @@
   "identity": {
     "slug": "mchprh",
     "symbol": "MCHP",
-    "name": "Microchip Technology Inc. • Robinhood Token",
+    "name": "Microchip Technology Inc. - Robinhood Token",
     "legacyId": 1781,
     "canonicalMarketId": "MCHPrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

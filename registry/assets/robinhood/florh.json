@@ -2,7 +2,7 @@
   "identity": {
     "slug": "florh",
     "symbol": "FLO",
-    "name": "Flowers Foods, Inc. • Robinhood Token",
+    "name": "Flowers Foods, Inc. - Robinhood Token",
     "legacyId": 1383,
     "canonicalMarketId": "FLOrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

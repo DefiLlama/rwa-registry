@@ -2,7 +2,7 @@
   "identity": {
     "slug": "sorh",
     "symbol": "SO",
-    "name": "The Southern Co. • Robinhood Token",
+    "name": "The Southern Co. - Robinhood Token",
     "legacyId": 2292,
     "canonicalMarketId": "SOrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

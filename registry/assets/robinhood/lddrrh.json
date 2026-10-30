@@ -2,7 +2,7 @@
   "identity": {
     "slug": "lddrrh",
     "symbol": "LDDR",
-    "name": "Large Dividend Deferred Returns ETF • Robinhood Token",
+    "name": "Large Dividend Deferred Returns ETF - Robinhood Token",
     "legacyId": 1716,
     "canonicalMarketId": "LDDRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

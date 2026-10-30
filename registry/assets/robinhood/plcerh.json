@@ -2,7 +2,7 @@
   "identity": {
     "slug": "plcerh",
     "symbol": "PLCE",
-    "name": "Childrens Place, Inc. • Robinhood Token",
+    "name": "Childrens Place, Inc. - Robinhood Token",
     "legacyId": 2040,
     "canonicalMarketId": "PLCErh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

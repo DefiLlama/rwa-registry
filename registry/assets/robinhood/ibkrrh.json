@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ibkrrh",
     "symbol": "IBKR",
-    "name": "Interactive Brokers Group, Inc. • Robinhood Token",
+    "name": "Interactive Brokers Group, Inc. - Robinhood Token",
     "legacyId": 2733,
     "canonicalMarketId": "IBKRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

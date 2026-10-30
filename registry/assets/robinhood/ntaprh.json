@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ntaprh",
     "symbol": "NTAP",
-    "name": "NetApp, Inc. • Robinhood Token",
+    "name": "NetApp, Inc. - Robinhood Token",
     "legacyId": 1914,
     "canonicalMarketId": "NTAPrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

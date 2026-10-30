@@ -2,7 +2,7 @@
   "identity": {
     "slug": "splbrh",
     "symbol": "SPLB",
-    "name": "Invesco S&P 500 Low Beta ETF • Robinhood Token",
+    "name": "Invesco S&P 500 Low Beta ETF - Robinhood Token",
     "legacyId": 2303,
     "canonicalMarketId": "SPLBrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

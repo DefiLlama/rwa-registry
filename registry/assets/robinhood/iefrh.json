@@ -2,7 +2,7 @@
   "identity": {
     "slug": "iefrh",
     "symbol": "IEF",
-    "name": "iShares 7-10 Year Treasury Bond ETF • Robinhood Token",
+    "name": "iShares 7-10 Year Treasury Bond ETF - Robinhood Token",
     "legacyId": 1578,
     "canonicalMarketId": "IEFrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

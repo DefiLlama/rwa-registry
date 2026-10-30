@@ -2,7 +2,7 @@
   "identity": {
     "slug": "evrgrh",
     "symbol": "EVRG",
-    "name": "Evergy, Inc. • Robinhood Token",
+    "name": "Evergy, Inc. - Robinhood Token",
     "legacyId": 1324,
     "canonicalMarketId": "EVRGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

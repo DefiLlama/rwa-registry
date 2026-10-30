@@ -2,7 +2,7 @@
   "identity": {
     "slug": "gwavrh",
     "symbol": "GWAV",
-    "name": "Greenwave Technology Solutions, Inc. • Robinhood Token",
+    "name": "Greenwave Technology Solutions, Inc. - Robinhood Token",
     "legacyId": 1502,
     "canonicalMarketId": "GWAVrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "nagerh",
     "symbol": "NAGE",
-    "name": "Niagen Bioscience, Inc. • Robinhood Token",
+    "name": "Niagen Bioscience, Inc. - Robinhood Token",
     "legacyId": 1866,
     "canonicalMarketId": "NAGErh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

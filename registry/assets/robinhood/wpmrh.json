@@ -2,7 +2,7 @@
   "identity": {
     "slug": "wpmrh",
     "symbol": "WPM",
-    "name": "Wheaton Precious Metals Corp. • Robinhood Token",
+    "name": "Wheaton Precious Metals Corp. - Robinhood Token",
     "legacyId": 2629,
     "canonicalMarketId": "WPMrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "pbirh",
     "symbol": "PBI",
-    "name": "Pitney Bowes Inc. • Robinhood Token",
+    "name": "Pitney Bowes Inc. - Robinhood Token",
     "legacyId": 2003,
     "canonicalMarketId": "PBIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

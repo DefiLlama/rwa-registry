@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ivvrh",
     "symbol": "IVV",
-    "name": "S&P 500 Index • Robinhood Token",
+    "name": "S&P 500 Index - Robinhood Token",
     "legacyId": 1631,
     "canonicalMarketId": "IVVrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

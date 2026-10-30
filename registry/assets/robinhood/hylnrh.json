@@ -2,7 +2,7 @@
   "identity": {
     "slug": "hylnrh",
     "symbol": "HYLN",
-    "name": "Hyliion Holdings Corp. • Robinhood Token",
+    "name": "Hyliion Holdings Corp. - Robinhood Token",
     "legacyId": 1559,
     "canonicalMarketId": "HYLNrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

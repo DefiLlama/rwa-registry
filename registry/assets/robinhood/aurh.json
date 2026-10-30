@@ -2,7 +2,7 @@
   "identity": {
     "slug": "aurh",
     "symbol": "AU",
-    "name": "AngloGold Ashanti plc • Robinhood Token",
+    "name": "AngloGold Ashanti plc - Robinhood Token",
     "legacyId": 932,
     "canonicalMarketId": "AUrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

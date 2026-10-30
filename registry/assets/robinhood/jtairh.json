@@ -2,7 +2,7 @@
   "identity": {
     "slug": "jtairh",
     "symbol": "JTAI",
-    "name": "Jet.AI Inc. • Robinhood Token",
+    "name": "Jet.AI Inc. - Robinhood Token",
     "legacyId": 1663,
     "canonicalMarketId": "JTAIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

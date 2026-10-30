@@ -2,7 +2,7 @@
   "identity": {
     "slug": "incyrh",
     "symbol": "INCY",
-    "name": "Incyte Corp. • Robinhood Token",
+    "name": "Incyte Corp. - Robinhood Token",
     "legacyId": 1594,
     "canonicalMarketId": "INCYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

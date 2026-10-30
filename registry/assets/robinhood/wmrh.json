@@ -2,7 +2,7 @@
   "identity": {
     "slug": "wmrh",
     "symbol": "WM",
-    "name": "Waste Management, Inc. • Robinhood Token",
+    "name": "Waste Management, Inc. - Robinhood Token",
     "legacyId": 2623,
     "canonicalMarketId": "WMrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

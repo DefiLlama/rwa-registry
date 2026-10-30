@@ -2,7 +2,7 @@
   "identity": {
     "slug": "lazrrh",
     "symbol": "LAZR",
-    "name": "Luminar Technologies • Robinhood Token",
+    "name": "Luminar Technologies - Robinhood Token",
     "legacyId": 1710,
     "canonicalMarketId": "LAZRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

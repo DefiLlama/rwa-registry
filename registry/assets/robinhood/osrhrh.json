@@ -2,7 +2,7 @@
   "identity": {
     "slug": "osrhrh",
     "symbol": "OSRH",
-    "name": "OSR Holdings, Inc. • Robinhood Token",
+    "name": "OSR Holdings, Inc. - Robinhood Token",
     "legacyId": 1983,
     "canonicalMarketId": "OSRHrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

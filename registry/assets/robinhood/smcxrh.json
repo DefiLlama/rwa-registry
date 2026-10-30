@@ -2,7 +2,7 @@
   "identity": {
     "slug": "smcxrh",
     "symbol": "SMCX",
-    "name": "Small-Cap Growth ETF • Robinhood Token",
+    "name": "Small-Cap Growth ETF - Robinhood Token",
     "legacyId": 2255,
     "canonicalMarketId": "SMCXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

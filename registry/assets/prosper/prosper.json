@@ -39,8 +39,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -53,6 +52,10 @@
       "chain": "base",
       "address": "0x915424ac489433130d92b04096f3b96c82e92a9d",
       "deployedAt": "2025-03-03"
+    },
+    {
+      "chain": "ethereum",
+      "address": null
     }
   ],
   "roles": [
@@ -61,6 +64,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://prosper-fi.com"
+      ],
+      "protocolIds": [
+        5903
       ]
     }
   ]

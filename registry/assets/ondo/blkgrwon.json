@@ -12,7 +12,7 @@
   "class": {
     "structure": "equity-basket",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "stocks-equities"
     ]
@@ -37,22 +37,24 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
       "chain": "ethereum",
       "address": "0xc90341cb9cb8d65af044fab23b659b7b4279399b",
+      "deployedAt": "2026-09-15",
       "primary": true
     },
     {
       "chain": "bsc",
-      "address": "0xe4bd77247671746caa3119e9feaa146f8a4ee237"
+      "address": "0xe4bd77247671746caa3119e9feaa146f8a4ee237",
+      "deployedAt": "2026-09-15"
     },
     {
       "chain": "solana",
-      "address": "qr13tSwtPWKTgYQqf6XM8YoT5LrbFgacpVUupfEondo"
+      "address": "qr13tSwtPWKTgYQqf6XM8YoT5LrbFgacpVUupfEondo",
+      "deployedAt": "2026-10-19"
     }
   ],
   "roles": [

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "byrnrh",
     "symbol": "BYRN",
-    "name": "Byrna Technologies Inc. • Robinhood Token",
+    "name": "Byrna Technologies Inc. - Robinhood Token",
     "legacyId": 1049,
     "canonicalMarketId": "BYRNrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

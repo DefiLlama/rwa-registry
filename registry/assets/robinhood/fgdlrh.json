@@ -2,7 +2,7 @@
   "identity": {
     "slug": "fgdlrh",
     "symbol": "FGDL",
-    "name": "Franklin Templeton Holdings Trust • Robinhood Token",
+    "name": "Franklin Templeton Holdings Trust - Robinhood Token",
     "legacyId": 1369,
     "canonicalMarketId": "FGDLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

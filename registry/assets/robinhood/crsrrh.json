@@ -2,7 +2,7 @@
   "identity": {
     "slug": "crsrrh",
     "symbol": "CRSR",
-    "name": "Corsair Gaming, Inc. • Robinhood Token",
+    "name": "Corsair Gaming, Inc. - Robinhood Token",
     "legacyId": 1173,
     "canonicalMarketId": "CRSRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ewjrh",
     "symbol": "EWJ",
-    "name": "iShares MSCI Japan ETF • Robinhood Token",
+    "name": "iShares MSCI Japan ETF - Robinhood Token",
     "legacyId": 1329,
     "canonicalMarketId": "EWJrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

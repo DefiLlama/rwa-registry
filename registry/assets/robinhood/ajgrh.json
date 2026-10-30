@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ajgrh",
     "symbol": "AJG",
-    "name": "Arthur J. Gallagher & Co. • Robinhood Token",
+    "name": "Arthur J. Gallagher & Co. - Robinhood Token",
     "legacyId": 833,
     "canonicalMarketId": "AJGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

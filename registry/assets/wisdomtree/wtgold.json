@@ -12,7 +12,7 @@
   "class": {
     "structure": "gold",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "gold-commodities"
     ]
@@ -35,8 +35,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -49,7 +48,10 @@
   "roles": [
     {
       "organization": "wisdomtree",
-      "kind": "issuer"
+      "kind": "issuer",
+      "protocolIds": [
+        6516
+      ]
     }
   ],
   "events": [

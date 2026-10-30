@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ferh",
     "symbol": "FE",
-    "name": "FirstEnergy Corp. • Robinhood Token",
+    "name": "FirstEnergy Corp. - Robinhood Token",
     "legacyId": 2774,
     "canonicalMarketId": "FErh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

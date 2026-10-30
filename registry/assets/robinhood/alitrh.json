@@ -2,7 +2,7 @@
   "identity": {
     "slug": "alitrh",
     "symbol": "ALIT",
-    "name": "Alight, Inc. / Delaware • Robinhood Token",
+    "name": "Alight, Inc. / Delaware - Robinhood Token",
     "legacyId": 842,
     "canonicalMarketId": "ALITrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -29,7 +29,7 @@
     "coingeckoId": "nest-liquid-credit-vault"
   },
   "about": {
-    "description": "nLCRD is the receipt token for Nest’s Liquid Credit vault. Public Nest API documentation shows the vault is live in Nest’s supported vault set, and the attached source sheet provides Plume and Solana contract addresses. Public materials reviewed did not disclose a fuller underlying portfolio breakdown for this specific sleeve, so the strategy is conservatively classified as a permissionless liquid credit wrapper where value accrues through NAV and redemptions follow Nest liquidity mechanics.",
+    "description": "nLCRD is the receipt token for Nest's Liquid Credit vault. Public Nest API documentation shows the vault is live in Nest's supported vault set, and the attached source sheet provides Plume and Solana contract addresses. Public materials reviewed did not disclose a fuller underlying portfolio breakdown for this specific sleeve, so the strategy is conservatively classified as a permissionless liquid credit wrapper where value accrues through NAV and redemptions follow Nest liquidity mechanics.",
     "logo": "https://icons.llamao.fi/icons/rwa/nlcrd.png?w=48&h=48",
     "links": {
       "website": [
@@ -40,8 +40,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

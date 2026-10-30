@@ -2,7 +2,7 @@
   "identity": {
     "slug": "lumnrh",
     "symbol": "LUMN",
-    "name": "Lumen Technologies, Inc. • Robinhood Token",
+    "name": "Lumen Technologies, Inc. - Robinhood Token",
     "legacyId": 1754,
     "canonicalMarketId": "LUMNrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

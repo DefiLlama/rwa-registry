@@ -2,7 +2,7 @@
   "identity": {
     "slug": "schhrh",
     "symbol": "SCHH",
-    "name": "Schwab U.S. REIT ETF • Robinhood Token",
+    "name": "Schwab U.S. REIT ETF - Robinhood Token",
     "legacyId": 2198,
     "canonicalMarketId": "SCHHrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

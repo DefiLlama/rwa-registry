@@ -2,7 +2,7 @@
   "identity": {
     "slug": "zybtrh",
     "symbol": "ZYBT",
-    "name": "Zhengye Biotechnology Holding Ltd. • Robinhood Token",
+    "name": "Zhengye Biotechnology Holding Ltd. - Robinhood Token",
     "legacyId": 2698,
     "canonicalMarketId": "ZYBTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

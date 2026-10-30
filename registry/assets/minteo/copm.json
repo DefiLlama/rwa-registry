@@ -12,7 +12,7 @@
   "class": {
     "structure": "other-fiat-stable",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "fiat-stablecoins"
     ]
@@ -26,7 +26,7 @@
     "attestationFrequency": "Monthly"
   },
   "about": {
-    "description": "COPM is Minteo’s digital Colombian peso, designed for treasury operations, payments, and FX settlement. It is fully collateralized with COP-denominated reserves, and is supported by public reserve reporting and periodic audits through Minteo’s transparency portal.",
+    "description": "COPM is Minteo's digital Colombian peso, designed for treasury operations, payments, and FX settlement. It is fully collateralized with COP-denominated reserves, and is supported by public reserve reporting and periodic audits through Minteo's transparency portal.",
     "logo": "https://icons.llamao.fi/icons/rwa/copm.png?w=48&h=48",
     "links": {
       "website": [
@@ -37,8 +37,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

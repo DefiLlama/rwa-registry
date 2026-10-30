@@ -2,7 +2,7 @@
   "identity": {
     "slug": "irdmrh",
     "symbol": "IRDM",
-    "name": "Iridium Communications Inc. • Robinhood Token",
+    "name": "Iridium Communications Inc. - Robinhood Token",
     "legacyId": 1616,
     "canonicalMarketId": "IRDMrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

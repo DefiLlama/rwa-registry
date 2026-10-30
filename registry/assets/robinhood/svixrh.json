@@ -2,7 +2,7 @@
   "identity": {
     "slug": "svixrh",
     "symbol": "SVIX",
-    "name": "-1x Short VIX Futures ETF • Robinhood Token",
+    "name": "-1x Short VIX Futures ETF - Robinhood Token",
     "legacyId": 2779,
     "canonicalMarketId": "SVIXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

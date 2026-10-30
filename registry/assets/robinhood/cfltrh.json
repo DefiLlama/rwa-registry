@@ -2,7 +2,7 @@
   "identity": {
     "slug": "cfltrh",
     "symbol": "CFLT",
-    "name": "Confluent • Robinhood Token",
+    "name": "Confluent - Robinhood Token",
     "legacyId": 1081,
     "canonicalMarketId": "CFLTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

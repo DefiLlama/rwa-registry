@@ -2,7 +2,7 @@
   "identity": {
     "slug": "vtiprh",
     "symbol": "VTIP",
-    "name": "Vanguard Short-Term Inflation-Protected Securities ETF • Robinhood Token",
+    "name": "Vanguard Short-Term Inflation-Protected Securities ETF - Robinhood Token",
     "legacyId": 2582,
     "canonicalMarketId": "VTIPrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

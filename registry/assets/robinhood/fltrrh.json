@@ -2,7 +2,7 @@
   "identity": {
     "slug": "fltrrh",
     "symbol": "FLTR",
-    "name": "VanEck IG Floating Rate ETF • Robinhood Token",
+    "name": "VanEck IG Floating Rate ETF - Robinhood Token",
     "legacyId": 1385,
     "canonicalMarketId": "FLTRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

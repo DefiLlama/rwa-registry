@@ -2,7 +2,7 @@
   "identity": {
     "slug": "disrh",
     "symbol": "DIS",
-    "name": "The Walt Disney Co. • Robinhood Token",
+    "name": "The Walt Disney Co. - Robinhood Token",
     "legacyId": 1232,
     "canonicalMarketId": "DISrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

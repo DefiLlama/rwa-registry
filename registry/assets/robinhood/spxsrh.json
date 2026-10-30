@@ -2,7 +2,7 @@
   "identity": {
     "slug": "spxsrh",
     "symbol": "SPXS",
-    "name": "Direxion Daily S&P 500 Bear 3X ETF • Robinhood Token",
+    "name": "Direxion Daily S&P 500 Bear 3X ETF - Robinhood Token",
     "legacyId": 2314,
     "canonicalMarketId": "SPXSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

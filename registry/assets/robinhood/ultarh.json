@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ultarh",
     "symbol": "ULTA",
-    "name": "Ulta Beauty, Inc. • Robinhood Token",
+    "name": "Ulta Beauty, Inc. - Robinhood Token",
     "legacyId": 2483,
     "canonicalMarketId": "ULTArh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

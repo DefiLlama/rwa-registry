@@ -27,7 +27,7 @@
     "coingeckoId": "avant-usd"
   },
   "about": {
-    "description": "avUSD is a fully reserved stable-value token minted by depositing USDC into Avant Protocol. redemptions return USDC 1:1 (no embedded yield). Peg stability therefore depends primarily on USDC’s reserve quality plus Avant’s smart-contract and operational risk.",
+    "description": "avUSD is a fully reserved stable-value token minted by depositing USDC into Avant Protocol. redemptions return USDC 1:1 (no embedded yield). Peg stability therefore depends primarily on USDC's reserve quality plus Avant's smart-contract and operational risk.",
     "logo": "https://icons.llamao.fi/icons/rwa/avant-usd.png?w=48&h=48",
     "links": {
       "website": [
@@ -38,8 +38,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

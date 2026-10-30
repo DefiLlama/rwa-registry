@@ -2,7 +2,7 @@
   "identity": {
     "slug": "casyrh",
     "symbol": "CASY",
-    "name": "Casey's General Stores, Inc. • Robinhood Token",
+    "name": "Casey's General Stores, Inc. - Robinhood Token",
     "legacyId": 1059,
     "canonicalMarketId": "CASYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

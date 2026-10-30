@@ -2,7 +2,7 @@
   "identity": {
     "slug": "bbairh",
     "symbol": "BBAI",
-    "name": "BigBear.ai Holdings, Inc. • Robinhood Token",
+    "name": "BigBear.ai Holdings, Inc. - Robinhood Token",
     "legacyId": 958,
     "canonicalMarketId": "BBAIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

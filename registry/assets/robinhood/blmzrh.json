@@ -2,7 +2,7 @@
   "identity": {
     "slug": "blmzrh",
     "symbol": "BLMZ",
-    "name": "Harrison Global Holdings • Robinhood Token",
+    "name": "Harrison Global Holdings - Robinhood Token",
     "legacyId": 1004,
     "canonicalMarketId": "BLMZrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

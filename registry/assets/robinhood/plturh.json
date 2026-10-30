@@ -2,7 +2,7 @@
   "identity": {
     "slug": "plturh",
     "symbol": "PLTU",
-    "name": "PlutoTV Inverse ETF • Robinhood Token",
+    "name": "PlutoTV Inverse ETF - Robinhood Token",
     "legacyId": 2044,
     "canonicalMarketId": "PLTUrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

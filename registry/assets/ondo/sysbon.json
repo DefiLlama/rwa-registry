@@ -12,7 +12,7 @@
   "class": {
     "structure": "etf-backed",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "etfs"
     ]
@@ -29,12 +29,9 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "US46435U7963",
-        "source": null,
-        "verified": false
+        "value": "US46435U7963"
       }
-    ],
-    "llamaAttestationProof": false
+    ]
   },
   "about": {
     "description": "SYSBon is an Ondo Stocks tokenized ETF exposure designed to provide economic exposure to the iShares Systematic Bond ETF (SYSB) in an onchain format. The underlying SYSB is a rules-based ETF that seeks to track an index of US dollar-denominated bonds spanning Treasuries, securitized debt, investment grade corporates, and high yield issues. Its systematic index applies four tilts including an economic regime overlay that adjusts high yield allocations, credit quality screens to reduce default risk, a value tilt favoring bonds with stronger risk-adjusted spreads, and interest rate momentum to set target duration. The token is designed to be fully backed by the underlying publicly traded asset, together with cash in transit, held with regulated custodial broker-dealers. Holdings attestations and ongoing reporting are surfaced through Ondo trust and transparency materials and the product asset page. Tokenholders are not shareholders of the underlying and do not receive shareholder voting rights. Dividend value is reflected through total return mechanics. Ondo Stocks adjusts the token to account for dividends net of withholding taxes and reinvests that value into additional shares, increasing the shares per token over time instead of paying cash dividends directly to tokenholders.",
@@ -48,8 +45,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

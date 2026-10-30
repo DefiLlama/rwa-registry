@@ -2,7 +2,7 @@
   "identity": {
     "slug": "gggrh",
     "symbol": "GGG",
-    "name": "Graco Inc. • Robinhood Token",
+    "name": "Graco Inc. - Robinhood Token",
     "legacyId": 1446,
     "canonicalMarketId": "GGGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

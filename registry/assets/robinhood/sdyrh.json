@@ -2,7 +2,7 @@
   "identity": {
     "slug": "sdyrh",
     "symbol": "SDY",
-    "name": "iShares S&P High Dividend Yield ETF • Robinhood Token",
+    "name": "iShares S&P High Dividend Yield ETF - Robinhood Token",
     "legacyId": 2215,
     "canonicalMarketId": "SDYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

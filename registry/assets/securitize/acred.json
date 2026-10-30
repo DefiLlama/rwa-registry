@@ -12,7 +12,7 @@
   "class": {
     "structure": "credit-pool",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "private-credit"
     ]
@@ -29,7 +29,7 @@
     "coingeckoId": "apollo-diversified-credit-securitize-fund"
   },
   "about": {
-    "description": "ACRED represents tokenized access to the Apollo Diversified Credit Fund through the Securitize platform. The strategy seeks a return comprised of current income and capital appreciation, emphasizing income with low volatility and low correlation to broader public markets by investing across diversified credit exposures sourced from Apollo’s credit platform. ACRED is structured as an onchain fund interest with native subscription/redemption mechanics processed at the fund’s net asset value, including daily NAV redemptions as described by the issuer’s launch materials. The token has been deployed across multiple networks to support different settlement rails while keeping a single, regulated share‑class exposure.",
+    "description": "ACRED represents tokenized access to the Apollo Diversified Credit Fund through the Securitize platform. The strategy seeks a return comprised of current income and capital appreciation, emphasizing income with low volatility and low correlation to broader public markets by investing across diversified credit exposures sourced from Apollo's credit platform. ACRED is structured as an onchain fund interest with native subscription/redemption mechanics processed at the fund's net asset value, including daily NAV redemptions as described by the issuer's launch materials. The token has been deployed across multiple networks to support different settlement rails while keeping a single, regulated share-class exposure.",
     "logo": "https://icons.llamao.fi/icons/rwa/apollo-diversified-credit-securitize-fund.png?w=48&h=48",
     "links": {
       "website": [
@@ -40,8 +40,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

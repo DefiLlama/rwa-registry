@@ -2,7 +2,7 @@
   "identity": {
     "slug": "literh",
     "symbol": "LITE",
-    "name": "Lumentum Holdings Inc. • Robinhood Token",
+    "name": "Lumentum Holdings Inc. - Robinhood Token",
     "legacyId": 1730,
     "canonicalMarketId": "LITErh"
   },
@@ -27,9 +27,7 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "US55024U1097",
-        "source": null,
-        "verified": false
+        "value": "US55024U1097"
       }
     ]
   },
@@ -45,8 +43,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -77,6 +74,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://robinhood.com/eu/en/about/"
+      ],
+      "protocolIds": [
+        3732
       ]
     },
     {

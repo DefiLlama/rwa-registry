@@ -2,7 +2,7 @@
   "identity": {
     "slug": "mrkrh",
     "symbol": "MRK",
-    "name": "Merck & Co., Inc. • Robinhood Token",
+    "name": "Merck & Co., Inc. - Robinhood Token",
     "legacyId": 1824,
     "canonicalMarketId": "MRKrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

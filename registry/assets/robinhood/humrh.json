@@ -2,7 +2,7 @@
   "identity": {
     "slug": "humrh",
     "symbol": "HUM",
-    "name": "Humana Inc. • Robinhood Token",
+    "name": "Humana Inc. - Robinhood Token",
     "legacyId": 1552,
     "canonicalMarketId": "HUMrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

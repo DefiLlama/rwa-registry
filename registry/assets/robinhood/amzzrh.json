@@ -2,7 +2,7 @@
   "identity": {
     "slug": "amzzrh",
     "symbol": "AMZZ",
-    "name": "Amazon 3X Leveraged ETF • Robinhood Token",
+    "name": "Amazon 3X Leveraged ETF - Robinhood Token",
     "legacyId": 871,
     "canonicalMarketId": "AMZZrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

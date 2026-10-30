@@ -2,7 +2,7 @@
   "identity": {
     "slug": "stubrh",
     "symbol": "STUB",
-    "name": "StubHub Holdings, Inc. • Robinhood Token",
+    "name": "StubHub Holdings, Inc. - Robinhood Token",
     "legacyId": 2345,
     "canonicalMarketId": "STUBrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "rsprh",
     "symbol": "RSP",
-    "name": "Invesco S&P 500 Equal Weight ETF • Robinhood Token",
+    "name": "Invesco S&P 500 Equal Weight ETF - Robinhood Token",
     "legacyId": 2163,
     "canonicalMarketId": "RSPrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

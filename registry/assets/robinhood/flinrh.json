@@ -2,7 +2,7 @@
   "identity": {
     "slug": "flinrh",
     "symbol": "FLIN",
-    "name": "Franklin FTSE India ETF • Robinhood Token",
+    "name": "Franklin FTSE India ETF - Robinhood Token",
     "legacyId": 1381,
     "canonicalMarketId": "FLINrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

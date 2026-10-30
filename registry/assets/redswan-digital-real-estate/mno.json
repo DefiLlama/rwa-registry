@@ -34,14 +34,13 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
       "chain": "hedera",
       "address": "0x000000000000000000000000000000000097a5db",
-      "deployedAt": null,
+      "deployedAt": "2025-09-19",
       "primary": true
     }
   ],

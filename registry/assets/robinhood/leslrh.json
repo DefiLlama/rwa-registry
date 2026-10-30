@@ -2,7 +2,7 @@
   "identity": {
     "slug": "leslrh",
     "symbol": "LESL",
-    "name": "Leslie's, Inc. • Robinhood Token",
+    "name": "Leslie's, Inc. - Robinhood Token",
     "legacyId": 1720,
     "canonicalMarketId": "LESLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

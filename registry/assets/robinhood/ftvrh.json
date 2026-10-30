@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ftvrh",
     "symbol": "FTV",
-    "name": "Fortive Corp. • Robinhood Token",
+    "name": "Fortive Corp. - Robinhood Token",
     "legacyId": 1413,
     "canonicalMarketId": "FTVrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "spyvrh",
     "symbol": "SPYV",
-    "name": "Invesco S&P 500 Value ETF • Robinhood Token",
+    "name": "Invesco S&P 500 Value ETF - Robinhood Token",
     "legacyId": 2322,
     "canonicalMarketId": "SPYVrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

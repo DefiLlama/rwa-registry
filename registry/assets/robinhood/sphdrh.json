@@ -2,7 +2,7 @@
   "identity": {
     "slug": "sphdrh",
     "symbol": "SPHD",
-    "name": "Invesco S&P 500 High Dividend Low Volatility ETF • Robinhood Token",
+    "name": "Invesco S&P 500 High Dividend Low Volatility ETF - Robinhood Token",
     "legacyId": 2298,
     "canonicalMarketId": "SPHDrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

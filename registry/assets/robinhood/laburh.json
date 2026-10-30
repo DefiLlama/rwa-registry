@@ -2,7 +2,7 @@
   "identity": {
     "slug": "laburh",
     "symbol": "LABU",
-    "name": "Direxion Daily S&P Biotech Bull 3X ETF • Robinhood Token",
+    "name": "Direxion Daily S&P Biotech Bull 3X ETF - Robinhood Token",
     "legacyId": 1706,
     "canonicalMarketId": "LABUrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

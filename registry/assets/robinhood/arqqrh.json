@@ -2,7 +2,7 @@
   "identity": {
     "slug": "arqqrh",
     "symbol": "ARQQ",
-    "name": "Arqit Quantum Inc. • Robinhood Token",
+    "name": "Arqit Quantum Inc. - Robinhood Token",
     "legacyId": 909,
     "canonicalMarketId": "ARQQrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

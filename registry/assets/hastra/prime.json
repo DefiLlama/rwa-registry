@@ -28,7 +28,7 @@
     "coingeckoId": "hastra-prime"
   },
   "about": {
-    "description": "PRIME is Hastra’s yield-bearing token built to represent staked exposure to wYLDS, with yield sourced from Figure’s Prime home equity line of credit lending pools. It is designed to be composable in DeFi while maintaining a reserves-first approach, publishing reserve and supply information through a dedicated proof-of-reserves dashboard. PRIME is intended for users who want a single token that packages underlying RWA-linked yield, onchain accounting, and transparent backing data.",
+    "description": "PRIME is Hastra's yield-bearing token built to represent staked exposure to wYLDS, with yield sourced from Figure's Prime home equity line of credit lending pools. It is designed to be composable in DeFi while maintaining a reserves-first approach, publishing reserve and supply information through a dedicated proof-of-reserves dashboard. PRIME is intended for users who want a single token that packages underlying RWA-linked yield, onchain accounting, and transparent backing data.",
     "logo": "https://icons.llamao.fi/icons/rwa/prime.png?w=48&h=48",
     "links": {
       "website": [
@@ -39,8 +39,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -73,6 +72,9 @@
       "sourceLinks": [
         "https://hastra.io/prime",
         "https://investors.figure.com/news-releases/news-release-details/figure-and-leading-crypto-partners-launch-rwa-consortium-onchain"
+      ],
+      "protocolIds": [
+        7266
       ]
     }
   ],

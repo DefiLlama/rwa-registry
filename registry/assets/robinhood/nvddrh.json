@@ -2,7 +2,7 @@
   "identity": {
     "slug": "nvddrh",
     "symbol": "NVDD",
-    "name": "Direxion Daily NVDA Bear 1X ETF • Robinhood Token",
+    "name": "Direxion Daily NVDA Bear 1X ETF - Robinhood Token",
     "legacyId": 1928,
     "canonicalMarketId": "NVDDrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

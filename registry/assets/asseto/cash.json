@@ -12,7 +12,7 @@
   "class": {
     "structure": "mmf",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "bond-mmf-funds"
     ]
@@ -26,7 +26,7 @@
     "attestationFrequency": "Not publicly disclosed"
   },
   "about": {
-    "description": "CASH+ is Asseto’s cash-management style token designed to keep a stable unit of account while earning yield through a managed, conservative allocation. It targets lower volatility than typical DeFi yield strategies and is positioned for users seeking a steady return profile suited to treasury-style stablecoin parking.",
+    "description": "CASH+ is Asseto's cash-management style token designed to keep a stable unit of account while earning yield through a managed, conservative allocation. It targets lower volatility than typical DeFi yield strategies and is positioned for users seeking a steady return profile suited to treasury-style stablecoin parking.",
     "logo": "https://icons.llamao.fi/icons/rwa/asseto-cash-plus.png?w=48&h=48",
     "links": {
       "website": [
@@ -37,8 +37,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

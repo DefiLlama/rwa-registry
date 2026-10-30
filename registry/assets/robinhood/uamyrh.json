@@ -2,7 +2,7 @@
   "identity": {
     "slug": "uamyrh",
     "symbol": "UAMY",
-    "name": "United States Antimony Corp. • Robinhood Token",
+    "name": "United States Antimony Corp. - Robinhood Token",
     "legacyId": 2468,
     "canonicalMarketId": "UAMYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

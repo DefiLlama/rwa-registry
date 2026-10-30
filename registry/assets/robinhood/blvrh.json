@@ -2,7 +2,7 @@
   "identity": {
     "slug": "blvrh",
     "symbol": "BLV",
-    "name": "Vanguard Large-Cap Value ETF • Robinhood Token",
+    "name": "Vanguard Large-Cap Value ETF - Robinhood Token",
     "legacyId": 1007,
     "canonicalMarketId": "BLVrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

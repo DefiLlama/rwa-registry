@@ -2,7 +2,7 @@
   "identity": {
     "slug": "atkrrh",
     "symbol": "ATKR",
-    "name": "Atkore Inc. • Robinhood Token",
+    "name": "Atkore Inc. - Robinhood Token",
     "legacyId": 925,
     "canonicalMarketId": "ATKRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "tsyyrh",
     "symbol": "TSYY",
-    "name": "Treasury Yield Curve ETF • Robinhood Token",
+    "name": "Treasury Yield Curve ETF - Robinhood Token",
     "legacyId": 2770,
     "canonicalMarketId": "TSYYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

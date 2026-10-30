@@ -2,7 +2,7 @@
   "identity": {
     "slug": "edvrh",
     "symbol": "EDV",
-    "name": "Vanguard Extended Duration Treasury ETF • Robinhood Token",
+    "name": "Vanguard Extended Duration Treasury ETF - Robinhood Token",
     "legacyId": 1273,
     "canonicalMarketId": "EDVrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

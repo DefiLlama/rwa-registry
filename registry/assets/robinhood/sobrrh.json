@@ -2,7 +2,7 @@
   "identity": {
     "slug": "sobrrh",
     "symbol": "SOBR",
-    "name": "SOBR Safe, Inc. • Robinhood Token",
+    "name": "SOBR Safe, Inc. - Robinhood Token",
     "legacyId": 2280,
     "canonicalMarketId": "SOBRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

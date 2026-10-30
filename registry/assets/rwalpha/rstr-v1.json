@@ -33,13 +33,13 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {
       "chain": "mantle",
       "address": "0xaebc6191684b0838e46c0113b5741b5f96070028",
+      "deployedAt": "2026-05-25",
       "primary": true
     }
   ],
@@ -55,7 +55,8 @@
   "events": [
     {
       "kind": "delisting",
-      "note": "last stored day not given at import"
+      "note": "last stored day not given at import",
+      "date": null
     }
   ]
 }

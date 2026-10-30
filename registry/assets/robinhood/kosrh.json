@@ -2,7 +2,7 @@
   "identity": {
     "slug": "kosrh",
     "symbol": "KOS",
-    "name": "Kosmos Energy Ltd. • Robinhood Token",
+    "name": "Kosmos Energy Ltd. - Robinhood Token",
     "legacyId": 1690,
     "canonicalMarketId": "KOSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

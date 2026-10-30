@@ -2,7 +2,7 @@
   "identity": {
     "slug": "drctrh",
     "symbol": "DRCT",
-    "name": "Direct Digital Holdings, Inc. • Robinhood Token",
+    "name": "Direct Digital Holdings, Inc. - Robinhood Token",
     "legacyId": 1250,
     "canonicalMarketId": "DRCTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

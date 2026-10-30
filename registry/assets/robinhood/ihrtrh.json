@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ihrtrh",
     "symbol": "IHRT",
-    "name": "iHeartMedia, Inc. • Robinhood Token",
+    "name": "iHeartMedia, Inc. - Robinhood Token",
     "legacyId": 1586,
     "canonicalMarketId": "IHRTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

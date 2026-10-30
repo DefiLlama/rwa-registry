@@ -2,7 +2,7 @@
   "identity": {
     "slug": "eqtrh",
     "symbol": "EQT",
-    "name": "EQT Corp. • Robinhood Token",
+    "name": "EQT Corp. - Robinhood Token",
     "legacyId": 1301,
     "canonicalMarketId": "EQTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

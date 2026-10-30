@@ -25,16 +25,6 @@
     "selfCustody": true,
     "yieldBearing": false
   },
-  "sources": {
-    "identifiers": [
-      {
-        "scheme": "isin",
-        "value": "US01609W1027",
-        "source": null,
-        "verified": false
-      }
-    ]
-  },
   "about": {
     "description": "BABA on Crypto.com is a tokenized stock issued on the Cronos chain that tracks the price of Alibaba Group Holding Limited. The token is a ledger based derivative issued by Foris Capital, so a holder takes price exposure without owning the underlying security and without voting or dividend rights. Dividends and corporate actions are applied by the issuer as adjustments to the token balance rather than paid out in cash. Trading runs around the clock inside the Crypto.com app with a minimum order size of one dollar and no commission. Redemption is settled for economic value rather than in shares, and tokens can be withdrawn to the Cronos chain for onchain use.",
     "logo": "https://icons.llamao.fi/icons/rwa/baba.png?w=48&h=48",
@@ -47,8 +37,7 @@
   "review": {
     "activeAumReviewed": false,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

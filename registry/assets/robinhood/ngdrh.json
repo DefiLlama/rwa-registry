@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ngdrh",
     "symbol": "NGD",
-    "name": "New Gold • Robinhood Token",
+    "name": "New Gold - Robinhood Token",
     "legacyId": 1891,
     "canonicalMarketId": "NGDrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

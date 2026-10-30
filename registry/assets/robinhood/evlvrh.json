@@ -2,7 +2,7 @@
   "identity": {
     "slug": "evlvrh",
     "symbol": "EVLV",
-    "name": "Evolv Technologies Holdings, Inc. • Robinhood Token",
+    "name": "Evolv Technologies Holdings, Inc. - Robinhood Token",
     "legacyId": 1323,
     "canonicalMarketId": "EVLVrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

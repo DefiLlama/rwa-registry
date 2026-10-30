@@ -2,7 +2,7 @@
   "identity": {
     "slug": "oneqrh",
     "symbol": "ONEQ",
-    "name": "iShares NASDAQ-100 ETF • Robinhood Token",
+    "name": "iShares NASDAQ-100 ETF - Robinhood Token",
     "legacyId": 1968,
     "canonicalMarketId": "ONEQrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

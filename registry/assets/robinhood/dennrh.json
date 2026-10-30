@@ -2,7 +2,7 @@
   "identity": {
     "slug": "dennrh",
     "symbol": "DENN",
-    "name": "Denny's • Robinhood Token",
+    "name": "Denny's - Robinhood Token",
     "legacyId": 1218,
     "canonicalMarketId": "DENNrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

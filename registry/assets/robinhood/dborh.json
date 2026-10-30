@@ -2,7 +2,7 @@
   "identity": {
     "slug": "dborh",
     "symbol": "DBO",
-    "name": "Invesco DB Oil Fund • Robinhood Token",
+    "name": "Invesco DB Oil Fund - Robinhood Token",
     "legacyId": 1210,
     "canonicalMarketId": "DBOrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

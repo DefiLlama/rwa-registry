@@ -2,7 +2,7 @@
   "identity": {
     "slug": "vktxrh",
     "symbol": "VKTX",
-    "name": "Viking Therapeutics, Inc. • Robinhood Token",
+    "name": "Viking Therapeutics, Inc. - Robinhood Token",
     "legacyId": 2555,
     "canonicalMarketId": "VKTXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

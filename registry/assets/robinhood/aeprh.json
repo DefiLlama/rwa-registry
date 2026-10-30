@@ -2,7 +2,7 @@
   "identity": {
     "slug": "aeprh",
     "symbol": "AEP",
-    "name": "American Electric Power Co., Inc. • Robinhood Token",
+    "name": "American Electric Power Co., Inc. - Robinhood Token",
     "legacyId": 811,
     "canonicalMarketId": "AEPrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

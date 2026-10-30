@@ -2,7 +2,7 @@
   "identity": {
     "slug": "tslwrh",
     "symbol": "TSLW",
-    "name": "Tesla Leveraged ETF • Robinhood Token",
+    "name": "Tesla Leveraged ETF - Robinhood Token",
     "legacyId": 2440,
     "canonicalMarketId": "TSLWrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "drsrh",
     "symbol": "DRS",
-    "name": "Leonardo DRS, Inc. • Robinhood Token",
+    "name": "Leonardo DRS, Inc. - Robinhood Token",
     "legacyId": 1253,
     "canonicalMarketId": "DRSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

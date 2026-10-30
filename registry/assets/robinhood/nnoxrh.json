@@ -2,7 +2,7 @@
   "identity": {
     "slug": "nnoxrh",
     "symbol": "NNOX",
-    "name": "Nano-X Imaging Ltd. • Robinhood Token",
+    "name": "Nano-X Imaging Ltd. - Robinhood Token",
     "legacyId": 1902,
     "canonicalMarketId": "NNOXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

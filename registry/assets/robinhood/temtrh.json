@@ -2,7 +2,7 @@
   "identity": {
     "slug": "temtrh",
     "symbol": "TEMT",
-    "name": "Technology Momentum ETF • Robinhood Token",
+    "name": "Technology Momentum ETF - Robinhood Token",
     "legacyId": 2382,
     "canonicalMarketId": "TEMTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

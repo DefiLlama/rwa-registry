@@ -36,8 +36,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -63,6 +62,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://docs.stobox.io/about/stobox-assets/stobox-security-token-stbx"
+      ],
+      "protocolIds": [
+        7403
       ]
     }
   ]

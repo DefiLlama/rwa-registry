@@ -2,7 +2,7 @@
   "identity": {
     "slug": "itarh",
     "symbol": "ITA",
-    "name": "iShares U.S. Aerospace & Defense ETF • Robinhood Token",
+    "name": "iShares U.S. Aerospace & Defense ETF - Robinhood Token",
     "legacyId": 1622,
     "canonicalMarketId": "ITArh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "pcvxrh",
     "symbol": "PCVX",
-    "name": "Vaxcyte, Inc. • Robinhood Token",
+    "name": "Vaxcyte, Inc. - Robinhood Token",
     "legacyId": 2009,
     "canonicalMarketId": "PCVXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

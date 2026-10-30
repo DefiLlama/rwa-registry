@@ -2,7 +2,7 @@
   "identity": {
     "slug": "sbitrh",
     "symbol": "SBIT",
-    "name": "Grayscale Bitcoin Trust ETF • Robinhood Token",
+    "name": "Grayscale Bitcoin Trust ETF - Robinhood Token",
     "legacyId": 2187,
     "canonicalMarketId": "SBITrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

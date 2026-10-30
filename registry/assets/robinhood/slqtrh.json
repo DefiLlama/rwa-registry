@@ -2,7 +2,7 @@
   "identity": {
     "slug": "slqtrh",
     "symbol": "SLQT",
-    "name": "SelectQuote, Inc. • Robinhood Token",
+    "name": "SelectQuote, Inc. - Robinhood Token",
     "legacyId": 2248,
     "canonicalMarketId": "SLQTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

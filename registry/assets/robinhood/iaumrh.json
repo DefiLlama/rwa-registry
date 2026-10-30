@@ -2,7 +2,7 @@
   "identity": {
     "slug": "iaumrh",
     "symbol": "IAUM",
-    "name": "iShares Gold Trust Micro • Robinhood Token",
+    "name": "iShares Gold Trust Micro - Robinhood Token",
     "legacyId": 1563,
     "canonicalMarketId": "IAUMrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

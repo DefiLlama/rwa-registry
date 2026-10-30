@@ -2,7 +2,7 @@
   "identity": {
     "slug": "aizrh",
     "symbol": "AIZ",
-    "name": "Assurant, Inc. • Robinhood Token",
+    "name": "Assurant, Inc. - Robinhood Token",
     "legacyId": 831,
     "canonicalMarketId": "AIZrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

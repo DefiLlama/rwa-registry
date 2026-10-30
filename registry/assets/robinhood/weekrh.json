@@ -2,7 +2,7 @@
   "identity": {
     "slug": "weekrh",
     "symbol": "WEEK",
-    "name": "Global X Weekly Premium Income ETF • Robinhood Token",
+    "name": "Global X Weekly Premium Income ETF - Robinhood Token",
     "legacyId": 2610,
     "canonicalMarketId": "WEEKrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

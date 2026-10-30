@@ -2,7 +2,7 @@
   "identity": {
     "slug": "krrh",
     "symbol": "KR",
-    "name": "Kroger Co. • Robinhood Token",
+    "name": "Kroger Co. - Robinhood Token",
     "legacyId": 1695,
     "canonicalMarketId": "KRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

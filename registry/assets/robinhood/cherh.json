@@ -2,7 +2,7 @@
   "identity": {
     "slug": "cherh",
     "symbol": "CHE",
-    "name": "Chemed Corp. • Robinhood Token",
+    "name": "Chemed Corp. - Robinhood Token",
     "legacyId": 1094,
     "canonicalMarketId": "CHErh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

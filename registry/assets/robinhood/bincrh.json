@@ -2,7 +2,7 @@
   "identity": {
     "slug": "bincrh",
     "symbol": "BINC",
-    "name": "BlackRock Flexible Income ETF • Robinhood Token",
+    "name": "BlackRock Flexible Income ETF - Robinhood Token",
     "legacyId": 983,
     "canonicalMarketId": "BINCrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

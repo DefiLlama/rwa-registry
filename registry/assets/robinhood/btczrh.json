@@ -2,7 +2,7 @@
   "identity": {
     "slug": "btczrh",
     "symbol": "BTCZ",
-    "name": "Bitcoin Extreme ETF • Robinhood Token",
+    "name": "Bitcoin Extreme ETF - Robinhood Token",
     "legacyId": 1035,
     "canonicalMarketId": "BTCZrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

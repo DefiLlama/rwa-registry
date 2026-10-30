@@ -29,7 +29,7 @@
     "coingeckoId": "nest-treasury-vault"
   },
   "about": {
-    "description": "nTBILL is the receipt token for Nest’s Treasury vault, designed as a conservative, cash-management style allocation backed by short-duration U.S. Treasury fund exposure. Nest discloses the vault as 100% U.S. Treasuries, implemented via Superstate USTB (70%) and a Janus Henderson U.S. Treasury fund (30%). Value accrues through NAV appreciation as the underlying Treasury vehicles earn yield. Redemptions are subject to vault settlement and liquidity mechanics.",
+    "description": "nTBILL is the receipt token for Nest's Treasury vault, designed as a conservative, cash-management style allocation backed by short-duration U.S. Treasury fund exposure. Nest discloses the vault as 100% U.S. Treasuries, implemented via Superstate USTB (70%) and a Janus Henderson U.S. Treasury fund (30%). Value accrues through NAV appreciation as the underlying Treasury vehicles earn yield. Redemptions are subject to vault settlement and liquidity mechanics.",
     "logo": "https://icons.llamao.fi/icons/rwa/ntbill.png?w=48&h=48",
     "links": {
       "website": [
@@ -40,8 +40,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

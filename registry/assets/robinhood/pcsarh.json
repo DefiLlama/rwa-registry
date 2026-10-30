@@ -2,7 +2,7 @@
   "identity": {
     "slug": "pcsarh",
     "symbol": "PCSA",
-    "name": "Processa Pharmaceuticals, Inc. • Robinhood Token",
+    "name": "Processa Pharmaceuticals, Inc. - Robinhood Token",
     "legacyId": 2007,
     "canonicalMarketId": "PCSArh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

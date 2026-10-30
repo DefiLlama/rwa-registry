@@ -2,7 +2,7 @@
   "identity": {
     "slug": "frshrh",
     "symbol": "FRSH",
-    "name": "Freshworks Inc. • Robinhood Token",
+    "name": "Freshworks Inc. - Robinhood Token",
     "legacyId": 1404,
     "canonicalMarketId": "FRSHrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

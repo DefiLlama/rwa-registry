@@ -2,7 +2,7 @@
   "identity": {
     "slug": "cncrh",
     "symbol": "CNC",
-    "name": "Centene Corp. • Robinhood Token",
+    "name": "Centene Corp. - Robinhood Token",
     "legacyId": 2757,
     "canonicalMarketId": "CNCrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

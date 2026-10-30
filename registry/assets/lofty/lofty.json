@@ -26,7 +26,7 @@
     "yieldBearing": false
   },
   "about": {
-    "description": "Lofty AI is a marketplace for fractional ownership in individual rental properties, where each listing is paired with a structured legal wrapper and property documentation that investors can review. The experience is designed around property-level transparency, including access to deeds, closing documents, and operating agreements, so users can evaluate each property’s backing and terms directly.",
+    "description": "Lofty AI is a marketplace for fractional ownership in individual rental properties, where each listing is paired with a structured legal wrapper and property documentation that investors can review. The experience is designed around property-level transparency, including access to deeds, closing documents, and operating agreements, so users can evaluate each property's backing and terms directly.",
     "logo": "https://icons.llamao.fi/icons/rwa/lofty.png?w=48&h=48",
     "links": {
       "website": [
@@ -37,8 +37,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -54,6 +53,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://dfpi.ca.gov/wp-content/uploads/sites/337/2022/11/Lofty-AI-Inc-Consent-Order.pdf"
+      ],
+      "protocolIds": [
+        1952
       ]
     }
   ]

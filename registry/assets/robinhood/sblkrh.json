@@ -2,7 +2,7 @@
   "identity": {
     "slug": "sblkrh",
     "symbol": "SBLK",
-    "name": "Star Bulk Carriers Corp. • Robinhood Token",
+    "name": "Star Bulk Carriers Corp. - Robinhood Token",
     "legacyId": 2188,
     "canonicalMarketId": "SBLKrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

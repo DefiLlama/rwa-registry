@@ -2,7 +2,7 @@
   "identity": {
     "slug": "gisrh",
     "symbol": "GIS",
-    "name": "General Mills, Inc. • Robinhood Token",
+    "name": "General Mills, Inc. - Robinhood Token",
     "legacyId": 1452,
     "canonicalMarketId": "GISrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "pfltrh",
     "symbol": "PFLT",
-    "name": "PennantPark Floating Rate Capital Ltd. • Robinhood Token",
+    "name": "PennantPark Floating Rate Capital Ltd. - Robinhood Token",
     "legacyId": 2025,
     "canonicalMarketId": "PFLTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

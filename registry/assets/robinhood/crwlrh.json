@@ -2,7 +2,7 @@
   "identity": {
     "slug": "crwlrh",
     "symbol": "CRWL",
-    "name": "Crawdad Energy ETF • Robinhood Token",
+    "name": "Crawdad Energy ETF - Robinhood Token",
     "legacyId": 1177,
     "canonicalMarketId": "CRWLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

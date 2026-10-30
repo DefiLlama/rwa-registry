@@ -2,7 +2,7 @@
   "identity": {
     "slug": "gerh",
     "symbol": "GE",
-    "name": "GE Aerospace • Robinhood Token",
+    "name": "GE Aerospace - Robinhood Token",
     "legacyId": 1444,
     "canonicalMarketId": "GErh"
   },
@@ -27,9 +27,7 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "US3696043013",
-        "source": null,
-        "verified": false
+        "value": "US3696043013"
       }
     ]
   },
@@ -45,8 +43,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -77,6 +74,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://robinhood.com/eu/en/about/"
+      ],
+      "protocolIds": [
+        3732
       ]
     },
     {

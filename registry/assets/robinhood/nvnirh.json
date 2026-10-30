@@ -2,7 +2,7 @@
   "identity": {
     "slug": "nvnirh",
     "symbol": "NVNI",
-    "name": "Nvni Group Ltd. • Robinhood Token",
+    "name": "Nvni Group Ltd. - Robinhood Token",
     "legacyId": 1937,
     "canonicalMarketId": "NVNIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

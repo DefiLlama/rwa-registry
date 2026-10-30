@@ -2,7 +2,7 @@
   "identity": {
     "slug": "tmderh",
     "symbol": "TMDE",
-    "name": "TMD Energy Ltd. • Robinhood Token",
+    "name": "TMD Energy Ltd. - Robinhood Token",
     "legacyId": 2402,
     "canonicalMarketId": "TMDErh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

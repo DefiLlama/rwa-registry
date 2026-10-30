@@ -2,7 +2,7 @@
   "identity": {
     "slug": "phoerh",
     "symbol": "PHOE",
-    "name": "Phoenix Asia Holdings Ltd. • Robinhood Token",
+    "name": "Phoenix Asia Holdings Ltd. - Robinhood Token",
     "legacyId": 2033,
     "canonicalMarketId": "PHOErh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

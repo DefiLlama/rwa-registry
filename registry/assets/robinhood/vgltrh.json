@@ -2,7 +2,7 @@
   "identity": {
     "slug": "vgltrh",
     "symbol": "VGLT",
-    "name": "Vanguard Long-Term Treasury ETF • Robinhood Token",
+    "name": "Vanguard Long-Term Treasury ETF - Robinhood Token",
     "legacyId": 2542,
     "canonicalMarketId": "VGLTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

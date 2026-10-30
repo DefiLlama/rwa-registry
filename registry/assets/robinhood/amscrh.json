@@ -2,7 +2,7 @@
   "identity": {
     "slug": "amscrh",
     "symbol": "AMSC",
-    "name": "American Superconductor Corp. • Robinhood Token",
+    "name": "American Superconductor Corp. - Robinhood Token",
     "legacyId": 864,
     "canonicalMarketId": "AMSCrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

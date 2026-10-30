@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ewrh",
     "symbol": "EW",
-    "name": "Edwards Lifesciences Corp. • Robinhood Token",
+    "name": "Edwards Lifesciences Corp. - Robinhood Token",
     "legacyId": 1335,
     "canonicalMarketId": "EWrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

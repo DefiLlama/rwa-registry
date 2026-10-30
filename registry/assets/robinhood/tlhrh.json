@@ -2,7 +2,7 @@
   "identity": {
     "slug": "tlhrh",
     "symbol": "TLH",
-    "name": "Thornton Library Holdings ETF • Robinhood Token",
+    "name": "Thornton Library Holdings ETF - Robinhood Token",
     "legacyId": 2807,
     "canonicalMarketId": "TLHrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

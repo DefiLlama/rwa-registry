@@ -2,7 +2,7 @@
   "identity": {
     "slug": "retlrh",
     "symbol": "RETL",
-    "name": "Direxion Daily Retail Bull 3X ETF • Robinhood Token",
+    "name": "Direxion Daily Retail Bull 3X ETF - Robinhood Token",
     "legacyId": 2131,
     "canonicalMarketId": "RETLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

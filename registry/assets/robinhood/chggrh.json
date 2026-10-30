@@ -2,7 +2,7 @@
   "identity": {
     "slug": "chggrh",
     "symbol": "CHGG",
-    "name": "Chegg, Inc. • Robinhood Token",
+    "name": "Chegg, Inc. - Robinhood Token",
     "legacyId": 1095,
     "canonicalMarketId": "CHGGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

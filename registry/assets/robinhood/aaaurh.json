@@ -2,7 +2,7 @@
   "identity": {
     "slug": "aaaurh",
     "symbol": "AAAU",
-    "name": "Gold • Robinhood Token",
+    "name": "Gold - Robinhood Token",
     "legacyId": 774,
     "canonicalMarketId": "AAAUrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

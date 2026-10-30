@@ -2,7 +2,7 @@
   "identity": {
     "slug": "phiorh",
     "symbol": "PHIO",
-    "name": "Phio Pharmaceuticals Corp. • Robinhood Token",
+    "name": "Phio Pharmaceuticals Corp. - Robinhood Token",
     "legacyId": 2031,
     "canonicalMarketId": "PHIOrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

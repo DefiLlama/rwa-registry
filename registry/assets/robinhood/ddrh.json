@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ddrh",
     "symbol": "DD",
-    "name": "DuPont de Nemours, Inc. • Robinhood Token",
+    "name": "DuPont de Nemours, Inc. - Robinhood Token",
     "legacyId": 1215,
     "canonicalMarketId": "DDrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

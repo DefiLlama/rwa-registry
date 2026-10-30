@@ -2,7 +2,7 @@
   "identity": {
     "slug": "enscrh",
     "symbol": "ENSC",
-    "name": "Ensysce Biosciences, Inc. • Robinhood Token",
+    "name": "Ensysce Biosciences, Inc. - Robinhood Token",
     "legacyId": 1291,
     "canonicalMarketId": "ENSCrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

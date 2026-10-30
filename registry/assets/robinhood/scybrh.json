@@ -2,7 +2,7 @@
   "identity": {
     "slug": "scybrh",
     "symbol": "SCYB",
-    "name": "Scyb Technology ETF • Robinhood Token",
+    "name": "Scyb Technology ETF - Robinhood Token",
     "legacyId": 2209,
     "canonicalMarketId": "SCYBrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

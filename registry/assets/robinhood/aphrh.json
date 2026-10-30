@@ -2,7 +2,7 @@
   "identity": {
     "slug": "aphrh",
     "symbol": "APH",
-    "name": "Amphenol Corp. • Robinhood Token",
+    "name": "Amphenol Corp. - Robinhood Token",
     "legacyId": 881,
     "canonicalMarketId": "APHrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

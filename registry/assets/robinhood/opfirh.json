@@ -2,7 +2,7 @@
   "identity": {
     "slug": "opfirh",
     "symbol": "OPFI",
-    "name": "OppFi Inc. • Robinhood Token",
+    "name": "OppFi Inc. - Robinhood Token",
     "legacyId": 1977,
     "canonicalMarketId": "OPFIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

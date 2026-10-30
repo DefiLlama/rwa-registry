@@ -22,9 +22,6 @@
     "selfCustody": true,
     "yieldBearing": true
   },
-  "sources": {
-    "llamaAttestationProof": false
-  },
   "about": {
     "description": "wtnUSDT is a deposit vault token issued by WiseSoft LLC under the WISE Token brand and marketed as exposure to World Mobile AirNode telecom infrastructure. World Mobile has publicly confirmed a distribution partnership with Wise Lending, but World Mobile is not the issuer and no public document establishes any World Mobile obligation to token holders. World Mobile documentation states that AirNodes cannot be fractionally operated and require a single registered owner, so holders do not hold title to node hardware. The instrument functions as an unsecured claim on WiseSoft that accrues a fixed rate set by the operator. The contract stores an interest rate of twenty percent annualized, reconfigurable by the admin up to a two hundred percent ceiling, and no contract logic reads node revenue. Interest accrues to a separate ledger rather than to the token balance, so the balance does not rebase and holders claim or compound separately. There is no issuer redemption function. The only exit is a peer funded sell order queue in which the seller sets a discount and another depositor fills the order. Deposits are forwarded off chain to a third party address rather than retained by the contract, and measured underlying held on chain is a small fraction of outstanding supply. Supply provenance reconciles to a one to one migration from a predecessor forward vault that has since been fully drained. 35 tokens on Ethereum across 16 holders and approximately 11,753.33 tokens on Arbitrum. The underlying deposit asset is USDT. Supply provenance requires an important qualification. On chain event reconciliation shows that a large block of tokens was minted directly into the vault contract itself within a minute of the genesis distribution, and that block is offered for sale through the queue by a single externally owned account that never deposited any underlying. Buyers who fill those orders pay that account directly in stablecoin at par, so the queue functions as the primary market rather than as a secondary market between existing holders. The self held balance is therefore undistributed issuer inventory rather than user escrow, and it is excluded from active marketcap on that basis. The escrow mechanism itself is lock and release rather than mint and burn. Placing an order transfers tokens to the contract, leaving the queue returns them to the seller, and filling an order releases them to the buyer, with total supply unchanged throughout.",
     "logo": "https://icons.llamao.fi/icons/rwa/wtnusdt.jpg?w=48&h=48",
@@ -37,8 +34,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

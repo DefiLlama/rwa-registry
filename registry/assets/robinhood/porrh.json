@@ -2,7 +2,7 @@
   "identity": {
     "slug": "porrh",
     "symbol": "POR",
-    "name": "Portland General Electric Co. • Robinhood Token",
+    "name": "Portland General Electric Co. - Robinhood Token",
     "legacyId": 2059,
     "canonicalMarketId": "PORrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

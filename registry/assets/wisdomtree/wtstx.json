@@ -12,7 +12,7 @@
   "class": {
     "structure": "sovereign-bond-fund",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "bond-mmf-funds"
     ]
@@ -30,9 +30,7 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "US97717K3032",
-        "source": null,
-        "verified": false
+        "value": "US97717K3032"
       }
     ]
   },
@@ -48,8 +46,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -88,6 +85,10 @@
       "chain": "stellar",
       "address": "WTST-GDEBI5X7J4IDXCSVV3KPFZIHQRCBVF3DAZMS5H7KYOBK45T6XYGDE77P",
       "deployedAt": "2023-01-18"
+    },
+    {
+      "chain": "arbitrum",
+      "address": null
     }
   ],
   "roles": [
@@ -96,6 +97,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://www.sec.gov/cgi-bin/browse-edgar?CIK=0001859001&owner=include&action=getcompany"
+      ],
+      "protocolIds": [
+        6516
       ]
     }
   ],

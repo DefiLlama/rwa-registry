@@ -2,7 +2,7 @@
   "identity": {
     "slug": "tflorh",
     "symbol": "TFLO",
-    "name": "iShares Treasury Floating Rate Bond ETF • Robinhood Token",
+    "name": "iShares Treasury Floating Rate Bond ETF - Robinhood Token",
     "legacyId": 2387,
     "canonicalMarketId": "TFLOrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

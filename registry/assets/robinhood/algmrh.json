@@ -2,7 +2,7 @@
   "identity": {
     "slug": "algmrh",
     "symbol": "ALGM",
-    "name": "Allegro MicroSystems, Inc. • Robinhood Token",
+    "name": "Allegro MicroSystems, Inc. - Robinhood Token",
     "legacyId": 838,
     "canonicalMarketId": "ALGMrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

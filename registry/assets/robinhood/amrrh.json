@@ -2,7 +2,7 @@
   "identity": {
     "slug": "amrrh",
     "symbol": "AMR",
-    "name": "Alpha Metallurgical Resources, Inc. • Robinhood Token",
+    "name": "Alpha Metallurgical Resources, Inc. - Robinhood Token",
     "legacyId": 863,
     "canonicalMarketId": "AMRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

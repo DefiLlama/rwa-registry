@@ -2,7 +2,7 @@
   "identity": {
     "slug": "schgrh",
     "symbol": "SCHG",
-    "name": "Schwab U.S. Large-Cap Growth ETF • Robinhood Token",
+    "name": "Schwab U.S. Large-Cap Growth ETF - Robinhood Token",
     "legacyId": 2197,
     "canonicalMarketId": "SCHGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "sonorh",
     "symbol": "SONO",
-    "name": "Sonos, Inc. • Robinhood Token",
+    "name": "Sonos, Inc. - Robinhood Token",
     "legacyId": 2286,
     "canonicalMarketId": "SONOrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

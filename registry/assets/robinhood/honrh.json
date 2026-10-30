@@ -2,7 +2,7 @@
   "identity": {
     "slug": "honrh",
     "symbol": "HON",
-    "name": "Honeywell International Inc. • Robinhood Token",
+    "name": "Honeywell International Inc. - Robinhood Token",
     "legacyId": 1536,
     "canonicalMarketId": "HONrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

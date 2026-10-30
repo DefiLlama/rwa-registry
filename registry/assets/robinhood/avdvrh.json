@@ -2,7 +2,7 @@
   "identity": {
     "slug": "avdvrh",
     "symbol": "AVDV",
-    "name": "Avantis Diversified Dividends ETF • Robinhood Token",
+    "name": "Avantis Diversified Dividends ETF - Robinhood Token",
     "legacyId": 934,
     "canonicalMarketId": "AVDVrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

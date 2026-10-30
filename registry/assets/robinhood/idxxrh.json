@@ -2,7 +2,7 @@
   "identity": {
     "slug": "idxxrh",
     "symbol": "IDXX",
-    "name": "IDEXX Laboratories, Inc. • Robinhood Token",
+    "name": "IDEXX Laboratories, Inc. - Robinhood Token",
     "legacyId": 1576,
     "canonicalMarketId": "IDXXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

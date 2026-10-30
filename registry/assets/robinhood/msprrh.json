@@ -2,7 +2,7 @@
   "identity": {
     "slug": "msprrh",
     "symbol": "MSPR",
-    "name": "MSP Recovery, Inc. • Robinhood Token",
+    "name": "MSP Recovery, Inc. - Robinhood Token",
     "legacyId": 1840,
     "canonicalMarketId": "MSPRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

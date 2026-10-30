@@ -2,7 +2,7 @@
   "identity": {
     "slug": "grpnrh",
     "symbol": "GRPN",
-    "name": "Groupon, Inc. • Robinhood Token",
+    "name": "Groupon, Inc. - Robinhood Token",
     "legacyId": 1490,
     "canonicalMarketId": "GRPNrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

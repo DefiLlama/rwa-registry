@@ -2,7 +2,7 @@
   "identity": {
     "slug": "penrh",
     "symbol": "PEN",
-    "name": "Penumbra, Inc. • Robinhood Token",
+    "name": "Penumbra, Inc. - Robinhood Token",
     "legacyId": 2017,
     "canonicalMarketId": "PENrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

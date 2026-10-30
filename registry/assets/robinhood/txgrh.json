@@ -2,7 +2,7 @@
   "identity": {
     "slug": "txgrh",
     "symbol": "TXG",
-    "name": "10x Genomics, Inc. • Robinhood Token",
+    "name": "10x Genomics, Inc. - Robinhood Token",
     "legacyId": 2460,
     "canonicalMarketId": "TXGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

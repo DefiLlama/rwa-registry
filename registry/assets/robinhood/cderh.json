@@ -2,7 +2,7 @@
   "identity": {
     "slug": "cderh",
     "symbol": "CDE",
-    "name": "Coeur Mining, Inc. • Robinhood Token",
+    "name": "Coeur Mining, Inc. - Robinhood Token",
     "legacyId": 1070,
     "canonicalMarketId": "CDErh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "wldsrh",
     "symbol": "WLDS",
-    "name": "Wearable Devices Ltd. • Robinhood Token",
+    "name": "Wearable Devices Ltd. - Robinhood Token",
     "legacyId": 2620,
     "canonicalMarketId": "WLDSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

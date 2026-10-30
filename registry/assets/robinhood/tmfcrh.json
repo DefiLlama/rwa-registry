@@ -2,7 +2,7 @@
   "identity": {
     "slug": "tmfcrh",
     "symbol": "TMFC",
-    "name": "Techmark Financial ETF • Robinhood Token",
+    "name": "Techmark Financial ETF - Robinhood Token",
     "legacyId": 2404,
     "canonicalMarketId": "TMFCrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

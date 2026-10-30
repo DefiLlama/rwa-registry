@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ebsrh",
     "symbol": "EBS",
-    "name": "Emergent BioSolutions Inc. • Robinhood Token",
+    "name": "Emergent BioSolutions Inc. - Robinhood Token",
     "legacyId": 1268,
     "canonicalMarketId": "EBSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

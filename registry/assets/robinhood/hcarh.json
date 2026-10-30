@@ -2,7 +2,7 @@
   "identity": {
     "slug": "hcarh",
     "symbol": "HCA",
-    "name": "HCA Healthcare, Inc. • Robinhood Token",
+    "name": "HCA Healthcare, Inc. - Robinhood Token",
     "legacyId": 1511,
     "canonicalMarketId": "HCArh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "stnerh",
     "symbol": "STNE",
-    "name": "StoneCo Ltd. • Robinhood Token",
+    "name": "StoneCo Ltd. - Robinhood Token",
     "legacyId": 2786,
     "canonicalMarketId": "STNErh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

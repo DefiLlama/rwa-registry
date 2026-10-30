@@ -2,7 +2,7 @@
   "identity": {
     "slug": "rjfrh",
     "symbol": "RJF",
-    "name": "Raymond James Financial, Inc. • Robinhood Token",
+    "name": "Raymond James Financial, Inc. - Robinhood Token",
     "legacyId": 2145,
     "canonicalMarketId": "RJFrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

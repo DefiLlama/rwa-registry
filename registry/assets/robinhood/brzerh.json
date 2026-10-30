@@ -2,7 +2,7 @@
   "identity": {
     "slug": "brzerh",
     "symbol": "BRZE",
-    "name": "Braze, Inc. • Robinhood Token",
+    "name": "Braze, Inc. - Robinhood Token",
     "legacyId": 1028,
     "canonicalMarketId": "BRZErh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "abeorh",
     "symbol": "ABEO",
-    "name": "Abeona Therapeutics Inc. • Robinhood Token",
+    "name": "Abeona Therapeutics Inc. - Robinhood Token",
     "legacyId": 787,
     "canonicalMarketId": "ABEOrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

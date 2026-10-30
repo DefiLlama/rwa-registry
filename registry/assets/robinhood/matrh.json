@@ -2,7 +2,7 @@
   "identity": {
     "slug": "matrh",
     "symbol": "MAT",
-    "name": "Mattel, Inc. • Robinhood Token",
+    "name": "Mattel, Inc. - Robinhood Token",
     "legacyId": 1774,
     "canonicalMarketId": "MATrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

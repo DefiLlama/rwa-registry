@@ -2,7 +2,7 @@
   "identity": {
     "slug": "bbwirh",
     "symbol": "BBWI",
-    "name": "Bath & Body Works, Inc. • Robinhood Token",
+    "name": "Bath & Body Works, Inc. - Robinhood Token",
     "legacyId": 960,
     "canonicalMarketId": "BBWIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

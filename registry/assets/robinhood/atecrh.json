@@ -2,7 +2,7 @@
   "identity": {
     "slug": "atecrh",
     "symbol": "ATEC",
-    "name": "Alphatec Holdings, Inc. • Robinhood Token",
+    "name": "Alphatec Holdings, Inc. - Robinhood Token",
     "legacyId": 922,
     "canonicalMarketId": "ATECrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "splvrh",
     "symbol": "SPLV",
-    "name": "Invesco S&P 500 Low Volatility ETF • Robinhood Token",
+    "name": "Invesco S&P 500 Low Volatility ETF - Robinhood Token",
     "legacyId": 2304,
     "canonicalMarketId": "SPLVrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

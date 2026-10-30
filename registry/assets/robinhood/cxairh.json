@@ -2,7 +2,7 @@
   "identity": {
     "slug": "cxairh",
     "symbol": "CXAI",
-    "name": "CXApp Inc. • Robinhood Token",
+    "name": "CXApp Inc. - Robinhood Token",
     "legacyId": 1198,
     "canonicalMarketId": "CXAIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

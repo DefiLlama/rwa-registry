@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ethdrh",
     "symbol": "ETHD",
-    "name": "Grayscale Ethereum Trust • Robinhood Token",
+    "name": "Grayscale Ethereum Trust - Robinhood Token",
     "legacyId": 1311,
     "canonicalMarketId": "ETHDrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

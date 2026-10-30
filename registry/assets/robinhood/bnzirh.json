@@ -2,7 +2,7 @@
   "identity": {
     "slug": "bnzirh",
     "symbol": "BNZI",
-    "name": "Banzai International, Inc. • Robinhood Token",
+    "name": "Banzai International, Inc. - Robinhood Token",
     "legacyId": 1016,
     "canonicalMarketId": "BNZIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

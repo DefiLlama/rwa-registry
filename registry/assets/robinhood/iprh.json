@@ -2,7 +2,7 @@
   "identity": {
     "slug": "iprh",
     "symbol": "IP",
-    "name": "International Paper Co. • Robinhood Token",
+    "name": "International Paper Co. - Robinhood Token",
     "legacyId": 1613,
     "canonicalMarketId": "IPrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

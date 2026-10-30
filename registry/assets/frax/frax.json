@@ -128,8 +128,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -215,9 +214,25 @@
       "deployedAt": "2026-01-13"
     },
     {
-      "chain": "era",
+      "chain": "zksync",
       "address": "0x853d955acef822db058eb8505911ed77f175b99e",
       "deployedAt": null
+    },
+    {
+      "chain": "near",
+      "address": "853d955acef822db058eb8505911ed77f175b99e.factory.bridge.near"
+    },
+    {
+      "chain": "boba",
+      "address": null
+    },
+    {
+      "chain": "solana",
+      "address": null
+    },
+    {
+      "chain": "era",
+      "address": null
     }
   ],
   "roles": [

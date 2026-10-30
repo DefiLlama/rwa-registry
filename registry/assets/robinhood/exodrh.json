@@ -2,7 +2,7 @@
   "identity": {
     "slug": "exodrh",
     "symbol": "EXOD",
-    "name": "Exodus Movement, Inc. • Robinhood Token",
+    "name": "Exodus Movement, Inc. - Robinhood Token",
     "legacyId": 1341,
     "canonicalMarketId": "EXODrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

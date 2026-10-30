@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ctasrh",
     "symbol": "CTAS",
-    "name": "Cintas Corp. • Robinhood Token",
+    "name": "Cintas Corp. - Robinhood Token",
     "legacyId": 1185,
     "canonicalMarketId": "CTASrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

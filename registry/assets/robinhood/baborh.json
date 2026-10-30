@@ -2,7 +2,7 @@
   "identity": {
     "slug": "baborh",
     "symbol": "BABO",
-    "name": "Babson Diversified ETF • Robinhood Token",
+    "name": "Babson Diversified ETF - Robinhood Token",
     "legacyId": 951,
     "canonicalMarketId": "BABOrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

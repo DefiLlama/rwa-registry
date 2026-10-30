@@ -2,7 +2,7 @@
   "identity": {
     "slug": "nivfrh",
     "symbol": "NIVF",
-    "name": "NewGenIvf Group Ltd. • Robinhood Token",
+    "name": "NewGenIvf Group Ltd. - Robinhood Token",
     "legacyId": 1895,
     "canonicalMarketId": "NIVFrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

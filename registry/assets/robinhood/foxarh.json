@@ -2,7 +2,7 @@
   "identity": {
     "slug": "foxarh",
     "symbol": "FOXA",
-    "name": "Fox Corp. • Robinhood Token",
+    "name": "Fox Corp. - Robinhood Token",
     "legacyId": 1398,
     "canonicalMarketId": "FOXArh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

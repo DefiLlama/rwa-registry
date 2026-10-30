@@ -12,7 +12,7 @@
   "class": {
     "structure": "gold",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "gold-commodities"
     ]
@@ -33,7 +33,7 @@
     ]
   },
   "about": {
-    "description": "GOLD is Oro Finance’s tokenized gold product, designed to represent fully backed vaulted bullion in a transferable format. The product emphasizes 1:1 physical backing, custody with institutional vault providers, and a reserve verification cadence intended to demonstrate that the circulating supply is covered by audited holdings. It targets users who want gold exposure that can move between wallets and DeFi venues while remaining anchored to physical metal in storage.",
+    "description": "GOLD is Oro Finance's tokenized gold product, designed to represent fully backed vaulted bullion in a transferable format. The product emphasizes 1:1 physical backing, custody with institutional vault providers, and a reserve verification cadence intended to demonstrate that the circulating supply is covered by audited holdings. It targets users who want gold exposure that can move between wallets and DeFi venues while remaining anchored to physical metal in storage.",
     "logo": "https://icons.llamao.fi/icons/rwa/gold.png?w=48&h=48",
     "links": {
       "website": [
@@ -44,8 +44,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "asanrh",
     "symbol": "ASAN",
-    "name": "Asana, Inc. • Robinhood Token",
+    "name": "Asana, Inc. - Robinhood Token",
     "legacyId": 915,
     "canonicalMarketId": "ASANrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

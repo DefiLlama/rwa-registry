@@ -2,7 +2,7 @@
   "identity": {
     "slug": "taprh",
     "symbol": "TAP",
-    "name": "Molson Coors Beverage Co. • Robinhood Token",
+    "name": "Molson Coors Beverage Co. - Robinhood Token",
     "legacyId": 2366,
     "canonicalMarketId": "TAPrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

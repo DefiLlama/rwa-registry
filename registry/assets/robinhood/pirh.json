@@ -2,7 +2,7 @@
   "identity": {
     "slug": "pirh",
     "symbol": "PI",
-    "name": "Impinj, Inc. • Robinhood Token",
+    "name": "Impinj, Inc. - Robinhood Token",
     "legacyId": 2038,
     "canonicalMarketId": "PIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "strlrh",
     "symbol": "STRL",
-    "name": "Sterling Infrastructure, Inc. • Robinhood Token",
+    "name": "Sterling Infrastructure, Inc. - Robinhood Token",
     "legacyId": 2341,
     "canonicalMarketId": "STRLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

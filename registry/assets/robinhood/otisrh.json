@@ -2,7 +2,7 @@
   "identity": {
     "slug": "otisrh",
     "symbol": "OTIS",
-    "name": "Otis Worldwide Corp. • Robinhood Token",
+    "name": "Otis Worldwide Corp. - Robinhood Token",
     "legacyId": 1984,
     "canonicalMarketId": "OTISrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

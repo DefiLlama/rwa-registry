@@ -2,7 +2,7 @@
   "identity": {
     "slug": "glrh",
     "symbol": "GL",
-    "name": "Globe Life Inc. • Robinhood Token",
+    "name": "Globe Life Inc. - Robinhood Token",
     "legacyId": 2772,
     "canonicalMarketId": "GLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

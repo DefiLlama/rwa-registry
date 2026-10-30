@@ -2,7 +2,7 @@
   "identity": {
     "slug": "vitlrh",
     "symbol": "VITL",
-    "name": "Vital Farms, Inc. • Robinhood Token",
+    "name": "Vital Farms, Inc. - Robinhood Token",
     "legacyId": 2552,
     "canonicalMarketId": "VITLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "fcxrh",
     "symbol": "FCX",
-    "name": "Freeport-McMoRan Inc. • Robinhood Token",
+    "name": "Freeport-McMoRan Inc. - Robinhood Token",
     "legacyId": 1357,
     "canonicalMarketId": "FCXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "glmdrh",
     "symbol": "GLMD",
-    "name": "Galmed Pharmaceuticals Ltd. • Robinhood Token",
+    "name": "Galmed Pharmaceuticals Ltd. - Robinhood Token",
     "legacyId": 1459,
     "canonicalMarketId": "GLMDrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

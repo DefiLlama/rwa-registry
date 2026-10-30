@@ -26,7 +26,7 @@
     "coingeckoId": "satoshi-stablecoin"
   },
   "about": {
-    "description": "satUSD is River/Satoshi Protocol’s omni-chain CDP stablecoin. Users deposit BTC-based collateral and borrow satUSD (up to ~90. 91% of collateral value, per protocol parameters). the system targets a $1 peg via overcollateralization, liquidations, and redemption mechanics. Primary risks include collateral volatility/liquidations, cross-chain messaging/bridge risk, and smart-contract/oracle risk.",
+    "description": "satUSD is River/Satoshi Protocol's omni-chain CDP stablecoin. Users deposit BTC-based collateral and borrow satUSD (up to ~90. 91% of collateral value, per protocol parameters). the system targets a $1 peg via overcollateralization, liquidations, and redemption mechanics. Primary risks include collateral volatility/liquidations, cross-chain messaging/bridge risk, and smart-contract/oracle risk.",
     "logo": "https://icons.llamao.fi/icons/rwa/river-stablecoin.png?w=48&h=48",
     "links": {
       "website": [
@@ -37,8 +37,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

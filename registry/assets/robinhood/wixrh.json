@@ -2,7 +2,7 @@
   "identity": {
     "slug": "wixrh",
     "symbol": "WIX",
-    "name": "Wix.com Ltd. • Robinhood Token",
+    "name": "Wix.com Ltd. - Robinhood Token",
     "legacyId": 2618,
     "canonicalMarketId": "WIXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "mtbrh",
     "symbol": "MTB",
-    "name": "M&T Bank Corp. • Robinhood Token",
+    "name": "M&T Bank Corp. - Robinhood Token",
     "legacyId": 1847,
     "canonicalMarketId": "MTBrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

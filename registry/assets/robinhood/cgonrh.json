@@ -2,7 +2,7 @@
   "identity": {
     "slug": "cgonrh",
     "symbol": "CGON",
-    "name": "CG Oncology, Inc. • Robinhood Token",
+    "name": "CG Oncology, Inc. - Robinhood Token",
     "legacyId": 1086,
     "canonicalMarketId": "CGONrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

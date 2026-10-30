@@ -2,7 +2,7 @@
   "identity": {
     "slug": "himsrh",
     "symbol": "HIMS",
-    "name": "Hims & Hers Health, Inc. • Robinhood Token",
+    "name": "Hims & Hers Health, Inc. - Robinhood Token",
     "legacyId": 1523,
     "canonicalMarketId": "HIMSrh"
   },
@@ -27,9 +27,7 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "US4330001060",
-        "source": null,
-        "verified": false
+        "value": "US4330001060"
       }
     ]
   },
@@ -45,8 +43,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -77,6 +74,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://robinhood.com/eu/en/about/"
+      ],
+      "protocolIds": [
+        3732
       ]
     },
     {

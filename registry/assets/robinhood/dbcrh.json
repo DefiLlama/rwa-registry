@@ -2,7 +2,7 @@
   "identity": {
     "slug": "dbcrh",
     "symbol": "DBC",
-    "name": "Invesco DB Commodity Index Tracking Fund • Robinhood Token",
+    "name": "Invesco DB Commodity Index Tracking Fund - Robinhood Token",
     "legacyId": 1209,
     "canonicalMarketId": "DBCrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

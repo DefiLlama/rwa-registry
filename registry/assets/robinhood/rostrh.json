@@ -2,7 +2,7 @@
   "identity": {
     "slug": "rostrh",
     "symbol": "ROST",
-    "name": "Ross Stores, Inc. • Robinhood Token",
+    "name": "Ross Stores, Inc. - Robinhood Token",
     "legacyId": 2159,
     "canonicalMarketId": "ROSTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

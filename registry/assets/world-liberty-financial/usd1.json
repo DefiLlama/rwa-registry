@@ -12,7 +12,7 @@
   "class": {
     "structure": "usd-stable",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "fiat-stablecoins"
     ]
@@ -30,7 +30,7 @@
     "coingeckoId": "usd1-wlfi"
   },
   "about": {
-    "description": "USD1 is a USD‑pegged stablecoin branded by World Liberty Financial. USD1 is designed to be fully backed by U.S. dollars and U.S. government money market funds, with reserve assets held/maintained by BitGo Trust Company. Mint/redemption is via authorized channels, while the token is transferable in self custody on supported networks.",
+    "description": "USD1 is a USD-pegged stablecoin branded by World Liberty Financial. USD1 is designed to be fully backed by U.S. dollars and U.S. government money market funds, with reserve assets held/maintained by BitGo Trust Company. Mint/redemption is via authorized channels, while the token is transferable in self custody on supported networks.",
     "logo": "https://icons.llamao.fi/icons/rwa/usd1.png?w=48&h=48",
     "links": {
       "website": [
@@ -41,8 +41,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -91,6 +90,10 @@
       "chain": "solana",
       "address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
       "deployedAt": "2025-07-15"
+    },
+    {
+      "chain": "tron",
+      "address": null
     }
   ],
   "roles": [
@@ -100,6 +103,9 @@
       "sourceLinks": [
         "https://worldlibertyfinancial.com/usd1",
         "https://www.bitgo.com/usd1/"
+      ],
+      "protocolIds": [
+        7571
       ]
     }
   ],

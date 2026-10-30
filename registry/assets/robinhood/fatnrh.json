@@ -2,7 +2,7 @@
   "identity": {
     "slug": "fatnrh",
     "symbol": "FATN",
-    "name": "FatPipe, Inc. • Robinhood Token",
+    "name": "FatPipe, Inc. - Robinhood Token",
     "legacyId": 1350,
     "canonicalMarketId": "FATNrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "cnrrh",
     "symbol": "CNR",
-    "name": "Core Natural Resources, Inc. • Robinhood Token",
+    "name": "Core Natural Resources, Inc. - Robinhood Token",
     "legacyId": 1132,
     "canonicalMarketId": "CNRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

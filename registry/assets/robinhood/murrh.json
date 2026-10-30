@@ -2,7 +2,7 @@
   "identity": {
     "slug": "murrh",
     "symbol": "MUR",
-    "name": "Murphy Oil Corp. • Robinhood Token",
+    "name": "Murphy Oil Corp. - Robinhood Token",
     "legacyId": 1856,
     "canonicalMarketId": "MURrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

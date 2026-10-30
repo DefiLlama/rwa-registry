@@ -2,7 +2,7 @@
   "identity": {
     "slug": "mklrh",
     "symbol": "MKL",
-    "name": "Markel Group Inc. • Robinhood Token",
+    "name": "Markel Group Inc. - Robinhood Token",
     "legacyId": 1805,
     "canonicalMarketId": "MKLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

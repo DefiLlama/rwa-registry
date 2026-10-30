@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ncnorh",
     "symbol": "NCNO",
-    "name": "nCino, Inc. • Robinhood Token",
+    "name": "nCino, Inc. - Robinhood Token",
     "legacyId": 1875,
     "canonicalMarketId": "NCNOrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

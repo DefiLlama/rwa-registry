@@ -2,7 +2,7 @@
   "identity": {
     "slug": "smstrh",
     "symbol": "SMST",
-    "name": "Smart Supply Chain ETF • Robinhood Token",
+    "name": "Smart Supply Chain ETF - Robinhood Token",
     "legacyId": 2264,
     "canonicalMarketId": "SMSTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

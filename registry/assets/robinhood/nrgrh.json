@@ -2,7 +2,7 @@
   "identity": {
     "slug": "nrgrh",
     "symbol": "NRG",
-    "name": "NRG Energy, Inc. • Robinhood Token",
+    "name": "NRG Energy, Inc. - Robinhood Token",
     "legacyId": 1912,
     "canonicalMarketId": "NRGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "nvdrh",
     "symbol": "NVD",
-    "name": "GraniteShares 2x Short NVDA Daily ETF • Robinhood Token",
+    "name": "GraniteShares 2x Short NVDA Daily ETF - Robinhood Token",
     "legacyId": 1936,
     "canonicalMarketId": "NVDrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

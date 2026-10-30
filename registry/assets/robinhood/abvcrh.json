@@ -2,7 +2,7 @@
   "identity": {
     "slug": "abvcrh",
     "symbol": "ABVC",
-    "name": "ABVC Biopharma, Inc. • Robinhood Token",
+    "name": "ABVC Biopharma, Inc. - Robinhood Token",
     "legacyId": 790,
     "canonicalMarketId": "ABVCrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

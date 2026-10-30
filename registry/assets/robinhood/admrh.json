@@ -2,7 +2,7 @@
   "identity": {
     "slug": "admrh",
     "symbol": "ADM",
-    "name": "Archer-Daniels-Midland Co. • Robinhood Token",
+    "name": "Archer-Daniels-Midland Co. - Robinhood Token",
     "legacyId": 804,
     "canonicalMarketId": "ADMrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

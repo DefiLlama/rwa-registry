@@ -2,7 +2,7 @@
   "identity": {
     "slug": "urgrh",
     "symbol": "URG",
-    "name": "Ur-Energy Inc. • Robinhood Token",
+    "name": "Ur-Energy Inc. - Robinhood Token",
     "legacyId": 2495,
     "canonicalMarketId": "URGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

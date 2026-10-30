@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ebayrh",
     "symbol": "EBAY",
-    "name": "eBay Inc. • Robinhood Token",
+    "name": "eBay Inc. - Robinhood Token",
     "legacyId": 1266,
     "canonicalMarketId": "EBAYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

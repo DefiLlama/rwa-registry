@@ -2,7 +2,7 @@
   "identity": {
     "slug": "hoodrh",
     "symbol": "HOOD",
-    "name": "Robinhood Markets, Inc. • Robinhood Token",
+    "name": "Robinhood Markets, Inc. - Robinhood Token",
     "legacyId": 1537,
     "canonicalMarketId": "HOODrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

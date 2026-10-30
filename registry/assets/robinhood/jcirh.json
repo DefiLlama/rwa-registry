@@ -2,7 +2,7 @@
   "identity": {
     "slug": "jcirh",
     "symbol": "JCI",
-    "name": "Johnson Controls International plc • Robinhood Token",
+    "name": "Johnson Controls International plc - Robinhood Token",
     "legacyId": 1650,
     "canonicalMarketId": "JCIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "aapwrh",
     "symbol": "AAPW",
-    "name": "Direxion Daily AAPL Bull 2X ETF • Robinhood Token",
+    "name": "Direxion Daily AAPL Bull 2X ETF - Robinhood Token",
     "legacyId": 780,
     "canonicalMarketId": "AAPWrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "gnwrh",
     "symbol": "GNW",
-    "name": "Genworth Financial, Inc. • Robinhood Token",
+    "name": "Genworth Financial, Inc. - Robinhood Token",
     "legacyId": 1471,
     "canonicalMarketId": "GNWrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

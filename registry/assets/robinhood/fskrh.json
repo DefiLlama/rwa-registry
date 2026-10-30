@@ -2,7 +2,7 @@
   "identity": {
     "slug": "fskrh",
     "symbol": "FSK",
-    "name": "FS KKR Capital Corp. • Robinhood Token",
+    "name": "FS KKR Capital Corp. - Robinhood Token",
     "legacyId": 1405,
     "canonicalMarketId": "FSKrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

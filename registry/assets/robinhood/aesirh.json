@@ -2,7 +2,7 @@
   "identity": {
     "slug": "aesirh",
     "symbol": "AESI",
-    "name": "Atlas Energy Solutions Inc. • Robinhood Token",
+    "name": "Atlas Energy Solutions Inc. - Robinhood Token",
     "legacyId": 812,
     "canonicalMarketId": "AESIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

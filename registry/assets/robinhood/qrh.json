@@ -2,7 +2,7 @@
   "identity": {
     "slug": "qrh",
     "symbol": "Q",
-    "name": "Qnity Electronics, Inc. • Robinhood Token",
+    "name": "Qnity Electronics, Inc. - Robinhood Token",
     "legacyId": 2117,
     "canonicalMarketId": "Qrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

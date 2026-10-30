@@ -2,7 +2,7 @@
   "identity": {
     "slug": "btcorh",
     "symbol": "BTCO",
-    "name": "Invesco Galaxy Bitcoin ETF • Robinhood Token",
+    "name": "Invesco Galaxy Bitcoin ETF - Robinhood Token",
     "legacyId": 1034,
     "canonicalMarketId": "BTCOrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -12,7 +12,7 @@
   "class": {
     "structure": "usd-stable",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "fiat-stablecoins"
     ]
@@ -30,7 +30,7 @@
     "coingeckoId": "frax-usd"
   },
   "about": {
-    "description": "Frax USD (frxUSD) is Frax’s newer fully‑collateralized dollar stablecoin designed to interface with off-chain rails and institutional-grade reserves, with transparency reporting on reserves. frxUSD is the non‑yielding base token. yield is accessed via ecosystem wrappers (e. g. , sfrxUSD) rather than through rebasing frxUSD itself.",
+    "description": "Frax USD (frxUSD) is Frax's newer fully-collateralized dollar stablecoin designed to interface with off-chain rails and institutional-grade reserves, with transparency reporting on reserves. frxUSD is the non-yielding base token. yield is accessed via ecosystem wrappers (e. g. , sfrxUSD) rather than through rebasing frxUSD itself.",
     "logo": "https://icons.llamao.fi/icons/rwa/frxusd.png?w=48&h=48",
     "links": {
       "website": [
@@ -41,8 +41,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -180,6 +179,9 @@
       "sourceLinks": [
         "https://frax.com/frxUSD",
         "https://docs.frax.com/frxusd"
+      ],
+      "protocolIds": [
+        359
       ]
     },
     {

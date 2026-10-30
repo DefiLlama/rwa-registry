@@ -12,7 +12,7 @@
   "class": {
     "structure": "stock-backed",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "stocks-equities"
     ]
@@ -27,7 +27,7 @@
     "coingeckoId": "forward-industries-inc"
   },
   "about": {
-    "description": "Forward Industries tokenizes SEC-registered FWDI public shares on Solana using Superstate’s Opening Bell, enabling compliant onchain equity with programmable transfers and potential DeFi integrations, such as using tokenized shares as collateral.",
+    "description": "Forward Industries tokenizes SEC-registered FWDI public shares on Solana using Superstate's Opening Bell, enabling compliant onchain equity with programmable transfers and potential DeFi integrations, such as using tokenized shares as collateral.",
     "logo": "https://icons.llamao.fi/icons/rwa/fwdi.png?w=48&h=48",
     "links": {
       "website": [
@@ -38,8 +38,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

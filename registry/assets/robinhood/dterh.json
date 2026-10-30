@@ -2,7 +2,7 @@
   "identity": {
     "slug": "dterh",
     "symbol": "DTE",
-    "name": "DTE Energy Co. • Robinhood Token",
+    "name": "DTE Energy Co. - Robinhood Token",
     "legacyId": 1254,
     "canonicalMarketId": "DTErh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

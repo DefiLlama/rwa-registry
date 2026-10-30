@@ -2,7 +2,7 @@
   "identity": {
     "slug": "sclxrh",
     "symbol": "SCLX",
-    "name": "Scilex Holding Co. • Robinhood Token",
+    "name": "Scilex Holding Co. - Robinhood Token",
     "legacyId": 2205,
     "canonicalMarketId": "SCLXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

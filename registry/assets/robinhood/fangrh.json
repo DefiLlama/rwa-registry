@@ -2,7 +2,7 @@
   "identity": {
     "slug": "fangrh",
     "symbol": "FANG",
-    "name": "Diamondback Energy, Inc. • Robinhood Token",
+    "name": "Diamondback Energy, Inc. - Robinhood Token",
     "legacyId": 1347,
     "canonicalMarketId": "FANGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

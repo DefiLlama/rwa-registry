@@ -2,7 +2,7 @@
   "identity": {
     "slug": "bgrh",
     "symbol": "BG",
-    "name": "Bunge Global SA • Robinhood Token",
+    "name": "Bunge Global SA - Robinhood Token",
     "legacyId": 975,
     "canonicalMarketId": "BGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

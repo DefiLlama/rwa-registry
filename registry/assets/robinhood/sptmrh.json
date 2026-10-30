@@ -2,7 +2,7 @@
   "identity": {
     "slug": "sptmrh",
     "symbol": "SPTM",
-    "name": "Invesco S&P Technology Momentum ETF • Robinhood Token",
+    "name": "Invesco S&P Technology Momentum ETF - Robinhood Token",
     "legacyId": 2308,
     "canonicalMarketId": "SPTMrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

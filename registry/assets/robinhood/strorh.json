@@ -2,7 +2,7 @@
   "identity": {
     "slug": "strorh",
     "symbol": "STRO",
-    "name": "Sutro Biopharma, Inc. • Robinhood Token",
+    "name": "Sutro Biopharma, Inc. - Robinhood Token",
     "legacyId": 2342,
     "canonicalMarketId": "STROrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

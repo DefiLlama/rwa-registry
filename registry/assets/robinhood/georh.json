@@ -2,7 +2,7 @@
   "identity": {
     "slug": "georh",
     "symbol": "GEO",
-    "name": "The GEO Group, Inc. • Robinhood Token",
+    "name": "The GEO Group, Inc. - Robinhood Token",
     "legacyId": 1439,
     "canonicalMarketId": "GEOrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

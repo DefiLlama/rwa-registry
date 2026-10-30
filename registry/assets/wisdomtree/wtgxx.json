@@ -12,7 +12,7 @@
   "class": {
     "structure": "mmf",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "bond-mmf-funds"
     ]
@@ -30,14 +30,12 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "US97717K7827",
-        "source": null,
-        "verified": false
+        "value": "US97717K7827"
       }
     ]
   },
   "about": {
-    "description": "WTGXX represents digital shares of the WisdomTree Treasury Money Market Digital Fund, a registered money market fund designed for current income, liquidity, and capital preservation with a stable $1.00 NAV objective. The portfolio is built around high-quality short-duration U.S. Treasury and government cash-equivalent exposure, packaged into a tokenized share format distributed through WisdomTree’s digital fund platforms for onchain settlement and integration.",
+    "description": "WTGXX represents digital shares of the WisdomTree Treasury Money Market Digital Fund, a registered money market fund designed for current income, liquidity, and capital preservation with a stable $1.00 NAV objective. The portfolio is built around high-quality short-duration U.S. Treasury and government cash-equivalent exposure, packaged into a tokenized share format distributed through WisdomTree's digital fund platforms for onchain settlement and integration.",
     "logo": "https://icons.llamao.fi/icons/rwa/wtgxx.png?w=48&h=48",
     "links": {
       "website": [
@@ -48,8 +46,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

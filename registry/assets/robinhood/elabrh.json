@@ -2,7 +2,7 @@
   "identity": {
     "slug": "elabrh",
     "symbol": "ELAB",
-    "name": "PMGC Holdings Inc. • Robinhood Token",
+    "name": "PMGC Holdings Inc. - Robinhood Token",
     "legacyId": 1282,
     "canonicalMarketId": "ELABrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

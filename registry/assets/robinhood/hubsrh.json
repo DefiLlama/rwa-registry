@@ -2,7 +2,7 @@
   "identity": {
     "slug": "hubsrh",
     "symbol": "HUBS",
-    "name": "HubSpot, Inc. • Robinhood Token",
+    "name": "HubSpot, Inc. - Robinhood Token",
     "legacyId": 1551,
     "canonicalMarketId": "HUBSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

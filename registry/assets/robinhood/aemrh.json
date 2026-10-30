@@ -2,7 +2,7 @@
   "identity": {
     "slug": "aemrh",
     "symbol": "AEM",
-    "name": "Agnico Eagle Mines Ltd. • Robinhood Token",
+    "name": "Agnico Eagle Mines Ltd. - Robinhood Token",
     "legacyId": 809,
     "canonicalMarketId": "AEMrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

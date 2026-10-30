@@ -2,7 +2,7 @@
   "identity": {
     "slug": "nferh",
     "symbol": "NFE",
-    "name": "New Fortress Energy Inc. • Robinhood Token",
+    "name": "New Fortress Energy Inc. - Robinhood Token",
     "legacyId": 1885,
     "canonicalMarketId": "NFErh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

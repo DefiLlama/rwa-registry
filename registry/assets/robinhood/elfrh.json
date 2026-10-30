@@ -2,7 +2,7 @@
   "identity": {
     "slug": "elfrh",
     "symbol": "ELF",
-    "name": "e.l.f. Beauty, Inc. • Robinhood Token",
+    "name": "e.l.f. Beauty, Inc. - Robinhood Token",
     "legacyId": 1283,
     "canonicalMarketId": "ELFrh"
   },
@@ -27,9 +27,7 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "US26856L1035",
-        "source": null,
-        "verified": false
+        "value": "US26856L1035"
       }
     ]
   },
@@ -45,8 +43,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -77,6 +74,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://robinhood.com/eu/en/about/"
+      ],
+      "protocolIds": [
+        3732
       ]
     },
     {

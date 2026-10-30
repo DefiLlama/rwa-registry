@@ -12,7 +12,7 @@
   "class": {
     "structure": "mmf",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "bond-mmf-funds"
     ]
@@ -29,7 +29,7 @@
     "coingeckoId": "blackrock-usd-institutional-digital-liquidity-fund-i-class"
   },
   "about": {
-    "description": "BUIDL-I represents the I Class tokenized share of BlackRock’s USD Institutional Digital Liquidity Fund, tokenized by Securitize. Each token targets a $1 NAV and accrues fund income, with subscriptions and redemptions handled through the fund’s transfer and issuance process for qualified investors. The fund invests in cash, U.S. Treasury bills, and repurchase agreements, enabling blockchain-based settlement and collateral workflows.",
+    "description": "BUIDL-I represents the I Class tokenized share of BlackRock's USD Institutional Digital Liquidity Fund, tokenized by Securitize. Each token targets a $1 NAV and accrues fund income, with subscriptions and redemptions handled through the fund's transfer and issuance process for qualified investors. The fund invests in cash, U.S. Treasury bills, and repurchase agreements, enabling blockchain-based settlement and collateral workflows.",
     "logo": "https://icons.llamao.fi/icons/rwa/buidl-i.png?w=48&h=48",
     "links": {
       "website": [
@@ -40,8 +40,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

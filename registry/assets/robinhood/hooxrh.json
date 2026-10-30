@@ -2,7 +2,7 @@
   "identity": {
     "slug": "hooxrh",
     "symbol": "HOOX",
-    "name": "Hootsuite Holdings ETF • Robinhood Token",
+    "name": "Hootsuite Holdings ETF - Robinhood Token",
     "legacyId": 1538,
     "canonicalMarketId": "HOOXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "abverh",
     "symbol": "ABVE",
-    "name": "Above Food Ingredients Inc. • Robinhood Token",
+    "name": "Above Food Ingredients Inc. - Robinhood Token",
     "legacyId": 791,
     "canonicalMarketId": "ABVErh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

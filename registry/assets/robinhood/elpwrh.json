@@ -2,7 +2,7 @@
   "identity": {
     "slug": "elpwrh",
     "symbol": "ELPW",
-    "name": "Elong Power Holding Ltd. • Robinhood Token",
+    "name": "Elong Power Holding Ltd. - Robinhood Token",
     "legacyId": 2806,
     "canonicalMarketId": "ELPWrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

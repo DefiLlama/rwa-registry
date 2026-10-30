@@ -2,7 +2,7 @@
   "identity": {
     "slug": "mbotrh",
     "symbol": "MBOT",
-    "name": "Microbot Medical Inc. • Robinhood Token",
+    "name": "Microbot Medical Inc. - Robinhood Token",
     "legacyId": 2788,
     "canonicalMarketId": "MBOTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

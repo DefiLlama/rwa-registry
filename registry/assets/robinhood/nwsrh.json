@@ -2,7 +2,7 @@
   "identity": {
     "slug": "nwsrh",
     "symbol": "NWS",
-    "name": "News Corp. • Robinhood Token",
+    "name": "News Corp. - Robinhood Token",
     "legacyId": 1942,
     "canonicalMarketId": "NWSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

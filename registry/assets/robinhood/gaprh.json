@@ -2,7 +2,7 @@
   "identity": {
     "slug": "gaprh",
     "symbol": "GAP",
-    "name": "The Gap, Inc. • Robinhood Token",
+    "name": "The Gap, Inc. - Robinhood Token",
     "legacyId": 1422,
     "canonicalMarketId": "GAPrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

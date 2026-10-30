@@ -35,26 +35,29 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
       "chain": "ethereum",
       "address": "0x4827c7ecce4f07adfe44a97165f06a199e7d2505",
+      "deployedAt": "2026-06-16",
       "primary": true
     },
     {
       "chain": "pharos",
-      "address": "0x4827c7ecce4f07adfe44a97165f06a199e7d2505"
+      "address": "0x4827c7ecce4f07adfe44a97165f06a199e7d2505",
+      "deployedAt": "2026-06-16"
     },
     {
       "chain": "xlayer",
-      "address": "0x4827c7ecce4f07adfe44a97165f06a199e7d2505"
+      "address": "0x4827c7ecce4f07adfe44a97165f06a199e7d2505",
+      "deployedAt": "2026-08-12"
     },
     {
       "chain": "avax",
-      "address": "0x4827c7ecce4f07adfe44a97165f06a199e7d2505"
+      "address": "0x4827c7ecce4f07adfe44a97165f06a199e7d2505",
+      "deployedAt": "2026-06-19"
     }
   ],
   "roles": [

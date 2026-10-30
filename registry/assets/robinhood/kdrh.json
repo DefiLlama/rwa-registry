@@ -2,7 +2,7 @@
   "identity": {
     "slug": "kdrh",
     "symbol": "KD",
-    "name": "Kyndryl Holdings, Inc. • Robinhood Token",
+    "name": "Kyndryl Holdings, Inc. - Robinhood Token",
     "legacyId": 1669,
     "canonicalMarketId": "KDrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -34,7 +34,7 @@
     ]
   },
   "about": {
-    "description": "SYRUP is the ecosystem token for Maple, an onchain credit and asset-management platform that structures curated lending and yield products. Maple is known for professionally managed pools with defined underwriting and risk frameworks, targeting borrowers and strategies that resemble private credit and structured lending rather than overcollateralized retail DeFi. SYRUP aligns governance and incentive design across the platform’s pools and product suite, including liquidity growth and protocol economics.",
+    "description": "SYRUP is the ecosystem token for Maple, an onchain credit and asset-management platform that structures curated lending and yield products. Maple is known for professionally managed pools with defined underwriting and risk frameworks, targeting borrowers and strategies that resemble private credit and structured lending rather than overcollateralized retail DeFi. SYRUP aligns governance and incentive design across the platform's pools and product suite, including liquidity growth and protocol economics.",
     "logo": "https://icons.llamao.fi/icons/rwa/maple-finance.png?w=48&h=48",
     "links": {
       "website": [
@@ -45,8 +45,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

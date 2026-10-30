@@ -2,7 +2,7 @@
   "identity": {
     "slug": "slvrh",
     "symbol": "SLV",
-    "name": "iShares Silver Trust • Robinhood Token",
+    "name": "iShares Silver Trust - Robinhood Token",
     "legacyId": 2251,
     "canonicalMarketId": "SLVrh"
   },
@@ -27,9 +27,7 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "US46428Q1094",
-        "source": null,
-        "verified": false
+        "value": "US46428Q1094"
       }
     ]
   },
@@ -45,8 +43,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -77,6 +74,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://robinhood.com/eu/en/about/"
+      ],
+      "protocolIds": [
+        3732
       ]
     },
     {

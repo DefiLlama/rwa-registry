@@ -2,7 +2,7 @@
   "identity": {
     "slug": "docurh",
     "symbol": "DOCU",
-    "name": "DocuSign, Inc. • Robinhood Token",
+    "name": "DocuSign, Inc. - Robinhood Token",
     "legacyId": 1245,
     "canonicalMarketId": "DOCUrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

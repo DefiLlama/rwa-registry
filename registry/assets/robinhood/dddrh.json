@@ -2,7 +2,7 @@
   "identity": {
     "slug": "dddrh",
     "symbol": "DDD",
-    "name": "3D Systems Corp. • Robinhood Token",
+    "name": "3D Systems Corp. - Robinhood Token",
     "legacyId": 1213,
     "canonicalMarketId": "DDDrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

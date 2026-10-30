@@ -2,7 +2,7 @@
   "identity": {
     "slug": "qualrh",
     "symbol": "QUAL",
-    "name": "iShares MSCI USA Quality Factor ETF • Robinhood Token",
+    "name": "iShares MSCI USA Quality Factor ETF - Robinhood Token",
     "legacyId": 2112,
     "canonicalMarketId": "QUALrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

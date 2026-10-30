@@ -2,7 +2,7 @@
   "identity": {
     "slug": "paasrh",
     "symbol": "PAAS",
-    "name": "Pan American Silver Corp. • Robinhood Token",
+    "name": "Pan American Silver Corp. - Robinhood Token",
     "legacyId": 1992,
     "canonicalMarketId": "PAASrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

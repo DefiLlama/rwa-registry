@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ixusrh",
     "symbol": "IXUS",
-    "name": "iShares Core MSCI U.S. Total Stock Market ETF • Robinhood Token",
+    "name": "iShares Core MSCI U.S. Total Stock Market ETF - Robinhood Token",
     "legacyId": 1640,
     "canonicalMarketId": "IXUSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

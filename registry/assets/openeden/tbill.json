@@ -12,7 +12,7 @@
   "class": {
     "structure": "t-bills",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "bond-mmf-funds"
     ]
@@ -30,7 +30,7 @@
     "coingeckoId": "openeden-tbill"
   },
   "about": {
-    "description": "TBILL is OpenEden’s tokenized Treasury exposure designed to provide short-duration U.S. T-bill yield with NAV-based accounting and onchain settlement. It targets institutional-grade operations and is commonly used for treasury allocation, collateral, and liquidity workflows that prefer conservative duration risk and transparent portfolio reporting.",
+    "description": "TBILL is OpenEden's tokenized Treasury exposure designed to provide short-duration U.S. T-bill yield with NAV-based accounting and onchain settlement. It targets institutional-grade operations and is commonly used for treasury allocation, collateral, and liquidity workflows that prefer conservative duration risk and transparent portfolio reporting.",
     "logo": "https://icons.llamao.fi/icons/rwa/tbill.png?w=48&h=48",
     "links": {
       "website": [
@@ -41,8 +41,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

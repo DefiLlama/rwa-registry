@@ -2,7 +2,7 @@
   "identity": {
     "slug": "acmrrh",
     "symbol": "ACMR",
-    "name": "ACM Research, Inc. • Robinhood Token",
+    "name": "ACM Research, Inc. - Robinhood Token",
     "legacyId": 797,
     "canonicalMarketId": "ACMRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

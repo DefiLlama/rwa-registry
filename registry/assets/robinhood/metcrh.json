@@ -2,7 +2,7 @@
   "identity": {
     "slug": "metcrh",
     "symbol": "METC",
-    "name": "Ramaco Resources, Inc. • Robinhood Token",
+    "name": "Ramaco Resources, Inc. - Robinhood Token",
     "legacyId": 1790,
     "canonicalMarketId": "METCrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

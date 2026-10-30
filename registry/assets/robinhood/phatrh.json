@@ -2,7 +2,7 @@
   "identity": {
     "slug": "phatrh",
     "symbol": "PHAT",
-    "name": "Phathom Pharmaceuticals, Inc. • Robinhood Token",
+    "name": "Phathom Pharmaceuticals, Inc. - Robinhood Token",
     "legacyId": 2030,
     "canonicalMarketId": "PHATrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

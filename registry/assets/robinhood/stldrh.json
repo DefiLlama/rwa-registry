@@ -2,7 +2,7 @@
   "identity": {
     "slug": "stldrh",
     "symbol": "STLD",
-    "name": "Steel Dynamics, Inc. • Robinhood Token",
+    "name": "Steel Dynamics, Inc. - Robinhood Token",
     "legacyId": 2339,
     "canonicalMarketId": "STLDrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

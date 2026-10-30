@@ -2,7 +2,7 @@
   "identity": {
     "slug": "obiorh",
     "symbol": "OBIO",
-    "name": "Orchestra BioMed Holdings, Inc. • Robinhood Token",
+    "name": "Orchestra BioMed Holdings, Inc. - Robinhood Token",
     "legacyId": 1949,
     "canonicalMarketId": "OBIOrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

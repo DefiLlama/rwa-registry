@@ -2,7 +2,7 @@
   "identity": {
     "slug": "nbrrh",
     "symbol": "NBR",
-    "name": "Nabors Industries Ltd. • Robinhood Token",
+    "name": "Nabors Industries Ltd. - Robinhood Token",
     "legacyId": 1872,
     "canonicalMarketId": "NBRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

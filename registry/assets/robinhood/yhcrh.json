@@ -2,7 +2,7 @@
   "identity": {
     "slug": "yhcrh",
     "symbol": "YHC",
-    "name": "LQR House Inc. • Robinhood Token",
+    "name": "LQR House Inc. - Robinhood Token",
     "legacyId": 2812,
     "canonicalMarketId": "YHCrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

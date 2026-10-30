@@ -2,7 +2,7 @@
   "identity": {
     "slug": "pegarh",
     "symbol": "PEGA",
-    "name": "Pegasystems Inc. • Robinhood Token",
+    "name": "Pegasystems Inc. - Robinhood Token",
     "legacyId": 2013,
     "canonicalMarketId": "PEGArh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

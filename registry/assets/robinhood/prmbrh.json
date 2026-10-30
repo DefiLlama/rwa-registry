@@ -2,7 +2,7 @@
   "identity": {
     "slug": "prmbrh",
     "symbol": "PRMB",
-    "name": "Primo Brands Corp. • Robinhood Token",
+    "name": "Primo Brands Corp. - Robinhood Token",
     "legacyId": 2070,
     "canonicalMarketId": "PRMBrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

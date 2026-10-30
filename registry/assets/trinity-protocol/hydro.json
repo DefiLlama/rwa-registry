@@ -22,9 +22,6 @@
     "selfCustody": true,
     "yieldBearing": false
   },
-  "sources": {
-    "llamaAttestationProof": false
-  },
   "about": {
     "description": "HYDRO is an Arbitrum ERC-20 that the issuer presents as exposure to United States clean hydrogen production tax credits under Internal Revenue Code section 45V. Section 45V is among the credits made transferable by section 6418, but that section permits a credit portion to be transferred only once, only to an unrelated taxpayer and only for cash, and it requires a pre-filing registration number together with a transfer election statement attached to the returns of both parties. The transferee is then treated as the taxpayer and claims the credit against its own federal income tax liability. A section 45V credit is therefore not a bearer instrument and cannot circulate between holders or be redeemed by an arbitrary token holder. The token contract exposes mint and burn to an administrator key, which is the only account able to change supply, and the contract is pausable. Transfers are unrestricted, with no allowlist, blacklist or transfer hook. Collateral pricing comes from an issuer-controlled adapter that returns a fixed four dollars per token, and a Morpho Blue market accepts HYDRO as collateral against USDC at a 62.5% liquidation loan-to-value.",
     "logo": "https://icons.llamao.fi/icons/rwa/hydro.png?w=48&h=48",
@@ -36,8 +33,7 @@
   },
   "review": {
     "activeAumReviewed": true,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

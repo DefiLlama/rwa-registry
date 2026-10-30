@@ -2,7 +2,7 @@
   "identity": {
     "slug": "driprh",
     "symbol": "DRIP",
-    "name": "Direxion Daily S&P Oil & Gas Exp. & Prod. Bear 2X ETF • Robinhood Token",
+    "name": "Direxion Daily S&P Oil & Gas Exp. & Prod. Bear 2X ETF - Robinhood Token",
     "legacyId": 1251,
     "canonicalMarketId": "DRIPrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

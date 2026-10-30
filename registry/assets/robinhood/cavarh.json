@@ -2,7 +2,7 @@
   "identity": {
     "slug": "cavarh",
     "symbol": "CAVA",
-    "name": "CAVA Group, Inc. • Robinhood Token",
+    "name": "CAVA Group, Inc. - Robinhood Token",
     "legacyId": 1060,
     "canonicalMarketId": "CAVArh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "apdrh",
     "symbol": "APD",
-    "name": "Air Products and Chemicals, Inc. • Robinhood Token",
+    "name": "Air Products and Chemicals, Inc. - Robinhood Token",
     "legacyId": 880,
     "canonicalMarketId": "APDrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

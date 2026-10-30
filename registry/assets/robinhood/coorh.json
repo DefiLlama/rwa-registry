@@ -2,7 +2,7 @@
   "identity": {
     "slug": "coorh",
     "symbol": "COO",
-    "name": "The Cooper Companies, Inc. • Robinhood Token",
+    "name": "The Cooper Companies, Inc. - Robinhood Token",
     "legacyId": 1143,
     "canonicalMarketId": "COOrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

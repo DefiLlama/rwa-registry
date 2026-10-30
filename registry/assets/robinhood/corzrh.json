@@ -2,7 +2,7 @@
   "identity": {
     "slug": "corzrh",
     "symbol": "CORZ",
-    "name": "Core Scientific, Inc. • Robinhood Token",
+    "name": "Core Scientific, Inc. - Robinhood Token",
     "legacyId": 1147,
     "canonicalMarketId": "CORZrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

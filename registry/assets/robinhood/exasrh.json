@@ -2,7 +2,7 @@
   "identity": {
     "slug": "exasrh",
     "symbol": "EXAS",
-    "name": "Exact Sciences • Robinhood Token",
+    "name": "Exact Sciences - Robinhood Token",
     "legacyId": 1336,
     "canonicalMarketId": "EXASrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "okerh",
     "symbol": "OKE",
-    "name": "ONEOK, Inc. • Robinhood Token",
+    "name": "ONEOK, Inc. - Robinhood Token",
     "legacyId": 1956,
     "canonicalMarketId": "OKErh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

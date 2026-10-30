@@ -2,7 +2,7 @@
   "identity": {
     "slug": "vongrh",
     "symbol": "VONG",
-    "name": "Vanguard Russell 1000 Growth ETF • Robinhood Token",
+    "name": "Vanguard Russell 1000 Growth ETF - Robinhood Token",
     "legacyId": 2565,
     "canonicalMarketId": "VONGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

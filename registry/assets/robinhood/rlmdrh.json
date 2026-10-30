@@ -2,7 +2,7 @@
   "identity": {
     "slug": "rlmdrh",
     "symbol": "RLMD",
-    "name": "Relmada Therapeutics, Inc. • Robinhood Token",
+    "name": "Relmada Therapeutics, Inc. - Robinhood Token",
     "legacyId": 2148,
     "canonicalMarketId": "RLMDrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

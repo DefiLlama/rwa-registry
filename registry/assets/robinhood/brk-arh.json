@@ -2,7 +2,7 @@
   "identity": {
     "slug": "brk-arh",
     "symbol": "BRK.A",
-    "name": "Berkshire Hathaway Inc. Class A • Robinhood Token",
+    "name": "Berkshire Hathaway Inc. Class A - Robinhood Token",
     "legacyId": 1023,
     "canonicalMarketId": "BRK.Arh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

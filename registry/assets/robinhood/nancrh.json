@@ -2,7 +2,7 @@
   "identity": {
     "slug": "nancrh",
     "symbol": "NANC",
-    "name": "Nance International ETF • Robinhood Token",
+    "name": "Nance International ETF - Robinhood Token",
     "legacyId": 1869,
     "canonicalMarketId": "NANCrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

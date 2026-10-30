@@ -2,7 +2,7 @@
   "identity": {
     "slug": "mmytrh",
     "symbol": "MMYT",
-    "name": "MakeMyTrip Ltd. • Robinhood Token",
+    "name": "MakeMyTrip Ltd. - Robinhood Token",
     "legacyId": 1810,
     "canonicalMarketId": "MMYTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "sdrlrh",
     "symbol": "SDRL",
-    "name": "Seadrill Ltd. • Robinhood Token",
+    "name": "Seadrill Ltd. - Robinhood Token",
     "legacyId": 2213,
     "canonicalMarketId": "SDRLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "eogrh",
     "symbol": "EOG",
-    "name": "EOG Resources, Inc. • Robinhood Token",
+    "name": "EOG Resources, Inc. - Robinhood Token",
     "legacyId": 1294,
     "canonicalMarketId": "EOGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

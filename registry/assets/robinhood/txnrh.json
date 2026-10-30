@@ -2,7 +2,7 @@
   "identity": {
     "slug": "txnrh",
     "symbol": "TXN",
-    "name": "Texas Instruments Inc. • Robinhood Token",
+    "name": "Texas Instruments Inc. - Robinhood Token",
     "legacyId": 2461,
     "canonicalMarketId": "TXNrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

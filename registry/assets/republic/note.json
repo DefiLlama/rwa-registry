@@ -31,7 +31,7 @@
     ]
   },
   "about": {
-    "description": "Republic Note is a structured investment product linked to Republic’s broader venture ecosystem, designed to provide holders exposure to a revenue-sharing style payout stream under defined program terms. The product is distributed through Republic’s regulated offering workflow, with offering documents and legal terms surfaced directly on the product page for investor review.",
+    "description": "Republic Note is a structured investment product linked to Republic's broader venture ecosystem, designed to provide holders exposure to a revenue-sharing style payout stream under defined program terms. The product is distributed through Republic's regulated offering workflow, with offering documents and legal terms surfaced directly on the product page for investor review.",
     "logo": "https://icons.llamao.fi/icons/rwa/note.png?w=48&h=48",
     "links": {
       "website": [
@@ -42,8 +42,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

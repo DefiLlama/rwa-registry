@@ -2,7 +2,7 @@
   "identity": {
     "slug": "pegrh",
     "symbol": "PEG",
-    "name": "Public Service Enterprise Group Inc. • Robinhood Token",
+    "name": "Public Service Enterprise Group Inc. - Robinhood Token",
     "legacyId": 2014,
     "canonicalMarketId": "PEGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

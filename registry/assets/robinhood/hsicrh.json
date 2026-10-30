@@ -2,7 +2,7 @@
   "identity": {
     "slug": "hsicrh",
     "symbol": "HSIC",
-    "name": "Henry Schein, Inc. • Robinhood Token",
+    "name": "Henry Schein, Inc. - Robinhood Token",
     "legacyId": 1545,
     "canonicalMarketId": "HSICrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

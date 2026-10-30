@@ -2,7 +2,7 @@
   "identity": {
     "slug": "twlorh",
     "symbol": "TWLO",
-    "name": "Twilio Inc. • Robinhood Token",
+    "name": "Twilio Inc. - Robinhood Token",
     "legacyId": 2458,
     "canonicalMarketId": "TWLOrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "nuvlrh",
     "symbol": "NUVL",
-    "name": "Nuvalent, Inc. • Robinhood Token",
+    "name": "Nuvalent, Inc. - Robinhood Token",
     "legacyId": 1924,
     "canonicalMarketId": "NUVLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

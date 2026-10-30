@@ -2,7 +2,7 @@
   "identity": {
     "slug": "tmusrh",
     "symbol": "TMUS",
-    "name": "T-Mobile US, Inc. • Robinhood Token",
+    "name": "T-Mobile US, Inc. - Robinhood Token",
     "legacyId": 2407,
     "canonicalMarketId": "TMUSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

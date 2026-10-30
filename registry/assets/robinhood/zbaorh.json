@@ -2,7 +2,7 @@
   "identity": {
     "slug": "zbaorh",
     "symbol": "ZBAO",
-    "name": "Zhibao Technology Inc. • Robinhood Token",
+    "name": "Zhibao Technology Inc. - Robinhood Token",
     "legacyId": 2685,
     "canonicalMarketId": "ZBAOrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

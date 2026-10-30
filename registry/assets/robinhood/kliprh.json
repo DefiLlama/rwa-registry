@@ -2,7 +2,7 @@
   "identity": {
     "slug": "kliprh",
     "symbol": "KLIP",
-    "name": "Klippertic Holdings ETF • Robinhood Token",
+    "name": "Klippertic Holdings ETF - Robinhood Token",
     "legacyId": 1680,
     "canonicalMarketId": "KLIPrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

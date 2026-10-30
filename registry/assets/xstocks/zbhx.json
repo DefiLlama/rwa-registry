@@ -12,7 +12,7 @@
   "class": {
     "structure": "stock-backed",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "stocks-equities"
     ]
@@ -29,14 +29,12 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "CH1580495872",
-        "source": null,
-        "verified": false
+        "value": "CH1580495872"
       }
     ]
   },
   "about": {
-    "description": "ZBHx is the Zimmer Biomet xStock, a tokenized equity exposure designed to track Zimmer Biomet in a format usable across crypto venues. Under the xStocks framework (powered by Backed), each token is intended to be fully backed 1:1 by the underlying shares held through traditional custody arrangements. When the underlying stock pays a dividend, the dividend is typically reinvested into more of the underlying shares, and the token’s per-token exposure is adjusted so holders reflect that reinvestment over time rather than receiving a cash dividend. Stock splits and reverse splits are handled through the same adjustment process to keep the token aligned with the underlying. Holding an xStock provides economic exposure, but it does not give shareholder voting rights or shareholder privileges in the underlying company.",
+    "description": "ZBHx is the Zimmer Biomet xStock, a tokenized equity exposure designed to track Zimmer Biomet in a format usable across crypto venues. Under the xStocks framework (powered by Backed), each token is intended to be fully backed 1:1 by the underlying shares held through traditional custody arrangements. When the underlying stock pays a dividend, the dividend is typically reinvested into more of the underlying shares, and the token's per-token exposure is adjusted so holders reflect that reinvestment over time rather than receiving a cash dividend. Stock splits and reverse splits are handled through the same adjustment process to keep the token aligned with the underlying. Holding an xStock provides economic exposure, but it does not give shareholder voting rights or shareholder privileges in the underlying company.",
     "logo": "https://icons.llamao.fi/icons/rwa/xstocks-zbhx.png?w=48&h=48",
     "links": {
       "website": [
@@ -47,8 +45,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "frgerh",
     "symbol": "FRGE",
-    "name": "Forge Global • Robinhood Token",
+    "name": "Forge Global - Robinhood Token",
     "legacyId": 1400,
     "canonicalMarketId": "FRGErh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

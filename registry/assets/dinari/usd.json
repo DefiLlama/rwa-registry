@@ -29,7 +29,7 @@
     "coingeckoId": "dinari-usd"
   },
   "about": {
-    "description": "USD+ is Dinari’s native yield-bearing stablecoin designed to maintain a $1 value and is backed by short-term U.S. Treasuries, cash, and equivalents. Minting/redemption requires a Dinari account (KYC/AML onboarding), secondary-market transfers can remain permissionless.",
+    "description": "USD+ is Dinari's native yield-bearing stablecoin designed to maintain a $1 value and is backed by short-term U.S. Treasuries, cash, and equivalents. Minting/redemption requires a Dinari account (KYC/AML onboarding), secondary-market transfers can remain permissionless.",
     "logo": "https://icons.llamao.fi/icons/rwa/dinari-usd.png?w=48&h=48",
     "links": {
       "website": [
@@ -40,8 +40,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -76,6 +75,9 @@
         "https://dinari.com/terms-conditions-usdplus-stusdplus-tokens",
         "https://docs.dinari.com/docs/usdplus-evm",
         "https://docs.dinari.com/docs/what-is-usd"
+      ],
+      "protocolIds": [
+        4196
       ]
     }
   ]

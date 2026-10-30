@@ -2,7 +2,7 @@
   "identity": {
     "slug": "rokurh",
     "symbol": "ROKU",
-    "name": "Roku, Inc. • Robinhood Token",
+    "name": "Roku, Inc. - Robinhood Token",
     "legacyId": 2154,
     "canonicalMarketId": "ROKUrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

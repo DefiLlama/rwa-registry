@@ -2,7 +2,7 @@
   "identity": {
     "slug": "aptvrh",
     "symbol": "APTV",
-    "name": "Aptiv plc • Robinhood Token",
+    "name": "Aptiv plc - Robinhood Token",
     "legacyId": 889,
     "canonicalMarketId": "APTVrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

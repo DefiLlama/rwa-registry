@@ -2,7 +2,7 @@
   "identity": {
     "slug": "sndlrh",
     "symbol": "SNDL",
-    "name": "SNDL Inc. • Robinhood Token",
+    "name": "SNDL Inc. - Robinhood Token",
     "legacyId": 2273,
     "canonicalMarketId": "SNDLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

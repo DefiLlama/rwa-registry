@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ilmnrh",
     "symbol": "ILMN",
-    "name": "Illumina, Inc. • Robinhood Token",
+    "name": "Illumina, Inc. - Robinhood Token",
     "legacyId": 1590,
     "canonicalMarketId": "ILMNrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

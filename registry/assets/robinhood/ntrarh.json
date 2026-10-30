@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ntrarh",
     "symbol": "NTRA",
-    "name": "Natera, Inc. • Robinhood Token",
+    "name": "Natera, Inc. - Robinhood Token",
     "legacyId": 1918,
     "canonicalMarketId": "NTRArh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ewbcrh",
     "symbol": "EWBC",
-    "name": "East West Bancorp, Inc. • Robinhood Token",
+    "name": "East West Bancorp, Inc. - Robinhood Token",
     "legacyId": 1326,
     "canonicalMarketId": "EWBCrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

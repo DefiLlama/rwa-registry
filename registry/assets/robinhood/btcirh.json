@@ -2,7 +2,7 @@
   "identity": {
     "slug": "btcirh",
     "symbol": "BTCI",
-    "name": "Grayscale Bitcoin Cash Trust • Robinhood Token",
+    "name": "Grayscale Bitcoin Cash Trust - Robinhood Token",
     "legacyId": 2769,
     "canonicalMarketId": "BTCIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

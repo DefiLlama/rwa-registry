@@ -2,7 +2,7 @@
   "identity": {
     "slug": "rytmrh",
     "symbol": "RYTM",
-    "name": "Rhythm Pharmaceuticals, Inc. • Robinhood Token",
+    "name": "Rhythm Pharmaceuticals, Inc. - Robinhood Token",
     "legacyId": 2174,
     "canonicalMarketId": "RYTMrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

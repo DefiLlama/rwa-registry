@@ -2,7 +2,7 @@
   "identity": {
     "slug": "cadlrh",
     "symbol": "CADL",
-    "name": "Candel Therapeutics, Inc. • Robinhood Token",
+    "name": "Candel Therapeutics, Inc. - Robinhood Token",
     "legacyId": 1052,
     "canonicalMarketId": "CADLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

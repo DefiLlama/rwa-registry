@@ -2,7 +2,7 @@
   "identity": {
     "slug": "schfrh",
     "symbol": "SCHF",
-    "name": "Schwab International Equity ETF • Robinhood Token",
+    "name": "Schwab International Equity ETF - Robinhood Token",
     "legacyId": 2196,
     "canonicalMarketId": "SCHFrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

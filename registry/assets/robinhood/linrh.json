@@ -2,7 +2,7 @@
   "identity": {
     "slug": "linrh",
     "symbol": "LIN",
-    "name": "Linde plc • Robinhood Token",
+    "name": "Linde plc - Robinhood Token",
     "legacyId": 1729,
     "canonicalMarketId": "LINrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

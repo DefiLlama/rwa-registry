@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ntnxrh",
     "symbol": "NTNX",
-    "name": "Nutanix, Inc. • Robinhood Token",
+    "name": "Nutanix, Inc. - Robinhood Token",
     "legacyId": 1917,
     "canonicalMarketId": "NTNXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

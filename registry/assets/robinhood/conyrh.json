@@ -2,7 +2,7 @@
   "identity": {
     "slug": "conyrh",
     "symbol": "CONY",
-    "name": "ConocoPhillips Inverse ETF • Robinhood Token",
+    "name": "ConocoPhillips Inverse ETF - Robinhood Token",
     "legacyId": 1142,
     "canonicalMarketId": "CONYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

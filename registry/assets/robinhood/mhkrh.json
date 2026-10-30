@@ -2,7 +2,7 @@
   "identity": {
     "slug": "mhkrh",
     "symbol": "MHK",
-    "name": "Mohawk Industries, Inc. • Robinhood Token",
+    "name": "Mohawk Industries, Inc. - Robinhood Token",
     "legacyId": 1799,
     "canonicalMarketId": "MHKrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

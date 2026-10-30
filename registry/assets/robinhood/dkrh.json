@@ -2,7 +2,7 @@
   "identity": {
     "slug": "dkrh",
     "symbol": "DK",
-    "name": "Delek US Holdings, Inc. • Robinhood Token",
+    "name": "Delek US Holdings, Inc. - Robinhood Token",
     "legacyId": 1238,
     "canonicalMarketId": "DKrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

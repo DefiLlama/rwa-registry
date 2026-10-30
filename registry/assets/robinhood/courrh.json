@@ -2,7 +2,7 @@
   "identity": {
     "slug": "courrh",
     "symbol": "COUR",
-    "name": "Coursera, Inc. • Robinhood Token",
+    "name": "Coursera, Inc. - Robinhood Token",
     "legacyId": 1151,
     "canonicalMarketId": "COURrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

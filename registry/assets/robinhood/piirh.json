@@ -2,7 +2,7 @@
   "identity": {
     "slug": "piirh",
     "symbol": "PII",
-    "name": "Polaris Inc. • Robinhood Token",
+    "name": "Polaris Inc. - Robinhood Token",
     "legacyId": 2036,
     "canonicalMarketId": "PIIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "cifrrh",
     "symbol": "CIFR",
-    "name": "Cipher Digital Inc. • Robinhood Token",
+    "name": "Cipher Digital Inc. - Robinhood Token",
     "legacyId": 1104,
     "canonicalMarketId": "CIFRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

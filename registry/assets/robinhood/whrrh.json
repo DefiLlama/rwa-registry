@@ -2,7 +2,7 @@
   "identity": {
     "slug": "whrrh",
     "symbol": "WHR",
-    "name": "Whirlpool Corp. • Robinhood Token",
+    "name": "Whirlpool Corp. - Robinhood Token",
     "legacyId": 2616,
     "canonicalMarketId": "WHRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

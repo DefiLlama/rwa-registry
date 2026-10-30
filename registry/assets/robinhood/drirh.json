@@ -2,7 +2,7 @@
   "identity": {
     "slug": "drirh",
     "symbol": "DRI",
-    "name": "Darden Restaurants, Inc. • Robinhood Token",
+    "name": "Darden Restaurants, Inc. - Robinhood Token",
     "legacyId": 1252,
     "canonicalMarketId": "DRIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

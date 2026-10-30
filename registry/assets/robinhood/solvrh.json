@@ -2,7 +2,7 @@
   "identity": {
     "slug": "solvrh",
     "symbol": "SOLV",
-    "name": "Solventum Corp. • Robinhood Token",
+    "name": "Solventum Corp. - Robinhood Token",
     "legacyId": 2284,
     "canonicalMarketId": "SOLVrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

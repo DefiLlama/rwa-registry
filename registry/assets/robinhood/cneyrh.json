@@ -2,7 +2,7 @@
   "identity": {
     "slug": "cneyrh",
     "symbol": "CNEY",
-    "name": "CN Energy Group, Inc. • Robinhood Token",
+    "name": "CN Energy Group, Inc. - Robinhood Token",
     "legacyId": 1128,
     "canonicalMarketId": "CNEYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

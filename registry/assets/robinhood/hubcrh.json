@@ -2,7 +2,7 @@
   "identity": {
     "slug": "hubcrh",
     "symbol": "HUBC",
-    "name": "HUB Cyber Security Ltd. • Robinhood Token",
+    "name": "HUB Cyber Security Ltd. - Robinhood Token",
     "legacyId": 1550,
     "canonicalMarketId": "HUBCrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

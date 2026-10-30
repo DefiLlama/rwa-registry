@@ -2,7 +2,7 @@
   "identity": {
     "slug": "btclrh",
     "symbol": "BTCL",
-    "name": "Bitcoin Liquidation ETF • Robinhood Token",
+    "name": "Bitcoin Liquidation ETF - Robinhood Token",
     "legacyId": 1033,
     "canonicalMarketId": "BTCLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

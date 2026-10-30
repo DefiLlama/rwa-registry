@@ -2,7 +2,7 @@
   "identity": {
     "slug": "duolrh",
     "symbol": "DUOL",
-    "name": "Duolingo, Inc. • Robinhood Token",
+    "name": "Duolingo, Inc. - Robinhood Token",
     "legacyId": 1257,
     "canonicalMarketId": "DUOLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

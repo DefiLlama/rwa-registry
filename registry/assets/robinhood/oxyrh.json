@@ -2,7 +2,7 @@
   "identity": {
     "slug": "oxyrh",
     "symbol": "OXY",
-    "name": "Occidental Petroleum Corp. • Robinhood Token",
+    "name": "Occidental Petroleum Corp. - Robinhood Token",
     "legacyId": 1990,
     "canonicalMarketId": "OXYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

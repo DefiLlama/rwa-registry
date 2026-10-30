@@ -2,7 +2,7 @@
   "identity": {
     "slug": "paycrh",
     "symbol": "PAYC",
-    "name": "Paycom Software, Inc. • Robinhood Token",
+    "name": "Paycom Software, Inc. - Robinhood Token",
     "legacyId": 1999,
     "canonicalMarketId": "PAYCrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

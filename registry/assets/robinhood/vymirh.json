@@ -2,7 +2,7 @@
   "identity": {
     "slug": "vymirh",
     "symbol": "VYMI",
-    "name": "Vanguard High Dividend Yield Investor Shares ETF • Robinhood Token",
+    "name": "Vanguard High Dividend Yield Investor Shares ETF - Robinhood Token",
     "legacyId": 2596,
     "canonicalMarketId": "VYMIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

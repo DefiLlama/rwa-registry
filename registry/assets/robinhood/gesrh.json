@@ -2,7 +2,7 @@
   "identity": {
     "slug": "gesrh",
     "symbol": "GES",
-    "name": "Guess? • Robinhood Token",
+    "name": "Guess? - Robinhood Token",
     "legacyId": 1441,
     "canonicalMarketId": "GESrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

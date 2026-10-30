@@ -2,7 +2,7 @@
   "identity": {
     "slug": "pltyrh",
     "symbol": "PLTY",
-    "name": "Platinum Leveraged ETF • Robinhood Token",
+    "name": "Platinum Leveraged ETF - Robinhood Token",
     "legacyId": 2046,
     "canonicalMarketId": "PLTYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

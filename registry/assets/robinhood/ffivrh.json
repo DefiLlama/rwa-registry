@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ffivrh",
     "symbol": "FFIV",
-    "name": "F5, Inc. • Robinhood Token",
+    "name": "F5, Inc. - Robinhood Token",
     "legacyId": 1368,
     "canonicalMarketId": "FFIVrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

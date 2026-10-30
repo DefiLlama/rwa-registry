@@ -2,7 +2,7 @@
   "identity": {
     "slug": "dgrh",
     "symbol": "DG",
-    "name": "Dollar General Corp. • Robinhood Token",
+    "name": "Dollar General Corp. - Robinhood Token",
     "legacyId": 1227,
     "canonicalMarketId": "DGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

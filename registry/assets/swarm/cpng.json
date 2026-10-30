@@ -12,7 +12,7 @@
   "class": {
     "structure": "stock-backed",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "stocks-equities"
     ]
@@ -30,14 +30,12 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "CH1275377302",
-        "source": null,
-        "verified": false
+        "value": "CH1275377302"
       }
     ]
   },
   "about": {
-    "description": "CPNG is a SwarmX-issued token that provides on-chain exposure to the referenced equity (Coupang) under SwarmX’s prospectus-based Stock Certificate Token program. For dividends and other distributions, the Final Terms describe that the custodian receives the payment, forwards it to a conversion service provider to convert into stablecoins (USD stablecoins when available, otherwise EUR stablecoins at the issuer’s discretion), and makes the payout available via a Dividend Smart Contract. Tokenholders must claim distributions, and unclaimed dividends are forfeited once a token is redeemed. Tokenholder rights are contractual and defined in the prospectus and Final Terms, and are not the same as holding the underlying security directly.",
+    "description": "CPNG is a SwarmX-issued token that provides on-chain exposure to the referenced equity (Coupang) under SwarmX's prospectus-based Stock Certificate Token program. For dividends and other distributions, the Final Terms describe that the custodian receives the payment, forwards it to a conversion service provider to convert into stablecoins (USD stablecoins when available, otherwise EUR stablecoins at the issuer's discretion), and makes the payout available via a Dividend Smart Contract. Tokenholders must claim distributions, and unclaimed dividends are forfeited once a token is redeemed. Tokenholder rights are contractual and defined in the prospectus and Final Terms, and are not the same as holding the underlying security directly.",
     "logo": "https://icons.llamao.fi/icons/rwa/cpng.png?w=48&h=48",
     "links": {
       "website": [
@@ -48,8 +46,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

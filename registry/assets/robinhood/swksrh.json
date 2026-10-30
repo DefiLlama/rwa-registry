@@ -2,7 +2,7 @@
   "identity": {
     "slug": "swksrh",
     "symbol": "SWKS",
-    "name": "Skyworks Solutions, Inc. • Robinhood Token",
+    "name": "Skyworks Solutions, Inc. - Robinhood Token",
     "legacyId": 2356,
     "canonicalMarketId": "SWKSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

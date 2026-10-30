@@ -2,7 +2,7 @@
   "identity": {
     "slug": "shvrh",
     "symbol": "SHV",
-    "name": "iShares Short Treasury Bond ETF • Robinhood Token",
+    "name": "iShares Short Treasury Bond ETF - Robinhood Token",
     "legacyId": 2759,
     "canonicalMarketId": "SHVrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

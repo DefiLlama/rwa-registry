@@ -2,7 +2,7 @@
   "identity": {
     "slug": "fperh",
     "symbol": "FPE",
-    "name": "First Trust Preferred ETF • Robinhood Token",
+    "name": "First Trust Preferred ETF - Robinhood Token",
     "legacyId": 1399,
     "canonicalMarketId": "FPErh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

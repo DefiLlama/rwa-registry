@@ -2,7 +2,7 @@
   "identity": {
     "slug": "bturh",
     "symbol": "BTU",
-    "name": "Peabody Energy Corp. • Robinhood Token",
+    "name": "Peabody Energy Corp. - Robinhood Token",
     "legacyId": 1038,
     "canonicalMarketId": "BTUrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "gwwrh",
     "symbol": "GWW",
-    "name": "W.W. Grainger, Inc. • Robinhood Token",
+    "name": "W.W. Grainger, Inc. - Robinhood Token",
     "legacyId": 1503,
     "canonicalMarketId": "GWWrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

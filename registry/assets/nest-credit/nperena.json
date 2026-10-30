@@ -29,7 +29,7 @@
     "coingeckoId": "nest-perena-vault"
   },
   "about": {
-    "description": "nPERENA is the receipt token for Nest’s Perena vault, designed to bring real-world yield into Perena’s stablecoin reserve stack by allocating a portion of reserve capital into Nest-curated institutional RWA strategies. Public references describe the vault as exposing users to institutionally managed credit strategies, including private credit, while preserving a stable-value oriented reserve profile where value accrues through vault NAV.",
+    "description": "nPERENA is the receipt token for Nest's Perena vault, designed to bring real-world yield into Perena's stablecoin reserve stack by allocating a portion of reserve capital into Nest-curated institutional RWA strategies. Public references describe the vault as exposing users to institutionally managed credit strategies, including private credit, while preserving a stable-value oriented reserve profile where value accrues through vault NAV.",
     "logo": "https://icons.llamao.fi/icons/rwa/nperena.png?w=48&h=48",
     "links": {
       "website": [
@@ -40,8 +40,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

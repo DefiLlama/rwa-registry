@@ -2,7 +2,7 @@
   "identity": {
     "slug": "biafrh",
     "symbol": "BIAF",
-    "name": "bioAffinity Technologies, Inc. • Robinhood Token",
+    "name": "bioAffinity Technologies, Inc. - Robinhood Token",
     "legacyId": 978,
     "canonicalMarketId": "BIAFrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

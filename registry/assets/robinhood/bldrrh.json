@@ -2,7 +2,7 @@
   "identity": {
     "slug": "bldrrh",
     "symbol": "BLDR",
-    "name": "Builders FirstSource, Inc. • Robinhood Token",
+    "name": "Builders FirstSource, Inc. - Robinhood Token",
     "legacyId": 1000,
     "canonicalMarketId": "BLDRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "lpsnrh",
     "symbol": "LPSN",
-    "name": "LivePerson, Inc. • Robinhood Token",
+    "name": "LivePerson, Inc. - Robinhood Token",
     "legacyId": 1743,
     "canonicalMarketId": "LPSNrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

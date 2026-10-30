@@ -35,8 +35,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -44,6 +43,10 @@
       "address": "0x8bd5fe9286b039cc38d9b63865a8e87736382ccf",
       "deployedAt": null,
       "primary": true
+    },
+    {
+      "chain": "ton",
+      "address": null
     }
   ],
   "roles": [

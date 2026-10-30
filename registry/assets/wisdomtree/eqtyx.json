@@ -12,7 +12,7 @@
   "class": {
     "structure": "mixed-rwa-fund",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "stocks-equities"
     ]
@@ -30,14 +30,12 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "US97717K8163",
-        "source": null,
-        "verified": false
+        "value": "US97717K8163"
       }
     ]
   },
   "about": {
-    "description": "EQTYX represents digital shares of a global equity allocation fund built with a diversified mix of U.S. and international equity exposures. It is designed to provide broad stock-market participation with systematic tilts that reflect the fund’s portfolio construction approach, while delivering ownership in a tokenized share format for onchain settlement and integration.",
+    "description": "EQTYX represents digital shares of a global equity allocation fund built with a diversified mix of U.S. and international equity exposures. It is designed to provide broad stock-market participation with systematic tilts that reflect the fund's portfolio construction approach, while delivering ownership in a tokenized share format for onchain settlement and integration.",
     "logo": "https://icons.llamao.fi/icons/rwa/eqtyx.png?w=48&h=48",
     "links": {
       "website": [
@@ -48,8 +46,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -101,6 +98,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://www.sec.gov/cgi-bin/browse-edgar?CIK=0001859001&owner=include&action=getcompany"
+      ],
+      "protocolIds": [
+        6516
       ]
     }
   ],

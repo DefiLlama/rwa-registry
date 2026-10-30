@@ -2,7 +2,7 @@
   "identity": {
     "slug": "cnhrh",
     "symbol": "CNH",
-    "name": "CNH Industrial N.V. • Robinhood Token",
+    "name": "CNH Industrial N.V. - Robinhood Token",
     "legacyId": 1129,
     "canonicalMarketId": "CNHrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "tanrh",
     "symbol": "TAN",
-    "name": "Invesco Solar ETF • Robinhood Token",
+    "name": "Invesco Solar ETF - Robinhood Token",
     "legacyId": 2365,
     "canonicalMarketId": "TANrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

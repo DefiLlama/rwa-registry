@@ -2,7 +2,7 @@
   "identity": {
     "slug": "xhbrh",
     "symbol": "XHB",
-    "name": "State Street SPDR S&P Homebuilders ETF • Robinhood Token",
+    "name": "State Street SPDR S&P Homebuilders ETF - Robinhood Token",
     "legacyId": 2813,
     "canonicalMarketId": "XHBrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

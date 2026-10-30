@@ -2,7 +2,7 @@
   "identity": {
     "slug": "lprorh",
     "symbol": "LPRO",
-    "name": "Open Lending Corp. • Robinhood Token",
+    "name": "Open Lending Corp. - Robinhood Token",
     "legacyId": 1742,
     "canonicalMarketId": "LPROrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

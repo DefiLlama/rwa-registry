@@ -2,7 +2,7 @@
   "identity": {
     "slug": "gprorh",
     "symbol": "GPRO",
-    "name": "GoPro, Inc. • Robinhood Token",
+    "name": "GoPro, Inc. - Robinhood Token",
     "legacyId": 1483,
     "canonicalMarketId": "GPROrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

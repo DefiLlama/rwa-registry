@@ -2,7 +2,7 @@
   "identity": {
     "slug": "lqdrh",
     "symbol": "LQD",
-    "name": "iShares Investment Grade Corporate Bond ETF • Robinhood Token",
+    "name": "iShares Investment Grade Corporate Bond ETF - Robinhood Token",
     "legacyId": 2799,
     "canonicalMarketId": "LQDrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

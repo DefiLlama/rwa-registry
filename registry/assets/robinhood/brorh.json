@@ -2,7 +2,7 @@
   "identity": {
     "slug": "brorh",
     "symbol": "BRO",
-    "name": "Brown & Brown, Inc. • Robinhood Token",
+    "name": "Brown & Brown, Inc. - Robinhood Token",
     "legacyId": 1027,
     "canonicalMarketId": "BROrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

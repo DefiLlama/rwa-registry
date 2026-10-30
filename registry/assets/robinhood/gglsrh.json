@@ -2,7 +2,7 @@
   "identity": {
     "slug": "gglsrh",
     "symbol": "GGLS",
-    "name": "Direxion Daily GOOGL Bear 1X ETF • Robinhood Token",
+    "name": "Direxion Daily GOOGL Bear 1X ETF - Robinhood Token",
     "legacyId": 1448,
     "canonicalMarketId": "GGLSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

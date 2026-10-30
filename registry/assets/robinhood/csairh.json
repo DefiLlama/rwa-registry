@@ -2,7 +2,7 @@
   "identity": {
     "slug": "csairh",
     "symbol": "CSAI",
-    "name": "Cloudastructure, Inc. • Robinhood Token",
+    "name": "Cloudastructure, Inc. - Robinhood Token",
     "legacyId": 1179,
     "canonicalMarketId": "CSAIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

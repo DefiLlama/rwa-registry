@@ -2,7 +2,7 @@
   "identity": {
     "slug": "iborh",
     "symbol": "IBO",
-    "name": "Impact Biomedical Inc. • Robinhood Token",
+    "name": "Impact Biomedical Inc. - Robinhood Token",
     "legacyId": 1569,
     "canonicalMarketId": "IBOrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

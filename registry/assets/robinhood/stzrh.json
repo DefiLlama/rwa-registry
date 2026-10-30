@@ -2,7 +2,7 @@
   "identity": {
     "slug": "stzrh",
     "symbol": "STZ",
-    "name": "Constellation Brands, Inc. • Robinhood Token",
+    "name": "Constellation Brands, Inc. - Robinhood Token",
     "legacyId": 2346,
     "canonicalMarketId": "STZrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

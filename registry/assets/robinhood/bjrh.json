@@ -2,7 +2,7 @@
   "identity": {
     "slug": "bjrh",
     "symbol": "BJ",
-    "name": "BJ's Wholesale Club Holdings, Inc. • Robinhood Token",
+    "name": "BJ's Wholesale Club Holdings, Inc. - Robinhood Token",
     "legacyId": 992,
     "canonicalMarketId": "BJrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

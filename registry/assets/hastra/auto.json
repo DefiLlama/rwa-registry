@@ -12,7 +12,7 @@
   "class": {
     "structure": "credit-pool",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "private-credit"
     ]
@@ -39,8 +39,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -62,6 +61,9 @@
       "sourceLinks": [
         "https://www.hastra.io/auto",
         "https://help.hastra.io/"
+      ],
+      "protocolIds": [
+        7266
       ]
     }
   ],

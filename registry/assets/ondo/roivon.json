@@ -7,12 +7,12 @@
     "canonicalMarketId": "ROIVon"
   },
   "exposure": {
-    "underlying": "roivant-sciences-ltd-9739"
+    "underlying": "roivant-sciences-ltd"
   },
   "class": {
     "structure": "stock-backed",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "stocks-equities"
     ]
@@ -29,9 +29,7 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "BMG762791017",
-        "source": null,
-        "verified": false
+        "value": "BMG762791017"
       }
     ]
   },
@@ -47,8 +45,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

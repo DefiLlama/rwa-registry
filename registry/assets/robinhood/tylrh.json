@@ -2,7 +2,7 @@
   "identity": {
     "slug": "tylrh",
     "symbol": "TYL",
-    "name": "Tyler Technologies, Inc. • Robinhood Token",
+    "name": "Tyler Technologies, Inc. - Robinhood Token",
     "legacyId": 2464,
     "canonicalMarketId": "TYLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

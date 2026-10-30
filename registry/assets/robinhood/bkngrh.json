@@ -2,7 +2,7 @@
   "identity": {
     "slug": "bkngrh",
     "symbol": "BKNG",
-    "name": "Booking Holdings Inc. • Robinhood Token",
+    "name": "Booking Holdings Inc. - Robinhood Token",
     "legacyId": 996,
     "canonicalMarketId": "BKNGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

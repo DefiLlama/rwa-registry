@@ -2,7 +2,7 @@
   "identity": {
     "slug": "cfrh",
     "symbol": "CF",
-    "name": "CF Industries Holdings, Inc. • Robinhood Token",
+    "name": "CF Industries Holdings, Inc. - Robinhood Token",
     "legacyId": 1082,
     "canonicalMarketId": "CFrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

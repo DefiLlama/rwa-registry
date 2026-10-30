@@ -2,7 +2,7 @@
   "identity": {
     "slug": "sgmorh",
     "symbol": "SGMO",
-    "name": "Sangamo Therapeutics, Inc. • Robinhood Token",
+    "name": "Sangamo Therapeutics, Inc. - Robinhood Token",
     "legacyId": 2222,
     "canonicalMarketId": "SGMOrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

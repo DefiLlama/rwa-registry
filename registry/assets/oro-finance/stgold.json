@@ -28,7 +28,7 @@
     "coingeckoId": "gold-11"
   },
   "about": {
-    "description": "stGOLD is a yield-bearing wrapper over Oro’s tokenized gold, designed for holders who want vaulted gold exposure while earning an additional return stream through staking-style mechanics. It is meant to behave as a compounding gold position where the underlying gold backing remains the anchor, while rewards are driven by Oro’s yield design and ecosystem incentives.",
+    "description": "stGOLD is a yield-bearing wrapper over Oro's tokenized gold, designed for holders who want vaulted gold exposure while earning an additional return stream through staking-style mechanics. It is meant to behave as a compounding gold position where the underlying gold backing remains the anchor, while rewards are driven by Oro's yield design and ecosystem incentives.",
     "logo": "https://icons.llamao.fi/icons/rwa/stgold.png?w=48&h=48",
     "links": {
       "website": [
@@ -38,9 +38,15 @@
   },
   "review": {
     "activeAumReviewed": true,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
+  "deployments": [
+    {
+      "chain": "solana",
+      "address": null,
+      "primary": true
+    }
+  ],
   "roles": [
     {
       "organization": "oro",

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "mltxrh",
     "symbol": "MLTX",
-    "name": "MoonLake Immunotherapeutics • Robinhood Token",
+    "name": "MoonLake Immunotherapeutics - Robinhood Token",
     "legacyId": 1808,
     "canonicalMarketId": "MLTXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

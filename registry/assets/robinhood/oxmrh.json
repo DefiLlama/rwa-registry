@@ -2,7 +2,7 @@
   "identity": {
     "slug": "oxmrh",
     "symbol": "OXM",
-    "name": "Oxford Industries, Inc. • Robinhood Token",
+    "name": "Oxford Industries, Inc. - Robinhood Token",
     "legacyId": 1988,
     "canonicalMarketId": "OXMrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

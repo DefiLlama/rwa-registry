@@ -2,7 +2,7 @@
   "identity": {
     "slug": "olnrh",
     "symbol": "OLN",
-    "name": "Olin Corp. • Robinhood Token",
+    "name": "Olin Corp. - Robinhood Token",
     "legacyId": 1961,
     "canonicalMarketId": "OLNrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "hlrh",
     "symbol": "HL",
-    "name": "Hecla Mining Co. • Robinhood Token",
+    "name": "Hecla Mining Co. - Robinhood Token",
     "legacyId": 1530,
     "canonicalMarketId": "HLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

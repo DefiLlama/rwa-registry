@@ -2,7 +2,7 @@
   "identity": {
     "slug": "shfsrh",
     "symbol": "SHFS",
-    "name": "SHF Holdings, Inc. • Robinhood Token",
+    "name": "SHF Holdings, Inc. - Robinhood Token",
     "legacyId": 2228,
     "canonicalMarketId": "SHFSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

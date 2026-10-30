@@ -37,9 +37,19 @@
   "review": {
     "activeAumReviewed": false,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": null,
+      "primary": true
+    },
+    {
+      "chain": "solana",
+      "address": null
+    }
+  ],
   "roles": [
     {
       "organization": "baillie-gifford-enhanced-yield-fund-uk-regulated-oeic",

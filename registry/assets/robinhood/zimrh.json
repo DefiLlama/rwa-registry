@@ -2,7 +2,7 @@
   "identity": {
     "slug": "zimrh",
     "symbol": "ZIM",
-    "name": "ZIM Integrated Shipping Services Ltd. • Robinhood Token",
+    "name": "ZIM Integrated Shipping Services Ltd. - Robinhood Token",
     "legacyId": 2691,
     "canonicalMarketId": "ZIMrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

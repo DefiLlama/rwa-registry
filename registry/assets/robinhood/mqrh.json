@@ -2,7 +2,7 @@
   "identity": {
     "slug": "mqrh",
     "symbol": "MQ",
-    "name": "Marqeta, Inc. • Robinhood Token",
+    "name": "Marqeta, Inc. - Robinhood Token",
     "legacyId": 1822,
     "canonicalMarketId": "MQrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

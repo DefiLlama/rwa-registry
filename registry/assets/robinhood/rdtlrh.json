@@ -2,7 +2,7 @@
   "identity": {
     "slug": "rdtlrh",
     "symbol": "RDTL",
-    "name": "Relative Value Long/Short ETF • Robinhood Token",
+    "name": "Relative Value Long/Short ETF - Robinhood Token",
     "legacyId": 2126,
     "canonicalMarketId": "RDTLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

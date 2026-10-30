@@ -2,7 +2,7 @@
   "identity": {
     "slug": "cbrh",
     "symbol": "CB",
-    "name": "Chubb Ltd. • Robinhood Token",
+    "name": "Chubb Ltd. - Robinhood Token",
     "legacyId": 1065,
     "canonicalMarketId": "CBrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

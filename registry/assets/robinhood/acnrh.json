@@ -2,7 +2,7 @@
   "identity": {
     "slug": "acnrh",
     "symbol": "ACN",
-    "name": "Accenture plc • Robinhood Token",
+    "name": "Accenture plc - Robinhood Token",
     "legacyId": 798,
     "canonicalMarketId": "ACNrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

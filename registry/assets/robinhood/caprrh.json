@@ -2,7 +2,7 @@
   "identity": {
     "slug": "caprrh",
     "symbol": "CAPR",
-    "name": "Capricor Therapeutics, Inc. • Robinhood Token",
+    "name": "Capricor Therapeutics, Inc. - Robinhood Token",
     "legacyId": 1056,
     "canonicalMarketId": "CAPRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

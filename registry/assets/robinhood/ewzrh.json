@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ewzrh",
     "symbol": "EWZ",
-    "name": "iShares MSCI Brazil ETF • Robinhood Token",
+    "name": "iShares MSCI Brazil ETF - Robinhood Token",
     "legacyId": 1334,
     "canonicalMarketId": "EWZrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ibitrh",
     "symbol": "IBIT",
-    "name": "iShares Bitcoin Trust ETF • Robinhood Token",
+    "name": "iShares Bitcoin Trust ETF - Robinhood Token",
     "legacyId": 1567,
     "canonicalMarketId": "IBITrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

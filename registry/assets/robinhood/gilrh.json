@@ -2,7 +2,7 @@
   "identity": {
     "slug": "gilrh",
     "symbol": "GIL",
-    "name": "Gildan Activewear Inc. • Robinhood Token",
+    "name": "Gildan Activewear Inc. - Robinhood Token",
     "legacyId": 1451,
     "canonicalMarketId": "GILrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

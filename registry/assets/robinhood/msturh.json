@@ -2,7 +2,7 @@
   "identity": {
     "slug": "msturh",
     "symbol": "MSTU",
-    "name": "T-REX 2X Long MSTR Daily Target ETF • Robinhood Token",
+    "name": "T-REX 2X Long MSTR Daily Target ETF - Robinhood Token",
     "legacyId": 1841,
     "canonicalMarketId": "MSTUrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

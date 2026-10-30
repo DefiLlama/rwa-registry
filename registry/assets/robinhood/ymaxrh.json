@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ymaxrh",
     "symbol": "YMAX",
-    "name": "Maximum Yield ETF • Robinhood Token",
+    "name": "Maximum Yield ETF - Robinhood Token",
     "legacyId": 2681,
     "canonicalMarketId": "YMAXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

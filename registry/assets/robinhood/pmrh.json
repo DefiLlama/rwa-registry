@@ -2,7 +2,7 @@
   "identity": {
     "slug": "pmrh",
     "symbol": "PM",
-    "name": "Philip Morris International Inc. • Robinhood Token",
+    "name": "Philip Morris International Inc. - Robinhood Token",
     "legacyId": 2052,
     "canonicalMarketId": "PMrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

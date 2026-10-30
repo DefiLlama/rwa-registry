@@ -2,7 +2,7 @@
   "identity": {
     "slug": "fiverh",
     "symbol": "FIVE",
-    "name": "Five Below, Inc. • Robinhood Token",
+    "name": "Five Below, Inc. - Robinhood Token",
     "legacyId": 1375,
     "canonicalMarketId": "FIVErh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

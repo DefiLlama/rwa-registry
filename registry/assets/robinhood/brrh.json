@@ -2,7 +2,7 @@
   "identity": {
     "slug": "brrh",
     "symbol": "BR",
-    "name": "Broadridge Financial Solutions, Inc. • Robinhood Token",
+    "name": "Broadridge Financial Solutions, Inc. - Robinhood Token",
     "legacyId": 1029,
     "canonicalMarketId": "BRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

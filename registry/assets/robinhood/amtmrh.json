@@ -2,7 +2,7 @@
   "identity": {
     "slug": "amtmrh",
     "symbol": "AMTM",
-    "name": "Amentum Holdings, Inc. • Robinhood Token",
+    "name": "Amentum Holdings, Inc. - Robinhood Token",
     "legacyId": 865,
     "canonicalMarketId": "AMTMrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

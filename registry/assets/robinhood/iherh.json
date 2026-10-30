@@ -2,7 +2,7 @@
   "identity": {
     "slug": "iherh",
     "symbol": "IHE",
-    "name": "iShares U.S. Healthcare ETF • Robinhood Token",
+    "name": "iShares U.S. Healthcare ETF - Robinhood Token",
     "legacyId": 1585,
     "canonicalMarketId": "IHErh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

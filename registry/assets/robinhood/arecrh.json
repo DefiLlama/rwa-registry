@@ -2,7 +2,7 @@
   "identity": {
     "slug": "arecrh",
     "symbol": "AREC",
-    "name": "American Resources Corp. • Robinhood Token",
+    "name": "American Resources Corp. - Robinhood Token",
     "legacyId": 899,
     "canonicalMarketId": "ARECrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

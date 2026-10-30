@@ -2,7 +2,7 @@
   "identity": {
     "slug": "vxfrh",
     "symbol": "VXF",
-    "name": "Vanguard Extended Market ETF • Robinhood Token",
+    "name": "Vanguard Extended Market ETF - Robinhood Token",
     "legacyId": 2594,
     "canonicalMarketId": "VXFrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "odflrh",
     "symbol": "ODFL",
-    "name": "Old Dominion Freight Line, Inc. • Robinhood Token",
+    "name": "Old Dominion Freight Line, Inc. - Robinhood Token",
     "legacyId": 1953,
     "canonicalMarketId": "ODFLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "slirh",
     "symbol": "SLI",
-    "name": "Standard Lithium Ltd. • Robinhood Token",
+    "name": "Standard Lithium Ltd. - Robinhood Token",
     "legacyId": 2246,
     "canonicalMarketId": "SLIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

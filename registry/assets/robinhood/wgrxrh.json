@@ -2,7 +2,7 @@
   "identity": {
     "slug": "wgrxrh",
     "symbol": "WGRX",
-    "name": "Wellgistics Health, Inc. • Robinhood Token",
+    "name": "Wellgistics Health, Inc. - Robinhood Token",
     "legacyId": 2614,
     "canonicalMarketId": "WGRXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

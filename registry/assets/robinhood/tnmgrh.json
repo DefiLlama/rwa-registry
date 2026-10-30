@@ -2,7 +2,7 @@
   "identity": {
     "slug": "tnmgrh",
     "symbol": "TNMG",
-    "name": "TNL Mediagene • Robinhood Token",
+    "name": "TNL Mediagene - Robinhood Token",
     "legacyId": 2410,
     "canonicalMarketId": "TNMGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

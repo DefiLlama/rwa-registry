@@ -24,8 +24,7 @@
     "attestationFrequency": "Monthly custodian confirmation, annual independent count"
   },
   "sources": {
-    "coingeckoId": "strato-usdst",
-    "llamaAttestationProof": false
+    "coingeckoId": "strato-usdst"
   },
   "about": {
     "description": "USDST is the stablecoin of the STRATO network and operates as a collateralized debt position instrument rather than a reserve backed stablecoin. Users deposit collateral, mint USDST against it at a minimum collateralization ratio of one hundred fifty percent, and pay a stability fee, with third party liquidators enforcing the ratio. The issuer reports system collateral of roughly thirty one million dollars against under five million tokens minted, of which approximately ninety seven percent is tokenized physical gold and silver and the remainder is onchain crypto and yield bearing stablecoins. Because the collateral consists of the platform's own metal token wrappers, valued by the platform's own oracle on its own network, the backing is not independently indexable. This row tracks the Ethereum representation contract. Its implementation is named StratoNativeRepresentationToken and its token name is Ethereum USDST, confirming it is a bridge claim on the native issuance rather than the canonical supply, so it carries the non base claim flag. Native supply reported by the issuer is far larger than the amount represented on Ethereum. USDST does not itself accrue yield. A separate savings vault wraps it and pays a stated five percent. There is no issuer redemption right for holders. Repaying a position releases only that borrower's own collateral, and secondary market buyers hold no claim on reserves. Physical redemption applies only to the metal tokens that collateralize the system and requires in person collection in New York City with minimum increments and customer paid costs. The proxy is upgradeable and the token carries a global transfer kill switch and an address allowlist, so permissionless transferability is discretionary.",
@@ -39,8 +38,7 @@
   "review": {
     "activeAumReviewed": false,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -56,6 +54,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://strato.nexus/terms"
+      ],
+      "protocolIds": [
+        7862
       ]
     }
   ],

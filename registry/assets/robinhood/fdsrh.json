@@ -2,7 +2,7 @@
   "identity": {
     "slug": "fdsrh",
     "symbol": "FDS",
-    "name": "FactSet Research Systems Inc. • Robinhood Token",
+    "name": "FactSet Research Systems Inc. - Robinhood Token",
     "legacyId": 1359,
     "canonicalMarketId": "FDSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "scorh",
     "symbol": "SCO",
-    "name": "ProShares UltraShort Bloomberg Crude Oil • Robinhood Token",
+    "name": "ProShares UltraShort Bloomberg Crude Oil - Robinhood Token",
     "legacyId": 2207,
     "canonicalMarketId": "SCOrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

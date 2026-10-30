@@ -2,7 +2,7 @@
   "identity": {
     "slug": "spirrh",
     "symbol": "SPIR",
-    "name": "Spire Global, Inc. • Robinhood Token",
+    "name": "Spire Global, Inc. - Robinhood Token",
     "legacyId": 2302,
     "canonicalMarketId": "SPIRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

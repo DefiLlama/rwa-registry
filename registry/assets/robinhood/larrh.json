@@ -2,7 +2,7 @@
   "identity": {
     "slug": "larrh",
     "symbol": "LAR",
-    "name": "Lithium Argentina AG • Robinhood Token",
+    "name": "Lithium Argentina AG - Robinhood Token",
     "legacyId": 1709,
     "canonicalMarketId": "LARrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

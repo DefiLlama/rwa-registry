@@ -2,7 +2,7 @@
   "identity": {
     "slug": "hoogrh",
     "symbol": "HOOG",
-    "name": "Leverage Shares 2x Long HOOD Daily ETF • Robinhood Token",
+    "name": "Leverage Shares 2x Long HOOD Daily ETF - Robinhood Token",
     "legacyId": 2766,
     "canonicalMarketId": "HOOGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

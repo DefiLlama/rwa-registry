@@ -2,7 +2,7 @@
   "identity": {
     "slug": "vixyrh",
     "symbol": "VIXY",
-    "name": "ProShares VIX Short-Term Futures ETF • Robinhood Token",
+    "name": "ProShares VIX Short-Term Futures ETF - Robinhood Token",
     "legacyId": 2554,
     "canonicalMarketId": "VIXYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

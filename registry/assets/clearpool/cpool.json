@@ -34,7 +34,7 @@
     ]
   },
   "about": {
-    "description": "CPOOL is the governance and utility token for Clearpool, an onchain credit marketplace that connects stablecoin lenders with institutional borrowers and managed yield strategies. The token is used for governance over risk parameters and for staking-based security and incentive alignment across Clearpool products. Clearpool’s broader ecosystem also includes treasury-linked and private-credit offerings that use stablecoins as the primary funding rail.",
+    "description": "CPOOL is the governance and utility token for Clearpool, an onchain credit marketplace that connects stablecoin lenders with institutional borrowers and managed yield strategies. The token is used for governance over risk parameters and for staking-based security and incentive alignment across Clearpool products. Clearpool's broader ecosystem also includes treasury-linked and private-credit offerings that use stablecoins as the primary funding rail.",
     "logo": "https://icons.llamao.fi/icons/rwa/clearpool.png?w=48&h=48",
     "links": {
       "website": [
@@ -45,8 +45,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

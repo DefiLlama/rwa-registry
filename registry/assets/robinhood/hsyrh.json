@@ -2,7 +2,7 @@
   "identity": {
     "slug": "hsyrh",
     "symbol": "HSY",
-    "name": "The Hershey Co. • Robinhood Token",
+    "name": "The Hershey Co. - Robinhood Token",
     "legacyId": 1546,
     "canonicalMarketId": "HSYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

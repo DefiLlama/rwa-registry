@@ -2,7 +2,7 @@
   "identity": {
     "slug": "arctrh",
     "symbol": "ARCT",
-    "name": "Arcturus Therapeutics Holdings Inc. • Robinhood Token",
+    "name": "Arcturus Therapeutics Holdings Inc. - Robinhood Token",
     "legacyId": 896,
     "canonicalMarketId": "ARCTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

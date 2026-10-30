@@ -2,7 +2,7 @@
   "identity": {
     "slug": "bbrh",
     "symbol": "BB",
-    "name": "BlackBerry Limited • Robinhood Token",
+    "name": "BlackBerry Limited - Robinhood Token",
     "legacyId": 962,
     "canonicalMarketId": "BBrh"
   },
@@ -27,9 +27,7 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "CA09228F1036",
-        "source": null,
-        "verified": false
+        "value": "CA09228F1036"
       }
     ]
   },
@@ -45,8 +43,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -77,6 +74,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://robinhood.com/eu/en/about/"
+      ],
+      "protocolIds": [
+        3732
       ]
     },
     {

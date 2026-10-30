@@ -2,7 +2,7 @@
   "identity": {
     "slug": "fethrh",
     "symbol": "FETH",
-    "name": "Grayscale Ethereum Trust • Robinhood Token",
+    "name": "Grayscale Ethereum Trust - Robinhood Token",
     "legacyId": 1365,
     "canonicalMarketId": "FETHrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

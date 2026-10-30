@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ungrh",
     "symbol": "UNG",
-    "name": "United States Natural Gas Fund, LP • Robinhood Token",
+    "name": "United States Natural Gas Fund, LP - Robinhood Token",
     "legacyId": 2487,
     "canonicalMarketId": "UNGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "schxrh",
     "symbol": "SCHX",
-    "name": "Schwab U.S. Large-Cap ETF • Robinhood Token",
+    "name": "Schwab U.S. Large-Cap ETF - Robinhood Token",
     "legacyId": 2204,
     "canonicalMarketId": "SCHXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

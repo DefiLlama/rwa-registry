@@ -2,7 +2,7 @@
   "identity": {
     "slug": "aparh",
     "symbol": "APA",
-    "name": "APA Corp. • Robinhood Token",
+    "name": "APA Corp. - Robinhood Token",
     "legacyId": 879,
     "canonicalMarketId": "APArh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

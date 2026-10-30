@@ -2,7 +2,7 @@
   "identity": {
     "slug": "expdrh",
     "symbol": "EXPD",
-    "name": "Expeditors International of Washington, Inc. • Robinhood Token",
+    "name": "Expeditors International of Washington, Inc. - Robinhood Token",
     "legacyId": 1342,
     "canonicalMarketId": "EXPDrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

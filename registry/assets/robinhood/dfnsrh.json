@@ -2,7 +2,7 @@
   "identity": {
     "slug": "dfnsrh",
     "symbol": "DFNS",
-    "name": "T3 Defense Inc. • Robinhood Token",
+    "name": "T3 Defense Inc. - Robinhood Token",
     "legacyId": 1221,
     "canonicalMarketId": "DFNSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

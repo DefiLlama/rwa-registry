@@ -2,7 +2,7 @@
   "identity": {
     "slug": "epwkrh",
     "symbol": "EPWK",
-    "name": "EPWK Holdings • Robinhood Token",
+    "name": "EPWK Holdings - Robinhood Token",
     "legacyId": 1300,
     "canonicalMarketId": "EPWKrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "cbllrh",
     "symbol": "CBLL",
-    "name": "Ceribell, Inc. • Robinhood Token",
+    "name": "Ceribell, Inc. - Robinhood Token",
     "legacyId": 1061,
     "canonicalMarketId": "CBLLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

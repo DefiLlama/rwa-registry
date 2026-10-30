@@ -2,7 +2,7 @@
   "identity": {
     "slug": "tdrh",
     "symbol": "TD",
-    "name": "The Toronto-Dominion Bank • Robinhood Token",
+    "name": "The Toronto-Dominion Bank - Robinhood Token",
     "legacyId": 2378,
     "canonicalMarketId": "TDrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

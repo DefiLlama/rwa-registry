@@ -2,7 +2,7 @@
   "identity": {
     "slug": "pyplrh",
     "symbol": "PYPL",
-    "name": "PayPal Holdings, Inc. • Robinhood Token",
+    "name": "PayPal Holdings, Inc. - Robinhood Token",
     "legacyId": 2093,
     "canonicalMarketId": "PYPLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

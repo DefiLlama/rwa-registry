@@ -2,7 +2,7 @@
   "identity": {
     "slug": "experh",
     "symbol": "EXPE",
-    "name": "Expedia Group, Inc. • Robinhood Token",
+    "name": "Expedia Group, Inc. - Robinhood Token",
     "legacyId": 1343,
     "canonicalMarketId": "EXPErh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

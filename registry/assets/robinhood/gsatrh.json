@@ -2,7 +2,7 @@
   "identity": {
     "slug": "gsatrh",
     "symbol": "GSAT",
-    "name": "Globalstar, Inc. • Robinhood Token",
+    "name": "Globalstar, Inc. - Robinhood Token",
     "legacyId": 1492,
     "canonicalMarketId": "GSATrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

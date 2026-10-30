@@ -2,7 +2,7 @@
   "identity": {
     "slug": "wgmirh",
     "symbol": "WGMI",
-    "name": "Valkyrie Bitcoin Miners ETF • Robinhood Token",
+    "name": "Valkyrie Bitcoin Miners ETF - Robinhood Token",
     "legacyId": 2613,
     "canonicalMarketId": "WGMIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

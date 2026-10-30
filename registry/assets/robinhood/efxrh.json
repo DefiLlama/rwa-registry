@@ -2,7 +2,7 @@
   "identity": {
     "slug": "efxrh",
     "symbol": "EFX",
-    "name": "Equifax Inc. • Robinhood Token",
+    "name": "Equifax Inc. - Robinhood Token",
     "legacyId": 1278,
     "canonicalMarketId": "EFXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

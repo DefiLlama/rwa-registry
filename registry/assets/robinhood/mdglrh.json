@@ -2,7 +2,7 @@
   "identity": {
     "slug": "mdglrh",
     "symbol": "MDGL",
-    "name": "Madrigal Pharmaceuticals, Inc. • Robinhood Token",
+    "name": "Madrigal Pharmaceuticals, Inc. - Robinhood Token",
     "legacyId": 1784,
     "canonicalMarketId": "MDGLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

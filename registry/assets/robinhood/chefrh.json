@@ -2,7 +2,7 @@
   "identity": {
     "slug": "chefrh",
     "symbol": "CHEF",
-    "name": "The Chefs' Warehouse, Inc. • Robinhood Token",
+    "name": "The Chefs' Warehouse, Inc. - Robinhood Token",
     "legacyId": 1093,
     "canonicalMarketId": "CHEFrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

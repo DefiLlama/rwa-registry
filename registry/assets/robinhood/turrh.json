@@ -2,7 +2,7 @@
   "identity": {
     "slug": "turrh",
     "symbol": "TUR",
-    "name": "iShares MSCI Turkey ETF • Robinhood Token",
+    "name": "iShares MSCI Turkey ETF - Robinhood Token",
     "legacyId": 2454,
     "canonicalMarketId": "TURrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

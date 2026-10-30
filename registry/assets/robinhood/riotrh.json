@@ -2,7 +2,7 @@
   "identity": {
     "slug": "riotrh",
     "symbol": "RIOT",
-    "name": "Riot Platforms, Inc. • Robinhood Token",
+    "name": "Riot Platforms, Inc. - Robinhood Token",
     "legacyId": 2141,
     "canonicalMarketId": "RIOTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

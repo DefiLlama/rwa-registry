@@ -2,7 +2,7 @@
   "identity": {
     "slug": "snoyrh",
     "symbol": "SNOY",
-    "name": "Sony Inverse ETF • Robinhood Token",
+    "name": "Sony Inverse ETF - Robinhood Token",
     "legacyId": 2276,
     "canonicalMarketId": "SNOYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

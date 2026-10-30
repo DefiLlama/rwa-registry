@@ -34,7 +34,7 @@
     ]
   },
   "about": {
-    "description": "TRU is the governance and utility token for TrueFi, a credit marketplace that connects stablecoin lenders with borrowers and managed credit strategies. The protocol is known for structured lending products where underwriting and risk management are central, aiming to deliver predictable yield from credit rather than relying on volatile leverage. TRU coordinates governance, incentives, and risk framework evolution across TrueFi’s lending products and partners.",
+    "description": "TRU is the governance and utility token for TrueFi, a credit marketplace that connects stablecoin lenders with borrowers and managed credit strategies. The protocol is known for structured lending products where underwriting and risk management are central, aiming to deliver predictable yield from credit rather than relying on volatile leverage. TRU coordinates governance, incentives, and risk framework evolution across TrueFi's lending products and partners.",
     "logo": "https://icons.llamao.fi/icons/rwa/truefi.png?w=48&h=48",
     "links": {
       "website": [
@@ -45,8 +45,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -68,6 +67,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://www.moneyhouse.ch/en/company/archblock-holding-ag-2003787031"
+      ],
+      "protocolIds": [
+        166
       ]
     }
   ]

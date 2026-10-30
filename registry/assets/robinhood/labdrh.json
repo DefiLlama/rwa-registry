@@ -2,7 +2,7 @@
   "identity": {
     "slug": "labdrh",
     "symbol": "LABD",
-    "name": "Direxion Daily S&P Biotech Bear 3X ETF • Robinhood Token",
+    "name": "Direxion Daily S&P Biotech Bear 3X ETF - Robinhood Token",
     "legacyId": 1705,
     "canonicalMarketId": "LABDrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

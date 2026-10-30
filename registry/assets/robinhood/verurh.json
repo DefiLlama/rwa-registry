@@ -2,7 +2,7 @@
   "identity": {
     "slug": "verurh",
     "symbol": "VERU",
-    "name": "Veru Inc. • Robinhood Token",
+    "name": "Veru Inc. - Robinhood Token",
     "legacyId": 2535,
     "canonicalMarketId": "VERUrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

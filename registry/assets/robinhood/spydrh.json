@@ -2,7 +2,7 @@
   "identity": {
     "slug": "spydrh",
     "symbol": "SPYD",
-    "name": "Invesco S&P 500 Dividend ETF • Robinhood Token",
+    "name": "Invesco S&P 500 Dividend ETF - Robinhood Token",
     "legacyId": 2316,
     "canonicalMarketId": "SPYDrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

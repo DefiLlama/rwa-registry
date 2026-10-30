@@ -2,7 +2,7 @@
   "identity": {
     "slug": "uglrh",
     "symbol": "UGL",
-    "name": "ProShares Ultra Gold • Robinhood Token",
+    "name": "ProShares Ultra Gold - Robinhood Token",
     "legacyId": 2478,
     "canonicalMarketId": "UGLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

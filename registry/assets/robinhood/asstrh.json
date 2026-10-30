@@ -2,7 +2,7 @@
   "identity": {
     "slug": "asstrh",
     "symbol": "ASST",
-    "name": "Strive, Inc. • Robinhood Token",
+    "name": "Strive, Inc. - Robinhood Token",
     "legacyId": 920,
     "canonicalMarketId": "ASSTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

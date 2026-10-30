@@ -2,7 +2,7 @@
   "identity": {
     "slug": "rjetrh",
     "symbol": "RJET",
-    "name": "Republic Airways Holdings Inc. • Robinhood Token",
+    "name": "Republic Airways Holdings Inc. - Robinhood Token",
     "legacyId": 2144,
     "canonicalMarketId": "RJETrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

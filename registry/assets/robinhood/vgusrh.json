@@ -2,7 +2,7 @@
   "identity": {
     "slug": "vgusrh",
     "symbol": "VGUS",
-    "name": "Vanguard Ultra-Short Treasury ETF • Robinhood Token",
+    "name": "Vanguard Ultra-Short Treasury ETF - Robinhood Token",
     "legacyId": 2545,
     "canonicalMarketId": "VGUSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

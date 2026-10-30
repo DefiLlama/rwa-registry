@@ -2,7 +2,7 @@
   "identity": {
     "slug": "hunrh",
     "symbol": "HUN",
-    "name": "Huntsman Corp. • Robinhood Token",
+    "name": "Huntsman Corp. - Robinhood Token",
     "legacyId": 1553,
     "canonicalMarketId": "HUNrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

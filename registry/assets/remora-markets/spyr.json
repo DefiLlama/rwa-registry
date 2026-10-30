@@ -29,7 +29,7 @@
     "coingeckoId": "sp500-rstock"
   },
   "about": {
-    "description": "SPYr is a Remora Markets rStock that provides on-chain price exposure to SP500 rStock. Remora Markets is operated by Step Labs LLC and is a Step Finance subsidiary. It supports mint and burn flows for tokenized stocks through its app. Remora lists Alpaca Securities LLC as both custodian and broker for the underlying. Remora’s disclaimer states rStocks are not stocks and do not grant ownership or rights to underlying assets, so shareholder voting rights and cash dividends are not provided to tokenholders.",
+    "description": "SPYr is a Remora Markets rStock that provides on-chain price exposure to SP500 rStock. Remora Markets is operated by Step Labs LLC and is a Step Finance subsidiary. It supports mint and burn flows for tokenized stocks through its app. Remora lists Alpaca Securities LLC as both custodian and broker for the underlying. Remora's disclaimer states rStocks are not stocks and do not grant ownership or rights to underlying assets, so shareholder voting rights and cash dividends are not provided to tokenholders.",
     "logo": "https://icons.llamao.fi/icons/rwa/spx.png?w=48&h=48",
     "links": {
       "website": [
@@ -40,8 +40,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

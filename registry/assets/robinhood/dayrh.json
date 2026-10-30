@@ -2,7 +2,7 @@
   "identity": {
     "slug": "dayrh",
     "symbol": "DAY",
-    "name": "Dayforce • Robinhood Token",
+    "name": "Dayforce - Robinhood Token",
     "legacyId": 1208,
     "canonicalMarketId": "DAYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

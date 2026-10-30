@@ -2,7 +2,7 @@
   "identity": {
     "slug": "hperh",
     "symbol": "HPE",
-    "name": "Hewlett Packard Enterprise Co. • Robinhood Token",
+    "name": "Hewlett Packard Enterprise Co. - Robinhood Token",
     "legacyId": 1540,
     "canonicalMarketId": "HPErh"
   },
@@ -35,8 +35,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -67,6 +66,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://robinhood.com/eu/en/about/"
+      ],
+      "protocolIds": [
+        3732
       ]
     },
     {

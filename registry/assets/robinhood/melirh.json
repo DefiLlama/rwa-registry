@@ -2,7 +2,7 @@
   "identity": {
     "slug": "melirh",
     "symbol": "MELI",
-    "name": "MercadoLibre, Inc. • Robinhood Token",
+    "name": "MercadoLibre, Inc. - Robinhood Token",
     "legacyId": 1788,
     "canonicalMarketId": "MELIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

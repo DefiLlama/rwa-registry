@@ -2,7 +2,7 @@
   "identity": {
     "slug": "nbrh",
     "symbol": "NB",
-    "name": "NioCorp Developments Ltd. • Robinhood Token",
+    "name": "NioCorp Developments Ltd. - Robinhood Token",
     "legacyId": 1873,
     "canonicalMarketId": "NBrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

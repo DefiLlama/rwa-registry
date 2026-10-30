@@ -2,7 +2,7 @@
   "identity": {
     "slug": "kmbrh",
     "symbol": "KMB",
-    "name": "Kimberly-Clark Corp. • Robinhood Token",
+    "name": "Kimberly-Clark Corp. - Robinhood Token",
     "legacyId": 1681,
     "canonicalMarketId": "KMBrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

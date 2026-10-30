@@ -2,7 +2,7 @@
   "identity": {
     "slug": "mkdwrh",
     "symbol": "MKDW",
-    "name": "MKDWELL Tech Inc. • Robinhood Token",
+    "name": "MKDWELL Tech Inc. - Robinhood Token",
     "legacyId": 1804,
     "canonicalMarketId": "MKDWrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

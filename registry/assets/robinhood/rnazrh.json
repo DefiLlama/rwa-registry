@@ -2,7 +2,7 @@
   "identity": {
     "slug": "rnazrh",
     "symbol": "RNAZ",
-    "name": "Transcode Therapeutics, Inc. • Robinhood Token",
+    "name": "Transcode Therapeutics, Inc. - Robinhood Token",
     "legacyId": 2151,
     "canonicalMarketId": "RNAZrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

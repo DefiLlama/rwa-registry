@@ -2,7 +2,7 @@
   "identity": {
     "slug": "mubrh",
     "symbol": "MUB",
-    "name": "iShares National Muni Bond ETF • Robinhood Token",
+    "name": "iShares National Muni Bond ETF - Robinhood Token",
     "legacyId": 1854,
     "canonicalMarketId": "MUBrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

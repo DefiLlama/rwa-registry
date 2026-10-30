@@ -2,7 +2,7 @@
   "identity": {
     "slug": "keyrh",
     "symbol": "KEY",
-    "name": "KeyCorp • Robinhood Token",
+    "name": "KeyCorp - Robinhood Token",
     "legacyId": 1671,
     "canonicalMarketId": "KEYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

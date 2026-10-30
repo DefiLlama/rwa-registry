@@ -2,7 +2,7 @@
   "identity": {
     "slug": "aplsrh",
     "symbol": "APLS",
-    "name": "Apellis Pharmaceuticals, Inc. • Robinhood Token",
+    "name": "Apellis Pharmaceuticals, Inc. - Robinhood Token",
     "legacyId": 883,
     "canonicalMarketId": "APLSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

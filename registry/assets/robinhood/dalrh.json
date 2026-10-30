@@ -2,7 +2,7 @@
   "identity": {
     "slug": "dalrh",
     "symbol": "DAL",
-    "name": "Delta Air Lines, Inc. • Robinhood Token",
+    "name": "Delta Air Lines, Inc. - Robinhood Token",
     "legacyId": 1205,
     "canonicalMarketId": "DALrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

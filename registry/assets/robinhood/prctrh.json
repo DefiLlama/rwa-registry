@@ -2,7 +2,7 @@
   "identity": {
     "slug": "prctrh",
     "symbol": "PRCT",
-    "name": "PROCEPT BioRobotics Corp. • Robinhood Token",
+    "name": "PROCEPT BioRobotics Corp. - Robinhood Token",
     "legacyId": 2067,
     "canonicalMarketId": "PRCTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

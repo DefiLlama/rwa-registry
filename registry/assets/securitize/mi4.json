@@ -29,7 +29,7 @@
     "coingeckoId": "mantle-index-four-fund"
   },
   "about": {
-    "description": "MI4 (Mantle Index Four Fund) is an institutional‑grade tokenized index strategy designed to give diversified crypto beta in a single fund interest, with an emphasis on making the position usable in both traditional and onchain workflows. The fund is associated with Mantle’s ecosystem and was launched with an anchor allocation commitment from the Mantle Treasury, with Securitize providing the tokenization and investor infrastructure. The portfolio tracks the “Index Four” methodology which is a market‑cap‑weighted basket of leading crypto assets (focused on major Layer‑1 / Layer‑2 networks) with periodic rebalancing. In addition to index exposure, the fund is designed to incorporate yield enhancements and operational efficiency from tokenized settlement on Mantle Network.",
+    "description": "MI4 (Mantle Index Four Fund) is an institutional-grade tokenized index strategy designed to give diversified crypto beta in a single fund interest, with an emphasis on making the position usable in both traditional and onchain workflows. The fund is associated with Mantle's ecosystem and was launched with an anchor allocation commitment from the Mantle Treasury, with Securitize providing the tokenization and investor infrastructure. The portfolio tracks the \"Index Four\" methodology which is a market-cap-weighted basket of leading crypto assets (focused on major Layer-1 / Layer-2 networks) with periodic rebalancing. In addition to index exposure, the fund is designed to incorporate yield enhancements and operational efficiency from tokenized settlement on Mantle Network.",
     "logo": "https://icons.llamao.fi/icons/rwa/mi4.png?w=48&h=48",
     "links": {
       "website": [
@@ -40,8 +40,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

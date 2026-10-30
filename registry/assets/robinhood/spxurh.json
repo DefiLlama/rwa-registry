@@ -2,7 +2,7 @@
   "identity": {
     "slug": "spxurh",
     "symbol": "SPXU",
-    "name": "ProShares UltraShort S&P 500 • Robinhood Token",
+    "name": "ProShares UltraShort S&P 500 - Robinhood Token",
     "legacyId": 2315,
     "canonicalMarketId": "SPXUrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

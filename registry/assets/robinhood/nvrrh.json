@@ -2,7 +2,7 @@
   "identity": {
     "slug": "nvrrh",
     "symbol": "NVR",
-    "name": "NVR, Inc. • Robinhood Token",
+    "name": "NVR, Inc. - Robinhood Token",
     "legacyId": 1938,
     "canonicalMarketId": "NVRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

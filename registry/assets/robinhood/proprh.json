@@ -2,7 +2,7 @@
   "identity": {
     "slug": "proprh",
     "symbol": "PROP",
-    "name": "Prairie Operating Co. • Robinhood Token",
+    "name": "Prairie Operating Co. - Robinhood Token",
     "legacyId": 2072,
     "canonicalMarketId": "PROPrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

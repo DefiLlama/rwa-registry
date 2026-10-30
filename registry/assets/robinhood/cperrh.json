@@ -2,7 +2,7 @@
   "identity": {
     "slug": "cperrh",
     "symbol": "CPER",
-    "name": "Copper • Robinhood Token",
+    "name": "Copper - Robinhood Token",
     "legacyId": 1153,
     "canonicalMarketId": "CPERrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

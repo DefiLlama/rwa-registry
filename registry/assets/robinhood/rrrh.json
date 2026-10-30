@@ -2,7 +2,7 @@
   "identity": {
     "slug": "rrrh",
     "symbol": "RR",
-    "name": "Richtech Robotics Inc. • Robinhood Token",
+    "name": "Richtech Robotics Inc. - Robinhood Token",
     "legacyId": 2161,
     "canonicalMarketId": "RRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

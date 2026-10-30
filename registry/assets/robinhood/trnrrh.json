@@ -2,7 +2,7 @@
   "identity": {
     "slug": "trnrrh",
     "symbol": "TRNR",
-    "name": "Interactive Strength, Inc. • Robinhood Token",
+    "name": "Interactive Strength, Inc. - Robinhood Token",
     "legacyId": 2425,
     "canonicalMarketId": "TRNRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "cloirh",
     "symbol": "CLOI",
-    "name": "VanEck CLO ETF • Robinhood Token",
+    "name": "VanEck CLO ETF - Robinhood Token",
     "legacyId": 1114,
     "canonicalMarketId": "CLOIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

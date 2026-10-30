@@ -12,7 +12,7 @@
   "class": {
     "structure": "collectibles",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "other-rwas"
     ]
@@ -26,7 +26,7 @@
     "attestationFrequency": "Not publicly disclosed"
   },
   "about": {
-    "description": "MURFLO provides fractional exposure to Takashi Murakami’s “Set of Six Flower Prints,” a widely collected edition tied to Murakami’s Superflat motif. LiveArt authenticates and vaults the prints, then issues fractions that can be traded onchain. The original physical asset is securely stored at a world-class storage facility, ensuring museum-grade protection, climate control, and 24/7 security monitoring. The asset includes a buyout path where the underlying can be acquired, and fraction holders receive buyout proceeds pro rata.",
+    "description": "MURFLO provides fractional exposure to Takashi Murakami's \"Set of Six Flower Prints,\" a widely collected edition tied to Murakami's Superflat motif. LiveArt authenticates and vaults the prints, then issues fractions that can be traded onchain. The original physical asset is securely stored at a world-class storage facility, ensuring museum-grade protection, climate control, and 24/7 security monitoring. The asset includes a buyout path where the underlying can be acquired, and fraction holders receive buyout proceeds pro rata.",
     "logo": "https://icons.llamao.fi/icons/rwa/takashi-murakami-flowers-set-of-six-prints.png?w=48&h=48",
     "links": {
       "website": [
@@ -37,8 +37,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -136,6 +135,9 @@
       "sourceLinks": [
         "https://docs.liveart.xyz/liveart/defi-for-cultural-rwas/buy-assets/where-can-you-see-your-assets",
         "https://docs.liveart.xyz/liveart/defi-for-cultural-rwas/trade-assets"
+      ],
+      "protocolIds": [
+        7007
       ]
     }
   ],

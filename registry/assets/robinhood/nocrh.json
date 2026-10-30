@@ -2,7 +2,7 @@
   "identity": {
     "slug": "nocrh",
     "symbol": "NOC",
-    "name": "Northrop Grumman Corp. • Robinhood Token",
+    "name": "Northrop Grumman Corp. - Robinhood Token",
     "legacyId": 1904,
     "canonicalMarketId": "NOCrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

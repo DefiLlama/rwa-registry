@@ -2,7 +2,7 @@
   "identity": {
     "slug": "olbrh",
     "symbol": "OLB",
-    "name": "OLB Group, Inc. • Robinhood Token",
+    "name": "OLB Group, Inc. - Robinhood Token",
     "legacyId": 1960,
     "canonicalMarketId": "OLBrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

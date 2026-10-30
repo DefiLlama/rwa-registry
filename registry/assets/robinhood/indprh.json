@@ -2,7 +2,7 @@
   "identity": {
     "slug": "indprh",
     "symbol": "INDP",
-    "name": "Indaptus Therapeutics, Inc. • Robinhood Token",
+    "name": "Indaptus Therapeutics, Inc. - Robinhood Token",
     "legacyId": 1598,
     "canonicalMarketId": "INDPrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

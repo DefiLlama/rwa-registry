@@ -2,7 +2,7 @@
   "identity": {
     "slug": "usasrh",
     "symbol": "USAS",
-    "name": "Americas Gold & Silver Corp. • Robinhood Token",
+    "name": "Americas Gold & Silver Corp. - Robinhood Token",
     "legacyId": 2502,
     "canonicalMarketId": "USASrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

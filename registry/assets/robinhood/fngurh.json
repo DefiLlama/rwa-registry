@@ -2,7 +2,7 @@
   "identity": {
     "slug": "fngurh",
     "symbol": "FNGU",
-    "name": "MicroSectors FANG+ Index 3X Leveraged ETN • Robinhood Token",
+    "name": "MicroSectors FANG+ Index 3X Leveraged ETN - Robinhood Token",
     "legacyId": 1393,
     "canonicalMarketId": "FNGUrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

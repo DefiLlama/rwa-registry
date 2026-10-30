@@ -2,7 +2,7 @@
   "identity": {
     "slug": "gemirh",
     "symbol": "GEMI",
-    "name": "Gemini Space Station, Inc. • Robinhood Token",
+    "name": "Gemini Space Station, Inc. - Robinhood Token",
     "legacyId": 1437,
     "canonicalMarketId": "GEMIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

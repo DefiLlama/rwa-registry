@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ymagrh",
     "symbol": "YMAG",
-    "name": "Magnificent Inverse ETF • Robinhood Token",
+    "name": "Magnificent Inverse ETF - Robinhood Token",
     "legacyId": 2680,
     "canonicalMarketId": "YMAGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

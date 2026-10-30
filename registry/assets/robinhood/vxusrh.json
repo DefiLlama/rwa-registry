@@ -2,7 +2,7 @@
   "identity": {
     "slug": "vxusrh",
     "symbol": "VXUS",
-    "name": "Vanguard Total International Stock ETF • Robinhood Token",
+    "name": "Vanguard Total International Stock ETF - Robinhood Token",
     "legacyId": 2765,
     "canonicalMarketId": "VXUSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

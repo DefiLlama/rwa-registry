@@ -2,7 +2,7 @@
   "identity": {
     "slug": "pnrrh",
     "symbol": "PNR",
-    "name": "Pentair plc • Robinhood Token",
+    "name": "Pentair plc - Robinhood Token",
     "legacyId": 2055,
     "canonicalMarketId": "PNRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -24,7 +24,7 @@
     "yieldBearing": true
   },
   "about": {
-    "description": "USDN is Noble’s yield-bearing dollar stablecoin for Cosmos, implemented as a native Noble chain module and built on M^0’s stablecoin infrastructure. Users mint USDN by depositing USDC and can redeem back. yield is intended to accrue via a global index/rewards mechanism that programmatically directs Treasury-derived returns to the Cosmos ecosystem. Key risks include protocol and governance risk, reliance on the underlying yield source and reserve operations, smart-contract/module risk, and redemption/liquidity mechanics across supported routes.",
+    "description": "USDN is Noble's yield-bearing dollar stablecoin for Cosmos, implemented as a native Noble chain module and built on M^0's stablecoin infrastructure. Users mint USDN by depositing USDC and can redeem back. yield is intended to accrue via a global index/rewards mechanism that programmatically directs Treasury-derived returns to the Cosmos ecosystem. Key risks include protocol and governance risk, reliance on the underlying yield source and reserve operations, smart-contract/module risk, and redemption/liquidity mechanics across supported routes.",
     "logo": "https://icons.llamao.fi/icons/rwa/noble-dollar.png?w=48&h=48",
     "links": {
       "website": [
@@ -35,8 +35,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -53,6 +52,9 @@
       "sourceLinks": [
         "https://dollar.noble.xyz/",
         "https://github.com/noble-assets/dollar"
+      ],
+      "protocolIds": [
+        5026
       ]
     }
   ]

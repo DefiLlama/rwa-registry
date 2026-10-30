@@ -2,7 +2,7 @@
   "identity": {
     "slug": "etharh",
     "symbol": "ETHA",
-    "name": "iShares Ethereum Trust ETF • Robinhood Token",
+    "name": "iShares Ethereum Trust ETF - Robinhood Token",
     "legacyId": 2750,
     "canonicalMarketId": "ETHArh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

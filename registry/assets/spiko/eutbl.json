@@ -12,7 +12,7 @@
   "class": {
     "structure": "mmf",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "bond-mmf-funds"
     ]
@@ -31,14 +31,12 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "FR001400ODL1",
-        "source": null,
-        "verified": false
+        "value": "FR001400ODL1"
       }
     ]
   },
   "about": {
-    "description": "EUTBL is the tokenized share class of Spiko’s Euro money market fund, which invests in Eurozone Treasury bills with a short portfolio maturity profile. The fund is managed under a regulated structure, and Spiko discloses key service providers, including the fund manager, the custodian, and the statutory auditor, in its official documentation.",
+    "description": "EUTBL is the tokenized share class of Spiko's Euro money market fund, which invests in Eurozone Treasury bills with a short portfolio maturity profile. The fund is managed under a regulated structure, and Spiko discloses key service providers, including the fund manager, the custodian, and the statutory auditor, in its official documentation.",
     "logo": "https://icons.llamao.fi/icons/rwa/eutbl.png?w=48&h=48",
     "links": {
       "website": [
@@ -49,8 +47,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

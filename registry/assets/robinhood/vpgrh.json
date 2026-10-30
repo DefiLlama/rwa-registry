@@ -2,7 +2,7 @@
   "identity": {
     "slug": "vpgrh",
     "symbol": "VPG",
-    "name": "Vishay Precision Group, Inc. • Robinhood Token",
+    "name": "Vishay Precision Group, Inc. - Robinhood Token",
     "legacyId": 2570,
     "canonicalMarketId": "VPGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

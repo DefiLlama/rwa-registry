@@ -2,7 +2,7 @@
   "identity": {
     "slug": "smclrh",
     "symbol": "SMCL",
-    "name": "Small-Cap Value ETF • Robinhood Token",
+    "name": "Small-Cap Value ETF - Robinhood Token",
     "legacyId": 2254,
     "canonicalMarketId": "SMCLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -12,7 +12,7 @@
   "class": {
     "structure": "etf-backed",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "etfs"
     ]
@@ -24,9 +24,6 @@
     "selfCustody": true,
     "yieldBearing": false,
     "attestationFrequency": "Continuous"
-  },
-  "sources": {
-    "llamaAttestationProof": false
   },
   "about": {
     "description": "rTQQQ is a tokenized share of the ProShares UltraPro QQQ issued by Reality on Arbitrum, designed to track the economic performance of ProShares UltraPro QQQ (TQQQ) at a 1:1 ratio. The underlying ETF provides 3x daily long Nasdaq-100 exposure and is designed for short-term trading rather than long-term holding due to compounding effects. Each rTQQQ is backed by a corresponding ETF share held through Alpaca Securities LLC, a FINRA-registered and SIPC-covered US broker-dealer, with reserves continuously verified by The Network Firm through Reality's Proof of Asset dashboard. Reality is a regulated RWA issuance platform within the Bitget ecosystem.",
@@ -40,8 +37,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -61,7 +57,10 @@
     },
     {
       "organization": "the-network-firm",
-      "kind": "auditor"
+      "kind": "auditor",
+      "sourceLinks": [
+        "https://realityfinance.xyz/por"
+      ]
     }
   ],
   "events": [

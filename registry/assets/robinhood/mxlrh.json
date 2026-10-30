@@ -2,7 +2,7 @@
   "identity": {
     "slug": "mxlrh",
     "symbol": "MXL",
-    "name": "MaxLinear, Inc. • Robinhood Token",
+    "name": "MaxLinear, Inc. - Robinhood Token",
     "legacyId": 1863,
     "canonicalMarketId": "MXLrh"
   },
@@ -27,9 +27,7 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "US57776J1007",
-        "source": null,
-        "verified": false
+        "value": "US57776J1007"
       }
     ]
   },
@@ -45,8 +43,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -77,6 +74,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://robinhood.com/eu/en/about/"
+      ],
+      "protocolIds": [
+        3732
       ]
     },
     {

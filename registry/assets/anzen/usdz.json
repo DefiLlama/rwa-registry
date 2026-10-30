@@ -28,7 +28,7 @@
     "coingeckoId": "anzen-usdz"
   },
   "about": {
-    "description": "USDz is Anzen’s yield-bearing dollar stablecoin designed around a diversified collateral base associated with private credit and cash-flowing real-world exposures. It targets a stable unit of account with returns embedded via product mechanics, while keeping transparency and reserve visibility as core design goals for onchain treasury and collateral use cases.",
+    "description": "USDz is Anzen's yield-bearing dollar stablecoin designed around a diversified collateral base associated with private credit and cash-flowing real-world exposures. It targets a stable unit of account with returns embedded via product mechanics, while keeping transparency and reserve visibility as core design goals for onchain treasury and collateral use cases.",
     "logo": "https://icons.llamao.fi/icons/rwa/anzen-usdz.png?w=48&h=48",
     "links": {
       "website": [
@@ -39,8 +39,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

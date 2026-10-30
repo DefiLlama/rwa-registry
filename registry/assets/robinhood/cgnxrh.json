@@ -2,7 +2,7 @@
   "identity": {
     "slug": "cgnxrh",
     "symbol": "CGNX",
-    "name": "Cognex Corp. • Robinhood Token",
+    "name": "Cognex Corp. - Robinhood Token",
     "legacyId": 1085,
     "canonicalMarketId": "CGNXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

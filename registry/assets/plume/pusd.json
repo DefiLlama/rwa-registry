@@ -25,7 +25,7 @@
     "attestationFrequency": "Not publicly disclosed"
   },
   "about": {
-    "description": "Plume USD (pUSD) is a stablecoin designed to be minted and redeemed 1:1 against USDC through Plume’s portal. Plume’s documentation describes pUSD as fully backed by USDC held in a BoringVault managed by Plume, redemptions return USDC, and pUSD is intended for onchain settlement and RWAfi use cases on Plume.",
+    "description": "Plume USD (pUSD) is a stablecoin designed to be minted and redeemed 1:1 against USDC through Plume's portal. Plume's documentation describes pUSD as fully backed by USDC held in a BoringVault managed by Plume, redemptions return USDC, and pUSD is intended for onchain settlement and RWAfi use cases on Plume.",
     "logo": "https://icons.llamao.fi/icons/rwa/pusd.png?w=48&h=48",
     "links": {
       "website": [
@@ -36,8 +36,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "rhirh",
     "symbol": "RHI",
-    "name": "Robert Half Inc. • Robinhood Token",
+    "name": "Robert Half Inc. - Robinhood Token",
     "legacyId": 2137,
     "canonicalMarketId": "RHIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

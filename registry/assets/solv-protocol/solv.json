@@ -29,7 +29,7 @@
     "coingeckoId": "solv-protocol"
   },
   "about": {
-    "description": "SOLV is the ecosystem token for Solv Protocol, a platform focused on turning Bitcoin into a productive asset through structured yield products and cross-chain liquidity wrappers. Solv’s design often combines BTC exposure with yield sourced from strategies that can include institutional-grade instruments such as treasury-like allocations, alongside DeFi routing. SOLV coordinates governance, incentives, and expansion across Solv’s product suite and integrations.",
+    "description": "SOLV is the ecosystem token for Solv Protocol, a platform focused on turning Bitcoin into a productive asset through structured yield products and cross-chain liquidity wrappers. Solv's design often combines BTC exposure with yield sourced from strategies that can include institutional-grade instruments such as treasury-like allocations, alongside DeFi routing. SOLV coordinates governance, incentives, and expansion across Solv's product suite and integrations.",
     "logo": "https://icons.llamao.fi/icons/rwa/solv-protocol.png?w=48&h=48",
     "links": {
       "website": [
@@ -40,8 +40,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

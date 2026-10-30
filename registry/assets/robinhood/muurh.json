@@ -2,7 +2,7 @@
   "identity": {
     "slug": "muurh",
     "symbol": "MUU",
-    "name": "Direxion Daily MU Bull 2X ETF • Robinhood Token",
+    "name": "Direxion Daily MU Bull 2X ETF - Robinhood Token",
     "legacyId": 1857,
     "canonicalMarketId": "MUUrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

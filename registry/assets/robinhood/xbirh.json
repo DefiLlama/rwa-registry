@@ -2,7 +2,7 @@
   "identity": {
     "slug": "xbirh",
     "symbol": "XBI",
-    "name": "State Street SPDR S&P Biotech ETF • Robinhood Token",
+    "name": "State Street SPDR S&P Biotech ETF - Robinhood Token",
     "legacyId": 2761,
     "canonicalMarketId": "XBIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

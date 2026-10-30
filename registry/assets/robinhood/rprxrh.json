@@ -2,7 +2,7 @@
   "identity": {
     "slug": "rprxrh",
     "symbol": "RPRX",
-    "name": "Royalty Pharma plc • Robinhood Token",
+    "name": "Royalty Pharma plc - Robinhood Token",
     "legacyId": 2160,
     "canonicalMarketId": "RPRXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

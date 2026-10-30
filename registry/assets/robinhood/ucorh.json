@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ucorh",
     "symbol": "UCO",
-    "name": "ProShares Ultra Bloomberg Crude Oil • Robinhood Token",
+    "name": "ProShares Ultra Bloomberg Crude Oil - Robinhood Token",
     "legacyId": 2473,
     "canonicalMarketId": "UCOrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

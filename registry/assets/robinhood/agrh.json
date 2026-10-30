@@ -2,7 +2,7 @@
   "identity": {
     "slug": "agrh",
     "symbol": "AG",
-    "name": "First Majestic Silver Corp. • Robinhood Token",
+    "name": "First Majestic Silver Corp. - Robinhood Token",
     "legacyId": 824,
     "canonicalMarketId": "AGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

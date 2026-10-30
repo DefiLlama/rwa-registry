@@ -2,7 +2,7 @@
   "identity": {
     "slug": "sxtcrh",
     "symbol": "SXTC",
-    "name": "China SXT Pharmaceuticals, Inc. • Robinhood Token",
+    "name": "China SXT Pharmaceuticals, Inc. - Robinhood Token",
     "legacyId": 2781,
     "canonicalMarketId": "SXTCrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "itbrh",
     "symbol": "ITB",
-    "name": "iShares U.S. Home Construction ETF • Robinhood Token",
+    "name": "iShares U.S. Home Construction ETF - Robinhood Token",
     "legacyId": 1623,
     "canonicalMarketId": "ITBrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

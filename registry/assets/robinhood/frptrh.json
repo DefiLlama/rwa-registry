@@ -2,7 +2,7 @@
   "identity": {
     "slug": "frptrh",
     "symbol": "FRPT",
-    "name": "Freshpet, Inc. • Robinhood Token",
+    "name": "Freshpet, Inc. - Robinhood Token",
     "legacyId": 1403,
     "canonicalMarketId": "FRPTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

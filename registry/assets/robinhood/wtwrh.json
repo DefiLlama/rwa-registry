@@ -2,7 +2,7 @@
   "identity": {
     "slug": "wtwrh",
     "symbol": "WTW",
-    "name": "Willis Towers Watson plc • Robinhood Token",
+    "name": "Willis Towers Watson plc - Robinhood Token",
     "legacyId": 2635,
     "canonicalMarketId": "WTWrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

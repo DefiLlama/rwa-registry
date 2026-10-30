@@ -2,7 +2,7 @@
   "identity": {
     "slug": "akamrh",
     "symbol": "AKAM",
-    "name": "Akamai Technologies, Inc. • Robinhood Token",
+    "name": "Akamai Technologies, Inc. - Robinhood Token",
     "legacyId": 834,
     "canonicalMarketId": "AKAMrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

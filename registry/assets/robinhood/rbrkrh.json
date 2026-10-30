@@ -2,7 +2,7 @@
   "identity": {
     "slug": "rbrkrh",
     "symbol": "RBRK",
-    "name": "Rubrik, Inc. • Robinhood Token",
+    "name": "Rubrik, Inc. - Robinhood Token",
     "legacyId": 2119,
     "canonicalMarketId": "RBRKrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

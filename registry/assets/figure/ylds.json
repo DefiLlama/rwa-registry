@@ -12,7 +12,7 @@
   "class": {
     "structure": "yield-rwa-stable",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "rwa-stablecoins"
     ]
@@ -41,8 +41,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -107,6 +106,10 @@
       "chain": "tempo",
       "address": "0x20c0000000000000000000003337951a5a9d94b2",
       "deployedAt": "2026-09-08"
+    },
+    {
+      "chain": "solana",
+      "address": null
     }
   ],
   "roles": [

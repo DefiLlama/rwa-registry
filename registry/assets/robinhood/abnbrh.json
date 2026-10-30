@@ -2,7 +2,7 @@
   "identity": {
     "slug": "abnbrh",
     "symbol": "ABNB",
-    "name": "Airbnb, Inc. • Robinhood Token",
+    "name": "Airbnb, Inc. - Robinhood Token",
     "legacyId": 788,
     "canonicalMarketId": "ABNBrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

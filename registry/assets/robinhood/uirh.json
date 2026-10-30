@@ -2,7 +2,7 @@
   "identity": {
     "slug": "uirh",
     "symbol": "UI",
-    "name": "Ubiquiti Inc. • Robinhood Token",
+    "name": "Ubiquiti Inc. - Robinhood Token",
     "legacyId": 2481,
     "canonicalMarketId": "UIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

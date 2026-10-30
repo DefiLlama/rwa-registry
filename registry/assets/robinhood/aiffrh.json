@@ -2,7 +2,7 @@
   "identity": {
     "slug": "aiffrh",
     "symbol": "AIFF",
-    "name": "Firefly Neuroscience, Inc. • Robinhood Token",
+    "name": "Firefly Neuroscience, Inc. - Robinhood Token",
     "legacyId": 825,
     "canonicalMarketId": "AIFFrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

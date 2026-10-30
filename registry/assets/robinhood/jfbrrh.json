@@ -2,7 +2,7 @@
   "identity": {
     "slug": "jfbrrh",
     "symbol": "JFBR",
-    "name": "Jeffs' Brands • Robinhood Token",
+    "name": "Jeffs' Brands - Robinhood Token",
     "legacyId": 2787,
     "canonicalMarketId": "JFBRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

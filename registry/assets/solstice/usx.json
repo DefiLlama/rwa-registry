@@ -27,7 +27,7 @@
     "coingeckoId": "solstice"
   },
   "about": {
-    "description": "Solstice USX (USX) is a Solana-based synthetic stablecoin. Direct mint/redemption is oriented to KYC’d institutional users depositing stablecoins, while non-KYC users typically access USX through Solana DEX liquidity. The protocol pairs stable collateral with hedging/risk controls and offers yield via staking programs.",
+    "description": "Solstice USX (USX) is a Solana-based synthetic stablecoin. Direct mint/redemption is oriented to KYC'd institutional users depositing stablecoins, while non-KYC users typically access USX through Solana DEX liquidity. The protocol pairs stable collateral with hedging/risk controls and offers yield via staking programs.",
     "logo": "https://icons.llamao.fi/icons/rwa/solstice-usx.png?w=48&h=48",
     "links": {
       "website": [
@@ -38,8 +38,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

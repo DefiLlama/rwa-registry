@@ -2,7 +2,7 @@
   "identity": {
     "slug": "gelsrh",
     "symbol": "GELS",
-    "name": "Gelteq Ltd. • Robinhood Token",
+    "name": "Gelteq Ltd. - Robinhood Token",
     "legacyId": 1436,
     "canonicalMarketId": "GELSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

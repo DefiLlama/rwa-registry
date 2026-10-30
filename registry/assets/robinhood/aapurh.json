@@ -2,7 +2,7 @@
   "identity": {
     "slug": "aapurh",
     "symbol": "AAPU",
-    "name": "Direxion Daily AAPL Bull 2X ETF • Robinhood Token",
+    "name": "Direxion Daily AAPL Bull 2X ETF - Robinhood Token",
     "legacyId": 779,
     "canonicalMarketId": "AAPUrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "pvhrh",
     "symbol": "PVH",
-    "name": "PVH Corp. • Robinhood Token",
+    "name": "PVH Corp. - Robinhood Token",
     "legacyId": 2091,
     "canonicalMarketId": "PVHrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "clxrh",
     "symbol": "CLX",
-    "name": "The Clorox Co. • Robinhood Token",
+    "name": "The Clorox Co. - Robinhood Token",
     "legacyId": 1119,
     "canonicalMarketId": "CLXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

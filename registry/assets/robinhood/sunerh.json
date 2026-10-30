@@ -2,7 +2,7 @@
   "identity": {
     "slug": "sunerh",
     "symbol": "SUNE",
-    "name": "SUNation Energy, Inc. • Robinhood Token",
+    "name": "SUNation Energy, Inc. - Robinhood Token",
     "legacyId": 2348,
     "canonicalMarketId": "SUNErh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

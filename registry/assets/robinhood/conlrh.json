@@ -2,7 +2,7 @@
   "identity": {
     "slug": "conlrh",
     "symbol": "CONL",
-    "name": "GraniteShares 2x Long COIN Daily ETF • Robinhood Token",
+    "name": "GraniteShares 2x Long COIN Daily ETF - Robinhood Token",
     "legacyId": 1141,
     "canonicalMarketId": "CONLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

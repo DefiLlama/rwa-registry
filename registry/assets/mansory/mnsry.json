@@ -41,8 +41,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -68,6 +67,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://mansory.io"
+      ],
+      "protocolIds": [
+        6679
       ]
     }
   ]

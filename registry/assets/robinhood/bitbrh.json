@@ -2,7 +2,7 @@
   "identity": {
     "slug": "bitbrh",
     "symbol": "BITB",
-    "name": "Bitwise Bitcoin ETF • Robinhood Token",
+    "name": "Bitwise Bitcoin ETF - Robinhood Token",
     "legacyId": 984,
     "canonicalMarketId": "BITBrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

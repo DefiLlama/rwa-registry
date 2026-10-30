@@ -2,7 +2,7 @@
   "identity": {
     "slug": "yumrh",
     "symbol": "YUM",
-    "name": "Yum! Brands, Inc. • Robinhood Token",
+    "name": "Yum! Brands, Inc. - Robinhood Token",
     "legacyId": 2684,
     "canonicalMarketId": "YUMrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "tnonrh",
     "symbol": "TNON",
-    "name": "Tenon Medical, Inc. • Robinhood Token",
+    "name": "Tenon Medical, Inc. - Robinhood Token",
     "legacyId": 2411,
     "canonicalMarketId": "TNONrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "qmcorh",
     "symbol": "QMCO",
-    "name": "Quantum Corp. • Robinhood Token",
+    "name": "Quantum Corp. - Robinhood Token",
     "legacyId": 2102,
     "canonicalMarketId": "QMCOrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

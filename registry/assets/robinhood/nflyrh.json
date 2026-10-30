@@ -2,7 +2,7 @@
   "identity": {
     "slug": "nflyrh",
     "symbol": "NFLY",
-    "name": "YieldMax NFLX Option Income Strategy ETF • Robinhood Token",
+    "name": "YieldMax NFLX Option Income Strategy ETF - Robinhood Token",
     "legacyId": 1888,
     "canonicalMarketId": "NFLYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

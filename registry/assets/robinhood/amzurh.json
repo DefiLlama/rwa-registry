@@ -2,7 +2,7 @@
   "identity": {
     "slug": "amzurh",
     "symbol": "AMZU",
-    "name": "Direxion Daily AMZN Bull 2X ETF • Robinhood Token",
+    "name": "Direxion Daily AMZN Bull 2X ETF - Robinhood Token",
     "legacyId": 869,
     "canonicalMarketId": "AMZUrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

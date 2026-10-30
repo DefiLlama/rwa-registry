@@ -2,7 +2,7 @@
   "identity": {
     "slug": "kkrrh",
     "symbol": "KKR",
-    "name": "KKR & Co. Inc. • Robinhood Token",
+    "name": "KKR & Co. Inc. - Robinhood Token",
     "legacyId": 1677,
     "canonicalMarketId": "KKRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

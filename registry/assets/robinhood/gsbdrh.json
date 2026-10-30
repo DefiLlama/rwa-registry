@@ -2,7 +2,7 @@
   "identity": {
     "slug": "gsbdrh",
     "symbol": "GSBD",
-    "name": "Goldman Sachs BDC, Inc. • Robinhood Token",
+    "name": "Goldman Sachs BDC, Inc. - Robinhood Token",
     "legacyId": 1493,
     "canonicalMarketId": "GSBDrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

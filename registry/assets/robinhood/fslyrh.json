@@ -2,7 +2,7 @@
   "identity": {
     "slug": "fslyrh",
     "symbol": "FSLY",
-    "name": "Fastly, Inc. • Robinhood Token",
+    "name": "Fastly, Inc. - Robinhood Token",
     "legacyId": 1407,
     "canonicalMarketId": "FSLYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

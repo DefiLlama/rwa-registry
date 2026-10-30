@@ -2,7 +2,7 @@
   "identity": {
     "slug": "billrh",
     "symbol": "BILL",
-    "name": "BILL Holdings, Inc. • Robinhood Token",
+    "name": "BILL Holdings, Inc. - Robinhood Token",
     "legacyId": 980,
     "canonicalMarketId": "BILLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "tsmxrh",
     "symbol": "TSMX",
-    "name": "TSMC Leveraged ETF • Robinhood Token",
+    "name": "TSMC Leveraged ETF - Robinhood Token",
     "legacyId": 2444,
     "canonicalMarketId": "TSMXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

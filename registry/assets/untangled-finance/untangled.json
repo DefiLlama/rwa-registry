@@ -38,9 +38,19 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
+  "deployments": [
+    {
+      "chain": "celo",
+      "address": null,
+      "primary": true
+    },
+    {
+      "chain": "ethereum",
+      "address": null
+    }
+  ],
   "roles": [
     {
       "organization": "untangled-finance-limited",

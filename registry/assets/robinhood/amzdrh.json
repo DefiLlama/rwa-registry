@@ -2,7 +2,7 @@
   "identity": {
     "slug": "amzdrh",
     "symbol": "AMZD",
-    "name": "Direxion Daily AMZN Bear 1X ETF • Robinhood Token",
+    "name": "Direxion Daily AMZN Bear 1X ETF - Robinhood Token",
     "legacyId": 867,
     "canonicalMarketId": "AMZDrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

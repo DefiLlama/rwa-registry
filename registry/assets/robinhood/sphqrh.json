@@ -2,7 +2,7 @@
   "identity": {
     "slug": "sphqrh",
     "symbol": "SPHQ",
-    "name": "Invesco S&P 500 Quality ETF • Robinhood Token",
+    "name": "Invesco S&P 500 Quality ETF - Robinhood Token",
     "legacyId": 2299,
     "canonicalMarketId": "SPHQrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

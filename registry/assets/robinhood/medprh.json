@@ -2,7 +2,7 @@
   "identity": {
     "slug": "medprh",
     "symbol": "MEDP",
-    "name": "Medpace Holdings, Inc. • Robinhood Token",
+    "name": "Medpace Holdings, Inc. - Robinhood Token",
     "legacyId": 1787,
     "canonicalMarketId": "MEDPrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

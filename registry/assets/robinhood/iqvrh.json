@@ -2,7 +2,7 @@
   "identity": {
     "slug": "iqvrh",
     "symbol": "IQV",
-    "name": "IQVIA Holdings Inc. • Robinhood Token",
+    "name": "IQVIA Holdings Inc. - Robinhood Token",
     "legacyId": 1614,
     "canonicalMarketId": "IQVrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

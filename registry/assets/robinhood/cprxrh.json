@@ -2,7 +2,7 @@
   "identity": {
     "slug": "cprxrh",
     "symbol": "CPRX",
-    "name": "Catalyst Pharmaceuticals, Inc. • Robinhood Token",
+    "name": "Catalyst Pharmaceuticals, Inc. - Robinhood Token",
     "legacyId": 1157,
     "canonicalMarketId": "CPRXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

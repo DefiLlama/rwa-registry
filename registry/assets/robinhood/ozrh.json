@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ozrh",
     "symbol": "OZ",
-    "name": "Belpointe PREP, LLC • Robinhood Token",
+    "name": "Belpointe PREP, LLC - Robinhood Token",
     "legacyId": 1991,
     "canonicalMarketId": "OZrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

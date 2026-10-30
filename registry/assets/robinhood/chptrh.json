@@ -2,7 +2,7 @@
   "identity": {
     "slug": "chptrh",
     "symbol": "CHPT",
-    "name": "ChargePoint Holdings, Inc. • Robinhood Token",
+    "name": "ChargePoint Holdings, Inc. - Robinhood Token",
     "legacyId": 1097,
     "canonicalMarketId": "CHPTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

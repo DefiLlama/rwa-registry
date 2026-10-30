@@ -2,7 +2,7 @@
   "identity": {
     "slug": "tsmrh",
     "symbol": "TSM",
-    "name": "Taiwan Semiconductor Manufacturing • Robinhood Token",
+    "name": "Taiwan Semiconductor Manufacturing - Robinhood Token",
     "legacyId": 4496,
     "canonicalMarketId": "TSMrh"
   },
@@ -27,9 +27,7 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "US8740391003",
-        "source": null,
-        "verified": false
+        "value": "US8740391003"
       }
     ]
   },
@@ -45,8 +43,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -62,6 +59,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://robinhood.com/eu/en/about/"
+      ],
+      "protocolIds": [
+        3732
       ]
     },
     {

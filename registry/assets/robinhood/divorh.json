@@ -2,7 +2,7 @@
   "identity": {
     "slug": "divorh",
     "symbol": "DIVO",
-    "name": "Amplify High Income ETF • Robinhood Token",
+    "name": "Amplify High Income ETF - Robinhood Token",
     "legacyId": 1233,
     "canonicalMarketId": "DIVOrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

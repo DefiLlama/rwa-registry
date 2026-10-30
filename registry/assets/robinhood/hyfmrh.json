@@ -2,7 +2,7 @@
   "identity": {
     "slug": "hyfmrh",
     "symbol": "HYFM",
-    "name": "Hydrofarm Holdings Group, Inc. • Robinhood Token",
+    "name": "Hydrofarm Holdings Group, Inc. - Robinhood Token",
     "legacyId": 1557,
     "canonicalMarketId": "HYFMrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

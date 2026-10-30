@@ -12,7 +12,7 @@
   "class": {
     "structure": "usd-stable",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "fiat-stablecoins"
     ]
@@ -30,7 +30,7 @@
     "coingeckoId": "mnee-usd-stablecoin"
   },
   "about": {
-    "description": "MNEE is a USD stablecoin that targets $1 and is backed by issuer-held reserves in cash and short-term U. S. government obligations (per issuer disclosures). It supports both ERC‑20 and Bitcoin SV 1Sat Ordinals representations. primary risks are issuer/custody, regulatory constraints on mint/redemption, and reserve management.",
+    "description": "MNEE is a USD stablecoin that targets $1 and is backed by issuer-held reserves in cash and short-term U. S. government obligations (per issuer disclosures). It supports both ERC-20 and Bitcoin SV 1Sat Ordinals representations. primary risks are issuer/custody, regulatory constraints on mint/redemption, and reserve management.",
     "logo": "https://icons.llamao.fi/icons/rwa/mnee.png?w=48&h=48",
     "links": {
       "website": [
@@ -41,8 +41,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

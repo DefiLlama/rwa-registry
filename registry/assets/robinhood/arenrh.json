@@ -2,7 +2,7 @@
   "identity": {
     "slug": "arenrh",
     "symbol": "AREN",
-    "name": "Arena Group Holdings, Inc. • Robinhood Token",
+    "name": "Arena Group Holdings, Inc. - Robinhood Token",
     "legacyId": 900,
     "canonicalMarketId": "ARENrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

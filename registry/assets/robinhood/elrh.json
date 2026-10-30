@@ -2,7 +2,7 @@
   "identity": {
     "slug": "elrh",
     "symbol": "EL",
-    "name": "The Estée Lauder Companies Inc. • Robinhood Token",
+    "name": "The Estée Lauder Companies Inc. - Robinhood Token",
     "legacyId": 1286,
     "canonicalMarketId": "ELrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

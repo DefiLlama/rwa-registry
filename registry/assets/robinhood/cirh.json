@@ -2,7 +2,7 @@
   "identity": {
     "slug": "cirh",
     "symbol": "CI",
-    "name": "The Cigna Group • Robinhood Token",
+    "name": "The Cigna Group - Robinhood Token",
     "legacyId": 1108,
     "canonicalMarketId": "CIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

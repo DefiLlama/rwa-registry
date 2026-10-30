@@ -2,7 +2,7 @@
   "identity": {
     "slug": "asorh",
     "symbol": "ASO",
-    "name": "Academy Sports & Outdoors, Inc. • Robinhood Token",
+    "name": "Academy Sports & Outdoors, Inc. - Robinhood Token",
     "legacyId": 917,
     "canonicalMarketId": "ASOrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "spxlrh",
     "symbol": "SPXL",
-    "name": "Direxion Daily S&P 500 Bull 3X ETF • Robinhood Token",
+    "name": "Direxion Daily S&P 500 Bull 3X ETF - Robinhood Token",
     "legacyId": 2313,
     "canonicalMarketId": "SPXLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

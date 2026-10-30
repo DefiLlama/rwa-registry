@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ivvdrh",
     "symbol": "IVVD",
-    "name": "Invivyd, Inc. • Robinhood Token",
+    "name": "Invivyd, Inc. - Robinhood Token",
     "legacyId": 1630,
     "canonicalMarketId": "IVVDrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

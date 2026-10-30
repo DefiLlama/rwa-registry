@@ -2,7 +2,7 @@
   "identity": {
     "slug": "vrh",
     "symbol": "V",
-    "name": "Visa Inc. • Robinhood Token",
+    "name": "Visa Inc. - Robinhood Token",
     "legacyId": 2600,
     "canonicalMarketId": "Vrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

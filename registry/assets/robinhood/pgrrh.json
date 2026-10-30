@@ -2,7 +2,7 @@
   "identity": {
     "slug": "pgrrh",
     "symbol": "PGR",
-    "name": "The Progressive Corp. • Robinhood Token",
+    "name": "The Progressive Corp. - Robinhood Token",
     "legacyId": 2026,
     "canonicalMarketId": "PGRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

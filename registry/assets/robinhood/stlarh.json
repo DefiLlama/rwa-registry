@@ -2,7 +2,7 @@
   "identity": {
     "slug": "stlarh",
     "symbol": "STLA",
-    "name": "Stellantis N.V. • Robinhood Token",
+    "name": "Stellantis N.V. - Robinhood Token",
     "legacyId": 2338,
     "canonicalMarketId": "STLArh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

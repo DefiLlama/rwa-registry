@@ -2,7 +2,7 @@
   "identity": {
     "slug": "nkerh",
     "symbol": "NKE",
-    "name": "NIKE, Inc. • Robinhood Token",
+    "name": "NIKE, Inc. - Robinhood Token",
     "legacyId": 1897,
     "canonicalMarketId": "NKErh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

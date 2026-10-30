@@ -2,7 +2,7 @@
   "identity": {
     "slug": "spyrh",
     "symbol": "SPY",
-    "name": "S&P 500 Index • Robinhood Token",
+    "name": "S&P 500 Index - Robinhood Token",
     "legacyId": 2323,
     "canonicalMarketId": "SPYrh"
   },
@@ -35,8 +35,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -67,6 +66,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://robinhood.com/eu/en/about/"
+      ],
+      "protocolIds": [
+        3732
       ]
     },
     {

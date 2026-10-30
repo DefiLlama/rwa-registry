@@ -2,7 +2,7 @@
   "identity": {
     "slug": "hlalrh",
     "symbol": "HLAL",
-    "name": "Oman Halal ETF • Robinhood Token",
+    "name": "Oman Halal ETF - Robinhood Token",
     "legacyId": 1527,
     "canonicalMarketId": "HLALrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

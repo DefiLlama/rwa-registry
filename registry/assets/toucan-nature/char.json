@@ -28,7 +28,7 @@
     "coingeckoId": "biochar"
   },
   "about": {
-    "description": "CHAR is Toucan’s biochar carbon pool token backed by Puro.earth CO2 removal certificates (CORCs) and corresponding project-specific tokens. It enables automated, on-demand buying, selling, deposits, and redemptions with transparent pool composition and an allowlist of eligible projects. Deployed on Base and Celo.",
+    "description": "CHAR is Toucan's biochar carbon pool token backed by Puro.earth CO2 removal certificates (CORCs) and corresponding project-specific tokens. It enables automated, on-demand buying, selling, deposits, and redemptions with transparent pool composition and an allowlist of eligible projects. Deployed on Base and Celo.",
     "logo": "https://icons.llamao.fi/icons/rwa/biochar.png?w=48&h=48",
     "links": {
       "website": [
@@ -39,8 +39,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

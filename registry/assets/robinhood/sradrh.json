@@ -2,7 +2,7 @@
   "identity": {
     "slug": "sradrh",
     "symbol": "SRAD",
-    "name": "Sportradar Group AG • Robinhood Token",
+    "name": "Sportradar Group AG - Robinhood Token",
     "legacyId": 2324,
     "canonicalMarketId": "SRADrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

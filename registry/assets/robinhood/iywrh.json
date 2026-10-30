@@ -2,7 +2,7 @@
   "identity": {
     "slug": "iywrh",
     "symbol": "IYW",
-    "name": "iShares U.S. Technology ETF • Robinhood Token",
+    "name": "iShares U.S. Technology ETF - Robinhood Token",
     "legacyId": 1642,
     "canonicalMarketId": "IYWrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

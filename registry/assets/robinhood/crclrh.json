@@ -2,7 +2,7 @@
   "identity": {
     "slug": "crclrh",
     "symbol": "CRCL",
-    "name": "Circle Internet Group, Inc. • Robinhood Token",
+    "name": "Circle Internet Group, Inc. - Robinhood Token",
     "legacyId": 2755,
     "canonicalMarketId": "CRCLrh"
   },
@@ -27,9 +27,7 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "US1725731079",
-        "source": null,
-        "verified": false
+        "value": "US1725731079"
       }
     ]
   },
@@ -45,8 +43,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -77,6 +74,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://robinhood.com/eu/en/about/"
+      ],
+      "protocolIds": [
+        3732
       ]
     },
     {

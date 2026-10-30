@@ -2,7 +2,7 @@
   "identity": {
     "slug": "nerh",
     "symbol": "NE",
-    "name": "Noble Corp plc • Robinhood Token",
+    "name": "Noble Corp plc - Robinhood Token",
     "legacyId": 1884,
     "canonicalMarketId": "NErh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "korh",
     "symbol": "KO",
-    "name": "The Coca-Cola Co. • Robinhood Token",
+    "name": "The Coca-Cola Co. - Robinhood Token",
     "legacyId": 1691,
     "canonicalMarketId": "KOrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

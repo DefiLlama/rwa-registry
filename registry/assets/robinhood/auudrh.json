@@ -2,7 +2,7 @@
   "identity": {
     "slug": "auudrh",
     "symbol": "AUUD",
-    "name": "Auddia Inc. • Robinhood Token",
+    "name": "Auddia Inc. - Robinhood Token",
     "legacyId": 931,
     "canonicalMarketId": "AUUDrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

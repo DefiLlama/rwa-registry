@@ -24,7 +24,7 @@
     "attestationFrequency": "Not publicly disclosed"
   },
   "about": {
-    "description": "AXAU is Altai’s tokenized gold exposure, designed to give users a transferable gold position that can be traded and managed through the Altai Exchange interface. It targets a commodity-native experience where gold exposure can be accessed in smaller units and moved quickly between strategies and settlement venues.",
+    "description": "AXAU is Altai's tokenized gold exposure, designed to give users a transferable gold position that can be traded and managed through the Altai Exchange interface. It targets a commodity-native experience where gold exposure can be accessed in smaller units and moved quickly between strategies and settlement venues.",
     "logo": "https://icons.llamao.fi/icons/rwa/axau.png?w=48&h=48",
     "links": {
       "website": [
@@ -35,8 +35,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

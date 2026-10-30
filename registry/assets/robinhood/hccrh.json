@@ -2,7 +2,7 @@
   "identity": {
     "slug": "hccrh",
     "symbol": "HCC",
-    "name": "Warrior Met Coal, Inc. • Robinhood Token",
+    "name": "Warrior Met Coal, Inc. - Robinhood Token",
     "legacyId": 1512,
     "canonicalMarketId": "HCCrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

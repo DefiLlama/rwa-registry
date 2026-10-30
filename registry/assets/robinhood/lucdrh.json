@@ -2,7 +2,7 @@
   "identity": {
     "slug": "lucdrh",
     "symbol": "LUCD",
-    "name": "Lucid Diagnostics Inc. • Robinhood Token",
+    "name": "Lucid Diagnostics Inc. - Robinhood Token",
     "legacyId": 1751,
     "canonicalMarketId": "LUCDrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

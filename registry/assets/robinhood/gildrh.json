@@ -2,7 +2,7 @@
   "identity": {
     "slug": "gildrh",
     "symbol": "GILD",
-    "name": "Gilead Sciences, Inc. • Robinhood Token",
+    "name": "Gilead Sciences, Inc. - Robinhood Token",
     "legacyId": 1450,
     "canonicalMarketId": "GILDrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

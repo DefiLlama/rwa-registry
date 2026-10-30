@@ -2,7 +2,7 @@
   "identity": {
     "slug": "flgrh",
     "symbol": "FLG",
-    "name": "Flagstar Bank, National Association • Robinhood Token",
+    "name": "Flagstar Bank, National Association - Robinhood Token",
     "legacyId": 1380,
     "canonicalMarketId": "FLGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

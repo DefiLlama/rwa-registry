@@ -2,7 +2,7 @@
   "identity": {
     "slug": "bf-brh",
     "symbol": "BF.B",
-    "name": "Brown Forman • Robinhood Token",
+    "name": "Brown Forman - Robinhood Token",
     "legacyId": 971,
     "canonicalMarketId": "BF.Brh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

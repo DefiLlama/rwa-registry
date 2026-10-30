@@ -2,7 +2,7 @@
   "identity": {
     "slug": "arh",
     "symbol": "A",
-    "name": "Agilent Technologies, Inc. • Robinhood Token",
+    "name": "Agilent Technologies, Inc. - Robinhood Token",
     "legacyId": 950,
     "canonicalMarketId": "Arh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "snrh",
     "symbol": "SN",
-    "name": "SharkNinja, Inc. • Robinhood Token",
+    "name": "SharkNinja, Inc. - Robinhood Token",
     "legacyId": 2279,
     "canonicalMarketId": "SNrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "iclrrh",
     "symbol": "ICLR",
-    "name": "ICON plc • Robinhood Token",
+    "name": "ICON plc - Robinhood Token",
     "legacyId": 1572,
     "canonicalMarketId": "ICLRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

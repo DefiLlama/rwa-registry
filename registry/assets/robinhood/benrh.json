@@ -2,7 +2,7 @@
   "identity": {
     "slug": "benrh",
     "symbol": "BEN",
-    "name": "Franklin Resources, Inc. • Robinhood Token",
+    "name": "Franklin Resources, Inc. - Robinhood Token",
     "legacyId": 968,
     "canonicalMarketId": "BENrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

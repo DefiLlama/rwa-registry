@@ -2,7 +2,7 @@
   "identity": {
     "slug": "mvstrh",
     "symbol": "MVST",
-    "name": "Microvast Holdings, Inc. • Robinhood Token",
+    "name": "Microvast Holdings, Inc. - Robinhood Token",
     "legacyId": 1862,
     "canonicalMarketId": "MVSTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -12,7 +12,7 @@
   "class": {
     "structure": "mmf",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "bond-mmf-funds"
     ]
@@ -30,14 +30,12 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "HK0001153532",
-        "source": null,
-        "verified": false
+        "value": "HK0001153532"
       }
     ]
   },
   "about": {
-    "description": "CUMFU is the Class F USD digital share of the ChinaAMC USD Digital Money Market Fund, a Hong Kong-domiciled money market fund focused on capital preservation and liquidity through short-term deposits and high-quality money market instruments. The Class F share class is an unlisted digital format intended to streamline subscriptions, redemptions, and investor servicing while keeping the underlying exposure in a regulated fund vehicle. Class F carries a 0.60% per annum management fee, and it is issued and distributed via Libeara’s fund tokenization infrastructure.",
+    "description": "CUMFU is the Class F USD digital share of the ChinaAMC USD Digital Money Market Fund, a Hong Kong-domiciled money market fund focused on capital preservation and liquidity through short-term deposits and high-quality money market instruments. The Class F share class is an unlisted digital format intended to streamline subscriptions, redemptions, and investor servicing while keeping the underlying exposure in a regulated fund vehicle. Class F carries a 0.60% per annum management fee, and it is issued and distributed via Libeara's fund tokenization infrastructure.",
     "logo": "https://icons.llamao.fi/icons/rwa/cumfu.png?w=48&h=48",
     "links": {
       "website": [
@@ -48,8 +46,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

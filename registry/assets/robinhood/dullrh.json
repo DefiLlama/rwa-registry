@@ -2,7 +2,7 @@
   "identity": {
     "slug": "dullrh",
     "symbol": "DULL",
-    "name": "MicroSectors Gold -3X Inverse Leveraged ETN • Robinhood Token",
+    "name": "MicroSectors Gold -3X Inverse Leveraged ETN - Robinhood Token",
     "legacyId": 1256,
     "canonicalMarketId": "DULLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

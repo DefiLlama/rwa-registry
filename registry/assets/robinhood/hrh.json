@@ -2,7 +2,7 @@
   "identity": {
     "slug": "hrh",
     "symbol": "H",
-    "name": "Hyatt Hotels Corp. • Robinhood Token",
+    "name": "Hyatt Hotels Corp. - Robinhood Token",
     "legacyId": 1561,
     "canonicalMarketId": "Hrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

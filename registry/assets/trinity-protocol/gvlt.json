@@ -23,9 +23,6 @@
     "yieldBearing": false,
     "attestationFrequency": "On-demand"
   },
-  "sources": {
-    "llamaAttestationProof": false
-  },
   "about": {
     "description": "GVLT is an Arbitrum ERC-20 that represents a claim on allocated gold bullion. The issuer's published metadata record describes 25.5 metric tons of bullion, approximately 819,843 troy ounces, held under central bank custody in Malaysia on a declared-allocated basis with rehypothecation prohibited unless contractually authorised, and leaves fineness, the safekeeping receipt reference and bar serials redacted. Supply is controlled by an administrator key, which is the only account able to call mint and burn on the token contract. There is no holder-facing redemption function. Transfers are unrestricted, with no allowlist, blacklist or transfer hook. A Proof of Reserve contract at 0x9c0bc46a92DD9acdD0c0d1CA8496BDa1f2d34dBF publishes IPFS content identifiers for the issuer's attestation documents and computes a reserve total by summing the issuer's own treasury balances of GVLT and HYDRO at oracle prices together with treasury USDC, so that total measures issuer-held token inventory rather than custodied metal. Gold pricing is taken from an adapter over the Chainlink XAU/USD and USDC/USD feeds on Arbitrum, with staleness and depeg guards. The token is accepted as collateral in a Morpho Blue market against USDC at a 62.5% liquidation loan-to-value.",
     "logo": "https://icons.llamao.fi/icons/rwa/gvlt.png?w=48&h=48",
@@ -36,8 +33,7 @@
     }
   },
   "review": {
-    "activeAumReviewed": false,
-    "llamaGradeAttestation": false
+    "activeAumReviewed": false
   },
   "deployments": [
     {

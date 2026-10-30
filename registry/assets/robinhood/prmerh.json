@@ -2,7 +2,7 @@
   "identity": {
     "slug": "prmerh",
     "symbol": "PRME",
-    "name": "Prime Medicine, Inc. • Robinhood Token",
+    "name": "Prime Medicine, Inc. - Robinhood Token",
     "legacyId": 2071,
     "canonicalMarketId": "PRMErh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

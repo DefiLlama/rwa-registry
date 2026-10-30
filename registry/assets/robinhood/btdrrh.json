@@ -2,7 +2,7 @@
   "identity": {
     "slug": "btdrrh",
     "symbol": "BTDR",
-    "name": "Bitdeer Technologies Group • Robinhood Token",
+    "name": "Bitdeer Technologies Group - Robinhood Token",
     "legacyId": 1036,
     "canonicalMarketId": "BTDRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "vstmrh",
     "symbol": "VSTM",
-    "name": "Verastem, Inc. • Robinhood Token",
+    "name": "Verastem, Inc. - Robinhood Token",
     "legacyId": 2579,
     "canonicalMarketId": "VSTMrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

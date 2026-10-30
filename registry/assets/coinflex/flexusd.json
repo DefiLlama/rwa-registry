@@ -37,8 +37,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -59,6 +58,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://coinflex.com/"
+      ],
+      "protocolIds": [
+        1717
       ]
     }
   ]

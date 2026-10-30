@@ -2,7 +2,7 @@
   "identity": {
     "slug": "udowrh",
     "symbol": "UDOW",
-    "name": "ProShares UltraPro Dow30 • Robinhood Token",
+    "name": "ProShares UltraPro Dow30 - Robinhood Token",
     "legacyId": 2475,
     "canonicalMarketId": "UDOWrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

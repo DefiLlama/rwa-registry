@@ -12,7 +12,7 @@
   "class": {
     "structure": "mmf",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "bond-mmf-funds"
     ]
@@ -35,14 +35,12 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "VGG131351014",
-        "source": null,
-        "verified": false
+        "value": "VGG131351014"
       }
     ]
   },
   "about": {
-    "description": "BUIDL is BlackRock’s tokenized digital liquidity fund built for institutional cash management. It is designed to deliver short-duration, high-quality income while maintaining a stable NAV convention, and it is structured to support flexible custody and continuous settlement so shares can be used in modern collateral, treasury, and settlement workflows.",
+    "description": "BUIDL is BlackRock's tokenized digital liquidity fund built for institutional cash management. It is designed to deliver short-duration, high-quality income while maintaining a stable NAV convention, and it is structured to support flexible custody and continuous settlement so shares can be used in modern collateral, treasury, and settlement workflows.",
     "logo": "https://icons.llamao.fi/icons/rwa/buidl.png?w=48&h=48",
     "links": {
       "website": [
@@ -53,8 +51,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

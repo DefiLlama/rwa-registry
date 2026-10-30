@@ -2,7 +2,7 @@
   "identity": {
     "slug": "xdterh",
     "symbol": "XDTE",
-    "name": "XTreme Dividend ETF • Robinhood Token",
+    "name": "XTreme Dividend ETF - Robinhood Token",
     "legacyId": 2642,
     "canonicalMarketId": "XDTErh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

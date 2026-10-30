@@ -2,7 +2,7 @@
   "identity": {
     "slug": "pctrh",
     "symbol": "PCT",
-    "name": "PureCycle Technologies, Inc. • Robinhood Token",
+    "name": "PureCycle Technologies, Inc. - Robinhood Token",
     "legacyId": 2008,
     "canonicalMarketId": "PCTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "lnthrh",
     "symbol": "LNTH",
-    "name": "Lantheus Holdings, Inc. • Robinhood Token",
+    "name": "Lantheus Holdings, Inc. - Robinhood Token",
     "legacyId": 1737,
     "canonicalMarketId": "LNTHrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

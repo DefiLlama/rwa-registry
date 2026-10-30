@@ -35,8 +35,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -50,6 +49,13 @@
     {
       "organization": "alter-spv-capital-partners",
       "kind": "issuer",
+      "sourceLinks": [
+        "https://tavoragro.com/tokenization"
+      ]
+    },
+    {
+      "organization": "xrpl-amm",
+      "kind": "oracle",
       "sourceLinks": [
         "https://tavoragro.com/tokenization"
       ]

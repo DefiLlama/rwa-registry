@@ -2,7 +2,7 @@
   "identity": {
     "slug": "sonmrh",
     "symbol": "SONM",
-    "name": "DNA X, Inc. • Robinhood Token",
+    "name": "DNA X, Inc. - Robinhood Token",
     "legacyId": 2285,
     "canonicalMarketId": "SONMrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

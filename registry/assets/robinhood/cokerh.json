@@ -2,7 +2,7 @@
   "identity": {
     "slug": "cokerh",
     "symbol": "COKE",
-    "name": "Coca-Cola Consolidated, Inc. • Robinhood Token",
+    "name": "Coca-Cola Consolidated, Inc. - Robinhood Token",
     "legacyId": 1139,
     "canonicalMarketId": "COKErh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

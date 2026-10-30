@@ -2,7 +2,7 @@
   "identity": {
     "slug": "brkurh",
     "symbol": "BRKU",
-    "name": "Berkshire Hathaway Inverse ETF • Robinhood Token",
+    "name": "Berkshire Hathaway Inverse ETF - Robinhood Token",
     "legacyId": 1025,
     "canonicalMarketId": "BRKUrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

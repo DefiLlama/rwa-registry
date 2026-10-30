@@ -2,7 +2,7 @@
   "identity": {
     "slug": "veevrh",
     "symbol": "VEEV",
-    "name": "Veeva Systems Inc. • Robinhood Token",
+    "name": "Veeva Systems Inc. - Robinhood Token",
     "legacyId": 2533,
     "canonicalMarketId": "VEEVrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

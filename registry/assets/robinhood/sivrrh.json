@@ -2,7 +2,7 @@
   "identity": {
     "slug": "sivrrh",
     "symbol": "SIVR",
-    "name": "Silver • Robinhood Token",
+    "name": "Silver - Robinhood Token",
     "legacyId": 2239,
     "canonicalMarketId": "SIVRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

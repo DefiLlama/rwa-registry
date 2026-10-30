@@ -2,7 +2,7 @@
   "identity": {
     "slug": "aclsrh",
     "symbol": "ACLS",
-    "name": "Axcelis Technologies, Inc. • Robinhood Token",
+    "name": "Axcelis Technologies, Inc. - Robinhood Token",
     "legacyId": 796,
     "canonicalMarketId": "ACLSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

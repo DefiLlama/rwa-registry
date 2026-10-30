@@ -2,7 +2,7 @@
   "identity": {
     "slug": "editrh",
     "symbol": "EDIT",
-    "name": "Editas Medicine, Inc. • Robinhood Token",
+    "name": "Editas Medicine, Inc. - Robinhood Token",
     "legacyId": 1272,
     "canonicalMarketId": "EDITrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

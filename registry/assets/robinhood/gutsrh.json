@@ -2,7 +2,7 @@
   "identity": {
     "slug": "gutsrh",
     "symbol": "GUTS",
-    "name": "Fractyl Health, Inc. • Robinhood Token",
+    "name": "Fractyl Health, Inc. - Robinhood Token",
     "legacyId": 1501,
     "canonicalMarketId": "GUTSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

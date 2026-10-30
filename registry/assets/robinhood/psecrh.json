@@ -2,7 +2,7 @@
   "identity": {
     "slug": "psecrh",
     "symbol": "PSEC",
-    "name": "Prospect Capital Corp. • Robinhood Token",
+    "name": "Prospect Capital Corp. - Robinhood Token",
     "legacyId": 2077,
     "canonicalMarketId": "PSECrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

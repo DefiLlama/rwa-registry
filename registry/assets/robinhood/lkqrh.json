@@ -2,7 +2,7 @@
   "identity": {
     "slug": "lkqrh",
     "symbol": "LKQ",
-    "name": "LKQ Corp. • Robinhood Token",
+    "name": "LKQ Corp. - Robinhood Token",
     "legacyId": 1732,
     "canonicalMarketId": "LKQrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

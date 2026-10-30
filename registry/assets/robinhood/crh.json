@@ -2,7 +2,7 @@
   "identity": {
     "slug": "crh",
     "symbol": "C",
-    "name": "Citigroup Inc. • Robinhood Token",
+    "name": "Citigroup Inc. - Robinhood Token",
     "legacyId": 1204,
     "canonicalMarketId": "Crh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

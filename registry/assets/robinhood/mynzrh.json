@@ -2,7 +2,7 @@
   "identity": {
     "slug": "mynzrh",
     "symbol": "MYNZ",
-    "name": "Mainz Biomed • Robinhood Token",
+    "name": "Mainz Biomed - Robinhood Token",
     "legacyId": 1864,
     "canonicalMarketId": "MYNZrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

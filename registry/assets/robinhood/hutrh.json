@@ -2,7 +2,7 @@
   "identity": {
     "slug": "hutrh",
     "symbol": "HUT",
-    "name": "Hut 8 Corp. • Robinhood Token",
+    "name": "Hut 8 Corp. - Robinhood Token",
     "legacyId": 1554,
     "canonicalMarketId": "HUTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

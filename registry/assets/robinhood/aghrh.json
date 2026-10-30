@@ -2,7 +2,7 @@
   "identity": {
     "slug": "aghrh",
     "symbol": "AGH",
-    "name": "Aureus Greenway Holdings Inc. • Robinhood Token",
+    "name": "Aureus Greenway Holdings Inc. - Robinhood Token",
     "legacyId": 818,
     "canonicalMarketId": "AGHrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "bslkrh",
     "symbol": "BSLK",
-    "name": "Bolt Projects Holdings, Inc. • Robinhood Token",
+    "name": "Bolt Projects Holdings, Inc. - Robinhood Token",
     "legacyId": 1030,
     "canonicalMarketId": "BSLKrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

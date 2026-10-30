@@ -2,7 +2,7 @@
   "identity": {
     "slug": "pncrh",
     "symbol": "PNC",
-    "name": "PNC Financial Services Group, Inc. • Robinhood Token",
+    "name": "PNC Financial Services Group, Inc. - Robinhood Token",
     "legacyId": 2054,
     "canonicalMarketId": "PNCrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

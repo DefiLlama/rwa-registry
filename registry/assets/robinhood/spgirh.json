@@ -2,7 +2,7 @@
   "identity": {
     "slug": "spgirh",
     "symbol": "SPGI",
-    "name": "S&P Global Inc. • Robinhood Token",
+    "name": "S&P Global Inc. - Robinhood Token",
     "legacyId": 2297,
     "canonicalMarketId": "SPGIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

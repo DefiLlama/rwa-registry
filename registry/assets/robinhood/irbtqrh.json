@@ -2,7 +2,7 @@
   "identity": {
     "slug": "irbtqrh",
     "symbol": "IRBTQ",
-    "name": "iRobot • Robinhood Token",
+    "name": "iRobot - Robinhood Token",
     "legacyId": 1615,
     "canonicalMarketId": "IRBTQrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

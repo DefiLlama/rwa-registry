@@ -2,7 +2,7 @@
   "identity": {
     "slug": "jackrh",
     "symbol": "JACK",
-    "name": "Jack in the Box Inc. • Robinhood Token",
+    "name": "Jack in the Box Inc. - Robinhood Token",
     "legacyId": 2795,
     "canonicalMarketId": "JACKrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

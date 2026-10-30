@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ivfrh",
     "symbol": "IVF",
-    "name": "INVO Fertility, Inc. • Robinhood Token",
+    "name": "INVO Fertility, Inc. - Robinhood Token",
     "legacyId": 1629,
     "canonicalMarketId": "IVFrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

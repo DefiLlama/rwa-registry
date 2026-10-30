@@ -2,7 +2,7 @@
   "identity": {
     "slug": "kwebrh",
     "symbol": "KWEB",
-    "name": "KraneShares CSI China Internet ETF • Robinhood Token",
+    "name": "KraneShares CSI China Internet ETF - Robinhood Token",
     "legacyId": 2743,
     "canonicalMarketId": "KWEBrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

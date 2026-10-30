@@ -2,7 +2,7 @@
   "identity": {
     "slug": "qldrh",
     "symbol": "QLD",
-    "name": "ProShares Ultra Nasdaq-100 • Robinhood Token",
+    "name": "ProShares Ultra Nasdaq-100 - Robinhood Token",
     "legacyId": 2101,
     "canonicalMarketId": "QLDrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

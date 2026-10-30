@@ -2,7 +2,7 @@
   "identity": {
     "slug": "snbrrh",
     "symbol": "SNBR",
-    "name": "Sleep Number Corp. • Robinhood Token",
+    "name": "Sleep Number Corp. - Robinhood Token",
     "legacyId": 2271,
     "canonicalMarketId": "SNBRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "mtdrh",
     "symbol": "MTD",
-    "name": "Mettler-Toledo International Inc. • Robinhood Token",
+    "name": "Mettler-Toledo International Inc. - Robinhood Token",
     "legacyId": 1850,
     "canonicalMarketId": "MTDrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

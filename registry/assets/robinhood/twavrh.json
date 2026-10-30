@@ -2,7 +2,7 @@
   "identity": {
     "slug": "twavrh",
     "symbol": "TWAV",
-    "name": "TaoWeave, Inc. • Robinhood Token",
+    "name": "TaoWeave, Inc. - Robinhood Token",
     "legacyId": 2456,
     "canonicalMarketId": "TWAVrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

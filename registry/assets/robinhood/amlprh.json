@@ -2,7 +2,7 @@
   "identity": {
     "slug": "amlprh",
     "symbol": "AMLP",
-    "name": "Alerian MLP ETF • Robinhood Token",
+    "name": "Alerian MLP ETF - Robinhood Token",
     "legacyId": 860,
     "canonicalMarketId": "AMLPrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

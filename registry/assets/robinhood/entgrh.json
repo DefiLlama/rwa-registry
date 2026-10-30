@@ -2,7 +2,7 @@
   "identity": {
     "slug": "entgrh",
     "symbol": "ENTG",
-    "name": "Entegris, Inc. • Robinhood Token",
+    "name": "Entegris, Inc. - Robinhood Token",
     "legacyId": 1292,
     "canonicalMarketId": "ENTGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

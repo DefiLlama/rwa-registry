@@ -2,7 +2,7 @@
   "identity": {
     "slug": "esltrh",
     "symbol": "ESLT",
-    "name": "Elbit Systems Ltd. • Robinhood Token",
+    "name": "Elbit Systems Ltd. - Robinhood Token",
     "legacyId": 1307,
     "canonicalMarketId": "ESLTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

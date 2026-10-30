@@ -2,7 +2,7 @@
   "identity": {
     "slug": "cvxrh",
     "symbol": "CVX",
-    "name": "Chevron Corp. • Robinhood Token",
+    "name": "Chevron Corp. - Robinhood Token",
     "legacyId": 1196,
     "canonicalMarketId": "CVXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "gdxrh",
     "symbol": "GDX",
-    "name": "VanEck Gold Miners ETF • Robinhood Token",
+    "name": "VanEck Gold Miners ETF - Robinhood Token",
     "legacyId": 1433,
     "canonicalMarketId": "GDXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

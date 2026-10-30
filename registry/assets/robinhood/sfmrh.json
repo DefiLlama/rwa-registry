@@ -2,7 +2,7 @@
   "identity": {
     "slug": "sfmrh",
     "symbol": "SFM",
-    "name": "Sprouts Farmers Market, Inc. • Robinhood Token",
+    "name": "Sprouts Farmers Market, Inc. - Robinhood Token",
     "legacyId": 2220,
     "canonicalMarketId": "SFMrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

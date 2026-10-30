@@ -2,7 +2,7 @@
   "identity": {
     "slug": "tkrh",
     "symbol": "TK",
-    "name": "Teekay Corp. Ltd. • Robinhood Token",
+    "name": "Teekay Corp. Ltd. - Robinhood Token",
     "legacyId": 2397,
     "canonicalMarketId": "TKrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

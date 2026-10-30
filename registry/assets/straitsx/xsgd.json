@@ -12,7 +12,7 @@
   "class": {
     "structure": "other-fiat-stable",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "fiat-stablecoins"
     ]
@@ -52,8 +52,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -92,6 +91,15 @@
       "chain": "arbitrum",
       "address": "0xe333e7754a2dc1e020a162ecab019254b9dab653",
       "deployedAt": "2024-08-12"
+    },
+    {
+      "chain": "hedera",
+      "address": "0x00000000000000000000000000000000001e4d82",
+      "deployedAt": "2023-02-23"
+    },
+    {
+      "chain": "zilliqa",
+      "address": null
     }
   ],
   "roles": [

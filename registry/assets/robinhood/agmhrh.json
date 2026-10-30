@@ -2,7 +2,7 @@
   "identity": {
     "slug": "agmhrh",
     "symbol": "AGMH",
-    "name": "AGM Group Holdings, Inc. • Robinhood Token",
+    "name": "AGM Group Holdings, Inc. - Robinhood Token",
     "legacyId": 821,
     "canonicalMarketId": "AGMHrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

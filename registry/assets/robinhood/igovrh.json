@@ -2,7 +2,7 @@
   "identity": {
     "slug": "igovrh",
     "symbol": "IGOV",
-    "name": "iShares International Treasury Bond ETF • Robinhood Token",
+    "name": "iShares International Treasury Bond ETF - Robinhood Token",
     "legacyId": 1583,
     "canonicalMarketId": "IGOVrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

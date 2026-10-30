@@ -2,7 +2,7 @@
   "identity": {
     "slug": "uwmcrh",
     "symbol": "UWMC",
-    "name": "UWM Holdings Corp. • Robinhood Token",
+    "name": "UWM Holdings Corp. - Robinhood Token",
     "legacyId": 2518,
     "canonicalMarketId": "UWMCrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

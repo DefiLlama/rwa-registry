@@ -2,7 +2,7 @@
   "identity": {
     "slug": "dgnxrh",
     "symbol": "DGNX",
-    "name": "Diginex Ltd. • Robinhood Token",
+    "name": "Diginex Ltd. - Robinhood Token",
     "legacyId": 1223,
     "canonicalMarketId": "DGNXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

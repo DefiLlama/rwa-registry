@@ -2,7 +2,7 @@
   "identity": {
     "slug": "sdivrh",
     "symbol": "SDIV",
-    "name": "Global X SuperDividend U.S. ETF • Robinhood Token",
+    "name": "Global X SuperDividend U.S. ETF - Robinhood Token",
     "legacyId": 2211,
     "canonicalMarketId": "SDIVrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

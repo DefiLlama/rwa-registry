@@ -2,7 +2,7 @@
   "identity": {
     "slug": "sensrh",
     "symbol": "SENS",
-    "name": "Senseonics Holdings, Inc. • Robinhood Token",
+    "name": "Senseonics Holdings, Inc. - Robinhood Token",
     "legacyId": 2217,
     "canonicalMarketId": "SENSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

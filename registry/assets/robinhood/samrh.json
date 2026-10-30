@@ -2,7 +2,7 @@
   "identity": {
     "slug": "samrh",
     "symbol": "SAM",
-    "name": "The Boston Beer Co., Inc. • Robinhood Token",
+    "name": "The Boston Beer Co., Inc. - Robinhood Token",
     "legacyId": 2180,
     "canonicalMarketId": "SAMrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

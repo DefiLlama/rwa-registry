@@ -12,7 +12,7 @@
   "class": {
     "structure": "stock-backed",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "stocks-equities"
     ]
@@ -24,9 +24,6 @@
     "selfCustody": true,
     "yieldBearing": false,
     "attestationFrequency": "Continuous"
-  },
-  "sources": {
-    "llamaAttestationProof": false
   },
   "about": {
     "description": "rIREN is a tokenized IREN Limited share issued by Reality on Arbitrum, designed to track the economic performance of IREN Limited (IREN) at a 1:1 ratio. Each rIREN is backed by a corresponding share held through Alpaca Securities LLC, a FINRA-registered and SIPC-covered US broker-dealer, with reserves continuously verified by The Network Firm through Reality's Proof of Asset dashboard. Reality is a regulated RWA issuance platform within the Bitget ecosystem.",
@@ -40,8 +37,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -61,7 +57,10 @@
     },
     {
       "organization": "the-network-firm",
-      "kind": "auditor"
+      "kind": "auditor",
+      "sourceLinks": [
+        "https://realityfinance.xyz/por"
+      ]
     }
   ],
   "events": [

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "pffarh",
     "symbol": "PFFA",
-    "name": "Invesco Preferred Stock ETF • Robinhood Token",
+    "name": "Invesco Preferred Stock ETF - Robinhood Token",
     "legacyId": 2021,
     "canonicalMarketId": "PFFArh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "croxrh",
     "symbol": "CROX",
-    "name": "Crocs, Inc. • Robinhood Token",
+    "name": "Crocs, Inc. - Robinhood Token",
     "legacyId": 1170,
     "canonicalMarketId": "CROXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "uroyrh",
     "symbol": "UROY",
-    "name": "Uranium Royalty Corp. • Robinhood Token",
+    "name": "Uranium Royalty Corp. - Robinhood Token",
     "legacyId": 2499,
     "canonicalMarketId": "UROYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "payorh",
     "symbol": "PAYO",
-    "name": "Payoneer Global Inc. • Robinhood Token",
+    "name": "Payoneer Global Inc. - Robinhood Token",
     "legacyId": 2000,
     "canonicalMarketId": "PAYOrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

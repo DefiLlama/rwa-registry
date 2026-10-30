@@ -2,7 +2,7 @@
   "identity": {
     "slug": "aeorh",
     "symbol": "AEO",
-    "name": "American Eagle Outfitters, Inc. • Robinhood Token",
+    "name": "American Eagle Outfitters, Inc. - Robinhood Token",
     "legacyId": 810,
     "canonicalMarketId": "AEOrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

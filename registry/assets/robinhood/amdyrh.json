@@ -2,7 +2,7 @@
   "identity": {
     "slug": "amdyrh",
     "symbol": "AMDY",
-    "name": "AMD Inverse ETF • Robinhood Token",
+    "name": "AMD Inverse ETF - Robinhood Token",
     "legacyId": 856,
     "canonicalMarketId": "AMDYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

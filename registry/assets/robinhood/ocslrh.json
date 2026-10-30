@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ocslrh",
     "symbol": "OCSL",
-    "name": "Oaktree Specialty Lending Corp. • Robinhood Token",
+    "name": "Oaktree Specialty Lending Corp. - Robinhood Token",
     "legacyId": 1951,
     "canonicalMarketId": "OCSLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

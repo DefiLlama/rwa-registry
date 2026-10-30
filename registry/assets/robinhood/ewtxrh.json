@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ewtxrh",
     "symbol": "EWTX",
-    "name": "Edgewise Therapeutics, Inc. • Robinhood Token",
+    "name": "Edgewise Therapeutics, Inc. - Robinhood Token",
     "legacyId": 1330,
     "canonicalMarketId": "EWTXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

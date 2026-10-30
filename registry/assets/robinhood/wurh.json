@@ -2,7 +2,7 @@
   "identity": {
     "slug": "wurh",
     "symbol": "WU",
-    "name": "The Western Union Co. • Robinhood Token",
+    "name": "The Western Union Co. - Robinhood Token",
     "legacyId": 2637,
     "canonicalMarketId": "WUrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

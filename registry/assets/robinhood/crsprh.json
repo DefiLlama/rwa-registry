@@ -2,7 +2,7 @@
   "identity": {
     "slug": "crsprh",
     "symbol": "CRSP",
-    "name": "CRISPR Therapeutics AG • Robinhood Token",
+    "name": "CRISPR Therapeutics AG - Robinhood Token",
     "legacyId": 1172,
     "canonicalMarketId": "CRSPrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

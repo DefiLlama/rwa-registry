@@ -2,7 +2,7 @@
   "identity": {
     "slug": "upstrh",
     "symbol": "UPST",
-    "name": "Upstart Holdings, Inc. • Robinhood Token",
+    "name": "Upstart Holdings, Inc. - Robinhood Token",
     "legacyId": 2490,
     "canonicalMarketId": "UPSTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

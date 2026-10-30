@@ -2,7 +2,7 @@
   "identity": {
     "slug": "grdxrh",
     "symbol": "GRDX",
-    "name": "GridAI Technologies Corp. • Robinhood Token",
+    "name": "GridAI Technologies Corp. - Robinhood Token",
     "legacyId": 1486,
     "canonicalMarketId": "GRDXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

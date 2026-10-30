@@ -12,7 +12,7 @@
   "class": {
     "structure": "t-bills",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "bond-mmf-funds"
     ]
@@ -30,14 +30,12 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "CH1173294260",
-        "source": null,
-        "verified": false
+        "value": "CH1173294260"
       }
     ]
   },
   "about": {
-    "description": "Backed IB01 $ Treasury Bond 0-1yr (bIB01) is a tokenized tracker certificate designed to follow the iShares $ Treasury Bond 0-1yr UCITS ETF (IB01) in a format usable across crypto venues. It is positioned as fully backed 1:1 by the underlying ETF exposure held through traditional custody rails, with eligible holders able to redeem under the product terms. Collateral coverage can be independently monitored through Backed’s proof-of-reserves surface, supported by a dedicated proof-of-reserves feed.",
+    "description": "Backed IB01 $ Treasury Bond 0-1yr (bIB01) is a tokenized tracker certificate designed to follow the iShares $ Treasury Bond 0-1yr UCITS ETF (IB01) in a format usable across crypto venues. It is positioned as fully backed 1:1 by the underlying ETF exposure held through traditional custody rails, with eligible holders able to redeem under the product terms. Collateral coverage can be independently monitored through Backed's proof-of-reserves surface, supported by a dedicated proof-of-reserves feed.",
     "logo": "https://icons.llamao.fi/icons/rwa/bib01.png?w=48&h=48",
     "links": {
       "website": [
@@ -48,8 +46,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

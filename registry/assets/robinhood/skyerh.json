@@ -2,7 +2,7 @@
   "identity": {
     "slug": "skyerh",
     "symbol": "SKYE",
-    "name": "Skye Bioscience, Inc. • Robinhood Token",
+    "name": "Skye Bioscience, Inc. - Robinhood Token",
     "legacyId": 2242,
     "canonicalMarketId": "SKYErh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

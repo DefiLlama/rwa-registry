@@ -27,7 +27,7 @@
     "coingeckoId": "ondo-finance"
   },
   "about": {
-    "description": "ONDO is the governance token of Ondo Finance, used to coordinate protocol governance and ecosystem decision-making across Ondo’s RWA product suite. It is primarily an ecosystem and governance asset rather than a tokenized claim on a specific offchain reserve portfolio, and its value is tied to network adoption and governance utility across Ondo’s markets and products.",
+    "description": "ONDO is the governance token of Ondo Finance, used to coordinate protocol governance and ecosystem decision-making across Ondo's RWA product suite. It is primarily an ecosystem and governance asset rather than a tokenized claim on a specific offchain reserve portfolio, and its value is tied to network adoption and governance utility across Ondo's markets and products.",
     "logo": "https://icons.llamao.fi/icons/rwa/ondo-governance-token.png?w=48&h=48",
     "links": {
       "website": [
@@ -38,8 +38,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

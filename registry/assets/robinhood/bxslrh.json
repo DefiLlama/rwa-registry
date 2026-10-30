@@ -2,7 +2,7 @@
   "identity": {
     "slug": "bxslrh",
     "symbol": "BXSL",
-    "name": "Blackstone Secured Lending Fund • Robinhood Token",
+    "name": "Blackstone Secured Lending Fund - Robinhood Token",
     "legacyId": 1046,
     "canonicalMarketId": "BXSLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

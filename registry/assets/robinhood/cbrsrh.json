@@ -2,7 +2,7 @@
   "identity": {
     "slug": "cbrsrh",
     "symbol": "CBRS",
-    "name": "Cerebras Systems • Robinhood Token",
+    "name": "Cerebras Systems - Robinhood Token",
     "legacyId": 4492,
     "canonicalMarketId": "CBRSrh"
   },
@@ -27,9 +27,7 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "US15675D1037",
-        "source": null,
-        "verified": false
+        "value": "US15675D1037"
       }
     ]
   },
@@ -45,8 +43,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -62,6 +59,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://robinhood.com/eu/en/about/"
+      ],
+      "protocolIds": [
+        3732
       ]
     },
     {

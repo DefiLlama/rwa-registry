@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ryetrh",
     "symbol": "RYET",
-    "name": "Ruanyun Edai Technology Inc. • Robinhood Token",
+    "name": "Ruanyun Edai Technology Inc. - Robinhood Token",
     "legacyId": 2172,
     "canonicalMarketId": "RYETrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

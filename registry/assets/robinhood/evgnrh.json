@@ -2,7 +2,7 @@
   "identity": {
     "slug": "evgnrh",
     "symbol": "EVGN",
-    "name": "Evogene Ltd. • Robinhood Token",
+    "name": "Evogene Ltd. - Robinhood Token",
     "legacyId": 1321,
     "canonicalMarketId": "EVGNrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

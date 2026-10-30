@@ -2,7 +2,7 @@
   "identity": {
     "slug": "xrptrh",
     "symbol": "XRPT",
-    "name": "Ripple Holdings ETF • Robinhood Token",
+    "name": "Ripple Holdings ETF - Robinhood Token",
     "legacyId": 2662,
     "canonicalMarketId": "XRPTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

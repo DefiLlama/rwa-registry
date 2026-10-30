@@ -2,7 +2,7 @@
   "identity": {
     "slug": "vlyrh",
     "symbol": "VLY",
-    "name": "Valley National Bancorp • Robinhood Token",
+    "name": "Valley National Bancorp - Robinhood Token",
     "legacyId": 2558,
     "canonicalMarketId": "VLYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

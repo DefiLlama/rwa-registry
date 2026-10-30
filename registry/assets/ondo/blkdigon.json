@@ -12,7 +12,7 @@
   "class": {
     "structure": "mixed-rwa-fund",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "stocks-equities"
     ]
@@ -37,22 +37,24 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
       "chain": "ethereum",
       "address": "0x6e17534a1fc047907d8f422ca166944d6469e053",
+      "deployedAt": "2026-09-15",
       "primary": true
     },
     {
       "chain": "bsc",
-      "address": "0xe658c62195f32bc53226e7e2642e3d76b4382fb8"
+      "address": "0xe658c62195f32bc53226e7e2642e3d76b4382fb8",
+      "deployedAt": "2026-09-15"
     },
     {
       "chain": "solana",
-      "address": "MH63ApKFAH68mTP8M5ofkioN6AomPCV8Ar35dtRondo"
+      "address": "MH63ApKFAH68mTP8M5ofkioN6AomPCV8Ar35dtRondo",
+      "deployedAt": "2026-10-19"
     }
   ],
   "roles": [

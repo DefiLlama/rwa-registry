@@ -2,7 +2,7 @@
   "identity": {
     "slug": "jagxrh",
     "symbol": "JAGX",
-    "name": "Jaguar Health, Inc. • Robinhood Token",
+    "name": "Jaguar Health, Inc. - Robinhood Token",
     "legacyId": 1644,
     "canonicalMarketId": "JAGXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

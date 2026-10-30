@@ -2,7 +2,7 @@
   "identity": {
     "slug": "tmvrh",
     "symbol": "TMV",
-    "name": "Direxion Daily 20+ Year Treasury Bear 3X ETF • Robinhood Token",
+    "name": "Direxion Daily 20+ Year Treasury Bear 3X ETF - Robinhood Token",
     "legacyId": 2408,
     "canonicalMarketId": "TMVrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

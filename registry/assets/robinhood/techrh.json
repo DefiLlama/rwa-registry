@@ -2,7 +2,7 @@
   "identity": {
     "slug": "techrh",
     "symbol": "TECH",
-    "name": "Bio-Techne Corp. • Robinhood Token",
+    "name": "Bio-Techne Corp. - Robinhood Token",
     "legacyId": 2380,
     "canonicalMarketId": "TECHrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

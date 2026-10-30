@@ -2,7 +2,7 @@
   "identity": {
     "slug": "crshrh",
     "symbol": "CRSH",
-    "name": "Crash Protection ETF • Robinhood Token",
+    "name": "Crash Protection ETF - Robinhood Token",
     "legacyId": 1171,
     "canonicalMarketId": "CRSHrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

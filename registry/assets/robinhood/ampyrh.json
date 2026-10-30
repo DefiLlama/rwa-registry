@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ampyrh",
     "symbol": "AMPY",
-    "name": "Amplify Energy Corp. • Robinhood Token",
+    "name": "Amplify Energy Corp. - Robinhood Token",
     "legacyId": 862,
     "canonicalMarketId": "AMPYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "lyvrh",
     "symbol": "LYV",
-    "name": "Live Nation Entertainment, Inc. • Robinhood Token",
+    "name": "Live Nation Entertainment, Inc. - Robinhood Token",
     "legacyId": 1763,
     "canonicalMarketId": "LYVrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

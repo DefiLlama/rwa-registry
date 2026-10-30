@@ -2,7 +2,7 @@
   "identity": {
     "slug": "cybrrh",
     "symbol": "CYBR",
-    "name": "CyberArk • Robinhood Token",
+    "name": "CyberArk - Robinhood Token",
     "legacyId": 1199,
     "canonicalMarketId": "CYBRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

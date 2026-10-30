@@ -2,7 +2,7 @@
   "identity": {
     "slug": "hbmrh",
     "symbol": "HBM",
-    "name": "Hudbay Minerals Inc. • Robinhood Token",
+    "name": "Hudbay Minerals Inc. - Robinhood Token",
     "legacyId": 1510,
     "canonicalMarketId": "HBMrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

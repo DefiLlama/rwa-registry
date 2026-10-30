@@ -2,7 +2,7 @@
   "identity": {
     "slug": "nxpirh",
     "symbol": "NXPI",
-    "name": "NXP Semiconductors N.V. • Robinhood Token",
+    "name": "NXP Semiconductors N.V. - Robinhood Token",
     "legacyId": 1945,
     "canonicalMarketId": "NXPIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

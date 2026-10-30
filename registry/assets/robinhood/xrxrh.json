@@ -2,7 +2,7 @@
   "identity": {
     "slug": "xrxrh",
     "symbol": "XRX",
-    "name": "Xerox Holdings Corp. • Robinhood Token",
+    "name": "Xerox Holdings Corp. - Robinhood Token",
     "legacyId": 2664,
     "canonicalMarketId": "XRXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

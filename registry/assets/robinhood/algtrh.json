@@ -2,7 +2,7 @@
   "identity": {
     "slug": "algtrh",
     "symbol": "ALGT",
-    "name": "Allegiant Travel CO • Robinhood Token",
+    "name": "Allegiant Travel CO - Robinhood Token",
     "legacyId": 840,
     "canonicalMarketId": "ALGTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

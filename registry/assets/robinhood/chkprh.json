@@ -2,7 +2,7 @@
   "identity": {
     "slug": "chkprh",
     "symbol": "CHKP",
-    "name": "Check Point Software Technologies Ltd. • Robinhood Token",
+    "name": "Check Point Software Technologies Ltd. - Robinhood Token",
     "legacyId": 1096,
     "canonicalMarketId": "CHKPrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

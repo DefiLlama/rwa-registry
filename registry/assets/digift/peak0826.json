@@ -35,8 +35,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -59,6 +58,9 @@
       "sourceLinks": [
         "https://insights.digift.io/the-first-institutional-grade-tokenized-volatility-strategy-goes-live-on-digift/",
         "https://www.pilgrimpartnersasia.com/in-the-news/press-release-digift-and-pilgrim-partners-asia-launch-peakwater"
+      ],
+      "protocolIds": [
+        3580
       ]
     },
     {

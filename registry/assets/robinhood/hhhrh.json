@@ -2,7 +2,7 @@
   "identity": {
     "slug": "hhhrh",
     "symbol": "HHH",
-    "name": "Howard Hughes Holdings Inc. • Robinhood Token",
+    "name": "Howard Hughes Holdings Inc. - Robinhood Token",
     "legacyId": 1518,
     "canonicalMarketId": "HHHrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

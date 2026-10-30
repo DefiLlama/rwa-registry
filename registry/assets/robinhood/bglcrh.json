@@ -2,7 +2,7 @@
   "identity": {
     "slug": "bglcrh",
     "symbol": "BGLC",
-    "name": "BioNexus Gene Lab Corp. • Robinhood Token",
+    "name": "BioNexus Gene Lab Corp. - Robinhood Token",
     "legacyId": 974,
     "canonicalMarketId": "BGLCrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

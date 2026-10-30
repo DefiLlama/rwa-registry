@@ -2,7 +2,7 @@
   "identity": {
     "slug": "phmrh",
     "symbol": "PHM",
-    "name": "PulteGroup, Inc. • Robinhood Token",
+    "name": "PulteGroup, Inc. - Robinhood Token",
     "legacyId": 2032,
     "canonicalMarketId": "PHMrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

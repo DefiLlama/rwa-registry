@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ryrh",
     "symbol": "RY",
-    "name": "Royal Bank of Canada • Robinhood Token",
+    "name": "Royal Bank of Canada - Robinhood Token",
     "legacyId": 2175,
     "canonicalMarketId": "RYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

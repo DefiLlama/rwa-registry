@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ieirh",
     "symbol": "IEI",
-    "name": "iShares 3-7 Year Treasury Bond ETF • Robinhood Token",
+    "name": "iShares 3-7 Year Treasury Bond ETF - Robinhood Token",
     "legacyId": 1579,
     "canonicalMarketId": "IEIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

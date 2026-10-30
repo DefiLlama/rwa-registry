@@ -2,7 +2,7 @@
   "identity": {
     "slug": "mlmrh",
     "symbol": "MLM",
-    "name": "Martin Marietta Materials, Inc. • Robinhood Token",
+    "name": "Martin Marietta Materials, Inc. - Robinhood Token",
     "legacyId": 1807,
     "canonicalMarketId": "MLMrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

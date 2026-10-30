@@ -2,7 +2,7 @@
   "identity": {
     "slug": "lngrh",
     "symbol": "LNG",
-    "name": "Cheniere Energy, Inc. • Robinhood Token",
+    "name": "Cheniere Energy, Inc. - Robinhood Token",
     "legacyId": 1736,
     "canonicalMarketId": "LNGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

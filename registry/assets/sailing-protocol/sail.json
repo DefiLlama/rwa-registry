@@ -42,15 +42,24 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
+  "deployments": [
+    {
+      "chain": "ethereum",
+      "address": null,
+      "primary": true
+    }
+  ],
   "roles": [
     {
       "organization": "sailing-finance",
       "kind": "issuer",
       "sourceLinks": [
         "https://sailing.finance"
+      ],
+      "protocolIds": [
+        3831
       ]
     }
   ]

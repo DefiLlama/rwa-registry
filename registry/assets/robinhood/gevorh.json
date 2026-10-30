@@ -2,7 +2,7 @@
   "identity": {
     "slug": "gevorh",
     "symbol": "GEVO",
-    "name": "Gevo, Inc. • Robinhood Token",
+    "name": "Gevo, Inc. - Robinhood Token",
     "legacyId": 1442,
     "canonicalMarketId": "GEVOrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

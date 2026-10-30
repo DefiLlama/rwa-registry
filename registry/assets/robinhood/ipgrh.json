@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ipgrh",
     "symbol": "IPG",
-    "name": "The Interpublic Group of Companies, Inc. • Robinhood Token",
+    "name": "The Interpublic Group of Companies, Inc. - Robinhood Token",
     "legacyId": 1612,
     "canonicalMarketId": "IPGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

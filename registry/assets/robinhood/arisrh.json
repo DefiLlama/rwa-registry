@@ -2,7 +2,7 @@
   "identity": {
     "slug": "arisrh",
     "symbol": "ARIS",
-    "name": "Aris Mining • Robinhood Token",
+    "name": "Aris Mining - Robinhood Token",
     "legacyId": 2794,
     "canonicalMarketId": "ARISrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

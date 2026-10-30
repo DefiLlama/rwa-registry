@@ -2,7 +2,7 @@
   "identity": {
     "slug": "wwrh",
     "symbol": "WW",
-    "name": "WW International, Inc. • Robinhood Token",
+    "name": "WW International, Inc. - Robinhood Token",
     "legacyId": 2638,
     "canonicalMarketId": "WWrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

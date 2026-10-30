@@ -2,7 +2,7 @@
   "identity": {
     "slug": "grrrrh",
     "symbol": "GRRR",
-    "name": "Gorilla Technology Group Inc. • Robinhood Token",
+    "name": "Gorilla Technology Group Inc. - Robinhood Token",
     "legacyId": 1491,
     "canonicalMarketId": "GRRRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

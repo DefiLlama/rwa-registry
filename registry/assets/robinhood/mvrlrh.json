@@ -2,7 +2,7 @@
   "identity": {
     "slug": "mvrlrh",
     "symbol": "MVRL",
-    "name": "UBS AG • Robinhood Token",
+    "name": "UBS AG - Robinhood Token",
     "legacyId": 1861,
     "canonicalMarketId": "MVRLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

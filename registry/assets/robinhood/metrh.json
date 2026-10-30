@@ -2,7 +2,7 @@
   "identity": {
     "slug": "metrh",
     "symbol": "MET",
-    "name": "MetLife, Inc. • Robinhood Token",
+    "name": "MetLife, Inc. - Robinhood Token",
     "legacyId": 1793,
     "canonicalMarketId": "METrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

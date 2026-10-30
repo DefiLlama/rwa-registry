@@ -2,7 +2,7 @@
   "identity": {
     "slug": "rmdrh",
     "symbol": "RMD",
-    "name": "ResMed Inc. • Robinhood Token",
+    "name": "ResMed Inc. - Robinhood Token",
     "legacyId": 2150,
     "canonicalMarketId": "RMDrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

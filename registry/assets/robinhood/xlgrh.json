@@ -2,7 +2,7 @@
   "identity": {
     "slug": "xlgrh",
     "symbol": "XLG",
-    "name": "Grayscale Large Cap Fund • Robinhood Token",
+    "name": "Grayscale Large Cap Fund - Robinhood Token",
     "legacyId": 2651,
     "canonicalMarketId": "XLGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

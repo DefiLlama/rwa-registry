@@ -2,7 +2,7 @@
   "identity": {
     "slug": "tfpmrh",
     "symbol": "TFPM",
-    "name": "Triple Flag Precious Metals Corp. • Robinhood Token",
+    "name": "Triple Flag Precious Metals Corp. - Robinhood Token",
     "legacyId": 2388,
     "canonicalMarketId": "TFPMrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

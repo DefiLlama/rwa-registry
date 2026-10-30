@@ -2,7 +2,7 @@
   "identity": {
     "slug": "gpnrh",
     "symbol": "GPN",
-    "name": "Global Payments Inc. • Robinhood Token",
+    "name": "Global Payments Inc. - Robinhood Token",
     "legacyId": 1482,
     "canonicalMarketId": "GPNrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

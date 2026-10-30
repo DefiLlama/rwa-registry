@@ -2,7 +2,7 @@
   "identity": {
     "slug": "xlurh",
     "symbol": "XLU",
-    "name": "State Street Utilities Select Sector SPDR ETF • Robinhood Token",
+    "name": "State Street Utilities Select Sector SPDR ETF - Robinhood Token",
     "legacyId": 2654,
     "canonicalMarketId": "XLUrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

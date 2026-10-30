@@ -12,7 +12,7 @@
   "class": {
     "structure": "gold",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "gold-commodities"
     ]
@@ -26,7 +26,7 @@
     "attestationFrequency": "Not publicly disclosed"
   },
   "about": {
-    "description": "XAUt0 is an omnichain format designed to provide cross-chain mobility for Tether’s gold token. The system locks XAUt on Ethereum in an OFT Adapter contract and mints/burns XAUt0 across supported chains via LayerZero messaging. Tokenholders are not direct holders of the underlying gold, physical redemption remains through the underlying XAUt issuer process (including onboarding/KYC), while XAUt0 can be transferred and bridged across supported networks.",
+    "description": "XAUt0 is an omnichain format designed to provide cross-chain mobility for Tether's gold token. The system locks XAUt on Ethereum in an OFT Adapter contract and mints/burns XAUt0 across supported chains via LayerZero messaging. Tokenholders are not direct holders of the underlying gold, physical redemption remains through the underlying XAUt issuer process (including onboarding/KYC), while XAUt0 can be transferred and bridged across supported networks.",
     "logo": "https://icons.llamao.fi/icons/rwa/xaut0.png?w=48&h=48",
     "links": {
       "website": [
@@ -37,8 +37,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -102,6 +101,10 @@
       "chain": "stable",
       "address": "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb",
       "deployedAt": "2025-10-30"
+    },
+    {
+      "chain": "hyperliquid",
+      "address": null
     }
   ],
   "roles": [

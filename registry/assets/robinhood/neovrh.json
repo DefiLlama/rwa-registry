@@ -2,7 +2,7 @@
   "identity": {
     "slug": "neovrh",
     "symbol": "NEOV",
-    "name": "NeoVolta, Inc. • Robinhood Token",
+    "name": "NeoVolta, Inc. - Robinhood Token",
     "legacyId": 1882,
     "canonicalMarketId": "NEOVrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

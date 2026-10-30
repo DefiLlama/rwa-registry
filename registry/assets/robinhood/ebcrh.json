@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ebcrh",
     "symbol": "EBC",
-    "name": "Eastern Bankshares, Inc. • Robinhood Token",
+    "name": "Eastern Bankshares, Inc. - Robinhood Token",
     "legacyId": 1267,
     "canonicalMarketId": "EBCrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "lfmdrh",
     "symbol": "LFMD",
-    "name": "LifeMD, Inc. • Robinhood Token",
+    "name": "LifeMD, Inc. - Robinhood Token",
     "legacyId": 1724,
     "canonicalMarketId": "LFMDrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

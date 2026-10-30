@@ -2,7 +2,7 @@
   "identity": {
     "slug": "allwrh",
     "symbol": "ALLW",
-    "name": "State Street Bridgewater All Weather ETF • Robinhood Token",
+    "name": "State Street Bridgewater All Weather ETF - Robinhood Token",
     "legacyId": 846,
     "canonicalMarketId": "ALLWrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

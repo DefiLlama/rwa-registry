@@ -12,7 +12,7 @@
   "class": {
     "structure": "mmf",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "bond-mmf-funds"
     ]
@@ -30,14 +30,12 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "LU2900381208",
-        "source": null,
-        "verified": false
+        "value": "LU2900381208"
       }
     ]
   },
   "about": {
-    "description": "gBENJI is a DeFi-oriented representation of BENJI, designed to make Franklin Templeton’s onchain money market fund exposure easier to integrate into lending, liquidity, and collateral workflows. It keeps the economic exposure tied to the underlying Franklin OnChain U.S. Government Money Fund (FOBXX), which targets liquidity and principal stability while earning current income from U.S. government securities, cash, and government-collateralized repurchase agreements.",
+    "description": "gBENJI is a DeFi-oriented representation of BENJI, designed to make Franklin Templeton's onchain money market fund exposure easier to integrate into lending, liquidity, and collateral workflows. It keeps the economic exposure tied to the underlying Franklin OnChain U.S. Government Money Fund (FOBXX), which targets liquidity and principal stability while earning current income from U.S. government securities, cash, and government-collateralized repurchase agreements.",
     "logo": "https://icons.llamao.fi/icons/rwa/gbenji.png?w=48&h=48",
     "links": {
       "website": [
@@ -48,8 +46,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

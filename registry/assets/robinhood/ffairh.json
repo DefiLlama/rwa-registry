@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ffairh",
     "symbol": "FFAI",
-    "name": "Faraday Future Intelligent Electric Inc. • Robinhood Token",
+    "name": "Faraday Future Intelligent Electric Inc. - Robinhood Token",
     "legacyId": 1367,
     "canonicalMarketId": "FFAIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

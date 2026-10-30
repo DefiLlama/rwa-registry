@@ -2,7 +2,7 @@
   "identity": {
     "slug": "aipirh",
     "symbol": "AIPI",
-    "name": "Active Integrated Pharma Index ETF • Robinhood Token",
+    "name": "Active Integrated Pharma Index ETF - Robinhood Token",
     "legacyId": 827,
     "canonicalMarketId": "AIPIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

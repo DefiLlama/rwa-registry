@@ -2,7 +2,7 @@
   "identity": {
     "slug": "smrh",
     "symbol": "SM",
-    "name": "SM Energy • Robinhood Token",
+    "name": "SM Energy - Robinhood Token",
     "legacyId": 2268,
     "canonicalMarketId": "SMrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

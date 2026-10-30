@@ -2,7 +2,7 @@
   "identity": {
     "slug": "qqqrh",
     "symbol": "QQQ",
-    "name": "Invesco QQQ Trust, Series 1 • Robinhood Token",
+    "name": "Invesco QQQ Trust, Series 1 - Robinhood Token",
     "legacyId": 2108,
     "canonicalMarketId": "QQQrh"
   },
@@ -27,9 +27,7 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "US46090E1038",
-        "source": null,
-        "verified": false
+        "value": "US46090E1038"
       }
     ]
   },
@@ -45,8 +43,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -77,6 +74,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://robinhood.com/eu/en/about/"
+      ],
+      "protocolIds": [
+        3732
       ]
     },
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "imnmrh",
     "symbol": "IMNM",
-    "name": "Immunome, Inc. • Robinhood Token",
+    "name": "Immunome, Inc. - Robinhood Token",
     "legacyId": 1591,
     "canonicalMarketId": "IMNMrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

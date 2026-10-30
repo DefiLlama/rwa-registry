@@ -2,7 +2,7 @@
   "identity": {
     "slug": "aspirh",
     "symbol": "ASPI",
-    "name": "ASP Isotopes Inc. • Robinhood Token",
+    "name": "ASP Isotopes Inc. - Robinhood Token",
     "legacyId": 918,
     "canonicalMarketId": "ASPIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

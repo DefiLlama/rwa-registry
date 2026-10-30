@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ivwrh",
     "symbol": "IVW",
-    "name": "iShares S&P Mid-Cap Value ETF • Robinhood Token",
+    "name": "iShares S&P Mid-Cap Value ETF - Robinhood Token",
     "legacyId": 1632,
     "canonicalMarketId": "IVWrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

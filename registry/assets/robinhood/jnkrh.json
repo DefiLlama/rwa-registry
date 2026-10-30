@@ -2,7 +2,7 @@
   "identity": {
     "slug": "jnkrh",
     "symbol": "JNK",
-    "name": "iShares High Yield Corporate Bond ETF • Robinhood Token",
+    "name": "iShares High Yield Corporate Bond ETF - Robinhood Token",
     "legacyId": 1657,
     "canonicalMarketId": "JNKrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

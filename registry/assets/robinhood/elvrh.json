@@ -2,7 +2,7 @@
   "identity": {
     "slug": "elvrh",
     "symbol": "ELV",
-    "name": "Elevance Health, Inc. • Robinhood Token",
+    "name": "Elevance Health, Inc. - Robinhood Token",
     "legacyId": 1285,
     "canonicalMarketId": "ELVrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

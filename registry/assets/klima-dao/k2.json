@@ -31,7 +31,7 @@
     ]
   },
   "about": {
-    "description": "K2 is the governance and incentive token of Klima Protocol’s dual-token architecture on Base. It helps coordinate emissions and liquidity incentives and complements kVCM, the carbon-backed asset used by the protocol for acquiring and retiring carbon credits.",
+    "description": "K2 is the governance and incentive token of Klima Protocol's dual-token architecture on Base. It helps coordinate emissions and liquidity incentives and complements kVCM, the carbon-backed asset used by the protocol for acquiring and retiring carbon credits.",
     "logo": "https://icons.llamao.fi/icons/rwa/klima-protocol-k2.png?w=48&h=48",
     "links": {
       "website": [
@@ -42,8 +42,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

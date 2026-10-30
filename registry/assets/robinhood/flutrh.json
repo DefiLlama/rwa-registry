@@ -2,7 +2,7 @@
   "identity": {
     "slug": "flutrh",
     "symbol": "FLUT",
-    "name": "Flutter Entertainment plc • Robinhood Token",
+    "name": "Flutter Entertainment plc - Robinhood Token",
     "legacyId": 1386,
     "canonicalMarketId": "FLUTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

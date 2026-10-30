@@ -2,7 +2,7 @@
   "identity": {
     "slug": "sidurh",
     "symbol": "SIDU",
-    "name": "Sidus Space, Inc. • Robinhood Token",
+    "name": "Sidus Space, Inc. - Robinhood Token",
     "legacyId": 2236,
     "canonicalMarketId": "SIDUrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

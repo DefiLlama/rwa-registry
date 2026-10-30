@@ -2,7 +2,7 @@
   "identity": {
     "slug": "edzrh",
     "symbol": "EDZ",
-    "name": "Direxion Daily MSCI Emerging Markets Bear 3X ETF • Robinhood Token",
+    "name": "Direxion Daily MSCI Emerging Markets Bear 3X ETF - Robinhood Token",
     "legacyId": 1274,
     "canonicalMarketId": "EDZrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

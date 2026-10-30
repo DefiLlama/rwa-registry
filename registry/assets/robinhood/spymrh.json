@@ -2,7 +2,7 @@
   "identity": {
     "slug": "spymrh",
     "symbol": "SPYM",
-    "name": "State Street SPDR Portfolio S&P 500 ETF • Robinhood Token",
+    "name": "State Street SPDR Portfolio S&P 500 ETF - Robinhood Token",
     "legacyId": 2319,
     "canonicalMarketId": "SPYMrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

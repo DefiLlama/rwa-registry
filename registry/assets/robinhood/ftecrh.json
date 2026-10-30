@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ftecrh",
     "symbol": "FTEC",
-    "name": "Fidelity Technology ETF • Robinhood Token",
+    "name": "Fidelity Technology ETF - Robinhood Token",
     "legacyId": 1410,
     "canonicalMarketId": "FTECrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -12,7 +12,7 @@
   "class": {
     "structure": "equity-etf",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "etfs"
     ]
@@ -31,9 +31,7 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "AE000A4AVFT1",
-        "source": null,
-        "verified": false
+        "value": "AE000A4AVFT1"
       }
     ]
   },

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "vcshrh",
     "symbol": "VCSH",
-    "name": "Vanguard Short-Term Corporate Bond ETF • Robinhood Token",
+    "name": "Vanguard Short-Term Corporate Bond ETF - Robinhood Token",
     "legacyId": 2528,
     "canonicalMarketId": "VCSHrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

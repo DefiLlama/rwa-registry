@@ -12,7 +12,7 @@
   "class": {
     "structure": "stock-backed",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "stocks-equities"
     ]
@@ -30,9 +30,7 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "CH1173294203",
-        "source": null,
-        "verified": false
+        "value": "CH1173294203"
       }
     ]
   },
@@ -48,8 +46,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -159,6 +156,10 @@
       "chain": "bsc",
       "address": "0x14a5f2872396802c3cc8942a39ab3e4118ee5038",
       "deployedAt": null
+    },
+    {
+      "chain": "fantom",
+      "address": null
     }
   ],
   "roles": [

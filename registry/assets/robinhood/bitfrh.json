@@ -2,7 +2,7 @@
   "identity": {
     "slug": "bitfrh",
     "symbol": "BITF",
-    "name": "Bitfarms • Robinhood Token",
+    "name": "Bitfarms - Robinhood Token",
     "legacyId": 985,
     "canonicalMarketId": "BITFrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

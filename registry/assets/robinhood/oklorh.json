@@ -2,7 +2,7 @@
   "identity": {
     "slug": "oklorh",
     "symbol": "OKLO",
-    "name": "Oklo Inc. • Robinhood Token",
+    "name": "Oklo Inc. - Robinhood Token",
     "legacyId": 1958,
     "canonicalMarketId": "OKLOrh"
   },
@@ -27,9 +27,7 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "US02156V1098",
-        "source": null,
-        "verified": false
+        "value": "US02156V1098"
       }
     ]
   },
@@ -45,8 +43,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -77,6 +74,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://robinhood.com/eu/en/about/"
+      ],
+      "protocolIds": [
+        3732
       ]
     },
     {

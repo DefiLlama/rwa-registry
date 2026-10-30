@@ -2,7 +2,7 @@
   "identity": {
     "slug": "bwarh",
     "symbol": "BWA",
-    "name": "BorgWarner Inc. • Robinhood Token",
+    "name": "BorgWarner Inc. - Robinhood Token",
     "legacyId": 1043,
     "canonicalMarketId": "BWArh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "dkngrh",
     "symbol": "DKNG",
-    "name": "DraftKings Inc. • Robinhood Token",
+    "name": "DraftKings Inc. - Robinhood Token",
     "legacyId": 1236,
     "canonicalMarketId": "DKNGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

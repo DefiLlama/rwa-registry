@@ -2,7 +2,7 @@
   "identity": {
     "slug": "pfgrh",
     "symbol": "PFG",
-    "name": "Principal Financial Group, Inc. • Robinhood Token",
+    "name": "Principal Financial Group, Inc. - Robinhood Token",
     "legacyId": 2023,
     "canonicalMarketId": "PFGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

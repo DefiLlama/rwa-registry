@@ -2,7 +2,7 @@
   "identity": {
     "slug": "adberh",
     "symbol": "ADBE",
-    "name": "Adobe Inc. • Robinhood Token",
+    "name": "Adobe Inc. - Robinhood Token",
     "legacyId": 801,
     "canonicalMarketId": "ADBErh"
   },
@@ -27,9 +27,7 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "US00724F1012",
-        "source": null,
-        "verified": false
+        "value": "US00724F1012"
       }
     ]
   },
@@ -45,8 +43,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -77,6 +74,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://robinhood.com/eu/en/about/"
+      ],
+      "protocolIds": [
+        3732
       ]
     },
     {

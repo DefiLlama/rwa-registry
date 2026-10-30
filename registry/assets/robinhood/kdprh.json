@@ -2,7 +2,7 @@
   "identity": {
     "slug": "kdprh",
     "symbol": "KDP",
-    "name": "Keurig Dr Pepper Inc. • Robinhood Token",
+    "name": "Keurig Dr Pepper Inc. - Robinhood Token",
     "legacyId": 1668,
     "canonicalMarketId": "KDPrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "brk-brh",
     "symbol": "BRK.B",
-    "name": "Berkshire Hathaway Inc. Class B • Robinhood Token",
+    "name": "Berkshire Hathaway Inc. Class B - Robinhood Token",
     "legacyId": 1024,
     "canonicalMarketId": "BRK.Brh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "votrh",
     "symbol": "VOT",
-    "name": "Vanguard Mid-Cap Growth ETF • Robinhood Token",
+    "name": "Vanguard Mid-Cap Growth ETF - Robinhood Token",
     "legacyId": 2804,
     "canonicalMarketId": "VOTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

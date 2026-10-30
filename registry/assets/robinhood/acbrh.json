@@ -2,7 +2,7 @@
   "identity": {
     "slug": "acbrh",
     "symbol": "ACB",
-    "name": "Aurora Cannabis Inc. • Robinhood Token",
+    "name": "Aurora Cannabis Inc. - Robinhood Token",
     "legacyId": 2792,
     "canonicalMarketId": "ACBrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

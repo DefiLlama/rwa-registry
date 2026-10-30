@@ -2,7 +2,7 @@
   "identity": {
     "slug": "bilsrh",
     "symbol": "BILS",
-    "name": "State Street SPDR Bloomberg 3-12 Month T-Bill ETF • Robinhood Token",
+    "name": "State Street SPDR Bloomberg 3-12 Month T-Bill ETF - Robinhood Token",
     "legacyId": 981,
     "canonicalMarketId": "BILSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

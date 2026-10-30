@@ -27,7 +27,7 @@
     "coingeckoId": "hylo-usd"
   },
   "about": {
-    "description": "hyUSD is Hylo’s decentralized stablecoin on Solana. It targets a $1 peg through protocol mint/redeem mechanics for $1 worth of system collateral and risk controls, rather than through offchain cash reserves. The system is paired with xSOL (a leveraged SOL exposure token) and uses internal stability controls. if collateral ratios deteriorate, hyUSD can become exposed to SOL volatility and may depeg. Key risks include collateral/hedge design risk, smart-contract risk, and liquidity risk.",
+    "description": "hyUSD is Hylo's decentralized stablecoin on Solana. It targets a $1 peg through protocol mint/redeem mechanics for $1 worth of system collateral and risk controls, rather than through offchain cash reserves. The system is paired with xSOL (a leveraged SOL exposure token) and uses internal stability controls. if collateral ratios deteriorate, hyUSD can become exposed to SOL volatility and may depeg. Key risks include collateral/hedge design risk, smart-contract risk, and liquidity risk.",
     "logo": "https://icons.llamao.fi/icons/rwa/hylo-usd.png?w=48&h=48",
     "links": {
       "website": [
@@ -38,8 +38,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "lhswrh",
     "symbol": "LHSW",
-    "name": "Lianhe Sowell International Group Ltd. • Robinhood Token",
+    "name": "Lianhe Sowell International Group Ltd. - Robinhood Token",
     "legacyId": 1726,
     "canonicalMarketId": "LHSWrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

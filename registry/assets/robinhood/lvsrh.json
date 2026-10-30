@@ -2,7 +2,7 @@
   "identity": {
     "slug": "lvsrh",
     "symbol": "LVS",
-    "name": "Las Vegas Sands Corp. • Robinhood Token",
+    "name": "Las Vegas Sands Corp. - Robinhood Token",
     "legacyId": 1757,
     "canonicalMarketId": "LVSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "mortrh",
     "symbol": "MORT",
-    "name": "Mortgage Real Estate Investment Trust • Robinhood Token",
+    "name": "Mortgage Real Estate Investment Trust - Robinhood Token",
     "legacyId": 1817,
     "canonicalMarketId": "MORTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

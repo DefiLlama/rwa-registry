@@ -2,7 +2,7 @@
   "identity": {
     "slug": "hodlrh",
     "symbol": "HODL",
-    "name": "VanEck Bitcoin ETF • Robinhood Token",
+    "name": "VanEck Bitcoin ETF - Robinhood Token",
     "legacyId": 1534,
     "canonicalMarketId": "HODLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

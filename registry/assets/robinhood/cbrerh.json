@@ -2,7 +2,7 @@
   "identity": {
     "slug": "cbrerh",
     "symbol": "CBRE",
-    "name": "CBRE Group, Inc. • Robinhood Token",
+    "name": "CBRE Group, Inc. - Robinhood Token",
     "legacyId": 1063,
     "canonicalMarketId": "CBRErh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

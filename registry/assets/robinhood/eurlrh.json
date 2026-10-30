@@ -2,7 +2,7 @@
   "identity": {
     "slug": "eurlrh",
     "symbol": "EURL",
-    "name": "iShares Currency Hedged MSCI EAFE ETF • Robinhood Token",
+    "name": "iShares Currency Hedged MSCI EAFE ETF - Robinhood Token",
     "legacyId": 1320,
     "canonicalMarketId": "EURLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

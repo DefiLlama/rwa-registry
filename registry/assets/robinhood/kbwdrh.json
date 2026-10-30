@@ -2,7 +2,7 @@
   "identity": {
     "slug": "kbwdrh",
     "symbol": "KBWD",
-    "name": "Invesco KBW High Dividend Yield Financial ETF • Robinhood Token",
+    "name": "Invesco KBW High Dividend Yield Financial ETF - Robinhood Token",
     "legacyId": 1667,
     "canonicalMarketId": "KBWDrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "lthrh",
     "symbol": "LTH",
-    "name": "Life Time Group Holdings, Inc. • Robinhood Token",
+    "name": "Life Time Group Holdings, Inc. - Robinhood Token",
     "legacyId": 1750,
     "canonicalMarketId": "LTHrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

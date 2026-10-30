@@ -2,7 +2,7 @@
   "identity": {
     "slug": "sptsrh",
     "symbol": "SPTS",
-    "name": "State Street SPDR Portfolio Short Term Treasury ETF • Robinhood Token",
+    "name": "State Street SPDR Portfolio Short Term Treasury ETF - Robinhood Token",
     "legacyId": 2309,
     "canonicalMarketId": "SPTSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

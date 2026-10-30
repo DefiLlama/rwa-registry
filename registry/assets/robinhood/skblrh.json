@@ -2,7 +2,7 @@
   "identity": {
     "slug": "skblrh",
     "symbol": "SKBL",
-    "name": "Skyline Builders Group Holding Ltd. • Robinhood Token",
+    "name": "Skyline Builders Group Holding Ltd. - Robinhood Token",
     "legacyId": 2241,
     "canonicalMarketId": "SKBLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

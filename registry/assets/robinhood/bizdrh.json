@@ -2,7 +2,7 @@
   "identity": {
     "slug": "bizdrh",
     "symbol": "BIZD",
-    "name": "Bitcoin Inverse ETF • Robinhood Token",
+    "name": "Bitcoin Inverse ETF - Robinhood Token",
     "legacyId": 990,
     "canonicalMarketId": "BIZDrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

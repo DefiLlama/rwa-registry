@@ -2,7 +2,7 @@
   "identity": {
     "slug": "eemrh",
     "symbol": "EEM",
-    "name": "iShares MSCI Emerging Markets ETF • Robinhood Token",
+    "name": "iShares MSCI Emerging Markets ETF - Robinhood Token",
     "legacyId": 1276,
     "canonicalMarketId": "EEMrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

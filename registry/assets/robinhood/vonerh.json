@@ -2,7 +2,7 @@
   "identity": {
     "slug": "vonerh",
     "symbol": "VONE",
-    "name": "Vanguard Russell 1000 ETF • Robinhood Token",
+    "name": "Vanguard Russell 1000 ETF - Robinhood Token",
     "legacyId": 2564,
     "canonicalMarketId": "VONErh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

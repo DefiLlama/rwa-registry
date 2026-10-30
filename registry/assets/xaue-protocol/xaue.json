@@ -26,7 +26,7 @@
     "yieldBearing": true
   },
   "about": {
-    "description": "XAUE is an institutional-grade decentralized asset enhancement protocol built on Ethereum. Serving as the Treasury Layer for Tether Gold (XAUt), it provides institutional holders of non-yielding assets (XAUt/Physical Gold) with a decentralized finance interest-bearing solution. XAUE aims to become a foundational anchor asset for gold and a so-called “qualified margin asset” in a decentralized finance environment",
+    "description": "XAUE is an institutional-grade decentralized asset enhancement protocol built on Ethereum. Serving as the Treasury Layer for Tether Gold (XAUt), it provides institutional holders of non-yielding assets (XAUt/Physical Gold) with a decentralized finance interest-bearing solution. XAUE aims to become a foundational anchor asset for gold and a so-called \"qualified margin asset\" in a decentralized finance environment",
     "logo": "https://icons.llamao.fi/icons/rwa/xaue.png?w=48&h=48",
     "links": {
       "website": [
@@ -37,8 +37,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "bfrgrh",
     "symbol": "BFRG",
-    "name": "BullFrog AI Holdings, Inc. • Robinhood Token",
+    "name": "BullFrog AI Holdings, Inc. - Robinhood Token",
     "legacyId": 973,
     "canonicalMarketId": "BFRGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

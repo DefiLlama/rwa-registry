@@ -12,7 +12,7 @@
   "class": {
     "structure": "reinsurance-pool",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "private-credit"
     ]
@@ -36,7 +36,7 @@
     ]
   },
   "about": {
-    "description": "ONyc is a liquid, composable, yield‑bearing dollar asset issued by OnRe that provides direct exposure to property and casualty reinsurance yield. ONyc represents a proportional share of a regulated segregated account held in a legally ring‑fenced structure in Bermuda and used exclusively to collateralize reinsurance underwriting. The account earns contractual premium income and is adjusted for claims, and ONyc’s NAV updates to reflect that performance (plus collateral returns). ONyc is designed to be driven by real‑world cash flows rather than market‑cycle-dependent incentive mechanics, and it does not rely on staking, leverage, delta‑neutral strategies, liquidity mining, or funding‑rate dynamics. It is not a stablecoin, corporate credit, or a tokenized hedge fund.",
+    "description": "ONyc is a liquid, composable, yield-bearing dollar asset issued by OnRe that provides direct exposure to property and casualty reinsurance yield. ONyc represents a proportional share of a regulated segregated account held in a legally ring-fenced structure in Bermuda and used exclusively to collateralize reinsurance underwriting. The account earns contractual premium income and is adjusted for claims, and ONyc's NAV updates to reflect that performance (plus collateral returns). ONyc is designed to be driven by real-world cash flows rather than market-cycle-dependent incentive mechanics, and it does not rely on staking, leverage, delta-neutral strategies, liquidity mining, or funding-rate dynamics. It is not a stablecoin, corporate credit, or a tokenized hedge fund.",
     "logo": "https://icons.llamao.fi/icons/rwa/onyc.png?w=48&h=48",
     "links": {
       "website": [
@@ -47,8 +47,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -114,6 +113,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://www.onre.finance/"
+      ],
+      "protocolIds": [
+        6432
       ]
     }
   ],

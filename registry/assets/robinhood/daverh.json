@@ -2,7 +2,7 @@
   "identity": {
     "slug": "daverh",
     "symbol": "DAVE",
-    "name": "Dave Inc. • Robinhood Token",
+    "name": "Dave Inc. - Robinhood Token",
     "legacyId": 1207,
     "canonicalMarketId": "DAVErh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

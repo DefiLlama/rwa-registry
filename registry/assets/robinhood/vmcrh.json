@@ -2,7 +2,7 @@
   "identity": {
     "slug": "vmcrh",
     "symbol": "VMC",
-    "name": "Vulcan Materials CO • Robinhood Token",
+    "name": "Vulcan Materials CO - Robinhood Token",
     "legacyId": 2560,
     "canonicalMarketId": "VMCrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

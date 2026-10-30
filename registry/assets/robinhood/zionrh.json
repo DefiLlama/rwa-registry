@@ -2,7 +2,7 @@
   "identity": {
     "slug": "zionrh",
     "symbol": "ZION",
-    "name": "Zions Bancorporation, National Association • Robinhood Token",
+    "name": "Zions Bancorporation, National Association - Robinhood Token",
     "legacyId": 2802,
     "canonicalMarketId": "ZIONrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

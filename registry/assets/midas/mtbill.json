@@ -12,7 +12,7 @@
   "class": {
     "structure": "t-bills",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "bond-mmf-funds"
     ]
@@ -29,7 +29,7 @@
     "coingeckoId": "midas-mtbill"
   },
   "about": {
-    "description": "mTBILL is Midas’s tokenized Treasury-style cash management product designed to deliver short-term rates in a transferable format. It is built as a yield token whose value is intended to reflect the performance of an underlying conservative collateral base, and it is commonly used as collateral in DeFi lending venues where a transparent reserve view and redemption pathway are important for risk management.",
+    "description": "mTBILL is Midas's tokenized Treasury-style cash management product designed to deliver short-term rates in a transferable format. It is built as a yield token whose value is intended to reflect the performance of an underlying conservative collateral base, and it is commonly used as collateral in DeFi lending venues where a transparent reserve view and redemption pathway are important for risk management.",
     "logo": "https://icons.llamao.fi/icons/rwa/mtbill.png?w=48&h=48",
     "links": {
       "website": [
@@ -40,8 +40,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -99,6 +98,10 @@
       "chain": "rsk",
       "address": "0xdd629e5241cbc5919847783e6c96b2de4754e438",
       "deployedAt": "2025-02-27"
+    },
+    {
+      "chain": "etlk",
+      "address": null
     }
   ],
   "roles": [

@@ -29,7 +29,7 @@
     "coingeckoId": "mony"
   },
   "about": {
-    "description": "MONY is J.P. Morgan Asset Management’s tokenized money market fund structured as a Rule 506(c) private placement on Ethereum, designed to provide U.S. dollar yield from a portfolio limited to U.S. Treasury securities and repurchase agreements collateralized by U.S. Treasuries. Subscriptions and redemptions are processed daily, the minimum subscription is $1,000,000. The fund charges a 0.16% management fee and is supported by JPMorgan Chase & Co. for custody and fund administration,",
+    "description": "MONY is J.P. Morgan Asset Management's tokenized money market fund structured as a Rule 506(c) private placement on Ethereum, designed to provide U.S. dollar yield from a portfolio limited to U.S. Treasury securities and repurchase agreements collateralized by U.S. Treasuries. Subscriptions and redemptions are processed daily, the minimum subscription is $1,000,000. The fund charges a 0.16% management fee and is supported by JPMorgan Chase & Co. for custody and fund administration,",
     "logo": "https://icons.llamao.fi/icons/rwa/mony.png?w=48&h=48",
     "links": {
       "website": [
@@ -42,8 +42,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

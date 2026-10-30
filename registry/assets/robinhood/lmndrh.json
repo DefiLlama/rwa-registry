@@ -2,7 +2,7 @@
   "identity": {
     "slug": "lmndrh",
     "symbol": "LMND",
-    "name": "Lemonade, Inc. • Robinhood Token",
+    "name": "Lemonade, Inc. - Robinhood Token",
     "legacyId": 1734,
     "canonicalMarketId": "LMNDrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

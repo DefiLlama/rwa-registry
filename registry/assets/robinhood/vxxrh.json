@@ -2,7 +2,7 @@
   "identity": {
     "slug": "vxxrh",
     "symbol": "VXX",
-    "name": "Barclays Bank plc • Robinhood Token",
+    "name": "Barclays Bank plc - Robinhood Token",
     "legacyId": 2595,
     "canonicalMarketId": "VXXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

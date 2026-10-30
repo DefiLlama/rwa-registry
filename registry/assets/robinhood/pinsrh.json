@@ -2,7 +2,7 @@
   "identity": {
     "slug": "pinsrh",
     "symbol": "PINS",
-    "name": "Pinterest, Inc. • Robinhood Token",
+    "name": "Pinterest, Inc. - Robinhood Token",
     "legacyId": 2037,
     "canonicalMarketId": "PINSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

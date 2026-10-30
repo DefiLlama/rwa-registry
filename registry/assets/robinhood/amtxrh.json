@@ -2,7 +2,7 @@
   "identity": {
     "slug": "amtxrh",
     "symbol": "AMTX",
-    "name": "Aemetis, Inc. • Robinhood Token",
+    "name": "Aemetis, Inc. - Robinhood Token",
     "legacyId": 866,
     "canonicalMarketId": "AMTXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

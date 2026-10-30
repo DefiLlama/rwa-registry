@@ -2,7 +2,7 @@
   "identity": {
     "slug": "tduprh",
     "symbol": "TDUP",
-    "name": "ThredUp Inc. • Robinhood Token",
+    "name": "ThredUp Inc. - Robinhood Token",
     "legacyId": 2375,
     "canonicalMarketId": "TDUPrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "syfrh",
     "symbol": "SYF",
-    "name": "Synchrony Financial • Robinhood Token",
+    "name": "Synchrony Financial - Robinhood Token",
     "legacyId": 2360,
     "canonicalMarketId": "SYFrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

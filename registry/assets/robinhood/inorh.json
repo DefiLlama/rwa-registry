@@ -2,7 +2,7 @@
   "identity": {
     "slug": "inorh",
     "symbol": "INO",
-    "name": "Inovio Pharmaceuticals, Inc. • Robinhood Token",
+    "name": "Inovio Pharmaceuticals, Inc. - Robinhood Token",
     "legacyId": 1603,
     "canonicalMarketId": "INOrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

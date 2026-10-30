@@ -2,7 +2,7 @@
   "identity": {
     "slug": "tnyarh",
     "symbol": "TNYA",
-    "name": "Tenaya Therapeutics, Inc. • Robinhood Token",
+    "name": "Tenaya Therapeutics, Inc. - Robinhood Token",
     "legacyId": 2413,
     "canonicalMarketId": "TNYArh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

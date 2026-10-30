@@ -2,7 +2,7 @@
   "identity": {
     "slug": "keysrh",
     "symbol": "KEYS",
-    "name": "Keysight Technologies, Inc. • Robinhood Token",
+    "name": "Keysight Technologies, Inc. - Robinhood Token",
     "legacyId": 1670,
     "canonicalMarketId": "KEYSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "domhrh",
     "symbol": "DOMH",
-    "name": "Dominari Holdings Inc. • Robinhood Token",
+    "name": "Dominari Holdings Inc. - Robinhood Token",
     "legacyId": 1246,
     "canonicalMarketId": "DOMHrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "amerh",
     "symbol": "AME",
-    "name": "AMETEK, Inc. • Robinhood Token",
+    "name": "AMETEK, Inc. - Robinhood Token",
     "legacyId": 858,
     "canonicalMarketId": "AMErh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

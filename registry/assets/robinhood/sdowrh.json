@@ -2,7 +2,7 @@
   "identity": {
     "slug": "sdowrh",
     "symbol": "SDOW",
-    "name": "ProShares UltraShort Dow Jones Industrial Average • Robinhood Token",
+    "name": "ProShares UltraShort Dow Jones Industrial Average - Robinhood Token",
     "legacyId": 2212,
     "canonicalMarketId": "SDOWrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

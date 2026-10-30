@@ -2,7 +2,7 @@
   "identity": {
     "slug": "dcthrh",
     "symbol": "DCTH",
-    "name": "Delcath Systems, Inc. • Robinhood Token",
+    "name": "Delcath Systems, Inc. - Robinhood Token",
     "legacyId": 1212,
     "canonicalMarketId": "DCTHrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

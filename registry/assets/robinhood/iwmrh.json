@@ -2,7 +2,7 @@
   "identity": {
     "slug": "iwmrh",
     "symbol": "IWM",
-    "name": "iShares Russell 2000 ETF • Robinhood Token",
+    "name": "iShares Russell 2000 ETF - Robinhood Token",
     "legacyId": 1637,
     "canonicalMarketId": "IWMrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

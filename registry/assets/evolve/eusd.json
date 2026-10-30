@@ -39,8 +39,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -64,6 +63,9 @@
         "https://docs.goevolve.xyz/about-evolve",
         "https://docs.goevolve.xyz/legal-documents/privacy-policy",
         "https://goevolve.xyz/"
+      ],
+      "protocolIds": [
+        2234
       ]
     }
   ]

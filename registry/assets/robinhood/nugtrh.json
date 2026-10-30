@@ -2,7 +2,7 @@
   "identity": {
     "slug": "nugtrh",
     "symbol": "NUGT",
-    "name": "Direxion Daily Gold Miners Index Bull 2X ETF • Robinhood Token",
+    "name": "Direxion Daily Gold Miners Index Bull 2X ETF - Robinhood Token",
     "legacyId": 1921,
     "canonicalMarketId": "NUGTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

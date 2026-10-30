@@ -2,7 +2,7 @@
   "identity": {
     "slug": "blmnrh",
     "symbol": "BLMN",
-    "name": "Bloomin' Brands, Inc. • Robinhood Token",
+    "name": "Bloomin' Brands, Inc. - Robinhood Token",
     "legacyId": 1003,
     "canonicalMarketId": "BLMNrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

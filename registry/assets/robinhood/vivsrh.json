@@ -2,7 +2,7 @@
   "identity": {
     "slug": "vivsrh",
     "symbol": "VIVS",
-    "name": "VivoSim Labs, Inc. • Robinhood Token",
+    "name": "VivoSim Labs, Inc. - Robinhood Token",
     "legacyId": 2553,
     "canonicalMarketId": "VIVSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

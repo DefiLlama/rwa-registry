@@ -2,7 +2,7 @@
   "identity": {
     "slug": "dhirh",
     "symbol": "DHI",
-    "name": "D.R. Horton, Inc. • Robinhood Token",
+    "name": "D.R. Horton, Inc. - Robinhood Token",
     "legacyId": 1228,
     "canonicalMarketId": "DHIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

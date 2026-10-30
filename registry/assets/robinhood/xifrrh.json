@@ -2,7 +2,7 @@
   "identity": {
     "slug": "xifrrh",
     "symbol": "XIFR",
-    "name": "XPLR Infrastructure, LP • Robinhood Token",
+    "name": "XPLR Infrastructure, LP - Robinhood Token",
     "legacyId": 2647,
     "canonicalMarketId": "XIFRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "urtyrh",
     "symbol": "URTY",
-    "name": "ProShares Ultra Russell 2000 • Robinhood Token",
+    "name": "ProShares Ultra Russell 2000 - Robinhood Token",
     "legacyId": 2500,
     "canonicalMarketId": "URTYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

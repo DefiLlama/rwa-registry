@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ptlorh",
     "symbol": "PTLO",
-    "name": "Portillo's Inc. • Robinhood Token",
+    "name": "Portillo's Inc. - Robinhood Token",
     "legacyId": 2784,
     "canonicalMarketId": "PTLOrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

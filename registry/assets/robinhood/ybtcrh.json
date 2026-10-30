@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ybtcrh",
     "symbol": "YBTC",
-    "name": "Purpose Bitcoin ETF • Robinhood Token",
+    "name": "Purpose Bitcoin ETF - Robinhood Token",
     "legacyId": 2675,
     "canonicalMarketId": "YBTCrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

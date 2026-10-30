@@ -2,7 +2,7 @@
   "identity": {
     "slug": "pallrh",
     "symbol": "PALL",
-    "name": "abrdn Palladium ETF Trust • Robinhood Token",
+    "name": "abrdn Palladium ETF Trust - Robinhood Token",
     "legacyId": 1996,
     "canonicalMarketId": "PALLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -12,7 +12,7 @@
   "class": {
     "structure": "other-exotic",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "other-rwas"
     ]
@@ -35,8 +35,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -52,6 +51,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://tokeshare.co/stellar/tfw001"
+      ],
+      "protocolIds": [
+        8438
       ]
     }
   ],

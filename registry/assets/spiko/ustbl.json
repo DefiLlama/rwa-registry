@@ -12,7 +12,7 @@
   "class": {
     "structure": "t-bills",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "bond-mmf-funds"
     ]
@@ -31,14 +31,12 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "FR001400ODM9",
-        "source": null,
-        "verified": false
+        "value": "FR001400ODM9"
       }
     ]
   },
   "about": {
-    "description": "USTBL represents tokenized shares of Spiko’s U.S. T‑Bills money market fund, a regulated EU-domiciled, French AMF-approved UCITS short‑term VNAV money market fund (Spiko SICAV) managed by Twenty First Capital. Service providers include CACEIS (custodian and fund admin), BNY (sub-custodian for U.S. T-bills), and PwC (fund auditor), and Chainlink publishes the daily token value onchain. The fund invests primarily in U.S. Treasury bills, and Treasury‑secured repurchase agreements, with limited cash, targeting short-term risk-free returns. NAV is calculated on each business day, and shares are designed for cash management with frequent subscriptions and redemptions.",
+    "description": "USTBL represents tokenized shares of Spiko's U.S. T-Bills money market fund, a regulated EU-domiciled, French AMF-approved UCITS short-term VNAV money market fund (Spiko SICAV) managed by Twenty First Capital. Service providers include CACEIS (custodian and fund admin), BNY (sub-custodian for U.S. T-bills), and PwC (fund auditor), and Chainlink publishes the daily token value onchain. The fund invests primarily in U.S. Treasury bills, and Treasury-secured repurchase agreements, with limited cash, targeting short-term risk-free returns. NAV is calculated on each business day, and shares are designed for cash management with frequent subscriptions and redemptions.",
     "logo": "https://icons.llamao.fi/icons/rwa/ustbl.png?w=48&h=48",
     "links": {
       "website": [
@@ -49,8 +47,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

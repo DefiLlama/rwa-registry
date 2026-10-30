@@ -2,7 +2,7 @@
   "identity": {
     "slug": "lmtrh",
     "symbol": "LMT",
-    "name": "Lockheed Martin Corp. • Robinhood Token",
+    "name": "Lockheed Martin Corp. - Robinhood Token",
     "legacyId": 1735,
     "canonicalMarketId": "LMTrh"
   },
@@ -35,8 +35,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -67,6 +66,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://robinhood.com/eu/en/about/"
+      ],
+      "protocolIds": [
+        3732
       ]
     },
     {

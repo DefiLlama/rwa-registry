@@ -2,7 +2,7 @@
   "identity": {
     "slug": "tplrh",
     "symbol": "TPL",
-    "name": "Texas Pacific Land Corp. • Robinhood Token",
+    "name": "Texas Pacific Land Corp. - Robinhood Token",
     "legacyId": 2417,
     "canonicalMarketId": "TPLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

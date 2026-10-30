@@ -2,7 +2,7 @@
   "identity": {
     "slug": "laesrh",
     "symbol": "LAES",
-    "name": "SEALSQ Corp. • Robinhood Token",
+    "name": "SEALSQ Corp. - Robinhood Token",
     "legacyId": 1708,
     "canonicalMarketId": "LAESrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

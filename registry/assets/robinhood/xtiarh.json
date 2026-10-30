@@ -2,7 +2,7 @@
   "identity": {
     "slug": "xtiarh",
     "symbol": "XTIA",
-    "name": "XTI Aerospace, Inc. • Robinhood Token",
+    "name": "XTI Aerospace, Inc. - Robinhood Token",
     "legacyId": 2665,
     "canonicalMarketId": "XTIArh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

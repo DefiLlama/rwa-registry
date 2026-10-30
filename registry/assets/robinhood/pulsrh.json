@@ -2,7 +2,7 @@
   "identity": {
     "slug": "pulsrh",
     "symbol": "PULS",
-    "name": "Pulsus Health ETF • Robinhood Token",
+    "name": "Pulsus Health ETF - Robinhood Token",
     "legacyId": 2090,
     "canonicalMarketId": "PULSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

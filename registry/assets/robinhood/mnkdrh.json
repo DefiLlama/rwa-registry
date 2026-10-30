@@ -2,7 +2,7 @@
   "identity": {
     "slug": "mnkdrh",
     "symbol": "MNKD",
-    "name": "MannKind Corp. • Robinhood Token",
+    "name": "MannKind Corp. - Robinhood Token",
     "legacyId": 1812,
     "canonicalMarketId": "MNKDrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

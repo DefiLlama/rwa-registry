@@ -2,7 +2,7 @@
   "identity": {
     "slug": "bhvnrh",
     "symbol": "BHVN",
-    "name": "Biohaven Ltd. • Robinhood Token",
+    "name": "Biohaven Ltd. - Robinhood Token",
     "legacyId": 977,
     "canonicalMarketId": "BHVNrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

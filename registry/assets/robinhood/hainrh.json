@@ -2,7 +2,7 @@
   "identity": {
     "slug": "hainrh",
     "symbol": "HAIN",
-    "name": "The Hain Celestial Group, Inc. • Robinhood Token",
+    "name": "The Hain Celestial Group, Inc. - Robinhood Token",
     "legacyId": 1506,
     "canonicalMarketId": "HAINrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

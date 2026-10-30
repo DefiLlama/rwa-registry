@@ -2,7 +2,7 @@
   "identity": {
     "slug": "tfcrh",
     "symbol": "TFC",
-    "name": "Truist Financial Corp. • Robinhood Token",
+    "name": "Truist Financial Corp. - Robinhood Token",
     "legacyId": 2386,
     "canonicalMarketId": "TFCrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

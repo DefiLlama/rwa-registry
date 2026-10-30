@@ -2,7 +2,7 @@
   "identity": {
     "slug": "helprh",
     "symbol": "HELP",
-    "name": "Cybin Inc. • Robinhood Token",
+    "name": "Cybin Inc. - Robinhood Token",
     "legacyId": 1516,
     "canonicalMarketId": "HELPrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

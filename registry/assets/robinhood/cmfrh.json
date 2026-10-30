@@ -2,7 +2,7 @@
   "identity": {
     "slug": "cmfrh",
     "symbol": "CMF",
-    "name": "Core Mortgage Fund ETF • Robinhood Token",
+    "name": "Core Mortgage Fund ETF - Robinhood Token",
     "legacyId": 1124,
     "canonicalMarketId": "CMFrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

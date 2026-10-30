@@ -2,7 +2,7 @@
   "identity": {
     "slug": "tbhrh",
     "symbol": "TBH",
-    "name": "Brag House Holdings, Inc. • Robinhood Token",
+    "name": "Brag House Holdings, Inc. - Robinhood Token",
     "legacyId": 2368,
     "canonicalMarketId": "TBHrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

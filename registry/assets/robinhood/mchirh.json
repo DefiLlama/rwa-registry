@@ -2,7 +2,7 @@
   "identity": {
     "slug": "mchirh",
     "symbol": "MCHI",
-    "name": "iShares MSCI China ETF • Robinhood Token",
+    "name": "iShares MSCI China ETF - Robinhood Token",
     "legacyId": 1780,
     "canonicalMarketId": "MCHIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

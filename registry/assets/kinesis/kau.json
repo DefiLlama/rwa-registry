@@ -12,7 +12,7 @@
   "class": {
     "structure": "gold",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "gold-commodities"
     ]
@@ -40,8 +40,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "roles": [
     {
@@ -60,6 +59,13 @@
         "https://kinesis.money/gold/",
         "https://kinesis.money/audits/"
       ]
+    }
+  ],
+  "deployments": [
+    {
+      "chain": "kinesis",
+      "address": null,
+      "primary": true
     }
   ]
 }

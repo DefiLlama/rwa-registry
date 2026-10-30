@@ -2,7 +2,7 @@
   "identity": {
     "slug": "estcrh",
     "symbol": "ESTC",
-    "name": "Elastic N.V. • Robinhood Token",
+    "name": "Elastic N.V. - Robinhood Token",
     "legacyId": 1309,
     "canonicalMarketId": "ESTCrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

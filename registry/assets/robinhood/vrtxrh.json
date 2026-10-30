@@ -2,7 +2,7 @@
   "identity": {
     "slug": "vrtxrh",
     "symbol": "VRTX",
-    "name": "Vertex Pharmaceuticals Inc. • Robinhood Token",
+    "name": "Vertex Pharmaceuticals Inc. - Robinhood Token",
     "legacyId": 2574,
     "canonicalMarketId": "VRTXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

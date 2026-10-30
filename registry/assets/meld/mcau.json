@@ -36,8 +36,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -53,6 +52,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://abr.business.gov.au/ABN/View?id=73638548231"
+      ],
+      "protocolIds": [
+        1360
       ]
     }
   ]

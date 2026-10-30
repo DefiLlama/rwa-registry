@@ -2,7 +2,7 @@
   "identity": {
     "slug": "valrh",
     "symbol": "VAL",
-    "name": "Valaris Ltd. • Robinhood Token",
+    "name": "Valaris Ltd. - Robinhood Token",
     "legacyId": 2521,
     "canonicalMarketId": "VALrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

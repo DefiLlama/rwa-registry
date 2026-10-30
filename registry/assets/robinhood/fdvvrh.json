@@ -2,7 +2,7 @@
   "identity": {
     "slug": "fdvvrh",
     "symbol": "FDVV",
-    "name": "Fidelity U.S. Dividend for Views • Robinhood Token",
+    "name": "Fidelity U.S. Dividend for Views - Robinhood Token",
     "legacyId": 1360,
     "canonicalMarketId": "FDVVrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

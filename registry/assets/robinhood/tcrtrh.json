@@ -2,7 +2,7 @@
   "identity": {
     "slug": "tcrtrh",
     "symbol": "TCRT",
-    "name": "Alaunos Therapeutics, Inc. • Robinhood Token",
+    "name": "Alaunos Therapeutics, Inc. - Robinhood Token",
     "legacyId": 2372,
     "canonicalMarketId": "TCRTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

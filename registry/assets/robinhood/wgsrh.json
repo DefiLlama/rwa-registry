@@ -2,7 +2,7 @@
   "identity": {
     "slug": "wgsrh",
     "symbol": "WGS",
-    "name": "GeneDx Holdings Corp. • Robinhood Token",
+    "name": "GeneDx Holdings Corp. - Robinhood Token",
     "legacyId": 2615,
     "canonicalMarketId": "WGSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

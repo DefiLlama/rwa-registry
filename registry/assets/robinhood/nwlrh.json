@@ -2,7 +2,7 @@
   "identity": {
     "slug": "nwlrh",
     "symbol": "NWL",
-    "name": "Newell Brands Inc. • Robinhood Token",
+    "name": "Newell Brands Inc. - Robinhood Token",
     "legacyId": 1940,
     "canonicalMarketId": "NWLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

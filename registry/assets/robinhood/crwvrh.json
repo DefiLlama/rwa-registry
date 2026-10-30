@@ -2,7 +2,7 @@
   "identity": {
     "slug": "crwvrh",
     "symbol": "CRWV",
-    "name": "CoreWeave, Inc. • Robinhood Token",
+    "name": "CoreWeave, Inc. - Robinhood Token",
     "legacyId": 1178,
     "canonicalMarketId": "CRWVrh"
   },
@@ -27,9 +27,7 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "US21873S1087",
-        "source": null,
-        "verified": false
+        "value": "US21873S1087"
       }
     ]
   },
@@ -45,8 +43,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -77,6 +74,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://robinhood.com/eu/en/about/"
+      ],
+      "protocolIds": [
+        3732
       ]
     },
     {

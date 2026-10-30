@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ndsnrh",
     "symbol": "NDSN",
-    "name": "Nordson Corp. • Robinhood Token",
+    "name": "Nordson Corp. - Robinhood Token",
     "legacyId": 1878,
     "canonicalMarketId": "NDSNrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "avyrh",
     "symbol": "AVY",
-    "name": "Avery Dennison Corp. • Robinhood Token",
+    "name": "Avery Dennison Corp. - Robinhood Token",
     "legacyId": 943,
     "canonicalMarketId": "AVYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

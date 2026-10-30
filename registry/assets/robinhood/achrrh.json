@@ -2,7 +2,7 @@
   "identity": {
     "slug": "achrrh",
     "symbol": "ACHR",
-    "name": "Archer Aviation Inc. • Robinhood Token",
+    "name": "Archer Aviation Inc. - Robinhood Token",
     "legacyId": 794,
     "canonicalMarketId": "ACHRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "iwmirh",
     "symbol": "IWMI",
-    "name": "iShares MSCI International Emerging Markets ETF • Robinhood Token",
+    "name": "iShares MSCI International Emerging Markets ETF - Robinhood Token",
     "legacyId": 1635,
     "canonicalMarketId": "IWMIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

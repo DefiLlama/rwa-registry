@@ -2,7 +2,7 @@
   "identity": {
     "slug": "vsntvrh",
     "symbol": "VSNTV",
-    "name": "Versant Media Group • Robinhood Token",
+    "name": "Versant Media Group - Robinhood Token",
     "legacyId": 2578,
     "canonicalMarketId": "VSNTVrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

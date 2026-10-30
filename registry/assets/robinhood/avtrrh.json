@@ -2,7 +2,7 @@
   "identity": {
     "slug": "avtrrh",
     "symbol": "AVTR",
-    "name": "Avantor, Inc. • Robinhood Token",
+    "name": "Avantor, Inc. - Robinhood Token",
     "legacyId": 940,
     "canonicalMarketId": "AVTRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

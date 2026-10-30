@@ -2,7 +2,7 @@
   "identity": {
     "slug": "noblrh",
     "symbol": "NOBL",
-    "name": "ProShares S&P 500 Dividend Aristocrats ETF • Robinhood Token",
+    "name": "ProShares S&P 500 Dividend Aristocrats ETF - Robinhood Token",
     "legacyId": 1903,
     "canonicalMarketId": "NOBLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

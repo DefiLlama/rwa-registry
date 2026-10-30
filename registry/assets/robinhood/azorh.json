@@ -2,7 +2,7 @@
   "identity": {
     "slug": "azorh",
     "symbol": "AZO",
-    "name": "AutoZone, Inc. • Robinhood Token",
+    "name": "AutoZone, Inc. - Robinhood Token",
     "legacyId": 948,
     "canonicalMarketId": "AZOrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

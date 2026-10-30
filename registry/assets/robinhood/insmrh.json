@@ -2,7 +2,7 @@
   "identity": {
     "slug": "insmrh",
     "symbol": "INSM",
-    "name": "Insmed Inc. • Robinhood Token",
+    "name": "Insmed Inc. - Robinhood Token",
     "legacyId": 1604,
     "canonicalMarketId": "INSMrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

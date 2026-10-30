@@ -2,7 +2,7 @@
   "identity": {
     "slug": "calmrh",
     "symbol": "CALM",
-    "name": "Cal-Maine Foods, Inc. • Robinhood Token",
+    "name": "Cal-Maine Foods, Inc. - Robinhood Token",
     "legacyId": 1054,
     "canonicalMarketId": "CALMrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

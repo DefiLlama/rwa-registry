@@ -2,7 +2,7 @@
   "identity": {
     "slug": "exkrh",
     "symbol": "EXK",
-    "name": "Endeavour Silver Corp. • Robinhood Token",
+    "name": "Endeavour Silver Corp. - Robinhood Token",
     "legacyId": 1340,
     "canonicalMarketId": "EXKrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

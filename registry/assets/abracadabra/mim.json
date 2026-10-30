@@ -28,7 +28,7 @@
     "coingeckoId": "magic-internet-money"
   },
   "about": {
-    "description": "MIM is the stablecoin minted by Abracadabra’s lending markets, where users borrow against interest-bearing crypto collateral (e.g., yield vault shares, LP tokens). Peg stability depends on overcollateralization and liquidation risk management across many collateral types, which can create complex cross-protocol contagion risk. Key risks include collateral depegs, liquidation cascades, oracle risk, and smart-contract risk across the integrated DeFi stack.",
+    "description": "MIM is the stablecoin minted by Abracadabra's lending markets, where users borrow against interest-bearing crypto collateral (e.g., yield vault shares, LP tokens). Peg stability depends on overcollateralization and liquidation risk management across many collateral types, which can create complex cross-protocol contagion risk. Key risks include collateral depegs, liquidation cascades, oracle risk, and smart-contract risk across the integrated DeFi stack.",
     "logo": "https://icons.llamao.fi/icons/rwa/magic-internet-money.png?w=48&h=48",
     "links": {
       "website": [
@@ -39,8 +39,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

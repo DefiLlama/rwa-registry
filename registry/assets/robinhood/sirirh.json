@@ -2,7 +2,7 @@
   "identity": {
     "slug": "sirirh",
     "symbol": "SIRI",
-    "name": "Sirius XM Holdings Inc. • Robinhood Token",
+    "name": "Sirius XM Holdings Inc. - Robinhood Token",
     "legacyId": 2238,
     "canonicalMarketId": "SIRIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

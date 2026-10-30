@@ -29,7 +29,7 @@
     "coingeckoId": "nest-hamilton-lane-scope-vault"
   },
   "about": {
-    "description": "nSCOPE is the receipt token for Nest’s Hamilton Lane SCOPE vault, providing tokenized exposure to Hamilton Lane’s Senior Credit Opportunities Fund, an evergreen senior private credit strategy focused on first-lien senior secured loans with diversified multi-manager sourcing and periodic liquidity. The attached source sheet shows active contracts on Plume, BNB Chain, and Solana. Nest’s smart contract docs later published a separate multichain nSCOPE BoringVault address on Plume, Ethereum, Plasma, and BNB, so the tracked contracts here follow the attached sheet for consistency.",
+    "description": "nSCOPE is the receipt token for Nest's Hamilton Lane SCOPE vault, providing tokenized exposure to Hamilton Lane's Senior Credit Opportunities Fund, an evergreen senior private credit strategy focused on first-lien senior secured loans with diversified multi-manager sourcing and periodic liquidity. The attached source sheet shows active contracts on Plume, BNB Chain, and Solana. Nest's smart contract docs later published a separate multichain nSCOPE BoringVault address on Plume, Ethereum, Plasma, and BNB, so the tracked contracts here follow the attached sheet for consistency.",
     "logo": "https://icons.llamao.fi/icons/rwa/nscope.png?w=48&h=48",
     "links": {
       "website": [
@@ -40,8 +40,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

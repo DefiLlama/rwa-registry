@@ -2,7 +2,7 @@
   "identity": {
     "slug": "gbilrh",
     "symbol": "GBIL",
-    "name": "Goldman Sachs Access Treasury 0-1 Year ETF • Robinhood Token",
+    "name": "Goldman Sachs Access Treasury 0-1 Year ETF - Robinhood Token",
     "legacyId": 1423,
     "canonicalMarketId": "GBILrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

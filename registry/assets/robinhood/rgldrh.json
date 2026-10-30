@@ -2,7 +2,7 @@
   "identity": {
     "slug": "rgldrh",
     "symbol": "RGLD",
-    "name": "Royal Gold, Inc. • Robinhood Token",
+    "name": "Royal Gold, Inc. - Robinhood Token",
     "legacyId": 2134,
     "canonicalMarketId": "RGLDrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

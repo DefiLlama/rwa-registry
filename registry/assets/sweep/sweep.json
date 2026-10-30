@@ -26,7 +26,7 @@
     "coingeckoId": "sweep-token"
   },
   "about": {
-    "description": "SWEEP is a USD-denominated stable asset positioned as a “savings coin.” The design centers on stabilization modules and issuance controls (“stabilizers”) intended to support USD price stability while routing yield through protocol mechanisms.",
+    "description": "SWEEP is a USD-denominated stable asset positioned as a \"savings coin.\" The design centers on stabilization modules and issuance controls (\"stabilizers\") intended to support USD price stability while routing yield through protocol mechanisms.",
     "logo": "https://icons.llamao.fi/icons/rwa/sweep.png?w=48&h=48",
     "links": {
       "website": [
@@ -37,8 +37,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -56,6 +55,9 @@
         "https://www.sweepr.finance",
         "https://coinmarketcap.com/currencies/sweeptoken/",
         "https://www.coingecko.com/en/coins/sweep-token"
+      ],
+      "protocolIds": [
+        3795
       ]
     }
   ]

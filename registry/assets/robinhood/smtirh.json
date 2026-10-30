@@ -2,7 +2,7 @@
   "identity": {
     "slug": "smtirh",
     "symbol": "SMTI",
-    "name": "Sanara MedTech Inc. • Robinhood Token",
+    "name": "Sanara MedTech Inc. - Robinhood Token",
     "legacyId": 2266,
     "canonicalMarketId": "SMTIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "lunrrh",
     "symbol": "LUNR",
-    "name": "Intuitive Machines, Inc. • Robinhood Token",
+    "name": "Intuitive Machines, Inc. - Robinhood Token",
     "legacyId": 1755,
     "canonicalMarketId": "LUNRrh"
   },
@@ -27,9 +27,7 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "US46125A1007",
-        "source": null,
-        "verified": false
+        "value": "US46125A1007"
       }
     ]
   },
@@ -45,8 +43,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -77,6 +74,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://robinhood.com/eu/en/about/"
+      ],
+      "protocolIds": [
+        3732
       ]
     },
     {

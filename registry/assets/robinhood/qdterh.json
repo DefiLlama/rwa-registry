@@ -2,7 +2,7 @@
   "identity": {
     "slug": "qdterh",
     "symbol": "QDTE",
-    "name": "Nasdaq-100 Dividend ETF • Robinhood Token",
+    "name": "Nasdaq-100 Dividend ETF - Robinhood Token",
     "legacyId": 2098,
     "canonicalMarketId": "QDTErh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -12,7 +12,7 @@
   "class": {
     "structure": "yield-rwa-stable",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "rwa-stablecoins"
     ]
@@ -53,8 +53,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -76,6 +75,9 @@
       "kind": "issuer",
       "sourceLinks": [
         "https://forum.arbitrum.foundation/t/mountain-protocol-usdm-step-application/23574"
+      ],
+      "protocolIds": [
+        3598
       ]
     }
   ],

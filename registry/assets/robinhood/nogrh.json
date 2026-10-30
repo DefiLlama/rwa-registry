@@ -2,7 +2,7 @@
   "identity": {
     "slug": "nogrh",
     "symbol": "NOG",
-    "name": "Northern Oil & Gas, Inc. • Robinhood Token",
+    "name": "Northern Oil & Gas, Inc. - Robinhood Token",
     "legacyId": 1905,
     "canonicalMarketId": "NOGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

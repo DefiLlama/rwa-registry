@@ -2,7 +2,7 @@
   "identity": {
     "slug": "nineqrh",
     "symbol": "NINEQ",
-    "name": "Nine Energy Service • Robinhood Token",
+    "name": "Nine Energy Service - Robinhood Token",
     "legacyId": 1894,
     "canonicalMarketId": "NINEQrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "stngrh",
     "symbol": "STNG",
-    "name": "Scorpio Tankers Inc. • Robinhood Token",
+    "name": "Scorpio Tankers Inc. - Robinhood Token",
     "legacyId": 2340,
     "canonicalMarketId": "STNGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

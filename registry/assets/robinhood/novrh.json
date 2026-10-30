@@ -2,7 +2,7 @@
   "identity": {
     "slug": "novrh",
     "symbol": "NOV",
-    "name": "NOV Inc. • Robinhood Token",
+    "name": "NOV Inc. - Robinhood Token",
     "legacyId": 1908,
     "canonicalMarketId": "NOVrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

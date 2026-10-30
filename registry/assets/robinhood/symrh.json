@@ -2,7 +2,7 @@
   "identity": {
     "slug": "symrh",
     "symbol": "SYM",
-    "name": "Symbotic Inc. • Robinhood Token",
+    "name": "Symbotic Inc. - Robinhood Token",
     "legacyId": 2362,
     "canonicalMarketId": "SYMrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

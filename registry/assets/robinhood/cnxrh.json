@@ -2,7 +2,7 @@
   "identity": {
     "slug": "cnxrh",
     "symbol": "CNX",
-    "name": "CNX Resources Corp. • Robinhood Token",
+    "name": "CNX Resources Corp. - Robinhood Token",
     "legacyId": 1133,
     "canonicalMarketId": "CNXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ssiirh",
     "symbol": "SSII",
-    "name": "SS Innovations International, Inc. • Robinhood Token",
+    "name": "SS Innovations International, Inc. - Robinhood Token",
     "legacyId": 2329,
     "canonicalMarketId": "SSIIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

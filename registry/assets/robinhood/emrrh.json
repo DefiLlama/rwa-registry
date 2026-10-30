@@ -2,7 +2,7 @@
   "identity": {
     "slug": "emrrh",
     "symbol": "EMR",
-    "name": "Emerson Electric Co. • Robinhood Token",
+    "name": "Emerson Electric Co. - Robinhood Token",
     "legacyId": 2771,
     "canonicalMarketId": "EMRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

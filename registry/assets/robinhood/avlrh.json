@@ -2,7 +2,7 @@
   "identity": {
     "slug": "avlrh",
     "symbol": "AVL",
-    "name": "Avnet, Inc. • Robinhood Token",
+    "name": "Avnet, Inc. - Robinhood Token",
     "legacyId": 938,
     "canonicalMarketId": "AVLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

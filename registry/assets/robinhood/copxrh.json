@@ -2,7 +2,7 @@
   "identity": {
     "slug": "copxrh",
     "symbol": "COPX",
-    "name": "Global X Copper Miners ETF • Robinhood Token",
+    "name": "Global X Copper Miners ETF - Robinhood Token",
     "legacyId": 1144,
     "canonicalMarketId": "COPXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

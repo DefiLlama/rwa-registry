@@ -2,7 +2,7 @@
   "identity": {
     "slug": "crsrh",
     "symbol": "CRS",
-    "name": "Carpenter Technology Corp. • Robinhood Token",
+    "name": "Carpenter Technology Corp. - Robinhood Token",
     "legacyId": 1174,
     "canonicalMarketId": "CRSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "pcgrh",
     "symbol": "PCG",
-    "name": "PG&E Corp. • Robinhood Token",
+    "name": "PG&E Corp. - Robinhood Token",
     "legacyId": 2005,
     "canonicalMarketId": "PCGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

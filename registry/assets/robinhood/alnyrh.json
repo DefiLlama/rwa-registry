@@ -2,7 +2,7 @@
   "identity": {
     "slug": "alnyrh",
     "symbol": "ALNY",
-    "name": "Alnylam Pharmaceuticals, Inc. • Robinhood Token",
+    "name": "Alnylam Pharmaceuticals, Inc. - Robinhood Token",
     "legacyId": 850,
     "canonicalMarketId": "ALNYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "clozrh",
     "symbol": "CLOZ",
-    "name": "Close-ended Fund ETF • Robinhood Token",
+    "name": "Close-ended Fund ETF - Robinhood Token",
     "legacyId": 1116,
     "canonicalMarketId": "CLOZrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

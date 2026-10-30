@@ -2,7 +2,7 @@
   "identity": {
     "slug": "pdexrh",
     "symbol": "PDEX",
-    "name": "Pro-Dex, Inc. • Robinhood Token",
+    "name": "Pro-Dex, Inc. - Robinhood Token",
     "legacyId": 2011,
     "canonicalMarketId": "PDEXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

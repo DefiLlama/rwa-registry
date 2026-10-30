@@ -2,7 +2,7 @@
   "identity": {
     "slug": "schlrh",
     "symbol": "SCHL",
-    "name": "Scholastic Corp. • Robinhood Token",
+    "name": "Scholastic Corp. - Robinhood Token",
     "legacyId": 2199,
     "canonicalMarketId": "SCHLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

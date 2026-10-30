@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ulyrh",
     "symbol": "ULY",
-    "name": "Urgent.ly • Robinhood Token",
+    "name": "Urgent.ly - Robinhood Token",
     "legacyId": 2484,
     "canonicalMarketId": "ULYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

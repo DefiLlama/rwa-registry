@@ -2,7 +2,7 @@
   "identity": {
     "slug": "chtrrh",
     "symbol": "CHTR",
-    "name": "Charter Communications, Inc. • Robinhood Token",
+    "name": "Charter Communications, Inc. - Robinhood Token",
     "legacyId": 1101,
     "canonicalMarketId": "CHTRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

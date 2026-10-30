@@ -2,7 +2,7 @@
   "identity": {
     "slug": "clrh",
     "symbol": "CL",
-    "name": "Colgate-Palmolive Co. • Robinhood Token",
+    "name": "Colgate-Palmolive Co. - Robinhood Token",
     "legacyId": 1120,
     "canonicalMarketId": "CLrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "mrvirh",
     "symbol": "MRVI",
-    "name": "Maravai LifeSciences Holdings, Inc. • Robinhood Token",
+    "name": "Maravai LifeSciences Holdings, Inc. - Robinhood Token",
     "legacyId": 1828,
     "canonicalMarketId": "MRVIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

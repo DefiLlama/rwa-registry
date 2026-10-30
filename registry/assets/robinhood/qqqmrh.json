@@ -2,7 +2,7 @@
   "identity": {
     "slug": "qqqmrh",
     "symbol": "QQQM",
-    "name": "Invesco NASDAQ 100 ETF • Robinhood Token",
+    "name": "Invesco NASDAQ 100 ETF - Robinhood Token",
     "legacyId": 2105,
     "canonicalMarketId": "QQQMrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

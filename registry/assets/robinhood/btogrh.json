@@ -2,7 +2,7 @@
   "identity": {
     "slug": "btogrh",
     "symbol": "BTOG",
-    "name": "Bit Origin Ltd. • Robinhood Token",
+    "name": "Bit Origin Ltd. - Robinhood Token",
     "legacyId": 1037,
     "canonicalMarketId": "BTOGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

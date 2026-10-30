@@ -27,7 +27,7 @@
     "coingeckoId": "usds"
   },
   "about": {
-    "description": "USDS is Sky Protocol’s upgraded USD stablecoin (successor to DAI). DAI can be converted 1:1 to USDS, and new issuance is driven by overcollateralized borrowing against on-chain collateral through Sky Vaults. USDS integrates with Sky’s savings product (sUSDS) and governance framework, targeting DeFi settlement usage rather than direct retail fiat redemption.",
+    "description": "USDS is Sky Protocol's upgraded USD stablecoin (successor to DAI). DAI can be converted 1:1 to USDS, and new issuance is driven by overcollateralized borrowing against on-chain collateral through Sky Vaults. USDS integrates with Sky's savings product (sUSDS) and governance framework, targeting DeFi settlement usage rather than direct retail fiat redemption.",
     "logo": "https://icons.llamao.fi/icons/rwa/sky-dollar.png?w=48&h=48",
     "links": {
       "website": [
@@ -38,8 +38,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -90,6 +89,10 @@
       "chain": "solana",
       "address": "USDSwr9ApdHk5bvJKMjzff41FfuX8bSxdKcR81vTwcA",
       "deployedAt": "2026-02-11"
+    },
+    {
+      "chain": "eti",
+      "address": null
     }
   ],
   "roles": [

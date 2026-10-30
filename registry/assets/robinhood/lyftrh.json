@@ -2,7 +2,7 @@
   "identity": {
     "slug": "lyftrh",
     "symbol": "LYFT",
-    "name": "Lyft, Inc. • Robinhood Token",
+    "name": "Lyft, Inc. - Robinhood Token",
     "legacyId": 1762,
     "canonicalMarketId": "LYFTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "zenarh",
     "symbol": "ZENA",
-    "name": "ZenaTech, Inc. • Robinhood Token",
+    "name": "ZenaTech, Inc. - Robinhood Token",
     "legacyId": 2688,
     "canonicalMarketId": "ZENArh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

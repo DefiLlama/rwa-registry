@@ -2,7 +2,7 @@
   "identity": {
     "slug": "mralrh",
     "symbol": "MRAL",
-    "name": "Merrill Lynch Rally ETF • Robinhood Token",
+    "name": "Merrill Lynch Rally ETF - Robinhood Token",
     "legacyId": 1823,
     "canonicalMarketId": "MRALrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

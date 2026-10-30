@@ -2,7 +2,7 @@
   "identity": {
     "slug": "mrxrh",
     "symbol": "MRX",
-    "name": "Marex Group plc • Robinhood Token",
+    "name": "Marex Group plc - Robinhood Token",
     "legacyId": 2798,
     "canonicalMarketId": "MRXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

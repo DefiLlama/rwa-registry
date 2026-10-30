@@ -2,7 +2,7 @@
   "identity": {
     "slug": "tfxrh",
     "symbol": "TFX",
-    "name": "Teleflex Inc. • Robinhood Token",
+    "name": "Teleflex Inc. - Robinhood Token",
     "legacyId": 2389,
     "canonicalMarketId": "TFXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

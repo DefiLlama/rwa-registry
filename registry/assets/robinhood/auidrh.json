@@ -2,7 +2,7 @@
   "identity": {
     "slug": "auidrh",
     "symbol": "AUID",
-    "name": "authID Inc. • Robinhood Token",
+    "name": "authID Inc. - Robinhood Token",
     "legacyId": 929,
     "canonicalMarketId": "AUIDrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

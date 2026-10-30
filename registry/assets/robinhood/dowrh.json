@@ -2,7 +2,7 @@
   "identity": {
     "slug": "dowrh",
     "symbol": "DOW",
-    "name": "Dow Inc. • Robinhood Token",
+    "name": "Dow Inc. - Robinhood Token",
     "legacyId": 1247,
     "canonicalMarketId": "DOWrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

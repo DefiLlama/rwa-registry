@@ -2,7 +2,7 @@
   "identity": {
     "slug": "tmorh",
     "symbol": "TMO",
-    "name": "Thermo Fisher Scientific Inc. • Robinhood Token",
+    "name": "Thermo Fisher Scientific Inc. - Robinhood Token",
     "legacyId": 2406,
     "canonicalMarketId": "TMOrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

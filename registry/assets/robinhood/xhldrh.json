@@ -2,7 +2,7 @@
   "identity": {
     "slug": "xhldrh",
     "symbol": "XHLD",
-    "name": "TEN Holdings, Inc. • Robinhood Token",
+    "name": "TEN Holdings, Inc. - Robinhood Token",
     "legacyId": 2645,
     "canonicalMarketId": "XHLDrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

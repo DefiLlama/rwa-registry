@@ -2,7 +2,7 @@
   "identity": {
     "slug": "fwrdrh",
     "symbol": "FWRD",
-    "name": "Forward Air Corp. • Robinhood Token",
+    "name": "Forward Air Corp. - Robinhood Token",
     "legacyId": 1416,
     "canonicalMarketId": "FWRDrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

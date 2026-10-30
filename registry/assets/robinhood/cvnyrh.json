@@ -2,7 +2,7 @@
   "identity": {
     "slug": "cvnyrh",
     "symbol": "CVNY",
-    "name": "Chevron Inverse ETF • Robinhood Token",
+    "name": "Chevron Inverse ETF - Robinhood Token",
     "legacyId": 1193,
     "canonicalMarketId": "CVNYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

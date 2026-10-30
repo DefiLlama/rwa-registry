@@ -2,7 +2,7 @@
   "identity": {
     "slug": "jepqrh",
     "symbol": "JEPQ",
-    "name": "JPMorgan Equity Premium Income ETF • Robinhood Token",
+    "name": "JPMorgan Equity Premium Income ETF - Robinhood Token",
     "legacyId": 1653,
     "canonicalMarketId": "JEPQrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

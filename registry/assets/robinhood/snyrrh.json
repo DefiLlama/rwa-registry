@@ -2,7 +2,7 @@
   "identity": {
     "slug": "snyrrh",
     "symbol": "SNYR",
-    "name": "Synergy CHC Corp. • Robinhood Token",
+    "name": "Synergy CHC Corp. - Robinhood Token",
     "legacyId": 2278,
     "canonicalMarketId": "SNYRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

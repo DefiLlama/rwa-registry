@@ -2,7 +2,7 @@
   "identity": {
     "slug": "syyrh",
     "symbol": "SYY",
-    "name": "Sysco Corp. • Robinhood Token",
+    "name": "Sysco Corp. - Robinhood Token",
     "legacyId": 2363,
     "canonicalMarketId": "SYYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

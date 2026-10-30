@@ -2,7 +2,7 @@
   "identity": {
     "slug": "cefsrh",
     "symbol": "CEFS",
-    "name": "Convertible ETF Fund Selection • Robinhood Token",
+    "name": "Convertible ETF Fund Selection - Robinhood Token",
     "legacyId": 1074,
     "canonicalMarketId": "CEFSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

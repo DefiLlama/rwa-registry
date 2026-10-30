@@ -2,7 +2,7 @@
   "identity": {
     "slug": "pskyrh",
     "symbol": "PSKY",
-    "name": "Paramount Skydance Corp. • Robinhood Token",
+    "name": "Paramount Skydance Corp. - Robinhood Token",
     "legacyId": 2079,
     "canonicalMarketId": "PSKYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

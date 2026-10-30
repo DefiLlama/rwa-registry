@@ -2,7 +2,7 @@
   "identity": {
     "slug": "slnorh",
     "symbol": "SLNO",
-    "name": "Soleno Therapeutics, Inc. • Robinhood Token",
+    "name": "Soleno Therapeutics, Inc. - Robinhood Token",
     "legacyId": 2247,
     "canonicalMarketId": "SLNOrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

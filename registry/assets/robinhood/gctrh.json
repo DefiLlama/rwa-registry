@@ -2,7 +2,7 @@
   "identity": {
     "slug": "gctrh",
     "symbol": "GCT",
-    "name": "GigaCloud Technology Inc. • Robinhood Token",
+    "name": "GigaCloud Technology Inc. - Robinhood Token",
     "legacyId": 1426,
     "canonicalMarketId": "GCTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

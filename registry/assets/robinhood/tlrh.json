@@ -2,7 +2,7 @@
   "identity": {
     "slug": "tlrh",
     "symbol": "TL",
-    "name": "TL (ticker requires verification) • Robinhood Token",
+    "name": "TL (ticker requires verification) - Robinhood Token",
     "legacyId": 2400,
     "canonicalMarketId": "TLrh"
   },
@@ -34,9 +34,15 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
+  "deployments": [
+    {
+      "chain": "arbitrum",
+      "address": null,
+      "primary": true
+    }
+  ],
   "roles": [
     {
       "organization": "robinhood-markets-inc",

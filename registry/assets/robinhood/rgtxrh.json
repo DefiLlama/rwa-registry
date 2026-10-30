@@ -2,7 +2,7 @@
   "identity": {
     "slug": "rgtxrh",
     "symbol": "RGTX",
-    "name": "Rigetti Computing, Inc. • Robinhood Token",
+    "name": "Rigetti Computing, Inc. - Robinhood Token",
     "legacyId": 2136,
     "canonicalMarketId": "RGTXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

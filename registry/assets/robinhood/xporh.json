@@ -2,7 +2,7 @@
   "identity": {
     "slug": "xporh",
     "symbol": "XPO",
-    "name": "XPO, Inc. • Robinhood Token",
+    "name": "XPO, Inc. - Robinhood Token",
     "legacyId": 2661,
     "canonicalMarketId": "XPOrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

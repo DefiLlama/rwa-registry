@@ -2,7 +2,7 @@
   "identity": {
     "slug": "hdvrh",
     "symbol": "HDV",
-    "name": "iShares High Dividend ETF • Robinhood Token",
+    "name": "iShares High Dividend ETF - Robinhood Token",
     "legacyId": 1513,
     "canonicalMarketId": "HDVrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

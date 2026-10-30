@@ -2,7 +2,7 @@
   "identity": {
     "slug": "mgrxrh",
     "symbol": "MGRX",
-    "name": "Mangoceuticals, Inc. • Robinhood Token",
+    "name": "Mangoceuticals, Inc. - Robinhood Token",
     "legacyId": 1798,
     "canonicalMarketId": "MGRXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

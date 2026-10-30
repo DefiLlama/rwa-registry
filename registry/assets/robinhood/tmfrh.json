@@ -2,7 +2,7 @@
   "identity": {
     "slug": "tmfrh",
     "symbol": "TMF",
-    "name": "Direxion Daily 20+ Year Treasury Bull 3X ETF • Robinhood Token",
+    "name": "Direxion Daily 20+ Year Treasury Bull 3X ETF - Robinhood Token",
     "legacyId": 2405,
     "canonicalMarketId": "TMFrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

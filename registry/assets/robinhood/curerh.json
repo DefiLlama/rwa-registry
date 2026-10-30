@@ -2,7 +2,7 @@
   "identity": {
     "slug": "curerh",
     "symbol": "CURE",
-    "name": "Direxion Daily Healthcare Bull 3X ETF • Robinhood Token",
+    "name": "Direxion Daily Healthcare Bull 3X ETF - Robinhood Token",
     "legacyId": 1190,
     "canonicalMarketId": "CURErh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

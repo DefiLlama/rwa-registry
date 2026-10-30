@@ -2,7 +2,7 @@
   "identity": {
     "slug": "kttarh",
     "symbol": "KTTA",
-    "name": "Pasithea Therapeutics Corp. • Robinhood Token",
+    "name": "Pasithea Therapeutics Corp. - Robinhood Token",
     "legacyId": 1699,
     "canonicalMarketId": "KTTArh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "dxcmrh",
     "symbol": "DXCM",
-    "name": "DexCom, Inc. • Robinhood Token",
+    "name": "DexCom, Inc. - Robinhood Token",
     "legacyId": 1262,
     "canonicalMarketId": "DXCMrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

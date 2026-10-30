@@ -12,7 +12,7 @@
   "class": {
     "structure": "equity-basket",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": [
       "stocks-equities",
       "gold-commodities"
@@ -32,9 +32,7 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "US46090F1003",
-        "source": null,
-        "verified": false
+        "value": "US46090F1003"
       }
     ]
   },
@@ -50,8 +48,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

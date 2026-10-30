@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ctrarh",
     "symbol": "CTRA",
-    "name": "Coterra Energy Inc. • Robinhood Token",
+    "name": "Coterra Energy Inc. - Robinhood Token",
     "legacyId": 1187,
     "canonicalMarketId": "CTRArh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

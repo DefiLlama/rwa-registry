@@ -2,7 +2,7 @@
   "identity": {
     "slug": "akrorh",
     "symbol": "AKRO",
-    "name": "Akero Therapeutics • Robinhood Token",
+    "name": "Akero Therapeutics - Robinhood Token",
     "legacyId": 2780,
     "canonicalMarketId": "AKROrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -28,9 +28,7 @@
     "identifiers": [
       {
         "scheme": "isin",
-        "value": "CH0539730892",
-        "source": null,
-        "verified": false
+        "value": "CH0539730892"
       }
     ]
   },
@@ -46,8 +44,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {
@@ -89,6 +86,9 @@
       "sourceLinks": [
         "https://www.mtpelerin.com/shareholders",
         "https://www.startup.ch/mt-pelerin-group"
+      ],
+      "protocolIds": [
+        8590
       ]
     }
   ]

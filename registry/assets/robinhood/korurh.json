@@ -2,7 +2,7 @@
   "identity": {
     "slug": "korurh",
     "symbol": "KORU",
-    "name": "Direxion Daily MSCI South Korea Bull 3X ETF • Robinhood Token",
+    "name": "Direxion Daily MSCI South Korea Bull 3X ETF - Robinhood Token",
     "legacyId": 1689,
     "canonicalMarketId": "KORUrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

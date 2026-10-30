@@ -2,7 +2,7 @@
   "identity": {
     "slug": "cmirh",
     "symbol": "CMI",
-    "name": "Cummins Inc. • Robinhood Token",
+    "name": "Cummins Inc. - Robinhood Token",
     "legacyId": 1126,
     "canonicalMarketId": "CMIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

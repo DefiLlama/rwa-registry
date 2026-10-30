@@ -2,7 +2,7 @@
   "identity": {
     "slug": "skytrh",
     "symbol": "SKYT",
-    "name": "SkyWater Technology, Inc. • Robinhood Token",
+    "name": "SkyWater Technology, Inc. - Robinhood Token",
     "legacyId": 2243,
     "canonicalMarketId": "SKYTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

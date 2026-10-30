@@ -2,7 +2,7 @@
   "identity": {
     "slug": "lqdarh",
     "symbol": "LQDA",
-    "name": "Liquidia Corp. • Robinhood Token",
+    "name": "Liquidia Corp. - Robinhood Token",
     "legacyId": 1744,
     "canonicalMarketId": "LQDArh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

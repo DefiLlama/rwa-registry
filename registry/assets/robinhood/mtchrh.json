@@ -2,7 +2,7 @@
   "identity": {
     "slug": "mtchrh",
     "symbol": "MTCH",
-    "name": "Match Group, Inc. • Robinhood Token",
+    "name": "Match Group, Inc. - Robinhood Token",
     "legacyId": 1848,
     "canonicalMarketId": "MTCHrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

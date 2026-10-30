@@ -2,7 +2,7 @@
   "identity": {
     "slug": "iffrh",
     "symbol": "IFF",
-    "name": "International Flavors & Fragrances Inc. • Robinhood Token",
+    "name": "International Flavors & Fragrances Inc. - Robinhood Token",
     "legacyId": 1581,
     "canonicalMarketId": "IFFrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "axprh",
     "symbol": "AXP",
-    "name": "American Express Co. • Robinhood Token",
+    "name": "American Express Co. - Robinhood Token",
     "legacyId": 946,
     "canonicalMarketId": "AXPrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

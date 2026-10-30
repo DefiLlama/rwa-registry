@@ -2,7 +2,7 @@
   "identity": {
     "slug": "urgnrh",
     "symbol": "URGN",
-    "name": "UroGen Pharma Ltd. • Robinhood Token",
+    "name": "UroGen Pharma Ltd. - Robinhood Token",
     "legacyId": 2494,
     "canonicalMarketId": "URGNrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "opkrh",
     "symbol": "OPK",
-    "name": "OPKO Health, Inc. • Robinhood Token",
+    "name": "OPKO Health, Inc. - Robinhood Token",
     "legacyId": 1978,
     "canonicalMarketId": "OPKrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "qdvorh",
     "symbol": "QDVO",
-    "name": "Invesco Nasdaq QQQ Volatility ETF • Robinhood Token",
+    "name": "Invesco Nasdaq QQQ Volatility ETF - Robinhood Token",
     "legacyId": 2099,
     "canonicalMarketId": "QDVOrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

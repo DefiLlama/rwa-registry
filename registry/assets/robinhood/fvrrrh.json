@@ -2,7 +2,7 @@
   "identity": {
     "slug": "fvrrrh",
     "symbol": "FVRR",
-    "name": "Fiverr International Ltd. • Robinhood Token",
+    "name": "Fiverr International Ltd. - Robinhood Token",
     "legacyId": 1415,
     "canonicalMarketId": "FVRRrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "lfgyrh",
     "symbol": "LFGY",
-    "name": "Legal & General Group plc • Robinhood Token",
+    "name": "Legal & General Group plc - Robinhood Token",
     "legacyId": 1723,
     "canonicalMarketId": "LFGYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "vigrh",
     "symbol": "VIG",
-    "name": "Vanguard Dividend Appreciation ETF • Robinhood Token",
+    "name": "Vanguard Dividend Appreciation ETF - Robinhood Token",
     "legacyId": 2548,
     "canonicalMarketId": "VIGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

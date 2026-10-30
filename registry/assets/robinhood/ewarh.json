@@ -2,7 +2,7 @@
   "identity": {
     "slug": "ewarh",
     "symbol": "EWA",
-    "name": "iShares MSCI Australia ETF • Robinhood Token",
+    "name": "iShares MSCI Australia ETF - Robinhood Token",
     "legacyId": 1325,
     "canonicalMarketId": "EWArh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

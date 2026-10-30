@@ -2,7 +2,7 @@
   "identity": {
     "slug": "gralrh",
     "symbol": "GRAL",
-    "name": "GRAIL, Inc. • Robinhood Token",
+    "name": "GRAIL, Inc. - Robinhood Token",
     "legacyId": 1485,
     "canonicalMarketId": "GRALrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

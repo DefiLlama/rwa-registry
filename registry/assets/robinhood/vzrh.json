@@ -2,7 +2,7 @@
   "identity": {
     "slug": "vzrh",
     "symbol": "VZ",
-    "name": "Verizon Communications Inc. • Robinhood Token",
+    "name": "Verizon Communications Inc. - Robinhood Token",
     "legacyId": 2599,
     "canonicalMarketId": "VZrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "vnqrh",
     "symbol": "VNQ",
-    "name": "Vanguard Real Estate ETF • Robinhood Token",
+    "name": "Vanguard Real Estate ETF - Robinhood Token",
     "legacyId": 2563,
     "canonicalMarketId": "VNQrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

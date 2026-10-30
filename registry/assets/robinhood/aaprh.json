@@ -2,7 +2,7 @@
   "identity": {
     "slug": "aaprh",
     "symbol": "AAP",
-    "name": "Advance Auto Parts, Inc. • Robinhood Token",
+    "name": "Advance Auto Parts, Inc. - Robinhood Token",
     "legacyId": 782,
     "canonicalMarketId": "AAPrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

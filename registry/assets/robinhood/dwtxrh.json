@@ -2,7 +2,7 @@
   "identity": {
     "slug": "dwtxrh",
     "symbol": "DWTX",
-    "name": "Dogwood Therapeutics, Inc. • Robinhood Token",
+    "name": "Dogwood Therapeutics, Inc. - Robinhood Token",
     "legacyId": 1261,
     "canonicalMarketId": "DWTXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

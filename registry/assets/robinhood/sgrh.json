@@ -2,7 +2,7 @@
   "identity": {
     "slug": "sgrh",
     "symbol": "SG",
-    "name": "Sweetgreen, Inc. • Robinhood Token",
+    "name": "Sweetgreen, Inc. - Robinhood Token",
     "legacyId": 2226,
     "canonicalMarketId": "SGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

@@ -2,7 +2,7 @@
   "identity": {
     "slug": "pgxrh",
     "symbol": "PGX",
-    "name": "Invesco Preferred Stock ETF • Robinhood Token",
+    "name": "Invesco Preferred Stock ETF - Robinhood Token",
     "legacyId": 2027,
     "canonicalMarketId": "PGXrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

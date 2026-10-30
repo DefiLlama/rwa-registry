@@ -2,7 +2,7 @@
   "identity": {
     "slug": "magsrh",
     "symbol": "MAGS",
-    "name": "Roundhill Magnificent Seven ETF • Robinhood Token",
+    "name": "Roundhill Magnificent Seven ETF - Robinhood Token",
     "legacyId": 1766,
     "canonicalMarketId": "MAGSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

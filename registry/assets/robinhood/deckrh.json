@@ -2,7 +2,7 @@
   "identity": {
     "slug": "deckrh",
     "symbol": "DECK",
-    "name": "Deckers Outdoor Corp. • Robinhood Token",
+    "name": "Deckers Outdoor Corp. - Robinhood Token",
     "legacyId": 1216,
     "canonicalMarketId": "DECKrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

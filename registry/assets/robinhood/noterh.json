@@ -2,7 +2,7 @@
   "identity": {
     "slug": "noterh",
     "symbol": "NOTE",
-    "name": "FiscalNote Holdings, Inc. • Robinhood Token",
+    "name": "FiscalNote Holdings, Inc. - Robinhood Token",
     "legacyId": 1906,
     "canonicalMarketId": "NOTErh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

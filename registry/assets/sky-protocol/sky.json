@@ -39,7 +39,7 @@
     ]
   },
   "about": {
-    "description": "SKY is the governance token for the Sky Protocol ecosystem, which includes a decentralized stablecoin stack and savings products supported by diversified collateral. The system’s collateral framework has historically included both crypto collateral and real-world asset exposure through structured allocations, aiming to support scalable stablecoin liquidity with risk-managed backing. SKY governs parameters such as collateral policy, risk limits, and incentive design across the Sky ecosystem.",
+    "description": "SKY is the governance token for the Sky Protocol ecosystem, which includes a decentralized stablecoin stack and savings products supported by diversified collateral. The system's collateral framework has historically included both crypto collateral and real-world asset exposure through structured allocations, aiming to support scalable stablecoin liquidity with risk-managed backing. SKY governs parameters such as collateral policy, risk limits, and incentive design across the Sky ecosystem.",
     "logo": "https://icons.llamao.fi/icons/rwa/sky-rwa.png?w=48&h=48",
     "links": {
       "website": [
@@ -50,8 +50,7 @@
   "review": {
     "activeAumReviewed": true,
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "deployments": [
     {

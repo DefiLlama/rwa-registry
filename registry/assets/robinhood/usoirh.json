@@ -2,7 +2,7 @@
   "identity": {
     "slug": "usoirh",
     "symbol": "USOI",
-    "name": "Credit Suisse X-Links Crude Oil Shares Covered Call ETN • Robinhood Token",
+    "name": "Credit Suisse X-Links Crude Oil Shares Covered Call ETN - Robinhood Token",
     "legacyId": 2509,
     "canonicalMarketId": "USOIrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

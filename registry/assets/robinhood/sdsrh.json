@@ -2,7 +2,7 @@
   "identity": {
     "slug": "sdsrh",
     "symbol": "SDS",
-    "name": "ProShares UltraShort S&P 500 • Robinhood Token",
+    "name": "ProShares UltraShort S&P 500 - Robinhood Token",
     "legacyId": 2214,
     "canonicalMarketId": "SDSrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

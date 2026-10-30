@@ -2,7 +2,7 @@
   "identity": {
     "slug": "sfyrh",
     "symbol": "SFY",
-    "name": "Sify Technologies Limited • Robinhood Token",
+    "name": "Sify Technologies Limited - Robinhood Token",
     "legacyId": 2221,
     "canonicalMarketId": "SFYrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

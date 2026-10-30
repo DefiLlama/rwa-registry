@@ -2,7 +2,7 @@
   "identity": {
     "slug": "cgrh",
     "symbol": "CG",
-    "name": "The Carlyle Group Inc. • Robinhood Token",
+    "name": "The Carlyle Group Inc. - Robinhood Token",
     "legacyId": 1088,
     "canonicalMarketId": "CGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

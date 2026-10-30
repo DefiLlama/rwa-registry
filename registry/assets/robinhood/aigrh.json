@@ -2,7 +2,7 @@
   "identity": {
     "slug": "aigrh",
     "symbol": "AIG",
-    "name": "American International Group, Inc. • Robinhood Token",
+    "name": "American International Group, Inc. - Robinhood Token",
     "legacyId": 826,
     "canonicalMarketId": "AIGrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

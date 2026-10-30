@@ -2,7 +2,7 @@
   "identity": {
     "slug": "csiqrh",
     "symbol": "CSIQ",
-    "name": "Canadian Solar Inc. • Robinhood Token",
+    "name": "Canadian Solar Inc. - Robinhood Token",
     "legacyId": 2796,
     "canonicalMarketId": "CSIQrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

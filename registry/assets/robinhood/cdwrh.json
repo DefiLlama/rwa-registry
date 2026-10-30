@@ -2,7 +2,7 @@
   "identity": {
     "slug": "cdwrh",
     "symbol": "CDW",
-    "name": "CDW Corp. • Robinhood Token",
+    "name": "CDW Corp. - Robinhood Token",
     "legacyId": 1073,
     "canonicalMarketId": "CDWrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

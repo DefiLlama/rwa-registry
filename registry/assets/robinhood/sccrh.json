@@ -2,7 +2,7 @@
   "identity": {
     "slug": "sccrh",
     "symbol": "SCC",
-    "name": "ProShares UltraShort Consumer Discretionary • Robinhood Token",
+    "name": "ProShares UltraShort Consumer Discretionary - Robinhood Token",
     "legacyId": 2192,
     "canonicalMarketId": "SCCrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

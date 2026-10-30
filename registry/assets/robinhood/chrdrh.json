@@ -2,7 +2,7 @@
   "identity": {
     "slug": "chrdrh",
     "symbol": "CHRD",
-    "name": "Chord Energy Corp. • Robinhood Token",
+    "name": "Chord Energy Corp. - Robinhood Token",
     "legacyId": 1098,
     "canonicalMarketId": "CHRDrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

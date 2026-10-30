@@ -2,7 +2,7 @@
   "identity": {
     "slug": "frgtrh",
     "symbol": "FRGT",
-    "name": "Freight Technologies, Inc. • Robinhood Token",
+    "name": "Freight Technologies, Inc. - Robinhood Token",
     "legacyId": 1401,
     "canonicalMarketId": "FRGTrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

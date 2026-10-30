@@ -2,7 +2,7 @@
   "identity": {
     "slug": "crkrh",
     "symbol": "CRK",
-    "name": "Comstock Resources, Inc. • Robinhood Token",
+    "name": "Comstock Resources, Inc. - Robinhood Token",
     "legacyId": 1163,
     "canonicalMarketId": "CRKrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {

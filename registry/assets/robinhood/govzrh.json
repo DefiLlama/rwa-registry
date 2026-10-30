@@ -2,7 +2,7 @@
   "identity": {
     "slug": "govzrh",
     "symbol": "GOVZ",
-    "name": "iShares 25 Year Treasury STRIPS Bond ETF • Robinhood Token",
+    "name": "iShares 25 Year Treasury STRIPS Bond ETF - Robinhood Token",
     "legacyId": 1478,
     "canonicalMarketId": "GOVZrh"
   },
@@ -34,8 +34,7 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "deployments": [
     {
