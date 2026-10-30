@@ -7,7 +7,7 @@
     "canonicalMarketId": "BSPT-PRT-3"
   },
   "exposure": {
-    "underlying": "urb-terra-plana-sant-rom-i-marge-sant-juli-de-l-ria-ad600-andorra"
+    "underlying": "urb-terra-plana-sant-roma-i-marge-sant-julia-de-loria-ad600-andorra"
   },
   "class": {
     "structure": "single-property",
@@ -23,6 +23,11 @@
     "transferable": true,
     "selfCustody": true,
     "yieldBearing": true
+  },
+  "sources": {
+    "documents": [
+      "https://ipfs.io/ipfs/QmQEHL7QYqu69KtMFGDAmGk8Cafit34XgrXrSXNNuHWLuX"
+    ]
   },
   "about": {
     "description": "BSPT-PRT-3 is a Blocksquare property token representing a tokenized economic interest in the property at Urb. Terra Plana Sant Romà i Marge, Sant Julià de Lòria, AD600, Andorra. The property record is written on chain and carries the street address, geographic coordinates and a valuation held in the Blocksquare property registry, which the operator revises by corporate resolution on a periodic basis rather than by market pricing. Each token has a fixed maximum supply set when the property was tokenized, so the token count represents a fixed division of the interest rather than an open ended issuance. Valuation and settlement are denominated in DAI. Acquiring or holding the token requires passing the platform's onboarding checks, and transfers are limited to addresses the platform has approved. The token conveys an economic interest routed through the entity that owns the property rather than direct legal title to the real estate, and no issuer redemption facility exists. Exit depends on finding a buyer among approved holders. Yield reaches holders as distributed rental income from the underlying property, paid in DAI rather than accruing to the token balance. A buyback route is described by the operator as under development and is not available at present.",

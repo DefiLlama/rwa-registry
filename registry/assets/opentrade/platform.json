@@ -29,7 +29,6 @@
     "chains": [
       "ethereum"
     ],
-    "attestationFrequency": "N/A (Lending Venue)",
     "suspicious": false,
     "delisted": false
   },
@@ -40,12 +39,6 @@
       "sourceLinks": [
         "https://opentrade.com"
       ]
-    }
-  ],
-  "events": [
-    {
-      "kind": "attestation",
-      "note": "N/A (Lending Venue)"
     }
   ]
 }

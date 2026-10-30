@@ -30,7 +30,6 @@
     "chains": [
       "ethereum"
     ],
-    "attestationFrequency": "N/A (Lending Venue)",
     "suspicious": false,
     "delisted": false
   },
@@ -41,12 +40,6 @@
       "sourceLinks": [
         "https://reental.co"
       ]
-    }
-  ],
-  "events": [
-    {
-      "kind": "attestation",
-      "note": "N/A (Lending Venue)"
     }
   ]
 }

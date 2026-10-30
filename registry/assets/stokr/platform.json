@@ -14,9 +14,7 @@
       "twitter": "https://x.com/stokr_io",
       "docs": "https://docs.stokr.io/",
       "linkedin": "https://www.linkedin.com/company/stokr-network",
-      "discord": "N/A (institutional)",
-      "telegram": "https://t.me/stokrofficial",
-      "github": "N/A (closed source)"
+      "telegram": "https://t.me/stokrofficial"
     },
     "registryInfo": "STOKR (Stokr S.A., Luxembourg) - Luxembourg CSSF-supervised security-token issuance and trading venue. Founded 2018. Issues tokenized securities (equity, debt, real-estate) under EU MiFID II / Prospectus Regulation frameworks."
   },
@@ -28,6 +26,10 @@
       "corp-bond-fund"
     ],
     "accessModel": "permissionless",
+    "primaryChain": "liquid",
+    "chains": [
+      "liquid"
+    ],
     "attestationFrequency": "Annual",
     "suspicious": false,
     "delisted": false,

@@ -35,7 +35,6 @@
     "chains": [
       "hyperliquid"
     ],
-    "attestationFrequency": "N/A (Perp Venue)",
     "suspicious": false,
     "delisted": false,
     "fees": {
@@ -52,12 +51,6 @@
       "sourceLinks": [
         "https://docs.dreamcash.xyz/"
       ]
-    }
-  ],
-  "events": [
-    {
-      "kind": "attestation",
-      "note": "N/A (Perp Venue)"
     }
   ]
 }

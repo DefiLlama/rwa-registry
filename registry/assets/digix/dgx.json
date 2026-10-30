@@ -22,8 +22,7 @@
     "kycForMintRedeem": true,
     "transferable": true,
     "selfCustody": true,
-    "yieldBearing": false,
-    "attestationFrequency": "N/A (defunct)"
+    "yieldBearing": false
   },
   "about": {
     "description": "Digix Gold (DGX) is a legacy tokenized gold project that pioneered early proof-of-asset style workflows for linking token supply to vaulted bullion. DGX was historically designed to represent a gram-denominated claim on physical gold and emphasized traceability and auditability as core primitives. The ecosystem has since seen significant wind-down and exchange delistings over time, and DGX is best viewed as a historical reference point in tokenized gold design. Officially ceased operations and withdrew from Singapore PSA licensing September 2022 and the business shut down.",
@@ -65,6 +64,7 @@
   "events": [
     {
       "kind": "attestation",
+      "date": "2018-07-01",
       "note": "2018-07-01 (project ceased 2022)"
     }
   ]

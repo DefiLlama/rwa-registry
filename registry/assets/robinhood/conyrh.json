@@ -2,12 +2,12 @@
   "identity": {
     "slug": "conyrh",
     "symbol": "CONY",
-    "name": "ConocoPhillips Inverse ETF - Robinhood Token",
+    "name": "YieldMax COIN Option Income Strategy ETF - Robinhood Token",
     "legacyId": 1142,
     "canonicalMarketId": "CONYrh"
   },
   "exposure": {
-    "underlying": "conocophillips-inverse-etf"
+    "underlying": "yieldmax-coin-option-income-strategy-etf"
   },
   "class": {
     "structure": "equity-basket",

@@ -13,10 +13,7 @@
       ],
       "twitter": "https://x.com/liqibr",
       "docs": "https://liqi.com.br/",
-      "linkedin": "https://www.linkedin.com/company/liqi-digital-assets",
-      "discord": "N/A (institutional)",
-      "telegram": "N/A (institutional)",
-      "github": "N/A (closed source)"
+      "linkedin": "https://www.linkedin.com/company/liqi-digital-assets"
     },
     "registryInfo": "Liqi Digital Assets (Brazil; CVM-supervised securitizadora under CVM Resolution 88). Founded 2021. Leading Brazilian tokenization platform for credit-rights (CRA / CDB / commercial paper) and other regulated structured-credit issuances. Partners with Banco BV, Itaú, SB Crédito, and XDC Network ($500M+ tokenized RWA target with XDC)."
   },
@@ -32,7 +29,6 @@
     "chains": [
       "xdc"
     ],
-    "attestationFrequency": "N/A (Lending Venue)",
     "suspicious": false,
     "delisted": false,
     "fees": {
@@ -49,12 +45,6 @@
       "sourceLinks": [
         "https://www.liqi.com.br"
       ]
-    }
-  ],
-  "events": [
-    {
-      "kind": "attestation",
-      "note": "N/A (Lending Venue)"
     }
   ]
 }

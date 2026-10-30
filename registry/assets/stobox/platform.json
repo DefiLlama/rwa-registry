@@ -36,7 +36,6 @@
     "chains": [
       "arbitrum"
     ],
-    "attestationFrequency": "N/A (Lending Venue)",
     "suspicious": false,
     "delisted": false,
     "fees": {
@@ -53,12 +52,6 @@
       "sourceLinks": [
         "https://www.stobox.io/"
       ]
-    }
-  ],
-  "events": [
-    {
-      "kind": "attestation",
-      "note": "N/A (Lending Venue)"
     }
   ]
 }

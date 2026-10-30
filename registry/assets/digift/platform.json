@@ -30,7 +30,6 @@
     "chains": [
       "ethereum"
     ],
-    "attestationFrequency": "N/A (Lending Venue)",
     "suspicious": false,
     "delisted": false,
     "fees": {
@@ -54,12 +53,6 @@
       "sourceLinks": [
         "https://digift.io"
       ]
-    }
-  ],
-  "events": [
-    {
-      "kind": "attestation",
-      "note": "N/A (Lending Venue)"
     }
   ]
 }

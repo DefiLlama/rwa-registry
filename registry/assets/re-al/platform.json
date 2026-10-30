@@ -25,6 +25,10 @@
       "governance-token"
     ],
     "accessModel": "permissionless",
+    "primaryChain": "real",
+    "chains": [
+      "real"
+    ],
     "suspicious": false,
     "delisted": false
   },

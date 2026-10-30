@@ -38,6 +38,7 @@
       "holderTotalFeeBps": 50,
       "assetManagerTakeBps": 50,
       "tokenizationPlatformTakeBps": 0,
+      "yieldSpreadRetainedBps": 50,
       "mintFeeBps": 0,
       "redemptionFeeBps": 0,
       "floatIncome": false,

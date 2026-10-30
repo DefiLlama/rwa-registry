@@ -25,6 +25,10 @@
       "t-bills"
     ],
     "accessModel": "permissioned",
+    "primaryChain": "canton",
+    "chains": [
+      "canton"
+    ],
     "attestationFrequency": "Daily NAV; quarterly audited financials",
     "suspicious": false,
     "delisted": false,

@@ -18,6 +18,7 @@
       "discord": "https://discord.gg/cryptocom",
       "telegram": "https://t.me/CryptocomOfficial"
     },
+    "registryInfo": "Foris DAX Limited, Cayman Islands, registration QH-354886, named as publisher of the Crypto.com Exchange terms and conditions. Registered with the Cayman Islands Monetary Authority as a virtual asset service provider, which is an anti-money-laundering registration rather than a derivatives licence. The group's Dubai VARA licence sits with a separate entity, CRO DAX Middle East FZE.",
     "foundedYear": 2016,
     "headquarters": "Singapore",
     "founders": "Kris Marszalek (Co-founder, CEO), Rafael Melo (Co-founder, CFO), Gary Or (Co-founder), Bobby Bao (Co-founder)",
@@ -47,7 +48,10 @@
   "roles": [
     {
       "organization": "foris-dax-limited-publisher-of-the-crypto-com-exchange-terms-and-conditions",
-      "kind": "issuer"
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://crypto.com"
+      ]
     }
   ]
 }

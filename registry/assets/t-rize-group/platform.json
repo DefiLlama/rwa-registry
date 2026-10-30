@@ -29,7 +29,6 @@
     "chains": [
       "base"
     ],
-    "attestationFrequency": "N/A (Lending Venue)",
     "suspicious": false,
     "delisted": false
   },
@@ -40,12 +39,6 @@
       "sourceLinks": [
         "https://t-rize.io"
       ]
-    }
-  ],
-  "events": [
-    {
-      "kind": "attestation",
-      "note": "N/A (Lending Venue)"
     }
   ]
 }

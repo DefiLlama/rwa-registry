@@ -22,8 +22,7 @@
     "cexListed": true,
     "transferable": true,
     "selfCustody": true,
-    "yieldBearing": false,
-    "attestationFrequency": "N/A (protocol governance token)"
+    "yieldBearing": false
   },
   "sources": {
     "coingeckoId": "klima-dao-old"

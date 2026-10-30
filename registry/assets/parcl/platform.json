@@ -35,7 +35,6 @@
     "chains": [
       "solana"
     ],
-    "attestationFrequency": "N/A (Perp Venue)",
     "suspicious": false,
     "delisted": false,
     "fees": {
@@ -52,12 +51,6 @@
       "sourceLinks": [
         "https://parcl.co/"
       ]
-    }
-  ],
-  "events": [
-    {
-      "kind": "attestation",
-      "note": "N/A (Perp Venue)"
     }
   ]
 }

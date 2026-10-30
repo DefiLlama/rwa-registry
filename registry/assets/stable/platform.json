@@ -34,7 +34,6 @@
       "base",
       "monad"
     ],
-    "attestationFrequency": "N/A (Tokenization Platform)",
     "suspicious": false,
     "delisted": false
   },
@@ -53,12 +52,6 @@
       "sourceLinks": [
         "https://trystable.co/reserves"
       ]
-    }
-  ],
-  "events": [
-    {
-      "kind": "attestation",
-      "note": "N/A (Tokenization Platform)"
     }
   ]
 }

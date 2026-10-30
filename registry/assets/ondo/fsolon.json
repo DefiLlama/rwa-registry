@@ -2,12 +2,12 @@
   "identity": {
     "slug": "fsolon",
     "symbol": "FSOLon",
-    "name": "Franklin Solana Trust (Ondo Tokenized ETF)",
+    "name": "Fidelity Solana Fund (Ondo Tokenized)",
     "legacyId": 2867,
     "canonicalMarketId": "FSOLon"
   },
   "exposure": {
-    "underlying": "franklin-solana-trust"
+    "underlying": "fidelity-solana-fund"
   },
   "class": {
     "structure": "etf-backed",
@@ -26,16 +26,8 @@
     "yieldBearing": false,
     "attestationFrequency": "Daily"
   },
-  "sources": {
-    "identifiers": [
-      {
-        "scheme": "isin",
-        "value": "US3159128087"
-      }
-    ]
-  },
   "about": {
-    "description": "FSOLon is an Ondo Global Markets tokenized ETF exposure designed to provide economic exposure to Franklin Solana Trust in an onchain format. The token is designed to be fully backed by the underlying publicly traded ETF, together with cash in transit, held with regulated custodial broker-dealers. Holdings attestations and ongoing reporting are surfaced through Ondo trust and transparency materials and the product asset page.",
+    "description": "FSOLon is an Ondo Global Markets tokenized ETF exposure designed to provide economic exposure to Fidelity Solana Fund in an onchain format. The token is designed to be fully backed by the underlying publicly traded ETF, together with cash in transit, held with regulated custodial broker-dealers. Holdings attestations and ongoing reporting are surfaced through Ondo trust and transparency materials and the product asset page.",
     "logo": "https://icons.llamao.fi/icons/rwa/fsol.png?w=48&h=48",
     "links": {
       "website": [

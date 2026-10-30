@@ -30,7 +30,6 @@
     "chains": [
       "monad"
     ],
-    "attestationFrequency": "N/A (Lending Venue)",
     "suspicious": false,
     "delisted": false,
     "fees": {
@@ -47,12 +46,6 @@
       "sourceLinks": [
         "https://anchored.finance/"
       ]
-    }
-  ],
-  "events": [
-    {
-      "kind": "attestation",
-      "note": "N/A (Lending Venue)"
     }
   ]
 }

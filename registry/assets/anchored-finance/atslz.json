@@ -2,12 +2,12 @@
   "identity": {
     "slug": "atslz",
     "symbol": "aTSLZ",
-    "name": "Tradr 2X Short TSLA Daily ETF aStock",
+    "name": "T-REX 2X Inverse Tesla Daily Target ETF aStock",
     "legacyId": 9089,
     "canonicalMarketId": "aTSLZ"
   },
   "exposure": {
-    "underlying": "tradr-2x-short-tsla-daily-etf"
+    "underlying": "t-rex-2x-inverse-tesla-daily-target-etf"
   },
   "class": {
     "structure": "etf-backed",
@@ -29,7 +29,7 @@
     "coingeckoId": "tradr-2x-short-tsla-daily-etf-astock"
   },
   "about": {
-    "description": "Tokenized Tradr 2X Short TSLA Daily ETF. Each token is backed 1:1 by the underlying ETF share, purchased through a FINRA-registered broker-dealer and held in regulated custody, and is redeemable for stablecoins.",
+    "description": "Tokenized T-REX 2X Inverse Tesla Daily Target ETF. Each token is backed 1:1 by the underlying ETF share, purchased through a FINRA-registered broker-dealer and held in regulated custody, and is redeemable for stablecoins.",
     "logo": "https://icons.llamao.fi/icons/rwa/anchored-atslz.png?w=48&h=48",
     "links": {
       "website": [

@@ -46,6 +46,15 @@
       "primary": true
     }
   ],
+  "roles": [
+    {
+      "organization": "charizard-capital-llc",
+      "kind": "issuer",
+      "sourceLinks": [
+        "https://www.charizardcapital.com"
+      ]
+    }
+  ],
   "events": [
     {
       "kind": "attestation",

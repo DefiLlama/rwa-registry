@@ -24,6 +24,11 @@
     "selfCustody": true,
     "yieldBearing": true
   },
+  "sources": {
+    "documents": [
+      "https://ipfs.io/ipfs/QmZUgfUJ5ogdXUcNz99MGwsXmxoASG8rtQRM3PUu4cPH5M"
+    ]
+  },
   "about": {
     "description": "BSPT-TOK-1 is a Blocksquare property token recorded on Ethereum under the name House in Arenys de Munt, Barcelona. No property address or coordinates have been written to the on chain property record for this token. No valuation has been set on either the token or the Blocksquare property registry, so the entry exists as a registered property token without a stated value. No maximum supply has been set and no tokens have been issued. Under the Blocksquare framework a property token conveys an economic interest routed through the entity that owns the property rather than direct legal title, holding requires passing the platform's onboarding checks, transfers are limited to approved addresses, yield reaches holders as distributed rental income paid in DAI, and no issuer redemption facility exists. This token was not part of the issuer's own submission and was identified from the Blocksquare marketplace indexer and confirmed on chain.",
     "logo": "https://icons.llamao.fi/icons/rwa/blocksquare.png?w=48&h=48",

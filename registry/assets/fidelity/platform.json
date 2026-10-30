@@ -42,9 +42,11 @@
       "redemptionFeeBps": 0,
       "underlyingFundExpenseBps": 14,
       "floatIncome": false,
+      "prospectusUrl": "https://www.fidelity.com/mutual-funds/details/fidelity-funds.shtml?symbol=FYOXX",
       "issuerDocsUrl": "https://institutional.fidelity.com/app/funds-and-products/9053/fidelity-treasury-digital-fund-onchain-class-fyoxx.html",
       "revenueConfidence": "public-filings",
       "feeLastVerified": "2026-05-10",
+      "feeWaiverEndDate": "2027-04-30",
       "revenueNotes": "Per SEC-filed FYOXX prospectus: gross expense ratio approximately 30 bps; net expense ratio approximately 14 bps after contractual fee waivers. Numbers should be re-verified against the most recent FYOXX prospectus / SAI filing. Tokenization handled in-house by Fidelity transfer agent - no separate vendor fee."
     }
   },

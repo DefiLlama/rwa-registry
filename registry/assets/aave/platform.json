@@ -31,7 +31,6 @@
     "chains": [
       "ethereum"
     ],
-    "attestationFrequency": "N/A (Lending Venue)",
     "suspicious": false,
     "delisted": false
   },
@@ -42,12 +41,6 @@
       "sourceLinks": [
         "https://aave.com/docs/aave-v3/horizon"
       ]
-    }
-  ],
-  "events": [
-    {
-      "kind": "attestation",
-      "note": "N/A (Lending Venue)"
     }
   ]
 }

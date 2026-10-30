@@ -32,7 +32,6 @@
     "chains": [
       "ethereum"
     ],
-    "attestationFrequency": "N/A (Collectibles Venue)",
     "suspicious": false,
     "delisted": false
   },
@@ -43,12 +42,6 @@
       "sourceLinks": [
         "https://courtyard.io/"
       ]
-    }
-  ],
-  "events": [
-    {
-      "kind": "attestation",
-      "note": "N/A (Collectibles Venue)"
     }
   ]
 }

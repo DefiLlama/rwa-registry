@@ -2,12 +2,12 @@
   "identity": {
     "slug": "conirh",
     "symbol": "CONI",
-    "name": "ConocoPhillips Inverse ETF - Robinhood Token",
+    "name": "GraniteShares 2x Short COIN Daily ETF - Robinhood Token",
     "legacyId": 1140,
     "canonicalMarketId": "CONIrh"
   },
   "exposure": {
-    "underlying": "conocophillips-inverse-etf"
+    "underlying": "graniteshares-2x-short-coin-daily-etf"
   },
   "class": {
     "structure": "equity-basket",

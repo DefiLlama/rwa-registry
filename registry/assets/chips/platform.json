@@ -24,6 +24,10 @@
       "other-exotic"
     ],
     "accessModel": "permissionless",
+    "primaryChain": "kadena",
+    "chains": [
+      "kadena"
+    ],
     "suspicious": false
   },
   "roles": [

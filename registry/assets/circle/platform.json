@@ -16,7 +16,6 @@
       "docs": "https://developers.circle.com/",
       "linkedin": "https://www.linkedin.com/company/circle-internet-financial",
       "discord": "https://discord.com/invite/buildoncircle",
-      "telegram": "N/A (institutional)",
       "github": "https://github.com/circlefin"
     },
     "registryInfo": "Circle Internet Financial, LLC (US, NYSE: CRCL post-2025 IPO). Issuer of USDC ($60B+), EURC, USYC (yield-bearing), and historical BUSD-via-Paxos. Money-transmitter licensed in all 50 US states; MiCA-compliant in EU. Founded 2013 by Jeremy Allaire & Sean Neville.",
@@ -49,6 +48,7 @@
       "mintFeeBps": 0,
       "redemptionFeeBps": 0,
       "floatIncome": true,
+      "prospectusUrl": "https://investor.circle.com/financials/sec-filings/default.aspx",
       "feeScheduleUrl": "https://help.circle.com/s/article/USDC-redemption-structure",
       "issuerDocsUrl": "https://www.circle.com/transparency",
       "tcsUrl": "https://www.circle.com/legal/usdc-terms",
