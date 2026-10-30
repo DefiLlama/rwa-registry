@@ -9,25 +9,23 @@ import { ACKS_DIR, loadRegistry } from '../registry';
 import type { Registry } from '../schema';
 import { dayOf } from '../utils/days';
 import { jsonText } from '../utils/writeFile';
-import { askInTerminal, type Ask, type Choice } from './ask';
+import { askInTerminal } from './ask';
 import { changeLine, changes } from './changes';
 import { checkStaged, type StagedFile } from './checkStaged';
-import { commaList } from './commaList';
 import type { CliCommand } from './index';
 import { REGISTRY_FLAG, registryOf } from './registryFlag';
+import {
+  askFields,
+  type Answers,
+  type Assigned,
+  type Field,
+  type FlagValues,
+  type WriteContext,
+} from './questionnaire';
 import { writeAtomic } from './writeAtomic';
 
-export type FlagValue = string | string[] | boolean;
-export type FlagValues = Record<string, FlagValue | undefined>;
-
-export interface Field {
-  flag: string;
-  description: string;
-  required?: boolean | ((values: FlagValues) => boolean);
-  list?: boolean;
-  choices?: (registry: Registry) => Choice[];
-  fallback?: () => FlagValue;
-}
+export { optionKey } from './questionnaire';
+export type { Field, FlagValue, FlagValues, WriteContext } from './questionnaire';
 
 // replaces: the file may exist and is meant to change; remove: the file is deleted.
 export interface FileToWrite {
@@ -38,19 +36,16 @@ export interface FileToWrite {
   conflict?: string;
 }
 
-export interface WriteContext {
-  args: string[];
-  root: string;
-  read: (path: string) => unknown;
-  // A line for the person running it, printed before the files, or kept in the JSON under --json.
-  note: (line: string) => void;
-}
-
 export interface WriteSpec {
   name: string;
   description: string;
   arguments?: string;
   fields: Field[];
+  // Every field is asked in a terminal, then confirmed with what the command assigns; otherwise only a missing required one.
+  every?: boolean;
+  assigned?: Assigned[];
+  // The fields a --from file gives, which skip their questions.
+  given?: (options: FlagValues) => Record<string, unknown>;
   files: (values: FlagValues, registry: Registry, context: WriteContext) => FileToWrite[] | Promise<FileToWrite[]>;
 }
 
@@ -61,34 +56,12 @@ const COMMON_FLAGS = [
   { spec: '--dry-run', description: 'check and print the files without writing them' },
 ];
 
-// commander keeps --no-discover as discover: false.
-export const optionKey = (flag: string) =>
-  flag
-    .split(' ')[0]
-    .replace(/^--(no-)?/, '')
-    .replace(/-([a-z])/g, (_, letter: string) => letter.toUpperCase());
-
-const isEmpty = (value: FlagValue | undefined) =>
-  value === undefined || value === '' || (Array.isArray(value) && !value.length);
-
 export const today = (): string => dayOf(new Date());
 
-// A missing required flag is asked in a terminal, and named when no prompt is allowed.
-const resolve = async (fields: Field[], options: FlagValues, registry: Registry, ask: Ask | null) => {
-  const values: FlagValues = {};
-  const missing: string[] = [];
-  for (const field of fields) {
-    const key = optionKey(field.flag);
-    const required = typeof field.required === 'function' ? field.required(values) : field.required === true;
-    let value = options[key] ?? field.fallback?.();
-    if (isEmpty(value) && required && ask) {
-      value = await ask({ key, message: field.description, choices: field.choices?.(registry), list: field.list });
-    }
-    if (field.list && value !== undefined) value = commaList(value);
-    if (isEmpty(value) && required) missing.push(field.flag.split(' ')[0]);
-    values[key] = isEmpty(value) ? undefined : value;
-  }
-  return { values, missing };
+// --help marks a flag required with no other flag given, which the README's command table reads into its own column.
+const helpFlag = (field: Field) => {
+  const required = typeof field.required === 'function' ? field.required({}) : field.required === true;
+  return { spec: field.flag, description: required ? `required: ${field.description}` : field.description };
 };
 
 const readerOf = (root: string) => (path: string) => {
@@ -125,7 +98,7 @@ export const defineWriteCommand = (spec: WriteSpec): CliCommand => ({
   name: spec.name,
   description: spec.description,
   arguments: spec.arguments,
-  flags: [...spec.fields.map((field) => ({ spec: field.flag, description: field.description })), ...COMMON_FLAGS],
+  flags: [...spec.fields.map(helpFlag), ...COMMON_FLAGS],
   run: async (options, { print, ask }) => {
     const refuse = (errors: { file: string; message: string }[]) => {
       errors.forEach((error) => print(`${error.file}: ${error.message}`));
@@ -136,16 +109,31 @@ export const defineWriteCommand = (spec: WriteSpec): CliCommand => ({
     const quiet = options.json === true || options.input === false;
     const asker = quiet ? null : (ask ?? (process.stdin.isTTY ? askInTerminal : null));
     const before = loadRegistry(root);
-    const { values, missing } = await resolve(spec.fields, options as FlagValues, before.registry, asker);
-    if (missing.length) {
-      return refuse(missing.map((flag) => new MissingFieldError({ file: spec.name, message: `${flag} is required` })));
-    }
     const read = readerOf(root);
     const notes: string[] = [];
     const note = (line: string) => (options.json === true ? notes.push(line) : print(line));
+    const context: WriteContext = { args: options.args, root, read, note, memo: new Map() };
+    const flags = options as FlagValues;
+    let answers: Answers;
+    try {
+      const given = spec.given?.(flags) ?? {};
+      answers = await askFields(
+        { fields: spec.fields, every: spec.every, assigned: spec.assigned },
+        { flags, given, context: { ...context, registry: before.registry, flags } },
+        asker,
+      );
+    } catch (error) {
+      if (error instanceof CliError) return refuse([error]);
+      throw error;
+    }
+    const { values, missing, cancelled } = answers;
+    if (cancelled) return refuse([{ file: spec.name, message: 'cancelled; nothing written' }]);
+    if (missing.length) {
+      return refuse(missing.map((flag) => new MissingFieldError({ file: spec.name, message: `${flag} is required` })));
+    }
     let files: Staged[];
     try {
-      const wanted = await spec.files(values, before.registry, { args: options.args, root, read, note });
+      const wanted = await spec.files(values, before.registry, context);
       files = stagedOf(wanted, (path) => existsSync(join(root, path)), read);
     } catch (error) {
       if (error instanceof CliError) return refuse([error]);

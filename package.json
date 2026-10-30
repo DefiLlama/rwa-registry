@@ -16,6 +16,7 @@
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "schema": "tsx src/cli/index.ts schema",
+    "docs:commands": "tsx src/cli/commandsTable.ts",
     "format": "prettier --write .",
     "format:check": "prettier --check ."
   },
