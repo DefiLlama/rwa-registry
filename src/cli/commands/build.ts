@@ -17,7 +17,7 @@ export const build: CliCommand = {
   flags: [
     REGISTRY_FLAG,
     { spec: '--out <dir>', description: 'where registry.json goes, dist by default' },
-    { spec: '--commit <sha>', description: 'the commit the registry was built from, written into the file' },
+    { spec: '--commit <sha>', description: 'required: the commit the registry was built from, written into the file' },
     { spec: '--at <date>', description: 'the build date the status of each row is derived at, today by default' },
   ],
   run: async ({ registry, out, commit, at }, { print }) => {

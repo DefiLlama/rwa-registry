@@ -49,7 +49,7 @@ export const validate: CliCommand = {
         problems.filter((problem) => problem.severity === 'warning'),
         kindOf,
       )) {
-        const where = typeof out === 'string' ? writeAudit(out, kind, rows) : 'pass --out to list them';
+        const where = typeof out === 'string' ? writeAudit(out, kind, rows) : 'pass --out <dir> to list them';
         print(`warning: ${kind}: ${rows.length} (${where})`);
       }
     }
