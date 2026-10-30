@@ -1,7 +1,7 @@
 # Model
 
-The registry holds 13 tables in six layers, defined in `src/schema/`. A table points only at lower layers, and a pointer into its own table (organization `parent`, venue `parent`, asset `wraps`, deployment `bridgedFrom`) may not loop.
-The registry holds static facts only; supply, price, holders, DeFi use, open interest, volume and funding are computed on the server (`server.md`).
+The registry holds 11 tables in six layers, defined in `src/schema/`. A table points only at lower layers, and a pointer into its own table (organization `parent`, venue `parent`, asset `wraps`) may not loop.
+The registry holds static facts only; the server computes every number from them (`server.md`).
 A file groups its fields in named blocks (`registry.md`), and the loader flattens each file into one row, so `registry.json` and the server use the field names below, never the block names.
 
 ## Tables
@@ -11,26 +11,25 @@ A file groups its fields in named blocks (`registry.md`), and the loader flatten
 | 0     | `vocabulary`    | vocabulary name and `slug`                         | nothing                                                                             | one value of one closed list                                                |
 | 1     | `organization`  | `slug`                                             | a parent organization                                                               | one firm or brand of one kind: platform, issuer, oracle and others          |
 | 1     | `underlying`    | `slug`                                             | vocabularies                                                                        | one economic exposure, such as Tesla stock, gold or the US dollar           |
-| 2     | `instrument`    | `slug`                                             | vocabularies                                                                        | one legal product above one or more assets, such as a fund                  |
 | 2     | `venue`         | `slug`                                             | its organization, a parent venue                                                    | one exchange, perp protocol or HIP-3 dex                                    |
 | 3     | `asset`         | `slug`                                             | its platform, underlying, the asset it wraps                                        | one fungible token class across all its chains                              |
-| 4     | `deployment`    | `chain:address`, or `asset\|chain` with no address | its asset, the deployment it was bridged from                                       | one asset at one address on one chain, or on a chain with no known contract |
+| 4     | `deployment`    | `chain:address`, or `asset\|chain` with no address | its asset                                                                           | one asset at one address on one chain, or on a chain with no known contract |
 | 4     | `perp_market`   | `venue:symbol`                                     | its venue, the underlying or asset it tracks, its collateral asset or fx underlying | one perps market on one venue                                               |
 | 4     | `role`          | organization, kind, target, `from`                 | an organization and a target row                                                    | one organization in one role on one row, for a period                       |
 | 5     | `event`         | target, kind, `date`                               | a target row and an optional successor                                              | one dated change to one row                                                 |
 | 5     | `address_label` | deployment and holder address                      | its deployment                                                                      | one holder address left out of active supply                                |
 | 5     | `ack`           | `kind/slug`                                        | its asset or venue, by kind (`acks.md`)                                             | one accepted exception to a server guard, with an end step                  |
-| 5     | `key_change`    | `table` and `legacyId`                             | the row that holds the id after a move                                              | one published id deleted or moved on purpose, with its reason               |
 
 ## Keys and ids
 
-- A slug holds lowercase letters, digits and hyphens, and it is frozen once published. A rename changes the name or label, never the slug. A missing value is `null`, never `0`.
-- A role or an event names its target as `{ table, key }`. A role carries optional `from` and `to` dates. An ack sits in `acks/<kind>/<slug>.json` and holds the fields of its kind (`acks.md`); `until: null` holds until its resolve step is done.
+- A slug holds lowercase letters, digits and hyphens. A rename changes the name or label and keeps the slug. A missing value is `null`, never `0`.
+- A role or an event names its target as `{ table, key }`. A role carries optional `from` and `to` dates.
 - `legacyId` on an asset or market is the RWA ID, and `legacyPid` on an organization is the PID. Both keep today's links and saved charts working, so neither may change. `add asset` gives a new asset one above the highest legacy id and never below 9718; a new market or organization gets none.
 - An identifier (ISIN, FIGI or LEI) has a `scheme` and a `value`.
-- An asset's `yieldPoolIds` are the DefiLlama yields pool ids, UUIDs, that the server's native-yield match may use as an override. Its `links` hold its own `website` only: its social accounts and referral links are its platform's `links`, and its issuer's registry text is the issuer organization's `registryInfo`. Oracle proof URLs sit as `sourceLinks` on its oracle roles.
-- A deployment with `address: null` is a chain the sheet names with no known contract. The chain stays on the asset's `chains` and may be its primary one, no date is asked, an asset holds one per chain, and `validate` warns `contractless-deployment` on each until an address is known.
-- A chain on a deployment, a venue and a platform's `chains` is the DefiLlama chain key where `@defillama/sdk` knows the chain (ethereum, avax, plume_mainnet, ripple), else the sheet's name, lower case with spaces as hyphens (zksync, canton, kinesis, aonea-v-chain). The registry holds no chain table and nobody adds a chain here. The address family of a key comes from the sdk's chain modules (`src/registry/chains.ts`), and it drives the address check and the date readers. A chain the sdk does not know is listed and not read: its address stays as the sheet wrote it and is not checked, no date reader asks it, and `validate` warns `unknown-chain` on each deployment, platform chain and venue chain that names it.
+- An asset's `yieldPoolIds` are the DefiLlama yields pool ids, UUIDs, that the server's native-yield match may use as an override.
+- An asset's `sources.documents` are http or https links to the issuer's documents for that one asset, such as a property's deed or offering memorandum; a value that is not a URL is refused.
+- A deployment with `address: null` is a chain the asset is on with no known contract. The chain stays on the asset's `chains` and may be its primary one, no date is asked, an asset holds one per chain, and `validate` warns `contractless-deployment` on each until an address is known.
+- A chain on a deployment, a venue and a platform's `chains` is the DefiLlama chain key where `@defillama/sdk` knows the chain (ethereum, avax, plume_mainnet, ripple), else the name as written, lower case with spaces as hyphens (zksync, canton, kinesis, aonea-v-chain). The registry holds no chain table and nobody adds a chain here. The address family of a key comes from the sdk's chain modules, and it drives the address check and the date readers. A chain the sdk does not know is listed and not read: its address is kept as written and is not checked, no date reader asks it, and `validate` warns `unknown-chain` on each deployment, platform chain and venue chain that names it.
 
 ## Taxonomy
 
@@ -42,20 +41,18 @@ The taxonomy has three layers, each on one row.
 | Structure | the asset, or the market | asset-class | stock-backed, synthetic-stock, mmf, t-bills; stock-perp on a market |
 | Category  | the asset                | category    | the site's shelves, stocks-equities, first the main one             |
 
-An asset names its categories itself, in `class.category`: a list of slugs of `reference/vocabularies/category.json`, the closed list of the site's shelves, first the main one. `add asset` takes them with `--category`, and `validate` fails an asset with none.
 Each asset-group value names a `class`, and an underlying sits in `reference/underlyings/<class>/` for the class of its exposure, so the class is never chosen by hand; `validate` fails a file in any other folder.
-An underlying's `aliases` hold the other spellings of its name, for people. They are never matched against a venue symbol.
-An underlying's `logo` is the logo of the perps markets that track it; a market holds none of its own.
+An underlying holds one `name`, the legal name as the company writes it ("Digital Realty Trust, Inc."); it has no aliases, and a `merge` keeps the dropped name in its merge event's note.
 
 ## Organizations
 
 An organization's `kind` is a value of the organization-kind vocabulary and names its home: a platform lives in `assets/<platform>/platform.json`, a venue operator in `perps/<venue>/organization.json`, and every other kind (issuer, tokenizer, oracle, auditor, custodian, administrator, manager, supervisor, brand, unassigned) in `reference/organizations/<kind>/`. `set <file> kind <value>` moves the file to the home of the new kind, and the checks then decide whether its blocks, assets and venue fit.
-Every organization holds `identity`, `about` and `identifiers`. Only a platform or a venue operator holds the `platform` block: category, asset classes, chains and fees. A venue operator's access model and chain are its venue's, and its margin asset is the collateral its venue's markets hold, so its `platform` block holds none of them. `parent` names the organization it belongs to; an organization with none is its own parent. An issuer source link sits in `sourceLinks` on each issuer role, and an oracle proof link on each oracle role. An issuer organization's `registryInfo` is the registry text of its assets, and a venue's organization holds the website, name and referral link of the venue and its markets.
+Every organization holds `identity`, `about` and `identifiers`. Only a platform or a venue operator holds the `platform` block: category, asset classes, chains and fees. A venue operator's `platform` block holds no access model, chain or margin asset, since those come from its venue (`server.md`). `parent` names the organization it belongs to.
 
 ## Vocabularies
 
 A vocabulary is one closed list in `registry/reference/vocabularies/<name>.json`. Each value has a `slug` and a `label` and may have flags, and an asset-group value names its `class`. The slug is `rwaSlug(label)`, the app's rule, so `Stocks & Equities` becomes `stocks-equities`.
-`VOCABULARY_NAMES` in `src/schema/enums.ts` lists the vocabularies. A list the app never shows is an enum in the same file, such as the address family, the review outcome and the ack kind (`acks.md`).
+A list the app never shows, such as the address family, the review outcome and the ack kind, is an enum in the code, not a vocabulary.
 
 ## Events and status
 
@@ -73,7 +70,7 @@ A vocabulary is one closed list in `registry/reference/vocabularies/<name>.json`
 | `roll`                     | market                             | A dated note, no effect on status.                                          |
 | `attestation`, `wind-down` | asset, organization                | A dated note, no effect on status.                                          |
 
-An ending event ends its target from its date. The server reads no asset that is delisted or ended, and no deployment that has ended. An event with no date counts as having happened and needs a note that says why the date is unknown.
+An ending event ends its target from its date. The server reads no asset that is delisted or ended, and no deployment that has ended. An event with no date counts as having happened. `validate` warns `undated-event` on one with neither a note nor a link that says why the date is unknown, and `missing-reason` on a retirement or a suspicious review with no reason.
 
 ## Derived fields
 

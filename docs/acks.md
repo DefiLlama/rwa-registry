@@ -4,19 +4,20 @@ An ack is one accepted exception to a server guard: the guard would alert on, bl
 
 ## The kinds
 
-| Kind                 | Target   | What it does on the server                                                                         | Master list               | Files |
-| -------------------- | -------- | -------------------------------------------------------------------------------------------------- | ------------------------- | ----- |
-| `asset-move`         | asset    | Mutes the repeating alert of a move the asset-move guard blocks correctly; the block stays.        | `RWA_ASSET_MOVE_ACKS`     | 12    |
-| `asset-move-release` | asset    | Lets one verified move the guard blocks wrongly write through, once.                               | `RWA_ASSET_MOVE_ALLOWS`   | 5     |
-| `flows-hidden`       | asset    | Holds the asset out of every flow series, its own and the aggregates.                              | `FLOWS_HIDDEN_IDS`        | 1     |
-| `single-point`       | asset    | A listing on its first day, under its value ceiling, does not block the aggregate chart publish.   | `RWA_SINGLE_POINT_ACKS`   | 10    |
-| `aggregate-jump`     | asset    | The asset's verified step up on one day does not block the aggregate chart publish.                | `RWA_AGGREGATE_JUMP_ACKS` | 1     |
-| `head-move`          | series   | Silences the head-move finding of one series for the day its episode started.                      | `HEAD_MOVE_ACKS`          | 0     |
-| `drift`              | series   | Silences a rewrite of a series' days that you ran, or a vanished series file when no days are set. | `DRIFT_ACKS`              | 0     |
-| `perps-venue`        | venue    | Drops a whole venue from the perps coverage report.                                                | `PERPS_VENUE_ACKS`        | 1     |
-| `perps-market`       | contract | Drops one market that is not RWA from the perps coverage report.                                   | `PERPS_MARKET_ACKS`       | 0     |
+| Kind                 | Target   | What it does on the server                                                                         |
+| -------------------- | -------- | -------------------------------------------------------------------------------------------------- |
+| `asset-move`         | asset    | Mutes the repeating alert of a move the asset-move guard blocks correctly; the block stays.        |
+| `asset-move-release` | asset    | Lets one verified move the guard blocks wrongly write through, once.                               |
+| `flows-hidden`       | asset    | Holds the asset out of every flow series, its own and the aggregates.                              |
+| `single-point`       | asset    | A listing on its first day, under its value ceiling, does not block the aggregate chart publish.   |
+| `aggregate-jump`     | asset    | The asset's verified step up on one day does not block the aggregate chart publish.                |
+| `head-move`          | series   | Silences the head-move finding of one series for the day its episode started.                      |
+| `drift`              | series   | Silences a rewrite of a series' days that you ran, or a vanished series file when no days are set. |
+| `perps-venue`        | venue    | Drops a whole venue from the perps coverage report.                                                |
+| `perps-market`       | contract | Drops one market that is not RWA from the perps coverage report.                                   |
 
 A kind with no file has no folder; the first `ack` of that kind makes it. A folder that is no kind fails `validate`.
+An asset that redeemed to 0 USD and stays there is no ack but a `retirement` event on its asset file.
 
 ## The file of each kind
 
@@ -25,7 +26,7 @@ Every file holds `slug`, its target, `reason` and `resolve`. The reason names th
 | Kind                 | Fields beside slug, target, reason and resolve                                                                                                                                                                                                                                                     |
 | -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `asset-move`         | `from`, `until`, and the band: `metrics` (`onChainMcap`, `activeMcap`), `direction` (`up` or `down`), `maxCurrentUsd`, `minPreviousUsd`. It mutes only while every blocked trip is one of the metrics, moves that way, lands at or under `maxCurrentUsd` and comes from at least `minPreviousUsd`. |
-| `asset-move-release` | `from`, `until`, `metrics`, `direction`, `currentUsd` and `previousUsd` as `[low, high]`, every one required so a release is never open-ended. `previousUsd` brackets the frozen baseline, so once the write lands the release matches nothing.                                                    |
+| `asset-move-release` | `from`, `until`, `metrics`, `direction`, and `currentUsd` and `previousUsd` as `[low, high]`. `previousUsd` brackets the frozen baseline, so once the write lands the release matches nothing, even with `until: null`.                                                                            |
 | `flows-hidden`       | `from`, `until`.                                                                                                                                                                                                                                                                                   |
 | `single-point`       | `from`, `until`, `maxValueUsd`, the ceiling the single-point value stays under.                                                                                                                                                                                                                    |
 | `aggregate-jump`     | `day`, the later day of the step, the row the jump is reported on. Only a step up is excused, never a drop on that day.                                                                                                                                                                            |
@@ -53,7 +54,7 @@ The slug is the target, with the day for `aggregate-jump` and `head-move` and th
 
 ## The command
 
-`pnpm rwa ack <kind> <target>` writes one file and runs every check on a copy first. `--reason` and `--resolve` are required, `--from` is today when left out, and `--until` left out writes `until: null`. An `asset-move` given without its band takes the band of every master ack: `--metrics onChainMcap,activeMcap --direction down --max-current 1000 --min-previous 100000`. A flag the kind does not take is refused, and `pnpm rwa ack --help` lists the flags of each kind.
+`pnpm rwa ack <kind> <target>` writes one file. `pnpm rwa ack --help` lists the flags of each kind and the default band of an `asset-move`, and a flag the kind does not take is refused.
 
 ```
 pnpm rwa ack flows-hidden brz --from 2026-09-03 --reason "BRZ phantom mcap, about 1e17 spikes" --resolve "drop when the stablecoins API mcap for BRZ is sane"
@@ -63,18 +64,4 @@ pnpm rwa ack drift chain/ethereum --first-day 2026-10-01 --last-day 2026-10-02 -
 pnpm rwa ack perps-venue bitget --from 2026-10-02 --reason "..." --resolve "..."
 ```
 
-The ack command has no template: its flags cover each kind, and its `--from` is the ack's first day, as in the file. To end an ack, set its last day with `pnpm rwa set ../acks/<kind>/<slug>.json until <date>`, the path given from the registry folder, or delete the file.
-
-## Seen and not acked
-
-These were looked at on master and refused an ack on purpose, so a reader who finds them alerting knows the call was made.
-
-- Asset moves left alerting, since they need action, not a mute: 386 USDYc, a real redemption to 0, settled as a retirement instead; 660 RLP, a real and sustained 58 percent repricing that waits for a verified release; 4075 CMBMINT and 4090 RSC, large drops not yet verified on chain; 4049 CREV, 4063 PC0000029, 4071 ABUTF, 4076 XDFIS, 4083 DIA-L-COL1 and 3987 EUROB, root cause unknown; 3803 GOLDST, a transient strato price gap that heals itself; the Ink xStock cohort IJRx, BTBTx, MARAx, OKLOx, PYPLx, TMUSx, WULFx and MOOx, an Ink cron supply-read glitch fixed at the source.
-- Perps venues whose sheet rows are all delisted but with no venue-wide call, so a new listing on one still raises a coverage alert: parcl (32 rows), km or Markets by Kinetiq (23), cash or CASH (15), vntl or Ventuals (15, with SPACEX, OPENAI and ANTHROPIC), flx or Flash Trade (13) and hyna (2).
-- Perps markets: the RISEx tokens AERO, LIT and VVV left the market ack list when RISEx became a classified venue, whose corroboration drops them.
-
-## Not acks
-
-- An asset that redeemed to 0 USD and stays there (master's `RWA_RETIRED_ZERO_IDS`: USDYc, AZND, EURT) is a `retirement` event on the asset file.
-- A genesis listing (master's `GENESIS_LISTINGS`, empty) is derived from each deployment's `deployedAt`.
-- The perps coverage backlog (`PERPS_COVERAGE_BASELINE`) stays a generated server file: it is a backlog meant to shrink, not a decision.
+To end an ack, set its last day with `pnpm rwa set ../acks/<kind>/<slug>.json until <date>`, the path given from the registry folder, or delete the file.
