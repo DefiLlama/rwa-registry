@@ -24,6 +24,15 @@ describe('readDates', () => {
     expect(results.map(({ reason, date }) => reason ?? date)).toEqual(['no-reader', '2019-04-16']);
   });
 
+  it('answers unknown-chain for a chain the sdk does not know and asks no source, the history included', async () => {
+    const http = answering(() => chartOf(['zksync']));
+    const query: DateQuery = { chain: 'zksync', chainId: 'zksync', family: null, address: '0x1', asset };
+    const results = await readDates([query], fakeDiscoverDeps({ http }, discoverConfig({ PRO_API_KEY: 'prokey' })));
+
+    expect(results.map(({ reason }) => reason)).toEqual(['unknown-chain']);
+    expect(http.json).not.toHaveBeenCalled();
+  });
+
   it('asks the history source only for what no reader dated, never over a date a reader found', async () => {
     const queries: DateQuery[] = [
       { chain: 'icp', chainId: 'icp', family: 'icp', address: 'ryjl3-tyaaa-aaaaa-aaaba-cai', asset },
@@ -81,5 +90,13 @@ describe('readDates', () => {
       ['2024-01-01', null],
       [null, 'no-reader'],
     ]);
+  });
+});
+
+describe('the datable families', () => {
+  it('are exactly the families a reader exists for', async () => {
+    const { dateReaders } = await import('../../../src/discover/readers');
+    const { DATABLE_FAMILIES } = await import('../../../src/registry/chains');
+    expect([...DATABLE_FAMILIES].sort()).toEqual(dateReaders.map((reader) => reader.family).sort());
   });
 });

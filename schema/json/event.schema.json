@@ -38,7 +38,8 @@
                 "role",
                 "event",
                 "address_label",
-                "ack"
+                "ack",
+                "key_change"
               ]
             },
             "key": {

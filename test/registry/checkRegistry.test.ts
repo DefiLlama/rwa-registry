@@ -1,6 +1,17 @@
 import { describe, expect, it } from 'vitest';
 import { checkRegistry } from '../../src/registry';
-import { assetFile, baseTree, errorsIn, load, marketWith, registryOf, tslaMarketFile, tslaxFile, tslaxWith } from '../fixtures/tree';
+import {
+  assetFile,
+  baseTree,
+  contractlessTslax,
+  errorsIn,
+  load,
+  marketWith,
+  registryOf,
+  tslaMarketFile,
+  tslaxFile,
+  tslaxWith,
+} from '../fixtures/tree';
 
 const tslax = tslaxFile();
 
@@ -15,6 +26,26 @@ describe('checkRegistry', () => {
     expect(dangling).toMatchObject({ error: 'DanglingReferenceError', file: 'assets/xstocks/tslax.json' });
     expect(checkRegistry({ ...base, role: [...base.role, roleOnValue] }, null)).toEqual([
       expect.objectContaining({ error: 'DanglingReferenceError' }),
+    ]);
+  });
+
+  it('takes an asset or an fx underlying as a market collateral and fails any other slug', () => {
+    const base = baseTree();
+    const fiat = { slug: 'fiat-currencies', label: 'Fiat Currencies', class: 'fx' };
+    const withCollateral = (collateral: string) =>
+      checkRegistry(
+        registryOf({
+          ...base,
+          'reference/vocabularies/asset-group.json': [...(base['reference/vocabularies/asset-group.json'] as object[]), fiat],
+          'reference/underlyings/fx/us-dollar.json': { slug: 'us-dollar', name: 'US Dollar', exposure: 'fiat-currencies' },
+          'perps/xyz/tsla.json': marketWith({ collateral }),
+        }),
+        null,
+      );
+
+    expect(withCollateral('us-dollar')).toEqual([]);
+    expect(withCollateral('tesla-inc')).toEqual([
+      expect.objectContaining({ error: 'DanglingReferenceError', path: 'terms.collateral' }),
     ]);
   });
 
@@ -51,6 +82,34 @@ describe('checkRegistry', () => {
     ]);
   });
 
+  it('only warns on a new undated deployment on a chain no reader can date', () => {
+    const onNear = { chain: 'near', address: 'frax.near', deployedAt: null };
+    const head = registryOf({
+      ...baseTree(),
+      'assets/xstocks/tslax.json': { ...tslax, deployments: [...tslax.deployments, onNear] },
+    });
+    const near = checkRegistry(head, registryOf(baseTree())).filter((problem) => problem.message.includes('near'));
+
+    expect(near).toEqual([expect.objectContaining({ error: 'UndatedDeploymentError', severity: 'warning' })]);
+  });
+
+  it('only warns on a new chain with no known contract and asks it for no date', () => {
+    const head = registryOf({ ...baseTree(), 'assets/xstocks/tslax.json': contractlessTslax() });
+
+    expect(checkRegistry(head, registryOf(baseTree()))).toEqual([
+      expect.objectContaining({ error: 'ContractlessDeploymentError', severity: 'warning', path: 'deployments[2].address' }),
+    ]);
+  });
+
+  it('fails a second deployment with no known contract on the same chain of one asset', () => {
+    const contractless = contractlessTslax();
+    const twice = { ...contractless, deployments: [...contractless.deployments, { chain: 'base' }] };
+
+    expect(errorsIn(checkRegistry(registryOf({ ...baseTree(), 'assets/xstocks/tslax.json': twice }), null))).toEqual([
+      expect.objectContaining({ error: 'DuplicateKeyError', message: expect.stringContaining('tslax|base') }),
+    ]);
+  });
+
   it('fails a new undated event with no note and a new suspicious review with no reason, and only warns on a held one', () => {
     const head = registryOf({
       ...baseTree(),
@@ -83,24 +142,6 @@ describe('checkRegistry', () => {
     expect(problems).toEqual([expect.objectContaining({ error: 'MarketTrackError', file: 'perps/xyz/tsla.json' })]);
   });
 
-  it('warns on an identifier with no source, and fails one on a row new against the base', () => {
-    const unverified = { scheme: 'isin', value: 'US88160R1014', source: null, verified: false };
-    const head = registryOf({
-      ...baseTree(),
-      'assets/xstocks/tslax.json': tslaxWith({ identifiers: [unverified] }),
-      'assets/xstocks/wtslax.json': assetFile('wtslax', 9001, { identifiers: [{ ...unverified, value: 'US0378331005' }] }),
-    });
-
-    expect(
-      checkRegistry(head, registryOf(baseTree()))
-        .filter((problem) => problem.error === 'UnverifiedIdentifierError')
-        .map((problem) => [problem.file, problem.severity]),
-    ).toEqual([
-      ['assets/xstocks/tslax.json', 'warning'],
-      ['assets/xstocks/wtslax.json', 'error'],
-    ]);
-  });
-
   it('fails a legacy id an asset and a market share', () => {
     const { problems } = load({ ...baseTree(), 'perps/xyz/tsla.json': marketWith({ legacyId: 257 }) });
 
@@ -119,7 +160,7 @@ describe('checkRegistry', () => {
   });
 
   it('only warns on one ISIN on two assets, or on an asset and its twin underlying, so no asset loses its code', () => {
-    const isin = { scheme: 'isin', value: 'US88160R1014', source: 'https://www.isin.org/isin/US88160R1014', verified: true };
+    const isin = { scheme: 'isin', value: 'US88160R1014' };
     const twoAssets = checkRegistry(
       registryOf({
         ...baseTree(),
@@ -163,24 +204,20 @@ describe('checkRegistry', () => {
     ]);
   });
 
-  it('fails a holder label or a deployment alias that is not in its family form', () => {
+  it('fails a holder label that is not in its family form', () => {
     const [solana, ethereum] = tslax.deployments;
     const problems = checkRegistry(
       registryOf({
         ...baseTree(),
         'assets/xstocks/tslax.json': {
           ...tslax,
-          deployments: [
-            { ...solana, aliases: ['not-a-mint'] },
-            { ...ethereum, labels: [{ address: '0xNOTANADDRESS', kind: 'excluded-holder' }] },
-          ],
+          deployments: [solana, { ...ethereum, labels: [{ address: '0xNOTANADDRESS', kind: 'excluded-holder' }] }],
         },
       }),
       null,
     );
 
     expect(problems).toEqual([
-      expect.objectContaining({ error: 'AddressFormatError', path: 'deployments[0].aliases[0]' }),
       expect.objectContaining({ error: 'AddressFormatError', path: 'deployments[1].labels[0].address' }),
     ]);
   });
@@ -226,37 +263,79 @@ describe('checkRegistry', () => {
     expect(problems).toEqual([expect.objectContaining({ error: 'EventTargetError', file: 'assets/xstocks/tslax.json' })]);
   });
 
-  it('fails a label whose from is after its to, and an ack whose from is after its until', () => {
-    const [solana, ethereum] = tslax.deployments;
-    const label = { ...solana.labels![0], from: '2026-06-01', to: '2026-05-01' };
+  it('fails a role whose from is after its to, an ack whose from is after its until, and a drift ack whose first day is after its last', () => {
+    const role = { ...tslax.roles[0], from: '2026-06-01', to: '2026-05-01' };
+    const why = { reason: 'test', resolve: 'test' };
     const problems = checkRegistry(
       registryOf({
         ...baseTree(),
-        'assets/xstocks/tslax.json': { ...tslax, deployments: [{ ...solana, labels: [label] }, ethereum] },
-        '../acks/tslax-flows.json': {
-          slug: 'tslax-flows',
-          guard: 'flows-hidden',
-          asset: 'tslax',
-          from: '2026-06-01',
-          until: '2026-01-01',
-          reason: 'test',
-          resolve: 'test',
+        'assets/xstocks/tslax.json': { ...tslax, roles: [role] },
+        '../acks/flows-hidden/tslax.json': { slug: 'tslax', asset: 'tslax', from: '2026-06-01', until: '2026-01-01', ...why },
+        '../acks/drift/chain-ethereum-2026-06-01.json': {
+          slug: 'chain-ethereum-2026-06-01',
+          series: 'chain/ethereum',
+          firstDay: '2026-06-01',
+          lastDay: '2026-05-01',
+          ...why,
         },
       }),
       null,
     );
 
-    expect(problems.map((problem) => [problem.error, problem.file])).toEqual([
-      ['DateOrderError', 'assets/xstocks/tslax.json'],
-      ['DateOrderError', '../acks/tslax-flows.json'],
+    expect(problems.map((problem) => [problem.error, problem.file, problem.path])).toEqual([
+      ['DateOrderError', 'assets/xstocks/tslax.json', 'roles[0].from'],
+      ['DateOrderError', '../acks/flows-hidden/tslax.json', 'from'],
+      ['DateOrderError', '../acks/drift/chain-ethereum-2026-06-01.json', 'firstDay'],
     ]);
   });
 
-  it('fails a legacy id of the base that the head no longer holds', () => {
-    const { 'perps/xyz/tsla.json': _market, ...rest } = baseTree();
+  it('fails an ack naming an asset or a venue the registry does not hold', () => {
+    const why = { reason: 'test', resolve: 'test' };
+    const problems = checkRegistry(
+      registryOf({
+        ...baseTree(),
+        '../acks/flows-hidden/nope.json': { slug: 'nope', asset: 'nope', from: '2026-06-01', ...why },
+        '../acks/perps-venue/nope.json': { slug: 'nope', venue: 'nope', from: '2026-06-01', ...why },
+      }),
+      null,
+    );
 
-    expect(errorsIn(checkRegistry(registryOf(rest), registryOf(baseTree())))).toEqual([
-      expect.objectContaining({ error: 'FrozenKeyError', message: expect.stringContaining('2921') }),
+    expect(problems.map((problem) => [problem.error, problem.file, problem.path])).toEqual([
+      ['DanglingReferenceError', '../acks/flows-hidden/nope.json', 'asset'],
+      ['DanglingReferenceError', '../acks/perps-venue/nope.json', 'venue'],
+    ]);
+  });
+
+  it('fails an ack in a folder that is no ack kind, and an ack with a field of another kind or without one of its own', () => {
+    const why = { reason: 'test', resolve: 'test' };
+    const problems = checkRegistry(
+      registryOf({
+        ...baseTree(),
+        '../acks/flows/tslax.json': { slug: 'tslax', asset: 'tslax', from: '2026-06-01', ...why },
+        '../acks/single-point/tslax.json': { slug: 'tslax', asset: 'tslax', from: '2026-06-01', day: '2026-06-01', ...why },
+      }),
+      null,
+    );
+
+    expect(problems.map((problem) => [problem.error, problem.file, problem.path])).toEqual([
+      ['UnknownPathError', '../acks/flows/tslax.json', ''],
+      ['SchemaError', '../acks/single-point/tslax.json', 'maxValueUsd'],
+      ['SchemaError', '../acks/single-point/tslax.json', 'day'],
+    ]);
+  });
+
+  it('fails a legacy id of the base that the head no longer holds, and only warns when key-changes.json lists it', () => {
+    const { 'perps/xyz/tsla.json': _market, ...rest } = baseTree();
+    const deletion = { table: 'perp_market', legacyId: 2921, slug: 'xyz:TSLA', change: 'deleted', to: null };
+    const listed = { ...rest, 'key-changes.json': [{ ...deletion, reason: 'a duplicate row', date: '2026-10-30' }] };
+    const frozen = (problems: ReturnType<typeof checkRegistry>) =>
+      problems.filter((problem) => problem.message.includes('2921'));
+
+    expect(frozen(checkRegistry(registryOf(rest), registryOf(baseTree())))).toEqual([
+      expect.objectContaining({ error: 'FrozenKeyError', severity: 'error' }),
+    ]);
+    expect(frozen(checkRegistry(registryOf(listed), registryOf(baseTree())))).toEqual([
+      expect.objectContaining({ error: 'KeyChangeError', severity: 'warning' }),
     ]);
   });
 
@@ -337,6 +416,26 @@ describe('checkRegistry', () => {
 
     expect(problems.filter((problem) => problem.error === 'AddressFormatError')).toEqual([]);
   });
+  it('accepts a Stellar classic asset as CODE-ISSUER, its code in either case, and a C contract, and fails a code before a contract', () => {
+    const addresses = [
+      'YLDS-GAC7MOPTQLQUM3KC24AW4GHS3RLF72LPEZO54AH7EZ6TSMGRB5SOAVH3',
+      'gBENJI-GD5J73EKK5IYL5XS3FBTHHX7CZIYRP7QXDL57XFWGC2WVYWT326OBXRP',
+      'CBGV2QFQBBGEQRUKUMCPO3SZOHDDYO6SCP5CH6TW7EALKVHCXTMWDDOF',
+      'RSR-CDH2A7S4J6ECQDL4K4BB5JCBF37DYYYFNNKM2VIRZV3IVZ5VAT55BVFR',
+    ];
+    const problems = checkRegistry(
+      registryOf({
+        ...baseTree(),
+        'assets/xstocks/tslax.json': {
+          ...tslax,
+          deployments: [tslax.deployments[0], ...addresses.map((address) => ({ chain: 'stellar', address, deployedAt: '2025-01-01' }))],
+        },
+      }),
+      null,
+    );
+
+    expect(problems.map((problem) => [problem.error, problem.path])).toEqual([['AddressFormatError', 'deployments[4].address']]);
+  });
 });
 
 describe('the taxonomy and the organization homes', () => {
@@ -399,25 +498,32 @@ describe('the taxonomy and the organization homes', () => {
     ]);
   });
 
-  it('fails a deployment on a chain key the sdk does not know, naming the key, and accepts a DefiLlama key the registry never saw', () => {
+  it('asks no primary deployment of an asset with no known contract on a platform with no primary chain', () => {
+    const { problems } = load({
+      ...baseTree(),
+      'assets/xstocks/platform.json': { identity: { slug: 'xstocks', name: 'xStocks', legacyPid: 12 } },
+      'assets/xstocks/tslax.json': tslaxWith({ deployments: [{ chain: 'base' }] }),
+    });
+
+    expect(errorsIn(problems)).toEqual([]);
+  });
+
+  it('only warns on a chain the sdk does not know and checks no address there, while a DefiLlama key the registry never saw is checked', () => {
     const head = registryOf({
       ...baseTree(),
       'assets/xstocks/tslax.json': {
         ...tslax,
         deployments: [
           ...tslax.deployments,
-          { chain: 'gnosis-chain', address: `0x${'2'.repeat(40)}`, deployedAt: '2025-06-30' },
-          { chain: 'xdai', address: `0x${'3'.repeat(40)}`, deployedAt: '2025-06-30' },
+          { chain: 'zksync', address: 'cusd-wei', deployedAt: '2025-06-30' },
+          { chain: 'xdai', address: 'cusd-wei', deployedAt: '2025-06-30' },
         ],
       },
     });
 
     expect(checkRegistry(head, null)).toEqual([
-      expect.objectContaining({
-        error: 'DanglingReferenceError',
-        path: 'deployments[2].chain',
-        message: 'chain names chain gnosis-chain, which is not a DefiLlama chain',
-      }),
+      expect.objectContaining({ error: 'UnknownChainError', severity: 'warning', path: 'deployments[2].chain' }),
+      expect.objectContaining({ error: 'AddressFormatError', severity: 'error', path: 'deployments[3].address' }),
     ]);
   });
 });

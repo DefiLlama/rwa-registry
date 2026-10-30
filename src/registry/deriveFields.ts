@@ -1,5 +1,5 @@
 /**
- * deriveFields: the fields the build writes at a build date: an asset's primary chain and issuer protocol ids, kind and flags (an override in its class block wins), status from events, the market id and live chains.
+ * deriveFields: the fields the build writes at a build date: an asset's primary chain and issuer protocol ids, kind and flags (an override in its class block wins), status from events, the market id and live chains, and a null address on a deployment whose file leaves it out.
  * @dev review: src/registry/keys.ts
  */
 import { EVENT_KINDS, type Registry, type Row, type TableName } from '../schema';
@@ -100,6 +100,8 @@ export const deriveFields = (registry: Registry, at: string): Registry => {
         chains: chains.get(row.slug) ?? [],
       };
     }),
+    // A file written by a command leaves nulls out, and the server reads a chain with no known contract as address null.
+    deployment: registry.deployment.map((row) => ({ ...row, address: row.address ?? null })),
     perp_market: registry.perp_market.map((row) => ({
       ...row,
       id: marketId(row),

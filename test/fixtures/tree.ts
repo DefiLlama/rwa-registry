@@ -15,7 +15,7 @@ const values = (...slugs: [string, string][]) => slugs.map(([slug, label]) => ({
 export const tslaxFile = () => ({
   identity: { slug: 'tslax', symbol: 'TSLAx', name: 'Tesla xStock', legacyId: 257, canonicalMarketId: 'TSLAx' },
   exposure: { underlying: 'tesla-inc' },
-  class: { structure: 'stock-backed', type: 'asset', rwaClassification: 'true-rwa', category: ['stocks-equities'] },
+  class: { structure: 'stock-backed', type: 'asset', rwaClassification: 'rwa', category: ['stocks-equities'] },
   review: { activeAumReviewed: true },
   deployments: [
     {
@@ -33,6 +33,12 @@ export const tslaxFile = () => ({
 export const undatedTslax = () => {
   const tslax = tslaxFile();
   return { ...tslax, deployments: tslax.deployments.map((deployment) => ({ ...deployment, deployedAt: null })) };
+};
+
+// TSLAx also on base, a chain the sheet names with no known contract, written as add asset writes it: no address.
+export const contractlessTslax = () => {
+  const tslax = tslaxFile();
+  return { ...tslax, deployments: [...tslax.deployments, { chain: 'base' }] };
 };
 
 // TSLAx with some fields changed, the fields named as the row names them, written back in the file shape.
@@ -56,7 +62,7 @@ export const baseTree = (): Tree => ({
     { slug: 'precious-metals', label: 'Precious Metals', class: 'commodity' },
   ],
   'reference/vocabularies/rwa-classification.json': values(
-    ['true-rwa', 'True RWA'],
+    ['rwa', 'RWA'],
     ['programmable-finance', 'Programmable Finance'],
   ),
   'reference/vocabularies/access-model.json': values(['permissionless', 'Permissionless']),

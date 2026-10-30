@@ -8,7 +8,7 @@ const vocabularies = {
   'asset-class': ['stock-backed'],
   'asset-group': ['public-equities'],
   type: ['asset'],
-  'rwa-classification': ['true-rwa'],
+  'rwa-classification': ['rwa'],
   'role-kind': ['issuer'],
   'label-kind': ['excluded-holder'],
 };
@@ -22,13 +22,6 @@ describe('parseRow', () => {
     const [error] = errors as SchemaError[];
     expect(error).toBeInstanceOf(SchemaError);
     expect(error).toMatchObject({ file, path: 'class.structure', didYouMean: 'stock-backed' });
-  });
-
-  it('fails an identifier whose source is empty', () => {
-    const identifiers = [{ scheme: 'isin', value: 'US88160R1014', source: '', verified: false }];
-    const errors = parseRow('asset', tslaxWith({ identifiers }), file, { vocabularies });
-
-    expect(errors).toEqual([expect.objectContaining({ path: 'sources.identifiers[0].source' })]);
   });
 
   it('keeps the yields pool ids and fails one that is not a UUID', () => {
@@ -58,12 +51,5 @@ describe('parseRow', () => {
     expect(
       parseRow('underlying', tesla, 'reference/underlyings/equity/tesla-inc.json', { vocabularies }),
     ).toMatchObject({ logo: tesla.logo });
-  });
-
-  it('fails an identifier marked verified that names no source', () => {
-    const identifiers = [{ scheme: 'isin', value: 'US88160R1014', source: null, verified: true }];
-    const errors = parseRow('asset', tslaxWith({ identifiers }), file, { vocabularies });
-
-    expect(errors).toEqual([expect.objectContaining({ path: 'sources.identifiers[0].source' })]);
   });
 });

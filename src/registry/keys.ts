@@ -1,5 +1,5 @@
 /**
- * keys: the key of a row in each table, a slug, chain:address, venue:symbol, or the parts of a nested row.
+ * keys: the key of a row in each table, a slug, chain:address (asset|chain for a deployment with no contract), venue:symbol, or the parts of a nested row.
  * @dev review: src/registry/checks/uniqueKeys.ts
  */
 import type { Registry, Row, TableName } from '../schema';
@@ -21,12 +21,14 @@ const KEYS: { [T in TableName]: (row: Row<T>) => string } = {
   instrument: (row) => row.slug,
   venue: (row) => row.slug,
   asset: (row) => row.slug,
-  deployment: (row) => `${row.chain}:${row.address}`,
+  // A chain with no known contract is one per asset, so its key is the asset and the chain.
+  deployment: (row) => (row.address == null ? `${row.asset}|${row.chain}` : `${row.chain}:${row.address}`),
   perp_market: (row) => `${row.venue}:${row.symbol}`,
   role: (row) => `${row.organization}|${row.kind}|${targetKey(row.target)}|${row.from ?? ''}`,
   event: (row) => `${targetKey(row.target)}|${row.kind}|${row.date ?? ''}`,
   address_label: (row) => `${row.deployment}|${row.address}`,
-  ack: (row) => row.slug,
+  ack: (row) => `${row.kind}/${row.slug}`,
+  key_change: (row) => `${row.table}:${row.legacyId}`,
 };
 
 export const keyOf = (table: TableName, row: object): string => (KEYS[table] as (row: object) => string)(row);

@@ -70,7 +70,7 @@ const add = (
     '--structure',
     'stock-backed',
     '--rwa-classification',
-    'true-rwa',
+    'rwa',
     '--category',
     'stocks-equities',
     '--issuer',
@@ -91,7 +91,7 @@ const runWith = async (command: CliCommand, root: string, deployment: string[], 
     underlying: 'nvidia-corporation',
     type: 'asset',
     structure: 'stock-backed',
-    rwaClassification: 'true-rwa',
+    rwaClassification: 'rwa',
     category: ['stocks-equities'],
     issuer: 'backed-assets-je-limited',
     deployment,
@@ -115,7 +115,7 @@ describe('add asset', () => {
     expect(written).toEqual({
       identity: { slug: 'nvdax', symbol: 'NVDAx', name: 'NVIDIA xStock', legacyId: 9718, canonicalMarketId: 'NVDAx' },
       exposure: { underlying: 'nvidia-corporation' },
-      class: { structure: 'stock-backed', type: 'asset', rwaClassification: 'true-rwa', category: ['stocks-equities'] },
+      class: { structure: 'stock-backed', type: 'asset', rwaClassification: 'rwa', category: ['stocks-equities'] },
       review: { activeAumReviewed: false },
       deployments: [
         { chain: 'solana', address: SOLANA, deployedAt: '2025-06-30', primary: true },
@@ -257,9 +257,13 @@ describe('add asset', () => {
     const template = { platform, ...toRow('asset', file) } as Record<string, any>;
     const [issuer, ...others] = template.roles;
     const tokenizer = { organization: 'backed-finance-ag', kind: 'tokenizer' };
+    // The flags give a deployment only with its address, so the template's chain with no known contract stays out.
+    const contracts = template.deployments.filter((row: Record<string, string | null>) => row.address !== null);
     const flagsOnly = templateCopy('asset', (filled) => ({
       ...filled,
-      deployments: filled.deployments.map((deployment: object) => ({ ...deployment, labels: null })),
+      deployments: filled.deployments
+        .filter((deployment: { address: string | null }) => deployment.address !== null)
+        .map((deployment: object) => ({ ...deployment, labels: null })),
       roles: [issuer, tokenizer, ...others],
       events: null,
     }));
@@ -278,7 +282,7 @@ describe('add asset', () => {
       oracle: roleOf('oracle'),
       auditor: roleOf('auditor'),
     }).flatMap(([flag, value]) => [`--${flag}`, value]);
-    const deployments = template.deployments.map((row: Record<string, string>) =>
+    const deployments = contracts.map((row: Record<string, string>) =>
       [row.chain, row.address, row.deployedAt].join(':'),
     );
 

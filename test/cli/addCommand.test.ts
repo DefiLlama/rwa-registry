@@ -23,7 +23,7 @@ const asset = (root: string, without: string[] = []) => {
     '--underlying': ['nvidia-corporation'],
     '--type': ['asset'],
     '--structure': ['stock-backed'],
-    '--rwa-classification': ['true-rwa'],
+    '--rwa-classification': ['rwa'],
     '--category': ['stocks-equities'],
     '--issuer': ['backed-assets-je-limited'],
     '--deployment': ['solana:Xsc9qvGR1efVDFGLrVsmkzv3qi45LTBjeUKSPmx9qEh:2025-06-30'],

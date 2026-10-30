@@ -90,16 +90,6 @@
         }
       ]
     },
-    "oracleProvider": {
-      "anyOf": [
-        {
-          "type": "string"
-        },
-        {
-          "type": "null"
-        }
-      ]
-    },
     "accessModel": {
       "description": "a slug of registry/reference/vocabularies/access-model.json",
       "type": "string",
@@ -111,16 +101,6 @@
       "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
     },
     "conventionNote": {
-      "anyOf": [
-        {
-          "type": "string"
-        },
-        {
-          "type": "null"
-        }
-      ]
-    },
-    "marginAsset": {
       "anyOf": [
         {
           "type": "string"
@@ -253,7 +233,8 @@
                       "role",
                       "event",
                       "address_label",
-                      "ack"
+                      "ack",
+                      "key_change"
                     ]
                   },
                   "key": {

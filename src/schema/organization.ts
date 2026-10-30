@@ -8,7 +8,7 @@ import * as enums from './enums';
 import { fees } from './fees';
 import { identifier } from './identifier';
 import { links } from './links';
-import { flag, integer, optional, ref, slug, text } from './primitives';
+import { integer, optional, ref, slug, text } from './primitives';
 
 // The blocks only some kinds hold; identity, about and identifiers are every organization's.
 export const KIND_BLOCKS: Record<string, readonly string[]> = { platform: ['platform', 'venue-operator'] };
@@ -39,10 +39,9 @@ export const organization = defineTable({
     chains: optional(z.array(ref)),
     attestationFrequency: optional(text),
     // The sheet's flags: a blank is left out, so the server publishes null. suspicious and delisted hold only the
-    // sheet's FALSE, since a TRUE is the review or delisting event; llamaGradeAttestation holds either value.
+    // sheet's FALSE, since a TRUE is the review or delisting event.
     suspicious: optional(z.literal(false)),
     delisted: optional(z.literal(false)),
-    llamaGradeAttestation: optional(flag),
     onchainMcapBasis: optional(enums.mcapBasis),
     fees: optional(fees(v)),
     status: optional(enums.status),
@@ -73,7 +72,6 @@ export const organization = defineTable({
       'attestationFrequency',
       'suspicious',
       'delisted',
-      'llamaGradeAttestation',
       'onchainMcapBasis',
       'fees',
     ],

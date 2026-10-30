@@ -42,19 +42,14 @@ export const asset = defineTable({
     // The DefiLlama yields pool ids the server's native-yield match may use as an override.
     yieldPoolIds: optional(z.array(z.uuid())),
     identifiers: optional(z.array(identifier)),
-    // The sheet's Llama Attestation Proof: the proof link, or false where the sheet marks none held ("x").
-    llamaAttestationProof: optional(
-      z.union([z.string().regex(/^https?:\/\/\S+$/, 'a proof is a link'), z.literal(false)]),
-    ),
     description: optional(text),
     logo: optional(text),
     links: optional(assetLinks),
     activeAumReviewed: optional(flag),
     // The sheet's flags: a blank is left out, so the server publishes null. suspicious and delisted hold only the
-    // sheet's FALSE, since a TRUE is the review or delisting event; llamaGradeAttestation holds either value.
+    // sheet's FALSE, since a TRUE is the review or delisting event.
     suspicious: optional(z.literal(false)),
     delisted: optional(z.literal(false)),
-    llamaGradeAttestation: optional(flag),
     primaryChain: ref,
     issuerProtocolIds: optional(z.array(protocolId)),
     kind: optional(enums.assetKind),
@@ -88,8 +83,8 @@ export const asset = defineTable({
       'yieldBearing',
       'attestationFrequency',
     ],
-    sources: ['coingeckoId', 'protocolIds', 'yieldPoolIds', 'identifiers', 'llamaAttestationProof'],
+    sources: ['coingeckoId', 'protocolIds', 'yieldPoolIds', 'identifiers'],
     about: ['description', 'logo', 'links'],
-    review: ['activeAumReviewed', 'suspicious', 'delisted', 'llamaGradeAttestation'],
+    review: ['activeAumReviewed', 'suspicious', 'delisted'],
   },
 });

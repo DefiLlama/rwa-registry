@@ -12,18 +12,24 @@
   },
   "terms": {
     "collateral": null,
-    "marginAsset": null,
     "pair": "IONQ-USDC",
     "makerFeeBps": null,
     "takerFeeBps": null
-  },
-  "sources": {
-    "oracleProvider": "Pyth equity feed"
   },
   "about": {
     "description": null,
     "website": null,
     "issuer": null
   },
+  "roles": [
+    {
+      "organization": "pyth-network",
+      "kind": "oracle",
+      "from": null,
+      "to": null,
+      "sourceLinks": null,
+      "protocolIds": null
+    }
+  ],
   "events": []
 }

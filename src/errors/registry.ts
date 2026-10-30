@@ -21,7 +21,10 @@ export class DanglingReferenceError extends RegistryError {}
 export class CycleError extends RegistryError {}
 export class AddressFormatError extends RegistryError {}
 export class FrozenKeyError extends RegistryError {}
+export class KeyChangeError extends RegistryError {}
 export class UndatedDeploymentError extends RegistryError {}
+export class ContractlessDeploymentError extends RegistryError {}
+export class UnknownChainError extends RegistryError {}
 export class MarketTrackError extends RegistryError {}
 export class PlatformFolderError extends RegistryError {}
 export class SlugRuleError extends RegistryError {}
@@ -34,7 +37,6 @@ export class VenueAdapterError extends RegistryError {}
 export class UndatedEventError extends RegistryError {}
 export class MissingReasonError extends RegistryError {}
 export class UnderlyingClassError extends RegistryError {}
-export class UnverifiedIdentifierError extends RegistryError {}
 export class OrganizationKindError extends RegistryError {}
 export class PrimaryDeploymentError extends RegistryError {}
 export class StaleFlagOverrideError extends RegistryError {}

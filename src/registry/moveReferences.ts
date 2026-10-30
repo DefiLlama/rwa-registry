@@ -4,7 +4,7 @@
  */
 import { tables, type TableName } from '../schema';
 import { isObject } from '../utils/isObject';
-import { REFERENCES, TARGETS } from './checks/references';
+import { REFERENCES, TARGETS, tableOf } from './checks/references';
 
 type Json = Record<string, unknown>;
 
@@ -12,8 +12,8 @@ type Rename = (key: string) => string;
 
 const moveRow = (table: TableName, row: Json, refTable: TableName, rename: Rename): Json => {
   const moved: Json = { ...row };
-  for (const [field, target] of REFERENCES[table] ?? []) {
-    if (target !== refTable) continue;
+  for (const [field, ...named] of REFERENCES[table] ?? []) {
+    if (!named.some((target) => tableOf(target) === refTable)) continue;
     const value = moved[field];
     const renamed = (item: unknown) => (typeof item === 'string' ? rename(item) : item);
     if (typeof value === 'string') moved[field] = rename(value);

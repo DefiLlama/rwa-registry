@@ -1,5 +1,5 @@
 /**
- * dateOrder: a dated row starts no later than it ends, for holder labels, roles and acks.
+ * dateOrder: a dated row starts no later than it ends, for roles and acks, and a drift ack's first series day comes no later than its last.
  * @dev review: src/registry/checks/index.ts
  */
 import { DateOrderError } from '../../errors';
@@ -8,9 +8,9 @@ import { rowsOf } from '../keys';
 import { report, type Problem } from '../problem';
 
 const SPANS: [TableName, from: string, to: string][] = [
-  ['address_label', 'from', 'to'],
   ['role', 'from', 'to'],
   ['ack', 'from', 'until'],
+  ['ack', 'firstDay', 'lastDay'],
 ];
 
 export const dateOrder = (registry: Registry): Problem[] =>

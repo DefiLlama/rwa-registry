@@ -7,15 +7,9 @@
       "minLength": 1
     },
     "address": {
-      "type": "string"
-    },
-    "aliases": {
       "anyOf": [
         {
-          "type": "array",
-          "items": {
-            "type": "string"
-          }
+          "type": "string"
         },
         {
           "type": "null"
@@ -91,40 +85,6 @@
             "description": "a slug of registry/reference/vocabularies/label-kind.json",
             "type": "string",
             "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
-          },
-          "from": {
-            "anyOf": [
-              {
-                "type": "string",
-                "format": "date",
-                "pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))$"
-              },
-              {
-                "type": "null"
-              }
-            ]
-          },
-          "to": {
-            "anyOf": [
-              {
-                "type": "string",
-                "format": "date",
-                "pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))$"
-              },
-              {
-                "type": "null"
-              }
-            ]
-          },
-          "note": {
-            "anyOf": [
-              {
-                "type": "string"
-              },
-              {
-                "type": "null"
-              }
-            ]
           }
         },
         "required": [
@@ -175,7 +135,8 @@
                       "role",
                       "event",
                       "address_label",
-                      "ack"
+                      "ack",
+                      "key_change"
                     ]
                   },
                   "key": {
@@ -249,8 +210,7 @@
     }
   },
   "required": [
-    "chain",
-    "address"
+    "chain"
   ],
   "additionalProperties": false
 }

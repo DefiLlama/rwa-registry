@@ -56,12 +56,21 @@ describe('add market', () => {
     expect(file().events).toBeUndefined();
   });
 
-  it('writes from templates/market.json the file the flags write, the oracle override included', async () => {
-    const ionq = { slug: 'ionq-inc', name: 'IonQ, Inc.', ticker: 'IONQ', exposure: 'public-equities' };
-    const byFlags = writeTree({ ...baseTree(), 'reference/underlyings/equity/ionq-inc.json': ionq });
-    const byFile = writeTree({ ...baseTree(), 'reference/underlyings/equity/ionq-inc.json': ionq });
+  it('writes from templates/market.json the file the flags write, the oracle role included', async () => {
+    const tree = {
+      ...baseTree(),
+      'reference/underlyings/equity/ionq-inc.json': {
+        slug: 'ionq-inc',
+        name: 'IonQ, Inc.',
+        ticker: 'IONQ',
+        exposure: 'public-equities',
+      },
+      'reference/organizations/oracle/pyth-network.json': { identity: { slug: 'pyth-network', name: 'Pyth Network' } },
+    };
+    const byFlags = writeTree(tree);
+    const byFile = writeTree(tree);
     const flags = ['--venue', 'xyz', '--symbol', 'IONQ', '--tracks', 'ionq-inc', '--pair', 'IONQ-USDC'];
-    const oracle = ['--oracle', 'Pyth equity feed'];
+    const oracle = ['--oracle', 'pyth-network'];
     const classes = ['--structure', 'stock-perp', '--no-discover'];
 
     await runCli(['add', 'market', '--registry', byFlags, ...flags, ...oracle, ...classes]);

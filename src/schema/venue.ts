@@ -19,12 +19,9 @@ export const venue = defineTable({
     takerFeeBps: optional(number),
     deployerFeeShare: optional(number),
     fundingRetentionPct: optional(number),
-    oracleProvider: optional(text),
     accessModel: v['access-model'],
     rwaClassification: v['rwa-classification'],
     conventionNote: optional(text),
-    // The margin asset the sheet writes on most of the venue's markets; a market that differs holds its own.
-    marginAsset: optional(text),
     status: optional(enums.status),
   }),
   build: ['status'],

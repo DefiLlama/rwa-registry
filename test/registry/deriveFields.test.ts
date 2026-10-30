@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { deriveFields } from '../../src/registry/deriveFields';
-import { assetFile, baseTree, registryOf, tslaMarketFile, tslaxFile } from '../fixtures/tree';
+import { assetFile, baseTree, contractlessTslax, registryOf, tslaMarketFile, tslaxFile } from '../fixtures/tree';
 
 const eventKinds = ['listing', 'delisting', 'retirement', 'migration', 'split'].map((slug) => ({ slug, label: slug }));
 const derive = (tree: Record<string, unknown>, at = '2026-10-25') =>
@@ -53,6 +53,13 @@ describe('deriveFields', () => {
     expect(flags('susde')).toEqual([false, false, 'claim']);
     expect(flags('apyusd')).toEqual([true, false, 'stablecoin']);
     expect(flags('tslax')).toEqual([true, false, 'stablecoin']);
+  });
+
+  it('builds a deployment with no known contract as address null and keeps its chain on the asset', () => {
+    const { asset, deployment } = derive({ 'assets/xstocks/tslax.json': contractlessTslax() });
+
+    expect(deployment.find((row) => row.chain === 'base')).toEqual({ asset: 'tslax', chain: 'base', address: null });
+    expect(asset.find((row) => row.slug === 'tslax')!.chains).toEqual(['solana', 'ethereum', 'base']);
   });
 
   it('derives status from the events at the build date', () => {

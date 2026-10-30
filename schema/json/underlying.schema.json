@@ -64,26 +64,11 @@
               },
               "value": {
                 "type": "string"
-              },
-              "source": {
-                "anyOf": [
-                  {
-                    "type": "string",
-                    "minLength": 1
-                  },
-                  {
-                    "type": "null"
-                  }
-                ]
-              },
-              "verified": {
-                "type": "boolean"
               }
             },
             "required": [
               "scheme",
-              "value",
-              "verified"
+              "value"
             ],
             "additionalProperties": false
           }
@@ -226,7 +211,8 @@
                       "role",
                       "event",
                       "address_label",
-                      "ack"
+                      "ack",
+                      "key_change"
                     ]
                   },
                   "key": {

@@ -266,26 +266,11 @@
               },
               "value": {
                 "type": "string"
-              },
-              "source": {
-                "anyOf": [
-                  {
-                    "type": "string",
-                    "minLength": 1
-                  },
-                  {
-                    "type": "null"
-                  }
-                ]
-              },
-              "verified": {
-                "type": "boolean"
               }
             },
             "required": [
               "scheme",
-              "value",
-              "verified"
+              "value"
             ],
             "additionalProperties": false
           }
@@ -391,16 +376,6 @@
             {
               "type": "boolean",
               "const": false
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "llamaGradeAttestation": {
-          "anyOf": [
-            {
-              "type": "boolean"
             },
             {
               "type": "null"
@@ -774,7 +749,8 @@
                       "role",
                       "event",
                       "address_label",
-                      "ack"
+                      "ack",
+                      "key_change"
                     ]
                   },
                   "key": {

@@ -44,12 +44,20 @@ describe('loadRegistry', () => {
     ]);
   });
 
-  it('reads the acks from acks/ beside the registry, and refuses an ack inside it', () => {
-    const ack = { slug: 'tslax-flows', guard: 'flows-hidden', asset: 'tslax', from: '2026-01-01', reason: 'r', resolve: 'r' };
-    const { registry, problems } = load({ ...baseTree(), '../acks/tslax-flows.json': ack, 'acks/old-flows.json': ack });
+  it('reads an ack from acks/<kind>/ beside the registry with its kind from the folder, and refuses a flat ack and one inside the registry', () => {
+    const ack = { slug: 'tslax', asset: 'tslax', from: '2026-01-01', reason: 'r', resolve: 'r' };
+    const { registry, problems } = load({
+      ...baseTree(),
+      '../acks/flows-hidden/tslax.json': ack,
+      '../acks/tslax-flows.json': ack,
+      'acks/flows-hidden/tslax.json': ack,
+    });
 
-    expect(registry.ack).toEqual([expect.objectContaining({ slug: 'tslax-flows' })]);
-    expect(problems).toEqual([expect.objectContaining({ file: 'acks/old-flows.json', error: 'UnknownPathError' })]);
+    expect(registry.ack).toEqual([expect.objectContaining({ kind: 'flows-hidden', slug: 'tslax' })]);
+    expect(problems).toEqual([
+      expect.objectContaining({ file: 'acks/flows-hidden/tslax.json', error: 'UnknownPathError' }),
+      expect.objectContaining({ file: '../acks/tslax-flows.json', error: 'UnknownPathError' }),
+    ]);
   });
 
   it("takes an organization's kind from its home: a kind folder, an asset folder or a venue folder", () => {

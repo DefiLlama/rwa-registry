@@ -14,7 +14,7 @@
   "class": {
     "structure": "stock-backed",
     "type": "asset",
-    "rwaClassification": "true-rwa",
+    "rwaClassification": "rwa",
     "category": ["stocks-equities"],
     "stablecoin": null,
     "governance": null,
@@ -34,8 +34,7 @@
     "coingeckoId": null,
     "protocolIds": null,
     "yieldPoolIds": null,
-    "identifiers": null,
-    "llamaAttestationProof": null
+    "identifiers": null
   },
   "about": {
     "description": null,
@@ -47,14 +46,12 @@
   "review": {
     "activeAumReviewed": false,
     "suspicious": null,
-    "delisted": null,
-    "llamaGradeAttestation": null
+    "delisted": null
   },
   "deployments": [
     {
       "chain": "solana",
       "address": "XsExampLeMint11111111111111111111111111111",
-      "aliases": null,
       "deployedAt": "2026-10-20",
       "primary": true,
       "standard": null,
@@ -63,10 +60,7 @@
       "labels": [
         {
           "address": "ExampLeHo1der111111111111111111111111111",
-          "kind": "excluded-holder",
-          "from": null,
-          "to": null,
-          "note": null
+          "kind": "excluded-holder"
         }
       ],
       "events": []
@@ -74,8 +68,18 @@
     {
       "chain": "ethereum",
       "address": "0x1234567890abcdef1234567890abcdef12345678",
-      "aliases": null,
       "deployedAt": "2026-10-20",
+      "primary": null,
+      "standard": null,
+      "bridgedFrom": null,
+      "bridgeMethod": null,
+      "labels": [],
+      "events": []
+    },
+    {
+      "chain": "base",
+      "address": null,
+      "deployedAt": null,
       "primary": null,
       "standard": null,
       "bridgedFrom": null,

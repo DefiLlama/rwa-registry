@@ -34,8 +34,8 @@ export const createAddMarketCommand = (
       },
       { flag: '--pair <text>', description: 'the pair as the venue writes it, TSLA-USDC' },
       {
-        flag: '--oracle <text>',
-        description: "the market's oracle where it differs from the venue's oracleProvider, Pyth equity feed",
+        flag: '--oracle <slug>',
+        description: "the organization that prices it where it differs from the venue's oracle roles, pyth-network",
       },
       {
         flag: '--no-discover',
@@ -49,7 +49,7 @@ export const createAddMarketCommand = (
       tracksAsset: values.tracksAsset,
       structure: values.structure,
       pair: values.pair,
-      oracleProvider: values.oracle,
+      roles: values.oracle === undefined ? undefined : [{ organization: String(values.oracle), kind: 'oracle' }],
     }),
     files: async (template, registry, { note, flags }) => {
       const market = { venue: String(template.venue), symbol: String(template.symbol) };

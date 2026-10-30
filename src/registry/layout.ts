@@ -7,6 +7,7 @@ import type { TableName } from '../schema';
 export const REGISTRY_DIR = 'registry';
 // The acks sit beside registry/ at the repository root, so a path names them from the registry folder.
 export const ACKS_DIR = '../acks';
+export const KEY_CHANGES_FILE = 'key-changes.json';
 
 type FileRow = Record<string, unknown>;
 export type FileTable = Exclude<TableName, 'deployment' | 'role' | 'event' | 'address_label'>;
@@ -83,7 +84,13 @@ const LAYOUT: Home[] = [
     implied: (match) => match[1],
     file: (row) => `perps/${row.venue}/${String(row.symbol).toLowerCase()}.json`,
   },
-  { pattern: /^\.\.\/acks\/[^/]+\.json$/, table: 'ack', file: (row) => `${ACKS_DIR}/${row.slug}.json` },
+  { pattern: /^key-changes\.json$/, table: 'key_change', many: true, file: () => KEY_CHANGES_FILE },
+  {
+    pattern: /^\.\.\/acks\/([^/]+)\/[^/]+\.json$/,
+    table: 'ack',
+    implied: (match) => match[1],
+    file: (row) => `${ACKS_DIR}/${row.kind}/${row.slug}.json`,
+  },
 ];
 
 export const homeOf = (file: string): { table: TableName; implied: string | null; many: boolean } | null => {

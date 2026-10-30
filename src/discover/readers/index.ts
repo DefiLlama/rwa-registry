@@ -1,6 +1,6 @@
 /**
- * readers: one date reader per chain family, registered one line each; a family with none answers no-reader.
- * A deployment no reader dated then gets the first day DefiLlama stored a value for it, from the history source.
+ * readers: one date reader per chain family, registered one line each; a family with none answers no-reader, and a chain the sdk does not know answers unknown-chain.
+ * A deployment no reader dated on a chain the sdk knows then gets the first day DefiLlama stored a value for it, from the history source.
  * @dev review: src/discover/dateReader.ts
  */
 import type { AddressFamily } from '../../schema';
@@ -30,14 +30,16 @@ export const readDates = async (queries: DateQuery[], deps: DiscoverDeps): Promi
   const results = new Map<DateQuery, DateResult>();
   await Promise.all(
     [...groupBy(queries, ({ family }) => family)].map(async ([family, group]) => {
-      const reader = byFamily.get(family);
-      const read = reader ? await reader.read(group, deps) : group.map(() => missing('no-reader'));
+      const reader = family && byFamily.get(family);
+      const unread = ({ chain }: DateQuery) =>
+        family ? missing('no-reader') : missing('unknown-chain', null, { detail: `the sdk does not know ${chain}` });
+      const read = reader ? await reader.read(group, deps) : group.map(unread);
       group.forEach((query, index) => results.set(query, read[index]));
     }),
   );
   await Promise.all(
     queries
-      .filter((query) => noneAnswered(results.get(query)!))
+      .filter((query) => query.family !== null && noneAnswered(results.get(query)!))
       .map(async (query) => {
         const day = await firstStoredDay(query, deps).catch(() => null);
         if (day) results.set(query, day);

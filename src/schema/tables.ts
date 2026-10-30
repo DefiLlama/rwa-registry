@@ -10,6 +10,7 @@ import type { TableName } from './enums';
 import { deployment } from './deployment';
 import { event } from './event';
 import { instrument } from './instrument';
+import { keyChange } from './keyChange';
 import { organization } from './organization';
 import { perpMarket } from './perpMarket';
 import { role } from './role';
@@ -30,4 +31,5 @@ export const tables = {
   event,
   address_label: addressLabel,
   ack,
+  key_change: keyChange,
 } satisfies Record<TableName, AnyTableDefinition>;

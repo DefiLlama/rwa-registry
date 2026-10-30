@@ -4,7 +4,9 @@
  */
 import type { Registry } from '../../schema';
 import type { Problem } from '../problem';
+import { ackFields } from './ackFields';
 import { addressFormats } from './addressFormats';
+import { contractlessDeployments } from './contractlessDeployments';
 import { cycles } from './cycles';
 import { datedDeployments } from './datedDeployments';
 import { dateOrder } from './dateOrder';
@@ -14,7 +16,6 @@ import { eventTargets } from './eventTargets';
 import { fileNames } from './fileNames';
 import { flagOverrides } from './flagOverrides';
 import { frozenKeys } from './frozenKeys';
-import { identifierSources } from './identifierSources';
 import { marketTracks } from './marketTracks';
 import { organizationKinds } from './organizationKinds';
 import { platformFolders } from './platformFolders';
@@ -22,6 +23,7 @@ import { primaryDeployments } from './primaryDeployments';
 import { references } from './references';
 import { underlyingClasses } from './underlyingClasses';
 import { uniqueKeys } from './uniqueKeys';
+import { unknownChains } from './unknownChains';
 
 export type Check = (registry: Registry, base: Registry | null) => Problem[];
 
@@ -29,9 +31,10 @@ export const checks: Check[] = [
   references,
   cycles,
   datedDeployments,
+  contractlessDeployments,
+  unknownChains,
   marketTracks,
   uniqueKeys,
-  identifierSources,
   frozenKeys,
   platformFolders,
   organizationKinds,
@@ -44,6 +47,7 @@ export const checks: Check[] = [
   eventTargets,
   eventNotes,
   dateOrder,
+  ackFields,
 ];
 
 export const checkRegistry = (registry: Registry, base: Registry | null): Problem[] =>

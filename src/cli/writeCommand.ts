@@ -8,7 +8,6 @@ import { CliError, FlagFormatError, MissingFieldError, NoSuchRowError, RowExists
 import { ACKS_DIR, loadRegistry } from '../registry';
 import type { Registry } from '../schema';
 import { dayOf } from '../utils/days';
-import { isObject } from '../utils/isObject';
 import { jsonText } from '../utils/writeFile';
 import { askInTerminal, type Ask, type Choice } from './ask';
 import { changeLine, changes } from './changes';
@@ -117,23 +116,11 @@ const conflictsOf = (root: string, files: FileToWrite[]) =>
     return message ? [new RowExistsError({ file: at, message })] : [];
   });
 
-// An identifier a command writes says whether someone read it: verified when it names a source URL, unverified otherwise.
-const withVerified = (content: unknown): unknown => {
-  if (!isObject(content) || !Array.isArray(content.identifiers)) return content;
-  const identifiers = content.identifiers.map((item: unknown) =>
-    isObject(item) && item.verified === undefined
-      ? { ...item, verified: typeof item.source === 'string' && /^https?:\/\//.test(item.source) }
-      : item,
-  );
-  return { ...content, identifiers };
-};
-
-// The planned files as they would be written: identifiers marked, the text, and the file they replace or remove.
+// The planned files as they would be written: the text, and the file they replace or remove.
 const stagedOf = (files: FileToWrite[], exists: (path: string) => boolean, read: (path: string) => unknown): Staged[] =>
   files.map((file) => {
-    const content = file.remove ? file.content : withVerified(file.content);
     const before = (file.replaces || file.remove) && exists(file.path) ? read(file.path) : undefined;
-    return { ...file, content, text: file.remove ? '' : jsonText(content), before };
+    return { ...file, text: file.remove ? '' : jsonText(file.content), before };
   });
 
 export const defineWriteCommand = (spec: WriteSpec): CliCommand => ({

@@ -17,6 +17,7 @@ export const TABLE_NAMES = [
   'event',
   'address_label',
   'ack',
+  'key_change',
 ] as const;
 export type TableName = (typeof TABLE_NAMES)[number];
 
@@ -66,7 +67,24 @@ export type AddressFamily = (typeof ADDRESS_FAMILIES)[number];
 
 export const assetKind = z.enum(['claim', 'stablecoin', 'governance']);
 export const reviewOutcome = z.enum(['suspicious', 'cleared']);
-export const ackGuard = z.enum(['flows-hidden', 'asset-move']);
+// The guard exceptions the server reads, one folder each under acks/ (docs/acks.md).
+export const ACK_KINDS = [
+  'asset-move',
+  'asset-move-release',
+  'flows-hidden',
+  'single-point',
+  'aggregate-jump',
+  'head-move',
+  'drift',
+  'perps-venue',
+  'perps-market',
+] as const;
+export type AckKind = (typeof ACK_KINDS)[number];
+export const ackKind = z.enum(ACK_KINDS);
+// The tables whose published id is frozen, and how a key-changes.json entry ends one.
+export const FROZEN_TABLES = ['asset', 'organization', 'perp_market'] as const;
+export type FrozenTable = (typeof FROZEN_TABLES)[number];
+export const keyChangeKind = z.enum(['deleted', 'moved']);
 export const mcapBasis = z.enum(['onchain', 'active']);
 export const status = z.enum(['listed', 'delisted', 'retired']);
 export const identifierScheme = z.enum(['isin', 'figi', 'lei']);

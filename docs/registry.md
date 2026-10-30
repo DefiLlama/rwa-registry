@@ -14,7 +14,8 @@
 | `assets/<platform>/<slug>.json`                 | One asset of that platform.                                                                      |
 | `perps/<venue>/venue.json`, `organization.json` | One venue, and the organization that operates it unless that is a platform.                      |
 | `perps/<venue>/<lowercase symbol>.json`         | One market of that venue.                                                                        |
-| `../acks/<slug>.json`                           | One ack, at the repository root.                                                                 |
+| `../acks/<kind>/<slug>.json`                    | One ack of that kind, at the repository root, as `acks.md` describes each kind.                  |
+| `key-changes.json`                              | Every published id deleted or moved on purpose, as an array.                                     |
 
 ## Naming rules
 
@@ -26,22 +27,22 @@
 
 An asset, market or organization file groups its fields in named blocks; `schema/json/` and `templates/` list every field of each block.
 
-| File         | Blocks                                                                                                                                                                                                                                                                                                                                    |
-| ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Asset        | `identity`, `exposure` (underlying, wraps), `class` (structure, type, RWA classification, a `stablecoin` or `governance` override with its `flagReason`), `terms`, `sources` (CoinGecko id, yields pool ids, identifiers, the Llama attestation proof), `about` (description, logo, the `website` links), `review` (`activeAumReviewed`). |
-| Market       | `identity`, `tracks` (its `underlying` or `asset`, and its structure), `terms`, `sources` (the oracle override), `about` (description, and the website and issuer where they differ from the venue organization's).                                                                                                                       |
-| Organization | `identity`, `about`, `identifiers`, and `platform` only on a platform or a venue operator.                                                                                                                                                                                                                                                |
+| File         | Blocks                                                                                                                                                                                                                                                                                                       |
+| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Asset        | `identity`, `exposure` (underlying, wraps), `class` (structure, type, RWA classification, a `stablecoin` or `governance` override with its `flagReason`), `terms`, `sources` (CoinGecko id, yields pool ids, identifiers), `about` (description, logo, the `website` links), `review` (`activeAumReviewed`). |
+| Market       | `identity`, `tracks` (its `underlying` or `asset`, and its structure), `terms` (its `collateral`: an asset, or an fx underlying such as `us-dollar` where the venue settles in a fiat currency), `about` (description, and the website and issuer where they differ from the venue organization's).          |
+| Organization | `identity`, `about`, `identifiers`, and `platform` only on a platform or a venue operator.                                                                                                                                                                                                                   |
 
 An underlying, venue or vocabulary file has no blocks.
-Some rows live inside their parent's file, in an array, and leave out the field the parent supplies: an asset holds `deployments`, `roles` and `events`, a deployment its `labels` and `events`, an organization, underlying or venue its `roles` and `events`, an instrument its `roles`, and a market its `events`. One deployment of an asset is marked `primary`, and its issuer role holds the asset's DefiLlama `protocolIds`. This is `assets/xstocks/tslax.json`, trimmed:
+Some rows live inside their parent's file, in an array, and leave out the field the parent supplies: an asset holds `deployments`, `roles` and `events`, a deployment its `labels` and `events`, an organization, underlying, venue or market its `roles` and `events`, and an instrument its `roles`. One deployment of an asset is marked `primary`, and its issuer role holds the asset's DefiLlama `protocolIds`. This is `assets/xstocks/tslax.json`, trimmed:
 
 ```json
 {
   "identity": { "slug": "tslax", "symbol": "TSLAx", "legacyId": 257 },
   "exposure": { "underlying": "tesla-inc" },
-  "class": { "structure": "stock-backed", "type": "asset", "rwaClassification": "true-rwa" },
+  "class": { "structure": "stock-backed", "type": "asset", "rwaClassification": "rwa" },
   "terms": { "redeemable": true, "transferable": true },
-  "sources": { "identifiers": [{ "scheme": "isin", "value": "CH1436219252", "source": null, "verified": false }] },
+  "sources": { "identifiers": [{ "scheme": "isin", "value": "CH1436219252" }] },
   "deployments": [{ "chain": "solana", "address": "XsDoVfqeBukxuZHWhdvWHBhgEHjGNst4MLodqsJHzoB", "primary": true }],
   "roles": [{ "organization": "backed-assets-je-limited", "kind": "issuer", "protocolIds": [6378] }]
 }
@@ -51,33 +52,36 @@ Some rows live inside their parent's file, in an array, and leave out the field 
 
 `validate` loads every file against its table's schema, then runs the checks in `src/registry/checks/` and the published venue check in `src/build/`.
 
-| Check              | Fails when                                                                                                                                      |
-| ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-| Schema             | A value is unknown, missing or outside its vocabulary.                                                                                          |
-| References         | A reference names no row, a chain is not a DefiLlama chain key, or a role or event targets a table its kind may not.                            |
-| Cycles             | `wraps`, `bridgedFrom`, a venue parent or an organization parent loops.                                                                         |
-| Unique keys        | Two rows share a key, a legacy id, a canonical market id or a lowercase market id.                                                              |
-| Frozen keys        | With `--base`, a published legacy id changed, or the row that holds it was renamed or deleted.                                                  |
-| Dated deployments  | With `--base`, a new deployment has no `deployedAt`.                                                                                            |
-| Market tracks      | A market tracks no underlying or asset, or both.                                                                                                |
-| Folders            | An asset folder has no `platform.json`, an underlying sits outside the folder of its exposure's class, or an organization folder names no kind. |
-| Organization kinds | A kind other than platform or venue operator holds the `platform` block, or a venue names one of another kind.                                  |
-| Flag overrides     | Warns only: a `stablecoin` or `governance` override equals the value its rule derives.                                                          |
-| Primary deployment | Two deployments of an asset are primary, or none is and its platform has no primary chain.                                                      |
-| Identifier sources | With `--base`, a new row holds an identifier that is not verified.                                                                              |
-| File names         | A row sits in a file its key does not name.                                                                                                     |
-| Display slugs      | A platform, venue organization or vocabulary slug is not `rwaSlug` of its name.                                                                 |
-| Address formats    | An address is not in its chain family's form: lowercase for evm, `CODE.issuer` or a bare issuer for xrpl, `CODE-ISSUER` for stellar.            |
-| Event targets      | An event kind sits on a table it cannot change, such as a split on an asset.                                                                    |
-| Event notes        | A new event has no date and no note, or a retirement or suspicious review has no reason.                                                        |
-| Date order         | A label, role or ack ends before it starts.                                                                                                     |
-| Published venues   | A published venue names no adapter, its own or its parent's.                                                                                    |
+| Check                     | Fails when                                                                                                                                           |
+| ------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Schema                    | A value is unknown, missing or outside its vocabulary.                                                                                               |
+| References                | A reference names no row, or a role or event targets a table its kind may not.                                                                       |
+| Cycles                    | `wraps`, `bridgedFrom`, a venue parent or an organization parent loops.                                                                              |
+| Unique keys               | Two rows share a key, a legacy id, a canonical market id or a lowercase market id.                                                                   |
+| Frozen keys               | With `--base`, a published legacy id changed, or the row that holds it was renamed or deleted and `key-changes.json` does not list it.               |
+| Dated deployments         | With `--base`, a new deployment with an address has no `deployedAt`.                                                                                 |
+| Contract-less deployments | Warns only: a deployment has no address, so its chain is listed and nothing is read there.                                                           |
+| Unknown chains            | Warns only: a deployment, platform or venue names a chain the sdk does not know, so it keeps the sheet's name and nothing is read there.             |
+| Market tracks             | A market tracks no underlying or asset, or both.                                                                                                     |
+| Folders                   | An asset folder has no `platform.json`, an underlying sits outside the folder of its exposure's class, or an organization folder names no kind.      |
+| Organization kinds        | A kind other than platform or venue operator holds the `platform` block, or a venue names one of another kind.                                       |
+| Flag overrides            | Warns only: a `stablecoin` or `governance` override equals the value its rule derives.                                                               |
+| Primary deployment        | Two deployments of an asset are primary, or it has a contract, none is primary and its platform has no primary chain.                                |
+| File names                | A row sits in a file its key does not name.                                                                                                          |
+| Display slugs             | A platform, venue organization or vocabulary slug is not `rwaSlug` of its name.                                                                      |
+| Address formats           | An address is not in its chain family's form: lowercase for evm, `CODE.issuer` or a bare issuer for xrpl, `CODE-ISSUER` or a C contract for stellar. |
+| Event targets             | An event kind sits on a table it cannot change, such as a split on an asset.                                                                         |
+| Event notes               | A new event has no date and no note, or a retirement or suspicious review has no reason.                                                             |
+| Date order                | A role or ack ends before it starts.                                                                                                                 |
+| Published venues          | A published venue names no adapter, its own or its parent's.                                                                                         |
 
-A warning never fails `validate`. It marks a row on main that breaks a rule new rows must keep (an undated deployment, an unverified identifier) or a change a person should confirm (one ISIN on two assets). `validate` prints one count line per warning kind, and `--out <dir>` writes each kind's rows to `<dir>/audit/<kind>.csv`.
+`key-changes.json` lists the published ids ended on purpose, one entry each: `{ table, legacyId, slug, change, to, reason, date }`, where `change` is `deleted` or `moved`, `to` is the key that holds the id after a move and null after a deletion, and `legacyId` is the PID for an organization. The frozen-key check reports a deletion or move listed there as the warning `key-change` and still fails one it does not list, so ending a published id is a reviewed line in this file. The entries stay once main has moved past them, and `registry.json` publishes them as the `key_change` table, which the server may read later to redirect an old id.
+
+A warning never fails `validate`. It marks a row on main that breaks a rule new rows must keep (an undated deployment), a change a person should confirm (one ISIN on two assets), or a gap to fill (a chain with no known contract, a chain the sdk does not know). `validate` prints one count line per warning kind, and `--out <dir>` writes each kind's rows to `<dir>/audit/<kind>.csv`.
 
 ## Editing with commands
 
-- A command that writes first checks its new, changed and removed files on a copy of the registry. On an error it prints `file: message`, writes nothing and exits 1. An `add` command never overwrites a file that exists, and it marks an identifier `verified` only when it names a source URL.
+- A command that writes first checks its new, changed and removed files on a copy of the registry. On an error it prints `file: message`, writes nothing and exits 1. An `add` command never overwrites a file that exists.
 - A row must exist before another row names it: an asset needs its platform's `platform.json`, its underlying and its issuer; a market needs its venue; a role or venue needs its organization.
-- A new deployment needs a date, which `add asset` takes from `:<YYYY-MM-DD>` on `--deployment` or else asks the chain; under `--no-discover` it stays undated and `validate` warns until the date is set.
+- A new deployment needs a date, which `add asset` takes from `:<YYYY-MM-DD>` on `--deployment` or else asks the chain; under `--no-discover` it stays undated and `validate` warns until the date is set. A deployment with `address: null` in a `--from` template names a chain with no known contract and takes no date; `--deployment` always takes an address.
 - `set` names a field by its path in the file, such as `terms.redeemable`, and reads the value by the field's type: a number, `true`, `false`, `unknown` for null, or a comma-separated list.

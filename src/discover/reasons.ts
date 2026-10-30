@@ -7,6 +7,7 @@ import { REASONS } from '../errors/reasons';
 export const DISCOVER_REASONS = [
   ...REASONS,
   'no-reader',
+  'unknown-chain',
   'no-code',
   'code-search-timeout',
   'page-cap',

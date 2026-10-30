@@ -8,9 +8,10 @@ import type { DiscoverDeps } from './discoverDeps';
 
 export interface DateQuery {
   chain: string;
-  // The key the sdk's provider is fetched by: the chain key itself, since a chain is a DefiLlama chain key.
+  // The key the sdk's provider is fetched by: the chain key itself.
   chainId: string;
-  family: AddressFamily;
+  // null: a chain the sdk does not know, which no reader reads.
+  family: AddressFamily | null;
   address: string;
   before?: string | null;
   // The asset a deployment belongs to, for the history source: its legacy id and how many of its deployments share this chain.

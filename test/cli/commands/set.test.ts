@@ -95,15 +95,20 @@ describe('set', () => {
   it('writes a field the file lacks where the schema puts it, not after the nested rows', async () => {
     const root = writeTree(baseTree());
 
-    const { code } = await set(root, TSLAX, 'deployments[0].aliases', 'XsDoVfqeBukxuZHWhdvWHBhgEHjGNst4MLodqsJHzoB');
+    const { code } = await set(
+      root,
+      TSLAX,
+      'deployments[0].bridgedFrom',
+      'ethereum:0x8ad3c73f833d3f9a523ab01476625f269aeb7cf0',
+    );
 
     expect(code).toBe(0);
     expect(Object.keys(readJson(root, TSLAX).deployments[0])).toEqual([
       'chain',
       'address',
-      'aliases',
       'deployedAt',
       'primary',
+      'bridgedFrom',
       'labels',
     ]);
   });

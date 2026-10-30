@@ -1,5 +1,5 @@
 /**
- * discoverDates: the undated deployments and the markets with no listing event, read in batches; each date found is set in its registry file as its batch lands, so a dated deployment is never asked again. Each chain is its own lane of batches and the lanes run side by side, so a slow chain never holds a fast one.
+ * discoverDates: the undated deployments that have a contract and the markets with no listing event, read in batches, a chain the sdk does not know answering unknown-chain; each date found is set in its registry file as its batch lands, so a dated deployment is never asked again. Each chain is its own lane of batches and the lanes run side by side, so a slow chain never holds a fast one.
  * @dev review: src/discover/readers/index.ts, src/discover/listings/index.ts, src/cli/writeAtomic.ts
  */
 import { readFileSync } from 'node:fs';
@@ -8,7 +8,7 @@ import { writeAtomic } from '../cli/writeAtomic';
 import { familyOf, loadRegistry } from '../registry';
 import { homeOf } from '../registry/layout';
 import { placeOf, type Place } from '../registry/place';
-import { inSchemaOrder, type Registry } from '../schema';
+import { inSchemaOrder, type Registry, type Row } from '../schema';
 import { chunk } from '../utils/chunk';
 import { setAt, stepsOf } from '../utils/fieldPath';
 import { groupBy } from '../utils/groupBy';
@@ -64,6 +64,9 @@ const BATCH = 25;
 const LISTING = 'listing';
 const LISTINGS_LANE = 'listings';
 
+// A chain with no known contract has no creation to date, so it is never asked.
+const hasContract = (row: Row<'deployment'>): row is Row<'deployment'> & { address: string } => row.address != null;
+
 interface Work<Q> {
   place: Place;
   query: Q;
@@ -75,20 +78,18 @@ const deploymentWork = (
 ): Work<DateQuery>[] => {
   const platformOf = new Map(registry.asset.map((asset) => [asset.slug, asset.platform]));
   const legacyIdOf = new Map(registry.asset.map((asset) => [asset.slug, asset.legacyId]));
-  // How many of an asset's deployments sit on one chain, dated or not, since the history source reads one leg per chain.
+  const contracts = registry.deployment.filter(hasContract);
+  // How many of an asset's contracts sit on one chain, dated or not, since the history source reads one leg per chain.
   const onChain = new Map<string, number>();
-  for (const row of registry.deployment)
+  for (const row of contracts)
     onChain.set(`${row.asset} ${row.chain}`, (onChain.get(`${row.asset} ${row.chain}`) ?? 0) + 1);
-  return registry.deployment
+  return contracts
     .filter(
       (row) =>
-        !row.deployedAt &&
-        (!platform || platformOf.get(row.asset) === platform) &&
-        (!only || row.chain === only) &&
-        familyOf(row.chain) !== null,
+        !row.deployedAt && (!platform || platformOf.get(row.asset) === platform) && (!only || row.chain === only),
     )
     .map((row) => {
-      const query = { chain: row.chain, chainId: row.chain, family: familyOf(row.chain)!, address: row.address };
+      const query = { chain: row.chain, chainId: row.chain, family: familyOf(row.chain), address: row.address };
       const legacyId = legacyIdOf.get(row.asset);
       const asset =
         legacyId === undefined

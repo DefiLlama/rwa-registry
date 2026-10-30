@@ -16,13 +16,11 @@ export const perpMarket = defineTable({
     tracks: optional(ref),
     tracksAsset: optional(ref),
     structure: v['asset-class'],
+    // The asset the market margins and settles in, or the fx underlying of the fiat currency where no token does.
     collateral: optional(ref),
-    // The sheet's margin asset as written ("USDC (Arbitrum)") where it differs from the venue's.
-    marginAsset: optional(text),
     pair: optional(text),
     makerFeeBps: optional(number),
     takerFeeBps: optional(number),
-    oracleProvider: optional(text),
     description: optional(text),
     // The sheet's website and issuer where they differ from the venue's.
     website: optional(text),
@@ -32,12 +30,12 @@ export const perpMarket = defineTable({
   }),
   implied: 'venue',
   build: ['id', 'status'],
-  children: { events: 'event' },
+  // Its roles hold an oracle only where it differs from the venue's oracle roles.
+  children: { roles: 'role', events: 'event' },
   blocks: {
     identity: ['symbol', 'legacyId', 'aliases'],
     tracks: [['underlying', 'tracks'], ['asset', 'tracksAsset'], 'structure'],
-    terms: ['collateral', 'marginAsset', 'pair', 'makerFeeBps', 'takerFeeBps'],
-    sources: ['oracleProvider'],
+    terms: ['collateral', 'pair', 'makerFeeBps', 'takerFeeBps'],
     about: ['description', 'website', 'issuer'],
   },
 });

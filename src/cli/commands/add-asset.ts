@@ -1,5 +1,5 @@
 /**
- * add asset: one asset file under assets/<platform>/ with its legacy id, kept from the template or the next free one, every deployment dated from the flag, the template or the chain unless --no-discover leaves it undated, and its issuer role.
+ * add asset: one asset file under assets/<platform>/ with its legacy id, kept from the template or the next free one, every deployment dated from the flag, the template or the chain unless --no-discover leaves it undated, and its issuer role; a template deployment with no address names a chain with no known contract and is not dated.
  * @dev review: src/cli/addCommand.ts, src/discover/discoverReads.ts
  */
 import type { Env } from '../../config/loadConfig';
@@ -14,7 +14,7 @@ import type { WriteContext } from '../writeCommand';
 
 const FILE = 'add asset';
 
-type Deployment = Record<string, unknown> & { chain: string; address: string; deployedAt?: string | null };
+type Deployment = Record<string, unknown> & { chain: string; address?: string | null; deployedAt?: string | null };
 
 const deploymentOf = (item: string): Deployment => {
   const match = /^([^:]+):(.+?)(?::(\d{4}-\d{2}-\d{2}))?$/.exec(item);
@@ -33,21 +33,27 @@ const inKeyForm = (deployment: Deployment): Deployment => {
 
 const named = (deployment: Deployment) => `${deployment.chain}:${deployment.address}`;
 
+// Only --from can give a deployment with no address; a chain with no known contract has no date to ask.
+const undatedContracts = (deployments: Deployment[]) =>
+  deployments.filter(
+    (deployment): deployment is Deployment & { address: string } =>
+      deployment.address != null && !deployment.deployedAt,
+  );
+
 // A deployment given without its date is dated from the chain, and refused when the chain does not say; with no reads it stays undated, noted once, and validate warns until the date is set.
 const dated = async (deployments: Deployment[], reads: DiscoverReads | null, note: WriteContext['note']) => {
-  const undated = deployments.filter(({ deployedAt }) => !deployedAt);
+  const undated = undatedContracts(deployments);
   if (!undated.length) return deployments;
   if (!reads) {
     const names = undated.map(named).join(', ');
     note(`${names}: left undated under --no-discover; validate warns undated-deployment until deployedAt is set`);
     return deployments;
   }
-  const unknown = undated.find(({ chain }) => familyOf(chain) === null);
-  if (unknown)
-    throw new FlagFormatError({ file: FILE, message: `${named(unknown)}: ${unknown.chain} is not a DefiLlama chain` });
-  const queries = undated.map(({ chain, address }) => ({ chain, chainId: chain, family: familyOf(chain)!, address }));
+  const queries = undated.map(({ chain, address }) => ({ chain, chainId: chain, family: familyOf(chain), address }));
   const results = await reads.dates(queries);
-  const byDeployment = new Map(undated.map((deployment, index) => [deployment, results[index]!]));
+  const byDeployment = new Map<Deployment, (typeof results)[number]>(
+    undated.map((deployment, index) => [deployment, results[index]!]),
+  );
   return deployments.map((deployment) => {
     const result = byDeployment.get(deployment);
     if (!result) return deployment;
@@ -189,7 +195,7 @@ export const createAddAssetCommand = (
         deployments,
         roles,
       });
-      const undated = deployments.some(({ deployedAt }) => !deployedAt);
+      const undated = undatedContracts(deployments).length > 0;
       return [
         { path: homeFile('asset', { platform, slug }), content, allows: undated ? [UndatedDeploymentError.name] : [] },
       ];

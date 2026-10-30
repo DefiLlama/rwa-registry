@@ -10,11 +10,9 @@
   "takerFeeBps": null,
   "deployerFeeShare": null,
   "fundingRetentionPct": null,
-  "oracleProvider": null,
   "accessModel": "permissionless",
   "rwaClassification": "programmable-finance",
   "conventionNote": null,
-  "marginAsset": null,
   "roles": [],
   "events": [],
   "operator": null

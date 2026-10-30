@@ -13,6 +13,7 @@ export const ADDRESS_PATTERNS: Partial<Record<AddressFamily, RegExp>> = {
   solana: new RegExp(`^${BASE58}{32,44}$`),
   tron: new RegExp(`^T${BASE58}{33}$`),
   ton: /^(EQ|UQ)[A-Za-z0-9_-]{46}$/,
+  // A Stellar token: a classic asset as CODE-ISSUER, its code in either case (gBENJI) and its G issuer, or a C contract.
   stellar: /^([A-Za-z0-9]{1,12}-G[A-Z2-7]{55}|C[A-Z2-7]{55})$/,
   // An XRPL token as the sheet writes it: a code, one of . : - and the issuer, or a bare issuer for all its codes.
   xrpl: new RegExp(`^(([A-Za-z0-9]{3}|[0-9A-Fa-f]{40}|[\\x21-\\x7e]{4,20})[.:-])?r${BASE58}{24,34}$`),
