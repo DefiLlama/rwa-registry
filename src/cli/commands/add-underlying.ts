@@ -18,14 +18,29 @@ export const addUnderlying = defineAddCommand({
   description: 'add one underlying file, in the folder of the class its asset group names',
   template: 'underlying',
   fields: [
-    { flag: '--name <text>', description: 'the canonical name, Tesla, Inc.', required: true },
+    {
+      flag: '--name <text>',
+      description: 'the canonical name, Tesla, Inc.',
+      label: 'name',
+      question: 'What is the official name of the real-world asset?',
+      example: 'Tesla, Inc.',
+      required: true,
+    },
     {
       flag: '--exposure <slug>',
       description: "the asset group it is, a stablecoin's backing: public-equities",
+      label: 'asset group',
+      question: 'Which asset group is it, or for a stablecoin, what backs it?',
       required: true,
       choices: vocabularyChoices('asset-group'),
     },
-    { flag: '--ticker <text>', description: 'the ticker, TSLA' },
+    {
+      flag: '--ticker <text>',
+      description: 'the ticker, TSLA',
+      label: 'ticker',
+      question: 'What is its ticker?',
+      example: 'TSLA',
+    },
   ],
   assigned: [
     {

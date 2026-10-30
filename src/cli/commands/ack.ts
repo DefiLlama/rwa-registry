@@ -43,22 +43,95 @@ const FLAGS: Partial<Record<AckField, FlagSpec>> = {
   metrics: {
     flag: '--metrics <list>',
     description: 'onChainMcap, activeMcap or both',
+    label: 'metrics',
+    question: 'Which metrics does it cover?',
     list: true,
     choices: () => ['onChainMcap', 'activeMcap'],
   },
-  direction: { flag: '--direction <direction>', description: 'up or down', choices: () => ['up', 'down'] },
-  maxCurrentUsd: { flag: '--max-current <usd>', description: 'the most the blocked value may be', read: usd },
-  minPreviousUsd: { flag: '--min-previous <usd>', description: 'the least the last good value may be', read: usd },
-  currentUsd: { flag: '--current <low:high>', description: 'the verified value a release lets through', read: range },
-  previousUsd: { flag: '--previous <low:high>', description: 'the frozen value a release is aimed at', read: range },
-  maxValueUsd: { flag: '--max-value <usd>', description: 'the most a single-point value may be', read: usd },
-  day: { flag: '--day <date>', description: 'the series day it covers, for aggregate-jump and head-move', date: true },
-  firstDay: { flag: '--first-day <date>', description: 'the first series day a drift ack covers', date: true },
-  lastDay: { flag: '--last-day <date>', description: 'the last series day a drift ack covers', date: true },
-  from: { flag: '--from <date>', description: 'the first day the ack holds, YYYY-MM-DD, today by default', date: true },
+  direction: {
+    flag: '--direction <direction>',
+    description: 'up or down',
+    label: 'direction',
+    question: 'Which way does the value move?',
+    choices: () => ['up', 'down'],
+  },
+  maxCurrentUsd: {
+    flag: '--max-current <usd>',
+    description: 'the most the blocked value may be',
+    label: 'most blocked value',
+    question: 'What is the most the blocked value may be, in USD?',
+    example: '1000',
+    read: usd,
+  },
+  minPreviousUsd: {
+    flag: '--min-previous <usd>',
+    description: 'the least the last good value may be',
+    label: 'least last good value',
+    question: 'What is the least the last good value may be, in USD?',
+    example: '100000',
+    read: usd,
+  },
+  currentUsd: {
+    flag: '--current <low:high>',
+    description: 'the verified value a release lets through',
+    label: 'verified range',
+    question: 'Which range of verified values does the release let through, in USD?',
+    example: '1000000:2000000',
+    read: range,
+  },
+  previousUsd: {
+    flag: '--previous <low:high>',
+    description: 'the frozen value a release is aimed at',
+    label: 'frozen range',
+    question: 'Which range of frozen values is the release aimed at, in USD?',
+    example: '0:1000',
+    read: range,
+  },
+  maxValueUsd: {
+    flag: '--max-value <usd>',
+    description: 'the most a single-point value may be',
+    label: 'most single-point value',
+    question: 'What is the most a single-point value may be, in USD?',
+    example: '5000',
+    read: usd,
+  },
+  day: {
+    flag: '--day <date>',
+    description: 'the series day it covers, for aggregate-jump and head-move',
+    label: 'series day',
+    question: 'Which series day does it cover?',
+    example: '2026-09-07',
+    date: true,
+  },
+  firstDay: {
+    flag: '--first-day <date>',
+    description: 'the first series day a drift ack covers',
+    label: 'first series day',
+    question: 'Which is the first series day it covers?',
+    example: '2026-10-01',
+    date: true,
+  },
+  lastDay: {
+    flag: '--last-day <date>',
+    description: 'the last series day a drift ack covers',
+    label: 'last series day',
+    question: 'Which is the last series day it covers?',
+    example: '2026-10-02',
+    date: true,
+  },
+  from: {
+    flag: '--from <date>',
+    description: 'the first day the ack holds, YYYY-MM-DD, today by default',
+    label: 'holds from',
+    question: 'From which day does the ack hold?',
+    date: true,
+  },
   until: {
     flag: '--until <date>',
     description: 'the last day it holds; left out, it holds until the resolve step is done',
+    label: 'holds until',
+    question: 'Until which day does the ack hold?',
+    hint: 'Enter to keep it until the resolve step is done',
     date: true,
   },
 };
@@ -93,15 +166,15 @@ const asked = (field: AckField, spec: FlagSpec): FlagSpec => ({
   derive: (values) => {
     const offered = fieldsOf(values).includes(field) ? fallbackOf(values.kind as AckKind, field) : undefined;
     if (offered == null) return undefined;
-    return { value: Array.isArray(offered) ? offered.map(String) : String(offered) };
+    const why = field === 'from' ? 'today' : 'the band of every master ack';
+    return { value: Array.isArray(offered) ? offered.map(String) : String(offered), why };
   },
 });
 
+// What a target typed as text looks like; an asset or a venue is picked from the list.
 const HINTS: Partial<Record<AckField, string>> = {
-  asset: 'an asset slug',
-  venue: 'a venue slug',
-  series: '<dimension>/<key>, or * for every series',
-  contract: '<venue>:<symbol>',
+  series: 'example: chain/ethereum, or * for every series',
+  contract: 'example: xyz:tsla',
 };
 
 const TARGETS: Partial<Record<AckField, (registry: Registry, given: string) => string>> = {
@@ -127,10 +200,19 @@ const command = defineWriteCommand({
   arguments: '<kind> <target>',
   every: true,
   fields: [
-    { flag: '<kind>', description: 'the ack kind', required: true, choices: () => [...ACK_KINDS] },
+    {
+      flag: '<kind>',
+      description: 'the ack kind',
+      label: 'kind',
+      question: 'Which kind of guard exception is it?',
+      required: true,
+      choices: () => [...ACK_KINDS],
+    },
     {
       flag: '<target>',
       description: 'what it covers',
+      label: 'covers',
+      question: 'What does the ack cover?',
       required: true,
       choices: (registry, values) => {
         const [target] = fieldsOf(values);
@@ -138,15 +220,25 @@ const command = defineWriteCommand({
       },
       derive: (values) => {
         const [target] = fieldsOf(values);
-        return target ? { why: HINTS[target] } : undefined;
+        return target && HINTS[target] ? { why: HINTS[target] } : undefined;
       },
     },
     {
       flag: '--reason <text>',
       description: 'what the guard flags and why it is fine, naming the evidence',
+      label: 'reason',
+      question: 'What does the guard flag, and why is it fine?',
+      example: 'the issuer burned 90% of the supply on 2026-09-07, see the burn tx',
       required: true,
     },
-    { flag: '--resolve <text>', description: 'the step that ends the exception', required: true },
+    {
+      flag: '--resolve <text>',
+      description: 'the step that ends the exception',
+      label: 'resolve step',
+      question: 'Which step ends the exception?',
+      example: 'remove this ack once the history is backfilled',
+      required: true,
+    },
     ...(Object.entries(FLAGS) as [AckField, FlagSpec][]).map(([field, spec]) => asked(field, spec)),
   ],
   files: (values, registry, { args }) => {

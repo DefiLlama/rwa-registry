@@ -51,6 +51,22 @@ describe('parseRow', () => {
     expect(errors).toEqual([expect.objectContaining({ path: 'aliases' })]);
   });
 
+  it("keeps a deployment's date basis and refuses one outside the vocabulary", () => {
+    const leg = { chain: 'solana', address: 'XsDoVfqeBukxuZHWhdvWHBhgEHjGNst4MLodqsJHzoB', deployedAt: '2025-06-30' };
+    const parsed = parseRow(
+      'asset',
+      tslaxWith({ deployments: [{ ...leg, deployedAtBasis: 'issuer-announcement' }] }),
+      file,
+      { vocabularies },
+    );
+    const errors = parseRow('asset', tslaxWith({ deployments: [{ ...leg, deployedAtBasis: 'first-seen' }] }), file, {
+      vocabularies,
+    });
+
+    expect(parsed).toMatchObject({ deployments: [{ deployedAtBasis: 'issuer-announcement' }] });
+    expect(errors).toEqual([expect.objectContaining({ path: 'deployments[0].deployedAtBasis' })]);
+  });
+
   it('keeps the five platform fee fields the sheet fills', () => {
     const fees = {
       yieldSpreadRetainedBps: 50,

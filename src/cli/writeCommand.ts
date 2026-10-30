@@ -110,7 +110,7 @@ export const defineWriteCommand = (spec: WriteSpec): CliCommand => ({
   name: spec.name,
   description: spec.description,
   arguments: argumentsOf(spec),
-  ...(spec.every ? { help: ASKS } : {}),
+  ...(spec.every ? { help: ASKS, questions: spec.fields } : {}),
   flags: [...spec.fields.filter((field) => !isArgument(field)).map(helpFlag), ...COMMON_FLAGS],
   run: async (options, { print, ask }) => {
     const refuse = (errors: { file: string; message: string }[]) => {

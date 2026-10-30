@@ -38,8 +38,11 @@ export interface AddSpec {
   files: (template: Template, registry: Registry, context: AddContext) => FileToWrite[] | Promise<FileToWrite[]>;
 }
 
+// The values of one vocabulary, shown by their label and answered by their slug.
 export const vocabularyChoices = (name: VocabularyName) => (registry: Registry) =>
-  registry.vocabulary.filter((row) => row.vocabulary === name).map((row) => row.slug);
+  registry.vocabulary
+    .filter((row) => row.vocabulary === name)
+    .map((row) => ({ value: row.slug, name: row.label ?? row.slug }));
 
 // The organizations a role may name, shown by name in the prompt.
 export const organizationChoices = (registry: Registry) =>
@@ -111,6 +114,7 @@ export const defineAddCommand = (spec: AddSpec): CliCommand => ({
       {
         flag: '--from <file>',
         description: `a filled copy of templates/${spec.template}.json; the fields it leaves empty are asked`,
+        label: 'template file',
         asked: () => false,
       },
       ...spec.fields.map(unlessFrom),

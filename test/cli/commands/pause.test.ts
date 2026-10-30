@@ -43,7 +43,7 @@ describe('pause, asked', () => {
     expect(code).toBe(0);
     expect(prompter.keys()).toEqual(['target', 'slug', 'at', 'reason', 'source', 'confirm']);
     expect(prompter.asked.find((question) => question.key === 'slug')!.choices).toEqual(['xyz']);
-    for (const line of ['target: venue', 'slug: xyz', 'at: 2026-10-24', 'reason: maintenance'])
+    for (const line of ['kind: venue', 'which one: xyz', 'day: 2026-10-24', 'reason: maintenance'])
       expect(confirm.message).toContain(line);
     expect(readJson(root, 'perps/xyz/venue.json').published).toBe(false);
   });

@@ -143,7 +143,7 @@ describe('merge, asked', () => {
     expect(prompter.keys()).toEqual(['table', 'keep', 'drop', 'reason', 'source', 'at', 'force', 'confirm']);
     expect(question('keep').choices).toEqual(['tesla', 'tesla-inc']);
     expect(question('drop').choices).toEqual(['tesla']);
-    expect(prompter.asked.at(-1)!.message).toContain('drop: tesla');
+    expect(prompter.asked.at(-1)!.message).toContain('dropped: tesla');
     expect(existsSync(join(root, 'reference/underlyings/equity/tesla.json'))).toBe(false);
   });
 

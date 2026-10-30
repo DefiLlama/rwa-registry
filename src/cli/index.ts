@@ -5,6 +5,7 @@
  */
 import { Command } from 'commander';
 import type { Ask } from './ask';
+import type { Field } from './questionnaire';
 import { ack } from './commands/ack';
 import { addAsset } from './commands/add-asset';
 import { addMarket } from './commands/add-market';
@@ -35,10 +36,12 @@ export interface CliCommand {
   arguments?: string;
   help?: string;
   flags: { spec: string; description: string }[];
+  // The fields a write command asks for, in their order; a test walks them.
+  questions?: Field[];
   run: (args: { args: string[] } & Record<string, unknown>, deps: CliDeps) => Promise<number>;
 }
 
-const commands: CliCommand[] = [
+export const commands: CliCommand[] = [
   validate,
   build,
   schema,

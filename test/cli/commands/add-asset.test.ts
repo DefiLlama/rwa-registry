@@ -1,13 +1,13 @@
 import { existsSync } from 'node:fs';
 import { join } from 'node:path';
 import { describe, expect, it, vi } from 'vitest';
-import { createAddAssetCommand } from '../../../src/cli/commands/add-asset';
+import { addAsset, createAddAssetCommand } from '../../../src/cli/commands/add-asset';
 import { readTemplate, TEMPLATES, templateFile } from '../../../src/cli/templates';
 import type { CliCommand } from '../../../src/cli';
 import type { DateQuery } from '../../../src/discover/dateReader';
 import { found, missing } from '../../../src/discover/dateResult';
 import { assetFile, baseTree, marketWith, writeTree, type Tree } from '../../fixtures/tree';
-import { fakeAsk } from '../../fakes/prompter';
+import { each, fakeAsk } from '../../fakes/prompter';
 import { readJson, readText, runCli, templateCopy } from '../runCli';
 
 const SOLANA = 'Xsc9qvGR1efVDFGLrVsmkzv3qi45LTBjeUKSPmx9qEh';
@@ -366,7 +366,6 @@ describe('add asset, asked', () => {
       'attestationFrequency',
       'stablecoinOverride',
       'governanceOverride',
-      'flagReason',
       'issuer',
       'issuerSource',
       'tokenizer',
@@ -384,5 +383,70 @@ describe('add asset, asked', () => {
       terms: { redeemable: true },
       deployments: [{ chain: 'solana', address: SOLANA, deployedAt: '2025-06-29', primary: true }],
     });
+  });
+
+  it('asks the categories, and asks again with a hint when the answer is empty, instead of refusing at the end', async () => {
+    const root = writeTree(tree());
+    const prompter = fakeAsk({ category: each([], ['stocks-equities']) });
+    const flags = {
+      platform: 'xstocks',
+      symbol: 'NVDAx',
+      name: 'NVIDIA xStock',
+      underlying: 'nvidia-corporation',
+      type: 'asset',
+      structure: 'stock-backed',
+      rwaClassification: 'rwa',
+      issuer: 'backed-assets-je-limited',
+      deployment: [`solana:${SOLANA}:2025-06-30`],
+    };
+
+    const code = await addAsset.run(
+      { args: [], registry: root, ...flags },
+      { print: () => undefined, ask: prompter.ask },
+    );
+    const asked = prompter.asked.filter((question) => question.key === 'category');
+
+    expect(asked).toHaveLength(2);
+    expect(asked[0]!.message).toMatch(/^Which categories/);
+    expect(asked[1]!.message).toContain('required');
+    expect(code).toBe(0);
+    expect(readJson(root, 'assets/xstocks/nvdax.json').class.category).toEqual(['stocks-equities']);
+  });
+
+  it('takes the default of a yes or no term on Enter, and leaves an override derived', async () => {
+    const root = writeTree(tree());
+    const prompter = fakeAsk({ category: ['stocks-equities'] });
+    const flags = {
+      platform: 'xstocks',
+      symbol: 'NVDAx',
+      name: 'NVIDIA xStock',
+      underlying: 'nvidia-corporation',
+      type: 'asset',
+      structure: 'stock-backed',
+      rwaClassification: 'rwa',
+      issuer: 'backed-assets-je-limited',
+      deployment: [`solana:${SOLANA}:2025-06-30`],
+    };
+
+    const code = await addAsset.run(
+      { args: [], registry: root, ...flags },
+      { print: () => undefined, ask: prompter.ask },
+    );
+    const question = (key: string) => prompter.asked.find((asked) => asked.key === key)!;
+    const file = readJson(root, 'assets/xstocks/nvdax.json');
+
+    expect(code).toBe(0);
+    expect(question('transferable').message).toBe('Can the token move between wallets? (yes or no, default yes)');
+    expect(question('stablecoinOverride').message).toBe(
+      'Override the stablecoin flag? (Enter to leave it derived; yes or no to force it)',
+    );
+    expect(question('coingeckoId').message).toBe(
+      'What is its CoinGecko id? (example: tesla-xstock; Enter to leave empty)',
+    );
+    expect(prompter.keys()).not.toContain('flagReason');
+    expect(file.terms).toMatchObject({ transferable: true, cexListed: false, yieldBearing: false });
+    expect(file.class.stablecoinOverride).toBeUndefined();
+    expect(file.sources?.coingeckoId).toBeUndefined();
+    expect(prompter.asked.at(-1)!.message).toContain('moves between wallets: yes');
   });
 });

@@ -38,13 +38,29 @@ describe('discoverDates', () => {
     });
   });
 
-  it('sets the first stored day for a deployment no reader dates, and none for two that share a chain leg', async () => {
+  it('writes the basis beside each date it sets, and nothing on a dry run', async () => {
+    const root = undated();
+    const dry = undated();
+
+    await discoverDates(root, { platform: 'xstocks' }, fakeDiscoverDeps({ rpc: chainRpc() }));
+    await discoverDates(dry, { platform: 'xstocks', dryRun: true }, fakeDiscoverDeps({ rpc: chainRpc() }));
+
+    const legs = readJson(root, TSLAX).deployments.map(
+      ({ chain, deployedAt, deployedAtBasis }: Record<string, string>) => [chain, deployedAt, deployedAtBasis],
+    );
+    expect(legs).toEqual([
+      ['solana', '2025-07-01', 'first-signature'],
+      ['ethereum', '2025-06-30', expect.any(String)],
+    ]);
+    expect(readJson(dry, TSLAX).deployments.map((leg: object) => 'deployedAtBasis' in leg)).toEqual([false, false]);
+  });
+
+  it('leaves a deployment no reader dates undated and never asks the chart for it', async () => {
     const tree: Tree = { ...baseTree() };
     tree['assets/xstocks/hist.json'] = assetFile('hist', 950, {
       deployments: [
         { chain: 'near', address: 'hist.near', deployedAt: null, primary: true },
         { chain: 'algorand', address: 'ALGO1', deployedAt: null },
-        { chain: 'algorand', address: 'ALGO2', deployedAt: '2024-01-01' },
       ],
     });
     const root = writeTree(tree);
@@ -55,15 +71,10 @@ describe('discoverDates', () => {
 
     const summary = await discoverDates(root, { platform: 'xstocks' }, deps);
 
-    expect(datesOf(root, 'assets/xstocks/hist.json')).toEqual(['2024-05-01', null, '2024-01-01']);
-    expect(summary.dated).toEqual([
-      expect.objectContaining({
-        path: 'deployments[0].deployedAt',
-        source: 'https://pro-api.llama.fi/<key>/rwa/chart/asset/950',
-        basis: 'first-stored-day',
-      }),
-    ]);
+    expect(datesOf(root, 'assets/xstocks/hist.json')).toEqual([null, null]);
+    expect(summary.dated).toEqual([]);
     expect(summary.lanes.algorand).toMatchObject({ asked: 1, found: 0, nulls: { 'no-reader': 1 } });
+    expect(http.json).not.toHaveBeenCalled();
   });
 
   it('asks only the deployments still undated on a rerun, and nothing once every one has its date', async () => {

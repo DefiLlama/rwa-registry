@@ -19,8 +19,8 @@ export const schemas = compileSchemas(tables, null).rows as {
   [T in TableName]: z.ZodObject<ReturnType<Tables[T]['fields']>>;
 };
 
-export { ARRAY_TABLES, TABLE_NAMES, VOCABULARY_NAMES, ADDRESS_FAMILIES, EVENT_KINDS } from './enums';
-export type { TableName, VocabularyName, AddressFamily } from './enums';
+export { ARRAY_TABLES, TABLE_NAMES, VOCABULARY_NAMES, ADDRESS_FAMILIES, EVENT_KINDS, DEPLOYMENT_BASES } from './enums';
+export type { TableName, VocabularyName, AddressFamily, DeploymentBasis } from './enums';
 export type { Vocabularies } from './compileSchemas';
 export { CHILD_KEYS } from './defineTable';
 export type { ChildKey } from './defineTable';

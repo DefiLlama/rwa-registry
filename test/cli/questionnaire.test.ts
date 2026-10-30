@@ -51,16 +51,16 @@ describe('the questionnaire', () => {
     expect(confirm.message).toContain('platform: xstocks (from the file)');
   });
 
-  it('takes an empty answer to an optional field as a skip and names it at the confirmation', async () => {
+  it('leaves an optional field empty on an empty answer, says so in its question and names it at the confirmation', async () => {
     const prompter = fakeAsk({ platform: 'xstocks', symbol: 'NVDAx', oracle: '' });
 
     const { values, missing } = await run(FIELDS, prompter.ask);
     const [oracle, confirm] = prompter.asked.slice(-2);
 
-    expect(oracle).toMatchObject({ key: 'oracle', optional: true });
+    expect(oracle).toMatchObject({ key: 'oracle', optional: true, message: 'the oracle (Enter to leave empty)' });
     expect(values.oracle).toBeUndefined();
     expect(missing).toEqual([]);
-    expect(confirm!.message).toContain('skipped: oracle');
+    expect(confirm!.message).toContain('left empty: oracle');
   });
 
   it('offers what a field derives from the earlier answers, and fills a field it does not ask', async () => {
@@ -86,11 +86,11 @@ describe('the questionnaire', () => {
     const offered = prompter.asked.find((question) => question.key === 'canonicalMarketId')!;
 
     expect(prompter.keys()).toEqual(['platform', 'symbol', 'canonicalMarketId', 'confirm']);
-    expect(offered).toMatchObject({ default: 'NVDAx', message: 'the canonical market id (the symbol)' });
+    expect(offered).toMatchObject({ default: 'NVDAx', message: 'the canonical market id (Enter for the symbol)' });
     expect(values).toMatchObject({ canonicalMarketId: 'NVDAx', primaryChain: 'solana' });
     expect(prompter.asked.at(-1)!.message).toContain('primary-chain: solana (derived)');
     expect(prompter.asked.at(-1)!.message).toContain('slug: nvdax (assigned)');
-    expect(prompter.asked.at(-1)!.message).not.toContain('skipped');
+    expect(prompter.asked.at(-1)!.message).not.toContain('left empty');
   });
 
   it('asks a leg after a leg while the person wants another, each leg deriving from its own answers', async () => {
@@ -121,6 +121,17 @@ describe('the questionnaire', () => {
 
     expect(days.map((question) => question.default)).toEqual(['solana day', 'ethereum day']);
     expect(values.deployment).toEqual(['solana:unknown', 'ethereum:unknown']);
+  });
+
+  it('asks a required field again, saying it is required, while the answer is empty', async () => {
+    const prompter = fakeAsk({ platform: 'xstocks', symbol: each('', 'NVDAx') });
+
+    const { values, missing } = await run(FIELDS, prompter.ask);
+    const symbol = prompter.asked.filter((question) => question.key === 'symbol');
+
+    expect(symbol.map((question) => question.message)).toEqual(['the symbol', 'the symbol (required: type an answer)']);
+    expect(values.symbol).toBe('NVDAx');
+    expect(missing).toEqual([]);
   });
 
   it('asks nothing under --no-input and names every missing required field', async () => {

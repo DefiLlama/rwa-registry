@@ -10,7 +10,16 @@ export const addPlatform = defineAddCommand({
   name: 'add platform',
   description: 'add the platform.json of a new asset folder',
   template: 'platform',
-  fields: [{ flag: '--name <text>', description: 'the platform name the app shows, Backed Finance', required: true }],
+  fields: [
+    {
+      flag: '--name <text>',
+      description: 'the platform name the app shows, Backed Finance',
+      label: 'platform name',
+      question: 'What name does the app show for the platform?',
+      example: 'Backed Finance',
+      required: true,
+    },
+  ],
   assigned: [
     { name: 'slug', derive: (values) => (values.name === undefined ? undefined : rwaSlug(String(values.name))) },
   ],

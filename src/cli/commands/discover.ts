@@ -89,7 +89,7 @@ export const createDiscoverCommand = (deps: {
   name: 'discover',
   description: 'ask the chains and venues: one address, or the deployment and listing dates, set in the registry files',
   arguments: '[action] [target]',
-  help: 'Keys, each optional: ETHERSCAN_API_KEY, ALCHEMY_KEY, SOLSCAN_API_KEY, TONCENTER_API_KEY, PRO_API_KEY; without one the next source answers.',
+  help: 'Keys, each optional: ETHERSCAN_API_KEY, ALCHEMY_KEY, SOLSCAN_API_KEY, TONCENTER_API_KEY; without one the next source answers.',
   flags: [
     REGISTRY_FLAG,
     { spec: '--platform <slug>', description: 'dates: only the deployments of this platform' },

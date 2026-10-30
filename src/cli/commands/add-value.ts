@@ -14,14 +14,26 @@ export const addValue = defineAddCommand({
     {
       flag: '--vocabulary <name>',
       description: 'the vocabulary file',
+      label: 'list',
+      question: 'Which list of values does it go in?',
       required: true,
       choices: () => [...VOCABULARY_NAMES],
     },
-    { flag: '--label <text>', description: 'the label the app shows, Stock Backed', required: true },
+    {
+      flag: '--label <text>',
+      description: 'the label the app shows, Stock Backed',
+      label: 'label',
+      question: 'Which label does the app show for it?',
+      example: 'Stock Backed',
+      required: true,
+    },
     {
       flag: '--slug <slug>',
       description: 'the slug, rwaSlug of the label by default',
-      derive: (values) => (values.label === undefined ? undefined : { value: rwaSlug(String(values.label)) }),
+      label: 'slug',
+      question: 'Which slug do the registry files use for it?',
+      derive: (values) =>
+        values.label === undefined ? undefined : { value: rwaSlug(String(values.label)), why: 'the slug of the label' },
     },
   ],
   fromFlags: (values) => ({

@@ -77,6 +77,31 @@ export const ACK_KINDS = [
 ] as const;
 export type AckKind = (typeof ACK_KINDS)[number];
 export const ackKind = z.enum(ACK_KINDS);
+// What a deployment's deployedAt was read from: a chain record of the contract, our own first stored day, or a page.
+export const DEPLOYMENT_BASES = [
+  'contract-creation',
+  'contract-created',
+  'first-code',
+  'first-signature',
+  'first-transaction',
+  'first-issue',
+  'issuer-first-transaction',
+  'asset-created',
+  'first-activity',
+  'package-published',
+  // Solscan's created_time of a Solana mint.
+  'created-time',
+  // The oldest signature of a Solana mint's Metaplex metadata account.
+  'metadata-created',
+  // The first day DefiLlama stored a value for the asset on the chain: first seen by DefiLlama, not the contract's creation.
+  'first-stored-day',
+  // The issuer's launch announcement or press release for the asset on the chain.
+  'issuer-announcement',
+  // An explorer's contract or token page read by hand.
+  'explorer-page',
+] as const;
+export type DeploymentBasis = (typeof DEPLOYMENT_BASES)[number];
+export const deploymentBasis = z.enum(DEPLOYMENT_BASES);
 export const mcapBasis = z.enum(['onchain', 'active']);
 export const status = z.enum(['listed', 'delisted', 'retired']);
 export const identifierScheme = z.enum(['isin', 'figi', 'lei']);

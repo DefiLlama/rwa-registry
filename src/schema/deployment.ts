@@ -3,6 +3,7 @@
  * @dev review: src/schema/addressLabel.ts
  */
 import { defineTable } from './defineTable';
+import { deploymentBasis } from './enums';
 import { date, flag, optional, ref, text } from './primitives';
 
 export const deployment = defineTable({
@@ -12,6 +13,8 @@ export const deployment = defineTable({
     // null: a chain the sheet names with no known contract.
     address: optional(text),
     deployedAt: optional(date),
+    // Where deployedAt came from; first-stored-day is DefiLlama's first value, not the contract's creation.
+    deployedAtBasis: optional(deploymentBasis),
     primary: optional(flag),
   }),
   implied: 'asset',

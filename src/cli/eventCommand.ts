@@ -25,23 +25,50 @@ export interface EventSpec {
   change?: (file: Record<string, unknown>, target: TargetRow) => Record<string, unknown>;
 }
 
-const FIELDS: Field[] = [
-  { flag: '<target>', description: 'what it names', required: true, choices: () => TARGETS },
+// The questions name the command, as "Which market do you want to pause?".
+const fieldsOf = (name: string): Field[] => [
+  {
+    flag: '<target>',
+    description: 'what it names',
+    label: 'kind',
+    question: `What do you want to ${name}?`,
+    required: true,
+    choices: () => TARGETS,
+  },
   {
     flag: '<slug>',
     description: 'its slug, a market as venue:symbol',
+    label: 'which one',
+    question: (values) => `Which ${String(values.target)} do you want to ${name}?`,
+    example: 'xyz:tsla',
     required: true,
     choices: (registry, values) => targetSlugs(registry, String(values.target)),
   },
   {
     flag: '--at <date>',
     description: 'the day it happened, YYYY-MM-DD',
+    label: 'day',
+    question: 'On which day did it happen?',
     required: true,
     date: true,
     derive: () => ({ value: today(), why: 'today' }),
   },
-  { flag: '--reason <text>', description: 'why, in one sentence', required: true },
-  { flag: '--source <url>', description: 'the page or API answer that shows it', required: true },
+  {
+    flag: '--reason <text>',
+    description: 'why, in one sentence',
+    label: 'reason',
+    question: 'Why, in one sentence?',
+    example: 'the venue halted trading in the market',
+    required: true,
+  },
+  {
+    flag: '--source <url>',
+    description: 'the page or API answer that shows it',
+    label: 'source',
+    question: 'Which page or API answer shows it?',
+    example: 'https://status.example.com/incidents/1',
+    required: true,
+  },
 ];
 
 export const defineEventCommand = (spec: EventSpec): CliCommand =>
@@ -49,7 +76,7 @@ export const defineEventCommand = (spec: EventSpec): CliCommand =>
     name: spec.name,
     description: spec.description,
     every: true,
-    fields: spec.fields ?? FIELDS,
+    fields: spec.fields ?? fieldsOf(spec.name),
     files: (values, registry, { args, root, read }) => {
       const target = (spec.target ?? ((given, rows) => targetRow(rows, given[0]!, given[1]!)))(args, registry);
       const events = registry.event.filter(

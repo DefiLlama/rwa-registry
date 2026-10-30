@@ -134,7 +134,7 @@ describe('ack, asked', () => {
     ]);
     expect(question('target').choices).toEqual(['tslax']);
     expect(question('from').default).toBe(today());
-    expect(prompter.asked.at(-1)!.message).toContain('max-current: 1000');
+    expect(prompter.asked.at(-1)!.message).toContain('most blocked value: 1000');
     expect(readJson(root, '../acks/asset-move/tslax.json')).toEqual({
       slug: 'tslax',
       asset: 'tslax',
@@ -150,14 +150,14 @@ describe('ack, asked', () => {
 
   it('asks the ranges of a release and the day of an aggregate jump, each kind only its own fields', async () => {
     const root = writeTree(baseTree());
-    const release = fakeAsk({ ...answers, metrics: ['activeMcap'], direction: 'up' });
+    const release = fakeAsk({ ...answers, metrics: ['activeMcap'], direction: 'up', current: '1:2', previous: '3:4' });
     const jump = fakeAsk({ ...answers, day: '2026-09-07' });
 
     await runCli(['ack', 'asset-move-release', 'tslax', '--registry', root, '--dry-run'], release.ask);
     const { code } = await runCli(['ack', 'aggregate-jump', 'tslax', '--registry', root], jump.ask);
 
     expect(release.keys()).toEqual([
-      ...['reason', 'resolve', 'metrics', 'direction', 'current', 'previous', 'from', 'until'],
+      ...['reason', 'resolve', 'metrics', 'direction', 'current', 'previous', 'from', 'until', 'confirm'],
     ]);
     expect(jump.keys()).toEqual(['reason', 'resolve', 'day', 'confirm']);
     expect(code).toBe(0);
@@ -174,7 +174,7 @@ describe('ack, asked', () => {
     expect(prompter.keys()).toEqual(['target', 'reason', 'resolve', 'firstDay', 'lastDay', 'confirm']);
     expect(prompter.asked[0]).toMatchObject({
       choices: [],
-      message: 'what it covers (<dimension>/<key>, or * for every series)',
+      message: 'What does the ack cover? (example: chain/ethereum, or * for every series)',
     });
     expect(existsSync(join(root, '../acks/drift/chain-ethereum-2026-10-01.json'))).toBe(true);
   });

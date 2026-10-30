@@ -22,7 +22,6 @@ describe('discoverDeps', () => {
       'ALCHEMY_KEY',
       'SOLSCAN_API_KEY',
       'TONCENTER_API_KEY',
-      'PRO_API_KEY',
     ]);
     expect(lines.every((line) => / is not set: /.test(line))).toBe(true);
   });

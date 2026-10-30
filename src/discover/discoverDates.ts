@@ -44,7 +44,7 @@ export interface SourceSummary {
   seconds: number;
 }
 
-// One date found: the file and the path it is set at, the day, where it was read and on what basis; the file keeps the day only.
+// One date found: the file and the path it is set at, the day, where it was read and on what basis; a deployment's file keeps the day and its basis.
 export interface Dated extends Place {
   date: string;
   source: string;
@@ -113,13 +113,22 @@ const marketWork = (registry: Registry, venue: string | undefined): Work<VenueTa
     });
 };
 
-// The value set at its path in the file, written in schema order the way set writes a field.
-const writeDated = (root: string, { file, path }: Place, value: unknown): void => {
+// Each value set at its path in one file, written in schema order the way set writes a field.
+const writeDated = (root: string, file: string, values: [path: string, value: unknown][]): void => {
   const table = homeOf(file)!.table;
   const json = JSON.parse(readFileSync(join(root, file), 'utf8')) as unknown;
-  const content = inSchemaOrder(table, setAt(json, stepsOf(path), value));
-  writeAtomic(root, [{ path: file, text: jsonText(content) }]);
+  const set = values.reduce((into, [path, value]) => setAt(into, stepsOf(path), value), json);
+  writeAtomic(root, [{ path: file, text: jsonText(inSchemaOrder(table, set)) }]);
 };
+
+// A listing is one new event; a deployment's day goes with its basis, the sibling field deployedAtBasis.
+const valuesOf = ({ path }: Place, result: DateResult & { date: string }, isListing: boolean): [string, unknown][] =>
+  isListing
+    ? [[path, listingEvent(result)]]
+    : [
+        [path, result.date],
+        [path.replace(/deployedAt$/, 'deployedAtBasis'), result.basis],
+      ];
 
 export const discoverDates = async (root: string, options: DatesOptions, deps: DiscoverDeps): Promise<DatesSummary> => {
   const { registry } = loadRegistry(root);
@@ -146,7 +155,7 @@ export const discoverDates = async (root: string, options: DatesOptions, deps: D
       own.found++;
       const { place } = items[index];
       summary.dated.push({ ...place, date: result.date, source: result.source, basis: result.basis });
-      if (!options.dryRun) writeDated(root, place, isListing ? listingEvent(result) : result.date);
+      if (!options.dryRun) writeDated(root, place.file, valuesOf(place, result, isListing));
     });
     const at = new Date().toISOString().slice(0, 19);
     deps.log(

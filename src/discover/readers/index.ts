@@ -1,5 +1,6 @@
 /**
- * readers: one date reader per chain family, one line each, and the history day for any deployment they leave null.
+ * readers: one date reader per chain family, one line each; a deployment they leave null stays null, since the chart's first stored day
+ * (history.ts) is DefiLlama's first value, not the contract's creation, and discover never writes it.
  * @dev review: src/discover/dateReader.ts
  */
 import { familyOf } from '../../registry/chains';
@@ -10,7 +11,6 @@ import { missing, type DateResult } from '../dateResult';
 import type { DiscoverDeps } from '../discoverDeps';
 import { aptos } from './aptos';
 import { evm } from './evm';
-import { firstStoredDay } from './history';
 import { solana } from './solana';
 import { stellar } from './stellar';
 import { sui } from './sui';
@@ -33,14 +33,6 @@ export const readDates = async (queries: DateQuery[], deps: DiscoverDeps): Promi
       const read = reader ? await reader.read(group, deps) : group.map(unread);
       group.forEach((query, index) => results.set(query, read[index]));
     }),
-  );
-  await Promise.all(
-    queries
-      .filter((query) => families.get(query) !== null && results.get(query)!.date === null)
-      .map(async (query) => {
-        const day = await firstStoredDay(query, deps).catch(() => null);
-        if (day) results.set(query, day);
-      }),
   );
   return queries.map((query) => results.get(query)!);
 };

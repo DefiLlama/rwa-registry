@@ -33,7 +33,7 @@ describe('readDates', () => {
     expect(http.json).not.toHaveBeenCalled();
   });
 
-  it('asks the history source only for what no reader dated, never over a date a reader found', async () => {
+  it('asks the family reader only and never the chart, so what no reader dates stays null with its reason', async () => {
     const queries: DateQuery[] = [
       { chain: 'icp', address: 'ryjl3-tyaaa-aaaaa-aaaba-cai', asset },
       { chain: 'tron', address: 'T1', asset },
@@ -45,14 +45,16 @@ describe('readDates', () => {
     });
     const results = await readDates(queries, fakeDiscoverDeps({ http }, discoverConfig({ PRO_API_KEY: 'prokey' })));
 
-    expect(results.map(({ date, basis }) => [date, basis])).toEqual([
-      ['2024-01-01', 'first-stored-day'],
+    expect(results.map(({ date, basis, reason }) => [date ?? reason, basis])).toEqual([
+      ['no-reader', null],
       ['2019-04-16', 'contract-created'],
-      ['2024-01-01', 'first-stored-day'],
+      [expect.any(String), null],
     ]);
+    const asked = vi.mocked(http.json).mock.calls.map(([request]) => (request as { url: string }).url);
+    expect(asked.some((url) => url.startsWith(CHART))).toBe(false);
   });
 
-  it("dates a capped read and a rate-limited one at the first stored day, and keeps the reader's null when the chart fails", async () => {
+  it('leaves a capped read and a rate-limited one undated with their reasons, not at the first stored day', async () => {
     const solana = { ...discoverConfig({ PRO_API_KEY: 'prokey' }) };
     const capped = {
       ...solana,
@@ -67,26 +69,18 @@ describe('readDates', () => {
         Promise.reject(new RateLimitedError({ source: 'rpc', reason: 'rate-limited', message: '429' })),
       ),
     });
-    const http = answering(({ url }) =>
-      url.endsWith('/9') ? Promise.reject(new Error('chart down')) : chartOf(['solana', 'cronos', 'icp']),
-    );
+    const http = answering(() => chartOf(['solana', 'cronos']));
     const results = await readDates(
       [
         { chain: 'solana', address: 'Mint1', asset },
         { chain: 'cronos', address: '0x1', asset },
-        {
-          chain: 'icp',
-          address: 'mxzaz-hqaaa-aaaar-qaada-cai',
-          asset: { ...asset, legacyId: 9 },
-        },
       ],
       fakeDiscoverDeps({ http, rpc }, capped),
     );
 
     expect(results.map(({ date, reason }) => [date, reason])).toEqual([
-      ['2024-01-01', null],
-      ['2024-01-01', null],
-      [null, 'no-reader'],
+      [null, 'page-cap'],
+      [null, 'rate-limited'],
     ]);
   });
 });

@@ -76,8 +76,8 @@ describe('delist, asked', () => {
     expect(prompter.keys()).toEqual(['target', 'slug', 'at', 'reason', 'source', 'confirm']);
     expect(slug.choices).toEqual(['xyz:tsla']);
     expect(day.default).toBe(today());
-    expect(prompter.asked.at(-1)!.message).toContain('target: market');
-    expect(prompter.asked.at(-1)!.message).toContain('slug: xyz:tsla');
+    expect(prompter.asked.at(-1)!.message).toContain('kind: market');
+    expect(prompter.asked.at(-1)!.message).toContain('which one: xyz:tsla');
     expect(readJson(root, 'perps/xyz/tsla.json').events).toEqual([
       { kind: 'delisting', date: today(), reason: answers.reason, links: [answers.source] },
     ]);

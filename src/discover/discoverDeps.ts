@@ -38,8 +38,6 @@ export const buildDiscoverDeps = (env: Env, log: (line: string) => void): Discov
   if (!discover.sources.solscan.apiKey)
     log('SOLSCAN_API_KEY is not set: every Solana mint goes to the signature walk instead of one Solscan call');
   if (!discover.sources.toncenter.apiKey) log('TONCENTER_API_KEY is not set: toncenter answers at its public rate');
-  if (!discover.sources.history.apiKey)
-    log('PRO_API_KEY is not set: a deployment no explorer or node dates gets no first stored day from the RWA chart');
   return { clients, discover, paced: pacersOf(discover), now: new Date(), log };
 };
 

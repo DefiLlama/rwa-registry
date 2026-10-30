@@ -3,28 +3,13 @@
  * @dev review: src/discover/reasons.ts
  */
 import { reasonOf } from '../errors/reasons';
+import type { DeploymentBasis } from '../schema';
 import { HttpStatusError, RwaError } from '../errors';
 import { dayOf } from '../utils/days';
 import type { DiscoverReason } from './reasons';
 
-export type Basis =
-  | 'contract-creation'
-  | 'first-code'
-  | 'first-signature'
-  | 'first-transaction'
-  | 'first-issue'
-  | 'issuer-first-transaction'
-  | 'asset-created'
-  | 'contract-created'
-  | 'first-activity'
-  | 'package-published'
-  | 'listing-field'
-  // Solscan's created_time of a Solana mint.
-  | 'created-time'
-  // The oldest signature of a Solana mint's Metaplex metadata account.
-  | 'metadata-created'
-  // The first day DefiLlama stored a value for the asset on the chain: first seen by DefiLlama, not the contract's creation.
-  | 'first-stored-day';
+// A deployment's basis, or listing-field for a market's listing day read from a venue's field.
+export type Basis = DeploymentBasis | 'listing-field';
 
 export type DateFound = { date: string; block: number | null; source: string; basis: Basis; reason: null };
 // detail names the HTTP status or the parse failure.
