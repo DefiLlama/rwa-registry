@@ -10,6 +10,6 @@
   "direction": "down",
   "maxCurrentUsd": 1000,
   "minPreviousUsd": 100000,
-  "reason": "REALU (Aktionariat): under CHF10k buy-depth liquidity filter → unpriced; recurring drop-to-$0.",
+  "reason": "REALU (Aktionariat): under CHF10k buy-depth liquidity filter, which leaves it unpriced; recurring drop-to-$0.",
   "resolve": "remove when the asset is priced again"
 }

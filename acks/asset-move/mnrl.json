@@ -10,6 +10,6 @@
   "direction": "down",
   "maxCurrentUsd": 1000,
   "minPreviousUsd": 100000,
-  "reason": "MNRL (Plume): alive on-chain, no live price source → recurring feed-zero; block keeps last-good.",
+  "reason": "MNRL (Plume): alive on-chain, no live price source, which leads to a recurring feed-zero; block keeps last-good.",
   "resolve": "remove when the asset is priced again"
 }

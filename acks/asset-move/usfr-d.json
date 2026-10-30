@@ -10,6 +10,6 @@
   "direction": "down",
   "maxCurrentUsd": 1000,
   "minPreviousUsd": 100000,
-  "reason": "USFR.d Dinari dShare: no fills >14d (MAX_FILL_AGE) → unpriced by design.",
+  "reason": "USFR.d Dinari dShare: no fills >14d (MAX_FILL_AGE), which leaves it unpriced by design.",
   "resolve": "remove when the asset is priced again"
 }

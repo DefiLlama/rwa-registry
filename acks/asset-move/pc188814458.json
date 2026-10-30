@@ -10,6 +10,6 @@
   "direction": "down",
   "maxCurrentUsd": 1000,
   "minPreviousUsd": 100000,
-  "reason": "PC188814458 (Tradable, zksync): phantom eth leg → recurring drop-to-$0; block keeps last-good.",
+  "reason": "PC188814458 (Tradable, zksync): phantom eth leg, which leads to a recurring drop-to-$0; block keeps last-good.",
   "resolve": "remove when the asset is priced again"
 }

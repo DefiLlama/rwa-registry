@@ -10,6 +10,6 @@
   "direction": "down",
   "maxCurrentUsd": 1000,
   "minPreviousUsd": 100000,
-  "reason": "PALLx (Backed palladium xStock): Backed NAV null + no liquid pool, so xstocks.ts has no seed price → dropout. No honest source until Backed publishes NAV or a pool forms.",
+  "reason": "PALLx (Backed palladium xStock): Backed NAV null + no liquid pool, so xstocks.ts has no seed price, which leads to a dropout. No honest source until Backed publishes NAV or a pool forms.",
   "resolve": "remove when the asset is priced again"
 }
