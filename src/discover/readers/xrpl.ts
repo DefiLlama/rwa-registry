@@ -1,5 +1,5 @@
 /**
- * xrpl: the issuer's first Payment of the currency (of any currency for a bare issuer), walking account_tx forward from the issuer's creation; past the page cap, the issuer's first transaction as the bound.
+ * xrpl: the issuer's first Payment of the currency from account_tx, or past the page cap the issuer's first transaction.
  * @dev review: src/discover/readers/stellar.ts
  */
 import { RateLimitedError, ResponseShapeError } from '../../errors';

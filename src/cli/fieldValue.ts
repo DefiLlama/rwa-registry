@@ -4,7 +4,7 @@
  */
 import { FlagFormatError } from '../errors/cli';
 import { compileSchemas } from '../schema/compileSchemas';
-import { fieldPath, tables, type TableName } from '../schema';
+import { ARRAY_TABLES, fieldPath, tables, type TableName } from '../schema';
 import { stepsOf, type Step } from '../utils/fieldPath';
 import { commaList } from './commaList';
 interface Def {
@@ -48,7 +48,7 @@ const typeAt = (schema: Schema, steps: Step[]): { def: Def; nullable: boolean } 
 
 const fileSchemaOf = (table: TableName): Schema => {
   const row = compileSchemas(tables, null).files[table] as unknown as Schema;
-  return table === 'vocabulary' ? { def: { type: 'array', element: row } } : row;
+  return ARRAY_TABLES.includes(table) ? { def: { type: 'array', element: row } } : row;
 };
 
 const scalar = (type: string, text: string, path: string): unknown => {

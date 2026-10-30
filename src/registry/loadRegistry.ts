@@ -22,7 +22,7 @@ import { checkRegistry } from './checks';
 import { keyOf, type AnyRow } from './keys';
 import { ACKS_DIR, homeOf } from './layout';
 import { toProblem, type Problem } from './problem';
-import { fileOf, joinPath, place } from './place';
+import { joinPath, place } from './place';
 
 const listFiles = (root: string): string[] =>
   readdirSync(root, { recursive: true, withFileTypes: true })
@@ -59,24 +59,6 @@ const readJson = (root: string, file: string, problems: Problem[]): unknown => {
   }
 };
 
-// One vocabulary file's values flattened into the registry, with the problems of its shape and rows.
-export const loadVocabularyFile = (registry: Registry, file: string, json: unknown): Problem[] => {
-  const problems: Problem[] = [];
-  const name = homeOf(file)!.implied as VocabularyName;
-  if (!VOCABULARY_NAMES.includes(name)) {
-    return [toProblem(new UnknownPathError({ file, path: '', message: `${name} is not a vocabulary` }))];
-  }
-  if (!Array.isArray(json)) {
-    return [toProblem(new SchemaError({ file, path: '', message: 'a vocabulary file holds an array of values' }))];
-  }
-  json.forEach((value, i) => {
-    const parsed = parseRow('vocabulary', value, file, { path: `[${i}]` });
-    if (Array.isArray(parsed)) problems.push(...parsed.map((error) => toProblem(error)));
-    if (isObject(value)) flatten(registry, 'vocabulary', value, name, { file, path: `[${i}]` });
-  });
-  return problems;
-};
-
 // The slugs of every vocabulary the registry holds, which the other files' vocabulary fields are parsed against.
 export const vocabulariesOf = (registry: Registry): Vocabularies => {
   const vocabularies: Partial<Record<VocabularyName, string[]>> = {};
@@ -87,12 +69,15 @@ export const vocabulariesOf = (registry: Registry): Vocabularies => {
   return vocabularies;
 };
 
-// One file other than a vocabulary flattened into the registry, with the problems of its path and rows.
-export const loadFile = (registry: Registry, file: string, json: unknown, vocabularies: Vocabularies): Problem[] => {
+// One file flattened into the registry, with the problems of its path and rows; a vocabulary file loads first, with no vocabularies yet.
+const loadFile = (registry: Registry, file: string, json: unknown, vocabularies?: Vocabularies): Problem[] => {
   const home = homeOf(file);
   if (!home) {
     const message = `${file} is not a file the registry tree holds: reference/, assets/ or perps/, and acks/ beside registry/`;
     return [toProblem(new UnknownPathError({ file, path: '', message }))];
+  }
+  if (home.table === 'vocabulary' && !VOCABULARY_NAMES.includes(home.implied as VocabularyName)) {
+    return [toProblem(new UnknownPathError({ file, path: '', message: `${home.implied} is not a vocabulary` }))];
   }
   if (home.many && !Array.isArray(json)) {
     return [toProblem(new SchemaError({ file, path: '', message: `${file} holds an array of rows` }))];
@@ -108,37 +93,28 @@ export const loadFile = (registry: Registry, file: string, json: unknown, vocabu
   return problems;
 };
 
-// The rows one file holds taken out of the registry, so the file can be loaded again with new content.
-export const dropFile = (registry: Registry, file: string): void => {
-  for (const table of TABLE_NAMES) {
-    const rows = registry[table] as AnyRow[];
-    if (rows.some((row) => fileOf(row) === file))
-      (registry as unknown as Record<TableName, AnyRow[]>)[table] = rows.filter((row) => fileOf(row) !== file);
-  }
-};
-
-export const isVocabularyFile = (file: string): boolean => homeOf(file)?.table === 'vocabulary';
+const isVocabularyFile = (file: string): boolean => homeOf(file)?.table === 'vocabulary';
 
 // Every file of the registry folder and of the acks beside it, as paths from the registry folder, in name order.
-export const registryFiles = (root: string): string[] => [...listFiles(root), ...listAcks(root)];
+const registryFiles = (root: string): string[] => [...listFiles(root), ...listAcks(root)];
 
-export const emptyRegistry = (): Registry =>
+const emptyRegistry = (): Registry =>
   Object.fromEntries(TABLE_NAMES.map((table) => [table, []])) as unknown as Registry;
 
-export const loadRegistry = (root: string, base: Registry | null = null): { registry: Registry; problems: Problem[] } => {
+export const loadRegistry = (root: string): { registry: Registry; problems: Problem[] } => {
   const registry = emptyRegistry();
   const problems: Problem[] = [];
   const files = registryFiles(root);
   const read = (file: string) => readJson(root, file, problems);
   for (const file of files.filter(isVocabularyFile)) {
     const json = read(file);
-    if (json !== undefined) problems.push(...loadVocabularyFile(registry, file, json));
+    if (json !== undefined) problems.push(...loadFile(registry, file, json));
   }
   const vocabularies = vocabulariesOf(registry);
   for (const file of files.filter((file) => !isVocabularyFile(file))) {
     const json = homeOf(file) ? read(file) : null;
     if (json !== undefined) problems.push(...loadFile(registry, file, json, vocabularies));
   }
-  problems.push(...checkRegistry(registry, base));
+  problems.push(...checkRegistry(registry));
   return { registry, problems };
 };

@@ -1,7 +1,5 @@
 /**
- * solana: a mint's creation time from Solscan's token meta when SOLSCAN_API_KEY is set, one call per mint; otherwise the day of the mint's oldest signature, paged with the before cursor on the Alchemy node when the key is set and on the public nodes otherwise.
- * A mint that holds a cursor from an earlier run, or outruns this run's pages, first asks the oldest signature of its Metaplex metadata account, which sees only its creation and a few updates;
- * a Token-2022 mint that keeps its metadata inside the mint has no such account and goes on. A mint with a cursor then asks the history source before walking on; a mint still capped answers page-cap with its cursor.
+ * solana: a mint's day from Solscan's created_time, else its oldest signature, else, past the page cap, its Metaplex metadata account's.
  * @dev review: src/clients/rpc/creation.ts, src/discover/readers/alchemy.ts, src/discover/discoverDates.ts
  */
 import type { Signature } from '../../clients/rpc/creation';
@@ -10,7 +8,6 @@ import { eachQuery, type DateQuery, type DateReader } from '../dateReader';
 import { found, missing, type DateResult } from '../dateResult';
 import { askJson, type DiscoverDeps } from '../discoverDeps';
 import { alchemyCall, alchemyUrl } from './alchemy';
-import { firstStoredDay } from './history';
 import { METADATA_PROGRAM, metadataAddress } from './solanaAddress';
 
 interface TokenMeta {
@@ -48,11 +45,11 @@ const createdTime = async (address: string, deps: DiscoverDeps): Promise<DateRes
 
 type Page = (before: string | null, limit: number) => Promise<Signature[]>;
 
-const pagesOf = ({ chain, chainId }: DateQuery, address: string, deps: DiscoverDeps): Page => {
+const pagesOf = ({ chain }: DateQuery, address: string, deps: DiscoverDeps): Page => {
   const url = alchemyUrl(deps, chain);
   if (!url)
     return (before, limit) =>
-      deps.paced.solana(() => deps.clients.rpc.solanaSignatures({ chain: chainId, address, before, limit }));
+      deps.paced.solana(() => deps.clients.rpc.solanaSignatures({ chain, address, before, limit }));
   return async (before, limit) => {
     const rows = await alchemyCall<Signature[] | null>(
       deps,
@@ -65,20 +62,18 @@ const pagesOf = ({ chain, chainId }: DateQuery, address: string, deps: DiscoverD
   };
 };
 
-// The walk of one address back to its oldest signature, or to this run's pages with the cursor to resume from.
-const walk = async (page: Page, start: string | null, deps: DiscoverDeps) => {
+// The walk of one address back to its oldest signature, capped at this run's pages.
+const walk = async (page: Page, deps: DiscoverDeps) => {
   const { pageSize, pagesPerRun } = deps.discover.sources.solana;
-  let before = start;
-  let rows: Signature[] = [];
+  let before: string | null = null;
   let oldest: Signature | undefined;
   for (let read = 0; read < pagesPerRun; read++) {
-    rows = await page(before, pageSize);
+    const rows = await page(before, pageSize);
     oldest = rows.at(-1) ?? oldest;
-    if (rows.length < pageSize) return { oldest, cursor: null };
+    if (rows.length < pageSize) return { oldest, capped: false };
     before = oldest!.signature;
   }
-  // One signature back, so the resumed first page is never empty and still holds the oldest seen.
-  return { oldest, cursor: rows.at(-2)!.signature };
+  return { oldest, capped: true };
 };
 
 const dated = (oldest: Signature, basis: 'first-signature' | 'metadata-created'): DateResult => {
@@ -88,9 +83,9 @@ const dated = (oldest: Signature, basis: 'first-signature' | 'metadata-created')
     : found(oldest.blockTime, oldest.slot, source, basis);
 };
 
-const ownerOf = async ({ chain, chainId }: DateQuery, address: string, deps: DiscoverDeps): Promise<string | null> => {
+const ownerOf = async ({ chain }: DateQuery, address: string, deps: DiscoverDeps): Promise<string | null> => {
   const url = alchemyUrl(deps, chain);
-  if (!url) return deps.paced.solana(() => deps.clients.rpc.solanaOwner({ chain: chainId, address }));
+  if (!url) return deps.paced.solana(() => deps.clients.rpc.solanaOwner({ chain, address }));
   const read = await alchemyCall<{ value: { owner?: string } | null }>(
     deps,
     url,
@@ -106,31 +101,26 @@ const ownerOf = async ({ chain, chainId }: DateQuery, address: string, deps: Dis
 const metadataCreated = async (query: DateQuery, deps: DiscoverDeps): Promise<DateResult | null> => {
   const address = metadataAddress(query.address);
   if ((await ownerOf(query, address, deps)) !== METADATA_PROGRAM) return null;
-  const { oldest, cursor } = await walk(pagesOf(query, address, deps), null, deps);
-  return oldest && !cursor ? dated(oldest, 'metadata-created') : null;
+  const { oldest, capped } = await walk(pagesOf(query, address, deps), deps);
+  return oldest && !capped ? dated(oldest, 'metadata-created') : null;
 };
 const metadataOrNull = (query: DateQuery, deps: DiscoverDeps) => metadataCreated(query, deps).catch(() => null);
 
 export const solana: DateReader = {
   family: 'solana',
   read: eachQuery(async (query, deps) => {
-    const { address, before: resume } = query;
+    const { address } = query;
     const created = await createdTime(address, deps);
     if (created) return created;
-    // A mint with a cursor already outran a whole run of pages, so its metadata account and its first stored day answer before twenty more.
-    if (resume) {
-      const early = (await metadataOrNull(query, deps)) ?? (await firstStoredDay(query, deps).catch(() => null));
-      if (early) return early;
-    }
-    const { oldest, cursor } = await walk(pagesOf(query, address, deps), resume ?? null, deps);
-    if (!cursor)
+    const { oldest, capped } = await walk(pagesOf(query, address, deps), deps);
+    if (!capped)
       return oldest ? dated(oldest, 'first-signature') : missing('not-found', `getSignaturesForAddress ${address}`);
-    if (!resume) {
-      const metadata = await metadataOrNull(query, deps);
-      if (metadata) return metadata;
-    }
+    const metadata = await metadataOrNull(query, deps);
+    if (metadata) return metadata;
     const { pageSize, pagesPerRun } = deps.discover.sources.solana;
-    const source = `getSignaturesForAddress ${address}: over ${pagesPerRun * pageSize} signatures this run`;
-    return missing('page-cap', source, { cursor });
+    return missing(
+      'page-cap',
+      `getSignaturesForAddress ${address}: over ${pagesPerRun * pageSize} signatures this run`,
+    );
   }),
 };

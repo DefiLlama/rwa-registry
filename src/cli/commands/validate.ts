@@ -4,7 +4,6 @@
  */
 import { existsSync, mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
-import { loadChecked } from '../../build/loadChecked';
 import { loadRegistry, type Problem } from '../../registry';
 import { groupBy } from '../../utils/groupBy';
 import { toCsv } from '../../utils/toCsv';
@@ -26,22 +25,19 @@ const writeAudit = (out: string, kind: string, rows: Problem[]): string => {
 
 export const validate: CliCommand = {
   name: 'validate',
-  description: 'check the registry files: schemas, references, keys, addresses and the rules against main',
+  description: 'check the registry files: schemas, references, keys and addresses',
   flags: [
     REGISTRY_FLAG,
-    { spec: '--base <dir>', description: 'the registry of origin/main, read by the frozen key and new row checks' },
     { spec: '--out <dir>', description: 'write the rows of each warning kind to <dir>/audit/<kind>.csv' },
     { spec: '--json', description: 'print the problems as JSON' },
   ],
-  run: async ({ registry, base, out, json }, { print }) => {
+  run: async ({ registry, out, json }, { print }) => {
     const root = registryOf(registry);
-    const missing = [root, ...(typeof base === 'string' ? [base] : [])].filter((folder) => !existsSync(folder));
-    if (missing.length) {
-      missing.forEach((folder) => print(`${folder}: no such registry folder`));
+    if (!existsSync(root)) {
+      print(`${root}: no such registry folder`);
       return 1;
     }
-    const baseRegistry = typeof base === 'string' ? loadRegistry(base).registry : null;
-    const problems = loadChecked(root, baseRegistry).problems.map((problem) => ({
+    const problems = loadRegistry(root).problems.map((problem) => ({
       ...problem,
       file: join(root, problem.file),
     }));

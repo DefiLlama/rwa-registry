@@ -2,7 +2,8 @@
  * resume: a dated resumed event after a pause; a resumed venue publishes again.
  * @dev review: src/cli/commands/pause.ts
  */
-import { defineEventCommand, latestOf } from '../eventCommand';
+import { latestOf } from '../../registry';
+import { defineEventCommand } from '../eventCommand';
 
 export const resume = defineEventCommand({
   name: 'resume',

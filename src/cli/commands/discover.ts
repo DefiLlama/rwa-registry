@@ -2,7 +2,7 @@
  * discover: ask the chains and the venues; `discover address <chain:address>` prints one address, `discover dates` sets the deployment dates and listing events it finds in the registry files.
  * @dev review: src/discover/discoverDates.ts, src/discover/discoverAddress.ts
  */
-import type { Env } from '../../config/loadConfig';
+import type { Env } from '../../discover/discoverConfig';
 import { discoverAddress, type AddressFacts } from '../../discover/discoverAddress';
 import { discoverDates } from '../../discover/discoverDates';
 import { buildDiscoverDeps, type DiscoverDeps } from '../../discover/discoverDeps';

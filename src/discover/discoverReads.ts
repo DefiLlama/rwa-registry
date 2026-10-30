@@ -3,7 +3,7 @@
  * @dev review: src/cli/commands/add-asset.ts, src/cli/commands/add-market.ts
  */
 import type { VenueTarget } from './listings/listingReader';
-import type { Env } from '../config/loadConfig';
+import type { Env } from './discoverConfig';
 import type { DateQuery } from './dateReader';
 import type { DateResult } from './dateResult';
 import { buildDiscoverDeps, type DiscoverDeps } from './discoverDeps';

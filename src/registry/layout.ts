@@ -2,12 +2,11 @@
  * layout: which table a file under registry/ holds, the field its folder or file name supplies, and the file of each row.
  * @dev review: src/registry/loadRegistry.ts
  */
-import type { TableName } from '../schema';
+import { ARRAY_TABLES, type TableName } from '../schema/enums';
 
 export const REGISTRY_DIR = 'registry';
 // The acks sit beside registry/ at the repository root, so a path names them from the registry folder.
 export const ACKS_DIR = '../acks';
-export const KEY_CHANGES_FILE = 'key-changes.json';
 
 type FileRow = Record<string, unknown>;
 export type FileTable = Exclude<TableName, 'deployment' | 'role' | 'event' | 'address_label'>;
@@ -16,19 +15,11 @@ interface Home {
   pattern: RegExp;
   table: FileTable;
   implied?: (match: RegExpExecArray) => string;
-  // A file that holds every row of its table as an array, as a vocabulary does.
-  many?: true;
   file: (row: FileRow) => string;
 }
 
 export const platformFile = (platform: string) => `assets/${platform}/platform.json`;
 export const venueOperatorFile = (venue: string) => `perps/${venue}/organization.json`;
-
-// The kinds whose home is not reference/organizations/<kind>/: a platform's asset folder and a venue's folder.
-export const HOME_KINDS: Record<string, string> = {
-  platform: 'assets/<platform>/platform.json',
-  'venue-operator': 'perps/<venue>/organization.json',
-};
 
 // An organization's file by its kind; a venue operator sits beside the venue that names it, given as venue.
 const organizationFile = (row: FileRow): string =>
@@ -44,7 +35,6 @@ const LAYOUT: Home[] = [
     pattern: /^reference\/vocabularies\/([^/]+)\.json$/,
     table: 'vocabulary',
     implied: (match) => match[1],
-    many: true,
     file: (row) => `reference/vocabularies/${row.vocabulary}.json`,
   },
   {
@@ -58,11 +48,6 @@ const LAYOUT: Home[] = [
     table: 'underlying',
     implied: (match) => match[1],
     file: (row) => `reference/underlyings/${row.class}/${row.slug}.json`,
-  },
-  {
-    pattern: /^reference\/instruments\/[^/]+\.json$/,
-    table: 'instrument',
-    file: (row) => `reference/instruments/${row.slug}.json`,
   },
   { pattern: /^assets\/[^/]+\/platform\.json$/, table: 'organization', implied: () => 'platform', file: organizationFile },
   {
@@ -84,7 +69,6 @@ const LAYOUT: Home[] = [
     implied: (match) => match[1],
     file: (row) => `perps/${row.venue}/${String(row.symbol).toLowerCase()}.json`,
   },
-  { pattern: /^key-changes\.json$/, table: 'key_change', many: true, file: () => KEY_CHANGES_FILE },
   {
     pattern: /^\.\.\/acks\/([^/]+)\/[^/]+\.json$/,
     table: 'ack',
@@ -96,7 +80,7 @@ const LAYOUT: Home[] = [
 export const homeOf = (file: string): { table: TableName; implied: string | null; many: boolean } | null => {
   for (const home of LAYOUT) {
     const match = home.pattern.exec(file);
-    if (match) return { table: home.table, implied: home.implied ? home.implied(match) : null, many: home.many === true };
+    if (match) return { table: home.table, implied: home.implied ? home.implied(match) : null, many: ARRAY_TABLES.includes(home.table) };
   }
   return null;
 };

@@ -2,7 +2,8 @@
  * delist: a dated delisting event on an asset, market, venue or platform; its status derives delisted from it.
  * @dev review: src/cli/eventCommand.ts
  */
-import { defineEventCommand, latestOf } from '../eventCommand';
+import { latestOf } from '../../registry';
+import { defineEventCommand } from '../eventCommand';
 
 export const delist = defineEventCommand({
   name: 'delist',

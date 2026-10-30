@@ -1,11 +1,11 @@
 /**
- * discoverDates: the undated deployments that have a contract and the markets with no listing event, read in batches, a chain the sdk does not know answering unknown-chain; each date found is set in its registry file as its batch lands, so a dated deployment is never asked again. Each chain is its own lane of batches and the lanes run side by side, so a slow chain never holds a fast one.
+ * discoverDates: the undated deployments and unlisted markets read in one lane per chain, each date written to its file as its batch lands.
  * @dev review: src/discover/readers/index.ts, src/discover/listings/index.ts, src/cli/writeAtomic.ts
  */
 import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { writeAtomic } from '../cli/writeAtomic';
-import { familyOf, loadRegistry } from '../registry';
+import { loadRegistry } from '../registry';
 import { homeOf } from '../registry/layout';
 import { placeOf, type Place } from '../registry/place';
 import { inSchemaOrder, type Registry, type Row } from '../schema';
@@ -89,7 +89,7 @@ const deploymentWork = (
         !row.deployedAt && (!platform || platformOf.get(row.asset) === platform) && (!only || row.chain === only),
     )
     .map((row) => {
-      const query = { chain: row.chain, chainId: row.chain, family: familyOf(row.chain), address: row.address };
+      const query = { chain: row.chain, address: row.address };
       const legacyId = legacyIdOf.get(row.asset);
       const asset =
         legacyId === undefined

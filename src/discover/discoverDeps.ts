@@ -1,12 +1,11 @@
 /**
- * discoverDeps: what every date reader is handed: the http client and the chain reads it needs, the config, the discover section and one pacer per source.
+ * discoverDeps: what every date reader is handed: the http client and the chain reads it needs, the config and one pacer per source.
  * @dev review: src/discover/paced.ts
  */
 import { createHttp, type HttpClient, type HttpRequest } from '../clients/http';
 import { creationReads, type CreationReads } from '../clients/rpc/creation';
 import { evmReads, type EvmReads } from '../clients/rpc/evm';
-import { loadConfig, type Config, type Env } from '../config/loadConfig';
-import { loadDiscoverConfig, type DiscoverConfig, type DiscoverSource } from './discoverConfig';
+import { loadDiscoverConfig, type DiscoverConfig, type DiscoverSource, type Env } from './discoverConfig';
 import { paced, type Paced, type Sleep } from './paced';
 
 // Only these clients: the explorers, Alchemy and toncenter speak through http, the public-node fallback and the erc20 reads through rpc.
@@ -17,7 +16,6 @@ export interface DiscoverClients {
 
 export interface DiscoverDeps {
   clients: DiscoverClients;
-  config: Config;
   discover: DiscoverConfig;
   paced: Record<DiscoverSource, Paced>;
   now: Date;
@@ -30,10 +28,9 @@ export const pacersOf = (discover: DiscoverConfig, wait?: Sleep): Record<Discove
   ) as Record<DiscoverSource, Paced>;
 
 export const buildDiscoverDeps = (env: Env, log: (line: string) => void): DiscoverDeps => {
-  const config = loadConfig();
   const discover = loadDiscoverConfig(env);
   const rpc = { timeoutMs: discover.sources.evmCode.timeoutMs };
-  const clients = { http: createHttp(config.sources.http), rpc: { ...evmReads(rpc), ...creationReads(rpc) } };
+  const clients = { http: createHttp(discover.http), rpc: { ...evmReads(rpc), ...creationReads(rpc) } };
   if (!discover.sources.etherscan.apiKey)
     log('ETHERSCAN_API_KEY is not set: every EVM date comes from the code search, about 33 RPC reads each');
   if (!discover.sources.alchemy.apiKey)
@@ -43,7 +40,7 @@ export const buildDiscoverDeps = (env: Env, log: (line: string) => void): Discov
   if (!discover.sources.toncenter.apiKey) log('TONCENTER_API_KEY is not set: toncenter answers at its public rate');
   if (!discover.sources.history.apiKey)
     log('PRO_API_KEY is not set: a deployment no explorer or node dates gets no first stored day from the RWA chart');
-  return { clients, config, discover, paced: pacersOf(discover), now: new Date(), log };
+  return { clients, discover, paced: pacersOf(discover), now: new Date(), log };
 };
 
 // Every answer from an outside source waits its turn in that source's pacer and gives up at that source's timeout.

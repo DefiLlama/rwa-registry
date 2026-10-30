@@ -1,5 +1,5 @@
 /**
- * firstCode: an EVM address's deployment day by binary search on its code over block numbers, stopped once the window fits in one day, on the chain's Alchemy node when it has one and on the public node otherwise.
+ * firstCode: an EVM address's deployment day by binary search on its code over block numbers, on Alchemy or the public node.
  * @dev review: src/clients/rpc/creation.ts, src/discover/readers/alchemy.ts
  */
 import { reasonOf } from '../../errors/reasons';
@@ -19,14 +19,14 @@ export interface CodeNode {
 
 const hex = (block: number) => `0x${block.toString(16)}`;
 
-const publicNode = ({ chainId, address }: DateQuery, deps: DiscoverDeps): CodeNode => {
+const publicNode = ({ chain, address }: DateQuery, deps: DiscoverDeps): CodeNode => {
   const { rpc } = deps.clients;
   const run = deps.paced.evmCode;
   return {
     name: null,
-    head: () => run(() => rpc.evmHead(chainId)),
-    hasCode: (block) => run(() => rpc.evmHasCode({ chain: chainId, address, block })),
-    blockTime: (block) => run(() => rpc.evmBlockTime(chainId, block)),
+    head: () => run(() => rpc.evmHead(chain)),
+    hasCode: (block) => run(() => rpc.evmHasCode({ chain, address, block })),
+    blockTime: (block) => run(() => rpc.evmBlockTime(chain, block)),
   };
 };
 

@@ -5,14 +5,15 @@
 import { FlagFormatError, NoSuchRowError } from '../errors/cli';
 import { fileOf, keyOf, marketId } from '../registry';
 import type { Registry, TableName } from '../schema';
+import { PLATFORM_KINDS } from '../schema/organization';
 
-export const TARGET_KINDS = {
+const TARGET_KINDS = {
   asset: 'asset',
   market: 'perp_market',
   venue: 'venue',
   platform: 'organization',
 } as const;
-export type TargetKind = keyof typeof TARGET_KINDS;
+type TargetKind = keyof typeof TARGET_KINDS;
 
 export interface TargetRow {
   table: TableName;
@@ -25,9 +26,8 @@ const FINDERS: Record<TargetKind, (registry: Registry, slug: string) => object |
   asset: (registry, slug) => registry.asset.find((row) => row.slug === slug),
   market: (registry, slug) => registry.perp_market.find((row) => marketId(row) === slug.toLowerCase()),
   venue: (registry, slug) => registry.venue.find((row) => row.slug === slug),
-  // A Platforms tab row is a platform or a venue operator; both are published as platforms.
   platform: (registry, slug) =>
-    registry.organization.find((row) => row.slug === slug && ['platform', 'venue-operator'].includes(row.kind)),
+    registry.organization.find((row) => row.slug === slug && PLATFORM_KINDS.includes(row.kind)),
 };
 
 export const targetRow = (registry: Registry, kind: string, slug: string): TargetRow => {

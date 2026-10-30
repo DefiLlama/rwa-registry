@@ -1,9 +1,9 @@
 /**
- * add market: perps/<venue>/<lowercase symbol>.json; its published id is the lowercase venue:symbol, so no legacy id unless the template keeps one; its listing event comes from the venue when the venue dates it, and --no-discover asks no venue.
+ * add market: perps/<venue>/<lowercase symbol>.json, with its listing event when the venue dates it.
  * @dev review: src/cli/addCommand.ts, src/discover/discoverReads.ts
  */
 import { marketTarget } from '../../discover/listings/listingReader';
-import type { Env } from '../../config/loadConfig';
+import type { Env } from '../../discover/discoverConfig';
 import { discoverReads, type DiscoverReads } from '../../discover/discoverReads';
 import { whyOf } from '../../discover/dateResult';
 import { listingEvent } from '../../discover/listings';

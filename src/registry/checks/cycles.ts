@@ -1,5 +1,5 @@
 /**
- * cycles: wraps, bridgedFrom, venue parent and organization parent never loop back to their row.
+ * cycles: wraps, venue parent and organization parent never loop back to their row.
  * @dev review: src/registry/checks/references.ts
  */
 import { CycleError } from '../../errors';
@@ -9,7 +9,6 @@ import { report, type Problem } from '../problem';
 
 const EDGES: [TableName, string][] = [
   ['asset', 'wraps'],
-  ['deployment', 'bridgedFrom'],
   ['venue', 'parent'],
   ['organization', 'parent'],
 ];

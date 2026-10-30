@@ -1,5 +1,5 @@
 /**
- * moveReferences: one file's JSON with every reference to a row of one table moved to another row, nested rows and role or event targets included; moveReferencesBy moves many rows at once.
+ * moveReferences: one file's JSON with every reference to a row of one table moved to another row, nested rows and role or event targets included.
  * @dev review: src/registry/checks/references.ts
  */
 import { tables, type TableName } from '../schema';
@@ -32,12 +32,8 @@ const moveRow = (table: TableName, row: Json, refTable: TableName, rename: Renam
   return moved;
 };
 
-export const moveReferencesBy = (table: TableName, file: unknown, refTable: TableName, rename: Rename): unknown =>
-  Array.isArray(file)
-    ? file.map((row) => (isObject(row) ? moveRow(table, row, refTable, rename) : row))
-    : isObject(file)
-      ? moveRow(table, file, refTable, rename)
-      : file;
-
-export const moveReferences = (table: TableName, file: unknown, refTable: TableName, from: string, to: string): unknown =>
-  moveReferencesBy(table, file, refTable, (key) => (key === from ? to : key));
+export const moveReferences = (table: TableName, file: unknown, refTable: TableName, from: string, to: string): unknown => {
+  const rename: Rename = (key) => (key === from ? to : key);
+  if (Array.isArray(file)) return file.map((row) => (isObject(row) ? moveRow(table, row, refTable, rename) : row));
+  return isObject(file) ? moveRow(table, file, refTable, rename) : file;
+};

@@ -5,11 +5,11 @@
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { registryJson } from '../../build/registryJson';
-import { loadChecked } from '../../build/loadChecked';
-import { deriveFields } from '../../registry';
+import { deriveFields, loadRegistry } from '../../registry';
 import { TABLE_NAMES } from '../../schema';
 import type { CliCommand } from '../index';
 import { REGISTRY_FLAG, registryOf } from '../registryFlag';
+import { today } from '../writeCommand';
 
 export const build: CliCommand = {
   name: 'build',
@@ -25,12 +25,12 @@ export const build: CliCommand = {
       print('build needs --commit, the commit the registry is built from');
       return 1;
     }
-    const loaded = loadChecked(registryOf(registry));
+    const loaded = loadRegistry(registryOf(registry));
     const problems = loaded.problems;
     const errors = problems.filter((problem) => problem.severity === 'error');
     errors.forEach((problem) => print(`${problem.file}: ${problem.message}`));
     if (errors.length) return 1;
-    const day = typeof at === 'string' ? at : new Date().toISOString().slice(0, 10);
+    const day = typeof at === 'string' ? at : today();
     const derived = deriveFields(loaded.registry, day);
     const dir = typeof out === 'string' ? out : 'dist';
     mkdirSync(dir, { recursive: true });

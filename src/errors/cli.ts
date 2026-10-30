@@ -8,7 +8,7 @@ export class CliError extends RwaError {
   readonly file: string;
 
   constructor(at: { file: string; message: string; cause?: unknown }) {
-    super('cli', at.message, { cause: at.cause });
+    super(at.message, { cause: at.cause });
     this.file = at.file;
   }
 }

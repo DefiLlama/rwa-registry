@@ -9,7 +9,7 @@ export class RegistryError extends RwaError {
   readonly path: string;
 
   constructor(at: { file: string; path: string; message: string; cause?: unknown }) {
-    super('registry', at.message, { cause: at.cause });
+    super(at.message, { cause: at.cause });
     this.file = at.file;
     this.path = at.path;
   }
@@ -20,15 +20,12 @@ export class SharedIsinError extends RegistryError {}
 export class DanglingReferenceError extends RegistryError {}
 export class CycleError extends RegistryError {}
 export class AddressFormatError extends RegistryError {}
-export class FrozenKeyError extends RegistryError {}
-export class KeyChangeError extends RegistryError {}
 export class UndatedDeploymentError extends RegistryError {}
 export class ContractlessDeploymentError extends RegistryError {}
 export class UnknownChainError extends RegistryError {}
 export class MarketTrackError extends RegistryError {}
 export class PlatformFolderError extends RegistryError {}
 export class SlugRuleError extends RegistryError {}
-export class LabelChangeError extends RegistryError {}
 export class UnknownPathError extends RegistryError {}
 export class EventTargetError extends RegistryError {}
 export class DateOrderError extends RegistryError {}

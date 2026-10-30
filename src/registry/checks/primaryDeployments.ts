@@ -1,5 +1,5 @@
 /**
- * primaryDeployments: at most one deployment of an asset is primary, a chain with no known contract included, and an asset with a contract and none primary takes its platform's primary chain, so it needs one.
+ * primaryDeployments: at most one primary deployment per asset, and one where the asset has a contract and its platform no primary chain.
  * @dev review: src/registry/deriveFields.ts
  */
 import { PrimaryDeploymentError } from '../../errors';

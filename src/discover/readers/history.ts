@@ -1,7 +1,5 @@
 /**
- * history: the first day DefiLlama stored a value for an asset on a chain, read from the asset's RWA chart on the Pro API.
- * This day is "first seen by DefiLlama", not the contract's creation: readDates asks it last, only for a deployment no explorer or node dated, and its day never replaces a date another source found.
- * A Solana mint that already holds a cursor asks it before walking more pages. A later creation-time source may replace a first-stored-day row.
+ * history: the first day DefiLlama stored a value for an asset on a chain, from its RWA chart on the Pro API; first seen, not created.
  * @dev review: src/discover/readers/index.ts
  */
 import type { DateQuery } from '../dateReader';

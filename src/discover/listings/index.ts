@@ -9,12 +9,9 @@ import type { DiscoverDeps } from '../discoverDeps';
 import { binance } from './binance';
 import { bybit } from './bybit';
 import { gate } from './gate';
-import type { ListingReader } from './listingReader';
 import { okx } from './okx';
 
-export const listingReaders: ListingReader[] = [binance, bybit, okx, gate];
-
-const byAdapter = new Map(listingReaders.map((reader) => [reader.adapter, reader]));
+const byAdapter = new Map([binance, bybit, okx, gate].map((reader) => [reader.adapter, reader]));
 
 // A market its venue's field does not date waits for the venue's history dump.
 const readVenue = async (id: string, targets: VenueTarget[], deps: DiscoverDeps): Promise<DateResult[]> => {

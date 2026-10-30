@@ -1,10 +1,9 @@
 /**
- * ack: one guard exception, acks/<kind>/<slug>.json beside registry/, holding the fields its kind names in src/schema/ack.ts.
- * The target is an asset, a venue, a series or a contract by kind; the slug is the target, with the day for a kind scoped to days.
+ * ack: one guard exception, acks/<kind>/<slug>.json, with the fields its kind names and a slug from its target.
  * @dev review: src/cli/writeCommand.ts, src/schema/ack.ts, docs/acks.md
  */
 import { FlagFormatError, MissingFieldError } from '../../errors/cli';
-import { homeFile } from '../../registry';
+import { homeFile, rowSlug } from '../../registry';
 import { toFile, type Registry } from '../../schema';
 import { ACK_KIND_FIELDS, isRequiredAckField, type AckField } from '../../schema/ack';
 import { ACK_KINDS, type AckKind } from '../../schema/enums';
@@ -70,15 +69,6 @@ const TARGETS: Partial<Record<AckField, (registry: Registry, given: string) => s
   contract: (_registry, given) => given.toLowerCase(),
 };
 
-// A series or a contract as a file name: lowercase, every run of other characters one hyphen; * is every series.
-const fileSlug = (target: string): string =>
-  target === '*'
-    ? 'every-series'
-    : target
-        .toLowerCase()
-        .replace(/[^a-z0-9]+/g, '-')
-        .replace(/^-|-$/g, '');
-
 const help = [
   'Kinds, the target each names, and the flags it takes beside --reason and --resolve (docs/acks.md):',
   ...ACK_KINDS.map((kind) => {
@@ -126,7 +116,8 @@ const command = defineWriteCommand({
       const message = `${missing.map(flagOf).join(', ')} ${missing.length > 1 ? 'are' : 'is'} required for ${kind} acks`;
       throw new MissingFieldError({ file: 'ack', message });
     }
-    const slug = [fileSlug(String(row[target])), row.day ?? row.firstDay].filter(Boolean).join('-');
+    const named = String(row[target]);
+    const slug = [named === '*' ? 'every-series' : rowSlug(named), row.day ?? row.firstDay].filter(Boolean).join('-');
     const content = toFile('ack', { slug, ...row, reason: values.reason, resolve: values.resolve });
     return [{ path: homeFile('ack', { kind, slug }), content }];
   },

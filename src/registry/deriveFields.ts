@@ -1,5 +1,5 @@
 /**
- * deriveFields: the fields the build writes at a build date: an asset's primary chain and issuer protocol ids, kind and flags (an override in its class block wins), status from events, the market id and live chains, and a null address on a deployment whose file leaves it out.
+ * deriveFields: the fields the build writes at a build date, from an asset's primary chain to each row's status.
  * @dev review: src/registry/keys.ts
  */
 import { EVENT_KINDS, type Registry, type Row, type TableName } from '../schema';
@@ -12,44 +12,43 @@ type Event = Row<'event'>;
 const happened = (event: Event, day: string): boolean => event.date == null || event.date <= day;
 const endsTarget = (event: Event, day: string): boolean => EVENT_KINDS[event.kind]?.ends === true && happened(event, day);
 
-export const endedRows = (registry: Registry, day: string): ((table: TableName, row: object) => boolean) => {
+const endedRows = (registry: Registry, day: string): ((table: TableName, row: object) => boolean) => {
   const ended = new Set(registry.event.filter((event) => endsTarget(event, day)).map((event) => targetKey(event.target)));
   return (table, row) => ended.has(targetKey({ table, key: keyOf(table, row) }));
 };
 
-// An undated listing or delisting has happened on an unknown day, so it sorts after every dated one.
+// An undated event has happened on an unknown day, so it sorts after every dated one.
+export const latestOf = (events: Event[], kinds: string[]): Event | undefined =>
+  events
+    .filter((event) => kinds.includes(event.kind))
+    .sort((a, b) => (a.date ?? '9999').localeCompare(b.date ?? '9999'))
+    .at(-1);
+
+const LISTING_KINDS = Object.keys(EVENT_KINDS).filter((kind) => EVENT_KINDS[kind]!.lists === true);
+
 const statusOf = (events: Event[], at: string): 'listed' | 'delisted' | 'retired' => {
   if (events.some((event) => endsTarget(event, at))) return 'retired';
-  const latest = events
-    .filter((event) => EVENT_KINDS[event.kind]?.lists === true && happened(event, at))
-    .map((event, i) => ({ event, i }))
-    .sort((a, b) => (a.event.date ?? '9999').localeCompare(b.event.date ?? '9999') || a.i - b.i)
-    .at(-1)?.event;
+  const latest = latestOf(
+    events.filter((event) => happened(event, at)),
+    LISTING_KINDS,
+  );
   return latest?.kind === 'delisting' ? 'delisted' : 'listed';
 };
 
 export type Flags = { stablecoin: boolean; governance: boolean };
-export type FlagRow = { vocabulary: string; slug: string; impliesStablecoin?: boolean | null; impliesGovernance?: boolean | null };
 
-// A stablecoin or a governance token is one whose categories, asset classes or classification imply it in the vocabularies.
-export const flagRule = (vocabulary: FlagRow[]) => {
-  const flags = new Map(vocabulary.map((row) => [`${row.vocabulary}:${row.slug}`, row]));
-  return (values: { category: string[]; structures: string[]; rwaClassification: string }): Flags => {
+// A stablecoin or a governance token is one whose categories, asset class or classification imply it in the vocabularies, before any override.
+export const derivedFlagsOf = (registry: Registry) => {
+  const flags = new Map(registry.vocabulary.map((row) => [`${row.vocabulary}:${row.slug}`, row]));
+  return (asset: Row<'asset'>): Flags => {
     const keys = [
-      ...values.category.map((slug) => `category:${slug}`),
-      ...values.structures.map((slug) => `asset-class:${slug}`),
-      `rwa-classification:${values.rwaClassification}`,
+      ...asset.category.map((slug) => `category:${slug}`),
+      `asset-class:${asset.structure}`,
+      `rwa-classification:${asset.rwaClassification}`,
     ];
     const has = (flag: 'impliesStablecoin' | 'impliesGovernance') => keys.some((key) => flags.get(key)?.[flag] === true);
     return { stablecoin: has('impliesStablecoin'), governance: has('impliesGovernance') };
   };
-};
-
-// The flags the asset's categories, structure and classification imply, before any override.
-export const derivedFlagsOf = (registry: Registry) => {
-  const rule = flagRule(registry.vocabulary);
-  return (asset: Row<'asset'>): Flags =>
-    rule({ category: asset.category, structures: [asset.structure], rwaClassification: asset.rwaClassification });
 };
 
 // The chain of the primary deployment, else the platform's primary chain; primaryDeployments fails an asset with neither.

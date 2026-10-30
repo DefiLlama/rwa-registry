@@ -28,17 +28,12 @@ export const ADDRESS_PATTERNS: Partial<Record<AddressFamily, RegExp>> = {
 
 // A Stellar holder may be a G account or a C contract, since contracts hold balances too.
 export const ACCOUNT_PATTERNS: Partial<Record<AddressFamily, RegExp>> = {
-  evm: /^0x[0-9a-f]{40}$/,
-  solana: new RegExp(`^${BASE58}{32,44}$`),
-  tron: new RegExp(`^T${BASE58}{33}$`),
-  ton: /^(EQ|UQ)[A-Za-z0-9_-]{46}$/,
+  ...ADDRESS_PATTERNS,
   stellar: /^[GC][A-Z2-7]{55}$/,
   xrpl: new RegExp(`^r${BASE58}{24,34}$`),
   aptos: /^0x[0-9a-f]{64}$/,
   sui: /^0x[0-9a-f]{64}$/,
-  starknet: /^0x[0-9a-f]{64}$/,
   cosmos: new RegExp(`^${BECH32}$`),
-  icp: ICP,
   algorand: /^[A-Z2-7]{58}$/,
 };
 

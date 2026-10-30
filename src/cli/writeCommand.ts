@@ -29,15 +29,13 @@ export interface Field {
   fallback?: () => FlagValue;
 }
 
-// replaces: the file may exist and is meant to change; remove: the file is deleted;
-// allows: the error kinds the file may bring, by error name, such as an undated deployment under --no-discover.
+// replaces: the file may exist and is meant to change; remove: the file is deleted.
 export interface FileToWrite {
   path: string;
   content?: unknown;
   replaces?: boolean;
   remove?: boolean;
   conflict?: string;
-  allows?: string[];
 }
 
 export interface WriteContext {
@@ -155,7 +153,7 @@ export const defineWriteCommand = (spec: WriteSpec): CliCommand => ({
     }
     const conflicts = conflictsOf(root, files);
     if (conflicts.length) return refuse(conflicts);
-    const problems = checkStaged(root, before, files, { ignore: files.flatMap((file) => file.allows ?? []) });
+    const problems = checkStaged(root, before, files);
     if (problems.length) return refuse(problems.map((problem) => ({ ...problem, file: join(root, problem.file) })));
 
     const dryRun = options.dryRun === true;

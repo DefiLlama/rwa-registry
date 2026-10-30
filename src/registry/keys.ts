@@ -18,7 +18,6 @@ const KEYS: { [T in TableName]: (row: Row<T>) => string } = {
   vocabulary: (row) => `${row.vocabulary}:${row.slug}`,
   organization: (row) => row.slug,
   underlying: (row) => row.slug,
-  instrument: (row) => row.slug,
   venue: (row) => row.slug,
   asset: (row) => row.slug,
   // A chain with no known contract is one per asset, so its key is the asset and the chain.
@@ -28,7 +27,6 @@ const KEYS: { [T in TableName]: (row: Row<T>) => string } = {
   event: (row) => `${targetKey(row.target)}|${row.kind}|${row.date ?? ''}`,
   address_label: (row) => `${row.deployment}|${row.address}`,
   ack: (row) => `${row.kind}/${row.slug}`,
-  key_change: (row) => `${row.table}:${row.legacyId}`,
 };
 
 export const keyOf = (table: TableName, row: object): string => (KEYS[table] as (row: object) => string)(row);

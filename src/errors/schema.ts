@@ -7,12 +7,10 @@ import { RwaError } from './rwaError';
 export class SchemaError extends RwaError {
   readonly file: string;
   readonly path: string;
-  readonly didYouMean: string | null;
 
-  constructor(at: { file: string; path: string; message: string; didYouMean?: string | null }) {
-    super('schema', at.message);
+  constructor(at: { file: string; path: string; message: string }) {
+    super(at.message);
     this.file = at.file;
     this.path = at.path;
-    this.didYouMean = at.didYouMean ?? null;
   }
 }

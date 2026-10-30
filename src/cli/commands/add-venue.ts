@@ -1,5 +1,5 @@
 /**
- * add venue: perps/<slug>/venue.json, unpublished until its adapter lands, and its operator beside it, perps/<slug>/organization.json, from the template's operator or the flags' name, when the registry has none of that slug.
+ * add venue: perps/<slug>/venue.json, unpublished until its adapter lands, and its operator beside it.
  * @dev review: src/cli/addCommand.ts
  */
 import { homeFile, rowSlug, rwaSlug } from '../../registry';

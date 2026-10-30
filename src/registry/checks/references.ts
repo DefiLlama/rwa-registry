@@ -24,10 +24,7 @@ export const REFERENCES: Partial<Record<TableName, [field: string, ...named: Nam
     ['underlying', 'underlying'],
     ['wraps', 'asset'],
   ],
-  deployment: [
-    ['asset', 'asset'],
-    ['bridgedFrom', 'deployment'],
-  ],
+  deployment: [['asset', 'asset']],
   perp_market: [
     ['venue', 'venue'],
     ['tracks', 'underlying'],
@@ -45,7 +42,7 @@ export const REFERENCES: Partial<Record<TableName, [field: string, ...named: Nam
 
 // An event's target table depends on its kind, which eventTargets checks; here only that the row exists.
 export const TARGETS: Partial<Record<TableName, Record<string, TableName[] | null>>> = {
-  role: { target: ['asset', 'instrument', 'underlying', 'venue', 'perp_market', 'organization'] },
+  role: { target: ['asset', 'underlying', 'venue', 'perp_market', 'organization'] },
   event: { target: null, successor: ['asset', 'deployment', 'perp_market'] },
 };
 

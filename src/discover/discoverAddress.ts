@@ -60,7 +60,7 @@ export const discoverAddress = async (spec: string, deps: DiscoverDeps): Promise
   const address = family === 'evm' ? raw.toLowerCase() : raw;
   const [[symbol, name, decimalsRaw, supplyRaw], [date]] = await Promise.all([
     erc20Reads(chain, family, address, deps),
-    readDates([{ chain, chainId: chain, family, address }], deps),
+    readDates([{ chain, address }], deps),
   ]);
   const decimals = decimalsRaw === null ? null : Number(decimalsRaw);
   const { date: deployedAt, ...dated } = date;

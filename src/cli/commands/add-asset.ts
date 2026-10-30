@@ -1,12 +1,11 @@
 /**
- * add asset: one asset file under assets/<platform>/ with its legacy id, kept from the template or the next free one, every deployment dated from the flag, the template or the chain unless --no-discover leaves it undated, and its issuer role; a template deployment with no address names a chain with no known contract and is not dated.
+ * add asset: one asset file under assets/<platform>/ with its legacy id, its dated deployments and its issuer role.
  * @dev review: src/cli/addCommand.ts, src/discover/discoverReads.ts
  */
-import type { Env } from '../../config/loadConfig';
+import type { Env } from '../../discover/discoverConfig';
 import { whyOf } from '../../discover/dateResult';
 import { discoverReads, type DiscoverReads } from '../../discover/discoverReads';
 import { FlagFormatError, MissingFieldError, NoSuchRowError } from '../../errors/cli';
-import { UndatedDeploymentError } from '../../errors/registry';
 import { familyOf, homeFile, nextAssetKeys } from '../../registry';
 import type { Registry } from '../../schema';
 import { defineAddCommand, fileContent, organizationChoices, vocabularyChoices, type FlagValues } from '../addCommand';
@@ -49,7 +48,7 @@ const dated = async (deployments: Deployment[], reads: DiscoverReads | null, not
     note(`${names}: left undated under --no-discover; validate warns undated-deployment until deployedAt is set`);
     return deployments;
   }
-  const queries = undated.map(({ chain, address }) => ({ chain, chainId: chain, family: familyOf(chain), address }));
+  const queries = undated.map(({ chain, address }) => ({ chain, address }));
   const results = await reads.dates(queries);
   const byDeployment = new Map<Deployment, (typeof results)[number]>(
     undated.map((deployment, index) => [deployment, results[index]!]),
@@ -195,10 +194,7 @@ export const createAddAssetCommand = (
         deployments,
         roles,
       });
-      const undated = undatedContracts(deployments).length > 0;
-      return [
-        { path: homeFile('asset', { platform, slug }), content, allows: undated ? [UndatedDeploymentError.name] : [] },
-      ];
+      return [{ path: homeFile('asset', { platform, slug }), content }];
     },
   });
 

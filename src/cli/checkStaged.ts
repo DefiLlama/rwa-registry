@@ -7,7 +7,6 @@ import { tmpdir } from 'node:os';
 import { dirname, join } from 'node:path';
 import { ACKS_DIR, loadRegistry, type Problem } from '../registry';
 import { problemId } from '../registry/problem';
-import type { Registry } from '../schema';
 
 export interface StagedFile {
   path: string;
@@ -15,13 +14,7 @@ export interface StagedFile {
   remove?: boolean;
 }
 
-export const checkStaged = (
-  root: string,
-  before: { registry: Registry; problems: Problem[] },
-  files: StagedFile[],
-  // ignore: the error kinds let through, by error name, which validate then reports as warnings.
-  options: { ignore?: string[] } = {},
-): Problem[] => {
+export const checkStaged = (root: string, before: { problems: Problem[] }, files: StagedFile[]): Problem[] => {
   const stage = mkdtempSync(join(tmpdir(), 'rwa-add-'));
   try {
     const copy = join(stage, 'registry');
@@ -39,9 +32,8 @@ export const checkStaged = (
     }
     // An error the registry already had is not the new files' to fix.
     const known = new Set(before.problems.map(problemId));
-    const ignored = new Set(options.ignore ?? []);
-    return loadRegistry(copy, before.registry).problems.filter(
-      (problem) => problem.severity === 'error' && !known.has(problemId(problem)) && !ignored.has(problem.error),
+    return loadRegistry(copy).problems.filter(
+      (problem) => problem.severity === 'error' && !known.has(problemId(problem)),
     );
   } finally {
     rmSync(stage, { recursive: true, force: true });

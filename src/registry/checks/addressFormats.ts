@@ -1,5 +1,5 @@
 /**
- * addressFormats: a deployment address is in the key form of the chain's family, a holder label in its account form; a family with no form here passes, and so do a deployment with no address and an address on a chain the sdk does not know, kept as the sheet wrote it.
+ * addressFormats: a deployment address in its family's key form and a holder label in its account form, where the family has a form.
  * @dev review: src/registry/addressFamilies.ts
  */
 import { AddressFormatError } from '../../errors';

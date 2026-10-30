@@ -1,10 +1,13 @@
 /**
- * discoverConfig: the discover section of config/discover.json; a source's `<NAME>` key placeholder is read from the env, and a missing key leaves it null, so the next source answers instead.
- * @dev review: src/config/loadConfig.ts, src/discover/paced.ts
+ * discoverConfig: config/discover.json, its http limits, venue URLs and sources, a `<NAME>` key placeholder read from the env or left null.
+ * @dev review: src/discover/paced.ts
  */
 import { readFileSync } from 'node:fs';
+import { join } from 'node:path';
 import { z } from 'zod';
-import { CONFIG_FILE, type Env } from '../config/loadConfig';
+
+export const CONFIG_FILE = join(__dirname, '..', '..', 'config', 'discover.json');
+export type Env = Record<string, string | undefined>;
 
 const PLACEHOLDER = /^<([A-Z][A-Z0-9_]*)>$/;
 
@@ -13,7 +16,7 @@ const pace = { concurrency: count, minIntervalMs: z.number().int().nonnegative()
 const site = { ...pace, baseUrl: z.string() };
 const pages = { pageSize: count, maxPages: count };
 
-const schema = z.object({
+const discover = z.object({
   retries: z.number().int().nonnegative(),
   retryDelayMs: z.number().int().nonnegative(),
   sources: z.object({
@@ -32,8 +35,7 @@ const schema = z.object({
       subdomains: z.record(z.string(), z.string()),
     }),
     blockscout: z.object({ ...pace, batchSize: count, explorers: z.record(z.string(), z.string()) }),
-    // A resumed read starts one signature back, so a page holds at least two.
-    solana: z.object({ ...pace, pageSize: z.number().int().min(2), pagesPerRun: count }),
+    solana: z.object({ ...pace, pageSize: count, pagesPerRun: count }),
     // Solscan's token meta: one creation time per mint, asked before the signature walk when the key is set.
     solscan: z.object({ ...site, apiKey: z.string().nullable() }),
     // The RWA chart of an asset on the Pro API; baseUrl holds {key}. chartKeys: the chart's chain keys for a registry slug beyond the slug itself and its underscore form.
@@ -49,7 +51,17 @@ const schema = z.object({
   }),
 });
 
-export type DiscoverConfig = z.infer<typeof schema>;
+const schema = z.object({
+  sources: z.object({ http: z.object({ timeoutMs: count, connectTimeoutMs: count }) }),
+  venues: z.record(z.string(), z.object({ urls: z.object({ api: z.string() }) })),
+  discover,
+});
+
+type ConfigFile = z.infer<typeof schema>;
+export type DiscoverConfig = ConfigFile['discover'] & {
+  http: ConfigFile['sources']['http'];
+  venues: ConfigFile['venues'];
+};
 export type DiscoverSource = keyof DiscoverConfig['sources'];
 export type Pace = z.infer<z.ZodObject<typeof pace>>;
 
@@ -63,8 +75,12 @@ const withKeys = (sources: Record<string, { apiKey?: string | null }>, env: Env)
   );
 
 export const loadDiscoverConfig = (env: Env, file = CONFIG_FILE): DiscoverConfig => {
-  const { discover } = JSON.parse(readFileSync(file, 'utf8')) as {
+  const json = JSON.parse(readFileSync(file, 'utf8')) as {
     discover: { sources: Record<string, { apiKey?: string | null }> };
   };
-  return schema.parse({ ...discover, sources: withKeys(discover.sources, env) });
+  const parsed = schema.parse({
+    ...json,
+    discover: { ...json.discover, sources: withKeys(json.discover.sources, env) },
+  });
+  return { ...parsed.discover, http: parsed.sources.http, venues: parsed.venues };
 };

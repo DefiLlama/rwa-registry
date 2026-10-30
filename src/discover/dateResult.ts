@@ -27,7 +27,7 @@ export type Basis =
   | 'first-stored-day';
 
 export type DateFound = { date: string; block: number | null; source: string; basis: Basis; reason: null };
-// detail names the HTTP status or the parse failure; cursor is where a capped read resumes.
+// detail names the HTTP status or the parse failure.
 export type DateMissing = {
   date: null;
   block: null;
@@ -35,15 +35,14 @@ export type DateMissing = {
   basis: null;
   reason: DiscoverReason;
   detail: string | null;
-  cursor: string | null;
 };
 export type DateResult = DateFound | DateMissing;
 
 export const missing = (
   reason: DiscoverReason,
   source: string | null = null,
-  { detail = null, cursor = null }: { detail?: string | null; cursor?: string | null } = {},
-): DateMissing => ({ date: null, block: null, source, basis: null, reason, detail, cursor });
+  { detail = null }: { detail?: string | null } = {},
+): DateMissing => ({ date: null, block: null, source, basis: null, reason, detail });
 
 export const found = (seconds: number, block: number | null, source: string, basis: Basis): DateResult =>
   Number.isFinite(seconds) && seconds > 0

@@ -18,11 +18,12 @@ const identifiers = (row: AnyRow) =>
     (identifier) => `${identifier.scheme} ${identifier.value}`,
   );
 
-// The sheet puts the underlying's ISIN on its wrapper and twin rows, so one ISIN on two assets, or on an asset and an
-// underlying, only warns.
+// One security's ISIN sits on each of its assets and on its underlying, so an asset's ISIN is shared freely within
+// its underlying and only warns across two.
 const SHARED_ISIN = new Set(['asset:asset', 'asset:underlying', 'underlying:asset']);
 const isAssetIsin = (what: string, value: unknown, table: TableName, holder: TableName) =>
   what === 'identifier' && String(value).startsWith('isin ') && SHARED_ISIN.has(`${table}:${holder}`);
+const underlyingOf = (table: TableName, row: AnyRow) => (table === 'asset' ? row.underlying : keyOf(table, row));
 
 // Two holder labels that differ only in case would subtract one holder twice.
 const uniqueKey = (table: TableName, row: AnyRow) =>
@@ -40,21 +41,19 @@ const UNIQUE: Unique[] = [
 
 export const uniqueKeys = (registry: Registry): Problem[] => {
   const problems: Problem[] = [];
-  const holders = new Map<string, { table: TableName; key: string }>();
+  const holders = new Map<string, { table: TableName; key: string; underlying: unknown }>();
   for (const { table, what, values } of UNIQUE) {
     for (const row of rowsOf(registry, table)) {
       const key = keyOf(table, row);
       for (const value of new Set(values(row))) {
         const id = `${ACROSS_TABLES.has(what) ? '' : table} ${what} ${value}`;
         const holder = holders.get(id);
-        if (!holder) holders.set(id, { table, key });
+        if (!holder) holders.set(id, { table, key, underlying: underlyingOf(table, row) });
         else if (what === 'key' || holder.table !== table || holder.key !== key) {
           const message = `${id.trim()} is also on ${holder.table} ${holder.key}`;
-          problems.push(
-            isAssetIsin(what, value, table, holder.table)
-              ? report(SharedIsinError, table, row, '', message, 'warning')
-              : report(DuplicateKeyError, table, row, '', message),
-          );
+          if (!isAssetIsin(what, value, table, holder.table)) problems.push(report(DuplicateKeyError, table, row, '', message));
+          else if (holder.underlying !== underlyingOf(table, row))
+            problems.push(report(SharedIsinError, table, row, '', message, 'warning'));
         }
       }
     }

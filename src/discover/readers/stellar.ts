@@ -1,5 +1,5 @@
 /**
- * stellar: a classic asset's first issuing operation from Horizon, trusted only when Horizon still holds the issuer's creation; otherwise, and for a Soroban contract, the first ledger stellar.expert records.
+ * stellar: a classic asset's first issue from Horizon while it holds the issuer's creation, else the first ledger stellar.expert records.
  * @dev review: src/discover/readers/xrpl.ts
  */
 import { eachQuery, type DateReader } from '../dateReader';

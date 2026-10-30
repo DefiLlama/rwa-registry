@@ -1,10 +1,10 @@
 /**
  * venueAdapters: a published venue names the server's venue adapter that reads it, its own or, for a HIP-3 dex, its parent's.
- * @dev review: src/build/loadChecked.ts
+ * @dev review: src/registry/checks/index.ts
  */
-import { VenueAdapterError } from '../errors';
-import { report, type Problem } from '../registry/problem';
-import type { Registry } from '../schema';
+import { VenueAdapterError } from '../../errors';
+import type { Registry } from '../../schema';
+import { report, type Problem } from '../problem';
 
 export const venueAdapters = (registry: Registry): Problem[] => {
   const venues = new Map(registry.venue.map((venue) => [venue.slug, venue]));

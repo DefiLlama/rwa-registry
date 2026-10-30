@@ -1,5 +1,5 @@
 /**
- * unknownChains: a chain the sdk does not know keeps the sheet's name, so it warns once per deployment, platform chain or venue chain on it; its address is not checked and the server reads nothing there.
+ * unknownChains: a warning per deployment, platform chain or venue chain on a chain the sdk does not know.
  * @dev review: src/registry/chains.ts, src/registry/checks/addressFormats.ts
  */
 import { UnknownChainError } from '../../errors';

@@ -6,12 +6,10 @@ import type { Reason } from './reasons';
 import { RwaError } from './rwaError';
 
 export class ClientError extends RwaError {
-  readonly source: string;
   readonly reason: Reason;
 
   constructor(at: { source: string; reason: Reason; message: string; cause?: unknown }) {
-    super('clients', `${at.source}: ${at.message}`, { cause: at.cause });
-    this.source = at.source;
+    super(`${at.source}: ${at.message}`, { cause: at.cause });
     this.reason = at.reason;
   }
 }

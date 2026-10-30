@@ -2,7 +2,8 @@
  * pause: a dated paused event on an asset, market, venue or platform; a paused venue is also unpublished.
  * @dev review: src/cli/eventCommand.ts, then src/cli/commands/resume.ts
  */
-import { defineEventCommand, latestOf } from '../eventCommand';
+import { latestOf } from '../../registry';
+import { defineEventCommand } from '../eventCommand';
 
 export const pause = defineEventCommand({
   name: 'pause',

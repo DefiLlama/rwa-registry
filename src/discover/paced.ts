@@ -1,5 +1,5 @@
 /**
- * paced: at most n reads of one source in flight, a minimum gap between their starts scaled by each read's weight, and the configured retries of a rate-limited read, which hold back the whole source; each pacer counts its calls for the run's summary.
+ * paced: one source's reads, at most n in flight, spaced by weight and retried when rate limited, with a call count for the summary.
  * @dev review: src/discover/discoverConfig.ts
  */
 import { reasonOf, type Reason } from '../errors/reasons';

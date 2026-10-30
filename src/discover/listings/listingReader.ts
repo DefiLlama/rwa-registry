@@ -24,7 +24,7 @@ export interface ListingReader {
   read(targets: VenueTarget[], deps: DiscoverDeps): Promise<DateResult[]>;
 }
 
-export const venueUrl = (deps: DiscoverDeps, venue: string) => deps.config.venues[venue]?.urls.api ?? '';
+export const venueUrl = (deps: DiscoverDeps, venue: string) => deps.discover.venues[venue]?.urls.api ?? '';
 
 // A market the venue's field dates, from its value in seconds or milliseconds; one it lacks is not-found.
 export const fromField = (

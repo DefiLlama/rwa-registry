@@ -25,15 +25,7 @@ export interface EventSpec {
   change?: (file: Record<string, unknown>, target: TargetRow) => Record<string, unknown>;
 }
 
-const byDate = (a: Event, b: Event) => (a.date ?? '9999').localeCompare(b.date ?? '9999');
-
-export const latestOf = (events: Event[], kinds: string[]): Event | undefined =>
-  events
-    .filter((event) => kinds.includes(event.kind))
-    .sort(byDate)
-    .at(-1);
-
-export const WHY_FIELDS: Field[] = [
+const WHY_FIELDS: Field[] = [
   { flag: '--at <date>', description: 'the day it happened, YYYY-MM-DD', required: true },
   { flag: '--reason <text>', description: 'why, in one sentence', required: true },
   { flag: '--source <url>', description: 'the page or API answer that shows it', required: true },
