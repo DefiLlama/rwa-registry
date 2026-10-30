@@ -61,6 +61,46 @@ describe('the add flow', () => {
     expect(readJson(root, NEW).roles).toEqual([{ organization: 'backed-assets-je-limited', kind: 'issuer' }]);
   });
 
+  it('asks the fields no flag has, each saying Enter leaves it empty, and writes the answers in their blocks', async () => {
+    const root = writeTree({
+      ...tree(),
+      'reference/vocabularies/role-kind.json': [
+        { slug: 'custodian', label: 'custodian' },
+        { slug: 'issuer', label: 'issuer' },
+      ],
+    });
+    const prompter = fakeAsk({
+      description: 'NVIDIA shares as a token.',
+      logo: 'https://icons.example/nvdax.png',
+      linksWebsite: 'https://xstocks.fi/nvdax',
+      identifiers: 'isin:US67066G1040',
+      protocolIds: '2525, parent#xstocks',
+      'otherRole.kind': 'custodian',
+      'otherRole.organization': 'backed-assets-je-limited',
+    });
+
+    const { code, lines } = await runCli(asset(root), prompter.ask);
+    const written = readJson(root, NEW);
+    const description = prompter.asked.find((question) => question.key === 'description')!;
+
+    expect(code, lines.join('\n')).toBe(0);
+    expect(description.message).toBe('How would you describe it in a sentence or two? (Enter to leave empty)');
+    expect(prompter.keys()).toEqual(expect.arrayContaining(['wraps', 'documents', 'yieldPoolIds', 'otherRole.more']));
+    expect(written.about).toEqual({
+      description: 'NVIDIA shares as a token.',
+      logo: 'https://icons.example/nvdax.png',
+      links: { website: ['https://xstocks.fi/nvdax'] },
+    });
+    expect(written.sources).toMatchObject({
+      identifiers: [{ scheme: 'isin', value: 'US67066G1040' }],
+      protocolIds: [2525, 'parent#xstocks'],
+    });
+    expect(written.roles).toEqual([
+      { organization: 'backed-assets-je-limited', kind: 'issuer' },
+      { organization: 'backed-assets-je-limited', kind: 'custodian' },
+    ]);
+  });
+
   it('writes nothing when the person answers no at the confirmation', async () => {
     const root = writeTree(tree());
     const prompter = fakeAsk({ symbol: 'NVDAx', confirm: false });
@@ -95,6 +135,32 @@ describe('the add flow', () => {
     expect(prompter.keys()).not.toContain('symbol');
     expect(prompter.keys()).not.toContain('issuer');
     expect(readJson(root, 'assets/xstocks/ionqx.json').identity.name).toBe('IonQ Tokenized');
+  });
+
+  it('asks a field with no flag that a --from template leaves empty, and the answer fills its block', async () => {
+    const root = writeTree({
+      ...tree(),
+      'reference/underlyings/equity/ionq-inc.json': {
+        slug: 'ionq-inc',
+        name: 'IonQ, Inc.',
+        exposure: 'public-equities',
+      },
+    });
+    const template = templateCopy('asset', (filled) => ({
+      ...filled,
+      about: { description: 'IonQ shares as a token.', logo: null, links: { website: null } },
+      roles: filled.roles.slice(0, 1),
+    }));
+    const prompter = fakeAsk({ linksWebsite: 'https://xstocks.fi/ionqx' });
+
+    const { code, lines } = await runCli(['add', 'asset', '--registry', root, '--from', template], prompter.ask);
+
+    expect(code, lines.join('\n')).toBe(0);
+    expect(prompter.keys()).not.toContain('description');
+    expect(readJson(root, 'assets/xstocks/ionqx.json').about).toEqual({
+      description: 'IonQ shares as a token.',
+      links: { website: ['https://xstocks.fi/ionqx'] },
+    });
   });
 
   it('names a missing required flag under --json, never asks and writes nothing', async () => {

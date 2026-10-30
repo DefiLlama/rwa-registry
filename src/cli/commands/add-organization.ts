@@ -61,6 +61,7 @@ export const addOrganization = defineAddCommand({
       choices: organizationChoices,
     },
   ],
+  derived: ['legacyPid'],
   fromFlags: (values) => ({ slug: values.slug, name: values.name, kind: values.kind, parent: values.parent }),
   files: organizationFiles,
 });

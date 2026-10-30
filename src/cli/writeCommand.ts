@@ -111,7 +111,7 @@ export const defineWriteCommand = (spec: WriteSpec): CliCommand => ({
   description: spec.description,
   arguments: argumentsOf(spec),
   ...(spec.every ? { help: ASKS, questions: spec.fields } : {}),
-  flags: [...spec.fields.filter((field) => !isArgument(field)).map(helpFlag), ...COMMON_FLAGS],
+  flags: [...spec.fields.filter((field) => !isArgument(field) && !field.askedOnly).map(helpFlag), ...COMMON_FLAGS],
   run: async (options, { print, ask }) => {
     const refuse = (errors: { file: string; message: string }[]) => {
       errors.forEach((error) => print(`${error.file}: ${error.message}`));

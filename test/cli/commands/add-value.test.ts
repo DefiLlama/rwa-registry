@@ -57,7 +57,14 @@ describe('add value, asked', () => {
     const slug = prompter.asked.find((question) => question.key === 'slug')!;
 
     expect(code).toBe(0);
-    expect(prompter.keys()).toEqual(['vocabulary', 'label', 'slug', 'confirm']);
+    expect(prompter.keys()).toEqual([
+      'vocabulary',
+      'label',
+      'slug',
+      'impliesStablecoin',
+      'impliesGovernance',
+      'confirm',
+    ]);
     expect(slug.default).toBe('bond-backed');
   });
 });

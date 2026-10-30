@@ -316,7 +316,7 @@ describe('add asset', () => {
 });
 
 describe('add asset, asked', () => {
-  it('asks in dependency order, the chain and address before the day discover offers, and writes the answers', async () => {
+  it('asks the required fields in dependency order, the chain and address before the day discover offers, then the optional ones block by block, and writes the answers', async () => {
     const root = writeTree(tree());
     const dated = found(1751155200, 5, 'https://explorer.solana.com/tx/sig0', 'first-signature');
     const dates = vi.fn(async (queries: DateQuery[]) => queries.map(() => dated));
@@ -356,6 +356,11 @@ describe('add asset, asked', () => {
       'type',
       'structure',
       'rwaClassification',
+      'issuer',
+      'canonicalMarketId',
+      'wraps',
+      'stablecoinOverride',
+      'governanceOverride',
       'redeemable',
       'cexListed',
       'kycForMintRedeem',
@@ -364,15 +369,19 @@ describe('add asset, asked', () => {
       'selfCustody',
       'yieldBearing',
       'attestationFrequency',
-      'stablecoinOverride',
-      'governanceOverride',
-      'issuer',
+      'coingeckoId',
+      'protocolIds',
+      'yieldPoolIds',
+      'identifiers',
+      'documents',
+      'description',
+      'logo',
+      'linksWebsite',
       'issuerSource',
       'tokenizer',
       'oracle',
       'auditor',
-      'coingeckoId',
-      'canonicalMarketId',
+      'otherRole.kind',
       'confirm',
     ]);
     expect(offered).toMatchObject({ default: '2025-06-29' });

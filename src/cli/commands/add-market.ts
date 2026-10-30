@@ -108,6 +108,7 @@ export const createAddMarketCommand = (deps: Deps = {}) =>
         description: 'the asset it tracks, when it tracks a token',
         label: 'tracked token',
         question: 'Which token does the market track, when it tracks one?',
+        lead: true,
         choices: (registry) => byName(registry.asset),
       },
       {
@@ -177,6 +178,7 @@ export const createAddMarketCommand = (deps: Deps = {}) =>
         description: 'never ask the venue for the listing date; the market gets no listing event from it',
       },
     ],
+    derived: ['legacyId'],
     assigned: [
       {
         name: 'id',

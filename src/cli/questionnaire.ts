@@ -76,6 +76,8 @@ export interface Field extends Asked {
   // A field asked only when this holds; otherwise it takes what it derives, as the primary chain of a single deployment.
   asked?: (values: FlagValues) => boolean;
   legs?: Legs;
+  // Asked in a terminal or given by a --from file, with no flag of its own, as an asset's description.
+  askedOnly?: boolean;
 }
 
 // A value the command assigns with no flag of its own, shown at the confirmation, as an asset's legacy id.
@@ -139,6 +141,7 @@ const hintsOf = (field: Asked, required: boolean, offered: Derived | undefined, 
   // An example shows the shape of a typed answer; a list, or a value Enter takes, already does.
   if (field.example && (!choices?.length || field.open) && isEmpty(offered?.value))
     hints.push(`example: ${field.example}`);
+  if ('list' in field && field.list && !choices?.length) hints.push('comma-separated');
   if (offered?.why) hints.push(isEmpty(offered.value) ? offered.why : `Enter for ${offered.why}`);
   if (!required && isEmpty(offered?.value)) hints.push(EMPTY);
   return hints;
@@ -218,15 +221,17 @@ const askRequired = async (ask: Ask, question: Question, required: boolean) => {
   return answer;
 };
 
+// A list whose first question is optional ends at an empty answer to it, as an asset with no other role.
 const askLegs = async (key: string, legs: Legs, values: FlagValues, context: DeriveContext, ask: Ask) => {
   const items: string[] = [];
   do {
     const leg: FlagValues = {};
-    for (const field of legs.fields) {
+    for (const [index, field] of legs.fields.entries()) {
       const required = requiredOf(field, leg);
       const derived = await field.derive?.({ ...values, ...leg }, context);
       const question = questionOf(`${key}.${field.key}`, field, required, derived, context, { ...values, ...leg });
       const answer = await askRequired(ask, question, required);
+      if (index === 0 && !required && isEmpty(answer)) return items;
       leg[field.key] = isEmpty(answer) ? undefined : (answer as FlagValue);
     }
     items.push(legs.item(leg));

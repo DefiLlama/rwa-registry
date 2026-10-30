@@ -42,6 +42,8 @@ export const addUnderlying = defineAddCommand({
       example: 'TSLA',
     },
   ],
+  // The slug comes from the name, the class from the asset group.
+  derived: ['slug', 'class'],
   assigned: [
     {
       name: 'file',

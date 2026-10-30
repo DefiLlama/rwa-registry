@@ -35,11 +35,21 @@ export const addValue = defineAddCommand({
       derive: (values) =>
         values.label === undefined ? undefined : { value: rwaSlug(String(values.label)), why: 'the slug of the label' },
     },
+    {
+      flag: '--class <slug>',
+      description: 'the underlying class folder of an asset-group value',
+      label: 'underlying class',
+      question: 'Which underlying class folder holds this asset group?',
+      example: 'equity',
+      askedOnly: true,
+      asked: (values) => values.vocabulary === 'asset-group',
+    },
   ],
   fromFlags: (values) => ({
     vocabulary: values.vocabulary,
     slug: values.slug,
     label: values.label,
+    class: values.class,
   }),
   files: ({ vocabulary, ...value }, registry) => {
     const slug = String(value.slug ?? rwaSlug(String(value.label)));

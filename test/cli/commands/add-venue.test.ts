@@ -123,15 +123,20 @@ describe('add venue, asked', () => {
     expect(code).toBe(0);
     expect(prompter.keys()).toEqual([
       'name',
-      'slug',
-      'organization',
       'venueType',
       'accessModel',
       'rwaClassification',
+      'slug',
+      'organization',
       'parent',
       'chain',
       'adapter',
       'published',
+      'makerFeeBps',
+      'takerFeeBps',
+      'deployerFeeShare',
+      'fundingRetentionPct',
+      'conventionNote',
       'confirm',
     ]);
     expect(published).toMatchObject({ confirm: true, default: false });

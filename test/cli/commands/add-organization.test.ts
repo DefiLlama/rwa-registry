@@ -37,7 +37,32 @@ describe('add organization, asked', () => {
     const slug = prompter.asked.find((question) => question.key === 'slug')!;
 
     expect(code).toBe(0);
-    expect(prompter.keys()).toEqual(['name', 'kind', 'slug', 'parent', 'confirm']);
+    expect(prompter.keys()).toEqual([
+      'name',
+      'kind',
+      'slug',
+      'parent',
+      'protocolSlug',
+      'description',
+      'logo',
+      'linksWebsite',
+      'linksTwitter',
+      'linksDocs',
+      'linksLinkedin',
+      'linksDiscord',
+      'linksTelegram',
+      'linksGithub',
+      'linksRefLinks',
+      'registryInfo',
+      'foundedYear',
+      'headquarters',
+      'founders',
+      'regulatoryStatus',
+      'keyMilestones',
+      'entityStructureNotes',
+      'identifiers',
+      'confirm',
+    ]);
     expect(slug.default).toBe('ondo-global-markets-bvi-limited');
     expect(readJson(root, FILE).identity.slug).toBe('ondo-global-markets-bvi-limited');
   });

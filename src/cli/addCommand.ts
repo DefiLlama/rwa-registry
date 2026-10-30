@@ -7,6 +7,7 @@ import { tables, toFile, type ChildKey, type Registry, type TableName, type Voca
 import { isObject } from '../utils/isObject';
 import type { CliCommand } from './index';
 import { isEmpty, type Assigned } from './questionnaire';
+import { answersRow, schemaFields, templateValue, type AddField } from './schemaFields';
 import { readTemplate, templateRow, TEMPLATES, type Template, type TemplateName } from './templates';
 import {
   defineWriteCommand,
@@ -19,20 +20,20 @@ import {
 
 export type { Field, FileToWrite, FlagValue, FlagValues } from './writeCommand';
 export type { Template } from './templates';
+export type { AddField } from './schemaFields';
 
 export interface AddContext extends WriteContext {
   flags: FlagValues;
 }
 
-// row: the template field that gives it, when the row names it otherwise, as --deployment fills deployments.
-export type AddField = Field & { row?: string };
-
 export interface AddSpec {
   name: string;
   description: string;
   template: TemplateName;
-  // In the order they are asked: a field after the fields it derives from or refers to.
+  // The questions with flags, a field after the fields it derives from or refers to; the schema's other fields are asked after them with no flag.
   fields: AddField[];
+  // The fields the command fills itself and never asks, as the slug it makes from the name.
+  derived?: string[];
   assigned?: Assigned[];
   fromFlags: (values: FlagValues) => Template;
   files: (template: Template, registry: Registry, context: AddContext) => FileToWrite[] | Promise<FileToWrite[]>;
@@ -73,7 +74,7 @@ export const fileContent = (table: TableName, row: Record<string, unknown>): Rec
   return (present(toFile(table, nested)) ?? {}) as Record<string, unknown>;
 };
 
-const unlessFrom = (field: Field): Field => ({
+const unlessFrom = (field: AddField): AddField => ({
   ...field,
   required: (values) =>
     values.from === undefined &&
@@ -83,9 +84,10 @@ const unlessFrom = (field: Field): Field => ({
 const flagName = (field: Field) => field.flag.split(' ')[0]!;
 
 // A flag beside --from is refused, so a field comes from one place; the template's fields skip their questions.
-const templateGiven = (spec: AddSpec, options: FlagValues): Record<string, unknown> => {
+const templateGiven = (spec: AddSpec, fields: AddField[], options: FlagValues): Record<string, unknown> => {
   if (options.from === undefined) return {};
-  const beside = spec.fields
+  const beside = fields
+    .filter((field) => !field.askedOnly)
     .map(flagName)
     .filter((flag) => !flag.startsWith('--no-') && options[optionKey(flag)] !== undefined);
   if (beside.length) {
@@ -94,38 +96,51 @@ const templateGiven = (spec: AddSpec, options: FlagValues): Record<string, unkno
   }
   const template = templateRow(String(options.from), TEMPLATES[spec.template]);
   return Object.fromEntries(
-    spec.fields.flatMap((field) => {
-      const value = template[field.row ?? optionKey(field.flag)];
+    fields.flatMap((field) => {
+      const value = templateValue(field, template);
       return isEmpty(value) ? [] : [[optionKey(field.flag), value]];
     }),
   );
 };
 
-const HELP =
-  'In a terminal it asks every field no flag or --from file gives, in the order above, then lists them all for a yes or no; --no-input and --json never ask.';
+const merged = (into: Record<string, unknown>, from: Record<string, unknown>): Record<string, unknown> => {
+  const row = { ...into };
+  for (const [key, value] of Object.entries(from))
+    row[key] = isObject(row[key]) && isObject(value) ? merged(row[key], value) : value;
+  return row;
+};
 
-export const defineAddCommand = (spec: AddSpec): CliCommand => ({
-  ...defineWriteCommand({
-    name: spec.name,
-    description: spec.description,
-    every: true,
-    assigned: spec.assigned,
-    fields: [
-      {
-        flag: '--from <file>',
-        description: `a filled copy of templates/${spec.template}.json; the fields it leaves empty are asked`,
-        label: 'template file',
-        asked: () => false,
+const HELP =
+  "In a terminal it asks every field of the file no flag or --from file gives: the required ones first, then the optional ones block by block, the file's fields with no flag among them; then it lists them all for a yes or no; --no-input and --json never ask.";
+
+export const defineAddCommand = (spec: AddSpec): CliCommand => {
+  const { table, omits } = TEMPLATES[spec.template] as { table: TableName; omits?: string[] };
+  const fields = schemaFields({ table, fields: spec.fields, derived: spec.derived, omits });
+  // The flags' row with the answers to the questions with no flag laid in.
+  const rowOf = (values: FlagValues) => merged(spec.fromFlags(values), answersRow(fields, values));
+  return {
+    ...defineWriteCommand({
+      name: spec.name,
+      description: spec.description,
+      every: true,
+      assigned: spec.assigned,
+      fields: [
+        {
+          flag: '--from <file>',
+          description: `a filled copy of templates/${spec.template}.json; the fields it leaves empty are asked`,
+          label: 'template file',
+          asked: () => false,
+        },
+        ...fields.map(unlessFrom),
+      ],
+      given: (options) => templateGiven(spec, fields, options),
+      files: (values, registry, context) => {
+        const addContext = { ...context, flags: values };
+        if (values.from === undefined) return spec.files(rowOf(values), registry, addContext);
+        const template = readTemplate(String(values.from), TEMPLATES[spec.template], rowOf(values));
+        return spec.files(template, registry, addContext);
       },
-      ...spec.fields.map(unlessFrom),
-    ],
-    given: (options) => templateGiven(spec, options),
-    files: (values, registry, context) => {
-      const addContext = { ...context, flags: values };
-      if (values.from === undefined) return spec.files(spec.fromFlags(values), registry, addContext);
-      const template = readTemplate(String(values.from), TEMPLATES[spec.template], spec.fromFlags(values));
-      return spec.files(template, registry, addContext);
-    },
-  }),
-  help: HELP,
-});
+    }),
+    help: HELP,
+  };
+};

@@ -24,6 +24,7 @@ import { review } from './commands/review';
 import { schema } from './commands/schema';
 import { set } from './commands/set';
 import { validate } from './commands/validate';
+import { loadEnvFile } from './envFile';
 
 export interface CliDeps {
   print: (line: string) => void;
@@ -93,6 +94,8 @@ export const main = async (argv: string[], deps: CliDeps): Promise<number> => {
 };
 
 if (require.main === module) {
+  // The keys in the repository's env file, before any command reads process.env; a variable the shell sets wins.
+  loadEnvFile();
   main(process.argv.slice(2), { print: (line) => console.log(line) })
     .then((code) => (process.exitCode = code))
     .catch((error: { exitCode?: number; message?: string }) => {

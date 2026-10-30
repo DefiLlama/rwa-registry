@@ -6,6 +6,7 @@ import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { FlagFormatError, MissingFieldError } from '../errors/cli';
 import { toRow, type TableName } from '../schema';
+import { isObject } from '../utils/isObject';
 import { isEmpty } from './questionnaire';
 
 export interface TemplateSpec {
@@ -59,12 +60,20 @@ export const templateRow = (path: string, spec: TemplateSpec): Template => {
   }
 };
 
+// The answers fill what the written row leaves blank, a block such as links key by key.
+const filled = (written: Template, answers: Template): Template => {
+  const template = { ...written };
+  for (const [key, value] of Object.entries(answers)) {
+    if (value === undefined) continue;
+    if (isEmpty(written[key])) template[key] = value;
+    else if (isObject(written[key]) && isObject(value)) template[key] = filled(written[key], value);
+  }
+  return template;
+};
+
 // The answers fill what the template leaves blank; it names what its path needs, and a key it leaves null, the command assigns.
 export const readTemplate = (path: string, spec: TemplateSpec, answers: Template = {}): Template => {
-  const written = templateRow(path, spec);
-  const template = { ...written };
-  for (const [key, value] of Object.entries(answers))
-    if (value !== undefined && isEmpty(written[key])) template[key] = value;
+  const template = filled(templateRow(path, spec), answers);
   const missing = spec.needs.find((key) => template[key] == null);
   if (missing) throw new MissingFieldError({ file: path, message: `${missing} is required` });
   return template;

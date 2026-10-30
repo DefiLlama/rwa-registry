@@ -93,15 +93,22 @@ const primaryOf = (deployments: Deployment[], chain: unknown): Deployment[] => {
 
 type Role = { organization: string; kind: string; sourceLinks?: string[] };
 
-// The roles in their written order: the issuer and its tokenizer first, then the oracle and the auditor; none when no role is given, so a template's roles stay.
+// The roles with a question of their own; any other role kind is asked as one more role.
+const ROLE_KINDS = ['issuer', 'tokenizer', 'oracle', 'auditor'] as const;
+
+// The roles in their written order: the issuer and its tokenizer first, then the oracle, the auditor and the other roles as answered; none when no role is given, so a template's roles stay.
 const rolesOf = (values: FlagValues): Role[] | undefined => {
   const source = values.issuerSource === undefined ? {} : { sourceLinks: [String(values.issuerSource)] };
-  const roles = (['issuer', 'tokenizer', 'oracle', 'auditor'] as const).flatMap((kind) =>
+  const roles = ROLE_KINDS.flatMap((kind) =>
     values[kind] === undefined
       ? []
       : [{ organization: String(values[kind]), kind, ...(kind === 'issuer' ? source : {}) }],
   );
-  return roles.length ? roles : undefined;
+  const others = commaList(values.otherRole).map((item) => {
+    const [kind, organization] = item.split(':');
+    return { organization: organization!, kind: kind! };
+  });
+  return roles.length || others.length ? [...roles, ...others] : undefined;
 };
 
 // The published issuer string is made from the issuer role, and a role names an organization the registry holds.
@@ -398,6 +405,36 @@ export const createAddAssetCommand = (deps: Deps = {}) =>
         row: ROLE,
       },
       {
+        flag: '--other-role <items...>',
+        description: 'another role an organization holds, as <kind>:<organization>',
+        label: 'other roles',
+        askedOnly: true,
+        list: true,
+        row: ROLE,
+        legs: {
+          fields: [
+            {
+              key: 'kind',
+              description: 'the role kind',
+              question: 'Which other role does an organization hold for the token, such as its custodian?',
+              choices: (registry) =>
+                vocabularyChoices('role-kind')(registry).filter(
+                  ({ value }) => !(ROLE_KINDS as readonly string[]).includes(value),
+                ),
+            },
+            {
+              key: 'organization',
+              description: 'the organization in that role',
+              question: 'Which organization holds that role?',
+              required: true,
+              choices: organizationChoices,
+            },
+          ],
+          item: (leg) => `${String(leg.kind)}:${String(leg.organization)}`,
+          more: 'Add another role?',
+        },
+      },
+      {
         flag: '--coingecko-id <id>',
         description: 'the CoinGecko id, when it has one',
         label: 'CoinGecko id',
@@ -430,6 +467,8 @@ export const createAddAssetCommand = (deps: Deps = {}) =>
           'never ask the chain for a missing deployment date; a deployment given without one stays undated, and validate warns until it is set',
       },
     ],
+    // A new asset is not reviewed yet; suspicious and delisted hold only the sheet's FALSE.
+    derived: ['slug', 'legacyId', 'activeAumReviewed', 'suspicious', 'delisted'],
     assigned: (['slug', 'legacyId'] as const).map((key) => ({
       name: key === 'slug' ? 'slug' : 'legacy id',
       derive: (values, { registry }) => {
