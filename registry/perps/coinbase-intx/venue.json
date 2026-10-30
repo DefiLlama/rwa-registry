@@ -6,9 +6,16 @@
   "published": true,
   "makerFeeBps": 2,
   "takerFeeBps": 4,
-  "oracleProvider": "Pyth direct feeds, Pyth x MarketVector for index perps",
   "accessModel": "permissioned",
   "rwaClassification": "programmable-finance",
   "conventionNote": "Funding settles every hour from the predicted funding rate, and fees are 2 bps maker and 4 bps taker at the base tier.",
-  "marginAsset": "USDC"
+  "roles": [
+    {
+      "organization": "pyth-network",
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://www.coinbase.com/international-exchange/legal/trading-rules"
+      ]
+    }
+  ]
 }

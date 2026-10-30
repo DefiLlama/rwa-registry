@@ -6,7 +6,7 @@
     "protocolSlug": "flash-trade"
   },
   "about": {
-    "description": "Flash Trade is a perpetual platform on Solana led by Co-Founder & CEO Anas Khader, backed by Solana Ventures, Jump Capital, and ROK Capital. The platform offers stock, commodity, and equity-index perpetuals alongside crypto with up to 500× leverage and a distinctive pool-to-peer liquidity model, with all positions margined and cash-settled in USDC. Pricing is sourced from Pyth Network. Flash Trade unveiled at Breakpoint 2025 a roadmap toward near-zero-latency infrastructure, fully permissionless order books, and broader RWA market expansion.",
+    "description": "Flash Trade is a perpetual platform on Solana led by Co-Founder & CEO Anas Khader, backed by Solana Ventures, Jump Capital, and ROK Capital. The platform offers stock, commodity, and equity-index perpetuals alongside crypto with up to 500x leverage and a distinctive pool-to-peer liquidity model, with all positions margined and cash-settled in USDC. Pricing is sourced from Pyth Network. Flash Trade unveiled at Breakpoint 2025 a roadmap toward near-zero-latency infrastructure, fully permissionless order books, and broader RWA market expansion.",
     "logo": "https://icons.llamao.fi/icons/rwa/flash-trade.png?w=48&h=48",
     "links": {
       "website": [
@@ -34,7 +34,6 @@
     "attestationFrequency": "N/A (Perp Venue)",
     "suspicious": false,
     "delisted": false,
-    "llamaGradeAttestation": false,
     "fees": {
       "revenueModel": "Maker/Taker Fees + LP Profit",
       "revenueConfidence": "no-public-data",

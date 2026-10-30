@@ -5,7 +5,7 @@
     "legacyPid": 255
   },
   "about": {
-    "description": "R25 is a multi-chain RWA tokenization protocol building the \"rcTokens\" family — RWA-backed yieldcoins. Product line: rcUSD (conservative MMF-backed dollar, $1 peg, on Sui/Polygon), rcUSDp (yield-bearing version), rcHY (higher yield from tokenized PE/credit), ibUSD (illiquid higher-yield), and VRPC family on Pharos (VRPC-Weekly + VRPC-SemiYearly + VRPC-Quarterly Variable Real Private Credit pools). The TopNod wallet collaboration offers fixed 1-year yields of ~12% base APY plus 2% boost for the first 3 months. R25 brings yield through tokenized money market funds and structured private-credit exposures including renewable energy, emerging tech, and disruptive industries.",
+    "description": "R25 is a multi-chain RWA tokenization protocol building the \"rcTokens\" family - RWA-backed yieldcoins. Product line: rcUSD (conservative MMF-backed dollar, $1 peg, on Sui/Polygon), rcUSDp (yield-bearing version), rcHY (higher yield from tokenized PE/credit), ibUSD (illiquid higher-yield), and VRPC family on Pharos (VRPC-Weekly + VRPC-SemiYearly + VRPC-Quarterly Variable Real Private Credit pools). The TopNod wallet collaboration offers fixed 1-year yields of ~12% base APY plus 2% boost for the first 3 months. R25 brings yield through tokenized money market funds and structured private-credit exposures including renewable energy, emerging tech, and disruptive industries.",
     "logo": "https://icons.llamao.fi/icons/rwa/r25.png?w=48&h=48",
     "links": {
       "website": [
@@ -38,7 +38,6 @@
     "attestationFrequency": "Periodic",
     "suspicious": false,
     "delisted": false,
-    "llamaGradeAttestation": false,
     "fees": {
       "revenueModel": "Yield Spread",
       "issuerDocsUrl": "https://docs.r25.xyz/",

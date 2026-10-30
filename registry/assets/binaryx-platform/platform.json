@@ -17,7 +17,7 @@
       "discord": "https://discord.com/invite/f4mTchBKC8",
       "telegram": "https://t.me/binaryxprotocol"
     },
-    "registryInfo": "Binaryx Protocol DAO LLC – U.S. limited liability company that operates the Binaryx Platform (per Binaryx platform documentation)."
+    "registryInfo": "Binaryx Protocol DAO LLC - U.S. limited liability company that operates the Binaryx Platform (per Binaryx platform documentation)."
   },
   "platform": {
     "category": [
@@ -32,8 +32,7 @@
     "chains": [
       "polygon"
     ],
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "roles": [
     {

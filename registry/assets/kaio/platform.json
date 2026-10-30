@@ -17,7 +17,7 @@
       "discord": "N/A (institutional)",
       "telegram": "N/A (institutional)"
     },
-    "registryInfo": "KAIO (Hong Kong-based tokenization platform). Issues tokenized access tokens for institutional Asia-Pacific RWA funds — wraps subscription rights to off-chain Hamilton Lane / Securitize / similar feeder funds into on-chain transferable tokens."
+    "registryInfo": "KAIO (Hong Kong-based tokenization platform). Issues tokenized access tokens for institutional Asia-Pacific RWA funds - wraps subscription rights to off-chain Hamilton Lane / Securitize / similar feeder funds into on-chain transferable tokens."
   },
   "platform": {
     "category": [
@@ -34,7 +34,6 @@
     ],
     "suspicious": false,
     "delisted": false,
-    "llamaGradeAttestation": false,
     "fees": {
       "revenueModel": "Mint/Redeem Spread",
       "revenueConfidence": "no-public-data",

@@ -34,12 +34,11 @@
     "attestationFrequency": "N/A (Perp Venue)",
     "suspicious": false,
     "delisted": false,
-    "llamaGradeAttestation": false,
     "fees": {
       "revenueModel": "Maker/Taker Fees",
       "revenueConfidence": "issuer-disclosed",
       "feeLastVerified": "2026-05-11",
-      "revenueNotes": "Lighter perpetuals are FREE to trade for standard accounts (0 bps maker / 0 bps taker). Premium accounts (lower latency tier) pay 0.2 bps maker / 2 bps taker. Premium accounts can stake LIT for further fee discounts. Lighter is a zk-rollup perp DEX with no separate RWA fee tier — same fees apply to crypto and RWA markets. Source: https://docs.lighter.xyz/perpetual-futures/fees"
+      "revenueNotes": "Lighter perpetuals are FREE to trade for standard accounts (0 bps maker / 0 bps taker). Premium accounts (lower latency tier) pay 0.2 bps maker / 2 bps taker. Premium accounts can stake LIT for further fee discounts. Lighter is a zk-rollup perp DEX with no separate RWA fee tier - same fees apply to crypto and RWA markets. Source: https://docs.lighter.xyz/perpetual-futures/fees"
     }
   },
   "roles": [

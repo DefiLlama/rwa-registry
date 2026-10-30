@@ -17,7 +17,7 @@
       "linkedin": "https://www.linkedin.com/company/backedfi",
       "github": "https://github.com/backedfi"
     },
-    "registryInfo": "Backed Finance AG — Swiss stock corporation (Aktiengesellschaft) headquartered in Zug, Switzerland. Operates issuing SPV Backed Assets (JE) Limited (Jersey, Channel Islands) for tokenized equity and ETF products. Founded 2021 by CEO Adam Levi, Roberto Klein (Legal Lead, Tel Aviv University BS/MS), and Yehonatan Goldman — all three co-founders previously worked at DAOstack. Operates under Swiss FinSA prospectus and DLT Act, enabling free-float (non-whitelisted) tokenized securities. Acquired by Kraken (announced 2025)."
+    "registryInfo": "Backed Finance AG - Swiss stock corporation (Aktiengesellschaft) headquartered in Zug, Switzerland. Operates issuing SPV Backed Assets (JE) Limited (Jersey, Channel Islands) for tokenized equity and ETF products. Founded 2021 by CEO Adam Levi, Roberto Klein (Legal Lead, Tel Aviv University BS/MS), and Yehonatan Goldman - all three co-founders previously worked at DAOstack. Operates under Swiss FinSA prospectus and DLT Act, enabling free-float (non-whitelisted) tokenized securities. Acquired by Kraken (announced 2025)."
   },
   "platform": {
     "category": [
@@ -42,7 +42,6 @@
     "attestationFrequency": "Daily",
     "suspicious": false,
     "delisted": false,
-    "llamaGradeAttestation": false,
     "onchainMcapBasis": "active",
     "fees": {
       "revenueModel": "Mint/Redeem Spread + Float Income",

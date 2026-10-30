@@ -42,7 +42,6 @@
     "attestationFrequency": "Quarterly",
     "suspicious": false,
     "delisted": false,
-    "llamaGradeAttestation": false,
     "fees": {
       "revenueModel": "Float Income",
       "holderTotalFeeBps": 0,
@@ -57,7 +56,7 @@
       "governanceWhitepaperUrl": "https://tether.to/en/whitepaper",
       "revenueConfidence": "issuer-disclosed",
       "feeLastVerified": "2026-07-02",
-      "revenueNotes": "Tether earns float income on reserves backing its stablecoins — primarily short-duration US Treasuries (~$80B+), reverse repos, and bank deposits. In 2024 Tether reported ~$13B in profits, making it one of the most profitable financial firms per employee in the world. No fees charged at the token-holder level; mint/redeem fees apply at the institutional-customer level for whitelisted treasury operations.",
+      "revenueNotes": "Tether earns float income on reserves backing its stablecoins - primarily short-duration US Treasuries (~$80B+), reverse repos, and bank deposits. In 2024 Tether reported ~$13B in profits, making it one of the most profitable financial firms per employee in the world. No fees charged at the token-holder level; mint/redeem fees apply at the institutional-customer level for whitelisted treasury operations.",
       "revenueVerificationMethod": "Fee schedule fetched from tether.to/en/fees on 2026-07-02. Profit and reserve figures from the BDO-attested Q1 2026 report via tether.io press release.",
       "chainShareClassFeeVariants": "A 100000 minimum applies to mint and redemption. A 150 one-time verification fee applies. XAUt has a separate fee schedule at gold.tether.to. There are no per-chain differences.",
       "takeRateBasis": "Float income on reserves",

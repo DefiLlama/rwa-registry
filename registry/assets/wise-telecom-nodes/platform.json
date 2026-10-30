@@ -43,7 +43,6 @@
     ],
     "suspicious": false,
     "delisted": false,
-    "llamaGradeAttestation": false,
     "fees": {
       "revenueNotes": "The operator retains any difference between what the forwarded deposits earn and the interest rate it configures on chain. No fee schedule is published and the spread is not disclosed."
     }

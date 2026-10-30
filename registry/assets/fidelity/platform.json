@@ -32,7 +32,6 @@
     "attestationFrequency": "Daily NAV; annual audited financials filed with SEC",
     "suspicious": false,
     "delisted": false,
-    "llamaGradeAttestation": false,
     "fees": {
       "revenueModel": "Asset Manager Fee",
       "holderTotalFeeBps": 14,
@@ -46,7 +45,7 @@
       "issuerDocsUrl": "https://institutional.fidelity.com/app/funds-and-products/9053/fidelity-treasury-digital-fund-onchain-class-fyoxx.html",
       "revenueConfidence": "public-filings",
       "feeLastVerified": "2026-05-10",
-      "revenueNotes": "Per SEC-filed FYOXX prospectus: gross expense ratio approximately 30 bps; net expense ratio approximately 14 bps after contractual fee waivers. Numbers should be re-verified against the most recent FYOXX prospectus / SAI filing. Tokenization handled in-house by Fidelity transfer agent — no separate vendor fee."
+      "revenueNotes": "Per SEC-filed FYOXX prospectus: gross expense ratio approximately 30 bps; net expense ratio approximately 14 bps after contractual fee waivers. Numbers should be re-verified against the most recent FYOXX prospectus / SAI filing. Tokenization handled in-house by Fidelity transfer agent - no separate vendor fee."
     }
   },
   "roles": [

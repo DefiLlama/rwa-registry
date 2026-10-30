@@ -6,9 +6,16 @@
   "published": true,
   "makerFeeBps": 1,
   "takerFeeBps": 6,
-  "oracleProvider": "Phemex index price, TradFi constituents undisclosed",
   "accessModel": "permissioned",
   "rwaClassification": "programmable-finance",
   "conventionNote": "Funding settles every 8 hours on most markets and every 4 hours on 20 of the 128, with the interval read per market from the products API, and the base-tier fee is 1 bps maker and 6 bps taker.",
-  "marginAsset": "USDT"
+  "roles": [
+    {
+      "organization": "phemex",
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://phemex.com/help-center/Introduction-to-Mark-price-Index-Price"
+      ]
+    }
+  ]
 }

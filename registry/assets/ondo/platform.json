@@ -53,7 +53,6 @@
     "attestationFrequency": "Continuous (NAV-rebasing) + quarterly audited financials",
     "suspicious": false,
     "delisted": false,
-    "llamaGradeAttestation": false,
     "fees": {
       "revenueModel": "Hybrid",
       "assetManagerTakeBps": 25,

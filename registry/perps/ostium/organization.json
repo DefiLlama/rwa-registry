@@ -6,7 +6,7 @@
     "protocolSlug": "ostium"
   },
   "about": {
-    "description": "Ostium is a self-custodial perpetual venue on Arbitrum founded in 2022 by Harvard classmates Kaledora Kiernan-Linn (CEO, ex-Bridgewater quant and former Royal Danish Ballet dancer) and Marco Antonio Ribeiro (CTO, former Olympiad medalist). It provides perpetual exposure to stocks, commodities, FX, and indices with up to 200× leverage, using a quote-based RFQ pricing model that draws from off-chain liquidity venues rather than recreating fragmented on-chain order books. Pricing is sourced via Stork Network with QUODD institutional data; all positions are margined and cash-settled in USDC. Over 95% of open interest is concentrated in non-crypto RWAs (gold, silver, oil, S&P 500, Nasdaq, EUR/USD, JPY/USD, Tesla, Apple, Coinbase). Ostium has raised $24M total, including a $20M Series A led by General Catalyst and Jump Crypto in December 2025.",
+    "description": "Ostium is a self-custodial perpetual venue on Arbitrum founded in 2022 by Harvard classmates Kaledora Kiernan-Linn (CEO, ex-Bridgewater quant and former Royal Danish Ballet dancer) and Marco Antonio Ribeiro (CTO, former Olympiad medalist). It provides perpetual exposure to stocks, commodities, FX, and indices with up to 200x leverage, using a quote-based RFQ pricing model that draws from off-chain liquidity venues rather than recreating fragmented on-chain order books. Pricing is sourced via Stork Network with QUODD institutional data; all positions are margined and cash-settled in USDC. Over 95% of open interest is concentrated in non-crypto RWAs (gold, silver, oil, S&P 500, Nasdaq, EUR/USD, JPY/USD, Tesla, Apple, Coinbase). Ostium has raised $24M total, including a $20M Series A led by General Catalyst and Jump Crypto in December 2025.",
     "logo": "https://icons.llamao.fi/icons/rwa/ostium.png?w=48&h=48",
     "links": {
       "website": [
@@ -33,12 +33,11 @@
     "attestationFrequency": "N/A (Perp Venue)",
     "suspicious": false,
     "delisted": false,
-    "llamaGradeAttestation": false,
     "fees": {
       "revenueModel": "Opening Fee",
       "revenueConfidence": "issuer-disclosed",
       "feeLastVerified": "2026-05-11",
-      "revenueNotes": "Ostium charges a single FLAT opening fee on RWA markets — same rate regardless of maker/taker direction. Stocks, indices, and FX: 4 bps flat opening. Commodities: variable 8-20 bps per symbol based on volatility. NO closing fee on any market. Non-crypto pairs have rollover fees (instead of crypto-style funding) that reflect underlying market financing costs. Crypto markets (not displayed on this RWA page) use a separate 3/10 bps maker/taker schedule. Source: https://ostium-labs.gitbook.io/ostium-docs/fee-breakdown"
+      "revenueNotes": "Ostium charges a single FLAT opening fee on RWA markets - same rate regardless of maker/taker direction. Stocks, indices, and FX: 4 bps flat opening. Commodities: variable 8-20 bps per symbol based on volatility. NO closing fee on any market. Non-crypto pairs have rollover fees (instead of crypto-style funding) that reflect underlying market financing costs. Crypto markets (not displayed on this RWA page) use a separate 3/10 bps maker/taker schedule. Source: https://ostium-labs.gitbook.io/ostium-docs/fee-breakdown"
     }
   },
   "roles": [

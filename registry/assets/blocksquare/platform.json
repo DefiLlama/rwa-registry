@@ -40,7 +40,6 @@
     ],
     "suspicious": false,
     "delisted": false,
-    "llamaGradeAttestation": false,
     "fees": {
       "revenueNotes": "Fee accessors exist on the property token interface for a Blocksquare fee, a Certified Partner fee and a licensed issuer fee, but they returned no data on the tokens tested, so no rate could be read from chain. No fee schedule was supplied with the submission."
     }

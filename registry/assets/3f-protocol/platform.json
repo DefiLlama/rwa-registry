@@ -15,7 +15,7 @@
       "docs": "https://www.3f.xyz/",
       "linkedin": "https://www.linkedin.com/company/3f-xyz/"
     },
-    "registryInfo": "3F Protocol (3f.xyz, brand: \"3F\") — leveraged-RWA vault protocol built on top of Morpho Blue. Coordinates flash loans, bridge facilitation, and liquidation routing to provide users with leveraged exposure to tokenized RWAs. Launched private beta in early 2026. As of May 2026: ~$7M total exposure, 15.20% maximum APY advertised, 2 RWA products live. Owner address controlling wJAAA + JAAA-4X contracts: 0xa0f6cbc8dba8b106473e5f70fe04a3ea6c3bfd26. Founder/operator footprint: Sonya Sun Kim (Twitter @sonyasunkim). Provides both retail-facing leveraged vaults and institutional bridge/liquidator infrastructure."
+    "registryInfo": "3F Protocol (3f.xyz, brand: \"3F\") - leveraged-RWA vault protocol built on top of Morpho Blue. Coordinates flash loans, bridge facilitation, and liquidation routing to provide users with leveraged exposure to tokenized RWAs. Launched private beta in early 2026. As of May 2026: ~$7M total exposure, 15.20% maximum APY advertised, 2 RWA products live. Owner address controlling wJAAA + JAAA-4X contracts: 0xa0f6cbc8dba8b106473e5f70fe04a3ea6c3bfd26. Founder/operator footprint: Sonya Sun Kim (Twitter @sonyasunkim). Provides both retail-facing leveraged vaults and institutional bridge/liquidator infrastructure."
   },
   "platform": {
     "category": [
@@ -33,7 +33,6 @@
     ],
     "suspicious": false,
     "delisted": false,
-    "llamaGradeAttestation": false,
     "fees": {
       "revenueModel": "Vault Performance Fee + Spread Retention",
       "mintFeeBps": 0,

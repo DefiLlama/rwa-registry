@@ -6,7 +6,7 @@
     "protocolSlug": "parcl"
   },
   "about": {
-    "description": "Parcl is a real-estate perpetual venue on Solana, founded in 2020 by Trevor Bacon (CEO), Kellan Grenier, and Jason Lewris under Parcl Labs. The platform lets users go long or short city-level housing-price indices (NYC, LA, Miami, SF, Chicago, Boston, Denver, Austin, DC, Dubai) with up to 10× leverage, all margined and cash-settled in USDC. Parcl Labs publishes its own proprietary housing-data feed via Pyth and has raised $11.6M+ across Seed and Strategic rounds from Archetype, Dragonfly Capital, ParaFi, Shima Capital, Coinbase Ventures, Solana Ventures, Fifth Wall, JAWS, and IA Capital.",
+    "description": "Parcl is a real-estate perpetual venue on Solana, founded in 2020 by Trevor Bacon (CEO), Kellan Grenier, and Jason Lewris under Parcl Labs. The platform lets users go long or short city-level housing-price indices (NYC, LA, Miami, SF, Chicago, Boston, Denver, Austin, DC, Dubai) with up to 10x leverage, all margined and cash-settled in USDC. Parcl Labs publishes its own proprietary housing-data feed via Pyth and has raised $11.6M+ across Seed and Strategic rounds from Archetype, Dragonfly Capital, ParaFi, Shima Capital, Coinbase Ventures, Solana Ventures, Fifth Wall, JAWS, and IA Capital.",
     "logo": "https://icons.llamao.fi/icons/rwa/parcl.png?w=48&h=48",
     "links": {
       "website": [
@@ -38,7 +38,6 @@
     "attestationFrequency": "N/A (Perp Venue)",
     "suspicious": false,
     "delisted": false,
-    "llamaGradeAttestation": false,
     "fees": {
       "revenueModel": "Maker/Taker Fees",
       "revenueConfidence": "no-public-data",

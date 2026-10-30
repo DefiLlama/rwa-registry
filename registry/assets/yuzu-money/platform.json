@@ -31,7 +31,6 @@
       "monad"
     ],
     "suspicious": false,
-    "llamaGradeAttestation": false,
     "fees": {
       "revenueModel": "Yield Spread",
       "revenueConfidence": "issuer-disclosed",

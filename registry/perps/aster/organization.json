@@ -6,7 +6,7 @@
     "protocolSlug": "aster"
   },
   "about": {
-    "description": "Aster is a next-generation decentralized perpetual and spot exchange formed from the 2025 merger of Astherus (multi-asset liquidity) and APX Finance (perpetual DEX), and powered by Aster Chain — a high-performance privacy-focused L1. Backed by YZi Labs (formerly Binance Labs, CZ-affiliated), PancakeSwap, and additional ecosystem partners, Aster offers perpetual futures with up to 1001× leverage across BNB Chain, Ethereum, Solana, and Arbitrum. Markets are margined in USD1 (the World Liberty Financial stablecoin) and feature a \"Trade & Earn\" model that lets users post yield-bearing assets as margin.",
+    "description": "Aster is a next-generation decentralized perpetual and spot exchange formed from the 2025 merger of Astherus (multi-asset liquidity) and APX Finance (perpetual DEX), and powered by Aster Chain - a high-performance privacy-focused L1. Backed by YZi Labs (formerly Binance Labs, CZ-affiliated), PancakeSwap, and additional ecosystem partners, Aster offers perpetual futures with up to 1001x leverage across BNB Chain, Ethereum, Solana, and Arbitrum. Markets are margined in USD1 (the World Liberty Financial stablecoin) and feature a \"Trade & Earn\" model that lets users post yield-bearing assets as margin.",
     "logo": "https://icons.llamao.fi/icons/rwa/aster.png?w=48&h=48",
     "links": {
       "website": [
@@ -22,7 +22,7 @@
         "https://www.asterdex.com/en/referral/c6eF10"
       ]
     },
-    "registryInfo": "Aster was formed in 2025 from the merger of Astherus (a multi-asset liquidity protocol) and APX Finance (a decentralized perpetuals platform). The project is backed by YZi Labs (formerly Binance Labs, the venture fund associated with Binance co-founders Changpeng Zhao \"CZ\" and Yi He, managing $10B+ for early Binance executives), with PancakeSwap (BNB Chain's leading DEX) and other ecosystem partners. Aster Chain — a high-performance privacy-focused L1 — launched as the venue's native settlement layer in 2025."
+    "registryInfo": "Aster was formed in 2025 from the merger of Astherus (a multi-asset liquidity protocol) and APX Finance (a decentralized perpetuals platform). The project is backed by YZi Labs (formerly Binance Labs, the venture fund associated with Binance co-founders Changpeng Zhao \"CZ\" and Yi He, managing $10B+ for early Binance executives), with PancakeSwap (BNB Chain's leading DEX) and other ecosystem partners. Aster Chain - a high-performance privacy-focused L1 - launched as the venue's native settlement layer in 2025."
   },
   "platform": {
     "category": [
@@ -33,7 +33,6 @@
     ],
     "suspicious": false,
     "delisted": false,
-    "llamaGradeAttestation": false,
     "fees": {
       "revenueModel": "Maker/Taker Fees + Funding Skim",
       "revenueConfidence": "issuer-disclosed",

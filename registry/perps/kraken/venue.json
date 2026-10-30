@@ -6,9 +6,16 @@
   "published": true,
   "makerFeeBps": 2,
   "takerFeeBps": 5,
-  "oracleProvider": "Backed xStocks token markets, via Kraken",
   "accessModel": "permissioned",
   "rwaClassification": "programmable-finance",
   "conventionNote": "Funding settles every hour, and fees are the Kraken Futures entry tier of 0.02% maker and 0.05% taker.",
-  "marginAsset": "USD"
+  "roles": [
+    {
+      "organization": "kraken",
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://support.kraken.com/articles/4844359082772-linear-multi-collateral-derivatives-contract-specifications"
+      ]
+    }
+  ]
 }

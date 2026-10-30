@@ -6,19 +6,27 @@
   "chain": "hyperliquid",
   "adapter": "hyperliquid",
   "published": true,
-  "oracleProvider": "Custom / Kaiko index reference",
+  "makerFeeBps": 0.3,
+  "takerFeeBps": 0.9,
+  "deployerFeeShare": 0.5,
   "accessModel": "permissionless",
   "rwaClassification": "programmable-finance",
   "conventionNote": "Funding is paid hourly peer to peer on the Hyperliquid HIP-3 formula, fees are the HIP-3 schedule at deployer fee scale 1.0 with growth mode on 20 of 23 markets, and the 2.45 to 3.5 bps in the sheet is the Kinetiq interface builder fee, not the venue fee.",
-  "marginAsset": "USDH",
+  "roles": [
+    {
+      "organization": "kaiko",
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://docs.markets.xyz/getting-started/oracles-and-pricing/oracle-prices-and-data",
+        "https://docs.markets.xyz/getting-started/oracles-and-pricing/oracle-prices-and-data-sources"
+      ]
+    }
+  ],
   "events": [
     {
       "kind": "delisting",
       "date": null,
       "note": "last stored day not given at import"
     }
-  ],
-  "makerFeeBps": 0.3,
-  "takerFeeBps": 0.9,
-  "deployerFeeShare": 0.5
+  ]
 }

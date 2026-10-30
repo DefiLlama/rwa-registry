@@ -6,7 +6,7 @@
     "protocolSlug": "ventuals"
   },
   "about": {
-    "description": "Ventuals is the first production HIP-3 builder-deployed perpetual venue on Hyperliquid, founded by Alvin Hsia and Emily Hsia (previously builders of Shadow) and incubated by Paradigm. It pioneered private-company valuation perpetuals, letting users go long or short the implied valuations of pre-IPO companies like SpaceX, OpenAI, Anthropic, and Kraken with up to 10× leverage, alongside thematic public-market index perpetuals (MAG7, Semis, Robotics, Defense, Energy, etc.). Ventuals runs its own oracles blending off-chain valuation data with real-time perp pricing, and uses Privy for embedded wallets. All markets are margined and cash-settled, providing synthetic exposure to instruments that have historically been illiquid or inaccessible to retail.",
+    "description": "Ventuals is the first production HIP-3 builder-deployed perpetual venue on Hyperliquid, founded by Alvin Hsia and Emily Hsia (previously builders of Shadow) and incubated by Paradigm. It pioneered private-company valuation perpetuals, letting users go long or short the implied valuations of pre-IPO companies like SpaceX, OpenAI, Anthropic, and Kraken with up to 10x leverage, alongside thematic public-market index perpetuals (MAG7, Semis, Robotics, Defense, Energy, etc.). Ventuals runs its own oracles blending off-chain valuation data with real-time perp pricing, and uses Privy for embedded wallets. All markets are margined and cash-settled, providing synthetic exposure to instruments that have historically been illiquid or inaccessible to retail.",
     "logo": "https://icons.llamao.fi/icons/rwa/ventuals.png?w=48&h=48",
     "links": {
       "website": [
@@ -34,7 +34,6 @@
     "attestationFrequency": "N/A (Perp Venue)",
     "suspicious": false,
     "delisted": false,
-    "llamaGradeAttestation": false,
     "fees": {
       "revenueModel": "Maker/Taker Fees + Funding Skim",
       "revenueConfidence": "issuer-disclosed",

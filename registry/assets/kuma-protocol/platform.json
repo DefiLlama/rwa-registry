@@ -32,7 +32,6 @@
     "attestationFrequency": "Daily NAV via Chainlink Proof-of-Reserve",
     "suspicious": false,
     "delisted": false,
-    "llamaGradeAttestation": false,
     "fees": {
       "revenueModel": "Asset Manager Fee",
       "holderTotalFeeBps": 20,

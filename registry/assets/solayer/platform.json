@@ -17,7 +17,7 @@
       "telegram": "https://t.me/solayer_discussion",
       "github": "https://github.com/solayer-labs"
     },
-    "registryInfo": "Solayer Labs Inc. – U.S.-based company building the Solayer restaking platform and sUSD income-based stablecoin (per Solayer documentation and press coverage)."
+    "registryInfo": "Solayer Labs Inc. - U.S.-based company building the Solayer restaking platform and sUSD income-based stablecoin (per Solayer documentation and press coverage)."
   },
   "platform": {
     "category": [
@@ -32,8 +32,7 @@
       "solana"
     ],
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "roles": [
     {

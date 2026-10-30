@@ -31,12 +31,11 @@
     "attestationFrequency": "N/A (Perp Venue)",
     "suspicious": false,
     "delisted": false,
-    "llamaGradeAttestation": false,
     "fees": {
       "revenueModel": "Spread + Maker/Taker + GNS Burn",
       "revenueConfidence": "issuer-disclosed",
       "feeLastVerified": "2026-05-11",
-      "revenueNotes": "gTrade RWA fee model is spread-based, not maker/taker. Fixed 1 bp spread on major and minor forex pairs and on tier-1 commodities. Per-pair spreads on exotic FX and lower-tier commodities (vary by volatility). Stocks/equities use dynamic spread via price-impact formula. Spread never applies at closing — only at opening. Borrowing fees apply to open positions. Crypto markets (not on this RWA page) have 0% spread on BTC/ETH and dynamic spread on alts. Fee distribution: 22% governance (DAO), 15% LP vault, 54% GNS token burn, 5% referrals, 4% trigger keepers. Source: https://docs.gains.trade/gtrade-leveraged-trading/fees-and-spread"
+      "revenueNotes": "gTrade RWA fee model is spread-based, not maker/taker. Fixed 1 bp spread on major and minor forex pairs and on tier-1 commodities. Per-pair spreads on exotic FX and lower-tier commodities (vary by volatility). Stocks/equities use dynamic spread via price-impact formula. Spread never applies at closing - only at opening. Borrowing fees apply to open positions. Crypto markets (not on this RWA page) have 0% spread on BTC/ETH and dynamic spread on alts. Fee distribution: 22% governance (DAO), 15% LP vault, 54% GNS token burn, 5% referrals, 4% trigger keepers. Source: https://docs.gains.trade/gtrade-leveraged-trading/fees-and-spread"
     }
   },
   "roles": [

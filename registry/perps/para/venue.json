@@ -6,11 +6,20 @@
   "chain": "hyperliquid",
   "adapter": "hyperliquid",
   "published": true,
-  "oracleProvider": "Pyth equity feeds (Paragon oracle updater)",
+  "makerFeeBps": 3,
+  "takerFeeBps": 9,
   "accessModel": "permissionless",
   "rwaClassification": "programmable-finance",
   "conventionNote": "Funding is paid hourly on the Hyperliquid HIP-3 premium formula times a per-market multiplier (0.6 on most para markets, 0.1 on the rate markets), and fees are the HIP-3 schedule of twice the Hyperliquid base at deployerFeeScale 1.0 (3 bps maker, 9 bps taker at tier 0), cut by 90 percent on growth-mode markets, with half going to the deployer.",
-  "marginAsset": "USDC",
-  "makerFeeBps": 3,
-  "takerFeeBps": 9
+  "roles": [
+    {
+      "organization": "pyth-network",
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://docs.paragon.trade/",
+        "https://docs.paragon.trade/markets/equities",
+        "https://docs.paragon.trade/markets/rates-and-yields"
+      ]
+    }
+  ]
 }

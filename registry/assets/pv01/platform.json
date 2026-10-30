@@ -32,7 +32,6 @@
     ],
     "attestationFrequency": "Per-issuance prospectus + monthly position attestation",
     "suspicious": false,
-    "llamaGradeAttestation": false,
     "fees": {
       "revenueModel": "Asset Manager Fee",
       "holderTotalFeeBps": 10,

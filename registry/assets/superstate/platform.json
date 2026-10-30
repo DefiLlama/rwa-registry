@@ -19,7 +19,7 @@
       "telegram": "N/A (institutional)",
       "github": "https://github.com/superstateinc"
     },
-    "registryInfo": "Superstate, Inc. (Delaware C-corp; SEC-registered investment adviser). Founded 2023 by Robert Leshner (Compound founder), Reeve Collins, Jim Hiltner. Issues USTB (Short-Duration US Government Securities Fund) and USCC (Crypto Carry Fund, basis-trade) — both registered 1940-Act-equivalent feeders distributed onchain. $250M+ combined AUM.",
+    "registryInfo": "Superstate, Inc. (Delaware C-corp; SEC-registered investment adviser). Founded 2023 by Robert Leshner (Compound founder), Reeve Collins, Jim Hiltner. Issues USTB (Short-Duration US Government Securities Fund) and USCC (Crypto Carry Fund, basis-trade) - both registered 1940-Act-equivalent feeders distributed onchain. $250M+ combined AUM.",
     "foundedYear": 2023,
     "headquarters": "New York, USA",
     "founders": "Robert Leshner (Co-Founder, CEO), Jim Hiltner (Co-Founder)",
@@ -42,7 +42,6 @@
     "attestationFrequency": "Daily / Weekly",
     "suspicious": false,
     "delisted": false,
-    "llamaGradeAttestation": false,
     "fees": {
       "revenueModel": "Management Fee",
       "holderTotalFeeBps": 15,

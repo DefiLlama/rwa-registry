@@ -5,9 +5,16 @@
   "published": false,
   "makerFeeBps": 2,
   "takerFeeBps": 6,
-  "oracleProvider": "Bitunix index price, TradFi constituents undisclosed",
   "accessModel": "permissioned",
   "rwaClassification": "programmable-finance",
   "conventionNote": "Funding settles every 8 hours on most markets and every 4 hours on 10, read per symbol from the funding_rate endpoint, and the standard fees are 2 bps maker and 6 bps taker at VIP 0.",
-  "marginAsset": "USDT"
+  "roles": [
+    {
+      "organization": "bitunix",
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://support.bitunix.com/hc/en-us/articles/17038229863193-Spot-Index-Price-and-Mark-Price"
+      ]
+    }
+  ]
 }

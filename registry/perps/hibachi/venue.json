@@ -8,9 +8,23 @@
   "makerFeeBps": 0,
   "takerFeeBps": 4.5,
   "fundingRetentionPct": 0,
-  "oracleProvider": "Pyth + Stork (average)",
   "accessModel": "permissionless",
   "rwaClassification": "programmable-finance",
   "conventionNote": "Funding settles every hour from the mid-index premium, and the fee is tiered on rolling 14-day volume, taker down to 2 bps and maker 0 at every tier.",
-  "marginAsset": "USDT"
+  "roles": [
+    {
+      "organization": "pyth-network",
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://docs.hibachi.xyz/hibachi-docs/trading/pricing"
+      ]
+    },
+    {
+      "organization": "stork",
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://docs.hibachi.xyz/hibachi-docs/trading/pricing"
+      ]
+    }
+  ]
 }

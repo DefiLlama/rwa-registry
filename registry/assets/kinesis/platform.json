@@ -28,12 +28,13 @@
       "gold"
     ],
     "accessModel": "permissionless",
-    "primaryChain": null,
-    "chains": [],
+    "primaryChain": "kinesis",
+    "chains": [
+      "kinesis"
+    ],
     "attestationFrequency": "Monthly",
     "suspicious": false,
     "delisted": false,
-    "llamaGradeAttestation": false,
     "fees": {
       "revenueModel": "Transaction Fee + Storage",
       "assetManagerTakeBps": 0,
@@ -42,7 +43,7 @@
       "floatIncome": false,
       "revenueConfidence": "issuer-disclosed",
       "feeLastVerified": "2026-05-11",
-      "revenueNotes": "Kinesis fee schedule: 45 bps for blockchain mint/transfer and currency transfers (KAU/KAG between accounts), 22 bps for trades on Kinesis Exchange, 22 bps for Kinesis Pay spending transactions. NO storage fees — vaulting costs covered by a share of transaction-fee revenue (via partnership with ABX). 57.5% of all platform fees redistributed monthly to users as gold/silver-denominated yields. Source: https://kinesis.money/about-us/fees/"
+      "revenueNotes": "Kinesis fee schedule: 45 bps for blockchain mint/transfer and currency transfers (KAU/KAG between accounts), 22 bps for trades on Kinesis Exchange, 22 bps for Kinesis Pay spending transactions. NO storage fees - vaulting costs covered by a share of transaction-fee revenue (via partnership with ABX). 57.5% of all platform fees redistributed monthly to users as gold/silver-denominated yields. Source: https://kinesis.money/about-us/fees/"
     }
   },
   "roles": [

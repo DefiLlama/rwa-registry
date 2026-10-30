@@ -6,7 +6,7 @@
     "protocolSlug": "digift"
   },
   "about": {
-    "description": "DigiFT is a MAS-licensed digital securities exchange (Recognised Market Operator + Capital Markets Services license) operating out of Singapore, founded in 2021 by Henry Zhang. The platform offers secondary trading and primary issuance of tokenized securities — including tokenized US Treasury funds, structured notes, and corporate bonds — to accredited and institutional investors. DigiFT differentiates from other RWA platforms by holding direct exchange licensing in a Tier-1 jurisdiction (Singapore), enabling on-venue trading with regulatory clarity. Issuers using DigiFT include UBS (tokenized MMF) and Invesco (tokenized money market). Trades settle on-chain in stablecoins or fiat.",
+    "description": "DigiFT is a MAS-licensed digital securities exchange (Recognised Market Operator + Capital Markets Services license) operating out of Singapore, founded in 2021 by Henry Zhang. The platform offers secondary trading and primary issuance of tokenized securities - including tokenized US Treasury funds, structured notes, and corporate bonds - to accredited and institutional investors. DigiFT differentiates from other RWA platforms by holding direct exchange licensing in a Tier-1 jurisdiction (Singapore), enabling on-venue trading with regulatory clarity. Issuers using DigiFT include UBS (tokenized MMF) and Invesco (tokenized money market). Trades settle on-chain in stablecoins or fiat.",
     "logo": "https://icons.llamao.fi/icons/rwa/digift.png?w=48&h=48",
     "links": {
       "website": [
@@ -33,7 +33,6 @@
     "attestationFrequency": "N/A (Lending Venue)",
     "suspicious": false,
     "delisted": false,
-    "llamaGradeAttestation": false,
     "fees": {
       "revenueModel": "Trading Fee",
       "holderTotalFeeBps": 20,

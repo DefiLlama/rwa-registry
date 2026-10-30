@@ -6,9 +6,16 @@
   "published": true,
   "makerFeeBps": 2,
   "takerFeeBps": 5,
-  "oracleProvider": "BingX index price, TradFi constituents undisclosed",
   "accessModel": "permissioned",
   "rwaClassification": "programmable-finance",
   "conventionNote": "Funding settles every 8 hours on most markets, every 4 hours on 14 and every hour on 1, and every perp pays 2 bps maker and 5 bps taker at non-VIP.",
-  "marginAsset": "USDT"
+  "roles": [
+    {
+      "organization": "bingx",
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://bingx.com/en/support/articles/4412259589401-perpetual-futures-bingx-index-price-calculation"
+      ]
+    }
+  ]
 }

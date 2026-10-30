@@ -6,17 +6,46 @@
   "chain": "hyperliquid",
   "adapter": "hyperliquid",
   "published": true,
-  "oracleProvider": "Pyth Lazer",
+  "makerFeeBps": 3,
+  "takerFeeBps": 9,
   "accessModel": "permissionless",
   "rwaClassification": "programmable-finance",
   "conventionNote": "Funding is paid hourly on the Hyperliquid HIP-3 premium formula times a 0.5 multiplier on nearly every market, with a zero interest rate on the EUR, GBP, JPY and KRW markets, and fees are the HIP-3 schedule of twice the Hyperliquid base at deployerFeeScale 1.0 (3 bps maker, 9 bps taker at tier 0), cut by 90 percent on growth-mode markets, with half going to the deployer.",
-  "marginAsset": "USDC",
   "roles": [
     {
       "organization": "pyth-network",
-      "kind": "oracle"
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://pythdata.app/explore/Equity.US.MU%2FUSD",
+        "https://pythdata.app/explore/Equity.US.SNDK%2FUSD",
+        "https://pythdata.app/explore/Equity.US.COST%2FUSD",
+        "https://pythdata.app/explore/Equity.US.LLY%2FUSD",
+        "https://docs.trade.xyz/asset-directory/stocks/korea",
+        "https://pythdata.app/explore/Equity.US.TSM%2FUSD",
+        "https://pythdata.app/explore/Equity.US.RIVN%2FUSD",
+        "https://pythdata.app/explore/Equity.US.BABA%2FUSD",
+        "https://docs.trade.xyz/asset-directory/stocks",
+        "https://pythdata.app/explore/Equity.US.CRWV%2FUSD",
+        "https://docs.trade.xyz/asset-directory/equity-indices/korea",
+        "https://docs.trade.xyz/asset-directory/equity-indices/japan",
+        "https://pythdata.app/explore/Equity.US.EWY%2FUSD",
+        "https://pythdata.app/explore/Equity.US.EWJ%2FUSD",
+        "https://pythdata.app/explore/Equity.US.EMM6%2FUSD",
+        "https://pythdata.app/explore/Equity.US.BIRD%2FUSD",
+        "https://docs.trade.xyz/asset-directory/pre-ipo-perpetuals",
+        "https://docs.trade.xyz/asset-directory/commodities",
+        "https://pythdata.app/explore/Equity.US.EWZ%2FUSD",
+        "https://docs.trade.xyz/asset-directory/fx",
+        "https://docs.trade.xyz/asset-directory",
+        "https://docs.trade.xyz/consolidated-resources/specification-index",
+        "https://pythdata.app/explore/Metal.XAU%2FUSD",
+        "https://docs.trade.xyz/consolidated-resources/specification-index-ipops",
+        "https://pythdata.app/explore/Equity.US.TSLA%2FUSD",
+        "https://docs.trade.xyz/asset-directory/stocks/hong-kong",
+        "https://pythdata.app/explore/Equity.US.NVDA%2FUSD",
+        "https://docs.trade.xyz/",
+        "https://pythdata.app/explore/Equity.US.MRNA%2FUSD"
+      ]
     }
-  ],
-  "makerFeeBps": 3,
-  "takerFeeBps": 9
+  ]
 }

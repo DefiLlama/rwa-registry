@@ -6,7 +6,7 @@
     "protocolSlug": "extended-exchange"
   },
   "about": {
-    "description": "Extended (formerly X10) is a hyper-performant perpetual DEX on Starknet, led by ex-Revolut Head of Crypto Operations Ruslan Fakhrutdinov with 8 of 10 team members coming from Revolut's crypto unit. The platform migrated from StarkEx to Starknet mainnet on August 12, 2025 and now lists 50+ markets across crypto and TradFi (stocks, equity indices, commodities like gold and oil, and FX) with up to 100× leverage, accessible directly from any EVM or Starknet wallet. Positions are margined and cash-settled in USDC. Backed by Tioga Capital, Semantic Ventures, Prelude, StarkWare, Cyber Fund, Revolut executives, and Lido co-founder Konstantin Lomashuk ($6.5M raised).",
+    "description": "Extended (formerly X10) is a hyper-performant perpetual DEX on Starknet, led by ex-Revolut Head of Crypto Operations Ruslan Fakhrutdinov with 8 of 10 team members coming from Revolut's crypto unit. The platform migrated from StarkEx to Starknet mainnet on August 12, 2025 and now lists 50+ markets across crypto and TradFi (stocks, equity indices, commodities like gold and oil, and FX) with up to 100x leverage, accessible directly from any EVM or Starknet wallet. Positions are margined and cash-settled in USDC. Backed by Tioga Capital, Semantic Ventures, Prelude, StarkWare, Cyber Fund, Revolut executives, and Lido co-founder Konstantin Lomashuk ($6.5M raised).",
     "logo": "https://icons.llamao.fi/icons/rwa/extended.png?w=48&h=48",
     "links": {
       "website": [
@@ -34,7 +34,6 @@
     "attestationFrequency": "N/A (Perp Venue)",
     "suspicious": false,
     "delisted": false,
-    "llamaGradeAttestation": false,
     "fees": {
       "revenueModel": "Maker/Taker Fees",
       "revenueConfidence": "issuer-disclosed",

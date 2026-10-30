@@ -4,18 +4,22 @@
   "venueType": "dex",
   "chain": "gatelayer",
   "published": false,
-  "oracleProvider": "Orderly Network",
+  "makerFeeBps": null,
+  "takerFeeBps": null,
   "accessModel": "permissionless",
   "rwaClassification": "programmable-finance",
-  "marginAsset": "USDC",
+  "conventionNote": null,
+  "roles": [
+    {
+      "organization": "aden",
+      "kind": "oracle"
+    }
+  ],
   "events": [
     {
       "kind": "delisting",
       "date": null,
       "note": "last stored day not given at import"
     }
-  ],
-  "makerFeeBps": null,
-  "takerFeeBps": null,
-  "conventionNote": null
+  ]
 }

@@ -36,7 +36,6 @@
     "attestationFrequency": "Monthly vaulting confirmations; periodic independent CPA audit",
     "suspicious": false,
     "delisted": false,
-    "llamaGradeAttestation": false,
     "fees": {
       "revenueModel": "Mint/Redemption Spread; Vault Fee",
       "revenueConfidence": "no-public-data",

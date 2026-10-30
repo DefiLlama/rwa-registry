@@ -19,7 +19,7 @@
       "discord": "https://discord.gg/dreamcash",
       "telegram": "https://t.me/dreamcash"
     },
-    "registryInfo": "Bridge Building Inc. — issuer of the CASH stablecoin (USD-backed). Maintained at parity with USD via reserve backing and redemption mechanisms."
+    "registryInfo": "Bridge Building Inc. - issuer of the CASH stablecoin (USD-backed). Maintained at parity with USD via reserve backing and redemption mechanisms."
   },
   "platform": {
     "category": [
@@ -34,7 +34,6 @@
       "solana"
     ],
     "suspicious": false,
-    "llamaGradeAttestation": false,
     "fees": {
       "revenueModel": "Float Income",
       "revenueConfidence": "no-public-data",

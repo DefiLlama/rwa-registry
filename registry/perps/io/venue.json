@@ -6,12 +6,20 @@
   "chain": "hyperliquid",
   "adapter": "hyperliquid",
   "published": true,
-  "oracleProvider": "Entropy equity oracle (primary listing venue in-session, depth-gated order-book EMA blend out-of-session)",
+  "makerFeeBps": 0.3,
+  "takerFeeBps": 0.9,
+  "deployerFeeShare": 0.5,
   "accessModel": "permissionless",
   "rwaClassification": "programmable-finance",
   "conventionNote": "Funding is paid hourly peer to peer on the Hyperliquid HIP-3 formula scaled by a per-asset multiplier set by Entropy (0.125 on most markets, 0.5 on PRL) with no exchange cut, and fees are the HIP-3 schedule at deployer fee scale 1.0 with growth mode on.",
-  "marginAsset": "USDC",
-  "makerFeeBps": 0.3,
-  "takerFeeBps": 0.9,
-  "deployerFeeShare": 0.5
+  "roles": [
+    {
+      "organization": "entropy",
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://docs.entropy.io/pre-ipo-perp-mechanics/oracle-price",
+        "https://docs.entropy.io/equity-perp-mechanics/oracle-price"
+      ]
+    }
+  ]
 }

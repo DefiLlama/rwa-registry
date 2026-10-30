@@ -6,7 +6,7 @@
     "protocolSlug": "paragon"
   },
   "about": {
-    "description": "Paragon is a HIP-3 builder-deployed perpetual venue on Hyperliquid built by N8V Labs and founded by Taha El-Magbri, focused on crypto-native market-index perpetuals. Launched April 2, 2026, it became the first venue to list cash-settled perpetual contracts on widely tracked analytical benchmarks — BTC.D (Bitcoin's share of total crypto market cap), TOTAL2 (total crypto market cap excluding Bitcoin), and OTHERS (altcoin market cap excluding the top 10) — with up to 50× leverage. Markets appear under the para namespace on Hyperliquid and are margined and cash-settled in USDC.",
+    "description": "Paragon is a HIP-3 builder-deployed perpetual venue on Hyperliquid built by N8V Labs and founded by Taha El-Magbri, focused on crypto-native market-index perpetuals. Launched April 2, 2026, it became the first venue to list cash-settled perpetual contracts on widely tracked analytical benchmarks - BTC.D (Bitcoin's share of total crypto market cap), TOTAL2 (total crypto market cap excluding Bitcoin), and OTHERS (altcoin market cap excluding the top 10) - with up to 50x leverage. Markets appear under the para namespace on Hyperliquid and are margined and cash-settled in USDC.",
     "logo": "https://icons.llamao.fi/icons/rwa/paragon.png?w=48&h=48",
     "links": {
       "website": [
@@ -34,7 +34,6 @@
     "attestationFrequency": "N/A (Perp Venue)",
     "suspicious": false,
     "delisted": false,
-    "llamaGradeAttestation": false,
     "fees": {
       "revenueModel": "Maker/Taker Fees + Funding Skim",
       "revenueConfidence": "issuer-disclosed",

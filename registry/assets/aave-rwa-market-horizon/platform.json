@@ -6,7 +6,7 @@
     "legacyPid": 259
   },
   "about": {
-    "description": "Horizon is Aave Labs’ dedicated RWA market designed for qualified participants and permissioned tokenized collateral. It enables institutions to post permissioned RWAs such as tokenized money market and fixed-income products as collateral and borrow widely used stablecoins, combining DeFi liquidity with issuer-level compliance controls. Retail users can typically participate on the liquidity side by supplying stablecoins to the market.",
+    "description": "Horizon is Aave Labs' dedicated RWA market designed for qualified participants and permissioned tokenized collateral. It enables institutions to post permissioned RWAs such as tokenized money market and fixed-income products as collateral and borrow widely used stablecoins, combining DeFi liquidity with issuer-level compliance controls. Retail users can typically participate on the liquidity side by supplying stablecoins to the market.",
     "logo": "https://icons.llamao.fi/icons/rwa/aave-rwa-market-horizon.png?w=48&h=48",
     "links": {
       "website": [
@@ -32,8 +32,7 @@
     "chains": [
       "ethereum"
     ],
-    "suspicious": false,
-    "llamaGradeAttestation": false
+    "suspicious": false
   },
   "roles": [
     {

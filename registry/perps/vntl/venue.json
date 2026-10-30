@@ -6,18 +6,26 @@
   "chain": "hyperliquid",
   "adapter": "hyperliquid",
   "published": true,
-  "oracleProvider": "Pyth + Ventuals internal pricing fallback",
+  "makerFeeBps": 3,
+  "takerFeeBps": 9,
   "accessModel": "permissionless",
   "rwaClassification": "programmable-finance",
   "conventionNote": "Ventuals shut down on 2026-06-19 and every vntl market is delisted; while live, funding was paid hourly on the Hyperliquid HIP-3 formula and fees followed the HIP-3 schedule (3 bps maker, 9 bps taker at tier 0 and deployerFeeScale 1.0) with half going to the deployer.",
-  "marginAsset": "USDH",
+  "roles": [
+    {
+      "organization": "pyth-network",
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://docs.ventuals.com/perp-specifications/private-companies",
+        "https://docs.ventuals.com/perp-specifications/indices"
+      ]
+    }
+  ],
   "events": [
     {
       "kind": "delisting",
       "date": null,
       "note": "last stored day not given at import"
     }
-  ],
-  "makerFeeBps": 3,
-  "takerFeeBps": 9
+  ]
 }

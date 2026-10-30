@@ -17,7 +17,7 @@
       "telegram": "https://t.me/Aurus_io",
       "github": "https://github.com/aurus-pro"
     },
-    "registryInfo": "Aurus Technologies Ltd. (UK, FCA-registered) — gold/silver/platinum tokenization platform launched 2018. Issues AWG (gold), AWS (silver), AWP (platinum) tokens with 1:1 physical-bullion backing held in LBMA-approved vaults. ARO governance/utility token."
+    "registryInfo": "Aurus Technologies Ltd. (UK, FCA-registered) - gold/silver/platinum tokenization platform launched 2018. Issues AWG (gold), AWS (silver), AWP (platinum) tokens with 1:1 physical-bullion backing held in LBMA-approved vaults. ARO governance/utility token."
   },
   "platform": {
     "category": [
@@ -34,7 +34,6 @@
     "attestationFrequency": "Quarterly",
     "suspicious": false,
     "delisted": false,
-    "llamaGradeAttestation": false,
     "fees": {
       "revenueModel": "Mint/Redeem Spread + Storage",
       "holderTotalFeeBps": 0,

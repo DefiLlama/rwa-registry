@@ -6,7 +6,7 @@
     "protocolSlug": "aktionariat"
   },
   "about": {
-    "description": "Aktionariat is the leading Swiss platform for tokenizing the registered shares of small and medium-sized enterprises (SMEs), founded in 2020 by Luzius Meisser and Murat Ogat and headquartered in Zurich. The company was the first in Switzerland to tokenize its own shares (February 1, 2021) and has since helped 50+ Swiss SMEs issue blockchain-based shares to tens of thousands of investors. Aktionariat provides a full stack — share token issuance, brokerbot for primary and secondary trading, and an investor app — operating under the Swiss DLT Act which permits ledger-based registered securities (Registerwertrechte) to be transferable without third-party intermediaries. Luzius Meisser was a co-author of the Swiss DLT legislation.",
+    "description": "Aktionariat is the leading Swiss platform for tokenizing the registered shares of small and medium-sized enterprises (SMEs), founded in 2020 by Luzius Meisser and Murat Ogat and headquartered in Zurich. The company was the first in Switzerland to tokenize its own shares (February 1, 2021) and has since helped 50+ Swiss SMEs issue blockchain-based shares to tens of thousands of investors. Aktionariat provides a full stack - share token issuance, brokerbot for primary and secondary trading, and an investor app - operating under the Swiss DLT Act which permits ledger-based registered securities (Registerwertrechte) to be transferable without third-party intermediaries. Luzius Meisser was a co-author of the Swiss DLT legislation.",
     "logo": "https://icons.llamao.fi/icons/rwa/aktionariat.png?w=48&h=48",
     "links": {
       "website": [
@@ -18,7 +18,7 @@
       "telegram": "https://t.me/Aktionariat",
       "github": "https://github.com/aktionariat"
     },
-    "registryInfo": "Aktionariat AG — Swiss stock corporation (Aktiengesellschaft) headquartered in Zurich, Switzerland. Founded 2020 by Luzius Meisser (Chairman; also on the board of Bitcoin Suisse) and Murat Ogat. Aktionariat itself was the first firm in Switzerland to tokenize its own shares (February 1, 2021, 100,000 shares). Operates under the Swiss Federal Act on the Adaptation of Federal Law to Developments in Distributed Ledger Technology (DLT Act) which provides the legal basis for transferable share tokens (Registerwertrechte / ledger-based securities)."
+    "registryInfo": "Aktionariat AG - Swiss stock corporation (Aktiengesellschaft) headquartered in Zurich, Switzerland. Founded 2020 by Luzius Meisser (Chairman; also on the board of Bitcoin Suisse) and Murat Ogat. Aktionariat itself was the first firm in Switzerland to tokenize its own shares (February 1, 2021, 100,000 shares). Operates under the Swiss Federal Act on the Adaptation of Federal Law to Developments in Distributed Ledger Technology (DLT Act) which provides the legal basis for transferable share tokens (Registerwertrechte / ledger-based securities)."
   },
   "platform": {
     "category": [
@@ -37,7 +37,6 @@
     "attestationFrequency": "Continuous",
     "suspicious": false,
     "delisted": false,
-    "llamaGradeAttestation": false,
     "fees": {
       "revenueModel": "Platform Setup + Annual Service",
       "performanceFeePct": 1.5,

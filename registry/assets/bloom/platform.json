@@ -31,7 +31,6 @@
     ],
     "attestationFrequency": "Daily NAV via Chainlink Proof-of-Reserves",
     "suspicious": false,
-    "llamaGradeAttestation": false,
     "fees": {
       "revenueModel": "Yield Spread",
       "holderTotalFeeBps": 20,

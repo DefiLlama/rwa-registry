@@ -4,12 +4,28 @@
   "venueType": "dex",
   "chain": "base",
   "published": false,
-  "fundingRetentionPct": 0,
-  "oracleProvider": "Pyth Pro + Chainlink",
-  "accessModel": "permissionless",
-  "rwaClassification": "programmable-finance",
-  "marginAsset": "USDC",
   "makerFeeBps": 0,
   "takerFeeBps": 0,
-  "conventionNote": "Funding and borrow accrue hourly against the vault as one net rate anchored to the cost of carry on the most liquid venues, and RWA markets pay no maker or taker fee while in growth mode."
+  "fundingRetentionPct": 0,
+  "accessModel": "permissionless",
+  "rwaClassification": "programmable-finance",
+  "conventionNote": "Funding and borrow accrue hourly against the vault as one net rate anchored to the cost of carry on the most liquid venues, and RWA markets pay no maker or taker fee while in growth mode.",
+  "roles": [
+    {
+      "organization": "pyth-network",
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://docs.avantisfi.com/trading/accurate-oracle-execution",
+        "https://docs.avantisfi.com/protocol/protocol-fees"
+      ]
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://docs.avantisfi.com/trading/accurate-oracle-execution",
+        "https://docs.avantisfi.com/protocol/protocol-fees"
+      ]
+    }
+  ]
 }

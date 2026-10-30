@@ -34,12 +34,11 @@
     "attestationFrequency": "Annual audit + on-demand BaFin reporting",
     "suspicious": false,
     "delisted": false,
-    "llamaGradeAttestation": false,
     "fees": {
       "revenueModel": "Maker/Taker Fees + Mint/Redeem Spread",
       "revenueConfidence": "no-public-data",
       "feeLastVerified": "2026-05-11",
-      "revenueNotes": "Swarm captures AMM trading fees on its on-chain venue and primary-market spreads on tokenized issuances. SMT stakers receive a share of platform fees. Closely held — exact basis points not publicly disclosed."
+      "revenueNotes": "Swarm captures AMM trading fees on its on-chain venue and primary-market spreads on tokenized issuances. SMT stakers receive a share of platform fees. Closely held - exact basis points not publicly disclosed."
     }
   },
   "roles": [

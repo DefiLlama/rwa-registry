@@ -32,7 +32,6 @@
     "attestationFrequency": "Daily NAV publication; quarterly audited financials",
     "suspicious": false,
     "delisted": false,
-    "llamaGradeAttestation": false,
     "fees": {
       "revenueModel": "Asset Manager Fee",
       "holderTotalFeeBps": 15,
@@ -46,7 +45,7 @@
       "governanceWhitepaperUrl": "https://am.jpmorgan.com/us/en/asset-management/institutional/investment-strategies/liquidity/mony-onchain/",
       "revenueConfidence": "reasoned-estimate",
       "feeLastVerified": "2026-05-10",
-      "revenueNotes": "MONY fee schedule is not publicly disclosed as of audit date. The 15 bps reflects a reasoned estimate based on comparable institutional MMF tokenized share classes (e.g. Fidelity FYOXX, BlackRock BUIDL). Actual fee may differ — to be verified against the fund's offering documents when available."
+      "revenueNotes": "MONY fee schedule is not publicly disclosed as of audit date. The 15 bps reflects a reasoned estimate based on comparable institutional MMF tokenized share classes (e.g. Fidelity FYOXX, BlackRock BUIDL). Actual fee may differ - to be verified against the fund's offering documents when available."
     }
   },
   "roles": [

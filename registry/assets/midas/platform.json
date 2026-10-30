@@ -18,7 +18,7 @@
       "discord": "https://discord.com/invite/midas-rwa",
       "telegram": "https://t.me/midasfi"
     },
-    "registryInfo": "Midas Capital Markets (Switzerland) — Liechtenstein FMA prospectus-supervised tokenization platform. Issues mTBILL (US T-Bills), mBASIS (BTC/ETH delta-neutral basis trade), and other yield-bearing on-chain tokens. Backed by Galaxy Ventures, Framework, BlockTower.",
+    "registryInfo": "Midas Capital Markets (Switzerland) - Liechtenstein FMA prospectus-supervised tokenization platform. Issues mTBILL (US T-Bills), mBASIS (BTC/ETH delta-neutral basis trade), and other yield-bearing on-chain tokens. Backed by Galaxy Ventures, Framework, BlockTower.",
     "foundedYear": 2023,
     "headquarters": "Berlin, Germany",
     "founders": "Dennis Dinkelmeyer (Co-Founder, CEO), Fabrice Grinda (Co-Founder)",
@@ -42,7 +42,6 @@
     "attestationFrequency": "Monthly",
     "suspicious": false,
     "delisted": false,
-    "llamaGradeAttestation": false,
     "fees": {
       "revenueModel": "Management Fee",
       "revenueConfidence": "public-filings",

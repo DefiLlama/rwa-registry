@@ -6,11 +6,18 @@
   "published": true,
   "makerFeeBps": 2,
   "takerFeeBps": 6,
-  "oracleProvider": "Pyth, dxFeed, Massive and Intrinio, Bitget weighted average",
   "accessModel": "permissioned",
   "rwaClassification": "programmable-finance",
   "conventionNote": "Funding settles every 8 hours on most markets and every 4 hours on some, read from each contract fundInterval, and every contract pays 2 bps maker and 6 bps taker at the standard tier.",
-  "marginAsset": "USDT",
+  "roles": [
+    {
+      "organization": "pyth-network",
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://www.bitget.com/support/articles/12560603845668"
+      ]
+    }
+  ],
   "events": [
     {
       "kind": "delisting",

@@ -19,7 +19,7 @@
       "telegram": "https://t.me/robinhoodapp",
       "github": "https://github.com/robinhood-markets"
     },
-    "registryInfo": "Robinhood Markets, Inc. — Delaware C-corporation. NASDAQ-listed (ticker: HOOD; IPO July 29, 2021). Subsidiaries Robinhood Financial LLC (FINRA-registered broker-dealer) and Robinhood Crypto, LLC. Headquartered at 85 Willow Road, Menlo Park, CA 94025. Founded 2013. Co-founders Vlad Tenev (CEO) and Baiju Bhatt. Robinhood Stock Tokens are issued and minted on Arbitrum from the EU under MiFID II via Robinhood Europe UAB (Lithuanian-licensed investment firm)."
+    "registryInfo": "Robinhood Markets, Inc. - Delaware C-corporation. NASDAQ-listed (ticker: HOOD; IPO July 29, 2021). Subsidiaries Robinhood Financial LLC (FINRA-registered broker-dealer) and Robinhood Crypto, LLC. Headquartered at 85 Willow Road, Menlo Park, CA 94025. Founded 2013. Co-founders Vlad Tenev (CEO) and Baiju Bhatt. Robinhood Stock Tokens are issued and minted on Arbitrum from the EU under MiFID II via Robinhood Europe UAB (Lithuanian-licensed investment firm)."
   },
   "platform": {
     "category": [
@@ -35,7 +35,6 @@
     ],
     "suspicious": false,
     "delisted": false,
-    "llamaGradeAttestation": false,
     "fees": {
       "revenueModel": "Hybrid",
       "revenueConfidence": "public-filings",

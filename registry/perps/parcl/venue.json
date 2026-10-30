@@ -5,18 +5,22 @@
   "chain": "solana",
   "adapter": "parcl",
   "published": true,
-  "oracleProvider": "Pyth / Parcl Labs housing feed",
+  "makerFeeBps": null,
+  "takerFeeBps": null,
   "accessModel": "permissionless",
   "rwaClassification": "programmable-finance",
-  "marginAsset": "USDC",
+  "conventionNote": "Funding follows a continuous funding-velocity model with no fixed settlement period, maker and taker fees are per-market on-chain settings with no published schedule, and all 32 parcl markets are delisted.",
+  "roles": [
+    {
+      "organization": "pyth-network",
+      "kind": "oracle"
+    }
+  ],
   "events": [
     {
       "kind": "delisting",
       "date": null,
       "note": "last stored day not given at import"
     }
-  ],
-  "makerFeeBps": null,
-  "takerFeeBps": null,
-  "conventionNote": "Funding follows a continuous funding-velocity model with no fixed settlement period, maker and taker fees are per-market on-chain settings with no published schedule, and all 32 parcl markets are delisted."
+  ]
 }

@@ -6,9 +6,23 @@
   "published": true,
   "makerFeeBps": 0,
   "takerFeeBps": 0,
-  "oracleProvider": "MEXC per-contract indexOrigin, Kaiko, Alltick, Pyth or Infoway",
   "accessModel": "permissioned",
   "rwaClassification": "programmable-finance",
-  "conventionNote": "Fees Protocol: Stock futures are Maker 0.00% / Taker 0.00% under MEXC promotional pricing. Standard web and app futures are Maker 0.00% / Taker 0.02% — the API schedule is Maker 0.06% / Taker 0.08% since 2026-06-01, and seven regions pay Maker 0.01% / Taker 0.04%.; Funding Rates: Funding every 8h",
-  "marginAsset": "USDT"
+  "conventionNote": "Fees Protocol: Stock futures are Maker 0.00% / Taker 0.00% under MEXC promotional pricing. Standard web and app futures are Maker 0.00% / Taker 0.02% - the API schedule is Maker 0.06% / Taker 0.08% since 2026-06-01, and seven regions pay Maker 0.01% / Taker 0.04%.; Funding Rates: Funding every 8h",
+  "roles": [
+    {
+      "organization": "kaiko",
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://www.mexc.com/learn/article/3-key-prices-in-futures-trading-what-are-index-price-fair-price-and-last-price-/1"
+      ]
+    },
+    {
+      "organization": "pyth-network",
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://www.mexc.com/learn/article/3-key-prices-in-futures-trading-what-are-index-price-fair-price-and-last-price-/1"
+      ]
+    }
+  ]
 }

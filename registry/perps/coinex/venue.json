@@ -6,11 +6,18 @@
   "published": true,
   "makerFeeBps": 3,
   "takerFeeBps": 5,
-  "oracleProvider": "CoinEx weighted index of tokenized-equity spot order books",
   "accessModel": "permissioned",
   "rwaClassification": "programmable-finance",
   "conventionNote": "Funding settles every 8 hours, and fees are 3 bps maker and 5 bps taker at VIP 0.",
-  "marginAsset": "USDT",
+  "roles": [
+    {
+      "organization": "coinex",
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://www.coinex.com/en/help/sections/articles/360036160293"
+      ]
+    }
+  ],
   "events": [
     {
       "kind": "delisting",

@@ -6,7 +6,7 @@
     "protocolSlug": "edgex"
   },
   "about": {
-    "description": "edgeX is a high-performance perpetual contract DEX incubated by Amber Group, with its MVP launched in July 2024 on StarkEx. The order-book engine targets CEX-grade execution with up to 200K TPS and ZK-proven settlement; users self-custody assets while accessing up to 100× leverage on BTC pairs across multichain support spanning 70+ chains. Markets cover equities, equity indices, commodities, and crypto, with positions margined and cash-settled in USDC. edgeX is migrating to its own dedicated EDGE Chain L2 in conjunction with its March 31, 2026 EDGE Token Generation Event (1B EDGE total supply, 25% allocated to airdrops).",
+    "description": "edgeX is a high-performance perpetual contract DEX incubated by Amber Group, with its MVP launched in July 2024 on StarkEx. The order-book engine targets CEX-grade execution with up to 200K TPS and ZK-proven settlement; users self-custody assets while accessing up to 100x leverage on BTC pairs across multichain support spanning 70+ chains. Markets cover equities, equity indices, commodities, and crypto, with positions margined and cash-settled in USDC. edgeX is migrating to its own dedicated EDGE Chain L2 in conjunction with its March 31, 2026 EDGE Token Generation Event (1B EDGE total supply, 25% allocated to airdrops).",
     "logo": "https://icons.llamao.fi/icons/rwa/edgex.png?w=48&h=48",
     "links": {
       "website": [
@@ -33,7 +33,6 @@
     "attestationFrequency": "N/A (Perp Venue)",
     "suspicious": false,
     "delisted": false,
-    "llamaGradeAttestation": false,
     "fees": {
       "revenueModel": "Maker/Taker Fees",
       "revenueConfidence": "issuer-disclosed",

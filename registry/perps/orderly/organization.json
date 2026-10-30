@@ -6,7 +6,7 @@
     "protocolSlug": "aden"
   },
   "about": {
-    "description": "ADEN is a perpetual venue on Gate Layer (OP Stack EVM L2) powered by Orderly Network's shared orderbook, founded by veteran derivatives trader and Bugscoin founder INBUM. Acquired by Gate Ventures in October 2025 (with INBUM staying on as Founder), ADEN supports 447+ perpetual markets — including commodity and index perps — with up to 125× leverage, cross-chain deposits/withdrawals, and multiple margin modes. All positions are margined and cash-settled in USDC via Orderly.",
+    "description": "ADEN is a perpetual venue on Gate Layer (OP Stack EVM L2) powered by Orderly Network's shared orderbook, founded by veteran derivatives trader and Bugscoin founder INBUM. Acquired by Gate Ventures in October 2025 (with INBUM staying on as Founder), ADEN supports 447+ perpetual markets - including commodity and index perps - with up to 125x leverage, cross-chain deposits/withdrawals, and multiple margin modes. All positions are margined and cash-settled in USDC via Orderly.",
     "logo": "https://icons.llamao.fi/icons/rwa/aden.png?w=48&h=48",
     "links": {
       "website": [
@@ -19,7 +19,7 @@
       "telegram": "https://t.me/adenofficial",
       "github": "N/A (closed source)"
     },
-    "registryInfo": "ADEN was founded by INBUM, founder of the Bugscoin (BGSC) project and a veteran derivatives trader. Acquired by Gate Ventures in October 2025; INBUM continues to lead as Founder. The platform is deployed on Gate Layer (an OP-Stack–based EVM-compatible Layer 2) and uses Orderly Network as its underlying orderbook/settlement infrastructure."
+    "registryInfo": "ADEN was founded by INBUM, founder of the Bugscoin (BGSC) project and a veteran derivatives trader. Acquired by Gate Ventures in October 2025; INBUM continues to lead as Founder. The platform is deployed on Gate Layer (an OP-Stack - based EVM-compatible Layer 2) and uses Orderly Network as its underlying orderbook/settlement infrastructure."
   },
   "platform": {
     "category": [
@@ -31,7 +31,6 @@
     "attestationFrequency": "N/A (Perp Venue)",
     "suspicious": false,
     "delisted": false,
-    "llamaGradeAttestation": false,
     "fees": {
       "revenueModel": "Maker/Taker Fees + Funding Skim",
       "revenueConfidence": "issuer-disclosed",

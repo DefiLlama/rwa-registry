@@ -22,7 +22,7 @@
         "https://defi.xstocks.fi/points?ref=8QG15V04"
       ]
     },
-    "registryInfo": "xStocks is the consumer-facing brand of Backed Finance AG (Zug, Switzerland). Tokens are issued via Backed Assets (JE) Limited, a Jersey-domiciled SPV that holds the underlying shares. Each xStock is a free-float (non-whitelisted) ERC-20/SPL token tracking 1:1 the underlying share. The structure is tracker-certificate-based under Swiss FinSA prospectus and DLT-Act regulation, allowing transferability without on-chain whitelist enforcement. Acquired by Kraken (announced 2025) — Kraken is the primary distribution partner.",
+    "registryInfo": "xStocks is the consumer-facing brand of Backed Finance AG (Zug, Switzerland). Tokens are issued via Backed Assets (JE) Limited, a Jersey-domiciled SPV that holds the underlying shares. Each xStock is a free-float (non-whitelisted) ERC-20/SPL token tracking 1:1 the underlying share. The structure is tracker-certificate-based under Swiss FinSA prospectus and DLT-Act regulation, allowing transferability without on-chain whitelist enforcement. Acquired by Kraken (announced 2025) - Kraken is the primary distribution partner.",
     "foundedYear": 2021,
     "headquarters": "Zug, Switzerland",
     "founders": "Adam Levi (Co-Founder), Yehonatan Goldman (Co-Founder), Roberto Klein (Co-Founder)",
@@ -50,7 +50,6 @@
     ],
     "suspicious": false,
     "delisted": false,
-    "llamaGradeAttestation": false,
     "onchainMcapBasis": "active",
     "fees": {
       "revenueModel": "Mint/Redeem Spread",

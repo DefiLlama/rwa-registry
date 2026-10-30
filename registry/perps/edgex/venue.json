@@ -8,9 +8,17 @@
   "makerFeeBps": null,
   "takerFeeBps": null,
   "fundingRetentionPct": 0,
-  "oracleProvider": "Stork decentralized oracle network",
   "accessModel": "permissionless",
   "rwaClassification": "programmable-finance",
   "conventionNote": "Funding settles every 4 hours on every contract with a per-contract cap; the base fee is unresolved because the Platforms tab (1.2 / 3.8 bps), the newer market rows (1.8 / 3.8 bps) and the public API defaults (4 / 4.5 bps) disagree.",
-  "marginAsset": "USDC"
+  "roles": [
+    {
+      "organization": "stork",
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://edgex-1.gitbook.io/edgeX-documentation/edgex-v1/self-custody",
+        "https://edgex-1.gitbook.io/edgeX-documentation"
+      ]
+    }
+  ]
 }

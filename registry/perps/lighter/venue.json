@@ -8,15 +8,48 @@
   "makerFeeBps": 0,
   "takerFeeBps": 0,
   "fundingRetentionPct": 0,
-  "oracleProvider": "Pyth Lazer",
   "accessModel": "permissionless",
   "rwaClassification": "programmable-finance",
   "conventionNote": "Funding is paid hourly from a time-weighted premium against the index price with a 0.01% base interest rate and a 4% per 8h cap, standard accounts pay 0 maker and 0 taker, and premium accounts pay 0.4 bps maker and 2.8 bps taker before LIT staking discounts.",
-  "marginAsset": "USDC",
   "roles": [
     {
       "organization": "pyth-network",
-      "kind": "oracle"
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://insights.pyth.network/price-feeds/Equity.US.TSLA%2FUSD",
+        "https://insights.pyth.network/price-feeds/Equity.US.NVDA%2FUSD",
+        "https://insights.pyth.network/price-feeds/Equity.US.AAPL%2FUSD",
+        "https://insights.pyth.network/price-feeds/Equity.US.MSFT%2FUSD",
+        "https://insights.pyth.network/price-feeds/Equity.US.META%2FUSD",
+        "https://insights.pyth.network/price-feeds/Equity.US.AMZN%2FUSD",
+        "https://insights.pyth.network/price-feeds/Equity.US.GOOGL%2FUSD",
+        "https://insights.pyth.network/price-feeds/Equity.US.PLTR%2FUSD",
+        "https://insights.pyth.network/price-feeds/Equity.US.HOOD%2FUSD",
+        "https://insights.pyth.network/price-feeds/Equity.US.COIN%2FUSD",
+        "https://insights.pyth.network/price-feeds/Equity.US.CRCL%2FUSD",
+        "https://insights.pyth.network/price-feeds/Equity.US.MSTR%2FUSD",
+        "https://insights.pyth.network/price-feeds/Equity.US.AMD%2FUSD",
+        "https://insights.pyth.network/price-feeds/Equity.US.INTC%2FUSD",
+        "https://insights.pyth.network/price-feeds/Equity.US.BMNR%2FUSD",
+        "https://insights.pyth.network/price-feeds/Equity.US.SNDK%2FUSD",
+        "https://insights.pyth.network/price-feeds/Equity.US.ASML%2FUSD",
+        "https://insights.pyth.network/price-feeds/Equity.US.Z%2FUSD",
+        "https://insights.pyth.network/price-feeds/Equity.US.STRC%2FUSD",
+        "https://insights.pyth.network/price-feeds/Equity.US.SPX%2FUSD",
+        "https://insights.pyth.network/price-feeds/Equity.US.SPY%2FUSD",
+        "https://insights.pyth.network/price-feeds/Equity.US.QQQ%2FUSD",
+        "https://insights.pyth.network/price-feeds/Metal.XAU%2FUSD",
+        "https://insights.pyth.network/price-feeds/Metal.XAG%2FUSD",
+        "https://pythdata.app/explore/Commodities.WTIM6%2FUSD",
+        "https://pythdata.app/explore/Commodities.BRENTN6%2FUSD",
+        "https://pythdata.app/explore/Commodities.NGDM6%2FUSD",
+        "https://docs.lighter.xyz/lighter/fair-price-marking",
+        "https://docs.lighter.xyz/",
+        "https://docs.lighter.xyz/lighter/oracle",
+        "https://insights.pyth.network/price-feeds/Equity.US.AAOI%2FUSD",
+        "https://insights.pyth.network/price-feeds/Equity.US.AVGO%2FUSD",
+        "https://insights.pyth.network/price-feeds/Equity.US.QCOM%2FUSD"
+      ]
     }
   ]
 }

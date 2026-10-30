@@ -5,12 +5,26 @@
   "chain": "arbitrum",
   "adapter": "ostium",
   "published": true,
+  "makerFeeBps": 6,
+  "takerFeeBps": 6,
   "fundingRetentionPct": 0,
-  "oracleProvider": "Stork / QUODD",
   "accessModel": "permissionless",
   "rwaClassification": "programmable-finance",
   "conventionNote": "Ostium charges one flat opening fee per position with no closing fee and no maker and taker split, and instead of funding every pair accrues a rollover fee per block from an annualized rate updated daily (SOFR plus a premium for stocks, ETFs and indices, the futures term structure for commodities and forex).",
-  "marginAsset": "USDC",
-  "makerFeeBps": 6,
-  "takerFeeBps": 6
+  "roles": [
+    {
+      "organization": "stork",
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://ostium-labs.gitbook.io/ostium-docs/fee-breakdown"
+      ]
+    },
+    {
+      "organization": "quodd",
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://ostium-labs.gitbook.io/ostium-docs/fee-breakdown"
+      ]
+    }
+  ]
 }

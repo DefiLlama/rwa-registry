@@ -5,7 +5,7 @@
     "legacyPid": 194
   },
   "about": {
-    "description": "AXC is a BNB Chain-based RWA platform operated by RWAfi DAO LLC (Wyoming DAO LLC). Product family: GIFT (Grow Institutional Fund Token — institutional access to a mixed-RWA fund) and GYTW (Growth Yield Token Whitelisted — institutional fund-position token for the GROW Heritage Fund / BUU815, a BVI-registered private sub-fund of GROW Global Allocation OFC / BUU813, both registered April 19, 2024). Both products use AXC's DRDS (Distributed Reference Data System) for NAV pricing: the fund administrator publishes the NAV figure, then designated internal witnesses confirm before the protocol uses it for vault accounting and TVL. The Wyoming DAO LLC structure provides limited-liability protection for governance participants. AXC targets the BSC institutional segment, leveraging the chain's low fees for fractional access.",
+    "description": "AXC is a BNB Chain-based RWA platform operated by RWAfi DAO LLC (Wyoming DAO LLC). Product family: GIFT (Grow Institutional Fund Token - institutional access to a mixed-RWA fund) and GYTW (Growth Yield Token Whitelisted - institutional fund-position token for the GROW Heritage Fund / BUU815, a BVI-registered private sub-fund of GROW Global Allocation OFC / BUU813, both registered April 19, 2024). Both products use AXC's DRDS (Distributed Reference Data System) for NAV pricing: the fund administrator publishes the NAV figure, then designated internal witnesses confirm before the protocol uses it for vault accounting and TVL. The Wyoming DAO LLC structure provides limited-liability protection for governance participants. AXC targets the BSC institutional segment, leveraging the chain's low fees for fractional access.",
     "logo": "https://icons.llamao.fi/icons/rwa/axc.png?w=48&h=48",
     "links": {
       "website": [
@@ -31,11 +31,10 @@
     ],
     "suspicious": false,
     "delisted": false,
-    "llamaGradeAttestation": false,
     "fees": {
       "revenueConfidence": "no-public-data",
       "feeLastVerified": "2026-05-10",
-      "revenueNotes": "Public fee disclosure not available. Note: Specific fee schedule not publicly disclosed at audit date. AXC operates two distinct products with separate fee economics — GIFT (institutional mixed-RWA fund, BUU813 OFC level) and GYTW (heritage-fund-specific token, BUU815 sub-fund level). Both are KYC-permissioned at the institutional level. Revenue likely from NAV-spread + management-fee-equivalent take on each underlying fund."
+      "revenueNotes": "Public fee disclosure not available. Note: Specific fee schedule not publicly disclosed at audit date. AXC operates two distinct products with separate fee economics - GIFT (institutional mixed-RWA fund, BUU813 OFC level) and GYTW (heritage-fund-specific token, BUU815 sub-fund level). Both are KYC-permissioned at the institutional level. Revenue likely from NAV-spread + management-fee-equivalent take on each underlying fund."
     }
   },
   "roles": [

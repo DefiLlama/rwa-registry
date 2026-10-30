@@ -17,7 +17,7 @@
       "linkedin": "https://www.linkedin.com/company/wisdomtree-investments",
       "github": "https://github.com/wisdomtree-inc"
     },
-    "registryInfo": "WisdomTree, Inc. — Delaware C-corporation, NYSE-listed (ticker: WT). Subsidiary WisdomTree Digital Trust, LLC issues digital fund shares; WisdomTree Securities, Inc. (FINRA/SIPC member) acts as transfer agent and broker-dealer. Headquartered at 250 West 34th Street, 3rd Floor, New York, NY 10119. Founded 1985 (as Individual Investor Group). CEO Jonathan Steinberg. Approximately $115B+ AUM as of 2025. Operates the WisdomTree Connect / WisdomTree Prime app for direct retail access to tokenized fund shares.",
+    "registryInfo": "WisdomTree, Inc. - Delaware C-corporation, NYSE-listed (ticker: WT). Subsidiary WisdomTree Digital Trust, LLC issues digital fund shares; WisdomTree Securities, Inc. (FINRA/SIPC member) acts as transfer agent and broker-dealer. Headquartered at 250 West 34th Street, 3rd Floor, New York, NY 10119. Founded 1985 (as Individual Investor Group). CEO Jonathan Steinberg. Approximately $115B+ AUM as of 2025. Operates the WisdomTree Connect / WisdomTree Prime app for direct retail access to tokenized fund shares.",
     "foundedYear": 2023,
     "headquarters": "New York, USA",
     "founders": "Jonathan Steinberg (Founder, CEO, WisdomTree Inc.), Will Peck (Head of Digital Assets)",
@@ -42,7 +42,6 @@
     "attestationFrequency": "Daily (40-Act fund NAV) + annual audit",
     "suspicious": false,
     "delisted": false,
-    "llamaGradeAttestation": false,
     "fees": {
       "revenueModel": "Management Fee",
       "holderTotalFeeBps": 25,

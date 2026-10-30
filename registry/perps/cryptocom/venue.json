@@ -6,9 +6,23 @@
   "published": true,
   "makerFeeBps": 2,
   "takerFeeBps": 4,
-  "oracleProvider": "Pyth Lazer, Chainlink and ICE at equal weights",
   "accessModel": "permissioned",
   "rwaClassification": "programmable-finance",
   "conventionNote": "Funding settles every hour on every RWA perp; Crypto.com publishes no derivatives fee tier below VIP 1 (maker 0.8 bps, taker 2.8 bps), so the base fee is not verified.",
-  "marginAsset": "USD"
+  "roles": [
+    {
+      "organization": "pyth-network",
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://help.crypto.com/en/articles/15285309-perpetual-futures-on-equities"
+      ]
+    },
+    {
+      "organization": "chainlink",
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://help.crypto.com/en/articles/15285309-perpetual-futures-on-equities"
+      ]
+    }
+  ]
 }

@@ -43,7 +43,6 @@
     "attestationFrequency": "Weekly",
     "suspicious": false,
     "delisted": false,
-    "llamaGradeAttestation": false,
     "fees": {
       "revenueModel": "Yield Spread",
       "holderTotalFeeBps": 0,
@@ -56,7 +55,7 @@
       "governanceWhitepaperUrl": "https://gov.ethenafoundation.com",
       "revenueConfidence": "issuer-disclosed",
       "feeLastVerified": "2026-07-02",
-      "revenueNotes": "UPDATE 2026-07-02: The sENA fee switch is NOT active. The May 2026 fee allocation shows no sENA distribution and USDe supply (4.51B) is below the 6B activation threshold after the April 2026 rsETH incident. A real mint-fees revenue line of about 0.9M in May 2026 reflects execution and slippage capture on institutional flows, not a protocol mint fee, so the Mint Fee stays 0 bps. Prior note: Ethena protocol earns ZERO fee on minting or redeeming USDe (slippage/execution-cost-only). Protocol revenue comes from three sources: ~92% funding/basis spread from delta-hedging derivatives, ~7% rewards on liquid stable backing, ~6% staked-asset consensus + execution-layer rewards (as of January 2025). Revenue is automatically distributed to sUSDe (staked USDe) holders via ERC-4626 auto-compounding vault. Reserve fund accrual diverts a portion. Specific protocol fee bps is dynamic and not disclosed as a single number — the effective rate is what sUSDe holders earn vs. underlying. ENA-staker fee switch under governance discussion (Wintermute proposal). Source: https://docs.ethena.fi/solution-overview/protocol-revenue-explanation",
+      "revenueNotes": "UPDATE 2026-07-02: The sENA fee switch is NOT active. The May 2026 fee allocation shows no sENA distribution and USDe supply (4.51B) is below the 6B activation threshold after the April 2026 rsETH incident. A real mint-fees revenue line of about 0.9M in May 2026 reflects execution and slippage capture on institutional flows, not a protocol mint fee, so the Mint Fee stays 0 bps. Prior note: Ethena protocol earns ZERO fee on minting or redeeming USDe (slippage/execution-cost-only). Protocol revenue comes from three sources: ~92% funding/basis spread from delta-hedging derivatives, ~7% rewards on liquid stable backing, ~6% staked-asset consensus + execution-layer rewards (as of January 2025). Revenue is automatically distributed to sUSDe (staked USDe) holders via ERC-4626 auto-compounding vault. Reserve fund accrual diverts a portion. Specific protocol fee bps is dynamic and not disclosed as a single number - the effective rate is what sUSDe holders earn vs. underlying. ENA-staker fee switch under governance discussion (Wintermute proposal). Source: https://docs.ethena.fi/solution-overview/protocol-revenue-explanation",
       "revenueVerificationMethod": "May 2026 governance update (Blockworks Advisory on gov.ethenafoundation.com, posted 2026-06-05) plus docs.ethena.fi revenue pages.",
       "chainShareClassFeeVariants": "USDe earns no yield while sUSDe earns yield with a one-day dynamic cooldown, alongside sENA. Whitelabel stables such as jupUSD, USDm and suiUSDe (about 300M) run on Ethena rails. LayerZero OFT cross-chain transfer is free at the protocol level.",
       "takeRateBasis": "Yield spread. Backing yield accrues to the protocol and is paid out only to the staked share of supply.",

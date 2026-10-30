@@ -33,7 +33,6 @@
     ],
     "attestationFrequency": "N/A (Perp Venue)",
     "suspicious": false,
-    "llamaGradeAttestation": false,
     "fees": {
       "revenueModel": "Maker/Taker Fees + Funding Skim",
       "revenueConfidence": "issuer-disclosed",

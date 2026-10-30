@@ -6,7 +6,7 @@
     "protocolSlug": "hyena"
   },
   "about": {
-    "description": "HyENA is a USDe-margined builder-deployed perpetual venue on Hyperliquid, launched December 9, 2025 by the Based team and backed by the Ethena Foundation. It is the first perpetual DEX to require USDe as collateral, allowing margin to earn integrated staking rewards (announced ~12% APY in launch month) — a \"trade while earning\" experience. HyENA inherits Hyperliquid HIP-3's sub-200ms latency and gas-free order-matching, and within 48 hours of launch logged $50M+ in volume; by early January 2026 it had crossed $440M cumulative volume across 6.5K users, becoming the second-largest permissionless HIP-3 venue.",
+    "description": "HyENA is a USDe-margined builder-deployed perpetual venue on Hyperliquid, launched December 9, 2025 by the Based team and backed by the Ethena Foundation. It is the first perpetual DEX to require USDe as collateral, allowing margin to earn integrated staking rewards (announced ~12% APY in launch month) - a \"trade while earning\" experience. HyENA inherits Hyperliquid HIP-3's sub-200ms latency and gas-free order-matching, and within 48 hours of launch logged $50M+ in volume; by early January 2026 it had crossed $440M cumulative volume across 6.5K users, becoming the second-largest permissionless HIP-3 venue.",
     "logo": "https://icons.llamao.fi/icons/rwa/hyena.png?w=48&h=48",
     "links": {
       "website": [
@@ -21,7 +21,7 @@
         "https://app.hyena.trade/ref/DEFILLAMA"
       ]
     },
-    "registryInfo": "HyENA is built by the Based team — currently the highest-earning Builder in the Hyperliquid ecosystem — with operational and economic support from the Ethena Foundation. Markets are deployed via Hyperliquid HIP-3 and accept Ethena USDe exclusively as collateral. Ethena reportedly receives 50% of trading fees as part of the partnership."
+    "registryInfo": "HyENA is built by the Based team - currently the highest-earning Builder in the Hyperliquid ecosystem - with operational and economic support from the Ethena Foundation. Markets are deployed via Hyperliquid HIP-3 and accept Ethena USDe exclusively as collateral. Ethena reportedly receives 50% of trading fees as part of the partnership."
   },
   "platform": {
     "category": [
@@ -33,7 +33,6 @@
     "attestationFrequency": "N/A (Perp Venue)",
     "suspicious": false,
     "delisted": false,
-    "llamaGradeAttestation": false,
     "fees": {
       "revenueModel": "Maker/Taker Fees + Funding Skim",
       "revenueConfidence": "issuer-disclosed",

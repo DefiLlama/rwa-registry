@@ -6,7 +6,7 @@
     "protocolSlug": "dreamcash"
   },
   "about": {
-    "description": "CASH is Dreamcash's third-party perpetual venue on Hyperliquid, operated by Supreme Liquid Labs and strategically backed by Tether and Selini Capital. The platform offers AI-enhanced trading on equity, ETF, equity-index, and commodity perpetual markets, all margined and cash-settled in USDT0 with up to 40× leverage. Markets appear under the cash namespace on Hyperliquid via HIP-3 builder-deployed perpetuals; the front-end is a self-custodial mobile/web app that abstracts the on-chain experience while keeping settlement transparent.",
+    "description": "CASH is Dreamcash's third-party perpetual venue on Hyperliquid, operated by Supreme Liquid Labs and strategically backed by Tether and Selini Capital. The platform offers AI-enhanced trading on equity, ETF, equity-index, and commodity perpetual markets, all margined and cash-settled in USDT0 with up to 40x leverage. Markets appear under the cash namespace on Hyperliquid via HIP-3 builder-deployed perpetuals; the front-end is a self-custodial mobile/web app that abstracts the on-chain experience while keeping settlement transparent.",
     "logo": "https://icons.llamao.fi/icons/rwa/cash.png?w=48&h=48",
     "links": {
       "website": [
@@ -38,7 +38,6 @@
     "attestationFrequency": "N/A (Perp Venue)",
     "suspicious": false,
     "delisted": false,
-    "llamaGradeAttestation": false,
     "fees": {
       "revenueModel": "Float Income",
       "revenueConfidence": "no-public-data",

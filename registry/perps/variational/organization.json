@@ -17,7 +17,7 @@
       "linkedin": "https://www.linkedin.com/company/variational-io",
       "discord": "https://discord.gg/variational"
     },
-    "registryInfo": "Variational Labs (Columbia-University-origin team). Variational Protocol is a permissionless onchain derivatives infrastructure. Variational Omni is the flagship product — an RFQ perp DEX on Arbitrum with a single professional LP (Omni Liquidity Provider) aggregating CEX/DEX/AMM/OTC liquidity. Zero trading fees model. ~$200B lifetime volume, ~$100M TVL, ranked #4 perp DEX by OI per CoinGecko case study (Apr 2026)."
+    "registryInfo": "Variational Labs (Columbia-University-origin team). Variational Protocol is a permissionless onchain derivatives infrastructure. Variational Omni is the flagship product - an RFQ perp DEX on Arbitrum with a single professional LP (Omni Liquidity Provider) aggregating CEX/DEX/AMM/OTC liquidity. Zero trading fees model. ~$200B lifetime volume, ~$100M TVL, ranked #4 perp DEX by OI per CoinGecko case study (Apr 2026)."
   },
   "platform": {
     "category": [
@@ -29,7 +29,6 @@
     ],
     "suspicious": false,
     "delisted": false,
-    "llamaGradeAttestation": false,
     "fees": {
       "revenueModel": "Spread Capture",
       "feeScheduleUrl": "https://docs.variational.io/omni/trading/fees",

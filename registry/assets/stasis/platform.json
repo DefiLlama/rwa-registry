@@ -18,7 +18,7 @@
       "telegram": "https://t.me/STASIS",
       "github": "https://github.com/stasisnet"
     },
-    "registryInfo": "STASIS – Malta-based fintech group operating the EURS stablecoin, reserves management performed by STSS (Malta) Limited as disclosed in EU transparency and partner documentation."
+    "registryInfo": "STASIS - Malta-based fintech group operating the EURS stablecoin, reserves management performed by STSS (Malta) Limited as disclosed in EU transparency and partner documentation."
   },
   "platform": {
     "category": [
@@ -33,8 +33,7 @@
       "ethereum"
     ],
     "suspicious": false,
-    "delisted": false,
-    "llamaGradeAttestation": false
+    "delisted": false
   },
   "roles": [
     {

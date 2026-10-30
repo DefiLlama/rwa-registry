@@ -4,11 +4,18 @@
   "venueType": "dex",
   "adapter": "ondoperps",
   "published": true,
+  "makerFeeBps": 1,
+  "takerFeeBps": 2.5,
   "accessModel": "permissionless",
   "rwaClassification": "programmable-finance",
   "conventionNote": "Funding is paid hourly, and fees are 0.01% maker and 0.025% taker on every market we list, read live per contract.",
-  "marginAsset": "USDC",
-  "makerFeeBps": 1,
-  "takerFeeBps": 2.5,
-  "oracleProvider": null
+  "roles": [
+    {
+      "organization": "ondo",
+      "kind": "oracle",
+      "sourceLinks": [
+        "https://ondo.finance/blog/introducing-ondo-perps"
+      ]
+    }
+  ]
 }

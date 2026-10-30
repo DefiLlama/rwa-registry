@@ -18,7 +18,7 @@
       "telegram": "N/A (institutional)",
       "github": "N/A (closed source)"
     },
-    "registryInfo": "Franklin Resources, Inc. (NYSE: BEN). Global asset manager with $1.7T+ AUM. Issuer of BENJI (Franklin OnChain US Government Money Fund, FOBXX) — the first SEC-registered 1940 Act money-market fund with on-chain shares, launched April 2021. Multi-chain: Stellar, Polygon, Avalanche, Arbitrum, Base, Aptos.",
+    "registryInfo": "Franklin Resources, Inc. (NYSE: BEN). Global asset manager with $1.7T+ AUM. Issuer of BENJI (Franklin OnChain US Government Money Fund, FOBXX) - the first SEC-registered 1940 Act money-market fund with on-chain shares, launched April 2021. Multi-chain: Stellar, Polygon, Avalanche, Arbitrum, Base, Aptos.",
     "foundedYear": 2021,
     "headquarters": "San Mateo, USA",
     "founders": "Jenny Johnson (President, CEO, Franklin Resources), Roger Bayston (Head of Digital Assets)",
@@ -41,7 +41,6 @@
     "attestationFrequency": "Daily",
     "suspicious": false,
     "delisted": false,
-    "llamaGradeAttestation": false,
     "fees": {
       "revenueModel": "Management Fee",
       "holderTotalFeeBps": 20,
