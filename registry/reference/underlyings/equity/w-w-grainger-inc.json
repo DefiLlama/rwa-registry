@@ -2,5 +2,11 @@
   "slug": "w-w-grainger-inc",
   "name": "W.W. Grainger, Inc.",
   "ticker": "GWW",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US3848021040"
+    }
+  ]
 }

@@ -1,10 +1,13 @@
 {
   "slug": "reddit-inc",
   "name": "Reddit, Inc.",
-  "aliases": [
-    "Reddit"
-  ],
   "ticker": "RDDT",
   "logo": "https://icons.llamao.fi/icons/rwa/rddt.png?w=48&h=48",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US75734B1008"
+    }
+  ]
 }

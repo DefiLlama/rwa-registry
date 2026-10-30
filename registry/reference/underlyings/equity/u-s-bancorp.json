@@ -2,5 +2,11 @@
   "slug": "u-s-bancorp",
   "name": "U.S. Bancorp",
   "ticker": "USB",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US9029733048"
+    }
+  ]
 }

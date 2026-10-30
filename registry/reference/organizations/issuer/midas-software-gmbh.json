@@ -4,6 +4,12 @@
     "name": "Midas Software GmbH"
   },
   "about": {
-    "registryInfo": "Midas Software GmbH - German limited liability company (Gesellschaft mit beschränkter Haftung) organized under German law, issuer of Midas Liquid Yield Tokens (LYTs) including the mF-ONE private credit token backed by Fasanara-originated credit portfolios, as described in Midas protocol documentation."
-  }
+    "registryInfo": "Midas Software GmbH - German limited liability company (Gesellschaft mit beschränkter Haftung) organized under German law, issuer of Midas Liquid Yield Tokens (LYTs) including the mF-ONE private credit token backed by Fasanara-originated credit portfolios, as described in Midas protocol documentation. Registered with Amtsgericht Berlin-Charlottenburg under HRB 254645, registered office Pappelallee 78/79, 10437 Berlin, LEI 984500BB00BN6D2B7C48."
+  },
+  "identifiers": [
+    {
+      "scheme": "lei",
+      "value": "984500BB00BN6D2B7C48"
+    }
+  ]
 }

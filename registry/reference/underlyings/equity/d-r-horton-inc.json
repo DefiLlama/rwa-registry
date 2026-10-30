@@ -2,5 +2,11 @@
   "slug": "d-r-horton-inc",
   "name": "D.R. Horton, Inc.",
   "ticker": "DHI",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US23331A1097"
+    }
+  ]
 }
