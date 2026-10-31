@@ -5,8 +5,6 @@
 import { ARRAY_TABLES, type TableName } from '../schema/enums';
 
 export const REGISTRY_DIR = 'registry';
-// The acks sit beside registry/ at the repository root, so a path names them from the registry folder.
-export const ACKS_DIR = '../acks';
 
 type FileRow = Record<string, unknown>;
 export type FileTable = Exclude<TableName, 'deployment' | 'role' | 'event' | 'address_label'>;
@@ -70,10 +68,10 @@ const LAYOUT: Home[] = [
     file: (row) => `perps/${row.venue}/${String(row.symbol).toLowerCase()}.json`,
   },
   {
-    pattern: /^\.\.\/acks\/([^/]+)\/[^/]+\.json$/,
+    pattern: /^acks\/([^/]+)\/[^/]+\.json$/,
     table: 'ack',
     implied: (match) => match[1],
-    file: (row) => `${ACKS_DIR}/${row.kind}/${row.slug}.json`,
+    file: (row) => `acks/${row.kind}/${row.slug}.json`,
   },
 ];
 

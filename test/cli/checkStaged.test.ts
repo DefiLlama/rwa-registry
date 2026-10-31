@@ -5,15 +5,15 @@ import { ackFile, baseTree, tslaxFile, writeTree } from '../fixtures/tree';
 
 describe('checkStaged', () => {
   it('stages the acks beside the registry, so a removed ack is found and a new one is checked', () => {
-    const root = writeTree({ ...baseTree(), '../acks/flows-hidden/tslax.json': ackFile() });
+    const root = writeTree({ ...baseTree(), 'acks/flows-hidden/tslax.json': ackFile() });
     const before = loadRegistry(root);
 
     const problems = checkStaged(root, before, [
-      { path: '../acks/flows-hidden/tslax.json', text: '', remove: true },
-      { path: '../acks/flows-hidden/nope.json', text: JSON.stringify(ackFile({ slug: 'nope', asset: 'nope' })) },
+      { path: 'acks/flows-hidden/tslax.json', text: '', remove: true },
+      { path: 'acks/flows-hidden/nope.json', text: JSON.stringify(ackFile({ slug: 'nope', asset: 'nope' })) },
     ]);
 
-    expect(problems.map((problem) => problem.file)).toEqual(['../acks/flows-hidden/nope.json']);
+    expect(problems.map((problem) => problem.file)).toEqual(['acks/flows-hidden/nope.json']);
   });
 
   it('lets a write bring a new undated deployment with an address, which validate only warns on', () => {

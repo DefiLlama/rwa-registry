@@ -2,10 +2,10 @@
  * checkStaged: the errors new, changed or removed files bring, found by loading a copy of the registry with them in place.
  * @dev review: src/registry/loadRegistry.ts
  */
-import { constants, cpSync, existsSync, mkdirSync, mkdtempSync, rmSync, writeFileSync } from 'node:fs';
+import { constants, cpSync, mkdirSync, mkdtempSync, rmSync, writeFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { dirname, join } from 'node:path';
-import { ACKS_DIR, loadRegistry, type Problem } from '../registry';
+import { loadRegistry, type Problem } from '../registry';
 import { problemId } from '../registry/problem';
 
 export interface StagedFile {
@@ -19,9 +19,6 @@ export const checkStaged = (root: string, before: { problems: Problem[] }, files
   try {
     const copy = join(stage, 'registry');
     cpSync(root, copy, { recursive: true, mode: constants.COPYFILE_FICLONE });
-    // The acks sit beside the registry, so the copy gets them beside it too.
-    const acks = join(root, ACKS_DIR);
-    if (existsSync(acks)) cpSync(acks, join(copy, ACKS_DIR), { recursive: true, mode: constants.COPYFILE_FICLONE });
     for (const file of files) {
       if (file.remove) {
         rmSync(join(copy, file.path));

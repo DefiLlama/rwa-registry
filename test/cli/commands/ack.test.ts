@@ -100,7 +100,7 @@ describe('ack', () => {
       const after = await runCli(['validate', '--registry', root]);
 
       expect(code).toBe(0);
-      expect(Object.entries(readJson(root, `../acks/${file}`))).toEqual(
+      expect(Object.entries(readJson(root, `acks/${file}`))).toEqual(
         Object.entries({ ...content, reason: 'test', resolve: 'test' }),
       );
       expect(after.lines).toEqual(before.lines);
@@ -113,7 +113,7 @@ describe('ack', () => {
     const { code } = await runCli(['ack', 'flows-hidden', 'tslax', '--registry', root, '--day', '2026-09-07', ...why]);
 
     expect(code).toBe(1);
-    expect(existsSync(join(root, '../acks/flows-hidden/tslax.json'))).toBe(false);
+    expect(existsSync(join(root, 'acks/flows-hidden/tslax.json'))).toBe(false);
   });
 });
 
@@ -135,7 +135,7 @@ describe('ack, asked', () => {
     expect(question('target').choices).toEqual(['tslax']);
     expect(question('from').default).toBe(today());
     expect(prompter.asked.at(-1)!.message).toContain('most blocked value: 1000');
-    expect(readJson(root, '../acks/asset-move/tslax.json')).toEqual({
+    expect(readJson(root, 'acks/asset-move/tslax.json')).toEqual({
       slug: 'tslax',
       asset: 'tslax',
       from: today(),
@@ -161,7 +161,7 @@ describe('ack, asked', () => {
     ]);
     expect(jump.keys()).toEqual(['reason', 'resolve', 'day', 'confirm']);
     expect(code).toBe(0);
-    expect(readJson(root, '../acks/aggregate-jump/tslax-2026-09-07.json').day).toBe('2026-09-07');
+    expect(readJson(root, 'acks/aggregate-jump/tslax-2026-09-07.json').day).toBe('2026-09-07');
   });
 
   it('asks a series target as text and the two days of a drift', async () => {
@@ -177,7 +177,7 @@ describe('ack, asked', () => {
       message: 'What does the ack cover? *',
       lines: ['Example: chain/ethereum, or * for every series'],
     });
-    expect(existsSync(join(root, '../acks/drift/chain-ethereum-2026-10-01.json'))).toBe(true);
+    expect(existsSync(join(root, 'acks/drift/chain-ethereum-2026-10-01.json'))).toBe(true);
   });
 
   it('refuses a field its kind requires under --no-input', async () => {

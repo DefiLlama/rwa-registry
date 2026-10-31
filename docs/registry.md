@@ -14,7 +14,7 @@
 | `perps/<venue>/venue.json`                   | the venue                               |
 | `perps/<venue>/organization.json`            | its operator, unless that is a platform |
 | `perps/<venue>/<symbol>.json`                | a market, its symbol lowercased         |
-| `../acks/<kind>/<slug>.json`                 | an ack ([acks.md](acks.md))             |
+| `acks/<kind>/<slug>.json`                    | an ack ([acks.md](acks.md))             |
 
 ## Naming
 

@@ -139,7 +139,7 @@ export const baseTree = (): Tree => ({
   'perps/xyz/tsla.json': tslaMarketFile(),
 });
 
-// The registry sits in a folder of its own, so the acks beside it (../acks/) stay inside the test's folder.
+// The registry sits in a folder of its own inside a temporary folder.
 export const writeTree = (tree: Tree): string => {
   const root = join(mkdtempSync(join(tmpdir(), 'rwa-registry-')), 'registry');
   for (const [path, content] of Object.entries(tree)) {

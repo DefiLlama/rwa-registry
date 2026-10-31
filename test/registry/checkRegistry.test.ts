@@ -211,8 +211,8 @@ describe('checkRegistry', () => {
       registryOf({
         ...baseTree(),
         'assets/xstocks/tslax.json': { ...tslax, roles: [role] },
-        '../acks/flows-hidden/tslax.json': ackFile({ until: '2026-01-01' }),
-        '../acks/drift/chain-ethereum-2026-06-01.json': {
+        'acks/flows-hidden/tslax.json': ackFile({ until: '2026-01-01' }),
+        'acks/drift/chain-ethereum-2026-06-01.json': {
           slug: 'chain-ethereum-2026-06-01',
           series: 'chain/ethereum',
           firstDay: '2026-06-01',
@@ -224,8 +224,8 @@ describe('checkRegistry', () => {
 
     expect(problems.map((problem) => [problem.error, problem.file, problem.path])).toEqual([
       ['DateOrderError', 'assets/xstocks/tslax.json', 'roles[0].from'],
-      ['DateOrderError', '../acks/flows-hidden/tslax.json', 'from'],
-      ['DateOrderError', '../acks/drift/chain-ethereum-2026-06-01.json', 'firstDay'],
+      ['DateOrderError', 'acks/flows-hidden/tslax.json', 'from'],
+      ['DateOrderError', 'acks/drift/chain-ethereum-2026-06-01.json', 'firstDay'],
     ]);
   });
 
@@ -233,14 +233,14 @@ describe('checkRegistry', () => {
     const problems = checkRegistry(
       registryOf({
         ...baseTree(),
-        '../acks/flows-hidden/nope.json': ackFile({ slug: 'nope', asset: 'nope' }),
-        '../acks/perps-venue/nope.json': { ...ackFile({ slug: 'nope', venue: 'nope' }), asset: undefined },
+        'acks/flows-hidden/nope.json': ackFile({ slug: 'nope', asset: 'nope' }),
+        'acks/perps-venue/nope.json': { ...ackFile({ slug: 'nope', venue: 'nope' }), asset: undefined },
       }),
     );
 
     expect(problems.map((problem) => [problem.error, problem.file, problem.path])).toEqual([
-      ['DanglingReferenceError', '../acks/flows-hidden/nope.json', 'asset'],
-      ['DanglingReferenceError', '../acks/perps-venue/nope.json', 'venue'],
+      ['DanglingReferenceError', 'acks/flows-hidden/nope.json', 'asset'],
+      ['DanglingReferenceError', 'acks/perps-venue/nope.json', 'venue'],
     ]);
   });
 
@@ -248,15 +248,15 @@ describe('checkRegistry', () => {
     const problems = checkRegistry(
       registryOf({
         ...baseTree(),
-        '../acks/flows/tslax.json': ackFile(),
-        '../acks/single-point/tslax.json': ackFile({ day: '2026-06-01' }),
+        'acks/flows/tslax.json': ackFile(),
+        'acks/single-point/tslax.json': ackFile({ day: '2026-06-01' }),
       }),
     );
 
     expect(problems.map((problem) => [problem.error, problem.file, problem.path])).toEqual([
-      ['UnknownPathError', '../acks/flows/tslax.json', ''],
-      ['SchemaError', '../acks/single-point/tslax.json', 'maxValueUsd'],
-      ['SchemaError', '../acks/single-point/tslax.json', 'day'],
+      ['UnknownPathError', 'acks/flows/tslax.json', ''],
+      ['SchemaError', 'acks/single-point/tslax.json', 'maxValueUsd'],
+      ['SchemaError', 'acks/single-point/tslax.json', 'day'],
     ]);
   });
 

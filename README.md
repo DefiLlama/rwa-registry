@@ -18,8 +18,7 @@ pnpm format:check
 
 ## Layout
 
-- `registry/`: the data, one file per row ([docs/registry.md](docs/registry.md)).
-- `acks/`: guard exceptions, one file each ([docs/acks.md](docs/acks.md)).
+- `registry/`: the data, one file per row, and the guard exceptions in `acks/` ([docs/registry.md](docs/registry.md), [docs/acks.md](docs/acks.md)).
 - `templates/`: one file per `add` command, for `--from` ([templates/README.md](templates/README.md)).
 - `src/`: `schema`, `registry` (loading and checks), `cli`, `build`, `discover`.
 - `schema/json/`: the JSON Schema of each table, for editors.

@@ -5,7 +5,7 @@
 import { existsSync, readFileSync } from 'node:fs';
 import { join, relative } from 'node:path';
 import { CliError, FlagFormatError, MissingFieldError, NoSuchRowError, RowExistsError } from '../errors/cli';
-import { ACKS_DIR, loadRegistry } from '../registry';
+import { loadRegistry } from '../registry';
 import { fileWithReviewFlags } from '../registry/reviewFlags';
 import type { Registry } from '../schema';
 import { dayOf } from '../utils/days';
@@ -85,7 +85,7 @@ const conflictsOf = (root: string, files: FileToWrite[]) =>
   files.flatMap((file) => {
     const at = join(root, file.path);
     const inside = (dir: string) => !relative(dir, at).startsWith('..');
-    if (!inside(root) && !inside(join(root, ACKS_DIR))) {
+    if (!inside(root)) {
       return [new FlagFormatError({ file: at, message: 'is outside the registry; a slug flag holds no / or ..' })];
     }
     const exists = existsSync(at);

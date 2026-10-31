@@ -2,7 +2,7 @@
  * loadRegistry: every file under registry/ parsed by its table schema, nested rows flattened, then every check run.
  * @dev review: src/registry/layout.ts
  */
-import { existsSync, readdirSync, readFileSync } from 'node:fs';
+import { readdirSync, readFileSync } from 'node:fs';
 import { join, relative, sep } from 'node:path';
 import { SchemaError, UnknownPathError } from '../errors';
 import {
@@ -20,7 +20,7 @@ import {
 import { isObject } from '../utils/isObject';
 import { checkRegistry } from './checks';
 import { keyOf, type AnyRow } from './keys';
-import { ACKS_DIR, homeOf } from './layout';
+import { homeOf } from './layout';
 import { toProblem, type Problem } from './problem';
 import { joinPath, place } from './place';
 
@@ -29,9 +29,6 @@ const listFiles = (root: string): string[] =>
     .filter((entry) => entry.isFile() && !entry.name.startsWith('.'))
     .map((entry) => relative(root, join(entry.parentPath, entry.name)).split(sep).join('/'))
     .sort();
-
-const listAcks = (root: string): string[] =>
-  existsSync(join(root, ACKS_DIR)) ? listFiles(join(root, ACKS_DIR)).map((file) => `${ACKS_DIR}/${file}`) : [];
 
 const flatten = (registry: Registry, table: TableName, written: AnyRow, link: unknown, at: { file: string; path: string }) => {
   const definition = tables[table];
@@ -73,7 +70,7 @@ export const vocabulariesOf = (registry: Registry): Vocabularies => {
 const loadFile = (registry: Registry, file: string, json: unknown, vocabularies?: Vocabularies): Problem[] => {
   const home = homeOf(file);
   if (!home) {
-    const message = `${file} is not a file the registry tree holds: reference/, assets/ or perps/, and acks/ beside registry/`;
+    const message = `${file} is not a file the registry tree holds: reference/, assets/, perps/ or acks/`;
     return [toProblem(new UnknownPathError({ file, path: '', message }))];
   }
   if (home.table === 'vocabulary' && !VOCABULARY_NAMES.includes(home.implied as VocabularyName)) {
@@ -96,8 +93,6 @@ const loadFile = (registry: Registry, file: string, json: unknown, vocabularies?
 const isVocabularyFile = (file: string): boolean => homeOf(file)?.table === 'vocabulary';
 
 // Every file of the registry folder and of the acks beside it, as paths from the registry folder, in name order.
-const registryFiles = (root: string): string[] => [...listFiles(root), ...listAcks(root)];
-
 const emptyRegistry = (): Registry =>
   Object.fromEntries(TABLE_NAMES.map((table) => [table, []])) as unknown as Registry;
 
@@ -105,7 +100,7 @@ const emptyRegistry = (): Registry =>
 export const loadRegistry = (root: string, day?: string): { registry: Registry; problems: Problem[] } => {
   const registry = emptyRegistry();
   const problems: Problem[] = [];
-  const files = registryFiles(root);
+  const files = listFiles(root);
   const read = (file: string) => readJson(root, file, problems);
   for (const file of files.filter(isVocabularyFile)) {
     const json = read(file);

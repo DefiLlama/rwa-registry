@@ -2,7 +2,7 @@
 
 An ack is an accepted exception to a server guard: it says why an alert or a block is fine, and which step ends it.
 
-Acks live in `acks/<kind>/<slug>.json`, beside `registry/`, since an exception is not a fact about a row. `validate` checks them, and `registry.json` carries them in its `ack` table.
+Acks live in `registry/acks/<kind>/<slug>.json`. `validate` checks them, and `registry.json` carries them in its `ack` table.
 
 ## Kinds
 
@@ -70,5 +70,5 @@ pnpm rwa ack drift chain/ethereum --first-day 2026-10-01 --last-day 2026-10-02 -
 To end an ack, delete its file, or set its last day:
 
 ```sh
-pnpm rwa set ../acks/<kind>/<slug>.json until <date>
+pnpm rwa set registry/acks/<kind>/<slug>.json until <date>
 ```

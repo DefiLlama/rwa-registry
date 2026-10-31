@@ -4,7 +4,7 @@
  */
 import { existsSync, mkdirSync, writeFileSync } from 'node:fs';
 import { join, relative, resolve, sep } from 'node:path';
-import { ACKS_DIR, fileProblems, loadRegistry, type Problem } from '../../registry';
+import { fileProblems, loadRegistry, type Problem } from '../../registry';
 import { groupBy } from '../../utils/groupBy';
 import { toCsv } from '../../utils/toCsv';
 import type { CliCommand } from '../index';
@@ -27,8 +27,7 @@ const writeAudit = (out: string, kind: string, rows: Problem[]): string => {
 const registryPath = (root: string, path: string): { file: string } | { error: string } => {
   if (!existsSync(path)) return { error: 'no such file' };
   const file = relative(resolve(root), resolve(path)).split(sep).join('/');
-  const inside = !file.startsWith('..') || file.startsWith(`${ACKS_DIR}/`);
-  return inside ? { file } : { error: `is not in the registry folder ${root} or its acks` };
+  return file.startsWith('..') ? { error: `is not in the registry folder ${root}` } : { file };
 };
 
 export const validate: CliCommand = {

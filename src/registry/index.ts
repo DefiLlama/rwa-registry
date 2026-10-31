@@ -8,7 +8,7 @@ export { deriveFields, latestOf } from './deriveFields';
 export { rowSlug, rwaSlug } from './rwaSlug';
 export { nextAssetKeys } from './nextAssetKeys';
 export { keyOf, marketId } from './keys';
-export { ACKS_DIR, homeFile, marketFile, platformFile, REGISTRY_DIR } from './layout';
+export { homeFile, marketFile, platformFile, REGISTRY_DIR } from './layout';
 export { fileOf } from './place';
 export { fileProblems } from './fileProblems';
 export { moveReferences } from './moveReferences';
