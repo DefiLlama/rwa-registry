@@ -15,5 +15,19 @@
   },
   "about": {
     "description": "BB is a perpetual on BounceBit listed on Aster, settled in USDT."
-  }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": true
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": "2026-10-31",
+      "reason": "Tracks the crypto token BounceBit, not a real-world asset",
+      "links": [
+        "https://www.coingecko.com/en/coins/bouncebit"
+      ]
+    }
+  ]
 }

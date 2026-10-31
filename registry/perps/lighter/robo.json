@@ -14,10 +14,24 @@
   "about": {
     "description": "ROBO is a perpetual on Fabric Protocol listed on Lighter, settled in USDC."
   },
+  "review": {
+    "suspicious": false,
+    "delisted": true
+  },
   "roles": [
     {
       "organization": "chainlink",
       "kind": "oracle"
+    }
+  ],
+  "events": [
+    {
+      "kind": "delisting",
+      "date": "2026-10-31",
+      "reason": "Tracks the crypto token Fabric Protocol, not a real-world asset",
+      "links": [
+        "https://www.coingecko.com/en/coins/robo-token-2"
+      ]
     }
   ]
 }

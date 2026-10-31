@@ -13,5 +13,19 @@
   },
   "about": {
     "description": "O is a perpetual on o1.exchange listed on Variational, settled in USDC."
-  }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": true
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": "2026-10-31",
+      "reason": "Tracks the crypto token o1.exchange, not a real-world asset",
+      "links": [
+        "https://www.coingecko.com/en/coins/o1-exchange"
+      ]
+    }
+  ]
 }

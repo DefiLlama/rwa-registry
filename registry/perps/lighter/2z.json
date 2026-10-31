@@ -13,5 +13,19 @@
   },
   "about": {
     "description": "2Z is a perpetual on DoubleZero listed on Lighter, settled in USDC."
-  }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": true
+  },
+  "events": [
+    {
+      "kind": "delisting",
+      "date": "2026-10-31",
+      "reason": "Tracks the crypto token DoubleZero, not a real-world asset",
+      "links": [
+        "https://www.coingecko.com/en/coins/doublezero"
+      ]
+    }
+  ]
 }
