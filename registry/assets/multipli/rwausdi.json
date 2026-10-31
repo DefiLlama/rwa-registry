@@ -44,20 +44,26 @@
       "chain": "ethereum",
       "address": "0xa39986f96b80d04e8d7aeaaf47175f47c23fd0f4",
       "deployedAt": "2025-11-23",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     },
     {
       "chain": "monad",
       "address": "0x650b616b46ff94000eb115926ab8393b90788d76",
-      "deployedAt": "2026-02-27"
+      "deployedAt": "2026-02-27",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "base",
-      "address": null
+      "address": "0xd74fb32112b1ef5b4c428fead8da8d85a0019009",
+      "deployedAt": "2026-01-20",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "arbitrum",
-      "address": null
+      "address": "0xa39986f96b80d04e8d7aeaaf47175f47c23fd0f4",
+      "deployedAt": "2026-03-25",
+      "deployedAtBasis": "contract-creation"
     }
   ],
   "roles": [

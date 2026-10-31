@@ -45,6 +45,7 @@
       "chain": "solana",
       "address": "5VzwKkvynPJzcgwhBe7ESEyNgqMbo15yBu7Sehssd9ED",
       "deployedAt": "2026-06-29",
+      "deployedAtBasis": "first-signature",
       "primary": true,
       "labels": [
         {
@@ -61,6 +62,7 @@
       "chain": "avax",
       "address": "0x5954ff4099ac47c4d6d098a9216f3278bb8c9506",
       "deployedAt": "2026-06-29",
+      "deployedAtBasis": "first-code",
       "labels": [
         {
           "address": "0x59c1eacec450c57dcb9b8725d0f96635c2b676ee",

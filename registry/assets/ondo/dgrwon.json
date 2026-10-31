@@ -36,7 +36,7 @@
     ]
   },
   "about": {
-    "description": "DGRWon is an Ondo Global Markets tokenized ETF exposure designed to provide economic exposure to =SUBSTITUTE(A136, \", \") in an onchain format. The token is designed to be fully backed by the underlying publicly traded ETF, together with cash in transit, held with regulated custodial broker-dealers. Holdings attestations and ongoing reporting are surfaced through Ondo trust and transparency materials and the product asset page. Tokenholders are not shareholders of the underlying and do not receive shareholder voting rights. Distributions, where applicable, are reflected through total return mechanics and reinvestment adjustments.",
+    "description": "DGRWon is an Ondo Global Markets tokenized ETF exposure designed to provide economic exposure to WisdomTree US Quality Dividend Growth Fund in an onchain format. The token is designed to be fully backed by the underlying publicly traded ETF, together with cash in transit, held with regulated custodial broker-dealers. Holdings attestations and ongoing reporting are surfaced through Ondo trust and transparency materials and the product asset page. Tokenholders are not shareholders of the underlying and do not receive shareholder voting rights. Distributions, where applicable, are reflected through total return mechanics and reinvestment adjustments.",
     "logo": "https://icons.llamao.fi/icons/rwa/dgrw.png?w=48&h=48",
     "links": {
       "website": [
@@ -54,27 +54,32 @@
       "chain": "ethereum",
       "address": "0x81eb954936a7062d1758fc0e6e3b88d42d9c361c",
       "deployedAt": "2025-12-10",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     },
     {
       "chain": "ethereum",
       "address": "0x8e950f52c3b050a4c81068c2cce389522d2533f7",
-      "deployedAt": "2025-12-10"
+      "deployedAt": "2025-12-10",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "bsc",
       "address": "0x1cd89241b26fcdc421fd02907d6504c8abbfe1bc",
-      "deployedAt": "2025-12-10"
+      "deployedAt": "2025-12-10",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "bsc",
       "address": "0xd7e2812ddbd8edf27ceb1a7acd196b84d974110b",
-      "deployedAt": "2025-12-10"
+      "deployedAt": "2025-12-10",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "solana",
       "address": "gnoSQSNTNZHViqVfxCcPDVxcRA29mrJL7C6JqYLondo",
-      "deployedAt": "2025-12-31"
+      "deployedAt": "2025-12-31",
+      "deployedAtBasis": "first-signature"
     }
   ],
   "roles": [

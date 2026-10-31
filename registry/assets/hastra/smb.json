@@ -46,12 +46,14 @@
       "chain": "ethereum",
       "address": "0xbd49537cc9105e8c1651ed12b94cd9a3d79bf3d9",
       "deployedAt": "2026-06-18",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     },
     {
       "chain": "solana",
       "address": "Gbnmn7yywbbzmGjWwvwRD2KBWbNxA35CRyaVk3Faou3C",
-      "deployedAt": "2026-06-23"
+      "deployedAt": "2026-06-23",
+      "deployedAtBasis": "first-signature"
     }
   ],
   "roles": [

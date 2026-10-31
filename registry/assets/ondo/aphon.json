@@ -25,14 +25,6 @@
     "yieldBearing": false,
     "attestationFrequency": "Daily"
   },
-  "sources": {
-    "identifiers": [
-      {
-        "scheme": "isin",
-        "value": "US0320951017"
-      }
-    ]
-  },
   "about": {
     "description": "APHon is an Ondo Global Markets tokenized stock exposure designed to provide economic exposure to Amphenol in an onchain format. The token is designed to be fully backed by the underlying publicly traded asset, together with cash in transit, held with regulated custodial broker-dealers. Holdings attestations and ongoing reporting are surfaced through Ondo trust and transparency materials and the product asset page. Tokenholders are not shareholders of the underlying and do not receive shareholder voting rights. Dividend value is reflected through total return mechanics. Ondo Global Markets adjusts the token to account for dividends net of withholding taxes and reinvests that value into additional shares, increasing the shares per token over time instead of paying cash dividends directly to tokenholders.",
     "logo": "https://icons.llamao.fi/icons/rwa/aph.png?w=48&h=48",
@@ -52,17 +44,20 @@
       "chain": "ethereum",
       "address": "0xd9c1b5df94063177cf168680b695a417919ae1ae",
       "deployedAt": "2026-05-30",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     },
     {
       "chain": "bsc",
       "address": "0x70afc3a600f843d2018df16b0b316e4bc9c603e9",
-      "deployedAt": "2026-05-30"
+      "deployedAt": "2026-05-30",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "solana",
       "address": "fFTZ9Jckm2X811mdqRBS4ckMz5bRAJVjH4Jwofwondo",
-      "deployedAt": "2026-05-29"
+      "deployedAt": "2026-05-29",
+      "deployedAtBasis": "first-signature"
     }
   ],
   "roles": [

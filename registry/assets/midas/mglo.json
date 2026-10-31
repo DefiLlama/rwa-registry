@@ -27,6 +27,7 @@
     "attestationFrequency": "Continuous (Midas Attestation Engine, Chainlink + vlayer)"
   },
   "about": {
+    "description": "The mGLO token provides exposure to Fasanara's Global Fund, which follows an asset-backed lending strategy investing primarily in trade receivables and digital invoices bought from SMEs.",
     "logo": "https://icons.llamao.fi/icons/rwa/mglo.png?w=48&h=48",
     "links": {
       "website": [
@@ -43,17 +44,20 @@
     {
       "chain": "base",
       "address": "0xfcc9cc1209651ed8867332d6f664cf82743a2584",
-      "deployedAt": "2026-06-15"
+      "deployedAt": "2026-06-15",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "ethereum",
       "address": "0x1dd91a111606382b77a917633ed90feaf25e0f76",
-      "deployedAt": "2026-07-13"
+      "deployedAt": "2026-07-13",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "robinhood",
       "address": "0xfed493f38c1aacb4ea4e6a11f8b9287849ee0096",
       "deployedAt": "2026-06-17",
+      "deployedAtBasis": "first-code",
       "primary": true
     }
   ],

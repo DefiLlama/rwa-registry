@@ -27,7 +27,7 @@
     "attestationFrequency": "Continuous"
   },
   "sources": {
-    "coingeckoId": "strategy-bstocks-tokenized-stock",
+    "coingeckoId": "strategy-tokenized-bstocks",
     "identifiers": [
       {
         "scheme": "isin",
@@ -53,6 +53,7 @@
       "chain": "bsc",
       "address": "0xe87afb3076aeb0f9b14e368de8145ae6a2826a14",
       "deployedAt": "2026-06-16",
+      "deployedAtBasis": "first-code",
       "primary": true
     }
   ],

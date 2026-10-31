@@ -43,6 +43,7 @@
       "chain": "ethereum",
       "address": "0x4867ad1a74b38b0aeff4fff251ed0dadae4f4630",
       "deployedAt": "2026-02-01",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -74,7 +75,8 @@
     {
       "chain": "hsk",
       "address": "0x2e7a60c1ff23c966d7e644782c8ca03137a00b5f",
-      "deployedAt": null
+      "deployedAt": "2026-01-31",
+      "deployedAtBasis": "first-code"
     }
   ],
   "roles": [

@@ -7,7 +7,7 @@
     "canonicalMarketId": "KORUrh"
   },
   "exposure": {
-    "underlying": "direxion-daily-msci-south-korea-bull-3x-etf"
+    "underlying": "direxion-daily-msci-south-korea-bull-3x-shares"
   },
   "class": {
     "structure": "synthetic-stock",
@@ -41,6 +41,7 @@
       "chain": "arbitrum",
       "address": "0xbe4da14a0ae1e07ac0f6d0b09af59e5123389d54",
       "deployedAt": "2025-12-17",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {

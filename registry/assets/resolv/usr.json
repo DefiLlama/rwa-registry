@@ -46,27 +46,32 @@
     {
       "chain": "arbitrum",
       "address": "0x2492d0006411af6c8bbb1c8afc1b0197350a79e9",
-      "deployedAt": "2024-11-21"
+      "deployedAt": "2024-11-21",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "base",
       "address": "0x35e5db674d8e93a03d814fa0ada70731efe8a4b9",
-      "deployedAt": "2024-11-20"
+      "deployedAt": "2024-11-20",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "berachain",
       "address": "0x2492d0006411af6c8bbb1c8afc1b0197350a79e9",
-      "deployedAt": "2025-02-23"
+      "deployedAt": "2025-02-23",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "bsc",
       "address": "0x2492d0006411af6c8bbb1c8afc1b0197350a79e9",
-      "deployedAt": "2025-04-10"
+      "deployedAt": "2025-04-10",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "ethereum",
       "address": "0x66a1e37c9b0eaddca17d3662d6c05f4decf3e110",
       "deployedAt": "2024-06-02",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -78,22 +83,26 @@
     {
       "chain": "hyperliquid",
       "address": "0x0ad339d66bf4aed5ce31c64bc37b3244b6394a77",
-      "deployedAt": "2025-04-24"
+      "deployedAt": "2025-04-24",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "plasma",
       "address": "0xb1b385542b6e80f77b94393ba8342c3af699f15c",
-      "deployedAt": "2025-09-24"
+      "deployedAt": "2025-09-24",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "soneium",
       "address": "0xb1b385542b6e80f77b94393ba8342c3af699f15c",
-      "deployedAt": "2025-06-25"
+      "deployedAt": "2025-06-25",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "tac",
       "address": "0xb1b385542b6e80f77b94393ba8342c3af699f15c",
-      "deployedAt": "2025-07-10"
+      "deployedAt": "2025-07-10",
+      "deployedAtBasis": "first-code"
     }
   ],
   "roles": [

@@ -30,7 +30,7 @@
     "coingeckoId": "crowdstrike-ondo-tokenized-stocks"
   },
   "about": {
-    "description": "CRWDon is an Ondo Global Markets tokenized stock exposure designed to provide economic exposure to =SUBSTITUTE(A132, \", \") in an onchain format. The token is designed to be fully backed by the underlying publicly traded asset, together with cash in transit, held with regulated custodial broker-dealers. Holdings attestations and ongoing reporting are surfaced through Ondo trust and transparency materials and the product asset page. Tokenholders are not shareholders of the underlying and do not receive shareholder voting rights. Dividend value is reflected through total return mechanics, and where applicable, dividends are reflected through reinvestment adjustments instead of cash dividends.",
+    "description": "CRWDon is an Ondo Global Markets tokenized stock exposure designed to provide economic exposure to CrowdStrike Holdings, Inc. in an onchain format. The token is designed to be fully backed by the underlying publicly traded asset, together with cash in transit, held with regulated custodial broker-dealers. Holdings attestations and ongoing reporting are surfaced through Ondo trust and transparency materials and the product asset page. Tokenholders are not shareholders of the underlying and do not receive shareholder voting rights. Dividend value is reflected through total return mechanics, and where applicable, dividends are reflected through reinvestment adjustments instead of cash dividends.",
     "logo": "https://icons.llamao.fi/icons/rwa/crwd.png?w=48&h=48",
     "links": {
       "website": [
@@ -48,27 +48,32 @@
       "chain": "ethereum",
       "address": "0xcac9aafb2cf51645ae1ab4fb1f35f07d42437f80",
       "deployedAt": "2025-12-10",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     },
     {
       "chain": "ethereum",
       "address": "0xb3a16e1baeef44ee743914709c2d6af888122a59",
-      "deployedAt": "2025-12-10"
+      "deployedAt": "2025-12-10",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "bsc",
       "address": "0xe6837794fbc6dd024733a1a31f86061296fa2752",
-      "deployedAt": "2025-12-10"
+      "deployedAt": "2025-12-10",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "bsc",
       "address": "0xba8cb14cc1085397716d62ef8d12a6f7aa129c3d",
-      "deployedAt": "2025-12-10"
+      "deployedAt": "2025-12-10",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "solana",
       "address": "cdKfoNjbXgnSuxvoajhtH3uixfZhq1YXhQsS1Rwondo",
-      "deployedAt": "2025-12-31"
+      "deployedAt": "2025-12-31",
+      "deployedAtBasis": "first-signature"
     }
   ],
   "roles": [

@@ -27,7 +27,7 @@
     "attestationFrequency": "Random intervals (per whitepaper)"
   },
   "sources": {
-    "coingeckoId": "dinari-spsk",
+    "coingeckoId": "sp-funds-dow-jones-global-sukuk-etf-dinari-tokenized-etf",
     "identifiers": [
       {
         "scheme": "isin",
@@ -54,6 +54,7 @@
       "chain": "arbitrum",
       "address": "0xa213072a726062aca3c07839b7e531f101740c5c",
       "deployedAt": "2024-12-02",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -72,19 +73,27 @@
     },
     {
       "chain": "ethereum",
-      "address": null
+      "address": "0x9c879a1c2021bd0594750c148f37176395be0b8f",
+      "deployedAt": "2024-12-13",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "base",
-      "address": null
+      "address": "0x9fd7bc3de3c1dd6041efbcbac43250da7b718a43",
+      "deployedAt": "2024-12-03",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "blast",
-      "address": null
+      "address": "0x0e576b0c554fbaef9893a2cd7b866af516bab581",
+      "deployedAt": "2024-12-03",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "plume_mainnet",
-      "address": null
+      "address": "0xd7ea68af5adbb1d715cf4b8c06660bcb213deece",
+      "deployedAt": "2025-04-26",
+      "deployedAtBasis": "first-code"
     }
   ],
   "roles": [

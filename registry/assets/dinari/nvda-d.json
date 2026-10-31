@@ -27,7 +27,7 @@
     "attestationFrequency": "Random intervals (per whitepaper)"
   },
   "sources": {
-    "coingeckoId": "dinari-nvda-dshares",
+    "coingeckoId": "nvidia-dinari-tokenized-stock",
     "identifiers": [
       {
         "scheme": "isin",
@@ -54,6 +54,7 @@
       "chain": "arbitrum",
       "address": "0x4dafffddea93ddf1e0e7b61e844331455053ce5c",
       "deployedAt": "2023-11-13",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -72,19 +73,25 @@
     },
     {
       "chain": "ethereum",
-      "address": null
+      "address": "0x62ec03c917face0e6841afdafc166bf571e55e4f",
+      "deployedAt": "2024-02-27",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "base",
-      "address": null
+      "address": "0x92ecf64fdb76e60b76d78a29ad4bf9d38b7b1b97",
+      "deployedAt": "2024-06-10",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "blast",
-      "address": null
+      "address": "0xc85b6cfab89317b952dab87a8f85b8eb130ad411",
+      "deployedAt": "2024-03-01",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "plume_mainnet",
-      "address": null
+      "address": "0x2db501f30c7a86eee57162776dccb5240e11b594"
     }
   ],
   "roles": [

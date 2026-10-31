@@ -43,7 +43,8 @@
     {
       "chain": "algorand",
       "address": "237267329",
-      "deployedAt": null,
+      "deployedAt": "2021-06-09",
+      "deployedAtBasis": "asset-created",
       "primary": true
     }
   ],

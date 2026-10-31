@@ -62,6 +62,7 @@
       "chain": "ethereum",
       "address": "0xdb25f211ab05b1c97d595516f45794528a807ad8",
       "deployedAt": "2018-06-22",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -73,22 +74,26 @@
     {
       "chain": "xdc",
       "address": "0x1ebb2c8a71a9ec59bf558886a8adf8f4a565814f",
-      "deployedAt": "2022-10-14"
+      "deployedAt": "2022-10-14",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "algorand",
       "address": "227855942",
-      "deployedAt": "2022-07-10"
+      "deployedAt": "2021-05-26",
+      "deployedAtBasis": "asset-created"
     },
     {
       "chain": "stellar",
       "address": "EURS-GC5FGCDEOGOGSNWCCNKS3OMEVDHTE3Q5A5FEQWQKV3AXA7N6KDQ2CUZJ",
-      "deployedAt": "2023-11-13"
+      "deployedAt": "2023-11-13",
+      "deployedAtBasis": "asset-created"
     },
     {
       "chain": "ripple",
       "address": "EURS-rs5hzzF7RzdV2Ub7Fv14Z1ShjuCrnL7FEX",
-      "deployedAt": "2022-06-29"
+      "deployedAt": "2022-06-29",
+      "deployedAtBasis": "first-issue"
     }
   ],
   "roles": [

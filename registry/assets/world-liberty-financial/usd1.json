@@ -47,17 +47,20 @@
     {
       "chain": "aptos",
       "address": "0x05fabd1b12e39967a3c24e91b7b8f67719a6dacee74f3c8b9fb7d93e855437d2",
-      "deployedAt": "2026-04-10"
+      "deployedAt": "2026-04-10",
+      "deployedAtBasis": "first-stored-day"
     },
     {
       "chain": "bsc",
       "address": "0x8d0d000ee44948fc98c9b98a4fa4921476f08b0d",
-      "deployedAt": "2025-01-28"
+      "deployedAt": "2025-01-28",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "ethereum",
       "address": "0x8d0d000ee44948fc98c9b98a4fa4921476f08b0d",
       "deployedAt": "2025-01-28",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -69,31 +72,38 @@
     {
       "chain": "mantle",
       "address": "0x111111d2bf19e43c34263401e0cad979ed1cdb61",
-      "deployedAt": "2025-09-21"
+      "deployedAt": "2025-09-21",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "monad",
       "address": "0x111111d2bf19e43c34263401e0cad979ed1cdb61",
-      "deployedAt": "2025-11-19"
+      "deployedAt": "2025-11-19",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "morph",
       "address": "0x111111d2bf19e43c34263401e0cad979ed1cdb61",
-      "deployedAt": "2025-09-21"
+      "deployedAt": "2025-09-21",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "plume_mainnet",
       "address": "0x111111d2bf19e43c34263401e0cad979ed1cdb61",
-      "deployedAt": "2025-07-05"
+      "deployedAt": "2025-07-05",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "solana",
       "address": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
-      "deployedAt": "2025-07-15"
+      "deployedAt": "2025-07-15",
+      "deployedAtBasis": "metadata-created"
     },
     {
       "chain": "tron",
-      "address": null
+      "address": "TPFqcBAaaUMCSVRCqPaQ9QnzKhmuoLR6Rc",
+      "deployedAt": "2026-06-13",
+      "deployedAtBasis": "first-stored-day"
     }
   ],
   "roles": [

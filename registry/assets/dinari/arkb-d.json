@@ -27,7 +27,7 @@
     "attestationFrequency": "Random intervals (per whitepaper)"
   },
   "sources": {
-    "coingeckoId": "dinari-arkb",
+    "coingeckoId": "ark-21-bitcoin-etf-dinari-tokenized-etf",
     "identifiers": [
       {
         "scheme": "isin",
@@ -54,6 +54,7 @@
       "chain": "arbitrum",
       "address": "0x3619ca1e96c629f7d71c1b03dc0ee56479356228",
       "deployedAt": "2024-01-16",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -72,19 +73,25 @@
     },
     {
       "chain": "ethereum",
-      "address": null
+      "address": "0xa64c9f707bbb4cbc4e22f596a53d85b3ab7000f8",
+      "deployedAt": "2024-02-27",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "base",
-      "address": null
+      "address": "0x4b959bb4c00d25e52a87cb1865401dd97cb5631d",
+      "deployedAt": "2024-06-10",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "blast",
-      "address": null
+      "address": "0x296c2186948712d66bef4778567c4d2f734bff3c",
+      "deployedAt": "2024-03-01",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "plume_mainnet",
-      "address": null
+      "address": "0x06c1eb3f3c4736dc1b068b013571f9fa7f3efe33"
     }
   ],
   "roles": [

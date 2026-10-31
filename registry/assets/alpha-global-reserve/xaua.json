@@ -42,6 +42,7 @@
       "chain": "ethereum",
       "address": "0xf7303119e4e58c1f912cfc39d30f0167429a3dc2",
       "deployedAt": "2026-04-16",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -54,6 +55,7 @@
       "chain": "sui",
       "address": "0xbed7eeda3f172e5b106a1d407a42055c6b1083beefb0ab1a7c9a01d45330eb81::xaua::XAUA",
       "deployedAt": "2026-08-21",
+      "deployedAtBasis": "package-published",
       "labels": [
         {
           "address": "0x9dd583ed48239772736486592cdd4258a52224edc8aa6e37124dcac6a647749e",

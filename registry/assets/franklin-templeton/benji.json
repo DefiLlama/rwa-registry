@@ -57,6 +57,7 @@
       "chain": "stellar",
       "address": "BENJI-GBHNGLLIE3KWGKCHIKMHJ5HVZHYIK7WTBE4QF5PLAKL4CJGSEU7HZIW5",
       "deployedAt": "2022-02-07",
+      "deployedAtBasis": "asset-created",
       "primary": true,
       "labels": [
         {
@@ -69,6 +70,7 @@
       "chain": "polygon",
       "address": "0x408a634b8a8f0de729b48574a3a7ec3fe820b00a",
       "deployedAt": "2023-10-03",
+      "deployedAtBasis": "contract-creation",
       "labels": [
         {
           "address": "0xc8cfac89e292a6486775fb86f789612bcc692c7d",
@@ -83,22 +85,26 @@
     {
       "chain": "arbitrum",
       "address": "0xb9e4765bce2609bc1949592059b17ea72fee6c6a",
-      "deployedAt": "2023-11-06"
+      "deployedAt": "2023-11-06",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "avax",
       "address": "0xe08b4c1005603427420e64252a8b120cace4d122",
-      "deployedAt": "2024-07-11"
+      "deployedAt": "2024-07-11",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "aptos",
       "address": "0x7b5e9cac3433e9202f28527f707c89e1e47b19de2c33e4db9521a63ad219b739",
-      "deployedAt": "2026-09-10"
+      "deployedAt": "2026-09-10",
+      "deployedAtBasis": "first-stored-day"
     },
     {
       "chain": "ethereum",
       "address": "0x3ddc84940ab509c11b20b76b466933f40b750dc9",
       "deployedAt": "2024-08-22",
+      "deployedAtBasis": "contract-creation",
       "labels": [
         {
           "address": "0xd7644d80575678c027ced844bbeef5ad12277d40",
@@ -121,12 +127,14 @@
     {
       "chain": "base",
       "address": "0x60cfc2b186a4cf647486e42c42b11cc6d571d1e4",
-      "deployedAt": "2024-10-18"
+      "deployedAt": "2024-10-18",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "solana",
       "address": "5Tu84fKBpe9vfXeotjvfvWdWbAjy3hqsExvuHgFqFxA1",
-      "deployedAt": "2025-02-11"
+      "deployedAt": "2025-02-11",
+      "deployedAtBasis": "first-signature"
     },
     {
       "chain": "canton",

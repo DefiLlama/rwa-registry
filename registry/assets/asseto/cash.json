@@ -44,12 +44,14 @@
       "chain": "ethereum",
       "address": "0x498d9329555471bf6073a5f2d047f746d522a373",
       "deployedAt": "2025-09-17",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     },
     {
       "chain": "bsc",
       "address": "0x1775504c5873e179ea2f8abfce3861ec74d159bc",
-      "deployedAt": "2025-08-15"
+      "deployedAt": "2025-08-15",
+      "deployedAtBasis": "first-code"
     }
   ],
   "roles": [

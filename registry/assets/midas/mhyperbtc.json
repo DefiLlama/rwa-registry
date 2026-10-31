@@ -44,17 +44,20 @@
       "chain": "ethereum",
       "address": "0xc8495eaff71d3a563b906295fcf2f685b1783085",
       "deployedAt": "2025-10-14",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     },
     {
       "chain": "monad",
       "address": "0xf7cf282ec810fded974f99c0163e792f432892bc",
-      "deployedAt": "2026-03-16"
+      "deployedAt": "2026-03-16",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "rsk",
       "address": "0x7f71f02ae0945364f658860d67dbc10c86ca3a3c",
-      "deployedAt": "2026-01-07"
+      "deployedAt": "2026-01-07",
+      "deployedAtBasis": "first-code"
     }
   ],
   "roles": [

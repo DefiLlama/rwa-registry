@@ -43,6 +43,7 @@
       "chain": "ethereum",
       "address": "0x18f52b3fb465118731d9e0d276d4eb3599d57596",
       "deployedAt": "2025-10-29",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -67,6 +68,7 @@
       "chain": "arbitrum",
       "address": "0x18f52b3fb465118731d9e0d276d4eb3599d57596",
       "deployedAt": "2025-10-29",
+      "deployedAtBasis": "contract-creation",
       "labels": [
         {
           "address": "0x04dfa27c7d1ade09ddfccfa233fb3c8490ca2b18",
@@ -78,6 +80,7 @@
       "chain": "base",
       "address": "0x18f52b3fb465118731d9e0d276d4eb3599d57596",
       "deployedAt": "2025-10-29",
+      "deployedAtBasis": "first-code",
       "labels": [
         {
           "address": "0x81c1fba2c7df54ac76de5ebe373e89bcad3b8632",
@@ -88,7 +91,8 @@
     {
       "chain": "bsc",
       "address": "0x18f52b3fb465118731d9e0d276d4eb3599d57596",
-      "deployedAt": "2025-10-29"
+      "deployedAt": "2025-10-29",
+      "deployedAtBasis": "first-code"
     }
   ],
   "roles": [

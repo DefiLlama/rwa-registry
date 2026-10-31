@@ -26,6 +26,7 @@
     "attestationFrequency": "Continuous (Midas Attestation Engine, Chainlink + vlayer)"
   },
   "about": {
+    "description": "The mHyperETH token provides Ethereum-denominated exposure to Hyperithm's DeFi yield strategies.",
     "logo": "https://icons.llamao.fi/icons/rwa/mhypereth.png?w=48&h=48",
     "links": {
       "website": [
@@ -43,6 +44,7 @@
       "chain": "ethereum",
       "address": "0x5a42864b14c0c8241ef5ab62dae975b163a2e0c1",
       "deployedAt": "2025-10-10",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     }
   ],

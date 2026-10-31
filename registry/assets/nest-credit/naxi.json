@@ -44,12 +44,14 @@
       "chain": "plume_mainnet",
       "address": "0x7488b23f4c26b44eef2e0766896be47443e86d79",
       "deployedAt": "2026-02-12",
+      "deployedAtBasis": "first-code",
       "primary": true
     },
     {
       "chain": "ethereum",
       "address": "0x7488b23f4c26b44eef2e0766896be47443e86d79",
-      "deployedAt": "2026-04-27"
+      "deployedAt": "2026-04-27",
+      "deployedAtBasis": "contract-creation"
     }
   ],
   "roles": [

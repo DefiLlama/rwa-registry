@@ -36,7 +36,7 @@
     ]
   },
   "about": {
-    "description": "Ton is an Ondo Global Markets tokenized stock exposure designed to provide economic exposure to =SUBSTITUTE(A191, \", \") in an onchain format. The token is designed to be fully backed by the underlying publicly traded asset, together with cash in transit, held with regulated custodial broker-dealers. Holdings attestations and ongoing reporting are surfaced through Ondo trust and transparency materials and the product asset page. Tokenholders are not shareholders of the underlying and do not receive shareholder voting rights. Dividend value is reflected through total return mechanics, and where applicable, dividends are reflected through reinvestment adjustments instead of cash dividends.",
+    "description": "Ton is an Ondo Global Markets tokenized stock exposure designed to provide economic exposure to AT&T Inc. in an onchain format. The token is designed to be fully backed by the underlying publicly traded asset, together with cash in transit, held with regulated custodial broker-dealers. Holdings attestations and ongoing reporting are surfaced through Ondo trust and transparency materials and the product asset page. Tokenholders are not shareholders of the underlying and do not receive shareholder voting rights. Dividend value is reflected through total return mechanics, and where applicable, dividends are reflected through reinvestment adjustments instead of cash dividends.",
     "logo": "https://icons.llamao.fi/icons/rwa/t.png?w=48&h=48",
     "links": {
       "website": [
@@ -54,27 +54,32 @@
       "chain": "ethereum",
       "address": "0x3361a73262199873b74d6835760a59b8817fa592",
       "deployedAt": "2025-12-18",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     },
     {
       "chain": "ethereum",
       "address": "0xdf4024af76329d87f24a00bfede7a62be7ee5d89",
-      "deployedAt": "2025-12-18"
+      "deployedAt": "2025-12-18",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "bsc",
       "address": "0x4255279af47cf10efb9a5c8839f90170f4ef759f",
-      "deployedAt": "2025-12-18"
+      "deployedAt": "2025-12-18",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "bsc",
       "address": "0xd2567e5af8a78ea1d48e92b9c2035dc8a854a0a3",
-      "deployedAt": "2025-12-18"
+      "deployedAt": "2025-12-18",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "solana",
       "address": "WKMZummev5UcXz5nNKQZvTD6QjNSM2X58uwmDReondo",
-      "deployedAt": "2025-12-31"
+      "deployedAt": "2025-12-31",
+      "deployedAtBasis": "first-signature"
     }
   ],
   "roles": [

@@ -36,7 +36,7 @@
     ]
   },
   "about": {
-    "description": "DNNon is an Ondo Global Markets tokenized stock exposure designed to provide economic exposure to =SUBSTITUTE(A137, \", \") in an onchain format. The token is designed to be fully backed by the underlying publicly traded asset, together with cash in transit, held with regulated custodial broker-dealers. Holdings attestations and ongoing reporting are surfaced through Ondo trust and transparency materials and the product asset page. Tokenholders are not shareholders of the underlying and do not receive shareholder voting rights. Dividend value is reflected through total return mechanics, and where applicable, dividends are reflected through reinvestment adjustments instead of cash dividends.",
+    "description": "DNNon is an Ondo Global Markets tokenized stock exposure designed to provide economic exposure to Denison Mines Corp. in an onchain format. The token is designed to be fully backed by the underlying publicly traded asset, together with cash in transit, held with regulated custodial broker-dealers. Holdings attestations and ongoing reporting are surfaced through Ondo trust and transparency materials and the product asset page. Tokenholders are not shareholders of the underlying and do not receive shareholder voting rights. Dividend value is reflected through total return mechanics, and where applicable, dividends are reflected through reinvestment adjustments instead of cash dividends.",
     "logo": "https://icons.llamao.fi/icons/rwa/dnn.png?w=48&h=48",
     "links": {
       "website": [
@@ -54,27 +54,32 @@
       "chain": "ethereum",
       "address": "0x7aa59a63d1d0c435a08bc96e11bef2e95ab66c40",
       "deployedAt": "2025-12-10",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     },
     {
       "chain": "ethereum",
       "address": "0x8049ff34daca2c48385009efc3857b1efaddf70a",
-      "deployedAt": "2025-12-10"
+      "deployedAt": "2025-12-10",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "bsc",
       "address": "0x70bd780076e25d087ed9c35f4e4a540522abe8cf",
-      "deployedAt": "2025-12-10"
+      "deployedAt": "2025-12-10",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "bsc",
       "address": "0x678efc93df6a4d1dcfce72111ad63ba00ceab698",
-      "deployedAt": "2025-12-10"
+      "deployedAt": "2025-12-10",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "solana",
       "address": "12J2LD3tuLfdiVKnWZMHRMrbnXDY9rM4yqVLUa5yondo",
-      "deployedAt": "2025-12-31"
+      "deployedAt": "2025-12-31",
+      "deployedAtBasis": "first-signature"
     }
   ],
   "roles": [

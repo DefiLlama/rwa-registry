@@ -26,6 +26,7 @@
     "attestationFrequency": "Continuous (Midas Attestation Engine, Chainlink + vlayer)"
   },
   "about": {
+    "description": "mM1-USD is structured to reflect market neutral strategies across the digital asset space, tracking the M1 Capital flagship strategy.",
     "logo": "https://icons.llamao.fi/icons/rwa/mm1-usd.png?w=48&h=48",
     "links": {
       "website": [
@@ -43,6 +44,7 @@
       "chain": "ethereum",
       "address": "0xcc5c22c7a6bcc25e66726aef011dde74289ed203",
       "deployedAt": "2026-02-25",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     }
   ],

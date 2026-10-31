@@ -36,7 +36,7 @@
     ]
   },
   "about": {
-    "description": "TMOon is an Ondo Global Markets tokenized stock exposure designed to provide economic exposure to =SUBSTITUTE(A189, \", \") in an onchain format. The token is designed to be fully backed by the underlying publicly traded asset, together with cash in transit, held with regulated custodial broker-dealers. Holdings attestations and ongoing reporting are surfaced through Ondo trust and transparency materials and the product asset page. Tokenholders are not shareholders of the underlying and do not receive shareholder voting rights. Dividend value is reflected through total return mechanics, and where applicable, dividends are reflected through reinvestment adjustments instead of cash dividends.",
+    "description": "TMOon is an Ondo Global Markets tokenized stock exposure designed to provide economic exposure to Thermo Fisher Scientific Inc. in an onchain format. The token is designed to be fully backed by the underlying publicly traded asset, together with cash in transit, held with regulated custodial broker-dealers. Holdings attestations and ongoing reporting are surfaced through Ondo trust and transparency materials and the product asset page. Tokenholders are not shareholders of the underlying and do not receive shareholder voting rights. Dividend value is reflected through total return mechanics, and where applicable, dividends are reflected through reinvestment adjustments instead of cash dividends.",
     "logo": "https://icons.llamao.fi/icons/rwa/tmo.png?w=48&h=48",
     "links": {
       "website": [
@@ -54,27 +54,32 @@
       "chain": "ethereum",
       "address": "0x60808f2a0d035e16f57e9043842bd1bfbda24fa2",
       "deployedAt": "2025-12-18",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     },
     {
       "chain": "ethereum",
       "address": "0x445caca5b3ab90de0d1f5d0d9ced4dab5a304435",
-      "deployedAt": "2025-12-18"
+      "deployedAt": "2025-12-18",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "bsc",
       "address": "0xbcf7d958791152128710565a5fc6f68342ed71c8",
-      "deployedAt": "2025-12-18"
+      "deployedAt": "2025-12-18",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "bsc",
       "address": "0x3b3a870f794471e4efbc3bd2a60e8abc6767bc3a",
-      "deployedAt": "2025-12-18"
+      "deployedAt": "2025-12-18",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "solana",
       "address": "T699bgtXQw4CJ59rQ4VzLsupVQUzoL5RmuhHnKrondo",
-      "deployedAt": "2025-12-31"
+      "deployedAt": "2025-12-31",
+      "deployedAtBasis": "first-signature"
     }
   ],
   "roles": [

@@ -36,7 +36,7 @@
     ]
   },
   "about": {
-    "description": "OKLOon is an Ondo Global Markets tokenized stock exposure designed to provide economic exposure to =SUBSTITUTE(A162, \", \") in an onchain format. The token is designed to be fully backed by the underlying publicly traded asset, together with cash in transit, held with regulated custodial broker-dealers. Holdings attestations and ongoing reporting are surfaced through Ondo trust and transparency materials and the product asset page. Tokenholders are not shareholders of the underlying and do not receive shareholder voting rights. Dividend value is reflected through total return mechanics, and where applicable, dividends are reflected through reinvestment adjustments instead of cash dividends.",
+    "description": "OKLOon is an Ondo Global Markets tokenized stock exposure designed to provide economic exposure to Oklo Inc. in an onchain format. The token is designed to be fully backed by the underlying publicly traded asset, together with cash in transit, held with regulated custodial broker-dealers. Holdings attestations and ongoing reporting are surfaced through Ondo trust and transparency materials and the product asset page. Tokenholders are not shareholders of the underlying and do not receive shareholder voting rights. Dividend value is reflected through total return mechanics, and where applicable, dividends are reflected through reinvestment adjustments instead of cash dividends.",
     "logo": "https://icons.llamao.fi/icons/rwa/oklo.png?w=48&h=48",
     "links": {
       "website": [
@@ -54,27 +54,32 @@
       "chain": "ethereum",
       "address": "0xf0372e226553af4f343b44111a789f87a9fa427a",
       "deployedAt": "2025-12-18",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     },
     {
       "chain": "ethereum",
       "address": "0x15a726c92fc2d2af05a7aa488d2054dadb3a1663",
-      "deployedAt": "2025-12-18"
+      "deployedAt": "2025-12-18",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "bsc",
       "address": "0xaf6c03acf72355ce98d0741302b78870b376428c",
-      "deployedAt": "2025-12-18"
+      "deployedAt": "2025-12-18",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "bsc",
       "address": "0xbab57a0f0e8f5193e576785df87a440dec8102b3",
-      "deployedAt": "2025-12-18"
+      "deployedAt": "2025-12-18",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "solana",
       "address": "m6oDLvJT7rY7M1TxuLWP3pWmAPg2cCWDQR1NKiEondo",
-      "deployedAt": "2025-12-31"
+      "deployedAt": "2025-12-31",
+      "deployedAtBasis": "first-signature"
     }
   ],
   "roles": [

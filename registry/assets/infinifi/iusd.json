@@ -45,12 +45,14 @@
       "chain": "ethereum",
       "address": "0x48f9e38f3070ad8945dfeae3fa70987722e3d89c",
       "deployedAt": "2025-05-22",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     },
     {
       "chain": "monad",
       "address": "0x127066e1982940c33fdc882d9c138296ab15f97f",
-      "deployedAt": "2026-09-23"
+      "deployedAt": "2026-09-23",
+      "deployedAtBasis": "contract-creation"
     }
   ],
   "roles": [

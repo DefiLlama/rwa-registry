@@ -44,22 +44,26 @@
     {
       "chain": "althea",
       "address": "0xd567b3d7b8fe3c79a1ad8da978812cfc4fa05e75",
-      "deployedAt": "2026-02-11"
+      "deployedAt": "2026-02-11",
+      "deployedAtBasis": "first-stored-day"
     },
     {
       "chain": "arbitrum",
       "address": "0x6491c05a82219b8d1479057361ff1654749b876b",
-      "deployedAt": "2025-01-22"
+      "deployedAt": "2025-01-22",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "base",
       "address": "0x820c137fa70c8691f0e44dc420a5e53c168921dc",
-      "deployedAt": "2024-10-10"
+      "deployedAt": "2024-10-10",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "ethereum",
       "address": "0xdc035d45d973e3ec169d2276ddab16f1e407384f",
       "deployedAt": "2024-09-02",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -83,12 +87,14 @@
     {
       "chain": "katana",
       "address": "0x62d6a123e8d19d06d68cf0d2294f9a3a0362c6b3",
-      "deployedAt": "2025-05-27"
+      "deployedAt": "2025-05-27",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "solana",
       "address": "USDSwr9ApdHk5bvJKMjzff41FfuX8bSxdKcR81vTwcA",
-      "deployedAt": "2026-02-11"
+      "deployedAt": "2026-02-11",
+      "deployedAtBasis": "first-stored-day"
     },
     {
       "chain": "eti",

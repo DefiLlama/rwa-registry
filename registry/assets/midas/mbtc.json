@@ -26,6 +26,7 @@
     "attestationFrequency": "Continuous (Midas Attestation Engine, Chainlink + vlayer)"
   },
   "about": {
+    "description": "The mBTC token is a permissionless ERC-20 yield-bearing token that tracks Bitcoin lending strategies.",
     "logo": "https://icons.llamao.fi/icons/rwa/mbtc.png?w=48&h=48",
     "links": {
       "website": [
@@ -43,6 +44,7 @@
       "chain": "ethereum",
       "address": "0x007115416ab6c266329a03b09a8aa39ac2ef7d9d",
       "deployedAt": "2024-10-18",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     }
   ],

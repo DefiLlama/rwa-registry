@@ -44,21 +44,24 @@
       "chain": "ethereum",
       "address": "0x9b5528528656dbc094765e2abb79f293c21191b9",
       "deployedAt": "2025-07-15",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     },
     {
       "chain": "plasma",
       "address": "0xb31bea5c2a43f942a3800558b1aa25978da75f8a",
-      "deployedAt": "2025-10-06"
+      "deployedAt": "2025-10-06",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "monad",
       "address": "0xd90f6bfed23ffde40106fc4498dd2e9edb95e4e7",
-      "deployedAt": "2026-01-13"
+      "deployedAt": "2026-01-13",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "katana",
-      "address": null
+      "address": "0x926a8a63fa1e1fdbbeb811a0319933b1a0f1edbb"
     }
   ],
   "roles": [

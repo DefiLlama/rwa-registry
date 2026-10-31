@@ -47,12 +47,14 @@
       "chain": "aptos",
       "address": "0x6dba1728c73363be1bdd4d504844c40fbb893e368ccbeff1d1bd83497dbc756d",
       "deployedAt": "2026-09-10",
+      "deployedAtBasis": "first-stored-day",
       "primary": true
     },
     {
       "chain": "base",
       "address": "0xd6aaf4d477999fa50c5a1aa35f708862113a73cc",
-      "deployedAt": "2024-09-12"
+      "deployedAt": "2024-09-12",
+      "deployedAtBasis": "first-code"
     }
   ],
   "roles": [

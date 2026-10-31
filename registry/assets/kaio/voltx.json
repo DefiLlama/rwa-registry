@@ -44,6 +44,7 @@
       "chain": "ethereum",
       "address": "0xd5feb0b03b1c06045c0e0bd28470345e880c4213",
       "deployedAt": "2025-04-25",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -63,7 +64,8 @@
     {
       "chain": "avax",
       "address": "0xc1cd4ccd9e74be61eddd5c06f962657bd5d57af3",
-      "deployedAt": "2025-02-10"
+      "deployedAt": "2025-02-10",
+      "deployedAtBasis": "first-code"
     }
   ],
   "roles": [

@@ -46,27 +46,32 @@
       "chain": "monad",
       "address": "0xe9c082921dc3564e10196c5cc15db1250ac7d5c6",
       "deployedAt": "2026-01-16",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     },
     {
       "chain": "stellar",
       "address": "KTB-GCRYUGD5NVARGXT56XEZI5CIFCQETYHAPQQTHO2O3IQZTHDH4LATMYWC",
-      "deployedAt": "2026-01-16"
+      "deployedAt": "2026-01-16",
+      "deployedAtBasis": "asset-created"
     },
     {
       "chain": "solana",
       "address": "KTBeXe7VMPMLxBsqDQu4KA9PdSajF3Hkw1y9qRsKqfL",
-      "deployedAt": "2026-01-16"
+      "deployedAt": "2026-01-16",
+      "deployedAtBasis": "first-signature"
     },
     {
       "chain": "base",
       "address": "0x0f9b0468391cfa83160dae6b693df87df379bd06",
-      "deployedAt": "2026-01-16"
+      "deployedAt": "2026-01-16",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "polygon",
       "address": "0xe56cee16b76903b3c8eb4af3c06d1d2fab320f95",
-      "deployedAt": "2026-01-16"
+      "deployedAt": "2026-01-16",
+      "deployedAtBasis": "contract-creation"
     }
   ],
   "roles": [

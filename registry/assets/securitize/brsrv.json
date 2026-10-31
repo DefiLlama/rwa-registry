@@ -54,17 +54,20 @@
       "chain": "ethereum",
       "address": "0x3078bcf707e457d3af2f938a2a478bbeea50a942",
       "deployedAt": "2026-07-22",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     },
     {
       "chain": "tempo",
       "address": "0xe36e2e79beb1b7f618201eead6106a7d737695e3",
-      "deployedAt": "2026-07-22"
+      "deployedAt": "2026-07-22",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "solana",
       "address": "9rX4yuAirQkm5JC26v3oSfGencsxwjB8kkmgf2dwWe9N",
-      "deployedAt": "2026-07-22"
+      "deployedAt": "2026-07-22",
+      "deployedAtBasis": "first-signature"
     }
   ],
   "roles": [

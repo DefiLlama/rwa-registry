@@ -30,7 +30,7 @@
     "coingeckoId": "deere-ondo-tokenized-stocks"
   },
   "about": {
-    "description": "DEon is an Ondo Global Markets tokenized stock exposure designed to provide economic exposure to =SUBSTITUTE(A135, \", \") in an onchain format. The token is designed to be fully backed by the underlying publicly traded asset, together with cash in transit, held with regulated custodial broker-dealers. Holdings attestations and ongoing reporting are surfaced through Ondo trust and transparency materials and the product asset page. Tokenholders are not shareholders of the underlying and do not receive shareholder voting rights. Dividend value is reflected through total return mechanics, and where applicable, dividends are reflected through reinvestment adjustments instead of cash dividends.",
+    "description": "DEon is an Ondo Global Markets tokenized stock exposure designed to provide economic exposure to Deere & Company in an onchain format. The token is designed to be fully backed by the underlying publicly traded asset, together with cash in transit, held with regulated custodial broker-dealers. Holdings attestations and ongoing reporting are surfaced through Ondo trust and transparency materials and the product asset page. Tokenholders are not shareholders of the underlying and do not receive shareholder voting rights. Dividend value is reflected through total return mechanics, and where applicable, dividends are reflected through reinvestment adjustments instead of cash dividends.",
     "logo": "https://icons.llamao.fi/icons/rwa/de.png?w=48&h=48",
     "links": {
       "website": [
@@ -48,27 +48,32 @@
       "chain": "ethereum",
       "address": "0x32d7c413fd3477e86b8ec6b0bb8f3ac510eafaae",
       "deployedAt": "2025-12-18",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     },
     {
       "chain": "ethereum",
       "address": "0x58d1d74d4af6b18f9356a3f0fa9cf01f00464ba7",
-      "deployedAt": "2025-12-18"
+      "deployedAt": "2025-12-18",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "bsc",
       "address": "0x90ccbb75d61cb65cd73a3abb5df04a75961612b7",
-      "deployedAt": "2025-12-18"
+      "deployedAt": "2025-12-18",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "bsc",
       "address": "0x50e8990532fb86eb238a2bd1b6bdb0714b85b6fa",
-      "deployedAt": "2025-12-18"
+      "deployedAt": "2025-12-18",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "solana",
       "address": "CqQyAZjB9LGFTG95eiadGTkfhd9QA12ProeKsQmondo",
-      "deployedAt": "2025-12-31"
+      "deployedAt": "2025-12-31",
+      "deployedAtBasis": "first-signature"
     }
   ],
   "roles": [

@@ -27,7 +27,7 @@
     "attestationFrequency": "Random intervals (per whitepaper)"
   },
   "sources": {
-    "coingeckoId": "dinari-azn",
+    "coingeckoId": "astrazeneca-plc-dinari-tokenized-stock",
     "identifiers": [
       {
         "scheme": "isin",
@@ -54,6 +54,7 @@
       "chain": "arbitrum",
       "address": "0x44966bf47a494b36dfb407afb334a9226cdf90bc",
       "deployedAt": "2024-06-18",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -72,19 +73,25 @@
     },
     {
       "chain": "ethereum",
-      "address": null
+      "address": "0x103d7c5c657cb92f4acec796da416d52a6a86bf6",
+      "deployedAt": "2024-06-18",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "base",
-      "address": null
+      "address": "0xa9c380050b07f8c2bb38dc57bcdbe267cc794fe8",
+      "deployedAt": "2024-06-18",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "blast",
-      "address": null
+      "address": "0xdd6a4d44987fc974c4113ef403b941fe09d0068c",
+      "deployedAt": "2024-06-18",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "plume_mainnet",
-      "address": null
+      "address": "0xfd1c1cf81c7f1bbe51d006af053dd4f7806c4620"
     }
   ],
   "roles": [

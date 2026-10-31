@@ -47,37 +47,44 @@
       "chain": "ethereum",
       "address": "0x17418038ecf73ba4026c4f428547bf099706f27b",
       "deployedAt": "2025-01-29",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     },
     {
       "chain": "polygon",
       "address": "0xfce60bbc52a5705cec5b445501fbaf3274dc43d0",
-      "deployedAt": "2025-01-29"
+      "deployedAt": "2025-01-29",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "avax",
       "address": "0x7c64925002bfa705834b118a923e9911bee32875",
-      "deployedAt": "2025-01-29"
+      "deployedAt": "2025-01-29",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "solana",
       "address": "FubtUcvhSCr3VPXEcxouoQjKQ7NWTCzXyECe76B7L3f8",
-      "deployedAt": "2025-03-20"
+      "deployedAt": "2025-03-20",
+      "deployedAtBasis": "first-signature"
     },
     {
       "chain": "ink",
       "address": "0x53ad50d3b6fcacb8965d3a49cb722917c7dae1f3",
-      "deployedAt": "2025-03-17"
+      "deployedAt": "2025-03-17",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "aptos",
       "address": "0xe528f4df568eb9fff6398adc514bc9585fab397f478972bcbebf1e75dee40a88",
-      "deployedAt": "2026-04-10"
+      "deployedAt": "2026-04-10",
+      "deployedAtBasis": "first-stored-day"
     },
     {
       "chain": "sei",
       "address": "0xf7fa6725183e603059fc23d95735bf67f72b2d78",
-      "deployedAt": "2025-09-24"
+      "deployedAt": "2025-09-24",
+      "deployedAtBasis": "contract-creation"
     }
   ],
   "roles": [

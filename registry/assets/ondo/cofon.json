@@ -27,16 +27,10 @@
     "attestationFrequency": "Daily"
   },
   "sources": {
-    "coingeckoId": "capital-one-ondo-tokenized-stock",
-    "identifiers": [
-      {
-        "scheme": "isin",
-        "value": "US1696561059"
-      }
-    ]
+    "coingeckoId": "capital-one-ondo-tokenized-stock"
   },
   "about": {
-    "description": "COFon is an Ondo Global Markets tokenized stock exposure designed to provide economic exposure to =SUBSTITUTE(A127, \", \") in an onchain format. The token is designed to be fully backed by the underlying publicly traded asset, together with cash in transit, held with regulated custodial broker-dealers. Holdings attestations and ongoing reporting are surfaced through Ondo trust and transparency materials and the product asset page. Tokenholders are not shareholders of the underlying and do not receive shareholder voting rights. Dividend value is reflected through total return mechanics, and where applicable, dividends are reflected through reinvestment adjustments instead of cash dividends.",
+    "description": "COFon is an Ondo Global Markets tokenized stock exposure designed to provide economic exposure to Capital One Financial Corporation in an onchain format. The token is designed to be fully backed by the underlying publicly traded asset, together with cash in transit, held with regulated custodial broker-dealers. Holdings attestations and ongoing reporting are surfaced through Ondo trust and transparency materials and the product asset page. Tokenholders are not shareholders of the underlying and do not receive shareholder voting rights. Dividend value is reflected through total return mechanics, and where applicable, dividends are reflected through reinvestment adjustments instead of cash dividends.",
     "logo": "https://icons.llamao.fi/icons/rwa/cof.png?w=48&h=48",
     "links": {
       "website": [
@@ -54,27 +48,32 @@
       "chain": "ethereum",
       "address": "0x3d07c3161f355cb9e5b524bef8d113c96e0263ab",
       "deployedAt": "2025-12-18",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     },
     {
       "chain": "ethereum",
       "address": "0x7248fe2b1d8b97a59524e7aa5d534f209937e818",
-      "deployedAt": "2025-12-18"
+      "deployedAt": "2025-12-18",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "bsc",
       "address": "0x53a8c5fc5643b437779742f494691e6b7c660a8b",
-      "deployedAt": "2025-12-18"
+      "deployedAt": "2025-12-18",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "bsc",
       "address": "0x2d87a32794961891472ed64a0ffaf2690daeae3e",
-      "deployedAt": "2025-12-18"
+      "deployedAt": "2025-12-18",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "solana",
       "address": "R2uDbMtmHq5xSS5SserrovdRKdpiqnVBCd2AHLhondo",
-      "deployedAt": "2025-12-31"
+      "deployedAt": "2025-12-31",
+      "deployedAtBasis": "first-signature"
     }
   ],
   "roles": [

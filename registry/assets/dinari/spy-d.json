@@ -27,7 +27,7 @@
     "attestationFrequency": "Random intervals (per whitepaper)"
   },
   "sources": {
-    "coingeckoId": "dinari-spy-dshares"
+    "coingeckoId": "state-street-spdr-s-p-500-etf-trust-dinari-tokenized-etf"
   },
   "about": {
     "description": "SPY.d is a Dinari dShare that provides on-chain exposure to the referenced equity (SPDR S&P 500 ETF Trust dShare). dShares may only be issued and redeemed from wallets that have completed KYC, and Dinari states it screens wallets holding dShares as part of its AML program. The token includes a transfer blacklist feature for OFAC, AML, and account-security controls. Dinari states dividends and distributions are allocated using an on-chain snapshot and made available to withdraw from a USDC claim contract, and Dinari holds back shareholder voting rights from tokenholders.",
@@ -48,6 +48,7 @@
       "chain": "arbitrum",
       "address": "0xf4bd09b048248876e39fcf2e0cdf1aee1240a9d2",
       "deployedAt": "2023-11-13",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -66,19 +67,27 @@
     },
     {
       "chain": "ethereum",
-      "address": null
+      "address": "0xc45fb996f73f23f61d08b5b3618ef3cab53d6dca",
+      "deployedAt": "2024-02-27",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "base",
-      "address": null
+      "address": "0x8a768ef1d44939e2c6e36b83a948295962d6f795",
+      "deployedAt": "2024-06-10",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "blast",
-      "address": null
+      "address": "0x80b2ae2cfd411c98aa74c75a40b930a337612d29",
+      "deployedAt": "2024-03-01",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "plume_mainnet",
-      "address": null
+      "address": "0x704010912be023c6ee29a036486f4dcf60e6cc11",
+      "deployedAt": "2025-04-26",
+      "deployedAtBasis": "first-code"
     }
   ],
   "roles": [

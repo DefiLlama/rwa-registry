@@ -30,7 +30,7 @@
     "coingeckoId": "talen-energy-ondo-tokenized-stock"
   },
   "about": {
-    "description": "TLNon is an Ondo Global Markets tokenized stock exposure designed to provide economic exposure to =SUBSTITUTE(A188, \", \") in an onchain format. The token is designed to be fully backed by the underlying publicly traded asset, together with cash in transit, held with regulated custodial broker-dealers. Holdings attestations and ongoing reporting are surfaced through Ondo trust and transparency materials and the product asset page. Tokenholders are not shareholders of the underlying and do not receive shareholder voting rights. Dividend value is reflected through total return mechanics, and where applicable, dividends are reflected through reinvestment adjustments instead of cash dividends.",
+    "description": "TLNon is an Ondo Global Markets tokenized stock exposure designed to provide economic exposure to Talen Energy Corporation in an onchain format. The token is designed to be fully backed by the underlying publicly traded asset, together with cash in transit, held with regulated custodial broker-dealers. Holdings attestations and ongoing reporting are surfaced through Ondo trust and transparency materials and the product asset page. Tokenholders are not shareholders of the underlying and do not receive shareholder voting rights. Dividend value is reflected through total return mechanics, and where applicable, dividends are reflected through reinvestment adjustments instead of cash dividends.",
     "logo": "https://icons.llamao.fi/icons/rwa/tln.png?w=48&h=48",
     "links": {
       "website": [
@@ -48,27 +48,32 @@
       "chain": "ethereum",
       "address": "0xc80c91bc6215e1333ea98314b8671d6e26c58470",
       "deployedAt": "2025-12-18",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     },
     {
       "chain": "ethereum",
       "address": "0x4cb537ccb7eec9a074122ea8a26a2e7ea6ef12bf",
-      "deployedAt": "2025-12-18"
+      "deployedAt": "2025-12-18",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "bsc",
       "address": "0xbbe4dfe7a349fb72aec6f52d5cd9bdd78ae8f313",
-      "deployedAt": "2025-12-18"
+      "deployedAt": "2025-12-18",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "bsc",
       "address": "0x00bc550e3efb7cfc460a52c8823a73c046778216",
-      "deployedAt": "2025-12-18"
+      "deployedAt": "2025-12-18",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "solana",
       "address": "RTb54gpqAx6RpLAHRGnqQ3ciQ845CHqhg21ZzEJondo",
-      "deployedAt": "2025-12-31"
+      "deployedAt": "2025-12-31",
+      "deployedAtBasis": "first-signature"
     }
   ],
   "roles": [

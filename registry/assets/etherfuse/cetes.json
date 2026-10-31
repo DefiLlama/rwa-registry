@@ -46,27 +46,32 @@
       "chain": "stellar",
       "address": "CETES-GCRYUGD5NVARGXT56XEZI5CIFCQETYHAPQQTHO2O3IQZTHDH4LATMYWC",
       "deployedAt": "2024-12-20",
+      "deployedAtBasis": "asset-created",
       "primary": true
     },
     {
       "chain": "solana",
       "address": "CETES7CKqqKQizuSN6iWQwmTeFRjbJR6Vw2XRKfEDR8f",
-      "deployedAt": "2024-07-30"
+      "deployedAt": "2024-04-12",
+      "deployedAtBasis": "metadata-created"
     },
     {
       "chain": "base",
       "address": "0x834df4c1d8f51be24322e39e4766697be015512f",
-      "deployedAt": "2025-05-28"
+      "deployedAt": "2025-05-28",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "polygon",
       "address": "0x834df4c1d8f51be24322e39e4766697be015512f",
-      "deployedAt": "2025-06-24"
+      "deployedAt": "2025-06-24",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "monad",
       "address": "0x834df4c1d8f51be24322e39e4766697be015512f",
-      "deployedAt": "2025-12-24"
+      "deployedAt": "2025-12-24",
+      "deployedAtBasis": "contract-creation"
     }
   ],
   "roles": [

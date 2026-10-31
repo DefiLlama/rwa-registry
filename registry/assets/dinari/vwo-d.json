@@ -27,7 +27,7 @@
     "attestationFrequency": "Random intervals (per whitepaper)"
   },
   "sources": {
-    "coingeckoId": "dinari-vwo",
+    "coingeckoId": "vanguard-ftse-emerging-markets-etf-dinari-tokenized-etf",
     "identifiers": [
       {
         "scheme": "isin",
@@ -54,6 +54,7 @@
       "chain": "arbitrum",
       "address": "0x1bed98b79f8a5e32031b0d735022fc006db47d37",
       "deployedAt": "2024-12-05",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -72,19 +73,25 @@
     },
     {
       "chain": "ethereum",
-      "address": null
+      "address": "0x9f9e5c45d95d66e85e8a878007bf27ca2d987394",
+      "deployedAt": "2024-12-13",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "base",
-      "address": null
+      "address": "0x51931a7acb6b08323fc0cdb2ff68309cd0fd44b7",
+      "deployedAt": "2024-12-05",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "blast",
-      "address": null
+      "address": "0x413e5687814841d65146c062c506c73992a57692",
+      "deployedAt": "2024-12-05",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "plume_mainnet",
-      "address": null
+      "address": "0xfcbad793bf3c75f09d9eb05397ee4e812a77c91a"
     }
   ],
   "roles": [

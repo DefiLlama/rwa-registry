@@ -41,13 +41,15 @@
     {
       "chain": "ripple",
       "address": "rnXNUqF8LuXyUdfLdezftTeEUw2UFSLw5i",
-      "deployedAt": null,
+      "deployedAt": "2025-06-11",
+      "deployedAtBasis": "first-issue",
       "primary": true
     },
     {
       "chain": "ethereum",
       "address": "0xb5710a6fede27d1048c75b157bd3403ba08cdbe0",
-      "deployedAt": "2024-09-17"
+      "deployedAt": "2024-09-17",
+      "deployedAtBasis": "contract-creation"
     }
   ],
   "roles": [

@@ -47,6 +47,7 @@
       "chain": "base",
       "address": "0x4dec3139f4a6c638e26452d32181fe87a7530805",
       "deployedAt": "2025-07-01",
+      "deployedAtBasis": "first-code",
       "primary": true,
       "labels": [
         {
@@ -91,6 +92,7 @@
       "chain": "bsc",
       "address": "0x4dec3139f4a6c638e26452d32181fe87a7530805",
       "deployedAt": "2025-07-01",
+      "deployedAtBasis": "first-code",
       "labels": [
         {
           "address": "0x7d40ac593332049a189cd5aef94b049657f14130",

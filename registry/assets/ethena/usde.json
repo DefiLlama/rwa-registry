@@ -123,27 +123,32 @@
     {
       "chain": "arbitrum",
       "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
-      "deployedAt": "2024-03-11"
+      "deployedAt": "2024-03-11",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "avax",
       "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
-      "deployedAt": "2025-08-08"
+      "deployedAt": "2025-08-08",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "base",
       "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
-      "deployedAt": "2024-06-14"
+      "deployedAt": "2024-06-14",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "bsc",
       "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
-      "deployedAt": "2024-03-11"
+      "deployedAt": "2024-03-11",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "ethereum",
       "address": "0x4c9edd5852cd905f086c759e8383e09bff1e68b3",
       "deployedAt": "2023-11-14",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -159,112 +164,134 @@
     {
       "chain": "fraxtal",
       "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
-      "deployedAt": "2024-03-12"
+      "deployedAt": "2024-03-12",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "kava",
       "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
-      "deployedAt": "2024-03-14"
+      "deployedAt": "2024-03-14",
+      "deployedAtBasis": "first-stored-day"
     },
     {
       "chain": "linea",
       "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
-      "deployedAt": "2024-03-20"
+      "deployedAt": "2024-03-20",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "manta",
       "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
-      "deployedAt": "2024-03-08"
+      "deployedAt": "2024-03-08",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "mantle",
       "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
-      "deployedAt": "2024-03-08"
+      "deployedAt": "2024-03-08",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "mode",
       "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
-      "deployedAt": "2024-03-12"
+      "deployedAt": "2024-03-12",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "plasma",
       "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
-      "deployedAt": "2025-09-10"
+      "deployedAt": "2025-09-10",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "scroll",
       "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
-      "deployedAt": "2024-03-11"
+      "deployedAt": "2024-03-11",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "solana",
       "address": "DEkqHyPN7GMRJ5cArtQFAWefqbZb33Hyf6s5iCwjEonT",
-      "deployedAt": "2024-08-01"
+      "deployedAt": "2024-08-01",
+      "deployedAtBasis": "first-stored-day"
     },
     {
       "chain": "ton",
       "address": "EQAIb6KmdfdDR7CN1GBqVJuP25iCnLKCvBlJ07Evuu2dzP5f",
-      "deployedAt": "2025-02-07"
+      "deployedAt": "2025-02-07",
+      "deployedAtBasis": "first-transaction"
     },
     {
       "chain": "era",
       "address": "0x39fe7a0dacce31bd90418e3e659fb0b5f0b3db0d",
-      "deployedAt": "2024-06-14"
+      "deployedAt": "2024-06-14",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "berachain",
       "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
-      "deployedAt": "2025-01-23"
+      "deployedAt": "2025-01-23",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "blast",
       "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
-      "deployedAt": "2024-04-20"
+      "deployedAt": "2024-04-20",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "hyperliquid",
       "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
-      "deployedAt": "2025-04-28"
+      "deployedAt": "2025-04-28",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "ink",
       "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
-      "deployedAt": "2025-10-27"
+      "deployedAt": "2025-10-27",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "megaeth",
       "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
-      "deployedAt": "2025-12-30"
+      "deployedAt": "2025-12-30",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "metis",
       "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
-      "deployedAt": "2024-03-11"
+      "deployedAt": "2024-03-11",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "optimism",
       "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
-      "deployedAt": "2024-03-11"
+      "deployedAt": "2024-03-11",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "tempo",
       "address": "0x20c0000000000000000000002f52d5cc21a3207b",
-      "deployedAt": "2026-04-13"
+      "deployedAt": "2026-04-13",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "xlayer",
       "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
-      "deployedAt": "2024-06-14"
+      "deployedAt": "2024-06-14",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "zircuit",
       "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
-      "deployedAt": "2024-08-28"
+      "deployedAt": "2024-08-28",
+      "deployedAtBasis": "first-stored-day"
     },
     {
       "chain": "monad",
       "address": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
-      "deployedAt": "2026-06-11"
+      "deployedAt": "2026-06-11",
+      "deployedAtBasis": "contract-creation"
     }
   ],
   "roles": [

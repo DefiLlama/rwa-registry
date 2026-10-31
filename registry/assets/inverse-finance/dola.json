@@ -43,28 +43,33 @@
   "deployments": [
     {
       "chain": "arbitrum",
-      "address": "0x0615dbba33fe61a31c7ed131bda6655ed76748b1",
-      "deployedAt": "2023-05-04"
+      "address": "0x6a7661795c374c0bfc635934efaddff3a7ee23b6",
+      "deployedAt": "2023-03-08",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "avax",
       "address": "0x221743dc9e954be4f86844649bf19b43d6f8366d",
-      "deployedAt": "2023-04-13"
+      "deployedAt": "2023-04-13",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "base",
       "address": "0x4621b7a9c75199271f773ebd9a499dbd165c3191",
-      "deployedAt": "2023-08-08"
+      "deployedAt": "2023-08-08",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "bsc",
       "address": "0x2f29bc0ffaf9bff337b31cbe6cb5fb3bf12e5840",
-      "deployedAt": "2022-12-15"
+      "deployedAt": "2022-12-15",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "ethereum",
-      "address": "0x4a24b7269459017c999ababa32962b3cdb436250",
-      "deployedAt": "2022-07-21",
+      "address": "0x865377367054516e17014ccded1e7d814edc9ce4",
+      "deployedAt": "2021-02-23",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -76,27 +81,32 @@
     {
       "chain": "fantom",
       "address": "0x3129662808bec728a27ab6a6b9afd3cbaca8a43c",
-      "deployedAt": "2021-10-07"
+      "deployedAt": "2021-09-29",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "fraxtal",
       "address": "0x908afaf175021748366a78d73ddb93f9b191211f",
-      "deployedAt": "2024-03-09"
+      "deployedAt": "2024-03-09",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "optimism",
-      "address": "0x739ca6d71365a08f584c8fc4e1029045fa8abc4b",
-      "deployedAt": "2022-07-21"
+      "address": "0x8ae125e8653821e851f12a49f7765db9a9ce7384",
+      "deployedAt": "2022-05-27",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "polygon",
       "address": "0x8eef0c50670e057b083a5f2d84f1da695c73689e",
-      "deployedAt": "2023-05-04"
+      "deployedAt": "2023-05-04",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "polygon_zkevm",
       "address": "0xee65bb53ee40f3de3286cbc0e74dc88385badad8",
-      "deployedAt": "2026-05-20"
+      "deployedAt": "2023-10-02",
+      "deployedAtBasis": "first-code"
     }
   ],
   "roles": [

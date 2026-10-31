@@ -7,7 +7,7 @@
     "canonicalMarketId": "SOXLB"
   },
   "exposure": {
-    "underlying": "direxion-daily-semiconductor-bull-3x-etf"
+    "underlying": "direxion-daily-semiconductor-bull-3x-shares"
   },
   "class": {
     "structure": "equity-etf",
@@ -53,6 +53,7 @@
       "chain": "bsc",
       "address": "0xd97d097a89113fa59b76c572e5b2eb647e8eefaf",
       "deployedAt": "2026-07-01",
+      "deployedAtBasis": "first-code",
       "primary": true
     }
   ],

@@ -27,7 +27,7 @@
     "attestationFrequency": "Random intervals (per whitepaper)"
   },
   "sources": {
-    "coingeckoId": "dinari-riot",
+    "coingeckoId": "riot-platforms-dinari-tokenized-stock",
     "identifiers": [
       {
         "scheme": "isin",
@@ -54,6 +54,7 @@
       "chain": "arbitrum",
       "address": "0x0b5ac0d7dcf6964609a12af4f6c6f3c257070193",
       "deployedAt": "2024-01-16",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -72,19 +73,27 @@
     },
     {
       "chain": "ethereum",
-      "address": null
+      "address": "0xcd7c6ed75151745c893dfc1dca1daa1d55034e67",
+      "deployedAt": "2024-02-27",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "base",
-      "address": null
+      "address": "0xbd042b930d40326f18fc19693adabc9457d4af7f",
+      "deployedAt": "2024-06-10",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "blast",
-      "address": null
+      "address": "0xa5de16db7c14cd87fb35042ed8e7a6f4f00b7f26",
+      "deployedAt": "2024-03-01",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "plume_mainnet",
-      "address": null
+      "address": "0x5782d5526b3e44649b681a6f4d077ee481da9b5b",
+      "deployedAt": "2025-04-26",
+      "deployedAtBasis": "first-code"
     }
   ],
   "roles": [

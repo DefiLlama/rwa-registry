@@ -46,32 +46,38 @@
       "chain": "ethereum",
       "address": "0x80ac24aa929eaf5013f6436cda2a7ba190f5cc0b",
       "deployedAt": "2024-05-21",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     },
     {
       "chain": "arbitrum",
       "address": "0x41ca7586cc1311807b4605fbb748a3b8862b42b5",
-      "deployedAt": "2025-07-23"
+      "deployedAt": "2025-07-23",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "base",
       "address": "0x660975730059246a68521a3e2fbd4740173100f5",
-      "deployedAt": "2025-07-22"
+      "deployedAt": "2025-07-22",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "hyperliquid",
       "address": "0xd31db306e5d79f0018ac92e08492284201493ea1",
-      "deployedAt": "2025-11-05"
+      "deployedAt": "2025-11-05",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "solana",
       "address": "AvZZF1YaZDziPY2RCK4oJrRVrbN3mTD9NL24hPeaZeUj",
-      "deployedAt": "2025-05-17"
+      "deployedAt": "2025-05-17",
+      "deployedAtBasis": "first-stored-day"
     },
     {
       "chain": "monad",
       "address": "0xab6e5a0c3799d020c790d34f7b2c02639e238af7",
-      "deployedAt": "2026-05-12"
+      "deployedAt": "2026-05-12",
+      "deployedAtBasis": "contract-creation"
     }
   ],
   "roles": [

@@ -46,8 +46,7 @@
   "deployments": [
     {
       "chain": "agoric",
-      "address": "ibc/65cd60d7e37ef830bc6b6a6df4e3e3884a96c0905a7d271c48dc0440b1989ec7",
-      "deployedAt": null
+      "address": null
     },
     {
       "chain": "airdao",
@@ -62,7 +61,8 @@
     {
       "chain": "arbitrum_nova",
       "address": "0x47bee17aa97e6659797c0d1bbb94c9aa1f0787bb",
-      "deployedAt": "2025-01-01"
+      "deployedAt": "2023-06-07",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "archway",
@@ -72,22 +72,26 @@
     {
       "chain": "astar",
       "address": "0xb7ab962c42a8bb443e0362f58a5a43814c573ffb",
-      "deployedAt": "2022-03-30"
+      "deployedAt": "2022-03-30",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "avax",
       "address": "0x19860ccb0a68fd4213ab9d8266f7bbf05a8dde98",
-      "deployedAt": "2021-07-23"
+      "deployedAt": "2021-07-23",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "base",
       "address": "0x4d84e25cea9447581867fe9f2329b972f532da2c",
-      "deployedAt": "2023-07-31"
+      "deployedAt": "2023-07-31",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "bsc",
-      "address": "0x98e871ab1cc7e3073b6cc1b661be7ca678a33f7f",
-      "deployedAt": "2022-10-15"
+      "address": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+      "deployedAt": "2020-09-02",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "carbon",
@@ -107,7 +111,8 @@
     {
       "chain": "conflux",
       "address": "0xc46fedc533e9f14c99c4c5124e2085701fa9b255",
-      "deployedAt": "2025-01-01"
+      "deployedAt": "2025-01-01",
+      "deployedAtBasis": "first-stored-day"
     },
     {
       "chain": "crescent",
@@ -122,12 +127,14 @@
     {
       "chain": "era",
       "address": "0x9a455d1a2b4630ffdb9a2307f2e875400d28b3c5",
-      "deployedAt": "2023-05-04"
+      "deployedAt": "2023-05-04",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "ethereum",
       "address": "0x4fabb145d64652a948d72533023f6e7a623c7c53",
       "deployedAt": "2019-09-05",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -139,17 +146,20 @@
     {
       "chain": "ethpow",
       "address": "0xf61eb8999f2f222f425d41da4c2ff4b6d8320c87",
-      "deployedAt": "2026-05-28"
+      "deployedAt": "2026-05-28",
+      "deployedAtBasis": "first-stored-day"
     },
     {
       "chain": "godwoken_v1",
       "address": "0xcd7bc9fc617a4f82ec1c8359d1c8610b90e3b44c",
-      "deployedAt": "2022-07-11"
+      "deployedAt": "2022-07-11",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "harmony",
       "address": "0x1aa1f7815103c0700b98f24138581b88d4cf9769",
-      "deployedAt": "2021-09-04"
+      "deployedAt": "2022-10-14",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "juno",
@@ -159,12 +169,14 @@
     {
       "chain": "kava",
       "address": "0x4d84e25cea9447581867fe9f2329b972f532da2c",
-      "deployedAt": "2025-01-01"
+      "deployedAt": "2025-01-01",
+      "deployedAtBasis": "first-stored-day"
     },
     {
       "chain": "klaytn",
       "address": "0x98671f24b2b5215b937524a1073fd382f3972e0d",
-      "deployedAt": "2022-08-21"
+      "deployedAt": "2022-08-10",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "kujira",
@@ -174,22 +186,26 @@
     {
       "chain": "lightlink_phoenix",
       "address": "0xe06fe7298243d8e47092a1e0679351f305e5f856",
-      "deployedAt": "2024-01-15"
+      "deployedAt": "2024-01-15",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "linea",
       "address": "0x4d84e25cea9447581867fe9f2329b972f532da2c",
-      "deployedAt": "2023-07-31"
+      "deployedAt": "2023-07-31",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "map",
       "address": "0x35bf4004c3fc9f509259d4942da6bae3669e1db1",
-      "deployedAt": "2025-01-01"
+      "deployedAt": "2025-01-01",
+      "deployedAtBasis": "first-stored-day"
     },
     {
       "chain": "milkomeda",
       "address": "0x4bf769b05e832fcdc9053fffbc78ca889acb5e1e",
-      "deployedAt": "2022-05-12"
+      "deployedAt": "2023-04-24",
+      "deployedAtBasis": "first-stored-day"
     },
     {
       "chain": "milkomeda_a1",
@@ -199,7 +215,8 @@
     {
       "chain": "moonbeam",
       "address": "0x692c57641fc054c2ad6551ccc6566eba599de1ba",
-      "deployedAt": "2022-05-12"
+      "deployedAt": "2023-04-24",
+      "deployedAtBasis": "first-stored-day"
     },
     {
       "chain": "neutron",
@@ -209,7 +226,8 @@
     {
       "chain": "osmosis",
       "address": "ibc/6329dd8cf31a334dd5be3f68c846c9fe313281362b37686a62343bac1eb1546d",
-      "deployedAt": "2023-11-16"
+      "deployedAt": "2023-11-16",
+      "deployedAtBasis": "first-stored-day"
     },
     {
       "chain": "persistence",
@@ -219,7 +237,8 @@
     {
       "chain": "polygon",
       "address": "0xdab529f40e671a1d4bf91361c21bf9f0c9712ab7",
-      "deployedAt": "2020-09-07"
+      "deployedAt": "2020-09-07",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "regen",
@@ -234,12 +253,12 @@
     {
       "chain": "solana",
       "address": "33fsBLA8djQm82RpHmE3SuVrPGtZBWNYExsEUeKX1HXX",
-      "deployedAt": "2021-09-14"
+      "deployedAt": "2021-09-14",
+      "deployedAtBasis": "first-signature"
     },
     {
       "chain": "sophon",
-      "address": "0x2f4a7f6ec403a9cf19acfd51a63fad59143a862b",
-      "deployedAt": null
+      "address": null
     },
     {
       "chain": "stargaze",
@@ -249,12 +268,14 @@
     {
       "chain": "theta",
       "address": "0x7b37d0787a3424a0810e02b24743a45ebd5530b2",
-      "deployedAt": "2022-05-12"
+      "deployedAt": "2023-04-24",
+      "deployedAtBasis": "first-stored-day"
     },
     {
       "chain": "ultron",
       "address": "0xc7cac85c1779d2b8ada94effff49a4754865e2e4",
-      "deployedAt": "2025-01-01"
+      "deployedAt": "2025-01-01",
+      "deployedAtBasis": "first-stored-day"
     },
     {
       "chain": "umee",
@@ -264,12 +285,14 @@
     {
       "chain": "velas",
       "address": "0xc111c29a988ae0c0087d97b33c6e6766808a3bd3",
-      "deployedAt": "2026-05-28"
+      "deployedAt": "2026-05-28",
+      "deployedAtBasis": "first-stored-day"
     },
     {
       "chain": "xdai",
       "address": "0xd5fe5f651dde69f6fc444d123f2c0cfb804542cd",
-      "deployedAt": "2021-04-05"
+      "deployedAt": "2021-04-05",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "xpla",
@@ -286,7 +309,9 @@
     },
     {
       "chain": "evmos",
-      "address": null
+      "address": "0x516e6d96896aea92ce5e78b0348fd997f13802ad",
+      "deployedAt": "2023-04-24",
+      "deployedAtBasis": "first-stored-day"
     },
     {
       "chain": "injective",
@@ -298,15 +323,11 @@
     },
     {
       "chain": "tron",
-      "address": null
+      "address": "TMz2SWatiAtZVVcH2ebpsbVtYwUPT9EdjH"
     },
     {
       "chain": "axelar",
       "address": "busd-wei"
-    },
-    {
-      "chain": "ibc",
-      "address": "6329dd8cf31a334dd5be3f68c846c9fe313281362b37686a62343bac1eb1546d"
     },
     {
       "chain": "icon",
@@ -314,7 +335,7 @@
     },
     {
       "chain": "waves",
-      "address": "8dliyzjo3uuarbthu7ayoqg4ihwb6yh1afxrrhdjq7k1"
+      "address": "8DLiYZjo3UUaRBTHU7Ayoqg4ihwb6YH1AfXrrhdjQ7K1"
     }
   ],
   "roles": [

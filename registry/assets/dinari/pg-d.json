@@ -27,7 +27,7 @@
     "attestationFrequency": "Random intervals (per whitepaper)"
   },
   "sources": {
-    "coingeckoId": "dinari-pg",
+    "coingeckoId": "procter-gamble-dinari-tokenized-stock",
     "identifiers": [
       {
         "scheme": "isin",
@@ -54,6 +54,7 @@
       "chain": "arbitrum",
       "address": "0xb90e1ee5f4194388e71c11dc2a4eea16da391ce4",
       "deployedAt": "2024-06-18",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -72,19 +73,27 @@
     },
     {
       "chain": "ethereum",
-      "address": null
+      "address": "0xaa88ab7413f909eef5bd69bb2a2b6f97dc6743b8",
+      "deployedAt": "2024-06-18",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "base",
-      "address": null
+      "address": "0x437b5acc7d6f0eacb97431e649c61e98badb3f92",
+      "deployedAt": "2024-06-18",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "blast",
-      "address": null
+      "address": "0x8ad2b97b7fca40af71bfef9857d10bc1bfe70175",
+      "deployedAt": "2024-06-18",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "plume_mainnet",
-      "address": null
+      "address": "0x4fb0a3da4c19caeee353f038689fc5f821b2554e",
+      "deployedAt": "2025-04-26",
+      "deployedAtBasis": "first-code"
     }
   ],
   "roles": [

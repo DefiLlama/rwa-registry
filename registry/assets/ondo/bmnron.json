@@ -36,7 +36,7 @@
     ]
   },
   "about": {
-    "description": "BMNRon is an Ondo Global Markets tokenized stock exposure designed to provide economic exposure to =SUBSTITUTE(A119, \", \") in an onchain format. The token is designed to be fully backed by the underlying publicly traded asset, together with cash in transit, held with regulated custodial broker-dealers. Holdings attestations and ongoing reporting are surfaced through Ondo trust and transparency materials and the product asset page. Tokenholders are not shareholders of the underlying and do not receive shareholder voting rights. Dividend value is reflected through total return mechanics, and where applicable, dividends are reflected through reinvestment adjustments instead of cash dividends.",
+    "description": "BMNRon is an Ondo Global Markets tokenized stock exposure designed to provide economic exposure to Bitmine Immersion Technologies, Inc. in an onchain format. The token is designed to be fully backed by the underlying publicly traded asset, together with cash in transit, held with regulated custodial broker-dealers. Holdings attestations and ongoing reporting are surfaced through Ondo trust and transparency materials and the product asset page. Tokenholders are not shareholders of the underlying and do not receive shareholder voting rights. Dividend value is reflected through total return mechanics, and where applicable, dividends are reflected through reinvestment adjustments instead of cash dividends.",
     "logo": "https://icons.llamao.fi/icons/rwa/bmnr.png?w=48&h=48",
     "links": {
       "website": [
@@ -54,32 +54,38 @@
       "chain": "ethereum",
       "address": "0x33483a58079b4225b10e57958ca28ad7b9cdbaf7",
       "deployedAt": "2025-12-10",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     },
     {
       "chain": "ethereum",
       "address": "0xd9cf567144286023d944701632096673adf03efb",
-      "deployedAt": "2025-12-10"
+      "deployedAt": "2025-12-10",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "bsc",
       "address": "0x52ad57a7ea642e99a892afc79e937b383f1b59e9",
-      "deployedAt": "2025-12-10"
+      "deployedAt": "2025-12-10",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "bsc",
       "address": "0xc3014e2e9b95132566ba8101717aa101d62be7af",
-      "deployedAt": "2025-12-10"
+      "deployedAt": "2025-12-10",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "solana",
       "address": "MYXqkDYbzr7vjXAz2BapR4AiYRXzoikGirrLoRzondo",
-      "deployedAt": "2025-12-31"
+      "deployedAt": "2025-12-31",
+      "deployedAtBasis": "first-signature"
     },
     {
       "chain": "robinhood",
       "address": "0x900f8970d2fae8060d06bb29234f629c837c3383",
-      "deployedAt": "2026-10-07"
+      "deployedAt": "2026-10-07",
+      "deployedAtBasis": "first-code"
     }
   ],
   "roles": [

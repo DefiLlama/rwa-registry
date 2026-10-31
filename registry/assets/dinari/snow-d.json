@@ -27,7 +27,7 @@
     "attestationFrequency": "Random intervals (per whitepaper)"
   },
   "sources": {
-    "coingeckoId": "dinari-snow"
+    "coingeckoId": "snowflake-dinari-tokenized-stock"
   },
   "about": {
     "description": "SNOW.d is a Dinari dShare that provides on-chain exposure to the referenced equity (Snowflake Inc. dShare). dShares may only be issued and redeemed from wallets that have completed KYC, and Dinari states it screens wallets holding dShares as part of its AML program. The token includes a transfer blacklist feature for OFAC, AML, and account-security controls. Dinari states dividends and distributions are allocated using an on-chain snapshot and made available to withdraw from a USDC claim contract, and Dinari holds back shareholder voting rights from tokenholders.",
@@ -48,6 +48,7 @@
       "chain": "arbitrum",
       "address": "0x1ae31840d492993a58baf558180b5ee83ce2f8ce",
       "deployedAt": "2024-12-05",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -66,19 +67,25 @@
     },
     {
       "chain": "ethereum",
-      "address": null
+      "address": "0x3482968ed0e10bf7446706a6680e8a8f486f61b0",
+      "deployedAt": "2024-12-13",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "base",
-      "address": null
+      "address": "0xb0e5552292b277f8a9b36326971553545bb55be5",
+      "deployedAt": "2024-12-05",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "blast",
-      "address": null
+      "address": "0xb127e5d53df0c2056cf337081ec56f01efd5c8bc",
+      "deployedAt": "2024-12-05",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "plume_mainnet",
-      "address": null
+      "address": "0xf004cd5db110f8f0d15596fb1eef8acdaf325c9e"
     }
   ],
   "roles": [

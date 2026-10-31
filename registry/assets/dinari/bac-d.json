@@ -27,7 +27,7 @@
     "attestationFrequency": "Random intervals (per whitepaper)"
   },
   "sources": {
-    "coingeckoId": "dinari-bac",
+    "coingeckoId": "bank-of-america-dinari-tokenized-stock",
     "identifiers": [
       {
         "scheme": "isin",
@@ -54,6 +54,7 @@
       "chain": "arbitrum",
       "address": "0x23f318840a200fa488627849a369a138f66b3577",
       "deployedAt": "2024-12-05",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -72,19 +73,27 @@
     },
     {
       "chain": "ethereum",
-      "address": null
+      "address": "0x6c1aa3dd4195522ffd963215a13416324eaf9216",
+      "deployedAt": "2024-12-13",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "base",
-      "address": null
+      "address": "0x408e16d4e07812a963189dc15fa61806eb8a4e9d",
+      "deployedAt": "2024-12-05",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "blast",
-      "address": null
+      "address": "0xc6561ff3100d8b3c33898dfbfeb6e695134e6957",
+      "deployedAt": "2024-12-05",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "plume_mainnet",
-      "address": null
+      "address": "0xff50c7c4a1a196477908509b526723c4b992eaf0",
+      "deployedAt": "2025-04-26",
+      "deployedAtBasis": "first-code"
     }
   ],
   "roles": [

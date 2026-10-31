@@ -42,22 +42,26 @@
       "chain": "solana",
       "address": "9Gst2E7KovZ9jwecyGqnnhpG1mhHKdyLpJQnZonkCFhA",
       "deployedAt": "2025-10-22",
+      "deployedAtBasis": "metadata-created",
       "primary": true
     },
     {
       "chain": "ethereum",
       "address": "0xfea577f08d1984e6654813be0acee3140e5d7d42",
-      "deployedAt": "2025-12-01"
+      "deployedAt": "2025-12-01",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "base",
       "address": "0x9235a67f59a6c946207d72545b32ae8860518451",
-      "deployedAt": "2025-10-01"
+      "deployedAt": "2025-10-01",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "monad",
       "address": "0xd0a4bdb0422db3fa77dc46189b6d043d2cd5a7b9",
-      "deployedAt": "2025-11-24"
+      "deployedAt": "2025-11-24",
+      "deployedAtBasis": "contract-creation"
     }
   ],
   "roles": [

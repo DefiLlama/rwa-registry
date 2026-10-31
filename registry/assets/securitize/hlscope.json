@@ -44,17 +44,20 @@
       "chain": "polygon",
       "address": "0x4c5ca366e26409845624e29b62c388a06961a792",
       "deployedAt": "2024-12-19",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     },
     {
       "chain": "ethereum",
       "address": "0xda2ffa104356688e74d9340519b8c17f00d7752e",
-      "deployedAt": "2025-07-17"
+      "deployedAt": "2025-07-17",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "optimism",
       "address": "0x720f86f4b5b5d5d0ea3e5718ec43071d4d05134b",
-      "deployedAt": "2025-07-16"
+      "deployedAt": "2025-07-16",
+      "deployedAtBasis": "first-code"
     }
   ],
   "roles": [

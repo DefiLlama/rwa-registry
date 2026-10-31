@@ -44,38 +44,45 @@
   "deployments": [
     {
       "chain": "arbitrum",
-      "address": "0x8ffdf2de812095b1d19cb146e4c004587c0a0692",
-      "deployedAt": "2023-06-20"
+      "address": "0x93b346b6bc2548da6a1e7d98e9a421b42541425b",
+      "deployedAt": "2022-08-12",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "arbitrum_nova",
       "address": "0x14b580e57d0827d7b0f326d73ac837c51d62627d",
-      "deployedAt": "2025-01-01"
+      "deployedAt": "2023-12-16",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "avax",
       "address": "0xda0019e7e50ee4990440b1aa5dffcac6e27ee27b",
-      "deployedAt": "2022-03-01"
+      "deployedAt": "2022-03-01",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "base",
       "address": "0x368181499736d0c0cc614dbb145e2ec1ac86b8c6",
-      "deployedAt": "2023-11-02"
+      "deployedAt": "2023-11-02",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "bsc",
       "address": "0x181002d60d504d30a39601ae13af3191cb102580",
-      "deployedAt": "2022-03-01"
+      "deployedAt": "2022-03-01",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "era",
       "address": "0x503234f203fc7eb888eec8513210612a43cf6115",
-      "deployedAt": "2023-04-14"
+      "deployedAt": "2023-04-14",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "ethereum",
-      "address": "0x3fe6a295459fae07df8a0cecc36f37160fe86aa9",
-      "deployedAt": "2023-02-20",
+      "address": "0x5f98805a4e8be255a32880fdec7f6728c6568ba0",
+      "deployedAt": "2021-04-05",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -87,47 +94,55 @@
     {
       "chain": "fantom",
       "address": "0x16365b45eb269b5b5dacb34b4a15399ec79b95eb",
-      "deployedAt": "2022-03-01"
+      "deployedAt": "2022-03-01",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "fraxtal",
       "address": "0x873fe38a08d485088f223b6439432b3096cf7010",
-      "deployedAt": "2024-03-09"
+      "deployedAt": "2024-03-09",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "linea",
       "address": "0x63ba74893621d3d12f13cec1e86517ec3d329837",
-      "deployedAt": "2024-01-24"
+      "deployedAt": "2024-01-24",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "mantle",
       "address": "0xf93a85d53e4af0d62bdf3a83ccfc1ecf3eaf9f32",
-      "deployedAt": "2023-07-14"
+      "deployedAt": "2023-07-14",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "optimism",
-      "address": "0x8eb270e296023e9d92081fdf967ddd7878724424",
-      "deployedAt": "2023-04-05"
+      "address": "0xc40f949f8a4e094d1b49a23ea9241d289b7b2819",
+      "deployedAt": null
     },
     {
       "chain": "polygon",
       "address": "0x23001f892c0c82b79303edc9b9033cd190bb21c7",
-      "deployedAt": "2021-04-28"
+      "deployedAt": "2021-04-28",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "polygon_zkevm",
       "address": "0x01e9a866c361ead20ab4e838287dd464dc67a50e",
-      "deployedAt": "2023-05-25"
+      "deployedAt": "2023-03-25",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "starknet",
       "address": "0x070a76fd48ca0ef910631754d77dd822147fe98a569b826ec85e3c33fde586ac",
-      "deployedAt": "2026-05-28"
+      "deployedAt": "2023-06-29",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "unichain",
       "address": "0xf81b7485b4cb59645f74528d702c7f8cd72577fb",
-      "deployedAt": "2025-02-04"
+      "deployedAt": "2025-02-04",
+      "deployedAtBasis": "contract-creation"
     }
   ],
   "roles": [

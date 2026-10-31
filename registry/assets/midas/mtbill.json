@@ -47,6 +47,7 @@
       "chain": "ethereum",
       "address": "0xdd629e5241cbc5919847783e6c96b2de4754e438",
       "deployedAt": "2023-12-01",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -82,26 +83,28 @@
     {
       "chain": "base",
       "address": "0xdd629e5241cbc5919847783e6c96b2de4754e438",
-      "deployedAt": "2024-09-19"
+      "deployedAt": "2024-09-19",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "oasis",
-      "address": "0xdd629e5241cbc5919847783e6c96b2de4754e438",
-      "deployedAt": null
+      "address": null
     },
     {
       "chain": "plume_mainnet",
       "address": "0xe85f2b707ec5ae8e07238f99562264f304e30109",
-      "deployedAt": "2025-11-17"
+      "deployedAt": "2025-04-30",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "rsk",
       "address": "0xdd629e5241cbc5919847783e6c96b2de4754e438",
-      "deployedAt": "2025-02-27"
+      "deployedAt": "2025-02-27",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "etlk",
-      "address": null
+      "address": "0xdd629e5241cbc5919847783e6c96b2de4754e438"
     }
   ],
   "roles": [

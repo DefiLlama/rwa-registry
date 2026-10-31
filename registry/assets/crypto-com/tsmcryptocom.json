@@ -51,7 +51,8 @@
     {
       "chain": "cronos",
       "address": "0x4523f141faf95b67319c236ea9c262ca5b20d000",
-      "deployedAt": "2026-08-26",
+      "deployedAt": "2026-05-26",
+      "deployedAtBasis": "first-code",
       "primary": true,
       "labels": [
         {

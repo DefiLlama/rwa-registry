@@ -61,6 +61,7 @@
       "chain": "ethereum",
       "address": "0x5fa487bca6158c64046b2813623e20755091da0b",
       "deployedAt": "2025-07-22",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -72,17 +73,20 @@
     {
       "chain": "arbitrum",
       "address": "0xfdd22ce6d1f66bc0ec89b20bf16ccb6670f55a5a",
-      "deployedAt": "2025-08-04"
+      "deployedAt": "2025-08-04",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "base",
       "address": "0xfdd22ce6d1f66bc0ec89b20bf16ccb6670f55a5a",
-      "deployedAt": "2025-08-04"
+      "deployedAt": "2025-08-04",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "hyperliquid",
       "address": "0xfdd22ce6d1f66bc0ec89b20bf16ccb6670f55a5a",
-      "deployedAt": "2025-08-04"
+      "deployedAt": "2025-08-04",
+      "deployedAtBasis": "contract-creation"
     }
   ],
   "roles": [

@@ -27,7 +27,7 @@
     "attestationFrequency": "Continuous"
   },
   "sources": {
-    "coingeckoId": "micron-technology-bstocks-tokenized-stock",
+    "coingeckoId": "micron-technology-bstock",
     "identifiers": [
       {
         "scheme": "isin",
@@ -53,6 +53,7 @@
       "chain": "bsc",
       "address": "0xcdf2f3e0fa43c47a6662a91c9e4a7c5f69762699",
       "deployedAt": "2026-06-05",
+      "deployedAtBasis": "first-code",
       "primary": true
     }
   ],

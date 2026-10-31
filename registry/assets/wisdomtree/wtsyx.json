@@ -53,6 +53,7 @@
       "chain": "ethereum",
       "address": "0x3340e2c0ddcc4a035737bc1f5445c7d0fa6cbf5c",
       "deployedAt": "2025-03-31",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -64,32 +65,38 @@
     {
       "chain": "optimism",
       "address": "0xbe310315ef22d0eb8a91c211a7286b10d21be7fc",
-      "deployedAt": "2025-03-20"
+      "deployedAt": "2025-03-20",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "plume_mainnet",
       "address": "0x21d6cc37fd71e5b5ca5c081ee01668139a13a5d5",
-      "deployedAt": "2025-10-21"
+      "deployedAt": "2025-10-21",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "stellar",
       "address": "WTSY-GB3ZUC7FGDEEBXY3BDEJWMPNGBFA66YRI4QQT6PBO3ZT6F33S7RL36VF",
-      "deployedAt": "2022-09-23"
+      "deployedAt": "2022-09-23",
+      "deployedAtBasis": "asset-created"
     },
     {
       "chain": "arbitrum",
       "address": "0xeac8180e6c03bb5e8ed11b1c09e06d4a7a6fecc4",
-      "deployedAt": "2025-03-31"
+      "deployedAt": "2025-03-31",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "avax",
       "address": "0xbe310315ef22d0eb8a91c211a7286b10d21be7fc",
-      "deployedAt": "2025-03-18"
+      "deployedAt": "2025-03-18",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "base",
       "address": "0xbb2ce6adb794f1c9d6779df86626bb6b4e485818",
-      "deployedAt": "2025-03-17"
+      "deployedAt": "2025-03-17",
+      "deployedAtBasis": "first-code"
     }
   ],
   "roles": [

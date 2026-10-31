@@ -44,45 +44,56 @@
     {
       "chain": "arbitrum",
       "address": "0x680447595e8b7b3aa1b43beb9f6098c79ac2ab3f",
-      "deployedAt": "2022-05-16"
+      "deployedAt": "2022-05-16",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "avax",
       "address": "0xb514cabd09ef5b169ed3fe0fa8dbd590741e81c2",
-      "deployedAt": "2022-08-05"
+      "deployedAt": "2022-08-05",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "bittorrent",
       "address": "0x17f235fd5974318e4e2a5e37919a209f7c37a6d1",
-      "deployedAt": "2022-04-30"
+      "deployedAt": "2022-04-30",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "bsc",
       "address": "0x392004bee213f1ff580c867359c246924f21e6ad",
-      "deployedAt": "2025-01-20"
+      "deployedAt": "2025-01-20",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "ethereum",
       "address": "0x0c10bf8fcb7bf5412187a595ab97a3609160b5c6",
-      "deployedAt": "2022-04-30"
+      "deployedAt": "2022-04-30",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "fraxtal",
       "address": "0x2d114997af7e72f69c1edc02288616d88afdc24d",
-      "deployedAt": "2024-03-09"
+      "deployedAt": "2024-03-09",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "optimism",
       "address": "0x7113370218f31764c1b6353bdf6004d86ff6b9cc",
-      "deployedAt": "2022-05-22"
+      "deployedAt": "2022-05-22",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "near",
-      "address": "0c10bf8fcb7bf5412187a595ab97a3609160b5c6.factory.bridge.near"
+      "address": "0c10bf8fcb7bf5412187a595ab97a3609160b5c6.factory.bridge.near",
+      "deployedAt": "2022-05-17",
+      "deployedAtBasis": "contract-created"
     },
     {
       "chain": "tron",
-      "address": null,
+      "address": "TXDk8mbtRbXeYuMNS83CfKPaYYT8XWv9Hz",
+      "deployedAt": "2023-04-24",
+      "deployedAtBasis": "first-stored-day",
       "primary": true
     }
   ],

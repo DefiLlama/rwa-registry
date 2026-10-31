@@ -47,6 +47,7 @@
       "chain": "ethereum",
       "address": "0x5086bf358635b81d8c47c66d1c8b9e567db70c72",
       "deployedAt": "2025-01-21",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -79,6 +80,7 @@
       "chain": "avax",
       "address": "0x180af87b47bf272b2df59dccf2d76a6eafa625bf",
       "deployedAt": "2025-01-21",
+      "deployedAtBasis": "first-code",
       "labels": [
         {
           "address": "0x295f67fdb21255a3db82964445628a706fbe689e",
@@ -102,6 +104,7 @@
       "chain": "arbitrum",
       "address": "0x76ce01f0ef25aa66cc5f1e546a005e4a63b25609",
       "deployedAt": "2025-02-12",
+      "deployedAtBasis": "contract-creation",
       "labels": [
         {
           "address": "0x295f67fdb21255a3db82964445628a706fbe689e",
@@ -125,6 +128,7 @@
       "chain": "base",
       "address": "0x7d214438d0f27afccc23b3d1e1a53906ace5cfea",
       "deployedAt": "2025-05-27",
+      "deployedAtBasis": "first-code",
       "labels": [
         {
           "address": "0x295f67fdb21255a3db82964445628a706fbe689e",
@@ -143,17 +147,20 @@
     {
       "chain": "katana",
       "address": "0xe08853433fdbc504240455e295b644e0f44c3b29",
-      "deployedAt": "2026-01-23"
+      "deployedAt": "2026-01-23",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "bsc",
       "address": "0xba9425ec55ee0e72216d18e0ad8bbba2553bfb60",
-      "deployedAt": "2026-01-12"
+      "deployedAt": "2026-01-12",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "ink",
       "address": "0x5bcf6b008bf80b9296238546bace1797657b05d6",
-      "deployedAt": "2025-11-27"
+      "deployedAt": "2025-11-27",
+      "deployedAtBasis": "first-code"
     }
   ],
   "roles": [

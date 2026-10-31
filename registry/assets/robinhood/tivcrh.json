@@ -2,7 +2,7 @@
   "identity": {
     "slug": "tivcrh",
     "symbol": "TIVC",
-    "name": "Tivic Health Systems, Inc. - Robinhood Token",
+    "name": "Valion Bio, Inc. - Robinhood Token",
     "legacyId": 2395,
     "canonicalMarketId": "TIVCrh"
   },
@@ -41,6 +41,7 @@
       "chain": "arbitrum",
       "address": "0xf0fd0bec27a96e3df9f6669bec60ef2e843670c1",
       "deployedAt": "2025-11-28",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {

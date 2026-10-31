@@ -54,27 +54,32 @@
       "chain": "ethereum",
       "address": "0x3ce219d498d807317f840f4cb0f03fa27dd65046",
       "deployedAt": "2025-07-23",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     },
     {
       "chain": "ethereum",
       "address": "0x0557bb7270845ac10028153cf88a1310eedfbabd",
-      "deployedAt": "2025-12-02"
+      "deployedAt": "2025-12-02",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "bsc",
       "address": "0xf99f8f3a95257d82006183bd524efa7aacc9ef7a",
-      "deployedAt": "2025-10-09"
+      "deployedAt": "2025-10-09",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "bsc",
       "address": "0x7925bdd7e622ddfbb44efb668c384e463cfaf07f",
-      "deployedAt": "2025-12-02"
+      "deployedAt": "2025-12-02",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "solana",
       "address": "gud6b3fYekjhMG5F818BALwbg2vt4JKoow59Md9ondo",
-      "deployedAt": "2026-02-17"
+      "deployedAt": "2025-12-31",
+      "deployedAtBasis": "first-signature"
     }
   ],
   "roles": [

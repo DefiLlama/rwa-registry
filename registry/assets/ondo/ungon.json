@@ -53,22 +53,26 @@
       "chain": "ethereum",
       "address": "0x7c488cfc874ca9f34e7bdbd0410c27ce6d6af5f9",
       "deployedAt": "2026-03-09",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     },
     {
       "chain": "bsc",
       "address": "0xa5351c9bf08055e03642b6b8649a0f7e895501bf",
-      "deployedAt": "2026-03-09"
+      "deployedAt": "2026-03-09",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "solana",
       "address": "Es2ipHL7qXBcLmZ4N7LP9PHBHaWaTMTAkxDwGGjondo",
-      "deployedAt": "2026-03-09"
+      "deployedAt": "2026-03-09",
+      "deployedAtBasis": "first-signature"
     },
     {
       "chain": "hyperliquid",
       "address": "0x2c81466c9b144e3b6e9d6e8858bc0973a953fb0a",
-      "deployedAt": "2026-03-27"
+      "deployedAt": "2026-03-27",
+      "deployedAtBasis": "contract-creation"
     }
   ],
   "roles": [

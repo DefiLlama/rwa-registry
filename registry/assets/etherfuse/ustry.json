@@ -43,22 +43,26 @@
       "chain": "stellar",
       "address": "USTRY-GCRYUGD5NVARGXT56XEZI5CIFCQETYHAPQQTHO2O3IQZTHDH4LATMYWC",
       "deployedAt": "2024-12-20",
+      "deployedAtBasis": "asset-created",
       "primary": true
     },
     {
       "chain": "solana",
       "address": "USTRYnGgcHAhdWsanv8BG6vHGd4p7UGgoB9NRd8ei7j",
-      "deployedAt": "2024-08-30"
+      "deployedAt": "2024-08-30",
+      "deployedAtBasis": "first-signature"
     },
     {
       "chain": "base",
       "address": "0xc2c1f8eb98c0468be0232dd4166705d0dea3fe31",
-      "deployedAt": "2025-10-29"
+      "deployedAt": "2025-10-29",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "polygon",
       "address": "0xc2c1f8eb98c0468be0232dd4166705d0dea3fe31",
-      "deployedAt": "2025-10-29"
+      "deployedAt": "2025-10-29",
+      "deployedAtBasis": "contract-creation"
     }
   ],
   "roles": [

@@ -47,42 +47,50 @@
       "chain": "ethereum",
       "address": "0x39b8b6385416f4ca36a20319f70d28621895279d",
       "deployedAt": "2024-12-16",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     },
     {
       "chain": "xdai",
       "address": "0x420ca0f9b9b604ce0fd9c18ef134c705e5fa3430",
-      "deployedAt": "2024-08-25"
+      "deployedAt": "2024-08-25",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "polygon",
       "address": "0xe0aea583266584dafbb3f9c3211d5588c73fea8d",
-      "deployedAt": "2024-08-18"
+      "deployedAt": "2024-08-18",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "arbitrum",
       "address": "0x0c06ccf38114ddfc35e07427b9424adcca9f44f8",
-      "deployedAt": "2024-09-12"
+      "deployedAt": "2024-09-12",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "linea",
       "address": "0x3ff47c5bf409c86533fe1f4907524d304062428d",
-      "deployedAt": "2025-02-20"
+      "deployedAt": "2025-02-20",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "scroll",
       "address": "0xd7bb130a48595fcdf9480e36c1ae97ff2938ac21",
-      "deployedAt": "2025-03-14"
+      "deployedAt": "2025-03-14",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "algorand",
       "address": "83209012",
-      "deployedAt": null
+      "deployedAt": "2020-12-07",
+      "deployedAtBasis": "asset-created"
     },
     {
       "chain": "noble",
       "address": "ueure",
-      "deployedAt": null
+      "deployedAt": "2024-09-18",
+      "deployedAtBasis": "issuer-announcement"
     }
   ],
   "roles": [

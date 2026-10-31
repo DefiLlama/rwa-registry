@@ -27,16 +27,10 @@
     "attestationFrequency": "Daily"
   },
   "sources": {
-    "coingeckoId": "ford-motor-ondo-tokenized-stock",
-    "identifiers": [
-      {
-        "scheme": "isin",
-        "value": "US3493811034"
-      }
-    ]
+    "coingeckoId": "ford-motor-ondo-tokenized-stock"
   },
   "about": {
-    "description": "Fon is an Ondo Global Markets tokenized stock exposure designed to provide economic exposure to =SUBSTITUTE(A139, \", \") in an onchain format. The token is designed to be fully backed by the underlying publicly traded asset, together with cash in transit, held with regulated custodial broker-dealers. Holdings attestations and ongoing reporting are surfaced through Ondo trust and transparency materials and the product asset page. Tokenholders are not shareholders of the underlying and do not receive shareholder voting rights. Dividend value is reflected through total return mechanics, and where applicable, dividends are reflected through reinvestment adjustments instead of cash dividends.",
+    "description": "Fon is an Ondo Global Markets tokenized stock exposure designed to provide economic exposure to Ford Motor Company in an onchain format. The token is designed to be fully backed by the underlying publicly traded asset, together with cash in transit, held with regulated custodial broker-dealers. Holdings attestations and ongoing reporting are surfaced through Ondo trust and transparency materials and the product asset page. Tokenholders are not shareholders of the underlying and do not receive shareholder voting rights. Dividend value is reflected through total return mechanics, and where applicable, dividends are reflected through reinvestment adjustments instead of cash dividends.",
     "logo": "https://icons.llamao.fi/icons/rwa/f.png?w=48&h=48",
     "links": {
       "website": [
@@ -54,27 +48,32 @@
       "chain": "ethereum",
       "address": "0xf72936fa8afc808c99eb76e620a98ddc6a7a53d1",
       "deployedAt": "2025-12-10",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     },
     {
       "chain": "ethereum",
       "address": "0x805b144657eaab22e9859a17451150b795dfeb4b",
-      "deployedAt": "2025-12-10"
+      "deployedAt": "2025-12-10",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "bsc",
       "address": "0xb1aba049c42b6fe811766eba61f51f11c57acc4b",
-      "deployedAt": "2025-12-10"
+      "deployedAt": "2025-12-10",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "bsc",
       "address": "0xef966bbbc79ef216c1490718d1521c89b975f9e4",
-      "deployedAt": "2025-12-10"
+      "deployedAt": "2025-12-10",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "solana",
       "address": "5hT2o25X9tGXipwhLckaUdgnxrZ6Y8eiUwdhpLeondo",
-      "deployedAt": "2025-12-31"
+      "deployedAt": "2025-12-31",
+      "deployedAtBasis": "first-signature"
     }
   ],
   "roles": [

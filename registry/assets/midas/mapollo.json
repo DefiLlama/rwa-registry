@@ -26,6 +26,7 @@
     "attestationFrequency": "Continuous (Midas Attestation Engine, Chainlink + vlayer)"
   },
   "about": {
+    "description": "The mAPOLLO token references multi-chain stablecoin yield strategies managed by Apollo Crypto.",
     "logo": "https://icons.llamao.fi/icons/rwa/mapollo.png?w=48&h=48",
     "links": {
       "website": [
@@ -43,6 +44,7 @@
       "chain": "ethereum",
       "address": "0x7cf9dec92ca9fd46f8d86e7798b72624bc116c05",
       "deployedAt": "2025-07-15",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     }
   ],

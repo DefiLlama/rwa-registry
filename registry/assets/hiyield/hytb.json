@@ -42,17 +42,20 @@
     {
       "chain": "stellar",
       "address": "CAAPC4ETIO7HFU5EI6HUHR6V6J5AYQ5NVMM7X2NTI6J7R2STOLOCRU5W",
-      "deployedAt": "2024-07-16"
+      "deployedAt": "2024-07-16",
+      "deployedAtBasis": "contract-created"
     },
     {
       "chain": "ethereum",
       "address": "0xaf5baa225765b2ef3eb446aeab87e02dfbcfeac2",
-      "deployedAt": "2024-06-04"
+      "deployedAt": "2024-06-04",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "avax",
       "address": "0x8475509d391e6ee5a8b7133221ce17019d307b3e",
       "deployedAt": "2024-02-02",
+      "deployedAtBasis": "first-code",
       "primary": true,
       "labels": [
         {

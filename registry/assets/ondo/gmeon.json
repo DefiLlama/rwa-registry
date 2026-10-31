@@ -48,32 +48,38 @@
       "chain": "ethereum",
       "address": "0x71d24baeb0a033ec5f90ff65c4210545af378d97",
       "deployedAt": "2025-07-23",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     },
     {
       "chain": "ethereum",
       "address": "0x49438acf0c40fae74c79cc605f57f55c8dd3efd0",
-      "deployedAt": "2025-12-02"
+      "deployedAt": "2025-12-02",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "bsc",
       "address": "0xdabb9aff4cf02f26d2014e4ca9f94ac6fe6572a3",
-      "deployedAt": "2025-10-09"
+      "deployedAt": "2025-10-09",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "bsc",
       "address": "0xb175800b45668a016fc13ef36f2286036fdff36c",
-      "deployedAt": "2025-12-02"
+      "deployedAt": "2025-12-02",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "solana",
       "address": "aznKt8v32CwYMEcTcB4bGTv8DXWStCpHrcCtyy7ondo",
-      "deployedAt": "2025-12-31"
+      "deployedAt": "2025-12-31",
+      "deployedAtBasis": "first-signature"
     },
     {
       "chain": "robinhood",
       "address": "0xb094d0d3221d7f7a9f14b0f78c34cd38d7acf6f2",
-      "deployedAt": "2026-10-07"
+      "deployedAt": "2026-10-07",
+      "deployedAtBasis": "first-code"
     }
   ],
   "roles": [

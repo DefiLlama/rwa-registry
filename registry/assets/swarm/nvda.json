@@ -53,6 +53,7 @@
       "chain": "polygon",
       "address": "0x267fc8b95345916c9740cbc007ed65c71b052395",
       "deployedAt": "2025-02-17",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -96,12 +97,14 @@
     {
       "chain": "ethereum",
       "address": "0x936d899ed37f1c9334f9f64813042300e9d07116",
-      "deployedAt": "2025-02-17"
+      "deployedAt": "2025-02-17",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "base",
       "address": "0x3993ab33e5ae1c081df87913ab5c845ee2813b72",
-      "deployedAt": "2025-02-17"
+      "deployedAt": "2025-02-17",
+      "deployedAtBasis": "first-code"
     }
   ],
   "roles": [

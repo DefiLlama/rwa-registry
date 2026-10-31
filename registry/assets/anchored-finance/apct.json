@@ -43,33 +43,39 @@
     {
       "chain": "ethereum",
       "address": "0x13077a525ae6ca771e04fc91871b2f8f55ecfe3a",
-      "deployedAt": "2026-09-03"
+      "deployedAt": "2026-09-03",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "monad",
       "address": "0x13077a525ae6ca771e04fc91871b2f8f55ecfe3a",
       "deployedAt": "2026-09-03",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     },
     {
       "chain": "base",
       "address": "0x13077a525ae6ca771e04fc91871b2f8f55ecfe3a",
-      "deployedAt": "2026-09-03"
+      "deployedAt": "2026-09-03",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "arbitrum",
       "address": "0x13077a525ae6ca771e04fc91871b2f8f55ecfe3a",
-      "deployedAt": "2026-09-03"
+      "deployedAt": "2026-09-03",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "robinhood",
       "address": "0x13077a525ae6ca771e04fc91871b2f8f55ecfe3a",
-      "deployedAt": "2026-09-04"
+      "deployedAt": "2026-09-04",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "bsc",
       "address": "0x13077a525ae6ca771e04fc91871b2f8f55ecfe3a",
-      "deployedAt": "2026-09-08"
+      "deployedAt": "2026-09-08",
+      "deployedAtBasis": "first-code"
     }
   ],
   "roles": [

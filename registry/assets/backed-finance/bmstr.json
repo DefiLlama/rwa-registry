@@ -53,6 +53,7 @@
       "chain": "ethereum",
       "address": "0xac28c9178acc8ba4a11a29e013a3a2627086e422",
       "deployedAt": "2024-06-03",
+      "deployedAtBasis": "contract-creation",
       "labels": [
         {
           "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
@@ -88,6 +89,7 @@
       "chain": "xdai",
       "address": "0xac28c9178acc8ba4a11a29e013a3a2627086e422",
       "deployedAt": "2024-09-12",
+      "deployedAtBasis": "first-code",
       "labels": [
         {
           "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
@@ -107,6 +109,7 @@
       "chain": "polygon",
       "address": "0xac28c9178acc8ba4a11a29e013a3a2627086e422",
       "deployedAt": "2024-09-16",
+      "deployedAtBasis": "contract-creation",
       "labels": [
         {
           "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
@@ -118,6 +121,7 @@
       "chain": "arbitrum",
       "address": "0xac28c9178acc8ba4a11a29e013a3a2627086e422",
       "deployedAt": "2024-10-31",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -130,6 +134,7 @@
       "chain": "avax",
       "address": "0xac28c9178acc8ba4a11a29e013a3a2627086e422",
       "deployedAt": "2024-10-09",
+      "deployedAtBasis": "first-code",
       "labels": [
         {
           "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
@@ -139,18 +144,17 @@
     },
     {
       "chain": "fantom",
-      "address": "0xac28c9178acc8ba4a11a29e013a3a2627086e422",
-      "deployedAt": null
+      "address": null
     },
     {
       "chain": "bsc",
-      "address": "0xac28c9178acc8ba4a11a29e013a3a2627086e422",
-      "deployedAt": null
+      "address": null
     },
     {
       "chain": "base",
       "address": "0xac28c9178acc8ba4a11a29e013a3a2627086e422",
       "deployedAt": "2025-02-13",
+      "deployedAtBasis": "first-code",
       "labels": [
         {
           "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",

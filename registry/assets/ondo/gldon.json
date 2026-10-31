@@ -37,7 +37,7 @@
     ]
   },
   "about": {
-    "description": "GLDon is an Ondo Global Markets tokenized ETF exposure designed to provide economic exposure to =SUBSTITUTE(A142, \", \") in an onchain format. The token is designed to be fully backed by the underlying publicly traded ETF, together with cash in transit, held with regulated custodial broker-dealers. Holdings attestations and ongoing reporting are surfaced through Ondo trust and transparency materials and the product asset page. Tokenholders are not shareholders of the underlying and do not receive shareholder voting rights. Distributions, where applicable, are reflected through total return mechanics and reinvestment adjustments.",
+    "description": "GLDon is an Ondo Global Markets tokenized ETF exposure designed to provide economic exposure to SPDR Gold Shares in an onchain format. The token is designed to be fully backed by the underlying publicly traded ETF, together with cash in transit, held with regulated custodial broker-dealers. Holdings attestations and ongoing reporting are surfaced through Ondo trust and transparency materials and the product asset page. Tokenholders are not shareholders of the underlying and do not receive shareholder voting rights. Distributions, where applicable, are reflected through total return mechanics and reinvestment adjustments.",
     "logo": "https://icons.llamao.fi/icons/rwa/gld.png?w=48&h=48",
     "links": {
       "website": [
@@ -55,22 +55,26 @@
       "chain": "ethereum",
       "address": "0x423d42e505e64f99b6e277eb7ed324cc5606f139",
       "deployedAt": "2025-12-10",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     },
     {
       "chain": "bsc",
       "address": "0xfa9a1e901085e269f6d428f79cd5252d8b919344",
-      "deployedAt": "2025-12-10"
+      "deployedAt": "2025-12-10",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "solana",
       "address": "hWfiw4mcxT8rnNFkk6fsCQSxoxgZ9yVhB6tyeVcondo",
-      "deployedAt": "2026-02-17"
+      "deployedAt": "2026-02-17",
+      "deployedAtBasis": "first-stored-day"
     },
     {
       "chain": "hyperliquid",
       "address": "0x95febdd6f447b5278c9b98743b4254eb02c6ea1d",
-      "deployedAt": "2026-03-27"
+      "deployedAt": "2026-03-27",
+      "deployedAtBasis": "contract-creation"
     }
   ],
   "roles": [

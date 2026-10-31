@@ -7,7 +7,7 @@
     "canonicalMarketId": "SOXL.d"
   },
   "exposure": {
-    "underlying": "direxion-daily-semiconductor-bull-3x-etf"
+    "underlying": "direxion-daily-semiconductor-bull-3x-shares"
   },
   "class": {
     "structure": "equity-basket",
@@ -27,7 +27,7 @@
     "attestationFrequency": "Random intervals (per whitepaper)"
   },
   "sources": {
-    "coingeckoId": "dinari-soxl"
+    "coingeckoId": "direxion-daily-semiconductor-bull-3x-etf-dinari-tokenized-etf"
   },
   "about": {
     "description": "SOXL.d is a Dinari dShare that provides on-chain exposure to the referenced equity (Direxion Daily Semiconductor Bull 3X Shares dShare). dShares may only be issued and redeemed from wallets that have completed KYC, and Dinari states it screens wallets holding dShares as part of its AML program. The token includes a transfer blacklist feature for OFAC, AML, and account-security controls. Dinari states dividends and distributions are allocated using an on-chain snapshot and made available to withdraw from a USDC claim contract, and Dinari holds back shareholder voting rights from tokenholders.",
@@ -48,6 +48,7 @@
       "chain": "arbitrum",
       "address": "0x9fe6002c876972d8d84124ec25000a6fa14c88ec",
       "deployedAt": "2024-12-05",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -66,19 +67,25 @@
     },
     {
       "chain": "ethereum",
-      "address": null
+      "address": "0xc580919e2e4b083321f9e4c5ed56bc862f275916",
+      "deployedAt": "2024-12-13",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "base",
-      "address": null
+      "address": "0xb9b034467a7f50b567b74f60b82e39bfd78aca5a",
+      "deployedAt": "2024-12-05",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "blast",
-      "address": null
+      "address": "0xdd31c8b5c899c0f85fb4738accac44180e4d7390",
+      "deployedAt": "2024-12-05",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "plume_mainnet",
-      "address": null
+      "address": "0x86832ca69c41906386dc4c328aa21fd2c7464bab"
     }
   ],
   "roles": [

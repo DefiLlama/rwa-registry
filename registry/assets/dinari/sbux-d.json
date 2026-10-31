@@ -27,7 +27,7 @@
     "attestationFrequency": "Random intervals (per whitepaper)"
   },
   "sources": {
-    "coingeckoId": "dinari-sbux"
+    "coingeckoId": "starbucks-dinari-tokenized-stock"
   },
   "about": {
     "description": "SBUX.d is a Dinari dShare that provides on-chain exposure to the referenced equity (Starbucks Corp dShare). dShares may only be issued and redeemed from wallets that have completed KYC, and Dinari states it screens wallets holding dShares as part of its AML program. The token includes a transfer blacklist feature for OFAC, AML, and account-security controls. Dinari states dividends and distributions are allocated using an on-chain snapshot and made available to withdraw from a USDC claim contract, and Dinari holds back shareholder voting rights from tokenholders.",
@@ -48,6 +48,7 @@
       "chain": "arbitrum",
       "address": "0x4b72de2da8be112cad87773b47537cf550676ffa",
       "deployedAt": "2024-12-05",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -66,19 +67,25 @@
     },
     {
       "chain": "ethereum",
-      "address": null
+      "address": "0x86ccbf2471be7ebca2c2c92a12fcf7089a44b4df",
+      "deployedAt": "2024-12-13",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "base",
-      "address": null
+      "address": "0x9b42e4afcc2046070fa00ff8213d59eef6e4264e",
+      "deployedAt": "2024-12-05",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "blast",
-      "address": null
+      "address": "0xd2c500a8dd36eee1082314d624a46b5ab37c426e",
+      "deployedAt": "2024-12-05",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "plume_mainnet",
-      "address": null
+      "address": "0xd79ceaf8950632df8f3932ba125aa6f1aed6f026"
     }
   ],
   "roles": [

@@ -44,6 +44,7 @@
       "chain": "bsc",
       "address": "0x03d44b9bb0398e2be3c89417d51e615c3d461f5a",
       "deployedAt": "2025-09-22",
+      "deployedAtBasis": "first-code",
       "labels": [
         {
           "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
@@ -55,6 +56,7 @@
       "chain": "arbitrum",
       "address": "0x03d44b9bb0398e2be3c89417d51e615c3d461f5a",
       "deployedAt": "2025-09-22",
+      "deployedAtBasis": "contract-creation",
       "labels": [
         {
           "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
@@ -66,6 +68,7 @@
       "chain": "solana",
       "address": "Xs1CqRVt2mGVfMSHf7M6cDhkjpw8HDF14XbQNzDnGg4",
       "deployedAt": "2025-09-22",
+      "deployedAtBasis": "first-signature",
       "primary": true,
       "labels": [
         {
@@ -80,19 +83,51 @@
     },
     {
       "chain": "ethereum",
-      "address": null
+      "address": "0x03d44b9bb0398e2be3c89417d51e615c3d461f5a",
+      "deployedAt": "2025-09-22",
+      "deployedAtBasis": "contract-creation",
+      "labels": [
+        {
+          "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
+          "kind": "excluded-holder"
+        }
+      ]
     },
     {
       "chain": "mantle",
-      "address": null
+      "address": "0x03d44b9bb0398e2be3c89417d51e615c3d461f5a",
+      "deployedAt": "2025-11-28",
+      "deployedAtBasis": "contract-creation",
+      "labels": [
+        {
+          "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
+          "kind": "excluded-holder"
+        }
+      ]
     },
     {
       "chain": "ink",
-      "address": null
+      "address": "0x03d44b9bb0398e2be3c89417d51e615c3d461f5a",
+      "deployedAt": "2026-01-28",
+      "deployedAtBasis": "first-code",
+      "labels": [
+        {
+          "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
+          "kind": "excluded-holder"
+        }
+      ]
     },
     {
       "chain": "ton",
-      "address": null
+      "address": "EQAkY1HYEkQryRireF4Lqlwl86KCQT7Pw3vonWFpPAnUewFL",
+      "deployedAt": "2025-11-12",
+      "deployedAtBasis": "first-transaction",
+      "labels": [
+        {
+          "address": "UQCVLU9-UVFfm9Sct863y50nsF03Jr6uBn1tJm4n9g8QLbnS",
+          "kind": "excluded-holder"
+        }
+      ]
     }
   ],
   "roles": [

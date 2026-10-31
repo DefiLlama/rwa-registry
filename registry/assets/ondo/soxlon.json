@@ -7,7 +7,7 @@
     "canonicalMarketId": "SOXLon"
   },
   "exposure": {
-    "underlying": "direxion-daily-semiconductor-bull-3x-etf"
+    "underlying": "direxion-daily-semiconductor-bull-3x-shares"
   },
   "class": {
     "structure": "etf-backed",
@@ -52,17 +52,20 @@
       "chain": "ethereum",
       "address": "0xd318bbbe6b6e83f74e7acaeb5e94c08ddbdb44c0",
       "deployedAt": "2026-05-30",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     },
     {
       "chain": "bsc",
       "address": "0xb943c8a0d77b656daf5244da060d647fd9152289",
-      "deployedAt": "2026-05-30"
+      "deployedAt": "2026-05-30",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "solana",
       "address": "isRSJECP9yFPv9YejzGUdjzAGHbF2x5DpVeDqAiondo",
-      "deployedAt": "2026-05-29"
+      "deployedAt": "2026-05-29",
+      "deployedAtBasis": "first-signature"
     }
   ],
   "roles": [

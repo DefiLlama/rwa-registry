@@ -45,7 +45,8 @@
     {
       "chain": "polygon",
       "address": "0x27ab6e82f3458edbc0703db2756391b899ce6324",
-      "deployedAt": "2023-10-23"
+      "deployedAt": "2023-10-23",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "ethereum",

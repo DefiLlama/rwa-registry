@@ -45,37 +45,44 @@
       "chain": "ethereum",
       "address": "0x35aa0e6b72a57965eef2dde4025f2bc73fd3d6be",
       "deployedAt": "2026-04-13",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     },
     {
       "chain": "arbitrum",
       "address": "0xac57590a40995e1a19c20a43d15c9e4dee026c88",
-      "deployedAt": "2026-04-13"
+      "deployedAt": "2026-04-13",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "base",
       "address": "0x8d06d78bd5ec97104ce3c7f10a73516fe1ab4525",
-      "deployedAt": "2026-04-13"
+      "deployedAt": "2026-04-13",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "bsc",
       "address": "0x8d8c97db218999abb4404633b3ef571c8ab6fbae",
-      "deployedAt": "2026-04-13"
+      "deployedAt": "2026-04-13",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "linea",
       "address": "0xa0e66c1e35208f3ae8e761ed6664f4c946464ffa",
-      "deployedAt": "2026-04-13"
+      "deployedAt": "2026-04-13",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "polygon",
       "address": "0x1d46f61a04eb3fec5a9b9a8afab01ff52e6ddbb6",
-      "deployedAt": "2026-04-13"
+      "deployedAt": "2026-04-13",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "sonic",
       "address": "0xf7ba2d7a911300bcc1057ab22a44ca2237ff34ad",
-      "deployedAt": "2026-04-13"
+      "deployedAt": "2026-04-13",
+      "deployedAtBasis": "contract-creation"
     }
   ],
   "roles": [

@@ -53,12 +53,8 @@
       "chain": "arbitrum",
       "address": "0xcded6b899edba762d793f44ed295248049440e1e",
       "deployedAt": "2025-03-11",
+      "deployedAtBasis": "contract-creation",
       "primary": true
-    },
-    {
-      "chain": "zksync",
-      "address": "0xcded6b899edba762d793f44ed295248049440e1e",
-      "deployedAt": null
     }
   ],
   "roles": [

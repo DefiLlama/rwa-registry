@@ -37,7 +37,7 @@
     ]
   },
   "about": {
-    "description": "NIKLon is an Ondo Global Markets tokenized ETF exposure designed to provide economic exposure to =SUBSTITUTE(A159, \", \") in an onchain format. The token is designed to be fully backed by the underlying publicly traded ETF, together with cash in transit, held with regulated custodial broker-dealers. Holdings attestations and ongoing reporting are surfaced through Ondo trust and transparency materials and the product asset page. Tokenholders are not shareholders of the underlying and do not receive shareholder voting rights. Distributions, where applicable, are reflected through total return mechanics and reinvestment adjustments.",
+    "description": "NIKLon is an Ondo Global Markets tokenized ETF exposure designed to provide economic exposure to Sprott Nickel Miners ETF in an onchain format. The token is designed to be fully backed by the underlying publicly traded ETF, together with cash in transit, held with regulated custodial broker-dealers. Holdings attestations and ongoing reporting are surfaced through Ondo trust and transparency materials and the product asset page. Tokenholders are not shareholders of the underlying and do not receive shareholder voting rights. Distributions, where applicable, are reflected through total return mechanics and reinvestment adjustments.",
     "logo": "https://icons.llamao.fi/icons/rwa/nikl.png?w=48&h=48",
     "links": {
       "website": [
@@ -55,27 +55,32 @@
       "chain": "ethereum",
       "address": "0xbf54eb503bb350583d11f4348086dc3608fa245c",
       "deployedAt": "2025-12-10",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     },
     {
       "chain": "ethereum",
       "address": "0x094d42a1df12bf163948dec5b2f9a8f3d2fa7ac0",
-      "deployedAt": "2025-12-10"
+      "deployedAt": "2025-12-10",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "bsc",
       "address": "0xe23f03d2907cdc38a10f6ccdc1a157bf1afe51de",
-      "deployedAt": "2025-12-10"
+      "deployedAt": "2025-12-10",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "bsc",
       "address": "0x49e83b802d15e79b2074dccbb3391ccefeb63b21",
-      "deployedAt": "2025-12-10"
+      "deployedAt": "2025-12-10",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "solana",
       "address": "V8LRV7kWjrx6Prke9oHEHNUiR122BVtyuPciTCTondo",
-      "deployedAt": "2025-12-31"
+      "deployedAt": "2025-12-31",
+      "deployedAtBasis": "first-signature"
     }
   ],
   "roles": [

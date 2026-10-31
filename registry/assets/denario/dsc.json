@@ -49,6 +49,7 @@
       "chain": "polygon",
       "address": "0x5d4e735784293a0a8d37761ad93c13a0dd35c7e7",
       "deployedAt": "2024-09-25",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -64,12 +65,14 @@
     {
       "chain": "plume_mainnet",
       "address": "0xc826b656c1c3c5fb2bdad90e8d794e6192b6762c",
-      "deployedAt": "2025-05-18"
+      "deployedAt": "2025-05-18",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "soneium",
       "address": "0x7e9db61fa915f963e594a9f22c22653e415ff77f",
-      "deployedAt": "2025-05-14"
+      "deployedAt": "2025-05-14",
+      "deployedAtBasis": "first-code"
     }
   ],
   "roles": [

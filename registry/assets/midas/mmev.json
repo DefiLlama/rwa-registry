@@ -26,6 +26,7 @@
     "attestationFrequency": "Continuous (Midas Attestation Engine, Chainlink + vlayer)"
   },
   "about": {
+    "description": "The mMEV token gives token-holders exposure to RockawayX's delta-neutral DeFi yield strategy.",
     "logo": "https://icons.llamao.fi/icons/rwa/mmev.png?w=48&h=48",
     "links": {
       "website": [
@@ -43,17 +44,20 @@
       "chain": "ethereum",
       "address": "0x030b69280892c888670edcdcd8b69fd8026a0bf3",
       "deployedAt": "2025-02-04",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     },
     {
       "chain": "etlk",
       "address": "0x5542f82389b76c23f5848268893234d8a63fd5c8",
-      "deployedAt": "2026-06-18"
+      "deployedAt": "2025-05-06",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "plume_mainnet",
       "address": "0x7d611dc23267f508de90724731dc88ca28ef7473",
-      "deployedAt": "2025-05-02"
+      "deployedAt": "2025-05-02",
+      "deployedAtBasis": "first-code"
     }
   ],
   "roles": [

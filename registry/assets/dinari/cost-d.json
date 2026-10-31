@@ -27,7 +27,7 @@
     "attestationFrequency": "Random intervals (per whitepaper)"
   },
   "sources": {
-    "coingeckoId": "dinari-cost"
+    "coingeckoId": "costco-wholesale-dinari-tokenized-stock"
   },
   "about": {
     "description": "COST.d is a Dinari dShare that provides on-chain exposure to the referenced equity (Costco Wholesale Corp dShare). dShares may only be issued and redeemed from wallets that have completed KYC, and Dinari states it screens wallets holding dShares as part of its AML program. The token includes a transfer blacklist feature for OFAC, AML, and account-security controls. Dinari states dividends and distributions are allocated using an on-chain snapshot and made available to withdraw from a USDC claim contract, and Dinari holds back shareholder voting rights from tokenholders.",
@@ -48,6 +48,7 @@
       "chain": "arbitrum",
       "address": "0xd17aff8fcf7698aabfb5f8be90aa2692774fa810",
       "deployedAt": "2024-12-05",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -66,19 +67,27 @@
     },
     {
       "chain": "ethereum",
-      "address": null
+      "address": "0xe5ad37798daa0231279859d4699cf8f466e8b020",
+      "deployedAt": "2024-12-13",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "base",
-      "address": null
+      "address": "0x70e97cac0d4eb845872cd41ae848e47d070ef45c",
+      "deployedAt": "2024-12-05",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "blast",
-      "address": null
+      "address": "0xfdc1901e40c708e72661af607a8a027740a08676",
+      "deployedAt": "2024-12-05",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "plume_mainnet",
-      "address": null
+      "address": "0x21c82e0ffcbc00dbafc6387bc5360a3955598237",
+      "deployedAt": "2025-04-26",
+      "deployedAtBasis": "first-code"
     }
   ],
   "roles": [

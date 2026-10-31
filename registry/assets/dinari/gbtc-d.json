@@ -27,7 +27,7 @@
     "attestationFrequency": "Random intervals (per whitepaper)"
   },
   "sources": {
-    "coingeckoId": "dinari-gbtc",
+    "coingeckoId": "grayscale-bitcoin-trust-etf-dinari-tokenized-etf",
     "identifiers": [
       {
         "scheme": "isin",
@@ -54,6 +54,7 @@
       "chain": "arbitrum",
       "address": "0xb1284f6b3e487e3f773e9ad40f337c3b3cda5c69",
       "deployedAt": "2024-01-16",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -72,19 +73,27 @@
     },
     {
       "chain": "ethereum",
-      "address": null
+      "address": "0xd0f48caf8fdb1e7b1fb8b08b914e0b44ed0aade0",
+      "deployedAt": "2024-02-27",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "base",
-      "address": null
+      "address": "0xd0ca17153cbe8dd5f7b96f9a2c9e608faad7e904",
+      "deployedAt": "2024-06-10",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "blast",
-      "address": null
+      "address": "0x9558e1217e0cb47ade9b5f63cc5aca8d47691ab7",
+      "deployedAt": "2024-03-01",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "plume_mainnet",
-      "address": null
+      "address": "0x949aa23a8f9c08ee1d896c233f915f391d1c1d0c",
+      "deployedAt": "2025-04-26",
+      "deployedAtBasis": "first-code"
     }
   ],
   "roles": [

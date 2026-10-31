@@ -27,7 +27,7 @@
     "attestationFrequency": "Random intervals (per whitepaper)"
   },
   "sources": {
-    "coingeckoId": "dinari-sony"
+    "coingeckoId": "sony-group-dinari-tokenized-stock"
   },
   "about": {
     "description": "SONY.d is a Dinari dShare that provides on-chain exposure to the referenced equity (Sony Group Corporation American Depositary Shares dShare). dShares may only be issued and redeemed from wallets that have completed KYC, and Dinari states it screens wallets holding dShares as part of its AML program. The token includes a transfer blacklist feature for OFAC, AML, and account-security controls. Dinari states dividends and distributions are allocated using an on-chain snapshot and made available to withdraw from a USDC claim contract, and Dinari holds back shareholder voting rights from tokenholders.",
@@ -48,6 +48,7 @@
       "chain": "arbitrum",
       "address": "0x5644fe2f365397a0313ee323da3ead314405c09a",
       "deployedAt": "2024-12-05",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -66,19 +67,25 @@
     },
     {
       "chain": "ethereum",
-      "address": null
+      "address": "0xb49e40e97b41b253ecfe6b01a11f1a4f021724f9",
+      "deployedAt": "2024-12-13",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "base",
-      "address": null
+      "address": "0x62cc07128dec1451ca55d20465cca80dbc24ca6d",
+      "deployedAt": "2024-12-05",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "blast",
-      "address": null
+      "address": "0xfecf117ce579acb96e89872af6cc9525980c397c",
+      "deployedAt": "2024-12-05",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "plume_mainnet",
-      "address": null
+      "address": "0x8164d6223c330fc3ff40e9d7cd891ba491053241"
     }
   ],
   "roles": [

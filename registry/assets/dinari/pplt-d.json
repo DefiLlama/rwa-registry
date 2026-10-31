@@ -27,7 +27,7 @@
     "attestationFrequency": "Random intervals (per whitepaper)"
   },
   "sources": {
-    "coingeckoId": "dinari-pplt",
+    "coingeckoId": "abrdn-physical-platinum-shares-etf-dinari-tokenized-etf",
     "identifiers": [
       {
         "scheme": "isin",
@@ -54,6 +54,7 @@
       "chain": "arbitrum",
       "address": "0x3774a2e7c66bc9371424c3edc67503cadd7c882b",
       "deployedAt": "2024-12-02",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -72,19 +73,27 @@
     },
     {
       "chain": "ethereum",
-      "address": null
+      "address": "0xe1230cff08164bd51c8b12fd0f203efa9496e3dc",
+      "deployedAt": "2024-12-03",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "base",
-      "address": null
+      "address": "0x6278ee2a10d5ff703d8b2082ff55757598821e96",
+      "deployedAt": "2024-12-03",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "blast",
-      "address": null
+      "address": "0xd205c3a93ef14bb37e248b61c1d76630bc8c5285",
+      "deployedAt": "2024-12-02",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "plume_mainnet",
-      "address": null
+      "address": "0x424249e13f231726dad703bde673a683c62b1156",
+      "deployedAt": "2025-04-26",
+      "deployedAtBasis": "first-code"
     }
   ],
   "roles": [

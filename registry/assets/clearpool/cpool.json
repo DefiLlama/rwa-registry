@@ -52,6 +52,7 @@
       "chain": "ethereum",
       "address": "0x66761fa41377003622aee3c7675fc7b5c1c2fac5",
       "deployedAt": "2021-10-21",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -71,7 +72,8 @@
     {
       "chain": "solana",
       "address": "AeXrLftu8chuY4ctc6oDeG4dUx6Yr4aqeakUMFNvACdg",
-      "deployedAt": "2026-02-11"
+      "deployedAt": "2026-02-11",
+      "deployedAtBasis": "first-stored-day"
     }
   ],
   "roles": [

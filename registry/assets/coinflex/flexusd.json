@@ -44,12 +44,14 @@
       "chain": "ethereum",
       "address": "0xa774ffb4af6b0a91331c084e1aebae6ad535e6f3",
       "deployedAt": "2020-11-20",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     },
     {
       "chain": "smartbch",
       "address": "0x7b2b3c5308ab5b2a1d9a94d20d35ccdf61e05b72",
-      "deployedAt": "2021-07-29"
+      "deployedAt": "2021-07-29",
+      "deployedAtBasis": "first-code"
     }
   ],
   "roles": [

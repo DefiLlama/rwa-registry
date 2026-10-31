@@ -27,7 +27,7 @@
     "attestationFrequency": "Random intervals (per whitepaper)"
   },
   "sources": {
-    "coingeckoId": "dinari-vxx",
+    "coingeckoId": "ipath-series-b-s-p-500-vix-short-term-futures-etn-dinari-tokenized-etf",
     "identifiers": [
       {
         "scheme": "isin",
@@ -54,6 +54,7 @@
       "chain": "arbitrum",
       "address": "0x40914f6007da3fcee3c8a6db211b5797848f8882",
       "deployedAt": "2024-09-24",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -72,19 +73,27 @@
     },
     {
       "chain": "ethereum",
-      "address": null
+      "address": "0x0123b0a381348f3ba793091923daeb7356ec5862",
+      "deployedAt": "2024-09-24",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "base",
-      "address": null
+      "address": "0x0dbff26347082381f035ed54dea12edb6d9ed2f4",
+      "deployedAt": "2024-10-01",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "blast",
-      "address": null
+      "address": "0x32cbb8cdacd90dbec250f9b1e8b06232c6f3297b",
+      "deployedAt": "2024-10-01",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "plume_mainnet",
-      "address": null
+      "address": "0xd63d6ea6b0774312bc3ca8e6ec9c2c5377f56349",
+      "deployedAt": "2025-04-26",
+      "deployedAtBasis": "first-code"
     }
   ],
   "roles": [

@@ -26,6 +26,7 @@
     "attestationFrequency": "Continuous (Midas Attestation Engine, Chainlink + vlayer)"
   },
   "about": {
+    "description": "The mRe7ETH token provides exposure to Re7 Labs' market-neutral DeFi ETH yield strategy on Optimism.",
     "logo": "https://icons.llamao.fi/icons/rwa/mre7eth.png?w=48&h=48",
     "links": {
       "website": [
@@ -43,6 +44,7 @@
       "chain": "optimism",
       "address": "0xe7ba07519dfa06e60059563f484d6090dedf21b3",
       "deployedAt": "2026-04-01",
+      "deployedAtBasis": "first-code",
       "primary": true
     }
   ],

@@ -24,7 +24,7 @@
     "attestationFrequency": "Monthly"
   },
   "sources": {
-    "coingeckoId": "kuma-protocol-wrapped-frk",
+    "coingeckoId": null,
     "yieldPoolIds": [
       "c266e9e5-65f7-412f-9730-5a348dfdeb59",
       "a08695e4-a616-4332-99c2-dc5c05160ffa"

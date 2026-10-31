@@ -50,17 +50,20 @@
       "chain": "ethereum",
       "address": "0x50293dd8889b931eb3441d2664dce8396640b419",
       "deployedAt": "2024-12-24",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     },
     {
       "chain": "avax",
       "address": "0x66c5bd0816fdb2d335b9e96432f182b4d8ae38c9",
-      "deployedAt": "2022-01-01"
+      "deployedAt": "2022-01-01",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "arbitrum",
       "address": "0xc26af85ede9cc25d449bcebef866bb85afd5d346",
-      "deployedAt": "2025-07-18"
+      "deployedAt": "2025-07-18",
+      "deployedAtBasis": "contract-creation"
     }
   ],
   "roles": [

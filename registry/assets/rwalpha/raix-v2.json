@@ -41,12 +41,14 @@
       "chain": "mantle",
       "address": "0xe3a48e9fd703888cbe49876e6e321f941fff69af",
       "deployedAt": "2026-06-15",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     },
     {
       "chain": "bsc",
       "address": "0x87837f2466cdce52ffdc0793272075e3d2184f6c",
-      "deployedAt": "2026-05-28"
+      "deployedAt": "2026-05-28",
+      "deployedAtBasis": "first-code"
     }
   ],
   "roles": [

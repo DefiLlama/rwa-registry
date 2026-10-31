@@ -50,6 +50,7 @@
       "chain": "arbitrum",
       "address": "0x7623435a36a573757040a362a1299ea93d3aa43f",
       "deployedAt": "2025-06-23",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -65,7 +66,8 @@
     {
       "chain": "robinhood",
       "address": "0xc9a981fee1f9dec688bb123ccdecc63d0debfc4e",
-      "deployedAt": "2026-07-27"
+      "deployedAt": "2026-07-27",
+      "deployedAtBasis": "first-code"
     }
   ],
   "roles": [

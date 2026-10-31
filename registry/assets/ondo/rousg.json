@@ -28,7 +28,7 @@
     "attestationFrequency": "Daily"
   },
   "sources": {
-    "coingeckoId": "ousg",
+    "coingeckoId": null,
     "yieldPoolIds": [
       "a5453ca0-7ec4-44b8-81c8-9154ce8465f7"
     ]
@@ -52,6 +52,7 @@
       "chain": "ethereum",
       "address": "0x54043c656f0fad0652d9ae2603cdf347c5578d00",
       "deployedAt": "2024-04-16",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     }
   ],

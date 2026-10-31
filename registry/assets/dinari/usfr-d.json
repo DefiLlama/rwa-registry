@@ -27,7 +27,7 @@
     "attestationFrequency": "Random intervals (per whitepaper)"
   },
   "sources": {
-    "coingeckoId": "dinari-usfr-dshares",
+    "coingeckoId": "wisdomtree-floating-rate-treasury-fund-dinari-tokenized-etf",
     "identifiers": [
       {
         "scheme": "isin",
@@ -54,6 +54,7 @@
       "chain": "arbitrum",
       "address": "0x9c46e1b70d447b770dbfc8d450543a431af6df3a",
       "deployedAt": "2023-11-13",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -72,19 +73,25 @@
     },
     {
       "chain": "ethereum",
-      "address": null
+      "address": "0xaeb0a5d56de94479cda178977570fd9079500527",
+      "deployedAt": "2024-02-27",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "base",
-      "address": null
+      "address": "0x9f6e2ea64d90f586779ef859ffce18c8fa2fa4f4",
+      "deployedAt": "2024-06-10",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "blast",
-      "address": null
+      "address": "0xd2948c7824e1b872daf8c304052242d2ade4d027",
+      "deployedAt": "2024-03-01",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "plume_mainnet",
-      "address": null
+      "address": "0x8cc52125e9f0b466efa0bcaa5fa8771c2f4f8cc3"
     }
   ],
   "roles": [

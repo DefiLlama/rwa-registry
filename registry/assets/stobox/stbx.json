@@ -43,17 +43,20 @@
       "chain": "arbitrum",
       "address": "0x998a0beaf37ca4ba61b5cfac59fdee0da2211a46",
       "deployedAt": "2025-07-15",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     },
     {
       "chain": "bsc",
       "address": "0x65dad60a28626309f7504d853aff0099fed1aaaf",
-      "deployedAt": "2023-11-09"
+      "deployedAt": "2023-11-09",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "ethereum",
       "address": "0x54f37f8c64ac1e3a451ff9762bfc8afe0edb0f0a",
-      "deployedAt": "2021-02-28"
+      "deployedAt": "2021-02-28",
+      "deployedAtBasis": "contract-creation"
     }
   ],
   "roles": [

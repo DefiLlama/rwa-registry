@@ -25,7 +25,7 @@
     "yieldBearing": false
   },
   "sources": {
-    "coingeckoId": "nusd"
+    "coingeckoId": null
   },
   "about": {
     "description": "sUSD is Synthetix's onchain synthetic USD (a \"synth\") minted against staked collateral in the Synthetix system. Instead of representing a claim on fiat reserves, it represents system debt and relies on overcollateralization, liquidations, and exchange mechanisms within Synthetix (notably on L2s) to support its peg. Key risks include collateral volatility, systemic debt/solvency dynamics, oracle and liquidation parameter risk, and smart-contract risk across deployments.",
@@ -46,6 +46,7 @@
       "chain": "arbitrum",
       "address": "0xa970af1a584579b618be4d69ad6f73459d112f95",
       "deployedAt": "2021-06-26",
+      "deployedAtBasis": "contract-creation",
       "labels": [
         {
           "address": "0xf0288b07a9b9a49dbf9a2f584db371093e8c14e2",
@@ -57,6 +58,7 @@
       "chain": "ethereum",
       "address": "0x57ab1ec28d129707052df4df418d58a2d46d5f51",
       "deployedAt": "2019-09-26",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -68,27 +70,26 @@
     {
       "chain": "fantom",
       "address": "0x0e1694483ebb3b74d3054e383840c6cf011e518e",
-      "deployedAt": "2021-09-04"
+      "deployedAt": "2021-02-19",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "fraxtal",
       "address": "0xbd4f4190d5b53f178604e722bbe23d8c9571304e",
-      "deployedAt": "2024-03-09"
+      "deployedAt": "2024-03-09",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "harmony",
       "address": "0xefdccb355b7d65710a44b6e09d7b5449f650bf40",
-      "deployedAt": "2021-09-04"
-    },
-    {
-      "chain": "optimism",
-      "address": "0x6d80113e533a2c0fe82eabd35f1875dcea89ea97",
-      "deployedAt": "2022-03-11"
+      "deployedAt": "2021-07-04",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "polygon",
       "address": "0xf81b4bec6ca8f9fe7be01ca734f55b2b6e03a7a0",
-      "deployedAt": "2021-06-28"
+      "deployedAt": "2021-06-28",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "sifchain",
@@ -98,17 +99,20 @@
     {
       "chain": "solana",
       "address": "CCGLdsokcybeF8NrCcu1RSQK8isNBjBA58kVEMTHTKjx",
-      "deployedAt": "2021-07-25"
+      "deployedAt": "2021-07-25",
+      "deployedAtBasis": "first-signature"
     },
     {
       "chain": "unichain",
       "address": "0x7251d204c2e867b31096d5c7091298239b3a6a0f",
-      "deployedAt": "2025-02-04"
+      "deployedAt": "2025-02-04",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "xdai",
       "address": "0xb1950fb2c9c0cbc8553578c67db52aa110a93393",
-      "deployedAt": "2020-08-19"
+      "deployedAt": "2020-08-19",
+      "deployedAtBasis": "first-code"
     }
   ],
   "roles": [

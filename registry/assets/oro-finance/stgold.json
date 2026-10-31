@@ -25,7 +25,7 @@
     "yieldBearing": true
   },
   "sources": {
-    "coingeckoId": "gold-11"
+    "coingeckoId": null
   },
   "about": {
     "description": "stGOLD is a yield-bearing wrapper over Oro's tokenized gold, designed for holders who want vaulted gold exposure while earning an additional return stream through staking-style mechanics. It is meant to behave as a compounding gold position where the underlying gold backing remains the anchor, while rewards are driven by Oro's yield design and ecosystem incentives.",

@@ -53,6 +53,7 @@
       "chain": "stellar",
       "address": "sgBENJI-GAGICV3VBJSKKH5H5MQQIUTUP462YVHC23KUHZY6FJERRJFBDIVZBM5C",
       "deployedAt": "2025-09-15",
+      "deployedAtBasis": "asset-created",
       "primary": true,
       "labels": [
         {
@@ -68,7 +69,8 @@
     {
       "chain": "ripple",
       "address": "736742454E4A4900000000000000000000000000.rfRAnKTuePqKBpyy1bSwXtqR9skfwjBH5o",
-      "deployedAt": null
+      "deployedAt": "2025-09-18",
+      "deployedAtBasis": "first-issue"
     }
   ],
   "roles": [

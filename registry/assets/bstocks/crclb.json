@@ -27,7 +27,7 @@
     "attestationFrequency": "Continuous"
   },
   "sources": {
-    "coingeckoId": "circle-internet-group-bstocks-tokenized-stock",
+    "coingeckoId": "circle-internet-group-bstock",
     "identifiers": [
       {
         "scheme": "isin",
@@ -53,6 +53,7 @@
       "chain": "bsc",
       "address": "0x80f3d493ebce97e343c53d29a137942416b4ffc0",
       "deployedAt": "2026-06-05",
+      "deployedAtBasis": "first-code",
       "primary": true
     }
   ],

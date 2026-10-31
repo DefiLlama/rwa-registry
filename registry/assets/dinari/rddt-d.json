@@ -27,7 +27,7 @@
     "attestationFrequency": "Random intervals (per whitepaper)"
   },
   "sources": {
-    "coingeckoId": "dinari-rddt",
+    "coingeckoId": "reddit-dinari-tokenized-stock",
     "identifiers": [
       {
         "scheme": "isin",
@@ -54,6 +54,7 @@
       "chain": "arbitrum",
       "address": "0x97ec5dada8262bd922bffd54a93f5a11efe0b136",
       "deployedAt": "2024-03-21",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -72,19 +73,27 @@
     },
     {
       "chain": "ethereum",
-      "address": null
+      "address": "0xac20315350d7b59cbe846144f5eb8a6d1df1f5fc",
+      "deployedAt": "2024-03-21",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "base",
-      "address": null
+      "address": "0xa17c0e96c8b5e39b6fd670f01d7f021f66b930cd",
+      "deployedAt": "2024-06-10",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "blast",
-      "address": null
+      "address": "0xb66fb7a6baaece3edd6b4d506b0e2f0bae5fc6e0",
+      "deployedAt": "2024-03-21",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "plume_mainnet",
-      "address": null
+      "address": "0x4a90d87d27a3da9ee6dcfdcda17b3aebe655fe8d",
+      "deployedAt": "2025-04-26",
+      "deployedAtBasis": "first-code"
     }
   ],
   "roles": [

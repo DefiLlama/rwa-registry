@@ -45,12 +45,14 @@
       "chain": "bsc",
       "address": "0xaf44a1e76f56ee12adbb7ba8acd3cbd474888122",
       "deployedAt": "2025-03-14",
+      "deployedAtBasis": "first-code",
       "primary": true
     },
     {
       "chain": "solana",
       "address": "DUSDt4AeLZHWYmcXnVGYdgAzjtzU5mXUVnTMdnSzAttM",
-      "deployedAt": "2025-04-09"
+      "deployedAt": "2025-04-09",
+      "deployedAtBasis": "first-stored-day"
     }
   ],
   "roles": [

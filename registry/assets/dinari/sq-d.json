@@ -27,7 +27,7 @@
     "attestationFrequency": "Random intervals (per whitepaper)"
   },
   "sources": {
-    "coingeckoId": "dinari-sq"
+    "coingeckoId": "block-dinari-tokenized-stock"
   },
   "about": {
     "description": "SQ.d is a Dinari dShare that provides on-chain exposure to the referenced equity (Square dShare). dShares may only be issued and redeemed from wallets that have completed KYC, and Dinari states it screens wallets holding dShares as part of its AML program. The token includes a transfer blacklist feature for OFAC, AML, and account-security controls. Dinari states dividends and distributions are allocated using an on-chain snapshot and made available to withdraw from a USDC claim contract, and Dinari holds back shareholder voting rights from tokenholders.",
@@ -48,6 +48,7 @@
       "chain": "arbitrum",
       "address": "0xd883bcf80b2b085fa40cc3e2416b4ab1cbca649e",
       "deployedAt": "2024-01-16",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -66,19 +67,25 @@
     },
     {
       "chain": "ethereum",
-      "address": null
+      "address": "0x9e6dbde4211e6853b33b8bcd5ce82144997c63ba",
+      "deployedAt": "2024-02-27",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "base",
-      "address": null
+      "address": "0xd5eab2d9e01442bfca720f6f15451555dd003f40",
+      "deployedAt": "2024-06-10",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "blast",
-      "address": null
+      "address": "0x89d0a55a8c2d94c0d4a91c6e3de58dd131ad87fc",
+      "deployedAt": "2024-03-01",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "plume_mainnet",
-      "address": null
+      "address": "0x230bd240c01db10f15e0d46068700d61ee2ebab6"
     }
   ],
   "roles": [

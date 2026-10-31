@@ -27,7 +27,7 @@
     "attestationFrequency": "Random intervals (per whitepaper)"
   },
   "sources": {
-    "coingeckoId": "dinari-yum"
+    "coingeckoId": "yum-brands-dinari-tokenized-stock"
   },
   "about": {
     "description": "YUM.d is a Dinari dShare that provides on-chain exposure to the referenced equity (Yum! Brands, Inc. dShare). dShares may only be issued and redeemed from wallets that have completed KYC, and Dinari states it screens wallets holding dShares as part of its AML program. The token includes a transfer blacklist feature for OFAC, AML, and account-security controls. Dinari states dividends and distributions are allocated using an on-chain snapshot and made available to withdraw from a USDC claim contract, and Dinari holds back shareholder voting rights from tokenholders.",
@@ -48,6 +48,7 @@
       "chain": "arbitrum",
       "address": "0xeb0d1360a14c3b162f2974daa5d218e0c1090146",
       "deployedAt": "2023-12-15",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -66,19 +67,25 @@
     },
     {
       "chain": "ethereum",
-      "address": null
+      "address": "0x0af5b873df94efeba34c0b0a9fa34a8c13e078cd",
+      "deployedAt": "2024-02-27",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "base",
-      "address": null
+      "address": "0x48a0ea70c2c7d025cc95672b9ebe6ad026129b44",
+      "deployedAt": "2024-06-10",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "blast",
-      "address": null
+      "address": "0xd951722f5309479cde8ed719fe3e13596290a324",
+      "deployedAt": "2024-03-01",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "plume_mainnet",
-      "address": null
+      "address": "0x84f4eea06302412436a78b0b5fc813645dfc39af"
     }
   ],
   "roles": [

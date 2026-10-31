@@ -23,14 +23,6 @@
     "kycToTransferHold": true,
     "yieldBearing": false
   },
-  "sources": {
-    "identifiers": [
-      {
-        "scheme": "isin",
-        "value": "US71424F1057"
-      }
-    ]
-  },
   "about": {
     "description": "PR is a tokenized tracker certificate issued by Robinhood Markets, Inc. through its European subsidiary Robinhood Europe UAB, deployed as an ERC-20 token on Arbitrum One. It is designed to provide synthetic price exposure to PR rather than direct share ownership, operating under MiFID II regulatory oversight. The token is available to EU/EEA customers with 24/5 commission-free trading, and on-chain pricing is supplied through Chainlink oracle feeds.",
     "logo": "https://icons.llamao.fi/icons/rwa/pr.png?w=48&h=48",
@@ -50,6 +42,7 @@
       "chain": "arbitrum",
       "address": "0x20cb6924d2a9e813b38f6d0667970212bc9be324",
       "deployedAt": "2025-12-09",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -65,7 +58,8 @@
     {
       "chain": "robinhood",
       "address": "0x4189f0c66ebbb0bfef1c31f763131361ef32f77c",
-      "deployedAt": "2026-06-10"
+      "deployedAt": "2026-06-10",
+      "deployedAtBasis": "first-code"
     }
   ],
   "roles": [

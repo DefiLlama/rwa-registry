@@ -45,12 +45,14 @@
       "chain": "bsc",
       "address": "0x0782b6d8c4551b9760e74c0545a9bcd90bdc41e5",
       "deployedAt": "2022-08-10",
+      "deployedAtBasis": "first-code",
       "primary": true
     },
     {
       "chain": "optimism",
       "address": "0x83250ffec162e084a23e165434a8a110623abe38",
-      "deployedAt": "2023-05-26"
+      "deployedAt": "2023-05-26",
+      "deployedAtBasis": "first-code"
     }
   ],
   "roles": [

@@ -48,6 +48,7 @@
       "chain": "ethereum",
       "address": "0xa6233014b9b7aaa74f38fa1977ffc7a89642dc72",
       "deployedAt": "2025-07-18",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -63,32 +64,38 @@
     {
       "chain": "base",
       "address": "0xa6233014b9b7aaa74f38fa1977ffc7a89642dc72",
-      "deployedAt": "2025-07-22"
+      "deployedAt": "2025-07-22",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "arbitrum",
       "address": "0xa6233014b9b7aaa74f38fa1977ffc7a89642dc72",
-      "deployedAt": "2025-07-22"
+      "deployedAt": "2025-07-22",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "avax",
       "address": "0xa6233014b9b7aaa74f38fa1977ffc7a89642dc72",
-      "deployedAt": "2025-07-18"
+      "deployedAt": "2025-07-18",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "solana",
       "address": "DeJXZwShCZYJnRX2ruVASfhUhsC44qPW1pacbxRFuGLR",
-      "deployedAt": "2025-08-25"
+      "deployedAt": "2025-08-25",
+      "deployedAtBasis": "first-signature"
     },
     {
       "chain": "stellar",
       "address": "CBI7UCH5KGSVQRO5H4SUCZUTZABCITZLRHQQZTWL2TK4RZ72TAR6IHRV",
-      "deployedAt": "2025-12-01"
+      "deployedAt": "2025-12-01",
+      "deployedAtBasis": "contract-created"
     },
     {
       "chain": "bsc",
       "address": "0xa6233014b9b7aaa74f38fa1977ffc7a89642dc72",
-      "deployedAt": "2025-12-23"
+      "deployedAt": "2025-12-23",
+      "deployedAtBasis": "first-code"
     }
   ],
   "roles": [

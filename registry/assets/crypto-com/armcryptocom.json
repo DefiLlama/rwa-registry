@@ -25,14 +25,6 @@
     "selfCustody": true,
     "yieldBearing": false
   },
-  "sources": {
-    "identifiers": [
-      {
-        "scheme": "isin",
-        "value": "US0420682058"
-      }
-    ]
-  },
   "about": {
     "description": "ARM on Crypto.com is a tokenized stock issued on the Cronos chain that tracks the price of Arm Holdings plc. The token is a ledger based derivative issued by Foris Capital, so a holder takes price exposure without owning the underlying security and without voting or dividend rights. Dividends and corporate actions are applied by the issuer as adjustments to the token balance rather than paid out in cash. Trading runs around the clock inside the Crypto.com app with a minimum order size of one dollar and no commission. Redemption is settled for economic value rather than in shares, and tokens can be withdrawn to the Cronos chain for onchain use.",
     "logo": "https://icons.llamao.fi/icons/rwa/arm.png?w=48&h=48",
@@ -51,7 +43,8 @@
     {
       "chain": "cronos",
       "address": "0x2dbe9856363bf89f31312588809d98e0ec932042",
-      "deployedAt": "2026-08-26",
+      "deployedAt": "2026-05-26",
+      "deployedAtBasis": "first-code",
       "primary": true,
       "labels": [
         {

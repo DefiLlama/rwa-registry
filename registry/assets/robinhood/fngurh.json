@@ -7,7 +7,7 @@
     "canonicalMarketId": "FNGUrh"
   },
   "exposure": {
-    "underlying": "microsectors-fang-index-3x-leveraged-etn"
+    "underlying": "microsectors-fang-3x-leveraged-etns-due-january-23-2045"
   },
   "class": {
     "structure": "synthetic-stock",
@@ -41,6 +41,7 @@
       "chain": "arbitrum",
       "address": "0x89f4bb6278b02ce883a5f14ce0584f5a15139164",
       "deployedAt": "2025-10-14",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {

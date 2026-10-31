@@ -27,7 +27,7 @@
     "attestationFrequency": "Random intervals (per whitepaper)"
   },
   "sources": {
-    "coingeckoId": "dinari-pall",
+    "coingeckoId": "abrdn-physical-palladium-shares-etf-dinari-tokenized-etf",
     "identifiers": [
       {
         "scheme": "isin",
@@ -54,6 +54,7 @@
       "chain": "arbitrum",
       "address": "0x7a2abf0543674ba1bb618b1e88118e8a4fefab48",
       "deployedAt": "2024-12-02",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -72,19 +73,25 @@
     },
     {
       "chain": "ethereum",
-      "address": null
+      "address": "0x328a9bc033b22de0b82762c49762ce1440b45d4b",
+      "deployedAt": "2024-12-03",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "base",
-      "address": null
+      "address": "0x314936e9cdc0df06941d2e84949a58e0f5f82e6a",
+      "deployedAt": "2024-12-03",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "blast",
-      "address": null
+      "address": "0x56de5c6c56f92ecf2da286ea81a0fb74b25f9579",
+      "deployedAt": "2024-12-02",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "plume_mainnet",
-      "address": null
+      "address": "0x33cf760f19878302008bcc25b1652e2238cafa2a"
     }
   ],
   "roles": [

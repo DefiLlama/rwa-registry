@@ -54,32 +54,38 @@
       "chain": "ethereum",
       "address": "0x3868d4e336d14d38031cf680329d31e4712e11cc",
       "deployedAt": "2025-07-16",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     },
     {
       "chain": "polygon",
       "address": "0x99f70a0e1786402a6796c6b0aa997ef340a5c6da",
-      "deployedAt": "2025-07-16"
+      "deployedAt": "2025-07-16",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "arbitrum",
       "address": "0x0e389c83bc1d16d86412476f6103027555c03265",
-      "deployedAt": "2025-07-16"
+      "deployedAt": "2025-07-16",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "base",
       "address": "0x4f33acf823e6eeb697180d553ce0c710124c8d59",
-      "deployedAt": "2025-07-16"
+      "deployedAt": "2025-07-16",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "stellar",
       "address": "CDWOB6T7SVSMMQN5V3P2OPTBAXOP7DAZHGVW3PYTZIKHVFKN6TBSXR6A",
-      "deployedAt": "2025-10-01"
+      "deployedAt": "2025-10-01",
+      "deployedAtBasis": "contract-created"
     },
     {
       "chain": "starknet",
       "address": "0x06472cabc51a3805975b9c60c7dec63897c9a287f2db173a1d6c589d18dd1e07",
-      "deployedAt": null
+      "deployedAt": "2025-07-16",
+      "deployedAtBasis": "first-code"
     }
   ],
   "roles": [

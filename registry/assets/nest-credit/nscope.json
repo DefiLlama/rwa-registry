@@ -46,18 +46,19 @@
     {
       "chain": "plume_mainnet",
       "address": "0x770c2d6b16c8f8ab5535ae719a5475411c120f6e",
-      "deployedAt": null,
+      "deployedAt": "2026-01-06",
+      "deployedAtBasis": "first-code",
       "primary": true
     },
     {
       "chain": "bsc",
-      "address": "0x770c2d6b16c8f8ab5535ae719a5475411c120f6e",
-      "deployedAt": null
+      "address": null
     },
     {
       "chain": "solana",
       "address": "2GazQTpcdPkxiRyeSBKoCm2DCFUUnMxn3RfCjZ1zRQvh",
-      "deployedAt": "2026-01-15"
+      "deployedAt": "2026-01-15",
+      "deployedAtBasis": "first-signature"
     }
   ],
   "roles": [

@@ -27,7 +27,7 @@
     "attestationFrequency": "Random intervals (per whitepaper)"
   },
   "sources": {
-    "coingeckoId": "dinari-wood",
+    "coingeckoId": "ishares-global-timber-forestry-etf-dinari-tokenized-etf",
     "identifiers": [
       {
         "scheme": "isin",
@@ -54,6 +54,7 @@
       "chain": "arbitrum",
       "address": "0x13f950ee286a5be0254065d4b66420fc0e57adfc",
       "deployedAt": "2024-02-20",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -72,19 +73,25 @@
     },
     {
       "chain": "ethereum",
-      "address": null
+      "address": "0xd2a64bb1776f02e6b2b5503fe6a8ca6bf1f46d07",
+      "deployedAt": "2024-02-27",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "base",
-      "address": null
+      "address": "0xb8ebc0fc2453a1be3ab48db2de6237ce56e00c48",
+      "deployedAt": "2024-06-10",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "blast",
-      "address": null
+      "address": "0x42e4981de9bc8fd4726775f62066cabbe78deab8",
+      "deployedAt": "2024-03-01",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "plume_mainnet",
-      "address": null
+      "address": "0x118703685a116a488b24d8794d21ff2fb2a376fe"
     }
   ],
   "roles": [

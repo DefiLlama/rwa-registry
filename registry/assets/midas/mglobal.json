@@ -27,6 +27,7 @@
     "attestationFrequency": "Continuous (Midas Attestation Engine, Chainlink + vlayer)"
   },
   "about": {
+    "description": "The mGLOBAL token provides onchain, liquid access to Fasanara's Global Diversified Alternative Debt Fund strategy.",
     "logo": "https://icons.llamao.fi/icons/rwa/mglobal.png?w=48&h=48",
     "links": {
       "website": [
@@ -44,6 +45,7 @@
       "chain": "ethereum",
       "address": "0x7433806912eae67919e66aea853d46fa0aef98a8",
       "deployedAt": "2026-04-03",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {

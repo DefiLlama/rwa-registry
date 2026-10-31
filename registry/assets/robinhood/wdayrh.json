@@ -23,14 +23,6 @@
     "kycToTransferHold": true,
     "yieldBearing": false
   },
-  "sources": {
-    "identifiers": [
-      {
-        "scheme": "isin",
-        "value": "US98138H1014"
-      }
-    ]
-  },
   "about": {
     "description": "WDAY is a tokenized tracker certificate issued by Robinhood Markets, Inc. through its European subsidiary Robinhood Europe UAB, deployed as an ERC-20 token on Arbitrum One. It is designed to provide synthetic price exposure to WDAY rather than direct share ownership, operating under MiFID II regulatory oversight. The token is available to EU/EEA customers with 24/5 commission-free trading, and on-chain pricing is supplied through Chainlink oracle feeds.",
     "logo": "https://icons.llamao.fi/icons/rwa/wday.png?w=48&h=48",
@@ -50,6 +42,7 @@
       "chain": "arbitrum",
       "address": "0x6167f63b185caada2f328d967be973b22bf58858",
       "deployedAt": "2025-06-23",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -65,7 +58,8 @@
     {
       "chain": "robinhood",
       "address": "0x82da4646242e1d962e96e932269dc644c94a9caa",
-      "deployedAt": "2026-06-09"
+      "deployedAt": "2026-06-09",
+      "deployedAtBasis": "first-code"
     }
   ],
   "roles": [

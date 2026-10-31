@@ -27,7 +27,7 @@
     "attestationFrequency": "Continuous"
   },
   "sources": {
-    "coingeckoId": "lumentum-bstocks-tokenized-stock",
+    "coingeckoId": "lumentum-holdings-bstocks-tokenized-stock",
     "identifiers": [
       {
         "scheme": "isin",
@@ -53,6 +53,7 @@
       "chain": "bsc",
       "address": "0x64748bea17b6d19e242adf20425de2440c656142",
       "deployedAt": "2026-06-24",
+      "deployedAtBasis": "first-code",
       "primary": true
     }
   ],

@@ -45,7 +45,8 @@
     {
       "chain": "solana",
       "address": "3b8X44fLF9ooXaUm3hhSgjpmVs6rZZ3pPoGnGahc3Uu7",
-      "deployedAt": "2025-12-07",
+      "deployedAt": "2025-11-20",
+      "deployedAtBasis": "metadata-created",
       "primary": true,
       "labels": [
         {
@@ -57,12 +58,14 @@
     {
       "chain": "ethereum",
       "address": "0x19ebb35279a16207ec4ba82799cc64715065f7f6",
-      "deployedAt": "2026-04-17"
+      "deployedAt": "2026-04-17",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "tempo",
       "address": "0x20c00000000000000000000058d0b8b2cfdb358c",
-      "deployedAt": "2026-07-28"
+      "deployedAt": "2026-07-28",
+      "deployedAtBasis": "first-code"
     }
   ],
   "roles": [

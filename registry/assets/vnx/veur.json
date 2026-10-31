@@ -28,7 +28,7 @@
     "attestationFrequency": "Regular (periodic)"
   },
   "sources": {
-    "coingeckoId": "vnx-euro",
+    "coingeckoId": null,
     "yieldPoolIds": [
       "4474e130-e889-4ad9-996b-7ceb7efbbfc0",
       "f88d192d-7cec-4a60-aff0-71ed4fe4ccd9",
@@ -59,17 +59,20 @@
     {
       "chain": "solana",
       "address": "C4Kkr9NZU3VbyedcgutU6LKmi6MKz81sx6gRmk5pX519",
-      "deployedAt": "2024-01-26"
+      "deployedAt": "2023-11-23",
+      "deployedAtBasis": "metadata-created"
     },
     {
       "chain": "avax",
       "address": "0x7678e162f38ec9ef2bfd1d0aaf9fd93355e5fa0b",
-      "deployedAt": "2023-06-30"
+      "deployedAt": "2023-06-30",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "stellar",
       "address": "VEUR-GDXLSLCOPPHTWOQXLLKSVN4VN3G67WD2ENU7UMVAROEYVJLSPSEWXIZN",
       "deployedAt": "2024-02-09",
+      "deployedAtBasis": "asset-created",
       "labels": [
         {
           "address": "GDXLSLCOPPHTWOQXLLKSVN4VN3G67WD2ENU7UMVAROEYVJLSPSEWXIZN",
@@ -81,6 +84,7 @@
       "chain": "base",
       "address": "0x4ed9df25d38795a47f52614126e47f564d37f347",
       "deployedAt": "2025-06-05",
+      "deployedAtBasis": "first-code",
       "labels": [
         {
           "address": "0xd63052e09af164cef57695d3b96043ea848b051f",
@@ -92,6 +96,7 @@
       "chain": "ethereum",
       "address": "0x6ba75d640bebfe5da1197bb5a2aff3327789b5d3",
       "deployedAt": "2022-11-18",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     }
   ],

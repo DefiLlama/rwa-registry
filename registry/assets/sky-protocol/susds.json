@@ -45,22 +45,26 @@
       "chain": "ethereum",
       "address": "0xa3931d71877c0e7a3148cb7eb4463524fec27fbd",
       "deployedAt": "2024-09-04",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     },
     {
       "chain": "base",
       "address": "0x5875eee11cf8398102fdad704c9e96607675467a",
-      "deployedAt": "2024-10-10"
+      "deployedAt": "2024-10-10",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "arbitrum",
       "address": "0xddb46999f8891663a8f2828d25298f70416d7610",
-      "deployedAt": "2025-01-29"
+      "deployedAt": "2025-01-29",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "optimism",
       "address": "0xb5b2dc7fd34c249f4be7fb1fcea07950784229e0",
-      "deployedAt": "2025-04-30"
+      "deployedAt": "2025-04-30",
+      "deployedAtBasis": "first-code"
     }
   ],
   "roles": [

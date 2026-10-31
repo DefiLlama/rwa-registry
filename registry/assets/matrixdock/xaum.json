@@ -53,6 +53,7 @@
       "chain": "ethereum",
       "address": "0x2103e845c5e135493bb6c2a4f0b8651956ea8682",
       "deployedAt": "2024-08-28",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -64,47 +65,56 @@
     {
       "chain": "bsc",
       "address": "0x23ae4fd8e7844cdbc97775496ebd0e8248656028",
-      "deployedAt": "2024-08-29"
+      "deployedAt": "2024-08-29",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "tron",
       "address": "TDfX64Ariz5usffBJjtDbiMuCXVpKiDCEb",
-      "deployedAt": "2025-06-20"
+      "deployedAt": "2025-06-20",
+      "deployedAtBasis": "contract-created"
     },
     {
       "chain": "sui",
       "address": "0x9d297676e7a4b771ab023291377b2adfaa4938fb9080b8d12430e4b108b836a9::xaum::XAUM",
-      "deployedAt": "2025-08-30"
+      "deployedAt": "2025-08-12",
+      "deployedAtBasis": "package-published"
     },
     {
       "chain": "plume_mainnet",
       "address": "0xa0c4f78a29ead4abf6b7f5b3f0d05c0f3eab8ddf",
-      "deployedAt": "2025-04-24"
+      "deployedAt": "2025-04-24",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "hsk",
       "address": "0x2577217c86ae2e8a5f70abb663b9231e5d47d15a",
-      "deployedAt": null
+      "deployedAt": "2025-05-13",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "solana",
       "address": "5aLhp9VnUEKcsdtkfsf2DUgpJfomx7GmYVny24dHUZoB",
-      "deployedAt": "2026-02-12"
+      "deployedAt": "2026-02-12",
+      "deployedAtBasis": "first-stored-day"
     },
     {
       "chain": "stellar",
       "address": "CC2RBGYNCFBCVENIDL5BFBWPH4OUZM2UA3OD2K2N54GLMWCC4KWPVAGO",
-      "deployedAt": "2026-06-17"
+      "deployedAt": "2026-06-17",
+      "deployedAtBasis": "contract-created"
     },
     {
       "chain": "hyperliquid",
       "address": "0x14f0dfc32e8af769961b31ba3e89389bd6797652",
-      "deployedAt": "2026-05-15"
+      "deployedAt": "2026-05-15",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "polygon",
       "address": "0xa7e22972a19dd924afeedf3db28033b146801081",
-      "deployedAt": "2025-12-19"
+      "deployedAt": "2025-12-19",
+      "deployedAtBasis": "contract-creation"
     }
   ],
   "roles": [

@@ -40,7 +40,8 @@
     {
       "chain": "ripple",
       "address": "DIA-AG-COL1.rDgoZHy4SLPs4jhJZqkyaXX4iEsEUkCAVp",
-      "deployedAt": null,
+      "deployedAt": "2025-05-19",
+      "deployedAtBasis": "issuer-first-transaction",
       "primary": true,
       "labels": [
         {

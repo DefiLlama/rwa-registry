@@ -41,27 +41,32 @@
       "chain": "ethereum",
       "address": "0x9f6714c302ffe3c3bafaf2ccb44201ff64f6371c",
       "deployedAt": "2026-01-26",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     },
     {
       "chain": "xsat",
       "address": "0x9f6714c302ffe3c3bafaf2ccb44201ff64f6371c",
-      "deployedAt": null
+      "deployedAt": "2026-01-26",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "sonic",
       "address": "0x9f6714c302ffe3c3bafaf2ccb44201ff64f6371c",
-      "deployedAt": "2026-01-26"
+      "deployedAt": "2026-01-26",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "monad",
       "address": "0x9f6714c302ffe3c3bafaf2ccb44201ff64f6371c",
-      "deployedAt": "2026-04-08"
+      "deployedAt": "2026-04-08",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "avax",
       "address": "0x9f6714c302ffe3c3bafaf2ccb44201ff64f6371c",
-      "deployedAt": "2026-01-26"
+      "deployedAt": "2026-01-26",
+      "deployedAtBasis": "first-code"
     }
   ],
   "roles": [

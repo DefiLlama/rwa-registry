@@ -45,12 +45,14 @@
       "chain": "avax",
       "address": "0xbc370355963281b150307717520294effe2d9c50",
       "deployedAt": "2024-12-23",
+      "deployedAtBasis": "first-code",
       "primary": true
     },
     {
       "chain": "avax",
       "address": "0x8c21c5f64e17f77a6af671b6f51c2dd14ea6cf4a",
-      "deployedAt": "2024-12-23"
+      "deployedAt": "2024-12-23",
+      "deployedAtBasis": "first-code"
     }
   ],
   "roles": [

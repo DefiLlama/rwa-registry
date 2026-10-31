@@ -27,13 +27,7 @@
     "attestationFrequency": "Random intervals (per whitepaper)"
   },
   "sources": {
-    "coingeckoId": "dinari-nly",
-    "identifiers": [
-      {
-        "scheme": "isin",
-        "value": "US0357108390"
-      }
-    ]
+    "coingeckoId": "annaly-capital-management-dinari-tokenized-stock"
   },
   "about": {
     "description": "NLY.d is a Dinari dShare that provides on-chain exposure to the referenced equity (Annaly Capital Management dShare). dShares may only be issued and redeemed from wallets that have completed KYC, and Dinari states it screens wallets holding dShares as part of its AML program. The token includes a transfer blacklist feature for OFAC, AML, and account-security controls. Dinari states dividends and distributions are allocated using an on-chain snapshot and made available to withdraw from a USDC claim contract, and Dinari holds back shareholder voting rights from tokenholders.",
@@ -54,6 +48,7 @@
       "chain": "arbitrum",
       "address": "0x14297be295ab922458277be046e89f73382bdf8e",
       "deployedAt": "2024-01-16",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -72,19 +67,25 @@
     },
     {
       "chain": "ethereum",
-      "address": null
+      "address": "0x2cad08360009226261ab4d32684aacdbbec3f8da",
+      "deployedAt": "2024-02-27",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "base",
-      "address": null
+      "address": "0xb3358ab71f784910de0ca766ebdab527323731b9",
+      "deployedAt": "2024-06-10",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "blast",
-      "address": null
+      "address": "0x74798fd1a87e07c7b8bf89fafc922e4bf10c35a9",
+      "deployedAt": "2024-03-01",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "plume_mainnet",
-      "address": null
+      "address": "0x9e8bd83460389a5c199daa235567f4ef283d8b02"
     }
   ],
   "roles": [

@@ -62,6 +62,7 @@
       "chain": "ethereum",
       "address": "0x0000000000085d4780b73119b644ae5ecd22b376",
       "deployedAt": "2018-12-31",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -73,17 +74,20 @@
     {
       "chain": "tron",
       "address": "TUpMhErZL2fhh4sVNULAbNKLokS4GjC1F4",
-      "deployedAt": "2021-03-23"
+      "deployedAt": "2021-03-23",
+      "deployedAtBasis": "contract-created"
     },
     {
       "chain": "bsc",
       "address": "0x40af3827f39d0eacbf4a168f8d4ee67c121d11c9",
-      "deployedAt": "2023-03-10"
+      "deployedAt": "2023-03-10",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "avax",
       "address": "0x1c20e891bab6b1727d14da358fae2984ed9b59eb",
-      "deployedAt": "2021-02-01"
+      "deployedAt": "2021-02-01",
+      "deployedAtBasis": "first-code"
     }
   ],
   "roles": [

@@ -52,6 +52,7 @@
       "chain": "ethereum",
       "address": "0x61aee4f4e6b62806c26eaff921e7f41782ca2e03",
       "deployedAt": "2025-09-22",
+      "deployedAtBasis": "contract-creation",
       "labels": [
         {
           "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
@@ -63,6 +64,7 @@
       "chain": "bsc",
       "address": "0x61aee4f4e6b62806c26eaff921e7f41782ca2e03",
       "deployedAt": "2025-09-22",
+      "deployedAtBasis": "first-code",
       "labels": [
         {
           "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
@@ -74,6 +76,7 @@
       "chain": "arbitrum",
       "address": "0x61aee4f4e6b62806c26eaff921e7f41782ca2e03",
       "deployedAt": "2025-09-22",
+      "deployedAtBasis": "contract-creation",
       "labels": [
         {
           "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
@@ -85,6 +88,7 @@
       "chain": "mantle",
       "address": "0x61aee4f4e6b62806c26eaff921e7f41782ca2e03",
       "deployedAt": "2025-11-28",
+      "deployedAtBasis": "contract-creation",
       "labels": [
         {
           "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
@@ -96,6 +100,7 @@
       "chain": "solana",
       "address": "XsBgbNRDujfznQq8P4NLKEkRTbPxUVt4v1xwkDzMMtQ",
       "deployedAt": "2025-09-22",
+      "deployedAtBasis": "first-signature",
       "primary": true,
       "labels": [
         {
@@ -112,6 +117,7 @@
       "chain": "ton",
       "address": "EQCyPkzfQkxJtlCe2Jixr7o0nOHMRraiOumzOhlJHd0mukQa",
       "deployedAt": "2025-11-12",
+      "deployedAtBasis": "first-transaction",
       "labels": [
         {
           "address": "UQCVLU9-UVFfm9Sct863y50nsF03Jr6uBn1tJm4n9g8QLbnS",
@@ -123,6 +129,7 @@
       "chain": "ink",
       "address": "0x61aee4f4e6b62806c26eaff921e7f41782ca2e03",
       "deployedAt": "2026-01-28",
+      "deployedAtBasis": "first-code",
       "labels": [
         {
           "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",

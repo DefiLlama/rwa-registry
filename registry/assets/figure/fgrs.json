@@ -47,6 +47,7 @@
       "chain": "provenance",
       "address": "nfgrd",
       "deployedAt": "2026-07-23",
+      "deployedAtBasis": "first-stored-day",
       "primary": true,
       "labels": [
         {

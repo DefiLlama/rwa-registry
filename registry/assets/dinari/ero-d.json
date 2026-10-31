@@ -27,7 +27,7 @@
     "attestationFrequency": "Random intervals (per whitepaper)"
   },
   "sources": {
-    "coingeckoId": "dinari-ero",
+    "coingeckoId": "ero-copper-dinari-tokenized-stock",
     "identifiers": [
       {
         "scheme": "isin",
@@ -54,6 +54,7 @@
       "chain": "arbitrum",
       "address": "0x071e1fd14fbacb2b856867043eb12ace1ee3cb52",
       "deployedAt": "2024-12-02",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -72,19 +73,27 @@
     },
     {
       "chain": "ethereum",
-      "address": null
+      "address": "0xcf5905de7d83dce7cd109485c42723bb76eba5a6",
+      "deployedAt": "2024-12-03",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "base",
-      "address": null
+      "address": "0xba921e840fb60adb0f92b2a977427fe8e5dd208c",
+      "deployedAt": "2024-12-03",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "blast",
-      "address": null
+      "address": "0x688a880ae19e766c6ad4b749a315ec25034a0645",
+      "deployedAt": "2024-12-02",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "plume_mainnet",
-      "address": null
+      "address": "0x40f3ad9fec0f0085c0fc7b74bd1d8242f48352c4",
+      "deployedAt": "2025-04-26",
+      "deployedAtBasis": "first-code"
     }
   ],
   "roles": [

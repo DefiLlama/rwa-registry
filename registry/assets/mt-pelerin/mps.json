@@ -51,6 +51,7 @@
       "chain": "ethereum",
       "address": "0x96c645d3d3706f793ef52c19bbace441900ed47d",
       "deployedAt": "2018-10-16",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -71,6 +72,7 @@
       "chain": "xdai",
       "address": "0xfa57aa7beed63d03aaf85ffd1753f5f6242588fb",
       "deployedAt": "2021-10-20",
+      "deployedAtBasis": "first-code",
       "labels": [
         {
           "address": "0x3037ba5e63ce968c1278452b7ae13b793fd4eea9",

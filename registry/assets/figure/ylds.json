@@ -48,6 +48,7 @@
       "chain": "provenance",
       "address": "uylds.fcc",
       "deployedAt": "2025-06-10",
+      "deployedAtBasis": "first-stored-day",
       "primary": true,
       "labels": [
         {
@@ -95,17 +96,20 @@
     {
       "chain": "sui",
       "address": "0x08b5e9f5caa91bdeb119ce6fb044d44a533fd856bcecaa74fc705852d709f200::ylds::YLDS",
-      "deployedAt": null
+      "deployedAt": "2025-11-11",
+      "deployedAtBasis": "package-published"
     },
     {
       "chain": "stellar",
       "address": "YLDS-GAC7MOPTQLQUM3KC24AW4GHS3RLF72LPEZO54AH7EZ6TSMGRB5SOAVH3",
-      "deployedAt": "2026-04-17"
+      "deployedAt": "2026-04-17",
+      "deployedAtBasis": "asset-created"
     },
     {
       "chain": "tempo",
       "address": "0x20c0000000000000000000003337951a5a9d94b2",
-      "deployedAt": "2026-09-08"
+      "deployedAt": "2026-09-08",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "solana",

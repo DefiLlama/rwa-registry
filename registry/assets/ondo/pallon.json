@@ -37,7 +37,7 @@
     ]
   },
   "about": {
-    "description": "PALLon is an Ondo Global Markets tokenized ETF exposure designed to provide economic exposure to =SUBSTITUTE(A169, \", \") in an onchain format. The token is designed to be fully backed by the underlying publicly traded ETF, together with cash in transit, held with regulated custodial broker-dealers. Holdings attestations and ongoing reporting are surfaced through Ondo trust and transparency materials and the product asset page. Tokenholders are not shareholders of the underlying and do not receive shareholder voting rights. Distributions, where applicable, are reflected through total return mechanics and reinvestment adjustments.",
+    "description": "PALLon is an Ondo Global Markets tokenized ETF exposure designed to provide economic exposure to abrdn Palladium ETF Trust in an onchain format. The token is designed to be fully backed by the underlying publicly traded ETF, together with cash in transit, held with regulated custodial broker-dealers. Holdings attestations and ongoing reporting are surfaced through Ondo trust and transparency materials and the product asset page. Tokenholders are not shareholders of the underlying and do not receive shareholder voting rights. Distributions, where applicable, are reflected through total return mechanics and reinvestment adjustments.",
     "logo": "https://icons.llamao.fi/icons/rwa/pall.png?w=48&h=48",
     "links": {
       "website": [
@@ -55,22 +55,26 @@
       "chain": "ethereum",
       "address": "0x0ce36d199bd6851788e03392568849394cbde722",
       "deployedAt": "2025-12-10",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     },
     {
       "chain": "bsc",
       "address": "0x3fcd741646a9790635b938cdb69af5df356cbaab",
-      "deployedAt": "2025-12-10"
+      "deployedAt": "2025-12-10",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "solana",
       "address": "P7hTXnKk2d2DyqWnefp5BSroE1qjjKpKxg9SxQqondo",
-      "deployedAt": "2025-12-31"
+      "deployedAt": "2025-12-31",
+      "deployedAtBasis": "first-signature"
     },
     {
       "chain": "hyperliquid",
       "address": "0x5ff6e08a0bdbc1ff11004ffb62b7ac7cdcf101bd",
-      "deployedAt": "2026-03-27"
+      "deployedAt": "2026-03-27",
+      "deployedAtBasis": "contract-creation"
     }
   ],
   "roles": [

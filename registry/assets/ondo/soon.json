@@ -27,16 +27,10 @@
     "attestationFrequency": "Daily"
   },
   "sources": {
-    "coingeckoId": "southern-ondo-tokenized-stock",
-    "identifiers": [
-      {
-        "scheme": "isin",
-        "value": "US83406F1021"
-      }
-    ]
+    "coingeckoId": "southern-ondo-tokenized-stock"
   },
   "about": {
-    "description": "SOon is an Ondo Global Markets tokenized stock exposure designed to provide economic exposure to =SUBSTITUTE(A184, \", \") in an onchain format. The token is designed to be fully backed by the underlying publicly traded asset, together with cash in transit, held with regulated custodial broker-dealers. Holdings attestations and ongoing reporting are surfaced through Ondo trust and transparency materials and the product asset page. Tokenholders are not shareholders of the underlying and do not receive shareholder voting rights. Dividend value is reflected through total return mechanics, and where applicable, dividends are reflected through reinvestment adjustments instead of cash dividends.",
+    "description": "SOon is an Ondo Global Markets tokenized stock exposure designed to provide economic exposure to The Southern Company in an onchain format. The token is designed to be fully backed by the underlying publicly traded asset, together with cash in transit, held with regulated custodial broker-dealers. Holdings attestations and ongoing reporting are surfaced through Ondo trust and transparency materials and the product asset page. Tokenholders are not shareholders of the underlying and do not receive shareholder voting rights. Dividend value is reflected through total return mechanics, and where applicable, dividends are reflected through reinvestment adjustments instead of cash dividends.",
     "logo": "https://icons.llamao.fi/icons/rwa/so.png?w=48&h=48",
     "links": {
       "website": [
@@ -54,27 +48,32 @@
       "chain": "ethereum",
       "address": "0x99aa107e55250a9fe52bb4b5541a59239eb6d974",
       "deployedAt": "2025-12-18",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     },
     {
       "chain": "ethereum",
       "address": "0x1c8f4921731d386e257b1c996dc2d603117b27ef",
-      "deployedAt": "2025-12-18"
+      "deployedAt": "2025-12-18",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "bsc",
       "address": "0xd7a6353a23ed2c4fcac29a63cbbe3f65ffef41f5",
-      "deployedAt": "2025-12-18"
+      "deployedAt": "2025-12-18",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "bsc",
       "address": "0x297c40cfb7736e7c43bcce50c39795f10701c2d5",
-      "deployedAt": "2025-12-18"
+      "deployedAt": "2025-12-18",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "solana",
       "address": "aKzjn2ZdWySSGPSSDTY2HUpcSCmemSahTXihrpyondo",
-      "deployedAt": "2025-12-31"
+      "deployedAt": "2025-12-31",
+      "deployedAtBasis": "first-signature"
     }
   ],
   "roles": [

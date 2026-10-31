@@ -41,7 +41,8 @@
     {
       "chain": "robinhood",
       "address": "0xb1969f6604ca1ae7a2cd3f1827876e914594ca2d",
-      "deployedAt": "2026-07-27"
+      "deployedAt": "2026-07-27",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "arbitrum",

@@ -52,6 +52,7 @@
       "chain": "bsc",
       "address": "0x4b12eb39418e30fc0e86e36cdac0545c1d9edac9",
       "deployedAt": "2025-09-22",
+      "deployedAtBasis": "first-code",
       "primary": true,
       "labels": [
         {
@@ -64,6 +65,7 @@
       "chain": "mantle",
       "address": "0x4b12eb39418e30fc0e86e36cdac0545c1d9edac9",
       "deployedAt": "2025-11-28",
+      "deployedAtBasis": "contract-creation",
       "labels": [
         {
           "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
@@ -75,6 +77,7 @@
       "chain": "ethereum",
       "address": "0x4b12eb39418e30fc0e86e36cdac0545c1d9edac9",
       "deployedAt": "2025-09-22",
+      "deployedAtBasis": "contract-creation",
       "labels": [
         {
           "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
@@ -86,6 +89,7 @@
       "chain": "arbitrum",
       "address": "0x4b12eb39418e30fc0e86e36cdac0545c1d9edac9",
       "deployedAt": "2025-09-22",
+      "deployedAtBasis": "contract-creation",
       "labels": [
         {
           "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",

@@ -53,6 +53,7 @@
       "chain": "arbitrum",
       "address": "0x1820872e193d48f59ec1b9383da6404b58e7b803",
       "deployedAt": "2023-12-15",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -83,7 +84,7 @@
     },
     {
       "chain": "plume_mainnet",
-      "address": null
+      "address": "0x1e8683a9951bd167444f5dd0648f84228107e04e"
     }
   ],
   "roles": [

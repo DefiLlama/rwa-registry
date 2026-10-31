@@ -65,12 +65,14 @@
       "chain": "ripple",
       "address": "524C555344000000000000000000000000000000.rMxCKbEDwqr76QuheSUMdEGf4B9xJ8m5De",
       "deployedAt": "2024-08-21",
+      "deployedAtBasis": "first-issue",
       "primary": true
     },
     {
       "chain": "ethereum",
       "address": "0x8292bb45bf1ee4d140127049757c2e0ff06317ed",
       "deployedAt": "2024-08-09",
+      "deployedAtBasis": "contract-creation",
       "labels": [
         {
           "address": "0x3baf6263ad9c9d0854405b4cfe4310c556a3e6ab",

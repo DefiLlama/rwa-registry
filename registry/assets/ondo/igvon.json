@@ -7,7 +7,7 @@
     "canonicalMarketId": "IGVon"
   },
   "exposure": {
-    "underlying": "ishares-expanded-tech-software-etf"
+    "underlying": "ishares-expanded-tech-software-sector-etf"
   },
   "class": {
     "structure": "etf-backed",
@@ -52,17 +52,20 @@
       "chain": "ethereum",
       "address": "0xa9e5c59f34397fe6baa9e4da139ba4e63bd84324",
       "deployedAt": "2026-05-30",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     },
     {
       "chain": "bsc",
       "address": "0xa046c2f0a1ac0a0e8829efc12163ae892ceafac2",
-      "deployedAt": "2026-05-30"
+      "deployedAt": "2026-05-30",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "solana",
       "address": "jYxKRFuXr6PEkzPpf1wWF7DhLL4gxGJ95Pv2NGrondo",
-      "deployedAt": "2026-05-29"
+      "deployedAt": "2026-05-29",
+      "deployedAtBasis": "first-signature"
     }
   ],
   "roles": [

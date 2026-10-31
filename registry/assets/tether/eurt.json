@@ -44,8 +44,9 @@
   "deployments": [
     {
       "chain": "ethereum",
-      "address": "0xc581b735a168807d1a7028d27ec2354a7c96fb71",
-      "deployedAt": "2026-06-13",
+      "address": "0xc581b735a1688071a1746c968e0798d642ede491",
+      "deployedAt": "2020-10-08",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -56,8 +57,9 @@
     },
     {
       "chain": "polygon",
-      "address": "0x7eef5918384ddc5aa2a229230d242743054b5eef",
-      "deployedAt": "2026-06-13"
+      "address": "0x7bdf330f423ea880ff95fc41a280fd5ecfd3d09f",
+      "deployedAt": "2021-10-20",
+      "deployedAtBasis": "contract-creation"
     }
   ],
   "roles": [

@@ -27,7 +27,7 @@
     "attestationFrequency": "Random intervals (per whitepaper)"
   },
   "sources": {
-    "coingeckoId": "dinari-spte",
+    "coingeckoId": "sp-funds-s-p-global-technology-etf-dinari-tokenized-etf",
     "identifiers": [
       {
         "scheme": "isin",
@@ -54,6 +54,7 @@
       "chain": "arbitrum",
       "address": "0x1795eeacbf98f08e7ee5af0a8913d5a54c24bb40",
       "deployedAt": "2024-12-02",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -72,19 +73,25 @@
     },
     {
       "chain": "ethereum",
-      "address": null
+      "address": "0x2711018a5489df0d9816bdb7670d58ba23fb2d5e",
+      "deployedAt": "2024-12-13",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "base",
-      "address": null
+      "address": "0xb0169ad580aa888467bbac4a4b650812dee74939",
+      "deployedAt": "2024-12-03",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "blast",
-      "address": null
+      "address": "0xca838b9437eb20ada32703a8b912922088cf90b5",
+      "deployedAt": "2024-12-03",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "plume_mainnet",
-      "address": null
+      "address": "0xa77f8732a8d9a2e57635d1115d7938dfd7e7acf0"
     }
   ],
   "roles": [

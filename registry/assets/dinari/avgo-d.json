@@ -27,7 +27,7 @@
     "attestationFrequency": "Random intervals (per whitepaper)"
   },
   "sources": {
-    "coingeckoId": "dinari-avgo"
+    "coingeckoId": "broadcom-dinari-tokenized-stock"
   },
   "about": {
     "description": "AVGO.d is a Dinari dShare that provides on-chain exposure to the referenced equity (Broadcom Inc. Common Stock dShare). dShares may only be issued and redeemed from wallets that have completed KYC, and Dinari states it screens wallets holding dShares as part of its AML program. The token includes a transfer blacklist feature for OFAC, AML, and account-security controls. Dinari states dividends and distributions are allocated using an on-chain snapshot and made available to withdraw from a USDC claim contract, and Dinari holds back shareholder voting rights from tokenholders.",
@@ -48,6 +48,7 @@
       "chain": "arbitrum",
       "address": "0x7c5fed5e0f8d05748cc12ffe1ca400b07de0f983",
       "deployedAt": "2024-06-18",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -66,19 +67,27 @@
     },
     {
       "chain": "ethereum",
-      "address": null
+      "address": "0x53aff1d59ea64f7f836670e33e99a0443f0ef25c",
+      "deployedAt": "2024-06-18",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "base",
-      "address": null
+      "address": "0x0f6c508ef7257c4b99bd1bc8aef750da64840813",
+      "deployedAt": "2024-06-18",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "blast",
-      "address": null
+      "address": "0x97dd837806eab484b440f15e60f84c4f312f7cdd",
+      "deployedAt": "2024-06-18",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "plume_mainnet",
-      "address": null
+      "address": "0x0aa34d11fb9b9b8d196eaaa73cb89a87ca4eedb1",
+      "deployedAt": "2025-04-26",
+      "deployedAtBasis": "first-code"
     }
   ],
   "roles": [

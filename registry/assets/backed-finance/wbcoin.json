@@ -52,32 +52,38 @@
       "chain": "ethereum",
       "address": "0xdec933e2392ad908263e70a386fbf34e703ffe8f",
       "deployedAt": "2025-02-10",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     },
     {
       "chain": "arbitrum",
       "address": "0xdec933e2392ad908263e70a386fbf34e703ffe8f",
-      "deployedAt": "2025-02-10"
+      "deployedAt": "2025-02-10",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "base",
       "address": "0xdec933e2392ad908263e70a386fbf34e703ffe8f",
-      "deployedAt": "2025-02-10"
+      "deployedAt": "2025-02-10",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "polygon",
       "address": "0xdec933e2392ad908263e70a386fbf34e703ffe8f",
-      "deployedAt": "2025-02-10"
+      "deployedAt": "2025-02-10",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "avax",
       "address": "0xdec933e2392ad908263e70a386fbf34e703ffe8f",
-      "deployedAt": "2025-02-10"
+      "deployedAt": "2025-02-10",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "xdai",
       "address": "0xdec933e2392ad908263e70a386fbf34e703ffe8f",
-      "deployedAt": "2025-02-07"
+      "deployedAt": "2025-02-07",
+      "deployedAtBasis": "first-code"
     }
   ],
   "roles": [

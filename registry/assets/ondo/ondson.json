@@ -27,16 +27,10 @@
     "attestationFrequency": "Daily"
   },
   "sources": {
-    "coingeckoId": "ondas-holdings-ondo-tokenized",
-    "identifiers": [
-      {
-        "scheme": "isin",
-        "value": "US6821891057"
-      }
-    ]
+    "coingeckoId": "ondas-holdings-ondo-tokenized"
   },
   "about": {
-    "description": "ONDSon is an Ondo Global Markets tokenized stock exposure designed to provide economic exposure to =SUBSTITUTE(A163, \", \") in an onchain format. The token is designed to be fully backed by the underlying publicly traded asset, together with cash in transit, held with regulated custodial broker-dealers. Holdings attestations and ongoing reporting are surfaced through Ondo trust and transparency materials and the product asset page. Tokenholders are not shareholders of the underlying and do not receive shareholder voting rights. Dividend value is reflected through total return mechanics, and where applicable, dividends are reflected through reinvestment adjustments instead of cash dividends.",
+    "description": "ONDSon is an Ondo Global Markets tokenized stock exposure designed to provide economic exposure to Ondas Inc. in an onchain format. The token is designed to be fully backed by the underlying publicly traded asset, together with cash in transit, held with regulated custodial broker-dealers. Holdings attestations and ongoing reporting are surfaced through Ondo trust and transparency materials and the product asset page. Tokenholders are not shareholders of the underlying and do not receive shareholder voting rights. Dividend value is reflected through total return mechanics, and where applicable, dividends are reflected through reinvestment adjustments instead of cash dividends.",
     "logo": "https://icons.llamao.fi/icons/rwa/onds.png?w=48&h=48",
     "links": {
       "website": [
@@ -54,27 +48,32 @@
       "chain": "ethereum",
       "address": "0x818234860a647d480b9bbcc9a47a23889f2ec900",
       "deployedAt": "2025-12-10",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     },
     {
       "chain": "ethereum",
       "address": "0x6f5ef1896b9086db5cb566c1f0d014343505e76f",
-      "deployedAt": "2025-12-10"
+      "deployedAt": "2025-12-10",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "bsc",
       "address": "0xd85d4ce29b4ca361ff72ef0e53d6236e334c5db6",
-      "deployedAt": "2025-12-10"
+      "deployedAt": "2025-12-10",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "bsc",
       "address": "0x701f08133b70e8857a4d435ded6fe848755140bd",
-      "deployedAt": "2025-12-10"
+      "deployedAt": "2025-12-10",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "solana",
       "address": "7qy1j4Mechfyr6uAST3djH4vk4kiEYC2cjEytXdondo",
-      "deployedAt": "2025-12-31"
+      "deployedAt": "2025-12-31",
+      "deployedAtBasis": "first-signature"
     }
   ],
   "roles": [

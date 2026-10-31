@@ -26,6 +26,7 @@
     "attestationFrequency": "Continuous (Midas Attestation Engine, Chainlink + vlayer)"
   },
   "about": {
+    "description": "The msyrupUSDp token tracks a stablecoin yield strategy involving Maple's syrupUSDT on the Plasma blockchain.",
     "logo": "https://icons.llamao.fi/icons/rwa/msyrupusdp.png?w=48&h=48",
     "links": {
       "website": [
@@ -43,6 +44,7 @@
       "chain": "ethereum",
       "address": "0x2fe058ccf29f123f9dd2aec0418aa66a877d8e50",
       "deployedAt": "2025-09-11",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     }
   ],

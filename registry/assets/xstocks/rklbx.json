@@ -45,6 +45,7 @@
       "chain": "bsc",
       "address": "0xe17ce7dd2afb6da3488fd9ef2558523d569e17b4",
       "deployedAt": "2025-09-22",
+      "deployedAtBasis": "first-code",
       "labels": [
         {
           "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
@@ -56,6 +57,7 @@
       "chain": "arbitrum",
       "address": "0xe17ce7dd2afb6da3488fd9ef2558523d569e17b4",
       "deployedAt": "2025-09-22",
+      "deployedAtBasis": "contract-creation",
       "labels": [
         {
           "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
@@ -67,6 +69,7 @@
       "chain": "solana",
       "address": "XsKSh3QDynp6oms9yHjZXbZo3pKzUBoqUFKPHS2g9Bh",
       "deployedAt": "2025-09-22",
+      "deployedAtBasis": "first-signature",
       "primary": true,
       "labels": [
         {
@@ -83,6 +86,7 @@
       "chain": "ton",
       "address": "EQDnJNIjNFhH_UljeEOpcA34wxWnkddTsRgOZ5TBAAsgnkYw",
       "deployedAt": "2025-11-12",
+      "deployedAtBasis": "first-transaction",
       "labels": [
         {
           "address": "UQCVLU9-UVFfm9Sct863y50nsF03Jr6uBn1tJm4n9g8QLbnS",
@@ -94,6 +98,7 @@
       "chain": "monad",
       "address": "0xe17ce7dd2afb6da3488fd9ef2558523d569e17b4",
       "deployedAt": "2026-10-01",
+      "deployedAtBasis": "contract-creation",
       "labels": [
         {
           "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
@@ -103,27 +108,55 @@
     },
     {
       "chain": "ethereum",
-      "address": null
+      "address": "0xe17ce7dd2afb6da3488fd9ef2558523d569e17b4",
+      "deployedAt": "2025-09-22",
+      "deployedAtBasis": "contract-creation",
+      "labels": [
+        {
+          "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
+          "kind": "excluded-holder"
+        }
+      ]
     },
     {
       "chain": "mantle",
-      "address": null
+      "address": "0xe17ce7dd2afb6da3488fd9ef2558523d569e17b4",
+      "deployedAt": "2025-11-28",
+      "deployedAtBasis": "contract-creation",
+      "labels": [
+        {
+          "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
+          "kind": "excluded-holder"
+        }
+      ]
     },
     {
       "chain": "ink",
-      "address": null
+      "address": "0xe17ce7dd2afb6da3488fd9ef2558523d569e17b4",
+      "deployedAt": "2026-01-28",
+      "deployedAtBasis": "first-code",
+      "labels": [
+        {
+          "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
+          "kind": "excluded-holder"
+        }
+      ]
     },
     {
       "chain": "hyperliquid",
-      "address": null
+      "address": "0xe17ce7dd2afb6da3488fd9ef2558523d569e17b4"
     },
     {
       "chain": "optimism",
-      "address": null
+      "address": "0xe17ce7dd2afb6da3488fd9ef2558523d569e17b4",
+      "deployedAt": "2026-06-04",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "xlayer",
-      "address": null
+      "address": "0xe17ce7dd2afb6da3488fd9ef2558523d569e17b4",
+      "deployedAt": "2026-08-07",
+      "deployedAtBasis": "first-stored-day"
     }
   ],
   "roles": [

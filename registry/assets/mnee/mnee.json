@@ -27,7 +27,7 @@
     "attestationFrequency": "Monthly"
   },
   "sources": {
-    "coingeckoId": "mnee-usd-stablecoin"
+    "coingeckoId": null
   },
   "about": {
     "description": "MNEE is a USD stablecoin that targets $1 and is backed by issuer-held reserves in cash and short-term U. S. government obligations (per issuer disclosures). It supports both ERC-20 and Bitcoin SV 1Sat Ordinals representations. primary risks are issuer/custody, regulatory constraints on mint/redemption, and reserve management.",
@@ -48,6 +48,7 @@
       "chain": "ethereum",
       "address": "0x8ccedbae4916b79da7f3f612efb2eb93a2bfd6cf",
       "deployedAt": "2024-03-21",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     }
   ],

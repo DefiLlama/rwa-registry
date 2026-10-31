@@ -7,7 +7,7 @@
     "canonicalMarketId": "aCSCO"
   },
   "exposure": {
-    "underlying": "cisco"
+    "underlying": "cisco-systems-inc"
   },
   "class": {
     "structure": "stock-backed",
@@ -46,12 +46,14 @@
     {
       "chain": "ethereum",
       "address": "0x991c1f370adbab08e1f7978b01cb1dc022b902bb",
-      "deployedAt": "2026-06-04"
+      "deployedAt": "2026-06-04",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "monad",
       "address": "0x991c1f370adbab08e1f7978b01cb1dc022b902bb",
       "deployedAt": "2026-06-04",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -63,22 +65,26 @@
     {
       "chain": "base",
       "address": "0x991c1f370adbab08e1f7978b01cb1dc022b902bb",
-      "deployedAt": "2026-06-04"
+      "deployedAt": "2026-06-04",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "arbitrum",
       "address": "0x991c1f370adbab08e1f7978b01cb1dc022b902bb",
-      "deployedAt": "2026-08-21"
+      "deployedAt": "2026-08-21",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "robinhood",
       "address": "0x991c1f370adbab08e1f7978b01cb1dc022b902bb",
-      "deployedAt": "2026-09-04"
+      "deployedAt": "2026-09-04",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "bsc",
       "address": "0x991c1f370adbab08e1f7978b01cb1dc022b902bb",
-      "deployedAt": "2026-09-08"
+      "deployedAt": "2026-09-08",
+      "deployedAtBasis": "first-code"
     }
   ],
   "roles": [

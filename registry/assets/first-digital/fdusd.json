@@ -72,6 +72,7 @@
       "chain": "ethereum",
       "address": "0xc5f0f7b66764f6ec8c8dff7ba683102295e16409",
       "deployedAt": "2023-04-28",
+      "deployedAtBasis": "contract-creation",
       "labels": [
         {
           "address": "0x240145d7225a00c490ee1742a8eaf4b79369be44",
@@ -83,22 +84,26 @@
       "chain": "bsc",
       "address": "0xc5f0f7b66764f6ec8c8dff7ba683102295e16409",
       "deployedAt": "2023-05-02",
+      "deployedAtBasis": "first-code",
       "primary": true
     },
     {
       "chain": "arbitrum",
       "address": "0x93c9932e4afa59201f0b5e63f7d816516f1669fe",
-      "deployedAt": "2025-05-13"
+      "deployedAt": "2025-05-13",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "solana",
       "address": "9zNQRsGLjNKwCUU5Gq5LR8beUCPzQMVMqKAi3SSZh54u",
-      "deployedAt": "2025-01-15"
+      "deployedAt": "2024-11-25",
+      "deployedAtBasis": "metadata-created"
     },
     {
       "chain": "ton",
       "address": "EQD0Evpk4timFOHmy4Sv3l_KEUXlM-dN1_KhroTCfB2wkO89",
-      "deployedAt": "2024-12-19"
+      "deployedAt": "2024-12-19",
+      "deployedAtBasis": "first-transaction"
     }
   ],
   "roles": [

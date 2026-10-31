@@ -27,7 +27,7 @@
     "attestationFrequency": "Random intervals (per whitepaper)"
   },
   "sources": {
-    "coingeckoId": "dinari-pypl-dshares"
+    "coingeckoId": "paypal-holdings-dinari-tokenized-stock"
   },
   "about": {
     "description": "PYPL.d is a Dinari dShare that provides on-chain exposure to the referenced equity (PayPal Holdings, Inc. dShare). dShares may only be issued and redeemed from wallets that have completed KYC, and Dinari states it screens wallets holding dShares as part of its AML program. The token includes a transfer blacklist feature for OFAC, AML, and account-security controls. Dinari states dividends and distributions are allocated using an on-chain snapshot and made available to withdraw from a USDC claim contract, and Dinari holds back shareholder voting rights from tokenholders.",
@@ -48,6 +48,7 @@
       "chain": "arbitrum",
       "address": "0x5b6424769823e82a1829b0a8bcaf501bffd90d25",
       "deployedAt": "2023-11-13",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -66,19 +67,25 @@
     },
     {
       "chain": "ethereum",
-      "address": null
+      "address": "0x961ca9d6e644b5509654f3d5a250bb03f2e702b6",
+      "deployedAt": "2024-02-27",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "base",
-      "address": null
+      "address": "0xd6558a27008788041fd9b9e013e649bcab329218",
+      "deployedAt": "2024-06-10",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "blast",
-      "address": null
+      "address": "0xaa1dbb5dd00595c8f50ff53dfa9c65eb0624d858",
+      "deployedAt": "2024-03-01",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "plume_mainnet",
-      "address": null
+      "address": "0xa7c2a88368cb66fd6a4e70c9a291a987bdffa2d0"
     }
   ],
   "roles": [

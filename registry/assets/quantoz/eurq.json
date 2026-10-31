@@ -44,17 +44,20 @@
       "chain": "ethereum",
       "address": "0x8df723295214ea6f21026eeeb4382d475f146f9f",
       "deployedAt": "2024-11-13",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     },
     {
       "chain": "polygon",
       "address": "0xd571edb2ef29df10fcd6200fd6d0ed2389983db3",
-      "deployedAt": "2025-03-21"
+      "deployedAt": "2025-03-21",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "algorand",
       "address": "2768422954",
-      "deployedAt": null
+      "deployedAt": "2025-02-13",
+      "deployedAtBasis": "asset-created"
     },
     {
       "chain": "ripple",

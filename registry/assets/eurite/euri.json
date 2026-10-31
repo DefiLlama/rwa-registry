@@ -48,6 +48,7 @@
       "chain": "ethereum",
       "address": "0x9d1a7a3191102e9f900faa10540837ba84dcbae7",
       "deployedAt": "2024-07-02",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -60,6 +61,7 @@
       "chain": "bsc",
       "address": "0x9d1a7a3191102e9f900faa10540837ba84dcbae7",
       "deployedAt": "2024-07-02",
+      "deployedAtBasis": "first-code",
       "labels": [
         {
           "address": "0xfca77c0891578e371ee9ff34d6f653d8ec3d9e9d",

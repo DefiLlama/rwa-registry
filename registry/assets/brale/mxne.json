@@ -46,23 +46,27 @@
     {
       "chain": "solana",
       "address": "6zYgzrT7X2wi9a9NeMtUvUWLLmf2a8vBsbYkocYdB9wa",
-      "deployedAt": "2025-03-07",
+      "deployedAt": "2024-05-10",
+      "deployedAtBasis": "first-stored-day",
       "primary": true
     },
     {
       "chain": "polygon",
       "address": "0x615c2f42919c7fed56a44a5c62d5ef73f748fd0f",
-      "deployedAt": "2025-04-15"
+      "deployedAt": "2025-04-15",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "base",
       "address": "0x269cae7dc59803e5c596c95756faeebb6030e0af",
-      "deployedAt": "2024-05-22"
+      "deployedAt": "2024-05-22",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "stellar",
       "address": "MXNe-GCQCNWT22JDLENQAVIE6DRJGHWAQ6EX2H5ABGPV55EJUPPZM5UA7KHZR",
-      "deployedAt": "2024-05-20"
+      "deployedAt": "2024-05-20",
+      "deployedAtBasis": "asset-created"
     }
   ],
   "roles": [

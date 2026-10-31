@@ -27,7 +27,7 @@
     "attestationFrequency": "Random intervals (per whitepaper)"
   },
   "sources": {
-    "coingeckoId": "dinari-adbe",
+    "coingeckoId": "adobe-dinari-tokenized-stock",
     "identifiers": [
       {
         "scheme": "isin",
@@ -54,6 +54,7 @@
       "chain": "arbitrum",
       "address": "0x289594b223ab31832726eb99871fa99adac583e5",
       "deployedAt": "2024-06-18",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -72,19 +73,25 @@
     },
     {
       "chain": "ethereum",
-      "address": null
+      "address": "0x5d7bb43885988eb8bfb9d854077e7ccfd6bf8c50",
+      "deployedAt": "2024-06-18",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "base",
-      "address": null
+      "address": "0xf20c96fffbda91b07f78592c1c887ba922ce9b7f",
+      "deployedAt": "2024-06-18",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "blast",
-      "address": null
+      "address": "0x3fada70ea1251bec1e87c2ff9cd5bb72a818c350",
+      "deployedAt": "2024-06-18",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "plume_mainnet",
-      "address": null
+      "address": "0xdc6afdec5aa26a5c3f26ddfcaa6a93722a585a55"
     }
   ],
   "roles": [

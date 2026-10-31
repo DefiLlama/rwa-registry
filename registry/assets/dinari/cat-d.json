@@ -27,7 +27,7 @@
     "attestationFrequency": "Random intervals (per whitepaper)"
   },
   "sources": {
-    "coingeckoId": "dinari-cat"
+    "coingeckoId": "caterpillar-dinari-tokenized-stock"
   },
   "about": {
     "description": "CAT.d is a Dinari dShare that provides on-chain exposure to the referenced equity (Caterpillar Inc. dShare). dShares may only be issued and redeemed from wallets that have completed KYC, and Dinari states it screens wallets holding dShares as part of its AML program. The token includes a transfer blacklist feature for OFAC, AML, and account-security controls. Dinari states dividends and distributions are allocated using an on-chain snapshot and made available to withdraw from a USDC claim contract, and Dinari holds back shareholder voting rights from tokenholders.",
@@ -48,6 +48,7 @@
       "chain": "arbitrum",
       "address": "0xe649980d1b911756f217e4b61de76a7d2a3b108a",
       "deployedAt": "2024-12-05",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -66,19 +67,27 @@
     },
     {
       "chain": "ethereum",
-      "address": null
+      "address": "0x4cfba646ca9c05ad653fea94d485d15cfc449b2d",
+      "deployedAt": "2024-12-13",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "base",
-      "address": null
+      "address": "0x903ce8c6196a78e5b6df62897a864951e71b6b34",
+      "deployedAt": "2024-12-05",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "blast",
-      "address": null
+      "address": "0x8ce131c8c8b8d46ffe2a72aadc8ebb3d5686613a",
+      "deployedAt": "2024-12-05",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "plume_mainnet",
-      "address": null
+      "address": "0x215a68763a6a479d6d9dcc1553f51e0c1fe4cd15",
+      "deployedAt": "2025-04-26",
+      "deployedAtBasis": "first-code"
     }
   ],
   "roles": [

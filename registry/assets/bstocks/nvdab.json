@@ -27,7 +27,7 @@
     "attestationFrequency": "Continuous"
   },
   "sources": {
-    "coingeckoId": "nvidia-bstocks-tokenized-stock",
+    "coingeckoId": "nvidia-bstocks",
     "identifiers": [
       {
         "scheme": "isin",
@@ -53,6 +53,7 @@
       "chain": "bsc",
       "address": "0x02fca66c1d1afb4e2a7884261eb00f63598a7436",
       "deployedAt": "2026-06-05",
+      "deployedAtBasis": "first-code",
       "primary": true
     }
   ],

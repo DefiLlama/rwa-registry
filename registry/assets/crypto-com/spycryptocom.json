@@ -7,7 +7,7 @@
     "canonicalMarketId": "SPYcryptocom"
   },
   "exposure": {
-    "underlying": "spdr-s-p-500-etf-trust"
+    "underlying": "state-street-spdr-s-p-500-etf-trust"
   },
   "class": {
     "structure": "synthetic-etf",
@@ -51,7 +51,8 @@
     {
       "chain": "cronos",
       "address": "0x5a448b6db7cfceb671428db47bb5d7c019f0bc63",
-      "deployedAt": "2026-08-26",
+      "deployedAt": "2026-05-26",
+      "deployedAtBasis": "first-code",
       "primary": true,
       "labels": [
         {

@@ -42,51 +42,13 @@
   "deployments": [
     {
       "chain": "base",
-      "address": "0x6c3d47da164d3fc442c21519484dcf895c1e8bbe",
-      "deployedAt": null,
-      "labels": [
-        {
-          "address": "0x7d40ac593332049a189cd5aef94b049657f14130",
-          "kind": "excluded-holder"
-        },
-        {
-          "address": "0xf9521ae0482fdb271816739a6a6cb6e3c8699dea",
-          "kind": "excluded-holder"
-        },
-        {
-          "address": "0xeb8fef88b43c114fe68af4bcc6d017a72129bc37",
-          "kind": "excluded-holder"
-        },
-        {
-          "address": "0xbe5889f73c09390e1df44f8c69f485fc936e389e",
-          "kind": "excluded-holder"
-        },
-        {
-          "address": "0x61bff66f84f65a022c32b8288eb6b4887d789694",
-          "kind": "excluded-holder"
-        },
-        {
-          "address": "0x19f7805b654b8535819b21c0f76cc323dd6b7ea1",
-          "kind": "excluded-holder"
-        },
-        {
-          "address": "0x4dec3139f4a6c638e26452d32181fe87a7530805",
-          "kind": "excluded-holder"
-        },
-        {
-          "address": "0x4ad4cf7a796bf508daec91cc70b8f43d5264a0dc",
-          "kind": "excluded-holder"
-        },
-        {
-          "address": "0x58c7e7076de940d34a35bf6a7227c6c405030e23",
-          "kind": "excluded-holder"
-        }
-      ]
+      "address": null
     },
     {
       "chain": "bsc",
       "address": "0x6c3d47da164d3fc442c21519484dcf895c1e8bbe",
       "deployedAt": "2025-11-20",
+      "deployedAtBasis": "first-code",
       "primary": true,
       "labels": [
         {

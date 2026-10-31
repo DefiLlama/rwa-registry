@@ -2,7 +2,7 @@
   "identity": {
     "slug": "salts",
     "symbol": "sALTS",
-    "name": "StableStock ALT5 Sigma",
+    "name": "StableStock AI Financial (fka ALT5 Sigma)",
     "legacyId": 3337,
     "canonicalMarketId": "sALTS"
   },
@@ -26,7 +26,7 @@
     "attestationFrequency": "Weekly assurance PDF + real-time reserves dashboard"
   },
   "about": {
-    "description": "sALTS is the tokenized wrapper for ALT5 Sigma Corporation (Nasdaq: ALTS), the fintech that pivoted to become the flagship WLFI (World Liberty Financial) Digital Asset Treasury company, holding in excess of $1.5B of WLFI. Chairman is Zach Witkoff and the board includes Eric Trump. StableStock issues sALTS as a 1:1 BEP-20 on BNB Chain with shares custodied off-chain through StableBroker (StableStock's licensed broker partner with HabitTrade), and 24/7 on-chain liquidity in partnership with Native. KYC gates mint/redeem. The BEP-20 transfers without restriction, giving BSC DeFi users direct on-chain exposure to the WLFI-treasury thesis.",
+    "description": "sALTS is the tokenized wrapper for AI Financial Corporation (Nasdaq: AIFC), named ALT5 Sigma Corporation (Nasdaq: ALTS) until 2026-04-28, the fintech that pivoted to become the flagship WLFI (World Liberty Financial) Digital Asset Treasury company, holding in excess of $1.5B of WLFI. Chairman is Zach Witkoff and the board includes Eric Trump. StableStock issues sALTS as a 1:1 BEP-20 on BNB Chain with shares custodied off-chain through StableBroker (StableStock's licensed broker partner with HabitTrade), and 24/7 on-chain liquidity in partnership with Native. KYC gates mint/redeem. The BEP-20 transfers without restriction, giving BSC DeFi users direct on-chain exposure to the WLFI-treasury thesis.",
     "logo": "https://icons.llamao.fi/icons/rwa/alts.png?w=48&h=48",
     "links": {
       "website": [
@@ -44,6 +44,7 @@
       "chain": "bsc",
       "address": "0x753b805fdacb1582e94fdd4e0fbeee27da9ee2b4",
       "deployedAt": "2025-08-12",
+      "deployedAtBasis": "first-code",
       "primary": true,
       "labels": [
         {

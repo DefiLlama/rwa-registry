@@ -46,6 +46,7 @@
       "chain": "ethereum",
       "address": "0x87b65c4aaffa76881f9e96f3e7ed945ddfc3cd7a",
       "deployedAt": "2026-05-25",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -57,12 +58,14 @@
     {
       "chain": "robinhood",
       "address": "0x40858070814a57fdf33a613ae84fe0a8b4a874f7",
-      "deployedAt": "2026-06-04"
+      "deployedAt": "2026-06-04",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "arbitrum",
       "address": "0xe1b0dc5a21b10f1634fbfbe9976fba2ee2e1c762",
-      "deployedAt": "2026-09-09"
+      "deployedAt": "2026-09-09",
+      "deployedAtBasis": "contract-creation"
     }
   ],
   "roles": [

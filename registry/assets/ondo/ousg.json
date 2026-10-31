@@ -51,6 +51,7 @@
       "chain": "ethereum",
       "address": "0x1b19c19393e2d034d8ff31ff34c81252fcbbee92",
       "deployedAt": "2022-12-21",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -70,17 +71,20 @@
     {
       "chain": "polygon",
       "address": "0xba11c5effa33c4d6f8f593cfa394241cfe925811",
-      "deployedAt": "2023-06-02"
+      "deployedAt": "2023-06-02",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "solana",
       "address": "i7u4r16TcsJTgq1kAG8opmVZyVnAKBwLKu6ZPMwzxNc",
-      "deployedAt": "2023-11-29"
+      "deployedAt": "2023-11-29",
+      "deployedAtBasis": "first-signature"
     },
     {
       "chain": "ripple",
       "address": "4F55534700000000000000000000000000000000.rHuiXXjHLpMP8ZE9sSQU5aADQVWDwv6h5p",
-      "deployedAt": "2025-06-09"
+      "deployedAt": "2025-06-09",
+      "deployedAtBasis": "first-issue"
     }
   ],
   "roles": [

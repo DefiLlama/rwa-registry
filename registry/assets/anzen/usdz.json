@@ -46,6 +46,7 @@
       "chain": "ethereum",
       "address": "0xa469b7ee9ee773642b3e93e842e5d9b5baa10067",
       "deployedAt": "2024-05-16",
+      "deployedAtBasis": "contract-creation",
       "labels": [
         {
           "address": "0x5d74abb95e85cba124fb27df08994ef072b5d49b",
@@ -69,6 +70,7 @@
       "chain": "base",
       "address": "0x04d5ddf5f3a8939889f11e97f8c4bb48317f1938",
       "deployedAt": "2024-05-16",
+      "deployedAtBasis": "first-code",
       "primary": true,
       "labels": [
         {
@@ -80,12 +82,14 @@
     {
       "chain": "blast",
       "address": "0x52056ed29fe015f4ba2e3b079d10c0b87f46e8c6",
-      "deployedAt": "2024-07-01"
+      "deployedAt": "2024-07-01",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "arbitrum",
       "address": "0x5018609ab477cc502e170a5accf5312b86a4b94f",
-      "deployedAt": "2024-08-19"
+      "deployedAt": "2024-08-19",
+      "deployedAtBasis": "contract-creation"
     }
   ],
   "roles": [

@@ -42,12 +42,14 @@
       "chain": "ethereum",
       "address": "0x54a4fc78431f9201824643e99bec891bb7462a1d",
       "deployedAt": "2026-04-27",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     },
     {
       "chain": "ethereum",
       "address": "0xf0db6f529581e7f6ebac7a7f6882923c00fc3a66",
-      "deployedAt": "2026-04-27"
+      "deployedAt": "2026-04-27",
+      "deployedAtBasis": "contract-creation"
     }
   ],
   "roles": [

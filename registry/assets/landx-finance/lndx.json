@@ -47,6 +47,7 @@
       "chain": "ethereum",
       "address": "0x08a1c30bbb26425c1031ee9e43fa0b9960742539",
       "deployedAt": "2023-12-03",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -58,7 +59,8 @@
     {
       "chain": "arbitrum",
       "address": "0xe10d4a4255d2d35c9e23e2c4790e073046fbaf5c",
-      "deployedAt": "2023-12-13"
+      "deployedAt": "2023-12-13",
+      "deployedAtBasis": "contract-creation"
     }
   ],
   "roles": [

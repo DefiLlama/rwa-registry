@@ -49,32 +49,38 @@
       "chain": "ethereum",
       "address": "0x9477724bb54ad5417de8baff29e59df3fb4da74f",
       "deployedAt": "2025-12-15",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     },
     {
       "chain": "plume_mainnet",
       "address": "0x9477724bb54ad5417de8baff29e59df3fb4da74f",
-      "deployedAt": "2025-09-18"
+      "deployedAt": "2025-09-18",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "solana",
       "address": "ACDR3LGFrMuDZSDRyJjncFCzo5c8xkQxhWx4im4Vmq8G",
-      "deployedAt": "2025-11-19"
+      "deployedAt": "2025-11-19",
+      "deployedAtBasis": "first-signature"
     },
     {
       "chain": "base",
       "address": "0x9477724bb54ad5417de8baff29e59df3fb4da74f",
-      "deployedAt": "2025-10-20"
+      "deployedAt": "2025-10-20",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "monad",
       "address": "0x2fabf1c784b8583d63c00c5c9c0377d8cf1a3245",
-      "deployedAt": "2026-03-20"
+      "deployedAt": "2026-03-20",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "optimism",
       "address": "0x2fabf1c784b8583d63c00c5c9c0377d8cf1a3245",
-      "deployedAt": "2026-02-12"
+      "deployedAt": "2026-02-12",
+      "deployedAtBasis": "first-code"
     }
   ],
   "roles": [

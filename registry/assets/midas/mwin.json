@@ -26,6 +26,7 @@
     "attestationFrequency": "Continuous (Midas Attestation Engine, Chainlink + vlayer)"
   },
   "about": {
+    "description": "The mWIN token provides exposure to a diversified portfolio of senior, investment-grade credit managed by Wellington Management, spanning CLOs, CMBS, RMBS, ABS, and investment-grade corporate bonds.",
     "logo": "https://icons.llamao.fi/icons/rwa/mwin.png?w=48&h=48",
     "links": {
       "website": [
@@ -43,6 +44,7 @@
       "chain": "ethereum",
       "address": "0x4e72025984424e52838cf8953e2863eff036b67a",
       "deployedAt": "2026-06-03",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     }
   ],

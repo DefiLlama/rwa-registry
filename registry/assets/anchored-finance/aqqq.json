@@ -26,13 +26,7 @@
     "attestationFrequency": "Daily"
   },
   "sources": {
-    "coingeckoId": "invesco-qqq-astock",
-    "identifiers": [
-      {
-        "scheme": "isin",
-        "value": "US46133G1076"
-      }
-    ]
+    "coingeckoId": "invesco-qqq-astock"
   },
   "about": {
     "description": "Tokenized Invesco QQQ. Each token is backed 1:1 by the underlying ETF share, purchased through a FINRA-registered broker-dealer and held in regulated custody, and is redeemable for stablecoins.",
@@ -52,33 +46,39 @@
     {
       "chain": "ethereum",
       "address": "0x1446501e886c7f830db9b494a1890cbccc072f57",
-      "deployedAt": "2026-04-13"
+      "deployedAt": "2026-04-13",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "monad",
       "address": "0x1446501e886c7f830db9b494a1890cbccc072f57",
       "deployedAt": "2026-04-13",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     },
     {
       "chain": "base",
       "address": "0x1446501e886c7f830db9b494a1890cbccc072f57",
-      "deployedAt": "2026-05-27"
+      "deployedAt": "2026-05-27",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "arbitrum",
       "address": "0x1446501e886c7f830db9b494a1890cbccc072f57",
-      "deployedAt": "2026-08-21"
+      "deployedAt": "2026-08-21",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "robinhood",
       "address": "0x1446501e886c7f830db9b494a1890cbccc072f57",
-      "deployedAt": "2026-09-04"
+      "deployedAt": "2026-09-04",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "bsc",
       "address": "0x1446501e886c7f830db9b494a1890cbccc072f57",
-      "deployedAt": "2026-09-08"
+      "deployedAt": "2026-09-08",
+      "deployedAtBasis": "first-code"
     }
   ],
   "roles": [

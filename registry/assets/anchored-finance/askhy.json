@@ -7,7 +7,7 @@
     "canonicalMarketId": "aSKHY"
   },
   "exposure": {
-    "underlying": "sk-hynix"
+    "underlying": "sk-hynix-inc-adr"
   },
   "class": {
     "structure": "stock-backed",
@@ -46,12 +46,14 @@
     {
       "chain": "ethereum",
       "address": "0x6e8568ba7b43138d9210959a9523155e274550c9",
-      "deployedAt": "2026-07-09"
+      "deployedAt": "2026-07-09",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "monad",
       "address": "0x6e8568ba7b43138d9210959a9523155e274550c9",
       "deployedAt": "2026-07-09",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -63,22 +65,26 @@
     {
       "chain": "base",
       "address": "0x6e8568ba7b43138d9210959a9523155e274550c9",
-      "deployedAt": "2026-07-09"
+      "deployedAt": "2026-07-09",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "arbitrum",
       "address": "0x6e8568ba7b43138d9210959a9523155e274550c9",
-      "deployedAt": "2026-08-21"
+      "deployedAt": "2026-08-21",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "robinhood",
       "address": "0x6e8568ba7b43138d9210959a9523155e274550c9",
-      "deployedAt": "2026-09-04"
+      "deployedAt": "2026-09-04",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "bsc",
       "address": "0x6e8568ba7b43138d9210959a9523155e274550c9",
-      "deployedAt": "2026-09-08"
+      "deployedAt": "2026-09-08",
+      "deployedAtBasis": "first-code"
     }
   ],
   "roles": [

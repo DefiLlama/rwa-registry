@@ -44,22 +44,26 @@
       "chain": "ethereum",
       "address": "0x2a8c22e3b10036f3aef5875d04f8441d4188b656",
       "deployedAt": "2024-06-11",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     },
     {
       "chain": "base",
       "address": "0x1c2757c1fef1038428b5bef062495ce94bbe92b2",
-      "deployedAt": "2024-10-23"
+      "deployedAt": "2024-10-23",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "plume_mainnet",
       "address": "0x0c78ca789e826fe339de61934896f5d170b66d78",
-      "deployedAt": "2025-05-02"
+      "deployedAt": "2025-05-02",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "etlk",
       "address": "0x2247b5a46bb79421a314ab0f0b67ffd11dd37ee4",
-      "deployedAt": "2025-02-27"
+      "deployedAt": "2025-02-13",
+      "deployedAtBasis": "contract-creation"
     }
   ],
   "roles": [

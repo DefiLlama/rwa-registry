@@ -44,6 +44,7 @@
       "chain": "arbitrum",
       "address": "0x6604b5da093f3f35066c6c79e51d581a44c35288",
       "deployedAt": "2024-01-04",
+      "deployedAtBasis": "contract-creation",
       "labels": [
         {
           "address": "0xd1c5a347983b20c1983c4e622033714ccd926eb7",
@@ -71,6 +72,7 @@
       "chain": "ethereum",
       "address": "0x8cc379a292a47cb8406fb1bd8a6d98f442275f0e",
       "deployedAt": "2023-10-25",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {

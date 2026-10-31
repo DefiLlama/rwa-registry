@@ -2,7 +2,7 @@
   "identity": {
     "slug": "sblxrh",
     "symbol": "SBLX",
-    "name": "StableX Technologies, Inc. - Robinhood Token",
+    "name": "Fabric.AI, Inc. - Robinhood Token",
     "legacyId": 2189,
     "canonicalMarketId": "SBLXrh"
   },
@@ -41,6 +41,7 @@
       "chain": "arbitrum",
       "address": "0x51fb4dddb816a84a936eedb2256fab441f71cefd",
       "deployedAt": "2025-06-25",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {

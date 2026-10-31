@@ -48,6 +48,7 @@
       "chain": "ethereum",
       "address": "0xe343167631d89b6ffc58b88d6b7fb0228795491d",
       "deployedAt": "2024-10-07",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -71,27 +72,32 @@
     {
       "chain": "solana",
       "address": "2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH",
-      "deployedAt": "2025-07-12"
+      "deployedAt": "2025-07-12",
+      "deployedAtBasis": "first-stored-day"
     },
     {
       "chain": "xlayer",
       "address": "0x4ae46a509f6b1d9056937ba4500cb143933d2dc8",
-      "deployedAt": "2025-09-17"
+      "deployedAt": "2025-09-17",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "ink",
       "address": "0xe343167631d89b6ffc58b88d6b7fb0228795491d",
-      "deployedAt": "2025-04-16"
+      "deployedAt": "2025-04-16",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "robinhood",
       "address": "0x5fc5360d0400a0fd4f2af552add042d716f1d168",
-      "deployedAt": "2026-05-05"
+      "deployedAt": "2026-05-05",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "arbitrum",
       "address": "0x004b506865409877c9fa29bfb1eba929984b9bbc",
-      "deployedAt": "2026-02-12"
+      "deployedAt": "2026-02-12",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "eti",
@@ -99,7 +105,9 @@
     },
     {
       "chain": "hyperliquid",
-      "address": null
+      "address": "0x9522133c663ba8c2a8a7b4f63dd2ac8dccce1505",
+      "deployedAt": "2025-11-27",
+      "deployedAtBasis": "first-stored-day"
     }
   ],
   "roles": [

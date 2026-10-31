@@ -7,7 +7,7 @@
     "canonicalMarketId": "TQQQ.d"
   },
   "exposure": {
-    "underlying": "nasdaq-100-index"
+    "underlying": "proshares-ultrapro-qqq"
   },
   "class": {
     "structure": "equity-basket",
@@ -27,7 +27,7 @@
     "attestationFrequency": "Random intervals (per whitepaper)"
   },
   "sources": {
-    "coingeckoId": "dinari-tqqq",
+    "coingeckoId": "proshares-ultrapro-qqq-dinari-tokenized-etf",
     "identifiers": [
       {
         "scheme": "isin",
@@ -54,6 +54,7 @@
       "chain": "arbitrum",
       "address": "0x63ad78a6e2db3322d16943fc65e71a0010571521",
       "deployedAt": "2024-12-05",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -72,19 +73,25 @@
     },
     {
       "chain": "ethereum",
-      "address": null
+      "address": "0xf7248e588f88655d4a5230c4cec2db2cf4438ff0",
+      "deployedAt": "2024-12-13",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "base",
-      "address": null
+      "address": "0x525dcb13b0caf29f30f93305a5cbd10314815408",
+      "deployedAt": "2024-12-05",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "blast",
-      "address": null
+      "address": "0x0b96517fb729c6f6c00ab15abb3d72ae708d5960",
+      "deployedAt": "2024-12-05",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "plume_mainnet",
-      "address": null
+      "address": "0xded14a6d46430cfd099be5c57f71dd3370ec056b"
     }
   ],
   "roles": [

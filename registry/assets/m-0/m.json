@@ -26,7 +26,7 @@
     "attestationFrequency": "Daily (validator-verified)"
   },
   "sources": {
-    "coingeckoId": "wrappedm-by-m0"
+    "coingeckoId": null
   },
   "about": {
     "description": "M is the base stablecoin of the M^0 network, a 'stablecoin infrastructure' model where authorized minters issue M against short-dated Treasury/cash-equivalent reserves held with custodians. M can be held and transferred permissionlessly on-chain, while issuance/redemption is conducted by approved institutions - enabling multiple distribution brands to build on the same reserve-backed base.",
@@ -47,12 +47,14 @@
       "chain": "ethereum",
       "address": "0x866a2bf4e572cbcf37d5071a7a58503bfb36be1b",
       "deployedAt": "2024-05-07",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     },
     {
       "chain": "monad",
       "address": "0x866a2bf4e572cbcf37d5071a7a58503bfb36be1b",
-      "deployedAt": "2026-04-13"
+      "deployedAt": "2026-04-13",
+      "deployedAtBasis": "contract-creation"
     }
   ],
   "roles": [

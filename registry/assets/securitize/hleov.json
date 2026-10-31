@@ -44,12 +44,14 @@
       "chain": "polygon",
       "address": "0x2ccf3aba74d2544805e4196487e74030e0952349",
       "deployedAt": "2023-03-08",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     },
     {
       "chain": "polygon",
       "address": "0x2b5802f1492369c93650fb8c7ec1d8573d40cbdb",
-      "deployedAt": "2023-03-08"
+      "deployedAt": "2023-03-08",
+      "deployedAtBasis": "contract-creation"
     }
   ],
   "roles": [

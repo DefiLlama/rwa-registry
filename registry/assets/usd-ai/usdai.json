@@ -47,6 +47,7 @@
       "chain": "arbitrum",
       "address": "0x0a1a1a107e45b7ced86833863f482bc5f4ed82ef",
       "deployedAt": "2025-05-13",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -59,6 +60,7 @@
       "chain": "plasma",
       "address": "0x0a1a1a107e45b7ced86833863f482bc5f4ed82ef",
       "deployedAt": "2025-09-11",
+      "deployedAtBasis": "contract-creation",
       "labels": [
         {
           "address": "0x0b2b2b2076d95dda7817e785989fe353fe955ef9",
@@ -70,6 +72,7 @@
       "chain": "ethereum",
       "address": "0x0a1a1a107e45b7ced86833863f482bc5f4ed82ef",
       "deployedAt": "2025-05-23",
+      "deployedAtBasis": "contract-creation",
       "labels": [
         {
           "address": "0x0b2b2b2076d95dda7817e785989fe353fe955ef9",
@@ -81,6 +84,7 @@
       "chain": "base",
       "address": "0x0a1a1a107e45b7ced86833863f482bc5f4ed82ef",
       "deployedAt": "2025-11-17",
+      "deployedAtBasis": "first-code",
       "labels": [
         {
           "address": "0x0b2b2b2076d95dda7817e785989fe353fe955ef9",

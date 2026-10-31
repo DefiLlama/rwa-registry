@@ -45,8 +45,9 @@
   "deployments": [
     {
       "chain": "ethereum",
-      "address": "0x7a56e1c57c7475ccf742a1832b028f0456652f97",
-      "deployedAt": "2024-06-27",
+      "address": "0x169e36f327caa83d004f5c2668ac25a1424c940d",
+      "deployedAt": "2026-05-15",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -58,7 +59,8 @@
     {
       "chain": "bsc",
       "address": "0xabe8e5cabe24cb36df9540088fd7ce1175b9bc52",
-      "deployedAt": "2024-12-23"
+      "deployedAt": "2024-12-23",
+      "deployedAtBasis": "first-code"
     }
   ],
   "roles": [

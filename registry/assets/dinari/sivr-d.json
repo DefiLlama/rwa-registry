@@ -27,7 +27,7 @@
     "attestationFrequency": "Random intervals (per whitepaper)"
   },
   "sources": {
-    "coingeckoId": "dinari-sivr",
+    "coingeckoId": "abrdn-physical-silver-etf-dinari-tokenized-etf",
     "identifiers": [
       {
         "scheme": "isin",
@@ -54,6 +54,7 @@
       "chain": "arbitrum",
       "address": "0x1adedd1fe0237858d151ec043b218fe6d2b9bf2a",
       "deployedAt": "2024-09-24",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -72,19 +73,27 @@
     },
     {
       "chain": "ethereum",
-      "address": null
+      "address": "0xe36fb561dcc177492da42a6ba5fd4a9d0987bfe2",
+      "deployedAt": "2024-09-24",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "base",
-      "address": null
+      "address": "0x2b98ba07619c3ee14854983a83fe1f0aecff19c8",
+      "deployedAt": "2024-10-01",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "blast",
-      "address": null
+      "address": "0x8d7e838f2feaec8b6d7445bfa699f68fe8e97718",
+      "deployedAt": "2024-10-01",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "plume_mainnet",
-      "address": null
+      "address": "0x005e97ce802737e60bc158d9375fa77f4386b376",
+      "deployedAt": "2025-04-26",
+      "deployedAtBasis": "first-code"
     }
   ],
   "roles": [

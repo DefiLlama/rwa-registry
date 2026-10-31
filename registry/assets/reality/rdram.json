@@ -2,7 +2,7 @@
   "identity": {
     "slug": "rdram",
     "symbol": "rDRAM",
-    "name": "Global X Memory & Storage Technology ETF (Reality Tokenized)",
+    "name": "Roundhill Memory ETF (Reality Tokenized)",
     "legacyId": 4706,
     "canonicalMarketId": "rDRAM"
   },
@@ -26,7 +26,7 @@
     "attestationFrequency": "Continuous"
   },
   "about": {
-    "description": "rDRAM is a tokenized share of the Global X Memory & Storage Technology ETF issued by Reality on Arbitrum, designed to track the economic performance of the Global X Memory & Storage Technology ETF (DRAM) at a 1:1 ratio. Each rDRAM is backed by a corresponding ETF share held through Alpaca Securities LLC, a FINRA-registered and SIPC-covered US broker-dealer, with reserves continuously verified by The Network Firm through Reality's Proof of Asset dashboard. Reality is a regulated RWA issuance platform within the Bitget ecosystem.",
+    "description": "rDRAM is a tokenized share of the Roundhill Memory ETF issued by Reality on Arbitrum, designed to track the economic performance of the Roundhill Memory ETF (DRAM) at a 1:1 ratio. Each rDRAM is backed by a corresponding ETF share held through Alpaca Securities LLC, a FINRA-registered and SIPC-covered US broker-dealer, with reserves continuously verified by The Network Firm through Reality's Proof of Asset dashboard. Reality is a regulated RWA issuance platform within the Bitget ecosystem.",
     "logo": "https://icons.llamao.fi/icons/rwa/rdram.png?w=48&h=48",
     "links": {
       "website": [
@@ -44,6 +44,7 @@
       "chain": "arbitrum",
       "address": "0xdaa61aa3d01ef52d71982b52b06dcc84479f8036",
       "deployedAt": "2026-05-29",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     }
   ],

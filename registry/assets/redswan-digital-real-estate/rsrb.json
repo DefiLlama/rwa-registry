@@ -41,12 +41,14 @@
       "chain": "stellar",
       "address": "CB7ID5RFSHXTXNGBRJBK4S2WQBD2WJQSNGY5FX6EYI7PITXEED5AI54W",
       "deployedAt": "2025-06-27",
+      "deployedAtBasis": "contract-created",
       "primary": true
     },
     {
       "chain": "stellar",
       "address": "CDTPLH4K7DCVCVEE5HQXAE2PFSW23SPYBKPMITWF3BYW3T32JZL5223J",
-      "deployedAt": "2025-06-27"
+      "deployedAt": "2025-06-27",
+      "deployedAtBasis": "contract-created"
     }
   ],
   "roles": [

@@ -7,7 +7,7 @@
     "canonicalMarketId": "JMKEx"
   },
   "exposure": {
-    "underlying": "jersey-mike-s-subs-inc-cl-a"
+    "underlying": "jersey-mike-s-subs-inc"
   },
   "class": {
     "structure": "stock-backed",
@@ -52,6 +52,7 @@
       "chain": "ethereum",
       "address": "0x97fcf4dd5275ab0de96420cbe36e4c947d5d8edf",
       "deployedAt": "2026-07-24",
+      "deployedAtBasis": "contract-creation",
       "labels": [
         {
           "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
@@ -63,6 +64,7 @@
       "chain": "solana",
       "address": "XsBeB5z2oA2fvaVim3rRbqHV4Cxxz9nNCjqoUtFooXY",
       "deployedAt": "2026-07-28",
+      "deployedAtBasis": "first-stored-day",
       "primary": true,
       "labels": [
         {
@@ -83,6 +85,7 @@
       "chain": "bsc",
       "address": "0x97fcf4dd5275ab0de96420cbe36e4c947d5d8edf",
       "deployedAt": "2026-07-24",
+      "deployedAtBasis": "first-code",
       "labels": [
         {
           "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
@@ -94,6 +97,7 @@
       "chain": "arbitrum",
       "address": "0x97fcf4dd5275ab0de96420cbe36e4c947d5d8edf",
       "deployedAt": "2026-07-24",
+      "deployedAtBasis": "contract-creation",
       "labels": [
         {
           "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
@@ -105,6 +109,7 @@
       "chain": "mantle",
       "address": "0x97fcf4dd5275ab0de96420cbe36e4c947d5d8edf",
       "deployedAt": "2026-07-24",
+      "deployedAtBasis": "contract-creation",
       "labels": [
         {
           "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
@@ -116,6 +121,7 @@
       "chain": "ink",
       "address": "0x97fcf4dd5275ab0de96420cbe36e4c947d5d8edf",
       "deployedAt": "2026-07-24",
+      "deployedAtBasis": "first-code",
       "labels": [
         {
           "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
@@ -127,6 +133,7 @@
       "chain": "ton",
       "address": "EQDTADTUzO_BdDcTdfKYiztl4ygtIOQbCEKr2Lqqa7JHx0l7",
       "deployedAt": "2026-07-24",
+      "deployedAtBasis": "first-transaction",
       "labels": [
         {
           "address": "UQCVLU9-UVFfm9Sct863y50nsF03Jr6uBn1tJm4n9g8QLbnS",
@@ -138,6 +145,7 @@
       "chain": "hyperliquid",
       "address": "0x97fcf4dd5275ab0de96420cbe36e4c947d5d8edf",
       "deployedAt": "2026-07-24",
+      "deployedAtBasis": "contract-creation",
       "labels": [
         {
           "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
@@ -149,6 +157,7 @@
       "chain": "optimism",
       "address": "0x97fcf4dd5275ab0de96420cbe36e4c947d5d8edf",
       "deployedAt": "2026-07-24",
+      "deployedAtBasis": "first-code",
       "labels": [
         {
           "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
@@ -160,6 +169,7 @@
       "chain": "xlayer",
       "address": "0x97fcf4dd5275ab0de96420cbe36e4c947d5d8edf",
       "deployedAt": "2026-07-24",
+      "deployedAtBasis": "first-code",
       "labels": [
         {
           "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
@@ -171,6 +181,7 @@
       "chain": "monad",
       "address": "0x97fcf4dd5275ab0de96420cbe36e4c947d5d8edf",
       "deployedAt": "2026-09-30",
+      "deployedAtBasis": "contract-creation",
       "labels": [
         {
           "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",

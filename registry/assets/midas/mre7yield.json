@@ -26,6 +26,7 @@
     "attestationFrequency": "Continuous (Midas Attestation Engine, Chainlink + vlayer)"
   },
   "about": {
+    "description": "The mRe7YIELD token gives token-holders exposure to Re7 Labs' delta-neutral DeFi yield strategy.",
     "logo": "https://icons.llamao.fi/icons/rwa/mre7yield.png?w=48&h=48",
     "links": {
       "website": [
@@ -43,12 +44,14 @@
       "chain": "ethereum",
       "address": "0x87c9053c819bb28e0d73d33059e1b3da80afb0cf",
       "deployedAt": "2025-02-06",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     },
     {
       "chain": "etlk",
       "address": "0x733d504435a49fc8c4e9759e756c2846c92f0160",
-      "deployedAt": "2026-06-18"
+      "deployedAt": "2025-08-06",
+      "deployedAtBasis": "contract-creation"
     }
   ],
   "roles": [

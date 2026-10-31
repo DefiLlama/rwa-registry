@@ -52,6 +52,7 @@
       "chain": "ethereum",
       "address": "0xc639a8265471dddcb2d51521fdfcfd395d00c55f",
       "deployedAt": "2026-06-25",
+      "deployedAtBasis": "contract-creation",
       "labels": [
         {
           "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
@@ -62,7 +63,8 @@
     {
       "chain": "solana",
       "address": "XsmhtZrbnheSvztwRW82ZqZqMjaRnAQqyWERFh1A4Kr",
-      "deployedAt": "2026-08-10",
+      "deployedAt": "2026-06-25",
+      "deployedAtBasis": "first-signature",
       "primary": true,
       "labels": [
         {
@@ -83,6 +85,7 @@
       "chain": "bsc",
       "address": "0xc639a8265471dddcb2d51521fdfcfd395d00c55f",
       "deployedAt": "2026-06-25",
+      "deployedAtBasis": "first-code",
       "labels": [
         {
           "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
@@ -94,6 +97,7 @@
       "chain": "arbitrum",
       "address": "0xc639a8265471dddcb2d51521fdfcfd395d00c55f",
       "deployedAt": "2026-06-25",
+      "deployedAtBasis": "contract-creation",
       "labels": [
         {
           "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
@@ -105,6 +109,7 @@
       "chain": "mantle",
       "address": "0xc639a8265471dddcb2d51521fdfcfd395d00c55f",
       "deployedAt": "2026-06-29",
+      "deployedAtBasis": "contract-creation",
       "labels": [
         {
           "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
@@ -116,6 +121,7 @@
       "chain": "ink",
       "address": "0xc639a8265471dddcb2d51521fdfcfd395d00c55f",
       "deployedAt": "2026-06-25",
+      "deployedAtBasis": "first-code",
       "labels": [
         {
           "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
@@ -127,6 +133,7 @@
       "chain": "ton",
       "address": "EQDo4zLWjZpitVC5GjElGjyjhYbgnankn-Ce4Yq2-xalafdF",
       "deployedAt": "2026-06-25",
+      "deployedAtBasis": "first-transaction",
       "labels": [
         {
           "address": "UQCVLU9-UVFfm9Sct863y50nsF03Jr6uBn1tJm4n9g8QLbnS",
@@ -138,6 +145,7 @@
       "chain": "hyperliquid",
       "address": "0xc639a8265471dddcb2d51521fdfcfd395d00c55f",
       "deployedAt": "2026-06-25",
+      "deployedAtBasis": "contract-creation",
       "labels": [
         {
           "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
@@ -149,6 +157,7 @@
       "chain": "optimism",
       "address": "0xc639a8265471dddcb2d51521fdfcfd395d00c55f",
       "deployedAt": "2026-06-25",
+      "deployedAtBasis": "first-code",
       "labels": [
         {
           "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
@@ -160,6 +169,7 @@
       "chain": "xlayer",
       "address": "0xc639a8265471dddcb2d51521fdfcfd395d00c55f",
       "deployedAt": "2026-06-25",
+      "deployedAtBasis": "first-code",
       "labels": [
         {
           "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
@@ -171,6 +181,7 @@
       "chain": "monad",
       "address": "0xc639a8265471dddcb2d51521fdfcfd395d00c55f",
       "deployedAt": "2026-10-01",
+      "deployedAtBasis": "contract-creation",
       "labels": [
         {
           "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",

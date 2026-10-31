@@ -47,22 +47,26 @@
       "chain": "ethereum",
       "address": "0x015c477a4e2881c4b3bb8999f59ee4a04e812344",
       "deployedAt": "2026-08-14",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     },
     {
       "chain": "avax",
       "address": "0xf5fa39a16449b1ee07aa52ae79c6b00567c59f83",
-      "deployedAt": "2026-08-14"
+      "deployedAt": "2026-08-14",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "solana",
       "address": "EuTtCw35R3BJnTmXCREctjCU9XTkZXsQjqnoNg7NwdnZ",
-      "deployedAt": "2026-08-14"
+      "deployedAt": "2026-08-14",
+      "deployedAtBasis": "first-signature"
     },
     {
       "chain": "sui",
       "address": "0xbe8a78c90705d70c57fb4243f72873a303648e25e7b8d76d328fcae368df7b8d::hinc::Hinc",
-      "deployedAt": "2026-09-05"
+      "deployedAt": "2026-08-14",
+      "deployedAtBasis": "package-published"
     }
   ],
   "roles": [

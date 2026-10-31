@@ -47,6 +47,7 @@
       "chain": "stellar",
       "address": "CAC743NYRBMS76L2DCPAXZTOEF6EJPKPVEC5OX2SXY7HOWNXISSLUE2C",
       "deployedAt": "2025-09-29",
+      "deployedAtBasis": "contract-created",
       "primary": true,
       "labels": [
         {
@@ -59,6 +60,7 @@
       "chain": "solana",
       "address": "BNgsQdjfWmjoy3cw8T3VXWswHfgCzEMyQzUno8gmzmRC",
       "deployedAt": "2025-08-21",
+      "deployedAtBasis": "first-signature",
       "labels": [
         {
           "address": "6ggkihJ8AwV1b37VMvQ9sHvpcsQ8xGHWcUFQ9p6LaCP2",
@@ -70,6 +72,7 @@
       "chain": "ethereum",
       "address": "0x90a1717e0dabe37693f79afe43ae236dc3b65957",
       "deployedAt": "2025-12-09",
+      "deployedAtBasis": "contract-creation",
       "labels": [
         {
           "address": "0xcbd3835dc09052cc046f0e647d85b2112de8b7e7",

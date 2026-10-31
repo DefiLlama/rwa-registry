@@ -43,6 +43,7 @@
       "chain": "ethereum",
       "address": "0xe4a6f23fb9e00fca037aa0ea0a6954de0a6c53bf",
       "deployedAt": "2022-10-13",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -54,7 +55,8 @@
     {
       "chain": "polygon",
       "address": "0xa6da8c8999c094432c77e7d318951d34019af24b",
-      "deployedAt": "2022-10-13"
+      "deployedAt": "2022-10-13",
+      "deployedAtBasis": "contract-creation"
     }
   ],
   "roles": [

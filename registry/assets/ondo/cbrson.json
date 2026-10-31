@@ -25,14 +25,6 @@
     "yieldBearing": false,
     "attestationFrequency": "Daily"
   },
-  "sources": {
-    "identifiers": [
-      {
-        "scheme": "isin",
-        "value": "US15675D1037"
-      }
-    ]
-  },
   "about": {
     "description": "CBRSon is an Ondo Global Markets tokenized stock exposure designed to provide economic exposure to Cerebras Systems in an onchain format. The token is designed to be fully backed by the underlying publicly traded asset, together with cash in transit, held with regulated custodial broker-dealers. Holdings attestations and ongoing reporting are surfaced through Ondo trust and transparency materials and the product asset page. Tokenholders are not shareholders of the underlying and do not receive shareholder voting rights. Dividend value is reflected through total return mechanics. Ondo Global Markets adjusts the token to account for dividends net of withholding taxes and reinvests that value into additional shares, increasing the shares per token over time instead of paying cash dividends directly to tokenholders.",
     "logo": "https://icons.llamao.fi/icons/rwa/cbrs.png?w=48&h=48",
@@ -52,17 +44,20 @@
       "chain": "ethereum",
       "address": "0x61882bb63af8e6a39531175cdfde1fcd98346503",
       "deployedAt": "2026-05-30",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     },
     {
       "chain": "bsc",
       "address": "0x441a4d4fc23f17f4cf23e3d60f12d2bd6f176728",
-      "deployedAt": "2026-05-30"
+      "deployedAt": "2026-05-30",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "solana",
       "address": "c7KEKjzaTQYpTrHM2db8yq3bikPpcXrHgBV8Qcgondo",
-      "deployedAt": "2026-05-29"
+      "deployedAt": "2026-05-29",
+      "deployedAtBasis": "first-signature"
     }
   ],
   "roles": [

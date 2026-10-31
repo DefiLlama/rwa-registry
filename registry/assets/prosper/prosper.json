@@ -25,7 +25,7 @@
     "yieldBearing": false
   },
   "sources": {
-    "coingeckoId": "prosper"
+    "coingeckoId": "prosper-2"
   },
   "about": {
     "description": "PROSPER is the ecosystem token for a protocol focused on tokenizing institutional-grade Bitcoin mining hashrate and related treasury dynamics. The project aims to turn mining output and infrastructure economics into tokenized exposures that can be staked and used in DeFi, effectively wrapping a real-world productive asset stream into a programmable format. PROSPER coordinates incentives and governance across the hashrate-linked products and ecosystem expansion.",
@@ -46,16 +46,20 @@
       "chain": "bsc",
       "address": "0x915424ac489433130d92b04096f3b96c82e92a9d",
       "deployedAt": "2025-01-08",
+      "deployedAtBasis": "first-code",
       "primary": true
     },
     {
       "chain": "base",
       "address": "0x915424ac489433130d92b04096f3b96c82e92a9d",
-      "deployedAt": "2025-03-03"
+      "deployedAt": "2025-03-03",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "ethereum",
-      "address": null
+      "address": "0x915424ac489433130d92b04096f3b96c82e92a9d",
+      "deployedAt": "2025-01-08",
+      "deployedAtBasis": "contract-creation"
     }
   ],
   "roles": [

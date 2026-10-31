@@ -41,28 +41,33 @@
     {
       "chain": "arbitrum",
       "address": "0x0000206329b97db379d5e1bf586bbdb969c63274",
-      "deployedAt": "2024-01-10"
+      "deployedAt": "2024-01-10",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "ethereum",
       "address": "0x0000206329b97db379d5e1bf586bbdb969c63274",
       "deployedAt": "2024-01-10",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     },
     {
       "chain": "optimism",
       "address": "0x0000206329b97db379d5e1bf586bbdb969c63274",
-      "deployedAt": "2024-01-10"
+      "deployedAt": "2024-01-10",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "polygon",
       "address": "0x0000206329b97db379d5e1bf586bbdb969c63274",
-      "deployedAt": "2024-01-10"
+      "deployedAt": "2024-01-10",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "xdai",
       "address": "0x0000206329b97db379d5e1bf586bbdb969c63274",
-      "deployedAt": "2024-01-10"
+      "deployedAt": "2024-01-10",
+      "deployedAtBasis": "first-code"
     }
   ],
   "roles": [

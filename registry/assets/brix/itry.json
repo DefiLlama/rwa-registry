@@ -47,12 +47,14 @@
       "chain": "ethereum",
       "address": "0xb492b4afd9658093694cf9452d5c272e8230f3b0",
       "deployedAt": "2026-03-12",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     },
     {
       "chain": "megaeth",
       "address": "0x996ce957408804fec19237d866799d9c7076e48c",
-      "deployedAt": "2026-04-21"
+      "deployedAt": "2026-04-21",
+      "deployedAtBasis": "contract-creation"
     }
   ],
   "roles": [

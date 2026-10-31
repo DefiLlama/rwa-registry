@@ -53,17 +53,20 @@
       "chain": "polygon",
       "address": "0xc683182ff95797a14bc4d55a8f41525f37aca3c7",
       "deployedAt": "2025-02-17",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     },
     {
       "chain": "ethereum",
       "address": "0xbe9517f4e29f9baceb831a67679f1ffec0ac2bde",
-      "deployedAt": "2025-02-17"
+      "deployedAt": "2025-02-17",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "base",
       "address": "0xe1c4bc8aa4046bb35896f6bbb7a464c4996c9208",
-      "deployedAt": "2025-02-17"
+      "deployedAt": "2025-02-17",
+      "deployedAtBasis": "first-code"
     }
   ],
   "roles": [

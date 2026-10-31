@@ -44,6 +44,7 @@
       "chain": "ethereum",
       "address": "0xb9c2321bb7d0db468f570d10a424d1cc8efd696c",
       "deployedAt": "2025-04-22",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -55,56 +56,66 @@
     {
       "chain": "arbitrum",
       "address": "0x40461291347e1ecbb09499f3371d3f17f10d7159",
-      "deployedAt": "2025-04-22"
+      "deployedAt": "2025-04-22",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "ton",
       "address": "EQA1R_LuQCLHlMgOo1S4G7Y7W1cd0FrAkbA10Zq7rddKxi9k",
-      "deployedAt": "2025-04-22"
+      "deployedAt": "2025-04-22",
+      "deployedAtBasis": "first-transaction"
     },
     {
       "chain": "polygon",
       "address": "0xf1815bd50389c46847f0bda824ec8da914045d14",
-      "deployedAt": "2025-04-22"
+      "deployedAt": "2025-04-22",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "plasma",
       "address": "0x1b64b9025eebb9a6239575df9ea4b9ac46d4d193",
-      "deployedAt": "2025-09-11"
+      "deployedAt": "2025-09-11",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "ink",
       "address": "0xf50258d3c1dd88946c567920b986a12e65b50dac",
-      "deployedAt": "2025-09-02"
+      "deployedAt": "2025-09-02",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "avax",
       "address": "0x2775d5105276781b4b85ba6ea6a6653beed1dd32",
-      "deployedAt": "2025-05-21"
+      "deployedAt": "2025-05-21",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "celo",
       "address": "0xaf37e8b6c9ed7f6318979f56fc287d76c30847ff",
-      "deployedAt": "2025-09-13"
+      "deployedAt": "2025-09-13",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "solana",
       "address": "AymATz4TCL9sWNEEV9Kvyz45CHVhDZ6kUgjTJPzLpU9P",
-      "deployedAt": "2026-04-15"
+      "deployedAt": "2026-04-16",
+      "deployedAtBasis": "first-stored-day"
     },
     {
       "chain": "monad",
       "address": "0x01bff41798a0bcf287b996046ca68b395dbc1071",
-      "deployedAt": "2025-10-27"
+      "deployedAt": "2025-10-27",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "stable",
       "address": "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb",
-      "deployedAt": "2025-10-30"
+      "deployedAt": "2025-10-30",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "hyperliquid",
-      "address": null
+      "address": "0xf4d9235269a96aadafc9adae454a0618ebe37949"
     }
   ],
   "roles": [

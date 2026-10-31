@@ -44,6 +44,7 @@
       "chain": "arbitrum",
       "address": "0x498bf2b1e120fed3ad3d42ea2165e9b73f99c1e5",
       "deployedAt": "2023-07-07",
+      "deployedAtBasis": "contract-creation",
       "labels": [
         {
           "address": "0xd4f94d0aaa640bbb72b5eec2d85f6d114d81a88e",
@@ -55,6 +56,7 @@
       "chain": "base",
       "address": "0x417ac0e078398c154edfadd9ef675d30be60af93",
       "deployedAt": "2023-08-18",
+      "deployedAtBasis": "first-code",
       "labels": [
         {
           "address": "0xe8269b33e47761f552e1a3070119560d5fa8bbd6",
@@ -66,6 +68,7 @@
       "chain": "bsc",
       "address": "0xe2fb3f127f5450dee44afe054385d74c392bdef4",
       "deployedAt": "2024-02-19",
+      "deployedAtBasis": "first-code",
       "labels": [
         {
           "address": "0x98b4029cabef7fd525a36b0bf8555ec1d42ec0b6",
@@ -76,12 +79,14 @@
     {
       "chain": "era",
       "address": "0x43cd37cc4b9ec54833c8ac362dd55e58bfd62b86",
-      "deployedAt": "2023-06-22"
+      "deployedAt": "2023-06-22",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "ethereum",
-      "address": "0xaa798bf5ec09b6e3bc059ea4d36d4ca53e063ef7",
-      "deployedAt": "2023-07-14",
+      "address": "0xf939e0a03fb07f59a73314e73794be0e57ac1b4e",
+      "deployedAt": "2023-05-14",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -97,7 +102,8 @@
     {
       "chain": "fantom",
       "address": "0xaa798bf5ec09b6e3bc059ea4d36d4ca53e063ef7",
-      "deployedAt": "2025-01-01",
+      "deployedAt": "2023-07-14",
+      "deployedAtBasis": "first-code",
       "labels": [
         {
           "address": "0x2b039565b2b7a1a9192d4847fbd33b25b836b950",
@@ -109,6 +115,7 @@
       "chain": "fraxtal",
       "address": "0xb102f7efa0d5de071a8d37b3548e1c7cb148caf3",
       "deployedAt": "2024-03-05",
+      "deployedAtBasis": "contract-creation",
       "labels": [
         {
           "address": "0x8b3efbefa6ed222077455d6f0dcda3bf4f3f57a6",
@@ -120,6 +127,7 @@
       "chain": "mantle",
       "address": "0x0994206dfe8de6ec6920ff4d779b0d950605fb53",
       "deployedAt": "2024-05-31",
+      "deployedAtBasis": "contract-creation",
       "labels": [
         {
           "address": "0xf3a431008396df8a8b2df492c913706bdb0874ef",
@@ -131,6 +139,7 @@
       "chain": "optimism",
       "address": "0xc52d7f23a2e460248db6ee192cb23dd12bddcbf6",
       "deployedAt": "2023-07-27",
+      "deployedAtBasis": "first-code",
       "labels": [
         {
           "address": "0xbf7e49483881c76487b0989cd7d9a8239b20ca41",
@@ -142,6 +151,7 @@
       "chain": "polygon",
       "address": "0xc4ce1d6f5d98d65ee25cf85e9f2e9dcfee6cb5d6",
       "deployedAt": "2024-01-30",
+      "deployedAtBasis": "contract-creation",
       "labels": [
         {
           "address": "0x774d1dba98cfbd1f2bc3a1f59c494125e07c48f9",
@@ -151,18 +161,19 @@
     },
     {
       "chain": "sophon",
-      "address": "0x7580d634b8cb1e9b0d9d9880b73207ae33ddcd60",
-      "deployedAt": null
+      "address": null
     },
     {
       "chain": "taiko",
       "address": "0xc8f4518ed4bab9a972808a493107926ce8237068",
-      "deployedAt": "2024-11-19"
+      "deployedAt": "2024-11-19",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "xdai",
       "address": "0xabef652195f98a91e490f047a5006b71c85f058d",
       "deployedAt": "2023-09-27",
+      "deployedAtBasis": "first-code",
       "labels": [
         {
           "address": "0xb055ebbacc8eefc166c169e9ce2886d0406ab49b",
@@ -176,7 +187,9 @@
     },
     {
       "chain": "waves",
-      "address": "5ga8ejdr5pobwlc2xaq6f6pagcm5hwvnhuyycgsnn4jr"
+      "address": "5Ga8eJdR5PoBWLC2xaq6F6PAGCM5hWVNhuyycgsNn4jR",
+      "deployedAt": "2023-12-16",
+      "deployedAtBasis": "first-stored-day"
     }
   ],
   "roles": [

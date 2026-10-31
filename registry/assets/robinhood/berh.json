@@ -23,14 +23,6 @@
     "kycToTransferHold": true,
     "yieldBearing": false
   },
-  "sources": {
-    "identifiers": [
-      {
-        "scheme": "isin",
-        "value": "US0937121079"
-      }
-    ]
-  },
   "about": {
     "description": "BE is a tokenized tracker certificate issued by Robinhood Markets, Inc. through its European subsidiary Robinhood Europe UAB, deployed as an ERC-20 token on Arbitrum One. It is designed to provide synthetic price exposure to BE rather than direct share ownership, operating under MiFID II regulatory oversight. The token is available to EU/EEA customers with 24/5 commission-free trading, and on-chain pricing is supplied through Chainlink oracle feeds.",
     "logo": "https://icons.llamao.fi/icons/rwa/be.png?w=48&h=48",
@@ -50,6 +42,7 @@
       "chain": "arbitrum",
       "address": "0x9db905db6201d14df2f8004aa8480a4b0fe1a4ad",
       "deployedAt": "2025-09-05",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -65,7 +58,8 @@
     {
       "chain": "robinhood",
       "address": "0x822cc93ffd030293e9842c30bbd678f530701867",
-      "deployedAt": "2026-06-10"
+      "deployedAt": "2026-06-10",
+      "deployedAtBasis": "first-code"
     }
   ],
   "roles": [

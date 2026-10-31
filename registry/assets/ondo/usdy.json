@@ -60,6 +60,7 @@
       "chain": "ethereum",
       "address": "0x96f6ef951840721adbf46ac996b59e0235cb985c",
       "deployedAt": "2023-07-11",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -83,62 +84,74 @@
     {
       "chain": "mantle",
       "address": "0x5be26527e817998a7206475496fde1e68957c5a6",
-      "deployedAt": "2023-10-24"
+      "deployedAt": "2023-10-24",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "solana",
       "address": "A1KLoBrKBde8Ty9qtNQUtq3C2ortoC3u7twggz7sEto6",
-      "deployedAt": "2023-12-14"
+      "deployedAt": "2023-11-29",
+      "deployedAtBasis": "metadata-created"
     },
     {
       "chain": "sui",
       "address": "0x960b531667636f39e85867775f52f6b1f220a058c4de786905bdf761e06a56bb::usdy::USDY",
-      "deployedAt": "2024-05-22"
+      "deployedAt": "2024-02-26",
+      "deployedAtBasis": "package-published"
     },
     {
       "chain": "aptos",
       "address": "0xcfea864b32833f157f042618bd845145256b1bf4c0da34a7013b76e42daa53cc::usdy::USDY",
-      "deployedAt": "2024-05-22"
+      "deployedAt": "2024-05-22",
+      "deployedAtBasis": "first-stored-day"
     },
     {
       "chain": "noble",
       "address": "ausdy",
-      "deployedAt": "2024-08-29"
+      "deployedAt": "2024-08-29",
+      "deployedAtBasis": "first-stored-day"
     },
     {
       "chain": "arbitrum",
       "address": "0x35e050d3c0ec2d29d269a8ecea763a183bdf9a9d",
-      "deployedAt": "2024-08-07"
+      "deployedAt": "2024-08-07",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "stellar",
       "address": "USDY-GAJMPX5NBOG6TQFPQGRABJEEB2YE7RFRLUKJDZAZGAD5GFX4J7TADAZ6",
-      "deployedAt": "2025-08-28"
+      "deployedAt": "2025-08-28",
+      "deployedAtBasis": "asset-created"
     },
     {
       "chain": "plume_mainnet",
       "address": "0xd2b65e851be3d80d3c2ce795eb2e78f16cb088b2",
-      "deployedAt": "2025-12-29"
+      "deployedAt": "2025-12-29",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "sei",
       "address": "0x54cd901491aef397084453f4372b93c33260e2a6",
-      "deployedAt": "2025-12-29"
+      "deployedAt": "2025-12-29",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "osmosis",
       "address": "ibc/23104D411A6EB6031FA92FB75F227422B84989969E91DCAD56A535DD7FF0A373",
-      "deployedAt": "2024-09-15"
+      "deployedAt": "2024-09-15",
+      "deployedAtBasis": "first-stored-day"
     },
     {
       "chain": "bsc",
       "address": "0x608593d17a2decbbc4399e4185be4922f97ed32e",
-      "deployedAt": "2026-06-23"
+      "deployedAt": "2026-06-23",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "tempo",
       "address": "0x20c000000000000000000000d479b9f6ec0ceff9",
-      "deployedAt": "2026-08-18"
+      "deployedAt": "2026-08-18",
+      "deployedAtBasis": "first-code"
     }
   ],
   "roles": [

@@ -45,12 +45,14 @@
       "chain": "sei",
       "address": "0x372b2dc06478aa2c8182eee0f12ea0e9a15e2913",
       "deployedAt": "2024-10-03",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     },
     {
       "chain": "ethereum",
       "address": "0x372b2dc06478aa2c8182eee0f12ea0e9a15e2913",
-      "deployedAt": "2026-02-01"
+      "deployedAt": "2026-02-01",
+      "deployedAtBasis": "contract-creation"
     }
   ],
   "roles": [

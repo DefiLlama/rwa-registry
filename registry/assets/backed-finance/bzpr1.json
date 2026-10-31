@@ -54,6 +54,7 @@
       "chain": "ethereum",
       "address": "0xade6057fcafa57d6d51ffa341c64ce4814995995",
       "deployedAt": "2023-11-03",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -90,6 +91,7 @@
       "chain": "xdai",
       "address": "0xade6057fcafa57d6d51ffa341c64ce4814995995",
       "deployedAt": "2023-11-03",
+      "deployedAtBasis": "first-code",
       "labels": [
         {
           "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
@@ -109,6 +111,7 @@
       "chain": "polygon",
       "address": "0xade6057fcafa57d6d51ffa341c64ce4814995995",
       "deployedAt": "2023-11-03",
+      "deployedAtBasis": "contract-creation",
       "labels": [
         {
           "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
@@ -120,6 +123,7 @@
       "chain": "arbitrum",
       "address": "0xade6057fcafa57d6d51ffa341c64ce4814995995",
       "deployedAt": "2023-11-03",
+      "deployedAtBasis": "contract-creation",
       "labels": [
         {
           "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
@@ -131,6 +135,7 @@
       "chain": "avax",
       "address": "0xade6057fcafa57d6d51ffa341c64ce4814995995",
       "deployedAt": "2023-11-03",
+      "deployedAtBasis": "first-code",
       "labels": [
         {
           "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
@@ -141,17 +146,20 @@
     {
       "chain": "fantom",
       "address": "0xade6057fcafa57d6d51ffa341c64ce4814995995",
-      "deployedAt": null
+      "deployedAt": "2023-11-03",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "bsc",
       "address": "0xade6057fcafa57d6d51ffa341c64ce4814995995",
-      "deployedAt": "2023-11-03"
+      "deployedAt": "2023-11-03",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "base",
       "address": "0xade6057fcafa57d6d51ffa341c64ce4814995995",
       "deployedAt": "2023-11-03",
+      "deployedAtBasis": "first-code",
       "labels": [
         {
           "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",

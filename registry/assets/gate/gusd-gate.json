@@ -43,12 +43,14 @@
     {
       "chain": "abstract",
       "address": "0x12d3e796d1f625eb6131aeb670bcd210bbb0f903",
-      "deployedAt": "2025-12-09"
+      "deployedAt": "2025-12-09",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "ethereum",
-      "address": "0x843a497b06147b2c3b648bd2cace427139e313e2",
-      "deployedAt": "2025-09-25",
+      "address": "0xaf6186b3521b60e27396b5d23b48abc34bf585c5",
+      "deployedAt": "2025-08-28",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -60,7 +62,8 @@
     {
       "chain": "gatelayer",
       "address": "0xece3f96198a5e6b9b2278edbea8d548f66050d1c",
-      "deployedAt": "2025-09-25"
+      "deployedAt": "2025-09-25",
+      "deployedAtBasis": "first-code"
     }
   ],
   "roles": [

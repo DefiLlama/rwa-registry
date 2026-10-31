@@ -42,7 +42,8 @@
     {
       "chain": "sui",
       "address": "0x820dd6ead8b56abb89a76cfc8e676703876a906a2e4dddde6c18c8052e5fd194::mrcusd::MRCUSD",
-      "deployedAt": null,
+      "deployedAt": "2025-12-15",
+      "deployedAtBasis": "package-published",
       "primary": true
     }
   ],

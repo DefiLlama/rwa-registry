@@ -52,17 +52,20 @@
       "chain": "ethereum",
       "address": "0xf252c5bd43907a6cab079e990845a37a7c5730d9",
       "deployedAt": "2026-04-27",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     },
     {
       "chain": "bsc",
       "address": "0x50bf2924cee59737ead76e881643ed8569bae6e8",
-      "deployedAt": "2026-04-27"
+      "deployedAt": "2026-04-27",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "pharos",
       "address": "0x85f51213a6c3f2566af519d296bb75ad4ec6d234",
-      "deployedAt": "2026-03-19"
+      "deployedAt": "2026-03-19",
+      "deployedAtBasis": "first-code"
     }
   ],
   "roles": [

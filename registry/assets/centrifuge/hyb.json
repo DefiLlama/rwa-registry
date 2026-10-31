@@ -42,22 +42,26 @@
       "chain": "ethereum",
       "address": "0x4827c7ecce4f07adfe44a97165f06a199e7d2505",
       "deployedAt": "2026-06-16",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     },
     {
       "chain": "pharos",
       "address": "0x4827c7ecce4f07adfe44a97165f06a199e7d2505",
-      "deployedAt": "2026-06-16"
+      "deployedAt": "2026-06-16",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "xlayer",
       "address": "0x4827c7ecce4f07adfe44a97165f06a199e7d2505",
-      "deployedAt": "2026-08-12"
+      "deployedAt": "2026-08-12",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "avax",
       "address": "0x4827c7ecce4f07adfe44a97165f06a199e7d2505",
-      "deployedAt": "2026-06-19"
+      "deployedAt": "2026-06-19",
+      "deployedAtBasis": "first-code"
     }
   ],
   "roles": [

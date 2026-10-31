@@ -42,12 +42,14 @@
     {
       "chain": "polygon",
       "address": "0x04082b283818d9d0dd9ee8742892eee5cc396441",
-      "deployedAt": "2026-01-23"
+      "deployedAt": "2026-01-23",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "base",
       "address": "0xf5ca55f3ea5bcd180aea6df9e05a0e63a66f5608",
       "deployedAt": "2026-02-04",
+      "deployedAtBasis": "first-code",
       "primary": true
     }
   ],

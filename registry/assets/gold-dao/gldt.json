@@ -46,6 +46,7 @@
       "chain": "ethereum",
       "address": "0x86856814e74456893cfc8946bedcbb472b5fa856",
       "deployedAt": "2025-07-09",
+      "deployedAtBasis": "contract-creation",
       "labels": [
         {
           "address": "0x533fa0db425fe4f12e3f5381edc0593c7c477580",
@@ -56,12 +57,14 @@
     {
       "chain": "arbitrum",
       "address": "0x86856814e74456893cfc8946bedcbb472b5fa856",
-      "deployedAt": "2025-07-09"
+      "deployedAt": "2025-07-09",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "base",
       "address": "0x86856814e74456893cfc8946bedcbb472b5fa856",
       "deployedAt": "2025-07-09",
+      "deployedAtBasis": "first-code",
       "labels": [
         {
           "address": "0x1ed9e8751c37d75c16d13a4c87f8c5c04c9f809f",
@@ -81,6 +84,7 @@
       "chain": "icp",
       "address": "6c7su-kiaaa-aaaar-qaira-cai",
       "deployedAt": "2024-10-29",
+      "deployedAtBasis": "first-transaction",
       "primary": true
     }
   ],

@@ -7,7 +7,7 @@
     "canonicalMarketId": "SOXLrh"
   },
   "exposure": {
-    "underlying": "direxion-daily-semiconductor-bull-3x-etf"
+    "underlying": "direxion-daily-semiconductor-bull-3x-shares"
   },
   "class": {
     "structure": "equity-basket",
@@ -41,6 +41,7 @@
       "chain": "arbitrum",
       "address": "0xbde7bf41c3e467a1a84c1eacedff4b078a1f46d3",
       "deployedAt": "2025-06-23",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {

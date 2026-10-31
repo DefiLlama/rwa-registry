@@ -43,17 +43,20 @@
       "chain": "ethereum",
       "address": "0xc5a9f6edb48160ed9d9fb156a23c39d7140457ee",
       "deployedAt": "2026-07-24",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     },
     {
       "chain": "xlayer",
       "address": "0xc5a9f6edb48160ed9d9fb156a23c39d7140457ee",
-      "deployedAt": "2026-08-12"
+      "deployedAt": "2026-08-12",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "optimism",
       "address": "0xc5a9f6edb48160ed9d9fb156a23c39d7140457ee",
-      "deployedAt": "2026-07-24"
+      "deployedAt": "2026-07-24",
+      "deployedAtBasis": "first-code"
     }
   ],
   "roles": [

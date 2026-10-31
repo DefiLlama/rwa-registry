@@ -43,12 +43,14 @@
     {
       "chain": "arbitrum",
       "address": "0xb4818bb69478730ef4e33cc068dd94278e2766cb",
-      "deployedAt": "2025-04-27"
+      "deployedAt": "2025-04-27",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "base",
       "address": "0x70654aad8b7734dc319d0c3608ec7b32e03fa162",
-      "deployedAt": "2025-04-12"
+      "deployedAt": "2025-04-12",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "bevm",
@@ -63,58 +65,69 @@
     {
       "chain": "btr",
       "address": "0xba50ddac6b2f5482ca064efac621e0c7c0f6a783",
-      "deployedAt": "2024-11-19"
+      "deployedAt": "2024-11-19",
+      "deployedAtBasis": "first-stored-day"
     },
     {
       "chain": "btr",
       "address": "0xa1e63cb2ce698cfd3c2ac6704813e3b870fedadf",
-      "deployedAt": "2024-11-19"
+      "deployedAt": "2024-11-19",
+      "deployedAtBasis": "first-stored-day"
     },
     {
       "chain": "bob",
       "address": "0x78fea795cbfcc5ffd6fb5b845a4f53d25c283bdb",
-      "deployedAt": "2024-07-14"
+      "deployedAt": "2024-07-14",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "bob",
       "address": "0xecf21b335b41f9d5a89f6186a99c19a3c467871f",
-      "deployedAt": "2025-02-07"
+      "deployedAt": "2025-02-07",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "bsc",
       "address": "0xb4818bb69478730ef4e33cc068dd94278e2766cb",
       "deployedAt": "2025-02-21",
+      "deployedAtBasis": "first-code",
       "primary": true
     },
     {
       "chain": "bsquared",
       "address": "0x8dd8b12d55c73c08294664a5915475ed1c8b1f6f",
-      "deployedAt": "2024-11-19"
+      "deployedAt": "2024-11-19",
+      "deployedAtBasis": "first-stored-day"
     },
     {
       "chain": "bsquared",
       "address": "0x62b4b8f5a03e40b9daaf95c7a6214969406e28c3",
-      "deployedAt": "2024-11-19"
+      "deployedAt": "2024-11-19",
+      "deployedAtBasis": "first-stored-day"
     },
     {
       "chain": "ethereum",
       "address": "0x1958853a8be062dc4f401750eb233f5850f0d0d2",
-      "deployedAt": "2025-08-20"
+      "deployedAt": "2025-08-20",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "hemi",
       "address": "0xb4818bb69478730ef4e33cc068dd94278e2766cb",
-      "deployedAt": "2025-02-21"
+      "deployedAt": "2025-02-21",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "sonic",
       "address": "0xb4818bb69478730ef4e33cc068dd94278e2766cb",
-      "deployedAt": "2025-06-10"
+      "deployedAt": "2025-06-10",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "xlayer",
       "address": "0xcef6c74ce218c0e1f48ca2430635d0a65cd3737a",
-      "deployedAt": "2025-08-27"
+      "deployedAt": "2025-08-27",
+      "deployedAtBasis": "first-code"
     }
   ],
   "roles": [

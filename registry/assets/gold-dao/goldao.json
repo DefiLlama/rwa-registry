@@ -46,7 +46,8 @@
     {
       "chain": "icp",
       "address": "tyyy3-4aaaa-aaaaq-aab7a-cai",
-      "deployedAt": null,
+      "deployedAt": "2023-12-12",
+      "deployedAtBasis": "first-transaction",
       "primary": true
     }
   ],

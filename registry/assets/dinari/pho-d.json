@@ -27,7 +27,7 @@
     "attestationFrequency": "Random intervals (per whitepaper)"
   },
   "sources": {
-    "coingeckoId": "dinari-pho",
+    "coingeckoId": "invesco-exchange-traded-fund-trust-invesco-water-resources-etf-dinari-tokenized-etf",
     "identifiers": [
       {
         "scheme": "isin",
@@ -54,6 +54,7 @@
       "chain": "arbitrum",
       "address": "0xad6a646c1b262586ef3a8b6c6304e7c9218ecac4",
       "deployedAt": "2024-02-20",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -72,19 +73,25 @@
     },
     {
       "chain": "ethereum",
-      "address": null
+      "address": "0x251530c7f24d6904a31425b9afa24b0e1e5aafde",
+      "deployedAt": "2024-02-27",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "base",
-      "address": null
+      "address": "0xcc69d36075d563d010d829db7a9caa50b3487bb0",
+      "deployedAt": "2024-06-10",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "blast",
-      "address": null
+      "address": "0x93a9f06576cfe91e8c408467cd684df42ca23c23",
+      "deployedAt": "2024-03-01",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "plume_mainnet",
-      "address": null
+      "address": "0x1cabadb96553cb4af2ed800a84a8fb326f966e3a"
     }
   ],
   "roles": [

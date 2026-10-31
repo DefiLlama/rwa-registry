@@ -44,38 +44,45 @@
   "deployments": [
     {
       "chain": "arbitrum",
-      "address": "0x957a8af7894e76e16db17c2a913496a4e60b7090",
-      "deployedAt": "2023-06-05"
+      "address": "0xfea7a6a0b346362bf88a9e4a88416b77a57d6c2a",
+      "deployedAt": "2021-09-14",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "avax",
-      "address": "0xb3a66127ccb143bfb01d3aecd3ce9d17381b130d",
-      "deployedAt": "2023-06-05"
+      "address": "0x130966628846bfd36ff31a822705796e8cb8c18d",
+      "deployedAt": "2021-08-26",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "base",
-      "address": "0x4035957323fc05ad9704230e3dc1e7663091d262",
-      "deployedAt": "2023-08-01"
+      "address": "0x4a3a6dd60a34bb2aba60d73b4c88315e9ceb6a3d",
+      "deployedAt": "2023-08-01",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "berachain",
       "address": "0x5b82028cfc477c4e7dda7ff33d59a23fa7be002a",
-      "deployedAt": "2025-01-23"
+      "deployedAt": "2025-01-23",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "blast",
       "address": "0x76da31d7c9cbeae102aff34d3398bc450c8374c1",
-      "deployedAt": "2024-02-29"
+      "deployedAt": "2024-02-29",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "bsc",
-      "address": "0x41d5a04b4e03dc27dc1f5c5a576ad2187bc601af",
-      "deployedAt": "2023-06-05"
+      "address": "0xfe19f0b51438fd612f6fd59c1dbb3ea319f433ba",
+      "deployedAt": "2021-06-18",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "ethereum",
-      "address": "0x439a5f0f5e8d149dda9a0ca367d4a8e4d6f83c10",
-      "deployedAt": "2023-06-05",
+      "address": "0x99d8a9c45b2eca8864373a26d1459e3dff1e17f3",
+      "deployedAt": "2021-05-25",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -86,48 +93,57 @@
     },
     {
       "chain": "fantom",
-      "address": "0xc5c01568a3b5d8c203964049615401aaf0783191",
-      "deployedAt": "2021-09-04"
+      "address": "0x82f0b8b456c1a451378467398982d4834b6829c1",
+      "deployedAt": "2023-04-24",
+      "deployedAtBasis": "first-stored-day"
     },
     {
       "chain": "fraxtal",
       "address": "0x8c6bf92b92289de338a167b789a684103722d1a3",
-      "deployedAt": "2024-03-09"
+      "deployedAt": "2024-03-09",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "harmony",
       "address": "0x878e35d250e332b3fb4e65f852876973f1495ece",
-      "deployedAt": "2025-01-01"
+      "deployedAt": "2021-11-05",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "kava",
-      "address": "0xc7a161cfd0e133d289b13692b636b8e8b5cd8d8c",
-      "deployedAt": "2023-08-15"
+      "address": "0x471ee749ba270eb4c1165b5ad95e614947f6fceb",
+      "deployedAt": "2023-08-15",
+      "deployedAtBasis": "first-stored-day"
     },
     {
       "chain": "moonriver",
-      "address": "0xef2dbdfec54c466f7ff92c9c5c75abb6794f0195",
-      "deployedAt": "2023-06-05"
+      "address": "0x0cae51e1032e8461f4806e26332c030e34de3adb",
+      "deployedAt": "2023-04-24",
+      "deployedAtBasis": "first-stored-day"
     },
     {
       "chain": "nibiru",
       "address": "0xfcfc58685101e2914cbcf7551b432500db84eaa8",
-      "deployedAt": "2025-06-07"
+      "deployedAt": "2025-06-07",
+      "deployedAtBasis": "first-stored-day"
     },
     {
       "chain": "optimism",
-      "address": "0x48686c24697fe9042531b64d792304e514e74339",
-      "deployedAt": "2023-06-05"
+      "address": "0xb153fb3d196a8eb25522705560ac152eeec57901",
+      "deployedAt": "2022-07-05",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "polygon",
       "address": "0x01288e04435bfcd4718ff203d6ed18146c17cd4b",
-      "deployedAt": "2021-06-18"
+      "deployedAt": "2021-06-18",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "solana",
       "address": "2ASbApnFVSTp2RJvMLgLVfbDwJvu1FRXdhJWrGs89Lhj",
-      "deployedAt": "2021-11-26"
+      "deployedAt": "2021-11-26",
+      "deployedAtBasis": "first-signature"
     }
   ],
   "roles": [

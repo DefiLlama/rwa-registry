@@ -26,7 +26,7 @@
     "attestationFrequency": "Not publicly disclosed"
   },
   "sources": {
-    "coingeckoId": "nest-elixir-vault-lp"
+    "coingeckoId": "nest-institutional-core"
   },
   "about": {
     "description": "nELIXIR is the receipt token for Nest's Elixir vault, bringing Elixir's deUSD yield-bearing stablecoin into Nest as a permissionless cross-chain wrapper. Public materials describe deUSD yield as coming from a mix of treasury exposure and funding yield, and note that holders of assets such as BlackRock BUIDL and Hamilton Lane SCOPE can mint deUSD and route it into Nest. Value accrues through the vault's NAV rather than separate coupon payments, and redemptions follow Nest settlement and liquidity mechanics.",
@@ -47,12 +47,14 @@
       "chain": "plume_mainnet",
       "address": "0x9fbc367b9bb966a2a537989817a088afcaffdc4c",
       "deployedAt": "2025-05-08",
+      "deployedAtBasis": "first-stored-day",
       "primary": true
     },
     {
       "chain": "ethereum",
       "address": "0x9fbc367b9bb966a2a537989817a088afcaffdc4c",
-      "deployedAt": "2025-01-10"
+      "deployedAt": "2025-01-10",
+      "deployedAtBasis": "contract-creation"
     }
   ],
   "roles": [

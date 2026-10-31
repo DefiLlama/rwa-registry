@@ -26,6 +26,7 @@
     "attestationFrequency": "Continuous (Midas Attestation Engine, Chainlink + vlayer)"
   },
   "about": {
+    "description": "The mevBTC token provides tokenized exposure to Bitcoin-based strategies managed by RockawayX.",
     "logo": "https://icons.llamao.fi/icons/rwa/mevbtc.png?w=48&h=48",
     "links": {
       "website": [
@@ -43,6 +44,7 @@
       "chain": "ethereum",
       "address": "0xb64c014307622eb15046c66ff71d04258f5963dc",
       "deployedAt": "2025-07-07",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     }
   ],

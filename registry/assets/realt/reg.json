@@ -46,17 +46,20 @@
       "chain": "ethereum",
       "address": "0x0aa1e96d2a46ec6beb2923de1e61addf5f5f1dce",
       "deployedAt": "2024-04-29",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     },
     {
       "chain": "xdai",
       "address": "0x0aa1e96d2a46ec6beb2923de1e61addf5f5f1dce",
-      "deployedAt": "2024-04-29"
+      "deployedAt": "2024-04-29",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "polygon",
       "address": "0x0aa1e96d2a46ec6beb2923de1e61addf5f5f1dce",
-      "deployedAt": "2024-04-29"
+      "deployedAt": "2024-04-29",
+      "deployedAtBasis": "contract-creation"
     }
   ],
   "roles": [

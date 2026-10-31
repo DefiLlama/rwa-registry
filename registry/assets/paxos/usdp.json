@@ -64,6 +64,7 @@
       "chain": "ethereum",
       "address": "0x8e870d67f660d95d5be530380d0ec0bd388289e1",
       "deployedAt": "2018-09-08",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -79,22 +80,24 @@
     {
       "chain": "solana",
       "address": "HVbpJAQGNpkgBaYBZQBR1t7yFdvaYVp2vCQQfKKEN4tM",
-      "deployedAt": "2026-01-04"
+      "deployedAt": "2026-01-04",
+      "deployedAtBasis": "first-stored-day"
     },
     {
       "chain": "linea",
-      "address": "0x8e870d67f660d95d5be530380d0ec0bd388289e1",
-      "deployedAt": "2024-07-22"
+      "address": "0xd2bc272ea0154a93bf00191c8a1db23e67643ec5",
+      "deployedAt": "2023-08-19",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "bsc",
-      "address": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
-      "deployedAt": "2020-09-02"
+      "address": "0xb3c11196a4f3b1da7c23d9fb0a3dde9c6340934f",
+      "deployedAt": "2021-09-06",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "europa",
-      "address": "0x8e870d67f660d95d5be530380d0ec0bd388289e1",
-      "deployedAt": null
+      "address": "0x73d22d8a2d1f59bf5bcf62ca382481a2073faf58"
     }
   ],
   "roles": [

@@ -46,6 +46,7 @@
       "chain": "base",
       "address": "0x20b048fa035d5763685d695e66adf62c5d9f5055",
       "deployedAt": "2024-04-17",
+      "deployedAtBasis": "first-code",
       "primary": true,
       "labels": [
         {
@@ -93,7 +94,8 @@
     {
       "chain": "celo",
       "address": "0x50e85c754929840b58614f48e29c64bc78c58345",
-      "deployedAt": "2024-02-28"
+      "deployedAt": "2024-02-28",
+      "deployedAtBasis": "contract-creation"
     }
   ],
   "roles": [

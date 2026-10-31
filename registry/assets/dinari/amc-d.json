@@ -27,7 +27,7 @@
     "attestationFrequency": "Random intervals (per whitepaper)"
   },
   "sources": {
-    "coingeckoId": "dinari-amc"
+    "coingeckoId": "amc-entertainment-holdings-dinari-tokenized-stock"
   },
   "about": {
     "description": "AMC.d is a Dinari dShare that provides on-chain exposure to the referenced equity (AMC dShare). dShares may only be issued and redeemed from wallets that have completed KYC, and Dinari states it screens wallets holding dShares as part of its AML program. The token includes a transfer blacklist feature for OFAC, AML, and account-security controls. Dinari states dividends and distributions are allocated using an on-chain snapshot and made available to withdraw from a USDC claim contract, and Dinari holds back shareholder voting rights from tokenholders.",
@@ -48,6 +48,7 @@
       "chain": "arbitrum",
       "address": "0x28bf1c9ee2eb746a2d61a0bec97a344028171d6c",
       "deployedAt": "2024-05-14",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -66,19 +67,25 @@
     },
     {
       "chain": "ethereum",
-      "address": null
+      "address": "0x800ee7b69dce0f6649bb0c879b468a665b1a44ce",
+      "deployedAt": "2024-05-14",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "base",
-      "address": null
+      "address": "0xfdaf8d69fa9931f00b92e14bc4233cb438b24980",
+      "deployedAt": "2024-06-10",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "blast",
-      "address": null
+      "address": "0x81100713096041923d65b9f9a2c8dbf8fd8de691",
+      "deployedAt": "2024-05-14",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "plume_mainnet",
-      "address": null
+      "address": "0xde271e0f0594ddda1f0ff6d22091842363f33408"
     }
   ],
   "roles": [

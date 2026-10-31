@@ -41,6 +41,7 @@
       "chain": "ethereum",
       "address": "0x7e1eff4301defc24936470b30bd1c686d2a295dc",
       "deployedAt": "2026-07-23",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -61,6 +62,7 @@
       "chain": "base",
       "address": "0x7e1eff4301defc24936470b30bd1c686d2a295dc",
       "deployedAt": "2026-07-23",
+      "deployedAtBasis": "first-code",
       "labels": [
         {
           "address": "0x7e1eff4301defc24936470b30bd1c686d2a295dc",
@@ -80,6 +82,7 @@
       "chain": "arbitrum",
       "address": "0x7e1eff4301defc24936470b30bd1c686d2a295dc",
       "deployedAt": "2026-07-23",
+      "deployedAtBasis": "contract-creation",
       "labels": [
         {
           "address": "0x7e1eff4301defc24936470b30bd1c686d2a295dc",

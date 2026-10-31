@@ -45,6 +45,7 @@
       "chain": "ethereum",
       "address": "0x6e109e9dd7fa1a58bc3eff667e8e41fc3cc07aef",
       "deployedAt": "2019-04-13",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -56,7 +57,8 @@
     {
       "chain": "tron",
       "address": "TCfCGjekyqmdYt1yxfUM5v5SDtaY6tuWik",
-      "deployedAt": "2022-11-28"
+      "deployedAt": "2022-11-28",
+      "deployedAtBasis": "contract-created"
     }
   ],
   "roles": [

@@ -27,7 +27,7 @@
     "attestationFrequency": "Continuous"
   },
   "sources": {
-    "coingeckoId": "palantir-bstocks-tokenized-stock",
+    "coingeckoId": "palantir-technologies-bstocks-tokenized-stock",
     "identifiers": [
       {
         "scheme": "isin",
@@ -53,6 +53,7 @@
       "chain": "bsc",
       "address": "0x0ca5d51d0277bd006fd9607d3e560785ebad8222",
       "deployedAt": "2026-06-24",
+      "deployedAtBasis": "first-code",
       "primary": true
     }
   ],

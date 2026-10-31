@@ -45,23 +45,27 @@
     {
       "chain": "solana",
       "address": "GiLTSeSFnNse7xQVYeKdMyckGw66AoRmyggGg1NNd4yr",
-      "deployedAt": "2026-02-20",
+      "deployedAt": "2024-10-11",
+      "deployedAtBasis": "first-signature",
       "primary": true
     },
     {
       "chain": "base",
       "address": "0x46080f31351a6568f44575e3effde7f0c86867f9",
-      "deployedAt": "2025-05-27"
+      "deployedAt": "2025-05-27",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "polygon",
       "address": "0x46080f31351a6568f44575e3effde7f0c86867f9",
-      "deployedAt": "2025-06-24"
+      "deployedAt": "2025-06-24",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "monad",
       "address": "0x46080f31351a6568f44575e3effde7f0c86867f9",
-      "deployedAt": "2025-12-24"
+      "deployedAt": "2025-12-24",
+      "deployedAtBasis": "contract-creation"
     }
   ],
   "roles": [

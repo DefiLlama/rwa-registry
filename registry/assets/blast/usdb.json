@@ -44,8 +44,9 @@
   "deployments": [
     {
       "chain": "blast",
-      "address": "0x1a3d9b2fa5c6522c8c071dc07125ce55df90b253",
-      "deployedAt": "2024-04-21",
+      "address": "0x4300000000000000000000000000000000000003",
+      "deployedAt": "2024-02-24",
+      "deployedAtBasis": "first-code",
       "primary": true
     }
   ],

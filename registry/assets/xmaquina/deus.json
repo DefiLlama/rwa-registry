@@ -47,17 +47,20 @@
       "chain": "base",
       "address": "0x940a319b75861014a220d9c6c144d108552b089b",
       "deployedAt": "2025-03-17",
+      "deployedAtBasis": "first-code",
       "primary": true
     },
     {
       "chain": "solana",
       "address": "7JoGUTeaXkjcMGa6xJP2idYNYiLreto1WnsACHnpw3Gd",
-      "deployedAt": "2026-08-13"
+      "deployedAt": "2026-08-13",
+      "deployedAtBasis": "first-stored-day"
     },
     {
       "chain": "peaq",
       "address": "0x940a319b75861014a220d9c6c144d108552b089b",
-      "deployedAt": "2025-03-17"
+      "deployedAt": "2025-03-17",
+      "deployedAtBasis": "first-code"
     }
   ],
   "roles": [

@@ -44,6 +44,7 @@
       "chain": "bsc",
       "address": "0x4c7610990cb63cdca174ce61822f7693b49fce93",
       "deployedAt": "2025-09-22",
+      "deployedAtBasis": "first-code",
       "labels": [
         {
           "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
@@ -55,6 +56,7 @@
       "chain": "arbitrum",
       "address": "0x4c7610990cb63cdca174ce61822f7693b49fce93",
       "deployedAt": "2025-09-22",
+      "deployedAtBasis": "contract-creation",
       "labels": [
         {
           "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
@@ -66,6 +68,7 @@
       "chain": "solana",
       "address": "XsDYSbgLh3T7oh59UmRX1F5WjDgJD3nmzACaG5LR1MB",
       "deployedAt": "2025-09-22",
+      "deployedAtBasis": "first-signature",
       "primary": true,
       "labels": [
         {
@@ -82,6 +85,7 @@
       "chain": "ton",
       "address": "EQDscA8qaxZxOg2JwSDTwl-5ZZPsJ18zH6wG2Ynqu7_wy4nM",
       "deployedAt": "2025-11-12",
+      "deployedAtBasis": "first-transaction",
       "labels": [
         {
           "address": "UQCVLU9-UVFfm9Sct863y50nsF03Jr6uBn1tJm4n9g8QLbnS",
@@ -91,15 +95,39 @@
     },
     {
       "chain": "ethereum",
-      "address": null
+      "address": "0x4c7610990cb63cdca174ce61822f7693b49fce93",
+      "deployedAt": "2025-09-22",
+      "deployedAtBasis": "contract-creation",
+      "labels": [
+        {
+          "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
+          "kind": "excluded-holder"
+        }
+      ]
     },
     {
       "chain": "mantle",
-      "address": null
+      "address": "0x4c7610990cb63cdca174ce61822f7693b49fce93",
+      "deployedAt": "2025-11-28",
+      "deployedAtBasis": "contract-creation",
+      "labels": [
+        {
+          "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
+          "kind": "excluded-holder"
+        }
+      ]
     },
     {
       "chain": "ink",
-      "address": null
+      "address": "0x4c7610990cb63cdca174ce61822f7693b49fce93",
+      "deployedAt": "2026-01-28",
+      "deployedAtBasis": "first-code",
+      "labels": [
+        {
+          "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
+          "kind": "excluded-holder"
+        }
+      ]
     }
   ],
   "roles": [

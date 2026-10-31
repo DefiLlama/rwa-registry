@@ -23,7 +23,7 @@
     "yieldBearing": true
   },
   "sources": {
-    "coingeckoId": "sweep-token"
+    "coingeckoId": null
   },
   "about": {
     "description": "SWEEP is a USD-denominated stable asset positioned as a \"savings coin.\" The design centers on stabilization modules and issuance controls (\"stabilizers\") intended to support USD price stability while routing yield through protocol mechanisms.",
@@ -42,9 +42,56 @@
   "deployments": [
     {
       "chain": "ethereum",
-      "address": "0x09c704c1eb9245af48f058878e72129557a10f04",
-      "deployedAt": "2026-07-31",
+      "address": "0xb88a5ac00917a02d82c7cd6cebd73e2852d43574",
+      "deployedAt": "2023-08-29",
+      "deployedAtBasis": "contract-creation",
       "primary": true
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0xb88a5ac00917a02d82c7cd6cebd73e2852d43574",
+      "deployedAt": "2023-08-23",
+      "deployedAtBasis": "contract-creation",
+      "labels": [
+        {
+          "address": "0x7c9131d7e2bedb29da39503dd8cf809739f047b3",
+          "kind": "excluded-holder"
+        },
+        {
+          "address": "0x23ab3e2954ec5577730b7674f4ba9e78eb96c4d1",
+          "kind": "excluded-holder"
+        }
+      ]
+    },
+    {
+      "chain": "base",
+      "address": "0xb88a5ac00917a02d82c7cd6cebd73e2852d43574",
+      "deployedAt": "2023-11-10",
+      "deployedAtBasis": "first-code"
+    },
+    {
+      "chain": "optimism",
+      "address": "0xb88a5ac00917a02d82c7cd6cebd73e2852d43574",
+      "deployedAt": "2023-10-10",
+      "deployedAtBasis": "first-code"
+    },
+    {
+      "chain": "bsc",
+      "address": "0xb88a5ac00917a02d82c7cd6cebd73e2852d43574",
+      "deployedAt": "2023-12-29",
+      "deployedAtBasis": "first-code"
+    },
+    {
+      "chain": "polygon",
+      "address": "0xb88a5ac00917a02d82c7cd6cebd73e2852d43574",
+      "deployedAt": "2023-12-27",
+      "deployedAtBasis": "contract-creation"
+    },
+    {
+      "chain": "avax",
+      "address": "0xb88a5ac00917a02d82c7cd6cebd73e2852d43574",
+      "deployedAt": "2023-11-29",
+      "deployedAtBasis": "first-code"
     }
   ],
   "roles": [

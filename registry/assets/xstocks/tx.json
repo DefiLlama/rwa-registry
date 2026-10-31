@@ -44,6 +44,7 @@
       "chain": "bsc",
       "address": "0x75639ae3a05079873d7189dcbdbc455898cae904",
       "deployedAt": "2025-09-22",
+      "deployedAtBasis": "first-code",
       "labels": [
         {
           "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
@@ -55,6 +56,7 @@
       "chain": "ink",
       "address": "0x75639ae3a05079873d7189dcbdbc455898cae904",
       "deployedAt": "2026-01-28",
+      "deployedAtBasis": "first-code",
       "labels": [
         {
           "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
@@ -66,6 +68,7 @@
       "chain": "solana",
       "address": "XsqML71RLbyUM3CmY4EYN88zE6BJkpvJACnUKBdGD3x",
       "deployedAt": "2025-09-22",
+      "deployedAtBasis": "first-signature",
       "primary": true,
       "labels": [
         {
@@ -82,6 +85,7 @@
       "chain": "ton",
       "address": "EQDiVimFsbjNrMncSfiN68b0_DSyc_Ipb78JVZqln4klr3TU",
       "deployedAt": "2025-11-12",
+      "deployedAtBasis": "first-transaction",
       "labels": [
         {
           "address": "UQCVLU9-UVFfm9Sct863y50nsF03Jr6uBn1tJm4n9g8QLbnS",
@@ -93,6 +97,7 @@
       "chain": "monad",
       "address": "0x75639ae3a05079873d7189dcbdbc455898cae904",
       "deployedAt": "2026-10-01",
+      "deployedAtBasis": "contract-creation",
       "labels": [
         {
           "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
@@ -102,15 +107,39 @@
     },
     {
       "chain": "ethereum",
-      "address": null
+      "address": "0x75639ae3a05079873d7189dcbdbc455898cae904",
+      "deployedAt": "2025-09-22",
+      "deployedAtBasis": "contract-creation",
+      "labels": [
+        {
+          "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
+          "kind": "excluded-holder"
+        }
+      ]
     },
     {
       "chain": "arbitrum",
-      "address": null
+      "address": "0x75639ae3a05079873d7189dcbdbc455898cae904",
+      "deployedAt": "2025-09-22",
+      "deployedAtBasis": "contract-creation",
+      "labels": [
+        {
+          "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
+          "kind": "excluded-holder"
+        }
+      ]
     },
     {
       "chain": "mantle",
-      "address": null
+      "address": "0x75639ae3a05079873d7189dcbdbc455898cae904",
+      "deployedAt": "2025-11-28",
+      "deployedAtBasis": "contract-creation",
+      "labels": [
+        {
+          "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
+          "kind": "excluded-holder"
+        }
+      ]
     }
   ],
   "roles": [

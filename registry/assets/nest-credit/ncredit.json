@@ -50,17 +50,20 @@
       "chain": "plume_mainnet",
       "address": "0xa5f78b2a0ab85429d2dfbf8b60abc70f4cec066c",
       "deployedAt": "2025-04-13",
+      "deployedAtBasis": "first-code",
       "primary": true
     },
     {
       "chain": "ethereum",
       "address": "0xa5f78b2a0ab85429d2dfbf8b60abc70f4cec066c",
-      "deployedAt": "2025-04-13"
+      "deployedAt": "2025-04-13",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "bsc",
       "address": "0xa5f78b2a0ab85429d2dfbf8b60abc70f4cec066c",
-      "deployedAt": "2025-10-14"
+      "deployedAt": "2025-10-14",
+      "deployedAtBasis": "first-code"
     }
   ],
   "roles": [

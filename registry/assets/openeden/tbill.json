@@ -48,6 +48,7 @@
       "chain": "ethereum",
       "address": "0xdd50c053c096cb04a3e3362e2b622529ec5f2e8a",
       "deployedAt": "2023-10-18",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -68,6 +69,7 @@
       "chain": "arbitrum",
       "address": "0xf84d28a8d28292842dd73d1c5f99476a80b6666a",
       "deployedAt": "2024-02-13",
+      "deployedAtBasis": "contract-creation",
       "labels": [
         {
           "address": "0xf84d28a8d28292842dd73d1c5f99476a80b6666a",
@@ -86,17 +88,20 @@
     {
       "chain": "bsc",
       "address": "0x5b4681f0d7a01b817675f25892d3ad73572fd1d9",
-      "deployedAt": "2026-05-15"
+      "deployedAt": "2026-05-15",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "solana",
       "address": "4MmJVdwYN8LwvbGeCowYjSx7KoEi6BJWg8XXnW4fDDp6",
-      "deployedAt": "2025-04-17"
+      "deployedAt": "2025-04-17",
+      "deployedAtBasis": "first-stored-day"
     },
     {
       "chain": "ripple",
       "address": "TBL.rJNE2NNz83GJYtWVLwMvchDWEon3huWnFn",
       "deployedAt": "2024-06-07",
+      "deployedAtBasis": "first-issue",
       "labels": [
         {
           "address": "rB56JZWRKvpWNeyqM3QYfZwW4fS9YEyPWM",

@@ -27,7 +27,7 @@
     "attestationFrequency": "Continuous"
   },
   "sources": {
-    "coingeckoId": "intel-bstocks-tokenized-stock",
+    "coingeckoId": "intel-tokenized-bstocks",
     "identifiers": [
       {
         "scheme": "isin",
@@ -53,6 +53,7 @@
       "chain": "bsc",
       "address": "0xe614e2fc6c787035ff51f452e8e826bfd32d5283",
       "deployedAt": "2026-06-16",
+      "deployedAtBasis": "first-code",
       "primary": true
     }
   ],

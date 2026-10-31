@@ -23,14 +23,6 @@
     "kycToTransferHold": true,
     "yieldBearing": false
   },
-  "sources": {
-    "identifiers": [
-      {
-        "scheme": "isin",
-        "value": "US76954A1034"
-      }
-    ]
-  },
   "about": {
     "description": "RIVN is a tokenized tracker certificate issued by Robinhood Markets, Inc. through its European subsidiary Robinhood Europe UAB, deployed as an ERC-20 token on Arbitrum One. It is designed to provide synthetic price exposure to RIVN rather than direct share ownership, operating under MiFID II regulatory oversight. The token is available to EU/EEA customers with 24/5 commission-free trading, and on-chain pricing is supplied through Chainlink oracle feeds.",
     "logo": "https://icons.llamao.fi/icons/rwa/rivn.png?w=48&h=48",
@@ -50,6 +42,7 @@
       "chain": "arbitrum",
       "address": "0xcdfa197b257d670fdb0f07a70d0cc8427e414fa3",
       "deployedAt": "2025-06-23",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -65,7 +58,8 @@
     {
       "chain": "robinhood",
       "address": "0xb1bf26c1d20ff267a4f93550d1e0d06ac40a114b",
-      "deployedAt": "2026-06-10"
+      "deployedAt": "2026-06-10",
+      "deployedAtBasis": "first-code"
     }
   ],
   "roles": [

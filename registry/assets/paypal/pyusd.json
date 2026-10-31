@@ -80,12 +80,14 @@
     {
       "chain": "arbitrum",
       "address": "0x46850ad61c2b7d64d08c9c754f45254596696984",
-      "deployedAt": "2025-05-06"
+      "deployedAt": "2025-05-06",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "ethereum",
-      "address": "0x6c3ea9036406852006290770bedfc107f0222185",
-      "deployedAt": "2023-08-08",
+      "address": "0x6c3ea9036406852006290770bedfcaba0e23a0e8",
+      "deployedAt": "2022-11-08",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -101,12 +103,14 @@
     {
       "chain": "solana",
       "address": "2b1kV6DkPAnxd5ixfnxCpjxmKwqjjaYmCZfHsFu24GXo",
-      "deployedAt": "2024-06-27"
+      "deployedAt": "2024-06-27",
+      "deployedAtBasis": "first-stored-day"
     },
     {
       "chain": "berachain",
       "address": "0x688e72142674041f8f6af4c808a4045ca1d6ac82",
-      "deployedAt": "2025-02-19",
+      "deployedAt": "2025-01-24",
+      "deployedAtBasis": "contract-creation",
       "labels": [
         {
           "address": "0x02e5f501d658dded33af7a6f6c330a4be21f5a82",
@@ -117,11 +121,14 @@
     {
       "chain": "flow",
       "address": "0x99af3eea856556646c98c8b9b2548fe815240750",
-      "deployedAt": "2025-12-18"
+      "deployedAt": "2025-12-18",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "plume_mainnet",
-      "address": null
+      "address": "0x142cdc44890978b506e745bb3bd11607b7f7faef",
+      "deployedAt": "2025-10-31",
+      "deployedAtBasis": "first-code"
     }
   ],
   "roles": [

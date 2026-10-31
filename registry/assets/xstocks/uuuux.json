@@ -53,6 +53,7 @@
       "chain": "ethereum",
       "address": "0xed579847e45b0c48cfd608da829073b2f7e65cf0",
       "deployedAt": "2026-03-19",
+      "deployedAtBasis": "contract-creation",
       "labels": [
         {
           "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
@@ -63,7 +64,8 @@
     {
       "chain": "solana",
       "address": "XsYHvpLWfTfqdLkPbCc4eUT21eH521BRTXBypgzpEDH",
-      "deployedAt": "2026-08-05",
+      "deployedAt": "2026-03-20",
+      "deployedAtBasis": "first-signature",
       "primary": true,
       "labels": [
         {
@@ -84,6 +86,7 @@
       "chain": "bsc",
       "address": "0xed579847e45b0c48cfd608da829073b2f7e65cf0",
       "deployedAt": "2026-04-30",
+      "deployedAtBasis": "first-code",
       "labels": [
         {
           "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
@@ -95,6 +98,7 @@
       "chain": "mantle",
       "address": "0xed579847e45b0c48cfd608da829073b2f7e65cf0",
       "deployedAt": "2026-03-19",
+      "deployedAtBasis": "contract-creation",
       "labels": [
         {
           "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
@@ -106,6 +110,7 @@
       "chain": "ink",
       "address": "0xed579847e45b0c48cfd608da829073b2f7e65cf0",
       "deployedAt": "2026-03-19",
+      "deployedAtBasis": "first-code",
       "labels": [
         {
           "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
@@ -117,6 +122,7 @@
       "chain": "ton",
       "address": "EQA_2niMrwSKH18g-4HZOt9rLPWY8U3zbOInA_6Bxodk-AvE",
       "deployedAt": "2026-03-19",
+      "deployedAtBasis": "first-transaction",
       "labels": [
         {
           "address": "UQCVLU9-UVFfm9Sct863y50nsF03Jr6uBn1tJm4n9g8QLbnS",
@@ -128,6 +134,7 @@
       "chain": "optimism",
       "address": "0xed579847e45b0c48cfd608da829073b2f7e65cf0",
       "deployedAt": "2026-06-05",
+      "deployedAtBasis": "first-code",
       "labels": [
         {
           "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
@@ -139,6 +146,7 @@
       "chain": "xlayer",
       "address": "0xed579847e45b0c48cfd608da829073b2f7e65cf0",
       "deployedAt": "2026-06-05",
+      "deployedAtBasis": "first-code",
       "labels": [
         {
           "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
@@ -150,6 +158,7 @@
       "chain": "monad",
       "address": "0xed579847e45b0c48cfd608da829073b2f7e65cf0",
       "deployedAt": "2026-10-01",
+      "deployedAtBasis": "contract-creation",
       "labels": [
         {
           "address": "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",

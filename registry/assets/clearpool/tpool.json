@@ -44,6 +44,7 @@
       "chain": "ethereum",
       "address": "0xde204e5a060ba5d3b63c7a4099712959114c2d48",
       "deployedAt": "2022-05-16",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -54,13 +55,13 @@
     },
     {
       "chain": "polygon",
-      "address": "0x8d25f8efb9f397e02ea7b002950b7f7ab5e10a07",
-      "deployedAt": null
+      "address": null
     },
     {
       "chain": "flare",
       "address": "0xfe2907dfa8db6e320cdbf45f0aa888f6135ec4f8",
-      "deployedAt": "2024-08-01"
+      "deployedAt": "2024-05-20",
+      "deployedAtBasis": "contract-creation"
     }
   ],
   "roles": [

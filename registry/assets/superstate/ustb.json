@@ -48,6 +48,7 @@
       "chain": "ethereum",
       "address": "0x43415eb6ff9db7e26a15b704e7a3edce97d31c4e",
       "deployedAt": "2023-12-06",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -91,12 +92,14 @@
     {
       "chain": "plume_mainnet",
       "address": "0xe4fa682f94610ccd170680cc3b045d77d9e528a8",
-      "deployedAt": "2025-03-26"
+      "deployedAt": "2025-03-26",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "solana",
       "address": "CCz3SGVziFeLYk2xfEstkiqJfYkjaSWb2GCABYsVcjo2",
-      "deployedAt": "2025-07-16"
+      "deployedAt": "2025-07-16",
+      "deployedAtBasis": "first-signature"
     }
   ],
   "roles": [

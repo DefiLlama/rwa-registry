@@ -23,14 +23,6 @@
     "kycToTransferHold": true,
     "yieldBearing": false
   },
-  "sources": {
-    "identifiers": [
-      {
-        "scheme": "isin",
-        "value": "US0494681010"
-      }
-    ]
-  },
   "about": {
     "description": "TEAM is a tokenized tracker certificate issued by Robinhood Markets, Inc. through its European subsidiary Robinhood Europe UAB, deployed as an ERC-20 token on Arbitrum One. It is designed to provide synthetic price exposure to TEAM rather than direct share ownership, operating under MiFID II regulatory oversight. The token is available to EU/EEA customers with 24/5 commission-free trading, and on-chain pricing is supplied through Chainlink oracle feeds.",
     "logo": "https://icons.llamao.fi/icons/rwa/team.png?w=48&h=48",
@@ -50,6 +42,7 @@
       "chain": "arbitrum",
       "address": "0x23617f3e956eaa786304b36550bbd88fac1ad3a3",
       "deployedAt": "2025-09-05",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -65,7 +58,8 @@
     {
       "chain": "robinhood",
       "address": "0x5b97476b922f3305131b8f0b9d333172e87f4aae",
-      "deployedAt": "2026-07-27"
+      "deployedAt": "2026-07-27",
+      "deployedAtBasis": "first-code"
     }
   ],
   "roles": [

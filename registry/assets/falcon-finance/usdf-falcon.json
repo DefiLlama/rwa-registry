@@ -45,18 +45,21 @@
     {
       "chain": "bsc",
       "address": "0xb3b02e4a9fb2bd28cc2ff97b0ab3f6b3ec1ee9d2",
-      "deployedAt": "2025-06-18"
+      "deployedAt": "2025-06-18",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "ethereum",
       "address": "0xfa2b947eec368f42195f24f36d2af29f7c24cec2",
       "deployedAt": "2025-02-10",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     },
     {
       "chain": "xdc",
       "address": "0x8210c0634ab8f273806e4b7866e9db353773c44b",
-      "deployedAt": "2025-11-04"
+      "deployedAt": "2025-11-04",
+      "deployedAtBasis": "contract-creation"
     }
   ],
   "roles": [

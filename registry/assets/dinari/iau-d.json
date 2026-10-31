@@ -27,7 +27,7 @@
     "attestationFrequency": "Random intervals (per whitepaper)"
   },
   "sources": {
-    "coingeckoId": "dinari-iau",
+    "coingeckoId": "ishares-gold-trust-dinari-tokenized-etf",
     "identifiers": [
       {
         "scheme": "isin",
@@ -54,6 +54,7 @@
       "chain": "arbitrum",
       "address": "0x39bce681d72720f80424914800a78c63fdfaf645",
       "deployedAt": "2024-09-24",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -72,19 +73,25 @@
     },
     {
       "chain": "ethereum",
-      "address": null
+      "address": "0x4be7aeda82870609cd934babc3a11b886b8cdb02",
+      "deployedAt": "2024-09-24",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "base",
-      "address": null
+      "address": "0xe6cf0d54079bfb0e441c1ef37e69a234e9e4e4c0",
+      "deployedAt": "2024-10-01",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "blast",
-      "address": null
+      "address": "0xa5d7512c6a3b87ad7bf2f597b93845950f738fdd",
+      "deployedAt": "2024-10-01",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "plume_mainnet",
-      "address": null
+      "address": "0x2cec15e04b25ca9dbe42d0c6a0d1aca33cb41419"
     }
   ],
   "roles": [

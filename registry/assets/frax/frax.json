@@ -134,22 +134,25 @@
     {
       "chain": "arbitrum",
       "address": "0x17fc002b466eec40dae837fc4be5c67993ddbd6f",
-      "deployedAt": "2021-09-27"
+      "deployedAt": "2021-09-27",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "aurora",
-      "address": "0x17fc002b466eec40dae837fc4be5c67993ddbd6f",
+      "address": "0xe4b9e004389d91e4134a28f19bd833cba1d994b6",
       "deployedAt": null
     },
     {
       "chain": "avax",
-      "address": "0xd24c2ad96f2ca790270c10375d663f144e13fd5d",
-      "deployedAt": "2026-01-13"
+      "address": "0xd24c2ad096400b6fbcd2ad8b24e7acbc21a1da64",
+      "deployedAt": "2021-09-17",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "bsc",
-      "address": "0x667088b212ce3d06a1b553a7221e1ad1075f0343",
-      "deployedAt": "2026-01-13"
+      "address": "0x90c97f71e18723b0cf0dfa30ee176ab653e89f40",
+      "deployedAt": "2021-09-23",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "dogechain",
@@ -160,6 +163,7 @@
       "chain": "ethereum",
       "address": "0x853d955acef822db058eb8505911ed77f175b99e",
       "deployedAt": "2020-12-16",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -175,33 +179,33 @@
     },
     {
       "chain": "fantom",
-      "address": "0xdc301622e62116295ca991880fd13962bd0e144a",
+      "address": "0xdc301622e621166bd8e82f2ca0a26c13ad0be355",
       "deployedAt": null
     },
     {
       "chain": "fraxtal",
-      "address": "0xf155b8c1a3ae4fd47ad7ac1c87400014799ad883",
-      "deployedAt": "2026-01-13"
+      "address": null
     },
     {
       "chain": "harmony",
-      "address": "0xfa7191d292d5633f702b0bd7e3e3bcbc0e63a355",
+      "address": "0xfa7191d292d5633f702b0bd7e3e3bccc0e633200",
       "deployedAt": null
     },
     {
       "chain": "moonbeam",
-      "address": "0x322df7c254190858ca021034c2883b3223382581",
+      "address": "0x322e86852e492a7ee17f28a78c663da38fb33bfb",
       "deployedAt": null
     },
     {
       "chain": "moonriver",
-      "address": "0x1a93b23281cc45bd3010b13274646a73bc697180",
+      "address": "0x1a93b23281cc1cde4c4741353f3064709a16197d",
       "deployedAt": null
     },
     {
       "chain": "optimism",
-      "address": "0x2e3d7f64779982f5063f90409a64423ce059634e",
-      "deployedAt": "2026-01-13"
+      "address": "0x2e3d870790dc77a83dd1d18184acc7439a53f475",
+      "deployedAt": "2022-01-09",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "osmosis",
@@ -210,8 +214,9 @@
     },
     {
       "chain": "polygon",
-      "address": "0x104592a158490a989b165d51c9d8c3d8c03d5c33",
-      "deployedAt": "2026-01-13"
+      "address": "0x45c32fa6df82ead1e2ef74d17b76547eddfaff89",
+      "deployedAt": "2021-09-21",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "zksync",
@@ -220,19 +225,23 @@
     },
     {
       "chain": "near",
-      "address": "853d955acef822db058eb8505911ed77f175b99e.factory.bridge.near"
+      "address": "853d955acef822db058eb8505911ed77f175b99e.factory.bridge.near",
+      "deployedAt": "2021-11-19",
+      "deployedAtBasis": "contract-created"
     },
     {
       "chain": "boba",
-      "address": null
+      "address": "0x7562f525106f5d54e891e005867bf489b5988cd9"
     },
     {
       "chain": "solana",
-      "address": null
+      "address": "FR87nWEUxVgerFGhZM8Y4AggKGLnaXswr1Pd8wZ4kZcp",
+      "deployedAt": "2026-01-13",
+      "deployedAtBasis": "first-stored-day"
     },
     {
       "chain": "era",
-      "address": null
+      "address": "0xb4c1544cb4163f4c2eca1ae9ce999f63892d912a"
     }
   ],
   "roles": [

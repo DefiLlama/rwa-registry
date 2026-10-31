@@ -45,12 +45,14 @@
       "chain": "avax",
       "address": "0x24de8771bc5ddb3362db529fc3358f2df3a0e346",
       "deployedAt": "2024-11-15",
+      "deployedAtBasis": "first-code",
       "primary": true
     },
     {
       "chain": "monad",
       "address": "0x0d9d741fe423cd5419e4bcb6cb2ffa87afa93ba4",
-      "deployedAt": "2026-06-28"
+      "deployedAt": "2026-06-28",
+      "deployedAtBasis": "contract-creation"
     }
   ],
   "roles": [

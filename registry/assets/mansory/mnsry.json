@@ -48,17 +48,20 @@
       "chain": "solana",
       "address": "1xdtu7y3LkkrVCAbm5KGKfYzq1qgKhxxk5AaJBqpump",
       "deployedAt": "2025-02-26",
+      "deployedAtBasis": "metadata-created",
       "primary": true
     },
     {
       "chain": "solana",
       "address": "6E3Xpkmz2CmZvXNMxEAcssisUd9PN8EJJvKyo38rpump",
-      "deployedAt": "2025-02-24"
+      "deployedAt": "2025-02-24",
+      "deployedAtBasis": "first-signature"
     },
     {
       "chain": "bsc",
       "address": "0x0fcfe33b46e5b21e5e96b722d4c85510198f9255",
-      "deployedAt": "2025-04-24"
+      "deployedAt": "2025-04-24",
+      "deployedAtBasis": "first-code"
     }
   ],
   "roles": [

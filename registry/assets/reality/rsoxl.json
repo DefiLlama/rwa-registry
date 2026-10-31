@@ -7,7 +7,7 @@
     "canonicalMarketId": "rSOXL"
   },
   "exposure": {
-    "underlying": "direxion-daily-semiconductor-bull-3x-etf"
+    "underlying": "direxion-daily-semiconductor-bull-3x-shares"
   },
   "class": {
     "structure": "etf-backed",
@@ -44,6 +44,7 @@
       "chain": "arbitrum",
       "address": "0x25501fea0562fa74dab22dc09dd3f994d5558dce",
       "deployedAt": "2026-06-05",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     }
   ],

@@ -43,7 +43,8 @@
     {
       "chain": "ripple",
       "address": "4449412D41442D434F4C31000000000000000000.rDgoZHy4SLPs4jhJZqkyaXX4iEsEUkCAVp",
-      "deployedAt": null,
+      "deployedAt": "2025-05-19",
+      "deployedAtBasis": "issuer-first-transaction",
       "primary": true
     }
   ],

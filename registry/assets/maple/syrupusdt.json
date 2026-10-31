@@ -43,22 +43,26 @@
       "chain": "ethereum",
       "address": "0x356b8d89c1e1239cbbb9de4815c39a1474d5ba7d",
       "deployedAt": "2024-08-01",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     },
     {
       "chain": "bsc",
       "address": "0x8e9d4cea39299323fe8eda678cad449718556c4e",
-      "deployedAt": "2025-12-10"
+      "deployedAt": "2025-12-10",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "mantle",
       "address": "0x051665f2455116e929b9972c36d23070f5054ce0",
-      "deployedAt": "2025-12-05"
+      "deployedAt": "2025-12-05",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "plasma",
       "address": "0xc4374775489cb9c56003bf2c9b12495fc64f0771",
-      "deployedAt": "2025-09-16"
+      "deployedAt": "2025-09-16",
+      "deployedAtBasis": "contract-creation"
     }
   ],
   "roles": [

@@ -44,17 +44,20 @@
       "chain": "polygon",
       "address": "0x12050c705152931cfee3dd56c52fb09dea816c23",
       "deployedAt": "2023-09-19",
+      "deployedAtBasis": "contract-creation",
       "primary": true
     },
     {
       "chain": "celo",
       "address": "0xc92e8fc2947e32f2b574cca9f2f12097a71d5606",
-      "deployedAt": "2024-09-11"
+      "deployedAt": "2024-09-11",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "solana",
       "address": "Copm5KwCLXDTWYgXJYmo6ixmMZrxd1wabkujkcuaK47C",
-      "deployedAt": "2024-02-14"
+      "deployedAt": "2024-02-14",
+      "deployedAtBasis": "first-signature"
     }
   ],
   "roles": [

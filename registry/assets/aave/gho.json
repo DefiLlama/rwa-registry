@@ -44,22 +44,26 @@
     {
       "chain": "arbitrum",
       "address": "0x7dff72693f6a4149b17e7c6314655f6a9f7c8b33",
-      "deployedAt": "2024-06-23"
+      "deployedAt": "2024-06-23",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "avax",
-      "address": "0xf611aeb5013fd2c0511c9cd55c7dc5c1140741a6",
-      "deployedAt": "2025-06-25"
+      "address": "0xfc421ad3c883bf9e7c4f42de845c4e4405799e73",
+      "deployedAt": "2025-05-14",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "base",
-      "address": "0x067ae75628177fd257c2b1e500993e1a0babcbd1",
-      "deployedAt": "2025-02-10"
+      "address": "0x6bb7a212910682dcfdbd5bcbb3e28fb4e8da10ee",
+      "deployedAt": "2025-01-08",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "ethereum",
       "address": "0x40d16fc0246ad3160ccc09b8d0d3a2cd28ae6c2f",
       "deployedAt": "2023-07-15",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -71,12 +75,14 @@
     {
       "chain": "fraxtal",
       "address": "0x999d00801c88e980c6605137ea660606e0494ce5",
-      "deployedAt": "2024-03-12"
+      "deployedAt": "2024-03-12",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "ink",
       "address": "0xfc421ad3c883bf9e7c4f42de845c4e4405799e73",
-      "deployedAt": "2025-08-17"
+      "deployedAt": "2025-08-17",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "lens",
@@ -84,8 +90,9 @@
     },
     {
       "chain": "xdai",
-      "address": "0x3fdcec11b4f15c79d483aedc56f37d302837cf4d",
-      "deployedAt": "2025-08-05"
+      "address": "0xfc421ad3c883bf9e7c4f42de845c4e4405799e73",
+      "deployedAt": "2025-04-24",
+      "deployedAtBasis": "first-code"
     }
   ],
   "roles": [

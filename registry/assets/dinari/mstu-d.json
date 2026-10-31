@@ -53,6 +53,7 @@
       "chain": "arbitrum",
       "address": "0x3918d009d2157b37bb9806efdec941723b9efec5",
       "deployedAt": "2024-12-05",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -71,19 +72,25 @@
     },
     {
       "chain": "ethereum",
-      "address": null
+      "address": "0x997eabc01cac614e20fe8f658b5f82d84288a2d8",
+      "deployedAt": "2024-12-13",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "base",
-      "address": null
+      "address": "0x2de02593023b8f276d673146a9bee4586c7fd95c",
+      "deployedAt": "2024-12-05",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "blast",
-      "address": null
+      "address": "0x3959b29515ed2fb574f4b98d4a59f452b6d8be49",
+      "deployedAt": "2024-12-05",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "plume_mainnet",
-      "address": null
+      "address": "0x17a61e2726493b52349cc50285ab51dc3c23377b"
     }
   ],
   "roles": [

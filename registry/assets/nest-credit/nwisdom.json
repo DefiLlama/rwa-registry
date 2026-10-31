@@ -47,22 +47,26 @@
       "chain": "plume_mainnet",
       "address": "0x29bf22381a5811dec89dc7b46a5ce57ad02c0240",
       "deployedAt": "2025-10-27",
+      "deployedAtBasis": "first-code",
       "primary": true
     },
     {
       "chain": "ethereum",
       "address": "0x29bf22381a5811dec89dc7b46a5ce57ad02c0240",
-      "deployedAt": "2025-10-27"
+      "deployedAt": "2025-10-27",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "bsc",
       "address": "0x29bf22381a5811dec89dc7b46a5ce57ad02c0240",
-      "deployedAt": "2025-10-27"
+      "deployedAt": "2025-10-27",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "solana",
       "address": "77DTSzxisdQWshFYHP9M2JBDuHNojLAVoC7GBNC2yadT",
-      "deployedAt": "2026-03-17"
+      "deployedAt": "2025-12-15",
+      "deployedAtBasis": "first-signature"
     }
   ],
   "roles": [

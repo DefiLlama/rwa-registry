@@ -54,6 +54,7 @@
       "chain": "ethereum",
       "address": "0x6d57b2e05f26c26b549231c866bdd39779e4a488",
       "deployedAt": "2021-12-15",
+      "deployedAtBasis": "contract-creation",
       "primary": true,
       "labels": [
         {
@@ -66,6 +67,7 @@
       "chain": "polygon",
       "address": "0xc8bb8eda94931ca2f20ef43ea7dbd58e68400400",
       "deployedAt": "2023-07-11",
+      "deployedAtBasis": "contract-creation",
       "labels": [
         {
           "address": "0xf10e0ddd9d778f90c3276246caf07779b829e01d",
@@ -76,26 +78,32 @@
     {
       "chain": "solana",
       "address": "9TPL8droGJ7jThsq4momaoz6uhTcvX2SeMqipoPmNa8R",
-      "deployedAt": "2023-12-01"
+      "deployedAt": "2023-12-01",
+      "deployedAtBasis": "first-stored-day"
     },
     {
       "chain": "stellar",
       "address": "VNXAU-GCKIYYQVIFBIFDRN7BNDNHL3UZSFHT5NHDAISG2N3MWCZY3WNXL3LXN3",
-      "deployedAt": "2024-02-13"
+      "deployedAt": "2024-02-13",
+      "deployedAtBasis": "asset-created"
     },
     {
       "chain": "base",
       "address": "0xac3fe22294beaed9d1fd752323a6d06d12ff3098",
-      "deployedAt": "2025-08-14"
+      "deployedAt": "2025-08-14",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "etlk",
       "address": "0x93f5475da60143c50e8be3fed10c143b0cf8b9e9",
-      "deployedAt": "2026-03-20"
+      "deployedAt": "2026-03-19",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "tezos",
-      "address": "KT1LSH97386CURN9FgRNqdQJoHaHY6e1vxUv"
+      "address": "KT1LSH97386CURN9FgRNqdQJoHaHY6e1vxUv",
+      "deployedAt": "2024-03-01",
+      "deployedAtBasis": "first-activity"
     }
   ],
   "roles": [
