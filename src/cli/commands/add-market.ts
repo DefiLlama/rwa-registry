@@ -178,7 +178,8 @@ export const createAddMarketCommand = (deps: Deps = {}) =>
         description: 'never ask the venue for the listing date; the market gets no listing event from it',
       },
     ],
-    derived: ['legacyId'],
+    // Never asked: the write sets suspicious and delisted from the file's events.
+    derived: ['legacyId', 'suspicious', 'delisted'],
     assigned: [
       {
         name: 'id',

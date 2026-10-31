@@ -110,6 +110,22 @@
         }
       ]
     },
+    "review": {
+      "type": "object",
+      "properties": {
+        "suspicious": {
+          "type": "boolean"
+        },
+        "delisted": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "suspicious",
+        "delisted"
+      ],
+      "additionalProperties": false
+    },
     "roles": {
       "type": "array",
       "items": {
@@ -311,7 +327,8 @@
     "venueType",
     "published",
     "accessModel",
-    "rwaClassification"
+    "rwaClassification",
+    "review"
   ],
   "additionalProperties": false
 }

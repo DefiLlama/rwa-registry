@@ -7,7 +7,9 @@ import { isAbsolute, relative, resolve } from 'node:path';
 import { FlagFormatError, NoSuchRowError } from '../../errors/cli';
 import { homeFile } from '../../registry';
 import { homeOf } from '../../registry/layout';
+import { REVIEW_FLAG_TABLES } from '../../registry/reviewFlags';
 import { inSchemaOrder, toRow } from '../../schema';
+import { rowField } from '../../schema/fileShape';
 import { setAt, stepsOf } from '../../utils/fieldPath';
 import { parseFieldValue, parseJson } from '../fieldValue';
 import { defineWriteCommand, type FileToWrite } from '../writeCommand';
@@ -36,6 +38,9 @@ const moveKind = (path: string, before: unknown, value: string, note: (line: str
   ];
 };
 
+// A review flag follows the row's events, so the command that writes the event sets it.
+const FLAG_COMMANDS: Record<string, string> = { delisted: 'delist or relist', suspicious: 'review' };
+
 export const set = defineWriteCommand({
   name: 'set',
   description:
@@ -63,6 +68,9 @@ export const set = defineWriteCommand({
           message: 'set needs <file> <field> <value>, or <file> --file <json>',
         });
       }
+      const flagCommand = REVIEW_FLAG_TABLES.includes(table) ? FLAG_COMMANDS[rowField(table, field)] : undefined;
+      if (flagCommand)
+        throw new FlagFormatError({ file: 'set', message: `${field} follows the row's events; use ${flagCommand}` });
       content = inSchemaOrder(home.table, setAt(before, stepsOf(field), parseFieldValue(home.table, field, text)));
     }
     return [{ path, content, replaces: true }];

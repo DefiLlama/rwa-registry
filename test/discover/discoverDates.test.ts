@@ -8,7 +8,7 @@ import { RateLimitedError } from '../../src/errors';
 import { answering, discoverConfig, fakeDiscoverDeps } from '../fakes/discover';
 import { fakeChain, fakeRpc } from '../fakes/rpc';
 import { readJson } from '../cli/runCli';
-import { assetFile, baseTree, undatedTslax, writeTree, xyzVenue, type Tree } from '../fixtures/tree';
+import { assetFile, baseTree, marketWith, undatedTslax, writeTree, xyzVenue, type Tree } from '../fixtures/tree';
 import { evmNode } from './readers/jsonRpc';
 
 const TSLAX = 'assets/xstocks/tslax.json';
@@ -234,5 +234,19 @@ describe('discoverDates', () => {
     expect(readJson(root, MARKET).events).toEqual([
       { kind: 'listing', date: '2025-07-01', links: [expect.stringContaining('binance')] },
     ]);
+  });
+
+  it("clears delisted when the listing it appends is later than the market's delisting", async () => {
+    const http = answering(() => ({ symbols: [{ symbol: 'TSLA', onboardDate: Date.parse('2025-07-01T08:00:00Z') }] }));
+    const delisting = { kind: 'delisting', date: '2025-01-01', reason: 'test', links: ['https://x.example/d'] };
+    const root = writeTree({
+      ...baseTree(),
+      'perps/xyz/venue.json': { ...xyzVenue(), adapter: 'binance' },
+      [MARKET]: marketWith({ delisted: true, events: [delisting] }),
+    });
+
+    await discoverDates(root, { venue: 'xyz' }, fakeDiscoverDeps({ http }));
+
+    expect(readJson(root, MARKET).review).toEqual({ suspicious: false, delisted: false });
   });
 });

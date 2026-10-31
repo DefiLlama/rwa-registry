@@ -158,6 +158,22 @@
       },
       "additionalProperties": false
     },
+    "review": {
+      "type": "object",
+      "properties": {
+        "suspicious": {
+          "type": "boolean"
+        },
+        "delisted": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "suspicious",
+        "delisted"
+      ],
+      "additionalProperties": false
+    },
     "roles": {
       "type": "array",
       "items": {
@@ -355,7 +371,8 @@
   },
   "required": [
     "identity",
-    "tracks"
+    "tracks",
+    "review"
   ],
   "additionalProperties": false
 }

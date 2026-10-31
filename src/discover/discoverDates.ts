@@ -8,6 +8,7 @@ import { writeAtomic } from '../cli/writeAtomic';
 import { loadRegistry } from '../registry';
 import { homeOf } from '../registry/layout';
 import { placeOf, type Place } from '../registry/place';
+import { fileWithReviewFlags } from '../registry/reviewFlags';
 import { inSchemaOrder, type Registry, type Row } from '../schema';
 import { chunk } from '../utils/chunk';
 import { setAt, stepsOf } from '../utils/fieldPath';
@@ -113,12 +114,12 @@ const marketWork = (registry: Registry, venue: string | undefined): Work<VenueTa
     });
 };
 
-// Each value set at its path in one file, written in schema order the way set writes a field.
+// Each value set at its path in one file, written in schema order the way set writes a field, through the write that sets the flags.
 const writeDated = (root: string, file: string, values: [path: string, value: unknown][]): void => {
   const table = homeOf(file)!.table;
   const json = JSON.parse(readFileSync(join(root, file), 'utf8')) as unknown;
   const set = values.reduce((into, [path, value]) => setAt(into, stepsOf(path), value), json);
-  writeAtomic(root, [{ path: file, text: jsonText(inSchemaOrder(table, set)) }]);
+  writeAtomic(root, [{ path: file, text: jsonText(fileWithReviewFlags(file, inSchemaOrder(table, set))) }]);
 };
 
 // A listing is one new event; a deployment's day goes with its basis, the sibling field deployedAtBasis.

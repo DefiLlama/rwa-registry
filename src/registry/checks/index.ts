@@ -3,6 +3,7 @@
  * @dev review: src/registry/loadRegistry.ts
  */
 import type { Registry } from '../../schema';
+import { dayOf } from '../../utils/days';
 import type { Problem } from '../problem';
 import { ackFields } from './ackFields';
 import { addressFormats } from './addressFormats';
@@ -20,12 +21,14 @@ import { organizationKinds } from './organizationKinds';
 import { platformFolders } from './platformFolders';
 import { primaryDeployments } from './primaryDeployments';
 import { references } from './references';
+import { reviewFlags } from './reviewFlags';
 import { underlyingClasses } from './underlyingClasses';
 import { uniqueKeys } from './uniqueKeys';
 import { unknownChains } from './unknownChains';
 import { venueAdapters } from './venueAdapters';
 
-export type Check = (registry: Registry) => Problem[];
+// day is the day the registry is checked at: today for validate and every write, --at for build.
+export type Check = (registry: Registry, day: string) => Problem[];
 
 export const checks: Check[] = [
   references,
@@ -39,6 +42,7 @@ export const checks: Check[] = [
   organizationKinds,
   underlyingClasses,
   flagOverrides,
+  reviewFlags,
   primaryDeployments,
   fileNames,
   displaySlugs,
@@ -50,4 +54,5 @@ export const checks: Check[] = [
   venueAdapters,
 ];
 
-export const checkRegistry = (registry: Registry): Problem[] => checks.flatMap((check) => check(registry));
+export const checkRegistry = (registry: Registry, day: string = dayOf(new Date())): Problem[] =>
+  checks.flatMap((check) => check(registry, day));

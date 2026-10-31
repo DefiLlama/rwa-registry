@@ -12,6 +12,29 @@ const withLtd = (extra: Tree = {}) =>
   writeTree({ ...baseTree(), [LTD]: { identity: { slug: 'xstocks-ltd', name: 'xStocks Ltd.' } }, ...extra });
 
 describe('merge', () => {
+  it("sets the kept row's flags from the events the two rows bring", async () => {
+    const delisting = { kind: 'delisting', date: '2026-10-20', reason: 'test', links: ['https://x.example/d'] };
+    const platform = (slug: string, name: string, extra: Record<string, unknown>) => ({
+      identity: { slug, name },
+      platform: { primaryChain: 'solana' },
+      review: { suspicious: false, delisted: false },
+      ...extra,
+    });
+    const root = writeTree({
+      ...baseTree(),
+      'assets/alpha/platform.json': platform('alpha', 'Alpha', {}),
+      'assets/beta/platform.json': platform('beta', 'Beta', {
+        review: { suspicious: false, delisted: true },
+        events: [delisting],
+      }),
+    });
+
+    const { code } = await runCli(['merge', 'organization', 'alpha', 'beta', '--registry', root, ...why]);
+
+    expect(code).toBe(0);
+    expect(readJson(root, 'assets/alpha/platform.json').review).toEqual({ suspicious: false, delisted: true });
+  });
+
   it('moves every reference from drop to keep, keeps the dropped name in the merge event, and removes drop', async () => {
     const root = writeTree({
       ...baseTree(),

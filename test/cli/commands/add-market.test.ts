@@ -39,6 +39,7 @@ describe('add market', () => {
     expect(file()).toEqual({
       identity: { symbol: 'TSLA_USD' },
       tracks: { underlying: 'tesla-inc', structure: 'stock-perp' },
+      review: { suspicious: false, delisted: false },
     });
   });
 

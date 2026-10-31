@@ -35,8 +35,6 @@
     "primaryChain": null,
     "chains": null,
     "attestationFrequency": null,
-    "suspicious": null,
-    "delisted": null,
     "onchainMcapBasis": null,
     "fees": {
       "revenueModel": null,
@@ -66,6 +64,10 @@
       "takeRateBasis": null,
       "revenueMix": null
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [],
   "events": []

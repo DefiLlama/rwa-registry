@@ -3,7 +3,15 @@
  * @dev review: src/cli/writeCommand.ts, src/cli/templates.ts, then src/cli/commands/add-asset.ts
  */
 import { FlagFormatError } from '../errors/cli';
-import { tables, toFile, type ChildKey, type Registry, type TableName, type VocabularyName } from '../schema';
+import {
+  inSchemaOrder,
+  tables,
+  toFile,
+  type ChildKey,
+  type Registry,
+  type TableName,
+  type VocabularyName,
+} from '../schema';
 import { isObject } from '../utils/isObject';
 import type { CliCommand } from './index';
 import { isEmpty, type Assigned } from './questionnaire';
@@ -136,8 +144,10 @@ export const defineAddCommand = (spec: AddSpec): CliCommand => {
       given: (options) => templateGiven(spec, fields, options),
       files: (values, registry, context) => {
         const addContext = { ...context, flags: values };
-        if (values.from === undefined) return spec.files(rowOf(values), registry, addContext);
-        const template = readTemplate(String(values.from), TEMPLATES[spec.template], rowOf(values));
+        const template =
+          values.from === undefined
+            ? rowOf(values)
+            : readTemplate(String(values.from), TEMPLATES[spec.template], rowOf(values));
         return spec.files(template, registry, addContext);
       },
     }),

@@ -116,14 +116,14 @@ interface EventKind {
 
 // What each event kind does: the tables it targets, whether it ends its target or sets its listing, when it needs a reason.
 export const EVENT_KINDS: Record<string, EventKind> = {
-  listing: { targets: ['asset', 'perp_market', 'venue'], lists: true },
+  listing: { targets: ['asset', 'perp_market', 'venue', 'organization'], lists: true },
   delisting: { targets: ['asset', 'perp_market', 'venue', 'organization'], lists: true },
   retirement: { targets: ['asset', 'deployment', 'perp_market'], ends: true, reason: 'always' },
   migration: { targets: ['asset', 'deployment'], ends: true },
   split: { targets: ['perp_market'], ends: true },
   roll: { targets: ['perp_market'] },
   attestation: { targets: ['asset', 'organization'] },
-  review: { targets: ['asset', 'perp_market', 'organization'], reason: 'when-suspicious' },
+  review: { targets: ['asset', 'perp_market', 'venue', 'organization'], reason: 'when-suspicious' },
   maturity: { targets: ['asset'], ends: true },
   'wind-down': { targets: ['asset', 'organization'] },
   paused: { targets: ['asset', 'perp_market', 'venue', 'organization'] },

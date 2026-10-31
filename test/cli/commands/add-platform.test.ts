@@ -12,6 +12,7 @@ describe('add platform', () => {
     expect(code).toBe(0);
     expect(readJson(root, 'assets/backed-finance/platform.json')).toEqual({
       identity: { slug: 'backed-finance', name: 'Backed Finance' },
+      review: { suspicious: false, delisted: false },
     });
   });
 });

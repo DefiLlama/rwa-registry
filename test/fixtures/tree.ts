@@ -16,7 +16,7 @@ export const tslaxFile = () => ({
   identity: { slug: 'tslax', symbol: 'TSLAx', name: 'Tesla xStock', legacyId: 257, canonicalMarketId: 'TSLAx' },
   exposure: { underlying: 'tesla-inc' },
   class: { structure: 'stock-backed', type: 'asset', rwaClassification: 'rwa', category: ['stocks-equities'] },
-  review: { activeAumReviewed: true },
+  review: { activeAumReviewed: true, suspicious: false, delisted: false },
   deployments: [
     {
       chain: 'solana',
@@ -54,6 +54,7 @@ export const tslaxWith = (fields: Record<string, unknown>) =>
 export const tslaMarketFile = () => ({
   identity: { symbol: 'TSLA', legacyId: 2921 },
   tracks: { underlying: 'tesla-inc', structure: 'stock-perp' },
+  review: { suspicious: false, delisted: false },
 });
 
 export const marketWith = (fields: Record<string, unknown>) =>
@@ -62,6 +63,7 @@ export const marketWith = (fields: Record<string, unknown>) =>
 export const xstocksPlatform = () => ({
   identity: { slug: 'xstocks', name: 'xStocks', legacyPid: 12 },
   platform: { primaryChain: 'solana' },
+  review: { suspicious: false, delisted: false },
 });
 
 export const xyzVenue = () => ({
@@ -73,6 +75,7 @@ export const xyzVenue = () => ({
   published: true,
   accessModel: 'permissionless',
   rwaClassification: 'programmable-finance',
+  review: { suspicious: false, delisted: false },
 });
 
 // A flows-hidden ack on TSLAx, the shape most kinds share.
@@ -126,7 +129,10 @@ export const baseTree = (): Tree => ({
   'reference/organizations/issuer/backed-assets-je-limited.json': {
     identity: { slug: 'backed-assets-je-limited', name: 'Backed Assets (JE) Limited' },
   },
-  'perps/xyz/organization.json': { identity: { slug: 'trade-xyz', name: 'trade[XYZ]', legacyPid: 219 } },
+  'perps/xyz/organization.json': {
+    identity: { slug: 'trade-xyz', name: 'trade[XYZ]', legacyPid: 219 },
+    review: { suspicious: false, delisted: false },
+  },
   'assets/xstocks/platform.json': xstocksPlatform(),
   'assets/xstocks/tslax.json': tslaxFile(),
   'perps/xyz/venue.json': xyzVenue(),

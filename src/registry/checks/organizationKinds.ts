@@ -1,11 +1,13 @@
 /**
- * organizationKinds: an organization's folder names a kind, the platform block sits on a platform kind, and a venue names one.
+ * organizationKinds: an organization's folder names a kind, the platform and review blocks sit on a platform kind, and a venue names one.
  * @dev review: src/registry/layout.ts
  */
 import { OrganizationKindError } from '../../errors';
 import { blockFields, type Registry } from '../../schema';
 import { PLATFORM_KINDS } from '../../schema/organization';
 import { report, type Problem } from '../problem';
+
+const PLATFORM_BLOCKS = ['platform', 'review'];
 
 export const organizationKinds = (registry: Registry): Problem[] => {
   const kinds = registry.vocabulary.filter((row) => row.vocabulary === 'organization-kind').map((row) => row.slug);
@@ -16,10 +18,12 @@ export const organizationKinds = (registry: Registry): Problem[] => {
       problems.push(report(OrganizationKindError, 'organization', row, '', message));
     }
     if (PLATFORM_KINDS.includes(row.kind)) continue;
-    const set = blockFields('organization', 'platform').filter((field) => (row as Record<string, unknown>)[field] != null);
-    for (const field of set) {
-      const message = `${field} is a field of the platform block, which only ${PLATFORM_KINDS.join(' and ')} organizations hold`;
-      problems.push(report(OrganizationKindError, 'organization', row, field, message));
+    for (const block of PLATFORM_BLOCKS) {
+      const set = blockFields('organization', block).filter((field) => (row as Record<string, unknown>)[field] != null);
+      for (const field of set) {
+        const message = `${field} is a field of the ${block} block, which only ${PLATFORM_KINDS.join(' and ')} organizations hold`;
+        problems.push(report(OrganizationKindError, 'organization', row, field, message));
+      }
     }
   }
   const kindOf = new Map(registry.organization.map((row) => [row.slug, row.kind]));

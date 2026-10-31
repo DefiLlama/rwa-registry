@@ -280,7 +280,11 @@ describe('checkRegistry', () => {
   it('fails a platform slug that is not rwaSlug of its name', () => {
     const misnamed = registryOf({
       ...baseTree(),
-      'assets/backed/platform.json': { identity: { slug: 'backed', name: 'Backed Finance' }, platform: { primaryChain: 'solana' } },
+      'assets/backed/platform.json': {
+        identity: { slug: 'backed', name: 'Backed Finance' },
+        platform: { primaryChain: 'solana' },
+        review: { suspicious: false, delisted: false },
+      },
       'assets/backed/btsla.json': assetFile('btsla', 9001),
     });
 
@@ -366,7 +370,7 @@ describe('the taxonomy and the organization homes', () => {
     const { problems } = load({
       ...baseTree(),
       'reference/organizations/oracles/chainlink.json': { identity: { slug: 'chainlink', name: 'Chainlink' } },
-      'reference/organizations/platform/ondo.json': { identity: { slug: 'ondo', name: 'Ondo' } },
+      'reference/organizations/platform/ondo.json': { identity: { slug: 'ondo', name: 'Ondo' }, review: { suspicious: false, delisted: false } },
     });
 
     expect(errorsIn(problems).map((problem) => [problem.error, problem.file])).toEqual([
@@ -395,7 +399,7 @@ describe('the taxonomy and the organization homes', () => {
     const [solana, ethereum] = tslax.deployments;
     const { problems } = load({
       ...baseTree(),
-      'perps/abc/organization.json': { identity: { slug: 'abc-labs', name: 'ABC Labs' } },
+      'perps/abc/organization.json': { identity: { slug: 'abc-labs', name: 'ABC Labs' }, review: { suspicious: false, delisted: false } },
       'assets/xstocks/tslax.json': { ...tslax, deployments: [solana, { ...ethereum, primary: true }] },
     });
 
@@ -422,7 +426,7 @@ describe('the taxonomy and the organization homes', () => {
   it('asks no primary deployment of an asset with no known contract on a platform with no primary chain', () => {
     const { problems } = load({
       ...baseTree(),
-      'assets/xstocks/platform.json': { identity: xstocksPlatform().identity },
+      'assets/xstocks/platform.json': { identity: xstocksPlatform().identity, review: { suspicious: false, delisted: false } },
       'assets/xstocks/tslax.json': tslaxWith({ deployments: [{ chain: 'base' }] }),
     });
 

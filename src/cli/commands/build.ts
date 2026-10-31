@@ -25,12 +25,12 @@ export const build: CliCommand = {
       print('build needs --commit, the commit the registry is built from');
       return 1;
     }
-    const loaded = loadRegistry(registryOf(registry));
+    const day = typeof at === 'string' ? at : today();
+    const loaded = loadRegistry(registryOf(registry), day);
     const problems = loaded.problems;
     const errors = problems.filter((problem) => problem.severity === 'error');
     errors.forEach((problem) => print(`${problem.file}: ${problem.message}`));
     if (errors.length) return 1;
-    const day = typeof at === 'string' ? at : today();
     const derived = deriveFields(loaded.registry, day);
     const dir = typeof out === 'string' ? out : 'dist';
     mkdirSync(dir, { recursive: true });

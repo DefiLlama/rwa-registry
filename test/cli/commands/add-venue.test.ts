@@ -40,9 +40,11 @@ describe('add venue', () => {
       published: false,
       accessModel: 'permissionless',
       rwaClassification: 'programmable-finance',
+      review: { suspicious: false, delisted: false },
     });
     expect(readJson(root, 'perps/hibachi/organization.json')).toEqual({
       identity: { slug: 'hibachi', name: 'Hibachi' },
+      review: { suspicious: false, delisted: false },
     });
   });
 
@@ -103,6 +105,7 @@ describe('add venue', () => {
     expect(readJson(root, 'perps/hibachi/organization.json')).toEqual({
       identity: { slug: 'hibachi', name: 'Hibachi' },
       about: { links: { website: ['https://hibachi.xyz'] } },
+      review: { suspicious: false, delisted: false },
     });
   });
 });

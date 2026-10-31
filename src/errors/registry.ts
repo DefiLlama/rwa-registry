@@ -37,3 +37,5 @@ export class UnderlyingClassError extends RegistryError {}
 export class OrganizationKindError extends RegistryError {}
 export class PrimaryDeploymentError extends RegistryError {}
 export class StaleFlagOverrideError extends RegistryError {}
+export class ReviewFlagError extends RegistryError {}
+export class FutureEventError extends RegistryError {}

@@ -48,10 +48,9 @@ export const asset = defineTable({
     logo: optional(text),
     links: optional(assetLinks),
     activeAumReviewed: optional(flag),
-    // The sheet's flags: a blank is left out, so the server publishes null. suspicious and delisted hold only the
-    // sheet's FALSE, since a TRUE is the review or delisting event.
-    suspicious: optional(z.literal(false)),
-    delisted: optional(z.literal(false)),
+    // On an asset, market, venue and platform: set from the row's events on every write (src/registry/reviewFlags.ts).
+    suspicious: flag,
+    delisted: flag,
     primaryChain: ref,
     issuerProtocolIds: optional(z.array(protocolId)),
     kind: optional(enums.assetKind),

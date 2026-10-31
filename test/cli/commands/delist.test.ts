@@ -3,22 +3,46 @@ import { join } from 'node:path';
 import { describe, expect, it } from 'vitest';
 import { main } from '../../../src/cli';
 import { ASKS, today } from '../../../src/cli/writeCommand';
-import { baseTree, writeTree } from '../../fixtures/tree';
+import { baseTree, marketWith, writeTree } from '../../fixtures/tree';
 import { fakeAsk } from '../../fakes/prompter';
 import { readJson, runCli } from '../runCli';
 
 const why = ['--at', '2026-10-24', '--reason', 'venue closed the book', '--source', 'https://x.example/notice'];
 
 describe('delist', () => {
-  it('writes a dated delisting event on the market file, which derives the delisted status', async () => {
+  it('sets delisted and writes a dated delisting event on the market file, which derives the delisted status', async () => {
     const root = writeTree(baseTree());
 
     const { code } = await runCli(['delist', 'market', 'xyz:TSLA', '--registry', root, ...why]);
 
     expect(code).toBe(0);
+    expect(readJson(root, 'perps/xyz/tsla.json').review).toEqual({ suspicious: false, delisted: true });
     expect(readJson(root, 'perps/xyz/tsla.json').events).toEqual([
       { kind: 'delisting', date: '2026-10-24', reason: 'venue closed the book', links: ['https://x.example/notice'] },
     ]);
+  });
+
+  it('refuses a day after today and writes nothing', async () => {
+    const root = writeTree(baseTree());
+    const before = readFileSync(join(root, 'perps/xyz/tsla.json'), 'utf8');
+    const late = why.map((arg) => (arg === '2026-10-24' ? '2999-01-01' : arg));
+
+    const { code } = await runCli(['delist', 'market', 'xyz:tsla', '--registry', root, ...late]);
+
+    expect(code).toBe(1);
+    expect(readFileSync(join(root, 'perps/xyz/tsla.json'), 'utf8')).toBe(before);
+  });
+
+  it('refuses a day before a later listing, which would leave the target listed', async () => {
+    const listing = { kind: 'listing', date: '2026-10-25', links: ['https://x.example/l'] };
+    const root = writeTree({ ...baseTree(), 'perps/xyz/tsla.json': marketWith({ events: [listing] }) });
+    const before = readFileSync(join(root, 'perps/xyz/tsla.json'), 'utf8');
+
+    const { code, lines } = await runCli(['delist', 'market', 'xyz:tsla', '--registry', root, ...why]);
+
+    expect(code).toBe(1);
+    expect(lines.join('\n')).toContain('2026-10-25');
+    expect(readFileSync(join(root, 'perps/xyz/tsla.json'), 'utf8')).toBe(before);
   });
 
   it('refuses a target that is already delisted and writes nothing', async () => {

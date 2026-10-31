@@ -101,7 +101,8 @@ const registryFiles = (root: string): string[] => [...listFiles(root), ...listAc
 const emptyRegistry = (): Registry =>
   Object.fromEntries(TABLE_NAMES.map((table) => [table, []])) as unknown as Registry;
 
-export const loadRegistry = (root: string): { registry: Registry; problems: Problem[] } => {
+// day is the day the checks read the registry at, today unless a build names its own.
+export const loadRegistry = (root: string, day?: string): { registry: Registry; problems: Problem[] } => {
   const registry = emptyRegistry();
   const problems: Problem[] = [];
   const files = registryFiles(root);
@@ -115,6 +116,6 @@ export const loadRegistry = (root: string): { registry: Registry; problems: Prob
     const json = homeOf(file) ? read(file) : null;
     if (json !== undefined) problems.push(...loadFile(registry, file, json, vocabularies));
   }
-  problems.push(...checkRegistry(registry));
+  problems.push(...checkRegistry(registry, day));
   return { registry, problems };
 };

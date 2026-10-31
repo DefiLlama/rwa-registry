@@ -20,7 +20,7 @@ export const addPlatform = defineAddCommand({
       required: true,
     },
   ],
-  // A new platform has no PID; suspicious and delisted hold only the sheet's FALSE.
+  // A new platform has no PID; the write sets suspicious and delisted from the file's events.
   derived: ['kind', 'slug', 'legacyPid', 'suspicious', 'delisted'],
   assigned: [
     { name: 'slug', derive: (values) => (values.name === undefined ? undefined : rwaSlug(String(values.name))) },

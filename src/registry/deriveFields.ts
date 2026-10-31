@@ -18,13 +18,13 @@ const endedRows = (registry: Registry, day: string): ((table: TableName, row: ob
 };
 
 // An undated event has happened on an unknown day, so it sorts after every dated one.
-export const latestOf = (events: Event[], kinds: string[]): Event | undefined =>
+export const latestOf = <E extends Pick<Event, 'kind' | 'date'>>(events: E[], kinds: string[]): E | undefined =>
   events
     .filter((event) => kinds.includes(event.kind))
     .sort((a, b) => (a.date ?? '9999').localeCompare(b.date ?? '9999'))
     .at(-1);
 
-const LISTING_KINDS = Object.keys(EVENT_KINDS).filter((kind) => EVENT_KINDS[kind]!.lists === true);
+export const LISTING_KINDS = Object.keys(EVENT_KINDS).filter((kind) => EVENT_KINDS[kind]!.lists === true);
 
 const statusOf = (events: Event[], at: string): 'listed' | 'delisted' | 'retired' => {
   if (events.some((event) => endsTarget(event, at))) return 'retired';

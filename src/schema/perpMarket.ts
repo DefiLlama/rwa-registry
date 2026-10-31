@@ -5,7 +5,7 @@
 import { z } from 'zod';
 import { defineTable } from './defineTable';
 import * as enums from './enums';
-import { integer, number, optional, ref, text } from './primitives';
+import { flag, integer, number, optional, ref, text } from './primitives';
 
 export const perpMarket = defineTable({
   fields: (v) => ({
@@ -25,6 +25,8 @@ export const perpMarket = defineTable({
     // The sheet's website and issuer where they differ from the venue's.
     website: optional(text),
     issuer: optional(text),
+    suspicious: flag,
+    delisted: flag,
     id: optional(text),
     status: optional(enums.status),
   }),
@@ -37,5 +39,6 @@ export const perpMarket = defineTable({
     tracks: [['underlying', 'tracks'], ['asset', 'tracksAsset'], 'structure'],
     terms: ['collateral', 'pair', 'makerFeeBps', 'takerFeeBps'],
     about: ['description', 'website', 'issuer'],
+    review: ['suspicious', 'delisted'],
   },
 });

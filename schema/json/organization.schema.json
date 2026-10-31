@@ -360,28 +360,6 @@
             }
           ]
         },
-        "suspicious": {
-          "anyOf": [
-            {
-              "type": "boolean",
-              "const": false
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "delisted": {
-          "anyOf": [
-            {
-              "type": "boolean",
-              "const": false
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
         "onchainMcapBasis": {
           "anyOf": [
             {
@@ -669,6 +647,32 @@
                 }
               },
               "additionalProperties": false
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "review": {
+      "type": "object",
+      "properties": {
+        "suspicious": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "delisted": {
+          "anyOf": [
+            {
+              "type": "boolean"
             },
             {
               "type": "null"

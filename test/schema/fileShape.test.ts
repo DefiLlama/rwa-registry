@@ -15,6 +15,8 @@ const tslaxRow = {
   redeemable: true,
   coingeckoId: null,
   activeAumReviewed: true,
+  suspicious: false,
+  delisted: false,
 };
 
 describe('fileShape', () => {
@@ -27,7 +29,7 @@ describe('fileShape', () => {
       class: { structure: 'stock-backed', type: 'asset', rwaClassification: 'rwa', category: ['stocks-equities'] },
       terms: { redeemable: true },
       sources: { coingeckoId: null },
-      review: { activeAumReviewed: true },
+      review: { activeAumReviewed: true, suspicious: false, delisted: false },
       deployments: [{ chain: 'solana', address: 'Xs', primary: true }],
     });
     expect(Object.keys(file)).toEqual(['identity', 'exposure', 'class', 'terms', 'sources', 'review', 'deployments']);

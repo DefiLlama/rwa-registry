@@ -23,6 +23,8 @@ export const addVenue = defineAddCommand({
   name: 'add venue',
   description: 'add one venue file, and its organization when it is new',
   template: 'venue',
+  // Never asked: the write sets suspicious and delisted from the file's events.
+  derived: ['suspicious', 'delisted'],
   fields: [
     {
       flag: '--name <text>',

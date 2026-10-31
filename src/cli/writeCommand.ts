@@ -6,6 +6,7 @@ import { existsSync, readFileSync } from 'node:fs';
 import { join, relative } from 'node:path';
 import { CliError, FlagFormatError, MissingFieldError, NoSuchRowError, RowExistsError } from '../errors/cli';
 import { ACKS_DIR, loadRegistry } from '../registry';
+import { fileWithReviewFlags } from '../registry/reviewFlags';
 import type { Registry } from '../schema';
 import { dayOf } from '../utils/days';
 import { jsonText } from '../utils/writeFile';
@@ -95,10 +96,12 @@ const conflictsOf = (root: string, files: FileToWrite[]) =>
   });
 
 // The planned files as they would be written: the text, and the file they replace or remove.
+// Every file passes fileWithReviewFlags, so no command sets the flags itself.
 const stagedOf = (files: FileToWrite[], exists: (path: string) => boolean, read: (path: string) => unknown): Staged[] =>
   files.map((file) => {
     const before = (file.replaces || file.remove) && exists(file.path) ? read(file.path) : undefined;
-    return { ...file, text: file.remove ? '' : jsonText(file.content), before };
+    const content = file.remove ? undefined : fileWithReviewFlags(file.path, file.content);
+    return { ...file, content, text: file.remove ? '' : jsonText(content), before };
   });
 
 const argumentsOf = (spec: WriteSpec) => {

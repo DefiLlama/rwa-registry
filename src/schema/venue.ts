@@ -22,8 +22,11 @@ export const venue = defineTable({
     accessModel: v['access-model'],
     rwaClassification: v['rwa-classification'],
     conventionNote: optional(text),
+    suspicious: flag,
+    delisted: flag,
     status: optional(enums.status),
   }),
   build: ['status'],
   children: { roles: 'role', events: 'event' },
+  blocks: { review: ['suspicious', 'delisted'] },
 });

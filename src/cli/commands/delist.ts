@@ -1,13 +1,13 @@
 /**
- * delist: a dated delisting event on an asset, market, venue or platform; its status derives delisted from it.
+ * delist: a dated delisting event on an asset, market, venue or platform, from which its delisted flag and status follow.
  * @dev review: src/cli/eventCommand.ts
  */
-import { latestOf } from '../../registry';
+import { reviewFlagsOf } from '../../registry/reviewFlags';
 import { defineEventCommand } from '../eventCommand';
 
 export const delist = defineEventCommand({
   name: 'delist',
-  description: 'delist an asset, market, venue or platform with a dated event',
+  description: 'delist an asset, market, venue or platform: set delisted and add a dated delisting event',
   kind: 'delisting',
-  state: (events) => (latestOf(events, ['listing', 'delisting'])?.kind === 'delisting' ? 'is already delisted' : null),
+  state: (events) => (reviewFlagsOf(events).delisted ? 'is already delisted' : null),
 });

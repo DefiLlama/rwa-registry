@@ -16,6 +16,7 @@ import { addValue } from './commands/add-value';
 import { addVenue } from './commands/add-venue';
 import { build } from './commands/build';
 import { delist } from './commands/delist';
+import { relist } from './commands/relist';
 import { discover } from './commands/discover';
 import { merge } from './commands/merge';
 import { pause } from './commands/pause';
@@ -54,6 +55,7 @@ export const commands: CliCommand[] = [
   addUnderlying,
   addValue,
   delist,
+  relist,
   pause,
   resume,
   review,

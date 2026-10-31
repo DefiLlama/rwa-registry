@@ -13,6 +13,10 @@
   "accessModel": "permissionless",
   "rwaClassification": "programmable-finance",
   "conventionNote": null,
+  "review": {
+    "suspicious": false,
+    "delisted": false
+  },
   "roles": [],
   "events": [],
   "operator": null

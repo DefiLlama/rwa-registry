@@ -15,6 +15,7 @@ pnpm rwa add asset --from ionqx.json
 - A vocabulary field takes a slug from `registry/reference/vocabularies/`. A value that is not there is refused, and the message names the nearest one.
 - A row a field names must exist first: the platform before its assets, the underlying before an asset or market that tracks it, the venue before its markets, and the organization before a role or venue names it.
 - A key the schema does not know is refused.
+- `review.suspicious` and `review.delisted` may stay false: the write sets both from the template's `events` (`docs/model.md`).
 
 ## The files
 

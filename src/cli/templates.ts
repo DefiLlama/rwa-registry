@@ -31,7 +31,7 @@ const SPECS = {
     implied: 'kind',
     assigned: ['slug'],
     needs: ['kind', 'name'],
-    omits: ['platform'],
+    omits: ['platform', 'review'],
   },
   venue: { table: 'venue', beside: 'operator', needs: ['slug'] },
   market: { table: 'perp_market', implied: 'venue', needs: ['venue', 'symbol'] },

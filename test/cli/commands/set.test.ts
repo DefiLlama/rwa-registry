@@ -18,6 +18,16 @@ describe('set', () => {
     expect(readJson(root, TSLA).terms.makerFeeBps).toBe(1.5);
   });
 
+  it('refuses a review flag, which follows the events, and writes nothing', async () => {
+    const root = writeTree(baseTree());
+    const before = readJson(root, TSLA);
+
+    const { code } = await set(root, TSLA, 'review.delisted', 'true');
+
+    expect(code).toBe(1);
+    expect(readJson(root, TSLA)).toEqual(before);
+  });
+
   it('refuses a value that is not of the field type', async () => {
     const root = writeTree(baseTree());
 

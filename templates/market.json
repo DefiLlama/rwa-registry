@@ -21,6 +21,10 @@
     "website": null,
     "issuer": null
   },
+  "review": {
+    "suspicious": false,
+    "delisted": false
+  },
   "roles": [
     {
       "organization": "pyth-network",

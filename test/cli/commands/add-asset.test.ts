@@ -105,7 +105,7 @@ describe('add asset', () => {
       identity: { slug: 'nvdax', symbol: 'NVDAx', name: 'NVIDIA xStock', legacyId: 9718, canonicalMarketId: 'NVDAx' },
       exposure: { underlying: 'nvidia-corporation' },
       class: { structure: 'stock-backed', type: 'asset', rwaClassification: 'rwa', category: ['stocks-equities'] },
-      review: { activeAumReviewed: false },
+      review: { activeAumReviewed: false, suspicious: false, delisted: false },
       deployments: [
         { chain: 'solana', address: SOLANA, deployedAt: '2025-06-30', primary: true },
         { chain: 'ethereum', address: ETHEREUM.toLowerCase(), deployedAt: '2025-07-01' },

@@ -467,7 +467,7 @@ export const createAddAssetCommand = (deps: Deps = {}) =>
           'never ask the chain for a missing deployment date; a deployment given without one stays undated, and validate warns until it is set',
       },
     ],
-    // A new asset is not reviewed yet; suspicious and delisted hold only the sheet's FALSE.
+    // A new asset is not reviewed yet; the write sets suspicious and delisted from the file's events.
     derived: ['slug', 'legacyId', 'activeAumReviewed', 'suspicious', 'delisted'],
     assigned: (['slug', 'legacyId'] as const).map((key) => ({
       name: key === 'slug' ? 'slug' : 'legacy id',

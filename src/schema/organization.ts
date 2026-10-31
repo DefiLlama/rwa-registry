@@ -8,7 +8,7 @@ import * as enums from './enums';
 import { fees } from './fees';
 import { identifier } from './identifier';
 import { links } from './links';
-import { integer, optional, ref, slug, text } from './primitives';
+import { flag, integer, optional, ref, slug, text } from './primitives';
 
 // The kinds with a home of their own and the platform block, both published as platforms.
 export const PLATFORM_KINDS: readonly string[] = ['platform', 'venue-operator'];
@@ -38,12 +38,10 @@ export const organization = defineTable({
     primaryChain: optional(ref),
     chains: optional(z.array(ref)),
     attestationFrequency: optional(text),
-    // The sheet's flags: a blank is left out, so the server publishes null. suspicious and delisted hold only the
-    // sheet's FALSE, since a TRUE is the review or delisting event.
-    suspicious: optional(z.literal(false)),
-    delisted: optional(z.literal(false)),
     onchainMcapBasis: optional(enums.mcapBasis),
     fees: optional(fees(v)),
+    suspicious: optional(flag),
+    delisted: optional(flag),
     status: optional(enums.status),
   }),
   implied: 'kind',
@@ -70,10 +68,9 @@ export const organization = defineTable({
       'primaryChain',
       'chains',
       'attestationFrequency',
-      'suspicious',
-      'delisted',
       'onchainMcapBasis',
       'fees',
     ],
+    review: ['suspicious', 'delisted'],
   },
 });

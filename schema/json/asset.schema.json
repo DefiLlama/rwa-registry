@@ -374,28 +374,16 @@
           ]
         },
         "suspicious": {
-          "anyOf": [
-            {
-              "type": "boolean",
-              "const": false
-            },
-            {
-              "type": "null"
-            }
-          ]
+          "type": "boolean"
         },
         "delisted": {
-          "anyOf": [
-            {
-              "type": "boolean",
-              "const": false
-            },
-            {
-              "type": "null"
-            }
-          ]
+          "type": "boolean"
         }
       },
+      "required": [
+        "suspicious",
+        "delisted"
+      ],
       "additionalProperties": false
     },
     "deployments": {
@@ -804,7 +792,8 @@
   "required": [
     "identity",
     "exposure",
-    "class"
+    "class",
+    "review"
   ],
   "additionalProperties": false
 }

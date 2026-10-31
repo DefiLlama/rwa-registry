@@ -2,7 +2,7 @@ import { mkdtempSync, readdirSync, readFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { describe, expect, it } from 'vitest';
-import { baseTree, writeTree } from '../../fixtures/tree';
+import { baseTree, marketWith, writeTree } from '../../fixtures/tree';
 import { main } from '../../../src/cli';
 import { runCli } from '../runCli';
 
@@ -16,6 +16,30 @@ describe('build', () => {
     expect((await runCli(['build', '--registry', writeTree(baseTree())])).lines).toEqual([
       'build needs --commit, the commit the registry is built from',
     ]);
+  });
+
+  it('refuses a build day before a listing, delisting or review event, so the flags and the status agree', async () => {
+    const delisting = { kind: 'delisting', date: '2026-10-26', reason: 'test', links: ['https://x.example/d'] };
+    const registry = writeTree({
+      ...baseTree(),
+      'perps/xyz/tsla.json': marketWith({ delisted: true, events: [delisting] }),
+    });
+    const out = mkdtempSync(join(tmpdir(), 'rwa-build-'));
+
+    const { code } = await runCli([
+      'build',
+      '--registry',
+      registry,
+      '--out',
+      out,
+      '--commit',
+      'abc',
+      '--at',
+      '2026-10-25',
+    ]);
+
+    expect(code).toBe(1);
+    expect(readdirSync(out)).toEqual([]);
   });
 
   it('writes registry.json alone under --out, with version 1 and the commit', async () => {

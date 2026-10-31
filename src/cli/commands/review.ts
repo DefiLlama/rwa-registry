@@ -1,24 +1,17 @@
 /**
- * review: a dated review event on an asset, suspicious or cleared; a suspicious outcome needs its reason.
+ * review: a dated review event on an asset, market, venue or platform, suspicious or cleared, from which its suspicious flag follows; a suspicious outcome needs its reason.
  * @dev review: src/cli/eventCommand.ts
  */
-import { defineEventCommand } from '../eventCommand';
-import { targetRow, targetSlugs } from '../targetRow';
+import { reviewFlagsOf } from '../../registry/reviewFlags';
+import { defineEventCommand, targetFields } from '../eventCommand';
 import { today } from '../writeCommand';
 
 export const review = defineEventCommand({
   name: 'review',
-  description: "record a review of an asset's data, suspicious or cleared, with a dated event",
+  description: 'record a review of an asset, market, venue or platform: set suspicious and add a dated review event',
   kind: 'review',
   fields: [
-    {
-      flag: '<asset>',
-      description: 'the asset reviewed',
-      label: 'asset',
-      question: 'Which asset did you review?',
-      required: true,
-      choices: (registry) => targetSlugs(registry, 'asset'),
-    },
+    ...targetFields('review'),
     {
       flag: '--outcome <outcome>',
       description: 'suspicious or cleared',
@@ -60,7 +53,9 @@ export const review = defineEventCommand({
       fallback: () => today(),
     },
   ],
-  target: (args, registry) => targetRow(registry, 'asset', args[0]!),
+  // A second suspicious review would change nothing; a cleared one is a check worth recording at any time.
+  state: (events, values) =>
+    values.outcome === 'suspicious' && reviewFlagsOf(events).suspicious ? 'is already suspicious' : null,
   event: (values) => ({
     outcome: values.outcome,
     reason: values.reason,

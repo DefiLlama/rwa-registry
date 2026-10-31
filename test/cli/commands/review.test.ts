@@ -4,13 +4,13 @@ import { baseTree, writeTree } from '../../fixtures/tree';
 import { fakeAsk } from '../../fakes/prompter';
 import { readJson, runCli } from '../runCli';
 
-const base = (root: string) => [
+const base = (root: string, target = ['asset', 'tslax'], day = '2026-10-24') => [
   'review',
-  'tslax',
+  ...target,
   '--registry',
   root,
   '--at',
-  '2026-10-24',
+  day,
   '--source',
   'https://x.example/r',
 ];
@@ -40,6 +40,51 @@ describe('review', () => {
     });
   });
 
+  it('sets suspicious from the outcome, true when suspicious and false once cleared', async () => {
+    const root = writeTree(baseTree());
+
+    await runCli([...base(root), '--outcome', 'suspicious', '--reason', 'reserves unattested since June']);
+    const flagged = readJson(root, 'assets/xstocks/tslax.json').review;
+    await runCli([...base(root, ['asset', 'tslax'], '2026-10-25'), '--outcome', 'cleared']);
+
+    expect(flagged).toEqual({ activeAumReviewed: true, suspicious: true, delisted: false });
+    expect(readJson(root, 'assets/xstocks/tslax.json').review).toEqual({
+      activeAumReviewed: true,
+      suspicious: false,
+      delisted: false,
+    });
+  });
+
+  it('reviews a venue as delist names it, setting suspicious with the event', async () => {
+    const root = writeTree(baseTree());
+
+    const { code } = await runCli([...base(root, ['venue', 'xyz']), '--outcome', 'suspicious', '--reason', 'test']);
+
+    expect(code).toBe(0);
+    expect(readJson(root, 'perps/xyz/venue.json').review).toEqual({ suspicious: true, delisted: false });
+    expect(readJson(root, 'perps/xyz/venue.json').events.at(-1)).toMatchObject({
+      kind: 'review',
+      outcome: 'suspicious',
+    });
+  });
+
+  it('refuses a target that is already suspicious and writes nothing', async () => {
+    const root = writeTree(baseTree());
+    await runCli([...base(root, ['market', 'xyz:tsla']), '--outcome', 'suspicious', '--reason', 'test']);
+    const before = readJson(root, 'perps/xyz/tsla.json');
+
+    const { code, lines } = await runCli([
+      ...base(root, ['market', 'xyz:tsla']),
+      '--outcome',
+      'suspicious',
+      '--reason',
+      'again',
+    ]);
+
+    expect(code).toBe(1);
+    expect(readJson(root, 'perps/xyz/tsla.json')).toEqual(before);
+  });
+
   it('refuses a suspicious outcome without a reason', async () => {
     const root = writeTree(baseTree());
 
@@ -51,10 +96,11 @@ describe('review', () => {
 });
 
 describe('review, asked', () => {
-  it('asks the asset, the outcome, the reason, the source, the reviewer and the day, then writes', async () => {
+  it('asks the target, its slug, the outcome, the reason, the source, the reviewer and the day, then writes', async () => {
     const root = writeTree(baseTree());
     const prompter = fakeAsk({
-      asset: 'tslax',
+      target: 'asset',
+      slug: 'tslax',
       outcome: 'suspicious',
       reason: 'reserves unattested since June',
       source: 'https://x.example/r',
@@ -65,8 +111,8 @@ describe('review, asked', () => {
     const question = (key: string) => prompter.asked.find((asked) => asked.key === key)!;
 
     expect(code).toBe(0);
-    expect(prompter.keys()).toEqual(['asset', 'outcome', 'reason', 'source', 'reviewer', 'at', 'confirm']);
-    expect(question('asset').choices).toEqual(['tslax']);
+    expect(prompter.keys()).toEqual(['target', 'slug', 'outcome', 'reason', 'source', 'reviewer', 'at', 'confirm']);
+    expect(question('slug').choices).toEqual(['tslax']);
     expect(question('outcome').choices).toEqual(['suspicious', 'cleared']);
     expect(question('at').default).toBe(today());
     expect(prompter.asked.at(-1)!.message).toContain('reviewer: icellama');
@@ -83,15 +129,15 @@ describe('review, asked', () => {
     const suspicious = fakeAsk({ outcome: 'suspicious', reason: 'x', source: 'https://x.example/r' });
     const cleared = fakeAsk({ outcome: 'cleared', source: 'https://x.example/r' });
 
-    await runCli(['review', 'tslax', '--registry', root, '--dry-run'], suspicious.ask);
-    await runCli(['review', 'tslax', '--registry', root, '--dry-run'], cleared.ask);
+    await runCli(['review', 'asset', 'tslax', '--registry', root, '--dry-run'], suspicious.ask);
+    await runCli(['review', 'asset', 'tslax', '--registry', root, '--dry-run'], cleared.ask);
 
     expect(suspicious.keys()[0]).toBe('outcome');
     expect(suspicious.asked.find((question) => question.key === 'reason')!.optional).toBe(false);
     expect(cleared.asked.find((question) => question.key === 'reason')!.optional).toBe(true);
   });
 
-  it('refuses a missing asset under --no-input', async () => {
+  it('refuses a missing target under --no-input', async () => {
     const root = writeTree(baseTree());
 
     const { code, lines } = await runCli(
@@ -100,6 +146,6 @@ describe('review, asked', () => {
     );
 
     expect(code).toBe(1);
-    expect(lines).toEqual(['review: <asset> is required']);
+    expect(lines).toEqual(['review: <target> is required', 'review: <slug> is required']);
   });
 });
