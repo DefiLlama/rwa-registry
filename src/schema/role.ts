@@ -4,7 +4,7 @@
  */
 import { z } from 'zod';
 import { defineTable } from './defineTable';
-import { date, optional, protocolId, ref, text } from './primitives';
+import { date, optional, protocolId, ref, url } from './primitives';
 import { target } from './target';
 
 export const role = defineTable({
@@ -14,7 +14,7 @@ export const role = defineTable({
     target: target,
     from: optional(date),
     to: optional(date),
-    sourceLinks: optional(z.array(text)),
+    sourceLinks: optional(z.array(url)),
     protocolIds: optional(z.array(protocolId)),
   }),
   implied: 'target',

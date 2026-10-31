@@ -4,7 +4,7 @@
  */
 import { z } from 'zod';
 import type { VocabularyTypes } from './defineTable';
-import { date, flag, number, optional, text } from './primitives';
+import { date, flag, number, optional, text, url } from './primitives';
 
 export const fees = (v: VocabularyTypes) =>
   z.strictObject({
@@ -20,11 +20,11 @@ export const fees = (v: VocabularyTypes) =>
     floatIncome: optional(flag),
     platformSetupFeeUsd: optional(number),
     platformRecurringServiceFeeUsdPerYr: optional(number),
-    prospectusUrl: optional(text),
-    feeScheduleUrl: optional(text),
-    issuerDocsUrl: optional(text),
-    tcsUrl: optional(text),
-    governanceWhitepaperUrl: optional(text),
+    prospectusUrl: optional(url),
+    feeScheduleUrl: optional(url),
+    issuerDocsUrl: optional(url),
+    tcsUrl: optional(url),
+    governanceWhitepaperUrl: optional(url),
     revenueConfidence: optional(v['revenue-confidence']),
     feeLastVerified: optional(date),
     feeWaiverEndDate: optional(date),

@@ -8,7 +8,7 @@ import * as enums from './enums';
 import { fees } from './fees';
 import { identifier } from './identifier';
 import { links } from './links';
-import { flag, integer, optional, ref, slug, text } from './primitives';
+import { flag, integer, optional, ref, slug, text, url } from './primitives';
 
 // The kinds with a home of their own and the platform block, both published as platforms.
 export const PLATFORM_KINDS: readonly string[] = ['platform', 'venue-operator'];
@@ -22,7 +22,7 @@ export const organization = defineTable({
     legacyPid: optional(integer),
     protocolSlug: optional(text),
     description: optional(text),
-    logo: optional(text),
+    logo: optional(url),
     links: optional(links),
     registryInfo: optional(text),
     foundedYear: optional(integer),

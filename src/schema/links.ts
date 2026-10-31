@@ -3,17 +3,17 @@
  * @dev review: src/schema/organization.ts
  */
 import { z } from 'zod';
-import { optional, text } from './primitives';
+import { optional, url } from './primitives';
 
 export const links = z.strictObject({
-  website: optional(z.array(text)),
-  twitter: optional(text),
-  docs: optional(text),
-  linkedin: optional(text),
-  discord: optional(text),
-  telegram: optional(text),
-  github: optional(text),
-  refLinks: optional(z.array(text)),
+  website: optional(z.array(url)),
+  twitter: optional(url),
+  docs: optional(url),
+  linkedin: optional(url),
+  discord: optional(url),
+  telegram: optional(url),
+  github: optional(url),
+  refLinks: optional(z.array(url)),
 });
 
 // An asset holds its product pages only; its social accounts and referral links are its platform's.

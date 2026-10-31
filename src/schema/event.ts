@@ -5,7 +5,7 @@
 import { z } from 'zod';
 import { defineTable } from './defineTable';
 import * as enums from './enums';
-import { date, optional, text } from './primitives';
+import { date, optional, text, url } from './primitives';
 import { target } from './target';
 
 export const event = defineTable({
@@ -16,7 +16,7 @@ export const event = defineTable({
     successor: optional(target),
     outcome: optional(enums.reviewOutcome),
     reason: optional(text),
-    links: optional(z.array(text)),
+    links: optional(z.array(url)),
     note: optional(text),
   }),
   implied: 'target',

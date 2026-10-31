@@ -5,7 +5,7 @@
 import { z } from 'zod';
 import { defineTable } from './defineTable';
 import { identifier } from './identifier';
-import { optional, slug, text } from './primitives';
+import { optional, slug, text, url } from './primitives';
 
 export const underlying = defineTable({
   fields: (v) => ({
@@ -13,7 +13,7 @@ export const underlying = defineTable({
     name: text,
     ticker: optional(text),
     // The logo a market that tracks it shows.
-    logo: optional(text),
+    logo: optional(url),
     class: slug,
     exposure: v['asset-group'],
     identifiers: optional(z.array(identifier)),

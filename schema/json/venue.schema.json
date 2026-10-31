@@ -169,7 +169,8 @@
               {
                 "type": "array",
                 "items": {
-                  "type": "string"
+                  "type": "string",
+                  "format": "uri"
                 }
               },
               {
@@ -295,7 +296,8 @@
               {
                 "type": "array",
                 "items": {
-                  "type": "string"
+                  "type": "string",
+                  "format": "uri"
                 }
               },
               {

@@ -45,7 +45,7 @@ export const asset = defineTable({
     // The issuer's documents for this one asset, such as a property's deed or offering memorandum.
     documents: optional(z.array(url)),
     description: optional(text),
-    logo: optional(text),
+    logo: optional(url),
     links: optional(assetLinks),
     activeAumReviewed: optional(flag),
     // On an asset, market, venue and platform: set from the row's events on every write (src/registry/reviewFlags.ts).
