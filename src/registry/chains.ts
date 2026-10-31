@@ -1,5 +1,5 @@
 /**
- * chains: the address family @defillama/sdk gives a chain key, or null for a chain it does not know.
+ * chains: the address family @defillama/sdk gives a chain key, or null for a chain it does not know, and every chain key it knows.
  * @dev review: src/registry/checks/unknownChains.ts, src/registry/checks/addressFormats.ts
  */
 import { aptos, cosmos, icp, near, starknet, substrate, sui, svm, utxo } from '@defillama/sdk/build/chains';
@@ -32,3 +32,20 @@ export const familyOf = (key: string): AddressFamily | null => {
   if (key in substrate.DEFAULT_ENDPOINTS) return 'substrate';
   return null;
 };
+
+// Every key one of the sdk's family modules or its EVM providers names, sorted.
+export const sdkChains = (): string[] =>
+  [
+    ...new Set([
+      ...svm.svmChains,
+      ...Object.keys(cosmos.DEFAULT_ENDPOINTS),
+      ...aptos.aptosChains,
+      ...sui.suiChains,
+      ...utxo.utxoChains,
+      ...Object.keys(SINGLE),
+      ...Object.keys(providers),
+      ...Object.keys(substrate.DEFAULT_ENDPOINTS),
+    ]),
+  ]
+    .filter((key) => familyOf(key) !== null)
+    .sort();

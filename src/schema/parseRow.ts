@@ -4,6 +4,7 @@
  */
 import type { z } from 'zod';
 import { SchemaError } from '../errors';
+import { nearest } from '../utils/nearest';
 import { compileSchemas, type Vocabularies } from './compileSchemas';
 import type { TableName } from './enums';
 import { tables, type FileRow } from './index';
@@ -18,21 +19,6 @@ const formatPath = (prefix: string, path: PropertyKey[]): string =>
     (at, key) => (typeof key === 'number' ? `${at}[${key}]` : at ? `${at}.${String(key)}` : String(key)),
     prefix,
   );
-
-const distance = (a: string, b: string): number => {
-  let previous = Array.from({ length: b.length + 1 }, (_, j) => j);
-  for (let i = 1; i <= a.length; i++) {
-    const current = [i];
-    for (let j = 1; j <= b.length; j++) {
-      current[j] = Math.min(previous[j] + 1, current[j - 1] + 1, previous[j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1));
-    }
-    previous = current;
-  }
-  return previous[b.length];
-};
-
-const nearest = (input: string, values: string[]): string =>
-  values.reduce((best, value) => (distance(input, value) < distance(input, best) ? value : best));
 
 const errorsOf = (issue: z.core.$ZodIssue, file: string, prefix: string): SchemaError[] => {
   const path = formatPath(prefix, issue.path);
