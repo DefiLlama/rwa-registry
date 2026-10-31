@@ -429,6 +429,33 @@
               }
             ]
           },
+          "deployedAtBasis": {
+            "anyOf": [
+              {
+                "type": "string",
+                "enum": [
+                  "contract-creation",
+                  "contract-created",
+                  "first-code",
+                  "first-signature",
+                  "first-transaction",
+                  "first-issue",
+                  "issuer-first-transaction",
+                  "asset-created",
+                  "first-activity",
+                  "package-published",
+                  "created-time",
+                  "metadata-created",
+                  "first-stored-day",
+                  "issuer-announcement",
+                  "explorer-page"
+                ]
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
           "primary": {
             "anyOf": [
               {

@@ -54,6 +54,7 @@
       "chain": "solana",
       "address": "XsExampLeMint11111111111111111111111111111",
       "deployedAt": "2026-10-20",
+      "deployedAtBasis": null,
       "primary": true,
       "labels": [
         {
@@ -67,6 +68,7 @@
       "chain": "ethereum",
       "address": "0x1234567890abcdef1234567890abcdef12345678",
       "deployedAt": "2026-10-20",
+      "deployedAtBasis": null,
       "primary": null,
       "labels": [],
       "events": []
@@ -75,6 +77,7 @@
       "chain": "base",
       "address": null,
       "deployedAt": null,
+      "deployedAtBasis": null,
       "primary": null,
       "labels": [],
       "events": []
