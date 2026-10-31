@@ -1,12 +1,15 @@
 /**
- * askFields: a command's fields turned into its questions, asked in the order they are listed, a flag, an argument or a template field skipping its own, then one confirmation that lists every value.
- * @dev review: src/cli/writeCommand.ts, then src/cli/commands/add-asset.ts
+ * askFields: a command's fields turned into its questions: every flag checked by its field's answer type before anything is asked, then each field no flag or template gives asked in order with that check on Enter, then one confirmation that lists every value.
+ * @dev review: src/cli/answers/answerType.ts, src/cli/writeCommand.ts, then src/cli/commands/add-asset.ts
  */
 import type { Registry } from '../schema';
-import type { Ask, Choice, Question } from './ask';
+import { checkAnswer, isEmpty, type Answer, type AnswerType } from './answers/answerType';
+import { yesNo } from './answers/picks';
+import { text } from './answers/text';
+import type { Ask, Question } from './ask';
 import { commaList } from './commaList';
 
-export type FlagValue = string | string[] | boolean;
+export type FlagValue = Answer;
 export type FlagValues = Record<string, FlagValue | undefined>;
 
 export interface WriteContext {
@@ -38,18 +41,17 @@ interface Asked {
   description: string;
   // One plain question a newcomer reads without the schema, as "Which chain is the token deployed on?"; it may name an earlier answer.
   question?: string | ((values: FlagValues) => string);
-  // An answer that shows the shape, printed after the question as (example: TSLAx).
-  example?: string;
-  // A hint that replaces the one the question would get, as an override's Enter that leaves it derived.
-  hint?: string;
+  // What the question asks for and how to answer it, where the sentence alone does not say.
+  explain?: string;
+  // An answer that shows the shape, taken from a real registry file where one exists; it may name an earlier answer.
+  example?: string | ((values: FlagValues) => string | undefined);
+  // How it is answered and checked; plain text when absent.
+  answer?: AnswerType;
   required?: boolean | ((values: FlagValues) => boolean);
-  // The choices may hang on the earlier answers, as a slug on its target's kind.
-  choices?: (registry: Registry, values: FlagValues) => Choice[];
-  // The choices are suggestions; any typed text is an answer.
-  open?: boolean;
-  date?: boolean;
   // The value offered from the earlier answers, such as the canonical market id from the symbol.
   derive?: Derive;
+  // What an empty answer does when it does not leave the field empty, as "Enter leaves the flag derived".
+  whenEmpty?: string;
 }
 
 export interface LegField extends Asked {
@@ -60,17 +62,20 @@ export interface LegField extends Asked {
 export interface Legs {
   fields: LegField[];
   item: (leg: FlagValues) => string;
+  // An item given by flag as its leg's values, or null when it does not have the item's shape.
+  split: (item: string) => FlagValues | null;
+  // The item's shape, named when a flag's item does not have it.
+  shape: string;
+  // The value the row holds for the items, as milestones joined into one text; the list itself when absent.
+  join?: (items: string[]) => unknown;
   more: string;
 }
 
-// flag is a positional argument when written <name>, as delist's <target>; a <bool> flag and a flag with no value are asked yes or no.
+// flag is a positional argument when written <name>, as delist's <target>; a flag with no value is asked yes or no.
 export interface Field extends Asked {
   flag: string;
   // The field's name in plain words at the confirmation, as "token symbol".
   label?: string;
-  // The answer Enter takes when the field is asked, as yes for a token that can move between wallets; unlike a fallback, nothing is taken when it is not asked.
-  default?: FlagValue;
-  list?: boolean;
   // The value when none is given or answered, offered as the default when asked.
   fallback?: () => FlagValue;
   // A field asked only when this holds; otherwise it takes what it derives, as the primary chain of a single deployment.
@@ -96,8 +101,13 @@ export interface Questionnaire {
 export interface Answers {
   values: FlagValues;
   missing: string[];
+  // Each flag its answer type refuses, as "--founded-year abc: not a year ...", found before any question.
+  refused: string[];
   cancelled: boolean;
 }
+
+// Printed once, before the first question, so no question repeats it.
+export const INTRO = 'A question marked * needs an answer; Enter leaves any other one empty.';
 
 // commander keeps --no-discover as discover: false.
 export const optionKey = (flag: string) =>
@@ -112,12 +122,11 @@ const flagName = (field: Field) => field.flag.split(' ')[0]!;
 
 const nameOf = (field: Field) => field.label ?? flagName(field).replace(/^--|^<|>$/g, '');
 
-// A <bool> flag, or a flag that takes no value as --published.
-const isYesNo = (field: Asked) =>
-  'flag' in field && (!String(field.flag).includes('<') || String(field.flag).includes('<bool>'));
+// A flag that takes no value, as --published, is a yes or no.
+export const answerOf = (field: Asked & { flag?: string }): AnswerType =>
+  field.answer ?? (field.flag?.startsWith('--') && !field.flag.includes('<') ? yesNo : text);
 
-export const isEmpty = (value: unknown) =>
-  value === undefined || value === null || value === '' || (Array.isArray(value) && !value.length);
+export { isEmpty } from './answers/answerType';
 
 const requiredOf = (field: Asked, values: FlagValues) =>
   typeof field.required === 'function' ? field.required(values) : field.required === true;
@@ -126,33 +135,79 @@ const shown = (value: unknown) =>
   Array.isArray(value) ? value.join(', ') : typeof value === 'boolean' ? (value ? 'yes' : 'no') : String(value);
 
 // A flag with no value, as --published, is off unless the person says yes.
-const defaultOf = (field: Field) => field.default ?? (field.flag.includes('<') ? undefined : false);
+const defaultOf = (field: Field) => (answerOf(field).yesNo && !field.flag.includes('<') ? false : undefined);
 
-const EMPTY = 'Enter to leave empty';
+// The lines printed above the question: what it asks for, what an answer looks like, and what Enter takes.
+const linesOf = (
+  field: Asked,
+  answer: AnswerType,
+  offered: Derived | undefined,
+  picked: boolean,
+  values: FlagValues,
+) => {
+  const lines = field.explain ? [field.explain] : [];
+  const example = typeof field.example === 'function' ? field.example(values) : field.example;
+  const typed = (!picked || answer.open) && isEmpty(offered?.value);
+  if (answer.yesNo) {
+    const fallback = offered?.value;
+    lines.push(typeof fallback === 'boolean' ? `Yes or no; Enter takes ${fallback ? 'yes' : 'no'}.` : 'Yes or no.');
+  } else if (typed && example) lines.push(`Example: ${example}`);
+  else if (typed && answer.shape) lines.push(`Answer: ${answer.shape}.`);
+  if (!picked && answer.many) lines.push('Several answers are comma-separated.');
+  if (offered?.why) lines.push(isEmpty(offered.value) ? offered.why : `Enter takes ${offered.why}.`);
+  else if (!answer.yesNo && !isEmpty(offered?.value)) lines.push(`Enter takes ${shown(offered!.value)}.`);
+  if (field.whenEmpty) lines.push(field.whenEmpty);
+  return lines;
+};
 
-// What follows the question in brackets: the example, why a value is offered, or that Enter leaves it empty.
-const hintsOf = (field: Asked, required: boolean, offered: Derived | undefined, choices: unknown[] | undefined) => {
-  if (field.hint) return [field.hint];
-  if (isYesNo(field)) {
-    if (typeof offered?.value === 'boolean') return [`yes or no, default ${offered.value ? 'yes' : 'no'}`];
-    return [required ? 'yes or no' : `yes or no; ${EMPTY}`];
+const questionOf = (
+  key: string,
+  field: Asked,
+  answer: AnswerType,
+  required: boolean,
+  offered: Derived | undefined,
+  context: DeriveContext,
+  values: FlagValues,
+): Question => {
+  const checked = { registry: context.registry, values };
+  const listed = answer.yesNo ? undefined : answer.choices?.(checked);
+  const choices = listed?.length ? listed : undefined;
+  const sentence =
+    typeof field.question === 'function' ? field.question(values) : (field.question ?? field.description);
+  const lines = linesOf(field, answer, offered, choices !== undefined, values);
+  return {
+    key,
+    message: required ? `${sentence} *` : sentence,
+    ...(lines.length ? { lines } : {}),
+    choices,
+    many: answer.many,
+    open: answer.open,
+    optional: !required,
+    confirm: answer.yesNo,
+    default: offered?.value,
+    check: checkAnswer(answer, required, checked),
+  };
+};
+
+// An answer its check refuses is asked again with the reason; in a terminal the check already ran on Enter.
+const askChecked = async (ask: Ask, question: Question) => {
+  let answer = await ask(question);
+  let verdict = question.check?.(answer) ?? true;
+  while (verdict !== true) {
+    answer = await ask({ ...question, refused: verdict });
+    verdict = question.check?.(answer) ?? true;
   }
-  const hints: string[] = [];
-  // An example shows the shape of a typed answer; a list, or a value Enter takes, already does.
-  if (field.example && (!choices?.length || field.open) && isEmpty(offered?.value))
-    hints.push(`example: ${field.example}`);
-  if ('list' in field && field.list && !choices?.length) hints.push('comma-separated');
-  if (offered?.why) hints.push(isEmpty(offered.value) ? offered.why : `Enter for ${offered.why}`);
-  if (!required && isEmpty(offered?.value)) hints.push(EMPTY);
-  return hints;
+  return answer;
 };
 
 // A yes or no asked with no field behind it, as the confirmation and another deployment.
-const yesOrNo = (key: string, message: string, fallback: boolean): Question => ({
+const yesOrNo = (key: string, message: string, fallback: boolean, registry: Registry): Question => ({
   key,
-  message: `${message} (yes or no, default ${fallback ? 'yes' : 'no'})`,
+  message,
+  lines: [`Yes or no; Enter takes ${fallback ? 'yes' : 'no'}.`],
   confirm: true,
   default: fallback,
+  check: checkAnswer(yesNo, false, { registry, values: {} }),
 });
 
 type Origin = 'flag' | 'answer' | 'file' | 'derived';
@@ -181,46 +236,6 @@ const summary = (
   ].join('\n');
 };
 
-const questionOf = (
-  key: string,
-  field: Asked & { list?: boolean },
-  required: boolean,
-  offered: Derived | undefined,
-  context: DeriveContext,
-  values: FlagValues,
-): Question => {
-  const choices = isYesNo(field) ? undefined : field.choices?.(context.registry, values);
-  const text = typeof field.question === 'function' ? field.question(values) : (field.question ?? field.description);
-  const hints = hintsOf(field, required, offered, choices);
-  return {
-    key,
-    message: hints.length ? `${text} (${hints.join('; ')})` : text,
-    choices,
-    list: field.list,
-    optional: !required,
-    open: field.open,
-    date: field.date,
-    confirm: isYesNo(field) || undefined,
-    default: offered?.value,
-  };
-};
-
-// A required field answered empty is asked again, its question saying why, until it has an answer.
-const askRequired = async (ask: Ask, question: Question, required: boolean) => {
-  let answer = await ask(question);
-  while (required && isEmpty(answer)) {
-    const why = question.confirm
-      ? 'required: answer yes or no'
-      : question.list
-        ? 'required: pick at least one'
-        : question.choices?.length
-          ? 'required: pick one'
-          : 'required: type an answer';
-    answer = await ask({ ...question, message: `${question.message} (${why})` });
-  }
-  return answer;
-};
-
 // A list whose first question is optional ends at an empty answer to it, as an asset with no other role.
 const askLegs = async (key: string, legs: Legs, values: FlagValues, context: DeriveContext, ask: Ask) => {
   const items: string[] = [];
@@ -229,14 +244,51 @@ const askLegs = async (key: string, legs: Legs, values: FlagValues, context: Der
     for (const [index, field] of legs.fields.entries()) {
       const required = requiredOf(field, leg);
       const derived = await field.derive?.({ ...values, ...leg }, context);
-      const question = questionOf(`${key}.${field.key}`, field, required, derived, context, { ...values, ...leg });
-      const answer = await askRequired(ask, question, required);
-      if (index === 0 && !required && isEmpty(answer)) return items;
-      leg[field.key] = isEmpty(answer) ? undefined : (answer as FlagValue);
+      const answer = answerOf(field);
+      const question = questionOf(`${key}.${field.key}`, field, answer, required, derived, context, {
+        ...values,
+        ...leg,
+      });
+      const given = await askChecked(ask, question);
+      if (index === 0 && !required && isEmpty(given)) return items;
+      leg[field.key] = isEmpty(given) ? undefined : (given as FlagValue);
     }
     items.push(legs.item(leg));
-  } while ((await ask(yesOrNo(`${key}.more`, legs.more, false))) === true);
+  } while ((await askChecked(ask, yesOrNo(`${key}.more`, legs.more, false, context.registry))) === true);
   return items;
+};
+
+// Why one flag's value is refused: its item shape, or the reason its answer type gives, with the flag and the value named.
+const flagRefusals = (field: Field, value: FlagValue, values: FlagValues, registry: Registry): string[] => {
+  const flag = flagName(field);
+  if (!field.legs) {
+    const answer = answerOf(field);
+    const verdict = checkAnswer(answer, false, { registry, values })(value);
+    if (verdict === true) return [];
+    // A positional argument is named by its value, as the files' refusals name a slug.
+    if (isArgument(field)) return [`${shown(value)}: ${verdict}`];
+    return [answer.many ? `${flag} ${verdict}` : `${flag} ${shown(value)}: ${verdict}`];
+  }
+  return commaList(value).flatMap((item) => {
+    const leg = field.legs!.split(item);
+    if (!leg) return [`${flag} ${item}: not ${field.legs!.shape}`];
+    return field.legs!.fields.flatMap((part) => {
+      const verdict = checkAnswer(answerOf(part), false, { registry, values: { ...values, ...leg } })(leg[part.key]);
+      return verdict === true ? [] : [`${flag} ${item}: ${verdict}`];
+    });
+  });
+};
+
+// Every flag given, checked in field order, so an address is read on the chain given before it.
+const refusalsOf = (fields: Field[], flags: FlagValues, given: Record<string, unknown>, registry: Registry) => {
+  const values: FlagValues = {};
+  return fields.flatMap((field) => {
+    const key = optionKey(field.flag);
+    const value = flags[key];
+    if (!isEmpty(given[key]) || isEmpty(value) || flagName(field).startsWith('--no-')) return [];
+    values[key] = value;
+    return flagRefusals(field, value!, values, registry);
+  });
 };
 
 export const askFields = async (
@@ -248,6 +300,8 @@ export const askFields = async (
   const { context } = input;
   const values: FlagValues = {};
   const missing: string[] = [];
+  const refused = refusalsOf(fields, input.flags, input.given, context.registry);
+  if (refused.length) return { values, missing, refused, cancelled: false };
   const origins = new Map<string, Origin>();
   let asked = false;
   for (const field of fields) {
@@ -258,41 +312,40 @@ export const askFields = async (
     }
     const required = requiredOf(field, values);
     let value = input.flags[key];
+    let fromLegs = false;
     if (isEmpty(value) && ask && (every || required) && !flagName(field).startsWith('--no-')) {
       const derived = await field.derive?.(values, context);
-      const offered =
-        derived ??
-        (field.fallback
-          ? { value: field.fallback() }
-          : defaultOf(field) === undefined
-            ? undefined
-            : { value: defaultOf(field)! });
+      const fallback = field.fallback ? field.fallback() : defaultOf(field);
+      const offered = derived ?? (fallback === undefined ? undefined : { value: fallback });
       const unasked = field.asked?.(values) === false;
       if (unasked) value = derived?.value;
       else {
+        if (!asked) context.note(INTRO);
         asked = true;
+        fromLegs = field.legs !== undefined;
         value = field.legs
           ? await askLegs(key, field.legs, values, context, ask)
-          : ((await askRequired(
+          : ((await askChecked(
               ask,
-              questionOf(key, field, required, offered, context, values),
-              required,
+              questionOf(key, field, answerOf(field), required, offered, context, values),
             )) as FlagValue);
       }
       const same = !isEmpty(value) && shown(value) === shown(derived?.value);
       if (same || !unasked) origins.set(key, same ? 'derived' : 'answer');
     }
     if (isEmpty(value)) value = field.fallback?.();
-    if (field.list && value !== undefined) value = commaList(value as string | string[]);
+    // The leg questions give their items as a list already, and a milestone's text may hold a comma.
+    if (!fromLegs && (field.legs || answerOf(field).many) && value !== undefined)
+      value = commaList(value as string | string[]);
     if (isEmpty(value) && required) missing.push(flagName(field));
     values[key] = isEmpty(value) ? undefined : value;
   }
-  if (!asked || !every || !ask || missing.length) return { values, missing, cancelled: false };
+  if (!asked || !every || !ask || missing.length) return { values, missing, refused, cancelled: false };
   const all = { ...input.given, ...values };
   const assigned = (questionnaire.assigned ?? []).map(
     ({ name, derive }) => [name, derive(all, context)] as [string, unknown],
   );
   const message = summary(fields, all, origins, assigned);
-  const yes = await ask(yesOrNo('confirm', message, true));
-  return { values, missing, cancelled: yes !== true };
+  const yes = await askChecked(ask, yesOrNo('confirm', message, true, context.registry));
+  return { values, missing, refused, cancelled: yes !== true };
 };

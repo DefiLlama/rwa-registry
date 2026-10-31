@@ -146,7 +146,8 @@ export const defineWriteCommand = (spec: WriteSpec): CliCommand => ({
       if (error instanceof CliError) return refuse([error]);
       throw error;
     }
-    const { values, missing, cancelled } = answers;
+    const { values, missing, refused, cancelled } = answers;
+    if (refused.length) return refuse(refused.map((message) => new FlagFormatError({ file: spec.name, message })));
     if (cancelled) return refuse([{ file: spec.name, message: 'cancelled; nothing written' }]);
     if (missing.length) {
       return refuse(missing.map((flag) => new MissingFieldError({ file: spec.name, message: `${flag} is required` })));

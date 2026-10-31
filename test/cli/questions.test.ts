@@ -6,7 +6,10 @@ import { loadRegistry } from '../../src/registry';
 import { ACK_KINDS } from '../../src/schema/enums';
 import { baseTree, writeTree } from '../fixtures/tree';
 
-// A person who presses Enter on a default and otherwise gives the first choice, a day or a word; one deployment, then yes.
+// Typed answers a person might give, tried in order until the question's check accepts one.
+const TYPED = ['x', 'https://example.com', '2026-10-01', '0x8ad3c73f833d3f9a523ab01476625f269aeb7cf0', '5', '0:1000'];
+
+// A person who presses Enter on a default and otherwise gives the first choice or a typed answer its check accepts, or leaves an optional one empty; one deployment, then yes.
 const answerOf = (question: Question): string | string[] | boolean => {
   if (question.key.endsWith('.more')) return false;
   if (question.key === 'confirm') return true;
@@ -14,8 +17,8 @@ const answerOf = (question: Question): string | string[] | boolean => {
   if (question.confirm) return true;
   const [first] = question.choices ?? [];
   const value = first === undefined ? undefined : typeof first === 'string' ? first : first.value;
-  if (value !== undefined) return question.list ? [value] : value;
-  return question.date ? '2026-10-01' : 'x';
+  if (value !== undefined) return question.many ? [value] : value;
+  return TYPED.find((typed) => question.check?.(typed) === true) ?? (question.optional ? '' : 'x');
 };
 
 const walk = async (fields: Field[], flags: FlagValues) => {
@@ -23,6 +26,8 @@ const walk = async (fields: Field[], flags: FlagValues) => {
   const asked: Question[] = [];
   const ask = async (question: Question) => {
     asked.push(question);
+    if (question.refused)
+      throw new Error(`${question.key}: no answer the walk gives passes its check (${question.refused})`);
     return answerOf(question);
   };
   const context = {
@@ -52,8 +57,8 @@ const RUNS = commands.flatMap((command) => {
 const requiredOf = (field: Field, values: FlagValues) =>
   typeof field.required === 'function' ? field.required(values) : field.required === true;
 
-// The last line without its hints: what the person reads as the question, below the list a confirmation shows.
-const sentenceOf = (message: string) => message.split('\n').at(-1)!.split(' (')[0]!;
+// The last line without the required mark: what the person reads as the question, below the list a confirmation shows.
+const sentenceOf = (message: string) => message.split('\n').at(-1)!.replace(/ \*$/, '');
 
 describe('the questions of every command', () => {
   it('cover every write command but set', () => {
