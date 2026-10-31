@@ -2,5 +2,22 @@
   "slug": "keysight-technologies-inc",
   "name": "Keysight Technologies, Inc.",
   "ticker": "KEYS",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US49338L1035"
+    }
+  ],
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker KEYS on both; US49338L1035 on keysight-technologies-in is OpenFIGI 'KEYSIGHT TECHNOLOGIES IN' (KEYS US)",
+      "note": "merged keysight-technologies-in (KEYSIGHT TECHNOLOGIES IN)",
+      "links": [
+        "https://www.openfigi.com/search?q=US49338L1035"
+      ]
+    }
+  ]
 }

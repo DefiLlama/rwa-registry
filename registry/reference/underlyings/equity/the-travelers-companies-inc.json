@@ -2,5 +2,22 @@
   "slug": "the-travelers-companies-inc",
   "name": "The Travelers Companies, Inc.",
   "ticker": "TRV",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US89417E1091"
+    }
+  ],
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker TRV on both; US89417E1091 on travelers-cos-inc-the is OpenFIGI 'TRAVELERS COS INC/THE' (TRV US)",
+      "note": "merged travelers-cos-inc-the (TRAVELERS COS INC/THE)",
+      "links": [
+        "https://www.openfigi.com/search?q=US89417E1091"
+      ]
+    }
+  ]
 }

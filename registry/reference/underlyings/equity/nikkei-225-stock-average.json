@@ -3,5 +3,14 @@
   "name": "Nikkei 225 Stock Average",
   "ticker": "N225",
   "logo": "https://icons.llamao.fi/icons/rwa/jp225.png?w=48&h=48",
-  "exposure": "equity-indices"
+  "exposure": "equity-indices",
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker N225 on both; one index; \"(USD)\" names the venue quote (data/tie-tickers.md keep 12)",
+      "note": "merged nikkei-225-stock-average-usd (Nikkei 225 Stock Average (USD))",
+      "links": []
+    }
+  ]
 }

@@ -3,5 +3,16 @@
   "name": "Strategy Inc",
   "ticker": "MSTR",
   "logo": "https://icons.llamao.fi/icons/rwa/mstr.png?w=48&h=48",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker MSTR on both; OpenFIGI ticker MSTR US: 'STRATEGY INC'; MicroStrategy renamed itself Strategy Inc in 2025",
+      "note": "merged microstrategy (MicroStrategy)",
+      "links": [
+        "https://www.openfigi.com/search?q=MSTR"
+      ]
+    }
+  ]
 }

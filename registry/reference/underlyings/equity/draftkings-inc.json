@@ -3,5 +3,22 @@
   "name": "DraftKings Inc.",
   "ticker": "DKNG",
   "logo": "https://icons.llamao.fi/icons/rwa/dkng.png?w=48&h=48",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US26142V1052"
+    }
+  ],
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker DKNG on both; US26142V1052 on draftkings-inc-cl-a is OpenFIGI 'DRAFTKINGS INC-CL A' (DKNG US); Class A is the only listed line",
+      "note": "merged draftkings-inc-cl-a (DRAFTKINGS INC-CL A)",
+      "links": [
+        "https://www.openfigi.com/search?q=US26142V1052"
+      ]
+    }
+  ]
 }

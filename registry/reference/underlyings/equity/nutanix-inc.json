@@ -2,5 +2,22 @@
   "slug": "nutanix-inc",
   "name": "Nutanix, Inc.",
   "ticker": "NTNX",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US67059N1081"
+    }
+  ],
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker NTNX on both; US67059N1081 on nutanix-inc-a is OpenFIGI 'NUTANIX INC - A' (NTNX US); Class A is the only listed line",
+      "note": "merged nutanix-inc-a (NUTANIX INC - A)",
+      "links": [
+        "https://www.openfigi.com/search?q=US67059N1081"
+      ]
+    }
+  ]
 }

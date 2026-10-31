@@ -3,5 +3,22 @@
   "name": "State Street SPDR S&P 500 ETF Trust",
   "ticker": "SPY",
   "logo": "https://icons.llamao.fi/icons/rwa/spy.png?w=48&h=48",
-  "exposure": "equity-etfs"
+  "exposure": "equity-etfs",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US78462F1030"
+    }
+  ],
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker SPY on both; OpenFIGI ticker SPY US: 'SS SPDR S&P 500 ETF TRUST-US'; one fund, the old name before the State Street rebrand (B58)",
+      "note": "merged spdr-s-p-500-etf-trust (SPDR S&P 500 ETF Trust)",
+      "links": [
+        "https://www.openfigi.com/search?q=SPY"
+      ]
+    }
+  ]
 }

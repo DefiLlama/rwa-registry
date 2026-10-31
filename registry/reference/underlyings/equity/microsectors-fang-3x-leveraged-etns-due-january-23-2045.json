@@ -3,5 +3,17 @@
   "name": "MicroSectors FANG+ 3X Leveraged ETNs due January 23, 2045",
   "ticker": "FNGU",
   "logo": "https://icons.llamao.fi/icons/rwa/fngu.png?w=48&h=48",
-  "exposure": "equity-etfs"
+  "exposure": "equity-etfs",
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker FNGU on both; OpenFIGI ticker FNGU US: 'MS FANG+ 3X LEVERAGED ETN'; FNGU today is the BMO note due 2045, the older series is gone, so both rows mean one note",
+      "note": "merged microsectors-fang-index-3x-leveraged-etn (MicroSectors FANG+ Index 3X Leveraged ETN)",
+      "links": [
+        "https://www.openfigi.com/search?q=FNGU",
+        "https://newsroom.bmo.com/2025-06-02-BMO-Announces-Upcoming-Ticker-Symbol-Change-for-MicroSectors-TM-FANG-TM-3x-Leveraged-ETNs"
+      ]
+    }
+  ]
 }

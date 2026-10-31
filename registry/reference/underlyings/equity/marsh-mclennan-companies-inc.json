@@ -2,5 +2,22 @@
   "slug": "marsh-mclennan-companies-inc",
   "name": "Marsh & McLennan Companies, Inc.",
   "ticker": "MRSH",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US5717481023"
+    }
+  ],
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker MRSH on both; US5717481023 on marsh-mclennan-cos is OpenFIGI 'MARSH & MCLENNAN COS' (MRSH US)",
+      "note": "merged marsh-mclennan-cos (MARSH & MCLENNAN COS)",
+      "links": [
+        "https://www.openfigi.com/search?q=US5717481023"
+      ]
+    }
+  ]
 }

@@ -2,5 +2,22 @@
   "slug": "everpure-inc",
   "name": "Everpure, Inc.",
   "ticker": "P",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US74624M1027"
+    }
+  ],
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker P on both; US74624M1027 on everpure-inc-a is OpenFIGI 'EVERPURE INC-A' (P US); Class A is the only listed line",
+      "note": "merged everpure-inc-a (EVERPURE INC-A)",
+      "links": [
+        "https://www.openfigi.com/search?q=US74624M1027"
+      ]
+    }
+  ]
 }

@@ -9,5 +9,16 @@
       "scheme": "isin",
       "value": "KYG875721634"
     }
+  ],
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker 0700.HK on both; KYG875721634 on tencent-holdings-limited is OpenFIGI 'TENCENT HOLDINGS LTD' (700 HK); one HKEX line 0700; \"(HKD)\" names the venue quote, and the keeper already holds HKD markets (bitget tencenthkdusdt)",
+      "note": "merged tencent-holdings-limited-hkd (Tencent Holdings Limited (HKD))",
+      "links": [
+        "https://www.openfigi.com/search?q=KYG875721634"
+      ]
+    }
   ]
 }

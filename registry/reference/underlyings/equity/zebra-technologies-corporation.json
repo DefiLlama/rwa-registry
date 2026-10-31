@@ -2,5 +2,22 @@
   "slug": "zebra-technologies-corporation",
   "name": "Zebra Technologies Corporation",
   "ticker": "ZBRA",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US9892071054"
+    }
+  ],
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker ZBRA on both; US9892071054 on zebra-technologies-corp-cl-a is OpenFIGI 'ZEBRA TECHNOLOGIES CORP-CL A' (ZBRA US); Class A is the only listed line",
+      "note": "merged zebra-technologies-corp-cl-a (ZEBRA TECHNOLOGIES CORP-CL A)",
+      "links": [
+        "https://www.openfigi.com/search?q=US9892071054"
+      ]
+    }
+  ]
 }

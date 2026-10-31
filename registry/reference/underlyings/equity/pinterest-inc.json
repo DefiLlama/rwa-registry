@@ -3,5 +3,22 @@
   "name": "Pinterest, Inc.",
   "ticker": "PINS",
   "logo": "https://icons.llamao.fi/icons/rwa/pins.png?w=48&h=48",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US72352L1061"
+    }
+  ],
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker PINS on both; US72352L1061 on pinterest-inc-class-a is OpenFIGI 'PINTEREST INC- CLASS A' (PINS US); Class A is the only listed line",
+      "note": "merged pinterest-inc-class-a (PINTEREST INC- CLASS A)",
+      "links": [
+        "https://www.openfigi.com/search?q=US72352L1061"
+      ]
+    }
+  ]
 }

@@ -3,5 +3,22 @@
   "name": "Westinghouse Air Brake Technologies Corporation",
   "ticker": "WAB",
   "logo": "https://icons.llamao.fi/icons/rwa/wab.png?w=48&h=48",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US9297401088"
+    }
+  ],
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker WAB on both; US9297401088 on wabtec-corp is OpenFIGI 'WABTEC CORP' (WAB US); Wabtec is the short name",
+      "note": "merged wabtec-corp (WABTEC CORP)",
+      "links": [
+        "https://www.openfigi.com/search?q=US9297401088"
+      ]
+    }
+  ]
 }

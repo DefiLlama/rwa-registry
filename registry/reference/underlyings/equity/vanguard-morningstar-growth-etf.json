@@ -3,5 +3,17 @@
   "name": "Vanguard Morningstar Growth ETF",
   "ticker": "VUG",
   "logo": "https://icons.llamao.fi/icons/rwa/vug.png?w=48&h=48",
-  "exposure": "equity-etfs"
+  "exposure": "equity-etfs",
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker VUG on both; OpenFIGI ticker VUG US: 'VANGUARD MRNGSTAR GR ETF-SUI'; one fund; Vanguard added Morningstar to the name with the benchmark change, so the newer spelling keeps the file",
+      "note": "merged vanguard-growth-etf (Vanguard Growth ETF)",
+      "links": [
+        "https://www.openfigi.com/search?q=VUG",
+        "https://www.vanguardsouthamerica.com/en/home/news/name-changes-for-vanguard-equity-index-funds-and-crsp-morningstar-benchmarks"
+      ]
+    }
+  ]
 }

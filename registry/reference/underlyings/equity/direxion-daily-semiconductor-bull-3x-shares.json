@@ -3,5 +3,17 @@
   "name": "Direxion Daily Semiconductor Bull 3X Shares",
   "ticker": "SOXL",
   "logo": "https://icons.llamao.fi/icons/rwa/soxl.png?w=48&h=48",
-  "exposure": "equity-etfs"
+  "exposure": "equity-etfs",
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker SOXL on both; OpenFIGI ticker SOXL US: 'DIREX DAIL SEMI BU 3X ET-USD'; one fund; Direxion names it \"... Bull 3X Shares\", so the legal spelling keeps the file though the other holds more rows",
+      "note": "merged direxion-daily-semiconductor-bull-3x-etf (Direxion Daily Semiconductor Bull 3X ETF)",
+      "links": [
+        "https://www.openfigi.com/search?q=SOXL",
+        "https://stockanalysis.com/etf/soxl/"
+      ]
+    }
+  ]
 }

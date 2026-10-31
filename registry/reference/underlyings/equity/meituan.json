@@ -3,5 +3,22 @@
   "name": "Meituan",
   "ticker": "3690.HK",
   "logo": "https://icons.llamao.fi/icons/rwa/3690.png?w=48&h=48",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "KYG596691041"
+    }
+  ],
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker 3690.HK on both; KYG596691041 on meituan-class-b is OpenFIGI 'MEITUAN-CLASS B' (3690 HK); HKEX 3690 is the Class B line",
+      "note": "merged meituan-class-b (MEITUAN-CLASS B)",
+      "links": [
+        "https://www.openfigi.com/search?q=KYG596691041"
+      ]
+    }
+  ]
 }

@@ -9,5 +9,16 @@
       "scheme": "isin",
       "value": "US0846707026"
     }
+  ],
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker BRK.B on both; US0846707026 on berkshire-hathaway-inc-class-b is OpenFIGI 'BERKSHIRE HATHAWAY INC-CL B' (BRK/B US); the folded file holds BRK.B, the Class B line",
+      "note": "merged berkshire-hathaway-inc (Berkshire Hathaway Inc.)",
+      "links": [
+        "https://www.openfigi.com/search?q=US0846707026"
+      ]
+    }
   ]
 }

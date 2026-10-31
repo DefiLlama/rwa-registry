@@ -3,5 +3,16 @@
   "name": "PayPay Corporation",
   "ticker": "PAYP",
   "logo": "https://icons.llamao.fi/icons/rwa/payp.png?w=48&h=48",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker PAYP on both; OpenFIGI ticker PAYP US: 'PAYPAY CORP'; PAYP trades only as the ADR, so both files mean the ADR",
+      "note": "merged paypay-corporation-adr (PayPay Corporation (ADR))",
+      "links": [
+        "https://www.openfigi.com/search?q=PAYP"
+      ]
+    }
+  ]
 }

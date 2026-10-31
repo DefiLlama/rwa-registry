@@ -3,5 +3,22 @@
   "name": "GE Aerospace",
   "ticker": "GE",
   "logo": "https://icons.llamao.fi/icons/rwa/ge.png?w=48&h=48",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US3696043013"
+    }
+  ],
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker GE on both; US3696043013 on general-electric is OpenFIGI 'GENERAL ELECTRIC' (GE PE); General Electric renamed itself GE Aerospace in 2024, same code",
+      "note": "merged general-electric (GENERAL ELECTRIC)",
+      "links": [
+        "https://www.openfigi.com/search?q=US3696043013"
+      ]
+    }
+  ]
 }

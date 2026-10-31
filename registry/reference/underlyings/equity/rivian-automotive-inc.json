@@ -3,5 +3,22 @@
   "name": "Rivian Automotive, Inc.",
   "ticker": "RIVN",
   "logo": "https://icons.llamao.fi/icons/rwa/rivn.png?w=48&h=48",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US76954A1034"
+    }
+  ],
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker RIVN on both; US76954A1034 on rivian-automotive-inc-a is OpenFIGI 'RIVIAN AUTOMOTIVE INC-A' (RIVN US); Class A is the only listed line",
+      "note": "merged rivian-automotive-inc-a (RIVIAN AUTOMOTIVE INC-A)",
+      "links": [
+        "https://www.openfigi.com/search?q=US76954A1034"
+      ]
+    }
+  ]
 }

@@ -3,5 +3,16 @@
   "name": "Jersey Mike's Subs Inc.",
   "ticker": "JMKE",
   "logo": "https://icons.llamao.fi/icons/rwa/jmke.png?w=48&h=48",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker JMKE on both; OpenFIGI ticker JMKE US: \"JERSEY MIKE'S SUBS INC-CL A\"; JMKE is the Class A line",
+      "note": "merged jersey-mike-s-subs-inc-cl-a (JERSEY MIKE'S SUBS INC-CL A)",
+      "links": [
+        "https://www.openfigi.com/search?q=JMKE"
+      ]
+    }
+  ]
 }

@@ -9,5 +9,16 @@
       "scheme": "isin",
       "value": "US02079K3059"
     }
+  ],
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker GOOGL on both; US02079K3059 on alphabet-inc is OpenFIGI 'ALPHABET INC-CL A' (GOOGL US); GOOGL is Class A, the code already on alphabet-inc",
+      "note": "merged alphabet-class-a (Alphabet Inc. Class A)",
+      "links": [
+        "https://www.openfigi.com/search?q=US02079K3059"
+      ]
+    }
   ]
 }

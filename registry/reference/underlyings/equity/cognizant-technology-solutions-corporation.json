@@ -3,5 +3,22 @@
   "name": "Cognizant Technology Solutions Corporation",
   "ticker": "CTSH",
   "logo": "https://icons.llamao.fi/icons/rwa/ctsh.png?w=48&h=48",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US1924461023"
+    }
+  ],
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker CTSH on both; US1924461023 on cognizant-tech-solutions-a is OpenFIGI 'COGNIZANT TECH SOLUTIONS-A' (CTSH US); Class A is the only listed line",
+      "note": "merged cognizant-tech-solutions-a (COGNIZANT TECH SOLUTIONS-A)",
+      "links": [
+        "https://www.openfigi.com/search?q=US1924461023"
+      ]
+    }
+  ]
 }

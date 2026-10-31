@@ -3,5 +3,16 @@
   "name": "Space Exploration Technologies Corp.",
   "ticker": "SPCX",
   "logo": "https://icons.llamao.fi/icons/rwa/spcx.png?w=48&h=48",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker SPCX on both; OpenFIGI ticker SPCX US: 'SPACE EXPLORATION TECHN-CL A'; SpaceX is the short name",
+      "note": "merged spacex (SpaceX)",
+      "links": [
+        "https://www.openfigi.com/search?q=SPCX"
+      ]
+    }
+  ]
 }

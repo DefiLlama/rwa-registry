@@ -3,5 +3,22 @@
   "name": "Veeva Systems Inc.",
   "ticker": "VEEV",
   "logo": "https://icons.llamao.fi/icons/rwa/tost.png?w=48&h=48",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US9224751084"
+    }
+  ],
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker VEEV on both; US9224751084 on veeva-systems-inc-class-a is OpenFIGI 'VEEVA SYSTEMS INC-CLASS A' (VEEV US); Class A is the only listed line",
+      "note": "merged veeva-systems-inc-class-a (VEEVA SYSTEMS INC-CLASS A)",
+      "links": [
+        "https://www.openfigi.com/search?q=US9224751084"
+      ]
+    }
+  ]
 }

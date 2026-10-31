@@ -2,5 +2,22 @@
   "slug": "constellation-brands-inc",
   "name": "Constellation Brands, Inc.",
   "ticker": "STZ",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US21036P1084"
+    }
+  ],
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker STZ on both; US21036P1084 on constellation-brands-inc-a is OpenFIGI 'CONSTELLATION BRANDS INC-A' (CB1A GR); STZ is the Class A line",
+      "note": "merged constellation-brands-inc-a (CONSTELLATION BRANDS INC-A)",
+      "links": [
+        "https://www.openfigi.com/search?q=US21036P1084"
+      ]
+    }
+  ]
 }

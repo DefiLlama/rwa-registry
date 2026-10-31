@@ -2,5 +2,22 @@
   "slug": "becton-dickinson-co",
   "name": "Becton Dickinson & Co.",
   "ticker": "BDX",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US0758871091"
+    }
+  ],
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker BDX on both; US0758871091 on becton-dickinson-and-co is OpenFIGI 'BECTON DICKINSON AND CO' (BDX US); the keeper is the cased spelling",
+      "note": "merged becton-dickinson-and-co (BECTON DICKINSON AND CO)",
+      "links": [
+        "https://www.openfigi.com/search?q=US0758871091"
+      ]
+    }
+  ]
 }

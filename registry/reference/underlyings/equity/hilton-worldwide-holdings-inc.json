@@ -2,5 +2,22 @@
   "slug": "hilton-worldwide-holdings-inc",
   "name": "Hilton Worldwide Holdings Inc.",
   "ticker": "HLT",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US43300A2033"
+    }
+  ],
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker HLT on both; US43300A2033 on hilton-worldwide-holdings-in is OpenFIGI 'HILTON WORLDWIDE HOLDINGS IN' (HLT US)",
+      "note": "merged hilton-worldwide-holdings-in (HILTON WORLDWIDE HOLDINGS IN)",
+      "links": [
+        "https://www.openfigi.com/search?q=US43300A2033"
+      ]
+    }
+  ]
 }

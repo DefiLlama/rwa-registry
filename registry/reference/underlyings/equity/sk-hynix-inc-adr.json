@@ -9,5 +9,16 @@
       "scheme": "isin",
       "value": "KR7000660001"
     }
+  ],
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker SKHY on both; KR7000660001 on sk-hynix-inc-adr is OpenFIGI 'SK HYNIX INC' (000660 KS); SKHY is the ADR, the line the keeper names",
+      "note": "merged sk-hynix (SK hynix)",
+      "links": [
+        "https://www.openfigi.com/search?q=KR7000660001"
+      ]
+    }
   ]
 }

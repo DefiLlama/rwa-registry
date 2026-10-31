@@ -2,5 +2,22 @@
   "slug": "mccormick-company-incorporated",
   "name": "McCormick & Company, Incorporated",
   "ticker": "MKC",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US5797802064"
+    }
+  ],
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker MKC on both; US5797802064 on mccormick-co-non-vtg-shrs is OpenFIGI 'MCCORMICK & CO-NON VTG SHRS' (MCX GR); MKC is the non-voting line both files name",
+      "note": "merged mccormick-co-non-vtg-shrs (MCCORMICK & CO-NON VTG SHRS)",
+      "links": [
+        "https://www.openfigi.com/search?q=US5797802064"
+      ]
+    }
+  ]
 }

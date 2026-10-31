@@ -2,5 +2,22 @@
   "slug": "lennar-corporation",
   "name": "Lennar Corporation",
   "ticker": "LEN",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US5260571048"
+    }
+  ],
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker LEN on both; US5260571048 on lennar-corp-a is OpenFIGI 'LENNAR CORP-A' (LEN US); LEN is the Class A line",
+      "note": "merged lennar-corp-a (LENNAR CORP-A)",
+      "links": [
+        "https://www.openfigi.com/search?q=US5260571048"
+      ]
+    }
+  ]
 }

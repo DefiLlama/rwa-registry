@@ -2,5 +2,22 @@
   "slug": "cbre-group-inc",
   "name": "CBRE Group, Inc.",
   "ticker": "CBRE",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US12504L1098"
+    }
+  ],
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker CBRE on both; US12504L1098 on cbre-group-inc-a is OpenFIGI 'CBRE GROUP INC - A' (CBRE US); Class A is the only listed line",
+      "note": "merged cbre-group-inc-a (CBRE GROUP INC - A)",
+      "links": [
+        "https://www.openfigi.com/search?q=US12504L1098"
+      ]
+    }
+  ]
 }

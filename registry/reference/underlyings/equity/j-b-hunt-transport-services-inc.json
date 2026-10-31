@@ -2,5 +2,22 @@
   "slug": "j-b-hunt-transport-services-inc",
   "name": "J.B. Hunt Transport Services, Inc.",
   "ticker": "JBHT",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US4456581077"
+    }
+  ],
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker JBHT on both; US4456581077 on hunt-jb-transprt-svcs-inc is OpenFIGI 'HUNT (JB) TRANSPRT SVCS INC' (JBHT US)",
+      "note": "merged hunt-jb-transprt-svcs-inc (HUNT (JB) TRANSPRT SVCS INC)",
+      "links": [
+        "https://www.openfigi.com/search?q=US4456581077"
+      ]
+    }
+  ]
 }

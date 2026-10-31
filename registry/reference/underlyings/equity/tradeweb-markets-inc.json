@@ -2,5 +2,22 @@
   "slug": "tradeweb-markets-inc",
   "name": "Tradeweb Markets Inc.",
   "ticker": "TW",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US8926721064"
+    }
+  ],
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker TW on both; US8926721064 on tradeweb-markets-inc-class-a is OpenFIGI 'TRADEWEB MARKETS INC-CLASS A' (TW US); TW is the Class A line",
+      "note": "merged tradeweb-markets-inc-class-a (TRADEWEB MARKETS INC-CLASS A)",
+      "links": [
+        "https://www.openfigi.com/search?q=US8926721064"
+      ]
+    }
+  ]
 }

@@ -3,5 +3,22 @@
   "name": "Air Products and Chemicals, Inc.",
   "ticker": "APD",
   "logo": "https://icons.llamao.fi/icons/rwa/apd.png?w=48&h=48",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US0091581068"
+    }
+  ],
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker APD on both; US0091581068 on air-products-chemicals-inc is OpenFIGI 'AIR PRODUCTS & CHEMICALS INC' (APD US)",
+      "note": "merged air-products-chemicals-inc (AIR PRODUCTS & CHEMICALS INC)",
+      "links": [
+        "https://www.openfigi.com/search?q=US0091581068"
+      ]
+    }
+  ]
 }

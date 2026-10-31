@@ -2,5 +2,22 @@
   "slug": "permian-resources-corporation",
   "name": "Permian Resources Corporation",
   "ticker": "PR",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US71424F1057"
+    }
+  ],
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker PR on both; US71424F1057 on permian-resources-corp-cl-a is OpenFIGI 'PERMIAN RESOURCES CORP-CL A' (PR US); Class A is the only listed line",
+      "note": "merged permian-resources-corp-cl-a (PERMIAN RESOURCES CORP-CL A)",
+      "links": [
+        "https://www.openfigi.com/search?q=US71424F1057"
+      ]
+    }
+  ]
 }

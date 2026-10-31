@@ -3,5 +3,22 @@
   "name": "Arm Holdings plc",
   "ticker": "ARM",
   "logo": "https://icons.llamao.fi/icons/rwa/arm.png?w=48&h=48",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US0420682058"
+    }
+  ],
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker ARM on both; US0420682058 on arm-holdings-plc-adr is OpenFIGI 'ARM HOLDINGS PLC-ADR' (ARM US); ARM trades in the US only as the ADR, so the ADR is the instrument both files mean",
+      "note": "merged arm-holdings-plc-adr (ARM HOLDINGS PLC-ADR)",
+      "links": [
+        "https://www.openfigi.com/search?q=US0420682058"
+      ]
+    }
+  ]
 }

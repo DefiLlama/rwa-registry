@@ -2,5 +2,22 @@
   "slug": "public-service-enterprise-group-incorporated",
   "name": "Public Service Enterprise Group Incorporated",
   "ticker": "PEG",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US7445731067"
+    }
+  ],
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker PEG on both; US7445731067 on public-service-enterprise-gp is OpenFIGI 'PUBLIC SERVICE ENTERPRISE GP' (PEG US)",
+      "note": "merged public-service-enterprise-gp (PUBLIC SERVICE ENTERPRISE GP)",
+      "links": [
+        "https://www.openfigi.com/search?q=US7445731067"
+      ]
+    }
+  ]
 }

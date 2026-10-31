@@ -3,5 +3,22 @@
   "name": "Atlassian Corporation",
   "ticker": "TEAM",
   "logo": "https://icons.llamao.fi/icons/rwa/team.png?w=48&h=48",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US0494681010"
+    }
+  ],
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker TEAM on both; US0494681010 on atlassian-corp-cl-a is OpenFIGI 'ATLASSIAN CORP-CL A' (TEAM1EUR EO); Class A is the only listed line",
+      "note": "merged atlassian-corp-cl-a (ATLASSIAN CORP-CL A)",
+      "links": [
+        "https://www.openfigi.com/search?q=US0494681010"
+      ]
+    }
+  ]
 }

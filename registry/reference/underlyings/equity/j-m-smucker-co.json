@@ -2,5 +2,22 @@
   "slug": "j-m-smucker-co",
   "name": "J. M. Smucker Co.",
   "ticker": "SJM",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US8326964058"
+    }
+  ],
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker SJM on both; US8326964058 on jm-smucker-co-the is OpenFIGI 'JM SMUCKER CO/THE' (SJM US)",
+      "note": "merged jm-smucker-co-the (JM SMUCKER CO/THE)",
+      "links": [
+        "https://www.openfigi.com/search?q=US8326964058"
+      ]
+    }
+  ]
 }

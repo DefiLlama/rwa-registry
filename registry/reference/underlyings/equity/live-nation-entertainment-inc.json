@@ -2,5 +2,22 @@
   "slug": "live-nation-entertainment-inc",
   "name": "Live Nation Entertainment, Inc.",
   "ticker": "LYV",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US5380341090"
+    }
+  ],
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker LYV on both; US5380341090 on live-nation-entertainment-in is OpenFIGI 'LIVE NATION ENTERTAINMENT IN' (LYV US)",
+      "note": "merged live-nation-entertainment-in (LIVE NATION ENTERTAINMENT IN)",
+      "links": [
+        "https://www.openfigi.com/search?q=US5380341090"
+      ]
+    }
+  ]
 }

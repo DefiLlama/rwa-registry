@@ -2,5 +2,22 @@
   "slug": "pg-e-corporation",
   "name": "PG&E Corporation",
   "ticker": "PCG",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US69331C1080"
+    }
+  ],
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker PCG on both; US69331C1080 on p-g-e-corp is OpenFIGI 'P G & E CORP' (PCG US)",
+      "note": "merged p-g-e-corp (P G & E CORP)",
+      "links": [
+        "https://www.openfigi.com/search?q=US69331C1080"
+      ]
+    }
+  ]
 }

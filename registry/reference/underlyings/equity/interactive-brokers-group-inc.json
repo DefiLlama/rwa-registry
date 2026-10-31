@@ -3,5 +3,22 @@
   "name": "Interactive Brokers Group, Inc.",
   "ticker": "IBKR",
   "logo": "https://icons.llamao.fi/icons/rwa/ibkr.png?w=48&h=48",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US45841N1072"
+    }
+  ],
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker IBKR on both; US45841N1072 on interactive-brokers-gro-cl-a is OpenFIGI 'INTERACTIVE BROKERS GRO-CL A' (IBKR US); IBKR is the Class A line",
+      "note": "merged interactive-brokers-gro-cl-a (INTERACTIVE BROKERS GRO-CL A)",
+      "links": [
+        "https://www.openfigi.com/search?q=US45841N1072"
+      ]
+    }
+  ]
 }

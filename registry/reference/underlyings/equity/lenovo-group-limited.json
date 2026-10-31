@@ -3,5 +3,16 @@
   "name": "Lenovo Group Limited",
   "ticker": "0992.HK",
   "logo": "https://icons.llamao.fi/icons/rwa/lenovo.png?w=48&h=48",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker 0992.HK on both; OpenFIGI ticker 992 HK: 'LENOVO GROUP LTD'; one HKEX line 0992; \"(HKD)\" names the venue quote (data/tie-tickers.md keep 10)",
+      "note": "merged lenovo-group-limited-hkd (Lenovo Group Limited (HKD))",
+      "links": [
+        "https://www.openfigi.com/search?q=992"
+      ]
+    }
+  ]
 }

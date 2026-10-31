@@ -2,5 +2,22 @@
   "slug": "charter-communications-inc",
   "name": "Charter Communications, Inc.",
   "ticker": "CHTR",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US16119P1084"
+    }
+  ],
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker CHTR on both; US16119P1084 on charter-communications-inc-a is OpenFIGI 'CHARTER COMMUNICATIONS INC-A' (CHTR US); Class A is the only listed line",
+      "note": "merged charter-communications-inc-a (CHARTER COMMUNICATIONS INC-A)",
+      "links": [
+        "https://www.openfigi.com/search?q=US16119P1084"
+      ]
+    }
+  ]
 }

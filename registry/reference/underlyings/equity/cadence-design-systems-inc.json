@@ -3,5 +3,22 @@
   "name": "Cadence Design Systems, Inc.",
   "ticker": "CDNS",
   "logo": "https://icons.llamao.fi/icons/rwa/cdns.png?w=48&h=48",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US1273871087"
+    }
+  ],
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker CDNS on both; US1273871087 on cadence-design-sys-inc is OpenFIGI 'CADENCE DESIGN SYS INC' (CDNS US)",
+      "note": "merged cadence-design-sys-inc (CADENCE DESIGN SYS INC)",
+      "links": [
+        "https://www.openfigi.com/search?q=US1273871087"
+      ]
+    }
+  ]
 }

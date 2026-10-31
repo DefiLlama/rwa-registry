@@ -3,5 +3,22 @@
   "name": "Marriott International, Inc.",
   "ticker": "MAR",
   "logo": "https://icons.llamao.fi/icons/rwa/mar.png?w=48&h=48",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US5719032022"
+    }
+  ],
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker MAR on both; US5719032022 on marriott-international-cl-a is OpenFIGI 'MARRIOTT INTERNATIONAL -CL A' (MAR US); MAR is the Class A line",
+      "note": "merged marriott-international-cl-a (MARRIOTT INTERNATIONAL -CL A)",
+      "links": [
+        "https://www.openfigi.com/search?q=US5719032022"
+      ]
+    }
+  ]
 }

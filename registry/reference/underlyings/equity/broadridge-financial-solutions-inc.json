@@ -2,5 +2,22 @@
   "slug": "broadridge-financial-solutions-inc",
   "name": "Broadridge Financial Solutions, Inc.",
   "ticker": "BR",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US11133T1034"
+    }
+  ],
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker BR on both; US11133T1034 on broadridge-financial-solutio is OpenFIGI 'BROADRIDGE FINANCIAL SOLUTIO' (BR US)",
+      "note": "merged broadridge-financial-solutio (BROADRIDGE FINANCIAL SOLUTIO)",
+      "links": [
+        "https://www.openfigi.com/search?q=US11133T1034"
+      ]
+    }
+  ]
 }

@@ -3,5 +3,22 @@
   "name": "CoreWeave, Inc.",
   "ticker": "CRWV",
   "logo": "https://icons.llamao.fi/icons/rwa/crwv.png?w=48&h=48",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US21873S1087"
+    }
+  ],
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker CRWV on both; US21873S1087 on coreweave-inc-cl-a is OpenFIGI 'COREWEAVE INC-CL A' (CRWV US); Class A is the only listed line",
+      "note": "merged coreweave-inc-cl-a (COREWEAVE INC-CL A)",
+      "links": [
+        "https://www.openfigi.com/search?q=US21873S1087"
+      ]
+    }
+  ]
 }

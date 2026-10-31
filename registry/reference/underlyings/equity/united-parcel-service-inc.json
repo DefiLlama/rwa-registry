@@ -2,5 +2,22 @@
   "slug": "united-parcel-service-inc",
   "name": "United Parcel Service, Inc.",
   "ticker": "UPS",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US9113121068"
+    }
+  ],
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker UPS on both; US9113121068 on united-parcel-service-cl-b is OpenFIGI 'UNITED PARCEL SERVICE-CL B' (UPS US); UPS is the Class B line, the only listed one",
+      "note": "merged united-parcel-service-cl-b (UNITED PARCEL SERVICE-CL B)",
+      "links": [
+        "https://www.openfigi.com/search?q=US9113121068"
+      ]
+    }
+  ]
 }

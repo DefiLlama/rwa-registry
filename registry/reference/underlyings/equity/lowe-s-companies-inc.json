@@ -2,5 +2,22 @@
   "slug": "lowe-s-companies-inc",
   "name": "Lowe's Companies, Inc.",
   "ticker": "LOW",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US5486611073"
+    }
+  ],
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker LOW on both; US5486611073 on lowe-s-cos-inc is OpenFIGI \"LOWE'S COS INC\" (LOW US)",
+      "note": "merged lowe-s-cos-inc (LOWE'S COS INC)",
+      "links": [
+        "https://www.openfigi.com/search?q=US5486611073"
+      ]
+    }
+  ]
 }

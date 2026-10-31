@@ -3,5 +3,22 @@
   "name": "Airbnb, Inc.",
   "ticker": "ABNB",
   "logo": "https://icons.llamao.fi/icons/rwa/abnb.png?w=48&h=48",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US0090661010"
+    }
+  ],
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker ABNB on both; US0090661010 on airbnb-inc-class-a is OpenFIGI 'AIRBNB INC-CLASS A' (ABNB US); Class A is the only listed line",
+      "note": "merged airbnb-inc-class-a (AIRBNB INC-CLASS A)",
+      "links": [
+        "https://www.openfigi.com/search?q=US0090661010"
+      ]
+    }
+  ]
 }

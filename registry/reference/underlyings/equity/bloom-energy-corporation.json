@@ -3,5 +3,22 @@
   "name": "Bloom Energy Corporation",
   "ticker": "BE",
   "logo": "https://icons.llamao.fi/icons/rwa/be.png?w=48&h=48",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US0937121079"
+    }
+  ],
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker BE on both; US0937121079 on bloom-energy-corp-a is OpenFIGI 'BLOOM ENERGY CORP- A' (BE US); Class A is the only listed line",
+      "note": "merged bloom-energy-corp-a (BLOOM ENERGY CORP- A)",
+      "links": [
+        "https://www.openfigi.com/search?q=US0937121079"
+      ]
+    }
+  ]
 }

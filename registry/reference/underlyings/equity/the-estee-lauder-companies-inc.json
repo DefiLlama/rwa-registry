@@ -2,5 +2,22 @@
   "slug": "the-estee-lauder-companies-inc",
   "name": "The Estée Lauder Companies Inc.",
   "ticker": "EL",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US5184391044"
+    }
+  ],
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker EL on both; US5184391044 on estee-lauder-companies-cl-a is OpenFIGI 'ESTEE LAUDER COMPANIES-CL A' (EL US); EL is the Class A line",
+      "note": "merged estee-lauder-companies-cl-a (ESTEE LAUDER COMPANIES-CL A)",
+      "links": [
+        "https://www.openfigi.com/search?q=US5184391044"
+      ]
+    }
+  ]
 }

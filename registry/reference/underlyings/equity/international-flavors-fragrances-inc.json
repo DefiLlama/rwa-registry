@@ -2,5 +2,22 @@
   "slug": "international-flavors-fragrances-inc",
   "name": "International Flavors & Fragrances Inc.",
   "ticker": "IFF",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US4595061015"
+    }
+  ],
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker IFF on both; US4595061015 on intl-flavors-fragrances is OpenFIGI 'INTL FLAVORS & FRAGRANCES' (IFF US)",
+      "note": "merged intl-flavors-fragrances (INTL FLAVORS & FRAGRANCES)",
+      "links": [
+        "https://www.openfigi.com/search?q=US4595061015"
+      ]
+    }
+  ]
 }

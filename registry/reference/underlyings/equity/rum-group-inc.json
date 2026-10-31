@@ -2,5 +2,18 @@
   "slug": "rum-group-inc",
   "name": "RUM Group Inc.",
   "ticker": "RUM",
-  "exposure": "public-equities"
+  "logo": "https://icons.llamao.fi/icons/rwa/tost.png?w=48&h=48",
+  "exposure": "public-equities",
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker RUM on both; OpenFIGI ticker RUM US: 'RUM GROUP INC'; Rumble Inc. renamed itself RUM Group Inc. in June 2026, ticker unchanged",
+      "note": "merged rumble-inc (Rumble Inc.)",
+      "links": [
+        "https://www.openfigi.com/search?q=RUM",
+        "https://www.aaii.com/stock/ticker/RUM"
+      ]
+    }
+  ]
 }

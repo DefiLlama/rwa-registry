@@ -2,5 +2,22 @@
   "slug": "mondelez-international-inc",
   "name": "Mondelēz International, Inc.",
   "ticker": "MDLZ",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US6092071058"
+    }
+  ],
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker MDLZ on both; US6092071058 on mondelez-international-inc-a is OpenFIGI 'MONDELEZ INTERNATIONAL INC-A' (MDLZ US); MDLZ is the Class A line",
+      "note": "merged mondelez-international-inc-a (MONDELEZ INTERNATIONAL INC-A)",
+      "links": [
+        "https://www.openfigi.com/search?q=US6092071058"
+      ]
+    }
+  ]
 }

@@ -3,5 +3,14 @@
   "name": "KOSPI 200 Index",
   "ticker": "KS200.IDX",
   "logo": "https://icons.llamao.fi/icons/rwa/kr200.png?w=48&h=48",
-  "exposure": "equity-indices"
+  "exposure": "equity-indices",
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker KS200.IDX on both; one index; \"(USD)\" names the venue quote, and the KS200 pick already holds both spellings (data/tie-tickers.md keep 9)",
+      "note": "merged kospi-200-index-usd (KOSPI 200 Index (USD))",
+      "links": []
+    }
+  ]
 }

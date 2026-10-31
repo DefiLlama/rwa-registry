@@ -3,5 +3,22 @@
   "name": "MACOM Technology Solutions Holdings, Inc.",
   "ticker": "MTSI",
   "logo": "https://icons.llamao.fi/icons/rwa/mtsi.png?w=48&h=48",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US55405Y1001"
+    }
+  ],
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker MTSI on both; US55405Y1001 on macom-technology-solutions-h is OpenFIGI 'MACOM TECHNOLOGY SOLUTIONS H' (MTSI US)",
+      "note": "merged macom-technology-solutions-h (MACOM TECHNOLOGY SOLUTIONS H)",
+      "links": [
+        "https://www.openfigi.com/search?q=US55405Y1001"
+      ]
+    }
+  ]
 }

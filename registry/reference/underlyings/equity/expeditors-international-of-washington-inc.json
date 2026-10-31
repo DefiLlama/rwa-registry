@@ -2,5 +2,22 @@
   "slug": "expeditors-international-of-washington-inc",
   "name": "Expeditors International of Washington, Inc.",
   "ticker": "EXPD",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US3021301094"
+    }
+  ],
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker EXPD on both; US3021301094 on expeditors-intl-wash-inc is OpenFIGI 'EXPEDITORS INTL WASH INC' (EXPD US)",
+      "note": "merged expeditors-intl-wash-inc (EXPEDITORS INTL WASH INC)",
+      "links": [
+        "https://www.openfigi.com/search?q=US3021301094"
+      ]
+    }
+  ]
 }

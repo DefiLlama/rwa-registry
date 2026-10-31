@@ -3,5 +3,16 @@
   "name": "Cisco Systems, Inc.",
   "ticker": "CSCO",
   "logo": "https://icons.llamao.fi/icons/rwa/csco.png?w=48&h=48",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker CSCO on both; OpenFIGI ticker CSCO US: 'CISCO SYSTEMS INC'; Cisco is the short name",
+      "note": "merged cisco (Cisco)",
+      "links": [
+        "https://www.openfigi.com/search?q=CSCO"
+      ]
+    }
+  ]
 }

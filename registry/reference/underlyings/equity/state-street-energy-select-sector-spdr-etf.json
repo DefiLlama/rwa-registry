@@ -3,5 +3,16 @@
   "name": "State Street Energy Select Sector SPDR ETF",
   "ticker": "XLE",
   "logo": "https://icons.llamao.fi/icons/rwa/xle.png?w=48&h=48",
-  "exposure": "equity-etfs"
+  "exposure": "equity-etfs",
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker XLE on both; OpenFIGI ticker XLE US: 'SS ENERGY SELECT SECTOR'; one fund, the old name before the State Street rebrand",
+      "note": "merged energy-select-sector-spdr-fund (Energy Select Sector SPDR Fund)",
+      "links": [
+        "https://www.openfigi.com/search?q=XLE"
+      ]
+    }
+  ]
 }

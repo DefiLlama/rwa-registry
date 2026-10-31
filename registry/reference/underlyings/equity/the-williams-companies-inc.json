@@ -2,5 +2,22 @@
   "slug": "the-williams-companies-inc",
   "name": "The Williams Companies, Inc.",
   "ticker": "WMB",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US9694571004"
+    }
+  ],
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker WMB on both; US9694571004 on williams-cos-inc is OpenFIGI 'WILLIAMS COS INC' (WMB US)",
+      "note": "merged williams-cos-inc (WILLIAMS COS INC)",
+      "links": [
+        "https://www.openfigi.com/search?q=US9694571004"
+      ]
+    }
+  ]
 }

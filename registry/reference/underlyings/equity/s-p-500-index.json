@@ -3,11 +3,5 @@
   "name": "S&P 500 Index",
   "ticker": "SPX.IDX",
   "logo": "https://icons.llamao.fi/icons/rwa/spx.png?w=48&h=48",
-  "exposure": "equity-indices",
-  "identifiers": [
-    {
-      "scheme": "isin",
-      "value": "US78462F1030"
-    }
-  ]
+  "exposure": "equity-indices"
 }

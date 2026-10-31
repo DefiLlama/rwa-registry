@@ -3,5 +3,22 @@
   "name": "GE HealthCare Technologies Inc.",
   "ticker": "GEHC",
   "logo": "https://icons.llamao.fi/icons/rwa/gehc.png?w=48&h=48",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US36266G1076"
+    }
+  ],
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker GEHC on both; US36266G1076 on ge-healthcare-technology is OpenFIGI 'GE HEALTHCARE TECHNOLOGY' (GEHC US)",
+      "note": "merged ge-healthcare-technology (GE HEALTHCARE TECHNOLOGY)",
+      "links": [
+        "https://www.openfigi.com/search?q=US36266G1076"
+      ]
+    }
+  ]
 }

@@ -2,5 +2,22 @@
   "slug": "doordash-inc",
   "name": "DoorDash, Inc.",
   "ticker": "DASH",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US25809K1051"
+    }
+  ],
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker DASH on both; US25809K1051 on doordash-inc-a is OpenFIGI 'DOORDASH INC - A' (DASH US); Class A is the only listed line",
+      "note": "merged doordash-inc-a (DOORDASH INC - A)",
+      "links": [
+        "https://www.openfigi.com/search?q=US25809K1051"
+      ]
+    }
+  ]
 }

@@ -3,5 +3,22 @@
   "name": "NIKE, Inc.",
   "ticker": "NKE",
   "logo": "https://icons.llamao.fi/icons/rwa/nke.png?w=48&h=48",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US6541061031"
+    }
+  ],
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker NKE on both; US6541061031 on nike-inc-cl-b is OpenFIGI 'NIKE INC -CL B' (NKE US); NKE is the Class B line, the only listed one",
+      "note": "merged nike-inc-cl-b (NIKE INC -CL B)",
+      "links": [
+        "https://www.openfigi.com/search?q=US6541061031"
+      ]
+    }
+  ]
 }

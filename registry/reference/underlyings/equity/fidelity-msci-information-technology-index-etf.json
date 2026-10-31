@@ -2,5 +2,16 @@
   "slug": "fidelity-msci-information-technology-index-etf",
   "name": "Fidelity MSCI Information Technology Index ETF",
   "ticker": "FTEC",
-  "exposure": "equity-etfs"
+  "exposure": "equity-etfs",
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker FTEC on both; OpenFIGI ticker FTEC US: 'FIDELITY MSCI INFO TECH INDX'; one fund, the keeper is its legal name",
+      "note": "merged fidelity-technology-etf (Fidelity Technology ETF)",
+      "links": [
+        "https://www.openfigi.com/search?q=FTEC"
+      ]
+    }
+  ]
 }

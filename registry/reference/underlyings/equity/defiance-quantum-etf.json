@@ -2,5 +2,16 @@
   "slug": "defiance-quantum-etf",
   "name": "Defiance Quantum ETF",
   "ticker": "QTUM",
-  "exposure": "equity-etfs"
+  "exposure": "equity-etfs",
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker QTUM on both; OpenFIGI ticker QTUM US: 'DEFIANCE QUANTUM ETF'; one fund, the keeper is its full name",
+      "note": "merged defiance-quantum (Defiance Quantum)",
+      "links": [
+        "https://www.openfigi.com/search?q=QTUM"
+      ]
+    }
+  ]
 }

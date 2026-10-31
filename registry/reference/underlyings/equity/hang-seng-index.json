@@ -3,5 +3,14 @@
   "name": "Hang Seng Index",
   "ticker": "HSI.IDX",
   "logo": "https://icons.llamao.fi/icons/rwa/hk50.png?w=48&h=48",
-  "exposure": "equity-indices"
+  "exposure": "equity-indices",
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker HSI.IDX on both; one index; \"(USD)\" names the venue quote, and the market text says it tracks the Hang Seng Index",
+      "note": "merged hang-seng-index-usd (Hang Seng Index (USD))",
+      "links": []
+    }
+  ]
 }

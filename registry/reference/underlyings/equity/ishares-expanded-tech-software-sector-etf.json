@@ -3,5 +3,16 @@
   "name": "iShares Expanded Tech-Software Sector ETF",
   "ticker": "IGV",
   "logo": "https://icons.llamao.fi/icons/rwa/igv.png?w=48&h=48",
-  "exposure": "equity-etfs"
+  "exposure": "equity-etfs",
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker IGV on both; OpenFIGI ticker IGV US: 'ISHARES EXPANDED TECH-SOFTWA'; one fund, the keeper is its legal name",
+      "note": "merged ishares-expanded-tech-software-etf (iShares Expanded Tech-Software ETF)",
+      "links": [
+        "https://www.openfigi.com/search?q=IGV"
+      ]
+    }
+  ]
 }

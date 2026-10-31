@@ -2,5 +2,22 @@
   "slug": "tyson-foods-inc",
   "name": "Tyson Foods, Inc.",
   "ticker": "TSN",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US9024941034"
+    }
+  ],
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker TSN on both; US9024941034 on tyson-foods-inc-cl-a is OpenFIGI 'TYSON FOODS INC-CL A' (TSN US); TSN is the Class A line",
+      "note": "merged tyson-foods-inc-cl-a (TYSON FOODS INC-CL A)",
+      "links": [
+        "https://www.openfigi.com/search?q=US9024941034"
+      ]
+    }
+  ]
 }

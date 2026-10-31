@@ -3,5 +3,22 @@
   "name": "CDW Corporation",
   "ticker": "CDW",
   "logo": "https://icons.llamao.fi/icons/rwa/cdw.png?w=48&h=48",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US12514G1085"
+    }
+  ],
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker CDW on both; US12514G1085 on cdw-corp-de is OpenFIGI 'CDW CORP/DE' (CDW US)",
+      "note": "merged cdw-corp-de (CDW CORP/DE)",
+      "links": [
+        "https://www.openfigi.com/search?q=US12514G1085"
+      ]
+    }
+  ]
 }

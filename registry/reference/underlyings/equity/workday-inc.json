@@ -3,5 +3,22 @@
   "name": "Workday, Inc.",
   "ticker": "WDAY",
   "logo": "https://icons.llamao.fi/icons/rwa/tost.png?w=48&h=48",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US98138H1014"
+    }
+  ],
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker WDAY on both; US98138H1014 on workday-inc-class-a is OpenFIGI 'WORKDAY INC-CLASS A' (WDAY US); Class A is the only listed line",
+      "note": "merged workday-inc-class-a (WORKDAY INC-CLASS A)",
+      "links": [
+        "https://www.openfigi.com/search?q=US98138H1014"
+      ]
+    }
+  ]
 }

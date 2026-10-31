@@ -3,5 +3,22 @@
   "name": "Datadog, Inc.",
   "ticker": "DDOG",
   "logo": "https://icons.llamao.fi/icons/rwa/ddog.png?w=48&h=48",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US23804L1035"
+    }
+  ],
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker DDOG on both; US23804L1035 on datadog-inc-class-a is OpenFIGI 'DATADOG INC - CLASS A' (DDOG US); Class A is the only listed line",
+      "note": "merged datadog-inc-class-a (DATADOG INC - CLASS A)",
+      "links": [
+        "https://www.openfigi.com/search?q=US23804L1035"
+      ]
+    }
+  ]
 }

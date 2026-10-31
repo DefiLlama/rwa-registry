@@ -3,5 +3,22 @@
   "name": "Cerebras Systems Inc.",
   "ticker": "CBRS",
   "logo": "https://icons.llamao.fi/icons/rwa/cbrs.png?w=48&h=48",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US15675D1037"
+    }
+  ],
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker CBRS on both; US15675D1037 on cerebras-systems-inc-a is OpenFIGI 'CEREBRAS SYSTEMS INC - A' (CBRS US); Class A is the only listed line",
+      "note": "merged cerebras-systems-inc-a (CEREBRAS SYSTEMS INC - A)",
+      "links": [
+        "https://www.openfigi.com/search?q=US15675D1037"
+      ]
+    }
+  ]
 }

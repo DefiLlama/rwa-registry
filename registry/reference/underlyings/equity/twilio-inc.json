@@ -3,5 +3,22 @@
   "name": "Twilio Inc.",
   "ticker": "TWLO",
   "logo": "https://icons.llamao.fi/icons/rwa/twlo.png?w=48&h=48",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US90138F1021"
+    }
+  ],
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker TWLO on both; US90138F1021 on twilio-inc-a is OpenFIGI 'TWILIO INC - A' (TWLO US); Class A is the only listed line",
+      "note": "merged twilio-inc-a (TWILIO INC - A)",
+      "links": [
+        "https://www.openfigi.com/search?q=US90138F1021"
+      ]
+    }
+  ]
 }

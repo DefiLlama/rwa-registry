@@ -3,5 +3,23 @@
   "name": "Xiaomi Corporation",
   "ticker": "1810.HK",
   "logo": "https://icons.llamao.fi/icons/rwa/xiaomi.png?w=48&h=48",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "KYG9830T1067"
+    }
+  ],
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker 1810.HK on both; KYG9830T1067 on xiaomi-corp-class-b is OpenFIGI 'XIAOMI CORP-CLASS B' (1810 HK); HKEX 1810 is the Class B line; ticker 1810.HK on both; OpenFIGI ticker 1810 HK: 'XIAOMI CORP-CLASS B'; one HKEX line 1810; \"(HKD)\" names the venue quote",
+      "note": "merged xiaomi-corp-class-b (XIAOMI CORP-CLASS B); merged xiaomi-corporation-hkd (Xiaomi Corporation (HKD))",
+      "links": [
+        "https://www.openfigi.com/search?q=KYG9830T1067",
+        "https://www.openfigi.com/search?q=1810"
+      ]
+    }
+  ]
 }

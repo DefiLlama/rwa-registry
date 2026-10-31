@@ -3,5 +3,22 @@
   "name": "Take-Two Interactive Software, Inc.",
   "ticker": "TTWO",
   "logo": "https://icons.llamao.fi/icons/rwa/ttwo.png?w=48&h=48",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US8740541094"
+    }
+  ],
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker TTWO on both; US8740541094 on take-two-interactive-softwre is OpenFIGI 'TAKE-TWO INTERACTIVE SOFTWRE' (TTWO US)",
+      "note": "merged take-two-interactive-softwre (TAKE-TWO INTERACTIVE SOFTWRE)",
+      "links": [
+        "https://www.openfigi.com/search?q=US8740541094"
+      ]
+    }
+  ]
 }

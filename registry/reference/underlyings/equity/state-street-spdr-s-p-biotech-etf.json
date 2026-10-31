@@ -3,5 +3,16 @@
   "name": "State Street SPDR S&P Biotech ETF",
   "ticker": "XBI",
   "logo": "https://icons.llamao.fi/icons/rwa/xbi.png?w=48&h=48",
-  "exposure": "equity-etfs"
+  "exposure": "equity-etfs",
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker XBI on both; OpenFIGI ticker XBI US: 'SS SPDR S&P BIOTECH ETF'; one fund, the old name before the State Street rebrand",
+      "note": "merged spdr-s-p-biotech-etf (SPDR S&P Biotech ETF)",
+      "links": [
+        "https://www.openfigi.com/search?q=XBI"
+      ]
+    }
+  ]
 }

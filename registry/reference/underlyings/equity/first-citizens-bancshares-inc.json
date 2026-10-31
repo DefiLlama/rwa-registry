@@ -2,5 +2,22 @@
   "slug": "first-citizens-bancshares-inc",
   "name": "First Citizens BancShares, Inc.",
   "ticker": "FCNCA",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US31946M1036"
+    }
+  ],
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker FCNCA on both; US31946M1036 on first-citizens-bcshs-cl-a is OpenFIGI 'FIRST CITIZENS BCSHS  -CL A' (FCNCA US); FCNCA is the Class A line",
+      "note": "merged first-citizens-bcshs-cl-a (FIRST CITIZENS BCSHS  -CL A)",
+      "links": [
+        "https://www.openfigi.com/search?q=US31946M1036"
+      ]
+    }
+  ]
 }

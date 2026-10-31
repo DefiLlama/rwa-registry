@@ -2,5 +2,22 @@
   "slug": "the-cooper-companies-inc",
   "name": "The Cooper Companies, Inc.",
   "ticker": "COO",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US2166485019"
+    }
+  ],
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker COO on both; US2166485019 on cooper-cos-inc-the is OpenFIGI 'COOPER COS INC/THE' (COO US)",
+      "note": "merged cooper-cos-inc-the (COOPER COS INC/THE)",
+      "links": [
+        "https://www.openfigi.com/search?q=US2166485019"
+      ]
+    }
+  ]
 }

@@ -3,5 +3,17 @@
   "name": "Direxion Daily MSCI South Korea Bull 3X Shares",
   "ticker": "KORU",
   "logo": "https://icons.llamao.fi/icons/rwa/koru.png?w=48&h=48",
-  "exposure": "equity-etfs"
+  "exposure": "equity-etfs",
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker KORU on both; OpenFIGI ticker KORU US: 'DIREXION DLY M SK BULL 3X-UI'; one fund; Direxion names it \"... Bull 3X Shares\", so the legal spelling keeps the file though the other holds more rows",
+      "note": "merged direxion-daily-msci-south-korea-bull-3x-etf (Direxion Daily MSCI South Korea Bull 3X ETF)",
+      "links": [
+        "https://www.openfigi.com/search?q=KORU",
+        "https://stockanalysis.com/etf/koru/"
+      ]
+    }
+  ]
 }

@@ -2,5 +2,22 @@
   "slug": "w-r-berkley-corporation",
   "name": "W. R. Berkley Corporation",
   "ticker": "WRB",
-  "exposure": "public-equities"
+  "exposure": "public-equities",
+  "identifiers": [
+    {
+      "scheme": "isin",
+      "value": "US0844231029"
+    }
+  ],
+  "events": [
+    {
+      "kind": "merge",
+      "date": "2026-10-31",
+      "reason": "ticker WRB on both; US0844231029 on wr-berkley-corp is OpenFIGI 'WR BERKLEY CORP' (WRB US)",
+      "note": "merged wr-berkley-corp (WR BERKLEY CORP)",
+      "links": [
+        "https://www.openfigi.com/search?q=US0844231029"
+      ]
+    }
+  ]
 }
