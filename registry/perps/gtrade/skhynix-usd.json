@@ -14,6 +14,10 @@
   "about": {
     "description": "gTrade perpetual market tracking SK Hynix Inc. Cash-settled USDC pair on Arbitrum with Chainlink DON oracle pricing."
   },
+  "review": {
+    "suspicious": false,
+    "delisted": true
+  },
   "events": [
     {
       "kind": "delisting",

@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "BRKB is a single-stock perpetual on Variational tracking Berkshire Hathaway Inc. Class B. Berkshire Hathaway Class B represents non-voting Class B shares of Warren Buffett's multinational holding company (NYSE: BRK.B). The market is cash-settled with hourly funding, no shareholder rights, and no dividend rights in the underlying."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

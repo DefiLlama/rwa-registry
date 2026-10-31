@@ -39,8 +39,6 @@
       "ethereum"
     ],
     "attestationFrequency": "Quarterly",
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Float Income",
       "holderTotalFeeBps": 0,
@@ -61,6 +59,10 @@
       "takeRateBasis": "Float income on reserves",
       "revenueMix": "Interest on about 141B in US Treasury exposure (about 117B direct T-bills plus about 24B repo, per the 2026-03-31 attestation) plus gold (about 20B) and BTC (about 7B) mark-to-market gains. Mint and redeem fees are immaterial. FY2025 net profit exceeded 10B. Q1 2026 profit was 1.04B. Excess reserves 8.23B."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

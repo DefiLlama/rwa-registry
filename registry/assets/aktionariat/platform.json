@@ -35,8 +35,6 @@
       "optimism"
     ],
     "attestationFrequency": "Continuous",
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Platform Setup + Annual Service",
       "performanceFeePct": 1.5,
@@ -46,6 +44,10 @@
       "feeLastVerified": "2026-05-11",
       "revenueNotes": "Aktionariat (Swiss tokenization platform) three revenue streams: (1) One-off onboarding fee: CHF 1,600 LEXR legal + CHF 3,400 Aktionariat tech = CHF 5,000 total. (2) Annual platform subscription (tiered). (3) Transaction fee: 1.5% on first CHF 1M, 1.0% on CHF 1-5M, 0.75% above CHF 5M; plus percentage of secondary trading volume. Source: https://www.aktionariat.com/pricing"
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

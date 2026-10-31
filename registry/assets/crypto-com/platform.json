@@ -34,8 +34,6 @@
       "perp-venue"
     ],
     "accessModel": "permissioned",
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Perp Maker/Taker Fees",
       "issuerDocsUrl": "https://crypto.com/exchange/document/fees-limits",
@@ -44,6 +42,10 @@
       "feeLastVerified": "2026-07-30",
       "revenueNotes": "Explicit product_type API taxonomy. Pre-IPO perps restricted to institutional participants."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

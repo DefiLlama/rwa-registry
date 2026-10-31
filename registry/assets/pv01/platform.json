@@ -31,7 +31,6 @@
       "ethereum"
     ],
     "attestationFrequency": "Per-issuance prospectus + monthly position attestation",
-    "suspicious": false,
     "fees": {
       "revenueModel": "Asset Manager Fee",
       "holderTotalFeeBps": 10,
@@ -45,6 +44,10 @@
       "feeLastVerified": "2026-05-10",
       "revenueNotes": "PV01 issuance/management fees are bespoke per series and not publicly disclosed. The 10 bps figure is a low-end estimate based on the institutional-only model and comparable tokenized-T-bill platforms (8-20 bps). Tether (USDT) is a known counterparty for treasury management. Actual economics vary by maturity and counterparty."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": true
   },
   "roles": [
     {

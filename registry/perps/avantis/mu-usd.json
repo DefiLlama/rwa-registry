@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Micron Technology (MU) perpetual on Avantis (Base). Tracks Micron stock price, USDC-margined. Oracle-priced via Pyth Lazer."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

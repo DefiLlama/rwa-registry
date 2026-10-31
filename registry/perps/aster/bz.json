@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Perpetual market on Aster tracking Brent Crude Oil, cash-settled."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

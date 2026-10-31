@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "B200 is a perpetual on NVIDIA B200 Hourly listed on BingX, settled in USDT."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

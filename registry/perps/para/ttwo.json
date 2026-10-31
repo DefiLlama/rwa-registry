@@ -14,6 +14,10 @@
   "about": {
     "description": "Single-stock perpetual market tracking Take-Two Interactive Software, Inc. (TTWO) on Paragon. Users get linear exposure to TTWO share-price moves without owning TTWO shares, shareholder rights, or dividend claims. HIP-3 builder-deployed market on Hyperliquid in the para namespace, cash-settled in USDC."
   },
+  "review": {
+    "suspicious": false,
+    "delisted": false
+  },
   "roles": [
     {
       "organization": "chaos-labs",

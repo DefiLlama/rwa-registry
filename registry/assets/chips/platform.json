@@ -27,8 +27,11 @@
     "primaryChain": "kadena",
     "chains": [
       "kadena"
-    ],
-    "suspicious": false
+    ]
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": true
   },
   "roles": [
     {

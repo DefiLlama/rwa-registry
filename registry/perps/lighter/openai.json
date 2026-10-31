@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Pre-IPO valuation perpetual on Lighter tracking OpenAI, cash-settled."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

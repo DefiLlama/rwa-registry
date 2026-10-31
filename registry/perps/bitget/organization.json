@@ -33,8 +33,6 @@
     "platformType": [
       "perp-venue"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Perp Maker/Taker Fees",
       "issuerDocsUrl": "https://www.bitget.com/fee",
@@ -43,6 +41,10 @@
       "feeLastVerified": "2026-07-30",
       "revenueNotes": "RWA index perps trade 24/5 (Mon 00:00 to Sat 00:00 UTC-4) and carry the isRwa API flag."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

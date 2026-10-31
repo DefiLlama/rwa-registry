@@ -15,6 +15,10 @@
     "description": "Forex perpetual on Avantis (Base) referencing the Indian Rupee/USD exchange rate, cash-settled in USDC. Source: docs.avantisfi.com.",
     "website": "https://avantisfi.com/"
   },
+  "review": {
+    "suspicious": false,
+    "delisted": false
+  },
   "roles": [
     {
       "organization": "pyth-network",

@@ -31,14 +31,16 @@
     "platformType": [
       "perp-venue"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Maker/Taker Fees + Funding Skim",
       "revenueConfidence": "issuer-disclosed",
       "feeLastVerified": "2026-05-11",
       "revenueNotes": "trade[XYZ] is the largest HIP-3 builder-deployer on Hyperliquid (operates ABCD, COIN, ALPHA, and other namespaces). Under HIP-3, user-facing fees are 2x the standard Hyperliquid validator-perp rate (~7-9 bps taker, ~2-3 bps maker on standard mode; Growth Mode reduces all-in fees by 90%+, to ~0.45-0.9 bps taker). The 50% deployer revenue share goes to trade[XYZ]; the remaining 50% goes to the Hyperliquid protocol. Specific per-market rates vary by Growth Mode setting per asset. Source: https://hyperliquid.gitbook.io/hyperliquid-docs/hyperliquid-improvement-proposals-hips/hip-3-builder-deployed-perpetuals"
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

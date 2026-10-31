@@ -14,6 +14,10 @@
   "about": {
     "description": "Private-company valuation perpetual on OpenAI. The contract lets users trade OpenAI's implied valuation in valuation units, where 1 OPENAI equals $1B of company valuation, without owning equity or SPV interests. Oracle prices use a weighted combination of Notice offchain valuation data and a 2-hour EMA of mark price. Max leverage 3x, open interest cap $5m, positions margined and cash-settled in USDH. Market is visible on Hyperliquid under the vntl namespace, but is operated by Ventuals rather than listed as a core Hyperliquid perp."
   },
+  "review": {
+    "suspicious": false,
+    "delisted": true
+  },
   "roles": [
     {
       "organization": "ventuals",

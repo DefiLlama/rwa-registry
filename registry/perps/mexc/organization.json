@@ -33,8 +33,6 @@
     "platformType": [
       "perp-venue"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Perp Maker/Taker Fees",
       "issuerDocsUrl": "https://www.mexc.com/fee",
@@ -44,6 +42,10 @@
       "revenueNotes": "Zero-fee stock-perp promo active (standard tiers apply otherwise). conceptPlate API tags. Quote variants are separate contracts.",
       "subsidyRebateArrangements": "Stock zone fees vary per contract, many at 0/0 under the promo campaign, others up to 1 bp maker and 4 bps taker per the public contract API"
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

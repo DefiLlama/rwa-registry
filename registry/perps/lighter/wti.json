@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "WTI crude oil perpetual market. The contract tracks West Texas Intermediate crude oil using a futures-based reference price. Users get linear oil price exposure only, without owning physical crude, inventory claims, or a deliverable futures position. Pricing uses a futures-based external reference via Lighter's fair price oracle. Positions are margined and cash-settled in USDC."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

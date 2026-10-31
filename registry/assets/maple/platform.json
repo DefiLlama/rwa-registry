@@ -39,8 +39,6 @@
       "ethereum"
     ],
     "attestationFrequency": "Monthly",
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Interest Spread",
       "performanceFeePct": 0,
@@ -49,6 +47,10 @@
       "feeLastVerified": "2026-07-09",
       "revenueNotes": "No published lender fee schedule. Maple monetizes management, service, and origination fees deducted from gross borrower interest, a net interest margin of 0.85 percent over the last 12 months per its transparency page, with 22.02 million dollars LTM protocol revenue funding the treasury and SYRUP staking."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

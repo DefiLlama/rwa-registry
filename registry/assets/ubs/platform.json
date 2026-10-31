@@ -18,7 +18,10 @@
     "category": [
       "bond-mmf-funds"
     ],
-    "primaryChain": "ethereum",
+    "primaryChain": "ethereum"
+  },
+  "review": {
+    "suspicious": false,
     "delisted": false
   }
 }

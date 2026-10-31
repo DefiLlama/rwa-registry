@@ -34,14 +34,16 @@
       "base"
     ],
     "attestationFrequency": "Monthly",
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Yield Spread",
       "revenueConfidence": "no-public-data",
       "feeLastVerified": "2026-05-11",
       "revenueNotes": "Anzen earns the spread between gross private-credit yields (~10-15% gross) and the sUSDz pass-through rate (~6-8%) net of credit reserves and origination fees."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

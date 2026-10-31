@@ -41,8 +41,6 @@
       "ethereum"
     ],
     "attestationFrequency": "Weekly",
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Yield Spread",
       "holderTotalFeeBps": 0,
@@ -61,6 +59,10 @@
       "takeRateBasis": "Yield spread. Backing yield accrues to the protocol and is paid out only to the staked share of supply.",
       "revenueMix": "May 2026 gross fee income was 16.5M (April was 22M). Of the 4.5B backing, 89 percent is liquid cash deployed in DeFi lending on Aave, Morpho, Kamino and Jupiter Lend as the primary yield source, and 9 percent is BTC and ETH basis positions, so lending rates now dominate over funding. USDtb interest of about 2.4M per month has been redirected to sUSDe stakers since April 2026. Fee allocation is 44 percent sUSDe yield, 38 percent partner rewards, 18 percent Aave liquid-leverage program. The reserve fund is 62.5M. sUSDe 30-day APY is about 4.0 percent and the staking ratio is 39.7 percent."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

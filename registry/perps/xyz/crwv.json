@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Single-stock perpetual market tracking CoreWeave. Users get linear exposure to CoreWeave share-price moves without owning CoreWeave shares, shareholder rights, or dividend claims, cash-settled in USDC on trade[XYZ]."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

@@ -8,6 +8,10 @@
   "accessModel": "permissioned",
   "rwaClassification": "programmable-finance",
   "conventionNote": "Funding settles every 8 hours on most markets and every 4 hours on 10, read per symbol from the funding_rate endpoint, and the standard fees are 2 bps maker and 6 bps taker at VIP 0.",
+  "review": {
+    "suspicious": false,
+    "delisted": false
+  },
   "roles": [
     {
       "organization": "bitunix",

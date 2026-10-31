@@ -30,14 +30,16 @@
     "chains": [
       "monad"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Yield Spread",
       "revenueConfidence": "no-public-data",
       "feeLastVerified": "2026-05-11",
       "revenueNotes": "Anchored earns the spread between underlying treasury yields and the yield passed through to token holders (estimated ~25-100 bps depending on product). No protocol token disclosed."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

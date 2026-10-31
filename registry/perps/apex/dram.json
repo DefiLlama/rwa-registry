@@ -15,6 +15,10 @@
     "description": "ApeX Omni perpetual market tracking Roundhill Memory ETF (Perp tracking Roundhill Memory ETF (semiconductor/memory exposure)). Verified live on platform UI 2026-05-26 via browser.",
     "website": "https://omni.apex.exchange/"
   },
+  "review": {
+    "suspicious": true,
+    "delisted": false
+  },
   "events": [
     {
       "kind": "review",

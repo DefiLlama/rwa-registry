@@ -14,6 +14,10 @@
   "about": {
     "description": "trade[XYZ] perpetual market tracking Ibiden Co., Ltd. Verified live on the trade.xyz platform UI 2026-06-30 via browser check."
   },
+  "review": {
+    "suspicious": false,
+    "delisted": true
+  },
   "events": [
     {
       "kind": "delisting",

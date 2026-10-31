@@ -14,6 +14,10 @@
   "about": {
     "description": "Industrial-metals perpetual on Gains Network priced off the Global X Uranium ETF (URA), a uranium-mining-equity ETF, with pricing referencing Chainlink DON. Positions are margined and cash-settled in USDC / DAI / WETH on Arbitrum / Polygon / Base. Users get sector exposure without holding ETF shares or constituent equities."
   },
+  "review": {
+    "suspicious": false,
+    "delisted": true
+  },
   "events": [
     {
       "kind": "delisting",

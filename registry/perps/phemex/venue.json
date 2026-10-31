@@ -9,6 +9,10 @@
   "accessModel": "permissioned",
   "rwaClassification": "programmable-finance",
   "conventionNote": "Funding settles every 8 hours on most markets and every 4 hours on 20 of the 128, with the interval read per market from the products API, and the base-tier fee is 1 bps maker and 6 bps taker.",
+  "review": {
+    "suspicious": false,
+    "delisted": false
+  },
   "roles": [
     {
       "organization": "phemex",

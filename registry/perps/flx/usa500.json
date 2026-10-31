@@ -14,6 +14,10 @@
   "about": {
     "description": "Equity-index perpetual market tracking a large-cap U.S. equity benchmark commonly used as a proxy for the U.S. public stock market. Users get synthetic index exposure rather than ownership of constituent shares. Pricing uses Felix's external reference methodology for index markets. Positions are margined and cash-settled in USDH. Markets are visible on Hyperliquid under the flx namespace, but are operated by Felix rather than listed as core Hyperliquid perps."
   },
+  "review": {
+    "suspicious": false,
+    "delisted": true
+  },
   "events": [
     {
       "kind": "delisting",

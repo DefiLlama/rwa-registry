@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Perpetual market on Variational Omni tracking Crude Oil (Brent), cash-settled."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

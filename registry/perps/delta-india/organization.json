@@ -31,8 +31,6 @@
     "platformType": [
       "perp-venue"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Perp Maker/Taker Fees",
       "issuerDocsUrl": "https://www.delta.exchange/fees",
@@ -42,6 +40,10 @@
       "revenueNotes": "India-KYC venue (FIU-registered). Underlyings are tokenized stocks (Backed xStocks / bStocks).",
       "subsidyRebateArrangements": "Metal token perps (PAXG, XAUT, SLVON) trade at 1 bp maker and 1 bp taker"
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

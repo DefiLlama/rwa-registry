@@ -31,8 +31,6 @@
     "chains": [
       "base"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Asset Manager Fee",
       "holderTotalFeeBps": 100,
@@ -43,6 +41,10 @@
       "feeLastVerified": "2026-05-10",
       "revenueNotes": "Real-estate platforms typically charge 1-2% AUM-equivalent fee for property management, plus mint/redemption costs at the DST level. Specific fee schedule per property."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

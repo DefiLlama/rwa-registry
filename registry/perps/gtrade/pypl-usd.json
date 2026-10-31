@@ -15,5 +15,9 @@
   },
   "about": {
     "description": "Single-stock perpetual on Gains Network tracking PayPal Holdings, Inc. (PYPL), with pricing referencing Chainlink DON (24/5 equity feed). Users gain linear exposure to PayPal Holdings, Inc. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC / DAI / WETH on Arbitrum / Polygon / Base."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

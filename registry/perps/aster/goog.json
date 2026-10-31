@@ -16,6 +16,10 @@
   "about": {
     "description": "Single-stock perpetual on Aster (YZi Labs-backed) tracking Alphabet Inc. Class C shares (GOOG). Delisted from Aster as of May 2026 in favor of GOOGL Class A. Pricing referenced Aster custom oracle. Was margined and cash-settled in USD1 on BNB Chain / Aster Chain."
   },
+  "review": {
+    "suspicious": false,
+    "delisted": true
+  },
   "events": [
     {
       "kind": "delisting",

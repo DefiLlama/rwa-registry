@@ -15,5 +15,9 @@
   },
   "about": {
     "description": "Single-stock perpetual market on Aster tracking Adobe Inc. Users get linear exposure to share-price moves without owning shares, shareholder rights, or dividend claims, with pricing referencing an external 24/5 equity feed. Positions are margined and cash-settled in USDT on Aster."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

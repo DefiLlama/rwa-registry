@@ -17,7 +17,10 @@
     "category": [
       "gold-commodities"
     ],
-    "primaryChain": "ethereum",
+    "primaryChain": "ethereum"
+  },
+  "review": {
+    "suspicious": false,
     "delisted": false
   }
 }

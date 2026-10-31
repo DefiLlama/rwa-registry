@@ -10,6 +10,10 @@
   "accessModel": "permissionless",
   "rwaClassification": "programmable-finance",
   "conventionNote": "Funding follows a continuous funding-velocity model with no fixed settlement period, maker and taker fees are per-market on-chain settings with no published schedule, and all 32 parcl markets are delisted.",
+  "review": {
+    "suspicious": false,
+    "delisted": true
+  },
   "roles": [
     {
       "organization": "pyth-network",

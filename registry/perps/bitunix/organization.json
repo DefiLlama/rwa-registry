@@ -33,8 +33,6 @@
     "platformType": [
       "perp-venue"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Perp Maker/Taker Fees",
       "issuerDocsUrl": "https://www.bitunix.com/service/handling-fee",
@@ -43,6 +41,10 @@
       "feeLastVerified": "2026-07-30",
       "revenueNotes": "US stock futures launched 2026-03-19 and the TradFi zone expanded through 2026."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

@@ -14,6 +14,10 @@
   "about": {
     "description": "NVIDIA H100 GPU hourly rental rate perpetual on Paragon. HIP-3 builder-deployed market on Hyperliquid in the para namespace. Tracks the GPU compute rate index, cash-settled in USDC. Mirrors the trade[XYZ] H100 product on a different builder code."
   },
+  "review": {
+    "suspicious": false,
+    "delisted": true
+  },
   "roles": [
     {
       "organization": "squaretower",

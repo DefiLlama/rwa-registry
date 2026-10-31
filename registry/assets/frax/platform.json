@@ -38,8 +38,6 @@
       "ethereum"
     ],
     "attestationFrequency": "Continuous (on-chain) + monthly attestation",
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Yield Spread + Borrow Spread",
       "mintFeeBps": 0,
@@ -49,6 +47,10 @@
       "feeLastVerified": "2026-07-09",
       "revenueNotes": "frxUSD runs at zero mint and redeem fees to drive adoption. Treasury yield on backing is paid to holders who opt in via FraxNet or sfrxUSD staking, with the protocol retaining the spread on non distributed balances."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

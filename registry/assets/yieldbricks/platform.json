@@ -30,7 +30,9 @@
     "primaryChain": "arbitrum",
     "chains": [
       "arbitrum"
-    ],
+    ]
+  },
+  "review": {
     "suspicious": false,
     "delisted": false
   },

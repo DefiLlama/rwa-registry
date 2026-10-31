@@ -15,6 +15,10 @@
     "description": "DUPLICATE of the active Helix H100 NVIDIA GPU hourly rental perp. Delisted to preserve audit trail. Canonical marked -dup.",
     "website": "https://helixapp.com/futures/h100-usdt-perp"
   },
+  "review": {
+    "suspicious": false,
+    "delisted": true
+  },
   "roles": [
     {
       "organization": "squaretower",

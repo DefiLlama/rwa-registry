@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Brent crude oil perpetual on Gains Network. The contract tracks Crude Oil (Brent) via Chainlink DON. Users gain linear oil-price exposure without owning physical crude or a deliverable futures position. Positions are margined and cash-settled in USDC / DAI / WETH on Arbitrum / Polygon / Base."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

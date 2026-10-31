@@ -14,6 +14,10 @@
   "about": {
     "description": "H100 is a perpetual on NVIDIA H100 Hourly listed on Lighter, settled in USDC."
   },
+  "review": {
+    "suspicious": false,
+    "delisted": false
+  },
   "roles": [
     {
       "organization": "squaretower",

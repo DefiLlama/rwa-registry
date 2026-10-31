@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "NCLD is a perpetual on Roundhill Neocloud ETF listed on BingX, settled in USDT."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

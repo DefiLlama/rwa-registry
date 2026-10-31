@@ -35,14 +35,16 @@
     "chains": [
       "solana"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Maker/Taker Fees",
       "revenueConfidence": "no-public-data",
       "feeLastVerified": "2026-05-11",
       "revenueNotes": "Parcl charges open/close fees on housing-index perpetuals plus a price-impact skew. Fees accrue to PRCL stakers and the protocol treasury. Listed real-estate indices include city-level home-price markers and aggregate US/regional indices, with oracles powered by Parcl Labs' proprietary housing-data pipeline."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

@@ -33,8 +33,6 @@
     "platformType": [
       "perp-venue"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Perp Maker/Taker Fees",
       "issuerDocsUrl": "https://phemex.com/fees-conditions",
@@ -43,6 +41,10 @@
       "feeLastVerified": "2026-07-30",
       "revenueNotes": "perpProductSubType=TradFi/PreMarket API flag. TradFi zero-fee promo ran from launch through 2026-05."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

@@ -27,8 +27,11 @@
     "primaryChain": "hedera",
     "chains": [
       "hedera"
-    ],
-    "suspicious": false
+    ]
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": true
   },
   "roles": [
     {

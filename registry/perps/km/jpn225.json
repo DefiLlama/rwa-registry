@@ -16,6 +16,10 @@
   "about": {
     "description": "Equity-index perpetual market tracking Nikkei 225 Index. Users get synthetic index exposure rather than ownership of constituent shares, cash-settled in USDH on Markets by Kinetiq."
   },
+  "review": {
+    "suspicious": false,
+    "delisted": true
+  },
   "events": [
     {
       "kind": "delisting",

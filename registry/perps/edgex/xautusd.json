@@ -14,5 +14,9 @@
   },
   "about": {
     "description": "Gold perpetual market on edgeX quoted against Tether Gold (XAUT), where each XAUT token represents one troy ounce of physical gold held in Switzerland. The contract gives linear exposure to the XAUT/USD price (tracking gold) without owning XAUT, the underlying gold, or redemption rights, with pricing referencing an external feed via the Stork decentralized oracle. Positions are margined and cash-settled in USDT."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

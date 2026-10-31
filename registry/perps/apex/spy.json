@@ -15,6 +15,10 @@
     "description": "SPDR S&P 500 ETF Trust perpetual on ApeX Omni via zkLink, cash-settled in USDT.",
     "issuer": "ApeX Protocol"
   },
+  "review": {
+    "suspicious": false,
+    "delisted": false
+  },
   "roles": [
     {
       "organization": "chainlink",

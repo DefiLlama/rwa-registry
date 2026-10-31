@@ -43,8 +43,6 @@
       "ethereum"
     ],
     "attestationFrequency": "Daily + Monthly",
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Management Fee",
       "holderTotalFeeBps": 30,
@@ -59,6 +57,10 @@
       "feeLastVerified": "2026-07-09",
       "revenueNotes": "Current docs show a 30 bps total expense ratio accrued daily plus a 5 bps transaction fee on both subscription and redemption paid in USDC. USDO adds a stablecoin margin business where OpenEden Digital keeps part of the reserve yield spread."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

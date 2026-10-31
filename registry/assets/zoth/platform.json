@@ -33,14 +33,16 @@
     "chains": [
       "ethereum"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "issuerDocsUrl": "https://docs.zoth.io/",
       "revenueConfidence": "no-public-data",
       "feeLastVerified": "2026-05-10",
       "revenueNotes": "Public fee disclosure not available. Protocol restructured after March 2025 exploit."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

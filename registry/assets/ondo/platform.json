@@ -51,8 +51,6 @@
       "arbitrum"
     ],
     "attestationFrequency": "Continuous (NAV-rebasing) + quarterly audited financials",
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Hybrid",
       "assetManagerTakeBps": 25,
@@ -73,6 +71,10 @@
       "subsidyRebateArrangements": "USDY: $5,000 mint/redeem minimum on Sui/Aptos/Stellar/XRPL/Noble; OUSG mgmt fee waived to 2026-07-01",
       "revenueMix": "Mixed (Mgmt Fee + Yield Spread + Quote Spread + Trading Fee)"
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

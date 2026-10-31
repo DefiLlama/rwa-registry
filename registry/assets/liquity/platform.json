@@ -33,13 +33,15 @@
       "ethereum"
     ],
     "attestationFrequency": "Continuous (on-chain)",
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Borrow Fee + Liquidation Fee",
       "revenueConfidence": "issuer-disclosed",
       "revenueNotes": "Liquity V2 earns ongoing interest charges on collateralized debt (paid in BOLD), redemption fees, and liquidation premiums. Revenue distributed to LQTY stakers + BOLD-stability-pool depositors."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

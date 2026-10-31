@@ -40,8 +40,6 @@
     "chains": [
       "ethereum"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Origination Fee + Yield Spread",
       "holderTotalFeeBps": 25,
@@ -49,6 +47,10 @@
       "feeLastVerified": "2026-07-09",
       "revenueNotes": "JTRSY charges 25 bps total annually accruing daily onchain per the Centrifuge STEP II filing (raised from a waived 15 bps in 2025). The JAAA tokenized fund TER is not disclosed and should not be confused with the US listed JAAA ETF. Fee split between Anemoy and Janus Henderson is not disclosed."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

@@ -14,6 +14,10 @@
   "about": {
     "description": "Equity-index perpetual market tracking a U.S. technology-heavy public-equity benchmark. Users get synthetic index exposure rather than ownership of constituent shares. Pricing follows the market reference used by the km venue on Hyperliquid. Positions are margined and cash-settled in USDH. Markets are visible on Hyperliquid under the km namespace, but are operated by Markets by Kinetiq rather than listed as core Hyperliquid perps."
   },
+  "review": {
+    "suspicious": false,
+    "delisted": true
+  },
   "events": [
     {
       "kind": "delisting",

@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "ETF perpetual market tracking the Sprott Uranium Miners ETF. Users get synthetic exposure to a uranium-focused listed fund rather than ownership of ETF shares or redemption rights in the fund, with pricing referencing the ETF's public market price. Positions are margined and cash-settled in USDC. Markets are visible on Hyperliquid under the xyz namespace, but are operated by trade[XYZ] rather than listed as core Hyperliquid perps."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

@@ -28,8 +28,11 @@
     "primaryChain": "ethereum",
     "chains": [
       "ethereum"
-    ],
-    "suspicious": false
+    ]
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": true
   },
   "roles": [
     {

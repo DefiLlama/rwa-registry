@@ -14,6 +14,10 @@
   "about": {
     "description": "Single-stock perpetual market on Lighter tracking SpaceX (Space Exploration Technologies Corp.), publicly listed on Nasdaq (SPCX) since June 2026, cash-settled in USDC."
   },
+  "review": {
+    "suspicious": false,
+    "delisted": true
+  },
   "events": [
     {
       "kind": "delisting",

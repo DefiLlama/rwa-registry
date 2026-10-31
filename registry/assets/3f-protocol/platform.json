@@ -31,8 +31,6 @@
     "chains": [
       "ethereum"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Vault Performance Fee + Spread Retention",
       "mintFeeBps": 0,
@@ -44,6 +42,10 @@
       "feeLastVerified": "2026-05-22",
       "revenueNotes": "3F in private beta as of March 2026; explicit fee schedule not publicly disclosed. Built atop Morpho Blue. Revenue derives from (a) vault performance fee on net yield, (b) any spread between underlying JAAA NAV growth and USDC borrow cost. Verify Confidence once 3F publishes formal docs."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

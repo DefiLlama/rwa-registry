@@ -11,6 +11,10 @@
   "accessModel": "permissionless",
   "rwaClassification": "programmable-finance",
   "conventionNote": "Funding is paid hourly between traders with about 5.5% a year by default and an off-hours cap, most markets ran in HIP-3 growth mode at 0.3 bps maker and 0.9 bps taker, and Dreamcash added a builder fee of 2.5 bps on web and 4.5 bps in the app.",
+  "review": {
+    "suspicious": false,
+    "delisted": true
+  },
   "roles": [
     {
       "organization": "pyth-network",

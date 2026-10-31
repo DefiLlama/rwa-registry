@@ -31,14 +31,16 @@
     "chains": [
       "hsk"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Origination + Management Fee",
       "revenueConfidence": "no-public-data",
       "feeLastVerified": "2026-05-11",
       "revenueNotes": "Asseto earns acquisition / structuring fees on each property issuance + ongoing property-management fees (typical 8-10% of rental income)."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

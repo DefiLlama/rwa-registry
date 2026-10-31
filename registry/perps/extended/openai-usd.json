@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Pre-IPO perpetual on Extended (formerly X10) tracking the private-market reference valuation of OpenAI, with pricing referencing Extended oracle. Users gain linear exposure to changes in that reference valuation without owning equity, shareholder rights, or any claim on the company. Positions are margined and cash-settled in USDC on Starknet."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

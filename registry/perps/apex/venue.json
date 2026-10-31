@@ -11,6 +11,10 @@
   "accessModel": "permissionless",
   "rwaClassification": "programmable-finance",
   "conventionNote": "Funding settles every hour from an orderbook premium index on every market, and APEX holders and VIP tiers get lower fees than the default 2 bps maker and 5 bps taker.",
+  "review": {
+    "suspicious": false,
+    "delisted": false
+  },
   "roles": [
     {
       "organization": "apex-omni",

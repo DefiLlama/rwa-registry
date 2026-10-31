@@ -35,13 +35,15 @@
     "chains": [
       "ethereum"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueConfidence": "issuer-disclosed",
       "feeLastVerified": "2026-07-09",
       "revenueNotes": "No static fee schedule. A governance set Minter Rate is charged continuously on each issuer outstanding M balance, calibrated below collateral yield so issuers keep a margin, and an Earner Rate is paid to approved earners with payouts capped at minter rate accruals. Live parameters are onchain."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

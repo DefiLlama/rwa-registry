@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Single-stock perpetual on Extended (formerly X10) tracking Rocket Lab Corporation (RKLB), with pricing referencing Extended oracle. Users gain linear exposure to Rocket Lab Corporation share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Starknet."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

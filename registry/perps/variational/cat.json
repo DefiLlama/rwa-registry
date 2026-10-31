@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Single-stock perpetual on Variational Omni tracking Caterpillar Inc. (CAT), priced off Variational Omni's OLP-aggregated mid-quotes. Users gain linear exposure to Caterpillar Inc. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Arbitrum."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

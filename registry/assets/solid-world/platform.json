@@ -32,14 +32,16 @@
       "polygon"
     ],
     "attestationFrequency": "Per credit-issuance cycle",
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Origination + Trading Fee",
       "revenueConfidence": "no-public-data",
       "feeLastVerified": "2026-05-11",
       "revenueNotes": "Solid World earns origination fees on each tokenized forward and trading fees on the CRISP secondary market. Protocol-fee revenue accrues to the Solid World DAO treasury."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

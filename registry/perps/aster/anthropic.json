@@ -15,5 +15,9 @@
   },
   "about": {
     "description": "Pre-IPO valuation perpetual on Aster tracking Anthropic, cash-settled."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

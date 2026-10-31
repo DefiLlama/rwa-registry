@@ -29,7 +29,9 @@
     "primaryChain": "bsc",
     "chains": [
       "bsc"
-    ],
+    ]
+  },
+  "review": {
     "suspicious": false,
     "delisted": false
   },

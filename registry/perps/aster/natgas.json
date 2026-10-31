@@ -15,5 +15,9 @@
   },
   "about": {
     "description": "Natural-gas perpetual on Aster (YZi Labs-backed) tracking Natural Gas, with pricing referencing Aster custom oracle. Users gain linear exposure to spot natural-gas prices without owning physical inventory or futures contracts. Positions are margined and cash-settled in USD1 on BNB Chain / Aster Chain."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

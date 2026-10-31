@@ -41,14 +41,16 @@
       "avax"
     ],
     "attestationFrequency": "Daily NAV + annual audit",
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Management Fee + Platform Fee",
       "revenueConfidence": "no-public-data",
       "feeLastVerified": "2026-07-09",
       "revenueNotes": "Libeara earns B2B platform and tokenization service fees from fund manager clients rather than fund economics, with amounts not public. At fund level CUMIU carries a management fee of about 5 bps while other fund fee schedules sit in private placement documents."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

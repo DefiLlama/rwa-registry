@@ -30,14 +30,16 @@
       "stellar"
     ],
     "attestationFrequency": "Quarterly",
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Origination + Servicing Fee",
       "revenueConfidence": "no-public-data",
       "feeLastVerified": "2026-05-11",
       "revenueNotes": "RedSwan earns origination fees on each tokenized CRE deal + ongoing property-management/servicing fees from underlying property operators."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

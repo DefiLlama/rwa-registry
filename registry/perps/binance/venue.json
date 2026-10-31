@@ -9,6 +9,10 @@
   "accessModel": "permissioned",
   "rwaClassification": "programmable-finance",
   "conventionNote": "Funding settles every 8 hours on most markets and every 4 hours on 11, read per symbol from fundingInfo, and equity perps run under the TradFi Perpetuals programme at 0 bps maker and 4 bps taker since 2026-03-31.",
+  "review": {
+    "suspicious": false,
+    "delisted": false
+  },
   "roles": [
     {
       "organization": "binance",

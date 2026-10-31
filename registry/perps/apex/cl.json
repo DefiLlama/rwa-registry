@@ -14,6 +14,10 @@
   "about": {
     "description": "WTI Crude Oil (CL) perpetual on ApeX Omni, USDC-margined. Tracks NYMEX WTI Crude front-month."
   },
+  "review": {
+    "suspicious": true,
+    "delisted": false
+  },
   "events": [
     {
       "kind": "review",

@@ -35,7 +35,8 @@
   },
   "review": {
     "activeAumReviewed": false,
-    "suspicious": false
+    "suspicious": false,
+    "delisted": true
   },
   "deployments": [
     {

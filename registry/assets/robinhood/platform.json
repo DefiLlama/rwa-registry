@@ -33,13 +33,15 @@
     "chains": [
       "arbitrum"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Hybrid",
       "revenueConfidence": "public-filings",
       "revenueNotes": "Robinhood Markets generates revenue primarily from payment-for-order-flow (PFOF) on equities/options/crypto, transaction rebates from exchange counterparties, net interest income on cash/margin balances, Robinhood Gold subscription fees, and securities lending. Tokenized stock products (e.g. Robinhood-issued shares on Arbitrum) layer minimal mint/redeem fees on top of the existing brokerage P&L. Public company (NASDAQ: HOOD)."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

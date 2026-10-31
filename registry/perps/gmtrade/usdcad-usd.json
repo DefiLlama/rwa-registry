@@ -15,5 +15,9 @@
   },
   "about": {
     "description": "USDCAD perpetual on GMTrade (Solana), USDC-margined. Tracks USD/CAD FX rate."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

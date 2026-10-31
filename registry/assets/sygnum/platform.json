@@ -30,8 +30,6 @@
       "arbitrum"
     ],
     "attestationFrequency": "Daily NAV publication; semi-annual audited financials",
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Asset Manager Fee",
       "holderTotalFeeBps": 50,
@@ -46,6 +44,10 @@
       "feeLastVerified": "2026-05-10",
       "revenueNotes": "Sygnum FIUSD Liquidity Fund mgmt fee estimated at ~50 bps based on Swiss/EU institutional tokenized cash-fund norms. Sygnum publishes a factsheet but does not disclose the exact bps figure publicly. To be verified directly with the issuer or via fund subscription documents."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

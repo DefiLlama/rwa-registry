@@ -36,14 +36,16 @@
     "chains": [
       "arbitrum"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Platform Setup + Annual Service",
       "revenueConfidence": "no-public-data",
       "feeLastVerified": "2026-05-11",
       "revenueNotes": "Stobox earns one-time platform-setup fees, annual SaaS subscription fees from issuers, and a small per-transaction transfer fee on the secondary venue. STBU is used for fee discounts and governance."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

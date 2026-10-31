@@ -15,5 +15,9 @@
   },
   "about": {
     "description": "Bond perpetual on Ostium Labs priced off the iShares iBoxx $ High Yield Corporate Bond ETF (HYG), a high-yield corporate bond ETF, with pricing referencing Stork / QUODD. Positions are margined and cash-settled in USDC on Arbitrum. Users get duration-and-credit exposure without holding ETF shares, accrued coupons, or distribution rights."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

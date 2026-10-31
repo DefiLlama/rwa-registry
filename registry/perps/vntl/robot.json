@@ -14,6 +14,10 @@
   "about": {
     "description": "ETF perpetual market tracking the Global X Robotics & Artificial Intelligence ETF. Users get synthetic exposure to a listed robotics and AI fund rather than ownership of ETF shares or redemption rights in the fund. Ventuals uses Pyth data feeds when available and an internal pricing fallback when external pricing is unavailable. Max leverage 20x, open interest cap $10m, positions margined and cash-settled in USDH. Market is visible on Hyperliquid under the vntl namespace, but is operated by Ventuals rather than listed as a core Hyperliquid perp."
   },
+  "review": {
+    "suspicious": false,
+    "delisted": true
+  },
   "events": [
     {
       "kind": "delisting",

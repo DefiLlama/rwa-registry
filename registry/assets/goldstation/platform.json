@@ -28,7 +28,9 @@
     "primaryChain": "klaytn",
     "chains": [
       "klaytn"
-    ],
+    ]
+  },
+  "review": {
     "suspicious": false,
     "delisted": false
   },

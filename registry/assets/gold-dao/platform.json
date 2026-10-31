@@ -35,14 +35,16 @@
       "ethereum"
     ],
     "attestationFrequency": "Quarterly",
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Storage Fee",
       "revenueConfidence": "no-public-data",
       "feeLastVerified": "2026-05-11",
       "revenueNotes": "Gold DAO charges a small annual storage/insurance fee implicit in the gold-bar accumulation mechanic. No protocol-level transaction fees."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

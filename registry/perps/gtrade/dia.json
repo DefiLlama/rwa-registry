@@ -14,6 +14,10 @@
   "about": {
     "description": "Equity-index perpetual on Gains Network tracking SPDR Dow Jones Industrial Average ETF Trust (DIA), with pricing referencing Chainlink DON. Users gain linear exposure to the index level without holding any underlying constituent stocks or futures. Positions are margined and cash-settled in USDC / DAI / WETH on Arbitrum / Polygon / Base."
   },
+  "review": {
+    "suspicious": false,
+    "delisted": true
+  },
   "events": [
     {
       "kind": "delisting",

@@ -14,6 +14,10 @@
   "about": {
     "description": "SHEIN is a perpetual on Shein listed on Bybit, settled in USDT."
   },
+  "review": {
+    "suspicious": false,
+    "delisted": false
+  },
   "events": [
     {
       "kind": "listing",

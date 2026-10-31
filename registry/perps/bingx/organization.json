@@ -33,8 +33,6 @@
     "platformType": [
       "perp-venue"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Perp Maker/Taker Fees",
       "issuerDocsUrl": "https://bingx.com/en/support/costs",
@@ -43,6 +41,10 @@
       "feeLastVerified": "2026-07-30",
       "revenueNotes": "Largest CEX RWA perp program by instrument count, with the NCSK/NCSI/NCCO/NCFX symbol taxonomy."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

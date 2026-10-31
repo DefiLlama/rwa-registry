@@ -30,14 +30,16 @@
     "chains": [
       "ethereum"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Mint/Redeem Spread",
       "revenueConfidence": "no-public-data",
       "feeLastVerified": "2026-05-11",
       "revenueNotes": "KAIO earns platform fees on issuance + on-going servicing fees from the underlying fund managers it wraps (HKMA-regulated structures)."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

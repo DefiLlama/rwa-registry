@@ -14,6 +14,10 @@
   "about": {
     "description": "Austin Housing Index perpetual on Parcl, cash-settled in USDC on Solana."
   },
+  "review": {
+    "suspicious": false,
+    "delisted": true
+  },
   "events": [
     {
       "kind": "delisting",

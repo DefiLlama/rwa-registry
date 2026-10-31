@@ -15,5 +15,9 @@
   },
   "about": {
     "description": "Single-stock perpetual market on Aster tracking International Business Machines Corp, cash-settled."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

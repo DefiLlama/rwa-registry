@@ -16,6 +16,10 @@
   "about": {
     "description": "West Texas Intermediate (WTI) crude oil perpetual on Helix (Injective), traded under the on-venue symbol USOIL, cash-settled in USDT."
   },
+  "review": {
+    "suspicious": false,
+    "delisted": true
+  },
   "events": [
     {
       "kind": "delisting",

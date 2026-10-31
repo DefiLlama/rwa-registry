@@ -14,6 +14,10 @@
   "about": {
     "description": "ETF perpetual market tracking the iShares Russell 2000 ETF (IWM). Users get synthetic exposure to the IWM ETF's price rather than ownership of ETF shares or redemption rights, with pricing referencing the ETF's public market price via Lighter's fair price oracle. Positions are margined and cash-settled in USDC."
   },
+  "review": {
+    "suspicious": false,
+    "delisted": false
+  },
   "roles": [
     {
       "organization": "chainlink",

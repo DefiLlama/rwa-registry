@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Crude Oil (WTI) perpetual on Extended on Starknet, cash-settled in USDC."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

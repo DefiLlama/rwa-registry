@@ -33,8 +33,6 @@
     "platformType": [
       "perp-venue"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Perp Maker/Taker Fees",
       "issuerDocsUrl": "https://www.htx.com/fee/",
@@ -43,6 +41,10 @@
       "feeLastVerified": "2026-07-30",
       "revenueNotes": "Largest tier-1 program and the only venue with true US index perps (1h funding on indices)."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

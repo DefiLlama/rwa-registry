@@ -31,13 +31,15 @@
     "chains": [
       "ethereum"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueConfidence": "no-public-data",
       "feeLastVerified": "2026-07-09",
       "revenueNotes": "No issuer fee for holding or transferring. Mint Users may incur network, execution, and operational fees disclosed pre completion and waivable at issuer discretion, with no published bps schedule. Holders receive no yield so reserve income accrues to the issuer."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

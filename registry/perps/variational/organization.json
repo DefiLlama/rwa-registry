@@ -27,8 +27,6 @@
     "platformType": [
       "perp-dex"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Spread Capture",
       "feeScheduleUrl": "https://docs.variational.io/omni/trading/fees",
@@ -36,6 +34,10 @@
       "feeLastVerified": "2026-05-19",
       "revenueNotes": "Zero maker/taker fees. Revenue from spread captured by the Omni Liquidity Provider; Variational Protocol receives a cut. $0.10 flat deposit/withdraw fee. Liquidation penalty: 0.5% of mid. Source: docs.variational.io/omni/trading/fees."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

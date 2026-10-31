@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Palladium perpetual market. The contract tracks the price of one troy ounce of palladium. Users get linear exposure to palladium price moves without owning physical metal or redeemable commodity claims, with pricing referencing an external palladium price feed. Positions are margined and cash-settled in USDC. Markets are visible on Hyperliquid under the xyz namespace, but are operated by trade[XYZ] rather than listed as core Hyperliquid perps."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

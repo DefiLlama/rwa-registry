@@ -28,14 +28,16 @@
     "platformType": [
       "perp-venue"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Maker/Taker Fees",
       "revenueConfidence": "issuer-disclosed",
       "feeLastVerified": "2026-08-25",
       "revenueNotes": "HIP-3 builder-deployer on Hyperliquid. Fees are 2x the standard HL perp schedule (3.0 bps maker / 9.0 bps taker), protocol fee split evenly with Hyperliquid; deployerFeeScale 1.0. Both live markets have growth mode enabled (2026-08-19), scaling all fees, rebates and volume contribution by 0.1, so the effective schedule is 0.30 bps maker / 0.90 bps taker. Funding is peer-to-peer with no exchange cut, so there is no funding skim."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

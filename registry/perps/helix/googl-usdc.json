@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Alphabet perpetual on Helix (Injective), cash-settled in USDT."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

@@ -11,6 +11,10 @@
   "accessModel": "permissionless",
   "rwaClassification": "programmable-finance",
   "conventionNote": "Funding is computed from an hourly rate with an hourly cap from the Injective market info, and makers get a rebate at the typical maker fee of -0.005%.",
+  "review": {
+    "suspicious": false,
+    "delisted": false
+  },
   "roles": [
     {
       "organization": "chainlink",

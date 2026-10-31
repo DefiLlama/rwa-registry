@@ -31,8 +31,6 @@
     "platformType": [
       "stock-perp"
     ],
-    "suspicious": false,
-    "delisted": false,
     "accessModel": "permissioned",
     "fees": {
       "revenueModel": "Perp Maker/Taker Fees",
@@ -42,6 +40,10 @@
       "feeLastVerified": "2026-07-30",
       "revenueNotes": "Bermuda-regulated INTX, non-US only, 1h funding. US entity offers crypto-only perps."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

@@ -30,14 +30,16 @@
     "platformType": [
       "perp-venue"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Opening Fee",
       "revenueConfidence": "issuer-disclosed",
       "feeLastVerified": "2026-05-11",
       "revenueNotes": "Ostium charges a single FLAT opening fee on RWA markets - same rate regardless of maker/taker direction. Stocks, indices, and FX: 4 bps flat opening. Commodities: variable 8-20 bps per symbol based on volatility. NO closing fee on any market. Non-crypto pairs have rollover fees (instead of crypto-style funding) that reflect underlying market financing costs. Crypto markets (not displayed on this RWA page) use a separate 3/10 bps maker/taker schedule. Source: https://ostium-labs.gitbook.io/ostium-docs/fee-breakdown"
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Single-stock perpetual market tracking Ciena Corporation (CIEN) on Paragon. Users get linear exposure to CIEN share-price moves without owning CIEN shares, shareholder rights, or dividend claims. HIP-3 builder-deployed market on Hyperliquid in the para namespace, cash-settled in USDC. Equity marks are sourced from Pyth equity feeds during covered sessions and bounded internally off-hours."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

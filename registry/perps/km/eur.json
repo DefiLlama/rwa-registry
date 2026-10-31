@@ -14,6 +14,10 @@
   "about": {
     "description": "FX perpetual on Kinetiq tracking Euro (EUR) versus the US dollar, with pricing referencing Kaiko institutional FX feed. Positions are margined and cash-settled in USDH on Hyperliquid (km namespace), giving users synthetic exposure to Euro/USD price movement without holding either currency as cash."
   },
+  "review": {
+    "suspicious": false,
+    "delisted": true
+  },
   "events": [
     {
       "kind": "delisting",

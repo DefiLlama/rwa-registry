@@ -37,7 +37,9 @@
       "solana",
       "peaq"
     ],
-    "attestationFrequency": "Per allocation",
+    "attestationFrequency": "Per allocation"
+  },
+  "review": {
     "suspicious": false,
     "delisted": false
   },

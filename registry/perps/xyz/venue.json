@@ -11,6 +11,10 @@
   "accessModel": "permissionless",
   "rwaClassification": "programmable-finance",
   "conventionNote": "Funding is paid hourly on the Hyperliquid HIP-3 premium formula times a 0.5 multiplier on nearly every market, with a zero interest rate on the EUR, GBP, JPY and KRW markets, and fees are the HIP-3 schedule of twice the Hyperliquid base at deployerFeeScale 1.0 (3 bps maker, 9 bps taker at tier 0), cut by 90 percent on growth-mode markets, with half going to the deployer.",
+  "review": {
+    "suspicious": false,
+    "delisted": false
+  },
   "roles": [
     {
       "organization": "pyth-network",

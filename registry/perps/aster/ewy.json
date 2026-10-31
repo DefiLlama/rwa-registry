@@ -15,5 +15,9 @@
   },
   "about": {
     "description": "ETF perpetual on Aster (YZi Labs-backed) tracking iShares MSCI South Korea ETF (EWY), with pricing referencing Aster custom oracle, cash-settled in USD1 on BNB Chain / Aster Chain."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

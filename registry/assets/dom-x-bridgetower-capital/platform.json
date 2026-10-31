@@ -41,6 +41,10 @@
       "revenueVerificationMethod": "bridgetowercapital.com, PRNewswire 2026-04-23, BusinessWire 2022-03-23, Securitize investor portal landing, SEC EDGAR filings and full-text search"
     }
   },
+  "review": {
+    "suspicious": true,
+    "delisted": true
+  },
   "roles": [
     {
       "organization": "bridgetower-capital-meridian-idaho",

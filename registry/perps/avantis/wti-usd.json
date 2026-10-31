@@ -14,6 +14,10 @@
   "about": {
     "description": "Crude Oil (WTI) perpetual on Avantis, cash-settled in USDC on Base."
   },
+  "review": {
+    "suspicious": false,
+    "delisted": true
+  },
   "events": [
     {
       "kind": "delisting",

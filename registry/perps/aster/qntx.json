@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Private-company valuation perpetual on Aster tracking Quantinuum Inc. (Pre-IPO). Pricing uses external valuation data. Users gain synthetic exposure to Quantinuum Inc.'s implied valuation without holding equity, SPV interests, or tender-offer access. Positions are margined and cash-settled in USDT on Aster."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

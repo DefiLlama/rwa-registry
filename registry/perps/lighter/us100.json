@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Nasdaq-100 Index perpetual on Lighter. Tracks the Nasdaq-100 index (US100), USDC-margined. Distinct from lighter:QQQ which tracks the Invesco QQQ Trust ETF."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

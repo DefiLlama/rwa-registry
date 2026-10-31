@@ -30,8 +30,6 @@
       "ethereum"
     ],
     "attestationFrequency": "Daily NAV; annual audited financials filed with SEC",
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Asset Manager Fee",
       "holderTotalFeeBps": 14,
@@ -49,6 +47,10 @@
       "feeWaiverEndDate": "2027-04-30",
       "revenueNotes": "Per SEC-filed FYOXX prospectus: gross expense ratio approximately 30 bps; net expense ratio approximately 14 bps after contractual fee waivers. Numbers should be re-verified against the most recent FYOXX prospectus / SAI filing. Tokenization handled in-house by Fidelity transfer agent - no separate vendor fee."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

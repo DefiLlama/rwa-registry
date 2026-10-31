@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "CoreWeave (CRWV) perpetual on Lighter. Tracks the price of CoreWeave Inc. (NASDAQ: CRWV), an AI compute infrastructure company, USDC-margined."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

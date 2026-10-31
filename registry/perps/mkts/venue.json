@@ -12,6 +12,10 @@
   "accessModel": "permissionless",
   "rwaClassification": "programmable-finance",
   "conventionNote": "Funding is paid hourly peer to peer on the Hyperliquid HIP-3 formula, fees are the HIP-3 schedule at deployer fee scale 1.0 with growth mode on, and the 2.45 to 3.5 bps in the sheet is the Kinetiq interface builder fee, not the venue fee.",
+  "review": {
+    "suspicious": false,
+    "delisted": false
+  },
   "roles": [
     {
       "organization": "kaiko",

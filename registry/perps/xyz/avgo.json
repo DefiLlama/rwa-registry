@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Single-stock perpetual market on trade[XYZ] tracking Broadcom, cash-settled."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

@@ -34,8 +34,6 @@
       "pharos"
     ],
     "attestationFrequency": "Periodic",
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Yield Spread",
       "issuerDocsUrl": "https://docs.r25.xyz/",
@@ -43,6 +41,10 @@
       "feeLastVerified": "2026-05-13",
       "revenueNotes": "R25 retains the yield spread between underlying MMF/credit returns and the rebase/yield paid to rcToken holders. Specific bps not publicly disclosed at audit date. Source: https://www.r25.xyz/"
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

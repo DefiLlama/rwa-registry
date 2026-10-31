@@ -9,6 +9,10 @@
   "accessModel": "permissioned",
   "rwaClassification": "programmable-finance",
   "conventionNote": "Funding settles every 8 hours, and fees are 3 bps maker and 5 bps taker at VIP 0.",
+  "review": {
+    "suspicious": false,
+    "delisted": true
+  },
   "roles": [
     {
       "organization": "coinex",

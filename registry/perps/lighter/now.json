@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Single-stock perpetual market on Lighter tracking ServiceNow, cash-settled."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

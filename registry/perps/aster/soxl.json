@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Direxion Daily Semiconductor Bull 3x Shares (SOXL) perpetual on Aster, USDT-margined. Tracks the 3x daily-leveraged semiconductor ETF."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

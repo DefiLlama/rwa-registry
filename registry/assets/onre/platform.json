@@ -41,8 +41,6 @@
       "solana"
     ],
     "attestationFrequency": "Monthly",
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "mintFeeBps": 0,
       "redemptionFeeBps": 25,
@@ -51,6 +49,10 @@
       "feeLastVerified": "2026-07-09",
       "revenueNotes": "Minting costs network fees only and fulfilled redemptions carry a 25 bps fee subject to change. Collateral returns on backing assets are an explicit ONyc yield component with any retained spread undisclosed."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

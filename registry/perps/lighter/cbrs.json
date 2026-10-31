@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Single-stock perpetual on Lighter (zk-rollup on Arbitrum) tracking Cerebras Systems Inc. (NASDAQ: CBRS), USDC-margined. Distinct from trade[XYZ] CBRS, Avantis CBRS, and Aster CBRS perps."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

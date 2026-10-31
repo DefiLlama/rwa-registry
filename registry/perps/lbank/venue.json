@@ -8,6 +8,10 @@
   "accessModel": "permissioned",
   "rwaClassification": "programmable-finance",
   "conventionNote": "Funding settles every 8 hours on 189 of 200 markets, every 4 hours on 10 and every hour on 1, read per market from positionFeeTime, and fees are the base tier of 0.02% maker and 0.06% taker.",
+  "review": {
+    "suspicious": false,
+    "delisted": false
+  },
   "roles": [
     {
       "organization": "lbank",

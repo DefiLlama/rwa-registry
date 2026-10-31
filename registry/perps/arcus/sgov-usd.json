@@ -14,6 +14,10 @@
   "about": {
     "description": "Arcus perpetual market tracking iShares 0-3 Month Treasury Bond ETF (NYSE Arca: SGOV) with 24/7 exposure to the underlying short-duration U.S. Treasury bill ETF. Total-return tracking (dividends, splits, and futures rolls passed through funding), cash-settled in USDG on the Arcus off-chain CLOB with permissioned appchain re-verification and EVM rootchain custody."
   },
+  "review": {
+    "suspicious": false,
+    "delisted": true
+  },
   "events": [
     {
       "kind": "delisting",

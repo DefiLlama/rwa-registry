@@ -14,6 +14,10 @@
   "about": {
     "description": "Bovespa Index (IBOV) perpetual on trade[XYZ] (Hyperliquid HIP-3 xyz namespace). Tracks the Brazilian B3 Bovespa index, USDC-margined. HIP-3 builder-deployed market. Standard XYZ maker/taker fees and hourly funding."
   },
+  "review": {
+    "suspicious": false,
+    "delisted": true
+  },
   "events": [
     {
       "kind": "delisting",

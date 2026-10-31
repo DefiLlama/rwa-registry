@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Single-stock perpetual market tracking Alibaba. Users get linear exposure to Alibaba share-price moves without owning Alibaba shares, shareholder rights, or dividend claims, cash-settled in USDC on trade[XYZ]."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

@@ -31,14 +31,16 @@
       "ethereum"
     ],
     "attestationFrequency": "Monthly",
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Float Income + Transaction Fees",
       "revenueConfidence": "no-public-data",
       "feeLastVerified": "2026-05-11",
       "revenueNotes": "Quantoz earns float income on stablecoin reserves and platform/transaction fees from MiCA-compliant payment-services activity built on EURQ/USDQ rails."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

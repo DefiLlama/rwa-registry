@@ -14,6 +14,10 @@
   "about": {
     "description": "SPX is a perpetual on SPX6900 listed on Lighter, settled in USDC."
   },
+  "review": {
+    "suspicious": true,
+    "delisted": true
+  },
   "events": [
     {
       "kind": "delisting",

@@ -14,6 +14,10 @@
   "about": {
     "description": "Single-stock perpetual market tracking Tencent. Users get linear exposure to Tencent share-price moves without owning Tencent shares, shareholder rights, or dividend claims, cash-settled in USDH on Markets by Kinetiq."
   },
+  "review": {
+    "suspicious": false,
+    "delisted": true
+  },
   "events": [
     {
       "kind": "delisting",

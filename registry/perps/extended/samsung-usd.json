@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Single-stock perpetual on Extended (formerly X10) tracking Samsung Electronics Co., Ltd. (Korea Exchange: 005930), with pricing referencing Extended oracle. Users gain linear exposure to Samsung Electronics Co., Ltd. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Starknet."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

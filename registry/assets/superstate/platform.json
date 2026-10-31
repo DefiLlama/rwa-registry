@@ -38,8 +38,6 @@
       "ethereum"
     ],
     "attestationFrequency": "Daily / Weekly",
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Management Fee",
       "holderTotalFeeBps": 15,
@@ -54,6 +52,10 @@
       "feeLastVerified": "2026-07-09",
       "revenueNotes": "USTB charges up to 15 bps with a 10 bps monthly rebate on average daily holdings above 25 million dollars, with no performance fee. USCC charges 75 bps. After the Invesco and Bitwise transitions headline fees accrue to the external managers with Superstate earning undisclosed infrastructure and transfer agency fees via FundOS."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

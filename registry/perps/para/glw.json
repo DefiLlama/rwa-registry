@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Single-stock perpetual market tracking Corning Incorporated (GLW) on Paragon. Users get linear exposure to GLW share-price moves without owning GLW shares, shareholder rights, or dividend claims. HIP-3 builder-deployed market on Hyperliquid in the para namespace, cash-settled in USDC."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

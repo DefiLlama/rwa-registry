@@ -14,6 +14,10 @@
   "about": {
     "description": "Single-stock perpetual market tracking the U.S.-listed Alibaba ADR. The contract gives synthetic exposure to Alibaba's ADR price without ownership of depositary shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDH. The market is visible on Hyperliquid under the km namespace, but it is operated by Markets by Kinetiq rather than listed as a core Hyperliquid perp."
   },
+  "review": {
+    "suspicious": false,
+    "delisted": true
+  },
   "events": [
     {
       "kind": "delisting",

@@ -30,7 +30,9 @@
     "primaryChain": "icp",
     "chains": [
       "icp"
-    ],
+    ]
+  },
+  "review": {
     "suspicious": false,
     "delisted": false
   },

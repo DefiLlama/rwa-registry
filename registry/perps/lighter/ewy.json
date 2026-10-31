@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "iShares MSCI South Korea ETF (EWY) perpetual on Lighter. Tracks NYSE Arca: EWY, a Korea-exposure ETF managed by BlackRock, USDC-margined. Lighter previously offered the Korean Composite Index (KRCOMP) perp as their Korean-equities exposure instrument. That market is now delisted and replaced by this EWY ETF perp."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

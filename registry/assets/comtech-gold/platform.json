@@ -30,7 +30,9 @@
     "primaryChain": "xdc",
     "chains": [
       "xdc"
-    ],
+    ]
+  },
+  "review": {
     "suspicious": false,
     "delisted": false
   },

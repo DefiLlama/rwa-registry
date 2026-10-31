@@ -35,8 +35,6 @@
     "chains": [
       "ethereum"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "mintFeeBps": 0,
       "redemptionFeeBps": 0,
@@ -45,6 +43,10 @@
       "feeLastVerified": "2026-07-09",
       "revenueNotes": "The OCC application states minting, redeeming, and fiat on and off ramp of USD1 carry no fees at launch. Economics rest on reserve float, reported by WSJ at roughly 80 million dollars per year on about 2 billion dollars of supply, with an undisclosed split with custodian BitGo."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

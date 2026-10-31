@@ -27,8 +27,11 @@
     "primaryChain": "plume_mainnet",
     "chains": [
       "plume_mainnet"
-    ],
-    "suspicious": false
+    ]
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": true
   },
   "roles": [
     {

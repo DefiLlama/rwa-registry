@@ -32,13 +32,15 @@
     "chains": [
       "ethereum"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueConfidence": "no-public-data",
       "feeLastVerified": "2026-07-09",
       "revenueNotes": "No fee schedule is disclosed. The project states it passes deposit income to holders at the Central Bank of Russia key rate minus 1 point since February 2026. The token and issuer are subject to US, UK, and EU sanctions measures, see Regulatory Status."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

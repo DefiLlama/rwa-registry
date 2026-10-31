@@ -33,14 +33,16 @@
       "ethereum",
       "solana"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Management Fee",
       "revenueConfidence": "no-public-data",
       "feeLastVerified": "2026-07-09",
       "revenueNotes": "OCF and management fee are not publicly disclosed. Fund literature is professional investor gated, request via digitalassets at bailliegifford.com. Daily dealt with a daily NAV plus an indicative NAV for secondary market use."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

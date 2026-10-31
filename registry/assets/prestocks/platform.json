@@ -30,14 +30,16 @@
     "chains": [
       "solana"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Mint/Redeem Spread + Performance Fee",
       "revenueConfidence": "no-public-data",
       "feeLastVerified": "2026-05-11",
       "revenueNotes": "PreStocks earns origination fees on share-purchase deal-flow, mint/redeem spreads on primary issuance, and a performance fee on terminal exit (IPO/acquisition)."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

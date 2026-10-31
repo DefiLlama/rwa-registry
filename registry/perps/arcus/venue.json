@@ -10,6 +10,10 @@
   "accessModel": "permissionless",
   "rwaClassification": "programmable-finance",
   "conventionNote": "Funding settles hourly against a fair-price mark, and fees follow the venue volume tiers whose Base tier is 1.5 bps maker and 4.5 bps taker.",
+  "review": {
+    "suspicious": false,
+    "delisted": false
+  },
   "roles": [
     {
       "organization": "arcus",

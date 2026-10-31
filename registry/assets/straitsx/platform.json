@@ -32,8 +32,6 @@
       "ethereum"
     ],
     "attestationFrequency": "Monthly",
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Float Income + Transaction Fees",
       "mintFeeBps": 0,
@@ -43,6 +41,10 @@
       "feeLastVerified": "2026-05-11",
       "revenueNotes": "StraitsX (XSGD, XUSD) personal-account bank transfers in/out FREE. Mint fee = blockchain network fee only (with cap, e.g. 30 XSGD on Ethereum). Inbound on-chain XSGD/USDC >=10 token: 0.5 token per transaction (business). Outbound: network fee only. USD transfers: $40 flat. Redemption via bank transfer in 5 business days. Primary protocol revenue is float income on reserves (MAS-regulated Stored Value Facility under Singapore PSA). Source: https://support.straitsx.com/support/solutions/articles/157000365666-transaction-fees-and-limits-for-straitsx-mint"
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

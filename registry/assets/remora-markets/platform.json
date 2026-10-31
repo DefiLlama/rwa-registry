@@ -30,14 +30,16 @@
     "chains": [
       "solana"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Performance Fee + Property Management",
       "revenueConfidence": "no-public-data",
       "feeLastVerified": "2026-05-11",
       "revenueNotes": "Remora earns property-management fees (typically 8-10% of rental income), acquisition fees on new properties, and asset-management fees. Revenue does not accrue to a protocol token (Remora is a Reg-D / Reg-A issuer rather than a token economy)."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

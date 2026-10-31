@@ -15,5 +15,9 @@
   },
   "about": {
     "description": "Perpetual on Aster (YZi Labs-backed) tracking the iShares MSCI Japan ETF, with pricing referencing Aster custom oracle (24/5 equity feed), margined and cash-settled in USDT."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

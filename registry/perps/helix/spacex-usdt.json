@@ -14,6 +14,10 @@
   "about": {
     "description": "SPACEX is a perpetual on Space Exploration Technologies Corp. listed on Helix, settled in USDT."
   },
+  "review": {
+    "suspicious": false,
+    "delisted": true
+  },
   "events": [
     {
       "kind": "delisting",

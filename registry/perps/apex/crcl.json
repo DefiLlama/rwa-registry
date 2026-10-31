@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "CRCL is a perpetual on Circle Internet Group, Inc. listed on ApeX Omni, settled in USDC."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

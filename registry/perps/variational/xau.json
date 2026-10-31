@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Gold (XAU) perpetual on Variational Omni (Arbitrum), USDC-margined RFQ perpetual quoted by the single Omni Liquidity Provider (OLP), which aggregates pricing from CEXs/DEXs/AMMs/OTC venues. Tracks the spot price of one troy ounce of gold, with up to 50x leverage, with zero trading fees, with OLP capturing spread, cash-settled in USDC on Arbitrum, permissionless access, self-custody margin. Positions sit in an isolated onchain escrow with pre-defined margin and liquidation rules. Distinct from physically-backed tokenized gold (PAXG, XAUT). This is a synthetic price-exposure derivative."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

@@ -18,7 +18,10 @@
     "category": [
       "bond-mmf-funds"
     ],
-    "primaryChain": "hedera",
+    "primaryChain": "hedera"
+  },
+  "review": {
+    "suspicious": false,
     "delisted": false
   }
 }

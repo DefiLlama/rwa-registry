@@ -11,6 +11,10 @@
   "accessModel": "permissionless",
   "rwaClassification": "programmable-finance",
   "conventionNote": "Synthetix V4 reports funding hourly, and the two snx metal markets (XAU-USD, XAG-USD) are delisted and match no live V4 market.",
+  "review": {
+    "suspicious": false,
+    "delisted": true
+  },
   "roles": [
     {
       "organization": "chainlink",

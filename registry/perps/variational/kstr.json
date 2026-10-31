@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "KSTR is a cash settled perpetual market on Variational Omni referencing KraneShares China Technology ETF. The market is quoted and margined in USDC on Arbitrum, marked against the Omni Liquidity Pool's aggregated reference price rather than a single venue, and it conveys no ownership of the underlying and no claim on the issuer. The fund has traded under both a STAR Market 50 and a China Technology mandate, so the mandate should be confirmed before the reference asset is relied on."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

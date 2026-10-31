@@ -9,5 +9,9 @@
   "takerFeeBps": 4.5,
   "fundingRetentionPct": 0,
   "accessModel": "permissionless",
-  "rwaClassification": "programmable-finance"
+  "rwaClassification": "programmable-finance",
+  "review": {
+    "suspicious": false,
+    "delisted": false
+  }
 }

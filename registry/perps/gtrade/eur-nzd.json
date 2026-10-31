@@ -14,6 +14,10 @@
   "about": {
     "description": "Cross-pair FX perpetual on Gains Network tracking Euro / New Zealand Dollar (EURNZD), with pricing referencing Chainlink DON FX feeds. Positions are margined and cash-settled in USDC / DAI / WETH on Arbitrum / Polygon / Base, giving users synthetic exposure to the relative value of two foreign currencies without holding either as cash."
   },
+  "review": {
+    "suspicious": false,
+    "delisted": true
+  },
   "events": [
     {
       "kind": "delisting",

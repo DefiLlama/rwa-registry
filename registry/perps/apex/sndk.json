@@ -14,6 +14,10 @@
   "about": {
     "description": "SNDK is a perpetual on Sandisk Corporation listed on ApeX Omni, settled in USDC."
   },
+  "review": {
+    "suspicious": true,
+    "delisted": false
+  },
   "events": [
     {
       "kind": "review",

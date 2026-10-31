@@ -30,13 +30,16 @@
     "chains": [
       "monad"
     ],
-    "suspicious": false,
     "fees": {
       "revenueModel": "Yield Spread",
       "revenueConfidence": "issuer-disclosed",
       "feeLastVerified": "2026-07-09",
       "revenueNotes": "No performance fee. Yuzu takes a spread between realized strategy yield and the posted APY, smoothed through a reserve fund. Audited twice (Pashov Aug 2025, Dedaub Oct 2025) with Accountable real time proof of reserves. Team is not publicly named, seed backers are disclosed."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": true
   },
   "roles": [
     {

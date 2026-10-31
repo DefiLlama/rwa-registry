@@ -16,6 +16,10 @@
   "about": {
     "description": "FX perpetual on Extended (formerly X10) tracking Japanese Yen (JPY) versus the US dollar, with pricing referencing Extended oracle (FX feed). Positions are margined and cash-settled in USDC on Starknet, giving users synthetic exposure to Japanese Yen/USD price movement without holding either currency as cash."
   },
+  "review": {
+    "suspicious": true,
+    "delisted": false
+  },
   "events": [
     {
       "kind": "review",

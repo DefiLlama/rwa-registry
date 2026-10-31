@@ -28,8 +28,11 @@
     "primaryChain": "moonbeam",
     "chains": [
       "moonbeam"
-    ],
-    "suspicious": false
+    ]
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": true
   },
   "roles": [
     {

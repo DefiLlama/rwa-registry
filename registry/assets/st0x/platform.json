@@ -30,14 +30,16 @@
     "chains": [
       "base"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Mint/Redeem Spread",
       "revenueConfidence": "no-public-data",
       "feeLastVerified": "2026-05-11",
       "revenueNotes": "ST0x charges a primary-market issuance/redemption fee (estimated ~50-100 bps) plus float income on cash held in segregated custody. Secondary trading on DEXs incurs no ST0x fee."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

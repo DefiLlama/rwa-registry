@@ -18,7 +18,10 @@
     "category": [
       "private-credit"
     ],
-    "primaryChain": "era",
+    "primaryChain": "era"
+  },
+  "review": {
+    "suspicious": false,
     "delisted": false
   }
 }

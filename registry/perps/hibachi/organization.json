@@ -32,8 +32,6 @@
     "platformType": [
       "perp-venue"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Maker/Taker Fees",
       "feeScheduleUrl": "https://docs.hibachi.xyz/hibachi-docs/trading/fees",
@@ -41,6 +39,10 @@
       "feeLastVerified": "2026-10-22",
       "revenueNotes": "Hibachi base fees: 0 bps maker / 4.5 bps taker. The taker fee falls with 14-day rolling volume and the maker fee is 0 bps at every tier. Funding is paid between longs and shorts with no exchange cut. One schedule covers all perpetual markets. Sources: https://docs.hibachi.xyz/hibachi-docs/trading/fees, https://docs.hibachi.xyz/hibachi-docs/trading/funding"
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

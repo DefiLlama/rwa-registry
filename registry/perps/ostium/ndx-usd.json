@@ -15,5 +15,9 @@
   },
   "about": {
     "description": "Nasdaq-100 perpetual on Ostium, cash-settled in USDC on Arbitrum."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

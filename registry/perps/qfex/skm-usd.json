@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Single-stock perpetual futures market on QFEX tracking SK Telecom Co., Ltd., quoted in USD, cross-margined in USDC and trading 24/7 with up to 10x leverage. QFEX is a hybrid central-limit-order-book exchange for traditional assets only; positions are cash-settled and confer no ownership, dividend or voting rights in the underlying. Reference prices are consumed from primary venues during the instrument's published reference-price hours and funding is zero outside them. SKM is the NYSE-listed American Depositary Share of SK Telecom Co., Ltd.; the current ADR ratio could not be confirmed from a primary filing post-dating the 2021 SK Square spin-off."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

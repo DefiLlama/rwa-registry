@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "SMSN is a single-stock perpetual on Ondo Perps tracking Samsung Electronics Co. Ltd. (GDR). Samsung Electronics is a South Korean multinational electronics company. The SMSN GDR trades on the London Stock Exchange in US dollars. The market is cash-settled with hourly funding, no shareholder rights, and no dividend rights in the underlying."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

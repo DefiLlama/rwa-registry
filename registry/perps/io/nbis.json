@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "NBIS is a perpetual on Nebius Group N.V. listed on Entropy, settled in USDC."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

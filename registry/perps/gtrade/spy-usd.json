@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Equity-index perpetual on Gains Network tracking SPDR S&P 500 ETF Trust (SPY), with pricing referencing Chainlink DON. Users gain linear exposure to the index level without holding any underlying constituent stocks or futures. Positions are margined and cash-settled in USDC / DAI / WETH on Arbitrum / Polygon / Base."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

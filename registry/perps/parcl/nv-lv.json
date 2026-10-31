@@ -14,6 +14,10 @@
   "about": {
     "description": "Las Vegas metro real estate perpetual on Parcl. Verified live 2026-05-20."
   },
+  "review": {
+    "suspicious": false,
+    "delisted": true
+  },
   "events": [
     {
       "kind": "delisting",

@@ -29,13 +29,16 @@
     "chains": [
       "base"
     ],
-    "delisted": false,
     "fees": {
       "revenueModel": "Mint/Redeem Spread + Storage Fee",
       "revenueConfidence": "no-public-data",
       "feeLastVerified": "2026-05-11",
       "revenueNotes": "Auxite earns a primary-market premium over spot metals pricing plus ongoing storage/insurance fees on physical bullion held in third-party vaults."
     }
+  },
+  "review": {
+    "suspicious": true,
+    "delisted": false
   },
   "roles": [
     {

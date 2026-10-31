@@ -32,8 +32,6 @@
     "chains": [
       "tron"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "mintFeeBps": 0,
       "redemptionFeeBps": 0,
@@ -41,6 +39,10 @@
       "feeLastVerified": "2026-07-09",
       "revenueNotes": "PSM swaps between USDD and USDT or USDC are 1 to 1 with no service fee. Vault minted USDD accrues an onchain stability fee with no published bps schedule. Initial 20 percent sUSDD yield was subsidized by TRON DAO. Crypto collateralized so no fiat float income."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

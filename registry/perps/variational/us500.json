@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Perpetual market on Variational Omni tracking SPDR S&P 500 ETF Trust, cash-settled."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "BRENTOIL is a perpetual on Crude Oil (Brent) listed on Kraken, settled in USD."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

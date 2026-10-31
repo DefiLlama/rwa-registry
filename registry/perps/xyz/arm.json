@@ -14,5 +14,9 @@
   "about": {
     "description": "ARM is a perpetual on Arm Holdings plc listed on trade[XYZ], settled in USDC.",
     "issuer": "trade[XYZ]"
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

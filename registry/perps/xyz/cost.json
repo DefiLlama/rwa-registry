@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Single-stock perpetual market tracking Costco. Users get linear exposure to Costco share-price moves without owning Costco shares, shareholder rights, or dividend claims, cash-settled in USDC on trade[XYZ]."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

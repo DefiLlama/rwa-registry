@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "DRAM is a perpetual on Roundhill Memory ETF listed on Entropy, settled in USDC."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

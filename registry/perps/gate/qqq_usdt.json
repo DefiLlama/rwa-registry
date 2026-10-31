@@ -14,6 +14,10 @@
   "about": {
     "description": "QQQ is an exchange traded fund perpetual listed on Gate and tracking Invesco QQQ Trust, Series 1. The contract is cash settled in USDT and does not convey ownership or redemption rights in the underlying. Funding is exchanged every 8h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
   },
+  "review": {
+    "suspicious": false,
+    "delisted": false
+  },
   "events": [
     {
       "kind": "listing",

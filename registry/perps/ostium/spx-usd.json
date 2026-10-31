@@ -15,5 +15,9 @@
   },
   "about": {
     "description": "S&P 500 perpetual on Ostium, cash-settled in USDC on Arbitrum."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

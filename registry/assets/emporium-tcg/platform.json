@@ -27,8 +27,11 @@
     "primaryChain": "solana",
     "chains": [
       "solana"
-    ],
-    "suspicious": false
+    ]
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": true
   },
   "roles": [
     {

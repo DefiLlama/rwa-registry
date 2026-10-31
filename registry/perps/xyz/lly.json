@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Single-stock perpetual market tracking Eli Lilly. Users get linear exposure to Eli Lilly share-price moves without owning Eli Lilly shares, shareholder rights, or dividend claims, cash-settled in USDC on trade[XYZ]."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

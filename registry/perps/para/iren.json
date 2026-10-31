@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Single-stock perpetual market tracking IREN Limited (IREN) on Paragon. Users get linear exposure to IREN share-price moves without owning IREN shares, shareholder rights, or dividend claims. HIP-3 builder-deployed market on Hyperliquid in the para namespace, cash-settled in USDC."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

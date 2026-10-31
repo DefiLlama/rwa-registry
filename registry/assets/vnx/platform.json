@@ -33,13 +33,15 @@
       "ethereum"
     ],
     "attestationFrequency": "Monthly",
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Float Income + Mint/Redeem Spread",
       "revenueConfidence": "reasoned-estimate",
       "revenueNotes": "VNX earns float income on fiat reserves (EUR, CHF) held at Liechtenstein bank counterparties, plus a small mint/redeem spread for institutional flows. Storage fees on gold-backed VAUR token."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

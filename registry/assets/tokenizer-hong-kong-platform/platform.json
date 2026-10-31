@@ -25,8 +25,11 @@
     "platformType": [
       "lending-venue"
     ],
-    "accessModel": "permissioned",
-    "suspicious": false
+    "accessModel": "permissioned"
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": true
   },
   "events": [
     {

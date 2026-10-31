@@ -14,6 +14,10 @@
   "about": {
     "description": "Henry Hub Natural Gas (NATGAS) perpetual on ApeX Omni, USDC-margined."
   },
+  "review": {
+    "suspicious": true,
+    "delisted": false
+  },
   "events": [
     {
       "kind": "review",

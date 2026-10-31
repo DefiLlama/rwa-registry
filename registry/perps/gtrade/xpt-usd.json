@@ -15,5 +15,9 @@
   },
   "about": {
     "description": "Platinum (XPT) perpetual on gTrade, USDC-margined. Verified live 2026-05-20."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

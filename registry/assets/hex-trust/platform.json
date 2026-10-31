@@ -27,7 +27,9 @@
     "primaryChain": "ibc",
     "chains": [
       "ibc"
-    ],
+    ]
+  },
+  "review": {
     "suspicious": false,
     "delisted": false
   },

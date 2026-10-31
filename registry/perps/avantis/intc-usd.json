@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Intel (INTC) perpetual on Avantis (Base). Tracks Intel stock price, USDC-margined. Oracle-priced via Pyth Lazer."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

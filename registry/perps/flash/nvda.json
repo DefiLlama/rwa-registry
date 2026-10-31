@@ -14,6 +14,10 @@
   "about": {
     "description": "NVIDIA perpetual on Flash Trade, cash-settled in USDC on Solana. Delisted 2026-09-08: Flash Trade entered an orderly wind-down (deadline 2026-09-02). Protocol-wide OI $36k; all RWA markets at zero long and short; dailyVolumeInUsd 0."
   },
+  "review": {
+    "suspicious": false,
+    "delisted": true
+  },
   "events": [
     {
       "kind": "delisting",

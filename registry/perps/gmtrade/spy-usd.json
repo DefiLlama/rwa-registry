@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "SPY ETF perpetual on GMTrade (Solana). Tracks SPDR S&P 500 ETF Trust, USDC-margined."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

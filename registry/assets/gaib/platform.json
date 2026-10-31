@@ -37,14 +37,16 @@
     "chains": [
       "ethereum"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Compute Revenue Share",
       "revenueConfidence": "no-public-data",
       "feeLastVerified": "2026-05-11",
       "revenueNotes": "GAIB takes a structuring + ongoing servicing fee on each tokenized compute deployment, plus a performance fee on compute-rental net yield distributed to token holders."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

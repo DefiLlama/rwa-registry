@@ -30,8 +30,6 @@
       "canton"
     ],
     "attestationFrequency": "Daily NAV; quarterly audited financials",
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Asset Manager Fee",
       "holderTotalFeeBps": 30,
@@ -45,6 +43,10 @@
       "feeLastVerified": "2026-05-10",
       "revenueNotes": "ifBILL management fee estimated at ~30 bps based on Cayman-feeder tokenized T-bill fund norms; actual fee disclosed in the fund's offering memorandum to qualified investors only. Not independently verified."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

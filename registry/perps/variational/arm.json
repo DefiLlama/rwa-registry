@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Single-stock perpetual market on Variational Omni tracking Arm Holdings, cash-settled."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

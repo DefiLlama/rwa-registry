@@ -33,8 +33,6 @@
       "base"
     ],
     "attestationFrequency": "Continuous (on-chain)",
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Bonding Premium + Treasury Yield",
       "assetManagerTakeBps": 0,
@@ -43,6 +41,10 @@
       "feeLastVerified": "2026-05-11",
       "revenueNotes": "Klima DAO captures revenue through: (1) Bonding mechanism - when carbon credits are bonded into the protocol, the DAO wallet receives an additional 30% of the bond's value in KLIMA on top of the bonder's allocation (i.e., on a 10 KLIMA bond, 10 goes to the bonder and 3 to the DAO). (2) Trading/retirement fee of up to 1% on carbon token trades and retirements through Klima infrastructure. (3) LP-revenue capture on KLIMA pairs. Staking rewards distribute 70% of seigniorage to KLIMA stakers and 30% to DAO operations. Source: https://docs.klimadao.finance/references/glossary"
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

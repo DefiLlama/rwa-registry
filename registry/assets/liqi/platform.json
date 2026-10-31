@@ -29,14 +29,16 @@
     "chains": [
       "xdc"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Origination + Structuring Fee",
       "revenueConfidence": "no-public-data",
       "feeLastVerified": "2026-05-11",
       "revenueNotes": "Liqi earns securitizadora structuring fees on each issuance (~1-3% of deal size depending on complexity) + ongoing servicing / administrative fees + monetization of the Liqi Distribuição broker/dealer venue."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

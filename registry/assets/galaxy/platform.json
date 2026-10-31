@@ -18,7 +18,10 @@
     "category": [
       "private-credit"
     ],
-    "primaryChain": "avax",
+    "primaryChain": "avax"
+  },
+  "review": {
+    "suspicious": false,
     "delisted": false
   }
 }

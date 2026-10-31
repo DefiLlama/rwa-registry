@@ -20,7 +20,10 @@
       "private-credit",
       "real-estate"
     ],
-    "primaryChain": "ethereum",
+    "primaryChain": "ethereum"
+  },
+  "review": {
+    "suspicious": false,
     "delisted": false
   }
 }

@@ -28,7 +28,9 @@
     "primaryChain": "celo",
     "chains": [
       "celo"
-    ],
+    ]
+  },
+  "review": {
     "suspicious": false,
     "delisted": false
   },

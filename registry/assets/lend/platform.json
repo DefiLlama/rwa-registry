@@ -39,7 +39,9 @@
       "sonic",
       "plume_mainnet"
     ],
-    "attestationFrequency": "On audit + monthly investor reporting per operation",
+    "attestationFrequency": "On audit + monthly investor reporting per operation"
+  },
+  "review": {
     "suspicious": false,
     "delisted": false
   },

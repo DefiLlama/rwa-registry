@@ -30,8 +30,6 @@
     "chains": [
       "ethereum"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Trading Fee",
       "holderTotalFeeBps": 20,
@@ -45,6 +43,10 @@
       "feeLastVerified": "2026-05-10",
       "revenueNotes": "DigiFT operates as a MAS-licensed exchange. Trading/tokenization fees are charged to issuers and traders rather than as MMF mgmt fees. The 10/10 bps mint/redeem figures are placeholders representing typical exchange-side fees; actual schedule is bespoke per issuer agreement and not publicly disclosed. Underlying products (UBS MMF, Invesco MMF) carry their own mgmt fees separately."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

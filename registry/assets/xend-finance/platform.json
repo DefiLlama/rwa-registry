@@ -32,14 +32,16 @@
     "chains": [
       "bsc"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "issuerDocsUrl": "https://docs.xend.finance/",
       "revenueConfidence": "no-public-data",
       "feeLastVerified": "2026-05-10",
       "revenueNotes": "Public fee disclosure not available."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

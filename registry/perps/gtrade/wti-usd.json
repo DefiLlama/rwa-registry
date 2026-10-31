@@ -15,5 +15,9 @@
   },
   "about": {
     "description": "Crude Oil (WTI) perpetual on gTrade, synthetic and cash-settled in USDC on Arbitrum."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

@@ -14,6 +14,10 @@
   "about": {
     "description": "Single-stock perpetual on Lighter Labs tracking Hanmi Pharm Co., Ltd. (128940.KS), with pricing referencing Lighter fair price oracle (24/5 equity feed). Users gain linear exposure to Hanmi Pharm Co., Ltd. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Lighter ZK-rollup (Ethereum)."
   },
+  "review": {
+    "suspicious": false,
+    "delisted": true
+  },
   "roles": [
     {
       "organization": "lighter",

@@ -23,12 +23,14 @@
     "chains": [
       "solana"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Maker/Taker Fees (DEX pool fees)",
       "revenueConfidence": "no-public-data",
       "feeLastVerified": "2026-07-02"
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

@@ -28,14 +28,16 @@
     "platformType": [
       "perp-venue"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Maker/Taker Fees",
       "revenueConfidence": "reasoned-estimate",
       "feeLastVerified": "2026-05-11",
       "revenueNotes": "Synthetix Perps V3 uses a maker/taker model with delta-neutral skew pricing. On crypto majors the published rate is 2 bps maker / 6 bps taker. RWA markets on Synthetix Perps are limited to 2 commodity perps; the platform does not publish separate fee tiers for these RWA markets, so the rate is presumed to follow the V3 general schedule. Trading fees accrue to SNX stakers. Source: https://docs.synthetix.io/exchange/perps-basics/maker-or-taker"
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

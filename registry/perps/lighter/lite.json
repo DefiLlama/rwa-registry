@@ -14,6 +14,10 @@
   "about": {
     "description": "Single-stock perpetual market on Lighter tracking Lumentum Holdings Inc, cash-settled."
   },
+  "review": {
+    "suspicious": false,
+    "delisted": false
+  },
   "roles": [
     {
       "organization": "lighter",

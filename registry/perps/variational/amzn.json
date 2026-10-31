@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "AMZN is a single-stock perpetual on Variational tracking Amazon.com Inc. Amazon.com Inc. operates e-commerce, AWS cloud infrastructure, advertising, and streaming media services (Nasdaq: AMZN). The market is cash-settled with hourly funding, no shareholder rights, and no dividend rights in the underlying."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

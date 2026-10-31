@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "H100 is a perpetual on NVIDIA H100 Hourly listed on BingX, settled in USDT."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

@@ -14,6 +14,10 @@
   "about": {
     "description": "CXMT is a single-stock perpetual on Lighter tracking ChangXin Memory Technologies. ChangXin Memory Technologies is a Chinese DRAM chip manufacturer and one of China's largest domestic memory producers (currently private, pre-IPO). The market is cash-settled with hourly funding, no shareholder rights, and no dividend rights in the underlying."
   },
+  "review": {
+    "suspicious": false,
+    "delisted": false
+  },
   "roles": [
     {
       "organization": "lighter",

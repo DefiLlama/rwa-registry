@@ -29,8 +29,11 @@
       "plume_mainnet",
       "btnx"
     ],
-    "attestationFrequency": "Not publicly disclosed",
-    "suspicious": false
+    "attestationFrequency": "Not publicly disclosed"
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": true
   },
   "roles": [
     {

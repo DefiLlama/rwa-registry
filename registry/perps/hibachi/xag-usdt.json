@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Silver perpetual on Hibachi (Arbitrum) referencing the XAG/USD spot price per troy ounce, cash-settled in USDT, giving users synthetic exposure to silver price movement without holding the metal. Source: data-api.hibachi.xyz."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

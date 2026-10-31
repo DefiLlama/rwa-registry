@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "AMZN is a perpetual on Amazon.com, Inc. listed on ApeX Omni, settled in USDC."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

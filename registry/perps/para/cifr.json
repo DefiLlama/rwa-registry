@@ -14,6 +14,10 @@
   "about": {
     "description": "Single-stock perpetual market tracking Cipher Digital Inc. (CIFR) on Paragon. Users get linear exposure to CIFR share-price moves without owning CIFR shares, shareholder rights, or dividend claims. HIP-3 builder-deployed market on Hyperliquid in the para namespace, cash-settled in USDC."
   },
+  "review": {
+    "suspicious": false,
+    "delisted": false
+  },
   "roles": [
     {
       "organization": "chaos-labs",

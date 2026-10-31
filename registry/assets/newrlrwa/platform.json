@@ -27,7 +27,9 @@
     "primaryChain": "aptos",
     "chains": [
       "aptos"
-    ],
+    ]
+  },
+  "review": {
     "suspicious": false,
     "delisted": false
   },

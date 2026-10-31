@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Single-stock perpetual market tracking Kioxia. Users get linear exposure to Kioxia share-price moves without owning Kioxia shares, shareholder rights, or dividend claims, cash-settled in USDC on trade[XYZ]."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

@@ -31,14 +31,16 @@
     "platformType": [
       "perp-venue"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Maker/Taker Fees + LP Profit",
       "revenueConfidence": "no-public-data",
       "feeLastVerified": "2026-05-11",
       "revenueNotes": "Flash Trade captures open/close fees (~6-8 bps) plus borrow fees from leveraged positions, and counter-party PnL via the FLP liquidity pool (similar to Jupiter Perpetuals/GMX model). Fees distributed to FLP token-holders and stakers."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

@@ -14,6 +14,10 @@
   "about": {
     "description": "Wheaton Precious Metals (NYSE: WPM) perpetual on gTrade, USDC-margined, up to 200x leverage. Tracks WPM stock price. Verified live 2026-05-20."
   },
+  "review": {
+    "suspicious": false,
+    "delisted": true
+  },
   "events": [
     {
       "kind": "delisting",

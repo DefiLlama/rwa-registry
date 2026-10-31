@@ -14,6 +14,10 @@
   "about": {
     "description": "Aluminium perpetual market. The contract tracks Aluminium price using the venue's reference methodology. Users get linear commodity-price exposure only, without title to physical inventory or delivery rights, cash-settled in USDC on trade[XYZ]."
   },
+  "review": {
+    "suspicious": false,
+    "delisted": true
+  },
   "events": [
     {
       "kind": "delisting",

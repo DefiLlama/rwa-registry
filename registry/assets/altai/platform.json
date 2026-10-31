@@ -30,14 +30,16 @@
     "chains": [
       "bsc"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Mint/Redeem Spread + Storage Fee",
       "revenueConfidence": "no-public-data",
       "feeLastVerified": "2026-05-11",
       "revenueNotes": "Altai earns primary-market spreads on tokenized metal issuances and ongoing storage/insurance fees on physical inventory held in custody."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

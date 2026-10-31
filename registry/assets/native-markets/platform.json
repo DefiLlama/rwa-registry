@@ -27,7 +27,9 @@
     "primaryChain": "hyperliquid",
     "chains": [
       "hyperliquid"
-    ],
+    ]
+  },
+  "review": {
     "suspicious": false,
     "delisted": false
   },

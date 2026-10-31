@@ -34,8 +34,6 @@
     "chains": [
       "bsc"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "mintFeeBps": 0,
       "redemptionFeeBps": 0,
@@ -44,6 +42,10 @@
       "feeLastVerified": "2026-07-09",
       "revenueNotes": "The whitepaper states zero fee minting and redemption as long as you mint more than you redeem, with no published schedule for net redeemers. Holders are not entitled to interest so reserve income is retained. Note the April 2025 depeg episode and unresolved litigation with Techteryx parties."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

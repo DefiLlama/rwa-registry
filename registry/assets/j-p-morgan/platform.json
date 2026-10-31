@@ -29,8 +29,6 @@
       "solana"
     ],
     "attestationFrequency": "On-issuance plus monthly Galaxy custody attestation",
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Asset Manager Fee",
       "issuerDocsUrl": "https://www.jpmorgan.com/about-us/corporate-news/2025/jpmorgan-commercial-paper-issuance-solana-blockchain",
@@ -38,6 +36,10 @@
       "feeLastVerified": "2026-05-10",
       "revenueNotes": "Single-issue tokenized commercial paper. JPMorgan earns the typical bank-issuer spread on the commercial paper. Galaxy earns a tokenization/custody fee that is not publicly disclosed but typical comparables are 5-15bps. No retail mint/redeem fees; institutional pricing."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

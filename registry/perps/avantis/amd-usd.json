@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "AMD perpetual on Avantis (Base). Tracks Advanced Micro Devices stock price, USDC-margined. Oracle-priced via Pyth Lazer. Distinct from edgeX AMD perp."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

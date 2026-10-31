@@ -15,5 +15,9 @@
   },
   "about": {
     "description": "FX perpetual on Ostium Labs tracking South Korean Won (KRW) versus the US dollar, with pricing referencing Stork / QUODD institutional FX feed. Positions are margined and cash-settled in USDC on Arbitrum, giving users synthetic exposure to South Korean Won/USD price movement without holding either currency as cash."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

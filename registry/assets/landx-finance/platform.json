@@ -33,14 +33,16 @@
     "chains": [
       "ethereum"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Origination + Performance Fee",
       "revenueConfidence": "no-public-data",
       "feeLastVerified": "2026-05-11",
       "revenueNotes": "LandX earns origination spreads on the perpetual-yield contracts and protocol fees on conversion (xCROP → cash). LNDX captures protocol fees via staking/buyback."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

@@ -39,8 +39,6 @@
       "ethereum"
     ],
     "attestationFrequency": "Daily NAV (UCITS-equivalent)",
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Management Fee",
       "holderTotalFeeBps": 25,
@@ -55,6 +53,10 @@
       "feeLastVerified": "2026-07-09",
       "revenueNotes": "Spiko USTBL (US T-Bills MMF) and EUTBL (EU T-Bills MMF): 25 bps annual management fee plus 5 bps operating expenses (capped at 10 bps), total ~30 bps. Fee deducted daily on a pro-rata basis. No entry, exit, custody, or transaction fees for primary-market subscriptions/redemptions. Source: https://docs.spiko.io"
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

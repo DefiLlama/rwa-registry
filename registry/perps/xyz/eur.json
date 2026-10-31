@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "FX perpetual on trade[XYZ] (Hyperunit) tracking Euro (EUR) versus the US dollar, with pricing referencing Pyth / external FX reference methodology. Positions are margined and cash-settled in USDC on Hyperliquid (xyz namespace), giving users synthetic exposure to Euro/USD price movement without holding either currency as cash."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

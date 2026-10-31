@@ -18,7 +18,10 @@
     "category": [
       "gold-commodities"
     ],
-    "primaryChain": "base",
+    "primaryChain": "base"
+  },
+  "review": {
+    "suspicious": false,
     "delisted": false
   }
 }

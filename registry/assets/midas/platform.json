@@ -40,14 +40,16 @@
       "ethereum"
     ],
     "attestationFrequency": "Monthly",
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Management Fee",
       "revenueConfidence": "public-filings",
       "feeLastVerified": "2026-07-09",
       "revenueNotes": "Per MFSA filed final terms mTBILL carries a 7 bps redemption fee plus a 10 percent fee on interest earned, and mBASIS a 50 bps redemption fee plus the 10 percent interest fee. Instant redemptions add a fixed fee. Fee income is expected to cover issuer operating costs."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

@@ -15,5 +15,9 @@
   },
   "about": {
     "description": "Equity-index perpetual on Ostium Labs tracking FTSE 100 Index (FTSE100), with pricing referencing Stork / QUODD. Users gain linear exposure to the index level without holding any underlying constituent stocks or futures. Positions are margined and cash-settled in USDC on Arbitrum."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

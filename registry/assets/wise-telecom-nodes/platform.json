@@ -41,11 +41,13 @@
       "base",
       "arbitrum"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueNotes": "The operator retains any difference between what the forwarded deposits earn and the interest rate it configures on chain. No fee schedule is published and the spread is not disclosed."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

@@ -22,13 +22,16 @@
     "chains": [
       "monad"
     ],
-    "suspicious": false,
     "fees": {
       "revenueModel": "Lending Spread",
       "revenueConfidence": "no-public-data",
       "feeLastVerified": "2026-07-02",
       "revenueNotes": "The vault targets 7 to 8 percent net APY to depositors from institutional lending. Valos earns the spread between borrower rates and the depositor yield. There is no public fee schedule."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": true
   },
   "roles": [
     {

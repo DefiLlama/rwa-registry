@@ -31,8 +31,6 @@
       "ethereum"
     ],
     "attestationFrequency": "Monthly proof-of-reserves attestation by The Network Firm LLP",
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Yield Spread",
       "holderTotalFeeBps": 50,
@@ -47,6 +45,10 @@
       "feeLastVerified": "2026-05-10",
       "revenueNotes": "Mountain Protocol retains a portion of the underlying Treasury yield as protocol revenue. The 50 bps estimate is based on the historical gap between Mountain's published USDM rebase rate and prevailing 4-week T-bill yields. Mountain does not publicly disclose the exact spread; figure should be verified against current FAQ or by tracking the rate differential."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

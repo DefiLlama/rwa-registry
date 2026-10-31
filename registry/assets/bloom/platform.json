@@ -30,7 +30,6 @@
       "ethereum"
     ],
     "attestationFrequency": "Daily NAV via Chainlink Proof-of-Reserves",
-    "suspicious": false,
     "fees": {
       "revenueModel": "Yield Spread",
       "holderTotalFeeBps": 20,
@@ -45,6 +44,10 @@
       "feeLastVerified": "2026-05-10",
       "revenueNotes": "Bloom's TBY tokens accrue yield against an underlying T-bill basket. The 20 bps spread is an estimate based on Term Bound Yield maturity structure and comparable platforms (e.g., Mountain). Bloom does not publish the exact spread."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": true
   },
   "roles": [
     {

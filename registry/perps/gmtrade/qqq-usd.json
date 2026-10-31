@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "QQQ ETF perpetual on GMTrade (Solana). Tracks Invesco QQQ Trust ETF, USDC-margined."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

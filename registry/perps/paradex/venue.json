@@ -10,6 +10,10 @@
   "accessModel": "permissionless",
   "rwaClassification": "programmable-finance",
   "conventionNote": "Funding accrues continuously against an 8-hour funding period, and orders from the app pay no maker or taker fee while API orders on the RWA markets pay 0 bps maker and 2 bps taker.",
+  "review": {
+    "suspicious": false,
+    "delisted": false
+  },
   "roles": [
     {
       "organization": "paradex",

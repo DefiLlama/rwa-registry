@@ -37,8 +37,6 @@
     "chains": [
       "ethereum"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "mintFeeBps": 0,
       "redemptionFeeBps": 0,
@@ -47,6 +45,10 @@
       "feeLastVerified": "2026-07-09",
       "revenueNotes": "Mint fee zero and redemption fee governance configurable, currently zero per the fact sheet. T-bill collateral yield is protocol revenue with 30 percent distributed weekly to locked USUAL holders and 70 percent to the DAO treasury since January 2025."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

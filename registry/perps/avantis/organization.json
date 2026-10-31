@@ -31,14 +31,16 @@
     "platformType": [
       "perp-venue"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Opening Fee",
       "revenueConfidence": "issuer-disclosed",
       "feeLastVerified": "2026-05-11",
       "revenueNotes": "Avantis RWA fee schedule (Base-native): stocks and indices 6 bps opening fee, NO closing fee. Commodities 6-8 bps opening fee, no closing fee. FX and metals follow the same opening-only model. Avantis also offers Zero-Fee Perpetuals (ZFP) with no fixed open/close fee but a 2.5%+ win-fee on gross profit at close. Crypto markets (not displayed on this RWA page) charge 4.5 bps open + 4.5 bps close. Dynamic spread/margin adjustments apply on either side of crowded markets. Source: https://docs.avantisfi.com/trading/trading-fees-fixed-fee-perpetuals/commodities"
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

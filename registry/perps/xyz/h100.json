@@ -15,6 +15,10 @@
     "description": "H100 is a perpetual on NVIDIA H100 Hourly listed on trade[XYZ], settled in USDC.",
     "issuer": "trade[XYZ]"
   },
+  "review": {
+    "suspicious": false,
+    "delisted": true
+  },
   "roles": [
     {
       "organization": "squaretower",

@@ -40,8 +40,6 @@
       "provenance"
     ],
     "attestationFrequency": "Quarterly (per SEC schedule)",
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Yield Spread + Origination Fees",
       "floatIncome": true,
@@ -49,6 +47,10 @@
       "feeLastVerified": "2026-07-09",
       "revenueNotes": "YLDS pays SOFR minus 35 bps effective October 2025 per the EDGAR Form 497, accrued daily and paid monthly with no mint or redeem fee at 1 dollar face. Figure Certificate Company retains the spread between reserve earnings and the certificate rate. HELOC origination fees run 0 to 4.99 percent of initial draw."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

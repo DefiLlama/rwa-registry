@@ -30,8 +30,6 @@
     "chains": [
       "avax"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Platform Fee",
       "issuerDocsUrl": "https://docs.tokeny.com/",
@@ -39,6 +37,10 @@
       "feeLastVerified": "2026-05-10",
       "revenueNotes": "Tokeny is a B2B tokenization infrastructure vendor. It charges issuers SaaS fees (annual platform fee + per-issuance fee) rather than charging end-token holders. Specific pricing is bespoke per client engagement."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

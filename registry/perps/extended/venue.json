@@ -11,6 +11,10 @@
   "accessModel": "permissionless",
   "rwaClassification": "programmable-finance",
   "conventionNote": "Funding is charged every hour on an 8-hour realisation period from a premium index sampled every 5 seconds and capped at 1% per hour on RWA markets, and RWA markets trade at the discounted 0 / 1 bps schedule with maker rebates by market share.",
+  "review": {
+    "suspicious": false,
+    "delisted": false
+  },
   "roles": [
     {
       "organization": "extended",

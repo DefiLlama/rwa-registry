@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "BRENT is a commodity perpetual on Ondo Perps tracking Brent Crude Oil. Brent Crude Oil is the international light-sweet crude benchmark contract traded on the Intercontinental Exchange (ICE), priced in US dollars per barrel. The market is cash-settled with hourly funding and no delivery obligation."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

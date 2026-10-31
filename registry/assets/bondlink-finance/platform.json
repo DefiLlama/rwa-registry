@@ -28,12 +28,15 @@
     "chains": [
       "ethereum"
     ],
-    "suspicious": false,
     "fees": {
       "revenueConfidence": "no-public-data",
       "feeLastVerified": "2026-05-10",
       "revenueNotes": "Public fee disclosure not available. Confidence is low."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": true
   },
   "roles": [
     {

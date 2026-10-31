@@ -30,7 +30,6 @@
     "chains": [
       "ethereum"
     ],
-    "delisted": false,
     "fees": {
       "revenueModel": "Mint/Redeem Fees",
       "mintFeeBps": 25,
@@ -43,6 +42,10 @@
       "revenueNotes": "0.25% minting and 0.25% redemption fees disclosed only in whitepaper section 4.7, which the document itself declares non-binding and subject to change without notice; no separate fee schedule page. Stablecoin-route redemption proceeds are discretionary; only physical gold redemption is described as guaranteed, subject to minimums.",
       "revenueVerificationMethod": "XAUa whitepaper sections 4.6-4.7, Terms of Service section 3"
     }
+  },
+  "review": {
+    "suspicious": true,
+    "delisted": false
   },
   "roles": [
     {

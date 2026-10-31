@@ -43,8 +43,6 @@
       "avax"
     ],
     "attestationFrequency": "Monthly",
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Mint/Redeem Spread",
       "holderTotalFeeBps": 50,
@@ -55,6 +53,10 @@
       "feeLastVerified": "2026-07-09",
       "revenueNotes": "Issuance and redemption each cost a flat trading fee plus an order fee of 25 bps when paying in USD plus or 50 bps in USDC or USDT. The flat fee is 20 cents per order on Base, Arbitrum, and Plume and 50 dollars on Ethereum mainnet. Dividend payments carry a 5 percent service fee. Volume discounts exist for qualified partners."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

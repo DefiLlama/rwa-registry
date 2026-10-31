@@ -31,7 +31,9 @@
     "primaryChain": "polygon",
     "chains": [
       "polygon"
-    ],
+    ]
+  },
+  "review": {
     "suspicious": false,
     "delisted": false
   },

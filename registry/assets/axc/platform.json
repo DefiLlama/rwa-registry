@@ -29,13 +29,15 @@
     "chains": [
       "bsc"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueConfidence": "no-public-data",
       "feeLastVerified": "2026-05-10",
       "revenueNotes": "Public fee disclosure not available. Note: Specific fee schedule not publicly disclosed at audit date. AXC operates two distinct products with separate fee economics - GIFT (institutional mixed-RWA fund, BUU813 OFC level) and GYTW (heritage-fund-specific token, BUU815 sub-fund level). Both are KYC-permissioned at the institutional level. Revenue likely from NAV-spread + management-fee-equivalent take on each underlying fund."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

@@ -15,6 +15,10 @@
     "description": "ApeX Omni perpetual market tracking Cerebras Systems Inc., publicly listed on Nasdaq (CBRS) since May 2026, cash-settled.",
     "website": "https://omni.apex.exchange/"
   },
+  "review": {
+    "suspicious": true,
+    "delisted": false
+  },
   "events": [
     {
       "kind": "review",

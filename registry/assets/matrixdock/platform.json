@@ -33,8 +33,6 @@
       "ethereum"
     ],
     "attestationFrequency": "Monthly",
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Management Fee",
       "holderTotalFeeBps": 30,
@@ -49,6 +47,10 @@
       "feeLastVerified": "2026-05-11",
       "revenueNotes": "Matrixdock STBT (Short-Term Treasury Bill Token): 30 bps annual management fee, 0% performance fee. Daily yield distribution via rebasing. Fully backed by US Treasuries maturing within 6 months. XAGm (tokenized silver) follows Matrixdock's Fungible Reserve Standard with custody and audit costs accounted for in supply dynamics. Source: https://www.matrixdock.com/stbt"
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

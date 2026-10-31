@@ -32,7 +32,9 @@
     "primaryChain": "ethereum",
     "chains": [
       "ethereum"
-    ],
+    ]
+  },
+  "review": {
     "suspicious": false,
     "delisted": false
   },

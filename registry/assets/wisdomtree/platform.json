@@ -40,8 +40,6 @@
       "stellar"
     ],
     "attestationFrequency": "Daily (40-Act fund NAV) + annual audit",
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Management Fee",
       "holderTotalFeeBps": 25,
@@ -56,6 +54,10 @@
       "feeLastVerified": "2026-07-09",
       "revenueNotes": "WTGXX carries a 25 bps expense ratio factored into daily NAV with distributions net of expenses, sub advised by Voya. Investors pay blockchain gas on redemptions and transfers. Digital funds remain a small slice of the parent ETF business."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

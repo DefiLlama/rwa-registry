@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Single-stock perpetual futures market on QFEX tracking BitMine Immersion Technologies, Inc. 9.50% Series A Perpetual Preferred Stock, quoted in USD, cross-margined in USDC and trading 24/7 with up to 10x leverage. QFEX is a hybrid central-limit-order-book exchange for traditional assets only; positions are cash-settled and confer no ownership, dividend or voting rights in the underlying. Reference prices are consumed from primary venues during the instrument's published reference-price hours and funding is zero outside them. BMNP is the 9.50% Series A Perpetual Preferred Stock of BitMine Immersion Technologies, Inc. (NYSE, listed 2026-06-16, $100 stated amount, weekly dividends) - a different security from BMNR, the common stock, which QFEX lists separately."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

@@ -15,5 +15,9 @@
   },
   "about": {
     "description": "ETF perpetual on Ostium Labs tracking VanEck Rare Earth and Strategic Metals ETF (REMX), with pricing referencing Stork / QUODD. Positions are margined and cash-settled in USDC on Arbitrum."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

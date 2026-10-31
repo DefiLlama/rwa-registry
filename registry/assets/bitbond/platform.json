@@ -22,7 +22,9 @@
     "primaryChain": "stellar",
     "chains": [
       "stellar"
-    ],
+    ]
+  },
+  "review": {
     "suspicious": false,
     "delisted": false
   },

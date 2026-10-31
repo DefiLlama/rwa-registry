@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Single-stock perpetual market on Aster tracking Western Digital, cash-settled."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

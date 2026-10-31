@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Single-stock perpetual market tracking Zhipu AI / Z.ai (Knowledge Atlas Technology Joint Stock Company Limited, Hong Kong-listed, HK 2513). Users get linear exposure to the Hong Kong-listed share price (HKD converted to USD), without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC. Markets are visible on Hyperliquid under the xyz namespace, but are operated by trade[XYZ] rather than listed as core Hyperliquid perps."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

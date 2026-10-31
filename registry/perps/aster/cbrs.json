@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Single-stock perpetual market on Aster tracking Cerebras Systems Inc. (NASDAQ: CBRS), USDT-margined. Distinct from trade[XYZ] CBRS, Avantis CBRS, and Lighter CBRS perps."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

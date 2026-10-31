@@ -14,6 +14,10 @@
   "about": {
     "description": "Pre-IPO valuation perpetual on Lighter tracking Quantinuum Inc. Quantum computing hardware/software (Honeywell + Cambridge Quantum joint venture), with pricing referencing Lighter fair price oracle (off-chain valuation feed), USDC-margined, cash-settled."
   },
+  "review": {
+    "suspicious": false,
+    "delisted": true
+  },
   "roles": [
     {
       "organization": "lighter",

@@ -15,5 +15,9 @@
   },
   "about": {
     "description": "Industrial-metals perpetual on Ostium Labs priced off the Global X Uranium ETF (URA), a uranium-mining-equity ETF, with pricing referencing Stork / QUODD. Positions are margined and cash-settled in USDC on Arbitrum. Users get sector exposure without holding ETF shares or constituent equities."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

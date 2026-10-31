@@ -14,6 +14,10 @@
   "about": {
     "description": "ETF perpetual on Avantis (Base) tracking the iShares MSCI South Korea ETF (EWY), a South Korean large/mid-cap equity index fund, USDC-margined. References equity oracle."
   },
+  "review": {
+    "suspicious": false,
+    "delisted": true
+  },
   "events": [
     {
       "kind": "delisting",

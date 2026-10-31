@@ -34,7 +34,6 @@
     "chains": [
       "ethereum"
     ],
-    "delisted": false,
     "fees": {
       "revenueModel": "Undisclosed; implied spread between claimed rehypothecation income and the fixed APR paid to stakers, plus OTC swap fees on GGBR and a 30% penalty on accrued interest for early unlock",
       "floatIncome": false,
@@ -44,6 +43,10 @@
       "revenueNotes": "No fee schedule published; stGGBR vault has no stated deposit/withdrawal fee; yield is a reserve-funded targetAPY set by administrators, so platform economics are opaque. Early-unstake penalty: 30% of interest earned in the period (flexible term).",
       "revenueVerificationMethod": "stakemygold.com home, stGGBR, yield-strategy, security, transparency, FAQ and ToS pages plus CertiK Skynet listing"
     }
+  },
+  "review": {
+    "suspicious": true,
+    "delisted": false
   },
   "roles": [
     {

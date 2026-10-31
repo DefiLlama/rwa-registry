@@ -36,13 +36,15 @@
       "monad"
     ],
     "attestationFrequency": "On-demand via SDK + onchain transparency",
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Mgmt Fee (yield-tiered: 0.25%-1.50%)",
       "issuerDocsUrl": "https://www.etherfuse.com/",
       "revenueConfidence": "issuer-disclosed"
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

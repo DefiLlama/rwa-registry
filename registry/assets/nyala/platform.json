@@ -18,7 +18,10 @@
     "category": [
       "stocks-equities"
     ],
-    "primaryChain": "polygon",
+    "primaryChain": "polygon"
+  },
+  "review": {
+    "suspicious": false,
     "delisted": false
   }
 }

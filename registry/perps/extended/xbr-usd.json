@@ -15,5 +15,9 @@
   },
   "about": {
     "description": "Crude oil (brent) perpetual on Extended (formerly X10). The contract tracks Crude Oil (Brent) via Extended oracle. Users gain linear oil-price exposure without owning physical crude or a deliverable futures position. Positions are margined and cash-settled in USDC on Starknet."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

@@ -30,14 +30,16 @@
       "ripple"
     ],
     "attestationFrequency": "Monthly investor reports + annual audit",
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Origination + Structuring Fee",
       "revenueConfidence": "no-public-data",
       "feeLastVerified": "2026-05-11",
       "revenueNotes": "VERT earns securitization-structuring fees on each issuance and ongoing servicing/admin fees, consistent with the Brazilian CVM 88 securitizadora fee model."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

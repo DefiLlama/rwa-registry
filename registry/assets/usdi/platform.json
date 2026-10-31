@@ -34,8 +34,6 @@
     "chains": [
       "ethereum"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Hybrid - small mint/burn transaction fee plus retention of reserve-fund return in excess of CPI accrual",
       "floatIncome": true,
@@ -45,6 +43,10 @@
       "revenueNotes": "Whitepaper discloses a very small transaction fee on public mint/burn (size not published) and that the backing fund has outperformed CPI by roughly 5-13bps per month net of fees; excess return over the CPI-indexed liability accrues to overcollateralization/the issuer. USDi pays no interest to holders. No attestation reports were locatable on the public website despite claims they are posted.",
       "revenueVerificationMethod": "USDi whitepaper (IPFS via usdicoin.com), usdicoin.com FAQ and mint page, issuer press release 2025-04-15, SEC EDGAR full-text search"
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

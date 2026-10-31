@@ -17,6 +17,10 @@
       ]
     }
   },
+  "review": {
+    "suspicious": false,
+    "delisted": false
+  },
   "roles": [
     {
       "organization": "risex",

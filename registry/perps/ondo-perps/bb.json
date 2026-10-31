@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Single-stock perpetual market on Ondo Perps tracking BlackBerry Limited, cash-settled, 24/7, up to 20x leverage, margined in USDC. Users get linear price exposure only - no ownership, dividend or voting rights in the underlying. Adapter snapshot 2026-08-19: mark $8.4408, open interest $274.13K, 24h volume $171.46K. Added 2026-08-19 to reconcile the registry with Ondo's stated 35 RWA markets; the adapter's 40 rows include 5 crypto perps (BTC, ETH, SOL, HYPE, ONDO) that are out of scope. Ticker disambiguation: BB on Ondo is BlackBerry, confirmed by price agreement - Ondo marks $8.4408 against a cross-venue reference of ~$8.45, while aster:BB quotes an unrelated $0.0115 crypto asset under the same symbol."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

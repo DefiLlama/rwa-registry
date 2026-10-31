@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Single-stock perpetual market on edgeX tracking Space Exploration Technologies Corp. Users get linear exposure to price moves in the reference asset without owning it, with no shareholder rights, dividends or voting attached. The contract is quoted and margined in USDC on edgeX v2, settles continuously through 4 hour funding capped at 0.4 percent per interval, and offers up to 20x leverage with maker and taker fees of 1.8 and 3.8 basis points. Pricing references the Stork decentralized oracle network. edgeX operates a self-custody StarkEx style architecture, so positions are held against user-controlled balances rather than an exchange omnibus account."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

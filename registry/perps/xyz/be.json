@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Single-stock perpetual market on trade[XYZ] tracking Bloom Energy, cash-settled."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

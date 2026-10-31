@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Silver perpetual market on edgeX. The contract tracks the spot price of one troy ounce of silver (XAG/USD). Users get linear exposure to silver price moves without owning bullion, vaulted metal, or redeemable claims on physical inventory, with pricing referencing an external spot metal feed via the Stork decentralized oracle. Positions are margined and cash-settled in USDT."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

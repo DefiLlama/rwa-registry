@@ -38,12 +38,15 @@
       "arbitrum"
     ],
     "attestationFrequency": "On-demand",
-    "delisted": false,
     "fees": {
       "revenueConfidence": "no-public-data",
       "revenueNotes": "No revenue has been identified. The platform's public offering is a bond programme that would pay fixed coupons to subscribers rather than collect fees from them, and the bond contract published on its website has recorded no token transfers of any kind, while an earlier contract of the same name recorded a single mint of 100,000 units to the issuer's own treasury. No management fee, performance fee, mint fee or redemption fee is published for any of the four tokens, and the Morpho Blue markets the platform created carry a protocol fee of zero.",
       "takeRateBasis": "Merkl reward campaigns denominated in GVLT are advertised for the gold and bond collateral markets."
     }
+  },
+  "review": {
+    "suspicious": true,
+    "delisted": false
   },
   "roles": [
     {

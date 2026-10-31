@@ -31,8 +31,6 @@
       "polygon"
     ],
     "attestationFrequency": "On-issuance prospectus, BaFin-supervised",
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Issuance Fee",
       "mintFeeBps": 0,
@@ -41,6 +39,10 @@
       "feeLastVerified": "2026-05-10",
       "revenueNotes": "Cashlink earns one-time issuance fees and recurring registrar fees from issuers (paid by NRW.BANK in this case, not by bondholders). Bondholders receive the full bond coupon. Specific fee schedule is bespoke per issuance."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

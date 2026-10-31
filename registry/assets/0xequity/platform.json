@@ -35,8 +35,6 @@
     "chains": [
       "base"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Hybrid - rental income fee, property listing fees, purchase-time operating expense; no buy/sell fees currently",
       "mintFeeBps": 0,
@@ -49,6 +47,10 @@
       "revenueNotes": "Footer disclosure: no fees on buy/sell (subject to change), 2% fee on rental income, per-property listing fees, a 2% monthly fee and a 10% purchase-time operating expense; 10% of rental income goes to property managers. Disclosures are inconsistently worded across pages and the incidence of the monthly/operating charges is unclear.",
       "revenueVerificationMethod": "Official website footer disclosures (homepage and About page) and docs.0xequity.com"
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

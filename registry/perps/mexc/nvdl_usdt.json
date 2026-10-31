@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "NVDL is an exchange traded fund perpetual listed on MEXC and tracking GraniteShares 2x Long NVDA Daily ETF. The contract is cash settled in USDT and does not convey ownership or redemption rights in the underlying. Funding is exchanged every 8h. Margin is held by the exchange rather than self custodied, and access requires exchange onboarding with identity verification."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

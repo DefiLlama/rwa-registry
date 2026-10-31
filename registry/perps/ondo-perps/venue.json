@@ -9,6 +9,10 @@
   "accessModel": "permissionless",
   "rwaClassification": "programmable-finance",
   "conventionNote": "Funding is paid hourly, and fees are 0.01% maker and 0.025% taker on every market we list, read live per contract.",
+  "review": {
+    "suspicious": false,
+    "delisted": false
+  },
   "roles": [
     {
       "organization": "ondo",

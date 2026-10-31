@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Single-stock perpetual futures market on QFEX tracking Generac Holdings Inc., quoted in USD, cross-margined in USDC and trading 24/7 with up to 10x leverage. QFEX is a hybrid central-limit-order-book exchange for traditional assets only; positions are cash-settled and confer no ownership, dividend or voting rights in the underlying. Reference prices are consumed from primary venues during the instrument's published reference-price hours and funding is zero outside them. Adapter snapshot 2026-09-23: mark $206.65, open interest $19.84, 24h volume $2.14K. Added 2026-09-23 from QFEX's own /refdata API, reconciling 186 live USD-quoted ACTIVE markets against the 175 already carrying a row."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

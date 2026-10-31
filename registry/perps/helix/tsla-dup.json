@@ -16,6 +16,10 @@
   "about": {
     "description": "Single-stock perpetual on Injective Labs tracking Tesla, Inc. (TSLA), with pricing referencing Chainlink Data Streams (24/5 equity feed). Users gain linear exposure to Tesla, Inc. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDT on Injective L1."
   },
+  "review": {
+    "suspicious": false,
+    "delisted": true
+  },
   "events": [
     {
       "kind": "delisting",

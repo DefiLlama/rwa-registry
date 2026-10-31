@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Single-stock perpetual on Extended (formerly X10) tracking Old Dominion Freight Line, Inc. (ODFL), with pricing referencing Extended oracle. Users gain linear exposure to Old Dominion Freight Line, Inc. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Starknet."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Single-stock perpetual on Extended (formerly X10) tracking USA Rare Earth, Inc. (USAR), with pricing referencing Extended oracle. Users gain linear exposure to USA Rare Earth, Inc. share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC on Starknet."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

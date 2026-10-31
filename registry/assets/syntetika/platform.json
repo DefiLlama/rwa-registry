@@ -22,5 +22,9 @@
     "chains": [
       "base"
     ]
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

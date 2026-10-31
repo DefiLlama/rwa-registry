@@ -15,5 +15,9 @@
   },
   "about": {
     "description": "ETF perpetual on Aster (YZi Labs-backed) tracking the SPDR S&P 500 ETF Trust (SPY) which tracks the S&P 500 Index of large-cap U.S. equities, with pricing referencing Aster custom oracle, cash-settled in USD1 on BNB Chain / Aster Chain."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

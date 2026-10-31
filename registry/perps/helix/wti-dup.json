@@ -14,6 +14,10 @@
   "about": {
     "description": "DUPLICATE of the active Helix WTI/USOIL crude oil perp. Delisted to preserve audit trail. Reference Asset bug (\"W&T OFFSHORE INC\") corrected on the active record to West Texas Intermediate Crude Oil."
   },
+  "review": {
+    "suspicious": false,
+    "delisted": true
+  },
   "events": [
     {
       "kind": "delisting",

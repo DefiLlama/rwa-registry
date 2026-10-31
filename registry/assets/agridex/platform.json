@@ -20,5 +20,9 @@
       "private-credit"
     ],
     "primaryChain": "solana"
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

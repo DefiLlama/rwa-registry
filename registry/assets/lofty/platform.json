@@ -27,7 +27,9 @@
     "primaryChain": "algorand",
     "chains": [
       "algorand"
-    ],
+    ]
+  },
+  "review": {
     "suspicious": false,
     "delisted": false
   },

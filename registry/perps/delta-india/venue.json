@@ -9,6 +9,10 @@
   "accessModel": "permissioned",
   "rwaClassification": "programmable-finance",
   "conventionNote": "Funding settles every 8 hours (every 4 hours on PAXGUSD and XAUTUSD), and 18% GST is charged on top of the listed trading fee.",
+  "review": {
+    "suspicious": false,
+    "delisted": false
+  },
   "roles": [
     {
       "organization": "delta-exchange-india",

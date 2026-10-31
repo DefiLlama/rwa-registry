@@ -31,14 +31,16 @@
     "platformType": [
       "perp-venue"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Maker/Taker Fees",
       "revenueConfidence": "issuer-disclosed",
       "feeLastVerified": "2026-05-11",
       "revenueNotes": "ApeX Omni standard fees: 2 bps maker / 5 bps taker. Launch promotional tier (subject to change): 0 bps maker / 2.5 bps taker for accounts with ≤$500K 30-day volume, 0 bps maker / 5 bps taker for accounts above. Negative bot fees (-0.2 bps) and VIP rebates (up to -0.5 bps) available. No gas fees (L2 infrastructure). Source: https://www.apex.exchange/blog/detail/Enhancing-Your-Trading-Experience-on-ApeX-Omni-Fee-Structure-Updates"
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

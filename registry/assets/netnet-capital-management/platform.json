@@ -34,7 +34,9 @@
     "primaryChain": "robinhood",
     "chains": [
       "robinhood"
-    ],
+    ]
+  },
+  "review": {
     "suspicious": false,
     "delisted": false
   },

@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Single-stock perpetual market on gTrade tracking Sandisk Corporation. The market is synthetic and cash-settled in USDC on Arbitrum."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

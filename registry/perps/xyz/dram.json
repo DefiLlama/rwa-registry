@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Perpetual market on trade[XYZ] referencing the price of DRAM (dynamic random-access memory), the foundational semiconductor memory commodity used across PCs, servers, smartphones, and AI infrastructure, with pricing referencing a DRAM contract/spot benchmark. Positions are linear, margined and cash-settled in USDC on Hyperliquid under the xyz namespace, operated by trade[XYZ] rather than listed as core Hyperliquid perps."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

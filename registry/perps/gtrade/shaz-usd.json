@@ -14,6 +14,10 @@
   "about": {
     "description": "Single-stock perpetual on Gains Network tracking SharonAI Holdings Inc. Users get linear exposure to the underlying without owning shares. Cash-settled in USDC."
   },
+  "review": {
+    "suspicious": false,
+    "delisted": true
+  },
   "events": [
     {
       "kind": "delisting",

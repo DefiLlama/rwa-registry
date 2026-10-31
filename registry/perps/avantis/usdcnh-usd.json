@@ -15,6 +15,10 @@
     "description": "USDCNH perpetual on Avantis (Base), USDC-margined. Verified live 2026-05-20.",
     "website": "https://avantisfi.com/"
   },
+  "review": {
+    "suspicious": false,
+    "delisted": false
+  },
   "roles": [
     {
       "organization": "pyth-network",

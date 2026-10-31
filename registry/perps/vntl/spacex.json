@@ -14,6 +14,10 @@
   "about": {
     "description": "Settled and delisted June 2026 - Ventuals wound down all of its HIP-3 pre-IPO valuation markets and settled open positions following SpaceX's June 12 Nasdaq listing."
   },
+  "review": {
+    "suspicious": false,
+    "delisted": true
+  },
   "roles": [
     {
       "organization": "ventuals",

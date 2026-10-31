@@ -36,13 +36,15 @@
     "chains": [
       "solana"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueConfidence": "no-public-data",
       "feeLastVerified": "2026-07-09",
       "revenueNotes": "Docs state minting and redemption involve no spread and Solstice does not profit from issuance or redemption. Fees on eUSX and YieldVault and any reserve income retention are not disclosed. Unlock fees exist with stSLX holders exempted but amounts are not published."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

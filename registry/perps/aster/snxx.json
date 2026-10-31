@@ -15,5 +15,9 @@
   },
   "about": {
     "description": "SNXX is a perpetual on Tradr 2X Long SNDK Daily ETF listed on Aster, settled in USDT."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

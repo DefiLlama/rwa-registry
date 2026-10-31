@@ -32,8 +32,6 @@
     "chains": [
       "bsc"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Hybrid - zero-fee 1:1 mint/redeem conversion; revenue from trading fees and embedded spread/FX on the underlying shares leg (Nest Trading) and Binance exchange trading fees",
       "mintFeeBps": 0,
@@ -46,6 +44,10 @@
       "revenueNotes": "Conversion Terms state Nest Trading charges no fee for share-to-token or token-to-share conversion; fees, embedded spreads and FX charges apply on the securities trading leg per the Securities Trading Fee Schedule. Dividends and corporate actions pass through to holders (subject to U.S. withholding tax).",
       "revenueVerificationMethod": "Binance official PR (2026-06-12) and the bStocks Conversion Product Terms PDF on binance.com"
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

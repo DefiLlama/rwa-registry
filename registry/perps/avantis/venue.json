@@ -10,6 +10,10 @@
   "accessModel": "permissionless",
   "rwaClassification": "programmable-finance",
   "conventionNote": "Funding and borrow accrue hourly against the vault as one net rate anchored to the cost of carry on the most liquid venues, and RWA markets pay no maker or taker fee while in growth mode.",
+  "review": {
+    "suspicious": false,
+    "delisted": false
+  },
   "roles": [
     {
       "organization": "pyth-network",

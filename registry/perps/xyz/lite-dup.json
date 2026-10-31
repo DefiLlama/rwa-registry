@@ -14,6 +14,10 @@
   "about": {
     "description": "Equity perpetual on trade[XYZ] (Hyperunit) tracking the value of 1 share of Lumentum Holdings Inc. (NASDAQ: LITE) common stock. Lumentum develops optical and photonic technologies used in cloud networking, AI data centers, telecommunications, industrial applications, and sensing systems. Listed via HIP-3 on Hyperliquid, settled in USDC."
   },
+  "review": {
+    "suspicious": false,
+    "delisted": true
+  },
   "events": [
     {
       "kind": "delisting",

@@ -15,5 +15,9 @@
   },
   "about": {
     "description": "Copper perpetual on Aster, settled in USD1 on Aster Chain."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

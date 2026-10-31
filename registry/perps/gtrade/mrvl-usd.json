@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "gTrade perpetual market tracking Marvell Technology. Cash-settled USDC pair on Arbitrum with Chainlink DON oracle pricing."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

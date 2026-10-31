@@ -14,6 +14,10 @@
   "about": {
     "description": "MU is a perpetual on Micron Technology, Inc. listed on ApeX Omni, settled in USDC."
   },
+  "review": {
+    "suspicious": true,
+    "delisted": false
+  },
   "events": [
     {
       "kind": "review",

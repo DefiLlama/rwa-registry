@@ -16,12 +16,14 @@
     "chains": [
       "ripple"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueConfidence": "no-public-data",
       "feeLastVerified": "2026-07-02"
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

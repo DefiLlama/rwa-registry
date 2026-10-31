@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Equity-index perpetual market tracking the XYZ100 benchmark, a broad public-equity basket used by trade[XYZ]. Users get synthetic index exposure rather than ownership of constituent shares, with pricing referencing an external index methodology. Positions are margined and cash-settled in USDC. Markets are visible on Hyperliquid under the xyz namespace, but are operated by trade[XYZ] rather than listed as core Hyperliquid perps."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

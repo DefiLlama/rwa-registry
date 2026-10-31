@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Taiwan Semiconductor (TSM) perpetual on Lighter. Tracks the NYSE-listed ADR of Taiwan Semiconductor Manufacturing Company (NYSE: TSM), USDC-margined."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

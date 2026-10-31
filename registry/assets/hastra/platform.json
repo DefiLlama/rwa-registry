@@ -35,13 +35,15 @@
     "chains": [
       "solana"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueConfidence": "no-public-data",
       "feeLastVerified": "2026-07-09",
       "revenueNotes": "No fee schedule exists. USDC converts to wYLDS 1 to 1 with monthly yield in wYLDS. Who keeps the YLDS to wYLDS spread is not stated. Figure Technology Solutions explicitly disclaims issuing or sponsoring wYLDS and PRIME."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

@@ -15,5 +15,9 @@
   },
   "about": {
     "description": "ETF perpetual on Aster tracking Roundhill Memory ETF (DRAM), a thematic memory-chip equity basket including Micron, SK Hynix, Samsung Electronics, and other DRAM and NAND memory producers, settled in USD1 on Aster Chain."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

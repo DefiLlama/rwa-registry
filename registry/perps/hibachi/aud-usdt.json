@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Forex perpetual on Hibachi (Arbitrum) referencing the Australian Dollar/USD exchange rate, cash-settled in USDT, giving users synthetic exposure to Australian Dollar/USD price movement without holding either currency as cash. Source: docs.hibachi.xyz."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

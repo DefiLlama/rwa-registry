@@ -15,5 +15,9 @@
   },
   "about": {
     "description": "Forex perpetual on GMTrade (Solana) referencing the British Pound/USD exchange rate, cash-settled in USDC. Source: fxdailyreport.com (GMTrade FX launch)."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

@@ -31,14 +31,16 @@
     "chains": [
       "polygon"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Mint/Redeem Fee",
       "revenueConfidence": "no-public-data",
       "feeLastVerified": "2026-05-11",
       "revenueNotes": "Toucan captures small per-token bridging fees during credit on-ramping (Verra → onchain) and pool-deposit/withdrawal fees in the BCT/NCT mechanism. No native token; protocol funded by grants and partnership distributions."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

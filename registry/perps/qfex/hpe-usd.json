@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Single-stock perpetual futures market on QFEX tracking Hewlett Packard Enterprise Co., quoted in USD, cross-margined in USDC and trading 24/7 with up to 10x leverage. QFEX is a hybrid central-limit-order-book exchange for traditional assets only; positions are cash-settled and confer no ownership, dividend or voting rights in the underlying. Reference prices are consumed from primary venues during the instrument's published reference-price hours and funding is zero outside them. Added 2026-10-02 from QFEX's own /refdata API, which reported 213 ACTIVE markets against the 190 already carried here."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

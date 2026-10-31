@@ -41,8 +41,6 @@
     "chains": [
       "avax"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Performance Fee + Float Income",
       "mintFeeBps": 0,
@@ -52,6 +50,10 @@
       "feeLastVerified": "2026-07-09",
       "revenueNotes": "Instant reUSD redemptions carry a 6 bps fee and mint fees are shown in the mint flow rather than published. Economics are spread based with reUSD accruing SOFR plus 250 bps and reUSDe risk free plus 850 bps while the reinsurer retains the excess from premiums and trust collateral yield, attested daily by The Network Firm via Chainlink."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

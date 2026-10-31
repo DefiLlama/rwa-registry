@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Commodity perpetual market on Ondo Perps tracking Copper, cash-settled, 24/7, up to 15x leverage, margined in USDC, hourly funding. Adapter snapshot 2026-08-25: mark $6.8189, open interest $13.51K, 24h volume $11.73K. Added 2026-08-25 in the second Ondo Perps expansion batch, taking the registry from 35 to 45 RWA markets; the adapter's 50 live rows include 5 crypto perps (BTC, ETH, SOL, HYPE, ONDO) that are out of scope."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

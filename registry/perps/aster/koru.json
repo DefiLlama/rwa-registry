@@ -15,5 +15,9 @@
   },
   "about": {
     "description": "KORU is a perpetual on Direxion Daily MSCI South Korea Bull 3X ETF listed on Aster, settled in USDT."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

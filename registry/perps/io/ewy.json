@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "EWY is a perpetual on iShares MSCI South Korea ETF listed on Entropy, settled in USDC."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

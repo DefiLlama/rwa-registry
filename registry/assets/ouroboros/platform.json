@@ -26,12 +26,15 @@
     "chains": [
       "monad"
     ],
-    "suspicious": false,
     "fees": {
       "revenueConfidence": "no-public-data",
       "feeLastVerified": "2026-07-09",
       "revenueNotes": "No fee schedule disclosed. Site was unreachable at verification time and details were drawn from an archived snapshot."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": true
   },
   "roles": [
     {

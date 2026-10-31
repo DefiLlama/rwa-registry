@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Single-stock perpetual market on Variational Omni tracking AMD, cash-settled."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

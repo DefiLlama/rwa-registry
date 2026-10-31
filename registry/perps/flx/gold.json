@@ -14,6 +14,10 @@
   "about": {
     "description": "Gold perpetual market. The contract tracks the price of one troy ounce of gold. Users get linear exposure to gold price moves without owning bullion, vaulted metal, or redeemable claims on physical inventory. Pricing uses Felix's external reference methodology for commodity markets. Positions are margined and cash-settled in USDH. Markets are visible on Hyperliquid under the flx namespace, but are operated by Felix rather than listed as core Hyperliquid perps."
   },
+  "review": {
+    "suspicious": false,
+    "delisted": true
+  },
   "events": [
     {
       "kind": "delisting",

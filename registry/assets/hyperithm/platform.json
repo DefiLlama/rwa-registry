@@ -33,14 +33,16 @@
     "chains": [
       "monad"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Management Fee",
       "revenueConfidence": "no-public-data",
       "feeLastVerified": "2026-07-09",
       "revenueNotes": "A vault manager fee exists (over 100K USD generated during the vault scaling period per the Accountable case study) but the rate is not publicly disclosed."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

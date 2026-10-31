@@ -32,8 +32,6 @@
       "ethereum"
     ],
     "attestationFrequency": "Quarterly",
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Mint/Redeem Spread + Storage",
       "holderTotalFeeBps": 0,
@@ -44,6 +42,10 @@
       "feeLastVerified": "2026-05-11",
       "revenueNotes": "Aurus (tGOLD, tSILVER, tPLATINUM) charges zero recurring storage or management fees to token holders. Aurus revenue comes from minting fees paid by bullion-provider partners (refineries, vaults, traders) within the Aurus Ecosystem at the moment of token issuance, not from holders. Tokens are 1:1 backed by LBMA-accredited physical bullion. Source: https://aurus.org/tgold"
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "TE is a perpetual on T1 Energy Inc. listed on BingX, settled in USDT."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

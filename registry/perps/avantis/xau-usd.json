@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Gold perpetual on Avantis, cash-settled in USDC on Base."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

@@ -30,8 +30,6 @@
       "telos"
     ],
     "attestationFrequency": "Daily NAV via Chainlink Proof-of-Reserve",
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Asset Manager Fee",
       "holderTotalFeeBps": 20,
@@ -45,6 +43,10 @@
       "feeLastVerified": "2026-05-10",
       "revenueNotes": "KUMA charges an issuance/management fee on NAV; the 20 bps figure is a reasoned estimate based on KUMA docs language and comparable European bond-ETF wrapper fees. Underlying ETF expense ratios (typically 5-15 bps for European bond ETFs) are charged separately and pass through to holders. Exact KUMA fee schedule to be verified."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

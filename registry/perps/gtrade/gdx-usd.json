@@ -14,6 +14,10 @@
   "about": {
     "description": "VanEck Gold Miners ETF (GDX) perpetual on gTrade, USDC-margined. Verified live 2026-05-20."
   },
+  "review": {
+    "suspicious": false,
+    "delisted": true
+  },
   "events": [
     {
       "kind": "delisting",

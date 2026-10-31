@@ -25,7 +25,9 @@
     "primaryChain": "base",
     "chains": [
       "base"
-    ],
+    ]
+  },
+  "review": {
     "suspicious": false,
     "delisted": false
   },

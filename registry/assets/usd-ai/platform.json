@@ -35,13 +35,15 @@
     "chains": [
       "arbitrum"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueConfidence": "no-public-data",
       "feeLastVerified": "2026-07-09",
       "revenueNotes": "USDai mints and redeems 1 to 1 against PYUSD with no published fee. Economics are a net interest margin between 7 to 15 percent borrower APR and depositor yield plus origination fees, with exact rates not disclosed. sUSDai unstaking runs a 30 day FIFO epoch."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

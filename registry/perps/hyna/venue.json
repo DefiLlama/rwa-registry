@@ -12,6 +12,10 @@
   "accessModel": "permissionless",
   "rwaClassification": "programmable-finance",
   "conventionNote": "Funding is paid hourly between traders on the Hyperliquid HIP-3 formula with a 0.01% per 8h interest rate and a 4% per hour cap, and fees are 1.11x the Hyperliquid base schedule because the deployer fee scale is 0.1111.",
+  "review": {
+    "suspicious": false,
+    "delisted": true
+  },
   "roles": [
     {
       "organization": "chaos-labs",

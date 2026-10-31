@@ -18,7 +18,10 @@
     "category": [
       "crypto-funds"
     ],
-    "primaryChain": "avax",
+    "primaryChain": "avax"
+  },
+  "review": {
+    "suspicious": false,
     "delisted": false
   }
 }

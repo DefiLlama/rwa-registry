@@ -33,14 +33,16 @@
     "chains": [
       "monad"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Mint/Redeem Spread + Management Fee",
       "revenueConfidence": "no-public-data",
       "feeLastVerified": "2026-05-11",
       "revenueNotes": "Mu earns primary-market spreads on tokenized issuances plus ongoing servicing/management fees on the underlying real-estate / receivable pools."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

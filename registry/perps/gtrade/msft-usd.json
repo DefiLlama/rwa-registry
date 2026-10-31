@@ -15,5 +15,9 @@
   },
   "about": {
     "description": "Microsoft perpetual on gTrade, synthetic and cash-settled in USDC on Arbitrum."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

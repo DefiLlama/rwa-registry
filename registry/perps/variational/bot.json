@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "BOT is a single-stock perpetual on Variational tracking RoboStrategy Trust. RoboStrategy Trust is a tokenized structured product referencing an AI-driven trading strategy portfolio. The market is cash-settled with hourly funding, no shareholder rights, and no dividend rights in the underlying."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

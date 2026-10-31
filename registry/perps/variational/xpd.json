@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Perpetual market on Variational Omni tracking Palladium, cash-settled."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

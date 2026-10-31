@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Pre-IPO valuation perpetual on trade[XYZ] tracking Quantinuum, a private quantum-computing company that develops quantum hardware, software, and applications. The contract is a builder-deployed HIP-3 market on Hyperliquid in the xyz namespace, with the reference price set so the perp tracks the implied valuation of Quantinuum. Users gain synthetic exposure to the implied valuation without holding equity, SPV interests, or tender-offer access. Positions are margined and cash-settled in USDC."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

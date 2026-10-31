@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Copper perpetual market. The contract tracks copper pricing and gives users linear exposure to a core industrial metal used across manufacturing, electrification, and infrastructure. Users do not own metal inventory or warehouse receipts. Pricing uses an external copper reference. Positions are margined and cash-settled in USDC. Markets are visible on Hyperliquid under the xyz namespace, but are operated by trade[XYZ] rather than listed as core Hyperliquid perps."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

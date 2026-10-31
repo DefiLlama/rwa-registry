@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Paxos Gold (PAXG) perpetual on Variational Omni (Arbitrum), USDC-margined RFQ perpetual quoted by the single Omni Liquidity Provider (OLP), which aggregates pricing from CEXs/DEXs/AMMs/OTC venues. Tracks the PAXG token price (each PAXG represents one troy ounce of London Good Delivery gold custodied by Paxos Trust Company), with up to 50x leverage, with zero trading fees, with OLP capturing spread, cash-settled in USDC. Distinct from variational:XAU (which tracks spot gold). This perpetual references the on-chain Paxos Gold RWA token specifically."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

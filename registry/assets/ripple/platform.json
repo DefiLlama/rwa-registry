@@ -36,14 +36,16 @@
     "chains": [
       "ripple"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "floatIncome": true,
       "revenueConfidence": "no-public-data",
       "feeLastVerified": "2026-07-09",
       "revenueNotes": "RLUSD user terms state redemption at 1 dollar less fees for direct enterprise customers but no fee schedule is published. Monetization is reserve float plus the token role in Ripple Payments and Ripple Prime."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

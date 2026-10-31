@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "MRK is a perpetual on Merck & Co., Inc. listed on ApeX Omni, settled in USDC."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

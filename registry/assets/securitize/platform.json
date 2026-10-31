@@ -53,8 +53,6 @@
       "bsc",
       "solana"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Hybrid",
       "assetManagerTakeBps": null,
@@ -77,6 +75,10 @@
       "takeRateBasis": "Admin (transfer agency + fund administration + feeder structures); per-fund take not disclosed",
       "revenueMix": "Transfer-agent & fund-admin service fees across BUIDL/ACRED/HL funds/VBILL etc. (rates not public) + own funds (STAC)"
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

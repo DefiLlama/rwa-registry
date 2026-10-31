@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "DXYZ is a perpetual on Destiny Tech100 Inc. listed on BingX, settled in USDT."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

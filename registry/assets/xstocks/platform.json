@@ -48,8 +48,6 @@
       "arbitrum",
       "ink"
     ],
-    "suspicious": false,
-    "delisted": false,
     "onchainMcapBasis": "active",
     "fees": {
       "revenueModel": "Mint/Redeem Spread",
@@ -59,6 +57,10 @@
       "feeLastVerified": "2026-07-09",
       "revenueNotes": "Currently no issuance, redemption, or management fees per the official FAQ, though the prospectus reserves the right to charge per product. KYC verified primary clients mint and redeem directly at NAV subject to minimums. Dividend handling economics are not disclosed."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

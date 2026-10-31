@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "SanDisk (SNDK) perpetual on Avantis (Base). Tracks SanDisk stock price, USDC-margined. Oracle-priced via Pyth Lazer."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

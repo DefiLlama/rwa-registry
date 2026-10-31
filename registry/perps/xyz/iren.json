@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "IREN is a perpetual on IREN Limited listed on trade[XYZ], settled in USDC."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

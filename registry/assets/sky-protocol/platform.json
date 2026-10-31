@@ -38,8 +38,6 @@
       "ethereum"
     ],
     "attestationFrequency": "Continuous (on-chain)",
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Yield Spread + Stability Fees",
       "holderTotalFeeBps": 0,
@@ -58,6 +56,10 @@
       "takeRateBasis": "Yield spread. Stability fees plus RWA and T-bill income on backing, minus the SSR paid only on the saved share of supply.",
       "revenueMix": "RWA and T-bill income is about 60 to 70 percent of the yield stack, Spark borrow interest is second, crypto CDP stability fees third, and PSM fees are 0. Surplus above the buffer feeds SKY buybacks via the Smart Burn Engine. SSR is 3.603 percent APY and DSR is 1.251 percent APY as read onchain on 2026-07-02. Un-saved USDS and DAI supply is pure float."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

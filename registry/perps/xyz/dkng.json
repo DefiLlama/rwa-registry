@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Single-stock perpetual market tracking DraftKings. Users get linear exposure to DraftKings share-price moves without owning DraftKings shares, shareholder rights, or dividend claims, cash-settled in USDC on trade[XYZ]."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

@@ -35,8 +35,6 @@
     "chains": [
       "ethereum"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "mintFeeBps": 0,
       "redemptionFeeBps": 0,
@@ -45,6 +43,10 @@
       "feeLastVerified": "2026-07-09",
       "revenueNotes": "TUSD charges no minting or redemption fees with a 1000 dollar redemption minimum. The February 2026 whitepaper states TUSD may collect interest on reserve deposits and pays none to users. Note the extensive reserve controversy history when weighing attestations."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

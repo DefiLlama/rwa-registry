@@ -15,5 +15,9 @@
   },
   "about": {
     "description": "ETF perpetual on Ostium Labs tracking Energy Select Sector SPDR Fund (XLE), with pricing referencing Stork / QUODD. Users gain linear price exposure to the ETF without owning ETF shares, dividends, or creation-redemption rights. Positions are margined and cash-settled in USDC on Arbitrum."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

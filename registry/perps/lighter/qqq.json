@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "ETF perpetual market tracking the Invesco QQQ Trust (QQQ), which tracks the Nasdaq-100 Index. Users get synthetic exposure to the QQQ ETF's price rather than ownership of ETF shares or redemption rights, with pricing referencing the ETF's public market price via Lighter's fair price oracle. Positions are margined and cash-settled in USDC."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

@@ -14,6 +14,10 @@
   "about": {
     "description": "ETF perpetual market tracking the Global X Robotics & Artificial Intelligence ETF (BOTZ). Users get synthetic exposure to the BOTZ ETF's price rather than ownership of ETF shares or redemption rights, with pricing referencing the ETF's public market price via Lighter's fair price oracle. Positions are margined and cash-settled in USDC."
   },
+  "review": {
+    "suspicious": false,
+    "delisted": false
+  },
   "roles": [
     {
       "organization": "chainlink",

@@ -34,13 +34,15 @@
       "strato"
     ],
     "attestationFrequency": "Monthly vaulting confirmations; periodic independent CPA audit",
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Mint/Redemption Spread; Vault Fee",
       "revenueConfidence": "no-public-data",
       "revenueNotes": "STRATO charges a vault/management fee and a mint/redemption spread on its precious-metals tokens, but the specific bps and revenue-sharing schedule are not publicly disclosed on the STRATO website or audit pages as of May 2026."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

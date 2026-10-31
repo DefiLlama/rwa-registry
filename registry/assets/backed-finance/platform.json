@@ -40,14 +40,16 @@
       "arbitrum"
     ],
     "attestationFrequency": "Daily",
-    "suspicious": false,
-    "delisted": false,
     "onchainMcapBasis": "active",
     "fees": {
       "revenueModel": "Mint/Redeem Spread + Float Income",
       "revenueConfidence": "issuer-disclosed",
       "revenueNotes": "Backed Finance AG (Switzerland-based) operates under Liechtenstein FMA prospectus regime to issue bToken / xStock tokenized securities backed 1:1 by underlying shares/ETFs held in segregated custody. Revenue from mint/redeem spreads, float income on cash balances, and platform B2B distribution fees. Independent attestation by The Network Firm LLP. xStocks line launched June 2025 in partnership with Kraken."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

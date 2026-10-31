@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Equity-index perpetual on Extended (formerly X10) tracking the Nikkei 225 Index, with pricing referencing Extended oracle. Users gain linear exposure to the index level without owning any constituent shares. Positions are margined and cash-settled in USDC on Starknet."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

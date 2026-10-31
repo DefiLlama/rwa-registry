@@ -14,6 +14,10 @@
   "about": {
     "description": "Silver perpetual market. The contract tracks the price of silver and gives synthetic exposure to silver price moves without ownership of physical metal, vaulted inventory, or redemption rights. Positions are margined and cash-settled in USDH. The market is visible on Hyperliquid under the km namespace, but it is operated by Markets by Kinetiq rather than listed as a core Hyperliquid perp."
   },
+  "review": {
+    "suspicious": false,
+    "delisted": true
+  },
   "events": [
     {
       "kind": "delisting",

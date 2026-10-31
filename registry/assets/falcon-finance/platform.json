@@ -36,8 +36,6 @@
     "chains": [
       "ethereum"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "mintFeeBps": 0,
       "redemptionFeeBps": 0,
@@ -45,6 +43,10 @@
       "feeLastVerified": "2026-07-09",
       "revenueNotes": "No protocol fees for minting or redeeming USDf, with stablecoin redemptions 1 to 1 after a 7 day cooldown. Economics flow via yield spread on deployed collateral paid to sUSDf stakers, with a portion funding a 10 million dollar insurance fund."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

@@ -39,8 +39,6 @@
       "ethereum"
     ],
     "attestationFrequency": "Monthly",
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Float Income",
       "holderTotalFeeBps": 0,
@@ -60,6 +58,10 @@
       "takeRateBasis": "Float income on reserves, net of distribution revenue-share",
       "revenueMix": "Q1 2026 revenue was 694M, of which reserve income was 653M (94 percent) and other products 42M. Distribution costs consume about 55 to 60 percent of reserve income (Coinbase takes 100 percent of on-platform reserve income plus 50 percent of residual, and Binance has a paid-incentive deal per the 424B4)."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

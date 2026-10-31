@@ -28,7 +28,9 @@
     "chains": [
       "bsc",
       "mantle"
-    ],
+    ]
+  },
+  "review": {
     "suspicious": false,
     "delisted": false
   },

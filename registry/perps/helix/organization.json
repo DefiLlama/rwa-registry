@@ -28,14 +28,16 @@
     "platformType": [
       "perp-venue"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Maker/Taker Fees",
       "revenueConfidence": "issuer-disclosed",
       "feeLastVerified": "2026-05-11",
       "revenueNotes": "Helix (powered by Injective) standard perpetual fees: -0.5 bps maker rebate / 5 bps taker. Some markets have different rates - XRP and SEI perps charge -1 bp maker / 10 bps taker. VIP discounts available based on 28-day rolling volume and staked INJ. Fee recipient always receives 40% of the trading fee regardless of maker/taker designation. Source: https://docs.helixapp.com/trading/fees-and-rebates"
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

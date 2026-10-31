@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "US500 perpetual on Lighter. A separate S&P 500 product distinct from lighter:SPX, USDC-margined. Both lighter:SPX and lighter:US500 are live on Lighter (confirmed via adapter may20)."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

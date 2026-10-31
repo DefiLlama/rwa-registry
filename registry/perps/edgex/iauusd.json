@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "ETF perpetual market on edgeX tracking the iShares Gold Trust (IAU). Users get synthetic exposure to the IAU ETF's price rather than ownership of ETF shares or claims on the underlying gold, with pricing referencing the ETF's public market price via the Stork decentralized oracle. Positions are margined and cash-settled in USDT."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

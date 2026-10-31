@@ -31,14 +31,16 @@
       "liquid"
     ],
     "attestationFrequency": "Annual",
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Platform Fee + Trading Fee",
       "revenueConfidence": "no-public-data",
       "feeLastVerified": "2026-05-11",
       "revenueNotes": "STOKR charges one-time issuance/listing fees, annual platform fees from issuers, and a small per-transaction trading fee. CSSF-supervised business model with limited public fee disclosure."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

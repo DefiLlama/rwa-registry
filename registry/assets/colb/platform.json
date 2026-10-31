@@ -18,7 +18,10 @@
     "category": [
       "stocks-equities"
     ],
-    "primaryChain": "bsc",
+    "primaryChain": "bsc"
+  },
+  "review": {
+    "suspicious": false,
     "delisted": false
   }
 }

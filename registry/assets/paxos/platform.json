@@ -39,13 +39,15 @@
       "ethereum"
     ],
     "attestationFrequency": "Monthly",
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Float Income + Custody Fees",
       "revenueConfidence": "issuer-disclosed",
       "revenueNotes": "Paxos earns float income on stablecoin reserves (invested in short-duration treasuries and bank deposits), plus institutional custody / brokerage fees. PAXG carries a small annual storage fee (~0.02% built into the spread). White-label stablecoin issuance is a significant revenue line (PayPal USD, Mastercard partnerships)."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

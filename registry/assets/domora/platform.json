@@ -27,8 +27,11 @@
     "primaryChain": "base",
     "chains": [
       "base"
-    ],
-    "suspicious": false
+    ]
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": true
   },
   "roles": [
     {

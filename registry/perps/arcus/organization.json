@@ -30,14 +30,16 @@
     "platformType": [
       "perp-venue"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Maker/Taker Fees",
       "revenueConfidence": "reasoned-estimate",
       "feeLastVerified": "2026-07-09",
       "revenueNotes": "Volume-tiered fees with maker rebates, read live from api.arcus.xyz/v1/feetiers. Base tier raw values are 150 maker and 450 taker in a field labeled bps, which matches Hyperliquid 1.5 bps and 4.5 bps if units are centi-bps. Unit disclosure pending, treat numbers with caution. Spot trading is fee free. Off-hours RWA funding locks to SOFR plus 0.5 percent."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

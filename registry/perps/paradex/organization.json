@@ -18,7 +18,8 @@
     },
     "registryInfo": "Paradex is a permissionless perpetual and options DEX operating on Paradex Chain, its own Starknet-based appchain (DimeVM). Founded 2023 by Anand Gomes and incubated by Paradigm (institutional OTC derivatives desk, Singapore). Open beta February 19, 2024. DIME governance token TGE March 5, 2026. The venue offers unified cross-margin trading in USDC across crypto, equities, ETFs, indices, FX, and commodities with zero-fee execution, ZK-encrypted account privacy, and no auto-deleveraging. Not open to US persons or OFAC-restricted jurisdictions per the Paradex Restricted Persons policy."
   },
-  "platform": {
+  "platform": {},
+  "review": {
     "suspicious": false,
     "delisted": false
   },

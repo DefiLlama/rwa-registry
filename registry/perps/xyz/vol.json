@@ -14,6 +14,10 @@
   "about": {
     "description": "Volatility perpetual on trade[XYZ] (Hyperunit) tracking Volatility Index (VOL), with pricing referencing Pyth / futures-based external reference methodology. Users gain synthetic exposure to implied/realized volatility without holding options or futures. Positions are margined and cash-settled in USDC on Hyperliquid (xyz namespace)."
   },
+  "review": {
+    "suspicious": false,
+    "delisted": true
+  },
   "events": [
     {
       "kind": "delisting",

@@ -11,6 +11,10 @@
   "accessModel": "permissionless",
   "rwaClassification": "programmable-finance",
   "conventionNote": "Funding is paid hourly from a time-weighted premium against the index price with a 0.01% base interest rate and a 4% per 8h cap, standard accounts pay 0 maker and 0 taker, and premium accounts pay 0.4 bps maker and 2.8 bps taker before LIT staking discounts.",
+  "review": {
+    "suspicious": false,
+    "delisted": false
+  },
   "roles": [
     {
       "organization": "pyth-network",

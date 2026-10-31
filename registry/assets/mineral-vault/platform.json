@@ -29,14 +29,16 @@
     "chains": [
       "plume_mainnet"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Origination + Storage Fee",
       "revenueConfidence": "no-public-data",
       "feeLastVerified": "2026-05-11",
       "revenueNotes": "Mineral Vault earns origination fees on each tokenized mineral-rights or inventory issuance + ongoing storage / insurance fees on physical holdings."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

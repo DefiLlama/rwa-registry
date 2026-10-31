@@ -15,5 +15,9 @@
   },
   "about": {
     "description": "Single-stock perpetual market on Aster tracking Novo Nordisk A/S, cash-settled."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Circle (NYSE:CRCL) stock perpetual on Helix, cash-settled in USDT."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

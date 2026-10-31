@@ -28,7 +28,9 @@
     "primaryChain": "avax",
     "chains": [
       "avax"
-    ],
+    ]
+  },
+  "review": {
     "suspicious": false,
     "delisted": false
   },

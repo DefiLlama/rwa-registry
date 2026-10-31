@@ -15,5 +15,9 @@
   },
   "about": {
     "description": "ETF perpetual on Aster tracking the iShares Russell 2000 ETF (IWM), a small-cap U.S. equity index fund, cash-settled on Aster Chain."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

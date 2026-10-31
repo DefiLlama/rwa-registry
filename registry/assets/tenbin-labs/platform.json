@@ -32,13 +32,15 @@
     "chains": [
       "ethereum"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Yield Spread (futures basis)",
       "revenueConfidence": "no-public-data",
       "revenueNotes": "Tenbin captures yield from futures basis (price difference between CME futures and spot). Specific bps not publicly disclosed. Source: https://tenbinlabs.xyz/"
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

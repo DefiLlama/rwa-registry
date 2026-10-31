@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "MSTR is a perpetual on MicroStrategy listed on ApeX Omni, settled in USDC."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

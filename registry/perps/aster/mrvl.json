@@ -15,5 +15,9 @@
   },
   "about": {
     "description": "Perpetual market on Aster tracking Marvell Technology Inc. (MRVL), cash-settled in crypto. Asset Class: Stock Perp. (Original record. Delisted in favor of the refreshed market.)"
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

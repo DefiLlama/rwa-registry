@@ -32,8 +32,6 @@
     "platformType": [
       "perp-venue"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Perp Maker/Taker Fees",
       "issuerDocsUrl": "https://www.deribit.com/kb/fees",
@@ -42,6 +40,10 @@
       "feeLastVerified": "2026-08-06",
       "revenueNotes": "Single RWA perp (PAXG_USDC-PERPETUAL) from the 2024 Paxos partnership. Coinbase-owned."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

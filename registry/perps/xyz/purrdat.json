@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Perpetual market on trade[XYZ] tracking the price of NASDAQ:PURR. Hyperliquid Strategies, Inc., a publicly-traded U.S. digital asset treasury (DAT) company whose primary balance-sheet exposure is HYPE, the native token of the Hyperliquid blockchain. The 'DAT' suffix in the market ticker disambiguates this equity perp from the PURR memecoin on Hyperliquid itself, with pricing referencing an external 24/5 equity feed. Positions are linear, margined and cash-settled in USDC on Hyperliquid under the xyz namespace, operated by trade[XYZ] rather than listed as core Hyperliquid perps. Tokenholders receive linear exposure to PURR share-price moves without owning shares, shareholder rights, or dividend claims."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

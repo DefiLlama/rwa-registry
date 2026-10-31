@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Single-stock perpetual on Gains Network tracking The Walt Disney Company (DIS), with pricing referencing Chainlink DON (24/5 equity feed). Users gain linear exposure to The Walt Disney Company share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USDC / DAI / WETH on Arbitrum / Polygon / Base."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

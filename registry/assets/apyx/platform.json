@@ -40,13 +40,15 @@
     "chains": [
       "ethereum"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueConfidence": "reasoned-estimate",
       "feeLastVerified": "2026-07-09",
       "revenueNotes": "apxUSD mint and redeem is whitelisted institutional only at 1 dollar with spreads and offchain execution expenses rather than a published fee. apyUSD early exit fees decline from 350 bps to 10 bps across the unlock window. Excess collateral yield above apyUSD payouts accrues to the overcollateralization buffer."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

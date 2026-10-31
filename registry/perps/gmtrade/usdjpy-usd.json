@@ -15,5 +15,9 @@
   },
   "about": {
     "description": "USDJPY perpetual on GMTrade (Solana), USDC-margined. Tracks USD/JPY FX rate."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

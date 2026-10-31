@@ -15,5 +15,9 @@
   },
   "about": {
     "description": "USDCHF perpetual on GMTrade (Solana), USDC-margined. Tracks USD/CHF FX rate."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "SNDK is a single-stock perpetual on Ondo Perps tracking SanDisk Corporation. SanDisk Corporation is a US NAND flash memory and storage-solutions company spun off from Western Digital in 2025 (Nasdaq: SNDK). The market is cash-settled with hourly funding, no shareholder rights, and no dividend rights in the underlying."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

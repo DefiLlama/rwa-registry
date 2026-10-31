@@ -33,8 +33,6 @@
       "megaeth"
     ],
     "attestationFrequency": "Continuous",
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Yield Spread",
       "issuerDocsUrl": "https://brix.money/itry",
@@ -42,6 +40,10 @@
       "feeLastVerified": "2026-05-13",
       "revenueNotes": "Brix retains a portion of the underlying Turkish money market fund yield as the spread between iTRY rebase rate and wiTRY accrual. Specific bps not publicly disclosed. ~40% annualized Turkish central bank policy rate is the source. Source: https://brix.money/itry"
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

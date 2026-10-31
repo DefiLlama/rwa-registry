@@ -27,8 +27,11 @@
     "primaryChain": "polygon",
     "chains": [
       "polygon"
-    ],
-    "suspicious": false
+    ]
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": true
   },
   "roles": [
     {

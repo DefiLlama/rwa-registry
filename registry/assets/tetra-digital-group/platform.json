@@ -29,7 +29,9 @@
     "chains": [
       "ethereum",
       "base"
-    ],
+    ]
+  },
+  "review": {
     "suspicious": false,
     "delisted": false
   },

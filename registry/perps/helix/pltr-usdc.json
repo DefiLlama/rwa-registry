@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Palantir Technologies (NASDAQ:PLTR) stock perpetual on Helix, cash-settled in USDT."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

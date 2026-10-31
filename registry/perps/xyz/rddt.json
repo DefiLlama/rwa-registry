@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "RDDT is a perpetual on Reddit, Inc. listed on trade[XYZ], settled in USDC."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Single-stock perpetual market on Ondo Perps tracking Nebius Group N.V., cash-settled, 24/7, up to 20x leverage, margined in USDC. Users get linear price exposure only - no ownership, dividend or voting rights in the underlying. Adapter snapshot 2026-08-19: mark $227.6300, open interest $666.58K, 24h volume $1.27M. Added 2026-08-19 to reconcile the registry with Ondo's stated 35 RWA markets; the adapter's 40 rows include 5 crypto perps (BTC, ETH, SOL, HYPE, ONDO) that are out of scope."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

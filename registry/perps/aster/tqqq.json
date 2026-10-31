@@ -15,5 +15,9 @@
   },
   "about": {
     "description": "TQQQ is a perpetual on ProShares UltraPro QQQ listed on Aster, settled in USDT."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

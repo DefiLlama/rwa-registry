@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Perpetual market on Lighter tracking the Direxion Daily Semiconductor Bull 3X Shares (SOXL) ETF. Users get linear exposure to the fund's price moves without owning shares. Positions are margined and cash-settled in USDC."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

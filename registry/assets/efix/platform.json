@@ -27,13 +27,15 @@
     "chains": [
       "polygon"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueConfidence": "no-public-data",
       "feeLastVerified": "2026-05-10",
       "revenueNotes": "Public fee disclosure not available."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

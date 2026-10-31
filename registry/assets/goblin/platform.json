@@ -33,8 +33,6 @@
     "chains": [
       "pharos"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Vault performance fee (rate undisclosed)",
       "floatIncome": false,
@@ -43,6 +41,10 @@
       "revenueNotes": "Docs confirm a performance fee exists in the vault APY formula but no numeric fee schedule is published; no fee terms at all for the RWA private-credit vault.",
       "revenueVerificationMethod": "docs.goblin.fi full index incl. Key Concepts, GoVault, RWA Vault and Audit pages; no fee schedule or legal terms published"
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

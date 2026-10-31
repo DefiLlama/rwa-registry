@@ -39,13 +39,15 @@
       "celo"
     ],
     "attestationFrequency": "Ongoing (per-stablecoin attestations + reserve transparency)",
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Platform fees + custody/orchestration",
       "issuerDocsUrl": "https://brale.xyz/platform",
       "revenueConfidence": "issuer-disclosed"
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

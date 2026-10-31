@@ -30,14 +30,16 @@
     "platformType": [
       "perp-venue"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Maker/Taker Fees",
       "revenueConfidence": "issuer-disclosed",
       "feeLastVerified": "2026-05-11",
       "revenueNotes": "edgeX base fees (non-VIP): 1.2 bps maker / 3.8 bps taker. VIP tiers based on 30-day rolling volume reduce fees down to 0 bps maker / 2.4 bps taker at VIP 6 ($2B+ volume). Hourly funding fees apply between longs and shorts. Same schedule applies to crypto and RWA markets. Source: https://edgex-1.gitbook.io/edgeX-documentation/trading/trading-fees"
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

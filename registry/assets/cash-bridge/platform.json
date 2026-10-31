@@ -33,13 +33,16 @@
     "chains": [
       "solana"
     ],
-    "suspicious": false,
     "fees": {
       "revenueModel": "Float Income",
       "revenueConfidence": "no-public-data",
       "feeLastVerified": "2026-05-11",
       "revenueNotes": "CASH (issued by Bridge Building Inc., a Bridge.xyz subsidiary) is a USD-backed stablecoin maintained 1:1 with USD reserves. Revenue from float income on USD reserves invested in short-duration treasuries and bank deposits (similar to USDC model). Used as the stablecoin rail for Dreamcash equity-perp deployer markets."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": true
   },
   "roles": [
     {

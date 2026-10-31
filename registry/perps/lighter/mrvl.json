@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Marvell Technology (NASDAQ:MRVL) stock perpetual on Lighter, cash-settled in USDC."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

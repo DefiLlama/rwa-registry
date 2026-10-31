@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "XAU is a perpetual on Gold listed on ApeX Omni, settled in USDC."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

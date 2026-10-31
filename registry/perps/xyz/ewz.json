@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Perpetual market on trade[XYZ] tracking the iShares MSCI Brazil ETF (EWZ), which provides exposure to a market-cap-weighted index of large- and mid-cap Brazilian equities. Positions are linear, margined and cash-settled in USDC on Hyperliquid under the xyz namespace, operated by trade[XYZ] rather than listed as core Hyperliquid perps."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

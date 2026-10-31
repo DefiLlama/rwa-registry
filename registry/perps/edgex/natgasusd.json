@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Natural gas perpetual market on edgeX. The contract tracks Henry Hub natural-gas pricing, the main U.S. benchmark for gas markets. Users get linear commodity price exposure only, without owning physical gas, storage claims, or a deliverable futures position. Pricing uses a futures-based external reference via the Stork decentralized oracle. Positions are margined and cash-settled in USDT."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

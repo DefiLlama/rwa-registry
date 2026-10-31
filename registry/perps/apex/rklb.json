@@ -15,6 +15,10 @@
     "description": "Single-stock perpetual market on ApeX Omni tracking Rocket Lab, cash-settled.",
     "issuer": "ApeX Protocol"
   },
+  "review": {
+    "suspicious": false,
+    "delisted": false
+  },
   "roles": [
     {
       "organization": "chainlink",

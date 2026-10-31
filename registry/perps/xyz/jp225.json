@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Equity-index perpetual market tracking Nikkei 225 Index. Users get synthetic index exposure rather than ownership of constituent shares, cash-settled in USDC on trade[XYZ]."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

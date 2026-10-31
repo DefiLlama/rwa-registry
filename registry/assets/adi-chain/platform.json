@@ -34,8 +34,6 @@
     "chains": [
       "adi"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Float Income - issuer charges no end-user fees; distribution partners set their own",
       "holderTotalFeeBps": 0,
@@ -49,6 +47,10 @@
       "revenueNotes": "Whitepaper section 12 states the issuer will not charge end-user fees; redemption at guaranteed 1:1 parity with no minimum. Interest on escrowed AED reserves is the only apparent issuer revenue; retention of reserve interest is not explicitly confirmed. Transparency page is a static snapshot and no Crowe attestation reports are downloadable despite the monthly-publication claim.",
       "revenueVerificationMethod": "DDSC White Paper v1.0 section 12, ddsc.ai Terms of Use, ddsc.ai/transparency dashboard"
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

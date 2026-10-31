@@ -15,5 +15,9 @@
   },
   "about": {
     "description": "Single-stock perpetual market on Aster tracking Eli Lilly and Company, cash-settled."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

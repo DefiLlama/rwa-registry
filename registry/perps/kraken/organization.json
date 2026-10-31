@@ -32,8 +32,6 @@
     "platformType": [
       "perp-venue"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Perp Maker/Taker Fees",
       "issuerDocsUrl": "https://www.kraken.com/features/fee-schedule",
@@ -42,6 +40,10 @@
       "feeLastVerified": "2026-07-30",
       "revenueNotes": "Perps on tokenized Backed xStocks with an explicit category field in the API. 110+ countries, no US."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

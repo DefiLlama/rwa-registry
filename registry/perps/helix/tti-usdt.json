@@ -16,6 +16,10 @@
   "about": {
     "description": "TRADFI is a perpetual on TRADFI Equity Index listed on Helix, settled in USDT."
   },
+  "review": {
+    "suspicious": false,
+    "delisted": true
+  },
   "events": [
     {
       "kind": "delisting",

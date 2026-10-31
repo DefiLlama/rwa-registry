@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "iShares MSCI Taiwan ETF (EWT) perpetual on trade[XYZ] (Hyperliquid HIP-3 xyz namespace). Tracks the iShares MSCI Taiwan ETF, USDC-margined. HIP-3 builder-deployed."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

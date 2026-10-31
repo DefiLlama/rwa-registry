@@ -16,6 +16,10 @@
   "about": {
     "description": "Single-stock perpetual on Aster (YZi Labs-backed) tracking PDD Holdings (Pinduoduo) ADR, with pricing referencing Aster custom oracle (24/5 equity feed). Users gain linear exposure to share-price moves without owning shares, shareholder rights, or dividend claims. Positions are margined and cash-settled in USD1 on BNB Chain / Aster Chain."
   },
+  "review": {
+    "suspicious": false,
+    "delisted": true
+  },
   "events": [
     {
       "kind": "delisting",

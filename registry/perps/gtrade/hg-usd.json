@@ -15,5 +15,9 @@
   },
   "about": {
     "description": "Industrial-metals perpetual on Gains Network tracking Copper (XCU), with pricing referencing Chainlink DON. Users gain linear exposure to copper prices without owning physical metal or futures positions. Positions are margined and cash-settled in USDC / DAI / WETH on Arbitrum / Polygon / Base."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

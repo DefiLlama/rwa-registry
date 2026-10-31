@@ -15,5 +15,9 @@
   },
   "about": {
     "description": "UVXY is a perpetual on ProShares Ultra VIX Short-Term Futures ETF listed on Aster, settled in USDT."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

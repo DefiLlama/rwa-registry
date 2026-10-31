@@ -31,14 +31,16 @@
     "chains": [
       "base"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Performance Fee + Storage",
       "revenueConfidence": "no-public-data",
       "feeLastVerified": "2026-05-11",
       "revenueNotes": "LiveArt earns a structuring fee on each artwork issuance, ongoing custody/insurance fees, and a performance fee on terminal sale. No protocol token."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

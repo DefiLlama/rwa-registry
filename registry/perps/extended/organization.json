@@ -31,14 +31,16 @@
     "platformType": [
       "perp-venue"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Maker/Taker Fees",
       "revenueConfidence": "issuer-disclosed",
       "feeLastVerified": "2026-05-11",
       "revenueNotes": "Extended (formerly X10, rebranded August 2025 with migration from StarkEx to Starknet) flat-fee model: 0.05% (5 bps) taker total fee. Maker rebates available for high-volume traders. Referral program offers 10% fee discount on first $50M of referee volume. Gas fees on Starknet are $0.01-0.10 per transaction. Source: https://insidecryptoreview.com/en/dex/extended"
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

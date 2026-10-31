@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Single-stock perpetual market tracking Strategy (formerly MicroStrategy Incorporated). Users get linear exposure to Strategy share-price moves without owning Strategy shares, shareholder rights, or dividend claims, with pricing referencing an external 24/5 equity feed via Lighter's fair price oracle. Positions are margined and cash-settled in USDC."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Robinhood Markets (HOOD) perpetual on Avantis (Base). Tracks the price of Robinhood stock, USDC-margined. Oracle-priced via Pyth Lazer."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

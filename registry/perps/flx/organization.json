@@ -31,14 +31,16 @@
     "platformType": [
       "perp-venue"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Maker/Taker Fees + Lending Spread",
       "revenueConfidence": "issuer-disclosed",
       "feeLastVerified": "2026-05-11",
       "revenueNotes": "Felix is a HIP-3 builder-deployer on Hyperliquid focused on lending and perpetual markets. Trading fees follow HIP-3 framework: standard taker ~7-9 bps, Growth Mode taker ~0.45-0.9 bps. 50% of fees go to Felix deployer, 50% to Hyperliquid protocol. Felix also earns lending spread from its money-market vault. Source: https://hyperliquid.gitbook.io/hyperliquid-docs/hyperliquid-improvement-proposals-hips/hip-3-builder-deployed-perpetuals"
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

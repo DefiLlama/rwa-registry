@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "HOOD is a single-stock perpetual on Variational tracking Robinhood Markets Inc. Robinhood Markets Inc. is a US retail brokerage and crypto exchange (Nasdaq: HOOD). The market is cash-settled with hourly funding, no shareholder rights, and no dividend rights in the underlying."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

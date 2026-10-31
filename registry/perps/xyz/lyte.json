@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "ETF perpetual market tracking Roundhill Photonics & Optics ETF. Users get synthetic exposure to a listed fund rather than ownership of ETF shares or redemption rights in the fund, cash-settled in USDC on trade[XYZ]."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

@@ -32,14 +32,16 @@
     "chains": [
       "bsc"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "revenueModel": "Mint/Redeem Spread",
       "revenueConfidence": "no-public-data",
       "feeLastVerified": "2026-05-11",
       "revenueNotes": "StableStock is a tokenization platform that issues sXXXx tokens 1:1 against US equities. Revenue from per-transaction mint/redeem fees and float on cash held in segregated custody at the issuer level. Permissionless transfer model with KYC required for mint/redeem."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

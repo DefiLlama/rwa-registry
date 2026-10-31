@@ -35,14 +35,16 @@
     "chains": [
       "ethereum"
     ],
-    "suspicious": false,
-    "delisted": false,
     "fees": {
       "floatIncome": true,
       "revenueConfidence": "issuer-disclosed",
       "feeLastVerified": "2026-07-09",
       "revenueNotes": "Mint and redeem fees sit in a schedule behind the platform login and are not public. Agora retains reserve yield at issuer level and shares economics with distribution partners, plus an opt in AUSD loyalty rewards program at a rate Agora may change. Grant Thornton performs monthly attestations since January 2026."
     }
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   },
   "roles": [
     {

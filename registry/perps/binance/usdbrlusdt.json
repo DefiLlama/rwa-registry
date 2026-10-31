@@ -16,6 +16,10 @@
   "about": {
     "description": "USDBRL is a perpetual on US Dollar / Brazilian Real listed on Binance, settled in USDT."
   },
+  "review": {
+    "suspicious": false,
+    "delisted": false
+  },
   "events": [
     {
       "kind": "listing",

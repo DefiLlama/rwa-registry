@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Single-stock perpetual on Avantis (Base) tracking SpaceX (Space Exploration Technologies Corp.), publicly listed on Nasdaq (SPCX) since June 2026, USDC-margined. References equity oracle. Distinct from Aster SpaceX, Lighter SpaceX, and Variational SPCX perps."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

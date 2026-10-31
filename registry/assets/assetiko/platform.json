@@ -31,7 +31,6 @@
     "chains": [
       "ripple"
     ],
-    "delisted": false,
     "fees": {
       "revenueModel": "Issuance, redemption, custody, delivery, network, compliance, FX and settlement fees per an unpublished Fee Schedule; issuer retains any excess reserve coverage",
       "floatIncome": false,
@@ -41,6 +40,10 @@
       "revenueNotes": "Fee Schedule referenced in Product Terms s.14 and Reserve Methodology s.19 but never published or linked. Reserves are metal-linked with cash/stablecoins capped near 10%, so float income is minimal by design; holders have no claim to excess reserves.",
       "revenueVerificationMethod": "XAUa Product Terms s.14, Reserve Methodology s.19, developers.assetiko.com asset registry; no published fee schedule found"
     }
+  },
+  "review": {
+    "suspicious": true,
+    "delisted": false
   },
   "roles": [
     {

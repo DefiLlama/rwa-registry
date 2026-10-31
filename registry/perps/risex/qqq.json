@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "ETF perpetual on RISEx tracking the Invesco QQQ Trust, Series 1, cash-settled and margined in USDC, up to 20x leverage. RISEx is a fully onchain orderbook perp DEX on RISE Chain, where the orderbook shares state with DeFi protocols in the same block. Index price from Stork (median CEX spot); mark price is the median of an index-anchored premium, the raw book signal and a Stork anchor. Trades 24/7 including nights, weekends and holidays when the underlying market is closed, so liquidity thins during off-hours."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

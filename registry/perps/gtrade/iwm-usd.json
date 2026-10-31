@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "iShares Russell 2000 ETF (IWM) perpetual on gTrade, USDC-margined. Verified live 2026-05-20."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }

@@ -13,5 +13,9 @@
   },
   "about": {
     "description": "Commodity perpetual market on Ondo Perps tracking Natural Gas, cash-settled, 24/7, up to 10x leverage, margined in USDC, hourly funding. Adapter snapshot 2026-08-25: mark $2.8077, open interest $12.06K, 24h volume $8.43K. Added 2026-08-25 in the second Ondo Perps expansion batch, taking the registry from 35 to 45 RWA markets; the adapter's 50 live rows include 5 crypto perps (BTC, ETH, SOL, HYPE, ONDO) that are out of scope."
+  },
+  "review": {
+    "suspicious": false,
+    "delisted": false
   }
 }
