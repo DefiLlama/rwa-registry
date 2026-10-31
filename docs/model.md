@@ -59,19 +59,24 @@ A list the app never shows, such as the address family, the review outcome and t
 
 | Event kind                 | Allowed targets                    | Effect                                                                      |
 | -------------------------- | ---------------------------------- | --------------------------------------------------------------------------- |
-| `listing`                  | asset, market, venue               | Counts toward status.                                                       |
+| `listing`                  | asset, market, venue, organization | Counts toward status; `relist` writes one on a delisted row.                |
 | `delisting`                | asset, market, venue, organization | Counts toward status.                                                       |
 | `retirement`               | asset, deployment, market          | Ends its target; needs a reason.                                            |
 | `migration`                | asset, deployment                  | Ends its target; `successor` may name the row that follows.                 |
 | `split`                    | market                             | Ends its target; `successor` may name the row that follows.                 |
 | `maturity`                 | asset                              | Ends its target.                                                            |
-| `review`                   | asset, market, organization        | Records a check of the data; a suspicious one needs a reason.               |
+| `review`                   | asset, market, venue, organization | Records a check of the data; a suspicious one needs a reason.               |
 | `paused`, `resumed`        | asset, market, venue, organization | No effect on status; `pause` unpublishes a venue and `resume` publishes it. |
 | `merge`                    | organization, underlying           | Written by `merge` on the row it keeps.                                     |
 | `roll`                     | market                             | A dated note, no effect on status.                                          |
 | `attestation`, `wind-down` | asset, organization                | A dated note, no effect on status.                                          |
 
 An ending event ends its target from its date. The server reads no asset that is delisted or ended, and no deployment that has ended. An event with no date counts as having happened. `validate` warns `undated-event` on one with neither a note nor a link that says why the date is unknown, and `missing-reason` on a retirement or a suspicious review with no reason.
+
+## Review flags
+
+An asset, a market, a venue and a platform or venue operator each hold `suspicious` and `delisted`, true or false, in their `review` block; no other organization holds them. The flag holds the state and the dated event holds its history, reason and source, and the two never disagree: `delisted` is true exactly when the latest listing or delisting event is a delisting, and `suspicious` exactly when the latest review event found the row suspicious. Every write sets both flags from the file's events, and `validate` fails a flag that disagrees. `validate` also fails a listing, delisting or review event dated after the day it checks at, today or a build's `--at`, so the flags and the status never disagree.
+A retirement ends a row without delisting it, so a retired row keeps the `delisted` value of its listing and delisting events, and its status is `retired`.
 
 ## Derived fields
 

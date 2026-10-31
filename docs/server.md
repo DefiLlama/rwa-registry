@@ -5,12 +5,13 @@ The DefiLlama server reads the registry and computes every number from it: suppl
 ## From a merge to the server
 
 Every push to main builds `registry.json` and publishes it on the release tagged `latest` (`operations.md`). Two builds of one registry are byte equal.
-At prebuild, the server's `cli/buildRequiresV2.js` downloads that file to `utils/imports/rwa_registry.json`. `RWA_REGISTRY_PATH`, when set, names a local `registry.json` the reader takes instead.
+The server downloads the release itself. Before each cron run it reads the asset digest of the `latest` release from the GitHub API, and it downloads `registry.json` to `defi/src/utils/imports/rwa_registry.json` only when the sha256 differs from the file it holds. The server reads no other path and no environment variable for the registry.
 
 ## What registry.json holds
 
 The file is one line of JSON with sorted keys and no timestamp: `{ "commit", "tables", "version" }`. `version` is 1, `commit` is the `--commit` value, and `tables` holds every table's rows by table name (`model.md`).
 Each row is flat (`model.md`), and a nested deployment, role, event or address label is a row of its own table. The build fills the derived fields `model.md` lists, so the server reads `primaryChain`, `issuerProtocolIds`, `kind`, `stablecoin`, `governance`, `status`, `chains` and a market's `id` as they are.
+Every asset, market, venue and platform or venue-operator row also carries `suspicious` and `delisted`, true or false, as its file holds them; `validate` keeps both equal to what the row's events say (`model.md`). The server reads each row's built `status` and these two flags.
 
 ## The reader
 
