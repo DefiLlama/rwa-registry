@@ -14,13 +14,13 @@
     "takerFeeBps": 7
   },
   "about": {
-    "description": "DELISTED 2026-05-26 (browser-verified). Helix TTI. Confirmed delisted. Browser shows \"No Items\" in search. Removed from Helix listings."
+    "description": "TRADFI is a perpetual on TRADFI Equity Index listed on Helix, settled in USDT."
   },
   "events": [
     {
       "kind": "delisting",
       "date": null,
-      "note": "last stored day not given at import"
+      "note": "DELISTED 2026-05-26 (browser-verified). Helix TTI. Confirmed delisted. Browser shows \"No Items\" in search. Removed from Helix listings. The last stored day was not given at import."
     }
   ]
 }

@@ -12,13 +12,13 @@
     "pair": "DXB-USD"
   },
   "about": {
-    "description": "DELISTED 2026-05-26 (browser-verified). Parcl AE-DXB (Dubai). Confirmed delisted. Direct URL https://app.parcl.co/markets/AE-DXB returns 404. International market removed from Parcl."
+    "description": "Dubai Housing Index perpetual on Parcl, cash-settled in USDC on Solana."
   },
   "events": [
     {
       "kind": "delisting",
       "date": null,
-      "note": "last stored day not given at import"
+      "note": "DELISTED 2026-05-26 (browser-verified). Parcl AE-DXB (Dubai). Confirmed delisted. Direct URL https://app.parcl.co/markets/AE-DXB returns 404. International market removed from Parcl. The last stored day was not given at import."
     }
   ]
 }

@@ -12,6 +12,6 @@
     "pair": "SLV-USD"
   },
   "about": {
-    "description": "ETF perpetual market tracking the iShares Silver Trust (SLV). Users get synthetic exposure to the SLV ETF's price rather than ownership of ETF shares or claims on the underlying silver, with pricing referencing the ETF's public market price via the Stork decentralized oracle. Positions are margined and cash-settled in USDT."
+    "description": "ETF perpetual market on edgeX tracking the iShares Silver Trust (SLV). Users get synthetic exposure to the SLV ETF's price rather than ownership of ETF shares or claims on the underlying silver, with pricing referencing the ETF's public market price via the Stork decentralized oracle. Positions are margined and cash-settled in USDT."
   }
 }

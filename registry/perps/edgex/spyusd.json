@@ -12,6 +12,6 @@
     "pair": "SPY-USD"
   },
   "about": {
-    "description": "ETF perpetual market tracking the SPDR S&P 500 ETF Trust (SPY). Users get synthetic exposure to the SPY ETF's price rather than ownership of ETF shares or redemption rights, with pricing referencing the ETF's public market price via the Stork decentralized oracle. Positions are margined and cash-settled in USDT."
+    "description": "ETF perpetual market on edgeX tracking State Street SPDR S&P 500 ETF Trust. Users get linear exposure to price moves in the reference asset without owning it, with no shareholder rights, dividends or voting attached. The contract is quoted and margined in USDT on edgeX v2, settles continuously through 4 hour funding capped at 0.4 percent per interval, and offers up to 10x leverage with maker and taker fees of 1.8 and 3.8 basis points. Pricing references the Stork decentralized oracle network. edgeX operates a self-custody StarkEx style architecture, so positions are held against user-controlled balances rather than an exchange omnibus account."
   }
 }

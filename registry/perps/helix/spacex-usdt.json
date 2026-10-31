@@ -12,13 +12,13 @@
     "pair": "SPACEX-USDT"
   },
   "about": {
-    "description": "DELISTED 2026-05-26 (browser-verified). Helix SPACEX. Confirmed delisted. Browser shows \"No Items\" in search and RWA tab. Stock perp removed from Helix as of 2026-05-26."
+    "description": "SPACEX is a perpetual on Space Exploration Technologies Corp. listed on Helix, settled in USDT."
   },
   "events": [
     {
       "kind": "delisting",
       "date": null,
-      "note": "last stored day not given at import"
+      "note": "DELISTED 2026-05-26 (browser-verified). Helix SPACEX. Confirmed delisted. Browser shows \"No Items\" in search and RWA tab. Stock perp removed from Helix as of 2026-05-26. The last stored day was not given at import."
     }
   ]
 }

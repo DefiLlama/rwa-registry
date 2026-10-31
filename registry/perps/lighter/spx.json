@@ -12,13 +12,13 @@
     "pair": "SPX-USDC"
   },
   "about": {
-    "description": "DELISTED and mislabeled. The canonical ID \"lighter:SPX\" on Lighter actually maps to SPX6900, a crypto memecoin trading at approximately $0.36 on Lighter perps, not the S&P 500 Index. The real Lighter S&P 500 perp is at canonical lighter:US500. This entry was erroneously categorized as an S&P 500 Perp and was removed from active tracking on 2026-05-26 after adapter QA."
+    "description": "SPX is a perpetual on SPX6900 listed on Lighter, settled in USDC."
   },
   "events": [
     {
       "kind": "delisting",
       "date": null,
-      "note": "last stored day not given at import"
+      "note": "DELISTED and mislabeled. The canonical ID \"lighter:SPX\" on Lighter actually maps to SPX6900, a crypto memecoin trading at approximately $0.36 on Lighter perps, not the S&P 500 Index. The real Lighter S&P 500 perp is at canonical lighter:US500. This entry was erroneously categorized as an S&P 500 Perp and was removed from active tracking on 2026-05-26 after adapter QA. The last stored day was not given at import."
     },
     {
       "kind": "review",

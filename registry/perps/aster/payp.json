@@ -14,6 +14,6 @@
     "takerFeeBps": null
   },
   "about": {
-    "description": "Aster perpetual market tracking UNVERIFIED. See notes (Ticker PAYP at ~$19.53. NOT consistent with PayPal (PYPL ~$70). Asset identity needs confirmation. Listed on Aster Stocks tab but underlying public equity has not been verified. Possible candidates: Paymentus Holdings, smaller fintech, or pre-IPO entity. Pending identification.). Verified live on platform UI 2026-05-26 via browser."
+    "description": "Single-stock perpetual market on Aster tracking PayPay Corporation. Users get linear exposure to share-price moves without owning shares, shareholder rights, or dividend claims, with pricing referencing an external 24/5 equity feed. Positions are margined and cash-settled in USDT on Aster."
   }
 }

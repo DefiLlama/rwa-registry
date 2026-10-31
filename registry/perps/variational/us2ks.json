@@ -12,6 +12,6 @@
     "pair": "US2KS-USDC"
   },
   "about": {
-    "description": "Cash-settled swap on Russell 2000 Index, quoted against USDC. No funding; cost of carry is in the spread."
+    "description": "Cash-settled swap on Variational Omni tracking Russell 2000 Index, quoted against USDC. No funding; cost of carry is in the spread."
   }
 }
