@@ -33,6 +33,28 @@ describe('discover command', () => {
     expect(missing).toEqual({ code: 1, lines: ['discover needs address <chain:address> or dates'] });
   });
 
+  it('prints a found address with its date, block, basis and source, and no reason or detail line', async () => {
+    const { code, lines } = await run(['address', 'ethereum:0x8ad3c73f833d3f9a523ab01476625f269aeb7cf0']);
+
+    expect(code).toBe(0);
+    expect(lines).toContain('  deployedAt: 2025-06-30');
+    expect(lines).toContain('  basis: first-code');
+    expect(lines.some((line) => line.startsWith('  block: '))).toBe(true);
+    expect(lines.some((line) => line.startsWith('  source: '))).toBe(true);
+    expect(lines.filter((line) => /^ {2}(reason|detail):/.test(line))).toEqual([]);
+  });
+
+  it('prints a missed address with its reason and its detail', async () => {
+    const timedOut = new TimeoutError({ source: 'rpc', reason: 'timeout', message: 'ethereum head: no answer' });
+    const rpc = chain({ evmHead: vi.fn(async () => Promise.reject(timedOut)) });
+    const { code, lines } = await run(['address', 'ethereum:0x8ad3c73f833d3f9a523ab01476625f269aeb7cf0'], {}, rpc);
+
+    expect(code).toBe(0);
+    expect(lines).toContain('  deployedAt: null');
+    expect(lines).toContain('  reason: code-search-timeout');
+    expect(lines).toContain('  detail: rpc: ethereum head: no answer');
+  });
+
   it('refuses a --limit that is not a count', async () => {
     const uncounted = await run(['dates'], { platform: 'xstocks', limit: 'ten' });
 

@@ -22,9 +22,11 @@ const FACTS: (keyof AddressFacts)[] = [
   'block',
   'basis',
   'source',
-  'reason',
-  'detail',
 ];
+
+// A found date has no reason or detail, so both print only on a miss, the detail only when one was kept.
+const missLines = ({ reason, detail }: AddressFacts) =>
+  reason === null ? [] : [`  reason: ${reason}`, ...(detail === null ? [] : [`  detail: ${detail}`])];
 
 const address: Action = async ({ args, json }, deps, print) => {
   const spec = args[1];
@@ -35,9 +37,11 @@ const address: Action = async ({ args, json }, deps, print) => {
   const facts = await discoverAddress(spec, deps);
   if (json) print(JSON.stringify(facts, null, 2));
   else
-    [`${facts.chain}:${facts.address}`, ...FACTS.map((field) => `  ${field}: ${facts[field] ?? 'null'}`)].forEach(
-      print,
-    );
+    [
+      `${facts.chain}:${facts.address}`,
+      ...FACTS.map((field) => `  ${field}: ${facts[field] ?? 'null'}`),
+      ...missLines(facts),
+    ].forEach(print);
   return 0;
 };
 
