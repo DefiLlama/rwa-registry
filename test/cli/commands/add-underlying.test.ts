@@ -38,7 +38,7 @@ describe('add underlying, asked', () => {
     const { code } = await runCli(['add', 'underlying', '--registry', root], prompter.ask);
 
     expect(code).toBe(0);
-    expect(prompter.keys()).toEqual(['name', 'exposure', 'ticker', 'logo', 'identifiers', 'excludedReason', 'confirm']);
+    expect(prompter.keys()).toEqual(['name', 'exposure', 'ticker', 'logo', 'identifiers', 'confirm']);
     expect(prompter.asked.at(-1)!.message).toContain(
       'file: reference/underlyings/equity/nvidia-corporation.json (assigned)',
     );

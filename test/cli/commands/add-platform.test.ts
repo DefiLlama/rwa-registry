@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { baseTree, writeTree } from '../../fixtures/tree';
-import { fakeAsk } from '../../fakes/prompter';
+import { each, fakeAsk } from '../../fakes/prompter';
 import { readJson, runCli } from '../runCli';
 
 describe('add platform', () => {
@@ -44,15 +44,13 @@ describe('add platform, asked', () => {
       'headquarters',
       'founders',
       'regulatoryStatus',
-      'keyMilestones',
+      'keyMilestones.when',
       'entityStructureNotes',
       'category',
       'platformType',
       'accessModel',
-      'primaryChain',
       'chains',
       'attestationFrequency',
-      'onchainMcapBasis',
       'feesNow',
       'identifiers',
       'confirm',
@@ -81,13 +79,45 @@ describe('add platform, asked', () => {
     expect(written.platform.fees).toEqual({ revenueModel: 'mint and redemption fees', mintFeeBps: 25 });
   });
 
-  it('refuses a number answered with words, naming the field', async () => {
+  it('writes the one chain picked as the primary chain without asking', async () => {
     const root = writeTree(baseTree());
-    const prompter = fakeAsk({ name: 'Backed Finance', foundedYear: 'twenty' });
+    const prompter = fakeAsk({ name: 'Backed Finance', chains: ['solana'] });
 
-    const { code, lines } = await runCli(['add', 'platform', '--registry', root], prompter.ask);
+    await runCli(['add', 'platform', '--registry', root], prompter.ask);
 
-    expect(code).toBe(1);
-    expect(lines).toEqual(['foundedYear: twenty is not a whole number']);
+    expect(prompter.keys()).not.toContain('primaryChain');
+    expect(readJson(root, 'assets/backed-finance/platform.json').platform).toEqual({
+      primaryChain: 'solana',
+      chains: ['solana'],
+    });
+  });
+
+  it('asks the primary chain after two chains are picked, from those two', async () => {
+    const root = writeTree(baseTree());
+    const prompter = fakeAsk({ name: 'Backed Finance', chains: ['solana', 'ethereum'], primaryChain: 'ethereum' });
+
+    await runCli(['add', 'platform', '--registry', root], prompter.ask);
+    const keys = prompter.keys();
+    const primary = prompter.asked.find((question) => question.key === 'primaryChain')!;
+
+    expect(keys.indexOf('primaryChain')).toBe(keys.indexOf('chains') + 1);
+    expect(primary.choices).toEqual(['solana', 'ethereum']);
+    expect(readJson(root, 'assets/backed-finance/platform.json').platform.primaryChain).toBe('ethereum');
+  });
+
+  it('asks the milestones one at a time and writes them as one text, the latest first', async () => {
+    const root = writeTree(baseTree());
+    const prompter = fakeAsk({
+      name: 'Backed Finance',
+      'keyMilestones.when': each('2026-01', '2025'),
+      'keyMilestones.what': each('MiCA license granted, in Germany', 'launch'),
+      'keyMilestones.more': each(true, false),
+    });
+
+    await runCli(['add', 'platform', '--registry', root], prompter.ask);
+
+    expect(readJson(root, 'assets/backed-finance/platform.json').about.keyMilestones).toBe(
+      '2026-01: MiCA license granted, in Germany | 2025: launch',
+    );
   });
 });

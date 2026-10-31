@@ -3,15 +3,7 @@
  * @dev review: src/cli/writeCommand.ts, src/cli/templates.ts, then src/cli/commands/add-asset.ts
  */
 import { FlagFormatError } from '../errors/cli';
-import {
-  inSchemaOrder,
-  tables,
-  toFile,
-  type ChildKey,
-  type Registry,
-  type TableName,
-  type VocabularyName,
-} from '../schema';
+import { tables, toFile, type ChildKey, type Registry, type TableName } from '../schema';
 import { isObject } from '../utils/isObject';
 import type { CliCommand } from './index';
 import { isEmpty, type Assigned } from './questionnaire';
@@ -46,18 +38,6 @@ export interface AddSpec {
   fromFlags: (values: FlagValues) => Template;
   files: (template: Template, registry: Registry, context: AddContext) => FileToWrite[] | Promise<FileToWrite[]>;
 }
-
-// The values of one vocabulary, shown by their label and answered by their slug.
-export const vocabularyChoices = (name: VocabularyName) => (registry: Registry) =>
-  registry.vocabulary
-    .filter((row) => row.vocabulary === name)
-    .map((row) => ({ value: row.slug, name: row.label ?? row.slug }));
-
-// The organizations a role may name, shown by name in the prompt.
-export const organizationChoices = (registry: Registry) =>
-  registry.organization
-    .map((row) => ({ value: row.slug, name: row.name }))
-    .sort((a, b) => a.name.localeCompare(b.name));
 
 const present = (value: unknown): unknown => {
   if (Array.isArray(value)) return value.length ? value : undefined;
@@ -125,7 +105,8 @@ export const defineAddCommand = (spec: AddSpec): CliCommand => {
   const { table, omits } = TEMPLATES[spec.template] as { table: TableName; omits?: string[] };
   const fields = schemaFields({ table, fields: spec.fields, derived: spec.derived, omits });
   // The flags' row with the answers to the questions with no flag laid in.
-  const rowOf = (values: FlagValues) => merged(spec.fromFlags(values), answersRow(fields, values));
+  const rowOf = (values: FlagValues, registry: Registry) =>
+    merged(spec.fromFlags(values), answersRow(fields, values, registry));
   return {
     ...defineWriteCommand({
       name: spec.name,
@@ -146,8 +127,8 @@ export const defineAddCommand = (spec: AddSpec): CliCommand => {
         const addContext = { ...context, flags: values };
         const template =
           values.from === undefined
-            ? rowOf(values)
-            : readTemplate(String(values.from), TEMPLATES[spec.template], rowOf(values));
+            ? rowOf(values, registry)
+            : readTemplate(String(values.from), TEMPLATES[spec.template], rowOf(values, registry));
         return spec.files(template, registry, addContext);
       },
     }),

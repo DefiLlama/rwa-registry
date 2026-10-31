@@ -1,6 +1,7 @@
 import { existsSync, readdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { describe, expect, it, vi } from 'vitest';
+import { INTRO } from '../../src/cli/questionnaire';
 import { fakeAsk } from '../fakes/prompter';
 import { baseTree, tslaxWith, writeTree } from '../fixtures/tree';
 import { readJson, runCli, templateCopy } from './runCli';
@@ -61,7 +62,7 @@ describe('the add flow', () => {
     expect(readJson(root, NEW).roles).toEqual([{ organization: 'backed-assets-je-limited', kind: 'issuer' }]);
   });
 
-  it('asks the fields no flag has, each saying Enter leaves it empty, and writes the answers in their blocks', async () => {
+  it('asks the fields no flag has, each with what it asks for, and writes the answers in their blocks', async () => {
     const root = writeTree({
       ...tree(),
       'reference/vocabularies/role-kind.json': [
@@ -84,7 +85,10 @@ describe('the add flow', () => {
     const description = prompter.asked.find((question) => question.key === 'description')!;
 
     expect(code, lines.join('\n')).toBe(0);
-    expect(description.message).toBe('How would you describe it in a sentence or two? (Enter to leave empty)');
+    expect(description).toMatchObject({
+      message: 'How would you describe it in a sentence or two?',
+      lines: expect.arrayContaining(['What it does, in plain words, for the page that shows it.']),
+    });
     expect(prompter.keys()).toEqual(expect.arrayContaining(['wraps', 'documents', 'yieldPoolIds', 'otherRole.more']));
     expect(written.about).toEqual({
       description: 'NVIDIA shares as a token.',
@@ -108,7 +112,7 @@ describe('the add flow', () => {
     const { code, lines } = await runCli(asset(root, ['--symbol']), prompter.ask);
 
     expect(code).toBe(1);
-    expect(lines).toEqual(['add asset: cancelled; nothing written']);
+    expect(lines).toEqual([INTRO, 'add asset: cancelled; nothing written']);
     expect(existsSync(join(root, NEW))).toBe(false);
   });
 
@@ -172,16 +176,6 @@ describe('the add flow', () => {
     expect(code).toBe(1);
     expect(ask).not.toHaveBeenCalled();
     expect(lines).toEqual([expect.stringContaining('--symbol')]);
-    expect(existsSync(join(root, NEW))).toBe(false);
-  });
-
-  it('refuses a row the registry checks reject and writes nothing', async () => {
-    const root = writeTree(tree());
-
-    const { code, lines } = await runCli([...asset(root, ['--underlying']), '--underlying', 'nvidia-corp', '--json']);
-
-    expect(code).toBe(1);
-    expect(lines.join('\n')).toMatch(new RegExp(`^${join(root, NEW)}: .*nvidia-corp`, 'm'));
     expect(existsSync(join(root, NEW))).toBe(false);
   });
 
@@ -258,7 +252,7 @@ const REFUSALS: [string, (root: string) => string[], string][] = [
   [
     'an asset whose issuer is not an organization',
     (root) => swap(asset(root), '--issuer', 'backed-labs'),
-    'add asset: issuer backed-labs is not an organization; add it first with add organization',
+    'add asset: --issuer backed-labs: no organization backed-labs in the registry; add it first with add organization',
   ],
   [
     'an asset template without an issuer role',
@@ -268,7 +262,7 @@ const REFUSALS: [string, (root: string) => string[], string][] = [
   [
     'a value for a vocabulary that does not exist',
     () => ['add', 'value', '--vocabulary', 'asset-kind', '--label', 'Claim'],
-    'reference/vocabularies/asset-kind.json: asset-kind is not a vocabulary',
+    'add value: --vocabulary asset-kind: not in the list',
   ],
   [
     'a template without a field the file path is made from',

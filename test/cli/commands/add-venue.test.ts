@@ -137,7 +137,6 @@ describe('add venue, asked', () => {
       'published',
       'makerFeeBps',
       'takerFeeBps',
-      'deployerFeeShare',
       'fundingRetentionPct',
       'conventionNote',
       'confirm',
