@@ -1,12 +1,14 @@
 # rwa-registry
 
-DefiLlama's RWA registry: every asset, organization, underlying, venue and perps market as one JSON file, with the schemas and checks that keep the files valid and the `defillama-rwa` CLI that edits, checks and builds them. No code here runs in production: the server reads the built `registry.json` and computes every number itself (`docs/server.md`).
+DefiLlama's RWA registry: every asset, organization, underlying, venue and perps market as a JSON file.
 
-## Dev setup
+The `defillama-rwa` CLI adds, checks and builds them into `registry.json`, which the DefiLlama server reads.
 
-Use Node 22 (`.nvmrc`) and pnpm 10.33.2 (`packageManager` in `package.json`).
+## Setup
 
-```
+Node 22 (`.nvmrc`) and pnpm 10.
+
+```sh
 pnpm install
 pnpm rwa validate
 pnpm typecheck
@@ -14,27 +16,22 @@ pnpm test
 pnpm format:check
 ```
 
-CI runs the same four checks on every pull request. `pnpm format` fixes formatting, and `pnpm compile` builds the CLI into `dist/` as `defillama-rwa`.
+## Layout
 
-## Contents
-
-| Folder                 | Holds                                                                                                                                   |
-| ---------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| `registry/`            | The data, one JSON file per row: `reference/` (organizations, underlyings, vocabularies) and `assets/<platform>/` and `perps/<venue>/`. |
-| `acks/`                | One file per guard exception, `acks/<kind>/<slug>.json` (`docs/acks.md`).                                                               |
-| `src/`                 | The code, one folder per part: `schema`, `registry`, `cli`, `build`, `discover` and the `clients` it reads through.                     |
-| `config/discover.json` | The sources `discover` asks, the venue listing APIs and the pacing (`docs/operations.md`).                                              |
-| `schema/json/`         | The JSON Schema of each table for editors, written by `pnpm schema`.                                                                    |
-| `templates/`           | One JSON file per row an `add` command writes, to fill and pass with `--from` (`templates/README.md`).                                  |
-| `test/`                | The tests, with their fixtures and fakes.                                                                                               |
-| `docs/`                | The pages listed at the end of this file.                                                                                               |
-| `.github/workflows/`   | `pr.yml` checks every pull request, `release.yml` publishes every push to main.                                                         |
+- `registry/`: the data, one file per row ([docs/registry.md](docs/registry.md)).
+- `acks/`: guard exceptions, one file each ([docs/acks.md](docs/acks.md)).
+- `templates/`: one file per `add` command, for `--from` ([templates/README.md](templates/README.md)).
+- `src/`: `schema`, `registry` (loading and checks), `cli`, `build`, `discover`.
+- `schema/json/`: the JSON Schema of each table, for editors.
+- `config/discover.json`: the sources `discover` reads.
 
 ## Commands
 
-Run a command with `pnpm rwa <command>`; `--help` lists its flags, and `ack --help` the flags of each ack kind.
-Every command that writes, except `discover dates`, first checks its result on a copy of the registry: on an error it prints `file: message`, writes nothing and exits 1. An `add` command never overwrites a file that exists, and `discover` never asks for input.
-The table is `pnpm docs:commands` reading every command's `--help`, and a test fails until it is rerun after a flag changes. `docs/operations.md` says what each operation needs first.
+Run `pnpm rwa <command>`; `--help` lists its flags.
+
+- In a terminal, a command asks for what you did not pass.
+- A command that writes checks the result first and writes nothing on an error.
+- `pnpm docs:commands` regenerates this table from `--help`.
 
 <!-- commands:start, written by pnpm docs:commands from --help -->
 
@@ -62,24 +59,22 @@ The table is `pnpm docs:commands` reading every command's `--help`, and a test f
 
 <!-- commands:end -->
 
-## Example: add one asset
+## Example: add an asset
 
-Ask the chain about the address, fill a copy of the asset template, add it, then check and build.
+> The asset's platform, underlying and issuer must exist first. Add any that are missing with `add platform`, `add underlying` and `add organization`.
 
-```
-pnpm rwa discover address solana:RNFBzRdzmKcJRwoqd1rGjv2VAAoMBHimge48se3UxKvp
+```sh
+pnpm rwa discover address solana:<mint>
 cp templates/asset.json ionqx.json
 pnpm rwa add asset --from ionqx.json
 pnpm rwa validate
-pnpm rwa build --commit local
 ```
 
-The asset lands in `registry/assets/xstocks/ionqx.json` with the next legacy id. Open a pull request.
+Then open a pull request. Merging it publishes the new `registry.json`.
 
 ## Docs
 
-- [docs/model.md](docs/model.md): the tables, their keys, the taxonomy, the vocabularies, the events and the derived fields.
-- [docs/registry.md](docs/registry.md): the file layout, the naming rules, the blocks of a file and the checks.
-- [docs/server.md](docs/server.md): what `registry.json` holds, how the server reads it, and how to add a venue.
-- [docs/acks.md](docs/acks.md): the guard exceptions, one folder per kind, the fields of each kind and the `ack` command.
-- [docs/operations.md](docs/operations.md): every operation with what it needs first, what it writes and refuses and how to check it, the release, and the keys `discover` reads from the shell or the repository's `.env`.
+- [Model](docs/model.md): tables, keys, taxonomy, events, derived fields.
+- [Registry](docs/registry.md): file layout, naming, blocks, checks.
+- [Operations](docs/operations.md): how to do each task.
+- [Acks](docs/acks.md): guard exceptions.
