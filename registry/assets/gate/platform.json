@@ -9,7 +9,7 @@
     "logo": "https://icons.llamao.fi/icons/rwa/gate.png?w=48&h=48",
     "links": {
       "website": [
-        "https://www.gate.com/gusd"
+        "https://www.gate.com"
       ],
       "twitter": "https://x.com/gate_io",
       "docs": "https://www.gate.com/docs/developers/apiv4/",
@@ -33,7 +33,9 @@
     "primaryChain": "ethereum",
     "chains": [
       "ethereum"
-    ],
+    ]
+  },
+  "review": {
     "suspicious": false,
     "delisted": false
   },
