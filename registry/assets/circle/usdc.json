@@ -451,7 +451,9 @@
     },
     {
       "chain": "besc",
-      "address": "0xb54ad626e127f0f228dbeab6f2a61e8e6e029a4b"
+      "address": "0xb54ad626e127f0f228dbeab6f2a61e8e6e029a4b",
+      "deployedAt": "2025-08-27",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "bittensor_evm",
@@ -461,7 +463,9 @@
     },
     {
       "chain": "bittorrent",
-      "address": "0x935faa2fcec6ab81265b301a30467bbc804b43d3"
+      "address": "0x935faa2fcec6ab81265b301a30467bbc804b43d3",
+      "deployedAt": "2021-12-23",
+      "deployedAtBasis": "contract-creation"
     },
     {
       "chain": "camp",

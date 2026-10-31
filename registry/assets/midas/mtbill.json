@@ -104,7 +104,9 @@
     },
     {
       "chain": "etlk",
-      "address": "0xdd629e5241cbc5919847783e6c96b2de4754e438"
+      "address": "0xdd629e5241cbc5919847783e6c96b2de4754e438",
+      "deployedAt": "2025-02-13",
+      "deployedAtBasis": "first-code"
     }
   ],
   "roles": [

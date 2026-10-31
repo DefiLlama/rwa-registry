@@ -241,7 +241,9 @@
     },
     {
       "chain": "era",
-      "address": "0xb4c1544cb4163f4c2eca1ae9ce999f63892d912a"
+      "address": "0xb4c1544cb4163f4c2eca1ae9ce999f63892d912a",
+      "deployedAt": "2023-04-22",
+      "deployedAtBasis": "first-code"
     }
   ],
   "roles": [

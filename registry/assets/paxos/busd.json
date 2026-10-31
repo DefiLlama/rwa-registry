@@ -323,7 +323,9 @@
     },
     {
       "chain": "tron",
-      "address": "TMz2SWatiAtZVVcH2ebpsbVtYwUPT9EdjH"
+      "address": "TMz2SWatiAtZVVcH2ebpsbVtYwUPT9EdjH",
+      "deployedAt": "2022-10-26",
+      "deployedAtBasis": "contract-created"
     },
     {
       "chain": "axelar",

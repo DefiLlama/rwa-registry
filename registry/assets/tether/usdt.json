@@ -224,7 +224,9 @@
     },
     {
       "chain": "lisk",
-      "address": "0x05d032ac25d322df992303dca074ee7392c117b9"
+      "address": "0x05d032ac25d322df992303dca074ee7392c117b9",
+      "deployedAt": "2024-06-10",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "lyra",
@@ -434,7 +436,9 @@
     },
     {
       "chain": "eclipse",
-      "address": "CEBP3CqAbW4zdZA57H2wfaSG1QNdzQ72GiQEbQXyW9Tm"
+      "address": "CEBP3CqAbW4zdZA57H2wfaSG1QNdzQ72GiQEbQXyW9Tm",
+      "deployedAt": "2026-10-27",
+      "deployedAtBasis": "first-signature"
     },
     {
       "chain": "eon",
@@ -494,7 +498,9 @@
     },
     {
       "chain": "hsk",
-      "address": "0xf1b50ed67a9e2cc94ad3c477779e2d4cbfff9029"
+      "address": "0xf1b50ed67a9e2cc94ad3c477779e2d4cbfff9029",
+      "deployedAt": "2024-12-23",
+      "deployedAtBasis": "first-code"
     },
     {
       "chain": "hydradx",
