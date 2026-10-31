@@ -7,6 +7,9 @@ import { FlagFormatError, LegacyIdError, NoSuchRowError } from '../../errors/cli
 import { fileOf, moveReferences } from '../../registry';
 import { homeFile, homeOf } from '../../registry/layout';
 import { blockNames, TABLE_NAMES, toFile, toRow, type Registry, type TableName } from '../../schema';
+import { day } from '../answers/days';
+import { link } from '../answers/links';
+import { oneOf } from '../answers/picks';
 import type { FileToWrite } from '../writeCommand';
 import { defineWriteCommand, today } from '../writeCommand';
 
@@ -52,7 +55,7 @@ export const merge = defineWriteCommand({
       label: 'table',
       question: 'Do you merge two organizations or two underlyings?',
       required: true,
-      choices: () => [...MERGEABLE],
+      answer: oneOf(MERGEABLE),
     },
     {
       flag: '<keep>',
@@ -60,7 +63,7 @@ export const merge = defineWriteCommand({
       label: 'kept',
       question: 'Which one stays?',
       required: true,
-      choices: (registry, values) => slugsOf(registry, values.table),
+      answer: oneOf(({ registry, values }) => slugsOf(registry, values.table)),
     },
     {
       flag: '<drop>',
@@ -68,7 +71,7 @@ export const merge = defineWriteCommand({
       label: 'dropped',
       question: 'Which one is folded into it and removed?',
       required: true,
-      choices: (registry, values) => slugsOf(registry, values.table).filter((slug) => slug !== values.keep),
+      answer: oneOf(({ registry, values }) => slugsOf(registry, values.table).filter((slug) => slug !== values.keep)),
     },
     {
       flag: '--reason <text>',
@@ -85,14 +88,14 @@ export const merge = defineWriteCommand({
       question: 'Which page shows they are one?',
       example: 'https://find-and-update.company-information.service.gov.uk/company/1',
       required: true,
+      answer: link,
     },
     {
       flag: '--at <date>',
       description: 'the day of the merge, today by default',
       label: 'day',
       question: 'On which day was the merge?',
-      hint: 'Enter for today',
-      date: true,
+      answer: day,
       fallback: () => today(),
     },
     {

@@ -7,8 +7,13 @@ import { homeFile, rowSlug } from '../../registry';
 import { toFile, type Registry } from '../../schema';
 import { ACK_KIND_FIELDS, isRequiredAckField, type AckField } from '../../schema/ack';
 import { ACK_KINDS, type AckKind } from '../../schema/enums';
+import { many, readAnswer } from '../answers/answerType';
+import { day } from '../answers/days';
+import { amount, usdRange } from '../answers/numbers';
+import { oneOf } from '../answers/picks';
 import type { CliCommand } from '../index';
-import { targetRow, targetSlugs } from '../targetRow';
+import { answerOf } from '../questionnaire';
+import { targetRow, targetSlug } from '../targetRow';
 import {
   ASKS,
   defineWriteCommand,
@@ -19,41 +24,21 @@ import {
   type FlagValues,
 } from '../writeCommand';
 
-const usd = (flag: string, text: string): number => {
-  const value = Number(text);
-  if (text.trim() === '' || !Number.isFinite(value) || value < 0) {
-    throw new FlagFormatError({ file: flag, message: `${text} is not a USD amount` });
-  }
-  return value;
-};
-
-const range = (flag: string, text: string): number[] => {
-  const parts = text.split(':');
-  if (parts.length !== 2)
-    throw new FlagFormatError({ file: flag, message: `${text} is not a range; give <low>:<high>` });
-  return parts.map((part) => usd(flag, part));
-};
-
-interface FlagSpec extends Field {
-  read?: (flag: string, text: string) => unknown;
-}
-
 // The flag that fills each field a kind may hold beside its target, in the order they are asked: the band, the days, the life.
-const FLAGS: Partial<Record<AckField, FlagSpec>> = {
+const FLAGS: Partial<Record<AckField, Field>> = {
   metrics: {
     flag: '--metrics <list>',
     description: 'onChainMcap, activeMcap or both',
     label: 'metrics',
     question: 'Which metrics does it cover?',
-    list: true,
-    choices: () => ['onChainMcap', 'activeMcap'],
+    answer: many(oneOf(['onChainMcap', 'activeMcap'])),
   },
   direction: {
     flag: '--direction <direction>',
     description: 'up or down',
     label: 'direction',
     question: 'Which way does the value move?',
-    choices: () => ['up', 'down'],
+    answer: oneOf(['up', 'down']),
   },
   maxCurrentUsd: {
     flag: '--max-current <usd>',
@@ -61,7 +46,7 @@ const FLAGS: Partial<Record<AckField, FlagSpec>> = {
     label: 'most blocked value',
     question: 'What is the most the blocked value may be, in USD?',
     example: '1000',
-    read: usd,
+    answer: amount,
   },
   minPreviousUsd: {
     flag: '--min-previous <usd>',
@@ -69,7 +54,7 @@ const FLAGS: Partial<Record<AckField, FlagSpec>> = {
     label: 'least last good value',
     question: 'What is the least the last good value may be, in USD?',
     example: '100000',
-    read: usd,
+    answer: amount,
   },
   currentUsd: {
     flag: '--current <low:high>',
@@ -77,7 +62,7 @@ const FLAGS: Partial<Record<AckField, FlagSpec>> = {
     label: 'verified range',
     question: 'Which range of verified values does the release let through, in USD?',
     example: '1000000:2000000',
-    read: range,
+    answer: usdRange,
   },
   previousUsd: {
     flag: '--previous <low:high>',
@@ -85,7 +70,7 @@ const FLAGS: Partial<Record<AckField, FlagSpec>> = {
     label: 'frozen range',
     question: 'Which range of frozen values is the release aimed at, in USD?',
     example: '0:1000',
-    read: range,
+    answer: usdRange,
   },
   maxValueUsd: {
     flag: '--max-value <usd>',
@@ -93,7 +78,7 @@ const FLAGS: Partial<Record<AckField, FlagSpec>> = {
     label: 'most single-point value',
     question: 'What is the most a single-point value may be, in USD?',
     example: '5000',
-    read: usd,
+    answer: amount,
   },
   day: {
     flag: '--day <date>',
@@ -101,7 +86,7 @@ const FLAGS: Partial<Record<AckField, FlagSpec>> = {
     label: 'series day',
     question: 'Which series day does it cover?',
     example: '2026-09-07',
-    date: true,
+    answer: day,
   },
   firstDay: {
     flag: '--first-day <date>',
@@ -109,7 +94,7 @@ const FLAGS: Partial<Record<AckField, FlagSpec>> = {
     label: 'first series day',
     question: 'Which is the first series day it covers?',
     example: '2026-10-01',
-    date: true,
+    answer: day,
   },
   lastDay: {
     flag: '--last-day <date>',
@@ -117,22 +102,22 @@ const FLAGS: Partial<Record<AckField, FlagSpec>> = {
     label: 'last series day',
     question: 'Which is the last series day it covers?',
     example: '2026-10-02',
-    date: true,
+    answer: day,
   },
   from: {
     flag: '--from <date>',
     description: 'the first day the ack holds, YYYY-MM-DD, today by default',
     label: 'holds from',
     question: 'From which day does the ack hold?',
-    date: true,
+    answer: day,
   },
   until: {
     flag: '--until <date>',
     description: 'the last day it holds; left out, it holds until the resolve step is done',
     label: 'holds until',
     question: 'Until which day does the ack hold?',
-    hint: 'Enter to keep it until the resolve step is done',
-    date: true,
+    whenEmpty: 'Leave it empty to keep it until the resolve step is done.',
+    answer: day,
   },
 };
 
@@ -156,7 +141,7 @@ const fieldsOf = (values: FlagValues): AckField[] => {
 };
 
 // A kind's own field is asked, required unless it has a default, and offers that default.
-const asked = (field: AckField, spec: FlagSpec): FlagSpec => ({
+const asked = (field: AckField, spec: Field): Field => ({
   ...spec,
   asked: (values) => fieldsOf(values).includes(field),
   required: (values) =>
@@ -171,11 +156,13 @@ const asked = (field: AckField, spec: FlagSpec): FlagSpec => ({
   },
 });
 
-// What a target typed as text looks like; an asset or a venue is picked from the list.
-const HINTS: Partial<Record<AckField, string>> = {
-  series: 'example: chain/ethereum, or * for every series',
-  contract: 'example: xyz:tsla',
+// What a series or a contract typed as the target looks like; an asset or a venue is picked from the list.
+const EXAMPLES: Partial<Record<AckField, string>> = {
+  series: 'chain/ethereum, or * for every series',
+  contract: 'xyz:tsla',
 };
+
+const targetOf = (values: Record<string, unknown>) => fieldsOf(values as FlagValues)[0];
 
 const TARGETS: Partial<Record<AckField, (registry: Registry, given: string) => string>> = {
   asset: (registry, given) => targetRow(registry, 'asset', given).key,
@@ -206,7 +193,7 @@ const command = defineWriteCommand({
       label: 'kind',
       question: 'Which kind of guard exception is it?',
       required: true,
-      choices: () => [...ACK_KINDS],
+      answer: oneOf(ACK_KINDS),
     },
     {
       flag: '<target>',
@@ -214,14 +201,11 @@ const command = defineWriteCommand({
       label: 'covers',
       question: 'What does the ack cover?',
       required: true,
-      choices: (registry, values) => {
-        const [target] = fieldsOf(values);
-        return target === 'asset' || target === 'venue' ? targetSlugs(registry, target) : [];
-      },
-      derive: (values) => {
-        const [target] = fieldsOf(values);
-        return target && HINTS[target] ? { why: HINTS[target] } : undefined;
-      },
+      answer: targetSlug((values) => {
+        const target = targetOf(values);
+        return target === 'asset' || target === 'venue' ? target : undefined;
+      }),
+      example: (values) => EXAMPLES[targetOf(values)!],
     },
     {
       flag: '--reason <text>',
@@ -239,7 +223,7 @@ const command = defineWriteCommand({
       example: 'remove this ack once the history is backfilled',
       required: true,
     },
-    ...(Object.entries(FLAGS) as [AckField, FlagSpec][]).map(([field, spec]) => asked(field, spec)),
+    ...(Object.entries(FLAGS) as [AckField, Field][]).map(([field, spec]) => asked(field, spec)),
   ],
   files: (values, registry, { args }) => {
     const [kind, given] = args as [AckKind, string];
@@ -257,8 +241,8 @@ const command = defineWriteCommand({
     const row: Record<string, unknown> = { kind, [target]: TARGETS[target]!(registry, given) };
     for (const field of fields) {
       const value: FlagValue | undefined = values[optionKey(FLAGS[field]!.flag)];
-      const read = FLAGS[field]!.read;
-      row[field] = value === undefined ? fallbackOf(kind, field) : read ? read(flagOf(field), String(value)) : value;
+      const read = value === undefined ? undefined : readAnswer(answerOf(FLAGS[field]!), value, { registry, values });
+      row[field] = read && 'value' in read ? read.value : fallbackOf(kind, field);
     }
     const named = String(row[target]);
     const slug = [named === '*' ? 'every-series' : rowSlug(named), row.day ?? row.firstDay].filter(Boolean).join('-');

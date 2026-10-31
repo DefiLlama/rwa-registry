@@ -5,7 +5,8 @@
 import { NoSuchRowError } from '../../errors/cli';
 import { homeFile, rowSlug } from '../../registry';
 import type { Registry } from '../../schema';
-import { defineAddCommand, fileContent, vocabularyChoices } from '../addCommand';
+import { defineAddCommand, fileContent } from '../addCommand';
+import { vocabulary } from '../answers/picks';
 
 // The file of an underlying: its slug in the folder of the class its asset group names, or null for a group with no class.
 const fileOf = (registry: Registry, exposure: unknown, slug: string) => {
@@ -32,7 +33,7 @@ export const addUnderlying = defineAddCommand({
       label: 'asset group',
       question: 'Which asset group is it, or for a stablecoin, what backs it?',
       required: true,
-      choices: vocabularyChoices('asset-group'),
+      answer: vocabulary('asset-group'),
     },
     {
       flag: '--ticker <text>',

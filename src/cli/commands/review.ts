@@ -3,6 +3,10 @@
  * @dev review: src/cli/eventCommand.ts
  */
 import { reviewFlagsOf } from '../../registry/reviewFlags';
+import { reviewOutcome } from '../../schema/enums';
+import { day } from '../answers/days';
+import { link } from '../answers/links';
+import { oneOf } from '../answers/picks';
 import { defineEventCommand, targetFields } from '../eventCommand';
 import { today } from '../writeCommand';
 
@@ -18,7 +22,7 @@ export const review = defineEventCommand({
       label: 'outcome',
       question: 'What did the review find?',
       required: true,
-      choices: () => ['suspicious', 'cleared'],
+      answer: oneOf(reviewOutcome.options),
     },
     {
       flag: '--reason <text>',
@@ -35,6 +39,7 @@ export const review = defineEventCommand({
       question: 'Which page or API answer did the review read?',
       example: 'https://etherscan.io/token/0x8ad3c73f833d3f9a523ab01476625f269aeb7cf0',
       required: true,
+      answer: link,
     },
     {
       flag: '--reviewer <handle>',
@@ -48,8 +53,7 @@ export const review = defineEventCommand({
       description: 'the day of the review, today by default',
       label: 'day',
       question: 'On which day was the review?',
-      hint: 'Enter for today',
-      date: true,
+      answer: day,
       fallback: () => today(),
     },
   ],

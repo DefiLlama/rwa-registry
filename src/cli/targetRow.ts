@@ -1,11 +1,12 @@
 /**
- * targetRow: the row, key and file a command names by kind and slug: an asset, a market (venue:symbol in any case), a venue or a platform.
+ * targetRow: the row, key and file a command names by kind and slug: an asset, a market (venue:symbol in any case), a venue or a platform; targetSlug is the answer that names one.
  * @dev review: src/cli/eventCommand.ts
  */
 import { FlagFormatError, NoSuchRowError } from '../errors/cli';
 import { fileOf, keyOf, marketId } from '../registry';
 import type { Registry, TableName } from '../schema';
 import { PLATFORM_KINDS } from '../schema/organization';
+import { accepted, refused, type AnswerType } from './answers/answerType';
 
 const TARGET_KINDS = {
   asset: 'asset',
@@ -54,3 +55,18 @@ export const targetRow = (registry: Registry, kind: string, slug: string): Targe
   if (!row || !file) throw new NoSuchRowError({ file: slug, message: `no ${kind} ${slug} in the registry` });
   return { table, key: keyOf(table, row), file, row: row as Record<string, unknown> };
 };
+
+// The slug of a target of the kind an earlier answer names, a market as venue:symbol in any case; no kind checks nothing.
+export const targetSlug = (kindOf: (values: Record<string, unknown>) => string | undefined): AnswerType => ({
+  shape: 'the slug of one, a market as venue:symbol',
+  choices: ({ registry, values }) => {
+    const kind = kindOf(values);
+    return kind ? targetSlugs(registry, kind) : undefined;
+  },
+  read: (typed, { registry, values }) => {
+    const kind = kindOf(values);
+    const slugs = kind ? targetSlugs(registry, kind) : [];
+    const key = kind === 'market' ? typed.toLowerCase() : typed;
+    return !slugs.length || slugs.includes(key) ? accepted(typed) : refused(`no ${kind} ${typed} in the registry`);
+  },
+});

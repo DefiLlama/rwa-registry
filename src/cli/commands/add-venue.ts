@@ -4,14 +4,9 @@
  */
 import { homeFile, rowSlug, rwaSlug } from '../../registry';
 import { isObject } from '../../utils/isObject';
-import {
-  defineAddCommand,
-  fileContent,
-  organizationChoices,
-  vocabularyChoices,
-  type FlagValues,
-  type Template,
-} from '../addCommand';
+import { defineAddCommand, fileContent, type FlagValues, type Template } from '../addCommand';
+import { chain, referenceOf, vocabulary } from '../answers/picks';
+import { slug } from '../answers/text';
 
 // The operator a new venue brings: the template's operator object, or the flags' name under the slug rwaSlug makes when no --organization names one.
 const operatorOf = (template: Template, flags: FlagValues): Template | null => {
@@ -39,6 +34,7 @@ export const addVenue = defineAddCommand({
       description: 'the venue folder, the slug of the name by default',
       label: 'slug',
       question: 'Which slug names the venue folder?',
+      answer: slug,
       derive: (values) =>
         values.name === undefined ? undefined : { value: rowSlug(String(values.name)), why: 'the slug of the name' },
     },
@@ -47,8 +43,8 @@ export const addVenue = defineAddCommand({
       description: 'the organization that runs it, which must exist; left out, rwaSlug of the name, added when new',
       label: 'operator',
       question: 'Which organization runs the venue?',
-      hint: 'Enter to add a new one under the venue name',
-      choices: organizationChoices,
+      whenEmpty: 'Leave it empty to add a new one under the venue name.',
+      answer: referenceOf('venue', 'organization'),
     },
     {
       flag: '--venue-type <slug>',
@@ -56,7 +52,7 @@ export const addVenue = defineAddCommand({
       label: 'venue type',
       question: 'Is the venue a centralized or a decentralized exchange?',
       required: true,
-      choices: vocabularyChoices('venue-type'),
+      answer: vocabulary('venue-type'),
     },
     {
       flag: '--access-model <slug>',
@@ -64,7 +60,7 @@ export const addVenue = defineAddCommand({
       label: 'access model',
       question: 'Who can trade on the venue?',
       required: true,
-      choices: vocabularyChoices('access-model'),
+      answer: vocabulary('access-model'),
     },
     {
       flag: '--rwa-classification <slug>',
@@ -72,23 +68,21 @@ export const addVenue = defineAddCommand({
       label: 'RWA classification',
       question: 'Which RWA classification does the venue fall under?',
       required: true,
-      choices: vocabularyChoices('rwa-classification'),
+      answer: vocabulary('rwa-classification'),
     },
     {
       flag: '--parent <slug>',
       description: 'the parent venue, for a HIP-3 dex',
       label: 'parent venue',
       question: 'Which venue is it part of, for a HIP-3 dex?',
-      choices: (registry) => registry.venue.map((row) => row.slug).sort(),
+      answer: referenceOf('venue', 'parent'),
     },
     {
       flag: '--chain <slug>',
       description: 'the chain it settles on',
       label: 'settlement chain',
       question: 'Which chain does the venue settle on?',
-      example: 'arbitrum',
-      open: true,
-      choices: (registry) => [...new Set(registry.deployment.map((row) => row.chain))].sort(),
+      answer: chain,
     },
     {
       flag: '--adapter <id>',

@@ -58,7 +58,7 @@ describe('add organization, asked', () => {
       'headquarters',
       'founders',
       'regulatoryStatus',
-      'keyMilestones',
+      'keyMilestones.when',
       'entityStructureNotes',
       'identifiers',
       'confirm',

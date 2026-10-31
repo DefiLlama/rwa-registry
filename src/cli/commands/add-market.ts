@@ -7,17 +7,15 @@ import type { Env } from '../../discover/discoverConfig';
 import { discoverReads, type DiscoverReads } from '../../discover/discoverReads';
 import { whyOf, type DateResult } from '../../discover/dateResult';
 import { listingEvent } from '../../discover/listings';
-import { FlagFormatError } from '../../errors/cli';
 import { marketFile, marketId } from '../../registry';
 import type { Registry } from '../../schema';
-import { defineAddCommand, fileContent, organizationChoices, vocabularyChoices, type AddContext } from '../addCommand';
+import { defineAddCommand, fileContent, type AddContext } from '../addCommand';
+import { dayOrUnknown, UNKNOWN as UNDATED } from '../answers/days';
+import { referenceOf, vocabulary } from '../answers/picks';
 import type { DeriveContext, FlagValues } from '../questionnaire';
 import type { WriteContext } from '../writeCommand';
 
 type Deps = { env?: Env; reads?: (log: (line: string) => void) => DiscoverReads };
-
-// The day "unknown" is a market with no listing event on purpose, which the venue is not asked about.
-const UNDATED = 'unknown';
 
 const LISTING = 'listing';
 
@@ -58,9 +56,6 @@ const listingEventOf = async (
   }
   if (listed !== undefined) {
     const day = String(listed);
-    if (!/^\d{4}-\d{2}-\d{2}$/.test(day)) {
-      throw new FlagFormatError({ file: 'add market', message: `--listed ${day} is not YYYY-MM-DD or ${UNDATED}` });
-    }
     const kept = context.memo.get(LISTING) as DateResult | undefined;
     return kept?.date === day ? listingEvent(kept) : { kind: 'listing', date: day };
   }
@@ -86,9 +81,6 @@ const symbolOf = (values: FlagValues, { registry }: DeriveContext) => {
   return tracked ? { value: tracked } : undefined;
 };
 
-const byName = <T extends { slug: string; name?: string | null }>(rows: T[]) =>
-  rows.map((row) => ({ value: row.slug, name: row.name ?? row.slug })).sort((a, b) => a.name.localeCompare(b.name));
-
 export const createAddMarketCommand = (deps: Deps = {}) =>
   defineAddCommand({
     name: 'add market',
@@ -101,7 +93,7 @@ export const createAddMarketCommand = (deps: Deps = {}) =>
         label: 'venue',
         question: 'Which venue lists the market?',
         required: true,
-        choices: (registry) => registry.venue.map((row) => row.slug).sort(),
+        answer: referenceOf('perp_market', 'venue'),
       },
       {
         flag: '--tracks-asset <slug>',
@@ -109,7 +101,7 @@ export const createAddMarketCommand = (deps: Deps = {}) =>
         label: 'tracked token',
         question: 'Which token does the market track, when it tracks one?',
         lead: true,
-        choices: (registry) => byName(registry.asset),
+        answer: referenceOf('perp_market', 'tracksAsset'),
       },
       {
         flag: '--tracks <slug>',
@@ -117,7 +109,7 @@ export const createAddMarketCommand = (deps: Deps = {}) =>
         label: 'tracked underlying',
         question: 'Which real-world asset does the market track?',
         required: (values) => values.tracksAsset === undefined,
-        choices: (registry) => byName(registry.underlying),
+        answer: referenceOf('perp_market', 'tracks'),
       },
       {
         flag: '--symbol <text>',
@@ -134,7 +126,7 @@ export const createAddMarketCommand = (deps: Deps = {}) =>
         label: 'asset class',
         question: 'Which asset class is the market, by how it gives its exposure?',
         required: true,
-        choices: vocabularyChoices('asset-class'),
+        answer: vocabulary('asset-class'),
       },
       {
         flag: '--pair <text>',
@@ -148,19 +140,14 @@ export const createAddMarketCommand = (deps: Deps = {}) =>
         description: 'the asset it margins and settles in, or the fx underlying of its fiat currency, us-dollar',
         label: 'collateral',
         question: 'Which asset or currency does the market margin and settle in?',
-        example: 'us-dollar',
-        open: true,
-        choices: (registry) => [
-          ...byName(registry.asset),
-          ...byName(registry.underlying.filter((row) => row.class === 'fx')),
-        ],
+        answer: referenceOf('perp_market', 'collateral'),
       },
       {
         flag: '--oracle <slug>',
         description: "the organization that prices it where it differs from the venue's oracle roles, pyth-network",
         label: 'oracle',
         question: "Which organization prices it, when not the venue's usual oracle?",
-        choices: organizationChoices,
+        answer: referenceOf('role', 'organization'),
         row: 'roles',
       },
       {
@@ -169,7 +156,7 @@ export const createAddMarketCommand = (deps: Deps = {}) =>
         label: 'listing day',
         question: 'On which day did the venue list the market?',
         example: `2025-06-30, or ${UNDATED}`,
-        date: true,
+        answer: dayOrUnknown,
         derive: listedOf(deps),
         row: 'events',
       },

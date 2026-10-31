@@ -6,9 +6,12 @@ import { join } from 'node:path';
 import { FlagFormatError, RowStateError } from '../errors/cli';
 import { targetKey } from '../registry/keys';
 import { FLAG_EVENT_KINDS } from '../registry/reviewFlags';
+import { day } from './answers/days';
+import { link } from './answers/links';
+import { oneOf } from './answers/picks';
 import type { Registry, Row } from '../schema';
 import type { CliCommand } from './index';
-import { TARGETS, targetRow, targetSlugs, type TargetRow } from './targetRow';
+import { TARGETS, targetRow, targetSlug, type TargetRow } from './targetRow';
 import { defineWriteCommand, today, type Field, type FlagValues } from './writeCommand';
 
 type Event = Row<'event'>;
@@ -34,7 +37,7 @@ export const targetFields = (name: string): Field[] => [
     label: 'kind',
     question: `What do you want to ${name}?`,
     required: true,
-    choices: () => TARGETS,
+    answer: oneOf(TARGETS),
   },
   {
     flag: '<slug>',
@@ -43,7 +46,7 @@ export const targetFields = (name: string): Field[] => [
     question: (values) => `Which ${String(values.target)} do you want to ${name}?`,
     example: 'xyz:tsla',
     required: true,
-    choices: (registry, values) => targetSlugs(registry, String(values.target)),
+    answer: targetSlug((values) => String(values.target)),
   },
 ];
 
@@ -55,7 +58,7 @@ const fieldsOf = (name: string): Field[] => [
     label: 'day',
     question: 'On which day did it happen?',
     required: true,
-    date: true,
+    answer: day,
     derive: () => ({ value: today(), why: 'today' }),
   },
   {
@@ -73,6 +76,7 @@ const fieldsOf = (name: string): Field[] => [
     question: 'Which page or API answer shows it?',
     example: 'https://status.example.com/incidents/1',
     required: true,
+    answer: link,
   },
 ];
 

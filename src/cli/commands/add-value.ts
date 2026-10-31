@@ -5,6 +5,8 @@
 import { homeFile, rwaSlug } from '../../registry';
 import { VOCABULARY_NAMES } from '../../schema';
 import { defineAddCommand, fileContent } from '../addCommand';
+import { oneOf } from '../answers/picks';
+import { slug, suggested } from '../answers/text';
 
 export const addValue = defineAddCommand({
   name: 'add value',
@@ -17,7 +19,7 @@ export const addValue = defineAddCommand({
       label: 'list',
       question: 'Which list of values does it go in?',
       required: true,
-      choices: () => [...VOCABULARY_NAMES],
+      answer: oneOf(VOCABULARY_NAMES),
     },
     {
       flag: '--label <text>',
@@ -32,6 +34,7 @@ export const addValue = defineAddCommand({
       description: 'the slug, rwaSlug of the label by default',
       label: 'slug',
       question: 'Which slug do the registry files use for it?',
+      answer: slug,
       derive: (values) =>
         values.label === undefined ? undefined : { value: rwaSlug(String(values.label)), why: 'the slug of the label' },
     },
@@ -41,6 +44,7 @@ export const addValue = defineAddCommand({
       label: 'underlying class',
       question: 'Which underlying class folder holds this asset group?',
       example: 'equity',
+      answer: suggested('vocabulary', ['class']),
       askedOnly: true,
       asked: (values) => values.vocabulary === 'asset-group',
     },

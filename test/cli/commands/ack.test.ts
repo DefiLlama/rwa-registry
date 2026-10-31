@@ -173,8 +173,9 @@ describe('ack, asked', () => {
     expect(code).toBe(0);
     expect(prompter.keys()).toEqual(['target', 'reason', 'resolve', 'firstDay', 'lastDay', 'confirm']);
     expect(prompter.asked[0]).toMatchObject({
-      choices: [],
-      message: 'What does the ack cover? (example: chain/ethereum, or * for every series)',
+      choices: undefined,
+      message: 'What does the ack cover? *',
+      lines: ['Example: chain/ethereum, or * for every series'],
     });
     expect(existsSync(join(root, '../acks/drift/chain-ethereum-2026-10-01.json'))).toBe(true);
   });

@@ -94,6 +94,18 @@ const withIdentity = (fields: Record<string, unknown>) =>
   templateCopy('asset', (filled) => ({ ...filled, identity: { ...filled.identity, ...fields } }));
 
 describe('add asset', () => {
+  it('refuses an EVM address on Solana before any chain is read', async () => {
+    const root = writeTree(tree());
+    const dates = vi.fn();
+    const command = createAddAssetCommand({ reads: () => ({ dates, listings: vi.fn() }) });
+
+    const { code, lines } = await runWith(command, root, [`solana:${ETHEREUM}`]);
+
+    expect(code).toBe(1);
+    expect(lines).toEqual([`add asset: --deployment solana:${ETHEREUM}: not a token address for solana`]);
+    expect(dates).not.toHaveBeenCalled();
+  });
+
   it('writes the asset file with the next legacy id above the export, its dated deployments and the defaults', async () => {
     const root = writeTree(tree());
 
@@ -394,7 +406,7 @@ describe('add asset, asked', () => {
     });
   });
 
-  it('asks the categories, and asks again with a hint when the answer is empty, instead of refusing at the end', async () => {
+  it('asks the categories, and asks again with the reason when the answer is empty, instead of refusing at the end', async () => {
     const root = writeTree(tree());
     const prompter = fakeAsk({ category: each([], ['stocks-equities']) });
     const flags = {
@@ -417,7 +429,7 @@ describe('add asset, asked', () => {
 
     expect(asked).toHaveLength(2);
     expect(asked[0]!.message).toMatch(/^Which categories/);
-    expect(asked[1]!.message).toContain('required');
+    expect(asked[1]!.refused).toBe('required: pick at least one');
     expect(code).toBe(0);
     expect(readJson(root, 'assets/xstocks/nvdax.json').class.category).toEqual(['stocks-equities']);
   });
@@ -445,13 +457,18 @@ describe('add asset, asked', () => {
     const file = readJson(root, 'assets/xstocks/nvdax.json');
 
     expect(code).toBe(0);
-    expect(question('transferable').message).toBe('Can the token move between wallets? (yes or no, default yes)');
-    expect(question('stablecoinOverride').message).toBe(
-      'Override the stablecoin flag? (Enter to leave it derived; yes or no to force it)',
-    );
-    expect(question('coingeckoId').message).toBe(
-      'What is its CoinGecko id? (example: tesla-xstock; Enter to leave empty)',
-    );
+    expect(question('transferable')).toMatchObject({
+      message: 'Can the token move between wallets?',
+      lines: ['Yes or no; Enter takes yes.'],
+    });
+    expect(question('stablecoinOverride')).toMatchObject({
+      message: 'Override the stablecoin flag?',
+      lines: ['Yes or no.', 'Leave it empty to keep the derived flag.'],
+    });
+    expect(question('coingeckoId')).toMatchObject({
+      message: 'What is its CoinGecko id?',
+      lines: ['Example: tesla-xstock'],
+    });
     expect(prompter.keys()).not.toContain('flagReason');
     expect(file.terms).toMatchObject({ transferable: true, cexListed: false, yieldBearing: false });
     expect(file.class.stablecoinOverride).toBeUndefined();

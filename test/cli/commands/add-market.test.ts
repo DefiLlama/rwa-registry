@@ -27,6 +27,16 @@ const add = async (listing: DateResult, flags = {}) => {
 };
 
 describe('add market', () => {
+  it('refuses a listing day the calendar does not have before the venue is read', async () => {
+    const { code, lines, listings } = await add(found(1, null, 'x', 'listing-field'), { listed: '2026-13-01' });
+
+    expect(code).toBe(1);
+    expect(lines).toEqual([
+      'add market: --listed 2026-13-01: not a day; a day is YYYY-MM-DD, as 2025-06-30, or unknown',
+    ]);
+    expect(listings).not.toHaveBeenCalled();
+  });
+
   it('writes perps/<venue>/<lowercase symbol>.json with no legacy id, and no event under --no-discover, noted', async () => {
     const { code, file, lines, listings } = await add(found(1, null, 'x', 'listing-field'), { discover: false });
 

@@ -143,7 +143,7 @@ describe('merge', () => {
     const { code, lines } = await runCli(['merge', 'asset', 'tslax', 'wtslax', '--registry', root, ...why]);
 
     expect(code).toBe(1);
-    expect(lines.join('\n')).toMatch(/merges organization or underlying/);
+    expect(lines).toEqual(['merge: asset: not organization or underlying']);
   });
 });
 

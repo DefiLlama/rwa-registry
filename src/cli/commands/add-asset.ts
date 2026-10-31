@@ -8,7 +8,15 @@ import { discoverReads, type DiscoverReads } from '../../discover/discoverReads'
 import { FlagFormatError, MissingFieldError, NoSuchRowError } from '../../errors/cli';
 import { familyOf, homeFile, nextAssetKeys } from '../../registry';
 import { fieldPath, type Registry } from '../../schema';
-import { defineAddCommand, fileContent, organizationChoices, vocabularyChoices, type FlagValues } from '../addCommand';
+import { defineAddCommand, fileContent, type FlagValues } from '../addCommand';
+import { address } from '../answers/address';
+import { many } from '../answers/answerType';
+import { dayOrUnknown, UNKNOWN as UNDATED } from '../answers/days';
+import { coingeckoId } from '../answers/ids';
+import { link } from '../answers/links';
+import { chain, platform, referenceOf, vocabulary, yesNo } from '../answers/picks';
+import { suggested } from '../answers/text';
+import { pickedFrom } from '../fieldQuestions';
 import { commaList } from '../commaList';
 import { parseFieldValue } from '../fieldValue';
 import { isEmpty, type Derive, type Field } from '../questionnaire';
@@ -18,17 +26,26 @@ const FILE = 'add asset';
 
 type Deployment = Record<string, unknown> & { chain: string; address?: string | null; deployedAt?: string | null };
 
-// The day "unknown" is a deployment left undated on purpose, which discover is not asked about.
-const UNDATED = 'unknown';
+const DEPLOYMENT_SHAPE = `<chain>:<address>[:<YYYY-MM-DD>|:${UNDATED}]`;
 
-const deploymentOf = (item: string): Deployment => {
+// A deployment item as its leg: the chain, the address, and the day when given; null when it has no address.
+const legOf = (item: string): FlagValues | null => {
   const match = /^([^:]+):(.+?)(?::(\d{4}-\d{2}-\d{2}|unknown))?$/.exec(item);
-  if (!match) {
-    const message = `--deployment ${item} is not <chain>:<address>[:<YYYY-MM-DD>|:${UNDATED}]`;
-    throw new FlagFormatError({ file: FILE, message });
-  }
-  const [, chain, address, deployedAt] = match;
-  return { chain: chain!, address: address!, deployedAt: deployedAt === UNDATED ? null : (deployedAt ?? null) };
+  if (!match) return null;
+  const [, chainKey, token, deployedAt] = match;
+  return { chain: chainKey, address: token, deployedAt };
+};
+
+// The day "unknown" is a deployment left undated on purpose, which discover is not asked about.
+const deploymentOf = (item: string): Deployment => {
+  const leg = legOf(item);
+  if (!leg) throw new FlagFormatError({ file: FILE, message: `--deployment ${item} is not ${DEPLOYMENT_SHAPE}` });
+  const deployedAt = leg.deployedAt as string | undefined;
+  return {
+    chain: String(leg.chain),
+    address: String(leg.address),
+    deployedAt: deployedAt === UNDATED ? null : (deployedAt ?? null),
+  };
 };
 
 const inKeyForm = (deployment: Deployment): Deployment => {
@@ -149,18 +166,7 @@ const deployedAtOf =
     return { value: result.date, why: `${result.date} from ${result.source}, ${result.basis}` };
   };
 
-const platformChoices = (registry: Registry) =>
-  registry.organization
-    .filter((row) => row.kind === 'platform')
-    .map((row) => ({ value: row.slug, name: row.name }))
-    .sort((a, b) => a.name.localeCompare(b.name));
-
-const underlyingChoices = (registry: Registry) =>
-  registry.underlying.map((row) => ({ value: row.slug, name: row.name })).sort((a, b) => a.name.localeCompare(b.name));
-
-const chainChoices = (registry: Registry) => [...new Set(registry.deployment.map((row) => row.chain))].sort();
-
-const chainsOf = (values: FlagValues) => commaList(values.deployment).map((item) => item.split(':')[0]!);
+const chainsOf = (values: Record<string, unknown>) => commaList(values.deployment).map((item) => item.split(':')[0]!);
 
 // The terms, each asked yes or no, Enter taking what most assets in the registry hold (cex-listed: no, as only a yes is ever recorded).
 const TERMS: Field[] = (
@@ -214,7 +220,8 @@ const TERMS: Field[] = (
   description: `${description}: true or false`,
   label,
   question,
-  default: fallback,
+  answer: yesNo,
+  derive: () => ({ value: fallback }),
 }));
 
 // An override is asked only as a yes or no that forces the published flag; Enter leaves the derived one.
@@ -223,7 +230,8 @@ const override = (flag: string, name: string): Field => ({
   description: `the published ${name} flag where the derived one is wrong: true or false`,
   label: `${name} flag override`,
   question: `Override the ${name} flag?`,
-  hint: 'Enter to leave it derived; yes or no to force it',
+  answer: yesNo,
+  whenEmpty: 'Leave it empty to keep the derived flag.',
 });
 
 const termsOf = (values: FlagValues) =>
@@ -248,7 +256,7 @@ export const createAddAssetCommand = (deps: Deps = {}) =>
         label: 'platform',
         question: 'Which platform is the token part of?',
         required: true,
-        choices: platformChoices,
+        answer: platform,
       },
       {
         flag: '--underlying <slug>',
@@ -256,7 +264,7 @@ export const createAddAssetCommand = (deps: Deps = {}) =>
         label: 'underlying',
         question: 'Which real-world asset does the token track?',
         required: true,
-        choices: underlyingChoices,
+        answer: referenceOf('asset', 'underlying'),
       },
       {
         flag: '--symbol <text>',
@@ -276,10 +284,9 @@ export const createAddAssetCommand = (deps: Deps = {}) =>
       },
       {
         flag: '--deployment <items...>',
-        description: `one <chain>:<address>[:<YYYY-MM-DD>|:${UNDATED}] per deployment; a missing date is asked of the chain`,
+        description: `one ${DEPLOYMENT_SHAPE} per deployment; a missing date is asked of the chain`,
         label: 'deployments',
         required: true,
-        list: true,
         row: 'deployments',
         legs: {
           fields: [
@@ -287,28 +294,30 @@ export const createAddAssetCommand = (deps: Deps = {}) =>
               key: 'chain',
               description: 'the chain, as the sdk names it',
               question: 'Which chain is the token deployed on?',
-              example: 'ethereum',
               required: true,
-              open: true,
-              choices: chainChoices,
+              answer: chain,
             },
             {
               key: 'address',
               description: 'the contract or mint address',
               question: 'What is the token address on that chain?',
-              example: '0x8ad3c73f833d3f9a523ab01476625f269aeb7cf0',
+              example:
+                '0x8ad3c73f833d3f9a523ab01476625f269aeb7cf0 on ethereum, XsDoVfqeBukxuZHWhdvWHBhgEHjGNst4MLodqsJHzoB on solana',
               required: true,
+              answer: address,
             },
             {
               key: 'deployedAt',
               description: 'the day it was deployed, YYYY-MM-DD, or unknown',
               question: 'On which day was the token contract deployed?',
               example: '2025-06-30, or unknown',
-              date: true,
+              answer: dayOrUnknown,
               derive: deployedAtOf(deps),
             },
           ],
           item: (leg) => [leg.chain, leg.address, leg.deployedAt ?? UNDATED].join(':'),
+          split: legOf,
+          shape: DEPLOYMENT_SHAPE,
           more: 'Add another deployment?',
         },
       },
@@ -318,8 +327,7 @@ export const createAddAssetCommand = (deps: Deps = {}) =>
         label: 'categories',
         question: 'Which categories is the token listed under on the site?',
         required: true,
-        list: true,
-        choices: vocabularyChoices('category'),
+        answer: many(vocabulary('category')),
       },
       {
         flag: '--type <slug>',
@@ -327,7 +335,7 @@ export const createAddAssetCommand = (deps: Deps = {}) =>
         label: 'type',
         question: 'Is the token an asset itself or a wrapper of another token?',
         required: true,
-        choices: vocabularyChoices('type'),
+        answer: vocabulary('type'),
       },
       {
         flag: '--structure <slug>',
@@ -335,7 +343,7 @@ export const createAddAssetCommand = (deps: Deps = {}) =>
         label: 'asset class',
         question: 'Which asset class is the token, by how it holds its exposure?',
         required: true,
-        choices: vocabularyChoices('asset-class'),
+        answer: vocabulary('asset-class'),
       },
       {
         flag: '--rwa-classification <slug>',
@@ -343,7 +351,7 @@ export const createAddAssetCommand = (deps: Deps = {}) =>
         label: 'RWA classification',
         question: 'Which RWA classification does the token fall under?',
         required: true,
-        choices: vocabularyChoices('rwa-classification'),
+        answer: vocabulary('rwa-classification'),
       },
       ...TERMS,
       {
@@ -351,7 +359,8 @@ export const createAddAssetCommand = (deps: Deps = {}) =>
         description: 'how often its backing is attested, monthly',
         label: 'attestation frequency',
         question: 'How often is the backing attested?',
-        example: 'monthly',
+        example: 'Monthly',
+        answer: suggested('asset', ['attestationFrequency']),
       },
       override('stablecoin', 'stablecoin'),
       override('governance', 'governance'),
@@ -369,7 +378,7 @@ export const createAddAssetCommand = (deps: Deps = {}) =>
         label: 'issuer',
         question: 'Which organization issues the token?',
         required: true,
-        choices: organizationChoices,
+        answer: referenceOf('role', 'organization'),
         row: ROLE,
       },
       {
@@ -378,6 +387,7 @@ export const createAddAssetCommand = (deps: Deps = {}) =>
         label: 'issuer source',
         question: 'Which page names the issuer?',
         example: 'https://assets.backed.fi/legal-documentation',
+        answer: link,
         row: ROLE,
       },
       {
@@ -385,7 +395,7 @@ export const createAddAssetCommand = (deps: Deps = {}) =>
         description: 'the organization that tokenized it for the issuer',
         label: 'tokenizer',
         question: 'Which organization tokenized it for the issuer?',
-        choices: organizationChoices,
+        answer: referenceOf('role', 'organization'),
         row: ROLE,
       },
       {
@@ -393,7 +403,7 @@ export const createAddAssetCommand = (deps: Deps = {}) =>
         description: 'the organization that prices it, chainlink',
         label: 'oracle',
         question: 'Which organization provides its price feed?',
-        choices: organizationChoices,
+        answer: referenceOf('role', 'organization'),
         row: ROLE,
       },
       {
@@ -401,7 +411,7 @@ export const createAddAssetCommand = (deps: Deps = {}) =>
         description: 'the organization that attests its backing, the-network-firm',
         label: 'auditor',
         question: 'Which organization attests its backing?',
-        choices: organizationChoices,
+        answer: referenceOf('role', 'organization'),
         row: ROLE,
       },
       {
@@ -409,7 +419,6 @@ export const createAddAssetCommand = (deps: Deps = {}) =>
         description: 'another role an organization holds, as <kind>:<organization>',
         label: 'other roles',
         askedOnly: true,
-        list: true,
         row: ROLE,
         legs: {
           fields: [
@@ -417,20 +426,22 @@ export const createAddAssetCommand = (deps: Deps = {}) =>
               key: 'kind',
               description: 'the role kind',
               question: 'Which other role does an organization hold for the token, such as its custodian?',
-              choices: (registry) =>
-                vocabularyChoices('role-kind')(registry).filter(
-                  ({ value }) => !(ROLE_KINDS as readonly string[]).includes(value),
-                ),
+              answer: vocabulary('role-kind', (kind) => !(ROLE_KINDS as readonly string[]).includes(kind)),
             },
             {
               key: 'organization',
               description: 'the organization in that role',
               question: 'Which organization holds that role?',
               required: true,
-              choices: organizationChoices,
+              answer: referenceOf('role', 'organization'),
             },
           ],
           item: (leg) => `${String(leg.kind)}:${String(leg.organization)}`,
+          split: (item) => {
+            const [kind, organization] = item.split(':');
+            return organization === undefined ? null : { kind, organization };
+          },
+          shape: '<kind>:<organization>',
           more: 'Add another role?',
         },
       },
@@ -440,6 +451,7 @@ export const createAddAssetCommand = (deps: Deps = {}) =>
         label: 'CoinGecko id',
         question: 'What is its CoinGecko id?',
         example: 'tesla-xstock',
+        answer: coingeckoId,
       },
       {
         flag: '--canonical-market-id <text>',
@@ -454,12 +466,7 @@ export const createAddAssetCommand = (deps: Deps = {}) =>
         label: 'primary chain',
         question: 'Which chain holds the primary deployment?',
         row: 'deployments',
-        choices: (registry) => chainChoices(registry),
-        derive: (values) => {
-          const [first] = chainsOf(values);
-          return first === undefined ? undefined : { value: first };
-        },
-        asked: (values) => chainsOf(values).length > 1,
+        ...pickedFrom(chainsOf),
       },
       {
         flag: '--no-discover',
